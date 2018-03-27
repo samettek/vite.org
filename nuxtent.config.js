@@ -25,7 +25,7 @@ module.exports = {
   }),
   api: function (isStatic) {
     return {
-      browserBaseURL: isStatic ? 'http://69.171.64.178:5000' : '',
+      browserBaseURL: isStatic ? 'http://vite.org' : '',
       baseURL: 'http://localhost:3000'
     }
   },
