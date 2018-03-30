@@ -1,5 +1,10 @@
 {
   "lang": "English",
+  "head": {
+    "title": "Vite: A fast, feeless, decentralized transaction ledger",
+    "document": "Document",
+    "homeDesc": "Vite: A fast, feeless, decentralized transaction ledger"
+  },
   "nav": {
     "feature": "Feature",
     "tech": "Tech",
@@ -16,8 +21,5 @@
         "description": "Fast"
       }
     }
-  },
-  "wiki": {
-    "searchInputPlaceholder": "Search"
   }
 }

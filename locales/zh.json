@@ -1,5 +1,10 @@
 {
   "lang": "中文",
+  "head": {
+    "title": "Vite: 一个快速无手续费的分布式交易账本",
+    "document": "文档",
+    "homeDesc": "Vite: 一个快速无手续费的分布式交易账本"
+  },
   "nav": {
     "feature": "特性",
     "tech": "技术",
@@ -155,8 +160,5 @@
         "answer": "TODO"
       }
     ]
-  },
-  "wiki": {
-    "searchInputPlaceholder": "搜索"
   }
 }

@@ -107,6 +107,12 @@
     chalk "^2.3.2"
     debug "^3.1.0"
 
+"@nuxtjs/google-analytics@^2.0.2":
+  version "2.0.2"
+  resolved "http://registry.npm.taobao.org/@nuxtjs/google-analytics/download/@nuxtjs/google-analytics-2.0.2.tgz#75353143628fd7697b41eb5aa7da38a513394eca"
+  dependencies:
+    vue-analytics "^5.4.0"
+
 "@nuxtjs/icon@^2.0.2":
   version "2.0.2"
   resolved "http://registry.npm.taobao.org/@nuxtjs/icon/download/@nuxtjs/icon-2.0.2.tgz#a560ea96644e575c2a51ae320aa31af025c4e2ad"
@@ -2020,10 +2026,6 @@ dashdash@^1.12.0:
   dependencies:
     assert-plus "^1.0.0"
 
-date-fns@^1.28.5:
-  version "1.29.0"
-  resolved "http://registry.npm.taobao.org/date-fns/download/date-fns-1.29.0.tgz#12e609cdcb935127311d04d33334e2960a2a54e6"
-
 date-now@^0.1.4:
   version "0.1.4"
   resolved "http://registry.npm.taobao.org/date-now/download/date-now-0.1.4.tgz#eaf439fd4d4848ad74e5cc7dbef200672b9e345b"
@@ -2928,12 +2930,6 @@ from2@^2.1.0:
   dependencies:
     inherits "^2.0.1"
     readable-stream "^2.0.0"
-
-front-matter@^2.3.0:
-  version "2.3.0"
-  resolved "http://registry.npm.taobao.org/front-matter/download/front-matter-2.3.0.tgz#7203af896ce357ee04e2aa45169ea91ed7f67504"
-  dependencies:
-    js-yaml "^3.10.0"
 
 fs-extra@^3.0.1:
   version "3.0.1"
@@ -3859,13 +3855,6 @@ js-tokens@^3.0.0, js-tokens@^3.0.2:
   version "3.0.2"
   resolved "http://registry.npm.taobao.org/js-tokens/download/js-tokens-3.0.2.tgz#9866df395102130e38f7f996bceb65443209c25b"
 
-js-yaml@^3.10.0:
-  version "3.11.0"
-  resolved "http://registry.npm.taobao.org/js-yaml/download/js-yaml-3.11.0.tgz#597c1a8bd57152f26d622ce4117851a51f5ebaef"
-  dependencies:
-    argparse "^1.0.7"
-    esprima "^4.0.0"
-
 js-yaml@^3.4.3, js-yaml@^3.9.1:
   version "3.10.0"
   resolved "http://registry.npm.taobao.org/js-yaml/download/js-yaml-3.10.0.tgz#2e78441646bd4682e963f22b6e92823c309c62dc"
@@ -4010,12 +3999,6 @@ levn@^0.3.0, levn@~0.3.0:
   dependencies:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
-
-linkify-it@^2.0.0:
-  version "2.0.3"
-  resolved "http://registry.npm.taobao.org/linkify-it/download/linkify-it-2.0.3.tgz#d94a4648f9b1c179d64fa97291268bdb6ce9434f"
-  dependencies:
-    uc.micro "^1.0.1"
 
 load-bmfont@^1.2.3:
   version "1.3.0"
@@ -4198,12 +4181,6 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-markdown-it-anchor@^4.0.0:
-  version "4.0.0"
-  resolved "http://registry.npm.taobao.org/markdown-it-anchor/download/markdown-it-anchor-4.0.0.tgz#e87fb5543e01965adf71506c6bf7b0491841b7e3"
-  dependencies:
-    string "^3.3.3"
-
 markdown-it-emoji@^1.4.0:
   version "1.4.0"
   resolved "http://registry.npm.taobao.org/markdown-it-emoji/download/markdown-it-emoji-1.4.0.tgz#9bee0e9a990a963ba96df6980c4fddb05dfb4dcc"
@@ -4220,16 +4197,6 @@ markdown-it-mathjax@^2.0.0:
   version "2.0.0"
   resolved "http://registry.npm.taobao.org/markdown-it-mathjax/download/markdown-it-mathjax-2.0.0.tgz#ae2b4f4c5c719a03f9e475c664f7b2685231d9e9"
 
-markdown-it@^8.4.0:
-  version "8.4.1"
-  resolved "http://registry.npm.taobao.org/markdown-it/download/markdown-it-8.4.1.tgz#206fe59b0e4e1b78a7c73250af9b34a4ad0aaf44"
-  dependencies:
-    argparse "^1.0.7"
-    entities "~1.1.1"
-    linkify-it "^2.0.0"
-    mdurl "^1.0.1"
-    uc.micro "^1.0.5"
-
 math-expression-evaluator@^1.2.14:
   version "1.2.17"
   resolved "http://registry.npm.taobao.org/math-expression-evaluator/download/math-expression-evaluator-1.2.17.tgz#de819fdbcd84dccd8fae59c6aeb79615b9d266ac"
@@ -4244,10 +4211,6 @@ md5.js@^1.3.4:
 mdi@^2.0.46:
   version "2.1.19"
   resolved "http://registry.npm.taobao.org/mdi/download/mdi-2.1.19.tgz#492bfc0c4fd0c510ebd55301cc76eb03a7a2f34b"
-
-mdurl@^1.0.1:
-  version "1.0.1"
-  resolved "http://registry.npm.taobao.org/mdurl/download/mdurl-1.0.1.tgz#fe85b2ec75a59037f2adfec100fd6c601761152e"
 
 media-typer@0.3.0:
   version "0.3.0"
@@ -4590,10 +4553,6 @@ node-sass@^4.7.2:
     stdout-stream "^1.4.0"
     "true-case-path" "^1.0.2"
 
-node-watch@^0.5.8:
-  version "0.5.8"
-  resolved "http://registry.npm.taobao.org/node-watch/download/node-watch-0.5.8.tgz#208d10f93afe2f24b3701c254f54c7552f90c905"
-
 "nopt@2 || 3":
   version "3.0.6"
   resolved "http://registry.npm.taobao.org/nopt/download/nopt-3.0.6.tgz#c6465dbf08abcd4db359317f79ac68a646b28ff9"
@@ -4664,6 +4623,14 @@ number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "http://registry.npm.taobao.org/number-is-nan/download/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
 
+nuxt-i18n@^2.9.1:
+  version "2.9.1"
+  resolved "http://registry.npm.taobao.org/nuxt-i18n/download/nuxt-i18n-2.9.1.tgz#aa67f86363f6544d60a5ff97fdb2b0e893ba17a7"
+  dependencies:
+    cookie "^0.3.1"
+    vue-i18n "^7.5.0"
+    vue-i18n-extensions "^0.1.0"
+
 nuxt@^1.4.0:
   version "1.4.0"
   resolved "http://registry.npm.taobao.org/nuxt/download/nuxt-1.4.0.tgz#66df9ede68daf2ef4cfbcc329da7dda0003e0420"
@@ -4730,21 +4697,6 @@ nuxt@^1.4.0:
     webpack-dev-middleware "^2.0.5"
     webpack-hot-middleware "^2.21.0"
     webpack-node-externals "^1.6.0"
-
-nuxtent@^1.4.1:
-  version "1.4.1"
-  resolved "http://registry.npm.taobao.org/nuxtent/download/nuxtent-1.4.1.tgz#d3756d9eeecb1cda6f874117b08a20b2c049be87"
-  dependencies:
-    chalk "^2.3.0"
-    date-fns "^1.28.5"
-    front-matter "^2.3.0"
-    js-yaml "^3.10.0"
-    loader-utils "^1.1.0"
-    markdown-it "^8.4.0"
-    markdown-it-anchor "^4.0.0"
-    param-case "^2.1.1"
-    path-to-regexp "^2.0.0"
-    uppercamelcase "^3.0.0"
 
 oauth-sign@~0.8.1, oauth-sign@~0.8.2:
   version "0.8.2"
@@ -4922,7 +4874,7 @@ parallel-transform@^1.1.0:
     inherits "^2.0.3"
     readable-stream "^2.1.5"
 
-param-case@2.1.x, param-case@^2.1.1:
+param-case@2.1.x:
   version "2.1.1"
   resolved "http://registry.npm.taobao.org/param-case/download/param-case-2.1.1.tgz#df94fd8cf6531ecf75e6bef9a0858fbc72be2247"
   dependencies:
@@ -5024,10 +4976,6 @@ path-parse@^1.0.5:
 path-to-regexp@0.1.7:
   version "0.1.7"
   resolved "http://registry.npm.taobao.org/path-to-regexp/download/path-to-regexp-0.1.7.tgz#df604178005f522f15eb4490e7247a1bfaa67f8c"
-
-path-to-regexp@^2.0.0:
-  version "2.2.0"
-  resolved "http://registry.npm.taobao.org/path-to-regexp/download/path-to-regexp-2.2.0.tgz#80f0ff45c1e0e641da74df313644eaf115050972"
 
 path-type@^1.0.0:
   version "1.1.0"
@@ -6716,10 +6664,6 @@ string-width@^2.0.0, string-width@^2.1.0, string-width@^2.1.1:
     is-fullwidth-code-point "^2.0.0"
     strip-ansi "^4.0.0"
 
-string@^3.3.3:
-  version "3.3.3"
-  resolved "http://registry.npm.taobao.org/string/download/string-3.3.3.tgz#5ea211cd92d228e184294990a6cc97b366a77cb0"
-
 string_decoder@^1.0.0, string_decoder@~1.0.3:
   version "1.0.3"
   resolved "http://registry.npm.taobao.org/string_decoder/download/string_decoder-1.0.3.tgz#0fc67d7c141825de94282dd536bec6b9bce860ab"
@@ -6991,10 +6935,6 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "http://registry.npm.taobao.org/typedarray/download/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
-uc.micro@^1.0.1, uc.micro@^1.0.5:
-  version "1.0.5"
-  resolved "http://registry.npm.taobao.org/uc.micro/download/uc.micro-1.0.5.tgz#0c65f15f815aa08b560a61ce8b4db7ffc3f45376"
-
 uglify-es@^3.3.4:
   version "3.3.9"
   resolved "http://registry.npm.taobao.org/uglify-es/download/uglify-es-3.3.9.tgz#0c1c4f0700bed8dbc124cdb304d2592ca203e677"
@@ -7112,12 +7052,6 @@ upper-case@^1.1.1:
   version "1.1.3"
   resolved "http://registry.npm.taobao.org/upper-case/download/upper-case-1.1.3.tgz#f6b4501c2ec4cdd26ba78be7222961de77621598"
 
-uppercamelcase@^3.0.0:
-  version "3.0.0"
-  resolved "http://registry.npm.taobao.org/uppercamelcase/download/uppercamelcase-3.0.0.tgz#380b321b8d73cba16fec4d752a575152d1ef7317"
-  dependencies:
-    camelcase "^4.1.0"
-
 urix@^0.1.0:
   version "0.1.0"
   resolved "http://registry.npm.taobao.org/urix/download/urix-0.1.0.tgz#da937f7a62e21fec1fd18d49b35c2935067a6c72"
@@ -7214,9 +7148,13 @@ vm-browserify@0.0.4:
   dependencies:
     indexof "0.0.1"
 
-vue-affix@^0.2.4:
-  version "0.2.4"
-  resolved "http://registry.npm.taobao.org/vue-affix/download/vue-affix-0.2.4.tgz#4f599f10517cab95a2d628029f91edb83316afe7"
+vm2@^3.5.0:
+  version "3.5.2"
+  resolved "http://registry.npm.taobao.org/vm2/download/vm2-3.5.2.tgz#6ae7c75a867775946e1d4a66623374e0245150e0"
+
+vue-analytics@^5.4.0:
+  version "5.9.1"
+  resolved "http://registry.npm.taobao.org/vue-analytics/download/vue-analytics-5.9.1.tgz#3ac9810f56dbe54bca4fd1c3ee42354b433d932b"
 
 vue-carousel@^0.6.9:
   version "0.6.9"
@@ -7226,9 +7164,19 @@ vue-hot-reload-api@^2.2.0:
   version "2.3.0"
   resolved "http://registry.npm.taobao.org/vue-hot-reload-api/download/vue-hot-reload-api-2.3.0.tgz#97976142405d13d8efae154749e88c4e358cf926"
 
+vue-i18n-extensions@^0.1.0:
+  version "0.1.0"
+  resolved "http://registry.npm.taobao.org/vue-i18n-extensions/download/vue-i18n-extensions-0.1.0.tgz#58a65bc5c80abf000ca41735ef0cf4ccb480e013"
+  dependencies:
+    vm2 "^3.5.0"
+
 vue-i18n@^7.3.2:
   version "7.4.2"
   resolved "http://registry.npm.taobao.org/vue-i18n/download/vue-i18n-7.4.2.tgz#ef954f80898bb3609f132f77d51a7053379e03b2"
+
+vue-i18n@^7.5.0:
+  version "7.6.0"
+  resolved "http://registry.npm.taobao.org/vue-i18n/download/vue-i18n-7.6.0.tgz#8745807756f6ca5090fd85629e9cab99b1c6e442"
 
 vue-in-viewport-directive@^1.1.4:
   version "1.1.4"
@@ -7269,12 +7217,6 @@ vue-router@^3.0.1:
 vue-scrollactive@^0.4.5:
   version "0.4.6"
   resolved "http://registry.npm.taobao.org/vue-scrollactive/download/vue-scrollactive-0.4.6.tgz#6202c7592d444e583b904e1de833e710c0285303"
-  dependencies:
-    bezier-easing "^2.0.3"
-
-vue-scrollactive@^0.6.1:
-  version "0.6.1"
-  resolved "http://registry.npm.taobao.org/vue-scrollactive/download/vue-scrollactive-0.6.1.tgz#2091bf25364ad37f32dfee2d9ead47d2005d3f28"
   dependencies:
     bezier-easing "^2.0.3"
 

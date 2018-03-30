@@ -1,11 +1,4 @@
-const config = require('./config')
-const generatePages = ['/', '/wiki']
-let generateRoutes = [].concat(generatePages)
-config.langs.forEach(item => {
-  generateRoutes = generateRoutes.concat(generatePages.map(page => {
-    return `/${item.key}${page}`
-  }))
-})
+let generateRoutes = ['/']
 
 module.exports = {
   head: {
@@ -26,7 +19,7 @@ module.exports = {
   },
   build: {
     extractCSS: true,
-    vendor: ['vue-i18n', 'babel-polyfill'],
+    vendor: ['babel-polyfill'],
     postcss: {
       plugins: {
         'postcss-custom-properties': {
@@ -41,7 +34,7 @@ module.exports = {
   router: {
     middleware: 'i18n'
   },
-  plugins: ['~/plugins/i18n.js', '~/plugins/fontawesome'],
+  plugins: ['~/plugins/fontawesome'],
   generate: {
     routes: generateRoutes
   },
@@ -64,7 +57,28 @@ module.exports = {
         active: true
       }
     }],
-    'nuxtent'
+    ['nuxt-i18n', {
+      locales: [
+        {
+          code: 'en',
+          name: 'English',
+          langFile: 'en.json'
+        },
+        {
+          code: 'zh',
+          name: '中文',
+          langFile: 'zh.json'
+        }
+      ],
+      defaultLocale: 'en',
+      // redirectRootToLocale: 'en',
+      detectBrowserLanguage: true,
+      redirectCookieKey: 'redirected',
+      useRedirectCookie: true,
+      loadLanguagesAsync: true,
+      langDir: 'locales/',
+      ignorePaths: []
+    }]
   ],
   css: [
     '~/assets/main.scss'
