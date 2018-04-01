@@ -3,8 +3,7 @@
     <div class="column item is-destop is-6-desktop is-12-tablet is-6-widescreen is-12-mobile" v-for="(item, index) in faqs">
       <div class="is-info">
         <h3> {{`${index + 1}. ${item.question}`}}</h3>
-        <div class="answer">
-          {{item.answer}}
+        <div class="answer" v-html="item.answer">
         </div>
       </div>
     </div>
@@ -27,6 +26,9 @@
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>
+  @import "~assets/vars.scss";
+
+
   .is-info {
     h3 {
       font-size: 1.13rem;
@@ -35,7 +37,7 @@
       margin-bottom: 0.56rem;
     }
     .answer {
-      font-family: HelveticaNeue-Light;
+      font-family: $font-family-light;
       font-weight: 300;
       font-size: 1.13rem;
       line-height: 1.75rem;

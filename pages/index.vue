@@ -5,7 +5,7 @@
       <div class="hero-body">
           <div class="container" v-in-viewport.once>
             <div class="has-text-centered hvr-bounce-in is-size-1-desktop is-size-2-touch hvr-grow">
-              <h1 class="inview2 delay-0-700 animated fadeInDown">{{$t("home.header")}}</h1>
+              <h1 class="inview2 delay-0-700 animated fadeInDown">V I T E</h1>
               <h2 class="inview2 delay-0-700 animated fadeInUp">{{$t("home.contract")}}</h2>
             </div>
             <div class="hero-btn-wrapper inview1 delay-0-800 animated fadeInUp">
@@ -91,6 +91,7 @@
   import Feature from '~/components/Feature'
   import Nav from '~/components/Nav'
   import Tech from '~/components/Tech'
+  import Logo from '~/components/Logo.vue'
 
   import config from '~/config.js'
 
@@ -108,7 +109,8 @@
       VFooter: Footer,
       VFeature: Feature,
       VNav: Nav,
-      Tech
+      Tech,
+      Logo
     },
     head () {
       let title = this.$t('head.title')
@@ -170,7 +172,7 @@
       text-align: center;
       font-size: 2.5rem;
       color: #111111;
-      font-family: HelveticaNeue-Light;
+      font-family: $font-family-light;
       font-weight: normal;
       line-height: 3.06rem;
     }
@@ -185,6 +187,7 @@
       color: rgba(255,255,255,0.9);
       padding-top: 0;
       padding-bottom: 0;
+      font-family: $font-family-light;
       .hero-body {
         z-index: 8;
         height: 100vh;
@@ -199,10 +202,11 @@
           padding: 0;
           .social {
             font-size: 3rem;
+            margin-top: 1rem;
             .icon {
-              color: white;
+              color: rgba(255,255,255,0.7);
               &:hover {
-                color: rgba(54, 130, 222, 1);
+                color: white;
               }
             }
           }
@@ -234,26 +238,32 @@
           }
         }
 
-        h1, h2 {
+        h1 {
           @include mobile {
-            font-size: 2rem;
-            line-height: 3rem;
+            font-size: 3.2rem;
+            line-height: 3.2rem * 1.5;
           }
           @include tablet {
-            font-size: 2.5rem;
-            line-height: 3.6rem;
+            font-size: 3.6rem;
+            line-height: 3.6rem * 1.5;
           }
           @include desktop {
-            font-size: 3rem;
-            line-height: 4.35rem;
+            font-size: 4rem;
+            line-height: 4rem * 1.5;
           }
           @include fullhd {
-            font-size: 3.44rem;
-            line-height: 5.63rem;
+            font-size: 4.5rem;
+            line-height: 4.5rem * 1.5;
           }
         },
         h2 {
           color: rgba(255,255,255, 0.8);
+          font-size: 1.5rem;
+          line-height: 2rem;
+          font-weight: 200;
+          @include mobile {
+            font-size: 1.2rem;
+          }
         }
       }
     }
@@ -294,7 +304,7 @@
       }
       .sub-title {
         overflow: hidden;
-        font-family: HelveticaNeue-Light;
+        font-family: $font-family-light;
         font-size: 1.13rem;
         color: #111111;
         text-align: center;

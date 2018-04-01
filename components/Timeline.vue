@@ -111,7 +111,7 @@
           padding: 1rem 1rem 2rem 1rem;
           border-radius: 4px;
           min-height: 150px;
-          font-family: HelveticaNeue-Light;
+          font-family: $font-family-light;
 
           .time {
             margin-top: -1.13rem;

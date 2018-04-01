@@ -62,12 +62,12 @@ module.exports = {
         {
           code: 'en',
           name: 'English',
-          langFile: 'en.json'
+          langFile: 'en.js'
         },
         {
           code: 'zh',
           name: '中文',
-          langFile: 'zh.json'
+          langFile: 'zh.js'
         }
       ],
       defaultLocale: 'en',

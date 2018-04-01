@@ -3,8 +3,9 @@
     <nav class="navbar">
       <div class="container is-widescreen" :class="{ 'is-open': navbarActive }">
         <div class="navbar-brand">
-          <a class="navbar-item" href="http://bulma.io">
-          </a>
+          <nuxt-link class="navbar-item" :to="localePath('index')">
+            <logo class="logo"></logo>
+          </nuxt-link>
           <div class="navbar-burger" @click="navbarActive = !navbarActive">
             <span></span>
             <span></span>
@@ -33,10 +34,12 @@
 
 <script type="text/babel">
   import LangSelect from '~/components/LangSelect.vue'
+  import Logo from '~/components/Logo.vue'
 
   export default {
     components: {
-      LangSelect
+      LangSelect,
+      Logo
     },
     data: function () {
       return {
@@ -71,8 +74,22 @@
       .navbar {
         height: $nav-height;
       }
+      .navbar-brand {
+        .navbar-item {
+          .logo {
+            height: $nav-height - 1rem;
+          }
+        }
+      }
     }
     &.headroom--not-top {
+      .navbar .navbar-brand {
+        .navbar-item {
+          .logo {
+            height: 3.25rem - 1rem;
+          }
+        }
+      }
       .home-navbar {
         .nav-item {
           font-size: 1rem;
@@ -116,6 +133,27 @@
           }
         }
       }
+
+      .navbar-brand {
+        .navbar-item {
+          .logo {
+            height: 3.25rem - 1rem;
+            color: rgba(255,255,255,1);
+            transition: color 0.5s;
+            &:hover {
+              color: $light-blue;
+            }
+
+            @include desktop {
+              height: $nav-height - 1rem;
+            }
+          }
+          &:hover {
+            background: transparent;
+          }
+        }
+      }
+
       .nav-item {
         font-size: $nav-item-size;
         padding-left: 2rem;
