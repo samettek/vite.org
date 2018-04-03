@@ -25,6 +25,7 @@ node_modules
 
 # Nuxt generate
 dist
+.monitor
 
 # PWA
 sw.*

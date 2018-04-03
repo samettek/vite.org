@@ -1,30 +1,18 @@
 <template>
   <div class="container">
-    <div class="columns tech-item-wrapper">
+    <div :key="item.key" v-for="(item, index) in list" class="columns tech-item-wrapper" :class="{'row-reverse': index % 2 === 1}">
       <div class="column">
         <div class="tech-img-wrapper image">
-          <img src="/icon.png" alt="">
+          <img :src="item.img" alt="">
         </div>
       </div>
       <div class="column tech-item-detail">
-        <h3>{{$t(`tech.dag.title`)}}</h3>
-        <p>{{$t(`tech.dag.description`)}}</p>
-        <p>
-          <read-more url="http://doc.vite.org"></read-more>
+        <h3>{{$t(`tech.${item.key}.title`)}}</h3>
+        <p v-for="item in renderDesc(item.key)">
+          {{item}}
         </p>
-      </div>
-    </div>
-    <div class="columns is-gapless tech-item-wrapper row-reverse">
-      <div class="column">
-        <div class="tech-img-wrapper image">
-          <img src="/icon.png" alt="">
-        </div>
-      </div>
-      <div class="column tech-item-detail">
-        <h3>{{$t(`tech.snapshotChain.title`)}}</h3>
-        <p>{{$t(`tech.snapshotChain.description`)}}</p>
         <p>
-          <read-more url="http://doc.vite.org"></read-more>
+          <read-more :url="item.readMore"></read-more>
         </p>
       </div>
     </div>
@@ -40,12 +28,30 @@
     },
     data: function () {
       return {
-        imgs: {
-          dag: require('~/assets/images/bg.jpg')
-        }
+        list: [
+          {
+            key: 'blockLattice',
+            img: require('~/assets/images/block-lattice.png'),
+            readMore: 'http://doc.vite.org'
+          },
+          {
+            key: 'snapshotChain',
+            img: '/icon.png',
+            readMore: 'http://doc.vite.org'
+          }
+        ]
       }
     },
-    methods: {}
+    methods: {
+      renderDesc (key) {
+        let desc = this.$t(`tech.${key}.description`)
+        if (Array.isArray(desc)) {
+          return desc
+        } else {
+          return [desc]
+        }
+      }
+    }
   }
 </script>
 
@@ -71,14 +77,17 @@
         line-height: 1.81rem;
         font-weight: normal;
         margin-bottom: 1.25rem;
-        padding: 3rem 1rem 0 1rem;
+        padding: 3rem 1rem 1rem 1rem;
       }
       & > p {
-        padding: 1rem;
+        padding: 0 1rem 0.5rem 1rem;
         line-height: 1.75rem;
         color: #111111;
         font-size: 1.13rem;
         font-weight: 200;
+        &:last-child {
+          margin-top: 1rem;
+        }
       }
     }
   }

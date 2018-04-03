@@ -7,13 +7,13 @@
             <logo class="logo"></logo>
           </div>
           <div class="icon-links-wrapper">
-            <a href="" class="icon">
+            <a :href="urls.github" target="_blank" class="icon">
               <fa-icon :icon="['fab', 'github']"></fa-icon>
             </a>
-            <a href="" class="icon">
+            <a :href="urls.discord" target="_blank" class="icon">
               <fa-icon :icon="['fab', 'discord']"></fa-icon>
             </a>
-            <a href="" class="icon">
+            <a :href="urls.twitter" target="_blank" class="icon">
               <fa-icon :icon="['fab', 'twitter']"></fa-icon>
             </a>
           </div>

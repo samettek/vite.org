@@ -5,7 +5,9 @@
       <div class="hero-body">
           <div class="container" v-in-viewport.once>
             <div class="has-text-centered hvr-bounce-in is-size-1-desktop is-size-2-touch hvr-grow">
-              <h1 class="inview2 delay-0-700 animated fadeInDown">V I T E</h1>
+              <h1 class="inview2 delay-0-700 animated fadeInDown">
+                <logo-word></logo-word>
+              </h1>
               <h2 class="inview2 delay-0-700 animated fadeInUp">{{$t("home.contract")}}</h2>
             </div>
             <div class="hero-btn-wrapper inview1 delay-0-800 animated fadeInUp">
@@ -92,6 +94,7 @@
   import Nav from '~/components/Nav'
   import Tech from '~/components/Tech'
   import Logo from '~/components/Logo.vue'
+  import LogoWord from '~/components/LogoWord'
 
   import config from '~/config.js'
 
@@ -110,7 +113,8 @@
       VFeature: Feature,
       VNav: Nav,
       Tech,
-      Logo
+      Logo,
+      LogoWord
     },
     head () {
       let title = this.$t('head.title')
@@ -163,6 +167,7 @@
   $background-image: linear-gradient(-179deg, #032841 3%, #013462 100%);
 
   .page-home {
+    font-family: $font-family-main;
     .particles-js-canvas-el {
       position: absolute;
       top: 0;
@@ -200,6 +205,7 @@
         .hero-btn-wrapper {
           margin-top: 4rem;
           padding: 0;
+          font-family: $font-family-main;
           .social {
             font-size: 3rem;
             margin-top: 1rem;

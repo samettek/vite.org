@@ -29,7 +29,7 @@ module.exports = {
     },
     'scalability': {
       'title': '高性能',
-      'description': '摒弃blockchian的账本结构，采用Block-lattice账本结构，支持高吞吐，高并发，一个账户一条链，单条链交易拥堵不会阻塞其他链'
+      'description': '摒弃blockchain的账本结构，采用Block-lattice账本结构，支持高吞吐，高并发，一个账户一条链，单条链交易拥堵不会阻塞其他链'
     },
     'contract': {
       'title': '智能合约',
@@ -46,13 +46,18 @@ module.exports = {
   },
   'tech': {
     'title': '核心技术',
-    'dag': {
-      'title': 'DAG ledger',
-      'description': 'Vite账本结构不是基于Block Chain的，其主体是一个由伴生的Request Block和Reponse Block构成的树型结构，这和nano的Block Lattice非常相似，考虑到Block之间存在的关系，整个账本的结构实际上是一个DAG。普通账户：能生成交易的Request Block和Response Block合约账户：不能生成交易的Request Block，只能生成Response Block。'
+    'blockLattice': {
+      'title': 'Block Lattice',
+      'description': [
+        'Vite账本结构不是基于Block Chain的，其主体是一个由伴生的Request Block和Response Block构成的树型结构。',
+        '每一个账户一条链，每个交易会生成一个Request Block和一个Response Block，每个账户上的块只能由该账户持有者才能添加。'
+      ]
     },
     'snapshotChain': {
-      'title': 'Snapshot chain',
-      'description': '合约账户的Response Block和普通账户的Response Block写入不一样，合约账户没有私钥，所以任何人都可以写入，为了防止意外频繁的分叉。我们往引入一条主链，我们称为：Snapshot chain。'
+      'title': 'Snapshot Chain',
+      'description': [
+        '合约账户的Response Block和普通账户的Response Block写入不一样，合约账户没有私钥，所以任何人都可以写入，为了防止意外频繁的分叉。我们往引入一条主链，我们称为：Snapshot Chain。'
+      ]
     }
   },
   'roadmap': {

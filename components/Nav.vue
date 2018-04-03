@@ -1,11 +1,11 @@
 <template>
-  <div class="hero-head animated fadeIn delay-1-6 headroom" v-headroom>
-    <nav class="navbar">
+  <div id="home-nav" class="hero-head animated fadeIn delay-1-6 headroom" v-headroom>
+    <scrollactive class="navbar" :modify-url="false" :offset="0">
       <div class="container is-widescreen" :class="{ 'is-open': navbarActive }">
         <div class="navbar-brand">
-          <nuxt-link class="navbar-item" :to="localePath('index')">
+          <a class="navbar-item scrollactive-item" href="#home-nav">
             <logo class="logo"></logo>
-          </nuxt-link>
+          </a>
           <div class="navbar-burger" @click="navbarActive = !navbarActive">
             <span></span>
             <span></span>
@@ -13,10 +13,7 @@
           </div>
         </div>
 
-        <scrollactive class="navbar-menu"
-                      :modify-url="false"
-                      :class="{ 'is-active': navbarActive }"
-                      :offset="0">
+        <div class="navbar-menu" :class="{ 'is-active': navbarActive }">
           <div class="navbar-end">
             <a :href="`#${item}`" @click="onNavClick" class="scrollactive-item nav-item" v-for="item in navs">
               {{$t(`nav.${item}`)}}
@@ -25,10 +22,9 @@
               <lang-select></lang-select>
             </div>
           </div>
-        </scrollactive>
-
+        </div>
       </div>
-    </nav>
+    </scrollactive>
   </div>
 </template>
 
@@ -136,8 +132,12 @@
 
       .navbar-brand {
         .navbar-item {
+          &.is-active {
+            background: transparent;
+          }
           .logo {
             height: 3.25rem - 1rem;
+            width: auto;
             color: rgba(255,255,255,1);
             transition: color 0.5s;
             &:hover {
@@ -146,6 +146,7 @@
 
             @include desktop {
               height: $nav-height - 1rem;
+              width: 170px;
             }
           }
           &:hover {
