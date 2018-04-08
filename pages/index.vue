@@ -281,7 +281,7 @@
     }
 
     #tech {
-      background: rgba(247,247,247,1);
+      background: #fafafa;
       @include mobile {
         & > .container {
           width: 100%;

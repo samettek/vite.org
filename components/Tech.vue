@@ -31,7 +31,7 @@
         list: [
           {
             key: 'blockLattice',
-            img: require('~/assets/images/block-lattice.png'),
+            img: require('~/assets/images/block_lattice.png'),
             readMore: 'http://doc.vite.org'
           },
           {
