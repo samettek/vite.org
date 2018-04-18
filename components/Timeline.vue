@@ -7,7 +7,9 @@
           v-for="(item, index) in timelines">
         <div class="inview2 animated" :class="{'fadeInLeft': (index + 1) % 2 === 0, 'fadeInRight': (index + 1) % 2 === 1}">
           <span class="time">{{item.time}}</span>
-          <p v-html="item.description"></p>
+          <p v-for="desc in item.description">
+            {{desc}}
+          </p>
         </div>
       </li>
     </ul>
@@ -18,12 +20,24 @@
     export default {
       data: function () {
         return {
-          finished: [0]
+          finished: [0, 1]
         }
       },
       computed: {
         timelines: function (index) {
-          return this.$t(`roadmap.timelines`)
+          let roadmaps = this.$t(`roadmap.timelines`)
+          if (!Array.isArray(roadmaps)) {
+            return []
+          }
+          return roadmaps.map(item => {
+            if (!Array.isArray(item.description)) {
+              return {
+                ...item,
+                description: [item.description]
+              }
+            }
+            return item
+          })
         }
       },
       methods: {
@@ -100,17 +114,16 @@
         }
 
         &:nth-child(even) div {
-          left: -439px;
+          left: -539px;
           text-align: right;
         }
 
         div {
           position: relative;
           bottom: 0;
-          width: 400px;
-          padding: 1rem 1rem 2rem 1rem;
+          width: 500px;
+          padding: 1rem;
           border-radius: 4px;
-          min-height: 150px;
           font-family: $font-family-light;
 
           .time {
@@ -120,12 +133,14 @@
             line-height: 1.38rem;
             text-transform: uppercase;
             color: #666666;
+            margin-bottom: 0.4rem;
           }
           & > p {
-            font-size: 1.13rem;
-            line-height: 2.19rem;
+            font-size: 1rem;
+            line-height: 1.7rem;
             color: #666666;
             word-wrap: break-word;
+            font-weight: 300;
           }
         }
       }
@@ -155,6 +170,15 @@
 
   /* GENERAL MEDIA QUERIES
       –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+  @media screen and (max-width: 1020px) {
+    .timeline ul li div {
+      width: 400px;
+    }
+    .timeline ul li:nth-child(even) div {
+      left: -(400px + 45px - 6px); /*250+45-6*/
+    }
+  }
 
   @media screen and (max-width: 900px) {
     .timeline ul li div {

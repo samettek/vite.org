@@ -40,7 +40,7 @@
     data: function () {
       return {
         navbarActive: false,
-        navs: ['feature', 'tech', 'roadmap', 'token', 'team', 'faq']
+        navs: ['feature', 'tech', 'roadmap', 'team', 'faq']
       }
     },
     methods: {

@@ -50,15 +50,6 @@
       </div>
     </section>
 
-    <section id="token" class="section">
-      <div class="container" v-in-viewport>
-        <h2 class="title section-title animated fadeInUp inview1">
-          {{$t('token.title')}}
-        </h2>
-        <token></token>
-      </div>
-    </section>
-
     <section id="team" class="section">
       <div class="container" v-in-viewport>
         <h2 class="title section-title inview1 animated fadeInDown delay-0-800">
@@ -88,7 +79,6 @@
   import Timeline from '~/components/Timeline.vue'
   import Teams from '~/components/Teams.vue'
   import Faq from '~/components/FAQ'
-  import Token from '~/components/Token.vue'
   import Footer from '~/components/Footer.vue'
   import Feature from '~/components/Feature'
   import Nav from '~/components/Nav'
@@ -108,7 +98,6 @@
       Timeline,
       Teams,
       Faq,
-      Token,
       VFooter: Footer,
       VFeature: Feature,
       VNav: Nav,

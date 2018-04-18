@@ -1,11 +1,12 @@
 <template>
-  <div class="columns is-multiline" v-in-viewport>
-    <div class="column item is-destop is-6-desktop is-6-tablet is-4-widescreen is-12-mobile hvr-float-shadow"
-         v-for="item in teams">
-      <div class="is-info">
-        <figure class="image is-square">
-          <img :src="item.img">
-        </figure>
+  <div class="columns is-multiline">
+    <div class="main-team column is-12" v-in-viewport>
+      <div class="column item is-destop is-6-desktop is-6-tablet is-3-widescreen is-12-mobile hvr-float-shadow"
+           v-for="item in teams">
+        <div class="is-info">
+          <figure class="image is-square">
+            <img :src="item.img">
+          </figure>
 
         <div class="description">
           <h3 class="inview4 animated fadeInDown delay-0-500">{{$t(`team.nameMap.${item.key}.position`)}}</h3>
@@ -18,12 +19,13 @@
           </div>
         </div>
 
+        </div>
       </div>
     </div>
 
-    <div class="sub-team column">
-      <div class="columns" v-in-viewport>
-        <div class="column item is-destop is-6-desktop is-6-tablet is-4-widescreen is-12-mobile hvr-float-shadow"
+    <div class="sub-team column is-12">
+      <div class="columns is-multiline" v-in-viewport>
+        <div class="column item is-destop is-6-desktop is-6-tablet is-3-widescreen is-12-mobile hvr-float-shadow"
              v-for="item in teams2">
           <div class="is-info">
             <div class="description">
@@ -64,6 +66,10 @@
             ]
           },
           {
+            img: 'https://loopring.org/assets/img/team/dan-wang.jpg',
+            key: 'liuchunming'
+          },
+          {
             img: 'https://avatars1.githubusercontent.com/u/28188208?s=400&v=4',
             key: 'liuchunming'
           },
@@ -86,6 +92,10 @@
                 url: 'https://baidu.com'
               }
             ]
+          },
+          {
+            img: 'https://avatars1.githubusercontent.com/u/28188208?s=400&v=4',
+            key: 'liuchunming'
           },
           {
             img: 'https://avatars1.githubusercontent.com/u/28188208?s=400&v=4',
@@ -133,37 +143,38 @@
       font-weight: normal;
     }
     h4 {
-      margin-bottom: 1rem;
+      /*margin-bottom: 1rem;*/
     }
     .description {
       padding-top:1.5rem;
       padding-bottom: 1rem;
       width: 100%;
-      min-height: 25.75rem;
+      min-height: 20rem;
       border-top: none;
       .team-des {
         padding: 1rem;
-        font-size: 1.13rem;
-        line-height: 1.75rem;
+        font-size: 1rem;
+        line-height: 1.45rem;
         color: #818181;
         text-align: center;
-        font-weight: 300;
+        font-weight: 200;
         min-height: 9.06rem;
         margin-bottom: 1rem;
+        font-family: $font-family-light;
       }
 
       .item-footer {
-        height: 2.69rem;
+        height: 1.5rem;
         text-align: center;
         a {
-          margin-left: 2.69rem;
+          margin-left: 2rem;
           &:first-child {
             margin-left: 0;
           }
         }
         .icon {
-          height: 2.5rem;
-          width: 2.5rem;
+          height: 1.5rem;
+          width: 1.5rem;
           line-height: 2.5rem;
           color: #999999;
           &:hover {

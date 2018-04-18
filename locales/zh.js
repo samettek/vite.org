@@ -1,9 +1,9 @@
 module.exports = {
   'lang': '中文',
   'head': {
-    'title': 'Vite: 一个快速无手续费的分布式交易账本',
+    'title': 'Vite: 高性能异步去中心化应用平台',
     'document': '文档',
-    'homeDesc': 'Vite: 一个快速无手续费的分布式交易账本'
+    'homeDesc': 'Vite: 高性能异步去中心化应用平台'
   },
   'nav': {
     'feature': '特性',
@@ -15,33 +15,33 @@ module.exports = {
   },
   'home': {
     'header': 'Vite',
-    'contract': '一个快速无手续费的分布式交易账本',
+    'contract': '高性能异步去中心化应用平台',
     'whitePaper': '白皮书'
   },
   'features': {
     'fast': {
-      'title': '快速',
-      'description': '依托于Block-lattice的优势，实现秒级确认交易'
+      'title': '低延迟',
+      'description': '采用HDPoS共识算法，通过代理节点，以协作的方式完成轮流生产区块，不需要计算PoW，出块间隔可以缩短到1秒，有利于降低交易确认的延迟。'
     },
-    'noFee': {
-      'title': '无手续费',
-      'description': '任何交易都无手续费，只需付出微小的计算资源；以股权和动态pow来调整全网TPS限额'
+    'throughput': {
+      'title': '高吞吐',
+      'description': '采用DAG账本结构; 提出HDPoS共识算法，多个委托共识组之间彼此无依赖; 合约间通信基于消息的异步模型。'
     },
     'scalability': {
-      'title': '高性能',
-      'description': '摒弃blockchain的账本结构，采用Block-lattice账本结构，支持高吞吐，高并发，一个账户一条链，单条链交易拥堵不会阻塞其他链'
+      'title': '可扩展',
+      'description': '将账本中的交易按照账户维度来分组，允许不同的账户的区块生产由不同的节点完成，节点不需要保存全部的状态。'
     },
-    'contract': {
-      'title': '智能合约',
-      'description': '支持智能合约， EVM compatibility；一个合约为一条链，并且单条合约链支持自定义共识算法，支持扩展为私有链'
+    'usability': {
+      'title': '易用性',
+      'description': '在xSolidity中提供标准库支持，专门用于处理消息的语法，合约的定时调度，VNS命名服务，合约升级支持等。'
     },
-    'multiLayer': {
-      'title': '多层架构',
-      'description': '系统分为传输层、价值层、交易层、合约层；将结算功能从合约层抽离'
+    'value': {
+      'title': '价值闭环',
+      'description': 'Vite 支持数字资产发行、跨链价值传输、基于路印协议的代币互换等，形成了一个完整的价值体系。'
     },
-    'pruning': {
-      'title': '快照链',
-      'description': '在Block-lattice基础上引入快照链，解决无法固化交易的问题；保证区块缩减（Block Pruning）的可实施性'
+    'economy': {
+      'title': '经济性',
+      'description': ' Vite采用基于配额的资源配置模型，交易不频繁的轻量级用户不需要支付高昂的手续费或燃料费。用户可以选择多种方式换取计算资源。'
     }
   },
   'tech': {
@@ -64,59 +64,73 @@ module.exports = {
     'title': '路线图',
     'timelines': [
       {
-        'time': '2018 二月月',
-        'description': '项目启动，设计技术架构，编写白皮书'
+        'time': '2018 二月',
+        'description': '项目启动'
       },
       {
         'time': '2018 四月',
-        'description': '第一轮融资，将出让30%的股权'
+        'description': 'Vite系统设计，白皮书发布'
       },
       {
-        'time': '2018 八月',
-        'description': '测试网络上线，并进行第二轮融资，将出让20%的股权<br/>免费发放3%的Vite给loopring的持有者'
+        'time': '2018 五月',
+        'description': '发布官方网站，路演'
       },
       {
-        'time': '2018 九月',
-        'description': '主网上线，并进行第三轮融资，将出让10%的股权<br/>漏洞修复和节点程序优化'
+        'time': '2018 六月',
+        'description': '启动Vite Core开发'
+      },
+      {
+        'time': '2018 十月',
+        'description': 'Vite Core alpha 内测版'
       },
       {
         'time': '2018 十二月',
-        'description': '测试网络上线智能合约功能'
+        'description': [
+          'Vite Core beta M1：支持交易、资产发行、分层共识、快照链',
+          'Vite SDK发布',
+          'Vite 区块链浏览器'
+        ]
+      },
+      {
+        'time': '2019 一月',
+        'description': 'Vite 客户端桌面版'
+      },
+      {
+        'time': '2019 二月',
+        'description': 'Vite 移动客户端内测版'
+      },
+      {
+        'time': '2019 四月',
+        'description': [
+          'Vite Core beta M3：配额租赁、定时调度、命名服务',
+          'Vite 移动客户端支持dApplet小程序功能'
+        ]
+      },
+      {
+        'time': '2019 七月',
+        'description': 'Vite Core beta M4：路印协议、跨链'
+      },
+      {
+        'time': '2019 八月',
+        'description': 'Vite 移动客户端集成去中心化交易'
+      },
+      {
+        'time': '2019 十月',
+        'description': 'Vite Core beta M5：合约升级、区块裁剪、solidity++优化'
+      },
+      {
+        'time': '2019 十一月',
+        'description': 'Vite Testnet Release：测试网络上线'
+      },
+      {
+        'time': '2020 一月',
+        'description': 'Vite 1.0 Release：主网上线'
+      },
+      {
+        'time': '2020 二月',
+        'description': 'Vite 生态建设'
       }
     ]
-  },
-  'token': {
-    'title': '股权分配',
-    'pie': {
-      'foundation': {
-        'name': 'Vite Lab 基金会',
-        'des': '该资金分为两部分：创始团队股份和期权池。TODO'
-      },
-      'community': {
-        'name': '社区基金',
-        'des': '将来用于社区推广和【糖果】分发的资金池，计划将拿出一部分分发给loopring的持有用户'
-      },
-      'investor1': {
-        'name': '第一轮融资',
-        'des': 'TODO'
-      },
-      'investor2': {
-        'name': '第二轮融资',
-        'des': 'TODO'
-      },
-      'investor3': {
-        'name': '第三轮融资',
-        'des': 'TODO'
-      }
-    },
-    'detail': {
-      'initial': '初始发行币量',
-      'unit': '单位',
-      'consensus': '主链共识算法',
-      'blockTime': '主链出块时间',
-      'delegatedLimit': '主链代理节点数量',
-      'blockReward': '主链出块奖励'
-    }
   },
   'team': {
     'title': '我们的团队',
@@ -125,7 +139,7 @@ module.exports = {
       'liuchunming': {
         'name': '刘春明',
         'position': 'CEO',
-        'description': '这里是刘春明的描述'
+        'description': 'Google Tech Lead, Cofounder & VP of Yunrang Technology, Senior Engineering Director at JD.com, Cofounder & CEO of Coinport Exchange, Cofounder & VP of Hygene Online, Senior Director & Blockchain Researcher of Zhongan Technology'
       }
     }
   },
