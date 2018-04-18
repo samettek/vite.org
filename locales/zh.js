@@ -133,13 +133,23 @@ module.exports = {
     ]
   },
   'team': {
-    'title': '我们的团队',
-    'subTitle': '团队成员大部分来自于谷歌、微软、美团等互联网企业，创始团队是资深区块链创业者，和loopring团队有着十分深度的合作。',
+    'title': '核心团队',
+    'subTitle': '',
     'nameMap': {
       'liuchunming': {
         'name': '刘春明',
-        'position': 'CEO',
-        'description': 'Google Tech Lead, Cofounder & VP of Yunrang Technology, Senior Engineering Director at JD.com, Cofounder & CEO of Coinport Exchange, Cofounder & VP of Hygene Online, Senior Director & Blockchain Researcher of Zhongan Technology'
+        'position': '',
+        'description': '资深区块链创业者。毕业于中国科技大学，中科院软件所。曾任京东高级架构师，币丰港联合创始人，美团点评技术总监。'
+      },
+      'wangdong': {
+        'name': '王东',
+        'position': '',
+        'description': '资深区块链创业者。毕业于中国科技大学，亚利桑那州立大学。路印协议创始人，前Google美国Tech Lead，云云网联合创始人兼副总裁，京东高级研发总监，币丰港联合创始人。'
+      },
+      'wuming': {
+        'name': '武鸣',
+        'position': '',
+        'description': '资深科学家。毕业于中国科技大学，中科院计算所。微软亚洲研究院Senior Research Manager，在分布式系统和AI领域发表过十余篇论文。'
       }
     }
   },
