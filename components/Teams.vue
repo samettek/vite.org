@@ -57,53 +57,49 @@
             urls: [
               {
                 icon: ['fab', 'twitter'],
-                url: 'https://baidu.com'
+                url: 'https://twitter.com/chunming_liu'
+              },
+              {
+                icon: ['fab', 'linkedin'],
+                url: 'https://www.linkedin.com/in/liuchunming/'
               },
               {
                 icon: ['fab', 'github'],
-                url: 'https://baidu.com'
+                url: 'https://github.com/charles-liu'
               }
             ]
           },
           {
             img: 'https://loopring.org/assets/img/team/dan-wang.jpg',
-            key: 'liuchunming'
-          },
-          {
-            img: 'https://avatars1.githubusercontent.com/u/28188208?s=400&v=4',
-            key: 'liuchunming'
-          },
-          {
-            img: 'https://avatars1.githubusercontent.com/u/28188208?s=400&v=4',
-            key: 'liuchunming'
-          }
-        ],
-        teams2: [
-          {
-            img: 'https://avatars1.githubusercontent.com/u/28188208?s=400&v=4',
-            key: 'liuchunming',
+            key: 'wangdong',
             urls: [
               {
                 icon: ['fab', 'twitter'],
-                url: 'https://baidu.com'
+                url: 'https://twitter.com/daniel_loopring'
+              },
+              {
+                icon: ['fab', 'linkedin'],
+                url: 'https://www.linkedin.com/in/dong77'
               },
               {
                 icon: ['fab', 'github'],
-                url: 'https://baidu.com'
+                url: 'https://github.com/dong77'
               }
             ]
           },
           {
-            img: 'https://avatars1.githubusercontent.com/u/28188208?s=400&v=4',
-            key: 'liuchunming'
-          },
-          {
-            img: 'https://avatars1.githubusercontent.com/u/28188208?s=400&v=4',
-            key: 'liuchunming'
-          },
-          {
-            img: 'https://avatars1.githubusercontent.com/u/28188208?s=400&v=4',
-            key: 'liuchunming'
+            img: 'https://avatars3.githubusercontent.com/u/4434380?s=400&v=4',
+            key: 'wuming',
+            urls: [
+              {
+                icon: ['fab', 'linkedin'],
+                url: 'https://www.linkedin.com/in/ming-wu-7a598b1b/'
+              },
+              {
+                icon: ['fab', 'github'],
+                url: 'https://github.com/sparkwoo'
+              }
+            ]
           }
         ]
       }
