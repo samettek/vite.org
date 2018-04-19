@@ -1,7 +1,6 @@
 <template>
   <div class="columns is-multiline" v-in-viewport>
-    <div class="column feature-item is-destop is-6-desktop is-6-tablet is-4-widescreen is-12-mobile animated inview2 delay-0-500"
-         :class="{'fadeInLeft': (index + 1) % 3 === 1,'fadeInRight': (index + 1) % 3 === 0, 'fadeInUp': (index + 1) % 3 === 2}"
+    <div class="column feature-item is-destop is-6-desktop is-6-tablet is-4-widescreen is-12-mobile"
          v-for="(item, index) in features">
       <div class="is-info">
         <div class="icon-wrapper hvr-grow-rotate">

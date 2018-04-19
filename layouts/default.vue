@@ -1,11 +1,11 @@
 <template>
   <div>
-    <div id="home-nav" class="hero-head headroom" v-headroom>
+    <div id="home-nav" class="hero-head headroom" :class="`is-${routeName}-page`" v-headroom>
       <scrollactive class="navbar" :modify-url="false" :offset="0">
         <div class="container is-widescreen" :class="{ 'is-open': navbarActive }" @click="onNavClick">
           <div class="navbar-brand">
             <a v-if="isIndexPage" class="navbar-item scrollactive-item" href="#home-nav">
-              <logo class="logo"></logo>
+              <logo-without-words class="logo"></logo-without-words>
             </a>
             <nuxt-link class="navbar-item" :to="localePath('index')" v-else>
               <logo class="logo"></logo>
@@ -31,8 +31,8 @@
                 </nuxt-link>
               </template>
 
-              <nuxt-link :to="localePath('careers')" class="nav-item">
-                {{$t(`nav.careers`)}}
+              <nuxt-link :key="item" v-for="item in otherNavs" :to="localePath(item)" class="nav-item">
+                {{$t(`nav.${item}`)}}
               </nuxt-link>
 
               <div class="nav-item">
@@ -50,27 +50,33 @@
 <script type="text/babel">
   import LangSelect from '~/components/LangSelect.vue'
   import Logo from '~/components/Logo.vue'
+  import LogoWithoutWords from '~/components/LogoWithoutWords.vue'
 
   export default {
     components: {
       LangSelect,
-      Logo
+      Logo,
+      LogoWithoutWords
     },
     data: function () {
       return {
         navbarActive: false,
-        navs: ['feature', 'tech', 'roadmap', 'team', 'faq']
+        navs: ['feature', 'roadmap', 'team'],
+        otherNavs: ['technology', 'faq', 'careers']
       }
     },
     computed: {
       isIndexPage () {
         return this.$route.name === `index-${this.$i18n.locale}`
+      },
+      routeName () {
+        return this.$route.name.split('-')[0]
       }
     },
     methods: {
       onNavClick (e) {
         let {target} = e
-        if (target.className && target.className.indexOf('nav-item') > -1) {
+        if (target.className && typeof target.className === 'string' && target.className.indexOf('nav-item') > -1) {
           this.navbarActive = false
         }
       }
@@ -85,16 +91,33 @@
   $nav-height: (130rem/16);
   $font-family-bold: HelveticaNeue-Bold,HelveticaNeue;
 
+  .nuxt-link-exact-active {
+    color: rgba(255,255,255,1);
+    background: rgba(255,255,255, 0.05);
+  }
 
-  .headroom {
+  #home-nav {
     position: fixed;
     right: 0;
     left: 0;
     top: 0;
     z-index: 2343;
     transition: transform 0.4s ease;
+    .navbar {
+      height: auto;
+    }
+
     .navbar-burger {
       color: white;
+    }
+
+    &.is-faq-page, &.is-technology-page {
+      background: $background-image;
+      height: auto;
+    }
+
+    &.is-careers-page {
+      background: transparent;
     }
 
     &.headroom--top {
@@ -102,10 +125,17 @@
       .navbar {
         height: $nav-height;
       }
+      @include touch {
+        height: (52rem/16);
+        .navbar {
+          height: (52rem/16);
+        }
+      }
+
       .navbar-brand {
         .navbar-item {
           .logo {
-            height: $nav-height - 1rem;
+            height: 52px;
           }
         }
       }
@@ -177,8 +207,7 @@
             }
 
             @include desktop {
-              height: $nav-height - 1rem;
-              width: 170px;
+              height: (52rem/16);
             }
           }
           &:hover {

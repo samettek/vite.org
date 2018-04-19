@@ -31,14 +31,14 @@
       </div>
     </section>
 
-    <section id="tech" class="section">
-      <div class="container" v-in-viewport.once>
-          <h2 class="title section-title animated fadeInUp inview1">
-            {{$t('tech.title')}}
-          </h2>
-          <tech></tech>
-      </div>
-    </section>
+    <!--<section id="tech" class="section">-->
+      <!--<div class="container" v-in-viewport.once>-->
+          <!--<h2 class="title section-title animated fadeInUp inview1">-->
+            <!--{{$t('tech.title')}}-->
+          <!--</h2>-->
+          <!--<tech></tech>-->
+      <!--</div>-->
+    <!--</section>-->
 
     <section id="roadmap" class="hero">
       <div class="container" v-in-viewport>
@@ -54,21 +54,21 @@
         <h2 class="title section-title inview1 animated fadeInDown delay-0-800">
           {{$t('team.title')}}
         </h2>
-        <div class="sub-title inview1 animated fadeInUp delay-0-800">
-          {{$t('team.subTitle')}}
-        </div>
+        <!--<div class="sub-title inview1 animated fadeInUp delay-0-800">-->
+          <!--{{$t('team.subTitle')}}-->
+        <!--</div>-->
         <teams></teams>
       </div>
     </section>
 
-    <section id="faq" class="section">
-      <div class="container" v-in-viewport>
-        <h2 class="title section-title inview1 animated fadeInUp delay-0-800">
-          {{$t('faq.title')}}
-        </h2>
-        <faq></faq>
-      </div>
-    </section>
+    <!--<section id="faq" class="section">-->
+      <!--<div class="container" v-in-viewport>-->
+        <!--<h2 class="title section-title inview1 animated fadeInUp delay-0-800">-->
+          <!--{{$t('faq.title')}}-->
+        <!--</h2>-->
+        <!--<faq></faq>-->
+      <!--</div>-->
+    <!--</section>-->
 
     <v-footer></v-footer>
   </div>

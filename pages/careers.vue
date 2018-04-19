@@ -33,7 +33,6 @@
 
 <script>
     export default {
-      name: 'careers',
       data () {
         return {
           jdList: ['pm', 'java', 'go', 'fe', 'ios', 'android'],

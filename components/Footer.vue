@@ -38,6 +38,11 @@
           </div>
         </div>
       </div>
+      <div class="all-rights">
+        <span>
+          Vite Labs Limited, All rights reserved.
+        </span>
+      </div>
     </div>
   </footer>
 </template>
@@ -64,6 +69,16 @@
 
   .footer {
     padding-top: 5.44rem;
+    padding-bottom: 1rem;
+
+    .all-rights {
+      width: 100%;
+      text-align: center;
+      color: rgba(255,255,255,0.8);
+      font-size: 1rem;
+      font-family: $font-family-light;
+      font-weight: 300;
+    }
     .logo-wrapper {
       @include mobile {
         display: flex;

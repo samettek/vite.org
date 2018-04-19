@@ -7,7 +7,7 @@ module.exports = {
   },
   'nav': {
     'feature': '特性',
-    'tech': '技术',
+    'technology': '核心技术',
     'roadmap': '路线图',
     'team': '团队',
     'faq': '问题答疑',
