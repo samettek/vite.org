@@ -1,7 +1,7 @@
 <template>
   <div class="columns is-multiline">
     <div class="main-team column is-12" v-in-viewport>
-      <div class="column item is-destop is-6-desktop is-6-tablet is-3-widescreen is-12-mobile hvr-float-shadow"
+      <div class="column item is-destop is-6-desktop is-6-tablet is-4-widescreen is-12-mobile hvr-float-shadow"
            v-for="item in teams">
         <div class="is-info">
           <figure class="image is-square">
@@ -25,7 +25,7 @@
 
     <div class="sub-team column is-12">
       <div class="columns is-multiline" v-in-viewport>
-        <div class="column item is-destop is-6-desktop is-6-tablet is-3-widescreen is-12-mobile hvr-float-shadow"
+        <div class="column item is-destop is-6-desktop is-6-tablet is-4-widescreen is-12-mobile hvr-float-shadow"
              v-for="item in teams2">
           <div class="is-info">
             <div class="description">
@@ -101,7 +101,8 @@
               }
             ]
           }
-        ]
+        ],
+        teams2: []
       }
     },
     methods: {}
@@ -145,32 +146,35 @@
       padding-top:1.5rem;
       padding-bottom: 1rem;
       width: 100%;
-      min-height: 20rem;
+      min-height: 25.75rem;
       border-top: none;
       .team-des {
         padding: 1rem;
-        font-size: 1rem;
-        line-height: 1.45rem;
+        font-size: 1.13rem;
+        line-height: 1.75rem;
         color: #818181;
         text-align: center;
-        font-weight: 200;
+        font-weight: 300;
         min-height: 9.06rem;
         margin-bottom: 1rem;
         font-family: $font-family-light;
       }
 
       .item-footer {
-        height: 1.5rem;
+        height: 2.69rem;
         text-align: center;
+        bottom: 3rem;
+        position: absolute;
+        width: 100%;
         a {
-          margin-left: 2rem;
+          margin-left: 2.69rem;
           &:first-child {
             margin-left: 0;
           }
         }
         .icon {
-          height: 1.5rem;
-          width: 1.5rem;
+          height: 2.5rem;
+          width: 2.5rem;
           line-height: 2.5rem;
           color: #999999;
           &:hover {
