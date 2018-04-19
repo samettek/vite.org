@@ -33,7 +33,7 @@
             },
             {
               icon: require('~/assets/images/smartcontract/white@3x.png'),
-              key: 'usability'
+              key: 'economy'
             },
             {
               icon: require('~/assets/images/multilayer/white@3x.png'),
@@ -41,7 +41,7 @@
             },
             {
               icon: require('~/assets/images/crop/white@3x.png'),
-              key: 'economy'
+              key: 'usability'
             }
           ]
         }
