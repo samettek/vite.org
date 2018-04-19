@@ -1,7 +1,6 @@
 <template>
   <div class="page-home">
     <section id="home" class="is-info is-fullheight " v-in-viewport>
-      <v-nav></v-nav>
       <div class="hero-body">
           <div class="container" v-in-viewport.once>
             <div class="has-text-centered hvr-bounce-in is-size-1-desktop is-size-2-touch hvr-grow">
@@ -152,8 +151,6 @@
 
 <style lang="scss">
   @import "assets/vars.scss";
-
-  $background-image: linear-gradient(-179deg, #032841 3%, #013462 100%);
 
   .page-home {
     font-family: $font-family-main;

@@ -30,7 +30,7 @@ module.exports = {
   router: {
     middleware: 'i18n'
   },
-  plugins: ['~/plugins/fontawesome'],
+  plugins: ['~/plugins/fontawesome', '~/plugins/vue-scrollactive'],
   generate: {
     routes: generateRoutes
   },
@@ -52,6 +52,9 @@ module.exports = {
       },
       'vue-headroom': {
         active: true
+      },
+      'vue-scrollactive': {
+        active: false
       }
     }],
     ['nuxt-i18n', {
