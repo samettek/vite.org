@@ -1,30 +1,49 @@
 <template>
-  <div id="home-nav" class="hero-head animated fadeIn delay-1-6 headroom" v-headroom>
-    <scrollactive class="navbar" :modify-url="false" :offset="0">
-      <div class="container is-widescreen" :class="{ 'is-open': navbarActive }">
-        <div class="navbar-brand">
-          <a class="navbar-item scrollactive-item" href="#home-nav">
-            <logo class="logo"></logo>
-          </a>
-          <div class="navbar-burger" @click="navbarActive = !navbarActive">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-
-        <div class="navbar-menu" :class="{ 'is-active': navbarActive }">
-          <div class="navbar-end">
-            <a :href="`#${item}`" @click="onNavClick" class="scrollactive-item nav-item" v-for="item in navs">
-              {{$t(`nav.${item}`)}}
+  <div>
+    <div id="home-nav" class="hero-head headroom" v-headroom>
+      <scrollactive class="navbar" :modify-url="false" :offset="0">
+        <div class="container is-widescreen" :class="{ 'is-open': navbarActive }" @click="onNavClick">
+          <div class="navbar-brand">
+            <a v-if="isIndexPage" class="navbar-item scrollactive-item" href="#home-nav">
+              <logo class="logo"></logo>
             </a>
-            <div class="nav-item">
-              <lang-select></lang-select>
+            <nuxt-link class="navbar-item" :to="localePath('index')" v-else>
+              <logo class="logo"></logo>
+            </nuxt-link>
+            <div class="navbar-burger" @click="navbarActive = !navbarActive">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+
+          <div class="navbar-menu" :class="{ 'is-active': navbarActive }">
+            <div class="navbar-end">
+              <template v-if="isIndexPage">
+                <a :key="item" :href="`#${item}`" class="nav-item scrollactive-item" v-for="item in navs">
+                  {{$t(`nav.${item}`)}}
+                </a>
+              </template>
+
+              <template v-else>
+                <nuxt-link :key="item" :to="{path: localePath('index'), hash: item}" class="nav-item" v-for="item in navs">
+                  {{$t(`nav.${item}`)}}
+                </nuxt-link>
+              </template>
+
+              <nuxt-link :to="localePath('careers')" class="nav-item">
+                {{$t(`nav.careers`)}}
+              </nuxt-link>
+
+              <div class="nav-item">
+                <lang-select></lang-select>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </scrollactive>
+      </scrollactive>
+    </div>
+    <nuxt></nuxt>
   </div>
 </template>
 
@@ -43,9 +62,17 @@
         navs: ['feature', 'tech', 'roadmap', 'team', 'faq']
       }
     },
+    computed: {
+      isIndexPage () {
+        return this.$route.name === `index-${this.$i18n.locale}`
+      }
+    },
     methods: {
-      onNavClick () {
-        this.navbarActive = false
+      onNavClick (e) {
+        let {target} = e
+        if (target.className && target.className.indexOf('nav-item') > -1) {
+          this.navbarActive = false
+        }
       }
     }
   }
@@ -55,7 +82,9 @@
   @import "assets/vars.scss";
 
   $nav-item-size: 1rem;
+  $nav-height: (130rem/16);
   $font-family-bold: HelveticaNeue-Bold,HelveticaNeue;
+
 
   .headroom {
     position: fixed;
@@ -64,6 +93,10 @@
     top: 0;
     z-index: 2343;
     transition: transform 0.4s ease;
+    .navbar-burger {
+      color: white;
+    }
+
     &.headroom--top {
       height: $nav-height;
       .navbar {
@@ -116,12 +149,12 @@
       font-size: $nav-item-size;
       & > .container {
         &.is-open {
-          background: rgba(1,52,98,1);
+          background: $background-image;
           .navbar-brand {
             border-bottom: 1px solid rgba(255,255,255,0.08);
           }
           .navbar-menu {
-            background: rgba(1,52,98,1);
+            background: $background-image;
           }
           .nav-item {
             color: rgba(255,255,255,0.7);

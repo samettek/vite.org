@@ -7339,6 +7339,12 @@ vue-scrollactive@^0.4.5:
   dependencies:
     bezier-easing "^2.0.3"
 
+vue-scrollactive@^0.6.1:
+  version "0.6.1"
+  resolved "http://registry.npm.taobao.org/vue-scrollactive/download/vue-scrollactive-0.6.1.tgz#2091bf25364ad37f32dfee2d9ead47d2005d3f28"
+  dependencies:
+    bezier-easing "^2.0.3"
+
 vue-server-renderer@^2.5.13:
   version "2.5.16"
   resolved "http://registry.npm.taobao.org/vue-server-renderer/download/vue-server-renderer-2.5.16.tgz#279ef8e37e502a0de3a9ae30758cc04a472eaac0"

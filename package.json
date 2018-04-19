@@ -27,6 +27,7 @@
     "prismjs": "^1.11.0",
     "twemoji": "^2.5.1",
     "vue-i18n": "^7.3.2",
+    "vue-scrollactive": "^0.6.1",
     "xui-module": "^0.1.5"
   },
   "devDependencies": {
