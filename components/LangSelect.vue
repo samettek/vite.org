@@ -5,7 +5,7 @@
         <span>{{$t('lang')}}</span>
       </button>
     </div>
-    <div class="dropdown-menu" id="lang-dropdown-menu" role="menu">
+    <div v-if="this.$i18n.locales.length > 1" class="dropdown-menu" id="lang-dropdown-menu" role="menu">
       <div class="dropdown-content">
         <template v-for="item in locales">
           <nuxt-link class="dropdown-item"

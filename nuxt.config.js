@@ -59,18 +59,18 @@ module.exports = {
     }],
     ['nuxt-i18n', {
       locales: [
-        {
-          code: 'en',
-          name: 'English',
-          langFile: 'en.js'
-        },
+        // {
+        //   code: 'en',
+        //   name: 'English',
+        //   langFile: 'en.js'
+        // },
         {
           code: 'zh',
           name: '中文',
           langFile: 'zh.js'
         }
       ],
-      defaultLocale: 'en',
+      defaultLocale: 'zh',
       // redirectRootToLocale: 'en',
       detectBrowserLanguage: true,
       redirectCookieKey: 'redirected',
