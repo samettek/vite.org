@@ -56,7 +56,6 @@
   $dot-size-inner: (2.5rem * $dot-gap);
 
   .timeline {
-    padding: 1rem;
     ul {
       li {
         list-style-type: none;

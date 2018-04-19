@@ -1,6 +1,6 @@
 <template>
   <div class="columns is-multiline">
-    <div class="main-team column is-12" v-in-viewport>
+    <div class="main-team container" v-in-viewport>
       <div class="column item is-destop is-6-desktop is-6-tablet is-4-widescreen is-12-mobile hvr-float-shadow"
            v-for="item in teams">
         <div class="is-info">
@@ -163,6 +163,9 @@
       .item-footer {
         height: 2.69rem;
         text-align: center;
+        bottom: 3rem;
+        position: absolute;
+        width: 100%;
         a {
           margin-left: 2.69rem;
           &:first-child {

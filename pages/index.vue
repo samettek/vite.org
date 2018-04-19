@@ -40,7 +40,7 @@
       <!--</div>-->
     <!--</section>-->
 
-    <section id="roadmap" class="hero">
+    <section id="roadmap" class="section">
       <div class="container" v-in-viewport>
         <h2 class="title section-title animated fadeInUp inview1">
           {{$t('roadmap.title')}}
