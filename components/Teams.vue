@@ -102,7 +102,7 @@
             ]
           }
         ],
-        teams2: []
+
       }
     },
     methods: {}
@@ -163,9 +163,6 @@
       .item-footer {
         height: 2.69rem;
         text-align: center;
-        bottom: 3rem;
-        position: absolute;
-        width: 100%;
         a {
           margin-left: 2.69rem;
           &:first-child {

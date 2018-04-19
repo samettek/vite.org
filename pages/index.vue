@@ -54,9 +54,9 @@
         <h2 class="title section-title inview1 animated fadeInDown delay-0-800">
           {{$t('team.title')}}
         </h2>
-        <!--<div class="sub-title inview1 animated fadeInUp delay-0-800">-->
-          <!--{{$t('team.subTitle')}}-->
-        <!--</div>-->
+        <div class="sub-title inview1 animated fadeInUp delay-0-800">
+          {{$t('team.subTitle')}}
+        </div>
         <teams></teams>
       </div>
     </section>
