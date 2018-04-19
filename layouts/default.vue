@@ -89,6 +89,7 @@
 
   $nav-item-size: 1rem;
   $nav-height: (130rem/16);
+  $nav-height-small: (52rem/16);
   $font-family-bold: HelveticaNeue-Bold,HelveticaNeue;
 
   .nuxt-link-exact-active {
@@ -104,7 +105,10 @@
     z-index: 2343;
     transition: transform 0.4s ease;
     .navbar {
-      height: auto;
+      height: $nav-height;
+      @include touch {
+        height: $nav-height-small;
+      }
     }
 
     .navbar-burger {
@@ -112,8 +116,13 @@
     }
 
     &.is-faq-page, &.is-technology-page {
+      &.headroom.headroom--pinned.headroom--not-top {
+        background: none;
+        & > nav.navbar {
+          background-color: rgba(0, 0, 0, 0.5);
+        }
+      }
       background: $background-image;
-      height: auto;
     }
 
     &.is-careers-page {
@@ -162,6 +171,10 @@
     }
 
     &.headroom--not-top{
+      height: $nav-height-small;
+      .navbar {
+        height: $nav-height-small;
+      }
       &.headroom--pinned, &:not(.headroom--unpinned):not(.headroom--pinned){
         .navbar {
           background-color: rgba(0,0,0,0.5);
@@ -233,7 +246,7 @@
 
         &.is-active {
           color: white;
-          background: $light-blue;
+          background: rgba(255,255,255, 0.05);
         }
 
         &.lang-btn {
@@ -263,6 +276,6 @@
     background-color: transparent;
   }
   .headroom.headroom--pinned.headroom--not-top>nav.navbar {
-    background-color: rgba(0, 0, 0, 0.5);
+    background: $background-image;
   }
 </style>
