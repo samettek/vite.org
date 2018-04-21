@@ -9,6 +9,7 @@ module.exports = {
     whitePaper: 'https://github.com/vitelabs/whitepaper',
     document: 'http://doc.vite.org',
     loopring: 'https://loopring.org/en/index.html',
-    faq: '/faq'
+    faq: '/faq',
+    medium: 'https://medium.com/vitelabs'
   }
 }

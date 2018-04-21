@@ -72,7 +72,7 @@
       & > img {
         height: 5rem;
         width: 5rem;
-        margin-top: 3rem;
+        margin-top: 2rem;
         margin-bottom: 2rem;
       }
     }

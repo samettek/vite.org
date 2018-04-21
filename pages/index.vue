@@ -15,6 +15,7 @@
               </a>
               <div class="social">
                 <a :href="socialUrls.discord" target="_blank"><fa-icon class="icon" :icon="['fab', 'discord']" /></a>
+                <a :href="socialUrls.telegramEn" target="_blank"><fa-icon class="icon" :icon="['fab', 'telegram-plane']" /></a>
                 <a :href="socialUrls.twitter" target="_blank"><fa-icon class="icon" :icon="['fab', 'twitter']" /></a>
                 <a :href="socialUrls.github" target="_blank"><fa-icon class="icon" :icon="['fab', 'github']" /></a>
               </div>

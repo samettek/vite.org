@@ -7,15 +7,11 @@
             <logo class="logo"></logo>
           </div>
           <div class="icon-links-wrapper">
-            <a :href="urls.github" target="_blank" class="icon">
-              <fa-icon :icon="['fab', 'github']"></fa-icon>
-            </a>
-            <a :href="urls.discord" target="_blank" class="icon">
-              <fa-icon :icon="['fab', 'discord']"></fa-icon>
-            </a>
-            <a :href="urls.twitter" target="_blank" class="icon">
-              <fa-icon :icon="['fab', 'twitter']"></fa-icon>
-            </a>
+            <a :href="urls.github" target="_blank" class="icon"><fa-icon :icon="['fab', 'github']"></fa-icon></a>
+            <a :href="urls.discord" target="_blank" class="icon"><fa-icon :icon="['fab', 'discord']"></fa-icon></a>
+            <a :href="urls.twitter" target="_blank" class="icon"><fa-icon :icon="['fab', 'twitter']"></fa-icon></a>
+            <a :href="urls.telegramEn" target="_blank" class="icon"><fa-icon :icon="['fab', 'telegram-plane']"/></a>
+            <a :href="urls.reddit" target="_blank" class="icon"><fa-icon :icon="['fab', 'reddit']"/></a>
           </div>
         </div>
         <div class="column">
@@ -59,7 +55,7 @@
     data: function () {
       return {
         urls: config.urls,
-        aboutList: ['telegramEn', 'telegramZh', 'loopring'],
+        aboutList: ['medium', 'telegramEn', 'telegramZh', 'loopring'],
         learnList: ['whitePaper', 'faq']
       }
     },
@@ -95,13 +91,13 @@
       }
     }
     .icon-links-wrapper {
-      font-size: 2rem;
+      font-size: 1.5rem;
       @include mobile {
         text-align: center;
       }
       .icon {
         color: rgba(255,255,255,0.8);
-        margin-left: 2rem;
+        margin-left: 1rem;
         &:hover {
           color: white;
         }

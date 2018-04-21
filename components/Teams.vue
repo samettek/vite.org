@@ -34,7 +34,7 @@
               <h3 class="inview4 animated fadeInDown delay-0-500">{{$t(`team.nameMap.${item.key}.position`)}}</h3>
               <h4 class="inview4 animated fadeInUp delay-0-500">{{$t(`team.nameMap.${item.key}.name`)}}</h4>
               <div class="team-des">{{$t(`team.nameMap.${item.key}.description`)}}</div>
-              <div class="item-footer">
+              <div class="item-footer" v-if="item.urls && item.urls.length > 0">
                 <a :href="url.url" target="_blank" :key="url.url" v-for="url in item.urls">
                   <fa-icon class="icon" :icon="url.icon" />
                 </a>
@@ -107,54 +107,14 @@
         ],
         advisors: [
           {
-            img: 'https://avatars1.githubusercontent.com/u/28188208?s=400&v=4',
-            key: 'liuchunming',
-            urls: [
-              {
-                icon: ['fab', 'twitter'],
-                url: 'https://twitter.com/chunming_liu'
-              },
-              {
-                icon: ['fab', 'linkedin'],
-                url: 'https://www.linkedin.com/in/liuchunming/'
-              },
-              {
-                icon: ['fab', 'github'],
-                url: 'https://github.com/charles-liu'
-              }
-            ]
+            key: 'chenxiaoliang',
+            urls: []
           },
           {
-            img: 'https://loopring.org/assets/img/team/dan-wang.jpg',
-            key: 'wangdong',
-            urls: [
-              {
-                icon: ['fab', 'twitter'],
-                url: 'https://twitter.com/daniel_loopring'
-              },
-              {
-                icon: ['fab', 'linkedin'],
-                url: 'https://www.linkedin.com/in/dong77'
-              },
-              {
-                icon: ['fab', 'github'],
-                url: 'https://github.com/dong77'
-              }
-            ]
+            key: 'machao'
           },
           {
-            img: 'https://avatars3.githubusercontent.com/u/4434380?s=400&v=4',
-            key: 'wuming',
-            urls: [
-              {
-                icon: ['fab', 'linkedin'],
-                url: 'https://www.linkedin.com/in/ming-wu-7a598b1b/'
-              },
-              {
-                icon: ['fab', 'github'],
-                url: 'https://github.com/sparkwoo'
-              }
-            ]
+            key: 'zhongkongliang'
           }
         ]
       }

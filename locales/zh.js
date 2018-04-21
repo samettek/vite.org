@@ -151,6 +151,21 @@ module.exports = {
         'name': '武鸣',
         'position': '',
         'description': '资深科学家。毕业于中国科技大学，中科院计算所。微软亚洲研究院Senior Research Manager，在分布式系统和AI领域发表过十余篇论文。'
+      },
+      'chenxiaoliang': {
+        'name': '陈晓亮',
+        'position': '',
+        'description': '资深金融产品运营专家，路印协议COO。曾任三诺集团CIO。'
+      },
+      'machao': {
+        'name': '马超',
+        'position': '',
+        'description': '资深区块链专家，路印协议首席研究员。曾任Google高级研发工程师，币丰港联合创始人。\n'
+      },
+      'zhongkongliang': {
+        'name': '钟孔亮',
+        'position': '',
+        'description': '资深技术专家，路印协议架构师。曾任中国银行，云云网资深工程师，币丰港交易所资深架构师。'
       }
     }
   },
@@ -189,7 +204,9 @@ module.exports = {
     'telegramEn': 'Telegram 英语群',
     'telegramZh': 'Telegram 中文群',
     'loopring': '路印协议',
-    'faq': '问题答疑'
+    'faq': '问题答疑',
+    'medium': '博客（英文）',
+    'mediumZh': '博客（中文）'
   },
   'utils': {
     readMore: '阅读更多'
