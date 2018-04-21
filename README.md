@@ -33,9 +33,6 @@ If the node-sass is not installed correctly, you can run `npm rebuild node-sass`
 
 You can edit lang translate data from [locales](https://github.com/vitelabs/website/tree/master/locales). The default language is : `en`.
 
-Wiki also support multi languages, you can edit it at [content](https://github.com/vitelabs/website/tree/master/content)
-
-
 
 
 
