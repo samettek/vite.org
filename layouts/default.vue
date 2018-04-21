@@ -1,14 +1,14 @@
 <template>
   <div>
     <div id="home-nav" class="hero-head headroom" :class="`is-${routeName}-page`" v-headroom>
-      <scrollactive class="navbar" :modify-url="false" :offset="0">
+      <scrollactive class="navbar" :modify-url="true" :offset="0">
         <div class="container is-widescreen" :class="{ 'is-open': navbarActive }" @click="onNavClick">
           <div class="navbar-brand">
             <a v-if="isIndexPage" class="navbar-item scrollactive-item" href="#home-nav">
               <logo-without-words class="logo"></logo-without-words>
             </a>
             <nuxt-link class="navbar-item" :to="localePath('index')" v-else>
-              <logo class="logo"></logo>
+              <logo-without-words class="logo"></logo-without-words>
             </nuxt-link>
             <div class="navbar-burger" @click="navbarActive = !navbarActive">
               <span></span>
