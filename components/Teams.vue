@@ -23,10 +23,12 @@
       </div>
     </div>
 
+    <h3 class="advisor-head">{{$t('team.advisor')}}</h3>
+
     <div class="sub-team column is-12">
       <div class="columns is-multiline" v-in-viewport>
         <div class="column item is-destop is-6-desktop is-6-tablet is-4-widescreen is-12-mobile hvr-float-shadow"
-             v-for="item in teams2">
+             v-for="item in advisors">
           <div class="is-info">
             <div class="description">
               <h3 class="inview4 animated fadeInDown delay-0-500">{{$t(`team.nameMap.${item.key}.position`)}}</h3>
@@ -38,11 +40,12 @@
                 </a>
               </div>
             </div>
-
           </div>
         </div>
       </div>
     </div>
+
+    <h3></h3>
   </div>
 </template>
 
@@ -102,7 +105,58 @@
             ]
           }
         ],
-        teams2: []
+        advisors: [
+          {
+            img: 'https://avatars1.githubusercontent.com/u/28188208?s=400&v=4',
+            key: 'liuchunming',
+            urls: [
+              {
+                icon: ['fab', 'twitter'],
+                url: 'https://twitter.com/chunming_liu'
+              },
+              {
+                icon: ['fab', 'linkedin'],
+                url: 'https://www.linkedin.com/in/liuchunming/'
+              },
+              {
+                icon: ['fab', 'github'],
+                url: 'https://github.com/charles-liu'
+              }
+            ]
+          },
+          {
+            img: 'https://loopring.org/assets/img/team/dan-wang.jpg',
+            key: 'wangdong',
+            urls: [
+              {
+                icon: ['fab', 'twitter'],
+                url: 'https://twitter.com/daniel_loopring'
+              },
+              {
+                icon: ['fab', 'linkedin'],
+                url: 'https://www.linkedin.com/in/dong77'
+              },
+              {
+                icon: ['fab', 'github'],
+                url: 'https://github.com/dong77'
+              }
+            ]
+          },
+          {
+            img: 'https://avatars3.githubusercontent.com/u/4434380?s=400&v=4',
+            key: 'wuming',
+            urls: [
+              {
+                icon: ['fab', 'linkedin'],
+                url: 'https://www.linkedin.com/in/ming-wu-7a598b1b/'
+              },
+              {
+                icon: ['fab', 'github'],
+                url: 'https://github.com/sparkwoo'
+              }
+            ]
+          }
+        ]
       }
     },
     methods: {}
@@ -146,7 +200,7 @@
       padding-top:1.5rem;
       padding-bottom: 1rem;
       width: 100%;
-      min-height: 25.75rem;
+      min-height: 22.5rem;
       border-top: none;
       .team-des {
         padding: 1rem;
@@ -183,5 +237,11 @@
         }
       }
     }
+  }
+
+  .advisor-head {
+    text-align: center;
+    padding: 2rem 0;
+    width: 100%;
   }
 </style>

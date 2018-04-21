@@ -9,6 +9,7 @@
           <h2 class="subtitle inview1 delay-0-700 animated fadeInUp">
             {{$t('careers.subtitle')}}
           </h2>
+          <p class="contact inview1 delay-0-700 animated fadeInUp">{{$t('careers.contact')}} hr@vite.org</p>
         </div>
       </div>
     </section>
@@ -71,6 +72,10 @@
       }
       .subtitle {
         margin-top: 1rem;
+      }
+      .contact {
+        text-align: center;
+        color: rgba(255,255,255,0.8);
       }
     }
   }

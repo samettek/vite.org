@@ -23,16 +23,17 @@
             <div class="column links-wrapper is-half">
               <div>学习</div>
               <ul>
-                <li><a :href="urls.whitePaper" target="_blank">{{$t('urls.whitePaper')}}</a></li>
-                <li><a :href="urls.document" target="_blank">{{$t('urls.document')}}</a></li>
+                <li v-for="item in learnList">
+                  <a :href="urls[item]" target="_blank">{{$t(`urls.${item}`)}}</a>
+                </li>
               </ul>
             </div>
             <div class="column links-wrapper">
               <div>关于</div>
               <ul>
-                <li><a :href="urls.telegramEn" target="_blank">{{$t('urls.telegramEn')}}</a></li>
-                <li><a :href="urls.telegramZh" target="_blank">{{$t('urls.telegramZh')}}</a></li>
-                <li><a :href="urls.loopring" target="_blank">Loopring</a></li>
+                <li v-for="item in aboutList">
+                  <a :href="urls[item]" target="_blank">{{$t(`urls.${item}`)}}</a>
+                </li>
               </ul>
             </div>
           </div>
@@ -57,7 +58,9 @@
     },
     data: function () {
       return {
-        urls: config.urls
+        urls: config.urls,
+        aboutList: ['telegramEn', 'telegramZh', 'loopring'],
+        learnList: ['whitePaper', 'faq']
       }
     },
     methods: {}

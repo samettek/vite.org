@@ -135,6 +135,7 @@ module.exports = {
   'team': {
     'title': '核心团队',
     'subTitle': '',
+    'advisor': '顾问团队',
     'nameMap': {
       'liuchunming': {
         'name': '刘春明',
@@ -186,7 +187,9 @@ module.exports = {
     'whitePaper': '白皮书',
     'document': '文档',
     'telegramEn': 'Telegram 英语群',
-    'telegramZh': 'Telegram 中文群'
+    'telegramZh': 'Telegram 中文群',
+    'loopring': '路印协议',
+    'faq': '问题答疑'
   },
   'utils': {
     readMore: '阅读更多'
@@ -197,6 +200,7 @@ module.exports = {
     desc: '职位描述',
     require: '职位要求',
     special: '有以下经验者优先',
+    contact: '简历提交：',
     jd: {
       java: {
         title: 'Java 高级开发工程师',
