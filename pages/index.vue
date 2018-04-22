@@ -55,9 +55,6 @@
         <h2 class="title section-title inview1 animated fadeInDown delay-0-800">
           {{$t('team.title')}}
         </h2>
-        <div class="sub-title inview1 animated fadeInUp delay-0-800">
-          {{$t('team.subTitle')}}
-        </div>
         <teams></teams>
       </div>
     </section>
@@ -151,11 +148,10 @@
 
     .section-title {
       text-align: center;
-      font-size: 2.5rem;
+      font-size: 2rem;
       color: #111111;
       font-family: $font-family-light;
       font-weight: normal;
-      line-height: 3.06rem;
     }
 
     & > section {
@@ -194,7 +190,7 @@
           }
           .button {
             height: 3.75rem;
-            font-size: 1.13rem;
+            font-size: 1rem;
             width: 13.44rem;
             color: rgba(45,45,45,1);
             border: none;
@@ -282,12 +278,12 @@
 
     #team {
       .section-title {
-        margin-bottom: 0.63rem;
+        margin-bottom: 4rem;
       }
       .sub-title {
         overflow: hidden;
         font-family: $font-family-light;
-        font-size: 1.13rem;
+        font-size: 1rem;
         color: #111111;
         text-align: center;
         line-height: 1.75rem;

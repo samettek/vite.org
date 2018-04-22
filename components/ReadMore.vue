@@ -18,7 +18,7 @@
 <style rel="stylesheet/scss" lang="scss" scoped>
   @import '~assets/vars';
   .icon {
-    font-size: 1.13rem;
+    font-size: 1rem;
     height: inherit;
     margin-left: 0.3rem;
   }

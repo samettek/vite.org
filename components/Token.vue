@@ -161,7 +161,7 @@
 
   .investor-detail {
     .investor {
-      font-size: 1.13rem;
+      font-size: 1rem;
       line-height: 1.75rem;
     }
     .investor-des {

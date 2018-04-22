@@ -58,12 +58,12 @@
       color: white;
       text-align: center;
       & > h3 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
       }
       & > .feature-des {
         color:rgba(255,255,255,0.9);
         padding: 1rem;
-        font-size: 1rem;
+        font-size: 0.95rem;
       }
     }
     .icon-wrapper {

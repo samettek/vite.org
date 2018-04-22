@@ -166,11 +166,11 @@
       padding-top:1.5rem;
       padding-bottom: 1rem;
       width: 100%;
-      min-height: 22.5rem;
+      min-height: 20rem;
       border-top: none;
       .team-des {
         padding: 1rem;
-        font-size: 1.13rem;
+        font-size: 1rem;
         line-height: 1.75rem;
         color: #818181;
         text-align: center;

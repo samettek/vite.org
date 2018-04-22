@@ -83,7 +83,7 @@
         padding: 0 1rem 0.5rem 1rem;
         line-height: 1.75rem;
         color: #111111;
-        font-size: 1.13rem;
+        font-size: 1rem;
         font-weight: 200;
         &:last-child {
           margin-top: 1rem;

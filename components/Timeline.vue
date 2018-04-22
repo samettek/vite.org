@@ -126,9 +126,9 @@
           font-family: $font-family-light;
 
           .time {
-            margin-top: -1.13rem;
+            margin-top: -1rem;
             display: block;
-            font-size: 1.13rem;
+            font-size: 1rem;
             line-height: 1.38rem;
             text-transform: uppercase;
             color: #666666;
