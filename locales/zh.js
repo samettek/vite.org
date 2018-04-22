@@ -180,14 +180,36 @@ module.exports = {
         ]
       },
       {
-        'question': 'Vite和loopring是什么关系？',
+        'question': 'Vite和Loopring是什么关系？',
         'answer': '双方属于是合作关系，Loopring的创始人王东将作为Vite的联合创始人，Loopring协议将内置到Vite系统中，Vite上线后可在钱包中使用Loopring的去中心化交易所功能。'
+      },
+      {
+        question: 'Vite 会有空投么？会以什么方式？',
+        answer: [
+          '会有空投。但是数目未定，方式也未定。'
+        ]
       },
       {
         'question': 'Vite里的快照链是整个系统安全的核心，如何保证快照链的安全？',
         'answer': [
-          '快照链采用DPOS共识机制，在一定程度上为了性能牺牲了安全性。如何维护系统安全，需要在共识节点的投票、社区治理上下功夫。'
+          '快照链采用DPOS共识机制，在一定程度上为了性能牺牲了安全性。如何维护系统安全，需要在共识节点的投票、社区治理上下功夫。',
+          'TODO'
         ]
+      },
+      {
+        question: 'Vite的智能合约间调用取消了同步调用，那如何兼容以太里同步调用的场景？',
+        answer: '不能兼容。需要改动同步的代码为异步代码，才能兼容。'
+      },
+      {
+        question: 'Vite的Solidity++和以太的Solidity有什么区别？',
+        answer: [
+          '就像c和c++一样，solidity++的名字就是源自于此。在基本语法上，Solidity++和Solidity兼容，最大差异是消息调用的语义不同，以太代码里，是一个同步调用，在Solidity++里是异步调用。',
+          '另外，在Solidity++中，将提供一系列标准库，例如:字符串处理、浮点运算、基本数学运算、容器、排序等。'
+        ]
+      },
+      {
+        question: '区块裁剪如何实现？',
+        answer: []
       }
     ]
   },
