@@ -4,12 +4,14 @@
       <scrollactive class="navbar" :modify-url="true" :offset="0">
         <div class="container is-widescreen" :class="{ 'is-open': navbarActive }" @click="onNavClick">
           <div class="navbar-brand">
-            <a v-if="isIndexPage" class="navbar-item scrollactive-item" href="#home-nav">
-              <logo-without-words class="logo"></logo-without-words>
-            </a>
-            <nuxt-link class="navbar-item" :to="localePath('index')" v-else>
-              <logo-without-words class="logo"></logo-without-words>
-            </nuxt-link>
+            <div @click="onLogoClick">
+              <a v-if="isIndexPage" class="navbar-item scrollactive-item" href="#home-nav">
+                <logo-without-words class="logo"></logo-without-words>
+              </a>
+              <nuxt-link class="navbar-item" :to="localePath('index')" v-else>
+                <logo-without-words class="logo"></logo-without-words>
+              </nuxt-link>
+            </div>
             <div class="navbar-burger" @click="navbarActive = !navbarActive">
               <span></span>
               <span></span>
@@ -79,6 +81,9 @@
         if (target.className && typeof target.className === 'string' && target.className.indexOf('nav-item') > -1) {
           this.navbarActive = false
         }
+      },
+      onLogoClick () {
+        this.navbarActive = false
       }
     }
   }
