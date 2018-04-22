@@ -114,7 +114,7 @@
       & > div {
         &:first-child {
           color: white;
-          margin-bottom: 2rem;
+          margin-bottom: 1rem;
         }
       }
       ul {

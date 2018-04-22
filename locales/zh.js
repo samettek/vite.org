@@ -162,10 +162,10 @@ module.exports = {
         'position': '',
         'description': '资深区块链专家，路印协议首席研究员。曾任Google高级研发工程师，币丰港联合创始人。\n'
       },
-      'zhongkongliang': {
-        'name': '钟孔亮',
+      'terenceLam': {
+        'name': 'Terence Lam',
         'position': '',
-        'description': '资深技术专家，路印协议架构师。曾任中国银行，云云网资深工程师，币丰港交易所资深架构师。'
+        'description': '毕业于哈佛商学院。智子区块链基金合伙人。香港大学SPACE中国商业学院客座讲师。20年以上全球500强公司技术高管经验。曾创办过多家科技公司。'
       }
     }
   },

@@ -154,11 +154,6 @@
       font-weight: normal;
     }
 
-    & > section {
-      padding-top: 4rem;
-      padding-bottom: 4rem;
-    }
-
     #home {
       background-image: $background-image;
       color: rgba(255,255,255,0.9);
@@ -248,7 +243,6 @@
 
     #feature {
       padding-top: 6.25rem;
-      padding-bottom: 6.25rem;
       background: white;
     }
 

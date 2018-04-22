@@ -30,6 +30,10 @@
         <div class="column item is-destop is-6-desktop is-6-tablet is-4-widescreen is-12-mobile hvr-float-shadow"
              v-for="item in advisors">
           <div class="is-info">
+            <figure class="image is-square">
+              <img :src="item.img">
+            </figure>
+
             <div class="description">
               <h3 class="inview4 animated fadeInDown delay-0-500">{{$t(`team.nameMap.${item.key}.position`)}}</h3>
               <h4 class="inview4 animated fadeInUp delay-0-500">{{$t(`team.nameMap.${item.key}.name`)}}</h4>
@@ -55,7 +59,7 @@
       return {
         teams: [
           {
-            img: 'https://avatars1.githubusercontent.com/u/28188208?s=400&v=4',
+            img: require('~/assets/images/teams/liuchunming.jpeg'),
             key: 'liuchunming',
             urls: [
               {
@@ -73,7 +77,7 @@
             ]
           },
           {
-            img: 'https://loopring.org/assets/img/team/dan-wang.jpg',
+            img: require('~/assets/images/teams/dan-wang.jpg'),
             key: 'wangdong',
             urls: [
               {
@@ -91,7 +95,7 @@
             ]
           },
           {
-            img: 'https://avatars3.githubusercontent.com/u/4434380?s=400&v=4',
+            img: require('~/assets/images/teams/wuming.jpeg'),
             key: 'wuming',
             urls: [
               {
@@ -108,13 +112,15 @@
         advisors: [
           {
             key: 'chenxiaoliang',
-            urls: []
+            img: require('~/assets/images/teams/xiaoliang-chen.jpg')
           },
           {
-            key: 'machao'
+            key: 'machao',
+            img: require('~/assets/images/teams/chao-ma.jpg')
           },
           {
-            key: 'zhongkongliang'
+            key: 'terenceLam',
+            img: require('~/assets/images/teams/terence-bio.jpg')
           }
         ]
       }
@@ -134,9 +140,6 @@
 
   .columns {
     .sub-team {
-      .is-info {
-        background-color: #F7F7F7;
-      }
       .description {
         min-height: 13.5rem;
         .team-des {
