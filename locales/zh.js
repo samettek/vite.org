@@ -33,7 +33,7 @@ module.exports = {
     },
     'usability': {
       'title': '易用性',
-      'description': '功能更强大的solidity++智能合约语言，提供丰富的标准库和事件处理语法；支持合约定时调度、VNS命名服务、合约升级等功能；Vite客户端集成基于HTML5的去中心化小程序引擎，降低dApp开发部署门槛。'
+      'description': '功能更强大的solidity++智能合约语言；支持合约定时调度、VNS命名服务、合约升级等功能；Vite客户端集成基于HTML5的去中心化小程序引擎，降低dApp开发部署门槛。'
     },
     'value': {
       'title': '价值闭环',

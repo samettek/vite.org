@@ -62,7 +62,7 @@
       return {
         navbarActive: false,
         navs: ['feature', 'roadmap', 'team'],
-        otherNavs: ['careers']
+        otherNavs: []
       }
     },
     computed: {

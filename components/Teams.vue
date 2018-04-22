@@ -137,6 +137,12 @@
       .is-info {
         background-color: #F7F7F7;
       }
+      .description {
+        min-height: 13.5rem;
+        .team-des {
+          min-height: auto;
+        }
+      }
     }
 
     .is-info {
