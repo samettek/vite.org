@@ -174,27 +174,20 @@ module.exports = {
     'questions': [
       {
         'question': '什么是Vite？',
-        'answer': 'Vite是一个快速无手续费的分布式交易账本，以Block-Lattice为账本结构，构建的高性能、可扩展的智能合约平台。'
+        'answer': [
+          'Vite 是一个通用的去中心化应用平台，在兼顾安全性的同时，满足了工业级应用对高吞吐、低延迟和扩展性的要求。',
+          'Vite 致力于解决基础链目前的性能和扩展性问题，以便在基础链上能搭建出真正实用且高频的应用。'
+        ]
       },
       {
         'question': 'Vite和loopring是什么关系？',
-        'answer': '双方属于是合作关系，Loopring的创始人王东将作为vite的联合创始人，未来loopring协议也会在vite平台上运行。'
+        'answer': '双方属于是合作关系，Loopring的创始人王东将作为Vite的联合创始人，Loopring协议将内置到Vite系统中，Vite上线后可在钱包中使用Loopring的去中心化交易所功能。'
       },
       {
-        'question': 'Vite和eth、eos、ada、nano有什么不一样的地方？',
-        'answer': 'Vite的账本结构和eth、eos、ada都不一样，Vite采用Block-lattice账本结构，这一点和nano是一致的。Vite在Block-lattice基础上增加Snapshot Chain（快照链），解决nano交易无法固化问题，\n            并为智能合约提供【全局时钟】。<br/>\n            Vite的每一个合约为一条链，每个合约可以有自己的共识节点，并可以和主链（Snapshot Chain）可以进行通信。这可以变相实现私有链的功能。'
-      },
-      {
-        'question': 'Vite里的主链起到了什么作用？',
-        'answer': '1. 固化交易<br/> 2. 将投票结果写入区块 <br/> 3. 提供全局时钟  </br> 有关Snapshot Chain的细节描述，请移步：<a href="https://medium.com/@chunming.vite/snapshot-chain-an-improvement-on-block-lattice-561aaabd1a2b">Snapshot Chain: An Improvement on Block-lattice</a>'
-      },
-      {
-        'question': 'Snapshot Chain如何能做到区块缩减？',
-        'answer': 'TODO'
-      },
-      {
-        'question': 'Vite智能合约是如何实现？',
-        'answer': 'TODO'
+        'question': 'Vite里的快照链是整个系统安全的核心，如何保证快照链的安全？',
+        'answer': [
+          '快照链采用DPOS共识机制，在一定程度上为了性能牺牲了安全性。如何维护系统安全，需要在共识节点的投票、社区治理上下功夫。'
+        ]
       }
     ]
   },

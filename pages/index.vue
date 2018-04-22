@@ -62,15 +62,6 @@
       </div>
     </section>
 
-    <!--<section id="faq" class="section">-->
-      <!--<div class="container" v-in-viewport>-->
-        <!--<h2 class="title section-title inview1 animated fadeInUp delay-0-800">-->
-          <!--{{$t('faq.title')}}-->
-        <!--</h2>-->
-        <!--<faq></faq>-->
-      <!--</div>-->
-    <!--</section>-->
-
     <v-footer></v-footer>
   </div>
 </template>
@@ -78,7 +69,6 @@
 <script>
   import Timeline from '~/components/Timeline.vue'
   import Teams from '~/components/Teams.vue'
-  import Faq from '~/components/FAQ'
   import Footer from '~/components/Footer.vue'
   import Feature from '~/components/Feature'
   import Nav from '~/components/Nav'
@@ -97,7 +87,6 @@
     components: {
       Timeline,
       Teams,
-      Faq,
       VFooter: Footer,
       VFeature: Feature,
       VNav: Nav,
