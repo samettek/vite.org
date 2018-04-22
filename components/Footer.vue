@@ -56,7 +56,7 @@
       return {
         urls: config.urls,
         aboutList: ['medium', 'telegramEn', 'telegramZh', 'loopring'],
-        learnList: ['whitePaper', 'faq']
+        learnList: ['whitePaper']
       }
     },
     methods: {}
