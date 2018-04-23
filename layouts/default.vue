@@ -5,10 +5,10 @@
         <div class="container is-widescreen" :class="{ 'is-open': navbarActive }" @click="onNavClick">
           <div class="navbar-brand">
             <div @click="onLogoClick">
-              <a v-if="isIndexPage" class="navbar-item scrollactive-item" href="#home-nav">
+              <a v-if="isIndexPage" class="nav-item navbar-item scrollactive-item" href="#home-nav">
                 <logo-without-words class="logo"></logo-without-words>
               </a>
-              <nuxt-link class="navbar-item" :to="localePath('index')" v-else>
+              <nuxt-link class="navbar-item nav-item" :to="localePath('index')" v-else>
                 <logo-without-words class="logo"></logo-without-words>
               </nuxt-link>
             </div>
@@ -118,6 +118,12 @@
 
     .navbar-burger {
       color: white;
+    }
+
+    .navbar-brand {
+      .nav-item {
+        height: 100%;
+      }
     }
 
     &.is-faq-page, &.is-technology-page {
