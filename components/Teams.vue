@@ -77,24 +77,6 @@
             ]
           },
           {
-            img: require('~/assets/images/teams/dan-wang.jpg'),
-            key: 'wangdong',
-            urls: [
-              {
-                icon: ['fab', 'twitter'],
-                url: 'https://twitter.com/daniel_loopring'
-              },
-              {
-                icon: ['fab', 'linkedin'],
-                url: 'https://www.linkedin.com/in/dong77'
-              },
-              {
-                icon: ['fab', 'github'],
-                url: 'https://github.com/dong77'
-              }
-            ]
-          },
-          {
             img: require('~/assets/images/teams/wuming.jpeg'),
             key: 'wuming',
             urls: [
@@ -111,8 +93,8 @@
         ],
         advisors: [
           {
-            key: 'chenxiaoliang',
-            img: require('~/assets/images/teams/xiaoliang-chen.jpg')
+            img: require('~/assets/images/teams/dan-wang.jpg'),
+            key: 'wangdong'
           },
           {
             key: 'machao',
@@ -138,10 +120,16 @@
     }
   }
 
+  .main-team {
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+  }
+
   .columns {
     .sub-team {
       .description {
-        min-height: 13.5rem;
+        min-height: 15rem;
         .team-des {
           min-height: auto;
         }
