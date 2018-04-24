@@ -124,6 +124,9 @@
     align-items: center;
     justify-content: space-around;
     display: flex;
+    @include mobile {
+      display: block;
+    }
   }
 
   .columns {
