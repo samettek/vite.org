@@ -106,10 +106,11 @@
   #home-nav {
     position: fixed;
     right: 0;
-    left: 1px;
+    left: 0;
     top: 0;
     z-index: 2343;
     transition: transform 0.4s ease;
+    width: 100vw;
     .navbar {
       height: $nav-height;
       @include touch {
@@ -147,16 +148,16 @@
         height: $nav-height;
       }
       @include touch {
-        height: (52rem/16);
+        height: $nav-height-small;
         .navbar {
-          height: (52rem/16);
+          height: $nav-height-small;
         }
       }
 
       .navbar-brand {
         .navbar-item {
           .logo {
-            height: 52px;
+            height: $nav-height-small;
           }
         }
       }
@@ -232,7 +233,7 @@
             }
 
             @include desktop {
-              height: (52rem/16);
+              height: $nav-height-small;
             }
           }
           &:hover {
