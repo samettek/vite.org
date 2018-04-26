@@ -154,6 +154,7 @@
       width: 100%;
       min-height: 20rem;
       border-top: none;
+      position: relative;
       .team-des {
         padding: 1rem;
         font-size: 1rem;
