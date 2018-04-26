@@ -72,13 +72,14 @@
         return this.$route.name === `index-${this.$i18n.locale}`
       },
       routeName () {
+        if (!this.$route || !this.$route.name) return ''
         return this.$route.name.split('-')[0]
       }
     },
     methods: {
       onNavClick (e) {
         let {target} = e
-        if (target.className && typeof target.className === 'string' && target.className.indexOf('nav-item') > -1) {
+        if (target && target.className && typeof target.className === 'string' && target.className.indexOf('nav-item') > -1) {
           this.navbarActive = false
         }
       },
