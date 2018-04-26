@@ -1,2 +1,8 @@
 @import "customBulma";
 @import "hover";
+
+@import "vars";
+
+body {
+  font-family: $font-family-main;
+}

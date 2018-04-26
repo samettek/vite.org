@@ -110,7 +110,6 @@
     top: 0;
     z-index: 2343;
     transition: transform 0.4s ease;
-    width: 100vw;
     .navbar {
       height: $nav-height;
       @include touch {

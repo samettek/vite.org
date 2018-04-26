@@ -1,7 +1,7 @@
 <template>
   <div class="columns is-multiline">
-    <div class="main-team container" v-in-viewport>
-      <div class="column item is-destop is-6-desktop is-6-tablet is-4-widescreen is-12-mobile hvr-float-shadow"
+    <div class="main-team" v-in-viewport>
+      <div class="column item is-destop is-6-desktop is-6-tablet is-4-widescreen is-12-mobile hvr-float"
            v-for="item in teams">
         <div class="is-info">
           <figure class="image is-square">
@@ -27,7 +27,7 @@
 
     <div class="sub-team column is-12">
       <div class="columns is-multiline" v-in-viewport>
-        <div class="column item is-destop is-6-desktop is-6-tablet is-4-widescreen is-12-mobile hvr-float-shadow"
+        <div class="column item is-destop is-6-desktop is-6-tablet is-4-widescreen is-12-mobile hvr-float"
              v-for="item in advisors">
           <div class="is-info">
             <figure class="image is-square">
@@ -48,8 +48,6 @@
         </div>
       </div>
     </div>
-
-    <h3></h3>
   </div>
 </template>
 
@@ -113,12 +111,6 @@
 
 <style rel="stylesheet/scss" lang="scss" scoped>
   @import "~assets/vars";
-
-  .hvr-float-shadow {
-    &:before {
-      background: none;
-    }
-  }
 
   .main-team {
     align-items: center;

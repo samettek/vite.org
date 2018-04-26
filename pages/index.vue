@@ -1,6 +1,6 @@
 <template>
-  <div class="page-home">
-    <section id="home" class="is-info is-fullheight " v-in-viewport>
+  <div>
+    <section id="home" class="is-info is-fullheight" v-in-viewport>
       <div class="hero-body">
           <div class="container" v-in-viewport.once>
             <div class="has-text-centered hvr-bounce-in is-size-1-desktop is-size-2-touch hvr-grow">
@@ -128,168 +128,167 @@
 </script>
 
 <style lang="scss">
+  .particles-js-canvas-el {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+</style>
+
+<style lang="scss" scoped>
   @import "assets/vars.scss";
 
-  .page-home {
-    font-family: $font-family-main;
-    .particles-js-canvas-el {
-      position: absolute;
-      top: 0;
-    }
+  .section-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #111111;
+    font-family: $font-family-light;
+    font-weight: normal;
+  }
 
-    .section-title {
-      text-align: center;
-      font-size: 2rem;
-      color: #111111;
-      font-family: $font-family-light;
-      font-weight: normal;
-    }
-
-    #home {
-      background-image: $background-image;
-      color: rgba(255,255,255,0.9);
-      padding-top: 0;
-      padding-bottom: 0;
-      font-family: $font-family-light;
-      .hero-body {
-        z-index: 8;
-        height: 100vh;
-        .container {
-          text-align: center;
-          margin-top: 25vh;
-          z-index: 100;
-          max-width: 50rem;
-        }
-        .hero-btn-wrapper {
-          margin-top: 4rem;
-          padding: 0;
-          font-family: $font-family-main;
-          .social {
-            font-size: 3rem;
-            margin-top: 1rem;
-            .icon {
-              color: rgba(255,255,255,0.7);
-              &:hover {
-                color: white;
-              }
-            }
-          }
-          .button {
-            height: 3.75rem;
-            font-size: 1rem;
-            width: 13.44rem;
-            color: rgba(45,45,45,1);
-            border: none;
-            line-height: 1.38rem;
-            display: inline-flex;
-
-            @include mobile {
-              height: 3rem;
-              font-size: 1rem;
-            }
-
-            &:before {
-              background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.1) 0%, transparent 80%);
-            }
-
-            &:hover {
-              color: rgba(255,255,255, 1);
-              background: rgba(54, 130, 222, 1);
-            }
-            &:focus {
-              border: none;
-            }
-          }
-        }
-
-        h1 {
-          @include mobile {
-            font-size: 3.2rem;
-            line-height: 3.2rem * 1.5;
-          }
-          @include tablet {
-            font-size: 3.6rem;
-            line-height: 3.6rem * 1.5;
-          }
-          @include desktop {
-            font-size: 4rem;
-            line-height: 4rem * 1.5;
-          }
-          @include fullhd {
-            font-size: 4.5rem;
-            line-height: 4.5rem * 1.5;
-          }
-        },
-        h2 {
-          color: rgba(255,255,255, 0.8);
-          font-size: 1.5rem;
-          line-height: 2rem;
-          font-weight: 200;
-          @include mobile {
-            font-size: 1.2rem;
-          }
-        }
-      }
-    }
-
-    #feature {
-      padding-top: 6.25rem;
-      background: white;
-    }
-
-    #tech {
-      background: #fafafa;
-      @include mobile {
-        & > .container {
-          width: 100%;
-        }
-      }
-
-      h2 {
-        margin-bottom: 4rem;
-      }
-    }
-
-    #roadmap {
-      background: lighten(#f7f7f7, 0%);
-      @include mobile {
-        .container {
-          margin: 0;
-        }
-      }
-      h2 {
-        margin-bottom: 4rem;
-      }
-    }
-
-    #team {
-      .section-title {
-        margin-bottom: 4rem;
-      }
-      .sub-title {
-        overflow: hidden;
-        font-family: $font-family-light;
-        font-size: 1rem;
-        color: #111111;
+  #home {
+    background-image: $background-image;
+    color: rgba(255,255,255,0.9);
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: $font-family-light;
+    .hero-body {
+      z-index: 8;
+      height: 100vh;
+      .container {
         text-align: center;
-        line-height: 1.75rem;
-        font-weight: 300;
-        margin-bottom: 4.44rem;
+        margin-top: 25vh;
+        z-index: 100;
+        max-width: 50rem;
+      }
+      .hero-btn-wrapper {
+        margin-top: 4rem;
+        padding: 0;
+        font-family: $font-family-main;
+        .social {
+          font-size: 3rem;
+          margin-top: 1rem;
+          .icon {
+            color: rgba(255,255,255,0.7);
+            &:hover {
+              color: white;
+            }
+          }
+        }
+        .button {
+          height: 3.75rem;
+          font-size: 1rem;
+          width: 13.44rem;
+          color: rgba(45,45,45,1);
+          border: none;
+          line-height: 1.38rem;
+          display: inline-flex;
+
+          @include mobile {
+            height: 3rem;
+            font-size: 1rem;
+          }
+
+          &:before {
+            background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.1) 0%, transparent 80%);
+          }
+
+          &:hover {
+            color: rgba(255,255,255, 1);
+            background: rgba(54, 130, 222, 1);
+          }
+          &:focus {
+            border: none;
+          }
+        }
+      }
+
+      h1 {
+        @include mobile {
+          font-size: 3.2rem;
+          line-height: 3.2rem * 1.5;
+        }
+        @include tablet {
+          font-size: 3.6rem;
+          line-height: 3.6rem * 1.5;
+        }
+        @include desktop {
+          font-size: 4rem;
+          line-height: 4rem * 1.5;
+        }
+        @include fullhd {
+          font-size: 4.5rem;
+          line-height: 4.5rem * 1.5;
+        }
+      },
+    h2 {
+      color: rgba(255,255,255, 0.8);
+      font-size: 1.5rem;
+      line-height: 2rem;
+      font-weight: 200;
+      @include mobile {
+        font-size: 1.2rem;
+      }
+    }
+    }
+  }
+
+  #feature {
+    padding-top: 6.25rem;
+    background: white;
+  }
+
+  #tech {
+    background: #fafafa;
+    @include mobile {
+      & > .container {
+        width: 100%;
       }
     }
 
-    #faq {
-      background: rgba(214,230,247,1);;
-      .section-title {
-        margin-bottom: 3.69rem;
+    h2 {
+      margin-bottom: 4rem;
+    }
+  }
+
+  #roadmap {
+    background: lighten(#f7f7f7, 0%);
+    @include mobile {
+      .container {
+        margin: 0;
       }
     }
+    h2 {
+      margin-bottom: 4rem;
+    }
+  }
 
-    #token {
-      background-color: rgba(216,216,216, 0.2);
-      .section-title {
-        margin-bottom: 4rem;
-      }
+  #team {
+    .section-title {
+      margin-bottom: 4rem;
+    }
+    .sub-title {
+      font-family: $font-family-light;
+      font-size: 1rem;
+      color: #111111;
+      text-align: center;
+      line-height: 1.75rem;
+      font-weight: 300;
+      margin-bottom: 4.44rem;
+    }
+  }
+
+  #faq {
+    background: rgba(214,230,247,1);;
+    .section-title {
+      margin-bottom: 3.69rem;
+    }
+  }
+
+  #token {
+    background-color: rgba(216,216,216, 0.2);
+    .section-title {
+      margin-bottom: 4rem;
     }
   }
 </style>
