@@ -206,9 +206,6 @@
       & > .container {
         &.is-open {
           background: $background-image;
-          .navbar-brand {
-            border-bottom: 1px solid rgba(255,255,255,0.08);
-          }
           .navbar-menu {
             background: $background-image;
           }
