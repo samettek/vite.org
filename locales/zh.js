@@ -223,7 +223,7 @@ module.exports = {
   },
   urlSrc: {
     telegram: 'https://t.me/vite_zh',
-    whitePaper: 'https://github.com/vitelabs/whitepaper/raw/master/vite_cn.pdf'
+    whitePaper: '/whitepaper/zh.pdf'
   },
   'utils': {
     readMore: '阅读更多'

@@ -10,7 +10,7 @@
               <h2 class="inview2 delay-0-700 animated fadeInUp">{{$t("home.contract")}}</h2>
             </div>
             <div class="hero-btn-wrapper inview1 delay-0-800 animated fadeInUp">
-              <a class="button hvr-float-shadow" :href="socialUrls.whitePaper" target="_blank">
+              <a class="button hvr-float-shadow" :href="$t('urlSrc.whitePaper')" target="_blank">
                 {{$t('home.whitePaper')}}
               </a>
               <div class="social">
