@@ -106,7 +106,7 @@
   #home-nav {
     position: fixed;
     right: 0;
-    left: 0;
+    left: 1px;
     top: 0;
     z-index: 2343;
     transition: transform 0.4s ease;
