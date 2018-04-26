@@ -71,13 +71,21 @@ module.exports = {
         }
       ],
       defaultLocale: 'zh',
-      // redirectRootToLocale: 'en',
       detectBrowserLanguage: true,
       redirectCookieKey: 'redirected',
       useRedirectCookie: true,
       loadLanguagesAsync: true,
       langDir: 'locales/',
-      ignorePaths: []
+      ignorePaths: [],
+      vueI18n: {
+        fallbackLocale: 'zh',
+        messages: {
+          /*
+          * make the default locale can work in fallback in ssr.
+          * */
+          zh: require('./locales/zh.js')
+        }
+      }
     }]
   ],
   css: [

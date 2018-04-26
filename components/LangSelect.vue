@@ -35,12 +35,36 @@
   .lang-btn {
     .dropdown-trigger {
       button {
-        color: white;
+        color: rgba(255,255,255,0.8);
         background: transparent;
-        padding-left: 26px;
-        padding-right: 26px;
+        padding: 0 1rem 0 0;
         border-radius: 0.35rem;
-        height: 40px;
+        height: (40rem/16);
+        border: transparent;
+        &:focus {
+          border: none;
+          box-shadow: none;
+        }
+        &:hover {
+          color: rgba(255,255,255,1);
+        }
+        &::after {
+          border: 2px solid rgba(255,255,255,0.8);
+          margin-top: -.375em;
+          right: -0.2rem;
+          border-radius: 2px;
+          border-right: 0;
+          border-top: 0;
+          content: " ";
+          display: block;
+          height: .625em;
+          pointer-events: none;
+          position: absolute;
+          top: 50%;
+          transform: rotate(-45deg);
+          transform-origin: center;
+          width: .625em;
+        }
       }
     }
     .dropdown-menu {

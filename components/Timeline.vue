@@ -50,7 +50,7 @@
   @import "~assets/vars";
 
 
-  $timelineColor: #3381D3;
+  $timelineColor: #018DFF;
   $dot-size: 2.5rem;
   $dot-gap:  0.95;
   $dot-size-inner: (2.5rem * $dot-gap);
@@ -84,13 +84,13 @@
             border-radius: 50%;
             top: 0px;
             background: white;
-            border: 1px solid #018DFF;
+            border: 1px solid $timelineColor;
           }
           &::after {
             width: $dot-size-inner;
             height: $dot-size-inner;
             top: ($dot-size * ((1 - $dot-gap) / 2));
-            background: #018DFF;
+            background: $timelineColor;
             border: 3px solid #F8F8F8;
           }
         }
@@ -105,7 +105,7 @@
           border-radius: 50%;
           top: 1px;
           background: #D5E6F7;
-          border: 3px solid #F8F8F8;
+          border: 3px solid lighten(#F8F8F8, 1%);
         }
 
         &:nth-child(odd) div {
@@ -139,7 +139,6 @@
             line-height: 1.7rem;
             color: #666666;
             word-wrap: break-word;
-            font-weight: 300;
           }
         }
       }

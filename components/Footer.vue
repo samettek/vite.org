@@ -10,17 +10,17 @@
             <a :href="urls.github" target="_blank" class="icon"><fa-icon :icon="['fab', 'github']"></fa-icon></a>
             <a :href="urls.discord" target="_blank" class="icon"><fa-icon :icon="['fab', 'discord']"></fa-icon></a>
             <a :href="urls.twitter" target="_blank" class="icon"><fa-icon :icon="['fab', 'twitter']"></fa-icon></a>
-            <a :href="urls.telegramEn" target="_blank" class="icon"><fa-icon :icon="['fab', 'telegram-plane']"/></a>
+            <a :href="$t('urlSrc.telegram')" target="_blank" class="icon"><fa-icon :icon="['fab', 'telegram-plane']"/></a>
             <a :href="urls.reddit" target="_blank" class="icon"><fa-icon :icon="['fab', 'reddit']"/></a>
           </div>
         </div>
         <div class="column">
           <div class="columns is-mobile">
-            <div class="column links-wrapper is-half">
+            <div class="column links-wrapper">
               <div>学习</div>
               <ul>
                 <li v-for="item in learnList">
-                  <a :href="urls[item]" target="_blank">{{$t(`urls.${item}`)}}</a>
+                  <a :href="getUrl(item)" target="_blank">{{$t(`urls.${item}`)}}</a>
                 </li>
               </ul>
             </div>
@@ -28,7 +28,15 @@
               <div>关于</div>
               <ul>
                 <li v-for="item in aboutList">
-                  <a :href="urls[item]" target="_blank">{{$t(`urls.${item}`)}}</a>
+                  <a :href="getUrl(item)" target="_blank">{{$t(`urls.${item}`)}}</a>
+                </li>
+              </ul>
+            </div>
+            <div class="column links-wrapper">
+              <div>媒体</div>
+              <ul>
+                <li v-for="item in mediumList">
+                  <a :href="getUrl(item)" target="_blank">{{$t(`urls.${item}`)}}</a>
                 </li>
               </ul>
             </div>
@@ -37,7 +45,8 @@
       </div>
       <div class="all-rights">
         <span>
-          Vite Labs Limited, All rights reserved.
+          Vite Labs Limited, All Rights Reserved.
+          Copyright © 2018 VITE Labs
         </span>
       </div>
     </div>
@@ -53,13 +62,23 @@
       Logo
     },
     data: function () {
+      let {urls} = config
       return {
-        urls: config.urls,
-        aboutList: ['medium', 'telegramEn', 'telegramZh', 'loopring'],
-        learnList: ['whitePaper']
+        urls,
+        aboutList: ['loopring'],
+        learnList: ['whitePaper'],
+        mediumList: ['medium', 'telegram'],
+        urlShouldTranslate: ['whitePaper', 'telegram']
       }
     },
-    methods: {}
+    methods: {
+      getUrl (item) {
+        if (this.urlShouldTranslate.indexOf(item) > -1) {
+          return this.$t(`urlSrc.${item}`)
+        }
+        return config.urls[item]
+      }
+    }
   }
 </script>
 
@@ -74,9 +93,11 @@
       width: 100%;
       text-align: center;
       color: rgba(255,255,255,0.8);
-      font-size: 1rem;
+      font-size: 0.875rem;
       font-family: $font-family-light;
       font-weight: 300;
+      border-top: 1px solid rgba(255,255,255,0.05);
+      padding-top: 1rem;
     }
     .logo-wrapper {
       @include mobile {
@@ -120,6 +141,7 @@
       ul {
         li {
           a {
+            font-size: 0.875rem;
             color: rgba(255,255,255,0.7);
             &:hover {
               color: white;

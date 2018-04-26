@@ -15,7 +15,7 @@
               </a>
               <div class="social">
                 <a :href="socialUrls.discord" target="_blank"><fa-icon class="icon" :icon="['fab', 'discord']" /></a>
-                <a :href="socialUrls.telegramEn" target="_blank"><fa-icon class="icon" :icon="['fab', 'telegram-plane']" /></a>
+                <a :href="$t('urlSrc.telegram')" target="_blank"><fa-icon class="icon" :icon="['fab', 'telegram-plane']" /></a>
                 <a :href="socialUrls.twitter" target="_blank"><fa-icon class="icon" :icon="['fab', 'twitter']" /></a>
                 <a :href="socialUrls.github" target="_blank"><fa-icon class="icon" :icon="['fab', 'github']" /></a>
               </div>
@@ -31,15 +31,6 @@
         </div>
       </div>
     </section>
-
-    <!--<section id="tech" class="section">-->
-      <!--<div class="container" v-in-viewport.once>-->
-          <!--<h2 class="title section-title animated fadeInUp inview1">-->
-            <!--{{$t('tech.title')}}-->
-          <!--</h2>-->
-          <!--<tech></tech>-->
-      <!--</div>-->
-    <!--</section>-->
 
     <section id="roadmap" class="section">
       <div class="container" v-in-viewport>
@@ -260,6 +251,7 @@
     }
 
     #roadmap {
+      background: lighten(#f7f7f7, 0%);
       @include mobile {
         .container {
           margin: 0;

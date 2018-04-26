@@ -216,12 +216,14 @@ module.exports = {
   'urls': {
     'whitePaper': '白皮书',
     'document': '文档',
-    'telegramEn': 'Telegram 英语群',
-    'telegramZh': 'Telegram 中文群',
+    'telegram': 'Telegram 中文群',
     'loopring': '路印协议',
     'faq': '问题答疑',
-    'medium': '博客（英文）',
-    'mediumZh': '博客（中文）'
+    'medium': '博客'
+  },
+  urlSrc: {
+    telegram: 'https://t.me/vite_zh',
+    whitePaper: 'https://github.com/vitelabs/whitepaper/raw/master/vite_cn.pdf'
   },
   'utils': {
     readMore: '阅读更多'
