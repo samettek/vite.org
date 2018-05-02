@@ -11,7 +11,8 @@ module.exports = {
     'roadmap': '路线图',
     'team': '团队',
     'faq': '问题答疑',
-    'careers': '加入我们'
+    'careers': '加入我们',
+    investor: '投资机构'
   },
   'home': {
     'header': 'Vite',
@@ -212,6 +213,9 @@ module.exports = {
         answer: []
       }
     ]
+  },
+  investor: {
+    title: '投资机构'
   },
   'urls': {
     'whitePaper': '白皮书',

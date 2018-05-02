@@ -63,7 +63,7 @@
     data: function () {
       return {
         navbarActive: false,
-        navs: ['feature', 'roadmap', 'team'],
+        navs: ['feature', 'roadmap', 'team', 'investor'],
         otherNavs: []
       }
     },

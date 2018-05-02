@@ -50,6 +50,15 @@
       </div>
     </section>
 
+    <section id="investor" class="section">
+      <div class="container" v-in-viewport>
+        <h2 class="title section-title inview1 animated fadeInDown delay-0-800">
+          {{$t('investor.title')}}
+        </h2>
+        <investor></investor>
+      </div>
+    </section>
+
     <v-footer></v-footer>
   </div>
 </template>
@@ -59,6 +68,7 @@
   import Teams from '~/components/Teams.vue'
   import Footer from '~/components/Footer.vue'
   import Feature from '~/components/Feature'
+  import Investor from '~/components/Investor'
   import Nav from '~/components/Nav'
   import Tech from '~/components/Tech'
   import Logo from '~/components/Logo.vue'
@@ -80,7 +90,8 @@
       VNav: Nav,
       Tech,
       Logo,
-      LogoWord
+      LogoWord,
+      Investor
     },
     head () {
       let title = this.$t('head.title')
@@ -144,6 +155,7 @@
     color: #111111;
     font-family: $font-family-light;
     font-weight: normal;
+    margin-bottom: 3rem;
   }
 
   #home {
@@ -264,9 +276,6 @@
   }
 
   #team {
-    .section-title {
-      margin-bottom: 4rem;
-    }
     .sub-title {
       font-family: $font-family-light;
       font-size: 1rem;
@@ -280,15 +289,13 @@
 
   #faq {
     background: rgba(214,230,247,1);;
-    .section-title {
-      margin-bottom: 3.69rem;
-    }
   }
 
   #token {
     background-color: rgba(216,216,216, 0.2);
-    .section-title {
-      margin-bottom: 4rem;
-    }
+  }
+
+  #investor {
+    background-color: #fafafa;
   }
 </style>
