@@ -64,7 +64,7 @@
       return {
         navbarActive: false,
         navs: ['feature', 'roadmap', 'team', 'investor'],
-        otherNavs: []
+        otherNavs: ['faq']
       }
     },
     computed: {

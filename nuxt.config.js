@@ -2,7 +2,7 @@ let generateRoutes = ['/']
 
 module.exports = {
   head: {
-    title: 'Vite · Fast, No Fee, Scalability Contract Platform',
+    title: 'Vite - Fast, No Fee, Scalability Contract Platform',
     meta: [
       {charset: 'utf-8'},
       {name: 'viewport', content: 'width=device-width, initial-scale=1'},
