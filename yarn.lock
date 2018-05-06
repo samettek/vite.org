@@ -249,6 +249,12 @@ amdefine@>=0.0.4:
   version "1.0.1"
   resolved "http://registry.npm.taobao.org/amdefine/download/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
 
+animate-canvas-line@^1.1.0:
+  version "1.1.0"
+  resolved "http://registry.npm.taobao.org/animate-canvas-line/download/animate-canvas-line-1.1.0.tgz#2c73d72e6ba257750ae6a03f4c3b05ac6da04522"
+  dependencies:
+    q "1.4.1"
+
 animate.css@^3.5.2:
   version "3.6.1"
   resolved "http://registry.npm.taobao.org/animate.css/download/animate.css-3.6.1.tgz#4ea8a48556378bc8d7535224296c4c0dac9229de"
@@ -5706,6 +5712,10 @@ purify-css@^1.2.6:
     rework "^1.0.1"
     uglify-js "^3.0.6"
     yargs "^8.0.1"
+
+q@1.4.1:
+  version "1.4.1"
+  resolved "http://registry.npm.taobao.org/q/download/q-1.4.1.tgz#55705bcd93c5f3673530c2c2cbc0c2b3addc286e"
 
 q@^1.1.2:
   version "1.5.1"
