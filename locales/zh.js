@@ -1,26 +1,26 @@
 module.exports = {
-  'lang': '中文',
-  'head': {
-    'title': 'Vite - 新一代高性能去中心化应用平台',
-    'document': '文档',
-    'homeDesc': 'Vite - 新一代高性能去中心化应用平台'
+  lang: '中文',
+  head: {
+    title: 'Vite - 新一代高性能去中心化应用平台',
+    document: '文档',
+    homeDesc: 'Vite - 新一代高性能去中心化应用平台'
   },
-  'nav': {
+  nav: {
     index: '首页',
-    'feature': '特性',
-    'technology': '核心技术',
-    'roadmap': '路线图',
-    'team': '团队',
-    'faq': '问题答疑',
-    'careers': '加入我们',
+    feature: '特性',
+    technology: '核心技术',
+    roadmap: '路线图',
+    team: '团队',
+    faq: '问题答疑',
+    careers: '加入我们',
     investor: '投资机构'
   },
-  'home': {
-    'header': 'Vite',
-    'contract': '新一代高性能去中心化应用平台',
-    'whitePaper': '白皮书'
+  home: {
+    header: 'Vite',
+    contract: '新一代高性能去中心化应用平台',
+    whitePaper: '白皮书'
   },
-  'feature': {
+  feature: {
     performance: {
       title: '极致高性能',
       dag: {
@@ -32,50 +32,32 @@ module.exports = {
         content: '交易拆分成基于“请求-响应”模式的交易对，交易的写入和验证异步解耦，可以支撑超高的吞吐；合约间通信基于消息的异步模型；'
       }
     },
-    'fast': {
-      'title': '低延迟',
-      'description': '出账和入账交易分离，连续转账不需要等待确认；采用HDPoS共识算法，交易确认延迟不超过1秒。'
+    reactiveContract: {
+      title: '响应式合约',
+      messageDriven: {
+        title: '消息驱动',
+        content: '采用事件驱动的架构，每个智能合约被看作是一个独立的服务，合约之间可以通过消息通信，但不共享任何状态'
+      },
+      solidity: {
+        title: 'Solidity++',
+        content: '兼容solidity大部分语法，支持异步语义，支持合约的定时调度，并提供一系列标准库：字符串处理、浮点运算、基本数学运算、容器、排序等；'
+      }
     },
-    'throughput': {
-      'title': '高吞吐',
-      'description': '合约间通信采用消息驱动架构(EDA)；基于DAG的账本结构；交易的写入和验证异步解耦。全新的架构设计可以支撑超高的吞吐。'
-    },
-    'scalability': {
-      'title': '可扩展',
-      'description': '交易按账户维度分组，并划分为请求交易和响应交易，每个交易只改变单个账户状态；共识算法的分层设计提供按共识组维度的水平扩展性。'
-    },
-    'usability': {
-      'title': '易用性',
-      'description': '功能更强大的solidity++智能合约语言；支持合约定时调度、VNS命名服务、合约升级等功能；Vite客户端集成基于HTML5的去中心化小程序引擎，降低dApp开发部署门槛。'
-    },
-    'value': {
-      'title': '价值闭环',
-      'description': '支持数字资产发行、跨链价值传输，以及基于路印协议的代币间交易。Vite本身也是一个去中心化交易所。'
-    },
-    'economy': {
-      'title': '经济性',
-      'description': '基于配额的资源配置，轻量级用户不需要支付手续费或燃料费；用户可以选择多种方式获取计算资源；支持配额租赁。'
+    ecosystem: {
+      title: '生态闭环',
+      value: {
+        title: '价值闭环',
+        content: '支持数字资产发行、跨链价值传输，以及基于路印协议的代币间交易，Vite本身也是一个去中心化交易所；基于配额的资源配置，轻量级用户不需要支付手续费或燃料费；用户可以选择多种方式获取计算资源；支持配额租赁。'
+      },
+      dapp: {
+        title: 'dapp小程序',
+        content: 'Vite客户端集成基于HTML5的去中心化小程序引擎，降低dApp开发部署门槛。'
+      }
     }
   },
-  'tech': {
-    'title': '核心技术',
-    'blockLattice': {
-      'title': 'Block Lattice',
-      'description': [
-        'Vite账本结构不是基于Block Chain的，其主体是一个由伴生的Request Block和Response Block构成的树型结构。',
-        '每一个账户一条链，每个交易会生成一个Request Block和一个Response Block，每个账户上的块只能由该账户持有者才能添加。'
-      ]
-    },
-    'snapshotChain': {
-      'title': 'Snapshot Chain',
-      'description': [
-        '合约账户的Response Block和普通账户的Response Block写入不一样，合约账户没有私钥，所以任何人都可以写入，为了防止意外频繁的分叉。我们往引入一条主链，我们称为：Snapshot Chain。'
-      ]
-    }
-  },
-  'roadmap': {
-    'title': '路线图',
-    'timelines': [
+  roadmap: {
+    title: '路线图',
+    timelines: [
       {
         'time': '2018 二月',
         'description': '项目启动'
@@ -144,6 +126,22 @@ module.exports = {
         'description': 'Vite 生态建设'
       }
     ]
+  },
+  'tech': {
+    'title': '核心技术',
+    'blockLattice': {
+      'title': 'Block Lattice',
+      'description': [
+        'Vite账本结构不是基于Block Chain的，其主体是一个由伴生的Request Block和Response Block构成的树型结构。',
+        '每一个账户一条链，每个交易会生成一个Request Block和一个Response Block，每个账户上的块只能由该账户持有者才能添加。'
+      ]
+    },
+    'snapshotChain': {
+      'title': 'Snapshot Chain',
+      'description': [
+        '合约账户的Response Block和普通账户的Response Block写入不一样，合约账户没有私钥，所以任何人都可以写入，为了防止意外频繁的分叉。我们往引入一条主链，我们称为：Snapshot Chain。'
+      ]
+    }
   },
   'team': {
     'title': '核心团队',

@@ -1,14 +1,14 @@
 <template>
   <div>
-    <section v-for="(feature, index) in features" :key="feature.key">
+    <section v-for="(feature, index) in features" :key="feature.key" :class="{'reverse-row': (index + 1) % 2 === 0}">
       <div class="container">
         <div class="columns">
           <div class="column">
             <div class="img-wrapper">
               <img :src="feature.img" alt="">
-              <h3>0{{index + 1}} {{$t('feature.performance.title')}}</h3>
+              <h3>0{{index + 1}} {{$t(`feature.${feature.key}.title`)}}</h3>
             </div>
-            <svg class="v-arrow" width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <svg class="v-arrow is-hidden-touch" width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
               <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g transform="translate(-936.000000, -1173.000000)">
                   <g transform="translate(0.000000, 922.000000)">
@@ -25,8 +25,8 @@
             <div class="sub-content-wrapper" :key="item" v-for="item in feature.content">
               <div class="sub-content">
                 <div class="border"></div>
-                <h3>{{$t(`feature.performance.${item}.title`)}}</h3>
-                <p>{{$t(`feature.performance.${item}.content`)}}</p>
+                <h3>{{$t(`feature.${feature.key}.${item}.title`)}}</h3>
+                <p>{{$t(`feature.${feature.key}.${item}.content`)}}</p>
               </div>
             </div>
           </div>
@@ -43,8 +43,18 @@
           features: [
             {
               key: 'performance',
-              img: require('~/assets/images/feature/high-performance@3x.png'),
+              img: require('~/assets/images/feature/high-performance.png'),
               content: ['dag', 'async']
+            },
+            {
+              key: 'reactiveContract',
+              img: require('~/assets/images/feature/reactiveContract.png'),
+              content: ['messageDriven', 'solidity']
+            },
+            {
+              key: 'ecosystem',
+              img: require('~/assets/images/feature/ecosystem.png'),
+              content: ['value', 'dapp']
             }
           ]
         }
@@ -59,6 +69,30 @@
   section {
     background:rgba(43,44,48,1);
     border-bottom: 5px solid rgba(52,53,58,1);
+
+    &.reverse-row {
+      .columns {
+        flex-direction: row-reverse;
+        .column {
+          &:first-child {
+            @include desktop {
+              border-right: none;
+              border-left: 5px solid rgba(52,53,58,1);
+            }
+          }
+
+          .v-arrow {
+            position: absolute;
+            left: -(48px + 5px) / 2;
+            top: (550px - 48px) / 2
+          }
+        }
+      }
+      .v-arrow {
+        transform:rotate(180deg);
+      }
+    }
+
     &:last-child {
       border-bottom: none;
     }
