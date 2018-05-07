@@ -38,14 +38,7 @@
 
     <v-roadmap></v-roadmap>
 
-    <section id="team" class="section">
-      <div class="container" v-in-viewport>
-        <h2 class="title section-title inview1 animated fadeInDown delay-0-800">
-          {{$t('team.title')}}
-        </h2>
-        <teams></teams>
-      </div>
-    </section>
+    <v-teams></v-teams>
 
     <section id="investor" class="section">
       <div class="container" v-in-viewport>
@@ -74,7 +67,7 @@
 
   export default {
     components: {
-      Teams,
+      VTeams: Teams,
       VFooter: Footer,
       VFeature: Feature,
       Tech,

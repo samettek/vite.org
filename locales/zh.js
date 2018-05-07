@@ -144,8 +144,7 @@ module.exports = {
     }
   },
   'team': {
-    'title': '核心团队',
-    'subTitle': '',
+    'core': '核心团队',
     'advisor': '顾问团队',
     'nameMap': {
       'liuchunming': {
