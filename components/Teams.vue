@@ -95,8 +95,8 @@
             key: 'wangdong'
           },
           {
-            key: 'machao',
-            img: require('~/assets/images/teams/chao-ma.jpg')
+            key: 'chenxiaoliang',
+            img: require('~/assets/images/teams/xiaoliang-chen.jpg')
           },
           {
             key: 'terenceLam',
