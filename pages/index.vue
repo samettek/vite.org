@@ -1,36 +1,40 @@
 <template>
   <div>
-    <section id="home" class="is-info is-fullheight" v-in-viewport>
-      <div class="hero-body">
-          <div class="container" v-in-viewport.once>
-            <div class="has-text-centered hvr-bounce-in is-size-1-desktop is-size-2-touch hvr-grow">
-              <h1 class="inview2 delay-0-700 animated fadeInDown">
-                <logo-word></logo-word>
-              </h1>
-              <h2 class="inview2 delay-0-700 animated fadeInUp">{{$t("home.contract")}}</h2>
-            </div>
-            <div class="hero-btn-wrapper inview1 delay-0-800 animated fadeInUp">
-              <a class="button hvr-float-shadow" :href="$t('urlSrc.whitePaper')" target="_blank">
-                {{$t('home.whitePaper')}}
-              </a>
-              <div class="social">
-                <a :href="socialUrls.discord" target="_blank"><fa-icon class="icon" :icon="['fab', 'discord']" /></a>
-                <a :href="$t('urlSrc.telegram')" target="_blank"><fa-icon class="icon" :icon="['fab', 'telegram-plane']" /></a>
-                <a :href="socialUrls.twitter" target="_blank"><fa-icon class="icon" :icon="['fab', 'twitter']" /></a>
-                <a :href="socialUrls.github" target="_blank"><fa-icon class="icon" :icon="['fab', 'github']" /></a>
-              </div>
-            </div>
-          </div>
-      </div>
-    </section>
-
-    <section id="feature" class="section">
+    <section class="is-fullheight home" v-in-viewport>
       <div class="container" v-in-viewport.once>
-        <div class="columns is-multiline" v-in-viewport.once>
-          <v-feature></v-feature>
+        <div class="is-size-1-desktop is-size-2-touch">
+          <h1>
+            VITE
+          </h1>
+          <h2>{{$t("home.contract")}}</h2>
+        </div>
+
+        <div class="btn-group-wrapper">
+          <div class="btn-wrapper">
+            <a class="button" :href="$t('urlSrc.whitePaper')" target="_blank">
+              {{$t('home.whitePaper')}}
+              <svg width="13px" height="22px" viewBox="0 0 13 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g id="home——PC" transform="translate(-526.000000, -473.000000)" stroke-width="2" stroke="#333333">
+                    <g id="Group" transform="translate(360.000000, 152.000000)">
+                      <polyline id="Rectangle-2-Copy-2" transform="translate(172.000000, 332.000000) scale(-1, 1) translate(-172.000000, -332.000000) " points="177 342 167 332 177 322"></polyline>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </a>
+          </div>
+          <div class="social">
+            <a :href="socialUrls.discord" target="_blank"><fa-icon class="icon" :icon="['fab', 'discord']" /></a>
+            <a :href="$t('urlSrc.telegram')" target="_blank"><fa-icon class="icon" :icon="['fab', 'telegram-plane']" /></a>
+            <a :href="socialUrls.twitter" target="_blank"><fa-icon class="icon" :icon="['fab', 'twitter']" /></a>
+            <a :href="socialUrls.github" target="_blank"><fa-icon class="icon" :icon="['fab', 'github']" /></a>
+          </div>
         </div>
       </div>
     </section>
+
+    <v-feature></v-feature>
 
     <section id="roadmap" class="section">
       <div class="container" v-in-viewport>
@@ -69,17 +73,11 @@
   import Footer from '~/components/Footer.vue'
   import Feature from '~/components/Feature'
   import Investor from '~/components/Investor'
-  import Nav from '~/components/Nav'
   import Tech from '~/components/Tech'
   import Logo from '~/components/Logo.vue'
   import LogoWord from '~/components/LogoWord'
 
   import config from '~/config.js'
-
-  // Only run on brower
-  if (process.browser) {
-    require('particles.js')
-  }
 
   export default {
     components: {
@@ -87,7 +85,6 @@
       Teams,
       VFooter: Footer,
       VFeature: Feature,
-      VNav: Nav,
       Tech,
       Logo,
       LogoWord,
@@ -118,13 +115,7 @@
         ]
       }
     },
-    mounted () {
-      if (process.browser) {
-        window.particlesJS.load('home', '/particlesjs-config.json', function () {
-          console.log('callback - particles.js config loaded')
-        })
-      }
-    },
+    mounted () {},
     data () {
       return {
         socialUrls: config.urls
@@ -158,92 +149,52 @@
     margin-bottom: 3rem;
   }
 
-  #home {
-    background-image: $background-image;
-    color: rgba(255,255,255,0.9);
-    padding-top: 0;
-    padding-bottom: 0;
-    font-family: $font-family-light;
-    .hero-body {
-      z-index: 8;
-      height: 100vh;
-      .container {
-        text-align: center;
-        margin-top: 25vh;
-        z-index: 100;
-        max-width: 50rem;
-      }
-      .hero-btn-wrapper {
-        margin-top: 4rem;
-        padding: 0;
-        font-family: $font-family-main;
-        .social {
-          font-size: 3rem;
-          margin-top: 1rem;
-          .icon {
-            color: rgba(255,255,255,0.7);
-            &:hover {
-              color: white;
-            }
-          }
-        }
-        .button {
-          height: 3.75rem;
-          font-size: 1rem;
-          width: 13.44rem;
-          color: rgba(45,45,45,1);
-          border: none;
-          line-height: 1.38rem;
-          display: inline-flex;
-
-          @include mobile {
-            height: 3rem;
-            font-size: 1rem;
-          }
-
-          &:before {
-            background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.1) 0%, transparent 80%);
-          }
-
-          &:hover {
-            color: rgba(255,255,255, 1);
-            background: rgba(54, 130, 222, 1);
-          }
-          &:focus {
-            border: none;
-          }
-        }
-      }
-
-      h1 {
-        @include mobile {
-          font-size: 3.2rem;
-          line-height: 3.2rem * 1.5;
-        }
-        @include tablet {
-          font-size: 3.6rem;
-          line-height: 3.6rem * 1.5;
-        }
-        @include desktop {
-          font-size: 4rem;
-          line-height: 4rem * 1.5;
-        }
-        @include fullhd {
-          font-size: 4.5rem;
-          line-height: 4.5rem * 1.5;
-        }
-      },
-    h2 {
-      color: rgba(255,255,255, 0.8);
-      font-size: 1.5rem;
-      line-height: 2rem;
-      font-weight: 200;
-      @include mobile {
-        font-size: 1.2rem;
-      }
+  .home {
+    min-height: 100vh;
+    padding-top: 25vh;
+    h1 {
+      font-size: 72px;
+      color:rgba(51,51,51,1);
+      line-height:100px;
     }
+    h2 {
+      font-size: 1.75rem;
+    }
+    .btn-group-wrapper {
+      margin-top: 3rem;
+      .button {
+        border-radius: 100px;
+        width:230px;
+        font-size:1.88rem;
+        font-family:PingFangSC-Semibold;
+        color:rgba(51,51,51,1);
+        line-height:3.75rem;
+        height:3.75rem;
+        border-color: #999999;
+        svg {
+          margin-left: 0.875rem;
+        }
+      }
+      .social {
+        margin-top: 29px;
+        .icon {
+          height: 36px;
+          width: 36px;
+          color: #C4C4C4;
+          &:hover {
+            color: #1580E3;
+          }
+        }
+        a {
+          margin-left: 28px;
+          &:first-child {
+            margin-left: 0;
+          }
+        }
+      }
     }
   }
+
 
   #feature {
     padding-top: 6.25rem;

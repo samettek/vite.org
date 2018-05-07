@@ -57,7 +57,6 @@
   @import "assets/vars.scss";
 
   .hero {
-    padding-top: $nav-height;
     background: $background-image;
     .container {
       .title, .subtitle {

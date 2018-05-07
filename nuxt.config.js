@@ -51,7 +51,7 @@ module.exports = {
         active: false
       },
       'vue-headroom': {
-        active: true
+        active: false
       },
       'vue-scrollactive': {
         active: false
@@ -59,11 +59,11 @@ module.exports = {
     }],
     ['nuxt-i18n', {
       locales: [
-        // {
-        //   code: 'en',
-        //   name: 'English',
-        //   langFile: 'en.js'
-        // },
+        {
+          code: 'en',
+          name: 'English',
+          langFile: 'en.js'
+        },
         {
           code: 'zh',
           name: '中文',

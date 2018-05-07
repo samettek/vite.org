@@ -1,14 +1,11 @@
 <template>
   <div>
-    <div id="home-nav" class="hero-head headroom" :class="`is-${routeName}-page`" v-headroom>
-      <scrollactive class="navbar" :modify-url="true" :offset="0">
+    <headroom>
+      <div class="headroom navbar" :class="`is-${routeName}-page`">
         <div class="container is-widescreen" :class="{ 'is-open': navbarActive }" @click="onNavClick">
           <div class="navbar-brand">
             <div @click="onLogoClick">
-              <a v-if="isIndexPage" class="nav-item navbar-item scrollactive-item" href="#home-nav">
-                <logo-without-words class="logo"></logo-without-words>
-              </a>
-              <nuxt-link class="navbar-item nav-item" :to="localePath('index')" v-else>
+              <nuxt-link class="navbar-item nav-item" :to="localePath('index')">
                 <logo-without-words class="logo"></logo-without-words>
               </nuxt-link>
             </div>
@@ -21,35 +18,25 @@
 
           <div class="navbar-menu" :class="{ 'is-active': navbarActive }">
             <div class="navbar-end">
-              <template v-if="isIndexPage">
-                <a :key="item" :href="`#${item}`" class="nav-item scrollactive-item" v-for="item in navs">
-                  {{$t(`nav.${item}`)}}
-                </a>
-              </template>
-
-              <template v-else>
-                <nuxt-link :key="item" :to="{path: localePath('index'), hash: item}" class="nav-item" v-for="item in navs">
-                  {{$t(`nav.${item}`)}}
-                </nuxt-link>
-              </template>
-
-              <nuxt-link :key="item" v-for="item in otherNavs" :to="localePath(item)" class="nav-item">
+              <nuxt-link :key="item" :to="localePath(item)" class="nav-item" :class="{active: routeName === item}" v-for="item in navs">
                 {{$t(`nav.${item}`)}}
               </nuxt-link>
-
               <div class="nav-item">
                 <lang-select></lang-select>
               </div>
             </div>
           </div>
         </div>
-      </scrollactive>
+      </div>
+    </headroom>
+    <div class="nuxt-content">
+      <nuxt></nuxt>
     </div>
-    <nuxt></nuxt>
   </div>
 </template>
 
 <script type="text/babel">
+  import { headroom } from 'vue-headroom'
   import LangSelect from '~/components/LangSelect.vue'
   import Logo from '~/components/Logo.vue'
   import LogoWithoutWords from '~/components/LogoWithoutWords.vue'
@@ -58,19 +45,16 @@
     components: {
       LangSelect,
       Logo,
-      LogoWithoutWords
+      LogoWithoutWords,
+      headroom
     },
     data: function () {
       return {
         navbarActive: false,
-        navs: ['feature', 'roadmap', 'team', 'investor'],
-        otherNavs: ['faq']
+        navs: ['index', 'technology', 'faq', 'careers']
       }
     },
     computed: {
-      isIndexPage () {
-        return this.$route.name === `index-${this.$i18n.locale}`
-      },
       routeName () {
         if (!this.$route || !this.$route.name) return ''
         return this.$route.name.split('-')[0]
@@ -93,198 +77,35 @@
 <style rel="stylesheet/scss" lang="scss" scoped>
   @import "assets/vars.scss";
 
-  $nav-item-size: 1rem;
-  $nav-height: (130rem/16);
-  $nav-height-small: (52rem/16);
-  $font-family-bold: HelveticaNeue-Bold,HelveticaNeue;
-
-  .nuxt-link-exact-active {
-    color: rgba(255,255,255,1);
-    background: rgba(255,255,255, 0.05);
+  .nuxt-content {
+    margin-top: 72px;
   }
 
-  #home-nav {
-    position: fixed;
-    right: 0;
-    left: 0;
-    top: 0;
-    z-index: 2343;
-    transition: transform 0.4s ease;
-    .navbar {
-      height: $nav-height;
-      @include touch {
-        height: $nav-height-small;
-      }
-    }
+  .headroom--not-top {
+    border-bottom: 1px solid #C6C6C6;
+  }
 
-    .navbar-burger {
-      color: white;
-    }
-
+  .navbar {
     .navbar-brand {
+      height: $navbar-height;
       .nav-item {
         height: 100%;
       }
-    }
-
-    &.is-faq-page, &.is-technology-page {
-      &.headroom.headroom--pinned.headroom--not-top {
-        background: none;
-        & > nav.navbar {
-          background-color: rgba(0, 0, 0, 0.5);
-        }
-      }
-      background: $background-image;
-    }
-
-    &.is-careers-page {
-      background: transparent;
-    }
-
-    &.headroom--top {
-      height: $nav-height;
-      .navbar {
-        height: $nav-height;
-      }
-      @include touch {
-        height: $nav-height-small;
-        .navbar {
-          height: $nav-height-small;
-        }
-      }
-
-      .navbar-brand {
-        .navbar-item {
-          .logo {
-            height: $nav-height-small;
-          }
-        }
+      .logo {
+        height: 41px;
+        color: #1580E3;
       }
     }
-    &.headroom--not-top {
-      .navbar .navbar-brand {
-        .navbar-item {
-          .logo {
-            height: 3.25rem - 1rem;
-          }
-        }
+    .nav-item {
+      padding: 0.5rem 18px;
+      color: #999999;
+      &:hover {
+        color: #333333;
       }
-      .home-navbar {
-        .nav-item {
-          font-size: 1rem;
-        }
-      }
-    }
-
-    &.headroom--top {
-      .navbar {
-        background: transparent;
-      }
-    }
-
-    &.headroom--not-top{
-      height: $nav-height-small;
-      .navbar {
-        height: $nav-height-small;
-      }
-      &.headroom--pinned, &:not(.headroom--unpinned):not(.headroom--pinned){
-        .navbar {
-          background-color: rgba(0,0,0,0.5);
-        }
-      }
-      &.headroom--unpinned {
-        .navbar {
-          background: transparent;
-        }
-      }
-    }
-
-    .navbar {
-      background-color: transparent;
-      font-size: $nav-item-size;
-      & > .container {
-        &.is-open {
-          background: $background-image;
-          .navbar-menu {
-            background: $background-image;
-          }
-          .nav-item {
-            color: rgba(255,255,255,0.7);
-          }
-        }
-      }
-
-      .navbar-brand {
-        .navbar-item {
-          &.is-active {
-            background: transparent;
-          }
-          .logo {
-            height: 3.25rem - 1rem;
-            width: auto;
-            color: rgba(255,255,255,1);
-            transition: color 0.5s;
-            &:hover {
-              color: $light-blue;
-            }
-
-            @include desktop {
-              height: $nav-height-small;
-            }
-          }
-          &:hover {
-            background: transparent;
-          }
-        }
-      }
-
-      .nav-item {
-        font-size: $nav-item-size;
-        padding-left: 2rem;
-        padding-right: 2rem;
-        color: rgba(255,255,255,0.8);
-        &:last-child {
-          &:hover {
-            background: transparent;
-          }
-        }
-        &:hover {
-          color: rgba(255,255,255,1);
-          background: rgba(255,255,255, 0.05);
-        }
-
-        &.is-active {
-          color: white;
-          background: rgba(255,255,255, 0.05);
-        }
-
-        &.lang-btn {
-          .dropdown-trigger {
-            height: 40px;
-            button {
-              height: 40px;
-            }
-          }
-        }
+      &.active {
+        color: #333333;
       }
     }
   }
 
-  .headroom.headroom--pinned {
-    transform: translateY(0);
-    &.headroom--top {
-      transform: none;
-      background-color: transparent;
-    }
-  }
-  .headroom.headroom--unpinned {
-    transform: translateY(-100%);
-  }
-  .headroom.headroom--unpinned > nav.navbar,
-  .headroom.headroom--top > nav.navbar {
-    background-color: transparent;
-  }
-  .headroom.headroom--pinned.headroom--not-top>nav.navbar {
-    background: $background-image;
-  }
 </style>

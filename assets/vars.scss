@@ -1,14 +1,14 @@
 @import "~bulma/sass/utilities/initial-variables";
 @import "~bulma/sass/utilities/mixins";
 
-$fullhd:1280px + (2 * $gap);
+$fullhd: 1200px + (2 * $gap);
 $gap:32px;
 $dark-blue: #032841;
 $light-blue: rgba(54,130,222,1);
 $footer-background-color: #013462;
 $font-family-light: HelveticaNeue-Light,Arial,Sans-serif;
 $font-family-main: HelveticaNeue,Arial,Sans-serif;
-$nav-height: (130rem/16);
+$navbar-height: 72px;
 
 $background-image: linear-gradient(-179deg, #032841 3%, #013462 100%);
 $family-serif: $font-family-main;

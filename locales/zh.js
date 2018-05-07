@@ -6,6 +6,7 @@ module.exports = {
     'homeDesc': 'Vite - 新一代高性能去中心化应用平台'
   },
   'nav': {
+    index: '首页',
     'feature': '特性',
     'technology': '核心技术',
     'roadmap': '路线图',
@@ -19,7 +20,18 @@ module.exports = {
     'contract': '新一代高性能去中心化应用平台',
     'whitePaper': '白皮书'
   },
-  'features': {
+  'feature': {
+    performance: {
+      title: '极致高性能',
+      dag: {
+        title: 'DAG账本',
+        content: 'Vite 采用 DAG 账本结构，交易按账户维度分组，每个交易只改变单个账户状态；出账和入账交易分离，连续转账不需要等待确认；共识算法的分层设计提供按共识组维度的水平扩展性'
+      },
+      async: {
+        title: '异步架构',
+        content: '交易拆分成基于“请求-响应”模式的交易对，交易的写入和验证异步解耦，可以支撑超高的吞吐；合约间通信基于消息的异步模型；'
+      }
+    },
     'fast': {
       'title': '低延迟',
       'description': '出账和入账交易分离，连续转账不需要等待确认；采用HDPoS共识算法，交易确认延迟不超过1秒。'

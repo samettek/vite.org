@@ -5748,6 +5748,12 @@ querystring@0.2.0, querystring@^0.2.0:
   version "0.2.0"
   resolved "http://registry.npm.taobao.org/querystring/download/querystring-0.2.0.tgz#b209849203bb25df820da756e747005878521620"
 
+raf@^3.4.0:
+  version "3.4.0"
+  resolved "http://registry.npm.taobao.org/raf/download/raf-3.4.0.tgz#a28876881b4bc2ca9117d4138163ddb80f781575"
+  dependencies:
+    performance-now "^2.1.0"
+
 randombytes@^2.0.0, randombytes@^2.0.1, randombytes@^2.0.5:
   version "2.0.6"
   resolved "http://registry.npm.taobao.org/randombytes/download/randombytes-2.0.6.tgz#d302c522948588848a8d300c932b44c24231da80"
@@ -7173,6 +7179,12 @@ vm2@^3.5.0:
 vue-analytics@^5.4.0:
   version "5.9.1"
   resolved "http://registry.npm.taobao.org/vue-analytics/download/vue-analytics-5.9.1.tgz#3ac9810f56dbe54bca4fd1c3ee42354b433d932b"
+
+vue-headroom@^0.8.1:
+  version "0.8.1"
+  resolved "http://registry.npm.taobao.org/vue-headroom/download/vue-headroom-0.8.1.tgz#6a47219829f8268391a25d59a7e9af8c39ef7772"
+  dependencies:
+    raf "^3.4.0"
 
 vue-hot-reload-api@^2.2.0:
   version "2.3.0"

@@ -72,7 +72,6 @@
 
   .section {
     background: #d6e6f7;
-    padding-top: $nav-height + 3rem;
     @include touch {
       padding-top: (52rem/16) + 2rem;
     }
