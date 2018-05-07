@@ -36,14 +36,7 @@
 
     <v-feature></v-feature>
 
-    <section id="roadmap" class="section">
-      <div class="container" v-in-viewport>
-        <h2 class="title section-title animated fadeInUp inview1">
-          {{$t('roadmap.title')}}
-        </h2>
-        <timeline></timeline>
-      </div>
-    </section>
+    <v-roadmap></v-roadmap>
 
     <section id="team" class="section">
       <div class="container" v-in-viewport>
@@ -68,7 +61,6 @@
 </template>
 
 <script>
-  import Timeline from '~/components/Timeline.vue'
   import Teams from '~/components/Teams.vue'
   import Footer from '~/components/Footer.vue'
   import Feature from '~/components/Feature'
@@ -76,19 +68,20 @@
   import Tech from '~/components/Tech'
   import Logo from '~/components/Logo.vue'
   import LogoWord from '~/components/LogoWord'
+  import Roadmap from '~/components/Roadmap'
 
   import config from '~/config.js'
 
   export default {
     components: {
-      Timeline,
       Teams,
       VFooter: Footer,
       VFeature: Feature,
       Tech,
       Logo,
       LogoWord,
-      Investor
+      Investor,
+      VRoadmap: Roadmap
     },
     head () {
       let title = this.$t('head.title')
