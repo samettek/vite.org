@@ -7180,10 +7180,6 @@ vue-analytics@^5.4.0:
   version "5.9.1"
   resolved "http://registry.npm.taobao.org/vue-analytics/download/vue-analytics-5.9.1.tgz#3ac9810f56dbe54bca4fd1c3ee42354b433d932b"
 
-vue-carousel@^0.7.3:
-  version "0.7.3"
-  resolved "http://registry.npm.taobao.org/vue-carousel/download/vue-carousel-0.7.3.tgz#5febab5bb3be4bd12ada37df22efd189f8789465"
-
 vue-headroom@^0.8.1:
   version "0.8.1"
   resolved "http://registry.npm.taobao.org/vue-headroom/download/vue-headroom-0.8.1.tgz#6a47219829f8268391a25d59a7e9af8c39ef7772"
