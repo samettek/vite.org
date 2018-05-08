@@ -40,14 +40,7 @@
 
     <v-teams></v-teams>
 
-    <section id="investor" class="section">
-      <div class="container" v-in-viewport>
-        <h2 class="title section-title inview1 animated fadeInDown delay-0-800">
-          {{$t('investor.title')}}
-        </h2>
-        <investor></investor>
-      </div>
-    </section>
+    <v-investor></v-investor>
 
     <v-footer></v-footer>
   </div>
@@ -73,7 +66,7 @@
       Tech,
       Logo,
       LogoWord,
-      Investor,
+      VInvestor: Investor,
       VRoadmap: Roadmap
     },
     head () {
@@ -230,9 +223,5 @@
 
   #token {
     background-color: rgba(216,216,216, 0.2);
-  }
-
-  #investor {
-    background-color: #fafafa;
   }
 </style>

@@ -148,7 +148,7 @@
       }
       & > div {
         &:first-child {
-          font-size:20px;
+          font-size:18px;
           font-family:PingFangSC-Medium;
           color:rgba(51,51,51,1);
           line-height:28px;
@@ -158,7 +158,7 @@
       ul {
         li {
           a {
-            font-size:20px;
+            font-size:18px;
             font-family:PingFangSC-Medium;
             color:rgba(188,188,188,1);
             line-height:28px;
