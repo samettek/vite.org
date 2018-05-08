@@ -4,8 +4,8 @@
       <h2 class="title section-title inview1 animated fadeInDown delay-0-800">
         {{$t('investor.title')}}
       </h2>
-      <div class="columns is-multiline is-centered">
-        <div :key="item.key" v-for="item in list" class="column is-one-quarter">
+      <div class="columns is-multiline is-centered is-mobile">
+        <div :key="item.key" v-for="item in list" class="column is-one-fifth is-4-mobile">
           <img class="investor-logo" :src="item.logo" alt="">
         </div>
       </div>
@@ -25,7 +25,19 @@
             },
             {
               key: 'hotCapital',
-              logo: require('~/assets/images/investor/hot_capital.jpg')
+              logo: require('~/assets/images/investor/hot_capital.png')
+            },
+            {
+              key: 'dazhi',
+              logo: require('~/assets/images/investor/dazhi.png')
+            },
+            {
+              key: 'handsome',
+              logo: require('~/assets/images/investor/handsome.png')
+            },
+            {
+              key: 'hesheng',
+              logo: require('~/assets/images/investor/hesheng.png')
             }
           ]
         }
@@ -34,7 +46,18 @@
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>
+  .title {
+    font-size:36px;
+    font-family:PingFangSC-Medium;
+    color:rgba(51,51,51,1);
+    line-height:50px;
+    text-align: center;
+  }
   .column {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 </style>

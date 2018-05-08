@@ -249,7 +249,7 @@ module.exports = {
     'medium': '博客'
   },
   urlSrc: {
-    telegram: 'https://t.me/vite_zh',
+    telegram: 'https://t.me/joinchat/GJYuBBHoTKlJK9N454jmQg',
     whitePaper: '/whitepaper/zh.pdf'
   },
   'utils': {

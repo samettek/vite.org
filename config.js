@@ -1,7 +1,7 @@
 module.exports = {
   urls: {
     twitter: 'https://twitter.com/vitelabs',
-    discord: 'https://discord.gg/zsXAGk',
+    discord: 'https://discordapp.com/invite/CsVY76q',
     reddit: 'https://www.reddit.com/r/vitelabs',
     github: 'https://github.com/vitelabs',
     document: 'http://doc.vite.org',
