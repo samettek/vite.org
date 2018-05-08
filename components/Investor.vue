@@ -6,7 +6,9 @@
       </h2>
       <div class="columns is-multiline is-centered is-mobile">
         <div :key="item.key" v-for="item in list" class="column is-one-fifth is-4-mobile">
-          <img class="investor-logo" :src="item.logo" alt="">
+          <div class="img-wrapper">
+            <img class="investor-logo" :src="item.logo" alt="">
+          </div>
         </div>
       </div>
     </div>
@@ -25,7 +27,7 @@
             },
             {
               key: 'hotCapital',
-              logo: require('~/assets/images/investor/hot_capital.png')
+              logo: require('~/assets/images/investor/hot-capital.png')
             },
             {
               key: 'dazhi',
@@ -59,5 +61,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    .img-wrapper {
+      flex-direction: row;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        max-height: 200px;
+        max-height: 200px;
+      }
+    }
   }
 </style>
