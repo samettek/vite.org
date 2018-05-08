@@ -5,7 +5,10 @@
         <div class="columns">
           <div class="column">
             <div class="img-wrapper">
-              <img :src="feature.img" alt="">
+              <reactive v-if="feature.key === 'reactiveContract'"></reactive>
+              <ecosystem v-else-if="feature.key === 'ecosystem'"></ecosystem>
+              <performance v-else></performance>
+
               <h3>0{{index + 1}} {{$t(`feature.${feature.key}.title`)}}</h3>
             </div>
             <svg class="v-arrow is-hidden-touch" width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -37,30 +40,39 @@
 </template>
 
 <script type="text/babel">
-    export default {
-      data: function () {
-        return {
-          features: [
-            {
-              key: 'performance',
-              img: require('~/assets/images/feature/high-performance.png'),
-              content: ['dag', 'async']
-            },
-            {
-              key: 'reactiveContract',
-              img: require('~/assets/images/feature/reactiveContract.png'),
-              content: ['messageDriven', 'solidity']
-            },
-            {
-              key: 'ecosystem',
-              img: require('~/assets/images/feature/ecosystem.png'),
-              content: ['value', 'dapp']
-            }
-          ]
-        }
-      },
-      methods: {}
-    }
+  import Reactive from '~/components/svg/Reactive'
+  import Ecosystem from '~/components/svg/Ecosystem'
+  import Performance from '~/components/svg/Performance'
+
+  export default {
+    components: {
+      Reactive,
+      Ecosystem,
+      Performance
+    },
+    data: function () {
+      return {
+        features: [
+          {
+            key: 'performance',
+            img: require('~/assets/images/feature/high-performance.png'),
+            content: ['dag', 'async']
+          },
+          {
+            key: 'reactiveContract',
+            img: require('~/assets/images/feature/reactiveContract.png'),
+            content: ['messageDriven', 'solidity']
+          },
+          {
+            key: 'ecosystem',
+            img: require('~/assets/images/feature/ecosystem.png'),
+            content: ['value', 'dapp']
+          }
+        ]
+      }
+    },
+    methods: {}
+  }
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>
