@@ -28,6 +28,9 @@ module.exports = {
   generate: {
     routes: generateRoutes
   },
+  router: {
+    middleware: 'i18n'
+  },
   modules: [
     '@nuxtjs/webpackmonitor',
     '@nuxtjs/pwa',

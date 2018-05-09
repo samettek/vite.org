@@ -1,7 +1,7 @@
 <template>
   <div>
-    <section class="is-fullheight home" v-in-viewport>
-      <div class="container" v-in-viewport.once>
+    <section class="is-fullheight home">
+      <div class="container">
         <div class="is-size-1-desktop is-size-2-touch">
           <h1>
             VITE

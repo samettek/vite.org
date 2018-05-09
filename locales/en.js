@@ -6,11 +6,11 @@ module.exports = {
     'homeDesc': 'Vite: A fast, feeless, decentralized transaction ledger'
   },
   'nav': {
-    'feature': 'Feature',
-    'tech': 'Tech',
-    'roadmap': 'Roadmap',
-    'team': 'Team',
-    'faq': 'FAQ'
+    index: 'Home',
+    technology: 'Technology',
+    team: 'Team',
+    faq: 'FAQ',
+    careers: 'Careers'
   },
   'home': {
     'header': 'Fast, No Fee, Scalability',

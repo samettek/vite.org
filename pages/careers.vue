@@ -2,7 +2,7 @@
   <div>
     <section class="hero is-medium">
       <div class="hero-body">
-        <div class="container" v-in-viewport.once>
+        <div class="container">
           <h1 class="title inview1 delay-0-700 animated fadeInDown">
             {{$t('careers.title')}}
           </h1>

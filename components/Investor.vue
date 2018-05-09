@@ -1,6 +1,6 @@
 <template>
   <section id="investor" class="section">
-    <div class="container" v-in-viewport>
+    <div class="container">
       <h2 class="title section-title inview1 animated fadeInDown delay-0-800">
         {{$t('investor.title')}}
       </h2>

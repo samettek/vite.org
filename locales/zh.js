@@ -7,13 +7,10 @@ module.exports = {
   },
   nav: {
     index: '首页',
-    feature: '特性',
     technology: '核心技术',
-    roadmap: '路线图',
     team: '团队',
     faq: '问题答疑',
-    careers: '加入我们',
-    investor: '投资机构'
+    careers: '加入我们'
   },
   home: {
     header: 'Vite',
@@ -167,11 +164,6 @@ module.exports = {
         'position': '',
         'description': '资深金融产品运营专家，路印协议COO。曾任三诺集团CIO。'
       },
-      'machao': {
-        'name': '马超',
-        'position': '',
-        'description': '资深区块链专家，路印协议首席研究员。曾任Google高级研发工程师，币丰港联合创始人。\n'
-      },
       'terenceLam': {
         'name': 'Terence Lam',
         'position': '',
@@ -233,6 +225,20 @@ module.exports = {
         answer: [
           '就像c和c++一样，solidity++的名字就是源自于此。在基本语法上，Solidity++和Solidity兼容，最大差异是消息调用的语义不同，以太代码里，是一个同步调用，在Solidity++里是异步调用。',
           '另外，在Solidity++中，将提供一系列标准库，例如:字符串处理、浮点运算、基本数学运算、容器、排序等。'
+        ]
+      },
+      {
+        question: '基于消息的架构具有高吞吐和扩展性的优势。但与此相应，付出的代价是编程模型变得相对复杂，无法保证强一致性，而且有可能使延迟变大，Vite是如何降低编程复杂度和延迟？',
+        answer: [
+          'Vite将提供Solidity++合约语言以及完善的SDK，降低异步编程的成本。',
+          '经过认真的研究，我们发现在实际场景中，强一致性语义是可以用BASE语义替代的。由于Vite的HDPoS共识算法可以保障交易确认在1秒之内完成，因此，延迟的增加仍然在可控范围之内。'
+        ]
+      },
+      {
+        question: 'Snapchat Chain存在的意义是什么？',
+        answer: [
+          'Vite 采用栅格化（Block-Lattice）账本结构，每个账户对应一条链，每个交易引用本账户前一个交易的哈希；交易分为“请求交易”和“响应交易”两种，一个响应交易需要引用对应的请求交易的哈希。',
+          '这种DAG结构有先天的安全性缺陷。这是由于交易是按账户分组的，一个交易只会附加到其所属账户的账户链末端，其他账户产生的交易不会自动成为该交易的后继节点，因此，一些交易被回滚的概率不会随时间推移而降低。Vite通过独创的快照链技术，弥补了这一缺陷。'
         ]
       }
     ]
