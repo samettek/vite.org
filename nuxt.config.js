@@ -86,6 +86,9 @@ module.exports = {
           zh: require('./locales/zh.js')
         }
       }
+    }],
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-118987496-1'
     }]
   ],
   css: [
