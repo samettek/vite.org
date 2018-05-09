@@ -40,6 +40,10 @@
             {
               key: 'hesheng',
               logo: require('~/assets/images/investor/hesheng.png')
+            },
+            {
+              key: 'b100',
+              logo: require('~/assets/images/investor/b100.png')
             }
           ]
         }
