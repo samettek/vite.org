@@ -1,7 +1,7 @@
 <template>
   <section class="section">
     <div class="container">
-      <h2>{{$t('team.core')}}</h2>
+      <h2>{{$t('team.core')}} & {{$t('team.advisor')}}</h2>
       <div class="columns is-multiline">
         <div class="column item is-destop is-6-desktop is-6-tablet is-12-mobile"
              v-for="item in teams">
@@ -94,7 +94,7 @@
     .container {
       & > h2 {
         font-size:36px;
-        font-family:PingFangSC-Medium;
+        font-family: $font-family-main;
         color:rgba(255,255,255,1);
         line-height:50px;
         text-align: center;

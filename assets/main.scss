@@ -4,5 +4,21 @@
 @import "vars";
 
 body {
-  font-family: $font-family-main;
+  font-family: $font-family-light;
+}
+
+// headroom
+.headroom {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  transition: transform 0.6s ease;
+}
+.headroom.headroom--pinned {
+  transform: translateY(0);
+}
+.headroom.headroom--unpinned {
+  transform: translateY(-100%);
 }

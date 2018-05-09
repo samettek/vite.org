@@ -160,7 +160,7 @@
             max-width: 387px;
             h3 {
               font-size:24px;
-              font-family:PingFangSC-Regular;
+              font-family: $font-family-light;
               color:rgba(255,255,255,1);
               line-height:33px;
               margin: 22px 0;
@@ -172,7 +172,7 @@
             }
             p {
               font-size:16px;
-              font-family:PingFangSC-Regular;
+              font-family: $font-family-light;
               color:rgba(144,146,154,1);
               line-height:28px;
             }
@@ -190,7 +190,7 @@
         }
         h3 {
           font-size:30px;
-          font-family:PingFangSC-Medium;
+          font-family: $font-family-main;
           color:rgba(0,114,227,1);
           line-height:42px;
           margin-top: 31px;

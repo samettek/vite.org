@@ -49,6 +49,8 @@
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>
+  @import "~assets/vars";
+
   .team-item {
     width: 260px;
     &:hover {
@@ -121,9 +123,9 @@
       }
 
       &.is-advisor {
-        background: #29CCA8;
+        background: #999999;
         .p-1 {
-          background: #29CCA8;
+          background: #999999;
         }
         .p-2, .p-3, .p-4, .p-5 {
           background: rgba(38,39,42,1);
@@ -159,7 +161,7 @@
     .team-desc {
       .name {
         font-size:24px;
-        font-family:PingFangSC-Medium;
+        font-family: $font-family-main;
         color:rgba(255,255,255,1);
         line-height:33px;
       }
@@ -179,7 +181,7 @@
       & > p {
         margin-top: 20px;
         font-size:14px;
-        font-family:PingFangSC-Regular;
+        font-family: $font-family-light;
         color:rgba(111,114,117,1);
         line-height:20px;
       }

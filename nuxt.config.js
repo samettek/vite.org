@@ -22,41 +22,15 @@ module.exports = {
           warnings: false // Fix bulma css warnings
         }
       }
-    },
-    extend (config) {
-      config.resolve.alias['chart.js'] = 'chart.js/dist/Chart.min'
     }
   },
-  router: {
-    middleware: 'i18n'
-  },
-  plugins: ['~/plugins/fontawesome', '~/plugins/vue-scrollactive'],
+  plugins: ['~/plugins/fontawesome', {src: '~/plugins/vue-headroom', ssr: false}],
   generate: {
     routes: generateRoutes
   },
   modules: [
     '@nuxtjs/webpackmonitor',
     '@nuxtjs/pwa',
-    ['xui-module', {
-      'mdi': {
-        active: false // Do not load Material Design Icons
-      },
-      'bulma': {
-        active: false
-      },
-      'hover.css': {
-        active: false
-      },
-      'spacing': {
-        active: false
-      },
-      'vue-headroom': {
-        active: false
-      },
-      'vue-scrollactive': {
-        active: false
-      }
-    }],
     ['nuxt-i18n', {
       locales: [
         {

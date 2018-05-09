@@ -130,6 +130,8 @@
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>
+  @import "~assets/vars";
+
   .in-out-translate-fade-enter-active, .in-out-translate-fade-leave-active {
     transition: all 0.5s;
   }
@@ -160,7 +162,7 @@
       h3 {
         margin-left: 46px;
         font-size:30px;
-        font-family:PingFangSC-Medium;
+        font-family: $font-family-main;
         color:#333333;
         line-height:42px;
       }
@@ -196,7 +198,7 @@
         .v-title {
           height:100px;
           font-size:72px;
-          font-family:PingFangSC-Semibold;
+          font-family: $font-family-title;
           color:rgba(0,114,227,1);
           line-height:100px;
           margin-bottom: 32px;
@@ -207,7 +209,7 @@
           height: 110px;
           & > p {
             font-size:24px;
-            font-family:PingFangSC-Medium;
+            font-family: $font-family-main;
             color:rgba(51,51,51,1);
             line-height:35px;
           }
@@ -231,7 +233,7 @@
 
           flex: 1;
           font-size:16px;
-          font-family:PingFangSC-Medium;
+          font-family: $font-family-main;
           color:rgba(188,188,188,1);
           position: relative;
           display: flex;
@@ -245,6 +247,8 @@
                 background: #333333;
                 height: 4px;
                 top: 10px;
+                width: 900px;
+                right: -900px;
               }
             }
 
@@ -264,8 +268,7 @@
               width: 100%;
               right: -100%;
               top: 13px;
-              transition: height 0.4s ease;
-              transition: background 0.9s ease;
+              transition: all 0.9s ease;
               &:hover {
                 background: #333333;
                 height: 4px;

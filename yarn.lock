@@ -4638,12 +4638,11 @@ number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "http://registry.npm.taobao.org/number-is-nan/download/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
 
-nuxt-i18n@^2.9.1:
-  version "2.9.5"
-  resolved "http://registry.npm.taobao.org/nuxt-i18n/download/nuxt-i18n-2.9.5.tgz#d9dd042b26ed15f5378fc4df7d4eb8c1fee844a4"
+nuxt-i18n@2.1.0:
+  version "2.1.0"
+  resolved "http://registry.npm.taobao.org/nuxt-i18n/download/nuxt-i18n-2.1.0.tgz#25e56aa5459bdd90e8e96d10f20a904fafdcd6d7"
   dependencies:
-    cookie "^0.3.1"
-    vue-i18n "^7.5.0"
+    vue-i18n "^7.3.2"
     vue-i18n-extensions "^0.1.0"
 
 nuxt@^1.4.0:
@@ -7196,7 +7195,7 @@ vue-i18n-extensions@^0.1.0:
   dependencies:
     vm2 "^3.5.0"
 
-vue-i18n@^7.5.0, vue-i18n@^7.6.0:
+vue-i18n@^7.3.2, vue-i18n@^7.6.0:
   version "7.6.0"
   resolved "http://registry.npm.taobao.org/vue-i18n/download/vue-i18n-7.6.0.tgz#8745807756f6ca5090fd85629e9cab99b1c6e442"
 

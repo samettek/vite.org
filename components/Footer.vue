@@ -101,7 +101,7 @@
 
     &.all-rights {
       font-size:14px;
-      font-family:PingFangSC-Medium;
+      font-family: $font-family-main;
       color:rgba(188,188,188,1);
       line-height:20px;
       text-align: center;
@@ -149,19 +149,19 @@
       & > div {
         &:first-child {
           font-size:18px;
-          font-family:PingFangSC-Medium;
+          font-family: $font-family-main;
           color:rgba(51,51,51,1);
-          line-height:28px;
-          margin-bottom: 48px;
+          margin-bottom: 51px;
+          line-height:25px;
         }
       }
       ul {
         li {
           a {
             font-size:18px;
-            font-family:PingFangSC-Medium;
+            font-family: $font-family-main;
             color:rgba(188,188,188,1);
-            line-height:28px;
+            line-height:25px;
 
             &:hover {
               color: #1580E3;

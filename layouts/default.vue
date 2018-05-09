@@ -1,7 +1,6 @@
 <template>
   <div>
-    <headroom>
-      <div class="headroom navbar" :class="`is-${routeName}-page`">
+      <div class="navbar headroom" :class="`is-${routeName}-page`" v-headroom>
         <div class="container is-widescreen" :class="{ 'is-open': navbarActive }" @click="onNavClick">
           <div class="navbar-brand">
             <div @click="onLogoClick">
@@ -28,7 +27,6 @@
           </div>
         </div>
       </div>
-    </headroom>
     <div class="nuxt-content">
       <nuxt></nuxt>
     </div>
@@ -99,6 +97,7 @@
     .nav-item {
       padding: 0.5rem 18px;
       color: #999999;
+      font-family:PingFangSC-Medium;
       &:hover {
         color: #333333;
       }
@@ -107,5 +106,4 @@
       }
     }
   }
-
 </style>

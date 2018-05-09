@@ -57,7 +57,6 @@
   @import "assets/vars.scss";
 
   .hero {
-    background: $background-image;
     .container {
       .title, .subtitle {
         color: white;

@@ -15,7 +15,7 @@
               {{$t('home.whitePaper')}}
               <svg width="13px" height="22px" viewBox="0 0 13 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                  <g id="home——PC" transform="translate(-526.000000, -473.000000)" stroke-width="2" stroke="#333333">
+                  <g id="home——PC" transform="translate(-526.000000, -473.000000)" stroke-width="2" stroke="currentColor">
                     <g id="Group" transform="translate(360.000000, 152.000000)">
                       <polyline id="Rectangle-2-Copy-2" transform="translate(172.000000, 332.000000) scale(-1, 1) translate(-172.000000, -332.000000) " points="177 342 167 332 177 322"></polyline>
                     </g>
@@ -32,6 +32,7 @@
           </div>
         </div>
       </div>
+      <!--<home-animation></home-animation>-->
     </section>
 
     <v-feature></v-feature>
@@ -55,6 +56,7 @@
   import Logo from '~/components/Logo.vue'
   import LogoWord from '~/components/LogoWord'
   import Roadmap from '~/components/Roadmap'
+  import HomeAnimation from '~/components/HomeAnimation'
 
   import config from '~/config.js'
 
@@ -67,7 +69,8 @@
       Logo,
       LogoWord,
       VInvestor: Investor,
-      VRoadmap: Roadmap
+      VRoadmap: Roadmap,
+      HomeAnimation
     },
     head () {
       let title = this.$t('head.title')
@@ -131,6 +134,8 @@
   .home {
     min-height: 100vh;
     padding-top: 25vh;
+    position: relative;
+    font-family: $font-family-title;
     h1 {
       font-size: 72px;
       color:rgba(51,51,51,1);
@@ -138,6 +143,7 @@
     }
     h2 {
       font-size: 1.75rem;
+      font-family: $font-family-light;
     }
     .btn-group-wrapper {
       margin-top: 3rem;
@@ -145,13 +151,20 @@
         border-radius: 100px;
         width:230px;
         font-size:1.88rem;
-        font-family:PingFangSC-Semibold;
+        font-family: $font-family-title;
         color:rgba(51,51,51,1);
         line-height:3.75rem;
         height:3.75rem;
         border-color: #999999;
         svg {
           margin-left: 0.875rem;
+        }
+        &:hover {
+          color: #1580E3;
+          border-color: #1580E3;
+          svg {
+            color: #1580E3;
+          }
         }
       }
       .social {
