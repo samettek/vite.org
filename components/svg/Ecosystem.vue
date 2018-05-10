@@ -36,6 +36,8 @@
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>
+  @import "~assets/vars";
+
   .p-1 {
     transition: transform .6s ease-in-out;
   }
@@ -43,6 +45,13 @@
   svg:hover {
     .p-1 {
       transform: translate(-85px, -85px);
+    }
+  }
+
+  @include touch {
+    svg {
+      height: 170px;
+      width: 170px;
     }
   }
 </style>

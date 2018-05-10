@@ -111,5 +111,17 @@
         }
       }
     }
+
+    @include touch {
+      padding-top: 25px;
+      padding-bottom: 25px;
+      .container {
+        & > h2 {
+          font-size: 24px;
+          line-height: 34px;
+          margin-bottom: 25px;
+        }
+      }
+    }
   }
 </style>

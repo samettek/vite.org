@@ -44,7 +44,7 @@
               <div
                    :key="index"
                    class="item"
-                   :class="{ active: index === selected || index === hover }"
+                   :class="{ active: index === selected, hover: index === hover }"
                    @click="onClick(index)"
                    v-for="(item, index) in timelines">
                 <span>
@@ -212,6 +212,7 @@
             font-family: $font-family-main;
             color:rgba(51,51,51,1);
             line-height:35px;
+            padding: 0 40px;
           }
         }
       }
@@ -241,6 +242,20 @@
           justify-content: space-between;
           .item {
             position: relative;
+
+            &:hover, &.hover {
+              color: rgba(51,51,51,0.6);
+              cursor: pointer;
+              .line {
+                background: rgba(51,51,51,0.6);
+                height: 3px;
+                top: 10px;
+                transition: all 0.3s ease;
+                width: 130%;
+                right: -130%;
+              }
+            }
+
             &.active {
               color: #333333;
               .line {
@@ -252,15 +267,6 @@
               }
             }
 
-            &:hover {
-              color: #333333;
-              cursor: pointer;
-              .line {
-                background: #333333;
-                height: 4px;
-                top: 10px;
-              }
-            }
             .line {
               height:1px;
               background:rgba(216,216,216,1);

@@ -8,11 +8,11 @@
               <logo class="logo"></logo>
             </div>
             <div class="icon-links-wrapper">
-              <a :href="urls.github" target="_blank" class="icon"><fa-icon :icon="['fab', 'github']"></fa-icon></a>
-              <a :href="urls.discord" target="_blank" class="icon"><fa-icon :icon="['fab', 'discord']"></fa-icon></a>
-              <a :href="urls.twitter" target="_blank" class="icon"><fa-icon :icon="['fab', 'twitter']"></fa-icon></a>
-              <a :href="$t('urlSrc.telegram')" target="_blank" class="icon"><fa-icon :icon="['fab', 'telegram-plane']"/></a>
-              <a :href="urls.reddit" target="_blank" class="icon"><fa-icon :icon="['fab', 'reddit']"/></a>
+              <a :href="urls.github" target="_blank" class="icon text-hover-transition"><fa-icon :icon="['fab', 'github']"></fa-icon></a>
+              <a :href="urls.discord" target="_blank" class="icon text-hover-transition"><fa-icon :icon="['fab', 'discord']"></fa-icon></a>
+              <a :href="urls.twitter" target="_blank" class="icon text-hover-transition"><fa-icon :icon="['fab', 'twitter']"></fa-icon></a>
+              <a :href="$t('urlSrc.telegram')" target="_blank" class="icon text-hover-transition"><fa-icon :icon="['fab', 'telegram-plane']"/></a>
+              <a :href="urls.reddit" target="_blank" class="icon text-hover-transition"><fa-icon :icon="['fab', 'reddit']"/></a>
             </div>
           </div>
 
@@ -22,7 +22,7 @@
                 <div>学习</div>
                 <ul>
                   <li v-for="item in learnList">
-                    <a :href="getUrl(item)" target="_blank">{{$t(`urls.${item}`)}}</a>
+                    <a class="text-hover-transition" :href="getUrl(item)" target="_blank">{{$t(`urls.${item}`)}}</a>
                   </li>
                 </ul>
               </div>
@@ -30,7 +30,7 @@
                 <div>关于</div>
                 <ul>
                   <li v-for="item in aboutList">
-                    <a :href="getUrl(item)" target="_blank">{{$t(`urls.${item}`)}}</a>
+                    <a class="text-hover-transition" :href="getUrl(item)" target="_blank">{{$t(`urls.${item}`)}}</a>
                   </li>
                 </ul>
               </div>
@@ -38,7 +38,7 @@
                 <div>媒体</div>
                 <ul>
                   <li v-for="item in mediumList">
-                    <a :href="getUrl(item)" target="_blank">{{$t(`urls.${item}`)}}</a>
+                    <a class="text-hover-transition" :href="getUrl(item)" target="_blank">{{$t(`urls.${item}`)}}</a>
                   </li>
                 </ul>
               </div>

@@ -23,6 +23,18 @@
                 </g>
               </g>
             </svg>
+            <svg class="v-arrow is-hidden-desktop" width="76px" height="76px" viewBox="0 0 76 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g transform="translate(-337.000000, -1984.000000)">
+                  <g transform="translate(0.000000, 1322.000000)">
+                    <g transform="translate(375.000000, 700.000000) rotate(90.000000) translate(-375.000000, -700.000000) translate(340.000000, 665.000000)">
+                      <circle stroke="#34353A" stroke-width="5" fill="#2B2C30" cx="35" cy="35" r="35"></circle>
+                      <path d="M32.5,33.3333333 L25,33.3333333 L25,35.8333333 L32.5,35.8333333 L32.5,40.8333333 L45,34.5833333 L32.5,28.3333333 L32.5,33.3333333 Z" id="Combined-Shape" fill="#0072E3"></path>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
           </div>
           <div class="column v-content">
             <div class="sub-content-wrapper" :key="item" v-for="item in feature.content">
@@ -82,6 +94,10 @@
     background:rgba(43,44,48,1);
     border-bottom: 5px solid rgba(52,53,58,1);
 
+    @include touch {
+      border-bottom: none;
+    }
+
     &.reverse-row {
       .columns {
         flex-direction: row-reverse;
@@ -96,7 +112,18 @@
           .v-arrow {
             position: absolute;
             left: -(48px + 5px) / 2;
-            top: (550px - 48px) / 2
+            top: (550px - 48px) / 2;
+
+            @include touch {
+              top: auto;
+              left: auto;
+              right: 50%;
+              bottom: -(36px / 2);
+              margin-right: -(36px + 3px) / 2;
+              height: 36px;
+              width: 36px;
+              transform: rotate(0deg);
+            }
           }
         }
       }
@@ -132,11 +159,25 @@
           @include desktop {
             border-right: 5px solid rgba(52,53,58,1);
           }
+          @include touch {
+            border-bottom: 3px solid #34353A;
+            padding-bottom: 69px;
+            padding-top: 69px - (16px / 2);
+          }
         }
         .v-arrow {
           position: absolute;
           right: -(48px + 5px) / 2;
-          top: (550px - 48px) / 2
+          top: (550px - 48px) / 2;
+          @include touch {
+            bottom: 0;
+            top: auto;
+            right: 50%;
+            bottom: -(36px / 2);
+            margin-right: -(36px + 3px) / 2;
+            height: 36px;
+            width: 36px;
+          }
         }
       }
 
@@ -144,6 +185,11 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+
+        @include touch {
+          padding-top: 39px;
+          padding-bottom: 39px;
+        }
 
         .sub-content-wrapper {
           display: flex;
@@ -164,17 +210,30 @@
               color:rgba(255,255,255,1);
               line-height:33px;
               margin: 22px 0;
+              @include touch {
+                font-size: 16px;
+                line-height: 23px;
+                margin: 7px 0;
+              }
             }
             .border {
               width:64px;
               height:7px;
               background:rgba(21,128,227,1);
+
+              @include touch {
+                height: 4px;
+              }
             }
             p {
               font-size:16px;
               font-family: $font-family-light;
               color:rgba(144,146,154,1);
               line-height:28px;
+              @include touch {
+                font-size: 14px;
+                line-height: 26px;
+              }
             }
           }
         }
@@ -184,16 +243,17 @@
         flex-direction: column;
         display: flex;
         align-items: center;
-        img {
-          max-width: 340px;
-          max-height: 340px;
-        }
         h3 {
           font-size:30px;
           font-family: $font-family-main;
           color:rgba(0,114,227,1);
           line-height:42px;
           margin-top: 31px;
+          @include touch {
+            font-size: 24px;
+            line-height: 34px;
+            margin-top: 11px;
+          }
         }
       }
     }

@@ -15,7 +15,7 @@
       <span class="name">{{$t(`team.nameMap.${name}.name`)}}</span>
       <div class="icon-wrapper">
         <a :href="url.url" target="_blank" :key="url.url" v-for="url in urls">
-          <fa-icon class="icon" :icon="url.icon" />
+          <fa-icon class="icon text-hover-transition" :icon="url.icon" />
         </a>
       </div>
       <p>{{$t(`team.nameMap.${name}.description`)}}</p>
@@ -82,6 +82,7 @@
           width: 214px;
           opacity: 0.6;
           background-color: rgba(38,39,42,1);
+          transition: all 0.6s ease;
         }
       }
 
@@ -164,6 +165,10 @@
         font-family: $font-family-main;
         color:rgba(255,255,255,1);
         line-height:33px;
+        @include touch {
+          font-size: 18px;
+          line-height: 25px;
+        }
       }
       .icon-wrapper {
         display: inline-block;
@@ -176,6 +181,10 @@
           &:hover {
             color: rgba(21,128,227,1);
           }
+          @include touch {
+            height: 31px;
+            width: 31px;
+          }
         }
       }
       & > p {
@@ -184,6 +193,7 @@
         font-family: $font-family-light;
         color:rgba(111,114,117,1);
         line-height:20px;
+        transition: all 0.6s ease;
       }
     }
   }

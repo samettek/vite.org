@@ -17,7 +17,7 @@
 
           <div class="navbar-menu" :class="{ 'is-active': navbarActive }">
             <div class="navbar-end">
-              <nuxt-link :key="item" :to="localePath(item)" class="nav-item" :class="{active: routeName === item}" v-for="item in navs">
+              <nuxt-link :key="item" :to="localePath(item)" class="nav-item text-hover-transition" :class="{active: routeName === item}" v-for="item in navs">
                 {{$t(`nav.${item}`)}}
               </nuxt-link>
               <div class="nav-item">
@@ -79,11 +79,11 @@
     margin-top: 72px;
   }
 
-  .headroom--not-top {
-    border-bottom: 1px solid #C6C6C6;
-  }
-
   .navbar {
+    border-bottom: 1px solid transparent;
+    &.headroom--not-top {
+      border-bottom: 1px solid rgba(0,0,0,0.05);
+    }
     .navbar-brand {
       height: $navbar-height;
       .nav-item {
@@ -97,12 +97,52 @@
     .nav-item {
       padding: 0.5rem 18px;
       color: #999999;
-      font-family:PingFangSC-Medium;
+      font-family: $font-family-main;
       &:hover {
         color: #333333;
       }
       &.active {
         color: #333333;
+      }
+    }
+  }
+
+  @include touch {
+    .nuxt-content {
+      margin-top: 41px;
+    }
+    .navbar {
+      min-height: 40px;
+      height: auto;
+      .navbar-brand {
+        min-height: 40px;
+        height: 40px;
+        .logo {
+          height: 22px;
+        }
+        .navbar-burger {
+          height: 40px;
+          width: 49px;
+          span {
+            width: 19px;
+            right: 50%;
+            left: auto;
+            margin-right: -10px;
+            &:nth-child(2) {
+              width: 15px;
+            }
+          }
+        }
+      }
+
+      .nav-item {
+        padding: 11px 16px;
+        font-size: 14px;
+      }
+
+      & > .container {
+        min-height: 40px;
+        height: auto;
       }
     }
   }

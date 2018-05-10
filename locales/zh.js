@@ -14,7 +14,7 @@ module.exports = {
   },
   home: {
     header: 'Vite',
-    contract: '新一代高性能去中心化应用平台',
+    slogan: '新一代高性能去中心化应用平台',
     whitePaper: '白皮书'
   },
   feature: {

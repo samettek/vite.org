@@ -54,5 +54,12 @@
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>
+  @import "~assets/vars";
 
+  @include touch {
+    svg {
+      height: 170px;
+      width: 170px;
+    }
+  }
 </style>

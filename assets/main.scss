@@ -7,6 +7,12 @@ body {
   font-family: $font-family-light;
 }
 
+// transition
+
+.text-hover-transition {
+  transition: color 0.4s ease-in-out;
+}
+
 // headroom
 .headroom {
   position: fixed;

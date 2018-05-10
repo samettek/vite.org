@@ -32,6 +32,8 @@
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>
+  @import "~assets/vars";
+
   .lang-btn {
     .dropdown-trigger {
       button {
@@ -41,6 +43,7 @@
         border-radius: 0.35rem;
         height: (40rem/16);
         border: transparent;
+        font-family: $font-family-main;
         &:focus {
           border: none;
           box-shadow: none;
