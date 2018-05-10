@@ -51,6 +51,7 @@
       <div class="container">
           <span>
             Vite Labs Limited, All Rights Reserved.
+            <br class="is-hidden-desktop"/>
             Copyright © 2018 VITE Labs
           </span>
       </div>
@@ -93,10 +94,17 @@
   .footer {
     &:first-child {
       padding-top: 78px;
-      border-bottom: 1px solid #C6C6C6;
+      border-bottom: 1px solid rgba(0,0,0,0.08);
+      @include touch {
+        padding-top: 35px;
+      }
     }
+
     &:last-child {
       padding: 31px;
+      @include touch {
+        padding: 15px;
+      }
     }
 
     &.all-rights {
@@ -105,6 +113,11 @@
       color:rgba(188,188,188,1);
       line-height:20px;
       text-align: center;
+
+      @include touch {
+        font-size: 12px;
+        line-height: 17px;
+      }
     }
 
     .link-tab {
@@ -123,6 +136,10 @@
         color: #1580E3;
         height: 116px;
         width: auto;
+        @include touch {
+          height: 78px;
+          margin-bottom: 22px;
+        }
       }
     }
     .icon-links-wrapper {
@@ -130,9 +147,15 @@
       @include mobile {
         text-align: center;
       }
+      @include touch {
+        font-size: 24px;
+      }
       .icon {
         color: #C4C4C4;
         margin-left: 29px;
+        @include touch {
+          margin-left: 19px;
+        }
         &:hover {
           color: #1580E3;
         }
@@ -150,9 +173,14 @@
         &:first-child {
           font-size:18px;
           font-family: $font-family-main;
-          color:rgba(51,51,51,1);
+          color: rgba(51,51,51,1);
           margin-bottom: 51px;
-          line-height:25px;
+          line-height: 25px;
+          @include touch {
+            font-size: 15px;
+            line-height: 21px;
+            margin-bottom: 18px;
+          }
         }
       }
       ul {
@@ -162,6 +190,11 @@
             font-family: $font-family-main;
             color:rgba(188,188,188,1);
             line-height:25px;
+
+            @include touch {
+              font-size: 14px;
+              line-height: 20px;
+            }
 
             &:hover {
               color: #1580E3;

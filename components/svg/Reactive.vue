@@ -62,11 +62,17 @@
     }
   }
 
-  @include touch {
+  @include mobile {
     svg {
       height: 170px;
       width: 170px;
     }
   }
 
+  @include touch {
+    svg {
+      height: 230px;
+      width: 230px;
+    }
+  }
 </style>

@@ -23,7 +23,7 @@
                 </g>
               </g>
             </svg>
-            <svg class="v-arrow is-hidden-desktop" width="76px" height="76px" viewBox="0 0 76 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <svg class="v-arrow is-hidden-tablet" width="76px" height="76px" viewBox="0 0 76 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
               <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g transform="translate(-337.000000, -1984.000000)">
                   <g transform="translate(0.000000, 1322.000000)">
@@ -159,7 +159,7 @@
           @include desktop {
             border-right: 5px solid rgba(52,53,58,1);
           }
-          @include touch {
+          @include mobile {
             border-bottom: 3px solid #34353A;
             padding-bottom: 69px;
             padding-top: 69px - (16px / 2);

@@ -39,7 +39,7 @@
 
     <v-feature></v-feature>
 
-    <!--<v-roadmap></v-roadmap>-->
+    <v-roadmap></v-roadmap>
 
     <v-teams></v-teams>
 

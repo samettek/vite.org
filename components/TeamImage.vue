@@ -194,6 +194,9 @@
         color:rgba(111,114,117,1);
         line-height:20px;
         transition: all 0.6s ease;
+        @include touch {
+          margin-top: 25px;
+        }
       }
     }
   }
