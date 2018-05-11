@@ -30,7 +30,7 @@
       return {
         list: [
           {
-            key: 'blockLattice',
+            key: 'dag',
             img: require('~/assets/images/block_lattice.png'),
             readMore: 'http://doc.vite.org'
           },
@@ -38,6 +38,18 @@
             key: 'snapshotChain',
             img: '/icon.png',
             readMore: 'http://doc.vite.org'
+          },
+          {
+            key: 'async',
+            img: '/icon.png'
+          },
+          {
+            key: 'reactiveContract',
+            img: '/icon.png'
+          },
+          {
+            key: 'ecosystem',
+            img: '/icon.png'
           }
         ]
       }

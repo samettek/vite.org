@@ -124,19 +124,44 @@ module.exports = {
       }
     ]
   },
-  'tech': {
-    'title': '核心技术',
-    'blockLattice': {
-      'title': 'Block Lattice',
-      'description': [
-        'Vite账本结构不是基于Block Chain的，其主体是一个由伴生的Request Block和Response Block构成的树型结构。',
-        '每一个账户一条链，每个交易会生成一个Request Block和一个Response Block，每个账户上的块只能由该账户持有者才能添加。'
+  tech: {
+    title: '核心技术',
+    dag: {
+      title: 'Block Lattice',
+      description: [
+        'Vite采用一种称为block-lattice的DAG账本结构，每个账户对应一条链，每个交易引用本账户前一个交易的哈希；交易分为“请求交易”和“响应交易”两种，一个响应交易需要引用对应的请求交易的哈希。这样就构成了一种栅格状的DAG结构。',
+        '这种账本结构允许互不相干的交易“并行”写入，降低冲突概率，提高系统吞吐能力。'
       ]
     },
-    'snapshotChain': {
-      'title': 'Snapshot Chain',
-      'description': [
-        '合约账户的Response Block和普通账户的Response Block写入不一样，合约账户没有私钥，所以任何人都可以写入，为了防止意外频繁的分叉。我们往引入一条主链，我们称为：Snapshot Chain。'
+    snapshotChain: {
+      title: 'Snapshot Chain',
+      description: [
+        'Block-lattice有先天的安全缺陷，一些交易被回滚的概率不会随时间推移而降低。为此，Vite 提出独创的快照链技术。',
+        '一个快照块存储一个 Vite 账本的状态快照，状态包括：账户的余额、合约状态 的 Merkle root，每个账户链中最后一个块的 hash。快照链是由快照块组成的链式结构，后一个快照块引用前一个快照块的hash。',
+        '攻击者想生成一个双花交易，除了要 重建 Vite 账本中的 hash 引用之外，还需要重建快照链 中，首次快照该交易的快照块之后的所有区块，并且需要 产生一条更长的快照链。'
+      ]
+    },
+    async: {
+      title: '异步架构',
+      description: [
+        'Vite 最主要的创新是整个体统的异步设计。',
+        '第一：异步请求模型：交易分为请求交易和响应交易。无论是一笔转账还是一次合约调用，均会在账本上先后生成两笔交易。',
+        '第二：异步确认模型：交易写入账本和被系统确认是异步的。不同的用户可以并行的将交易写入账本，快照链将以固定的速度对账本进行快照。'
+      ]
+    },
+    reactiveContract: {
+      title: '响应式合约',
+      description: [
+        'Vite的合约间通信采用了一种基于消息驱动的架构，合约间不共享状态，只通过彼此发送消息进行通信。',
+        '一个合约调用另一个合约，需要先发送一个请求交易，运行目标合约的节点观测到这条请求交易后，向账本中写入一个对应的响应交易，并更新合约的状态。'
+      ]
+    },
+    ecosystem: {
+      title: '生态闭环',
+      description: [
+        'Vite 将内置Loopring协议，实现多种代币之间的互换，用户可以使用 vite 来支付资产互换交易费，路印矿工在 Vite 平台上进行环路撮合，赚取的代币也是 Vite。',
+        'Vite还提出了VCTP跨链协议，可以实现跨链资产传输。Vite团队将会负责与以太坊的跨链实现，其他目标链的跨链实现将会与项目团队以及社区共同推进。',
+        'Vite 支持更加灵活的资源配置，Vite系统的资源分配是基于用户持有的VITE代币、一次性支付的费用以及交易PoW难度综合计算。'
       ]
     }
   },
