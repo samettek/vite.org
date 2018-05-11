@@ -1437,30 +1437,6 @@ chardet@^0.4.0:
   version "0.4.2"
   resolved "http://registry.npm.taobao.org/chardet/download/chardet-0.4.2.tgz#b5473b33dc97c424e5d98dc87d55d4d8a29c8bf2"
 
-chart.js@^2.7.2:
-  version "2.7.2"
-  resolved "http://registry.npm.taobao.org/chart.js/download/chart.js-2.7.2.tgz#3c9fde4dc5b95608211bdefeda7e5d33dffa5714"
-  dependencies:
-    chartjs-color "^2.1.0"
-    moment "^2.10.2"
-
-chartjs-color-string@^0.5.0:
-  version "0.5.0"
-  resolved "http://registry.npm.taobao.org/chartjs-color-string/download/chartjs-color-string-0.5.0.tgz#8d3752d8581d86687c35bfe2cb80ac5213ceb8c1"
-  dependencies:
-    color-name "^1.0.0"
-
-chartjs-color@^2.1.0:
-  version "2.2.0"
-  resolved "http://registry.npm.taobao.org/chartjs-color/download/chartjs-color-2.2.0.tgz#84a2fb755787ed85c39dd6dd8c7b1d88429baeae"
-  dependencies:
-    chartjs-color-string "^0.5.0"
-    color-convert "^0.5.3"
-
-chartjs-plugin-piechart-outlabels@^0.1.4:
-  version "0.1.4"
-  resolved "http://registry.npm.taobao.org/chartjs-plugin-piechart-outlabels/download/chartjs-plugin-piechart-outlabels-0.1.4.tgz#e97e19a12202d74f9040d9e4641987c9d1e458fc"
-
 check-types@^7.3.0:
   version "7.3.0"
   resolved "http://registry.npm.taobao.org/check-types/download/check-types-7.3.0.tgz#468f571a4435c24248f5fd0cb0e8d87c3c341e7d"
@@ -1557,14 +1533,6 @@ cli-width@^2.0.0:
   version "2.2.0"
   resolved "http://registry.npm.taobao.org/cli-width/download/cli-width-2.2.0.tgz#ff19ede8a9a5e579324147b0c11f0fbcbabed639"
 
-clipboard@^1.7.1:
-  version "1.7.1"
-  resolved "http://registry.npm.taobao.org/clipboard/download/clipboard-1.7.1.tgz#360d6d6946e99a7a1fef395e42ba92b5e9b5a16b"
-  dependencies:
-    good-listener "^1.2.2"
-    select "^1.1.2"
-    tiny-emitter "^2.0.0"
-
 cliui@^2.1.0:
   version "2.1.0"
   resolved "http://registry.npm.taobao.org/cliui/download/cliui-2.1.0.tgz#4b475760ff80264c762c3a1719032e91c7fea0d1"
@@ -1618,10 +1586,6 @@ collection-visit@^1.0.0:
   dependencies:
     map-visit "^1.0.0"
     object-visit "^1.0.0"
-
-color-convert@^0.5.3:
-  version "0.5.3"
-  resolved "http://registry.npm.taobao.org/color-convert/download/color-convert-0.5.3.tgz#bdb6c69ce660fadffe0b0007cc447e1b9f7282bd"
 
 color-convert@^1.3.0, color-convert@^1.8.2, color-convert@^1.9.0, color-convert@^1.9.1:
   version "1.9.1"
@@ -2157,10 +2121,6 @@ del@^2.0.2:
 delayed-stream@~1.0.0:
   version "1.0.0"
   resolved "http://registry.npm.taobao.org/delayed-stream/download/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
-
-delegate@^3.1.2:
-  version "3.2.0"
-  resolved "http://registry.npm.taobao.org/delegate/download/delegate-3.2.0.tgz#b66b71c3158522e8ab5744f720d8ca0c2af59166"
 
 delegates@^1.0.0:
   version "1.0.0"
@@ -3159,12 +3119,6 @@ globule@^1.0.0:
     glob "~7.1.1"
     lodash "~4.17.4"
     minimatch "~3.0.2"
-
-good-listener@^1.2.2:
-  version "1.2.2"
-  resolved "http://registry.npm.taobao.org/good-listener/download/good-listener-1.2.2.tgz#d53b30cdf9313dffb7dc9a0d477096aa6d145c50"
-  dependencies:
-    delegate "^3.1.2"
 
 graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.6:
   version "4.1.11"
@@ -4196,22 +4150,6 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-markdown-it-emoji@^1.4.0:
-  version "1.4.0"
-  resolved "http://registry.npm.taobao.org/markdown-it-emoji/download/markdown-it-emoji-1.4.0.tgz#9bee0e9a990a963ba96df6980c4fddb05dfb4dcc"
-
-markdown-it-headinganchor@^1.3.0:
-  version "1.3.0"
-  resolved "http://registry.npm.taobao.org/markdown-it-headinganchor/download/markdown-it-headinganchor-1.3.0.tgz#65556577ad702983f4b89bf30bab4702cedcbbfa"
-
-markdown-it-link-attributes@^2.0.0:
-  version "2.0.0"
-  resolved "http://registry.npm.taobao.org/markdown-it-link-attributes/download/markdown-it-link-attributes-2.0.0.tgz#24803e7a2331c54cbd1450b8b03dc7f5f89a3c27"
-
-markdown-it-mathjax@^2.0.0:
-  version "2.0.0"
-  resolved "http://registry.npm.taobao.org/markdown-it-mathjax/download/markdown-it-mathjax-2.0.0.tgz#ae2b4f4c5c719a03f9e475c664f7b2685231d9e9"
-
 math-expression-evaluator@^1.2.14:
   version "1.2.17"
   resolved "http://registry.npm.taobao.org/math-expression-evaluator/download/math-expression-evaluator-1.2.17.tgz#de819fdbcd84dccd8fae59c6aeb79615b9d266ac"
@@ -4398,10 +4336,6 @@ mkdirp@0.5.1, "mkdirp@>=0.5 0", mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.0, mkd
   resolved "http://registry.npm.taobao.org/mkdirp/download/mkdirp-0.5.1.tgz#30057438eac6cf7f8c4767f38648d6697d75c903"
   dependencies:
     minimist "0.0.8"
-
-moment@^2.10.2:
-  version "2.21.0"
-  resolved "http://registry.npm.taobao.org/moment/download/moment-2.21.0.tgz#2a114b51d2a6ec9e6d83cf803f838a878d8a023a"
 
 move-concurrently@^1.0.1:
   version "1.0.1"
@@ -4929,10 +4863,6 @@ parse-json@^2.2.0:
 parseurl@~1.3.2:
   version "1.3.2"
   resolved "http://registry.npm.taobao.org/parseurl/download/parseurl-1.3.2.tgz#fc289d4ed8993119460c156253262cdc8de65bf3"
-
-particles.js@^2.0.0:
-  version "2.0.0"
-  resolved "http://registry.npm.taobao.org/particles.js/download/particles.js-2.0.0.tgz#21386c4328d6c7f96780a201e96eedfc09c736f6"
 
 pascalcase@^0.1.1:
   version "0.1.1"
@@ -5613,12 +5543,6 @@ pretty-error@^2.0.2, pretty-error@^2.1.1:
     renderkid "^2.0.1"
     utila "~0.4"
 
-prismjs@^1.11.0:
-  version "1.11.0"
-  resolved "http://registry.npm.taobao.org/prismjs/download/prismjs-1.11.0.tgz#297aef33eb79421bfdb19273a5092ca515970d29"
-  optionalDependencies:
-    clipboard "^1.7.1"
-
 private@^0.1.6, private@^0.1.7:
   version "0.1.8"
   resolved "http://registry.npm.taobao.org/private/download/private-0.1.8.tgz#2381edb3689f7a53d653190060fcf822d2f368ff"
@@ -5747,12 +5671,6 @@ querystring-es3@^0.2.0:
 querystring@0.2.0, querystring@^0.2.0:
   version "0.2.0"
   resolved "http://registry.npm.taobao.org/querystring/download/querystring-0.2.0.tgz#b209849203bb25df820da756e747005878521620"
-
-raf@^3.4.0:
-  version "3.4.0"
-  resolved "http://registry.npm.taobao.org/raf/download/raf-3.4.0.tgz#a28876881b4bc2ca9117d4138163ddb80f781575"
-  dependencies:
-    performance-now "^2.1.0"
 
 randombytes@^2.0.0, randombytes@^2.0.1, randombytes@^2.0.5:
   version "2.0.6"
@@ -6231,10 +6149,6 @@ scss-tokenizer@^0.2.3:
   dependencies:
     js-base64 "^2.1.8"
     source-map "^0.4.2"
-
-select@^1.1.2:
-  version "1.1.2"
-  resolved "http://registry.npm.taobao.org/select/download/select-1.1.2.tgz#0e7350acdec80b1108528786ec1d4418d11b396d"
 
 "semver@2 || 3 || 4 || 5", semver@^5.3.0, semver@^5.4.1, semver@^5.5.0:
   version "5.5.0"
@@ -6833,10 +6747,6 @@ timers-browserify@^2.0.4:
   dependencies:
     setimmediate "^1.0.4"
 
-tiny-emitter@^2.0.0:
-  version "2.0.2"
-  resolved "http://registry.npm.taobao.org/tiny-emitter/download/tiny-emitter-2.0.2.tgz#82d27468aca5ade8e5fd1e6d22b57dd43ebdfb7c"
-
 tinycolor2@^1.1.2:
   version "1.4.1"
   resolved "http://registry.npm.taobao.org/tinycolor2/download/tinycolor2-1.4.1.tgz#f4fad333447bc0b07d4dc8e9209d8f39a8ac77e8"
@@ -6930,10 +6840,6 @@ tunnel-agent@~0.4.1:
 tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   version "0.14.5"
   resolved "http://registry.npm.taobao.org/tweetnacl/download/tweetnacl-0.14.5.tgz#5ae68177f192d4456269d108afa93ff8743f4f64"
-
-twemoji@^2.5.1:
-  version "2.5.1"
-  resolved "http://registry.npm.taobao.org/twemoji/download/twemoji-2.5.1.tgz#296647c6163c7f047458871c2aebe25ea8ffe834"
 
 type-check@~0.3.2:
   version "0.3.2"
@@ -7180,12 +7086,6 @@ vue-analytics@^5.4.0:
   version "5.9.1"
   resolved "http://registry.npm.taobao.org/vue-analytics/download/vue-analytics-5.9.1.tgz#3ac9810f56dbe54bca4fd1c3ee42354b433d932b"
 
-vue-headroom@^0.8.1:
-  version "0.8.1"
-  resolved "http://registry.npm.taobao.org/vue-headroom/download/vue-headroom-0.8.1.tgz#6a47219829f8268391a25d59a7e9af8c39ef7772"
-  dependencies:
-    raf "^3.4.0"
-
 vue-hot-reload-api@^2.2.0:
   version "2.3.0"
   resolved "http://registry.npm.taobao.org/vue-hot-reload-api/download/vue-hot-reload-api-2.3.0.tgz#97976142405d13d8efae154749e88c4e358cf926"
@@ -7239,12 +7139,6 @@ vue-router@^3.0.1:
 vue-scrollactive@^0.4.5:
   version "0.4.6"
   resolved "http://registry.npm.taobao.org/vue-scrollactive/download/vue-scrollactive-0.4.6.tgz#6202c7592d444e583b904e1de833e710c0285303"
-  dependencies:
-    bezier-easing "^2.0.3"
-
-vue-scrollactive@^0.6.1:
-  version "0.6.1"
-  resolved "http://registry.npm.taobao.org/vue-scrollactive/download/vue-scrollactive-0.6.1.tgz#2091bf25364ad37f32dfee2d9ead47d2005d3f28"
   dependencies:
     bezier-easing "^2.0.3"
 

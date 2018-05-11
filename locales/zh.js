@@ -3,7 +3,10 @@ module.exports = {
   head: {
     title: 'Vite - 新一代高性能去中心化应用平台',
     document: '文档',
-    homeDesc: 'Vite - 新一代高性能去中心化应用平台'
+    homeDesc: 'Vite - 新一代高性能去中心化应用平台',
+    careersDesc: '欢迎加入Vitelabs，一起创造【新一代高性能去中心化应用平台】',
+    faqDesc: '有关Vite的所有问题答疑',
+    technologyDesc: 'Vite核心技术：DAG、Snapchat Chain、异步架构、响应式合约、配额租赁、集成路印协议、定时调度、合约升级、solidity++'
   },
   nav: {
     index: '首页',

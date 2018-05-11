@@ -34,7 +34,6 @@
 </template>
 
 <script type="text/babel">
-  import { headroom } from 'vue-headroom'
   import LangSelect from '~/components/LangSelect.vue'
   import Logo from '~/components/Logo.vue'
   import LogoWithoutWords from '~/components/LogoWithoutWords.vue'
@@ -43,8 +42,7 @@
     components: {
       LangSelect,
       Logo,
-      LogoWithoutWords,
-      headroom
+      LogoWithoutWords
     },
     data: function () {
       return {
