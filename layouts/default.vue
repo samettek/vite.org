@@ -15,11 +15,12 @@
             </div>
           </div>
 
-          <div class="navbar-menu" :class="{ 'is-active': navbarActive }">
-            <div class="navbar-end">
+          <div class="navbar-menu" :class="{ 'is-active': navbarActive }" :style="navbarEndStyle">
+            <div ref="navbarEnd" class="navbar-end">
               <nuxt-link :key="item" :to="localePath(item)" class="nav-item text-hover-transition" :class="{active: routeName === item}" v-for="item in navs">
                 {{$t(`nav.${item}`)}}
               </nuxt-link>
+              <div class="line is-hidden-desktop"></div>
               <div class="nav-item">
                 <lang-select></lang-select>
               </div>
@@ -54,6 +55,18 @@
       routeName () {
         if (!this.$route || !this.$route.name) return ''
         return this.$route.name.split('-')[0]
+      },
+      navbarEndStyle () {
+        if (this.navbarActive) {
+          return {
+            height: this.$refs.navbarEnd.clientHeight + 'px',
+            overflowY: 'hidden'
+          }
+        } else {
+          return {
+            height: 0
+          }
+        }
       }
     },
     methods: {
@@ -103,6 +116,11 @@
         color: #333333;
       }
     }
+    .navbar-menu {
+      @include desktop {
+        height: auto !important;
+      }
+    }
   }
 
   @include touch {
@@ -136,6 +154,29 @@
       .nav-item {
         padding: 11px 16px;
         font-size: 14px;
+      }
+
+      .navbar-menu {
+        padding: 0 32px;
+        transition: all 0.5s ease-in-out;
+        &:not(.is-active) {
+          height: 0;
+          overflow-y: hidden;
+          display: block;
+        }
+        .navbar-end {
+          padding: 0.5rem 0;
+        }
+        .nav-item {
+          height: 48px;
+          padding-left: 0;
+        }
+        .line {
+          height: 1px;
+          margin: 0.5rem 0;
+          background: rgba(0,0,0,0.05);
+          padding: 0;
+        }
       }
 
       & > .container {
