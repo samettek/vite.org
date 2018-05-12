@@ -8,14 +8,14 @@
                 <logo-without-words class="logo"></logo-without-words>
               </nuxt-link>
             </div>
-            <div class="navbar-burger" @click="navbarActive = !navbarActive">
+            <div class="navbar-burger" @click="onBurgerClick">
               <span></span>
               <span></span>
               <span></span>
             </div>
           </div>
 
-          <div class="navbar-menu" :class="{ 'is-active': navbarActive }" :style="navbarEndStyle">
+          <div class="navbar-menu" :class="{ 'is-active': navbarActive, collapsing: collapsing }" :style="navbarEndStyle">
             <div ref="navbarEnd" class="navbar-end">
               <nuxt-link :key="item" :to="localePath(item)" class="nav-item text-hover-transition" :class="{active: routeName === item}" v-for="item in navs">
                 {{$t(`nav.${item}`)}}
@@ -48,7 +48,8 @@
     data: function () {
       return {
         navbarActive: false,
-        navs: ['index', 'technology', 'faq', 'careers']
+        navs: ['index', 'technology', 'faq', 'careers'],
+        collapsing: false
       }
     },
     computed: {
@@ -60,7 +61,7 @@
         if (this.navbarActive) {
           return {
             height: this.$refs.navbarEnd.clientHeight + 'px',
-            overflowY: 'hidden'
+            overflowY: this.collapsing ? 'hidden' : 'visible'
           }
         } else {
           return {
@@ -78,6 +79,13 @@
       },
       onLogoClick () {
         this.navbarActive = false
+      },
+      onBurgerClick () {
+        this.collapsing = true
+        this.navbarActive = !this.navbarActive
+        setTimeout(() => {
+          this.collapsing = false
+        }, 500)
       }
     }
   }
