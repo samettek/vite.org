@@ -36,7 +36,7 @@
       </div>
       <!--<home-animation></home-animation>-->
     </section>
-
+    <icosahedron></icosahedron>
     <v-feature></v-feature>
 
     <v-roadmap></v-roadmap>
@@ -51,6 +51,7 @@
 
 <script>
   import Teams from '~/components/Teams.vue'
+  import Icosahedron from '~/components/Icosahedron/index.vue'
   import Footer from '~/components/Footer.vue'
   import Feature from '~/components/Feature'
   import Investor from '~/components/Investor'
@@ -69,6 +70,7 @@
       Logo,
       LogoWord,
       VInvestor: Investor,
+      Icosahedron,
       VRoadmap: Roadmap,
       HomeAnimation
     },
