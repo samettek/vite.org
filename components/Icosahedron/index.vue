@@ -5,7 +5,7 @@
 <script>
   import getBinaryAngleList from './getBinaryAngleList';
   import getXYZList from './getXYZList';
-  import PointSet from './PointSet';
+  import PointSet from './pointSet';
 
   const THREE = require('three');
 
@@ -126,7 +126,7 @@
 
   .webgl-canvas {
     width: 50%;
-    height: 70vh;
+    height: 90vh;
     position: absolute;
     top: 60px;
     right: 0;
