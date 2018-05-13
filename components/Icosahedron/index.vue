@@ -112,7 +112,7 @@
         objects.rotation.y += 0.005;
         objects.rotation.z += 0.005;
 
-        pointSet.moveRandom();
+        // pointSet.moveRandom();
       };
 
       render();
@@ -121,9 +121,22 @@
   }
 </script>
 
-<style scoped>
+<style rel="stylesheet/scss" lang="scss" scoped>
+  @import "assets/vars.scss";
+
   .webgl-canvas {
-    width: 100%;
-    height: 800px;
+    width: 50%;
+    height: 70vh;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    z-index: -1;
+    @include mobile {
+      position: absolute;
+      bottom: 60px;
+      top: auto;
+      height: 50vh;
+      width: 100%;
+    }
   }
 </style>

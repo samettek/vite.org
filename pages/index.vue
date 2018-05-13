@@ -34,9 +34,8 @@
           </div>
         </div>
       </div>
-      <!--<home-animation></home-animation>-->
+      <icosahedron></icosahedron>
     </section>
-    <icosahedron></icosahedron>
     <v-feature></v-feature>
 
     <v-roadmap></v-roadmap>
@@ -116,13 +115,6 @@
   }
 </script>
 
-<style lang="scss">
-  .particles-js-canvas-el {
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-</style>
 
 <style lang="scss" scoped>
   @import "assets/vars.scss";
