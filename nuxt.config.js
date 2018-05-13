@@ -32,7 +32,7 @@ module.exports = {
     middleware: 'i18n'
   },
   modules: [
-    '@nuxtjs/webpackmonitor',
+    // '@nuxtjs/webpackmonitor',
     '@nuxtjs/pwa',
     ['nuxt-i18n', {
       locales: [
