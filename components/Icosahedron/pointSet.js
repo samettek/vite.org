@@ -11,8 +11,8 @@ export default  class PointSet {
       const BASE_SPEED = 0.001;
       const SPEED_INTERVAL = 0.01;
 
-      const BASE_RANGE = 0.5;
-      const RANGE_INTERVAL = 0.5;
+      const BASE_RANGE = 1;
+      const RANGE_INTERVAL = 1;
 
       return {
         point,

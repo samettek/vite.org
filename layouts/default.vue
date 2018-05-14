@@ -48,7 +48,7 @@
     data: function () {
       return {
         navbarActive: false,
-        navs: ['index', 'technology', 'faq', 'careers'],
+        navs: ['index'],
         collapsing: false
       }
     },

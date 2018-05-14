@@ -103,16 +103,18 @@
       renderer.setClearColor(new THREE.Color(0xffffff))
 
       // 初始化render函数，通过requestAnimationFrame形成动画
-      let render = function () {
+      let render = () => {
         requestAnimationFrame( render );
 
         renderer.render(scene, camera);
 
-        objects.rotation.x += 0.005;
-        objects.rotation.y += 0.005;
-        objects.rotation.z += 0.005;
+        if (!this.isPause) {
+          objects.rotation.x += 0.005;
+          objects.rotation.y += 0.005;
+          objects.rotation.z += 0.005;
+        }
 
-        // pointSet.moveRandom();
+        pointSet.moveRandom();
       };
 
       render();
@@ -123,12 +125,11 @@
 
 <style rel="stylesheet/scss" lang="scss" scoped>
   @import "assets/vars.scss";
-
   .webgl-canvas {
     width: 50%;
     height: 90vh;
     position: absolute;
-    top: 60px;
+    top: 0px;
     right: 0;
     z-index: -1;
     @include mobile {
