@@ -39,6 +39,7 @@
             </g>
           </svg>
         </div>
+        <!--  for desktop screen  -->
         <div class="v-list column is-hidden-touch">
             <div class="list-wrapper">
               <div
@@ -323,6 +324,7 @@
               &.active {
                 color: #333333;
                 .line {
+                  transition: all 1s ease-in-out;
                   background: #333333;
                   height: 4px;
                   top: 10px;

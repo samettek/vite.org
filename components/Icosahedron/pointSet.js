@@ -8,8 +8,8 @@ export default  class PointSet {
     this.xyChunk = xyChunk;
 
     this.moveOptionsList = this.points.map((point) => {
-      const BASE_SPEED = 0.001;
-      const SPEED_INTERVAL = 0.01;
+      const BASE_SPEED = 0.002;
+      const SPEED_INTERVAL = 0.02;
 
       const BASE_RANGE = 1;
       const RANGE_INTERVAL = 1;
