@@ -95,7 +95,13 @@ module.exports = {
         'description': 'Vite 移动客户端内测版'
       },
       {
-        'time': '2019 四月',
+        time: '2019 四月',
+        description: [
+          'Vite Core beta M2：智能合约、Solidity++编译器、智能合约开发文档'
+        ]
+      },
+      {
+        'time': '2019 五月',
         'description': [
           'Vite Core beta M3：配额租赁、定时调度、命名服务',
           'Vite 移动客户端支持dApplet小程序功能'
@@ -123,7 +129,7 @@ module.exports = {
       },
       {
         'time': '2020 二月',
-        'description': 'Vite 生态建设'
+        'description': 'Vite 启动生态发展计划'
       }
     ]
   },
