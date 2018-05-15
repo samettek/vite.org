@@ -30,6 +30,7 @@
               <a :href="$t('urlSrc.telegram')" target="_blank"><fa-icon class="icon" :icon="['fab', 'telegram-plane']" /></a>
               <a :href="socialUrls.twitter" target="_blank"><fa-icon class="icon" :icon="['fab', 'twitter']" /></a>
               <a :href="socialUrls.github" target="_blank"><fa-icon class="icon" :icon="['fab', 'github']" /></a>
+              <no-ssr><wechat></wechat></no-ssr>
             </div>
           </div>
         </div>
@@ -58,6 +59,7 @@
   import LogoWord from '~/components/LogoWord'
   import Roadmap from '~/components/Roadmap'
   import HomeAnimation from '~/components/HomeAnimation'
+  import Wechat from '~/components/Wechat'
 
   import config from '~/config.js'
 
@@ -71,7 +73,8 @@
       VInvestor: Investor,
       Icosahedron,
       VRoadmap: Roadmap,
-      HomeAnimation
+      HomeAnimation,
+      Wechat,
     },
     head () {
       let title = this.$t('head.title')
@@ -196,7 +199,7 @@
         @include touch {
           margin-top: 25px;
         }
-        .icon {
+        .icon, /deep/ svg {
           height: 36px;
           width: 36px;
           color: #C4C4C4;
@@ -211,6 +214,15 @@
             color: #1580E3;
           }
         }
+
+        /*  cover the v-popover component style  */
+        /deep/ .v-popover {
+          margin-left: 28px;
+          @include touch {
+            margin-left: 19px;
+          }
+        }
+
         a {
           margin-left: 28px;
           @include touch {

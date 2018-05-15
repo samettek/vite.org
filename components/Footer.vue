@@ -8,11 +8,12 @@
               <logo class="logo"></logo>
             </div>
             <div class="icon-links-wrapper">
-              <a :href="urls.github" target="_blank" class="icon text-hover-transition"><fa-icon :icon="['fab', 'github']"></fa-icon></a>
-              <a :href="urls.discord" target="_blank" class="icon text-hover-transition"><fa-icon :icon="['fab', 'discord']"></fa-icon></a>
-              <a :href="urls.twitter" target="_blank" class="icon text-hover-transition"><fa-icon :icon="['fab', 'twitter']"></fa-icon></a>
-              <a :href="$t('urlSrc.telegram')" target="_blank" class="icon text-hover-transition"><fa-icon :icon="['fab', 'telegram-plane']"/></a>
-              <a :href="urls.reddit" target="_blank" class="icon text-hover-transition"><fa-icon :icon="['fab', 'reddit']"/></a>
+              <a :href="urls.github" target="_blank" class="text-hover-transition"><fa-icon class="icon" :icon="['fab', 'github']"></fa-icon></a>
+              <a :href="urls.discord" target="_blank" class="text-hover-transition"><fa-icon class="icon" :icon="['fab', 'discord']"></fa-icon></a>
+              <a :href="urls.twitter" target="_blank" class="text-hover-transition"><fa-icon class="icon" :icon="['fab', 'twitter']"></fa-icon></a>
+              <a :href="$t('urlSrc.telegram')" target="_blank" class="text-hover-transition"><fa-icon class="icon" :icon="['fab', 'telegram-plane']"/></a>
+              <a :href="urls.reddit" target="_blank" class="text-hover-transition"><fa-icon class="icon" :icon="['fab', 'reddit']"/></a>
+              <no-ssr><wechat></wechat></no-ssr>
             </div>
           </div>
 
@@ -61,11 +62,13 @@
 
 <script type="text/babel">
   import Logo from '~/components/Logo.vue'
+  import Wechat from '~/components/Wechat'
   import config from '~/config.js'
 
   export default {
     components: {
-      Logo
+      Logo,
+      Wechat
     },
     data: function () {
       let {urls} = config
@@ -143,21 +146,25 @@
       }
     }
     .icon-links-wrapper {
-      font-size: 36px;
       @include mobile {
         text-align: center;
       }
-      @include touch {
-        font-size: 24px;
-      }
-      .icon {
-        color: #C4C4C4;
+      & > a, /deep/ .v-popover {
         margin-left: 29px;
+        svg {
+          width: 36px;
+          height: 36px;
+          color: #C4C4C4;
+          &:hover {
+            color: #1580E3;
+          }
+          @include touch {
+            width: 24px;
+            height: 24px;
+          }
+        }
         @include touch {
           margin-left: 19px;
-        }
-        &:hover {
-          color: #1580E3;
         }
         &:first-child {
           margin-left: 0;
