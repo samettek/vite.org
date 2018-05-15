@@ -51,7 +51,7 @@
     data: function () {
       return {
         navbarActive: false,
-        navs: ['index', 'faq', 'careers'],
+        navs: ['index'],
         collapsing: false
       }
     },
