@@ -31,6 +31,7 @@
     <div class="nuxt-content">
       <nuxt></nuxt>
     </div>
+    <v-footer></v-footer>
   </div>
 </template>
 
@@ -38,17 +39,19 @@
   import LangSelect from '~/components/LangSelect.vue'
   import Logo from '~/components/Logo.vue'
   import LogoWithoutWords from '~/components/LogoWithoutWords.vue'
+  import Footer from '~/components/Footer.vue'
 
   export default {
     components: {
       LangSelect,
       Logo,
-      LogoWithoutWords
+      LogoWithoutWords,
+      VFooter: Footer
     },
     data: function () {
       return {
         navbarActive: false,
-        navs: ['index'],
+        navs: ['index', 'faq', 'careers'],
         collapsing: false
       }
     },

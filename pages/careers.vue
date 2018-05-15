@@ -1,23 +1,24 @@
 <template>
   <div>
-    <section class="hero is-medium">
-      <div class="hero-body">
-        <div class="container">
-          <h1 class="title inview1 delay-0-700 animated fadeInDown">
-            {{$t('careers.title')}}
-          </h1>
-          <h2 class="subtitle inview1 delay-0-700 animated fadeInUp">
-            {{$t('careers.subtitle')}}
-          </h2>
-          <p class="contact inview1 delay-0-700 animated fadeInUp">{{$t('careers.contact')}} hr@vite.org</p>
+    <section class="faq-header">
+      <div class="container">
+        <div class="img-wrapper">
+          <img src="~/assets/images/careers.png" alt="careers">
         </div>
+        <h1>VITE Labs</h1>
+        <h2>{{$t('careers.subtitle')}}</h2>
+        <h3>{{$t('careers.contact')}}: hr@vite.org</h3>
       </div>
     </section>
+
 
     <section class="section">
       <div class="container">
         <div v-for="item in jdList" class="jd">
-          <h1 class="title">{{$t(`careers.jd.${item}.title`)}}</h1>
+          <div class="title">
+            <div class="line"></div>
+            <h1>{{$t(`careers.jd.${item}.title`)}}</h1>
+          </div>
           <div class="jd-item" v-for="jdKey in jdContentKey">
             <h3>{{$t(`careers.${jdKey}`)}}</h3>
             <ul>
@@ -36,7 +37,7 @@
     export default {
       data () {
         return {
-          jdList: ['pm', 'java', 'go', 'fe', 'ios', 'android'],
+          jdList: ['go', 'fe', 'ios', 'android', 'pm'],
           jdContentKey: ['desc', 'require', 'special']
         }
       },
@@ -84,53 +85,132 @@
 <style  rel="stylesheet/scss" lang="scss" scoped>
   @import "assets/vars.scss";
 
-  .hero {
-    .container {
-      .title, .subtitle {
-        color: white;
-        font-family: $font-family-main;
-        text-align: center;
-      }
-      .title {
-        font-weight: 200;
-        font-family: $font-family-light;
-        font-size: 2.5rem;
-      }
-      .subtitle {
-        margin-top: 1rem;
-      }
-      .contact {
-        text-align: center;
-        color: rgba(255,255,255,0.8);
-      }
+  .faq-header {
+    background: rgba(43,44,48,1);
+    height: 340px;
+    h1 {
+      font-family: $font-family-main;
+      padding-top: 59px;
+      font-size:64px;
+      color:rgba(144,146,154,1);
+      line-height:90px;
     }
-  }
-  .section {
-    flex-direction: row;
-    align-items: center;
-    .container {
-      max-width: 900px;
+    h2 {
+      font-family: $font-family-light;
+      font-size:24px;
+      color:rgba(144,146,154,1);
+      line-height:33px;
+    }
+    h3 {
+      font-size: 20px;
+      font-family: $font-family-main;
+      color: rgba(21,128,227,1);
+      line-height: 28px;
+      margin-top: 48px;
+    }
+    .img-wrapper {
+      height: 270px;
+      width: 270px;
+      position: absolute;
+      right: 0;
+      top: 35px;
+    }
+
+    @include touch {
+      padding: 20px 1.5rem;
+      height: auto;
+      text-align: center;
+      .img-wrapper {
+        position: relative;
+        width: 100%;
+        height: 135px;
+        right: auto;
+        top: auto;
+        margin-bottom: 20px;
+        img {
+          width: 135px;
+          height: 135px;
+        }
+      }
+      h1 {
+        font-size: 32px;
+        line-height: 45px;
+        padding-top: 0;
+      }
+      h2 {
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 2px;
+      }
+      h3 {
+        margin-top: 10px;
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 7px;
+      }
     }
   }
 
-  .jd {
+  .section {
     font-family: $font-family-main;
+    padding-top: 0;
     .title {
-      padding: 3rem 1rem 1rem 0;
-      font-size: (40rem/16);
-      font-weight: 300;
+      padding-top: 60px;
+      margin-bottom: 0;
+      .line {
+        width:96px;
+        height:7px;
+        background:rgba(21,128,227,1);
+        margin-bottom: 20px;
+      }
+      h1 {
+        font-size:30px;
+        color:rgba(21,128,227,1);
+        line-height:42px;
+      }
+      @include touch {
+        padding-top: 25px;
+        .line {
+          height: 4px;
+          width: 48px;
+          margin-bottom: 5px;
+        }
+        h1 {
+          font-size: 20px;
+          line-height: 28px;
+        }
+      }
     }
     .jd-item {
       & > h3 {
-        font-size: (20rem/16);
-        padding: 1rem 1rem 1rem 0;
         color: #03a9f4;
+        padding: 30px 0 20px 0;
+        font-size:20px;
+        font-family: $font-family-title;
+        color:rgba(51,51,51,1);
+        line-height:28px;
       }
       ul {
         list-style: inside;
         & > li {
-          margin-left: (10rem/16);
-          line-height: 2rem;
+          margin-left: 10px;
+          font-size: 16px;
+          font-family: $font-family-light;
+          color: rgba(51,51,51,1);
+          line-height: 38px;
+        }
+      }
+      @include touch {
+        & > h3 {
+          padding: 20px 0 10px 0;
+          font-size: 15px;
+          line-height: 21px;
+        }
+        ul {
+          & > li {
+            font-size: 14px;
+            line-height: 27px;
+          }
         }
       }
     }

@@ -1,4 +1,14 @@
 <template>
+  <div>
+    <section class="faq-header">
+      <div class="container">
+        <div class="img-wrapper">
+          <img src="~/assets/images/faq.png" alt="FAQ">
+        </div>
+        <h1>VITE Q&A</h1>
+        <h2>{{$t('faq.title')}}</h2>
+      </div>
+    </section>
     <section class="section">
       <div class="container">
         <div class="columns is-multiline">
@@ -20,6 +30,8 @@
         </div>
       </div>
     </section>
+  </div>
+
 </template>
 
 <script>
@@ -73,25 +85,84 @@
 <style  rel="stylesheet/scss" lang="scss" scoped>
   @import "assets/vars.scss";
 
-  .section {
-    background: #d6e6f7;
+  .faq-header {
+    background:rgba(43,44,48,1);
+    height:340px;
+    h1 {
+      font-size:72px;
+      font-family: $font-family-main;
+      color:rgba(144,146,154,1);
+      line-height:100px;
+      padding-top: 59px;
+    }
+    h2 {
+      font-size:28px;
+      font-family: $font-family-light;
+      color:rgba(144,146,154,1);
+      line-height:40px;
+    }
+    .img-wrapper {
+      height: 270px;
+      width: 270px;
+      position: absolute;
+      right: 0;
+      top: 35px;
+    }
+
     @include touch {
-      padding-top: (52rem/16) + 2rem;
+      padding: 20px 1.5rem;
+      height: auto;
+      text-align: center;
+      .img-wrapper {
+        position: relative;
+        width: 100%;
+        height: 135px;
+        right: auto;
+        top: auto;
+        margin-bottom: 35px;
+        img {
+          width: 135px;
+          height: 135px;
+        }
+      }
+      h1 {
+        font-size: 32px;
+        line-height: 45px;
+        padding-top: 0;
+      }
+      h2 {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 25px;
+      }
+    }
+  }
+
+  .section {
+    @include touch {
+      padding-top: 25px;
     }
     .is-info {
+      margin-bottom: 10px;
       h3 {
-        font-size: 1rem;
-        color: #111111;
-        line-height: 1.75rem;
-        margin-bottom: 0.56rem;
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-family: $font-family-main;
+        color: rgba(21,128,227,1);
+        line-height: 28px;
+        @include touch {
+          font-size: 17px;
+          line-height: 24px;
+          margin-bottom: 10px;
+        }
       }
       .answer {
+        font-size: 16px;
         font-family: $font-family-light;
-        font-weight: 300;
-        font-size: 1rem;
-        line-height: 1.75rem;
+        color: rgba(51,51,51,1);
+        line-height: 38px;
         p {
-          margin-top: 0.5rem;
+          margin-top: 10px;
           &:first-child {
             margin-top: 0;
           }
@@ -99,6 +170,10 @@
         img {
           max-width: 200px;
           margin-top: 0.5rem;
+        }
+        @include touch {
+          font-size: 14px;
+          line-height: 27px;
         }
       }
     }
