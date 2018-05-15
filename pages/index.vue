@@ -58,7 +58,6 @@
   import Logo from '~/components/Logo.vue'
   import LogoWord from '~/components/LogoWord'
   import Roadmap from '~/components/Roadmap'
-  import HomeAnimation from '~/components/HomeAnimation'
   import Wechat from '~/components/Wechat'
 
   import config from '~/config.js'
@@ -73,8 +72,7 @@
       VInvestor: Investor,
       Icosahedron,
       VRoadmap: Roadmap,
-      HomeAnimation,
-      Wechat,
+      Wechat
     },
     head () {
       let title = this.$t('head.title')

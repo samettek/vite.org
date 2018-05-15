@@ -290,7 +290,7 @@ module.exports = {
   },
   urlSrc: {
     telegram: 'https://t.me/vite_zh',
-    whitePaper: '/whitepaper/zh.pdf'
+    whitePaper: '/whitepaper/vite_cn.pdf'
   },
   'utils': {
     readMore: '阅读更多'

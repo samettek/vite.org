@@ -1,0 +1,3 @@
+[submodule "static/whitepaper"]
+	path = static/whitepaper
+	url = git@github.com:vitelabs/whitepaper.git
