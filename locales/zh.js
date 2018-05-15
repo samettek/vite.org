@@ -301,28 +301,10 @@ module.exports = {
     desc: '职位描述',
     require: '职位要求',
     special: '有以下经验者优先',
-    contact: '简历提交：',
+    contact: '简历提交',
     jd: {
-      java: {
-        title: 'Java 高级开发工程师',
-        desc: [
-          '负责Vite Core开发和维护',
-          '负责相关SDK的开发'
-        ],
-        require: [
-          '熟悉Java及面向对象设计开发，对部分Java技术有深入研究，熟悉JDK源码；',
-          '熟悉常见设计模式，精通Spring，MyBatis等流行开源框架，并深入了解其工作原理；',
-          '深入了解过MySQL，熟悉数据库原理及常用性能优化技术，熟悉 NoSQL的原理、使用场景及限制；',
-          '研究过http协议、搜索引擎、缓存、jvm 调优、序列化、nio、RPC 调用框架等；',
-          '熟悉高性能、高并发系统设计方案，如分布式缓存、ElasticSearch、消息队列等；'
-        ],
-        special: [
-          '参与并主导过虚拟货币相关开发',
-          '对虚拟货币研究颇深'
-        ]
-      },
       pm: {
-        title: '（高级）产品经理',
+        title: '高级产品经理',
         desc: [
           '从事区块链技术在业务领域的应用产品设计；',
           '设计去中心化业务生态模型和用户成长体系；',
@@ -341,7 +323,7 @@ module.exports = {
         ]
       },
       fe: {
-        title: '（高级）web前端开发工程师',
+        title: '高级web前端开发工程师',
         desc: [
           '负责Vite钱包项目开发',
           '负责编写Vite前端相关SDK',
@@ -363,7 +345,7 @@ module.exports = {
         ]
       },
       ios: {
-        title: '（高级）iOS开发工程师',
+        title: '高级iOS开发工程师',
         desc: [
           '负责Vite前端iOS客户端设计与开发 ',
           '参与Vite dApplet小程序平台iOS部分开发'
@@ -382,7 +364,7 @@ module.exports = {
         ]
       },
       android: {
-        title: '（高级）Android 开发工程师',
+        title: '高级Android 开发工程师',
         desc: [
           '负责Vite前端 Android 客户端设计与开发 ',
           '参与Vite dApplet小程序平台 Android 部分开发'
@@ -402,7 +384,7 @@ module.exports = {
         ]
       },
       go: {
-        title: '（高级）Golang 开发工程师',
+        title: '高级Golang 开发工程师',
         desc: [
           '负责Vite Core Golang版本开发和维护',
           '负责相关SDK的开发'

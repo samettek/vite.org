@@ -44,15 +44,12 @@
     <v-teams></v-teams>
 
     <v-investor></v-investor>
-
-    <v-footer></v-footer>
   </div>
 </template>
 
 <script>
   import Teams from '~/components/Teams.vue'
   import Icosahedron from '~/components/Icosahedron/index.vue'
-  import Footer from '~/components/Footer.vue'
   import Feature from '~/components/Feature'
   import Investor from '~/components/Investor'
   import Logo from '~/components/Logo.vue'
@@ -65,7 +62,6 @@
   export default {
     components: {
       VTeams: Teams,
-      VFooter: Footer,
       VFeature: Feature,
       Logo,
       LogoWord,
