@@ -189,7 +189,7 @@ module.exports = {
         'description': '资深区块链创业者。毕业于中国科技大学，亚利桑那州立大学。路印协议创始人，前Google美国Tech Lead，云云网联合创始人兼副总裁，京东高级研发总监，币丰港联合创始人。'
       },
       'wuming': {
-        'name': '武鸣',
+        'name': '伍鸣',
         'position': '',
         'description': '资深科学家。毕业于中国科技大学，中科院计算所。微软亚洲研究院Senior Research Manager，在分布式系统和AI领域发表过十余篇论文。'
       },
