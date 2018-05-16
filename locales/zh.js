@@ -191,7 +191,7 @@ module.exports = {
       'wuming': {
         'name': '伍鸣',
         'position': '',
-        'description': '资深科学家。毕业于中国科技大学，中科院计算所。微软亚洲研究院Senior Research Manager，在分布式系统和AI领域发表过十余篇论文。'
+        'description': '资深科学家。毕业于中国科技大学，中科院计算所。微软亚洲研究院Senior Research Manager，在分布式系统和AI领域发表过十余篇论文，多次在系统领域顶级会议中担任程序委员会委员。'
       },
       'chenxiaoliang': {
         'name': '陈晓亮',
