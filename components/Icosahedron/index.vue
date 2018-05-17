@@ -18,106 +18,129 @@
 
 
   export default {
+    data () {
+      return {
+        isPause: false,
+        renderOptions: null
+      }
+    },
     mounted () {
-      // 获取二元角度列表
-      let binaryAngleList = getBinaryAngleList(XZ_CHUNK, XY_CHUNK);
+      if (!this.render) {
+        this.render = this.initRender();
+      }
 
-      // 获取球体上的离散点坐标集合
-      let points = binaryAngleList.map((binaryAngle) => getXYZList(SPHERE_RADIUS, binaryAngle));
+      this.isPause = false;
+      this.render();
+    },
 
-      // 新建PointSet对象
-      let pointSet = new PointSet({
-        points,
-        xzChunk: XZ_CHUNK,
-        xyChunk: XY_CHUNK
-      });
+    methods: {
+      initRender () {
+        // 获取二元角度列表
+        let binaryAngleList = getBinaryAngleList(XZ_CHUNK, XY_CHUNK);
 
-      let webglCanvasDOM = this.$refs.webglCanvas;
+        // 获取球体上的离散点坐标集合
+        let points = binaryAngleList.map((binaryAngle) => getXYZList(SPHERE_RADIUS, binaryAngle));
 
-      // 初始化scene
-      let scene = new THREE.Scene();
+        // 新建PointSet对象
+        let pointSet = new PointSet({
+          points,
+          xzChunk: XZ_CHUNK,
+          xyChunk: XY_CHUNK
+        });
 
-      // 初始化渲染对象组
-      let objects = new THREE.Object3D();
+        let webglCanvasDOM = this.$refs.webglCanvas;
 
-      // 渲染的点模型列表
-      let pointModelList = pointSet.getPointModelList();
-      pointModelList.forEach((pointModel) => {
-        objects.add(pointModel.pointObject, pointModel.outterPointObject);
-      });
+        // 初始化scene
+        let scene = new THREE.Scene();
 
-      // 渲染的线模型列表
-      let lineModelList = pointSet.getLineModelList();
-      lineModelList.forEach((lineModel) => {
-        objects.add(lineModel.lineObject);
-      });
+        // 初始化渲染对象组
+        let objects = new THREE.Object3D();
 
-      // 渲染的二十面体geometry
-      let icosahedronGeometry = new THREE.IcosahedronGeometry(RADIUS);
+        // 渲染的点模型列表
+        let pointModelList = pointSet.getPointModelList();
+        pointModelList.forEach((pointModel) => {
+          objects.add(pointModel.pointObject, pointModel.outterPointObject);
+        });
 
-      objects.add(
-        new THREE.Mesh(
-          icosahedronGeometry,
-          new THREE.MeshPhongMaterial({
-            color: 0x101010,
-            emissive: 0xdfe4ea,
-            side: THREE.DoubleSide,
-            flatShading: true,
-            transparent: true,
-            opacity: 0.7
-          })
-        ),
-        new THREE.LineSegments(
-          icosahedronGeometry,
-          new THREE.LineBasicMaterial( {
-            color: 0xD8D8D8
-          })
-        )
-      );
+        // 渲染的线模型列表
+        let lineModelList = pointSet.getLineModelList();
+        lineModelList.forEach((lineModel) => {
+          objects.add(lineModel.lineObject);
+        });
 
-      // 灯光效果
-      let lights = [
-        new THREE.PointLight( 0xffffff, 1, 0 ),
-        new THREE.PointLight( 0xffffff, 1, 0 ),
-        new THREE.PointLight( 0xffffff, 1, 0 )
-      ];
+        // 渲染的二十面体geometry
+        let icosahedronGeometry = new THREE.IcosahedronGeometry(RADIUS);
 
-      lights[ 0 ].position.set( 0, 200, 0 );
-      lights[ 1 ].position.set( 100, 200, 100 );
-      lights[ 2 ].position.set( - 100, - 200, - 100 );
+        objects.add(
+          new THREE.Mesh(
+            icosahedronGeometry,
+            new THREE.MeshPhongMaterial({
+              color: 0x101010,
+              emissive: 0xdfe4ea,
+              side: THREE.DoubleSide,
+              flatShading: true,
+              transparent: true,
+              opacity: 0.7
+            })
+          ),
+          new THREE.LineSegments(
+            icosahedronGeometry,
+            new THREE.LineBasicMaterial( {
+              color: 0xD8D8D8
+            })
+          )
+        );
 
-      scene.add(objects, ...lights);
+        // 灯光效果
+        let lights = [
+          new THREE.PointLight( 0xffffff, 1, 0 ),
+          new THREE.PointLight( 0xffffff, 1, 0 ),
+          new THREE.PointLight( 0xffffff, 1, 0 )
+        ];
 
-      // 初始化camera
-      let camera = new THREE.PerspectiveCamera(75, webglCanvasDOM.clientWidth / webglCanvasDOM.clientHeight, 0.1, 50);
-      camera.position.z = 30;
+        lights[ 0 ].position.set( 0, 200, 0 );
+        lights[ 1 ].position.set( 100, 200, 100 );
+        lights[ 2 ].position.set( - 100, - 200, - 100 );
 
-      // 初始化renderer
-      let renderer = new THREE.WebGLRenderer({
-        canvas: webglCanvasDOM,
-        antialias: true // 去掉锯齿
-      });
+        scene.add(objects, ...lights);
 
-      renderer.setSize(webglCanvasDOM.clientWidth, webglCanvasDOM.clientHeight);
-      renderer.setPixelRatio(window.devicePixelRatio);
-      renderer.setClearColor(new THREE.Color(0xffffff))
+        // 初始化camera
+        let camera = new THREE.PerspectiveCamera(75, webglCanvasDOM.clientWidth / webglCanvasDOM.clientHeight, 0.1, 50);
+        camera.position.z = 30;
 
-      // 初始化render函数，通过requestAnimationFrame形成动画
-      let render = () => {
-        requestAnimationFrame( render );
+        // 初始化renderer
+        let renderer = new THREE.WebGLRenderer({
+          canvas: webglCanvasDOM,
+          antialias: true // 去掉锯齿
+        });
 
-        renderer.render(scene, camera);
+        renderer.setSize(webglCanvasDOM.clientWidth, webglCanvasDOM.clientHeight);
+        renderer.setPixelRatio(window.devicePixelRatio);
+        renderer.setClearColor(new THREE.Color(0xffffff));
 
-        if (!this.isPause) {
+        // 初始化render函数，通过requestAnimationFrame形成动画
+        let render = () => {
+          if (this.isPause) {
+            return;
+          }
+
+          requestAnimationFrame( render );
+
+          renderer.render(scene, camera);
+
           objects.rotation.x += 0.005;
           objects.rotation.y += 0.005;
           objects.rotation.z += 0.005;
-        }
 
-        pointSet.moveRandom();
-      };
+          pointSet.moveRandom();
+        };
 
-      render();
+        return render;
+      }
+    },
+
+    destroyed () {
+      this.isPause = true;
     }
 
   }
