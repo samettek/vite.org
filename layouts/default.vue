@@ -51,7 +51,7 @@
     data: function () {
       return {
         navbarActive: false,
-        navs: ['index'],
+        navs: ['index', 'faq'],
         collapsing: false
       }
     },

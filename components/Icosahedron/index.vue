@@ -1,8 +1,12 @@
 <template>
-  <canvas ref="webglCanvas" class="webgl-canvas"></canvas>
+  <div>
+    <canvas ref="webglCanvas" class="webgl-canvas"></canvas>
+    <!--<logo-animation v-if="!isReady" class="logo"></logo-animation>-->
+  </div>
 </template>
 
-<script>
+<script type="text/babel">
+  import LogoAnimation from '~/components/LogoAnimation'
   import getBinaryAngleList from './getBinaryAngleList';
   import getXYZList from './getXYZList';
   import PointSet from './pointSet';
@@ -18,19 +22,26 @@
 
 
   export default {
+    components: {
+      LogoAnimation
+    },
     data () {
       return {
         isPause: false,
-        renderOptions: null
+        renderOptions: null,
+        isReady: false
       }
     },
     mounted () {
-      if (!this.render) {
-        this.render = this.initRender();
-      }
+      setTimeout(() => {
+        if (!this.render) {
+          this.render = this.initRender();
+        }
 
-      this.isPause = false;
-      this.render();
+        this.isPause = false;
+        this.render();
+        this.isReady = true;
+      }, 300)
     },
 
     methods: {
