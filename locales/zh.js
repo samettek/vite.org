@@ -202,6 +202,16 @@ module.exports = {
         'name': 'Terence Lam',
         'position': '',
         'description': '毕业于哈佛商学院。智子区块链基金合伙人。香港大学SPACE中国商业学院客座讲师。20年以上全球500强公司技术高管经验。曾创办过多家科技公司。'
+      },
+      'richard': {
+        name: 'Richard',
+        position: '',
+        description: '资深金融专家，多年华尔街工作经验。毕业于美国达特茅斯学院和纽约大学MBA。曾任职纽约高盛结构性资产交易策略副总裁，Two Sigma高频交易及商务创新拓展副总裁。'
+      },
+      frank: {
+        name: '邓远辉',
+        position: '',
+        description: '数字营销及移动营销专家。毕业于清华大学。曾任职Google广告运营组，随踪科技COO，云克科技联合创始人。'
       }
     }
   },

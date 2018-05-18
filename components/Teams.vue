@@ -2,15 +2,13 @@
   <section class="section">
     <div class="container">
       <h2>{{$t('team.core')}} & {{$t('team.advisor')}}</h2>
-      <div class="columns is-multiline">
-        <div class="column item is-destop is-6-desktop is-6-tablet is-12-mobile"
+      <div class="columns is-multiline is-center">
+        <div class="column item is-destop is-4-desktop is-6-tablet is-12-mobile"
              v-for="item in teams">
           <div class="is-info">
             <team-image :src="item.img" :name="item.key" :urls="item.urls"></team-image>
           </div>
         </div>
-      </div>
-      <div class="columns is-multiline">
         <div class="column item is-destop is-4-desktop is-6-tablet is-12-mobile"
              v-for="item in advisors">
           <div class="is-info">
@@ -51,6 +49,24 @@
             ]
           },
           {
+            img: require('~/assets/images/teams/richard.jpeg'),
+            key: 'richard',
+            urls: [
+              {
+                icon: ['fab', 'twitter'],
+                url: 'https://twitter.com/Gentso09'
+              },
+              {
+                icon: ['fab', 'linkedin'],
+                url: 'https://www.linkedin.com/in/richard-yan-934229a5/'
+              },
+              {
+                icon: ['fab', 'github'],
+                url: 'https://github.com/yanl1984'
+              }
+            ]
+          },
+          {
             img: require('~/assets/images/teams/wuming.png'),
             key: 'wuming',
             urls: [
@@ -69,6 +85,10 @@
           {
             img: require('~/assets/images/teams/dan-wang.png'),
             key: 'wangdong'
+          },
+          {
+            img: require('~/assets/images/teams/yuanhui.png'),
+            key: 'frank'
           },
           {
             key: 'chenxiaoliang',
