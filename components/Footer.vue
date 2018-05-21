@@ -178,10 +178,10 @@
       }
       & > div {
         &:first-child {
-          font-size:18px;
+          font-size:16px;
           font-family: $font-family-main;
           color: rgba(51,51,51,1);
-          margin-bottom: 51px;
+          margin-bottom: 20px;
           line-height: 25px;
           @include touch {
             font-size: 15px;
@@ -193,7 +193,7 @@
       ul {
         li {
           a {
-            font-size:18px;
+            font-size:15px;
             font-family: $font-family-main;
             color:rgba(188,188,188,1);
             line-height:25px;
