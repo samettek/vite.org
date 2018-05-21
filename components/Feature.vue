@@ -215,6 +215,10 @@
                 line-height: 23px;
                 margin: 7px 0;
               }
+              @include widescreen-only {
+                font-size: 18px;
+                line-height: 23px;
+              }
             }
             .border {
               width:64px;
@@ -231,6 +235,10 @@
               color:rgba(144,146,154,1);
               line-height:28px;
               @include touch {
+                font-size: 14px;
+                line-height: 26px;
+              }
+              @include widescreen-only {
                 font-size: 14px;
                 line-height: 26px;
               }

@@ -266,6 +266,18 @@
             padding: 0 40px;
           }
         }
+
+        @include widescreen-only {
+          .v-title {
+            font-size: 60px;
+          }
+          .v-description {
+            & > p {
+              font-size: 20px;
+            }
+          }
+        }
+
         @include touch {
           .v-title {
             font-size: 36px;
