@@ -267,7 +267,7 @@
           }
         }
 
-        @include widescreen-only {
+        @include widescreen-desktop {
           .v-title {
             font-size: 60px;
           }

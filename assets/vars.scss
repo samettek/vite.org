@@ -15,5 +15,11 @@ $light-blue: rgba(54,130,222,1);
 $footer-background-color: white;
 $navbar-height: 72px;
 
+@mixin widescreen-desktop {
+  @media screen and (min-width: $desktop) and (max-width: $fullhd - 1px) {
+    @content
+  }
+}
+
 
 

@@ -215,7 +215,7 @@
                 line-height: 23px;
                 margin: 7px 0;
               }
-              @include widescreen-only {
+              @include widescreen-desktop {
                 font-size: 18px;
                 line-height: 23px;
               }
@@ -238,7 +238,7 @@
                 font-size: 14px;
                 line-height: 26px;
               }
-              @include widescreen-only {
+              @include widescreen-desktop {
                 font-size: 14px;
                 line-height: 26px;
               }
