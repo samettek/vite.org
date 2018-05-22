@@ -1,0 +1,1 @@
+Sitemap: https://vite.org/sitemap.xml
