@@ -49,7 +49,7 @@
             ]
           },
           {
-            img: require('~/assets/images/teams/richard.jpeg'),
+            img: require('~/assets/images/teams/richard.jpg'),
             key: 'richard',
             urls: [
               {

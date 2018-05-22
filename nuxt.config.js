@@ -1,4 +1,50 @@
 let generateRoutes = ['/']
+const hostname = 'https://vite.org'
+const routes = [
+  {
+    url: '/',
+    priority: 1
+  },
+  {
+    url: '/faq',
+    priority: 0.3
+  }
+]
+
+const sitemapUrls = []
+const locales = [
+  // {
+  //   code: 'en',
+  //   name: 'English',
+  //   langFile: 'en.js'
+  // },
+  {
+    code: 'zh',
+    name: '中文',
+    langFile: 'zh.js'
+  }
+]
+const defaultLocale = 'zh'
+
+routes.forEach((route) => {
+  let links = locales.map((locale) => {
+    let lang = locale.code
+    let url = `${hostname}/${lang}${route.url}`
+    if (defaultLocale === lang) {
+      url = `${hostname}${route.url}`
+    }
+    return {
+      lang,
+      url
+    }
+  })
+  sitemapUrls.push({
+    url: hostname + route.url,
+    changefreq: 'daily',
+    priority: route.priority,
+    links: links
+  })
+})
 
 module.exports = {
   head: {
@@ -32,22 +78,11 @@ module.exports = {
     middleware: 'i18n'
   },
   modules: [
-    // '@nuxtjs/webpackmonitor',
+    '@nuxtjs/webpackmonitor',
     '@nuxtjs/pwa',
     ['nuxt-i18n', {
-      locales: [
-        // {
-        //   code: 'en',
-        //   name: 'English',
-        //   langFile: 'en.js'
-        // },
-        {
-          code: 'zh',
-          name: '中文',
-          langFile: 'zh.js'
-        }
-      ],
-      defaultLocale: 'zh',
+      locales,
+      defaultLocale,
       detectBrowserLanguage: true,
       redirectCookieKey: 'redirected',
       useRedirectCookie: true,
@@ -55,7 +90,7 @@ module.exports = {
       langDir: 'locales/',
       ignorePaths: [],
       vueI18n: {
-        fallbackLocale: 'zh',
+        fallbackLocale: defaultLocale,
         messages: {
           /*
           * make the default locale can work in fallback in ssr.
@@ -66,12 +101,26 @@ module.exports = {
     }],
     ['@nuxtjs/google-analytics', {
       id: 'UA-118987496-1'
-    }]
+    }],
+    '@nuxtjs/sitemap'
   ],
   css: [
     '~/assets/main.scss'
   ],
   render: {
     gzip: { threshold: 1 }
+  },
+  sitemap: {
+    path: '/sitemap.xml',
+    hostname: hostname,
+    gzip: true,
+    generate: true,
+    exclude: [
+      '/technology',
+      '/careers',
+      '/',
+      '/faq'
+    ],
+    routes: sitemapUrls
   }
 }

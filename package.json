@@ -5,7 +5,8 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "p": "npm run build && npm run generate"
+    "p": "npm run build && npm run generate",
+    "monitor": "nuxt build --webpackmonitor"
   },
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.4",
@@ -15,6 +16,7 @@
     "@nuxtjs/axios": "^5.1.1",
     "@nuxtjs/google-analytics": "^2.0.2",
     "@nuxtjs/pwa": "^2.0.5",
+    "@nuxtjs/sitemap": "^0.1.1",
     "@nuxtjs/webpackmonitor": "^0.1.0",
     "animate-canvas-line": "^1.1.0",
     "babel-polyfill": "^6.26.0",
