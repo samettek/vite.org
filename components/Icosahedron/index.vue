@@ -2,7 +2,7 @@
   <div v-if="isMounted">
     <canvas v-if="!isMobile" ref="webglCanvas" class="webgl-canvas"></canvas>
 
-    <div v-if="isMobile"  class="img-wrapper">
+    <div v-if="isMobile"  class="img-wrapper" :class="{'mobile-bg': isMobile}">
       <img src="~assets/images/background.png" alt="background">
     </div>
   </div>
@@ -203,9 +203,10 @@
     position: absolute;
     bottom: 60px;
     padding: 10px;
+    z-index: -1;
     img {
-      max-width: 600px;
-      height: auto;
+      max-width: 100%;
+      max-height: 80vh;
     }
   }
 </style>
