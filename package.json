@@ -21,6 +21,7 @@
     "animate-canvas-line": "^1.1.0",
     "babel-polyfill": "^6.26.0",
     "headroom.js": "^0.9.4",
+    "ismobilejs": "^0.4.1",
     "nuxt": "^1.4.0",
     "nuxt-i18n": "2.9.5",
     "three": "^0.92.0",

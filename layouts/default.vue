@@ -29,7 +29,7 @@
         </div>
       </div>
     <div class="nuxt-content">
-      <nuxt></nuxt>
+      <nuxt :keep-alive="true"></nuxt>
     </div>
     <v-footer></v-footer>
   </div>

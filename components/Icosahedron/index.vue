@@ -1,18 +1,21 @@
 <template>
-  <div>
-    <canvas ref="webglCanvas" class="webgl-canvas"></canvas>
-    <!--<logo-animation v-if="!isReady" class="logo"></logo-animation>-->
+  <div v-if="isMounted">
+    <canvas v-if="!isMobile" ref="webglCanvas" class="webgl-canvas"></canvas>
+
+    <div v-if="isMobile"  class="img-wrapper">
+      <img src="~assets/images/background.png" alt="background">
+    </div>
   </div>
 </template>
 
 <script type="text/babel">
-  import LogoAnimation from '~/components/LogoAnimation'
+  const isMobile = require('ismobilejs')
+  import LogoAnimation from '~/components/LogoAnimation';
   import getBinaryAngleList from './getBinaryAngleList';
   import getXYZList from './getXYZList';
-  import PointSet from './pointSet';
 
-  const THREE = require('three');
-
+  let THREE
+  let PointSet
   const RADIUS = 14; // 半径为10
 
   const SPHERE_RADIUS = RADIUS + 2; // 球体半径为12
@@ -29,11 +32,23 @@
       return {
         isPause: false,
         renderOptions: null,
-        isReady: false
+        isReady: false,
+        isMobile: process.browser ? isMobile.any : false,
+        isMounted: false
       }
     },
-    mounted () {
-      setTimeout(() => {
+    async mounted () {
+      this.isMounted = true;
+      if (!isMobile.any) {
+        let promiseAll = [
+          import(/* webpackChunkName: "three" */ 'three'),
+          import(/* webpackChunkName: "pointSet" */ './pointSet')
+        ]
+        let result = await Promise.all(promiseAll)
+        THREE = result[0]
+        const PointSetFun = result[1].default
+        PointSet = PointSetFun(THREE)
+
         if (!this.render) {
           this.render = this.initRender();
         }
@@ -41,7 +56,7 @@
         this.isPause = false;
         this.render();
         this.isReady = true;
-      }, 300)
+      }
     },
 
     methods: {
@@ -152,8 +167,18 @@
 
     destroyed () {
       this.isPause = true;
-    }
+    },
 
+    deactivated () {
+      this.isPause = true;
+    },
+
+    activated () {
+      if (!isMobile.any) {
+        this.isPause = false;
+        if (this.render) this.render()
+      }
+    }
   }
 </script>
 
@@ -172,6 +197,15 @@
       top: auto;
       height: 50vh;
       width: 100%;
+    }
+  }
+  .img-wrapper {
+    position: absolute;
+    bottom: 60px;
+    padding: 10px;
+    img {
+      max-width: 600px;
+      height: auto;
     }
   }
 </style>
