@@ -70,34 +70,6 @@
       VRoadmap: Roadmap,
       Wechat
     },
-    head () {
-      let title = this.$t('head.title')
-      let description = this.$t('head.homeDesc')
-      return {
-        title,
-        htmlAttrs: {
-          lang: this.$i18n.locale
-        },
-        meta: [
-          { hid: 'description', name: 'description', content: description },
-
-          // Open Grapg
-          { name: 'og:title', content: title, hid: 'og:title' },
-          { name: 'og:description', content: description, hid: 'og:description' },
-          { name: 'og:type', content: 'website', hid: 'og:type' },
-          { name: 'og:url', content: 'https://vite.org', hid: 'og:url' },
-          { name: 'og:image', content: 'https://www.vite.org/logo_appstore.png' },
-
-          // Twitter Card
-          { name: 'twitter:card', content: 'summary', hid: 'twitter:card' },
-          { name: 'twitter:site', content: '@vitelabs', hid: 'twitter:site' },
-          { name: 'twitter:title', content: title, hid: 'twitter:title' },
-          { name: 'twitter:description', content: description, hid: 'twitter:description' },
-          { name: 'twitter:image:alt', content: 'Vite Logo', hid: 'twitter:image:alt' },
-          { name: 'twitter:image', content: 'https://www.vite.org/logo_appstore.png' }
-        ]
-      }
-    },
     mounted () {},
     data () {
       return {
