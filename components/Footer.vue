@@ -193,7 +193,7 @@
       ul {
         li {
           a {
-            font-size:15px;
+            font-size:16px;
             font-family: $font-family-main;
             color:rgba(188,188,188,1);
             line-height:25px;
@@ -201,6 +201,10 @@
             @include touch {
               font-size: 14px;
               line-height: 20px;
+            }
+
+            @include widescreen-desktop {
+              font-size: 15px;
             }
 
             &:hover {
