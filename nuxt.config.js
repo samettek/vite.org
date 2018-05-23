@@ -120,7 +120,9 @@ module.exports = {
       '/careers',
       '/',
       '/faq'
-    ],
+    ].concat(locales.map((lang) => {
+      return `/${lang.code}/**`
+    })),
     routes: sitemapUrls
   }
 }
