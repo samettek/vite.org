@@ -62,7 +62,7 @@ module.exports = {
     title: 'Roadmap',
     timelines: [
       {
-        'time': 'February 2018',
+        'time': 'Feb 2018',
         'description': 'Initiation of Project'
       },
       {
@@ -78,11 +78,11 @@ module.exports = {
         'description': 'Beginning of Vite Core\'s R&D'
       },
       {
-        'time': 'October 2018',
+        'time': 'Oct 2018',
         'description': 'Vite Core alpha'
       },
       {
-        'time': 'December 2018',
+        'time': 'Dec 2018',
         'description': [
           'Vite Core beta M1: Trading / Issuance of assets / Hierarchical consensus algorithm / Snapshot chain',
           'Release Vite SDK',
@@ -90,11 +90,11 @@ module.exports = {
         ]
       },
       {
-        'time': 'January 2019',
+        'time': 'Jan 2019',
         'description': 'Desktop client of Vite'
       },
       {
-        'time': 'February 2019',
+        'time': 'Feb 2019',
         'description': 'Alpha version of Vite mobile app'
       },
       {
@@ -115,23 +115,23 @@ module.exports = {
         'description': 'Vite Core beta M4：Loopring / Ethereum cross-chain gateway'
       },
       {
-        'time': 'August 2019',
+        'time': 'Aug 2019',
         'description': 'Vite integrated decentralized trading function within Mobile app'
       },
       {
-        'time': 'October 2019',
+        'time': 'Oct 2019',
         'description': 'Vite Core beta M5: Contract upgrade / Block pruning / Solidity++ optimization'
       },
       {
-        'time': 'November 2019',
+        'time': 'Nov 2019',
         'description': 'Vite Testnet Release'
       },
       {
-        'time': 'January 2020',
+        'time': 'Jan 2020',
         'description': 'Vite 1.0 Release'
       },
       {
-        'time': 'February 2020',
+        'time': 'Feb 2020',
         'description': 'Kickoff of plan for ecosystem development in Vite'
       }
     ]
