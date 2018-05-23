@@ -20,7 +20,7 @@
           <div class="column link-tab">
             <div class="columns is-mobile">
               <div class="column links-wrapper">
-                <div>学习</div>
+                <div>{{$t('footer.learning')}}</div>
                 <ul>
                   <li v-for="item in learnList">
                     <a class="text-hover-transition" :href="getUrl(item)" target="_blank">{{$t(`urls.${item}`)}}</a>
@@ -28,7 +28,7 @@
                 </ul>
               </div>
               <div class="column links-wrapper">
-                <div>关于</div>
+                <div>{{$t('footer.about')}}</div>
                 <ul>
                   <li v-for="item in aboutList">
                     <a class="text-hover-transition" :href="getUrl(item)" target="_blank">{{$t(`urls.${item}`)}}</a>
@@ -36,7 +36,7 @@
                 </ul>
               </div>
               <div class="column links-wrapper">
-                <div>媒体</div>
+                <div>{{$t('footer.media')}}</div>
                 <ul>
                   <li v-for="item in mediumList">
                     <a class="text-hover-transition" :href="getUrl(item)" target="_blank">{{$t(`urls.${item}`)}}</a>

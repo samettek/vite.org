@@ -3,13 +3,13 @@
     <section v-for="(feature, index) in features" :key="feature.key" :class="{'reverse-row': (index + 1) % 2 === 0}">
       <div class="container">
         <div class="columns">
-          <div class="column">
+          <div class="column v-title">
             <div class="img-wrapper">
               <reactive v-if="feature.key === 'reactiveContract'"></reactive>
               <ecosystem v-else-if="feature.key === 'ecosystem'"></ecosystem>
               <performance v-else></performance>
 
-              <h3>0{{index + 1}} {{$t(`feature.${feature.key}.title`)}}</h3>
+              <h3>{{$t(`feature.${feature.key}.title`)}}</h3>
             </div>
             <svg class="v-arrow is-hidden-touch" width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
               <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -112,7 +112,8 @@
           .v-arrow {
             position: absolute;
             left: -(48px + 5px) / 2;
-            top: (550px - 48px) / 2;
+            top: 50%;
+            margin-top: -24px;
 
             @include touch {
               top: auto;
@@ -148,7 +149,6 @@
       .column {
         position: relative;
         @include desktop {
-          height: 550px;
           padding: 71px 0;
         }
         @include touch {
@@ -159,6 +159,12 @@
           @include desktop {
             border-right: 5px solid rgba(52,53,58,1);
           }
+          @include tablet {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+          }
           @include mobile {
             border-bottom: 3px solid #34353A;
             padding-bottom: 69px;
@@ -168,7 +174,8 @@
         .v-arrow {
           position: absolute;
           right: -(48px + 5px) / 2;
-          top: (550px - 48px) / 2;
+          top: 50%;
+          margin-top: -24px;
           @include touch {
             bottom: 0;
             top: auto;
@@ -200,6 +207,9 @@
             &:last-child {
               margin-top: 2rem;
             }
+          }
+          &:last-child {
+            margin-top: 60px;
           }
 
           .sub-content {

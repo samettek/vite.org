@@ -132,9 +132,9 @@
         font-size: 16px;
         font-family: $font-family-light;
         color: rgba(51,51,51,1);
-        line-height: 38px;
+        line-height: 33px;
         p {
-          margin-top: 10px;
+          margin-top: 14px;
           &:first-child {
             margin-top: 0;
           }

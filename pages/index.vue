@@ -3,7 +3,7 @@
     <section class="is-fullheight hero home">
       <div class="hero-body">
         <div class="container">
-          <div class="is-size-1-desktop is-size-2-touch">
+          <div class="is-size-1-desktop is-size-2-touch slogan-wrapper">
             <h1>
               VITE
             </h1>
@@ -107,6 +107,13 @@
       }
     }
 
+    .slogan-wrapper {
+      max-width: 590px;
+      @include touch {
+        max-width: unset;
+      }
+    }
+
     h1 {
       font-size: 72px;
       color:rgba(51,51,51,1);
@@ -131,7 +138,8 @@
 
       .button {
         border-radius: 100px;
-        width:230px;
+        padding-left: 35px;
+        padding-right: 35px;
         font-size:1.88rem;
         font-family: $font-family-title;
         color:rgba(51,51,51,1);

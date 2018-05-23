@@ -430,5 +430,10 @@ module.exports = {
         ]
       }
     }
+  },
+  footer: {
+    learning: '学习',
+    about: '关于',
+    media: '媒体'
   }
 }

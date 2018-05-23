@@ -51,6 +51,7 @@
 <style rel="stylesheet/scss" lang="scss" scoped>
   @import "~assets/vars";
 
+
   .team-item {
     width: 260px;
     &:hover {

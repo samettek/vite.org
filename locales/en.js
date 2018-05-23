@@ -1,5 +1,5 @@
 module.exports = {
-  lang: '中文',
+  lang: 'English',
   head: {
     title: 'Vite - A New Generation of High-performance Decentralized Application Platform',
     document: 'Document',
@@ -9,20 +9,20 @@ module.exports = {
     technologyDesc: 'The key technologies of Vite: DAG、Snapchat Chain、Asnychronous Architechture、Reactive Contract、Quota leasing、Loopring Integrated、Timer scheduling、Contract Upgrade、solidity++'
   },
   nav: {
-    index: 'Home Page',
-    technology: 'Key Technologies',
+    index: 'Home',
+    technology: 'Technologies',
     team: 'Team',
     faq: 'FAQs',
-    careers: 'Join Us'
+    careers: 'Careers'
   },
   home: {
     header: 'Vite',
-    slogan: 'A New Generation of High-performance Decentralized Application Platform',
+    slogan: 'A New Generation of High-Performance Decentralized Application Platform',
     whitePaper: 'White Paper'
   },
   feature: {
     performance: {
-      title: 'Extreme high performance',
+      title: 'Extreme High Performance',
       dag: {
         title: 'DAG ledger',
         content: 'DAG ledger structure is used in Vite. Transactions are grouped by account dimension, and each transaction only changes the state of a single account. ' +
@@ -36,7 +36,7 @@ module.exports = {
       }
     },
     reactiveContract: {
-      title: 'Reactive contract',
+      title: 'Reactive Contract',
       messageDriven: {
         title: 'Message-driven',
         content: 'With event-driven architecture, every smart contract is viewed as an independent service that contracts can communicate cross messages without sharing any state.'
@@ -136,17 +136,17 @@ module.exports = {
       }
     ]
   },
-  'team': {
+  team: {
     'core': 'Core Team',
     'advisor': 'Advisors',
     'nameMap': {
       'liuchunming': {
-        'name': 'Chunming Liu',
+        'name': 'Charles',
         'position': '',
         'description': 'Veteran blockchain entrepreneur and technical expert. Graduated from China University of Science and Technology and the Institute of Software of the Chinese Academy of Sciences. Former senior architect of JD.com, co-founder of Coinport, and engineering director of Meituan Dianping. Abundant experience in distributed systems and high concurrency systems.'
       },
       'wangdong': {
-        'name': 'Dong Wang',
+        'name': 'Daniel Wang',
         'position': '',
         'description': 'Seasoned blockchain entrepreneur.  Graduated from China University of Science and Technology and Arizona State University.  Founder of Loopring, former Google America Tech Lead, Co-found and VP of Yun Yun Wang, Senior Research and Development Director at JD.com, and Co-Founder of Coinport.'
       },
@@ -156,7 +156,7 @@ module.exports = {
         'description': 'Seasoned scientist. Graduated from China University of Science and Technology, and Institute of Computing of the Chinese Academy of Sciences. Senior Research Manager at Microsoft Research Institute, Asia. Ph.D. advisor of China University of Science and Technology. Published 10+ high quality papers in the field of distributed systems and AI. Served as a member of program committees in several top-level meetings of the system field.'
       },
       'chenxiaoliang': {
-        'name': 'Xiaoliang Chen',
+        'name': 'Johnston Chen',
         'position': '',
         'description': 'Senior financial product operation expert\n' +
         'COO of  Loopring\n' +
@@ -181,7 +181,7 @@ module.exports = {
       }
     }
   },
-  'faq': {
+  faq: {
     'title': 'VITE Q&A',
     'questions': [
       {
@@ -258,7 +258,7 @@ module.exports = {
   investor: {
     title: 'Investment Vehicle'
   },
-  'urls': {
+  urls: {
     'whitePaper': 'White Paper',
     'document': 'Document',
     'telegram': 'Telegram',
@@ -267,10 +267,15 @@ module.exports = {
     'medium': 'Medium'
   },
   urlSrc: {
-    telegram: '',
-    whitePaper: ''
+    telegram: 'https://t.me/vite_en',
+    whitePaper: '/whitepaper/vite_en.pdf'
   },
-  'utils': {
+  utils: {
     readMore: 'Read More'
+  },
+  footer: {
+    learning: 'Learn',
+    about: 'About',
+    media: 'Media'
   }
 }

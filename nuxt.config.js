@@ -13,18 +13,18 @@ const routes = [
 
 const sitemapUrls = []
 const locales = [
-  // {
-  //   code: 'en',
-  //   name: 'English',
-  //   langFile: 'en.js'
-  // },
+  {
+    code: 'en',
+    name: 'English',
+    langFile: 'en.js'
+  },
   {
     code: 'zh',
     name: '中文',
     langFile: 'zh.js'
   }
 ]
-const defaultLocale = 'zh'
+const defaultLocale = 'en'
 
 routes.forEach((route) => {
   let links = locales.map((locale) => {
@@ -95,7 +95,7 @@ module.exports = {
           /*
           * make the default locale can work in fallback in ssr.
           * */
-          zh: require('./locales/zh.js')
+          en: require('./locales/en.js')
         }
       }
     }],
