@@ -1,1 +1,1 @@
-Sitemap: https://vite.org/sitemap.xml
+Sitemap: https://www.vite.org/sitemap.xml
