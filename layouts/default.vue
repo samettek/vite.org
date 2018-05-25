@@ -185,8 +185,25 @@
             right: 50%;
             left: auto;
             margin-right: -10px;
+            transition: all 0.3s ease-in-out;
             &:nth-child(2) {
               width: 15px;
+            }
+          }
+        }
+      }
+
+      .is-open {
+        .navbar-brand {
+          .navbar-burger {
+            span {
+              &:nth-child(2) {
+                width: 19px;
+              }
+              &:nth-child(1), &:nth-child(3) {
+                width: 9px;
+                margin-right: -5px;
+              }
             }
           }
         }

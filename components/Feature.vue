@@ -267,6 +267,7 @@
           color:rgba(0,114,227,1);
           line-height:42px;
           margin-top: 31px;
+          text-align: center;
           @include touch {
             font-size: 24px;
             line-height: 34px;

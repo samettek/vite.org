@@ -5,7 +5,7 @@ module.exports = {
     reddit: 'https://www.reddit.com/r/vitelabs',
     github: 'https://github.com/vitelabs',
     document: 'http://doc.vite.org',
-    loopring: 'https://loopring.org/en/index.html',
+    loopring: 'https://loopring.org',
     faq: '/faq',
     medium: 'https://medium.com/vitelabs'
   }
