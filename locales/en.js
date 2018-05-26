@@ -53,7 +53,7 @@ module.exports = {
         content: 'Vite itself is a decentralized exchange that support digital asset issuance, cross-chain value transmission, and inter-token transactions based on Loopring protocols. Based on the quota allocation, lightweight users do not need to pay fees or fuel costs. Users can select multiple ways to obtain computing resources. Vite also supports quota leasing.'
       },
       dapp: {
-        title: 'dApp Mini Program',
+        title: 'Decentralized Applets',
         content: 'The Vite client integrates the decentralized mini program engine by HTML5, to reduce the threshold of dApp development and deployment.'
       }
     }
