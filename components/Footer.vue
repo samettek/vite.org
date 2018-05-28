@@ -75,9 +75,9 @@
       return {
         urls,
         aboutList: ['loopring'],
-        learnList: ['whitePaper'],
+        learnList: ['whitePaper', 'introduction'],
         mediumList: ['medium', 'telegram'],
-        urlShouldTranslate: ['whitePaper', 'telegram']
+        urlShouldTranslate: ['whitePaper', 'telegram', 'introduction']
       }
     },
     methods: {

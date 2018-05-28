@@ -324,17 +324,19 @@ module.exports = {
   investor: {
     title: '投资机构'
   },
-  'urls': {
-    'whitePaper': '白皮书',
-    'document': '文档',
-    'telegram': 'Telegram 中文群',
-    'loopring': '路印协议',
-    'faq': '问题答疑',
-    'medium': '博客'
+  urls: {
+    whitePaper: '白皮书',
+    document: '文档',
+    telegram: 'Telegram 中文群',
+    loopring: '路印协议',
+    faq: '问题答疑',
+    medium: '博客',
+    introduction: '简介'
   },
   urlSrc: {
     telegram: 'https://t.me/vite_zh',
-    whitePaper: '/whitepaper/vite_cn.pdf'
+    whitePaper: '/whitepaper/vite_cn.pdf',
+    introduction: 'https://doc.vite.org/zh/introduction/'
   },
   'utils': {
     readMore: '阅读更多'

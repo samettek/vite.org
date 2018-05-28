@@ -22,39 +22,36 @@ module.exports = {
   },
   feature: {
     performance: {
-      title: 'Extreme High Performance',
+      title: 'Ultra High Performance',
       dag: {
         title: 'DAG Ledger',
-        content: 'DAG Ledger structure is used in Vite. Transactions are grouped by account dimension, and each transaction only changes the state of a single account. ' +
-        'Send transactions are separated from receive transactions, and there is no need to wait for continuous transfers. ' +
-        'The hierarchical design of the consensus algorithm provides the horizontal scalability according to the consensus group dimension.'
+        content: 'Transactions in Vite are grouped by accounts.  That is, each transaction only changes the state of one single account.  Send transactions are separated from receive transactions, thereby obviating the need to wait for a transfer to be complete before the initiation of another transaction. The hierarchical design of the consensus algorithm allows horizontal scalability in consensus groups.'
       },
       async: {
         title: 'Asynchronous Architecture',
-        content: 'Transactions are split into transaction pairs based on "request-response" mode.  The transactions’ writing and verification are asynchronously decoupled, which can support ultra-high throughput. ' +
-        'Communication among contracts are based on the message asynchronous model.'
+        content: 'Vite splits transactions into transaction pairs according to a "request-response" pattern. The writing and verification of transactions are asynchronously decoupled, thereby supporting ultra-high throughput. Inter-contract communications are based on an asynchronous messaging model.'
       }
     },
     reactiveContract: {
       title: 'Reactive Contract',
       messageDriven: {
         title: 'Message-Driven',
-        content: 'With event-driven architecture, every smart contract is viewed as an independent service that contracts can communicate cross messages without sharing any state.'
+        content: 'With an event-driven architecture, every smart contract is viewed as an independent service.  Contracts communicate via messages without sharing state.'
       },
       solidity: {
         title: 'Solidity++',
-        content: 'Solidity++ is compatible with most of Solidity’s syntax. It supports asynchronous semantics, scheduling of contracts, and provides a series of standard libraries: string manipulation, floating-point operations, basic mathematical operations, containers, sorting, and so forth.'
+        content: 'Solidity++’s syntax is compatible with most of that of Solidity.  The new syntax supports asynchronous semantics, contract scheduling, and provides a series of standard libraries, such as string manipulation, floating-point operations, basic mathematical operations, containers, sorting, and so on.'
       }
     },
     ecosystem: {
       title: 'Integrated Decentralized Ecosystem',
       value: {
-        title: 'Value Closed Loop',
-        content: 'Vite itself is a decentralized exchange that support digital asset issuance, cross-chain value transmission, and inter-token transactions based on Loopring protocols. Based on the quota allocation, lightweight users do not need to pay fees or fuel costs. Users can select multiple ways to obtain computing resources. Vite also supports quota leasing.'
+        title: 'End-to-end system for value transfer',
+        content: 'Vite itself is a decentralized exchange that supports digital asset issuance, cross-chain value transmission, and inter-token transactions based on the Loopring protocol.  A quota-based resource allocation mechanism allows light users to pay zero fees and gas. Users can obtain computing resources in multiple ways.  Vite also supports quota leasing.'
       },
       dapp: {
-        title: 'Decentralized Applets',
-        content: 'The Vite client integrates the decentralized mini program engine by HTML5, to reduce the threshold of dApp development and deployment.'
+        title: 'dApp Mini Programs',
+        content: 'The Vite client features an engine for creating HTML5-based decentralized mini programs.  This engine simplifies the process of dApp development and deployment.'
       }
     }
   },
@@ -143,39 +140,35 @@ module.exports = {
       'liuchunming': {
         'name': 'Charles',
         'position': '',
-        'description': 'Veteran blockchain entrepreneur and technical expert. Graduated from China University of Science and Technology and the Institute of Software of the Chinese Academy of Sciences. Former senior architect of JD.com, co-founder of Coinport, and engineering director of Meituan Dianping. Abundant experience in distributed and high concurrency systems.'
+        'description': 'Veteran blockchain entrepreneur and technical expert. Graduated from China University of Science and Technology and the Institute of Software of the Chinese Academy of Sciences. Former senior architect of JD.com, co-founder of Coinport, and engineering director of Meituan Dianping. Abundant experience in distributed systems and high concurrency systems.'
       },
       'wangdong': {
         'name': 'Daniel Wang',
         'position': '',
-        'description': 'Seasoned blockchain entrepreneur.  Graduated from China University of Science and Technology and Arizona State University.  Founder of Loopring, former Google America Tech Lead, Co-founder and VP of Yun Yun Wang, Senior Research and Development Director at JD.com, and Co-Founder of Coinport.'
+        'description': 'Seasoned blockchain entrepreneur.  Graduated from China University of Science and Technology and Arizona State University.  Founder of Loopring, former Google America Tech Lead, Co-found and VP of Yun Yun Wang, Senior Research and Development Director at JD.com, and Co-Founder of Coinport.'
       },
       'wuming': {
         'name': 'Ming Wu',
         'position': '',
-        'description': 'Seasoned scientist. Graduated from China University of Science and Technology, and the Institute of Computing of the Chinese Academy of Sciences. Senior Research Manager at Microsoft Research Institute, Asia. Ph.D. advisor of China University of Science and Technology. Published 10+ high quality papers in the field of distributed systems and AI. Served as a member of program committees in several top-level meetings in the systems field.'
+        'description': 'Seasoned scientist. Graduated from China University of Science and Technology, and Institute of Computing of the Chinese Academy of Sciences. Senior Research Manager at Microsoft Research Institute, Asia. Ph.D. advisor of China University of Science and Technology. Published 10+ high quality papers in the field of distributed systems and AI.'
       },
       'chenxiaoliang': {
         'name': 'Johnston Chen',
         'position': '',
-        'description': 'Senior financial product operation expert\n' +
-        'COO of  Loopring\n' +
-        'Served as CIO of Sannuo Group'
+        'description': 'Expert in financial product operations.  Currently COO of Loopring.  Previously CIO of Sannuo Group'
       },
       'terenceLam': {
         'name': 'Terence Lam',
         'position': '',
-        'description': 'Veteran investor.  Graduated from Harvard Business School.  Partner of Zhizi Blockchain Investment Fund.  Adjunct professor of SPACE China Business School at Hong Kong University.  20+ years’ experience as senior technical manager at Global 500 companies.  Started many technology startups.'
+        'description': 'Veteran investor.  Graduated from Harvard Business School.  Partner of Zhizi Blockchain Investment Fund.  Adjust professor of SPACE China business school at Hong Kong University.  20+ years’ experience as senior technical manager at Global 500 companies.  Started many technology startups.'
       },
       'richard': {
         name: 'Richard',
         position: '',
-        description: 'Senior financial expert with years of Wall Street experience.\n' +
-        'Graduated from Dartmouth College and New York University (MBA).\n' +
-        'Worked as vice President of structured asset trading strategy at Goldman Sachs (New York), and Vice President of Two Sigma high-frequency trading and business innovation & development.'
+        description: 'Seasoned Wall Street professional. Graduated B.A. from Dartmouth College and MBA from New York University.  Previously structured product trading strategist at Goldman Sachs and Vice President of Two Sigma\'s high-frequency platform and Business Innovation & Growth group.'
       },
       frank: {
-        name: 'Yuanhui Deng',
+        name: 'Frank Deng',
         position: '',
         description: 'Expert in digital and mobile marketing. Graduated from Tsinghua University. Served in Google Ads Operations Group, COO of Suizong Technology and co-founder of Yunke Technology.'
       }
@@ -187,27 +180,26 @@ module.exports = {
       {
         'question': 'What is Vite?',
         'answer': [
-          'Vite is a general decentralized application platform, which meets the requirements of industrial application for high throughput, low latency and scalability as well as security.',
-          'Vite is dedicated to addressing the current performance and scalability issues of the basic chain so that truly practical and high-frequency applications can be built on it.'
+          'Vite is a general-purpose platform for decentralized applications.  It is designed to support industrial-strength applications by offering high throughput, low latency and scalability while also providing security.',
+          'The Vite team are dedicated to addressing current performance and scalability issues of infrastructural chains, so that truly practical applications with high-frequency data requirements can be built in a blockchain framework.'
         ]
       },
       {
         'question': 'What is the relationship between Vite and Loopring?',
         'answer': [
-          'It is a strategic partnership. Loopring is our strategic investor, and the founder Wang Dong, will be the consultant to Vite.\n' +
-          'With built in Loopring protocols, Vite will offer Loopring’s decentralized exchange function in its wallet. Loopring will be the first application on the Vite platform.\n'
+          'Loopring is our strategic investor, and its founder Daniel Wang serves as Vite’s advisor.  Loopring’s decentralized exchange function will be offered in a wallet application built on the Vite platform. Loopring will be the first practical use case for the Vite platform.'
         ]
       },
       {
         question: 'Will there be airdrops for Vite? In what way?',
         answer: [
-          'There will be, but the amount and manner of distribution have yet to be determined.'
+          'There will be.  Stay tuned for amount and mechanism.'
         ]
       },
       {
-        question: 'Which exchange will Vite be listed on?',
+        question: 'Which exchange(s) will Vite be listed on?',
         answer: [
-          'We are in contact with exchanges, but there is no specific timetable. Vite is mainly a long term technology-driven project, and we are not particularly aggressive in this part of our operation.'
+          'We are in contact with multiple exchanges, but there is no specific timetable.  Vite is a long-term, tech-driven project, and we don’t plan to run our operations at an aggressive pace.'
         ]
       },
       {
@@ -218,57 +210,75 @@ module.exports = {
         key: 'wechat'
       },
       {
-        question: 'Compared to other public chains, what is the biggest innovation of the Vite chain?',
+        question: 'What is Vite’s biggest innovation as compared to other public chains?',
         answer: [
-          'The biggest innovation is the adoption of asynchronous settings:\n' +
-          'First of all, we split the call for smart contracts asynchronously. ' +
-          'The project of Nano (one of the DAG troika) , divides a transfer into two actions: send and receive transactions. Reference to Nano, we extend it to transfer and call on smart contracts. We split a transfer deal into  send and receive transactions (two actions), and break a contract-call deal into the contract’s request and response (two parts).\n' +
-          'Secondly, an asynchronous structure is designed when written and confirmed. In Vite, writing a transaction to the ledger and confirming a transaction are asynchronous. For traditional blockchains such as bitcoin, the speed of writing transactions into ledgers is constrained by packing speed. In Vite, users can write many transactions within the limitation of TPS to the ledgers, ' +
-          'but the transactions are confirmed at a constant speed. This way, we can reduce the valley of the wave, maximize the utilization of system resources, and improve the throughput of the whole system. Transactions between two accounts will not be blocked by each other, and transactions of other accounts remaining unconfirmed for long periods of time because one account sends a large number of transactions, will not occur.',
-          'Thirdly, there is an asynchronous design of the contract call. Calling contracts in Ethereum is completed through message calls or inside transactions. These groups of calls are either done at the same time, or fail. These are atomic ACID semantics, which will become the performance bottleneck. Borrowing some comparatively mature solutions in centralized Internet technology, we adopted the Message-Driven architecture, in which contracts share no state, but only communicate by sending messages.'
+          'The biggest innovation is the asynchronous design, which can be understood in three aspects: ',
+          'First, we are introducing the concept of asynchronous design into smart contracts.  The Nano project (one of three well-known chains that use DAG) separates a transfer action into a send and a receive transaction. We are building upon this mechanism, and will separate the call and the response of a smart contract, so they can take place asynchronously.',
+          'Second, the writing and verification of a transaction also happen asynchronously in Vite.  In traditional blockchain setup (e.g., Bitcoin), the speed of writing transactions into a ledger is limited by the speed of packing.  But Vite allows writing of many transactions into the ledger within the constraints of the TPS.  Because the asynchronous setup allows the transactions to happen at an even speed, this reduces the peaks and troughs of the speed of transaction writing, thus optimizing usage of resources and increasing system throughput.  Also, the transactions of two users will no longer be blocked; that is, we will no longer see a scenario where a user sends a large amount of transactions that prevents the transactions of other users from taking place.',
+          'Third, calls between contracts will also happen asynchronously in Vite.  The calls between smart contracts in Ethereum are implemented through messaging (aka insider transactions); and the calls either all succeed or all fail, as per an atomic ACID semantic.  To solve for this bottleneck in performance, we take a page from well-developed solutions in centralized Internet technologies, and will make use of a message-driven architecture.  As such, contracts do not share states and communicate via messages.'
         ]
       },
       {
-        question: 'The calls in Vite among smart contracts cancel the synchronous call, so how is it compatible with the call scenario in Ethereum?',
-        answer: 'Not compatible. It can be compatible only if the codes change from synchrony to asynchrony.\n'
+        question: 'Since smart contracts in Vite don’t support synchronous calls, how will such calls in Ethereum be compatible with Vite?',
+        answer: 'Unfortunately, these calls are not compatible with Vite.  Synchronous calls need to be changed to asynchronous calls to work in Vite.'
       },
       {
-        question: 'What\'s the difference between Vite\'s Solidity ++ and Ethereum’s Solidity?',
+        question: 'What is the difference between Vite\'s Solidity++ and Ethereum’s Solidity?',
         answer: [
-          'Just like C and C++, the name of Solidity ++ is derived from this. In the basic syntax, there is no difference between the two versions. The main difference is the semantics of message calls. In Ethereum, it is a synchronous call, when in Solidity ++, it is asynchronous.',
-          'In addition, a series of standard libraries (such as string manipulation, floating-point operations, basic mathematical operations, containers, sorting, etc.), will be provided in Solidity ++.'
+          'On a high level, the differences are similar to those of C and C++.  In basic syntax, the two languages are largely compatible.  The largest difference is in the synchronous (Ethereum) vs asynchronous (Vite) calls as mentioned earlier.',
+          'In addition, a series of standard libraries, such as string manipulation, floating-point operations, basic mathematical operations, containers, and sorting will be provided in Solidity++.'
         ]
       },
       {
-        question: 'The message-based architecture has an advantage of high throughput and scalability. However, the cost is relatively complex modelling, no guarantee for strong consistency, and possible longer delay. How does Vite reduce the programming complexity and latency?',
+        question: 'The message-based architecture has an advantage of high throughput and scalability. However, this comes at a cost of more complex programming model, which may not guarantee strong consistency, and may lead to even higher latencies.  How does Vite reduce both the complexity in programming model and latencies?',
         answer: [
-          'Vite will provide Solidity++ contract language and a perfectly-functional SDK to reduce the cost of asynchronous programming.',
-          'After scrupulous study, we find that in the actual scene, strong consistency semantics can be replaced by BASE semantics. Since the HDPoS consensus algorithm of Vite can guarantee the transaction confirmation completes within 1 second, the increase of latency is still under control.'
+          'Vite will provide Solidity++ contract language and a complete SDK to reduce the cost of asynchronous programming.',
+          'After rigorous research, we find that in practical use cases, strong consistency semantics can be replaced by BASE semantics. Since the HDPoS consensus algorithm of Vite can guarantee transaction confirmation within 1 second, any potential latency increase is still under control.'
         ]
       },
       {
         question: 'What is the significance of Snapshot Chain?',
         answer: [
-          'Vite employs a ledger structure called block-lattice. Each account corresponds to a chain, and each transaction refers to the hash of the previous transaction in the account. Transactions are divided into two types: "request transactions" and "response transactions". A response transaction needs to quote the corresponding hash of the request transaction. ',
-          'The DAG structure has inherent security defects. Because transactions are grouped by accounts, a transaction is only attached to the end of the account chain which it belongs to. Transactions generated by other accounts do not automatically become the subsequent nodes of the transaction. Therefore, the probability of some transactions being reverted will not decrease over time. Vite remedies this defect through its unique Snapshot Chain technology.'
+          'Vite employs a ledger structure called block-lattice. Each account corresponds to a blockchain and each transaction refers to the hash of the previous transaction in the account. Transactions are divided into two types: "request transactions" and "response transactions.”  A response transaction needs to quote the corresponding hash of the request transaction.',
+          'The DAG structure has an inherent deficiency in security.   This is because transactions are grouped by accounts, and each transaction is only attached to the chain associated with the relevant account. Transactions generated by other accounts do not automatically become the subsequent nodes of the previous transaction. Therefore, for some transactions, the rollback probability will not drop over time.  The Snapshot chain technology is meant to address this issue.'
+        ]
+      },
+      {
+        question: 'Does the inter-chain protocol only support exchange of assets?',
+        answer: [
+          'Yes.  The inter-chain protocol only supports transfer of value.  Vite isn’t meant to solve all inter-chain issues.'
+        ]
+      },
+      {
+        question: 'The whitepaper mentions that Vite’s development tools are similar to, and have features extended from, those of Ethereum.  Does this indicate that dApp’s for Ethereum can be deployed on Vite with minor changes?',
+        answer: [
+          'Yes, one of Vite’s goals is to reduce the cost of porting over dApps from Ethereum.  Vite tries to maximize compatibility with EVM.'
+        ]
+      },
+      {
+        question: 'Can Vite’s smart contracts support running on a mobile device?  Will they be similar to Qtum and support mainstream languages like C++ and Java?',
+        answer: [
+          'Vite won’t support mobile.  There are no current plans to support other languages.  In the future, we will set up a VM Lab to continue research in smart contract language and virtual machine.  We welcome participation from experts in these areas.'
         ]
       }
     ]
   },
   investor: {
-    title: 'Investment Vehicle'
+    title: 'Our investors'
   },
   urls: {
-    'whitePaper': 'White Paper',
-    'document': 'Document',
-    'telegram': 'Telegram',
-    'loopring': 'Loopring',
-    'faq': 'FAQ',
-    'medium': 'Medium'
+    whitePaper: 'White Paper',
+    document: 'Document',
+    telegram: 'Telegram',
+    loopring: 'Loopring',
+    faq: 'FAQ',
+    medium: 'Medium',
+    introduction: 'Introduction'
   },
   urlSrc: {
     telegram: 'https://t.me/vite_en',
-    whitePaper: '/whitepaper/vite_en.pdf'
+    whitePaper: '/whitepaper/vite_en.pdf',
+    introduction: 'https://doc.vite.org/introduction/'
   },
   utils: {
     readMore: 'Read More'
