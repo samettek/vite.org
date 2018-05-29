@@ -144,12 +144,14 @@
           .logo {
             height: 41px;
             color: #333333;
+            @include touch {
+              height: 22px;
+            }
           }
           &:hover {
             .logo {
               color: #1580E3;
             }
-            background:none;
           }
         }
       }
@@ -184,6 +186,7 @@
         height: 40px;
         .logo {
           height: 22px;
+          transition: transform 0.4s ease-in-out;
         }
         .navbar-burger {
           height: 40px;
@@ -203,6 +206,10 @@
 
       .is-open {
         .navbar-brand {
+          .logo {
+            /*transform: translateX(16px);*/
+            transform: rotate(30deg);
+          }
           .navbar-burger {
             span {
               &:nth-child(2) {
