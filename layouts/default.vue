@@ -4,7 +4,7 @@
         <div class="container is-widescreen" :class="{ 'is-open': navbarActive }" @click="onNavClick">
           <div class="navbar-brand">
             <div @click="onLogoClick">
-              <nuxt-link class="navbar-item nav-item" :to="localePath('index')">
+              <nuxt-link class="navbar-item nav-item nav-item-logo" :to="localePath('index')">
                 <logo-without-words class="logo"></logo-without-words>
               </nuxt-link>
             </div>
@@ -140,10 +140,18 @@
       height: $navbar-height;
       .nav-item {
         height: 100%;
-      }
-      .logo {
-        height: 41px;
-        color: #1580E3;
+        &.nav-item-logo {
+          .logo {
+            height: 41px;
+            color: #333333;
+          }
+          &:hover {
+            .logo {
+              color: #1580E3;
+            }
+            background:none;
+          }
+        }
       }
     }
     .nav-item {

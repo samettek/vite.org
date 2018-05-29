@@ -136,9 +136,12 @@
       }
       .logo {
         margin-bottom: 42px;
-        color: #1580E3;
         height: 116px;
         width: auto;
+        color: rgba(0,0,0,0.7);
+        &:hover {
+          color: #1580E3;
+        }
         @include touch {
           height: 78px;
           margin-bottom: 22px;
