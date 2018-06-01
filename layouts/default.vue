@@ -60,7 +60,7 @@
         },
         meta: [
           { hid: 'description', name: 'description', content: description },
-
+          {name: 'google-site-verification', content: 'MyUvG14lvMm-nYCWoXYE9NT21vRda-kIT6xMETrGqZk'},
           // Open Grapg
           { name: 'og:title', content: title, hid: 'og:title' },
           { name: 'og:description', content: description, hid: 'og:description' },
