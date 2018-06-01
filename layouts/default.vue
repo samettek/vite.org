@@ -53,6 +53,20 @@
       let title = this.$t(`nav.${routeName}`) + ' - ' + this.$t('head.title')
 
       let description = this.$t(`head.description.${routeName}`)
+      let iconUrl = 'https://vite.org/icon.png'
+      let structuredData = {
+        '@context': 'http://schema.org',
+        '@type': 'Organization',
+        'url': 'https://vite.org',
+        'name': 'Vite labs.',
+        'description': description,
+        'image': iconUrl,
+        'brand': {
+          '@type': 'Brand',
+          'name': 'VITE',
+          'logo': iconUrl
+        }
+      }
       return {
         title,
         htmlAttrs: {
@@ -75,7 +89,12 @@
           { name: 'twitter:description', content: description, hid: 'twitter:description' },
           { name: 'twitter:image:alt', content: 'Vite Logo', hid: 'twitter:image:alt' },
           { name: 'twitter:image', content: 'https://www.vite.org/logo_appstore.png' }
-        ]
+        ],
+        __dangerouslyDisableSanitizers: ['script'],
+        script: [{
+          innerHTML: JSON.stringify(structuredData),
+          type: 'application/ld+json'
+        }]
       }
     },
     data: function () {
