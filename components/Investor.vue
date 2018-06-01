@@ -5,7 +5,7 @@
         {{$t('investor.title')}}
       </h2>
       <div class="columns is-multiline is-centered is-mobile">
-        <div :key="item.key" v-for="item in list" class="column is-one-fifth is-4-mobile">
+        <div :key="item.key" v-for="item in list" class="column is-2-desktop is-4-touch">
           <div class="img-wrapper">
             <img class="investor-logo" :src="item.logo" alt="">
           </div>
@@ -44,6 +44,10 @@
             {
               key: 'b100',
               logo: require('~/assets/images/investor/b100.png')
+            },
+            {
+              key: 'bn',
+              logo: require('~/assets/images/investor/bn_capital.png')
             }
           ]
         }
