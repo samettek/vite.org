@@ -6,7 +6,7 @@ const routes = [
     priority: 1
   },
   {
-    url: '/faq',
+    url: '/faq/',
     priority: 0.3
   }
 ]
@@ -117,9 +117,7 @@ module.exports = {
     generate: true,
     exclude: [
       '/technology',
-      '/careers',
-      '/',
-      '/faq'
+      '/careers'
     ].concat(locales.map((lang) => {
       return `/${lang.code}/**`
     })),
