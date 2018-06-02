@@ -117,9 +117,13 @@ module.exports = {
     generate: true,
     exclude: [
       '/technology',
-      '/careers'
+      '/careers',
+      '/',
+      '/faq'
     ].concat(locales.map((lang) => {
       return `/${lang.code}/**`
+    })).concat(locales.map((lang) => {
+      return `/${lang.code}`
     })),
     routes: sitemapUrls
   }
