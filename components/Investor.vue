@@ -22,6 +22,34 @@
         return {
           list: [
             {
+              key: 'bitmain',
+              logo: require('~/assets/images/investor/bitmain-black.png')
+            },
+            // {
+            //   key: 'starwinCapital',
+            //   logo: require('~/assets/images/investor/starwin-capital.jpg')
+            // },
+            {
+              key: 'nodeCapital',
+              logo: require('~/assets/images/investor/node-capital-black.png')
+            },
+            {
+              key: 'linkvc',
+              logo: require('~/assets/images/investor/linkvc.png')
+            },
+            {
+              key: 'genesisCapital',
+              logo: require('~/assets/images/investor/genesis-capital.png')
+            },
+            {
+              key: 'funcityCapital',
+              logo: require('~/assets/images/investor/funcity-capital.jpg')
+            },
+            {
+              key: 'helloCapital',
+              logo: require('~/assets/images/investor/hello-capital-black.png')
+            },
+            {
               key: 'zhizi',
               logo: require('~/assets/images/investor/zhizi.png')
             },
