@@ -1,12 +1,23 @@
-let generateRoutes = ['/']
-const hostname = 'https://vite.org'
+const hostname = 'https://www.vite.org'
 const routes = [
   {
     url: '/',
-    priority: 1
+    priority: 1,
+    img: [
+      {
+        url: `${hostname}/icon.png`,
+        caption: 'Vite logo',
+        title: 'Vite logo'
+      },
+      {
+        url: `${hostname}/logo_appstore.png`,
+        caption: 'Vite logo for appstore',
+        title: 'Vite logo for appstore'
+      }
+    ]
   },
   {
-    url: '/faq/',
+    url: '/faq',
     priority: 0.3
   }
 ]
@@ -38,11 +49,13 @@ routes.forEach((route) => {
       url
     }
   })
-  sitemapUrls.push({
-    url: hostname + route.url,
-    changefreq: 'daily',
-    priority: route.priority,
-    links: links
+  links.forEach(({url}) => {
+    sitemapUrls.push({
+      ...route,
+      url,
+      changefreq: 'daily',
+      links: links
+    })
   })
 })
 
@@ -71,9 +84,6 @@ module.exports = {
     }
   },
   plugins: ['~/plugins/fontawesome', {src: '~/plugins/vue-headroom', ssr: false}],
-  generate: {
-    routes: generateRoutes
-  },
   router: {
     middleware: 'i18n'
   },

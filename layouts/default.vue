@@ -40,6 +40,7 @@
   import Logo from '~/components/Logo.vue'
   import LogoWithoutWords from '~/components/LogoWithoutWords.vue'
   import Footer from '~/components/Footer.vue'
+  import config from '~/config'
 
   export default {
     components: {
@@ -54,19 +55,24 @@
 
       let description = this.$t(`head.description.${routeName}`)
       let iconUrl = 'https://vite.org/icon.png'
-      let structuredData = {
-        '@context': 'http://schema.org',
-        '@type': 'Organization',
-        'url': 'https://vite.org',
-        'name': 'Vite labs.',
-        'description': description,
-        'image': iconUrl,
-        'brand': {
-          '@type': 'Brand',
-          'name': 'VITE',
-          'logo': iconUrl
+      let structuredData = [
+        {
+          '@context': 'http://schema.org',
+          '@type': 'Organization',
+          'url': 'https://vite.org',
+          'name': 'Vite labs.',
+          'description': description,
+          'image': iconUrl,
+          'brand': {
+            '@type': 'Brand',
+            'name': 'VITE',
+            'logo': iconUrl
+          },
+          'sameAs': [
+            config.urls.twitter
+          ]
         }
-      }
+      ]
       return {
         title,
         htmlAttrs: {
@@ -91,10 +97,12 @@
           { name: 'twitter:image', content: 'https://www.vite.org/logo_appstore.png' }
         ],
         __dangerouslyDisableSanitizers: ['script'],
-        script: [{
-          innerHTML: JSON.stringify(structuredData),
-          type: 'application/ld+json'
-        }]
+        script: structuredData.map(item => {
+          return {
+            innerHTML: JSON.stringify(item),
+            type: 'application/ld+json'
+          }
+        })
       }
     },
     data: function () {

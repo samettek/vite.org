@@ -3,10 +3,12 @@ module.exports = {
   head: {
     title: 'Vite - A Next Generation High-performance Decentralized Application Platform',
     document: 'Document',
-    homeDesc: 'Vite - A Next Generation High-performance Decentralized Application Platform',
-    careersDesc: 'Welcome to join our Vitelabs, Let\'s create A New Generation of High-performance Decentralized Application Platform',
-    faqDesc: 'All about FAQs of Vite',
-    technologyDesc: 'The key technologies of Vite: DAG、Snapchat Chain、Asnychronous Architechture、Reactive Contract、Quota leasing、Loopring Integrated、Timer scheduling、Contract Upgrade、solidity++'
+    description: {
+      index: 'Vite - A Next Generation High-performance Decentralized Application Platform',
+      careers: 'Welcome to join our Vitelabs, Let\'s create A New Generation of High-performance Decentralized Application Platform',
+      faq: 'All about FAQs of Vite',
+      technology: 'The key technologies of Vite: DAG、Snapchat Chain、Asnychronous Architechture、Reactive Contract、Quota leasing、Loopring Integrated、Timer scheduling、Contract Upgrade、solidity++'
+    }
   },
   nav: {
     index: 'Home',
