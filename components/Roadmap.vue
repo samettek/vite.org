@@ -94,7 +94,7 @@
     },
     data: function () {
       return {
-        selected: 2,
+        selected: 3,
         hover: null
       }
     },
