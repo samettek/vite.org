@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="is-fullheight hero home">
-      <div v-if="$i18n.locale === 'en' && showNotice" class="home-notification notification is-primary">
+      <div v-if="$i18n.locale === 'en' && showNotice" class="home-notification notification">
         <button class="delete" @click="showNotice = false"></button>
         We will make an announcement on participation soon. Enter our <a :href="$t('urlSrc.telegram')" target="_blank">Telegram</a> group and stay tuned!
       </div>
@@ -108,6 +108,8 @@
     max-width: 300px;
     right: 30px;
     top: 15px;
+    background: #1580E3;
+    color: white;
   }
 
   .home {
