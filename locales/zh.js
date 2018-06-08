@@ -342,7 +342,8 @@ module.exports = {
     faq: '问题答疑',
     medium: '博客',
     introduction: '简介',
-    tokenUrl: 'Token 地址'
+    tokenUrl: 'Token 地址',
+    btt: 'Bitcointalk'
   },
   urlSrc: {
     telegram: 'https://t.me/vite_zh',

@@ -160,6 +160,7 @@
 
   .navbar {
     border-bottom: 1px solid transparent;
+    z-index: 222222;
     &.headroom--not-top {
       border-bottom: 1px solid rgba(0,0,0,0.05);
     }

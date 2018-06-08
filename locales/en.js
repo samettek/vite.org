@@ -276,7 +276,8 @@ module.exports = {
     faq: 'FAQ',
     medium: 'Medium',
     introduction: 'Introduction',
-    tokenUrl: 'Token Address'
+    tokenUrl: 'Token Address',
+    btt: 'Bitcointalk'
   },
   urlSrc: {
     telegram: 'https://t.me/vite_en',

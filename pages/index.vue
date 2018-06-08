@@ -1,6 +1,10 @@
 <template>
   <div>
     <section class="is-fullheight hero home">
+      <div v-if="$i18n.locale === 'en' && showNotice" class="home-notification notification is-primary">
+        <button class="delete" @click="showNotice = false"></button>
+        We will make an announcement on participation soon. Enter our <a :href="$t('urlSrc.telegram')" target="_blank">Telegram</a> group and stay tuned!
+      </div>
       <div class="hero-body">
         <div class="container">
           <div class="is-size-1-desktop is-size-2-touch slogan-wrapper">
@@ -73,7 +77,8 @@
     mounted () {},
     data () {
       return {
-        socialUrls: config.urls
+        socialUrls: config.urls,
+        showNotice: true
       }
     },
     methods: {
@@ -95,6 +100,14 @@
     font-family: $font-family-light;
     font-weight: normal;
     margin-bottom: 3rem;
+  }
+
+  .home-notification {
+    position: absolute;
+    z-index: 1;
+    max-width: 300px;
+    right: 30px;
+    top: 15px;
   }
 
   .home {

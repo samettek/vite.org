@@ -75,7 +75,7 @@
       return {
         urls,
         aboutList: ['loopring', 'tokenUrl'],
-        learnList: ['whitePaper', 'introduction'],
+        learnList: ['whitePaper', 'introduction', 'btt'],
         mediumList: ['medium', 'telegram'],
         urlShouldTranslate: ['whitePaper', 'telegram', 'introduction']
       }
