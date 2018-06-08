@@ -275,7 +275,8 @@ module.exports = {
     loopring: 'Loopring',
     faq: 'FAQ',
     medium: 'Medium',
-    introduction: 'Introduction'
+    introduction: 'Introduction',
+    tokenUrl: 'Token Address'
   },
   urlSrc: {
     telegram: 'https://t.me/vite_en',

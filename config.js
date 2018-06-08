@@ -7,6 +7,7 @@ module.exports = {
     document: 'http://doc.vite.org',
     loopring: 'https://loopring.org',
     faq: '/faq',
-    medium: 'https://medium.com/vitelabs'
+    medium: 'https://medium.com/vitelabs',
+    tokenUrl: 'https://etherscan.io/token/0x1b793E49237758dBD8b752AFC9Eb4b329d5Da016'
   }
 }

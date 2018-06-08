@@ -341,7 +341,8 @@ module.exports = {
     loopring: '路印协议',
     faq: '问题答疑',
     medium: '博客',
-    introduction: '简介'
+    introduction: '简介',
+    tokenUrl: 'Token 地址'
   },
   urlSrc: {
     telegram: 'https://t.me/vite_zh',

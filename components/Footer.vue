@@ -74,7 +74,7 @@
       let {urls} = config
       return {
         urls,
-        aboutList: ['loopring'],
+        aboutList: ['loopring', 'tokenUrl'],
         learnList: ['whitePaper', 'introduction'],
         mediumList: ['medium', 'telegram'],
         urlShouldTranslate: ['whitePaper', 'telegram', 'introduction']
