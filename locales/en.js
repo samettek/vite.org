@@ -248,7 +248,7 @@ module.exports = {
       {
         question: 'Does the inter-chain protocol only support exchange of assets?',
         answer: [
-          'Yes.  The inter-chain protocol only supports transfer of value.  Vite isn’t meant to solve all inter-chain issues.'
+          'Yes.  Vite will support value transfers between different chains but not other inter-chain functions such as message transfers or smart contract calls between chains.'
         ]
       },
       {
