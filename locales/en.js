@@ -276,8 +276,11 @@ module.exports = {
     faq: 'FAQ',
     medium: 'Medium',
     introduction: 'Introduction',
-    tokenUrl: 'Token Address',
-    btt: 'Bitcointalk'
+    tokenUrl: 'ERC20 Address',
+    btt: 'Bitcointalk',
+    telegramEn: 'Telegram English',
+    telegramZh: 'Telegram Chinese',
+    telegramAnn: 'Telegram Announcement'
   },
   urlSrc: {
     telegram: 'https://t.me/vite_en',
