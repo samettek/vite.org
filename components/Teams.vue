@@ -59,10 +59,6 @@
               {
                 icon: ['fab', 'linkedin'],
                 url: 'https://www.linkedin.com/in/richard-yan-934229a5/'
-              },
-              {
-                icon: ['fab', 'github'],
-                url: 'https://github.com/yanl1984'
               }
             ]
           },
