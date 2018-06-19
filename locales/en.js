@@ -154,11 +154,6 @@ module.exports = {
         'position': '',
         'description': 'Seasoned scientist. Graduated from China University of Science and Technology, and Institute of Computing of the Chinese Academy of Sciences. Senior Research Manager at Microsoft Research Institute, Asia. Ph.D. advisor of China University of Science and Technology. Published 10+ high quality papers in the field of distributed systems and AI.'
       },
-      'chenxiaoliang': {
-        'name': 'Johnston Chen',
-        'position': '',
-        'description': 'Expert in financial product operations.  Currently COO of Loopring.  Previously CIO of Sannuo Group'
-      },
       'terenceLam': {
         'name': 'Terence Lam',
         'position': '',
@@ -173,6 +168,11 @@ module.exports = {
         name: 'Frank Deng',
         position: '',
         description: 'Expert in digital and mobile marketing. Graduated from Tsinghua University. Served in Google Ads Operations Group, COO of Suizong Technology and co-founder of Yunke Technology.'
+      },
+      zhangli: {
+        name: 'Li zhang',
+        position: '',
+        description: 'Senior blockchain practitioner, investor. LinkVC Capital Partners, former CMO of F2pool , former business officer of Huobi.'
       }
     }
   },

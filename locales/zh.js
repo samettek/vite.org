@@ -195,11 +195,6 @@ module.exports = {
         'position': '',
         'description': '资深科学家。毕业于中国科技大学，中科院计算所。微软亚洲研究院Senior Research Manager，在分布式系统和AI领域发表过十余篇论文，多次在系统领域顶级会议中担任程序委员会委员。'
       },
-      'chenxiaoliang': {
-        'name': '陈晓亮',
-        'position': '',
-        'description': '资深金融产品运营专家，路印协议COO。曾任三诺集团CIO。'
-      },
       'terenceLam': {
         'name': 'Terence Lam',
         'position': '',
@@ -214,6 +209,11 @@ module.exports = {
         name: '邓远辉',
         position: '',
         description: '数字营销及移动营销专家。毕业于清华大学。曾任职Google广告运营组，随踪科技COO，云克科技联合创始人。'
+      },
+      zhangli: {
+        name: '张力',
+        position: '',
+        description: '资深区块链从业者，投资人。连接资本合伙人，前鱼池F2pool CMO，前火币商务负责人。'
       }
     }
   },

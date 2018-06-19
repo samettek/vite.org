@@ -87,8 +87,8 @@
             key: 'frank'
           },
           {
-            key: 'chenxiaoliang',
-            img: require('~/assets/images/teams/chenxiaoliang.png')
+            key: 'zhangli',
+            img: require('~/assets/images/teams/lizhang.jpeg')
           },
           {
             key: 'terenceLam',
