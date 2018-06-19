@@ -61,6 +61,16 @@
               url: 'http://www.funcityholding.com/'
             },
             {
+              key: 'bp',
+              logo: require('~/assets/images/investor/bp.png'),
+              logoActive: require('~/assets/images/investor/bp-blue.png')
+            },
+            {
+              key: 'distributed-fund',
+              logo: require('~/assets/images/investor/distributed-fund.png'),
+              logoActive: require('~/assets/images/investor/distributed-fund-blue.png')
+            },
+            {
               key: 'helloCapital',
               logo: require('~/assets/images/investor/hello.png'),
               logoActive: require('~/assets/images/investor/hello-blue.png'),
@@ -70,6 +80,16 @@
               key: 'zhizi',
               logo: require('~/assets/images/investor/zhizi.png'),
               logoActive: require('~/assets/images/investor/zhizi-blue.png')
+            },
+            {
+              key: 'wanbu',
+              logo: require('~/assets/images/investor/wanbu.png'),
+              logoActive: require('~/assets/images/investor/wanbu-blue.png')
+            },
+            {
+              key: 'bigcoin',
+              logo: require('~/assets/images/investor/bigcoin.png'),
+              logoActive: require('~/assets/images/investor/bigcoin-blue.png')
             },
             {
               key: 'hotCapital',
