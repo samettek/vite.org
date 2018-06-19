@@ -170,7 +170,7 @@ module.exports = {
         description: 'Expert in digital and mobile marketing. Graduated from Tsinghua University. Served in Google Ads Operations Group, COO of Suizong Technology and co-founder of Yunke Technology.'
       },
       zhangli: {
-        name: 'Li zhang',
+        name: 'Li Zhang',
         position: '',
         description: 'Senior blockchain practitioner, investor. LinkVC Capital Partners, former CMO of F2pool , former business officer of Huobi.'
       }
