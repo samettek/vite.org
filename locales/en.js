@@ -270,7 +270,7 @@ module.exports = {
   },
   urls: {
     whitePaper: 'White Paper',
-    document: 'Document',
+    document: 'Documentation',
     telegram: 'Telegram',
     loopring: 'Loopring',
     faq: 'FAQ',
