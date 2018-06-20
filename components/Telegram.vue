@@ -3,20 +3,24 @@
     <v-popover
       offset="16"
       :disabled="!isEnabled"
-      popoverClass="v-popover"
-    >
-      <a class="tooltip-target"  target="_blank"><fa-icon :icon="['fab', 'weixin']" /></a>
+      popoverClass="v-popover">
+      <a class="tooltip-target"  target="_blank"><fa-icon :icon="['fab', 'telegram-plane']" /></a>
 
       <template slot="popover">
-        <img src="~/assets/images/vitelabs_wechat.jpg" alt="">
+        <div>
+          <a v-for="item in list" class="tag is-info" target="_blank" :href="urlList[item]">
+            {{$t(`urls.telegram.${item}`)}}
+          </a>
+        </div>
       </template>
     </v-popover>
 
-    <a slot="placeholder" target="_blank"><fa-icon :icon="['fab', 'weixin']" /></a>
+    <a slot="placeholder" target="_blank"><fa-icon :icon="['fab', 'telegram-plane']" /></a>
   </no-ssr>
 </template>
 
 <script type="text/babel">
+  import config from '~/config.js'
   import { VPopover } from 'v-tooltip'
 
   export default {
@@ -25,12 +29,21 @@
     },
     data: function () {
       return {
-        isEnabled: true
+        isEnabled: true,
+        urlList: config.urls.telegram,
+        list: ['ann', 'english', 'chinese', 'vietnamese', 'korean', 'russia'],
+        isBrowser: process.browser
       }
     },
     methods: {}
   }
 </script>
+
+<style rel="stylesheet/scss" lang="scss">
+  .popover-inner {
+    max-width: 250px;
+  }
+</style>
 
 <style rel="stylesheet/scss" lang="scss" scoped>
   img {
@@ -51,7 +64,13 @@
     width: 36px;
     margin-left: 28px;
   }
-
+  .ann-wrapper {
+    text-align: center;
+  }
+  .is-info {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
   .no-ssr {
     display: inline-block;
     height: 36px;

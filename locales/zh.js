@@ -335,18 +335,22 @@ module.exports = {
     title: '投资机构'
   },
   urls: {
+    telegram: {
+      ann: '公告群',
+      english: '英文群',
+      chinese: '中文群',
+      vietnamese: '越南群',
+      korean: '韩国群',
+      russia: '俄罗斯群'
+    },
     whitePaper: '白皮书',
     document: '文档',
-    telegram: 'Telegram 中文群',
     loopring: '路印协议',
     faq: '问题答疑',
     medium: '博客',
     introduction: '简介',
     tokenUrl: 'ERC20 地址',
-    btt: 'Bitcointalk',
-    telegramEn: 'Telegram 英文',
-    telegramZh: 'Telegram 中文',
-    telegramAnn: 'Telegram 公告'
+    btt: 'Bitcointalk'
   },
   urlSrc: {
     telegram: 'https://t.me/vite_zh',

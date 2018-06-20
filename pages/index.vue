@@ -31,10 +31,10 @@
             </div>
             <div class="social">
               <a :href="socialUrls.discord" target="_blank"><fa-icon class="icon" :icon="['fab', 'discord']" /></a>
-              <a :href="$t('urlSrc.telegram')" target="_blank"><fa-icon class="icon" :icon="['fab', 'telegram-plane']" /></a>
+              <telegram></telegram>
               <a :href="socialUrls.twitter" target="_blank"><fa-icon class="icon" :icon="['fab', 'twitter']" /></a>
               <a :href="socialUrls.github" target="_blank"><fa-icon class="icon" :icon="['fab', 'github']" /></a>
-              <no-ssr><wechat></wechat></no-ssr>
+              <wechat></wechat>
             </div>
           </div>
         </div>
@@ -60,6 +60,7 @@
   import LogoWord from '~/components/LogoWord'
   import Roadmap from '~/components/Roadmap'
   import Wechat from '~/components/Wechat'
+  import Telegram from '~/components/Telegram'
 
   import config from '~/config.js'
 
@@ -72,7 +73,8 @@
       VInvestor: Investor,
       Icosahedron,
       VRoadmap: Roadmap,
-      Wechat
+      Wechat,
+      Telegram
     },
     mounted () {},
     data () {

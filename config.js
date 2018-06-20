@@ -10,8 +10,13 @@ module.exports = {
     medium: 'https://medium.com/vitelabs',
     tokenUrl: 'https://etherscan.io/token/0x1b793E49237758dBD8b752AFC9Eb4b329d5Da016',
     btt: 'https://bitcointalk.org/index.php?topic=4438416',
-    telegramZh: 'https://t.me/vite_zh',
-    telegramEn: 'https://t.me/vite_en',
-    telegramAnn: 'https://t.me/vite_ann'
+    telegram: {
+      ann: 'https://t.me/vite_ann',
+      english: 'https://t.me/vite_en',
+      chinese: 'https://t.me/vite_zh',
+      vietnamese: 'https://t.me/vite_vietnamese',
+      korean: 'https://t.me/vite_korean',
+      russia: 'https://t.me/vite_russia'
+    }
   }
 }

@@ -269,9 +269,16 @@ module.exports = {
     title: 'Our investors'
   },
   urls: {
+    telegram: {
+      ann: 'Announcement Channel',
+      english: 'English',
+      chinese: 'Chinese',
+      vietnamese: 'Vietnamese',
+      korean: 'Korean',
+      russia: 'Russia'
+    },
     whitePaper: 'White Paper',
     document: 'Documentation',
-    telegram: 'Telegram',
     loopring: 'Loopring',
     faq: 'FAQ',
     medium: 'Medium',
@@ -280,7 +287,7 @@ module.exports = {
     btt: 'Bitcointalk',
     telegramEn: 'Telegram English',
     telegramZh: 'Telegram Chinese',
-    telegramAnn: 'Telegram Announcement'
+    telegramAnn: 'Telegram '
   },
   urlSrc: {
     telegram: 'https://t.me/vite_en',

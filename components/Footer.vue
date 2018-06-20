@@ -11,9 +11,9 @@
               <a :href="urls.github" target="_blank" class="text-hover-transition"><fa-icon class="icon" :icon="['fab', 'github']"></fa-icon></a>
               <a :href="urls.discord" target="_blank" class="text-hover-transition"><fa-icon class="icon" :icon="['fab', 'discord']"></fa-icon></a>
               <a :href="urls.twitter" target="_blank" class="text-hover-transition"><fa-icon class="icon" :icon="['fab', 'twitter']"></fa-icon></a>
-              <a :href="$t('urlSrc.telegram')" target="_blank" class="text-hover-transition"><fa-icon class="icon" :icon="['fab', 'telegram-plane']"/></a>
+              <telegram></telegram>
               <a :href="urls.reddit" target="_blank" class="text-hover-transition"><fa-icon class="icon" :icon="['fab', 'reddit']"/></a>
-              <no-ssr><wechat></wechat></no-ssr>
+              <wechat></wechat>
             </div>
           </div>
 
@@ -63,12 +63,14 @@
 <script type="text/babel">
   import Logo from '~/components/Logo.vue'
   import Wechat from '~/components/Wechat'
+  import Telegram from '~/components/Telegram'
   import config from '~/config.js'
 
   export default {
     components: {
       Logo,
-      Wechat
+      Wechat,
+      Telegram
     },
     data: function () {
       let {urls} = config
@@ -76,7 +78,7 @@
         urls,
         aboutList: ['loopring', 'tokenUrl'],
         learnList: ['whitePaper', 'document', 'introduction'],
-        mediumList: ['medium', 'telegramEn', 'telegramZh', 'telegramAnn', 'btt'],
+        mediumList: ['medium', 'btt'],
         urlShouldTranslate: ['whitePaper', 'telegram', 'introduction']
       }
     },
