@@ -474,6 +474,7 @@ module.exports = {
   },
   joinMailing: {
     title: '欢迎订阅Vite最新信息',
-    button: '订阅'
+    button: '订阅',
+    placeholder: '请输入邮箱地址'
   }
 }

@@ -304,6 +304,7 @@ module.exports = {
   },
   joinMailing: {
     title: 'Subscribe to our mailing list',
-    button: 'Subscribe'
+    button: 'Subscribe',
+    placeholder: 'Email Address'
   }
 }

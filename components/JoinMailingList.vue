@@ -7,7 +7,7 @@
       <div class="form-wrapper">
         <form action="https://vite.us18.list-manage.com/subscribe/post?u=13d7c53f6684a1ab33387eb02&amp;id=e0d82ae634" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
           <div class="control">
-            <input type="email" value="" name="EMAIL" class="email input is-medium" id="mce-EMAIL" placeholder="email address" required>
+            <input type="email" value="" name="EMAIL" class="email input is-medium" id="mce-EMAIL" :placeholder="$t('joinMailing.placeholder')" required>
             <div class="clear"><input type="submit" :value="$t('joinMailing.button')" name="subscribe" id="mc-embedded-subscribe" class="button is-medium"></div>
           </div>
           <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
