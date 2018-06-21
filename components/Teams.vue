@@ -63,28 +63,24 @@
             ]
           },
           {
-            img: require('~/assets/images/teams/wuming.png'),
-            key: 'wuming',
+            img: require('~/assets/images/teams/yuanhui.png'),
+            key: 'frank',
             urls: [
               {
                 icon: ['fab', 'linkedin'],
-                url: 'https://www.linkedin.com/in/ming-wu-7a598b1b/'
-              },
-              {
-                icon: ['fab', 'github'],
-                url: 'https://github.com/sparkwoo'
+                url: 'https://www.linkedin.com/in/frank-deng-4756147'
               }
             ]
           }
         ],
         advisors: [
           {
-            img: require('~/assets/images/teams/dan-wang.png'),
-            key: 'wangdong'
+            img: require('~/assets/images/teams/wuming.png'),
+            key: 'wuming'
           },
           {
-            img: require('~/assets/images/teams/yuanhui.png'),
-            key: 'frank'
+            img: require('~/assets/images/teams/dan-wang.png'),
+            key: 'wangdong'
           },
           {
             key: 'zhangli',
