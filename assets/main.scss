@@ -29,3 +29,19 @@ body {
 .headroom.headroom--unpinned {
   transform: translateY(-100%);
 }
+
+// input
+
+.input:focus, .input.is-focused, .input:active, .input.is-active, .textarea:focus, .textarea.is-focused, .textarea:active, .textarea.is-active {
+  border-color: $light-blue;
+  box-shadow: 0 0 0 0.125em rgba(54,130,222, 0.25);
+}
+
+.button:focus, .button.is-focused {
+  border-color: $light-blue;
+  color: $light-blue;
+}
+
+.button:focus:not(:active), .button.is-focused:not(:active) {
+  box-shadow: 0 0 0 0.125em rgba(54,130,222, 0.25);
+}

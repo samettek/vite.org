@@ -301,5 +301,9 @@ module.exports = {
     learning: 'Learn',
     about: 'About',
     media: 'Media'
+  },
+  joinMailing: {
+    title: 'Subscribe to our mailing list',
+    button: 'Subscribe'
   }
 }

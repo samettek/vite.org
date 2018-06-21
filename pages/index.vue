@@ -48,6 +48,8 @@
     <v-teams></v-teams>
 
     <v-investor></v-investor>
+
+    <join-mailing-list></join-mailing-list>
   </div>
 </template>
 
@@ -61,6 +63,7 @@
   import Roadmap from '~/components/Roadmap'
   import Wechat from '~/components/Wechat'
   import Telegram from '~/components/Telegram'
+  import JoinMailingList from '~/components/JoinMailingList'
 
   import config from '~/config.js'
 
@@ -74,7 +77,8 @@
       Icosahedron,
       VRoadmap: Roadmap,
       Wechat,
-      Telegram
+      Telegram,
+      JoinMailingList
     },
     mounted () {},
     data () {

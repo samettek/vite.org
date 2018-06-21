@@ -471,5 +471,9 @@ module.exports = {
     learning: '学习',
     about: '关于',
     media: '媒体'
+  },
+  joinMailing: {
+    title: '欢迎订阅Vite最新信息',
+    button: '订阅'
   }
 }
