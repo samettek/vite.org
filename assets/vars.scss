@@ -1,16 +1,25 @@
 @import "~bulma/sass/utilities/initial-variables";
 @import "~bulma/sass/utilities/mixins";
 
-$fullhd:1280px + (2 * $gap);
-$gap:32px;
+
+$font-family-light: PingFangSC-Regular,Arial,Sans-serif;
+$font-family-main: PingFangSC-Medium,Arial,Sans-serif;
+$font-family-title: PingFangSC-Semibold, Arial, Sans-serif;
+
+// bulma
+$family-serif: $font-family-light;
+$family-primary: $font-family-light;
+$gap:16px;
 $dark-blue: #032841;
 $light-blue: rgba(54,130,222,1);
-$footer-background-color: #013462;
-$font-family-light: HelveticaNeue-Light,Arial,Sans-serif;
-$font-family-main: HelveticaNeue,Arial,Sans-serif;
-$nav-height: (130rem/16);
+$footer-background-color: white;
+$navbar-height: 72px;
 
-$background-image: linear-gradient(-179deg, #032841 3%, #013462 100%);
-$family-serif: $font-family-main;
+@mixin widescreen-desktop {
+  @media screen and (min-width: $desktop) and (max-width: $fullhd - 1px) {
+    @content
+  }
+}
 
-$family-primary: $font-family-main;
+
+

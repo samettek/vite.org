@@ -13,8 +13,8 @@ wp-content/plugins/hello.php
 /.htaccess
 /license.txt
 /readme.html
-/sitemap.xml
-/sitemap.xml.gz
+static/sitemap.xml
+static/sitemap.xml.gz
 *.log
 .idea
 dist

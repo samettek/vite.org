@@ -1,51 +1,38 @@
 <template>
   <div>
-    <div id="home-nav" class="hero-head headroom" :class="`is-${routeName}-page`" v-headroom>
-      <scrollactive class="navbar" :modify-url="true" :offset="0">
+      <div class="navbar headroom" :class="`is-${routeName}-page`" v-headroom>
         <div class="container is-widescreen" :class="{ 'is-open': navbarActive }" @click="onNavClick">
           <div class="navbar-brand">
             <div @click="onLogoClick">
-              <a v-if="isIndexPage" class="nav-item navbar-item scrollactive-item" href="#home-nav">
-                <logo-without-words class="logo"></logo-without-words>
-              </a>
-              <nuxt-link class="navbar-item nav-item" :to="localePath('index')" v-else>
+              <nuxt-link class="navbar-item nav-item nav-item-logo" :to="localePath('index')">
                 <logo-without-words class="logo"></logo-without-words>
               </nuxt-link>
             </div>
-            <div class="navbar-burger" @click="navbarActive = !navbarActive">
+            <div class="navbar-burger" @click="onBurgerClick">
               <span></span>
               <span></span>
               <span></span>
             </div>
           </div>
 
-          <div class="navbar-menu" :class="{ 'is-active': navbarActive }">
-            <div class="navbar-end">
-              <template v-if="isIndexPage">
-                <a :key="item" :href="`#${item}`" class="nav-item scrollactive-item" v-for="item in navs">
-                  {{$t(`nav.${item}`)}}
-                </a>
-              </template>
-
-              <template v-else>
-                <nuxt-link :key="item" :to="{path: localePath('index'), hash: item}" class="nav-item" v-for="item in navs">
-                  {{$t(`nav.${item}`)}}
-                </nuxt-link>
-              </template>
-
-              <nuxt-link :key="item" v-for="item in otherNavs" :to="localePath(item)" class="nav-item">
+          <div class="navbar-menu" :class="{ 'is-active': navbarActive, collapsing: collapsing }" :style="navbarEndStyle">
+            <div ref="navbarEnd" class="navbar-end">
+              <nuxt-link :key="item" :to="localePath(item)" class="nav-item text-hover-transition" :class="{active: routeName === item}" v-for="item in navs">
                 {{$t(`nav.${item}`)}}
               </nuxt-link>
-
+              <a :href="urls.medium" target="_blank" class="nav-item text-hover-transition">{{$t('nav.press')}}</a>
+              <div class="line is-hidden-desktop"></div>
               <div class="nav-item">
                 <lang-select></lang-select>
               </div>
             </div>
           </div>
         </div>
-      </scrollactive>
+      </div>
+    <div class="nuxt-content">
+      <nuxt :keep-alive="true"></nuxt>
     </div>
-    <nuxt></nuxt>
+    <v-footer></v-footer>
   </div>
 </template>
 
@@ -53,27 +40,96 @@
   import LangSelect from '~/components/LangSelect.vue'
   import Logo from '~/components/Logo.vue'
   import LogoWithoutWords from '~/components/LogoWithoutWords.vue'
+  import Footer from '~/components/Footer.vue'
+  import config from '~/config'
 
   export default {
     components: {
       LangSelect,
       Logo,
-      LogoWithoutWords
+      LogoWithoutWords,
+      VFooter: Footer
+    },
+    head () {
+      let {routeName} = this
+      let title = this.$t(`nav.${routeName}`) + ' - ' + this.$t('head.title')
+
+      let description = this.$t(`head.description.${routeName}`)
+      let iconUrl = 'https://vite.org/icon.png'
+      let structuredData = [
+        {
+          '@context': 'http://schema.org',
+          '@type': 'Organization',
+          'url': 'https://vite.org',
+          'name': 'Vite labs.',
+          'description': description,
+          'image': iconUrl,
+          'brand': {
+            '@type': 'Brand',
+            'name': 'VITE',
+            'logo': iconUrl
+          },
+          'sameAs': [
+            config.urls.twitter
+          ]
+        }
+      ]
+      return {
+        title,
+        htmlAttrs: {
+          lang: this.$i18n.locale
+        },
+        meta: [
+          { hid: 'description', name: 'description', content: description },
+          {name: 'google-site-verification', content: 'MyUvG14lvMm-nYCWoXYE9NT21vRda-kIT6xMETrGqZk'},
+          // Open Grapg
+          { name: 'og:title', content: title, hid: 'og:title' },
+          { name: 'og:description', content: description, hid: 'og:description' },
+          { name: 'og:type', content: 'website', hid: 'og:type' },
+          { name: 'og:url', content: 'https://vite.org', hid: 'og:url' },
+          { name: 'og:image', content: 'https://www.vite.org/logo_appstore.png' },
+
+          // Twitter Card
+          { name: 'twitter:card', content: 'summary', hid: 'twitter:card' },
+          { name: 'twitter:site', content: '@vitelabs', hid: 'twitter:site' },
+          { name: 'twitter:title', content: title, hid: 'twitter:title' },
+          { name: 'twitter:description', content: description, hid: 'twitter:description' },
+          { name: 'twitter:image:alt', content: 'Vite Logo', hid: 'twitter:image:alt' },
+          { name: 'twitter:image', content: 'https://www.vite.org/logo_appstore.png' }
+        ],
+        __dangerouslyDisableSanitizers: ['script'],
+        script: structuredData.map(item => {
+          return {
+            innerHTML: JSON.stringify(item),
+            type: 'application/ld+json'
+          }
+        })
+      }
     },
     data: function () {
       return {
         navbarActive: false,
-        navs: ['feature', 'roadmap', 'team'],
-        otherNavs: []
+        navs: ['index', 'faq'],
+        collapsing: false,
+        urls: config.urls
       }
     },
     computed: {
-      isIndexPage () {
-        return this.$route.name === `index-${this.$i18n.locale}`
-      },
       routeName () {
         if (!this.$route || !this.$route.name) return ''
         return this.$route.name.split('-')[0]
+      },
+      navbarEndStyle () {
+        if (this.navbarActive) {
+          return {
+            height: this.$refs.navbarEnd.clientHeight + 'px',
+            overflowY: this.collapsing ? 'hidden' : 'visible'
+          }
+        } else {
+          return {
+            height: 0
+          }
+        }
       }
     },
     methods: {
@@ -85,6 +141,13 @@
       },
       onLogoClick () {
         this.navbarActive = false
+      },
+      onBurgerClick () {
+        this.collapsing = true
+        this.navbarActive = !this.navbarActive
+        setTimeout(() => {
+          this.collapsing = false
+        }, 500)
       }
     }
   }
@@ -93,199 +156,136 @@
 <style rel="stylesheet/scss" lang="scss" scoped>
   @import "assets/vars.scss";
 
-  $nav-item-size: 1rem;
-  $nav-height: (130rem/16);
-  $nav-height-small: (52rem/16);
-  $font-family-bold: HelveticaNeue-Bold,HelveticaNeue;
-
-  .nuxt-link-exact-active {
-    color: rgba(255,255,255,1);
-    background: rgba(255,255,255, 0.05);
+  .nuxt-content {
+    margin-top: 72px;
   }
 
-  #home-nav {
-    position: fixed;
-    right: 0;
-    left: 0;
-    top: 0;
-    z-index: 2343;
-    transition: transform 0.4s ease;
-    width: 100vw;
-    .navbar {
-      height: $nav-height;
-      @include touch {
-        height: $nav-height-small;
-      }
+  .navbar {
+    border-bottom: 1px solid transparent;
+    z-index: 222222;
+    &.headroom--not-top {
+      border-bottom: 1px solid rgba(0,0,0,0.05);
     }
-
-    .navbar-burger {
-      color: white;
-    }
-
     .navbar-brand {
+      height: $navbar-height;
       .nav-item {
         height: 100%;
-      }
-    }
-
-    &.is-faq-page, &.is-technology-page {
-      &.headroom.headroom--pinned.headroom--not-top {
-        background: none;
-        & > nav.navbar {
-          background-color: rgba(0, 0, 0, 0.5);
-        }
-      }
-      background: $background-image;
-    }
-
-    &.is-careers-page {
-      background: transparent;
-    }
-
-    &.headroom--top {
-      height: $nav-height;
-      .navbar {
-        height: $nav-height;
-      }
-      @include touch {
-        height: $nav-height-small;
-        .navbar {
-          height: $nav-height-small;
-        }
-      }
-
-      .navbar-brand {
-        .navbar-item {
+        &.nav-item-logo {
           .logo {
-            height: $nav-height-small;
-          }
-        }
-      }
-    }
-    &.headroom--not-top {
-      .navbar .navbar-brand {
-        .navbar-item {
-          .logo {
-            height: 3.25rem - 1rem;
-          }
-        }
-      }
-      .home-navbar {
-        .nav-item {
-          font-size: 1rem;
-        }
-      }
-    }
-
-    &.headroom--top {
-      .navbar {
-        background: transparent;
-      }
-    }
-
-    &.headroom--not-top{
-      height: $nav-height-small;
-      .navbar {
-        height: $nav-height-small;
-      }
-      &.headroom--pinned, &:not(.headroom--unpinned):not(.headroom--pinned){
-        .navbar {
-          background-color: rgba(0,0,0,0.5);
-        }
-      }
-      &.headroom--unpinned {
-        .navbar {
-          background: transparent;
-        }
-      }
-    }
-
-    .navbar {
-      background-color: transparent;
-      font-size: $nav-item-size;
-      & > .container {
-        &.is-open {
-          background: $background-image;
-          .navbar-menu {
-            background: $background-image;
-          }
-          .nav-item {
-            color: rgba(255,255,255,0.7);
-          }
-        }
-      }
-
-      .navbar-brand {
-        .navbar-item {
-          &.is-active {
-            background: transparent;
-          }
-          .logo {
-            height: 3.25rem - 1rem;
-            width: auto;
-            color: rgba(255,255,255,1);
-            transition: color 0.5s;
-            &:hover {
-              color: $light-blue;
-            }
-
-            @include desktop {
-              height: $nav-height-small;
+            height: 41px;
+            color: #333333;
+            @include touch {
+              height: 22px;
             }
           }
           &:hover {
-            background: transparent;
+            .logo {
+              color: #1580E3;
+            }
+          }
+        }
+      }
+    }
+    .nav-item {
+      padding: 0.5rem 18px;
+      color: #999999;
+      font-family: $font-family-main;
+      &:hover {
+        color: #333333;
+      }
+      &.active {
+        color: #333333;
+      }
+    }
+    .navbar-menu {
+      @include desktop {
+        height: auto !important;
+      }
+    }
+  }
+
+  @include touch {
+    .nuxt-content {
+      margin-top: 41px;
+    }
+    .navbar {
+      min-height: 40px;
+      height: auto;
+      .navbar-brand {
+        min-height: 40px;
+        height: 40px;
+        .logo {
+          height: 22px;
+          transition: transform 0.4s ease-in-out;
+        }
+        .navbar-burger {
+          height: 40px;
+          width: 49px;
+          span {
+            width: 19px;
+            right: 50%;
+            left: auto;
+            margin-right: -10px;
+            transition: all 0.3s ease-in-out;
+            &:nth-child(2) {
+              width: 15px;
+            }
+          }
+        }
+      }
+
+      .is-open {
+        .navbar-brand {
+          .logo {
+            /*transform: translateX(16px);*/
+            transform: rotate(30deg);
+          }
+          .navbar-burger {
+            span {
+              &:nth-child(2) {
+                width: 19px;
+              }
+              &:nth-child(1), &:nth-child(3) {
+                width: 9px;
+                margin-right: -5px;
+              }
+            }
           }
         }
       }
 
       .nav-item {
-        font-size: $nav-item-size;
-        padding-left: 2rem;
-        padding-right: 2rem;
-        color: rgba(255,255,255,0.8);
-        &:last-child {
-          &:hover {
-            background: transparent;
-          }
-        }
-        &:hover {
-          color: rgba(255,255,255,1);
-          background: rgba(255,255,255, 0.05);
-        }
+        padding: 11px 16px;
+        font-size: 14px;
+      }
 
-        &.is-active {
-          color: white;
-          background: rgba(255,255,255, 0.05);
+      .navbar-menu {
+        padding: 0 32px;
+        transition: all 0.5s ease-in-out;
+        &:not(.is-active) {
+          height: 0;
+          overflow-y: hidden;
+          display: block;
         }
-
-        &.lang-btn {
-          .dropdown-trigger {
-            height: 40px;
-            button {
-              height: 40px;
-            }
-          }
+        .navbar-end {
+          padding: 0.5rem 0;
+        }
+        .nav-item {
+          height: 48px;
+          padding-left: 0;
+        }
+        .line {
+          height: 1px;
+          margin: 0.5rem 0;
+          background: rgba(0,0,0,0.05);
+          padding: 0;
         }
       }
-    }
-  }
 
-  .headroom.headroom--pinned {
-    transform: translateY(0);
-    &.headroom--top {
-      transform: none;
-      background-color: transparent;
+      & > .container {
+        min-height: 40px;
+        height: auto;
+      }
     }
-  }
-  .headroom.headroom--unpinned {
-    transform: translateY(-100%);
-  }
-  .headroom.headroom--unpinned > nav.navbar,
-  .headroom.headroom--top > nav.navbar {
-    background-color: transparent;
-  }
-  .headroom.headroom--pinned.headroom--not-top>nav.navbar {
-    background: $background-image;
   }
 </style>

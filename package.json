@@ -5,7 +5,8 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "p": "npm run build && npm run generate"
+    "p": "npm run build && npm run generate",
+    "monitor": "nuxt build --webpackmonitor"
   },
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.4",
@@ -15,19 +16,18 @@
     "@nuxtjs/axios": "^5.1.1",
     "@nuxtjs/google-analytics": "^2.0.2",
     "@nuxtjs/pwa": "^2.0.5",
+    "@nuxtjs/sitemap": "^0.1.1",
     "@nuxtjs/webpackmonitor": "^0.1.0",
+    "animate-canvas-line": "^1.1.0",
     "babel-polyfill": "^6.26.0",
-    "bezier-easing": "^2.0.3",
-    "chart.js": "^2.7.2",
-    "chartjs-plugin-piechart-outlabels": "^0.1.4",
-    "markdown-it-mathjax": "^2.0.0",
+    "headroom.js": "^0.9.4",
+    "ismobilejs": "^0.4.1",
     "nuxt": "^1.4.0",
-    "nuxt-i18n": "^2.9.1",
-    "particles.js": "^2.0.0",
-    "prismjs": "^1.11.0",
-    "twemoji": "^2.5.1",
+    "nuxt-i18n": "2.9.5",
+    "scrollmonitor": "^1.2.4",
+    "three": "^0.92.0",
+    "v-tooltip": "^2.0.0-rc.32",
     "vue-i18n": "^7.6.0",
-    "vue-scrollactive": "^0.6.1",
     "xui-module": "^0.1.5"
   },
   "devDependencies": {
@@ -40,9 +40,6 @@
     "eslint-plugin-node": "^6.0.1",
     "eslint-plugin-promise": "^3.6.0",
     "eslint-plugin-standard": "^3.0.1",
-    "markdown-it-emoji": "^1.4.0",
-    "markdown-it-headinganchor": "^1.3.0",
-    "markdown-it-link-attributes": "^2.0.0",
     "node-sass": "^4.7.2",
     "sass-loader": "^6.0.7"
   }

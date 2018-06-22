@@ -3,3 +3,19 @@
 @import "~bulma/sass/utilities/functions";
 
 @import "~bulma";
+
+
+.container {
+  @include desktop {
+    max-width: 900px;
+    width: 900px;
+  }
+  @include widescreen {
+    max-width: 1000px;
+    width: 1000px;
+  }
+  @include fullhd {
+    max-width: 1200px;
+    width: 1200px;
+  }
+}

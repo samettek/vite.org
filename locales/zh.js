@@ -1,68 +1,66 @@
 module.exports = {
-  'lang': '中文',
-  'head': {
-    'title': 'Vite - 新一代高性能去中心化应用平台',
-    'document': '文档',
-    'homeDesc': 'Vite - 新一代高性能去中心化应用平台'
-  },
-  'nav': {
-    'feature': '特性',
-    'technology': '核心技术',
-    'roadmap': '路线图',
-    'team': '团队',
-    'faq': '问题答疑',
-    'careers': '加入我们'
-  },
-  'home': {
-    'header': 'Vite',
-    'contract': '新一代高性能去中心化应用平台',
-    'whitePaper': '白皮书'
-  },
-  'features': {
-    'fast': {
-      'title': '低延迟',
-      'description': '出账和入账交易分离，连续转账不需要等待确认；采用HDPoS共识算法，交易确认延迟不超过1秒。'
-    },
-    'throughput': {
-      'title': '高吞吐',
-      'description': '合约间通信采用消息驱动架构(EDA)；基于DAG的账本结构；交易的写入和验证异步解耦。全新的架构设计可以支撑超高的吞吐。'
-    },
-    'scalability': {
-      'title': '可扩展',
-      'description': '交易按账户维度分组，并划分为请求交易和响应交易，每个交易只改变单个账户状态；共识算法的分层设计提供按共识组维度的水平扩展性。'
-    },
-    'usability': {
-      'title': '易用性',
-      'description': '功能更强大的solidity++智能合约语言；支持合约定时调度、VNS命名服务、合约升级等功能；Vite客户端集成基于HTML5的去中心化小程序引擎，降低dApp开发部署门槛。'
-    },
-    'value': {
-      'title': '价值闭环',
-      'description': '支持数字资产发行、跨链价值传输，以及基于路印协议的代币间交易。Vite本身也是一个去中心化交易所。'
-    },
-    'economy': {
-      'title': '经济性',
-      'description': '基于配额的资源配置，轻量级用户不需要支付手续费或燃料费；用户可以选择多种方式获取计算资源；支持配额租赁。'
+  lang: '中文',
+  head: {
+    title: 'Vite - 新一代高性能去中心化应用平台',
+    document: '文档',
+    description: {
+      index: 'Vite - 新一代高性能去中心化应用平台',
+      careers: '欢迎加入Vitelabs，Do something cool',
+      faq: '有关Vite的所有问题答疑',
+      technology: 'Vite核心技术：DAG、Snapchat Chain、异步架构、响应式合约、配额租赁、集成路印协议、定时调度、合约升级、solidity++'
     }
   },
-  'tech': {
-    'title': '核心技术',
-    'blockLattice': {
-      'title': 'Block Lattice',
-      'description': [
-        'Vite账本结构不是基于Block Chain的，其主体是一个由伴生的Request Block和Response Block构成的树型结构。',
-        '每一个账户一条链，每个交易会生成一个Request Block和一个Response Block，每个账户上的块只能由该账户持有者才能添加。'
-      ]
+  nav: {
+    index: '首页',
+    technology: '核心技术',
+    team: '团队',
+    faq: '问题答疑',
+    careers: '加入我们',
+    press: '新闻'
+  },
+  home: {
+    header: 'Vite',
+    slogan: '新一代高性能去中心化应用平台',
+    whitePaper: '白皮书'
+  },
+  feature: {
+    performance: {
+      title: '极致高性能',
+      dag: {
+        title: 'DAG账本',
+        content: 'Vite 采用 DAG 账本结构，交易按账户维度分组，每个交易只改变单个账户状态。出账和入账交易分离，连续转账不需要等待确认。共识算法的分层设计提供按共识组维度的水平扩展性'
+      },
+      async: {
+        title: '异步架构',
+        content: '交易拆分成基于“请求-响应”模式的交易对，交易的写入和验证异步解耦，可以支撑超高的吞吐。合约间通信基于消息的异步模型'
+      }
     },
-    'snapshotChain': {
-      'title': 'Snapshot Chain',
-      'description': [
-        '合约账户的Response Block和普通账户的Response Block写入不一样，合约账户没有私钥，所以任何人都可以写入，为了防止意外频繁的分叉。我们往引入一条主链，我们称为：Snapshot Chain。'
-      ]
+    reactiveContract: {
+      title: '响应式合约',
+      messageDriven: {
+        title: '消息驱动',
+        content: '采用事件驱动的架构，每个智能合约被看作是一个独立的服务，合约之间可以通过消息通信，但不共享任何状态'
+      },
+      solidity: {
+        title: 'Solidity++',
+        content: '兼容solidity大部分语法，支持异步语义，支持合约的定时调度，并提供一系列标准库：字符串处理、浮点运算、基本数学运算、容器、排序等'
+      }
+    },
+    ecosystem: {
+      title: '生态闭环',
+      value: {
+        title: '价值闭环',
+        content: '支持数字资产发行、跨链价值传输，以及基于路印协议的代币间交易，Vite本身也是一个去中心化交易所；基于配额的资源配置，轻量级用户不需要支付手续费或燃料费。用户可以选择多种方式获取计算资源；支持配额租赁'
+      },
+      dapp: {
+        title: 'dApp小程序',
+        content: 'Vite客户端集成基于HTML5的去中心化小程序引擎，降低dApp开发部署门槛'
+      }
     }
   },
-  'roadmap': {
-    'title': '路线图',
-    'timelines': [
+  roadmap: {
+    title: '路线图',
+    timelines: [
       {
         'time': '2018 二月',
         'description': '项目启动'
@@ -100,7 +98,13 @@ module.exports = {
         'description': 'Vite 移动客户端内测版'
       },
       {
-        'time': '2019 四月',
+        time: '2019 四月',
+        description: [
+          'Vite Core beta M2：智能合约、Solidity++编译器、智能合约开发文档'
+        ]
+      },
+      {
+        'time': '2019 五月',
         'description': [
           'Vite Core beta M3：配额租赁、定时调度、命名服务',
           'Vite 移动客户端支持dApplet小程序功能'
@@ -128,13 +132,53 @@ module.exports = {
       },
       {
         'time': '2020 二月',
-        'description': 'Vite 生态建设'
+        'description': 'Vite 启动生态发展计划'
       }
     ]
   },
+  tech: {
+    title: '核心技术',
+    dag: {
+      title: 'Block Lattice',
+      description: [
+        'Vite采用一种称为block-lattice的DAG账本结构，每个账户对应一条链，每个交易引用本账户前一个交易的哈希；交易分为“请求交易”和“响应交易”两种，一个响应交易需要引用对应的请求交易的哈希。这样就构成了一种栅格状的DAG结构。',
+        '这种账本结构允许互不相干的交易“并行”写入，降低冲突概率，提高系统吞吐能力。'
+      ]
+    },
+    snapshotChain: {
+      title: 'Snapshot Chain',
+      description: [
+        'Block-lattice有先天的安全缺陷，一些交易被回滚的概率不会随时间推移而降低。为此，Vite 提出独创的快照链技术。',
+        '一个快照块存储一个 Vite 账本的状态快照，状态包括：账户的余额、合约状态 的 Merkle root，每个账户链中最后一个块的 hash。快照链是由快照块组成的链式结构，后一个快照块引用前一个快照块的hash。',
+        '攻击者想生成一个双花交易，除了要 重建 Vite 账本中的 hash 引用之外，还需要重建快照链 中，首次快照该交易的快照块之后的所有区块，并且需要 产生一条更长的快照链。'
+      ]
+    },
+    async: {
+      title: '异步架构',
+      description: [
+        'Vite 最主要的创新是整个体统的异步设计。',
+        '第一：异步请求模型：交易分为请求交易和响应交易。无论是一笔转账还是一次合约调用，均会在账本上先后生成两笔交易。',
+        '第二：异步确认模型：交易写入账本和被系统确认是异步的。不同的用户可以并行的将交易写入账本，快照链将以固定的速度对账本进行快照。'
+      ]
+    },
+    reactiveContract: {
+      title: '响应式合约',
+      description: [
+        'Vite的合约间通信采用了一种基于消息驱动的架构，合约间不共享状态，只通过彼此发送消息进行通信。',
+        '一个合约调用另一个合约，需要先发送一个请求交易，运行目标合约的节点观测到这条请求交易后，向账本中写入一个对应的响应交易，并更新合约的状态。'
+      ]
+    },
+    ecosystem: {
+      title: '生态闭环',
+      description: [
+        'Vite 将内置Loopring协议，实现多种代币之间的互换，用户可以使用 vite 来支付资产互换交易费，路印矿工在 Vite 平台上进行环路撮合，赚取的代币也是 Vite。',
+        'Vite还提出了VCTP跨链协议，可以实现跨链资产传输。Vite团队将会负责与以太坊的跨链实现，其他目标链的跨链实现将会与项目团队以及社区共同推进。',
+        'Vite 支持更加灵活的资源配置，Vite系统的资源分配是基于用户持有的VITE代币、一次性支付的费用以及交易PoW难度综合计算。'
+      ]
+    }
+  },
   'team': {
-    'title': '核心团队',
-    'subTitle': '',
+    'core': '核心团队',
     'advisor': '顾问团队',
     'nameMap': {
       'liuchunming': {
@@ -148,24 +192,29 @@ module.exports = {
         'description': '资深区块链创业者。毕业于中国科技大学，亚利桑那州立大学。路印协议创始人，前Google美国Tech Lead，云云网联合创始人兼副总裁，京东高级研发总监，币丰港联合创始人。'
       },
       'wuming': {
-        'name': '武鸣',
+        'name': '伍鸣',
         'position': '',
-        'description': '资深科学家。毕业于中国科技大学，中科院计算所。微软亚洲研究院Senior Research Manager，在分布式系统和AI领域发表过十余篇论文。'
-      },
-      'chenxiaoliang': {
-        'name': '陈晓亮',
-        'position': '',
-        'description': '资深金融产品运营专家，路印协议COO。曾任三诺集团CIO。'
-      },
-      'machao': {
-        'name': '马超',
-        'position': '',
-        'description': '资深区块链专家，路印协议首席研究员。曾任Google高级研发工程师，币丰港联合创始人。\n'
+        'description': '资深科学家。毕业于中国科技大学，中科院计算所。微软亚洲研究院Senior Research Manager，在分布式系统和AI领域发表过十余篇论文，多次在系统领域顶级会议中担任程序委员会委员。'
       },
       'terenceLam': {
         'name': 'Terence Lam',
         'position': '',
         'description': '毕业于哈佛商学院。智子区块链基金合伙人。香港大学SPACE中国商业学院客座讲师。20年以上全球500强公司技术高管经验。曾创办过多家科技公司。'
+      },
+      'richard': {
+        name: 'Richard',
+        position: '',
+        description: '资深金融专家，多年华尔街工作经验。毕业于美国达特茅斯学院和纽约大学MBA。曾任职纽约高盛结构性资产交易策略副总裁，Two Sigma高频交易及商务创新拓展副总裁。'
+      },
+      frank: {
+        name: '邓远辉',
+        position: '',
+        description: '数字营销及移动营销专家。毕业于清华大学。曾任职Google广告运营组，随踪科技COO，云克科技联合创始人。'
+      },
+      zhangli: {
+        name: '张力',
+        position: '',
+        description: '资深区块链从业者，投资人。连接资本合伙人，前鱼池F2pool CMO，前火币商务负责人。'
       }
     }
   },
@@ -173,15 +222,18 @@ module.exports = {
     'title': '问题答疑',
     'questions': [
       {
-        'question': '什么是Vite？',
+        'question': '什么是 Vite？',
         'answer': [
           'Vite 是一个通用的去中心化应用平台，在兼顾安全性的同时，满足了工业级应用对高吞吐、低延迟和扩展性的要求。',
           'Vite 致力于解决基础链目前的性能和扩展性问题，以便在基础链上能搭建出真正实用且高频的应用。'
         ]
       },
       {
-        'question': 'Vite和Loopring是什么关系？',
-        'answer': '双方属于是合作关系，Loopring的创始人王东将作为Vite的联合创始人，Loopring协议将内置到Vite系统中，Vite上线后可在钱包中使用Loopring的去中心化交易所功能。'
+        'question': 'Vite 和 Loopring 是什么关系？',
+        'answer': [
+          '双方属于战略合作关系，路印是我们的战略投资人，Loopring的创始人王东将作为Vite的顾问。',
+          'Vite将内置路印协议，Vite上线后可在钱包中使用Loopring的去中心化交易所功能。路印将作为Vite平台上的第一个应用。'
+        ]
       },
       {
         question: 'Vite 会有空投么？会以什么方式？',
@@ -190,10 +242,25 @@ module.exports = {
         ]
       },
       {
-        'question': 'Vite里的快照链是整个系统安全的核心，如何保证快照链的安全？',
-        'answer': [
-          '快照链采用DPOS共识机制，在一定程度上为了性能牺牲了安全性。如何维护系统安全，需要在共识节点的投票、社区治理上下功夫。',
-          'TODO'
+        question: 'Vite 会上哪个交易所？',
+        answer: [
+          '我们在和交易所接触，但还没有具体的时间表。我们主要是一个技术驱动的项目，周期也会比较长，运营方面我们不会特别激进。'
+        ]
+      },
+      {
+        question: 'Vite 微信官方公众号是哪个？',
+        answer: [
+          '我们的官方公众号为: vitelabs'
+        ],
+        key: 'wechat'
+      },
+      {
+        question: 'Vite 公链和其它公链相比，最大的创新在哪里？',
+        answer: [
+          'Vite 最大的创新点是引入了异步的设置：',
+          '第一，我们把智能合约的调用做了异步的拆分。Nano（DAG三驾马车之一）把一笔转账分为出账和入账两个动作。我们借鉴了Nano，把它扩展到转账及智能合约的调用上，把一笔转账交易拆分为出账和入账，把一个合约调用交易拆分为合约的请求交易和合约的响应交易两部分。',
+          '第二个是写入和确认的一个异步的设计。在Vite中，一个交易被写入账本和一个交易被确认是异步的。传统的区块链（如比特币），交易写入账本的速度会受到打包速度的制约。而在Vite中，用户可以在TPS限额之内写入很多交易到账本，但交易是以匀速异步确认的，这样可以削平波峰波谷，最大化地利用系统的资源，提高整个系统的吞吐量。同时，两个账户之间的交易不会彼此堵塞，不会出现因为某一个账户发送了大量交易，使其他账户的交易长期得不到确认。',
+          '第三个是合约间调用的异步设计。以太坊里的合约间调用是通过消息调用，或者叫内部交易的方式来完成的，这组调用要么同时完成，要么全部失败，这是一个原子性的ACID语义，会成为性能瓶颈。我们借鉴了一些中心化互联网技术中比较成熟的方案，采用了消息驱动的架构，合约之间不共享任何状态，只通过彼此发送消息来进行通信。'
         ]
       },
       {
@@ -201,29 +268,95 @@ module.exports = {
         answer: '不能兼容。需要改动同步的代码为异步代码，才能兼容。'
       },
       {
-        question: 'Vite的Solidity++和以太的Solidity有什么区别？',
+        question: 'Vite 的 Solidity++ 和以太的 Solidity 有什么区别？',
         answer: [
           '就像c和c++一样，solidity++的名字就是源自于此。在基本语法上，Solidity++和Solidity兼容，最大差异是消息调用的语义不同，以太代码里，是一个同步调用，在Solidity++里是异步调用。',
           '另外，在Solidity++中，将提供一系列标准库，例如:字符串处理、浮点运算、基本数学运算、容器、排序等。'
         ]
       },
       {
-        question: '区块裁剪如何实现？',
-        answer: []
+        question: '基于消息的架构具有高吞吐和扩展性的优势。但与此相应，付出的代价是编程模型变得相对复杂，无法保证强一致性，而且有可能使延迟变大，Vite是如何降低编程复杂度和延迟？',
+        answer: [
+          'Vite将提供Solidity++合约语言以及完善的SDK，降低异步编程的成本。',
+          '经过认真的研究，我们发现在实际场景中，强一致性语义是可以用BASE语义替代的。由于Vite的HDPoS共识算法可以保障交易确认在1秒之内完成，因此，延迟的增加仍然在可控范围之内。'
+        ]
+      },
+      {
+        question: 'Snapchat Chain存在的意义是什么？',
+        answer: [
+          'Vite 采用栅格化（Block-Lattice）账本结构，每个账户对应一条链，每个交易引用本账户前一个交易的哈希；交易分为“请求交易”和“响应交易”两种，一个响应交易需要引用对应的请求交易的哈希。',
+          '这种DAG结构有先天的安全性缺陷。这是由于交易是按账户分组的，一个交易只会附加到其所属账户的账户链末端，其他账户产生的交易不会自动成为该交易的后继节点，因此，一些交易被回滚的概率不会随时间推移而降低。Vite通过独创的快照链技术，弥补了这一缺陷。'
+        ]
+      },
+      {
+        question: '跨链协议，只支持资产互换吗？',
+        answer: '是的，跨链只支持价值传输，Vite主要目标并不是解决跨链问题。'
+      },
+      {
+        question: '白皮书有提到，开发工具和以太的相似，还拓展了一些特性。那是否意味着以太坊的dapp，稍作修改就能在vite上运行？',
+        answer: [
+          '是的，Vite的设计目标是尽量降低以太坊生态dApp的迁移成本，所以会尽量兼容EVM。'
+        ]
+      },
+      {
+        question: 'Vite智能合约支持在移动端运行吗？ 会像qtum那样 支持c++ java这种主流语言吗?',
+        answer: [
+          '不支持移动端。目前不支持其他语言。未来我们会成立一个VM Lab，在合约语言和虚拟机方面开展持续研究，欢迎社区推荐在该领域有经验的技术专家加入我们。',
+          '我们的招聘邮箱是：hr@vite.org。'
+        ]
+      },
+      {
+        question: '以太坊智能合约现在的编程语言是solidity，它的好处之一是对于初学者简单易上手，但与此同时也给黑客留下了许多攻击的可能性，使智能合约变得脆弱。针对这个问题，vite有什么解决方案吗？',
+        answer: '我们将通过合约形式化验证技术解决这个问题。'
+      },
+      {
+        question: '管理层对近期诸多公链主网上线和未来竞争格局是如何看待的？',
+        answer: [
+          '目前共链技术还处于发展早期，距离真正成熟还有很长一段路。从技术视角看，各个项目均处于同一起跑线。我们将抱着开放的态度，与其他项目团队共同推动公链技术的发展。',
+          '未来在技术成熟之后，公链的竞争将围绕生态展开。Vite也会提前做好全产业链生态布局，为推动区块链技术落地应用贡献自己的力量。'
+        ]
+      },
+      {
+        question: '代币通胀（锻造奖励）和消耗是在10亿枚总量不变的前提下动态平衡？',
+        answer: '10亿是初始发行量，锻造奖励是以增发的形式产生。随着系统被广泛使用，代币也会被不断销毁。我们希望代币的流通可以达到一个动态平衡，详细的参数在白皮书中并没有给出，我们后续会建立更为精确的数学模型，计算相关参数，并通过黄皮书的形式对Vite协议进行补充。'
+      },
+      {
+        question: 'Vite白皮书中提到路印协议内置到Vite中，有利于促进Vite数字资产的流通，从而使整个价值体系形成闭环，在这个价值体系中，用户可以发行自己的货币，那么请问发行的资产是类似于ERC 20代币吗？以太已经做到了，Vite现在还在做的话有什么优势呢？',
+        answer: [
+          'Vite的资产发行类似于以太的ERC20，但本质有所不同。ERC20是一个规范，而不是以太坊协议的一部分。在以太坊中发行新代币，需要用户开发和部署一个智能合约，代币的余额维护在该合约的状态中。一旦合约开发有所疏漏，就会产生安全风险。例如用户忘记引用SaftMath库，就可能产生溢出漏洞。而Vite的代币发行是内置在Vite协议中的，代币余额维护在用户账户的状态中，新代币和Vite原生代币共享转账底层协议，具有和Vite原生代币同样的安全性。用户在Vite中发行新代币，只需要发起一个交易，将新代币参数放在交易的data字段中，不需要写合约代码，这样也就不容易产生安全漏洞。'
+        ]
+      },
+      {
+        question: 'Vite能挖矿吗？',
+        answer: 'Vite的共识机制类似EOS，通过选举产生25个快照节点，通过DPoS算法生产快照块，并领取锻造奖励。'
       }
     ]
   },
-  'urls': {
-    'whitePaper': '白皮书',
-    'document': '文档',
-    'telegram': 'Telegram 中文群',
-    'loopring': '路印协议',
-    'faq': '问题答疑',
-    'medium': '博客'
+  investor: {
+    title: '投资机构'
+  },
+  urls: {
+    telegram: {
+      ann: '公告群',
+      english: '英文群',
+      chinese: '中文群',
+      vietnamese: '越南群',
+      korean: '韩国群',
+      russia: '俄罗斯群'
+    },
+    whitePaper: '白皮书',
+    document: '文档',
+    loopring: '路印协议',
+    faq: '问题答疑',
+    medium: '博客',
+    introduction: '简介',
+    tokenUrl: 'ERC20 地址',
+    btt: 'Bitcointalk'
   },
   urlSrc: {
     telegram: 'https://t.me/vite_zh',
-    whitePaper: '/whitepaper/zh.pdf'
+    whitePaper: '/whitepaper/vite_cn.pdf',
+    introduction: 'https://doc.vite.org/zh/introduction/'
   },
   'utils': {
     readMore: '阅读更多'
@@ -234,28 +367,10 @@ module.exports = {
     desc: '职位描述',
     require: '职位要求',
     special: '有以下经验者优先',
-    contact: '简历提交：',
+    contact: '简历提交',
     jd: {
-      java: {
-        title: 'Java 高级开发工程师',
-        desc: [
-          '负责Vite Core开发和维护',
-          '负责相关SDK的开发'
-        ],
-        require: [
-          '熟悉Java及面向对象设计开发，对部分Java技术有深入研究，熟悉JDK源码；',
-          '熟悉常见设计模式，精通Spring，MyBatis等流行开源框架，并深入了解其工作原理；',
-          '深入了解过MySQL，熟悉数据库原理及常用性能优化技术，熟悉 NoSQL的原理、使用场景及限制；',
-          '研究过http协议、搜索引擎、缓存、jvm 调优、序列化、nio、RPC 调用框架等；',
-          '熟悉高性能、高并发系统设计方案，如分布式缓存、ElasticSearch、消息队列等；'
-        ],
-        special: [
-          '参与并主导过虚拟货币相关开发',
-          '对虚拟货币研究颇深'
-        ]
-      },
       pm: {
-        title: '（高级）产品经理',
+        title: '高级产品经理',
         desc: [
           '从事区块链技术在业务领域的应用产品设计；',
           '设计去中心化业务生态模型和用户成长体系；',
@@ -274,7 +389,7 @@ module.exports = {
         ]
       },
       fe: {
-        title: '（高级）web前端开发工程师',
+        title: '高级web前端开发工程师',
         desc: [
           '负责Vite钱包项目开发',
           '负责编写Vite前端相关SDK',
@@ -296,7 +411,7 @@ module.exports = {
         ]
       },
       ios: {
-        title: '（高级）iOS开发工程师',
+        title: '高级iOS开发工程师',
         desc: [
           '负责Vite前端iOS客户端设计与开发 ',
           '参与Vite dApplet小程序平台iOS部分开发'
@@ -315,7 +430,7 @@ module.exports = {
         ]
       },
       android: {
-        title: '（高级）Android 开发工程师',
+        title: '高级Android 开发工程师',
         desc: [
           '负责Vite前端 Android 客户端设计与开发 ',
           '参与Vite dApplet小程序平台 Android 部分开发'
@@ -335,7 +450,7 @@ module.exports = {
         ]
       },
       go: {
-        title: '（高级）Golang 开发工程师',
+        title: '高级Golang 开发工程师',
         desc: [
           '负责Vite Core Golang版本开发和维护',
           '负责相关SDK的开发'
@@ -352,5 +467,15 @@ module.exports = {
         ]
       }
     }
+  },
+  footer: {
+    learning: '学习',
+    about: '关于',
+    media: '媒体'
+  },
+  joinMailing: {
+    title: '欢迎订阅Vite最新信息',
+    button: '订阅',
+    placeholder: '请输入邮箱地址'
   }
 }

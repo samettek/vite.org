@@ -32,24 +32,30 @@
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>
+  @import "~assets/vars";
+
   .lang-btn {
     .dropdown-trigger {
       button {
-        color: rgba(255,255,255,0.8);
+        color: #999999;
         background: transparent;
         padding: 0 1rem 0 0;
         border-radius: 0.35rem;
         height: (40rem/16);
         border: transparent;
+        font-family: $font-family-main;
+        @include touch {
+          font-size: 14px;
+        }
         &:focus {
           border: none;
           box-shadow: none;
         }
         &:hover {
-          color: rgba(255,255,255,1);
+          color: #333333;
         }
         &::after {
-          border: 2px solid rgba(255,255,255,0.8);
+          border: 2px solid #999999;
           margin-top: -.375em;
           right: -0.2rem;
           border-radius: 2px;
