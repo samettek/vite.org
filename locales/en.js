@@ -15,7 +15,8 @@ module.exports = {
     technology: 'Technologies',
     team: 'Team',
     faq: 'FAQs',
-    careers: 'Careers'
+    careers: 'Careers',
+    press: 'Press'
   },
   home: {
     header: 'Vite',

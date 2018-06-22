@@ -20,6 +20,7 @@
               <nuxt-link :key="item" :to="localePath(item)" class="nav-item text-hover-transition" :class="{active: routeName === item}" v-for="item in navs">
                 {{$t(`nav.${item}`)}}
               </nuxt-link>
+              <a :href="urls.medium" target="_blank" class="nav-item text-hover-transition">{{$t('nav.press')}}</a>
               <div class="line is-hidden-desktop"></div>
               <div class="nav-item">
                 <lang-select></lang-select>
@@ -109,7 +110,8 @@
       return {
         navbarActive: false,
         navs: ['index', 'faq'],
-        collapsing: false
+        collapsing: false,
+        urls: config.urls
       }
     },
     computed: {

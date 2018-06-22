@@ -63,7 +63,8 @@
     display: flex;
     justify-content: center;
     .input {
-      max-width: 250px;
+      max-width: 350px;
+      box-shadow: none;
     }
     .button {
       margin-left: 15px;

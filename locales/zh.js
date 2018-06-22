@@ -15,7 +15,8 @@ module.exports = {
     technology: '核心技术',
     team: '团队',
     faq: '问题答疑',
-    careers: '加入我们'
+    careers: '加入我们',
+    press: '新闻'
   },
   home: {
     header: 'Vite',
