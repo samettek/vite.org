@@ -32,6 +32,12 @@
               url: 'https://www.bitmain.com/'
             },
             {
+              key: 'ok',
+              logo: require('~/assets/images/investor/ok.png'),
+              logoActive: require('~/assets/images/investor/ok-blue.png'),
+              url: 'https://www.okex.com/pages/products/blockchain.html'
+            },
+            {
               key: 'starwinCapital',
               logo: require('~/assets/images/investor/starwin.png'),
               logoActive: require('~/assets/images/investor/starwin-blue.png')
