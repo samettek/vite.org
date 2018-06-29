@@ -56,6 +56,16 @@
               url: 'http://www.linkvc.com/'
             },
             {
+              key: 'ld',
+              logo: require('~/assets/images/investor/ld.png'),
+              logoActive: require('~/assets/images/investor/ld-blue.png')
+            },
+            {
+              key: 'kosmos',
+              logo: require('~/assets/images/investor/kosmos.png'),
+              logoActive: require('~/assets/images/investor/kosmos-blue.png')
+            },
+            {
               key: 'genesisCapital',
               logo: require('~/assets/images/investor/genesis.png'),
               logoActive: require('~/assets/images/investor/genesis-blue.png')
@@ -91,6 +101,11 @@
               key: 'wanbu',
               logo: require('~/assets/images/investor/wanbu.png'),
               logoActive: require('~/assets/images/investor/wanbu-blue.png')
+            },
+            {
+              key: 'axi',
+              logo: require('~/assets/images/investor/axi.png'),
+              logoActive: require('~/assets/images/investor/axi-blue.png')
             },
             {
               key: 'bigcoin',
