@@ -4,11 +4,10 @@
       <h2 class="title section-title inview1 animated fadeInDown delay-0-800">
         {{$t('investor.title')}}
       </h2>
-      <div class="columns is-multiline is-centered is-mobile is-gapless">
-        <div :key="item.key" v-for="(item, index) in list" class="column is-2-desktop is-3-touch">
-          <a :href="item.url" target="_blank">
-            <div class="img-wrapper" @mouseover="onHover(index)"
-                 @mouseout="onOut(index)">
+      <div class="columns is-multiline is-centered is-mobile">
+        <div :key="item.key" v-for="(item, index) in list" class="column item">
+          <a :href="item.url" target="_blank" @mouseover="onHover(index)" @mouseout="onOut(index)" :class="`key-${item.key}`">
+            <div class="img-wrapper">
               <img v-show="index === hover" class="investor-logo" :src="item.logoActive" alt="">
               <img v-show="index !== hover" class="investor-logo" :src="item.logo" alt="">
             </div>
@@ -84,7 +83,8 @@
             {
               key: 'distributed-fund',
               logo: require('~/assets/images/investor/distributed-fund.png'),
-              logoActive: require('~/assets/images/investor/distributed-fund-blue.png')
+              logoActive: require('~/assets/images/investor/distributed-fund-blue.png'),
+              url: 'http://distributed.fund'
             },
             {
               key: 'helloCapital',
@@ -113,7 +113,7 @@
               logoActive: require('~/assets/images/investor/bigcoin-blue.png')
             },
             {
-              key: 'hotCapital',
+              key: 'hot',
               logo: require('~/assets/images/investor/hot.png'),
               logoActive: require('~/assets/images/investor/hot-blue.png')
             },
@@ -178,6 +178,7 @@
     line-height:50px;
     text-align: center;
   }
+
   .column {
     text-align: center;
     display: flex;
@@ -198,4 +199,26 @@
       }
     }
   }
+
+  .columns {
+    flex-direction: row;
+    margin:-15px -25px;
+    .item {
+      padding:15px 25px;
+      flex-grow: 0;
+      & > a {
+        display: flex;
+        width: 200px;
+        height: 200px;
+        border: 1px dashed rgba(0,0,0,0.1);
+        &:hover {
+          border-color: $light-blue;
+        }
+        &.key-hot {
+          padding: 20px;
+        }
+      }
+    }
+  }
+
 </style>
