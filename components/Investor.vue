@@ -6,7 +6,7 @@
       </h2>
       <div class="columns is-multiline is-centered is-mobile">
         <div :key="item.key" v-for="(item, index) in list" class="column item">
-          <a :href="item.url" target="_blank" @mouseover="onHover(index)" @mouseout="onOut(index)">
+          <a :href="item.url" target="_blank" @mouseover="onHover(index)" @mouseout="onOut(index)" :class="`key-${item.key}`">
             <div class="img-wrapper">
               <img v-show="index === hover" class="investor-logo" :src="item.logoActive" alt="">
               <img v-show="index !== hover" class="investor-logo" :src="item.logo" alt="">
@@ -98,7 +98,7 @@
               logoActive: require('~/assets/images/investor/bigcoin-blue.png')
             },
             {
-              key: 'hotCapital',
+              key: 'hot',
               logo: require('~/assets/images/investor/hot.png'),
               logoActive: require('~/assets/images/investor/hot-blue.png')
             },
@@ -196,9 +196,11 @@
         width: 200px;
         height: 200px;
         border: 1px dashed rgba(0,0,0,0.1);
-        padding: 15px;
         &:hover {
           border-color: $light-blue;
+        }
+        &.key-hot {
+          padding: 20px;
         }
       }
     }
