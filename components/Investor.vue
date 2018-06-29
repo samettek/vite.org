@@ -219,6 +219,28 @@
         }
       }
     }
+    @include touch {
+      margin: -5px;
+      .item {
+        padding:5px;
+        & > a {
+          width: 95px;
+          height: 95px;
+        }
+      }
+    }
+
+    @include mobile {
+      margin: -5px;
+      justify-content: space-evenly;
+      .item {
+        padding:5px;
+        & > a {
+          width: 70px;
+          height: 70px;
+        }
+      }
+    }
   }
 
 </style>
