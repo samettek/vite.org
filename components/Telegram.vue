@@ -7,10 +7,12 @@
       <a class="tooltip-target"  target="_blank"><fa-icon :icon="['fab', 'telegram-plane']" /></a>
 
       <template slot="popover">
-        <div>
-          <a v-for="item in list" class="tag is-info" target="_blank" :href="urlList[item]">
-            {{$t(`urls.telegram.${item}`)}}
-          </a>
+        <div class="item-wrapper">
+          <div v-for="item in list">
+            <a class="tag" target="_blank" :href="urlList[item]">
+              {{$t(`urls.telegram.${item}`)}}
+            </a>
+          </div>
         </div>
       </template>
     </v-popover>
@@ -31,7 +33,7 @@
       return {
         isEnabled: true,
         urlList: config.urls.telegram,
-        list: ['ann', 'english', 'chinese', 'vietnamese', 'korean', 'russia'],
+        list: ['ann', 'english', 'chinese', 'russia', 'vietnamese', 'korean', 'thailand'],
         isBrowser: process.browser
       }
     },
@@ -40,8 +42,14 @@
 </script>
 
 <style rel="stylesheet/scss" lang="scss">
-  .popover-inner {
-    max-width: 250px;
+  .v-popover {
+    .popover-inner {
+      max-width: 300px;
+      background: #2b2c30 !important;
+    }
+    .popover-arrow {
+      border-color: #2b2c30 !important;
+    }
   }
 </style>
 
@@ -64,17 +72,28 @@
     width: 36px;
     margin-left: 28px;
   }
-  .ann-wrapper {
-    text-align: center;
-  }
-  .is-info {
-    margin-top: 10px;
-    margin-left: 10px;
-  }
   .no-ssr {
     display: inline-block;
     height: 36px;
     width: 36px;
     margin-left: 28px;
+  }
+
+  .item-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    & > div {
+      padding: 5px;
+      .tag {
+        background: none;
+        color: rgba(255,255,255,0.7);
+        &:hover {
+          background: #0072e3;
+          color: white;
+        }
+      }
+    }
   }
 </style>

@@ -16,7 +16,13 @@ module.exports = {
       chinese: 'https://t.me/vite_zh',
       vietnamese: 'https://t.me/vite_vietnamese',
       korean: 'https://t.me/vite_korean',
-      russia: 'https://t.me/vite_russia'
+      russia: 'https://t.me/vite_russia',
+      thailand: 'https://t.me/vite_thailand'
+    },
+    whitePaper: {
+      english: '/whitepaper/vite_en.pdf',
+      chinese: '/whitepaper/vite_cn.pdf',
+      french: '/whitepaper/vite_fr.pdf'
     }
   }
 }

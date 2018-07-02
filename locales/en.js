@@ -276,9 +276,15 @@ module.exports = {
       chinese: 'Chinese',
       vietnamese: 'Vietnamese',
       korean: 'Korean',
-      russia: 'Russia'
+      russia: 'Russia',
+      thailand: 'Thailand'
     },
     whitePaper: 'White Paper',
+    whitePaperList: {
+      english: 'English',
+      chinese: 'Chinese',
+      french: 'French'
+    },
     document: 'Documentation',
     loopring: 'Loopring',
     faq: 'FAQ',

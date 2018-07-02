@@ -342,7 +342,13 @@ module.exports = {
       chinese: '中文群',
       vietnamese: '越南群',
       korean: '韩国群',
-      russia: '俄罗斯群'
+      russia: '俄罗斯群',
+      thailand: '泰国群'
+    },
+    whitePaperList: {
+      english: '英语',
+      chinese: '中文',
+      french: '法语'
     },
     whitePaper: '白皮书',
     document: '文档',

@@ -15,20 +15,7 @@
           </div>
 
           <div class="btn-group-wrapper">
-            <div class="btn-wrapper">
-              <a class="button text-hover-transition" :href="$t('urlSrc.whitePaper')" target="_blank">
-                {{$t('home.whitePaper')}}
-                <svg class="text-hover-transition" width="13px" height="22px" viewBox="0 0 13 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                  <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                    <g id="home——PC" transform="translate(-526.000000, -473.000000)" stroke-width="2" stroke="currentColor">
-                      <g id="Group" transform="translate(360.000000, 152.000000)">
-                        <polyline id="Rectangle-2-Copy-2" transform="translate(172.000000, 332.000000) scale(-1, 1) translate(-172.000000, -332.000000) " points="177 342 167 332 177 322"></polyline>
-                      </g>
-                    </g>
-                  </g>
-                </svg>
-              </a>
-            </div>
+            <white-paper></white-paper>
             <div class="social">
               <a :href="socialUrls.discord" target="_blank"><fa-icon class="icon" :icon="['fab', 'discord']" /></a>
               <telegram></telegram>
@@ -63,6 +50,7 @@
   import Roadmap from '~/components/Roadmap'
   import Wechat from '~/components/Wechat'
   import Telegram from '~/components/Telegram'
+  import WhitePaper from '~/components/WhitePaper'
   import JoinMailingList from '~/components/JoinMailingList'
 
   import config from '~/config.js'
@@ -78,7 +66,8 @@
       VRoadmap: Roadmap,
       Wechat,
       Telegram,
-      JoinMailingList
+      JoinMailingList,
+      WhitePaper
     },
     mounted () {},
     data () {
