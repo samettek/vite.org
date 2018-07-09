@@ -3,7 +3,7 @@
     <section class="is-fullheight hero home">
       <div v-if="$i18n.locale === 'en' && showNotice" class="home-notification notification">
         <button class="delete" @click="showNotice = false"></button>
-        We will make an announcement on participation soon. Enter our <a :href="$t('urlSrc.telegram')" target="_blank">Telegram</a> group and stay tuned!
+        The Vite Rewards program has official started! See <a href="https://t.me/vite_ann" target="_blank">Telegram Announcement Channel</a> for details.
       </div>
       <div class="hero-body">
         <div class="container">
