@@ -40,7 +40,8 @@
             {
               key: 'starwinCapital',
               logo: require('~/assets/images/investor/starwin.png'),
-              logoActive: require('~/assets/images/investor/starwin-blue.png')
+              logoActive: require('~/assets/images/investor/starwin-blue.png'),
+              url: 'https://www.tianyancha.com/organize/b5dfe14738'
             },
             {
               key: 'nodeCapital',
@@ -57,17 +58,20 @@
             {
               key: 'ld',
               logo: require('~/assets/images/investor/ld.png'),
-              logoActive: require('~/assets/images/investor/ld-blue.png')
+              logoActive: require('~/assets/images/investor/ld-blue.png'),
+              url: 'http://www.ldcap.com/'
             },
             {
               key: 'kosmos',
               logo: require('~/assets/images/investor/kosmos.png'),
-              logoActive: require('~/assets/images/investor/kosmos-blue.png')
+              logoActive: require('~/assets/images/investor/kosmos-blue.png'),
+              url: 'http://kosmos.capital/'
             },
             {
               key: 'genesisCapital',
               logo: require('~/assets/images/investor/genesis.png'),
-              logoActive: require('~/assets/images/investor/genesis-blue.png')
+              logoActive: require('~/assets/images/investor/genesis-blue.png'),
+              url: 'http://www.newgenesiscap.com/'
             },
             {
               key: 'funcityCapital',
@@ -78,7 +82,8 @@
             {
               key: 'bp',
               logo: require('~/assets/images/investor/bp.png'),
-              logoActive: require('~/assets/images/investor/bp-blue.png')
+              logoActive: require('~/assets/images/investor/bp-blue.png'),
+              url: 'http://byzantinepartners.com/'
             },
             {
               key: 'distributed-fund',
@@ -100,17 +105,20 @@
             {
               key: 'wanbu',
               logo: require('~/assets/images/investor/wanbu.png'),
-              logoActive: require('~/assets/images/investor/wanbu-blue.png')
+              logoActive: require('~/assets/images/investor/wanbu-blue.png'),
+              url: 'http://wandarin.org/'
             },
             {
               key: 'axi',
               logo: require('~/assets/images/investor/axi.png'),
-              logoActive: require('~/assets/images/investor/axi-blue.png')
+              logoActive: require('~/assets/images/investor/axi-blue.png'),
+              url: 'https://axi.vc/'
             },
             {
               key: 'bigcoin',
               logo: require('~/assets/images/investor/bigcoin.png'),
-              logoActive: require('~/assets/images/investor/bigcoin-blue.png')
+              logoActive: require('~/assets/images/investor/bigcoin-blue.png'),
+              url: 'https://www.linkedin.com/company/bigcoin-capital/'
             },
             {
               key: 'hot',
