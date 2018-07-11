@@ -76,11 +76,23 @@
         advisors: [
           {
             img: require('~/assets/images/teams/wuming.png'),
-            key: 'wuming'
+            key: 'wuming',
+            urls: [
+              {
+                icon: ['fab', 'linkedin'],
+                url: 'https://www.linkedin.com/in/ming-wu-7a598b1b/'
+              }
+            ]
           },
           {
             img: require('~/assets/images/teams/dan-wang.png'),
-            key: 'wangdong'
+            key: 'wangdong',
+            urls: [
+              {
+                icon: ['fab', 'linkedin'],
+                url: 'https://www.linkedin.com/in/dong77/'
+              }
+            ]
           },
           {
             key: 'zhangli',
@@ -88,7 +100,13 @@
           },
           {
             key: 'terenceLam',
-            img: require('~/assets/images/teams/terence-bio.png')
+            img: require('~/assets/images/teams/terence-bio.png'),
+            urls: [
+              {
+                icon: ['fab', 'linkedin'],
+                url: 'http://linkedin.com/in/terence-lam-460191'
+              }
+            ]
           }
         ]
       }
