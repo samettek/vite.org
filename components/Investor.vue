@@ -212,12 +212,12 @@
     flex-direction: row;
     margin:-15px -25px;
     .item {
-      padding:15px 25px;
+      padding:10px;
       flex-grow: 0;
       & > a {
         display: flex;
-        width: 200px;
-        height: 200px;
+        width: 120px;
+        height: 120px;
         border: 1px dashed rgba(0,0,0,0.1);
         &:hover {
           border-color: $light-blue;

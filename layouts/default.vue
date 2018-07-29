@@ -29,7 +29,7 @@
           </div>
         </div>
       </div>
-    <div class="nuxt-content">
+    <div class="nuxt-content" :class="`is-${routeName}-page`">
       <nuxt :keep-alive="true"></nuxt>
     </div>
     <v-footer></v-footer>
@@ -158,6 +158,9 @@
 
   .nuxt-content {
     margin-top: 72px;
+    &.is-index-page {
+      margin-top: 0;
+    }
   }
 
   .navbar {
@@ -165,6 +168,11 @@
     z-index: 222222;
     &.headroom--not-top {
       border-bottom: 1px solid rgba(0,0,0,0.05);
+    }
+    @include desktop {
+      &.is-index-page.headroom--top {
+        background: transparent;
+      }
     }
     .navbar-brand {
       height: $navbar-height;

@@ -208,7 +208,7 @@
     width: 50%;
     height: 90vh;
     position: absolute;
-    top: 0px;
+    top: 72px;
     right: 0;
     z-index: -1;
     @include mobile {

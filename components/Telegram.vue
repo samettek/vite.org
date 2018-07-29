@@ -45,10 +45,6 @@
   .v-popover {
     .popover-inner {
       max-width: 300px;
-      background: #2b2c30 !important;
-    }
-    .popover-arrow {
-      border-color: #2b2c30 !important;
     }
   }
 </style>
@@ -88,10 +84,11 @@
       padding: 5px;
       .tag {
         background: none;
-        color: rgba(255,255,255,0.7);
         &:hover {
           background: #0072e3;
           color: white;
+          border-radius: 2px;
+          text-decoration: none;
         }
       }
     }

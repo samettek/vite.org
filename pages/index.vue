@@ -102,7 +102,7 @@
     z-index: 1;
     max-width: 300px;
     right: 30px;
-    top: 15px;
+    top: 15px + 72px;
     background: #1580E3;
     color: white;
   }
@@ -110,6 +110,10 @@
   .home {
     position: relative;
     font-family: $font-family-title;
+
+    background-image: url("~assets/images/detail_bg.svg");
+    background-size: cover;
+    padding-top: 72px;
 
     @include touch {
       .hero-body {
@@ -187,7 +191,7 @@
           height: 36px;
           width: 36px;
           color: #C4C4C4;
-          transition: color 0.4s ease-in-out;
+          transition: color 0.1s ease-in-out;
 
           @include touch {
             height: 24px;
