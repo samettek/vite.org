@@ -220,7 +220,7 @@
   }
   .img-wrapper {
     position: absolute;
-    bottom: 60px;
+    bottom: 0px;
     padding: 10px;
     z-index: -1;
     max-height: 80vh;

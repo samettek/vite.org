@@ -221,7 +221,7 @@
         display: flex;
         width: 120px;
         height: 120px;
-        border: 1px dashed rgba(0,0,0,0.1);
+        /*border: 1px dashed rgba(0,0,0,0.1);*/
         &:hover {
           border-color: $light-blue;
         }
