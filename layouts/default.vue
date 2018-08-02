@@ -23,6 +23,9 @@
               <a :href="urls.medium" target="_blank" class="nav-item text-hover-transition">{{$t('nav.press')}}</a>
               <div class="line is-hidden-desktop"></div>
               <div class="nav-item">
+                <Exchange></Exchange>
+              </div>
+              <div class="nav-item">
                 <lang-select></lang-select>
               </div>
             </div>
@@ -41,6 +44,7 @@
   import Logo from '~/components/Logo.vue'
   import LogoWithoutWords from '~/components/LogoWithoutWords.vue'
   import Footer from '~/components/Footer.vue'
+  import Exchange from '~/components/Exchange.vue'
   import config from '~/config'
 
   export default {
@@ -48,7 +52,8 @@
       LangSelect,
       Logo,
       LogoWithoutWords,
-      VFooter: Footer
+      VFooter: Footer,
+      Exchange
     },
     head () {
       let {routeName} = this

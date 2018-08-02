@@ -3,7 +3,7 @@
     <canvas v-if="!isMobile" ref="webglCanvas" class="webgl-canvas"></canvas>
 
     <div v-if="isMobile"  ref="imgBg"  class="img-wrapper" :class="{'mobile-bg': isMobile}">
-      <img src="~assets/images/background.png" alt="background">
+      <img src="~assets/images/shape.svg" alt="background">
     </div>
   </div>
 </template>
@@ -72,9 +72,8 @@
           if (bottom - viewportTop >= 0) {
             let percent = (bottom - viewportTop) / bottom
 
-            let scale = 1 - (1 - percent) * 0.3
             watchItem.style.cssText = `
-            transform: translate3d(0px, ${(1 - percent) * 120}px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(${90 * (1 - percent)}deg) scale3d(${scale}, ${scale}, ${scale});
+            transform:  translateX(-50vw) translate3d(0px, ${(1 - percent) * 120}px, 0px);
             opacity: ${1 - (1 - percent) * 0.5}
             `
           }
@@ -225,12 +224,21 @@
     padding: 10px;
     z-index: -1;
     max-height: 80vh;
-    max-width: 80vh;
+    max-width: 100vh;
+    transform: translateX(-50vw);
     img {
       max-width: 100%;
-      max-height: 80vh;
       opacity: 0.6;
-      transition: all 40ms ease-in-out;
+      animation:rotate 10s infinite linear;
+    }
+  }
+
+  @keyframes rotate{
+    0%{
+      transform:rotate(0deg);
+    }
+    100%{
+      transform:rotate(360deg);
     }
   }
 </style>

@@ -22,7 +22,12 @@ module.exports = {
     whitePaper: {
       english: '/whitepaper/vite_en.pdf',
       chinese: '/whitepaper/vite_cn.pdf',
-      french: '/whitepaper/vite_fr.pdf'
+      french: '/whitepaper/vite_fr.pdf',
+      korean: '/whitepaper/vite_korean.pdf',
+      vietnamese: '/whitepaper/vite_vietnamese.pdf'
+    },
+    exchange: {
+      okex: 'https://www.okex.com/spot/trade#product=vite_okb'
     }
   }
 }

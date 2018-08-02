@@ -10,13 +10,17 @@ module.exports = {
       technology: 'The key technologies of Vite: DAG、Snapchat Chain、Asnychronous Architechture、Reactive Contract、Quota leasing、Loopring Integrated、Timer scheduling、Contract Upgrade、solidity++'
     }
   },
+  exchange: {
+    okex: 'OKEX.COM'
+  },
   nav: {
     index: 'Home',
     technology: 'Technologies',
     team: 'Team',
     faq: 'FAQs',
     careers: 'Careers',
-    press: 'Press'
+    press: 'Press',
+    exchange: 'Exchanges'
   },
   home: {
     header: 'Vite',
@@ -150,11 +154,6 @@ module.exports = {
         'position': '',
         'description': 'Seasoned blockchain entrepreneur.  Graduated from China University of Science and Technology and Arizona State University.  Founder of Loopring, former Google America Tech Lead, Co-found and VP of Yun Yun Wang, Senior Research and Development Director at JD.com, and Co-Founder of Coinport.'
       },
-      'wuming': {
-        'name': 'Ming Wu',
-        'position': '',
-        'description': 'Seasoned scientist. Graduated from China University of Science and Technology, and Institute of Computing of the Chinese Academy of Sciences. Senior Research Manager at Microsoft Research Institute, Asia. Ph.D. advisor of China University of Science and Technology. Published 10+ high quality papers in the field of distributed systems and AI.'
-      },
       'terenceLam': {
         'name': 'Terence Lam',
         'position': '',
@@ -170,10 +169,25 @@ module.exports = {
         position: '',
         description: 'Expert in digital and mobile marketing. Graduated from Tsinghua University. Served in Google Ads Operations Group, COO of Suizong Technology and co-founder of Yunke Technology.'
       },
+      allen: {
+        name: 'Allen Liu',
+        position: '',
+        description: 'Senior technical specialist. Graduated from China University of Science and Technology and Fudan University. Former HP Tech Lead; former IBM senior architect and product manager. Having 10 years high concurrency experience in multinational firms. Scrum expert. PMP.'
+      },
       zhangli: {
         name: 'Li Zhang',
         position: '',
         description: 'Senior blockchain practitioner, investor. LinkVC Capital Partners, former CMO of F2pool , former business officer of Huobi.'
+      },
+      mirza: {
+        name: 'Mirza Uddin',
+        position: '',
+        description: 'Mirza was previously a venture capitalist at Two Sigma, one of the largest quantitative hedge funds, where he was heavily involved in researching Blockchain startups. He also previously worked for Index Ventures and The Boston Consulting Group. Mirza earned his BA from Harvard University.'
+      },
+      ivan: {
+        name: 'Ivan Golovko',
+        position: '',
+        description: 'VP Strategy and Investor Relations of LegalThings One. Co-founder of Distributed.Fund and Distributed Alliance. Former CMO of ICODrops.'
       }
     }
   },
@@ -283,7 +297,9 @@ module.exports = {
     whitePaperList: {
       english: 'English',
       chinese: 'Chinese',
-      french: 'French'
+      french: 'French',
+      korean: 'Korean',
+      vietnamese: 'Vietnamese'
     },
     document: 'Documentation',
     loopring: 'Loopring',

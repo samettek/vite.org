@@ -185,6 +185,9 @@
     color:rgba(51,51,51,1);
     line-height:50px;
     text-align: center;
+    @include desktop {
+      margin-bottom: 3rem;
+    }
   }
 
   .column {

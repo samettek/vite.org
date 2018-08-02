@@ -59,7 +59,7 @@
       return {
         isEnabled: true,
         urlList: config.urls.whitePaper,
-        list: ['english', 'chinese', 'french'],
+        list: ['english', 'chinese', 'korean', 'french', 'vietnamese'],
         isBrowser: process.browser
       }
     },

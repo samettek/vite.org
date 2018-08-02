@@ -10,13 +10,17 @@ module.exports = {
       technology: 'Vite核心技术：DAG、Snapchat Chain、异步架构、响应式合约、配额租赁、集成路印协议、定时调度、合约升级、solidity++'
     }
   },
+  exchange: {
+    okex: 'OKEX.COM'
+  },
   nav: {
     index: '首页',
     technology: '核心技术',
     team: '团队',
     faq: '问题答疑',
     careers: '加入我们',
-    press: '新闻'
+    press: '新闻',
+    exchange: '交易所'
   },
   home: {
     header: 'Vite',
@@ -191,10 +195,10 @@ module.exports = {
         'position': '',
         'description': '资深区块链创业者。毕业于中国科技大学，亚利桑那州立大学。路印协议创始人，前Google美国Tech Lead，云云网联合创始人兼副总裁，京东高级研发总监，币丰港联合创始人。'
       },
-      'wuming': {
-        'name': '伍鸣',
-        'position': '',
-        'description': '资深科学家。毕业于中国科技大学，中科院计算所。微软亚洲研究院Senior Research Manager，在分布式系统和AI领域发表过十余篇论文，多次在系统领域顶级会议中担任程序委员会委员。'
+      allen: {
+        name: '刘晓涛',
+        position: '',
+        description: '资深技术专家。毕业于中国科技大学，复旦大学。前HP Tech Lead，前IBM系统架构师，产品负责人。10年知名外企高并发工作经验，Scrum敏捷开发专家，PMP。'
       },
       'terenceLam': {
         'name': 'Terence Lam',
@@ -215,6 +219,16 @@ module.exports = {
         name: '张力',
         position: '',
         description: '资深区块链从业者，投资人。连接资本合伙人，前鱼池F2pool CMO，前火币商务负责人。'
+      },
+      mirza: {
+        name: 'Mirza Uddin',
+        position: '',
+        description: 'Mirza毕业于哈佛大学。他曾在掌管500亿美元的美国量化对冲基金双西资本从事风险投资，其中包括深度研究区块链创业公司。他曾经就职于投资过Facebook和Dropbox的Index Ventures风险投资基金和波士顿咨询公司。'
+      },
+      ivan: {
+        name: 'Ivan Golovko',
+        position: '',
+        description: 'LegalThings One 公司的策略与投资者关系副总裁。俄国著名基金Distributed.Fund的联合创始人。曾任全球知名评测网站I C ODrops的首席市场官。'
       }
     }
   },
@@ -348,7 +362,9 @@ module.exports = {
     whitePaperList: {
       english: '英语',
       chinese: '中文',
-      french: '法语'
+      french: '法语',
+      korean: '韩语',
+      vietnamese: '越南语'
     },
     whitePaper: '白皮书',
     document: '文档',

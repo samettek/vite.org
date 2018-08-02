@@ -3,7 +3,7 @@
     <section class="is-fullheight hero home">
       <div v-if="$i18n.locale === 'en' && showNotice" class="home-notification notification">
         <button class="delete" @click="showNotice = false"></button>
-        The Vite Rewards program has official started! See <a href="https://t.me/vite_ann" target="_blank">Telegram Announcement Channel</a> for details.
+        Our tokens are now listed on <a href="https://www.okex.com/spot/trade#product=vite_okb" target="_blank">OKEx</a>!.
       </div>
       <div class="hero-body">
         <div class="container">

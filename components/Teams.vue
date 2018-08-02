@@ -71,19 +71,19 @@
                 url: 'https://www.linkedin.com/in/frank-deng-4756147'
               }
             ]
-          }
-        ],
-        advisors: [
+          },
           {
-            img: require('~/assets/images/teams/wuming.png'),
-            key: 'wuming',
+            img: require('~/assets/images/teams/allen.jpeg'),
+            key: 'allen',
             urls: [
               {
                 icon: ['fab', 'linkedin'],
-                url: 'https://www.linkedin.com/in/ming-wu-7a598b1b/'
+                url: 'https://www.linkedin.com/in/xiaotao-liu-002013169/'
               }
             ]
-          },
+          }
+        ],
+        advisors: [
           {
             img: require('~/assets/images/teams/dan-wang.png'),
             key: 'wangdong',
@@ -105,6 +105,26 @@
               {
                 icon: ['fab', 'linkedin'],
                 url: 'http://linkedin.com/in/terence-lam-460191'
+              }
+            ]
+          },
+          {
+            key: 'mirza',
+            img: require('~/assets/images/teams/ivan.jpg'),
+            urls: [
+              {
+                icon: ['fab', 'linkedin'],
+                url: 'https://www.linkedin.com/in/themirzauddin/'
+              }
+            ]
+          },
+          {
+            key: 'ivan',
+            img: require('~/assets/images/teams/mirza.jpeg'),
+            urls: [
+              {
+                icon: ['fab', 'linkedin'],
+                url: 'https://www.linkedin.com/in/ivangolovko/'
               }
             ]
           }
@@ -137,7 +157,9 @@
       }
       .columns {
         &:last-child {
-          margin-top: 60px;
+          @include desktop {
+            margin-top: 60px;
+          }
         }
       }
     }
