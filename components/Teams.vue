@@ -110,7 +110,7 @@
           },
           {
             key: 'mirza',
-            img: require('~/assets/images/teams/ivan.jpg'),
+            img: require('~/assets/images/teams/mirza.jpeg'),
             urls: [
               {
                 icon: ['fab', 'linkedin'],
@@ -120,7 +120,7 @@
           },
           {
             key: 'ivan',
-            img: require('~/assets/images/teams/mirza.jpeg'),
+            img: require('~/assets/images/teams/ivan.jpg'),
             urls: [
               {
                 icon: ['fab', 'linkedin'],
