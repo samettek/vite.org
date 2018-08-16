@@ -373,7 +373,9 @@ module.exports = {
     medium: '博客',
     introduction: '简介',
     tokenUrl: 'ERC20 地址',
-    btt: 'Bitcointalk'
+    btt: 'Bitcointalk',
+    youtube: 'Youtube',
+    blog: '技术博客'
   },
   urlSrc: {
     telegram: 'https://t.me/vite_zh',

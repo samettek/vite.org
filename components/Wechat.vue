@@ -47,15 +47,15 @@
   }
   .v-popover {
     display: inline-block;
-    height: 36px;
-    width: 36px;
-    margin-left: 28px;
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
   }
 
   .no-ssr {
     display: inline-block;
-    height: 36px;
-    width: 36px;
-    margin-left: 28px;
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
   }
 </style>

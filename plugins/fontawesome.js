@@ -11,9 +11,10 @@ import faTelegram from '@fortawesome/fontawesome-free-brands/faTelegramPlane'
 import faReddit from '@fortawesome/fontawesome-free-brands/faReddit'
 import faPlusCircle from '@fortawesome/fontawesome-free-solid/faPlusCircle'
 import faWechat from '@fortawesome/fontawesome-free-brands/faWeixin'
+import faYoutube from '@fortawesome/fontawesome-free-brands/faYoutube'
 
 export default ({ app, store }) => {
-  fontawesome.library.add(faGithub, faLinkin, faTwitter, faDiscord, faPlusCircle, faTelegram, faReddit, faWechat)
+  fontawesome.library.add(faGithub, faLinkin, faTwitter, faDiscord, faPlusCircle, faTelegram, faReddit, faWechat, faYoutube)
 
   Vue.component('fa-icon', FontAwesomeIcon)
 }

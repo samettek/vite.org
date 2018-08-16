@@ -7,6 +7,9 @@
       <mj-text font-weight="400" font-size="16px" color="#000000" line-height="24px"></mj-text>
       <mj-section padding="0px"></mj-section>
     </mj-attributes>
+      <mj-head>
+        <mj-preview>[CONTENT]</mj-preview>
+      </mj-head>
   </mj-head>
   <mj-body background-color="#F2F2F2">
     <mj-section padding="10px 0 10px 0">
@@ -27,12 +30,7 @@
     </mj-section>
     <mj-section padding="20px 20px 0 20px" background-color="#FFFFFF">
       <mj-column>
-        <mj-text align="center" font-weight="300" padding="30px 40px 30px 40px" font-size="32px" line-height="40x" color="#3498db">[SUBJECT]</mj-text>
-      </mj-column>
-    </mj-section>
-    <mj-section padding="10px 20px" background-color="#FFFFFF">
-      <mj-column>
-
+        <mj-text align="center" font-weight="300" padding="30px 40px 30px 40px" font-size="32px" line-height="40px" color="#3498db">[SUBJECT]</mj-text>
       </mj-column>
     </mj-section>
     <mj-section padding="0 20px 20px 20px" background-color="#FFFFFF">
@@ -40,12 +38,13 @@
 
       </mj-column>
     </mj-section>
-    <mj-section background-url="https://test.vite.net/_nuxt/img/bg.c3bce08.svg" vertical-align="middle" background-size="cover" background-repeat="no-repeat" background-color="#176CE0">
+    <mj-section background-url="https://vite.org/assets/bg2.svg" vertical-align="middle" background-size="cover" background-repeat="no-repeat" background-color="#176CE0">
       <mj-column width="100%">
         <mj-image src="http://nimus.de/share/tpl-card/lineshadow.png" alt="" align="center" border="none" padding="0px"></mj-image>
-        <mj-text color="#fff" align="center" padding="50px 40px 60px 40px" font-weight="300">[CONTENT]</mj-text>
+        <mj-text color="#fff" align="left" padding="50px 40px 60px 40px" font-weight="300">[CONTENT]</mj-text>
       </mj-column>
     </mj-section>
+
     <mj-section padding="40px 0 0 0" background-color="#FFFFFF">
       <mj-column>
         <mj-image src="http://nimus.de/share/tpl-card/bottom.png" alt="bottom border" align="center" border="none" padding="0px"></mj-image>

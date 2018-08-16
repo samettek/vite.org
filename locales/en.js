@@ -310,7 +310,9 @@ module.exports = {
     btt: 'Bitcointalk',
     telegramEn: 'Telegram English',
     telegramZh: 'Telegram Chinese',
-    telegramAnn: 'Telegram '
+    telegramAnn: 'Telegram ',
+    youtube: 'Youtube',
+    blog: 'Technology Blog'
   },
   urlSrc: {
     telegram: 'https://t.me/vite_en',

@@ -10,6 +10,8 @@ module.exports = {
     medium: 'https://medium.com/vitelabs',
     tokenUrl: 'https://etherscan.io/token/0x1b793E49237758dBD8b752AFC9Eb4b329d5Da016',
     btt: 'https://bitcointalk.org/index.php?topic=4438416',
+    blog: 'https://vite.blog/',
+    youtube: 'https://www.youtube.com/channel/UC8qft2rEzBnP9yJOGdsJBVg',
     telegram: {
       ann: 'https://t.me/vite_ann',
       english: 'https://t.me/vite_en',
