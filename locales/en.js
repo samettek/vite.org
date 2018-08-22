@@ -147,7 +147,7 @@ module.exports = {
       'liuchunming': {
         'name': 'Charles',
         'position': '',
-        'description': 'Veteran blockchain entrepreneur and technical expert. Graduated from China University of Science and Technology and the Institute of Software of the Chinese Academy of Sciences. Former senior architect of JD.com, co-founder of Coinport, and engineering director of Meituan Dianping. Abundant experience in distributed systems and high concurrency systems.'
+        'description': 'Veteran blockchain entrepreneur and technical expert. Standing director of China Blockchain Application Research Center. Graduated from China University of Science and Technology and the Institute of Software of the Chinese Academy of Sciences. Former senior architect of JD.com, co-founder of Coinport, and engineering director of Meituan Dianping. Abundant experience in distributed systems and high concurrency systems.'
       },
       'wangdong': {
         'name': 'Daniel Wang',

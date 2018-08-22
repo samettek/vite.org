@@ -29,7 +29,7 @@ module.exports = {
       vietnamese: '/whitepaper/vite_vietnamese.pdf'
     },
     exchange: {
-      okex: 'https://www.okex.com/spot/trade#product=vite_okb'
+      okex: 'https://www.okex.com/spot/trade#product=vite_eth'
     }
   }
 }
