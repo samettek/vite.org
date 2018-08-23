@@ -16,13 +16,18 @@
 
           <div class="btn-group-wrapper">
             <white-paper></white-paper>
+            <div class="btn-wrapper blue">
+              <a class="button tooltip-target" :href="urls.testnet" target="_blank">
+                {{$t('home.testnet')}}
+              </a>
+            </div>
             <div class="social">
-              <a :href="socialUrls.twitter" target="_blank"><fa-icon class="icon" :icon="['fab', 'twitter']" /></a>
+              <a :href="urls.twitter" target="_blank"><fa-icon class="icon" :icon="['fab', 'twitter']" /></a>
               <telegram></telegram>
-              <a :href="socialUrls.github" target="_blank"><fa-icon class="icon" :icon="['fab', 'github']" /></a>
-              <a :href="socialUrls.discord" target="_blank"><fa-icon class="icon" :icon="['fab', 'discord']" /></a>
-              <a :href="socialUrls.reddit" target="_blank"><fa-icon class="icon" :icon="['fab', 'reddit']" /></a>
-              <a :href="socialUrls.youtube" target="_blank"><fa-icon class="icon" :icon="['fab', 'youtube']" /></a>
+              <a :href="urls.github" target="_blank"><fa-icon class="icon" :icon="['fab', 'github']" /></a>
+              <a :href="urls.discord" target="_blank"><fa-icon class="icon" :icon="['fab', 'discord']" /></a>
+              <a :href="urls.reddit" target="_blank"><fa-icon class="icon" :icon="['fab', 'reddit']" /></a>
+              <a :href="urls.youtube" target="_blank"><fa-icon class="icon" :icon="['fab', 'youtube']" /></a>
               <wechat></wechat>
             </div>
           </div>
@@ -74,7 +79,7 @@
     mounted () {},
     data () {
       return {
-        socialUrls: config.urls,
+        urls: config.urls,
         showNotice: true
       }
     },
@@ -150,6 +155,22 @@
       margin-top: 3rem;
       @include touch {
         margin-top: 12px;
+      }
+
+      & > .v-popover {
+        display: inline-block;
+      }
+
+      .btn-wrapper {
+        display: inline-block;
+        margin-left: 1rem;
+        &.blue {
+          .button {
+            color: $light-blue;
+            border-color: $light-blue;
+            background: transparent;
+          }
+        }
       }
 
       .button {

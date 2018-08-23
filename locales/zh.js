@@ -25,7 +25,8 @@ module.exports = {
   home: {
     header: 'Vite',
     slogan: '新一代高性能去中心化应用平台',
-    whitePaper: '白皮书'
+    whitePaper: '白皮书',
+    testnet: '预览版'
   },
   feature: {
     performance: {

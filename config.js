@@ -12,6 +12,7 @@ module.exports = {
     btt: 'https://bitcointalk.org/index.php?topic=4438416',
     blog: 'https://vite.blog/',
     youtube: 'https://www.youtube.com/channel/UC8qft2rEzBnP9yJOGdsJBVg',
+    testnet: 'https://vite.net',
     telegram: {
       ann: 'https://t.me/vite_ann',
       english: 'https://t.me/vite_en',

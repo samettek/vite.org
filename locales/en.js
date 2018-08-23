@@ -25,7 +25,8 @@ module.exports = {
   home: {
     header: 'Vite',
     slogan: 'A Next Generation High-performance Decentralized Application Platform',
-    whitePaper: 'White Paper'
+    whitePaper: 'White Paper',
+    testnet: 'Preview Version'
   },
   feature: {
     performance: {
