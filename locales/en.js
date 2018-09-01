@@ -300,7 +300,8 @@ module.exports = {
       chinese: 'Chinese',
       french: 'French',
       korean: 'Korean',
-      vietnamese: 'Vietnamese'
+      vietnamese: 'Vietnamese',
+      russian: 'Russian'
     },
     document: 'Documentation',
     loopring: 'Loopring',

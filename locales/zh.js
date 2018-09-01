@@ -365,7 +365,8 @@ module.exports = {
       chinese: '中文',
       french: '法语',
       korean: '韩语',
-      vietnamese: '越南语'
+      vietnamese: '越南语',
+      russian: '俄语'
     },
     whitePaper: '白皮书',
     document: '文档',

@@ -27,7 +27,8 @@ module.exports = {
       chinese: '/whitepaper/vite_cn.pdf',
       french: '/whitepaper/vite_fr.pdf',
       korean: '/whitepaper/vite_korean.pdf',
-      vietnamese: '/whitepaper/vite_vietnamese.pdf'
+      vietnamese: '/whitepaper/vite_vietnamese.pdf',
+      russian: '/whitepaper/vite_russian.pdf'
     },
     exchange: {
       okex: 'https://www.okex.com/spot/trade#product=vite_eth'
