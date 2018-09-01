@@ -13,6 +13,7 @@
               <a :href="urls.twitter" target="_blank" class="text-hover-transition"><fa-icon class="icon" :icon="['fab', 'twitter']"></fa-icon></a>
               <telegram></telegram>
               <a :href="urls.reddit" target="_blank" class="text-hover-transition"><fa-icon class="icon" :icon="['fab', 'reddit']"/></a>
+              <a :href="urls.youtube" target="_blank" class="text-hover-transition"><fa-icon class="icon" :icon="['fab', 'youtube']"/></a>
               <wechat></wechat>
             </div>
           </div>
@@ -78,7 +79,7 @@
         urls,
         aboutList: ['loopring', 'tokenUrl'],
         learnList: ['whitePaper', 'document', 'introduction'],
-        mediumList: ['medium', 'btt'],
+        mediumList: ['medium', 'btt', 'blog'],
         urlShouldTranslate: ['whitePaper', 'telegram', 'introduction']
       }
     },
@@ -155,10 +156,10 @@
         text-align: center;
       }
       & > a, /deep/ .v-popover {
-        margin-left: 29px;
+        margin-left: 25px;
         svg {
-          width: 36px;
-          height: 36px;
+          width: 30px;
+          height: 30px;
           color: #C4C4C4;
           &:hover {
             color: #1580E3;

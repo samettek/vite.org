@@ -1,0 +1,59 @@
+<mjml>
+  <mj-head>
+    <mj-title>Say hello to card</mj-title>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500"></mj-font>
+    <mj-attributes>
+      <mj-all font-family="Montserrat, Helvetica, Arial, sans-serif"></mj-all>
+      <mj-text font-weight="400" font-size="16px" color="#000000" line-height="24px"></mj-text>
+      <mj-section padding="0px"></mj-section>
+    </mj-attributes>
+      <mj-head>
+        <mj-preview>[CONTENT]</mj-preview>
+      </mj-head>
+  </mj-head>
+  <mj-body background-color="#F2F2F2">
+    <mj-section padding="10px 0 10px 0">
+      <mj-column>
+        <mj-text align="center" color="#9B9B9B" font-size="11px">Let's create something cool</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="20px 20px 0 20px" background-color="#FFFFFF">
+      <mj-column width="35%">
+        <mj-image src="https://doc.vite.org/logo_black.svg" alt="" height="50" width="80" align="left" border="none" padding="0px"></mj-image>
+      </mj-column>
+      <mj-column width="65%">
+        <mj-text align="right" font-size="11px"><a href="https://www.vite.org/" target="_blank" style="color: #000000; text-decoration: none;">Home</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;<a href="https://t.me/vite_en" target="_blank" style="color: #000000; text-decoration: none;">Telegram</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+          <a
+            href="https://medium.com/vitelabs" style="color: #000000; text-decoration: none;">Press</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="20px 20px 0 20px" background-color="#FFFFFF">
+      <mj-column>
+        <mj-text align="center" font-weight="300" padding="30px 40px 30px 40px" font-size="32px" line-height="40px" color="#3498db">[SUBJECT]</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 20px 20px 20px" background-color="#FFFFFF">
+      <mj-column width="80%">
+
+      </mj-column>
+    </mj-section>
+    <mj-section background-url="https://vite.org/assets/bg2.svg" vertical-align="middle" background-size="cover" background-repeat="no-repeat" background-color="#176CE0">
+      <mj-column width="100%">
+        <mj-image src="http://nimus.de/share/tpl-card/lineshadow.png" alt="" align="center" border="none" padding="0px"></mj-image>
+        <mj-text color="#fff" align="left" padding="50px 40px 60px 40px" font-weight="300">[CONTENT]</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="40px 0 0 0" background-color="#FFFFFF">
+      <mj-column>
+        <mj-image src="http://nimus.de/share/tpl-card/bottom.png" alt="bottom border" align="center" border="none" padding="0px"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="10px 0 20px 0">
+      <mj-column>
+        <mj-text align="center" color="#9B9B9B" font-size="11px"><a href="#" style="color: #9B9B9B;">Unsubscribe</a> from this newsletter</br> <a href="https://www.vite.org/" style="color: #9B9B9B; text-decoration:none;">©2018 ViteLabs</a></mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

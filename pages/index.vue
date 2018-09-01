@@ -1,10 +1,10 @@
 <template>
   <div>
     <section class="is-fullheight hero home">
-      <div v-if="$i18n.locale === 'en' && showNotice" class="home-notification notification">
-        <button class="delete" @click="showNotice = false"></button>
-        Our tokens are now listed on <a href="https://www.okex.com/spot/trade#product=vite_okb" target="_blank">OKEx</a>!.
-      </div>
+      <!--<div v-if="$i18n.locale === 'en' && showNotice" class="home-notification notification">-->
+        <!--<button class="delete" @click="showNotice = false"></button>-->
+        <!--Our tokens are now listed on <a href="https://www.okex.com/spot/trade#product=vite_okb" target="_blank">OKEx</a>!.-->
+      <!--</div>-->
       <div class="hero-body">
         <div class="container">
           <div class="is-size-1-desktop is-size-2-touch slogan-wrapper">
@@ -16,11 +16,18 @@
 
           <div class="btn-group-wrapper">
             <white-paper></white-paper>
+            <div class="btn-wrapper blue">
+              <a class="button tooltip-target" :href="urls.testnet" target="_blank">
+                {{$t('home.testnet')}}
+              </a>
+            </div>
             <div class="social">
-              <a :href="socialUrls.discord" target="_blank"><fa-icon class="icon" :icon="['fab', 'discord']" /></a>
+              <a :href="urls.twitter" target="_blank"><fa-icon class="icon" :icon="['fab', 'twitter']" /></a>
               <telegram></telegram>
-              <a :href="socialUrls.twitter" target="_blank"><fa-icon class="icon" :icon="['fab', 'twitter']" /></a>
-              <a :href="socialUrls.github" target="_blank"><fa-icon class="icon" :icon="['fab', 'github']" /></a>
+              <a :href="urls.github" target="_blank"><fa-icon class="icon" :icon="['fab', 'github']" /></a>
+              <a :href="urls.discord" target="_blank"><fa-icon class="icon" :icon="['fab', 'discord']" /></a>
+              <a :href="urls.reddit" target="_blank"><fa-icon class="icon" :icon="['fab', 'reddit']" /></a>
+              <a :href="urls.youtube" target="_blank"><fa-icon class="icon" :icon="['fab', 'youtube']" /></a>
               <wechat></wechat>
             </div>
           </div>
@@ -72,7 +79,7 @@
     mounted () {},
     data () {
       return {
-        socialUrls: config.urls,
+        urls: config.urls,
         showNotice: true
       }
     },
@@ -150,6 +157,22 @@
         margin-top: 12px;
       }
 
+      & > .v-popover {
+        display: inline-block;
+      }
+
+      .btn-wrapper {
+        display: inline-block;
+        margin-left: 1rem;
+        &.blue {
+          .button {
+            color: $light-blue;
+            border-color: $light-blue;
+            background: transparent;
+          }
+        }
+      }
+
       .button {
         border-radius: 100px;
         padding-left: 35px;
@@ -188,8 +211,8 @@
           margin-top: 25px;
         }
         .icon, /deep/ svg {
-          height: 36px;
-          width: 36px;
+          height: 30px;
+          width: 30px;
           color: #C4C4C4;
           transition: color 0.1s ease-in-out;
 
@@ -205,14 +228,14 @@
 
         /*  cover the v-popover component style  */
         /deep/ .v-popover {
-          margin-left: 28px;
+          margin-left: 20px;
           @include touch {
             margin-left: 19px;
           }
         }
 
         a {
-          margin-left: 28px;
+          margin-left: 20px;
           @include touch {
             margin-left: 19px;
           }

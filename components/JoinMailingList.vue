@@ -5,13 +5,17 @@
         {{$t('joinMailing.title')}}
       </h2>
       <div class="form-wrapper">
-        <form action="https://vite.us18.list-manage.com/subscribe/post?u=13d7c53f6684a1ab33387eb02&amp;id=e0d82ae634" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <form action="https://email.vite.org//?p=subscribe" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate>
           <div class="control">
-            <input type="email" value="" name="EMAIL" class="email input is-medium" id="mce-EMAIL" :placeholder="$t('joinMailing.placeholder')" required>
+            <input type="email" value="" name="email" class="email input is-medium" id="mce-EMAIL" :placeholder="$t('joinMailing.placeholder')" required>
             <div class="clear"><input type="submit" :value="$t('joinMailing.button')" name="subscribe" id="mc-embedded-subscribe" class="button is-medium"></div>
           </div>
           <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_13d7c53f6684a1ab33387eb02_e0d82ae634" tabindex="-1" value=""></div>
+          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="htmlemail" tabindex="-1" value="1"></div>
+          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="list[1]" tabindex="-1" value="signup"></div>
+          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="listname[1]" tabindex="-1" value="vite.org"></div>
+          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="VerificationCodeX" tabindex="-1" value=""></div>
+          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="subscribe" tabindex="-1" value="Subscribe to the selected newsletters"></div>
         </form>
       </div>
     </div>

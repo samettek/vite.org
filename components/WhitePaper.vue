@@ -78,6 +78,10 @@
 <style rel="stylesheet/scss" lang="scss" scoped>
   @import "assets/vars.scss";
 
+  .no-ssr {
+    display: inline-block;
+  }
+
   .button {
     border-radius: 100px;
     padding-left: 35px;

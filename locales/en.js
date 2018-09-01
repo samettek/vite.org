@@ -25,7 +25,8 @@ module.exports = {
   home: {
     header: 'Vite',
     slogan: 'A Next Generation High-performance Decentralized Application Platform',
-    whitePaper: 'White Paper'
+    whitePaper: 'White Paper',
+    testnet: 'Preview Version'
   },
   feature: {
     performance: {
@@ -147,7 +148,7 @@ module.exports = {
       'liuchunming': {
         'name': 'Charles',
         'position': '',
-        'description': 'Veteran blockchain entrepreneur and technical expert. Graduated from China University of Science and Technology and the Institute of Software of the Chinese Academy of Sciences. Former senior architect of JD.com, co-founder of Coinport, and engineering director of Meituan Dianping. Abundant experience in distributed systems and high concurrency systems.'
+        'description': 'Veteran blockchain entrepreneur and technical expert. Standing director of China Blockchain Application Research Center. Graduated from China University of Science and Technology and the Institute of Software of the Chinese Academy of Sciences. Former senior architect of JD.com, co-founder of Coinport, and engineering director of Meituan Dianping. Abundant experience in distributed systems and high concurrency systems.'
       },
       'wangdong': {
         'name': 'Daniel Wang',
@@ -310,7 +311,9 @@ module.exports = {
     btt: 'Bitcointalk',
     telegramEn: 'Telegram English',
     telegramZh: 'Telegram Chinese',
-    telegramAnn: 'Telegram '
+    telegramAnn: 'Telegram ',
+    youtube: 'Youtube',
+    blog: 'Technology Blog'
   },
   urlSrc: {
     telegram: 'https://t.me/vite_en',

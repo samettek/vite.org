@@ -25,7 +25,8 @@ module.exports = {
   home: {
     header: 'Vite',
     slogan: '新一代高性能去中心化应用平台',
-    whitePaper: '白皮书'
+    whitePaper: '白皮书',
+    testnet: '预览版'
   },
   feature: {
     performance: {
@@ -188,7 +189,7 @@ module.exports = {
       'liuchunming': {
         'name': '刘春明',
         'position': '',
-        'description': '资深区块链创业者。毕业于中国科技大学，中科院软件所。曾任京东高级架构师，币丰港联合创始人，美团点评技术总监。'
+        'description': '资深区块链创业者，中国区块链应用研究中心常务理事。毕业于中国科技大学，中科院软件所。曾任京东高级架构师，币丰港联合创始人，美团点评技术总监。'
       },
       'wangdong': {
         'name': '王东',
@@ -373,7 +374,9 @@ module.exports = {
     medium: '博客',
     introduction: '简介',
     tokenUrl: 'ERC20 地址',
-    btt: 'Bitcointalk'
+    btt: 'Bitcointalk',
+    youtube: 'Youtube',
+    blog: '技术博客'
   },
   urlSrc: {
     telegram: 'https://t.me/vite_zh',
