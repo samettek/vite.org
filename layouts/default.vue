@@ -92,7 +92,7 @@
           { name: 'og:description', content: description, hid: 'og:description' },
           { name: 'og:type', content: 'website', hid: 'og:type' },
           { name: 'og:url', content: 'https://vite.org', hid: 'og:url' },
-          { name: 'og:image', content: 'https://www.vite.org/logo_appstore.png' },
+          { name: 'og:image', content: 'https://www.vite.org/icon.png' },
 
           // Twitter Card
           { name: 'twitter:card', content: 'summary', hid: 'twitter:card' },
