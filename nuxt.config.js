@@ -102,7 +102,7 @@ module.exports = {
       }
     }
   },
-  plugins: ['~/plugins/fontawesome', {src: '~/plugins/vue-headroom', ssr: false}, '~/plugins/ga'],
+  plugins: ['~/plugins/fontawesome', {src: '~/plugins/vue-headroom', ssr: false}, {src: '~/plugins/ga.js', ssr: false}],
   router: {
     middleware: 'i18n'
   },
