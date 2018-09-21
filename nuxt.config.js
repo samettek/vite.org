@@ -83,6 +83,9 @@ module.exports = {
       {name: 'viewport', content: 'width=device-width, initial-scale=1'},
       {name: 'author', content: 'vite lab'},
       {name: 'keywords', content: 'vite,crypto,dag,bitcoin,vitecoin,contract platform'}
+    ],
+    script: [
+      {src: 'https://hm.baidu.com/hm.js?84d0d7aff86074ac33b30b38c222f2c0'}
     ]
   },
   loading: {
@@ -99,7 +102,7 @@ module.exports = {
       }
     }
   },
-  plugins: ['~/plugins/fontawesome', {src: '~/plugins/vue-headroom', ssr: false}],
+  plugins: ['~/plugins/fontawesome', {src: '~/plugins/vue-headroom', ssr: false}, {src: '~/plugins/ga.js', ssr: false}],
   router: {
     middleware: 'i18n'
   },
