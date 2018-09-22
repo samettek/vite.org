@@ -382,7 +382,7 @@ module.exports = {
   urlSrc: {
     telegram: 'https://t.me/vite_zh',
     whitePaper: '/whitepaper/vite_cn.pdf',
-    introduction: 'https://doc.vite.org/zh/introduction/'
+    introduction: 'https://vite.wiki/zh/introduction/'
   },
   'utils': {
     readMore: '阅读更多'

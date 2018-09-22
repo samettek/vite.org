@@ -319,7 +319,7 @@ module.exports = {
   urlSrc: {
     telegram: 'https://t.me/vite_en',
     whitePaper: '/whitepaper/vite_en.pdf',
-    introduction: 'https://doc.vite.org/introduction/'
+    introduction: 'https://vite.wiki/introduction/'
   },
   utils: {
     readMore: 'Read More'

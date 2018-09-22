@@ -32,12 +32,12 @@
           {
             key: 'dag',
             img: require('~/assets/images/block_lattice.png'),
-            readMore: 'http://doc.vite.org'
+            readMore: 'https://vite.wiki'
           },
           {
             key: 'snapshotChain',
             img: '/icon.png',
-            readMore: 'http://doc.vite.org'
+            readMore: 'https://vite.wiki'
           },
           {
             key: 'async',

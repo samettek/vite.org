@@ -19,7 +19,7 @@
     </mj-section>
     <mj-section padding="20px 20px 0 20px" background-color="#FFFFFF">
       <mj-column width="35%">
-        <mj-image src="https://doc.vite.org/logo_black.svg" alt="" height="50" width="80" align="left" border="none" padding="0px"></mj-image>
+        <mj-image src="https://vite.wiki/logo_black.svg" alt="" height="50" width="80" align="left" border="none" padding="0px"></mj-image>
       </mj-column>
       <mj-column width="65%">
         <mj-text align="right" font-size="11px"><a href="https://www.vite.org/" target="_blank" style="color: #000000; text-decoration: none;">Home</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;<a href="https://t.me/vite_en" target="_blank" style="color: #000000; text-decoration: none;">Telegram</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
