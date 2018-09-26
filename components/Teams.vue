@@ -109,16 +109,6 @@
             ]
           },
           {
-            key: 'mirza',
-            img: require('~/assets/images/teams/mirza.jpeg'),
-            urls: [
-              {
-                icon: ['fab', 'linkedin'],
-                url: 'https://www.linkedin.com/in/themirzauddin/'
-              }
-            ]
-          },
-          {
             key: 'ivan',
             img: require('~/assets/images/teams/ivan.jpg'),
             urls: [
