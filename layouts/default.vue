@@ -16,17 +16,20 @@
           </div>
 
           <div class="navbar-menu" :class="{ 'is-active': navbarActive, collapsing: collapsing }" :style="navbarEndStyle">
-            <div ref="navbarEnd" class="navbar-start">
+            <div ref="navbarStart" class="navbar-start">
               <nuxt-link :key="item" :to="localePath(item)" class="nav-item text-hover-transition" :class="{active: routeName === item}" v-for="item in navs">
                 {{$t(`nav.${item}`)}}
               </nuxt-link>
-              <a :href="urls.medium" target="_blank" class="nav-item text-hover-transition">{{$t('nav.media')}}</a>
+              <div class="nav-item">
+                <Media></Media>
+              </div>
               <div class="line is-hidden-desktop"></div>
               <div class="nav-item">
                 <Exchange></Exchange>
               </div>
+              
             </div>
-            <div class="navbar-end">
+            <div ref="navbarEnd" class="navbar-end">
               <div class="nav-item">
                 <lang-select></lang-select>
               </div>
@@ -47,6 +50,7 @@
   import LogoWithoutWords from '~/components/LogoWithoutWords.vue'
   import Footer from '~/components/Footer.vue'
   import Exchange from '~/components/Exchange.vue'
+  import Media from '~/components/Media.vue'
   import config from '~/config'
 
   export default {
@@ -55,7 +59,8 @@
       Logo,
       LogoWithoutWords,
       VFooter: Footer,
-      Exchange
+      Exchange,
+      Media
     },
     head () {
       let {routeName} = this
@@ -129,7 +134,7 @@
       navbarEndStyle () {
         if (this.navbarActive) {
           return {
-            height: this.$refs.navbarEnd.clientHeight + 'px',
+            height: this.$refs.navbarStart.clientHeight + this.$refs.navbarEnd.clientHeight + 'px',
             overflowY: this.collapsing ? 'hidden' : 'visible'
           }
         } else {
@@ -191,14 +196,14 @@
         &.nav-item-logo {
           .logo {
             height: 41px;
-            color: #333333;
+            color: $common-text-color;
             @include touch {
               height: 22px;
             }
           }
           &:hover {
             .logo {
-              color: #1580E3;
+              color: $common-active-color;
             }
           }
         }
@@ -206,13 +211,13 @@
     }
     .nav-item {
       padding: 0.5rem 18px;
-      color: #999999;
+      color: $common-text-color;
       font-family: $font-family-main;
       &:hover {
-        color: #333333;
+        color: $common-active-color;
       }
       &.active {
-        color: #333333;
+        color: $common-active-color;
       }
     }
     .navbar-menu {

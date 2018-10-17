@@ -32,6 +32,11 @@ module.exports = {
     },
     exchange: {
       okex: 'https://www.okex.com/spot/trade#product=vite_eth'
+    },
+    media: {
+      medium: 'https://medium.com/vitelabs',
+      bitcointalk: 'https://bitcointalk.org/index.php?topic=4438416',
+      blog: 'https://vite.blog/'
     }
   }
 }

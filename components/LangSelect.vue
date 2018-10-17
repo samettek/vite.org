@@ -7,8 +7,9 @@
     </div>
     <div v-if="this.$i18n.locales.length > 1" class="dropdown-menu" id="lang-dropdown-menu" role="menu">
       <div class="dropdown-content">
-        <template v-for="item in locales">
+        <template v-for="(item, index) in locales">
           <nuxt-link class="dropdown-item"
+                     :key="index"
                      v-if="item.code !== $i18n.locale"
                      :to="switchLocalePath(item.code)"
                      active-class="none"
@@ -37,7 +38,7 @@
   .lang-btn {
     .dropdown-trigger {
       button {
-        color: #999999;
+        color: $common-text-color;
         background: transparent;
         padding: 0 1rem 0 0;
         border-radius: 0.35rem;
@@ -52,10 +53,10 @@
           box-shadow: none;
         }
         &:hover {
-          color: #333333;
+          color: $lang-select-color;
         }
         &::after {
-          border: 2px solid #999999;
+          border: 2px solid $common-text-color;
           margin-top: -.375em;
           right: -0.2rem;
           border-radius: 2px;
@@ -76,9 +77,9 @@
     .dropdown-menu {
       .dropdown-content {
         .dropdown-item {
-          color: rgba(0,0,0,0.8);
+          color: $common-text-color;
           &:hover {
-            color: rgba(0,0,0,0.9)
+            color: $lang-select-color;
           }
         }
       }

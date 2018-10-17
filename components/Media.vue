@@ -2,14 +2,14 @@
   <div class="dropdown lang-btn is-hoverable">
     <div class="dropdown-trigger">
       <button class="button">
-        <span>{{$t('nav.exchange')}}</span>
+        <span>{{$t('nav.media')}}</span>
       </button>
     </div>
     <div class="dropdown-menu" id="lang-dropdown-menu" role="menu">
       <div class="dropdown-content">
-        <template v-for="(item, index) in exchangeList">
-          <a class="dropdown-item" target="_blank" :href="exchangeMap[item]" :key="index">
-            {{$t(`exchange.${item}`)}}
+        <template v-for="(item, index) in mediaList">
+          <a class="dropdown-item" target="_blank" :href="mediaMap[item]" :key="index">
+            {{$t(`media.${item}`)}}
           </a>
         </template>
       </div>
@@ -23,12 +23,12 @@
   export default {
     data () {
       return {
-        exchangeMap: config.urls.exchange
+        mediaMap: config.urls.media
       }
     },
     computed: {
-      exchangeList: function () {
-        return ['okex']
+      mediaList: function () {
+        return ['medium', 'bitcointalk', 'blog']
       }
     }
   }

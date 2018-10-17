@@ -13,6 +13,11 @@ module.exports = {
   exchange: {
     okex: 'OKEX.COM'
   },
+  media: {
+    medium: 'Medium',
+    bitcointalk: 'Bitcointalk',
+    blog: 'Technology Blog'
+  },
   nav: {
     index: '首页',
     team: '团队',
