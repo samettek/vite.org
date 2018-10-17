@@ -13,7 +13,7 @@
                   {{selectedItem.time}}
                 </span>
               <div class="v-description">
-                <p v-for="desc in selectedItem.description">
+                <p v-for="(desc, index) in selectedItem.description" :key="index">
                   {{desc}}
                 </p>
               </div>

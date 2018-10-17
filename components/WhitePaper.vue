@@ -21,7 +21,7 @@
 
       <template slot="popover">
         <div class="item-wrapper">
-          <div v-for="item in list">
+          <div v-for="(item, index) in list" :key="index">
             <a class="tag" target="_blank" :href="urlList[item]">
               {{$t(`urls.whitePaperList.${item}`)}}
             </a>

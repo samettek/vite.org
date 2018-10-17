@@ -23,15 +23,15 @@
               <div class="column links-wrapper">
                 <div>{{$t('footer.learning')}}</div>
                 <ul>
-                  <li v-for="item in learnList">
-                    <a class="text-hover-transition" :href="getUrl(item)" target="_blank">{{$t(`urls.${item}`)}}</a>
+                  <li v-for="(item, index) in learnList" :key="index">
+                    <a class="text-hover-transition"  :href="getUrl(item)" target="_blank">{{$t(`urls.${item}`)}}</a>
                   </li>
                 </ul>
               </div>
               <div class="column links-wrapper">
                 <div>{{$t('footer.about')}}</div>
                 <ul>
-                  <li v-for="item in aboutList">
+                  <li v-for="(item, index) in aboutList" :key="index">
                     <a class="text-hover-transition" :href="getUrl(item)" target="_blank">{{$t(`urls.${item}`)}}</a>
                   </li>
                 </ul>
@@ -39,7 +39,7 @@
               <div class="column links-wrapper">
                 <div>{{$t('footer.media')}}</div>
                 <ul>
-                  <li v-for="item in mediumList">
+                  <li v-for="(item, index) in mediumList" :key="index">
                     <a class="text-hover-transition" :href="getUrl(item)" target="_blank">{{$t(`urls.${item}`)}}</a>
                   </li>
                 </ul>

@@ -8,7 +8,7 @@
       </div>
       <div class="column tech-item-detail">
         <h3>{{$t(`tech.${item.key}.title`)}}</h3>
-        <p v-for="item in renderDesc(item.key)">
+        <p v-for="(item, index) in renderDesc(item.key)" :key="index">
           {{item}}
         </p>
         <p>

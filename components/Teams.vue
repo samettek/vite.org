@@ -4,13 +4,13 @@
       <h2>{{$t('team.core')}} & {{$t('team.advisor')}}</h2>
       <div class="columns is-multiline is-center">
         <div class="column item is-destop is-4-desktop is-6-tablet is-12-mobile"
-             v-for="item in teams">
+             v-for="(item, index) in teams" :key="index">
           <div class="is-info">
             <team-image :src="item.img" :name="item.key" :urls="item.urls"></team-image>
           </div>
         </div>
         <div class="column item is-destop is-4-desktop is-6-tablet is-12-mobile"
-             v-for="item in advisors">
+             v-for="(item, index) in advisors" :key="index">
           <div class="is-info">
             <team-image :src="item.img" :name="item.key" :urls="item.urls" type="advisor"></team-image>
           </div>
