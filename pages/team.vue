@@ -1,34 +1,10 @@
 <template>
   <div>
     <section class="faq-header">
-      <div class="container">
-        <div class="img-wrapper">
-          <img src="~/assets/images/faq.png" alt="FAQ">
-        </div>
-        <h1>VITE Q&A</h1>
-        <h2>{{$t('faq.title')}}</h2>
-      </div>
+      
     </section>
     <section class="section">
-      <div class="container">
-        <div class="columns is-multiline">
-          <div class="column item is-destop is-12" v-for="(item, index) in faqs" :key="index">
-            <div class="is-info">
-              <h3> {{`${index + 1}. ${item.question}`}}</h3>
-              <div class="answer">
-                <p v-for="(answerItem, index) in item.answer" :key="index">
-                  <template v-if="item.key === 'wechat'">
-                    {{answerItem}}
-                    <br/>
-                    <img src="~/assets/images/vitelabs_wechat.jpg" alt="">
-                  </template>
-                  <template v-else>{{answerItem}}</template>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      
     </section>
   </div>
 

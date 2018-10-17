@@ -14,15 +14,15 @@
 
     <section class="section">
       <div class="container">
-        <div v-for="item in jdList" class="jd">
+        <div v-for="(item, index) in jdList" class="jd" :key="index">
           <div class="title">
             <div class="line"></div>
             <h1>{{$t(`careers.jd.${item}.title`)}}</h1>
           </div>
-          <div class="jd-item" v-for="jdKey in jdContentKey">
+          <div class="jd-item" v-for="(jdKey, index) in jdContentKey" :key="index">
             <h3>{{$t(`careers.${jdKey}`)}}</h3>
             <ul>
-              <li v-for="text in getContent(item, jdKey)">
+              <li v-for="(text,index) in getContent(item, jdKey)" :key="index">
                 {{text}}
               </li>
             </ul>

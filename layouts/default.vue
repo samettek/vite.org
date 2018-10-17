@@ -16,15 +16,17 @@
           </div>
 
           <div class="navbar-menu" :class="{ 'is-active': navbarActive, collapsing: collapsing }" :style="navbarEndStyle">
-            <div ref="navbarEnd" class="navbar-end">
+            <div ref="navbarEnd" class="navbar-start">
               <nuxt-link :key="item" :to="localePath(item)" class="nav-item text-hover-transition" :class="{active: routeName === item}" v-for="item in navs">
                 {{$t(`nav.${item}`)}}
               </nuxt-link>
-              <a :href="urls.medium" target="_blank" class="nav-item text-hover-transition">{{$t('nav.press')}}</a>
+              <a :href="urls.medium" target="_blank" class="nav-item text-hover-transition">{{$t('nav.media')}}</a>
               <div class="line is-hidden-desktop"></div>
               <div class="nav-item">
                 <Exchange></Exchange>
               </div>
+            </div>
+            <div class="navbar-end">
               <div class="nav-item">
                 <lang-select></lang-select>
               </div>
@@ -114,7 +116,7 @@
     data: function () {
       return {
         navbarActive: false,
-        navs: ['index', 'faq'],
+        navs: ['team', 'partnership', 'community', 'faq'],
         collapsing: false,
         urls: config.urls
       }
@@ -178,6 +180,9 @@
       &.is-index-page.headroom--top {
         background: transparent;
       }
+    }
+    a.navbar-item:hover {
+      background-color: white; 
     }
     .navbar-brand {
       height: $navbar-height;

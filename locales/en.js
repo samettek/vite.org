@@ -14,13 +14,15 @@ module.exports = {
     okex: 'OKEX.COM'
   },
   nav: {
-    index: 'Home',
+    index: 'HOME',
+    team: 'TEAM',
+    partnership: 'PARTNERSHIP',
+    community: 'COMMUNITY',
+    exchange: 'EXCHANGE',
+    media: 'MEDIA',
+    faq: 'FAQ',
     technology: 'Technologies',
-    team: 'Team',
-    faq: 'FAQs',
-    careers: 'Careers',
-    press: 'Press',
-    exchange: 'Exchanges'
+    careers: 'Careers'
   },
   home: {
     header: 'Vite',

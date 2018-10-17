@@ -15,12 +15,14 @@ module.exports = {
   },
   nav: {
     index: '首页',
-    technology: '核心技术',
     team: '团队',
-    faq: '问题答疑',
-    careers: '加入我们',
-    press: '新闻',
-    exchange: '交易所'
+    partnership: '合作',
+    community: '社区',
+    exchange: '交易所',
+    media: '媒体',
+    faq: '问答',
+    technology: '核心技术',
+    careers: '加入我们'
   },
   home: {
     header: 'Vite',

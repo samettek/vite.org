@@ -33,7 +33,6 @@
           </div>
         </div>
       </div>
-      <icosahedron></icosahedron>
     </section>
     <v-feature></v-feature>
 
@@ -49,7 +48,6 @@
 
 <script>
   import Teams from '~/components/Teams.vue'
-  import Icosahedron from '~/components/Icosahedron/index.vue'
   import Feature from '~/components/Feature'
   import Investor from '~/components/Investor'
   import Logo from '~/components/Logo.vue'
@@ -69,7 +67,6 @@
       Logo,
       LogoWord,
       VInvestor: Investor,
-      Icosahedron,
       VRoadmap: Roadmap,
       Wechat,
       Telegram,
