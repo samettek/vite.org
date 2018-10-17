@@ -46,7 +46,7 @@
         border-radius: 0.35rem;
         height: (40rem/16);
         border: transparent;
-        font-family: $font-family-main;
+        font-family: $font-family-light;
         @include touch {
           font-size: 14px;
         }

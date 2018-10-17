@@ -1,10 +1,6 @@
 <template>
   <div>
     <section class="is-fullheight hero home">
-      <!--<div v-if="$i18n.locale === 'en' && showNotice" class="home-notification notification">-->
-        <!--<button class="delete" @click="showNotice = false"></button>-->
-        <!--Our tokens are now listed on <a href="https://www.okex.com/spot/trade#product=vite_okb" target="_blank">OKEx</a>!.-->
-      <!--</div>-->
       <div class="hero-body">
         <div class="container">
           <div class="is-size-1-desktop is-size-2-touch slogan-wrapper">
@@ -16,25 +12,13 @@
 
           <div class="btn-group-wrapper">
             <white-paper></white-paper>
-            <div class="btn-wrapper blue">
-              <a class="button tooltip-target" :href="urls.testnet" target="_blank">
-                {{$t('home.testnet')}}
-              </a>
-            </div>
-            <div class="social">
-              <a :href="urls.twitter" target="_blank"><fa-icon class="icon" :icon="['fab', 'twitter']" /></a>
-              <telegram></telegram>
-              <a :href="urls.github" target="_blank"><fa-icon class="icon" :icon="['fab', 'github']" /></a>
-              <a :href="urls.discord" target="_blank"><fa-icon class="icon" :icon="['fab', 'discord']" /></a>
-              <a :href="urls.reddit" target="_blank"><fa-icon class="icon" :icon="['fab', 'reddit']" /></a>
-              <a :href="urls.youtube" target="_blank"><fa-icon class="icon" :icon="['fab', 'youtube']" /></a>
-              <wechat></wechat>
-            </div>
           </div>
         </div>
       </div>
     </section>
-    <v-feature></v-feature>
+    <v-news></v-news>
+
+    <v-ecology></v-ecology>
 
     <v-roadmap></v-roadmap>
 
@@ -48,7 +32,8 @@
 
 <script>
   import Teams from '~/components/Teams.vue'
-  import Feature from '~/components/Feature'
+  import News from '~/components/News.vue'
+  import Ecology from '~/components/Ecology.vue'
   import Investor from '~/components/Investor'
   import Logo from '~/components/Logo.vue'
   import LogoWord from '~/components/LogoWord'
@@ -62,8 +47,9 @@
 
   export default {
     components: {
+      VNews: News,
       VTeams: Teams,
-      VFeature: Feature,
+      VEcology: Ecology,
       Logo,
       LogoWord,
       VInvestor: Investor,
@@ -117,7 +103,6 @@
 
     background-image: url("~assets/images/detail_bg.svg");
     background-size: cover;
-    padding-top: 72px;
 
     @include touch {
       .hero-body {
@@ -132,24 +117,19 @@
       }
     }
 
-    h1 {
-      font-size: 72px;
-      color:rgba(51,51,51,1);
-      line-height:100px;
-      @include mobile {
-        font-size: 60px;
-        line-height: 84px;
-      }
-    }
+    
     h2 {
-      font-size: 1.75rem;
+      margin-top: 30px;
+      font-size: 1.5rem;
+      color: $common-text-color;
+      line-height: 28px;
       font-family: $font-family-light;
       @include touch {
-        font-size: 18px;
+        font-size: 1rem;
       }
     }
     .btn-group-wrapper {
-      margin-top: 3rem;
+      margin-top: 3.75rem;
       @include touch {
         margin-top: 12px;
       }

@@ -7,15 +7,6 @@
       <div class="btn-wrapper">
         <a class="button tooltip-target">
           {{$t('home.whitePaper')}}
-          <svg width="13px" height="22px" viewBox="0 0 13 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-              <g id="home——PC" transform="translate(-526.000000, -473.000000)" stroke-width="2" stroke="currentColor">
-                <g id="Group" transform="translate(360.000000, 152.000000)">
-                  <polyline id="Rectangle-2-Copy-2" transform="translate(172.000000, 332.000000) scale(-1, 1) translate(-172.000000, -332.000000) " points="177 342 167 332 177 322"></polyline>
-                </g>
-              </g>
-            </g>
-          </svg>
         </a>
       </div>
 
@@ -33,15 +24,6 @@
     <div class="btn-wrapper" slot="placeholder">
       <a class="button" :href="$t('urlSrc.whitePaper')" target="_blank">
         {{$t('home.whitePaper')}}
-        <svg width="13px" height="22px" viewBox="0 0 13 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-          <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-            <g id="home——PC" transform="translate(-526.000000, -473.000000)" stroke-width="2" stroke="currentColor">
-              <g id="Group" transform="translate(360.000000, 152.000000)">
-                <polyline id="Rectangle-2-Copy-2" transform="translate(172.000000, 332.000000) scale(-1, 1) translate(-172.000000, -332.000000) " points="177 342 167 332 177 322"></polyline>
-              </g>
-            </g>
-          </g>
-        </svg>
       </a>
     </div>
   </no-ssr>
@@ -83,36 +65,21 @@
   }
 
   .button {
-    border-radius: 100px;
     padding-left: 35px;
     padding-right: 35px;
-    font-size:1.88rem;
+    background: #007AFF;
+    box-shadow: 0 10px 40px 0 rgba(126,183,238,0.83);
+    width: 200px;
     font-family: $font-family-title;
-    color:rgba(51,51,51,0.85);
+    letter-spacing: 1px;
+    color: white;
     line-height:3.75rem;
     height:3.75rem;
-    border-color: lighten(#999999, 30%);
-    background: transparent;
     @include touch {
       width: 155px;
       height: 34px;
       font-size: 18px;
       line-height: 25px;
-    }
-
-    svg {
-      margin-left: 0.875rem;
-      @include touch {
-        height: 10px;
-        margin-left: 5px;
-      }
-    }
-    &:hover {
-      color: #1580E3;
-      border-color: #1580E3;
-      svg {
-        color: #1580E3;
-      }
     }
     &:focus {
       outline: none;

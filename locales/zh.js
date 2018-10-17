@@ -35,39 +35,23 @@ module.exports = {
     whitePaper: '白皮书',
     testnet: '预览版'
   },
-  feature: {
-    performance: {
-      title: '极致高性能',
-      dag: {
-        title: 'DAG账本',
-        content: 'Vite 采用 DAG 账本结构，交易按账户维度分组，每个交易只改变单个账户状态。出账和入账交易分离，连续转账不需要等待确认。共识算法的分层设计提供按共识组维度的水平扩展性'
-      },
-      async: {
-        title: '异步架构',
-        content: '交易拆分成基于“请求-响应”模式的交易对，交易的写入和验证异步解耦，可以支撑超高的吞吐。合约间通信基于消息的异步模型'
-      }
+  ecology: {
+    title: 'Vite 生态',
+    contract: {
+      title: '去中心化应用',
+      content: 'Vite是一个去中心化应用平台，提供兼容EVM的虚拟机，扩展自Solidity的语言Solidity++，dApp开发者在Vite上开发和部署应用将变得前所未有的简单'
     },
-    reactiveContract: {
-      title: '响应式合约',
-      messageDriven: {
-        title: '消息驱动',
-        content: '采用事件驱动的架构，每个智能合约被看作是一个独立的服务，合约之间可以通过消息通信，但不共享任何状态'
-      },
-      solidity: {
-        title: 'Solidity++',
-        content: '兼容solidity大部分语法，支持异步语义，支持合约的定时调度，并提供一系列标准库：字符串处理、浮点运算、基本数学运算、容器、排序等'
-      }
+    issueCurrency: {
+      title: '资产发行',
+      content: 'Vite支持用户通过铸币交易发行自己的代币。Vite协议内置了多代币支持，用户发行的代币与vite代币共享交易的底层协议，具有同样的安全性，不会因不良实践而产生类似于溢出漏洞之类的安全隐患'
     },
-    ecosystem: {
-      title: '生态闭环',
-      value: {
-        title: '价值闭环',
-        content: '支持数字资产发行、跨链价值传输，以及基于路印协议的代币间交易，Vite本身也是一个去中心化交易所；基于配额的资源配置，轻量级用户不需要支付手续费或燃料费。用户可以选择多种方式获取计算资源；支持配额租赁'
-      },
-      dapp: {
-        title: 'dApp小程序',
-        content: 'Vite客户端集成基于HTML5的去中心化小程序引擎，降低dApp开发部署门槛'
-      }
+    pay: {
+      title: '支付',
+      content: 'Vite通过引入HDPos，实现交易低延迟确认，缩短支付时间；通过DAG账本结构和异步模型提高系统的吞吐能力，并通过配额的资源配置模型及配额租赁功能，可以确保系统资源以最大效率进行分配。商业级用户可以保障足够的配额，而轻量级用户无需支付手续费'
+    },
+    transfer: {
+      title: '跨链价值传输',
+      content: 'Vite内置分布式交易所，实现价值交换；并且通过设计一个跨链协议VCTP（Vite Cross-chain Transfer Protocol)，消除“价值孤岛”，支持数字资产的跨链价值传输'
     }
   },
   roadmap: {

@@ -35,39 +35,23 @@ module.exports = {
     whitePaper: 'White Paper',
     testnet: 'Preview Version'
   },
-  feature: {
-    performance: {
-      title: 'Ultra High Performance',
-      dag: {
-        title: 'DAG Ledger',
-        content: 'Transactions in Vite are grouped by accounts.  That is, each transaction only changes the state of one single account.  Send transactions are separated from receive transactions, thereby obviating the need to wait for a transfer to be complete before the initiation of another transaction. The hierarchical design of the consensus algorithm allows horizontal scalability in consensus groups.'
-      },
-      async: {
-        title: 'Asynchronous Architecture',
-        content: 'Vite splits transactions into transaction pairs according to a "request-response" pattern. The writing and verification of transactions are asynchronously decoupled, thereby supporting ultra-high throughput. Inter-contract communications are based on an asynchronous messaging model.'
-      }
+  ecology: {
+    title: 'Vite 生态',
+    contract: {
+      title: '去中心化应用',
+      content: 'Vite是一个去中心化应用平台，提供兼容EVM的虚拟机，扩展自Solidity的语言Solidity++，dApp开发者在Vite上开发和部署应用将变得前所未有的简单'
     },
-    reactiveContract: {
-      title: 'Reactive Contract',
-      messageDriven: {
-        title: 'Message-Driven',
-        content: 'With an event-driven architecture, every smart contract is viewed as an independent service.  Contracts communicate via messages without sharing state.'
-      },
-      solidity: {
-        title: 'Solidity++',
-        content: 'Solidity++’s syntax is compatible with most of that of Solidity.  The new syntax supports asynchronous semantics, contract scheduling, and provides a series of standard libraries, such as string manipulation, floating-point operations, basic mathematical operations, containers, sorting, and so on.'
-      }
+    issueCurrency: {
+      title: '资产发行',
+      content: 'Vite支持用户通过铸币交易发行自己的代币。Vite协议内置了多代币支持，用户发行的代币与vite代币共享交易的底层协议，具有同样的安全性，不会因不良实践而产生类似于溢出漏洞之类的安全隐患'
     },
-    ecosystem: {
-      title: 'Integrated Decentralized Ecosystem',
-      value: {
-        title: 'End-to-end system for value transfer',
-        content: 'Vite itself is a decentralized exchange that supports digital asset issuance, cross-chain value transmission, and inter-token transactions based on the Loopring protocol.  A quota-based resource allocation mechanism allows light users to pay zero fees and gas. Users can obtain computing resources in multiple ways.  Vite also supports quota leasing.'
-      },
-      dapp: {
-        title: 'dApp Mini Programs',
-        content: 'The Vite client features an engine for creating HTML5-based decentralized mini programs.  This engine simplifies the process of dApp development and deployment.'
-      }
+    pay: {
+      title: '支付',
+      content: 'Vite通过引入HDPos，实现交易低延迟确认，缩短支付时间；通过DAG账本结构和异步模型提高系统的吞吐能力，并通过配额的资源配置模型及配额租赁功能，可以确保系统资源以最大效率进行分配。商业级用户可以保障足够的配额，而轻量级用户无需支付手续费'
+    },
+    transfer: {
+      title: '跨链价值传输',
+      content: 'Vite内置分布式交易所，实现价值交换；并且通过设计一个跨链协议VCTP（Vite Cross-chain Transfer Protocol)，消除“价值孤岛”，支持数字资产的跨链价值传输'
     }
   },
   roadmap: {

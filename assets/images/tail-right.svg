@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="18px" viewBox="0 0 24 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>tail-right</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页" transform="translate(-1462.000000, -241.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="tail-right" transform="translate(1462.000000, 241.000000)">
+                <path d="M23.7656,8.2344 L16,0.4688 L14.8688,1.6 L21.2688,8 L0,8 L0,9.6 L21.2688,9.6 L14.8688,16 L16,17.1312 L23.7656,9.3656 C24.0784,9.0528 24.0784,8.5472 23.7656,8.2344 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

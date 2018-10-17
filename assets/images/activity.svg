@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="153" height="131" viewBox="0 0 153 131">
+  <defs>
+    <linearGradient id="活动-a" x1="50%" x2="50%" y1="100%" y2="0%">
+      <stop offset="0%" stop-color="#B4EC51"/>
+      <stop offset="100%" stop-color="#429321"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#活动-a)" fill-rule="evenodd" d="M50.9237444,144.186012 C93.4783925,160.22438 161.723031,128.229828 155.556256,94.3699685 C149.389481,60.5101092 34.8506573,-17.2398768 16.3487071,22.1234873 C3.69007682,49.0552907 8.36747094,128.149266 50.9237444,144.186012 Z" transform="rotate(171 79.96 74.58)"/>
+</svg>

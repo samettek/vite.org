@@ -37,6 +37,13 @@
           </div>
         </div>
       </div>
+    <div class="container">
+      <div class="img-text">
+        <div>参加活动</div>
+        <div>赢 VITE</div>
+        <div><img src="~assets/images/tail-right.svg"/></div>
+      </div>
+    </div>
     <div class="nuxt-content" :class="`is-${routeName}-page`">
       <nuxt :keep-alive="true"></nuxt>
     </div>
@@ -167,12 +174,22 @@
 
 <style rel="stylesheet/scss" lang="scss" scoped>
   @import "assets/vars.scss";
-
+  .img-text {
+    position: absolute;
+    right: 0;
+    top: 79px;
+    z-index: 999;
+    width: 153px;
+    height: 131px;
+    text-align: center;
+    background-image: url("~assets/images/activity.svg");
+    color: white;
+    font-family: $font-family-title;
+    font-size: 20px;
+    padding-top: 22px;
+  }
   .nuxt-content {
     margin-top: 72px;
-    &.is-index-page {
-      margin-top: 0;
-    }
   }
 
   .navbar {
@@ -212,7 +229,7 @@
     .nav-item {
       padding: 0.5rem 18px;
       color: $common-text-color;
-      font-family: $font-family-main;
+      font-family: $font-family-light;
       &:hover {
         color: $common-active-color;
       }
