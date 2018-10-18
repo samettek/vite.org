@@ -22,11 +22,11 @@ export default {
   @import "~assets/vars";
   .section {
     height: 700px;
-    background: url("~assets/images/video/bg.jpg") 50% 0%;
+    background: url("~assets/images/video/bg.jpg") 51% 0%;
     background-size: cover;
     text-align: center;
     img {
-      margin-top: 250px;
+      margin-top: 178px;
     }
     .video-text {
       margin-top: 60px; 

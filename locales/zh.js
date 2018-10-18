@@ -27,7 +27,8 @@ module.exports = {
     media: '媒体',
     faq: '问答',
     technology: '核心技术',
-    careers: '加入我们'
+    careers: '加入我们',
+    whitePaper: '白皮书'
   },
   home: {
     header: 'Vite',

@@ -5,89 +5,43 @@
         <div class="columns">
           <div class="column icon-wrapper is-one-third">
             <logo-without-words></logo-without-words>
-            <div class="icon-links-wrapper">
-              <a :href="urls.github" target="_blank" class="text-hover-transition"><fa-icon class="icon" :icon="['fab', 'github']"></fa-icon></a>
-              <a :href="urls.discord" target="_blank" class="text-hover-transition"><fa-icon class="icon" :icon="['fab', 'discord']"></fa-icon></a>
-              <a :href="urls.twitter" target="_blank" class="text-hover-transition"><fa-icon class="icon" :icon="['fab', 'twitter']"></fa-icon></a>
-              <telegram></telegram>
-              <a :href="urls.reddit" target="_blank" class="text-hover-transition"><fa-icon class="icon" :icon="['fab', 'reddit']"/></a>
-              <a :href="urls.youtube" target="_blank" class="text-hover-transition"><fa-icon class="icon" :icon="['fab', 'youtube']"/></a>
-              <wechat></wechat>
-            </div>
           </div>
-
-          <div class="column link-tab">
+          <div class="column footer-tab">
             <div class="columns is-mobile">
-              <div class="column links-wrapper">
-                <div> 团队 </div>
-                <ul>
-                  <li v-for="(item, index) in learnList" :key="index">
-                    <a class="text-hover-transition"  :href="getUrl(item)" target="_blank">{{$t(`urls.${item}`)}}</a>
-                  </li>
-                </ul>
+              <div class="column" v-for="item in navs">
+                <nuxt-link :key="item" :to="localePath(item)" class="nav-item text-hover-transition">
+                  {{$t(`nav.${item}`)}}
+                </nuxt-link>
               </div>
-              <div class="column links-wrapper">
-                <div> 合作 </div>
-                <ul>
-                  <li v-for="(item, index) in aboutList" :key="index">
-                    <a class="text-hover-transition" :href="getUrl(item)" target="_blank">{{$t(`urls.${item}`)}}</a>
-                  </li>
-                </ul>
+              <div class="column">
+                <Media></Media>
               </div>
-              <div class="column links-wrapper">
-                <div> 社区 </div>
-                <ul>
-                  <li v-for="(item, index) in mediumList" :key="index">
-                    <a class="text-hover-transition" :href="getUrl(item)" target="_blank">{{$t(`urls.${item}`)}}</a>
-                  </li>
-                </ul>
+              <div class="column">
+                <Exchange></Exchange>
               </div>
-              <div class="column links-wrapper">
-                <div> 交易所 </div>
-                <ul>
-                  <li v-for="(item, index) in mediumList" :key="index">
-                    <a class="text-hover-transition" :href="getUrl(item)" target="_blank">{{$t(`urls.${item}`)}}</a>
-                  </li>
-                </ul>
+              <div class="column">
               </div>
-              <div class="column links-wrapper">
-                <div> 新闻 </div>
-                <ul>
-                  <li v-for="(item, index) in mediumList" :key="index">
-                    <a class="text-hover-transition" :href="getUrl(item)" target="_blank">{{$t(`urls.${item}`)}}</a>
-                  </li>
-                </ul>
+            </div>
+            <div class="icons mt40">
+              <div class="icon-links-wrapper">
+                <a :href="urls.github" target="_blank" class="text-hover-transition"><fa-icon class="icon" :icon="['fab', 'github']"></fa-icon></a>
+                <a :href="urls.discord" target="_blank" class="text-hover-transition"><fa-icon class="icon" :icon="['fab', 'discord']"></fa-icon></a>
+                <a :href="urls.twitter" target="_blank" class="text-hover-transition"><fa-icon class="icon" :icon="['fab', 'twitter']"></fa-icon></a>
+                <telegram></telegram>
+                <a :href="urls.reddit" target="_blank" class="text-hover-transition"><fa-icon class="icon" :icon="['fab', 'reddit']"/></a>
+                <a :href="urls.youtube" target="_blank" class="text-hover-transition"><fa-icon class="icon" :icon="['fab', 'youtube']"/></a>
+                <wechat></wechat>
               </div>
-              <div class="column links-wrapper">
-                <div> 问题答疑 </div>
-                <ul>
-                  <li v-for="(item, index) in mediumList" :key="index">
-                    <a class="text-hover-transition" :href="getUrl(item)" target="_blank">{{$t(`urls.${item}`)}}</a>
-                  </li>
-                </ul>
-              </div>
-              <div class="column links-wrapper">
-                <div> 白皮书 </div>
-                <ul>
-                  <li v-for="(item, index) in mediumList" :key="index">
-                    <a class="text-hover-transition" :href="getUrl(item)" target="_blank">{{$t(`urls.${item}`)}}</a>
-                  </li>
-                </ul>
-              </div>
+            </div>
+            <div class="copyright mt40">
+              <span>
+                © 2018 VITE Labs. All Rights Reserved. 
+              </span>
             </div>
           </div>
         </div>
       </div>
     </footer>
-    <!-- <footer class="footer all-rights">
-      <div class="container">
-          <span>
-            Vite Labs Limited, All Rights Reserved.
-            <br class="is-hidden-desktop"/>
-            Copyright © 2018 VITE Labs
-          </span>
-      </div>
-    </footer> -->
   </section>
 </template>
 
@@ -96,12 +50,16 @@
   import Wechat from '~/components/Wechat'
   import Telegram from '~/components/Telegram'
   import config from '~/config.js'
+  import Exchange from '~/components/Exchange.vue'
+  import Media from '~/components/Media.vue'
 
   export default {
     components: {
       LogoWithoutWords,
       Wechat,
-      Telegram
+      Telegram,
+      Exchange,
+      Media
     },
     data: function () {
       let {urls} = config
@@ -110,7 +68,8 @@
         aboutList: ['tokenUrl'],
         learnList: ['whitePaper', 'document', 'introduction'],
         mediumList: ['medium', 'btt', 'blog'],
-        urlShouldTranslate: ['whitePaper', 'telegram', 'introduction']
+        urlShouldTranslate: ['whitePaper', 'telegram', 'introduction'],
+        navs: ['team', 'partnership', 'community', 'faq']
       }
     },
     methods: {
@@ -130,56 +89,20 @@
   .footer {
     height: 315px;
     background: url("~assets/images/footer/footer.svg") 40% 60%;
-    &:first-child {
-      padding-top: 78px;
-      border-bottom: 1px solid rgba(0,0,0,0.08);
-      @include touch {
-        padding-top: 35px;
-      }
+    .mt40 {
+      margin-top: 40px;
     }
-
-    &:last-child {
-      padding: 31px;
-      @include touch {
-        padding: 15px;
-      }
+    .footer-tab {
+      color: white;
     }
-
-    &.all-rights {
-      font-size:14px;
-      font-family: $font-family-main;
-      color:white;
-      line-height:20px;
-      text-align: center;
-
-      @include touch {
-        font-size: 12px;
-        line-height: 17px;
-      }
+    .icons {
+      text-align: right;
     }
-
-    .link-tab {
-      padding-top: 30px;
+    .copyright {
+      font-size: 12px;
+      text-align: right;
     }
-
-    .logo-wrapper {
-      @include mobile {
-        display: flex;
-        .logo {
-          flex: 1;
-        }
-      }
-      .logo {
-        margin-bottom: 42px;
-        color: rgba(0,0,0,0.7);
-        &:hover {
-          color: #1580E3;
-        }
-        @include touch {
-          margin-bottom: 22px;
-        }
-      }
-    }
+    
     .icon-links-wrapper {
       @include mobile {
         text-align: center;
@@ -189,9 +112,9 @@
         svg {
           width: 30px;
           height: 30px;
-          color: #C4C4C4;
+          color: white;
           &:hover {
-            color: #1580E3;
+            // color: #1580E3;
           }
           @include touch {
             width: 24px;

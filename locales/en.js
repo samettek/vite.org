@@ -27,7 +27,8 @@ module.exports = {
     media: 'MEDIA',
     faq: 'FAQ',
     technology: 'Technologies',
-    careers: 'Careers'
+    careers: 'Careers',
+    whitePaper: 'WHITEPAPER'
   },
   home: {
     header: 'Vite',
