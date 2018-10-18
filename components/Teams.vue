@@ -1,15 +1,18 @@
 <template>
   <section class="section">
     <div class="container">
-      <h2>{{$t('team.core')}} & {{$t('team.advisor')}}</h2>
+      <h1>{{$t('team.core')}}</h1>
       <div class="columns is-multiline is-center">
-        <div class="column item is-destop is-4-desktop is-6-tablet is-12-mobile"
+        <div class="column item is-desktop is-4-desktop is-6-tablet is-12-mobile"
              v-for="item in teams" :key="item.key">
           <div class="is-info">
             <team-image :src="item.img" :name="item.key" :urls="item.urls"></team-image>
           </div>
         </div>
-        <div class="column item is-destop is-4-desktop is-6-tablet is-12-mobile"
+      </div>
+      <h1>顾问</h1>
+      <div class="columns is-multiline is-center">
+        <div class="column item is-desktop is-4-desktop is-6-tablet is-12-mobile"
              v-for="item in advisors" :key="item.key">
           <div class="is-info">
             <team-image :src="item.img" :name="item.key" :urls="item.urls" type="advisor"></team-image>
@@ -129,17 +132,9 @@
   @import "~assets/vars";
 
   section {
-    background:rgba(38,39,42,1);
-    padding-top: 60px;
+    padding-top: 92px;
     .container {
-      & > h2 {
-        font-size:36px;
-        font-family: $font-family-main;
-        color:rgba(255,255,255,1);
-        line-height:50px;
-        text-align: center;
-        margin-bottom: 40px;
-      }
+      
       .is-info {
         display: flex;
         justify-content: center;

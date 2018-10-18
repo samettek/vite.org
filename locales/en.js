@@ -134,7 +134,7 @@ module.exports = {
     ]
   },
   team: {
-    'core': 'Core Team',
+    'core': 'Team',
     'advisor': 'Advisors',
     'nameMap': {
       'liuchunming': {

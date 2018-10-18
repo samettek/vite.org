@@ -175,7 +175,7 @@ module.exports = {
     }
   },
   'team': {
-    'core': '核心团队',
+    'core': '团队',
     'advisor': '顾问团队',
     'nameMap': {
       'liuchunming': {
