@@ -43,12 +43,10 @@
         ecology: [
           {
             key: 'cloumns1',
-            img: require('~/assets/images/feature/high-performance.png'),
             content: ['contract', 'issueCurrency']
           },
           {
             key: 'cloumns2',
-            img: require('~/assets/images/feature/reactiveContract.png'),
             content: ['pay', 'transfer']
           }
         ]

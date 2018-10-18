@@ -16,13 +16,18 @@
         </div>
       </div>
     </section>
+
     <v-news></v-news>
 
     <v-ecology></v-ecology>
 
+    <v-feature></v-feature>
+    
+    <v-video></v-video>
+    
     <v-roadmap></v-roadmap>
 
-    <v-teams></v-teams>
+    <!-- <v-teams></v-teams> -->
 
     <v-investor></v-investor>
 
@@ -31,13 +36,15 @@
 </template>
 
 <script>
-  import Teams from '~/components/Teams.vue'
+  // import Teams from '~/components/Teams.vue'
   import News from '~/components/News.vue'
   import Ecology from '~/components/Ecology.vue'
+  import Feature from '~/components/Feature.vue'
+  import Video from '~/components/Video.vue'
   import Investor from '~/components/Investor'
   import Logo from '~/components/Logo.vue'
   import LogoWord from '~/components/LogoWord'
-  import Roadmap from '~/components/Roadmap'
+  import NewRoadMap from '~/components/NewRoadMap'
   import Wechat from '~/components/Wechat'
   import Telegram from '~/components/Telegram'
   import WhitePaper from '~/components/WhitePaper'
@@ -48,12 +55,14 @@
   export default {
     components: {
       VNews: News,
-      VTeams: Teams,
+      // VTeams: Teams,
       VEcology: Ecology,
+      VFeature: Feature,
+      VVideo: Video,
       Logo,
       LogoWord,
       VInvestor: Investor,
-      VRoadmap: Roadmap,
+      VRoadmap: NewRoadMap,
       Wechat,
       Telegram,
       JoinMailingList,

@@ -1,9 +1,12 @@
 <template>
   <section class="section">
     <div class="container">
-      <h2 class="title section-title inview1 animated fadeInDown delay-0-800">
+      <h1 style="text-align:center">
         {{$t('joinMailing.title')}}
-      </h2>
+      </h1>
+      <!-- <h2 class="title section-title inview1 animated fadeInDown delay-0-800">
+        {{$t('joinMailing.title')}}
+      </h2> -->
       <div class="form-wrapper">
         <form action="https://email.vite.org//?p=subscribe" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate>
           <div class="control">
@@ -67,11 +70,16 @@
     display: flex;
     justify-content: center;
     .input {
-      max-width: 350px;
+      max-width: 500px;
       box-shadow: none;
+      height: 60px;
     }
     .button {
-      margin-left: 15px;
+      width: 180px;
+      margin-left: 30px;
+      background: #007AFF;
+      color: white;
+      height: 60px;
     }
 
     @include touch {

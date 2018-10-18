@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="316" viewBox="0 0 1920 316">
+  <g fill="none" fill-rule="evenodd" transform="translate(0 -1126)">
+    <polygon fill="#007AFF" points="532 1442 754.974 1126 1920 1126 1920 1442" opacity=".9"/>
+    <polygon fill="#C4DFFF" fill-opacity=".85" points="518.5 292 1144 1375 -107 1375" opacity=".12" transform="rotate(10 518.5 833.5)"/>
+    <polygon fill="#C4DFFF" fill-opacity=".85" points="1695 1142 2356 2287 1034 2287" opacity=".12" transform="rotate(10 1695 1714.5)"/>
+    <polygon stroke="#09F" stroke-width="2" points="2227 305 2736 1187 1718 1187" opacity=".2" transform="rotate(10 2227 746)"/>
+  </g>
+</svg>

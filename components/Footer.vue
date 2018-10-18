@@ -3,10 +3,8 @@
     <footer class="footer">
       <div class="container">
         <div class="columns">
-          <div class="column icon-wrapper is-half">
-            <div class="logo-wrapper">
-              <logo class="logo"></logo>
-            </div>
+          <div class="column icon-wrapper is-one-third">
+            <logo-without-words></logo-without-words>
             <div class="icon-links-wrapper">
               <a :href="urls.github" target="_blank" class="text-hover-transition"><fa-icon class="icon" :icon="['fab', 'github']"></fa-icon></a>
               <a :href="urls.discord" target="_blank" class="text-hover-transition"><fa-icon class="icon" :icon="['fab', 'discord']"></fa-icon></a>
@@ -21,7 +19,7 @@
           <div class="column link-tab">
             <div class="columns is-mobile">
               <div class="column links-wrapper">
-                <div>{{$t('footer.learning')}}</div>
+                <div> 团队 </div>
                 <ul>
                   <li v-for="(item, index) in learnList" :key="index">
                     <a class="text-hover-transition"  :href="getUrl(item)" target="_blank">{{$t(`urls.${item}`)}}</a>
@@ -29,7 +27,7 @@
                 </ul>
               </div>
               <div class="column links-wrapper">
-                <div>{{$t('footer.about')}}</div>
+                <div> 合作 </div>
                 <ul>
                   <li v-for="(item, index) in aboutList" :key="index">
                     <a class="text-hover-transition" :href="getUrl(item)" target="_blank">{{$t(`urls.${item}`)}}</a>
@@ -37,7 +35,39 @@
                 </ul>
               </div>
               <div class="column links-wrapper">
-                <div>{{$t('footer.media')}}</div>
+                <div> 社区 </div>
+                <ul>
+                  <li v-for="(item, index) in mediumList" :key="index">
+                    <a class="text-hover-transition" :href="getUrl(item)" target="_blank">{{$t(`urls.${item}`)}}</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="column links-wrapper">
+                <div> 交易所 </div>
+                <ul>
+                  <li v-for="(item, index) in mediumList" :key="index">
+                    <a class="text-hover-transition" :href="getUrl(item)" target="_blank">{{$t(`urls.${item}`)}}</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="column links-wrapper">
+                <div> 新闻 </div>
+                <ul>
+                  <li v-for="(item, index) in mediumList" :key="index">
+                    <a class="text-hover-transition" :href="getUrl(item)" target="_blank">{{$t(`urls.${item}`)}}</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="column links-wrapper">
+                <div> 问题答疑 </div>
+                <ul>
+                  <li v-for="(item, index) in mediumList" :key="index">
+                    <a class="text-hover-transition" :href="getUrl(item)" target="_blank">{{$t(`urls.${item}`)}}</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="column links-wrapper">
+                <div> 白皮书 </div>
                 <ul>
                   <li v-for="(item, index) in mediumList" :key="index">
                     <a class="text-hover-transition" :href="getUrl(item)" target="_blank">{{$t(`urls.${item}`)}}</a>
@@ -49,7 +79,7 @@
         </div>
       </div>
     </footer>
-    <footer class="footer all-rights">
+    <!-- <footer class="footer all-rights">
       <div class="container">
           <span>
             Vite Labs Limited, All Rights Reserved.
@@ -57,19 +87,19 @@
             Copyright © 2018 VITE Labs
           </span>
       </div>
-    </footer>
+    </footer> -->
   </section>
 </template>
 
 <script type="text/babel">
-  import Logo from '~/components/Logo.vue'
+  import LogoWithoutWords from '~/components/LogoWithoutWords.vue'
   import Wechat from '~/components/Wechat'
   import Telegram from '~/components/Telegram'
   import config from '~/config.js'
 
   export default {
     components: {
-      Logo,
+      LogoWithoutWords,
       Wechat,
       Telegram
     },
@@ -98,6 +128,8 @@
   @import "~assets/vars";
 
   .footer {
+    height: 315px;
+    background: url("~assets/images/footer/footer.svg") 40% 60%;
     &:first-child {
       padding-top: 78px;
       border-bottom: 1px solid rgba(0,0,0,0.08);
@@ -116,7 +148,7 @@
     &.all-rights {
       font-size:14px;
       font-family: $font-family-main;
-      color:rgba(188,188,188,1);
+      color:white;
       line-height:20px;
       text-align: center;
 
@@ -139,14 +171,11 @@
       }
       .logo {
         margin-bottom: 42px;
-        height: 116px;
-        width: auto;
         color: rgba(0,0,0,0.7);
         &:hover {
           color: #1580E3;
         }
         @include touch {
-          height: 78px;
           margin-bottom: 22px;
         }
       }
@@ -201,7 +230,7 @@
           a {
             font-size:16px;
             font-family: $font-family-main;
-            color:rgba(188,188,188,1);
+            color:white;
             line-height:25px;
 
             @include touch {

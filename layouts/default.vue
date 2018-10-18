@@ -48,6 +48,7 @@
       <nuxt :keep-alive="true"></nuxt>
     </div>
     <v-footer></v-footer>
+    
   </div>
 </template>
 
