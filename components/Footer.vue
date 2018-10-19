@@ -8,7 +8,7 @@
           </div>
           <div class="column footer-tab">
             <div class="columns is-mobile">
-              <div class="column" v-for="item in navs">
+              <div class="column" v-for="(item, index) in navs" :key="index">
                 <nuxt-link :key="item" :to="localePath(item)" class="nav-item text-hover-transition">
                   {{$t(`nav.${item}`)}}
                 </nuxt-link>

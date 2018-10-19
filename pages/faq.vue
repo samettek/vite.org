@@ -1,16 +1,8 @@
 <template>
   <div>
-    <section class="faq-header">
-      <div class="container">
-        <div class="img-wrapper">
-          <img src="~/assets/images/faq.png" alt="FAQ">
-        </div>
-        <h1>VITE Q&A</h1>
-        <h2>{{$t('faq.title')}}</h2>
-      </div>
-    </section>
     <section class="section">
       <div class="container">
+        <h1 style="margin-bottom: 50px;">{{$t('faq.title')}}</h1>
         <div class="columns is-multiline">
           <div class="column item is-destop is-12" v-for="(item, index) in faqs" :key="index">
             <div class="is-info">
@@ -20,7 +12,8 @@
                   <template v-if="item.key === 'wechat'">
                     {{answerItem}}
                     <br/>
-                    <img src="~/assets/images/vitelabs_wechat.jpg" alt="">
+                    <img src="~/assets/images/vitelabs_wechat.jpg" alt="" v-if="item.key === 'wechat'" />
+                    <!-- <a href="https://etherscan.io/token/0x1b793E49237758dBD8b752AFC9Eb4b329d5Da016" target="_blank" v-if="item.key === 'erc'"></a> -->
                   </template>
                   <template v-else>{{answerItem}}</template>
                 </p>
@@ -56,72 +49,21 @@
 
 <style  rel="stylesheet/scss" lang="scss" scoped>
   @import "assets/vars.scss";
-
-  .faq-header {
-    background:rgba(43,44,48,1);
-    height:340px;
-    h1 {
-      font-size:72px;
-      font-family: $font-family-main;
-      color:rgba(144,146,154,1);
-      line-height:100px;
-      padding-top: 59px;
-    }
-    h2 {
-      font-size:28px;
-      font-family: $font-family-light;
-      color:rgba(144,146,154,1);
-      line-height:40px;
-    }
-    .img-wrapper {
-      height: 270px;
-      width: 270px;
-      position: absolute;
-      right: 0;
-      top: 35px;
-    }
-
-    @include touch {
-      padding: 20px 1.5rem;
-      height: auto;
-      text-align: center;
-      .img-wrapper {
-        position: relative;
-        width: 100%;
-        height: 135px;
-        right: auto;
-        top: auto;
-        margin-bottom: 35px;
-        img {
-          width: 135px;
-          height: 135px;
-        }
-      }
-      h1 {
-        font-size: 32px;
-        line-height: 45px;
-        padding-top: 0;
-      }
-      h2 {
-        font-size: 14px;
-        line-height: 20px;
-        margin-bottom: 25px;
-      }
-    }
-  }
-
   .section {
+    padding-top: 92px;
+    color: white;
     @include touch {
       padding-top: 25px;
     }
     .is-info {
       margin-bottom: 10px;
       h3 {
-        margin-bottom: 20px;
+        margin-bottom: 12px;
         font-size: 20px;
         font-family: $font-family-main;
-        color: rgba(21,128,227,1);
+        color: #171C34;
         line-height: 28px;
+        
         @include touch {
           font-size: 17px;
           line-height: 24px;
@@ -129,23 +71,22 @@
         }
       }
       .answer {
-        font-size: 16px;
+        font-size: 14px;
         font-family: $font-family-light;
-        color: rgba(51,51,51,1);
-        line-height: 33px;
-        p {
-          margin-top: 14px;
-          &:first-child {
-            margin-top: 0;
-          }
-        }
+        color: #919AA3;
+        line-height: 20px;
         img {
           max-width: 200px;
           margin-top: 0.5rem;
         }
+        p {
+          &:first-child {
+            margin-top: 0;
+          }
+        }
         @include touch {
           font-size: 14px;
-          line-height: 27px;
+          line-height: 16px;
         }
       }
     }

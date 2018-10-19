@@ -11,11 +11,11 @@
     width: 900px;
   }
   @include widescreen {
-    max-width: 1000px;
-    width: 1000px;
+    max-width: 1170px;
+    width: 1170px;
   }
   @include fullhd {
-    max-width: 1200px;
-    width: 1200px;
+    max-width: 1300px;
+    width: 1300px;
   }
 }

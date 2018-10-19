@@ -1,18 +1,19 @@
 <template>
   <div class="team-item">
-    <div class="img-wrapper" :class="`is-${type}`">
+    <div class="img-wrapper" :class="`is-${type}`" v-if="src">
       <div class="img-bg">
         <img :src="src" alt="">
       </div>
     </div>
 
-    <div class="team-desc">
+    <div class="team-desc" :class="{'team-no-img': !src }">
       <span class="name">{{$t(`team.nameMap.${name}.name`)}}</span>
       <div class="icon-wrapper">
         <a :href="url.url" target="_blank" :key="url.url" v-for="url in urls">
           <fa-icon class="icon text-hover-transition" :icon="url.icon" />
         </a>
       </div>
+      <div class="position">{{$t(`team.nameMap.${name}.position`)}}</div>
       <p>{{$t(`team.nameMap.${name}.description`)}}</p>
     </div>
   </div>
@@ -48,38 +49,32 @@
 
 
   .team-item {
-    width: 260px;
-    &:hover {
-      .img-wrapper .img-bg img {
-        opacity: 1;
-      }
-      .team-desc {
-        & > p {
-        }
-      }
-    }
-
+    width: 270px;
+    
+    box-shadow: 0 4px 24px 0 rgba(211,234,255,0.53);
     .img-wrapper {
-      height: 260px;
-      width: 260px;
+      height: 270px;
+      width: 270px;
       display: flex;
       flex-direction: row;
       justify-content: center;
       align-items: center;
       position: relative;
-      margin-bottom: 25px;
       .img-bg {
-        height: 214px;
-        width: 214px;
+        height: 190px;
+        width: 190px;
         img {
-          height: 214px;
-          width: 214px;
+          height: 190px;
+          width: 190px;
           transition: all 0.6s ease;
         }
       }
     }
-     
+
     .team-desc {
+      padding: 0px 20px;
+      margin-top: -10px;
+      height: 184px;
       .name {
         font-size:24px;
         font-family: $font-family-main;
@@ -114,6 +109,11 @@
           margin-top: 25px;
         }
       }
+    }
+
+    .team-no-img {
+      margin-top: 10px;
+      height: 144px;
     }
   }
 </style>

@@ -139,7 +139,7 @@ module.exports = {
     'nameMap': {
       'liuchunming': {
         'name': 'Charles',
-        'position': '',
+        'position': '北京',
         'description': 'Veteran blockchain entrepreneur and technical expert. Standing director of China Blockchain Application Research Center. Graduated from China University of Science and Technology and the Institute of Software of the Chinese Academy of Sciences. Former senior architect of JD.com, co-founder of Coinport, and engineering director of Meituan Dianping. Abundant experience in distributed systems and high concurrency systems.'
       },
       'wangdong': {
@@ -181,6 +181,35 @@ module.exports = {
         name: 'Ivan Golovko',
         position: '',
         description: 'VP Strategy and Investor Relations of LegalThings One. Co-founder of Distributed.Fund and Distributed Alliance. Former CMO of ICODrops.'
+      },
+      zhoudan: {
+        name: 'ZHOU DAN',
+        position: 'BEIJING'
+      }
+    }
+  },
+  partnership: {
+    okex: {
+      desc: {
+        text1: 'Vite Labs和OK资本宣布建立长期战略合作伙伴关系。',
+        text2: '双方决定，在以下方面建立合作关系：OK资本成为Vite主要投资者之一；OK资本研究中心将为Vite去中心化交易所的咨询顾问；Vite的初始商业应用将会面向金融技术领域；OK将利用其在区块链行业积累的优势，为Vite提供相应的建议、渠道及其他资源；Vite Labs硅谷办公室将向OK输送海外项目资源。'
+      }
+    },
+    mxbank: {
+      desc: {
+        text1: 'Vite Labs战略入股了数字资产银行MXBank。',
+        text2: 'Vite作为底层公链，将为MXBank提供公链相关技术支持，以帮助其未来在Vite上尽快落地；同时Vite生态基金负责人也将进入MXBank创始团队，加速项目发展。Vite Token也将成为MXBank第一批支持的数字资产之一。'
+      }
+    },
+    secbit: {
+      desc: {
+        text1: 'Vite与专注智能合约安全研究的安比（SECBIT）实验室签署了战略合作协议。',
+        text2: '双方未来将从区块链低、中、上三个层面就Vite安全性开展全方位深度合作；其中，在公链底层的合作包括交易安全和虚拟机安全等。'
+      }
+    },
+    achpay: {
+      desc: {
+        text1: 'ACHPAY是Vite生态基金投资的一个非营利性基金会， Vite生态基金作为股东持有ACHPAY token。同时，Vite未来将支持ACHPAY的支付网络整合，其中，闪电支付网络通过Vite系统能够接入链上，提高支付效率、实现安全的资产流通。'
       }
     }
   },
@@ -192,18 +221,6 @@ module.exports = {
         'answer': [
           'Vite is a general-purpose platform for decentralized applications.  It is designed to support industrial-strength applications by offering high throughput, low latency and scalability while also providing security.',
           'The Vite team are dedicated to addressing current performance and scalability issues of infrastructural chains, so that truly practical applications with high-frequency data requirements can be built in a blockchain framework.'
-        ]
-      },
-      {
-        'question': 'What is the relationship between Vite and Loopring?',
-        'answer': [
-          'Loopring is our strategic investor, and its founder Daniel Wang serves as Vite’s advisor.  Loopring’s decentralized exchange function will be offered in a wallet application built on the Vite platform. Loopring will be the first practical use case for the Vite platform.'
-        ]
-      },
-      {
-        question: 'Will there be airdrops for Vite? In what way?',
-        answer: [
-          'There will be.  Stay tuned for amount and mechanism.'
         ]
       },
       {
@@ -260,9 +277,10 @@ module.exports = {
         ]
       },
       {
-        question: 'The whitepaper mentions that Vite’s development tools are similar to, and have features extended from, those of Ethereum.  Does this indicate that dApp’s for Ethereum can be deployed on Vite with minor changes?',
+        question: '在Vite网络上用户可以发行自己的货币，那么请问发行的资产是类似于ERC 20代币吗？以太已经做到了，Vite现在还在做的话有什么优势呢？ERC 20的VITE的地址是什么？',
         answer: [
-          'Yes, one of Vite’s goals is to reduce the cost of porting over dApps from Ethereum.  Vite tries to maximize compatibility with EVM.'
+          'Yes, one of Vite’s goals is to reduce the cost of porting over dApps from Ethereum.  Vite tries to maximize compatibility with EVM.',
+          'ERC 20的VITE地址是https://etherscan.io/token/0x1b793E49237758dBD8b752AFC9Eb4b329d5Da016'
         ]
       },
       {

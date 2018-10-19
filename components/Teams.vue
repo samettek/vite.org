@@ -2,8 +2,8 @@
   <section class="section">
     <div class="container">
       <h1>{{$t('team.core')}}</h1>
-      <div class="columns is-multiline is-center">
-        <div class="column item is-desktop is-4-desktop is-6-tablet is-12-mobile"
+      <div class="columns is-multiline">
+        <div class="column item is-3-widescreen is-6-tablet is-12-mobile"
              v-for="item in teams" :key="item.key">
           <div class="is-info">
             <team-image :src="item.img" :name="item.key" :urls="item.urls"></team-image>
@@ -12,23 +12,26 @@
       </div>
       <h1>顾问</h1>
       <div class="columns is-multiline is-center">
-        <div class="column item is-desktop is-4-desktop is-6-tablet is-12-mobile"
+        <div class="column item is-3-widescreen is-6-tablet is-12-mobile"
              v-for="item in advisors" :key="item.key">
           <div class="is-info">
             <team-image :src="item.img" :name="item.key" :urls="item.urls" type="advisor"></team-image>
           </div>
         </div>
       </div>
+      <mailto-btn :text="'加入我们'"></mailto-btn>
     </div>
   </section>
 </template>
 
 <script type="text/babel">
   import TeamImage from '~/components/TeamImage'
+  import MailtoBtn from '~/components/MailtoBtn'
 
   export default {
     components: {
-      TeamImage
+      TeamImage,
+      MailtoBtn
     },
     data: function () {
       return {
@@ -78,6 +81,60 @@
           {
             img: require('~/assets/images/teams/allen.jpeg'),
             key: 'allen',
+            urls: [
+              {
+                icon: ['fab', 'linkedin'],
+                url: 'https://www.linkedin.com/in/xiaotao-liu-002013169/'
+              }
+            ]
+          },
+          {
+            key: 'zhoudan',
+            urls: [
+              {
+                icon: ['fab', 'linkedin'],
+                url: 'https://www.linkedin.com/in/xiaotao-liu-002013169/'
+              }
+            ]
+          },
+          {
+            key: 'zhoudan',
+            urls: [
+              {
+                icon: ['fab', 'linkedin'],
+                url: 'https://www.linkedin.com/in/xiaotao-liu-002013169/'
+              }
+            ]
+          },
+          {
+            key: 'zhoudan',
+            urls: [
+              {
+                icon: ['fab', 'linkedin'],
+                url: 'https://www.linkedin.com/in/xiaotao-liu-002013169/'
+              }
+            ]
+          },
+          {
+            key: 'zhoudan',
+            urls: [
+              {
+                icon: ['fab', 'linkedin'],
+                url: 'https://www.linkedin.com/in/xiaotao-liu-002013169/'
+              }
+            ]
+          },
+          {
+            key: 'zhoudan',
+            urls: [
+              {
+                icon: ['fab', 'linkedin'],
+                url: 'https://www.linkedin.com/in/xiaotao-liu-002013169/'
+              }
+            ]
+          },
+          {
+            key: 'zhoudan',
             urls: [
               {
                 icon: ['fab', 'linkedin'],
@@ -134,18 +191,12 @@
   section {
     padding-top: 92px;
     .container {
-      
       .is-info {
         display: flex;
-        justify-content: center;
-        align-items: center;
       }
       .columns {
-        &:last-child {
-          @include desktop {
-            margin-top: 60px;
-          }
-        }
+        margin-top: 60px;
+        margin-bottom: 80px; 
       }
     }
 
