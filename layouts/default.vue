@@ -211,20 +211,6 @@
       height: $navbar-height;
       .nav-item {
         height: 100%;
-        &.nav-item-logo {
-          .logo {
-            height: 41px;
-            color: $common-text-color;
-            @include touch {
-              height: 22px;
-            }
-          }
-          &:hover {
-            .logo {
-              color: $common-active-color;
-            }
-          }
-        }
       }
     }
     .nav-item {
@@ -237,6 +223,9 @@
       &.active {
         color: $common-active-color;
       }
+    }
+    .nav-item-logo {
+      padding: 0 57px 0 0;
     }
     .navbar-menu {
       @include desktop {

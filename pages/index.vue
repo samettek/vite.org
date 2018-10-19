@@ -27,8 +27,6 @@
     
     <v-roadmap></v-roadmap>
 
-    <!-- <v-teams></v-teams> -->
-
     <v-investor></v-investor>
 
     <join-mailing-list></join-mailing-list>
@@ -36,7 +34,6 @@
 </template>
 
 <script>
-  // import Teams from '~/components/Teams.vue'
   import News from '~/components/News.vue'
   import Ecology from '~/components/Ecology.vue'
   import Feature from '~/components/Feature.vue'
@@ -55,7 +52,6 @@
   export default {
     components: {
       VNews: News,
-      // VTeams: Teams,
       VEcology: Ecology,
       VFeature: Feature,
       VVideo: Video,

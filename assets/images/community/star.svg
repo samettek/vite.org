@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>star</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-31.804%" y1="-107.519%" x2="135.515%" y2="234.325%" id="linearGradient-1">
+            <stop stop-color="#1B3BD8" offset="0%"></stop>
+            <stop stop-color="#176CE0" offset="31.474%"></stop>
+            <stop stop-color="#0B92E7" offset="49.184%"></stop>
+            <stop stop-color="#0BB6EB" offset="71.324%"></stop>
+            <stop stop-color="#00E0F2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="社区" transform="translate(-375.000000, -300.000000)" fill-rule="nonzero">
+            <g id="Group-3" transform="translate(375.000000, 300.000000)">
+                <g id="star">
+                    <g id="Group" transform="translate(19.000000, 19.000000) rotate(180.000000) translate(-19.000000, -19.000000) translate(4.000000, 4.000000)">
+                        <g id="star-b-link" fill="#000000">
+                            <circle id="star-b" cx="15" cy="15" r="15"></circle>
+                        </g>
+                        <g id="star-b-link" fill="url(#linearGradient-1)">
+                            <circle id="star-b" cx="15" cy="15" r="15"></circle>
+                        </g>
+                    </g>
+                    <g id="star-e-link" transform="translate(6.500000, 6.500000)" fill="#000000">
+                        <path d="M12.5,25.000031 C5.60753108,25.000031 -6e-07,19.3924994 -6e-07,12.5000304 C-6e-07,5.60759366 5.60753063,3.15875e-05 12.5,3.15875e-05 C19.3927193,3.15875e-05 25.0000006,5.6075941 25.0000006,12.5000304 C25.0000006,19.3924994 19.3927193,25.000031 12.5,25.000031 Z" id="star-e"></path>
+                    </g>
+                    <g id="star-e-link" transform="translate(6.500000, 6.500000)" fill="#007AFF" stroke="#D3EAFF" stroke-width="6">
+                        <path d="M12.5,28.000031 C3.95067681,28.000031 -3.0000006,21.0493536 -3.0000006,12.5000304 C-3.0000006,3.95072956 3.95068623,-2.99996841 12.5,-2.99996841 C21.0494865,-2.99996841 28.0000006,3.95065289 28.0000006,12.5000304 C28.0000006,21.0494307 21.0494964,28.000031 12.5,28.000031 Z" id="star-e"></path>
+                    </g>
+                    <g id="Group" transform="translate(12.125000, 10.250000)" fill="#FFFFFF">
+                        <polygon id="Shape" points="7.32281036 2.61497285 8.68976207 6.78397565 14.0420738 6.77747306 9.70808943 9.87671999 11.3683117 14.8979094 7.04207381 11.7881411 2.71583592 14.8979094 4.37605819 9.87671999 0.042073845 6.77747306 5.39438555 6.78397565 7.04207384 1.75"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

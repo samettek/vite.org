@@ -11,9 +11,7 @@
                 <p v-for="(answerItem, index) in item.answer" :key="index">
                   <template v-if="item.key === 'wechat'">
                     {{answerItem}}
-                    <br/>
-                    <img src="~/assets/images/vitelabs_wechat.jpg" alt="" v-if="item.key === 'wechat'" />
-                    <!-- <a href="https://etherscan.io/token/0x1b793E49237758dBD8b752AFC9Eb4b329d5Da016" target="_blank" v-if="item.key === 'erc'"></a> -->
+                    <div><img src="~/assets/images/vitelabs_wechat.jpg" alt=""/></div>
                   </template>
                   <template v-else>{{answerItem}}</template>
                 </p>

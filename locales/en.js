@@ -281,7 +281,8 @@ module.exports = {
         answer: [
           'Yes, one of Vite’s goals is to reduce the cost of porting over dApps from Ethereum.  Vite tries to maximize compatibility with EVM.',
           'ERC 20的VITE地址是https://etherscan.io/token/0x1b793E49237758dBD8b752AFC9Eb4b329d5Da016'
-        ]
+        ],
+        key: 'erc'
       },
       {
         question: 'Can Vite’s smart contracts support running on a mobile device?  Will they be similar to Qtum and support mainstream languages like C++ and Java?',

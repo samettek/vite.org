@@ -1,115 +1,77 @@
 <template>
   <div>
-    <section class="faq-header">
-      
-    </section>
     <section class="section">
-      
+      <div class="container">
+        <h1 style="margin-bottom: 50px;">社区</h1>
+        <div class="community-star">
+          <img src="~assets/images/community/star.svg"/>
+          <span>社区之星</span>
+        </div>
+        <div class="columns content">
+          <div class="column is-8">
+            <div class="columns">
+              <div class="column">
+                <div class="video"></div>
+              </div>
+            </div>
+            <div class="columns is-multiline">
+              <div class="column">
+                <community-card></community-card>
+              </div>
+              <div class="column">
+                <community-card></community-card>
+              </div>
+              <div class="column">
+                <community-card></community-card>
+              </div>
+              <div class="column">
+                <community-card></community-card>
+              </div>
+            </div>
+          </div>
+          <div class="column">vvvvv</div>
+        </div>
+      </div>
     </section>
   </div>
 
 </template>
 
 <script>
+  import CommunityCard from '~/components/CommunityCard'
+
   export default {
+    components: {
+      CommunityCard
+    }
   }
 </script>
 
 <style  rel="stylesheet/scss" lang="scss" scoped>
   @import "assets/vars.scss";
-
-  .faq-header {
-    background:rgba(43,44,48,1);
-    height:340px;
-    h1 {
-      font-size:72px;
-      font-family: $font-family-main;
-      color:rgba(144,146,154,1);
-      line-height:100px;
-      padding-top: 59px;
-    }
-    h2 {
-      font-size:28px;
-      font-family: $font-family-light;
-      color:rgba(144,146,154,1);
-      line-height:40px;
-    }
-    .img-wrapper {
-      height: 270px;
-      width: 270px;
-      position: absolute;
-      right: 0;
-      top: 35px;
-    }
-
-    @include touch {
-      padding: 20px 1.5rem;
-      height: auto;
-      text-align: center;
-      .img-wrapper {
-        position: relative;
-        width: 100%;
-        height: 135px;
-        right: auto;
-        top: auto;
-        margin-bottom: 35px;
-        img {
-          width: 135px;
-          height: 135px;
-        }
-      }
-      h1 {
-        font-size: 32px;
-        line-height: 45px;
-        padding-top: 0;
-      }
-      h2 {
-        font-size: 14px;
-        line-height: 20px;
-        margin-bottom: 25px;
-      }
-    }
-  }
-
   .section {
-    @include touch {
-      padding-top: 25px;
-    }
-    .is-info {
-      margin-bottom: 10px;
-      h3 {
-        margin-bottom: 20px;
-        font-size: 20px;
-        font-family: $font-family-main;
-        color: rgba(21,128,227,1);
-        line-height: 28px;
-        @include touch {
-          font-size: 17px;
-          line-height: 24px;
-          margin-bottom: 10px;
-        }
-      }
-      .answer {
-        font-size: 16px;
-        font-family: $font-family-light;
-        color: rgba(51,51,51,1);
-        line-height: 33px;
-        p {
-          margin-top: 14px;
-          &:first-child {
-            margin-top: 0;
-          }
-        }
-        img {
-          max-width: 200px;
-          margin-top: 0.5rem;
-        }
-        @include touch {
-          font-size: 14px;
-          line-height: 27px;
-        }
+    padding-top: 92px;
+    .community-star {
+      display: flex;
+      display: -webkit-flex;
+      font-family: $font-family-title;
+      font-size: 24px;
+      color: #171C34;
+      letter-spacing: 0;
+      line-height: 38px;
+      span {
+        display: inline-block;
+        margin-left: 8px;
       }
     }
+    .content {
+      .video {
+        border: 1px solid red;
+        width: 706px;
+        height: 348px;
+      }
+    }
+   
   }
 
 </style>
