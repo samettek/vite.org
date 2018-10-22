@@ -1,6 +1,17 @@
 <template>
   <div class="community-wrapper">
-    
+    <div class="community-card-content">
+      <div class="flex-card">
+        <div class="card-title">
+          <img :src="src" />
+          <div class="name">{{ cname }}</div>
+        </div>
+        <p class="person-name">{{ name }}</p>
+      </div>
+      <div class="card-img">
+        <img :src="picture"/>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -13,13 +24,11 @@
       name: {
         type: String
       },
-      urls: {
-        type: Array,
-        default: () => []
+      picture: {
+        type: String
       },
-      type: {
-        type: String,
-        default: 'core'
+      cname: {
+        type: String
       }
     },
     data: function () {
@@ -37,68 +46,100 @@
     width: 220px;
     height: 100px;
     box-shadow: 0 4px 24px 0 rgba(211,234,255,0.53);
-    .img-wrapper {
-      height: 270px;
-      width: 270px;
+    padding: 20px 20px 12px 20px;
+    box-sizing: border-box;
+    .community-card-content {
       display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      position: relative;
-      .img-bg {
-        height: 190px;
-        width: 190px;
+      display: -webkit-flex;
+      justify-content: space-between;
+      .card-title {
+        display: flex;
+        display: -webkit-flex;
+        .name {
+          margin-left: 6px;
+          font-size: 14px;
+          color: #919AA3;
+          letter-spacing: 0;
+          line-height: 18px;
+        }
+      }
+      .person-name {
+        font-family: $font-family-title;
+        font-size: 15px;
+        color: #171C34;
+        margin-top: 10px;
+        max-width: 119px;
+        white-space: normal;
+        // word-break: break-all;
+        letter-spacing: -0.19px;
+        line-height: 20px;
+      }
+      .card-img {
         img {
-          height: 190px;
-          width: 190px;
-          transition: all 0.6s ease;
+          width:40px; 
+          height: 40px; 
+          border-radius: 50%;
         }
       }
     }
+    // .img-wrapper {
+    //   height: 270px;
+    //   width: 270px;
+      
+    //   .img-bg {
+    //     height: 190px;
+    //     width: 190px;
+    //     img {
+    //       height: 190px;
+    //       width: 190px;
+    //       transition: all 0.6s ease;
+    //     }
+    //   }
+    // }
 
-    .team-desc {
-      padding: 0px 20px;
-      margin-top: -10px;
-      height: 184px;
-      .name {
-        font-size:24px;
-        font-family: $font-family-main;
-        line-height:33px;
-        @include touch {
-          font-size: 18px;
-          line-height: 25px;
-        }
-      }
-      .icon-wrapper {
-        display: inline-block;
-        float: right;
-        .icon {
-          height: 33px;
-          width: 33px;
-          margin-left: 16px;
-          &:hover {
-          }
-          @include touch {
-            height: 31px;
-            width: 31px;
-          }
-        }
-      }
-      & > p {
-        margin-top: 20px;
-        font-size:14px;
-        font-family: $font-family-light;
-        line-height:20px;
-        transition: all 0.6s ease;
-        @include touch {
-          margin-top: 25px;
-        }
-      }
-    }
+    // .team-desc {
+    //   padding: 0px 20px;
+    //   margin-top: -10px;
+    //   height: 184px;
+    //   .name {
+    //     font-size:24px;
+    //     font-family: $font-family-main;
+    //     line-height:33px;
+    //     @include touch {
+    //       font-size: 18px;
+    //       line-height: 25px;
+    //     }
+    //   }
+    //   .icon-wrapper {
+    //     display: inline-block;
+    //     float: right;
+    //     .icon {
+    //       height: 33px;
+    //       width: 33px;
+    //       margin-left: 16px;
+    //       &:hover {
+    //       }
+    //       @include touch {
+    //         height: 31px;
+    //         width: 31px;
+    //       }
+    //     }
+    //   }
+    //   & > p {
+    //     margin-top: 20px;
+    //     font-size:14px;
+    //     font-family: $font-family-light;
+    //     line-height:20px;
+    //     transition: all 0.6s ease;
+    //     @include touch {
+    //       margin-top: 25px;
+    //     }
+    //   }
+    // }
 
-    .team-no-img {
-      margin-top: 10px;
-      height: 144px;
-    }
+    // .team-no-img {
+    //   margin-top: 10px;
+    //   height: 144px;
+    // }
   }
 </style>

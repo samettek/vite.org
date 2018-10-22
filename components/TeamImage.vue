@@ -67,6 +67,7 @@
           height: 190px;
           width: 190px;
           transition: all 0.6s ease;
+          border-radius: 50%;
         }
       }
     }
