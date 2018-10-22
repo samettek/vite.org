@@ -21,7 +21,9 @@
             </div>
           </div>
           <div class="column">
-            <div class="column-right">vvvvv</div>
+            <div class="column-right is-12-tablet">
+              <community-link :desc="desc"></community-link>
+            </div>
           </div>
         </div>
       </div>
@@ -32,13 +34,44 @@
 
 <script>
   import CommunityCard from '~/components/CommunityCard'
+  import CommunityLink from '~/components/CommunityLink'
 
   export default {
     components: {
-      CommunityCard
+      CommunityCard,
+      CommunityLink
     },
     data: function () {
       return {
+        desc: [{
+          img: require('~/assets/images/community/twitterblue.svg'),
+          links: ['https://twitter.com/vitelabs']
+        }, {
+          img: require('~/assets/images/community/telegramblue.svg'),
+          links: ['https://t.me/vite_ann',
+            'https://t.me/vite_en',
+            'https://t.me/vite_zh',
+            'https://t.me/vite_russia',
+            'https://t.me/vite_vietnamese',
+            'https://t.me/vite_korean',
+            'https://t.me/vite_thailand']
+        }, {
+          img: require('~/assets/images/community/githubblue.svg'),
+          links: ['https://github.com/vitelabs']
+        }, {
+          img: require('~/assets/images/community/dicordblue.svg'),
+          links: ['https://discordapp.com/invite/CsVY76q']
+        }, {
+          img: require('~/assets/images/community/redditblue.svg'),
+          links: ['https://www.reddit.com/r/vitelabs']
+        }, {
+          img: require('~/assets/images/community/youtubeblue.svg'),
+          links: ['https://www.youtube.com/channel/UC8qft2rEzBnP9yJOGdsJBVg']
+        }, {
+          img: require('~/assets/images/community/wechatblue.svg'),
+          key: 'pic',
+          pic: require('~/assets/images/vitelabs_wechat.jpg')
+        }],
         arrays: [{
           key: 0,
           img: require('~/assets/images/community/Belgium.svg'),
@@ -142,9 +175,7 @@
       width: 220px;
     }
     .column-right {
-      width: 424px;
-      border: 1px solid red;
-
+      min-width: 320px;
     }
    
   }
