@@ -4,19 +4,17 @@
     <section v-for="eco in ecology" :key="eco.key">
       <div class="container">
         <div class="columns">
-          <div class="column is-half " style="border: 1px solid red;" v-for="(item, index) in eco.content" :key="index">
-            <div style="width:500px;">
+          <div class="column is-half-tablet" v-for="(item, index) in eco.content" :key="index">
               <div class="img-wrapper">
                 <contract v-if="item === 'contract'"></contract>
                 <issue-currency v-if="item === 'issueCurrency'"></issue-currency>
                 <pay v-if="item === 'pay'"></pay>
                 <transfer v-if="item === 'transfer'"></transfer>
               </div>
-              <h3>{{$t(`ecology.${item}.title`)}}</h3>
-              <div>
+              <div class="ecology-title">{{$t(`ecology.${item}.title`)}}</div>
+              <div class="ecology-content">
                 {{$t(`ecology.${item}.content`)}}
               </div>
-            </div>
             
           </div>
         </div>
@@ -60,15 +58,6 @@
   @import "~assets/vars";
 
   section {
-    &.reverse-row {
-      .columns {
-        flex-direction: row-reverse;
-        .column {
-          
-        }
-      }
-    }
-
     @include touch {
       padding: 1.5rem;
     }
@@ -80,44 +69,36 @@
       .column {
         position: relative;
         @include desktop {
-          padding: 71px 0;
+          padding: 71px 20px;
         }
         @include touch {
-          padding: 2rem 0;
+          padding: 2rem 10px;
         }
-
-        // &:first-child {
-        //   @include tablet {
-        //     display: flex;
-        //     flex-direction: column;
-        //     align-items: center;
-        //     justify-content: center;
-        //   }
-        //   @include mobile {
-        //     padding-bottom: 69px;
-        //     padding-top: 69px - (16px / 2);
-        //   }
-        // }
-        
       }
 
       .img-wrapper {
         flex-direction: column;
         display: flex;
-        align-items: center;
-        h3 {
-          font-size:30px;
-          font-family: $font-family-main;
-          color:rgba(0,114,227,1);
-          line-height:42px;
-          margin-top: 31px;
-          text-align: center;
-          @include touch {
-            font-size: 24px;
-            line-height: 34px;
-            margin-top: 11px;
-          }
+        @include mobile {
+          align-items: center;
         }
+      }
+
+      .ecology-title {
+          font-family: $font-family-title;
+          font-size: 24px;
+          color: #171C34;
+          letter-spacing: 0;
+          line-height: 33px;
+          margin-top: 30px;
+          @include mobile {
+            text-align: center;
+          }
+      }
+      .ecology-content {
+        margin-top: 25px;
+        color: #919AA3;
+        line-height: 30px;
       }
     }
   }

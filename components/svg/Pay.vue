@@ -24,7 +24,10 @@
 
 <style rel="stylesheet/scss" lang="scss" scoped>
   @import "~assets/vars";
-
+ svg {
+    background: url("~assets/images/triangle.png");
+    background-size: cover;
+  }
   // .p-1 {
   //   transition: transform .6s ease-in-out;
   // }

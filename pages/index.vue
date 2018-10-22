@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="is-fullheight hero home">
+    <section class="hero home">
       <div class="hero-body">
         <div class="container">
           <div class="is-size-1-desktop is-size-2-touch slogan-wrapper">
@@ -11,7 +11,7 @@
           </div>
 
           <div class="btn-group-wrapper">
-            <white-paper></white-paper>
+            <a href="https://vite.net/" target="_blank">开始使用Vite</a>
           </div>
         </div>
       </div>
@@ -105,10 +105,7 @@
   .home {
     position: relative;
     font-family: $font-family-title;
-
-    background-image: url("~assets/images/detail_bg.svg");
-    background-size: cover;
-
+    margin-bottom: 100px;
     @include touch {
       .hero-body {
         display: block;
@@ -135,24 +132,23 @@
     }
     .btn-group-wrapper {
       margin-top: 3.75rem;
+      width: 200px;
+      height: 60px;
+      background: #007AFF;
+      box-shadow: 0 10px 40px 0 rgba(126,183,238,0.83);
+      color: white;
+      letter-spacing: 1px;
+      text-align: center;
+      line-height: 60px;
+      cursor: pointer;
+      a {
+        display: inline-block;
+        width: 200px;
+        height: 60px;
+        color: white;
+      }
       @include touch {
         margin-top: 12px;
-      }
-
-      & > .v-popover {
-        display: inline-block;
-      }
-
-      .btn-wrapper {
-        display: inline-block;
-        margin-left: 1rem;
-        &.blue {
-          .button {
-            color: $light-blue;
-            border-color: $light-blue;
-            background: transparent;
-          }
-        }
       }
 
       .button {

@@ -59,6 +59,7 @@
     }
     .links {
       margin-left: 23px;
+      margin-top: 10px;
       img {
         width: 100px;
         height: 100px;

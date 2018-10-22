@@ -42,7 +42,7 @@
       button {
         color: $common-text-color;
         background: transparent;
-        padding: 0 1rem 0 0;
+        padding: 0 0 0 0;
         border-radius: 0.35rem;
         height: (40rem/16);
         border: transparent;

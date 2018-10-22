@@ -1,106 +1,75 @@
 <template>
-  <no-ssr class="no-ssr">
-    <v-popover
-      offset="16"
-      :disabled="!isEnabled"
-      popoverClass="v-popover">
-      <div class="btn-wrapper">
-        <a class="button tooltip-target">
-          {{$t('home.whitePaper')}}
-        </a>
-      </div>
-
-      <template slot="popover">
-        <div class="item-wrapper">
-          <div v-for="(item, index) in list" :key="index">
-            <a class="tag" target="_blank" :href="urlList[item]">
-              {{$t(`urls.whitePaperList.${item}`)}}
-            </a>
-          </div>
-        </div>
-      </template>
-    </v-popover>
-
-    <div class="btn-wrapper" slot="placeholder">
-      <a class="button" :href="$t('urlSrc.whitePaper')" target="_blank">
-        {{$t('home.whitePaper')}}
-      </a>
+  <div class="dropdown lang-btn is-hoverable">
+    <div class="dropdown-trigger">
+      <button class="button">
+        <span>{{$t('nav.whitePaper')}}</span>
+      </button>
     </div>
-  </no-ssr>
+    <div class="dropdown-menu" id="lang-dropdown-menu" role="menu">
+      <div class="dropdown-content">
+        <template v-for="(item, index) in urlList">
+          <a class="dropdown-item" target="_blank" :href="urlMap[item]" :key="index">
+            {{$t(`urls.whitePaperList.${item}`)}}
+          </a>
+        </template>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script type="text/babel">
-  import config from '~/config.js'
-  import { VPopover } from 'v-tooltip'
+  import config from '~/config'
 
   export default {
-    components: {
-      VPopover
-    },
-    data: function () {
+    data () {
       return {
-        isEnabled: true,
-        urlList: config.urls.whitePaper,
-        list: ['english', 'chinese', 'korean', 'french', 'vietnamese', 'russian'],
-        isBrowser: process.browser
+        urlMap: config.urls.whitePaper
       }
     },
-    methods: {}
+    computed: {
+      urlList: function () {
+        return ['english', 'chinese', 'korean', 'french', 'vietnamese', 'russian']
+      }
+    }
   }
 </script>
 
-<style rel="stylesheet/scss" lang="scss">
-  .v-popover {
-    .popover-inner {
-      max-width: 300px;
-    }
-  }
-</style>
-
 <style rel="stylesheet/scss" lang="scss" scoped>
-  @import "assets/vars.scss";
+  @import "~assets/vars";
 
-  .no-ssr {
-    display: inline-block;
-  }
-
-  .button {
-    padding-left: 35px;
-    padding-right: 35px;
-    background: #007AFF;
-    box-shadow: 0 10px 40px 0 rgba(126,183,238,0.83);
-    width: 200px;
-    font-family: $font-family-title;
-    letter-spacing: 1px;
-    color: white;
-    line-height:3.75rem;
-    height:3.75rem;
-    @include touch {
-      width: 155px;
-      height: 34px;
-      font-size: 18px;
-      line-height: 25px;
-    }
-    &:focus {
-      outline: none;
-    }
-  }
-
-  .item-wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    & > div {
-      padding: 5px;
-      .tag {
-        background: none;
+  .lang-btn {
+    .dropdown-trigger {
+      button {
+        color: $common-text-color;
+        background: transparent;
+        padding: 0 0 0 0;
+        border-radius: 0.35rem;
+        height: (40rem/16);
+        border: transparent;
+        font-family: $font-family-light;
+        @include touch {
+          font-size: 14px;
+        }
+        &:focus {
+          border: none;
+          box-shadow: none;
+        }
         &:hover {
-          background: #0072e3;
-          color: white;
-          text-decoration: none;
+          color: $common-active-color;
+        }
+      }
+    }
+    .dropdown-menu {
+      .dropdown-content {
+        .dropdown-item {
+          color: $common-text-color;
+          &:hover {
+            color: $common-active-color
+          }
         }
       }
     }
   }
 </style>
+
+

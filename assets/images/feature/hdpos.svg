@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>hdpos</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页" transform="translate(-941.000000, -2770.000000)" stroke="#007AFF" stroke-width="2.7">
+            <g id="Group-11" transform="translate(856.000000, 2738.000000)">
+                <g id="web-design" transform="translate(85.000000, 32.000000)">
+                    <path d="M33.0909091,11.5652174 L38,11.5652174" id="Shape"></path>
+                    <path d="M2,11.5652174 L20.6545455,11.5652174" id="Shape"></path>
+                    <polyline id="Shape" points="33.5818182 4.95652174 38 4.95652174 38 38 2 38 2 4.95652174 27.2 4.95652174"></polyline>
+                    <path d="M10.1818182,4.95652174 L10.1818182,11.5652174" id="Shape" stroke-linecap="square"></path>
+                    <path d="M20.9818182,17.8434783 L17.7090909,14.5391304 L29.8181818,2.31304348 C30.8,1.32173913 32.1090909,1.32173913 33.0909091,2.31304348 C34.0727273,3.30434783 34.0727273,4.62608696 33.0909091,5.6173913 L20.9818182,17.8434783 Z" id="Shape" stroke-linecap="square"></path>
+                    <path d="M11.1810144,19.6423575 C12.1379522,18.3541127 13.5733589,18.3541127 14.5302967,19.6423575 C15.4872344,20.9306023 15.4872344,22.8629694 14.5302967,24.1512142 C13.5733589,25.4394589 10.3436938,25.2784283 10.3436938,25.2784283 C10.3436938,25.2784283 10.2240766,20.7695717 11.1810144,19.6423575 Z" id="Shape" stroke-linecap="square"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

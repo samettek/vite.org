@@ -37,28 +37,9 @@
 
 <style rel="stylesheet/scss" lang="scss" scoped>
   @import "~assets/vars";
-
-  .p-1 {
-    transition: transform .6s ease-in-out;
+  svg {
+    background: url("~assets/images/triangle.png");
+    background-size: cover;
   }
-
-  svg:hover {
-    .p-1 {
-      transform: translate(-85px, -85px);
-    }
-  }
-
-  @include mobile {
-    svg {
-      height: 170px;
-      width: 170px;
-    }
-  }
-
-  @include touch {
-    svg {
-      height: 230px;
-      width: 230px;
-    }
-  }
+  
 </style>

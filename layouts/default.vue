@@ -23,9 +23,11 @@
               <div class="nav-item">
                 <Media></Media>
               </div>
-              <div class="line is-hidden-desktop"></div>
               <div class="nav-item">
                 <Exchange></Exchange>
+              </div>
+              <div class="nav-item">
+                <WhitePaper></WhitePaper>
               </div>
               
             </div>
@@ -37,7 +39,7 @@
           </div>
         </div>
       </div>
-    <div class="container">
+    <div class="container is-hidden-mobile">
       <div class="img-text">
         <div>参加活动</div>
         <div>赢 VITE</div>
@@ -58,6 +60,7 @@
   import LogoWithoutWords from '~/components/LogoWithoutWords.vue'
   import Footer from '~/components/Footer.vue'
   import Exchange from '~/components/Exchange.vue'
+  import WhitePaper from '~/components/WhitePaper.vue'
   import Media from '~/components/Media.vue'
   import config from '~/config'
 
@@ -68,6 +71,7 @@
       LogoWithoutWords,
       VFooter: Footer,
       Exchange,
+      WhitePaper,
       Media
     },
     head () {
