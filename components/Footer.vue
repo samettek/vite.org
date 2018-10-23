@@ -3,40 +3,41 @@
     <footer class="footer">
       <div class="container">
         <div class="columns">
-          <div class="column icon-wrapper is-one-third">
+          <div class="column icon-wrapper is-one-third is-hidden-touch">
             <logo-without-words></logo-without-words>
           </div>
           <div class="column footer-tab">
-            <div class="columns is-mobile">
-              <div class="column" v-for="(item, index) in navs" :key="index">
-                <nuxt-link :key="item" :to="localePath(item)" class="nav-item text-hover-transition">
-                  {{$t(`nav.${item}`)}}
-                </nuxt-link>
+            <div class="">
+              <div class="is-flex footer-nav">
+                <div v-for="(item, index) in navs" :key="index" class="nav-item">
+                  <nuxt-link :key="item" :to="localePath(item)" class="text-hover-transition">
+                    {{$t(`nav.${item}`)}}
+                  </nuxt-link>
+                </div>
+                <Media class="nav-item" :is-footer="true"></Media>
+                <Exchange class="nav-item" :is-footer="true"></Exchange>
+                <WhitePaper class="nav-item" :is-footer="true"></WhitePaper>
               </div>
-              <div class="column">
-                <Media></Media>
+              <div class="">
+                <div class="icons mt40">
+                  <div class="icon-links-wrapper">
+                    <a :href="urls.github" target="_blank" class="text-hover-transition"><fa-icon class="icon" :icon="['fab', 'github']"></fa-icon></a>
+                    <a :href="urls.discord" target="_blank" class="text-hover-transition"><fa-icon class="icon" :icon="['fab', 'discord']"></fa-icon></a>
+                    <a :href="urls.twitter" target="_blank" class="text-hover-transition"><fa-icon class="icon" :icon="['fab', 'twitter']"></fa-icon></a>
+                    <telegram></telegram>
+                    <a :href="urls.reddit" target="_blank" class="text-hover-transition"><fa-icon class="icon" :icon="['fab', 'reddit']"/></a>
+                    <a :href="urls.youtube" target="_blank" class="text-hover-transition"><fa-icon class="icon" :icon="['fab', 'youtube']"/></a>
+                    <wechat></wechat>
+                  </div>
+                </div>
               </div>
-              <div class="column">
-                <Exchange></Exchange>
+              <div class="">
+                <div class="copyright mt40">
+                  <span>
+                    © 2018 VITE Labs. All Rights Reserved. 
+                  </span>
+                </div>
               </div>
-              <div class="column">
-              </div>
-            </div>
-            <div class="icons mt40">
-              <div class="icon-links-wrapper">
-                <a :href="urls.github" target="_blank" class="text-hover-transition"><fa-icon class="icon" :icon="['fab', 'github']"></fa-icon></a>
-                <a :href="urls.discord" target="_blank" class="text-hover-transition"><fa-icon class="icon" :icon="['fab', 'discord']"></fa-icon></a>
-                <a :href="urls.twitter" target="_blank" class="text-hover-transition"><fa-icon class="icon" :icon="['fab', 'twitter']"></fa-icon></a>
-                <telegram></telegram>
-                <a :href="urls.reddit" target="_blank" class="text-hover-transition"><fa-icon class="icon" :icon="['fab', 'reddit']"/></a>
-                <a :href="urls.youtube" target="_blank" class="text-hover-transition"><fa-icon class="icon" :icon="['fab', 'youtube']"/></a>
-                <wechat></wechat>
-              </div>
-            </div>
-            <div class="copyright mt40">
-              <span>
-                © 2018 VITE Labs. All Rights Reserved. 
-              </span>
             </div>
           </div>
         </div>
@@ -52,6 +53,7 @@
   import config from '~/config.js'
   import Exchange from '~/components/Exchange.vue'
   import Media from '~/components/Media.vue'
+  import WhitePaper from '~/components/WhitePaper.vue'
 
   export default {
     components: {
@@ -59,7 +61,8 @@
       Wechat,
       Telegram,
       Exchange,
-      Media
+      Media,
+      WhitePaper
     },
     data: function () {
       let {urls} = config
@@ -102,6 +105,24 @@
       font-size: 12px;
       text-align: right;
     }
+    .footer-nav {
+      justify-content: flex-end;
+      a {
+        color: white;
+      }
+      .nav-item {
+        padding: 0.5rem 23px;
+        color: $common-text-color;
+        font-family: $font-family-light;
+        &:hover {
+          color: $common-active-color;
+        }
+        &.active {
+          color: $common-active-color;
+        }
+      }
+    }
+
     
     .icon-links-wrapper {
       @include mobile {
@@ -145,29 +166,6 @@
             font-size: 15px;
             line-height: 21px;
             margin-bottom: 18px;
-          }
-        }
-      }
-      ul {
-        li {
-          a {
-            font-size:16px;
-            font-family: $font-family-main;
-            color:white;
-            line-height:25px;
-
-            @include touch {
-              font-size: 14px;
-              line-height: 20px;
-            }
-
-            @include widescreen-desktop {
-              font-size: 15px;
-            }
-
-            &:hover {
-              color: #1580E3;
-            }
           }
         }
       }

@@ -1,7 +1,7 @@
 <template>
   <div class="dropdown lang-btn is-hoverable">
     <div class="dropdown-trigger">
-      <button class="button">
+      <button class="button" :class="{'foot-btn': isFooter}">
         <span>{{$t('nav.media')}}</span>
       </button>
     </div>
@@ -21,6 +21,12 @@
   import config from '~/config'
 
   export default {
+    props: {
+      isFooter: {
+        type: Boolean,
+        default: false
+      }
+    },
     data () {
       return {
         mediaMap: config.urls.media
@@ -56,6 +62,12 @@
         }
         &:hover {
           color: $common-active-color;
+        }
+      }
+      .foot-btn {
+        color: white;
+        &:hover {
+          color: white;
         }
       }
     }
