@@ -14,9 +14,11 @@
                     {{$t(`nav.${item}`)}}
                   </nuxt-link>
                 </div>
-                <Media class="nav-item" :is-footer="true"></Media>
-                <Exchange class="nav-item" :is-footer="true"></Exchange>
-                <WhitePaper class="nav-item" :is-footer="true"></WhitePaper>
+                <div class="is-flex">
+                  <Media class="nav-item" :is-footer="true"></Media>
+                  <Exchange class="nav-item" :is-footer="true"></Exchange>
+                  <WhitePaper class="nav-item" :is-footer="true"></WhitePaper>
+                </div>
               </div>
               <div class="">
                 <div class="icons mt40">
@@ -92,6 +94,9 @@
   .footer {
     height: 315px;
     background: url("~assets/images/footer/footer.svg") 40% 60%;
+    @include touch {
+      background: url("~assets/images/footer/footer.svg") 100% 60%;
+    }
     .mt40 {
       margin-top: 40px;
     }
@@ -104,9 +109,16 @@
     .copyright {
       font-size: 12px;
       text-align: right;
+      @include touch {
+        text-align: center;
+      }
     }
     .footer-nav {
       justify-content: flex-end;
+      @include touch {
+         flex-wrap: wrap;
+         justify-content: center;
+      }
       a {
         color: white;
       }
@@ -125,7 +137,7 @@
 
     
     .icon-links-wrapper {
-      @include mobile {
+      @include touch {
         text-align: center;
       }
       & > a, /deep/ .v-popover {
@@ -152,7 +164,7 @@
     }
     .links-wrapper {
       line-height: 1.75rem;
-      @include mobile {
+      @include touch {
         text-align: center;
       }
       & > div {
