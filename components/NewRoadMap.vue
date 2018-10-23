@@ -1,21 +1,31 @@
 <template>
   <section>
     <h1 class="roadmap-title">路线图</h1>
-    <div class="container">
+     
+    <div class="container is-flex">
+      <div class="left-img" @click="onPrev">
+        <img src="~assets/images/roadmap/left.svg"/>
+      </div>
       <div class="timeline">
-        <ul v-in-viewport>
-          <li class="li-spacer in-view"
+        <ul class="is-flex">
+          <li class="in-view"
               :class="{ 'is-finish': finished.indexOf(index) > -1 }"
               :key="item.time"
               v-for="(item, index) in timelines">
-            <div class="inview2 animated" :class="{'fadeInLeft': (index + 1) % 2 === 0, 'fadeInRight': (index + 1) % 2 === 1}">
-              <span class="time">{{item.time}}</span>
-              <p v-for="(desc, index) in item.description" :key="index">
-                {{desc}}
-              </p>
-            </div>
+              <div class="desc-wrapper">
+                <span class="time">{{item.time}}</span>
+                <div class="desc">
+                  <p v-for="(desc, index) in item.description" :key="index">
+                    {{desc}}
+                  </p>
+                </div>
+              </div>
           </li>
+          <li class="in-view"></li>
         </ul>
+      </div>
+      <div class="right-img" @click="onNext">
+        <img src="~assets/images/roadmap/right.svg"/>
       </div>
     </div>
   </section>
@@ -27,7 +37,7 @@
     },
     data: function () {
       return {
-        finished: [0, 1]
+        finished: [0, 1, 2, 3, 4]
       }
     },
     computed: {
@@ -48,7 +58,16 @@
       }
     },
     methods: {
-  
+      onNext () {
+        if (this.selected !== this.timelines.length - 1) {
+          this.selected = this.selected + 1
+        }
+      },
+      onPrev () {
+        if (this.selected !== 0) {
+          this.selected = this.selected - 1
+        }
+      }
     }
   }
 </script>
@@ -63,89 +82,109 @@
       text-align: center; 
       padding-top: 109px;
     }
-    $timelineColor: #3381D3;
-    $dot-size: 2.5rem;
-    $dot-gap:  0.95;
-    $dot-size-inner: (2.5rem * $dot-gap);
+    $timelineColor: #007AFF;
+    $dot-size: 1.5rem;
+    $dot-gap:  0.5;
+    $dot-size-inner: 0.75rem;
+    .left-img {
+      min-width: 60px;
+      height: 100px;
+      cursor: pointer;
+      text-align: center;
+      margin-top: 136px; 
+    }
+    .right-img {
+      min-width: 60px;
+      height: 100px;
+      cursor: pointer; 
+      text-align: center;
+      margin-top: 136px; 
+    }
     .timeline {
+      min-height: 500px;
+      overflow-x: scroll;
       ul {
+        padding-top: 150px; 
+        & li:first-child {
+          min-width: 80px;
+        }
+        & li:last-child {
+          min-width: 80px;
+          border-right: none;
+          &::after {
+            width: 0;
+            height: 0;
+          }
+        }
         li {
           list-style-type: none;
           position: relative;
-          width: 2px;
+          min-width: 160px;
+          height: 46px;
           margin: 0 auto;
-          background: $timelineColor;
+          border-top: 1px dashed $timelineColor;
+          border-right: 1px dashed $timelineColor;
           &.is-finish {
-            .time {
-              color: #111111;
-            }
-            & > div {
-              & > p {
-                color: #111111;
-              }
-            }
+            border-top: 2px solid $timelineColor;
             &::before {
               content: '';
               position: absolute;
-              left: 50%;
+              left: 100%;
               transform: translateX(-50%);
               width: $dot-size;
               height: $dot-size;
               border-radius: 50%;
-              top: 0px;
-              background: white;
-              border: 1px solid #018DFF;
+              top: -($dot-size * (1 - $dot-gap));
+              background: #B8D8FF;
             }
             &::after {
+              left: 100%;
               width: $dot-size-inner;
               height: $dot-size-inner;
-              top: ($dot-size * ((1 - $dot-gap) / 2));
-              background: #018DFF;
-              border: 3px solid #F8F8F8;
+              top: -($dot-size * ((1 - $dot-gap) / 2));
+              background: $timelineColor;
             }
+            
           }
           &::after {
             content: '';
             position: absolute;
-            left: 50%;
+            left: 100%;
             transform: translateX(-50%);
-            width: 1.59rem;
-            height: 1.59rem;
+            width: $dot-size-inner;
+            height: $dot-size-inner;
             border-radius: 50%;
-            top: 1px;
-            background: #D5E6F7;
-            border: 3px solid #F8F8F8;
+            top: -($dot-size * ((1 - $dot-gap) / 2));
+            background: $timelineColor;
           }
-          &:nth-child(odd) div {
-            left: 45px;
-          }
-          &:nth-child(even) div {
-            left: -539px;
-            text-align: right;
-          }
-          div {
-            position: relative;
-            bottom: 0;
-            width: 500px;
-            padding: 1rem;
-            border-radius: 4px;
-            font-family: $font-family-light;
-            .time {
-              margin-top: -1.13rem;
-              display: block;
-              font-size: 1.13rem;
-              line-height: 1.38rem;
-              text-transform: uppercase;
-              color: #666666;
-              margin-bottom: 0.4rem;
-            }
-            & > p {
-              font-size: 1rem;
-              line-height: 1.7rem;
-              color: #666666;
-              word-wrap: break-word;
-              font-weight: 300;
-            }
+        }
+      }
+      .desc-wrapper {
+        width: 200%; 
+        height: 64px;
+        position: relative;
+        .time {
+          font-family: $font-family-title;
+          position: absolute;
+          top: -58px;
+          left: calc(50% - 30px);
+          display: inline;
+          color: #007AFF;
+          letter-spacing: 0.23px;
+          text-align: center;
+        }
+        .desc {
+          position: absolute;
+          width: 120px;
+          left: calc(50% - 60px);
+          top: 100%;
+          font-size: 13px;
+          color: #171C34;
+          letter-spacing: 0;
+          line-height: 17px;
+          text-align: center;
+          p {
+            margin-bottom: 10px;
           }
         }
       }
@@ -169,34 +208,33 @@
         –––––––––––––––––––––––––––––––––––––––––––––––––– */
     @media screen and (max-width: 1020px) {
       .timeline ul li div {
-        width: 400px;
+        // width: 400px;
       }
       .timeline ul li:nth-child(even) div {
-        left: -(400px + 45px - 6px); /*250+45-6*/
+        // left: -(400px + 45px - 6px); /*250+45-6*/
       }
     }
     @media screen and (max-width: 900px) {
       .timeline ul li div {
-        width: 250px;
+        // width: 250px;
       }
       .timeline ul li:nth-child(even) div {
-        left: -289px; /*250+45-6*/
+        // left: -289px; /*250+45-6*/
       }
     }
     @media screen and (max-width: 600px) {
       .timeline ul li {
-        margin-left: 20px;
       }
       .timeline ul li div {
-        width: calc(100vw - 91px);
+        // width: calc(100vw - 91px);
       }
       .timeline ul li:nth-child(even) div {
-        left: 1.5rem;
-        text-align: left;
+        // left: 1.5rem;
+        // text-align: left;
       }
       .timeline ul li:nth-child(odd) div {
-        left: 1.5rem;
-        text-align: left;
+        // left: 1.5rem;
+        // text-align: left;
       }
     }
   }

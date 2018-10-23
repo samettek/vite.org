@@ -59,27 +59,27 @@ module.exports = {
     title: '路线图',
     timelines: [
       {
-        'time': '2018 二月',
+        'time': '2018.02',
         'description': '项目启动'
       },
       {
-        'time': '2018 四月',
+        'time': '2018.04',
         'description': 'Vite系统设计，白皮书发布'
       },
       {
-        'time': '2018 五月',
+        'time': '2018.05',
         'description': '发布官方网站，路演'
       },
       {
-        'time': '2018 六月',
+        'time': '2018.06',
         'description': '启动Vite Core开发'
       },
       {
-        'time': '2018 十月',
+        'time': '2018.10',
         'description': 'Vite Core alpha 内测版'
       },
       {
-        'time': '2018 十二月',
+        'time': '2018.12',
         'description': [
           'Vite Core beta M1：支持交易、资产发行、分层共识、快照链',
           'Vite SDK发布',
@@ -87,48 +87,48 @@ module.exports = {
         ]
       },
       {
-        'time': '2019 一月',
+        'time': '2019.01',
         'description': 'Vite 客户端桌面版'
       },
       {
-        'time': '2019 二月',
+        'time': '2019.02',
         'description': 'Vite 移动客户端内测版'
       },
       {
-        time: '2019 四月',
+        time: '2019.04',
         description: [
           'Vite Core beta M2：智能合约、Solidity++编译器、智能合约开发文档'
         ]
       },
       {
-        'time': '2019 五月',
+        'time': '2019.05',
         'description': [
           'Vite Core beta M3：配额租赁、定时调度、命名服务',
           'Vite 移动客户端支持dApplet小程序功能'
         ]
       },
       {
-        'time': '2019 七月',
+        'time': '2019.07',
         'description': 'Vite Core beta M4：路印协议、跨链'
       },
       {
-        'time': '2019 八月',
+        'time': '2019.08',
         'description': 'Vite 移动客户端集成去中心化交易'
       },
       {
-        'time': '2019 十月',
+        'time': '2019.10',
         'description': 'Vite Core beta M5：合约升级、区块裁剪、solidity++优化'
       },
       {
-        'time': '2019 十一月',
+        'time': '2019.11',
         'description': 'Vite Testnet Release：测试网络上线'
       },
       {
-        'time': '2020 一月',
+        'time': '2020.01',
         'description': 'Vite 1.0 Release：主网上线'
       },
       {
-        'time': '2020 二月',
+        'time': '2020.02',
         'description': 'Vite 启动生态发展计划'
       }
     ]

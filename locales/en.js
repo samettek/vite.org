@@ -59,27 +59,27 @@ module.exports = {
     title: 'Roadmap',
     timelines: [
       {
-        'time': 'Feb 2018',
+        'time': '2018.02',
         'description': 'Initiation of Project'
       },
       {
-        'time': 'April 2018',
+        'time': '2018.04',
         'description': 'System design of Vite, completion of white paper'
       },
       {
-        'time': 'May 2018',
+        'time': '2018.05',
         'description': 'Release the official website / Road show'
       },
       {
-        'time': 'June 2018',
+        'time': '2018.06',
         'description': 'Beginning of Vite Core\'s R&D'
       },
       {
-        'time': 'Oct 2018',
+        'time': '2018.10',
         'description': 'Vite Core alpha'
       },
       {
-        'time': 'Dec 2018',
+        'time': '2018.12',
         'description': [
           'Vite Core beta M1: Trading / Issuance of assets / Hierarchical consensus algorithm / Snapshot chain',
           'Release Vite SDK',
@@ -87,48 +87,48 @@ module.exports = {
         ]
       },
       {
-        'time': 'Jan 2019',
+        'time': '2019.01',
         'description': 'Desktop client of Vite'
       },
       {
-        'time': 'Feb 2019',
+        'time': '2019.02',
         'description': 'Alpha version of Vite mobile app'
       },
       {
-        time: 'April 2019',
+        time: '2019.04',
         description: [
           'Vite Core beta M2: Smart Contract / Solidity++ Compiler / Smart Contract API Documentation'
         ]
       },
       {
-        'time': 'May 2019',
+        'time': '2019.05',
         'description': [
           'Vite Core beta M3: Quota leasing / Contract timing scheduling / VNS naming services',
           'Vite dApplet support within Mobile app'
         ]
       },
       {
-        'time': 'July 2019',
+        'time': '2019.07',
         'description': 'Vite Core beta M4：Loopring / Ethereum cross-chain gateway'
       },
       {
-        'time': 'Aug 2019',
+        'time': '2019.08',
         'description': 'Vite integrated decentralized trading function within Mobile app'
       },
       {
-        'time': 'Oct 2019',
+        'time': '2019.10',
         'description': 'Vite Core beta M5: Contract upgrade / Block pruning / Solidity++ optimization'
       },
       {
-        'time': 'Nov 2019',
+        'time': '2019.11',
         'description': 'Vite Testnet Release'
       },
       {
-        'time': 'Jan 2020',
+        'time': 'J2020.01',
         'description': 'Vite 1.0 Release'
       },
       {
-        'time': 'Feb 2020',
+        'time': '2020.02',
         'description': 'Kickoff of plan for ecosystem development in Vite'
       }
     ]
