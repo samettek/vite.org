@@ -150,6 +150,7 @@
       color: #171C34;
       letter-spacing: 0;
       line-height: 38px;
+      margin-bottom: 39px;
       span {
         display: inline-block;
         margin-left: 8px;

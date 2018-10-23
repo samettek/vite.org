@@ -2,11 +2,11 @@
   <section>
     <footer class="footer">
       <div class="container">
-        <div class="columns">
-          <div class="column icon-wrapper is-one-third is-hidden-touch">
+        <div class="is-flex whole-footer">
+          <div class="icon-wrapper is-one-third is-hidden-touch">
             <logo-without-words></logo-without-words>
           </div>
-          <div class="column footer-tab">
+          <div class="footer-tab">
             <div class="">
               <div class="is-flex footer-nav">
                 <div v-for="(item, index) in navs" :key="index" class="nav-item">
@@ -96,6 +96,9 @@
     background: url("~assets/images/footer/footer.svg") 40% 60%;
     @include touch {
       background: url("~assets/images/footer/footer.svg") 100% 60%;
+    }
+    .whole-footer {
+      justify-content: space-between;
     }
     .mt40 {
       margin-top: 40px;

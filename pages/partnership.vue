@@ -64,6 +64,7 @@ export default {
     .is-info {
       width: 570px;
       height: 262px;
+      margin: 0 auto;
       padding: 30px;
       box-sizing: border-box;
       background: #223260;

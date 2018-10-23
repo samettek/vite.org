@@ -1,5 +1,5 @@
 <template>
-  <div class="dropdown lang-btn is-hoverable">
+  <div class="dropdown lang-btn is-hoverable is-right">
     <div class="dropdown-trigger">
       <button class="button" :class="{'foot-btn': isFooter}">
         <span>{{$t('nav.whitePaper')}}</span>

@@ -184,7 +184,9 @@ module.exports = {
       },
       zhoudan: {
         name: 'ZHOU DAN',
-        position: 'BEIJING'
+        position: 'BEIJING',
+        description: 'hhhhhhhhhhhh',
+        job: '前端开发工程师'
       }
     }
   },

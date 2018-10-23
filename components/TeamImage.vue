@@ -13,8 +13,11 @@
           <fa-icon class="icon text-hover-transition" :icon="url.icon" />
         </a>
       </div>
-      <div class="position">{{$t(`team.nameMap.${name}.position`)}}</div>
-      <p>{{$t(`team.nameMap.${name}.description`)}}</p>
+      <div class="desc is-flex">
+        <div class="job" v-if="!src">{{$t(`team.nameMap.${name}.job`)}}</div>
+        <div class="position"><span v-if="!src">|</span> {{$t(`team.nameMap.${name}.position`)}}</div>
+      </div>
+      <p class="desc">{{$t(`team.nameMap.${name}.description`)}}</p>
     </div>
   </div>
 </template>
@@ -50,7 +53,7 @@
 
   .team-item {
     width: 270px;
-    
+    margin: 0 auto;
     box-shadow: 0 4px 24px 0 rgba(211,234,255,0.53);
     .img-wrapper {
       height: 270px;
@@ -75,11 +78,12 @@
     .team-desc {
       padding: 0px 20px;
       margin-top: -10px;
-      height: 184px;
+      min-height: 184px;
       .name {
-        font-size:24px;
         font-family: $font-family-main;
-        line-height:33px;
+        line-height:28px;
+        font-size: 20px;
+        color: #171C34;
         @include touch {
           font-size: 18px;
           line-height: 25px;
@@ -88,26 +92,40 @@
       .icon-wrapper {
         display: inline-block;
         float: right;
+        a {
+          color: #007AFF;
+        }
         .icon {
-          height: 33px;
-          width: 33px;
+          height: 24px;
+          width: 24px;
           margin-left: 16px;
-          &:hover {
-          }
-          @include touch {
-            height: 31px;
-            width: 31px;
-          }
         }
       }
-      & > p {
-        margin-top: 20px;
+      .position {
+        margin-top: 6px;
+        font-family: $font-family-title;
+        color: #C6CACE;
+        span {
+          display: inline-block;
+          margin-left: 6px;
+        }
+      }
+      .job {
+        margin-top: 6px;
+        font-family: $font-family-title;
+        color: #171C34;
+      }
+      .desc {
         font-size:14px;
+      }
+      & > p {
+        margin-top: 10px;
         font-family: $font-family-light;
         line-height:20px;
         transition: all 0.6s ease;
+        color: #919AA3;
         @include touch {
-          margin-top: 25px;
+          margin-top: 5px;
         }
       }
     }

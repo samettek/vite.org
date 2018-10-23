@@ -226,7 +226,8 @@ module.exports = {
       zhoudan: {
         name: 'zhou dan',
         position: '北京',
-        description: 'hhhhhhhhhhhh'
+        description: 'hhhhhhhhhhhh',
+        job: '前端开发工程师'
       }
     }
   },
