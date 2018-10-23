@@ -39,7 +39,7 @@
 
   .link-wrapper {
     background: #F5FAFF;
-    padding: 40px;
+    padding: 22px;
     box-sizing: border-box;
     .flex-top {
       display: flex;

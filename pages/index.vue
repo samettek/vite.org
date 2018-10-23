@@ -105,7 +105,6 @@
   .home {
     position: relative;
     font-family: $font-family-title;
-    margin-bottom: 100px;
     @include touch {
       .hero-body {
         display: block;
@@ -113,6 +112,7 @@
     }
 
     .slogan-wrapper {
+      margin-top: 212px;
       max-width: 590px;
       @include touch {
         max-width: unset;

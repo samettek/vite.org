@@ -105,6 +105,10 @@
     }
     .footer-tab {
       color: white;
+      @include touch {
+        margin: 0 auto;
+      }
+      
     }
     .icons {
       text-align: right;

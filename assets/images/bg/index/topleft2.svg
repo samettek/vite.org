@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="547" height="1012" viewBox="0 0 547 1012">
+  <defs>
+    <filter id="首页左上2-a" width="134%" height="139.2%" x="-17%" y="-19.6%" filterUnits="objectBoundingBox">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="50"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(-471 13)">
+    <polygon fill="#D3EAFF" points="490.5 132 932 897 49 897" filter="url(#首页左上2-a)" opacity=".486" transform="rotate(177 490.5 514.5)"/>
+    <polygon fill="#007AFF" fill-opacity=".8" points="387 36 743 652 31 652" transform="rotate(174 387 344)"/>
+  </g>
+</svg>

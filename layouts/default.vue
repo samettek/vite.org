@@ -196,12 +196,22 @@
   .nuxt-content {
     margin-top: 72px;
   }
-
+  .is-index-page {
+    margin-top: 0;
+    background: no-repeat url("~assets/images/bg/index/topright3.svg") 150% 0%,
+                no-repeat url("~assets/images/bg/index/topleft1.svg") -1% 9%,
+                no-repeat url("~assets/images/bg/index/topleft2.svg") 0% 3%;
+    @include touch {
+      background: no-repeat url("~assets/images/bg/index/topright3.svg") 150% 0%;
+    }
+  }
   .navbar {
     border-bottom: 1px solid transparent;
     z-index: 222222;
+    background: white;
     &.headroom--not-top {
       border-bottom: 1px solid rgba(0,0,0,0.05);
+      background: white;
     }
     @include desktop {
       &.is-index-page.headroom--top {

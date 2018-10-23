@@ -41,10 +41,11 @@ export default {
     display: -webkit-flex;
     position: relative;
     .news-icon {
-      position: absolute;
-      left: -78px;
+      // position: absolute;
+      // left: -78px;
     }
     .news {
+      margin-left: 13px;
       margin-top: 21px;
       .news-title {
         font-family: $font-family-title;

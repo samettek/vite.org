@@ -52,12 +52,12 @@
 
 
   .team-item {
-    width: 270px;
+    width: 242px;
     margin: 0 auto;
     box-shadow: 0 4px 24px 0 rgba(211,234,255,0.53);
     .img-wrapper {
-      height: 270px;
-      width: 270px;
+      height: 242px;
+      width: 242px;
       display: flex;
       flex-direction: row;
       justify-content: center;

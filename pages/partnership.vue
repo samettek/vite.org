@@ -62,7 +62,7 @@ export default {
       margin-bottom: 80px; 
     }
     .is-info {
-      width: 570px;
+      width: 510px;
       height: 262px;
       margin: 0 auto;
       padding: 30px;
