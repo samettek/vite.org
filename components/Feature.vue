@@ -94,8 +94,7 @@
       background-size: contain;
       background-image: url("~assets/images/feature/bg.svg");
       .is-flex {
-        justify-content: space-between;
-        padding-top: 20px; 
+        justify-content: center;
       }
       .safe {
         width: 181.5px;
@@ -110,13 +109,14 @@
         align-items: center;
       }
       .hexagon {
-        width: 262px;
-        height: 240px;
+        width: 226px;
+        height: 218px;
         background: url("~assets/images/feature/hexagon.svg");
-        background-size: cover; 
+        background-size: contain; 
         text-align: center;
         justify-content: center;
         align-items: center;
+        margin-top: 40px; 
         .hexagon-tag {
           margin-top: 12px; 
           font-family: $font-family-title;

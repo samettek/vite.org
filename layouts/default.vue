@@ -200,9 +200,15 @@
     margin-top: 0;
     background: no-repeat url("~assets/images/bg/index/topright3.svg") 150% 0%,
                 no-repeat url("~assets/images/bg/index/topleft1.svg") -1% 9%,
-                no-repeat url("~assets/images/bg/index/topleft2.svg") 0% 3%;
+                no-repeat url("~assets/images/bg/index/topleft2.svg") 0% 3%,
+                no-repeat url("~assets/images/bg/index/topright1.svg") 90% 9%,
+                no-repeat url("~assets/images/bg/index/topright2.svg") 110% 6%/ 900px 1000px;
     @include touch {
-      background: no-repeat url("~assets/images/bg/index/topright3.svg") 150% 0%;
+      background: no-repeat url("~assets/images/bg/index/topright3.svg") 150% 0%,
+                  no-repeat url("~assets/images/bg/index/topright1.svg") 90% 11%/ 230px 230px;
+    }
+    @include mobile {
+      background: none;
     }
   }
   .navbar {
