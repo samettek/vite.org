@@ -180,7 +180,7 @@
 <style rel="stylesheet/scss" lang="scss" scoped>
   @import "assets/vars.scss";
   .public {
-    background: no-repeat url("~assets/images/bg/footer_others.svg") -10% 100%;
+    background: no-repeat url("~assets/images/bg/footer_others.svg") 0% 100%;
   }
 
   .is-index-public {
@@ -230,6 +230,10 @@
     background: no-repeat url("~assets/images/bg/team/topleft.svg") -58% 0%,
                 no-repeat url("~assets/images/bg/team/topright.svg") 100% 20%,
                 no-repeat url("~assets/images/bg/team/bottomright.svg") 110% 95%;
+    @include touch {
+      background: no-repeat url("~assets/images/bg/team/topleft.svg") -58% 0%,
+                no-repeat url("~assets/images/bg/team/topright.svg") 100% 20%;
+    }
   }
   .is-partnership-page {
     background: no-repeat url("~assets/images/bg/partnership/topleft.svg") -8% 2%,
