@@ -1,14 +1,20 @@
-@import "vars";
 
+
+$gap: 64px;
+// $tablet: 770px;
+// $desktop: 961px + (2 * $gap);
+
+@import "vars";
 @import "~bulma/sass/utilities/functions";
 
 @import "~bulma";
 
 
+
 .container {
   @include desktop {
-    max-width: 900px;
-    width: 900px;
+    // max-width: 900px;
+    // width: 900px;
   }
   @include widescreen {
     max-width: 1040px;

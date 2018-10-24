@@ -2,7 +2,6 @@
   <div>
     <section>
       <h1 style="text-align: center">Vite 特性</h1>
-      <div class="bg-container">
         <div class="container is-flex">
           <div>
             <div class="safe">高吞吐</div>
@@ -46,7 +45,6 @@
           </div>
           
         </div>
-      </div>
     </section>
   </div>
 </template>
@@ -88,7 +86,6 @@
   @import "~assets/vars";
 
   section {
-    .bg-container {
       width: 100%;
       height: 646px;
       background-size: contain;
@@ -134,6 +131,5 @@
           
         }
       }
-    }
   }
 </style>

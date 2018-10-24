@@ -12,7 +12,7 @@
           </div>
         </div>
       </div>
-      <mailto-btn :text="'合作请联系'"></mailto-btn>
+      <mailto-btn :text="'合作请联系'" :href="`mailto:partnerships@vite.org`"></mailto-btn>
     </div>
   </section>
 </template>
@@ -62,7 +62,7 @@ export default {
       margin-bottom: 80px; 
     }
     .is-info {
-      width: 510px;
+      min-width: 510px;
       height: 262px;
       margin: 0 auto;
       padding: 30px;

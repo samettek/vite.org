@@ -32,10 +32,10 @@
               url: 'https://www.bitmain.com/'
             },
             {
-              key: 'ok',
-              logo: require('~/assets/images/investor/ok.png'),
-              logoActive: require('~/assets/images/investor/ok-blue.png'),
-              url: 'https://www.okex.com/pages/products/blockchain.html'
+              key: 'funcityCapital',
+              logo: require('~/assets/images/investor/funcity.png'),
+              logoActive: require('~/assets/images/investor/funcity-blue.png'),
+              url: 'http://www.funcityholding.com/'
             },
             {
               key: 'starwinCapital',
@@ -74,10 +74,10 @@
               url: 'http://www.newgenesiscap.com/'
             },
             {
-              key: 'funcityCapital',
-              logo: require('~/assets/images/investor/funcity.png'),
-              logoActive: require('~/assets/images/investor/funcity-blue.png'),
-              url: 'http://www.funcityholding.com/'
+              key: 'ok',
+              logo: require('~/assets/images/investor/ok.png'),
+              logoActive: require('~/assets/images/investor/ok-blue.png'),
+              url: 'https://www.okex.com/pages/products/blockchain.html'
             },
             {
               key: 'bp',

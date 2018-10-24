@@ -43,6 +43,7 @@
 
 
   .community-wrapper {
+    margin: 0 auto;
     width: 220px;
     height: 100px;
     box-shadow: 0 4px 24px 0 rgba(211,234,255,0.53);

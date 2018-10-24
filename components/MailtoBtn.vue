@@ -1,12 +1,18 @@
 <template>
   <div class="btn-wrapper">
-    <span>{{ text }}</span>
+    <a :href="href" target="_blank" class="extral">
+      <span>{{ text }}</span>
+    </a>
   </div>
 </template>
 <script type="text/babel">
 export default {
   props: {
     text: {
+      type: String,
+      default: ''
+    },
+    href: {
       type: String,
       default: ''
     }

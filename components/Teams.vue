@@ -19,7 +19,7 @@
           </div>
         </div>
       </div>
-      <mailto-btn :text="'加入我们'"></mailto-btn>
+      <mailto-btn :text="'加入我们'" :href="`mailto:hr@vite.org`"></mailto-btn>
     </div>
   </section>
 </template>

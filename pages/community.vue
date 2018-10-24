@@ -7,7 +7,7 @@
           <img src="~assets/images/community/star.svg"/>
           <span>社区之星</span>
         </div>
-        <div class="columns content">
+        <div class="columns content is-multiline">
           <div class="column">
             <div class="columns is-multiline item">
               <div class="column">
@@ -162,7 +162,8 @@
     }
     .content {
       .video {
-        width: 706px;
+        margin: 0 auto;
+        min-width: 695px;
         height: 348px;
         background-image: url("~assets/images/community/world.png");
         background-size: cover;
