@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1021" height="1153" viewBox="0 0 1021 1153">
+  <defs>
+    <rect id="其他页面左下-a" width="1921" height="2578"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(0 -1425)">
+    <mask id="其他页面左下-b" fill="#fff">
+      <use xlink:href="#其他页面左下-a"/>
+    </mask>
+    <rect width="1920" height="2577" x=".5" y=".5" stroke="#979797"/>
+    <polygon fill="#C4DFFF" fill-opacity=".85" points="506.5 1417 1132 2500 -119 2500" mask="url(#其他页面左下-b)" opacity=".12" transform="rotate(10 506.5 1958.5)"/>
+    <polygon fill="#C4DFFF" fill-opacity=".85" points="1683 2267 2344 3412 1022 3412" mask="url(#其他页面左下-b)" opacity=".12" transform="rotate(10 1683 2839.5)"/>
+  </g>
+</svg>

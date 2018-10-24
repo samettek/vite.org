@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="public" :class="`is-${routeName}-public`">
       <div class="navbar headroom" :class="`is-${routeName}-page`" v-headroom>
         <div class="container is-widescreen" :class="{ 'is-open': navbarActive }" @click="onNavClick">
           <div class="navbar-brand">
@@ -179,6 +179,17 @@
 
 <style rel="stylesheet/scss" lang="scss" scoped>
   @import "assets/vars.scss";
+  .public {
+    background: no-repeat url("~assets/images/bg/footer_others.svg") -10% 100%;
+  }
+
+  .is-index-public {
+    background: no-repeat url("~assets/images/bg/footer_index.svg") -15% 100%/850px 1000px;
+    @include touch {
+      background: none;
+    }
+  }
+
   .img-text {
     position: absolute;
     right: 0;
@@ -202,7 +213,9 @@
                 no-repeat url("~assets/images/bg/index/topleft1.svg") -1% 9%,
                 no-repeat url("~assets/images/bg/index/topleft2.svg") 0% 3%,
                 no-repeat url("~assets/images/bg/index/topright1.svg") 90% 9%,
-                no-repeat url("~assets/images/bg/index/topright2.svg") 110% 6%/ 900px 1000px;
+                no-repeat url("~assets/images/bg/index/topright2.svg") 110% 6%/ 900px 1000px,
+                no-repeat url("~assets/images/bg/index/rightbottom.svg") 125% 97%/620px 526px;
+                
     @include touch {
       background: no-repeat url("~assets/images/bg/index/topright3.svg") 150% 0%,
                   no-repeat url("~assets/images/bg/index/topright1.svg") 90% 11%/ 230px 230px;
@@ -211,10 +224,24 @@
       background: none;
     }
   }
+  .is-team-page {
+    margin-top: 0;
+    background: no-repeat url("~assets/images/bg/team/topleft.svg") -58% 0%,
+                no-repeat url("~assets/images/bg/team/topright.svg") 100% 20%,
+                no-repeat url("~assets/images/bg/team/bottomright.svg") 110% 99%;
+  }
+  .is-partnership-page {
+    background: no-repeat url("~assets/images/bg/partnership/topleft.svg") -8% 2%,
+                no-repeat url("~assets/images/bg/team/bottomright.svg") 110% 99%;
+  }
+  .is-community-page {
+    background: no-repeat url("~assets/images/bg/partnership/topleft.svg") -8% 2%,
+                no-repeat url("~assets/images/bg/community/rightbottom.svg") 110% 99%;
+  }
   .navbar {
     border-bottom: 1px solid transparent;
     z-index: 222222;
-    background: white;
+    background: transparent;
     &.headroom--not-top {
       border-bottom: 1px solid rgba(0,0,0,0.05);
       background: white;

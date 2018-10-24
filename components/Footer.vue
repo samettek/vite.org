@@ -93,7 +93,8 @@
 
   .footer {
     height: 315px;
-    background: url("~assets/images/footer/footer.svg") 40% 60%;
+    background: url("~assets/images/footer/footer.svg") 46% 13%;
+    z-index: 3;
     @include touch {
       background: url("~assets/images/footer/footer.svg") 100% 60%;
     }

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="team-wrapper">
     <teams></teams>
   </div>
 
@@ -19,6 +19,8 @@
 
 <style  rel="stylesheet/scss" lang="scss" scoped>
   @import "assets/vars.scss";
-
+  .team-wrapper {
+    padding-top: 92px;
+  }
 
 </style>
