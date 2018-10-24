@@ -206,6 +206,7 @@
   }
   .nuxt-content {
     margin-top: 72px;
+    padding-bottom: 100px;
   }
   .is-index-page {
     margin-top: 0;
@@ -228,15 +229,15 @@
     margin-top: 0;
     background: no-repeat url("~assets/images/bg/team/topleft.svg") -58% 0%,
                 no-repeat url("~assets/images/bg/team/topright.svg") 100% 20%,
-                no-repeat url("~assets/images/bg/team/bottomright.svg") 110% 99%;
+                no-repeat url("~assets/images/bg/team/bottomright.svg") 110% 95%;
   }
   .is-partnership-page {
     background: no-repeat url("~assets/images/bg/partnership/topleft.svg") -8% 2%,
-                no-repeat url("~assets/images/bg/team/bottomright.svg") 110% 99%;
+                no-repeat url("~assets/images/bg/team/bottomright.svg") 110% 95%;
   }
   .is-community-page {
     background: no-repeat url("~assets/images/bg/partnership/topleft.svg") -8% 2%,
-                no-repeat url("~assets/images/bg/community/rightbottom.svg") 110% 99%;
+                no-repeat url("~assets/images/bg/community/rightbottom.svg") 110% 95%;
   }
   .navbar {
     border-bottom: 1px solid transparent;
