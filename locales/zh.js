@@ -20,7 +20,7 @@ module.exports = {
     faq: '问题答疑',
     careers: '加入我们',
     notice: {
-        name:'SBP',
+        name:'超级节点',
         specific:"超级节点说明",
         apply:"申请超级节点"
     },
