@@ -33,9 +33,12 @@ module.exports = {
     exchange: {
       okex: 'https://www.okex.com/spot/trade#product=vite_eth'
     },
-    notice: {
-      en: '/regSpecificEn',
-      zh: '/regSpecificCh'
+    vote: {
+        specific:{
+            en: '/regSpecificEn',
+            zh: '/regSpecificCh'
+        },
+        apply:"https://www.jiandaoyun.com/f/5bdbef8be1613237783c264b"
     }
   }
 }

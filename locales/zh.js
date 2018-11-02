@@ -19,7 +19,11 @@ module.exports = {
     team: '团队',
     faq: '问题答疑',
     careers: '加入我们',
-    notice:"超级节点",
+    notice: {
+        name:'SBP',
+        specific:"超级节点说明",
+        apply:"申请超级节点"
+    },
     press: '新闻',
     exchange: '交易所'
   },

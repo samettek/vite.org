@@ -19,7 +19,11 @@ module.exports = {
     team: 'Team',
     faq: 'FAQs',
     careers: 'Careers',
-    notice: 'SBP',
+    notice: {
+        name:'SBP',
+        specific:"SBP Voting expalin",
+        apply:"apply for SBP"
+    },
     press: 'Press',
     exchange: 'Exchanges'
   },

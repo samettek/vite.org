@@ -22,7 +22,9 @@
                         </nuxt-link>
                         <a :href="urls.medium" target="_blank" class="nav-item text-hover-transition">{{$t('nav.press')}}</a>
                         <div class="line is-hidden-desktop"></div>
-                        <a :href="urls.notice[$i18n.locale]" target="_blank" class="nav-item text-hover-transition">{{$t('nav.notice')}}</a>
+                        <div class="nav-item">
+                            <voteNotice></voteNotice>
+                        </div>
                         <div class="nav-item">
                             <Exchange></Exchange>
                         </div>
@@ -47,6 +49,7 @@ import LogoWithoutWords from "~/components/LogoWithoutWords.vue";
 import Footer from "~/components/Footer.vue";
 import Exchange from "~/components/Exchange.vue";
 import config from "~/config";
+import voteNotice from "~/components/voteNotice.vue"
 
 export default {
   components: {
@@ -54,7 +57,8 @@ export default {
     Logo,
     LogoWithoutWords,
     VFooter: Footer,
-    Exchange
+    Exchange,
+    voteNotice
   },
   head() {
     let { routeName } = this;
