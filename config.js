@@ -32,6 +32,10 @@ module.exports = {
     },
     exchange: {
       okex: 'https://www.okex.com/spot/trade#product=vite_eth'
+    },
+    notice: {
+      en: '/regSpecificEn',
+      zh: '/regSpecificCh'
     }
   }
 }

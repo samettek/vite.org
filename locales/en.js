@@ -19,6 +19,7 @@ module.exports = {
     team: 'Team',
     faq: 'FAQs',
     careers: 'Careers',
+    notice: 'SBP',
     press: 'Press',
     exchange: 'Exchanges'
   },
