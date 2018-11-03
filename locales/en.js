@@ -20,9 +20,9 @@ module.exports = {
     faq: 'FAQs',
     careers: 'Careers',
     notice: {
-        name:'SBP',
-        specific:"SBP Guidance",
-        apply:"Apply for SBP"
+      name: 'SBP',
+      specific: 'SBP Guidance',
+      apply: 'Apply for SBP'
     },
     press: 'Press',
     exchange: 'Exchanges'
@@ -194,6 +194,11 @@ module.exports = {
         name: 'Ivan Golovko',
         position: '',
         description: 'VP Strategy and Investor Relations of LegalThings One. Co-founder of Distributed.Fund and Distributed Alliance. Former CMO of ICODrops.'
+      },
+      leo: {
+        name: 'Leo',
+        position: '',
+        description: 'Seasoned blockchain investor and senior technical expert. Previously led engineering efforts at Meituan and Coinport.'
       }
     }
   },

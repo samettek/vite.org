@@ -20,9 +20,9 @@ module.exports = {
     faq: '问题答疑',
     careers: '加入我们',
     notice: {
-        name:'超级节点',
-        specific:"超级节点说明",
-        apply:"申请超级节点"
+      name: '超级节点',
+      specific: '超级节点说明',
+      apply: '申请超级节点'
     },
     press: '新闻',
     exchange: '交易所'
@@ -235,6 +235,11 @@ module.exports = {
         name: 'Ivan Golovko',
         position: '',
         description: 'LegalThings One 公司的策略与投资者关系副总裁。俄国著名基金Distributed.Fund的联合创始人。曾任全球知名评测网站I C ODrops的首席市场官。'
+      },
+      leo: {
+        name: '张灵勇',
+        position: '',
+        description: '资深区块链投资者，高级工程师，曾任职于美团、币丰港。'
       }
     }
   },
