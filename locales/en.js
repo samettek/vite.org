@@ -20,7 +20,7 @@ module.exports = {
     faq: 'FAQs',
     careers: 'Careers',
     notice: {
-      name: 'SBP',
+      name: 'Super Nodes',
       specific: 'SBP Guidance',
       apply: 'Apply for SBP'
     },
