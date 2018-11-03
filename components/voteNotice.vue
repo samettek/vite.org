@@ -8,7 +8,7 @@
     <div class="dropdown-menu" id="lang-dropdown-menu" role="menu">
       <div class="dropdown-content">
         <template v-for="item in exchangeList">
-          <a class="dropdown-item" target="_blank" :href="item==='specific'?voteMap[item][$i18n.locale]:voteMap[item]" :key="item">
+          <a class="dropdown-item" target="_blank" :href="voteMap[item][$i18n.locale]" :key="item">
             {{$t(`nav.notice.${item}`)}}
           </a>
         </template>

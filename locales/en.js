@@ -21,8 +21,8 @@ module.exports = {
     careers: 'Careers',
     notice: {
         name:'SBP',
-        specific:"SBP Voting expalin",
-        apply:"apply for SBP"
+        specific:"SBP Guidance",
+        apply:"Apply for SBP"
     },
     press: 'Press',
     exchange: 'Exchanges'

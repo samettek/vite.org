@@ -38,7 +38,11 @@ module.exports = {
             en: '/regSpecificEn',
             zh: '/regSpecificCh'
         },
-        apply:"https://www.jiandaoyun.com/f/5bdbef8be1613237783c264b"
+        apply:{
+            en:"https://docs.google.com/forms/d/e/1FAIpQLScixWTDuId0MCJQGi0jVI3LCivQ-r5fNUMFCnLf-uodIc_EsA/viewform",
+            zh:"https://www.jiandaoyun.com/f/5bdbef8be1613237783c264b"
+        }
+        
     }
   }
 }
