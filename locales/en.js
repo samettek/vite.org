@@ -21,8 +21,8 @@ module.exports = {
     careers: 'Careers',
     notice: {
       name: 'Super Nodes',
-      specific: 'SBP Guidance',
-      apply: 'Apply for SBP'
+      specific: 'Guide for SBP (Snapshot Block Producer)',
+      apply: 'Apply for SBP (Snapshot Block Producer) '
     },
     press: 'Press',
     exchange: 'Exchanges'
