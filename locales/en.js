@@ -18,6 +18,7 @@ module.exports = {
     technology: 'Technologies',
     team: 'Team',
     faq: 'FAQs',
+    superNodes: 'Guide for SBP (Snapshot Block Producer)',
     careers: 'Careers',
     notice: {
       name: 'Super Nodes',
@@ -201,6 +202,69 @@ module.exports = {
         description: 'Seasoned blockchain investor and senior technical expert. Previously led engineering efforts at Meituan and Coinport.'
       }
     }
+  },
+  superNodes: {
+    'title': 'Guide for SBP',
+    'contents': [{
+      'orderNum': 'I.',
+      'question': 'Information you need to submit',
+      'answer': [
+        '1. Name and logo of your node. These two items are necessary, as they help establish your image in the community.',
+        '2. Email address of your project that operates the SBP.',
+        '3. Election slogan for your node.',
+        '4. Information of your team. A list of key members and their background info. Their photos and locations.',
+        '5. Setup of your data center. (Recommended: 8 core, 16GB RAM, 100Mbps)',
+        '6. Location of your server.',
+        '7. Plan for the Vite ecosystem. Please describe in detail how you plan to add value to the Vite ecosystem after becoming a SBP.',
+        '8. Social media exposure. Significant exposure on social media reflects your level of commitment. <br/>Link for submitting your information: <a href="https://jiandaoyun.com/f/5bdbef8be1613237783c264b" target="_blank">https://jiandaoyun.com/f/5bdbef8be1613237783c264b</a>'
+      ]
+    }, {
+      'orderNum': 'II.',
+      'question': 'Registration of SBP and Voting',
+      'second': [{
+        'title': 'You must follow the below steps to register super nodes and prepare for election:',
+        'answer': [
+          '1. Migration of VITE tokens <br/> In mid-November, migrate your Vite tokens on ERC20 to VITE on the TestNet via a smart contract provided by Vite Labs.',
+          '2. Stake 500,000 VITE (this amount will change to 1,000,000 VITE after MainNet is launched). This amount of tokens will be locked for three months as part of the requirements for SBPs.',
+          '3. Receive at least 200,000 votes (each represented by one VITE). As TestNet first goes live, Vite Labs will be responsible for operating 25 super nodes that forge tokens (“forging super nodes”). As each new community super node appears and receives at least 200,000 votes, Vite Labs will retire a super node from its side. The said community super node will become a new forging super node.',
+          '4. Running the server for a SBP (more detailed setup information will be released later)'
+        ]
+      }, {
+        'title': 'Voting',
+        'answer': [
+          '1. Each VITE can only be used to vote for one SBP.',
+          '2. Each address can only be used for voting for one SBP. The number of votes from that address will be the entire amount of VITE held in that address.',
+          '3. Voting from a given address does not lock up VITE tokens from that address. The tokens may be transferred away at any time, thereby reducing the same amount of votes for a certain node.',
+          '4. The user may change his voting target. The change will take effect within at most 75 seconds.'
+        ]
+      }]
+    }, {
+      'orderNum': 'III.',
+      'question': 'Responsibilities of SBPs',
+      'answer': [
+        '1. SBPs ensure the proper functioning of the Vite system. SBPs must pack transactions in the entire network and ensure stability of the system by providing usable server resources. In addition, operators of the SBPs are also expected to provide technical support for the Vite system to the best of their abilities.',
+        '2. SBPs are representatives, evangelists, and leaders of the Vite community and are expected to take actions to build and preserve an active and healthy community.',
+        '3. The prosperity of the Vite community goes hand in hand with the success of the Vite ecosystem. SBPs are expected to evangelize for Vite, and help create dApps based on Vite.'
+      ]
+    }, {
+      'orderNum': 'IV.',
+      'question': 'Incentive Plan',
+      'answer': [
+        '1. All forging SBPs will share forging rewards, equivalent to 3% of the total issued token amount on an annual basis. This translates to 30 million VITE (3% of the current 1 billion VITE).',
+        '2. If a forging SBP continues to forge during a year, there will be 1.2 million (30 million / 25) forging rewards of VITE, as 3287.67 VITE per day, 100 thousand VITE per month.',
+        '3. There are many airdrop plans and rewards for the TestNet stage, we will increase the issued tokens to reward SBPs after the MainNet is launched.',
+        '4. The rewards of SBPs calculates according to the amount of block generation, each block counts for one time.',
+        '5. Rewards are requested by users. Only rewards from block production of 30 minutes ago may be provided upon request.'
+      ]
+    }, {
+      'orderNum': 'V.',
+      'question': 'An explanation of the VITE token in TestNet',
+      'answer': [
+        '1. The VITE tokens on the TestNet are used for SBP election and voting come from the reflection of VITE tokens on ERC 20.',
+        '2. The transfer cannot be reverted, the transferred token cannot circulate in secondary market in a short term.',
+        '3. After MainNet is launched, VITE tokens on the TestNet and VITE tokens on ERC20 will both be converted on to the MainNet.',
+      ]
+    }]
   },
   faq: {
     'title': 'VITE Q&A',

@@ -7,11 +7,12 @@
     </div>
     <div class="dropdown-menu" id="lang-dropdown-menu" role="menu">
       <div class="dropdown-content">
-        <template v-for="item in exchangeList">
-          <a class="dropdown-item" target="_blank" :href="voteMap[item][$i18n.locale]" :key="item">
-            {{$t(`nav.notice.${item}`)}}
-          </a>
-        </template>
+        <nuxt-link :to="localePath('superNodes')" class="dropdown-item">
+          {{$t(`nav.superNodes`)}}
+        </nuxt-link>
+        <a class="dropdown-item" target="_blank" :href="voteMap.apply[$i18n.locale]">
+          {{$t(`nav.notice.apply`)}}
+        </a>
       </div>
     </div>
   </div>
@@ -24,11 +25,6 @@
     data () {
       return {
         voteMap: config.urls.vote
-      }
-    },
-    computed: {
-      exchangeList: function () {
-        return ['specific','apply'] // applorList
       }
     }
   }
