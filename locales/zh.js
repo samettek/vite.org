@@ -19,6 +19,7 @@ module.exports = {
     team: '团队',
     faq: '问题答疑',
     superNodes: '超级节点说明',
+    nodeList: '超级节点列表',
     careers: '加入我们',
     notice: {
       name: '超级节点',
@@ -146,6 +147,36 @@ module.exports = {
         'description': 'Vite 启动生态发展计划'
       }
     ]
+  },
+  elector: {
+    'title': '超级节点竞选人',
+    'nameMap': {
+      'liuchunming': {
+        'name': 'Charles',
+        'position': '',
+        'description': 'Veteran blockchain entrepreneur and technical expert. Standing director of China Blockchain Application Research Center. Graduated from China University of Science and Technology and the Institute of Software of the Chinese Academy of Sciences. Former senior architect of JD.com, co-founder of Coinport, and engineering director of Meituan Dianping. Abundant experience in distributed systems and high concurrency systems.'
+      },
+      'richard': {
+        name: 'Richard',
+        position: '',
+        description: 'Seasoned Wall Street professional. Graduated B.A. from Dartmouth College and MBA from New York University.  Previously structured product trading strategist at Goldman Sachs and Vice President of Two Sigma\'s high-frequency platform and Business Innovation & Growth group.'
+      },
+      leo: {
+        name: 'Leo',
+        position: '',
+        description: 'Seasoned blockchain investor and senior technical expert. Previously led engineering efforts at Meituan and Coinport.'
+      },
+      frank: {
+        name: 'Frank Deng',
+        position: '',
+        description: 'Expert in digital and mobile marketing. Graduated from Tsinghua University. Served in Google Ads Operations Group, COO of Suizong Technology and co-founder of Yunke Technology.'
+      },
+      allen: {
+        name: 'Allen Liu',
+        position: '',
+        description: 'Senior technical specialist. Graduated from China University of Science and Technology and Fudan University. Former HP Tech Lead; former IBM senior architect and product manager. Having 10 years high concurrency experience in multinational firms. Scrum expert. PMP.'
+      }
+    }
   },
   tech: {
     title: '核心技术',
