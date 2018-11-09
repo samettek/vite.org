@@ -1,5 +1,5 @@
 <template>
-  <div class="elector-item">
+  <div class="elector-item" @click="toDetailPage">
     <div class="img-wrapper">
       <div class="img-bg">
         <img :src="src" alt="">
@@ -34,7 +34,13 @@
     data: function () {
       return {}
     },
-    methods: {}
+    methods: {
+      toDetailPage () {
+        let lang = ''
+        this.$i18n.locale !== 'en' ? lang = `/${this.$i18n.locale}` : lang = ''
+        this.$router.push({path: `${lang}/nodeDetail?key=${this.name}`})
+      }
+    }
   }
 </script>
 
@@ -43,23 +49,26 @@
 
 
   .elector-item {
+     &:hover {
+        cursor: pointer;
+      }
     background: #FFFFFF;
     box-shadow: 0 4px 24px 0 rgba(211,234,255,0.53);
     width: 260px;
     .img-wrapper {
-      height: 260px;
+      height: 146px;
       width: 260px;
       display: flex;
       flex-direction: row;
       justify-content: center;
       align-items: center;
       position: relative;
-      margin-bottom: 25px;
+      margin-bottom: 10px;
       .img-bg {
-        height: 214px;
+        height: 120px;
         width: 214px;
         img {
-          height: 214px;
+          height: 120px;
           width: 214px;
           opacity: 1;
           transition: all 0.6s ease;
@@ -80,14 +89,14 @@
         }
       }
       & > p {
-        margin-top: 20px;
+        margin-top: 10px;
         font-size:14px;
         font-family: $font-family-light;
         color:rgba(111,114,117,1);
         line-height:20px;
         transition: all 0.6s ease;
         @include touch {
-          margin-top: 25px;
+          margin-top: 5px;
         }
       }
     }

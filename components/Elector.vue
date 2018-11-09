@@ -25,74 +25,20 @@
       return {
         electors: [
           {
-            img: require('~/assets/images/teams/liuchunming.png'),
-            key: 'liuchunming',
-            urls: [
-              {
-                icon: ['fab', 'twitter'],
-                url: 'https://twitter.com/chunming_liu'
-              },
-              {
-                icon: ['fab', 'linkedin'],
-                url: 'https://www.linkedin.com/in/liuchunming/'
-              },
-              {
-                icon: ['fab', 'github'],
-                url: 'https://github.com/charles-liu'
-              }
-            ]
+            img: require('~/assets/images/superNode/vitecity.jpeg'),
+            key: 'vitecity'
           },
           {
-            img: require('~/assets/images/teams/richard.jpg'),
-            key: 'richard',
-            urls: [
-              {
-                icon: ['fab', 'twitter'],
-                url: 'https://twitter.com/Gentso09'
-              },
-              {
-                icon: ['fab', 'linkedin'],
-                url: 'https://www.linkedin.com/in/richard-yan-934229a5/'
-              }
-            ]
+            img: require('~/assets/images/superNode/tenzor.png'),
+            key: 'tenzor'
           },
           {
-            img: require('~/assets/images/teams/yuanhui.png'),
-            key: 'frank',
-            urls: [
-              {
-                icon: ['fab', 'linkedin'],
-                url: 'https://www.linkedin.com/in/frank-deng-4756147'
-              }
-            ]
+            img: require('~/assets/images/superNode/snap.jpg'),
+            key: 'snap'
           },
           {
-            img: require('~/assets/images/teams/leo.jpg'),
-            key: 'leo',
-            urls: [
-              {
-                icon: ['fab', 'twitter'],
-                url: 'https://twitter.com/soliury'
-              },
-              {
-                icon: ['fab', 'linkedin'],
-                url: 'https://www.linkedin.com/in/leo-zhang-b68a86166/'
-              },
-              {
-                icon: ['fab', 'github'],
-                url: 'https://github.com/soliury'
-              }
-            ]
-          },
-          {
-            img: require('~/assets/images/teams/allen.jpeg'),
-            key: 'allen',
-            urls: [
-              {
-                icon: ['fab', 'linkedin'],
-                url: 'https://www.linkedin.com/in/xiaotao-liu-002013169/'
-              }
-            ]
+            img: require('~/assets/images/superNode/ux.png'),
+            key: 'ux'
           }
         ]
       }
@@ -107,6 +53,7 @@
   section {
     padding-top: 60px;
     .container {
+     
       & > h2 {
         font-size: 44px;
         color: #171C34;

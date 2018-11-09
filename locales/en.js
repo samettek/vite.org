@@ -150,31 +150,25 @@ module.exports = {
   },
   elector: {
     'title': '超级节点竞选人',
+    'detailTitles': ['团队成员信息', '团队成员照片', '数据中心配置', '服务器所在地', '生态发展规划'],
     'nameMap': {
-      'liuchunming': {
-        'name': 'Charles',
-        'position': '',
-        'description': 'Veteran blockchain entrepreneur and technical expert. Standing director of China Blockchain Application Research Center. Graduated from China University of Science and Technology and the Institute of Software of the Chinese Academy of Sciences. Former senior architect of JD.com, co-founder of Coinport, and engineering director of Meituan Dianping. Abundant experience in distributed systems and high concurrency systems.'
+      'vitecity': {
+        info: ['aaaaa', 'bbbb'],
+        'name': 'ViteCity',
+        'description': 'Make vite-blockchain stronger ！'
       },
-      'richard': {
-        name: 'Richard',
-        position: '',
-        description: 'Seasoned Wall Street professional. Graduated B.A. from Dartmouth College and MBA from New York University.  Previously structured product trading strategist at Goldman Sachs and Vice President of Two Sigma\'s high-frequency platform and Business Innovation & Growth group.'
+      'tenzor': {
+        info: ['ccccc', 'ddddd'],
+        name: 'Tenzor',
+        description: 'Unite the world through the blockchain technology.'
       },
-      leo: {
-        name: 'Leo',
-        position: '',
-        description: 'Seasoned blockchain investor and senior technical expert. Previously led engineering efforts at Meituan and Coinport.'
+      'snap': {
+        name: 'SnapSecure',
+        description: "Securing Vite's Snapshot Chain, One Block At A Time."
       },
-      frank: {
-        name: 'Frank Deng',
-        position: '',
-        description: 'Expert in digital and mobile marketing. Graduated from Tsinghua University. Served in Google Ads Operations Group, COO of Suizong Technology and co-founder of Yunke Technology.'
-      },
-      allen: {
-        name: 'Allen Liu',
-        position: '',
-        description: 'Senior technical specialist. Graduated from China University of Science and Technology and Fudan University. Former HP Tech Lead; former IBM senior architect and product manager. Having 10 years high concurrency experience in multinational firms. Scrum expert. PMP.'
+      'ux': {
+        name: 'UX SBP',
+        description: 'async equity'
       }
     }
   },
