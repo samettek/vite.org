@@ -24,8 +24,8 @@
                   <p v-for="(content,index) in $t(`elector.nameMap.${key}.${item.key}`)" :key="index" v-if="item.key !== 'photo'">{{content}}</p>
                   <div class="is-flex columns">
                     <div class="column photo" v-for="(photo, index) in electors[key][item.key]" :key="index" v-if="item.key === 'photo'">
-                      <img :src="photo" />
-                      <div class="photo-name">name</div>
+                      <img :src="photo.img" />
+                      <div class="photo-name">{{ photo.name }}</div>
                     </div>
                   </div>
                 </div>
@@ -35,7 +35,7 @@
           </div>
           <div class="column">
             <div class="column-right">
-              <node-detail-link :desc="desc"></node-detail-link>
+              <node-detail-link :desc="electors[key].desc" :medium="$t(`elector.nameMap.${key}.medium`)"></node-detail-link>
             </div>
           </div>
         </div>
@@ -54,49 +54,90 @@
     data: function () {
       return {
         key: this.$route.query.key,
-        desc: [{
-          links: ['https://twitter.com/vitelabs']
-        }, {
-          links: ['https://t.me/vite_ann',
-            'https://t.me/vite_en',
-            'https://t.me/vite_zh',
-            'https://t.me/vite_russia',
-            'https://t.me/vite_vietnamese',
-            'https://t.me/vite_korean',
-            'https://t.me/vite_thailand']
-        }, {
-          links: ['https://github.com/vitelabs']
-        }, {
-          links: ['https://discordapp.com/invite/CsVY76q']
-        }, {
-          links: ['https://www.reddit.com/r/vitelabs']
-        }, {
-          links: ['https://www.youtube.com/channel/UC8qft2rEzBnP9yJOGdsJBVg']
-        }],
-        detailList: [{
-          key: 'vitecity'
-        }, {
-
-        }],
         electors: {
           vitecity: {
+            desc: [{
+              name: 'email',
+              links: ['mailto:vitecity@126.com']
+            }],
             img: require('~/assets/images/superNode/vitelogo.jpeg'),
-            banner: require('~/assets/images/superNode/vitecity.jpeg')
+            banner: require('~/assets/images/superNode/vitecity.jpeg'),
+            photo: [{
+              img: require('~/assets/images/superNode/hujinlang.png'),
+              name: '胡锦浪'
+            }, {
+              img: require('~/assets/images/superNode/zengzhifang.png'),
+              name: '曾志芳'
+            }, {
+              img: require('~/assets/images/superNode/zhonglifeng.png'),
+              name: '钟力峰'
+            }]
           },
           tenzor: {
+            desc: [{
+              name: 'email',
+              links: ['mailto:invest@tenzor.capital']
+            }],
             img: require('~/assets/images/superNode/tenzorlogo.png'),
             banner: require('~/assets/images/superNode/tenzor.png'),
-            photo: [require('~/assets/images/superNode/tenzorlogo.png'), require('~/assets/images/superNode/tenzor.png'), require('~/assets/images/superNode/tenzorlogo.png')]
+            photo: [{
+              img: require('~/assets/images/superNode/kirill.png'),
+              name: 'Kirill Medvedev'
+            }, {
+              img: require('~/assets/images/superNode/maksim.png'),
+              name: 'Maksim Mizerov'
+            }, {
+              img: require('~/assets/images/superNode/daniil.png'),
+              name: 'Daniil Ogurtsov'
+            }]
           },
           snap: {
-            key: 'snap',
+            desc: [{
+              name: 'email',
+              links: ['mailto:plasmo7@gmail.com']
+            }, {
+              name: 'twitter',
+              links: ['https://twitter.com/Snap_Secure']
+            }, {
+              name: 'website',
+              links: ['http://snapsecure.network/']
+            }],
             img: require('~/assets/images/superNode/snaplogo.png'),
-            banner: require('~/assets/images/superNode/snap.jpg')
+            banner: require('~/assets/images/superNode/snap.jpg'),
+            photo: [{
+              img: require('~/assets/images/superNode/mathew.jpg'),
+              name: 'Mathew Pham (AKA plasmo)'
+            }]
           },
           ux: {
-            key: 'ux',
+            desc: [{
+              name: 'email',
+              links: ['mailto:sbp@uixagency.com']
+            }],
             img: require('~/assets/images/superNode/uxlogo.png'),
-            banner: require('~/assets/images/superNode/ux.png')
+            banner: require('~/assets/images/superNode/ux.png'),
+            photo: [{
+              img: require('~/assets/images/superNode/vladimir.jpg'),
+              name: 'Vladimir Polishchuk'
+            }, {
+              img: require('~/assets/images/superNode/serhiy.png'),
+              name: 'Serhiy Polishchuk'
+            }, {
+              img: require('~/assets/images/superNode/julia.png'),
+              name: 'Julia Novak'
+            }]
+          },
+          loopring: {
+            desc: [{
+              name: 'email',
+              links: ['mailto:foundation@loopring.org']
+            }],
+            img: require('~/assets/images/superNode/loopringlogo.jpg'),
+            banner: require('~/assets/images/superNode/loopring.jpg'),
+            photo: [{
+              img: require('~/assets/images/superNode/daniel.jpeg'),
+              name: 'Johnston Chen，Daniel Wang，Jay Zhou'
+            }]
           }
         }
       }
@@ -141,7 +182,7 @@
     }
     .content {
       .photo {
-        text-align: center;
+        text-align: left;
         img {
           height: 160px;
           width: 160px;

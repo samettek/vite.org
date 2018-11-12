@@ -7,6 +7,9 @@
     </div>
     <div class="dropdown-menu" id="lang-dropdown-menu" role="menu">
       <div class="dropdown-content">
+        <nuxt-link :to="localePath('nodeList')" class="dropdown-item">
+          {{$t(`nav.nodeList`)}}
+        </nuxt-link>
         <nuxt-link :to="localePath('superNodes')" class="dropdown-item">
           {{$t(`nav.superNodes`)}}
         </nuxt-link>

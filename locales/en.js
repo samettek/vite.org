@@ -19,7 +19,8 @@ module.exports = {
     team: 'Team',
     faq: 'FAQs',
     superNodes: 'Guide for SBP (Snapshot Block Producer)',
-    nodeList: 'SBP List',
+    nodeList: '超级节点竞选人',
+    nodeDetail: '超级节点详情',
     careers: 'Careers',
     notice: {
       name: 'Super Nodes',
@@ -170,14 +171,23 @@ module.exports = {
         key: 'plan',
         title: '生态发展规划'
       }],
+    'rightCommonPart': {
+      title: '社交媒体及媒体曝光',
+      email: '邮箱地址',
+      twitter: 'twitter',
+      website: '网址'
+    },
     'nameMap': {
       'vitecity': {
-        info: ['胡锦浪；vitecity节点创始人，香港中文大学 金融学硕士，CFA、 CPA，曾供职于德勤咨询公司，负责中概股海外上市咨询工作，丰富的资本运作经验，服务过聚美优品、拍拍贷、优信二手车等等中概股海外上市案例；任职某知名区块链投行，丰富的交易所资源以及区块链媒体资源，帮助区块链项目海外基金会设立、海外发行、上市等工作，服务过众多市值排名前100的项目，如VET、Tron、 link、WTC、IOST、ELF等；常驻中国上海；',
+        info: ['胡锦浪：vitecity节点创始人，香港中文大学 金融学硕士，CFA、 CPA，曾供职于德勤咨询公司，负责中概股海外上市咨询工作，丰富的资本运作经验，服务过聚美优品、拍拍贷、优信二手车等等中概股海外上市案例；任职某知名区块链投行，丰富的交易所资源以及区块链媒体资源，帮助区块链项目海外基金会设立、海外发行、上市等工作，服务过众多市值排名前100的项目，如VET、Tron、 link、WTC、IOST、ELF等；常驻中国上海；',
           '曾志芳：北京外国语大学英语学士 日本早稻田大学新闻学硕士； 知名社区负责人，运营3万人技术社区，与CSDN、开源中国、51CTO等国内顶级的技术社区保持密切的合作关系；丰富的区块链媒体资源，金色财经、巴比特、链得得、挖链网、核财经、火币资讯、芭比财经等密切的合作关系；社群运营专家，旗下拥有多个区块链社群，覆盖百万级用户；丰富的海外社区资源，曾经策划在一个月内将某项目在reddit讨论炒热，并带动该项目市值在三个月内增幅四倍；常驻中国上海；',
-          '钟力峰: CTO，浙江大学计算机硕士，十年技术开发经验，曾任职第四范式人工智能公司负责大数据与广告业务开发；擅长AI深度学习算法，对金融交易理解深刻，现负责加密货币量化系统开发；常驻中国上海；'],
+          '钟力峰：CTO，浙江大学计算机硕士，十年技术开发经验，曾任职第四范式人工智能公司负责大数据与广告业务开发；擅长AI深度学习算法，对金融交易理解深刻，现负责加密货币量化系统开发；常驻中国上海；'],
         config: ['8核16G 100M带宽'],
         location: ['杭州&中国'],
         photo: [],
+        medium: ['1、首先在区块链垂直媒体如巴比特、金色财经、链得得等增加vite曝光率，不排除采取开设节点专栏等的形式；',
+          '2、开设本节点微信公众号、微博账号、twitter、reddit、facebook等社交账号，由专人负责运营社交账号，加强与粉丝互动；',
+          '3、定期举办社区空投活动，不断获取新的vite粉丝；'],
         plan: ['1、通过区块链媒体、钱包、行情软件等流量入口增加vite项目的曝光度，开设社交媒体账号并由专人运营，宣传vite项目的技术优势，转发官方公布的项目进展、公告；',
           '2、设计VITE周边产品，定期举行线下粉丝meetup活动，由专人负责社区运营；并配合官方举办的meetup活动；联合媒体、钱包、行情软件等友商定期举办空投活动；',
           '3、发动技术社区资源，辅助官方为vite项目DAPP生态落地提供支持；'],
@@ -190,6 +200,8 @@ module.exports = {
           'Daniil Ogurtsov - senior analyst Tenzor Capital and Icoscoring.com. He has great experience in Big4 consulting company and leading oil&gas company Rosneft. He has graduated from MGIMO, the top-tier Russian university.'],
         config: ['32 GB, 8 CPU, 640 GB SSD, More than 100Mbps bandwidth'],
         photo: [],
+        medium: ['We actively work with the community at Twitter, Medium and Telegram.',
+          'Our team and our close partners have active community in EU & Russia exceeding 600K people.'],
         location: ['US, UK, Germany, Canada, Netherlands, Singapore, depending on your needs'],
         plan: ['Our team has huge experience in investor relation field. We always help our portfolio projects with the community development and the adoption of the technology.',
           'Our team and our close partners have active community in EU & Russia exceeding 600K people. We provide advisory services in building the marketing strategy and in promotion on CIS and SEA markets.',
@@ -203,6 +215,7 @@ module.exports = {
         config: ['Intel i5-8600K (6 cores), 16GB DDR4 memory, Samsung SSD, 100Mbps connection'],
         location: ['Melbourne, Australia'],
         photo: [],
+        medium: ["I have a Twitter created to provide status on node status, read updates on the Vite ecosystem, and to find out about important events. I have also created a website where users will be able to visit and view node/network status, use the vote calculator to see Vite earning potential, read tutorials and to enter competitions. Forging rewards will also be used to create media, advertisements on Twitter and Reddit, and basically anything to help promote Vite's growth. I'm open to all ideas. "],
         plan: ['Create articles about the Vite platform/ecosystem, provide basic tutorials (for newcomers to read and learn), program/design a calculator to show how much a voter can earn just by voting for Snap Secure supernode, provide competitions so community can grow/become involved and also a possibility to help provide funding for developers to create Vite Dapps or migrate Ethereum Dapps over to the Vite platform.'],
         name: 'SnapSecure',
         description: "Securing Vite's Snapshot Chain, One Block At A Time."
@@ -214,9 +227,22 @@ module.exports = {
         config: ['HP DL360e, 2 x Xeon E5-2430 v2 @ 2.50GHz, 64 GB RAM, 240GB+2x500GB SSD, HP Smart Array P420i/2GB. 1 Gb/s speed inter&intranet'],
         location: ['Ukraine, Nikolaev City'],
         photo: [],
+        medium: ['in progress..'],
         plan: ["General strategy of building community in progress for now, need a few days for introducing it. In plans: - build a new site for SBP (design like https://uixagency.com) - add VITE as payment method for our outsourced projects - we want to create an e-shop of exclusive limited jewellery collection or many, one of this collections could be designed with VITE logo - for example ... this idea is flashing in my mind just now - trying to integrate VITE in mobile games and apps - we have gamedev and appdev departments to our team really likes VITE Platform, that's why we accumulate about 2.5 mil VITE and ready for helping to integrate VITE tokens in our reality :)"],
         name: 'UX SBP',
         description: 'async equity'
+      },
+      'loopring': {
+        info: ['Johnston Chen, COO, Shenzhen;',
+          'Daniel Wang,CEO, NewYork;',
+          'Jay Zhou,CMO, Shanghai'],
+        config: ['NA'],
+        location: ['Shanghai'],
+        photo: [],
+        medium: ['sync looping news in China media, Medium and Korean media'],
+        plan: ['Our dev team has also started to develop loopring smart contracts 2.1. This will begin to incorporate a focus on security tokens and the ERC1400 standard. We have also teamed up with the Dora.network team to start developing a sidechain solution to allow for high performance, DEX specific transactions with ultimate settlement to Ethereum.'],
+        name: 'Loopring',
+        description: 'Loopring is the protocol for decentralized token exchange'
       }
     }
   },
