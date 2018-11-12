@@ -132,11 +132,11 @@
               name: 'email',
               links: ['mailto:foundation@loopring.org']
             }],
-            img: require('~/assets/images/superNode/loopringlogo.jpg'),
-            banner: require('~/assets/images/superNode/loopring.jpg'),
+            img: require('~/assets/images/superNode/loopringlogo.png'),
+            banner: require('~/assets/images/superNode/loopring.png'),
             photo: [{
-              img: require('~/assets/images/superNode/daniel.jpeg'),
-              name: 'Johnston Chen，Daniel Wang，Jay Zhou'
+              img: require('~/assets/images/superNode/JayZhou.png'),
+              name: 'Kongliang, Zhong'
             }]
           }
         }

@@ -41,7 +41,7 @@
             key: 'ux'
           },
           {
-            img: require('~/assets/images/superNode/loopring.jpg'),
+            img: require('~/assets/images/superNode/loopring.png'),
             key: 'loopring'
           }
         ]

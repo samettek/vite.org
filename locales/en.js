@@ -233,16 +233,15 @@ module.exports = {
         description: 'async equity'
       },
       'loopring': {
-        info: ['Johnston Chen, COO, Shenzhen;',
-          'Daniel Wang,CEO, NewYork;',
-          'Jay Zhou,CMO, Shanghai'],
+        info: ['Kongliang, Zhong ; ',
+          'Leila, Lin,Shanghai, China'],
         config: ['NA'],
         location: ['Shanghai'],
         photo: [],
-        medium: ['sync looping news in China media, Medium and Korean media'],
-        plan: ['Our dev team has also started to develop loopring smart contracts 2.1. This will begin to incorporate a focus on security tokens and the ERC1400 standard. We have also teamed up with the Dora.network team to start developing a sidechain solution to allow for high performance, DEX specific transactions with ultimate settlement to Ethereum.'],
-        name: 'Loopring',
-        description: 'Loopring is the protocol for decentralized token exchange'
+        medium: ['We have all social media and KOL ready for this campaign.'],
+        plan: ['we currently have an over 200K blockchain community. we are planning to promote and advocate Vite in our community.'],
+        name: 'Loopnode',
+        description: 'Loop the world'
       }
     }
   },

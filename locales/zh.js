@@ -231,6 +231,17 @@ module.exports = {
         plan: ["General strategy of building community in progress for now, need a few days for introducing it. In plans: - build a new site for SBP (design like https://uixagency.com) - add VITE as payment method for our outsourced projects - we want to create an e-shop of exclusive limited jewellery collection or many, one of this collections could be designed with VITE logo - for example ... this idea is flashing in my mind just now - trying to integrate VITE in mobile games and apps - we have gamedev and appdev departments to our team really likes VITE Platform, that's why we accumulate about 2.5 mil VITE and ready for helping to integrate VITE tokens in our reality :)"],
         name: 'UX SBP',
         description: 'async equity'
+      },
+      'loopring': {
+        info: ['Kongliang, Zhong ; ',
+          'Leila, Lin,Shanghai, China'],
+        config: ['NA'],
+        location: ['Shanghai'],
+        photo: [],
+        medium: ['We have all social media and KOL ready for this campaign.'],
+        plan: ['we currently have an over 200K blockchain community. we are planning to promote and advocate Vite in our community.'],
+        name: 'Loopnode',
+        description: 'Loop the world'
       }
     }
   },
