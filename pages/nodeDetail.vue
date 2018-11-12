@@ -19,14 +19,18 @@
                 </div>
               </div>
               <div class="column is-12 left-info" v-for="(item, index) in $t(`elector.detailTitles`)" :key="index">
-                <div class="name">{{$t(`elector.detailTitles[${index}]`)}}</div>
+                <div class="name">{{$t(`elector.detailTitles[${index}].title`)}}</div>
                 <div class="content">
-                  <p v-for="(item,index) in $t(`elector.nameMap.${key}.info`)" :key="index">{{item}}</p>
+                  <p v-for="(content,index) in $t(`elector.nameMap.${key}.${item.key}`)" :key="index" v-if="item.key !== 'photo'">{{content}}</p>
+                  <div class="is-flex columns">
+                    <div class="column photo" v-for="(photo, index) in electors[key][item.key]" :key="index" v-if="item.key === 'photo'">
+                      <img :src="photo" />
+                      <div class="photo-name">name</div>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <!-- <div class="column is-4" v-for="(item, index) in arrays" :key="index">
-                <img :src="item.img" />
-              </div> -->
+              
             </div>
           </div>
           <div class="column">
@@ -81,7 +85,8 @@
           },
           tenzor: {
             img: require('~/assets/images/superNode/tenzorlogo.png'),
-            banner: require('~/assets/images/superNode/tenzor.png')
+            banner: require('~/assets/images/superNode/tenzor.png'),
+            photo: [require('~/assets/images/superNode/tenzorlogo.png'), require('~/assets/images/superNode/tenzor.png'), require('~/assets/images/superNode/tenzorlogo.png')]
           },
           snap: {
             key: 'snap',
@@ -135,6 +140,13 @@
       justify-content: space-between;
     }
     .content {
+      .photo {
+        text-align: center;
+        img {
+          height: 160px;
+          width: 160px;
+        }
+      }
       .left-info {
         .name {
           font-family: $font-family-title;
