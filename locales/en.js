@@ -7,7 +7,7 @@ module.exports = {
       index: 'Vite - A Next Generation High-performance Decentralized Application Platform',
       careers: 'Welcome to join our Vitelabs, Let\'s create A New Generation of High-performance Decentralized Application Platform',
       faq: 'All about FAQs of Vite',
-      technology: 'The key technologies of Vite: DAG、Snapchat Chain、Asnychronous Architechture、Reactive Contract、Quota leasing、Loopring Integrated、Timer scheduling、Contract Upgrade、solidity++'
+      technology: 'The key technologies of Vite: DAG、Snapshot Chain、Asynchronous Architecture、Reactive Contract、Quota leasing、Loopring Integrated、Timer scheduling、Contract Upgrade、solidity++'
     }
   },
   exchange: {
@@ -19,8 +19,8 @@ module.exports = {
     team: 'Team',
     faq: 'FAQs',
     superNodes: 'Guide for SBP (Snapshot Block Producer)',
-    nodeList: '超级节点竞选人',
-    nodeDetail: '超级节点详情',
+    nodeList: 'SBP Candidates',
+    nodeDetail: 'SBP Details',
     careers: 'Careers',
     notice: {
       name: 'Super Nodes',
@@ -150,32 +150,32 @@ module.exports = {
     ]
   },
   elector: {
-    'title': '超级节点竞选人',
+    'title': 'SBP Candidates',
     'detailTitles': [
       {
         key: 'info',
-        title: '团队成员信息'
+        title: 'Information of team members'
       },
       {
         key: 'photo',
-        title: '团队成员照片'
+        title: 'Photos'
       },
       {
         key: 'config',
-        title: '数据中心配置'
+        title: 'Data Center Configuration'
       },
       {
         key: 'location',
-        title: '服务器所在地'
+        title: 'Service Location'
       }, {
         key: 'plan',
-        title: '生态发展规划'
+        title: 'Eco-development plans'
       }],
     'rightCommonPart': {
-      title: '社交媒体及媒体曝光',
-      email: '邮箱地址',
+      title: 'Social Medias',
+      email: 'Email',
       twitter: 'twitter',
-      website: '网址'
+      website: 'Website'
     },
     'nameMap': {
       'vitecity': {
