@@ -64,13 +64,13 @@
             banner: require('~/assets/images/superNode/vitecity.jpeg'),
             photo: [{
               img: require('~/assets/images/superNode/hujinlang.jpg'),
-              name: '胡锦浪'
+              name: 'Hu Jinlang'
             }, {
               img: require('~/assets/images/superNode/zengzhifang.jpg'),
-              name: '曾志芳'
+              name: 'Zeng Zhifang'
             }, {
               img: require('~/assets/images/superNode/zhonglifeng.jpg'),
-              name: '钟力峰'
+              name: 'Zhong Lifeng'
             }]
           },
           tenzor: {
