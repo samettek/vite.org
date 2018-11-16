@@ -37,11 +37,11 @@
             key: 'snap'
           },
           {
-            img: require('~/assets/images/superNode/ux.png'),
+            img: require('~/assets/images/superNode/ux.jpg'),
             key: 'ux'
           },
           {
-            img: require('~/assets/images/superNode/loopring.png'),
+            img: require('~/assets/images/superNode/loopring.jpg'),
             key: 'loopring'
           }
         ]
@@ -57,7 +57,7 @@
   section {
     padding-top: 60px;
     .container {
-     
+
       & > h2 {
         font-size: 44px;
         color: #171C34;

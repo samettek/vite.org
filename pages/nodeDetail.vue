@@ -8,7 +8,7 @@
             <h1>{{$t(`elector.nameMap.${key}.name`)}}</h1>
             <h2>{{$t(`elector.nameMap.${key}.description`)}}</h2>
           </div>
-          
+
         </div>
         <div class="columns content is-multiline is-tablet">
           <div class="column is-three-quarters">
@@ -30,7 +30,7 @@
                   </div>
                 </div>
               </div>
-              
+
             </div>
           </div>
           <div class="column">
@@ -63,13 +63,13 @@
             img: require('~/assets/images/superNode/vitelogo.jpeg'),
             banner: require('~/assets/images/superNode/vitecity.jpeg'),
             photo: [{
-              img: require('~/assets/images/superNode/hujinlang.png'),
+              img: require('~/assets/images/superNode/hujinlang.jpg'),
               name: '胡锦浪'
             }, {
-              img: require('~/assets/images/superNode/zengzhifang.png'),
+              img: require('~/assets/images/superNode/zengzhifang.jpg'),
               name: '曾志芳'
             }, {
-              img: require('~/assets/images/superNode/zhonglifeng.png'),
+              img: require('~/assets/images/superNode/zhonglifeng.jpg'),
               name: '钟力峰'
             }]
           },
@@ -81,13 +81,13 @@
             img: require('~/assets/images/superNode/tenzorlogo.png'),
             banner: require('~/assets/images/superNode/tenzor.png'),
             photo: [{
-              img: require('~/assets/images/superNode/kirill.png'),
+              img: require('~/assets/images/superNode/kirill.jpg'),
               name: 'Kirill Medvedev'
             }, {
-              img: require('~/assets/images/superNode/maksim.png'),
+              img: require('~/assets/images/superNode/maksim.jpg'),
               name: 'Maksim Mizerov'
             }, {
-              img: require('~/assets/images/superNode/daniil.png'),
+              img: require('~/assets/images/superNode/daniil.jpg'),
               name: 'Daniil Ogurtsov'
             }]
           },
@@ -102,7 +102,7 @@
               name: 'website',
               links: ['http://snapsecure.network/']
             }],
-            img: require('~/assets/images/superNode/snaplogo.png'),
+            img: require('~/assets/images/superNode/snaplogo.jpg'),
             banner: require('~/assets/images/superNode/snap.jpg'),
             photo: [{
               img: require('~/assets/images/superNode/mathew.jpg'),
@@ -115,15 +115,15 @@
               links: ['mailto:sbp@uixagency.com']
             }],
             img: require('~/assets/images/superNode/uxlogo.png'),
-            banner: require('~/assets/images/superNode/ux.png'),
+            banner: require('~/assets/images/superNode/ux.jpg'),
             photo: [{
               img: require('~/assets/images/superNode/vladimir.jpg'),
               name: 'Vladimir Polishchuk'
             }, {
-              img: require('~/assets/images/superNode/serhiy.png'),
+              img: require('~/assets/images/superNode/serhiy.jpg'),
               name: 'Serhiy Polishchuk'
             }, {
-              img: require('~/assets/images/superNode/julia.png'),
+              img: require('~/assets/images/superNode/julia.jpg'),
               name: 'Julia Novak'
             }]
           },
@@ -132,10 +132,10 @@
               name: 'email',
               links: ['mailto:foundation@loopring.org']
             }],
-            img: require('~/assets/images/superNode/loopringlogo.png'),
-            banner: require('~/assets/images/superNode/loopring.png'),
+            img: require('~/assets/images/superNode/loopringlogo.jpg'),
+            banner: require('~/assets/images/superNode/loopring.jpg'),
             photo: [{
-              img: require('~/assets/images/superNode/JayZhou.png'),
+              img: require('~/assets/images/superNode/JayZhou.jpg'),
               name: 'Kongliang, Zhong'
             }]
           }
@@ -197,7 +197,7 @@
           margin-bottom: 10px;
         }
         .content {
-          
+
           font-size: 14px;
           color: #919AA3;
           text-align: justify;
@@ -214,6 +214,6 @@
     .column-right {
       // min-width: 320px;
     }
-   
+
   }
 </style>
