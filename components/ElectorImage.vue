@@ -47,7 +47,6 @@
 <style rel="stylesheet/scss" lang="scss" scoped>
   @import "~assets/vars";
 
-
   .elector-item {
      &:hover {
         cursor: pointer;

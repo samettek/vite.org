@@ -174,7 +174,7 @@ module.exports = {
     'rightCommonPart': {
       title: 'Social Medias',
       email: 'Email',
-      twitter: 'twitter',
+      twitter: 'Twitter',
       website: 'Website'
     },
     'nameMap': {
@@ -244,15 +244,57 @@ module.exports = {
         description: 'Loop the world'
       },
       'zhizifund': {
-        info: ['Kongliang, Zhong ; ',
-          'Leila, Lin,Shanghai, China'],
-        config: ['NA'],
-        location: ['Shanghai'],
+        info: ['李大伟 智子基金联合创始人  十五年半导体行业从业经验，和矿机设备厂商有深入合作，2014年开始进入区块链行业，早期区块链投资者。常驻中国深圳; ',
+          '高峰 智子基金项目联合创始人  区块链早期参与者及爱好者，多年金融行业从业经验，有着丰富的项目投资管理经验。常驻澳洲'],
+        config: ['8 cores CPU 16G storage, 100Mbps bandwidth, 1T SSD storage, Centos 7.4 OS'],
+        location: ['Silicon Valley, the US'],
         photo: [],
-        medium: ['We have all social media and KOL ready for this campaign.'],
-        plan: ['we currently have an over 200K blockchain community. we are planning to promote and advocate Vite in our community.'],
-        name: 'ZHIZI Fund',
-        description: 'ZHIZI Fund, we are here to support for the development of Vite ecosystem'
+        plan: ['1、Vite项目孵化：智子基金是一家专注于区块链技术及加密货币投资的BVI基金。作为Vite的早期投资机构，我们也将积极参与Vite早期项目的孵化，为Vite生态项目方提供投资、运营、技术等全方位支持。',
+          '2、智子基金合作方众多：智子基金从成立至今，与多个海内外知名项目达成了良好的合作关系，我们将会为Vite提供资源合作、资源整合方式促进Vite生态发展。',
+          '3、海外市场拓展：海外一直是智子基金投资和合作的重点，在澳洲也有自己的运营中心，我们将为Vite提高更多的海外合作和市场拓展方面的资源。',
+          '4、社区及媒体：智子基金与多家优质媒体拥有良好的合作关系，可为Vite提高全方位的宣传推广。线下沙龙等；',
+          '5、高度认可Vite的发展理念：Vite是新一代响应式区块链，为工业级去中心化应用提供一个可靠的公共平台。VIte所倡导的公链发展方向与智子基金高度一致，智子基金将全力推动Vite生态建设发展。'],
+        medium: ['Official Website',
+          'Jinse Finance',
+          'Bihu',
+          'Bishijie',
+          'Weibo',
+          'Twitter'],
+        name: 'Zhizi Fund',
+        description: 'Zhizi Fund, support for the development of Vite ecosystem'
+      },
+      'linknode': {
+        info: ['Jiapeng Lin, Founding Partner, Jiapeng is the founding partner of LinkVC, a leading crypto fund which aim to incubate the most creative and game-changing companies in the blockchain industry. Prior to founding LinkVC, Jiapeng was a co-founder of Aicoin and consultant of Okcoin. Before Aicoin，he worked in the NASDAQ listed company Xunlei network, responsible for core product development, including Xunlei client, Xunlei Finance, Xunlei video and Thunder member value-added services. ',
+          'Henry（He） Xu, Partner, Henry is a partner of LinkVC. Prior to joining LinkVC, he was the early team member of Chinese top tech blog PingWest，Chief Editor of SLD website“SHIFT”. Founder of whitepaper researcher club “Monroe protocol”. Before that, Henry played various roles in Nanfang Daily、SEEC Media Group Limited、Autobot venture capital partners.',
+          'Li Zhang, Partner, Li is a partner of LinkVC. She is an early practitioner and sophisticated investor in blockchain industry. Prior to LinkVC, Li was in charge of the business development in Huobi, which is the most popular cryptocurrency exchange worldwide. Before Huobi, Li was the CMO of f2pool.'],
+        config: ['NA'],
+        location: ['NA'],
+        plan: ['Linknode is backed up by LinkVC, a crypto fund committed to serving outstanding companies and developers in the field of blockchain with global commercial resources and professional financial services. In the past two years, linkVC invested dozens projects worldwide including Aicoin, BBEX, aelf, Zilliqa, Blockv, Certik, Oasis labs, etc.',
+          '1. We have strong competitive advantages in both media exposure and industry resources. Having linknode as a super node, Vite can easily cooperate with other top tier projects to enhance community‘s influence.',
+          '2. Our rich experience in community building and project landing process can prevent the twist and turns in your development. ',
+          '3. Brand and endorsement effect'],
+        medium: ['As mentioned, LinkNode can provide various exposure channels.',
+          '1. We are the shareholder of several leading blockchain medias, such as pivot, AICoin, dp rating and chainfor.',
+          '2. Influential social medias account on hand in both WeChat and Telegram'],
+        name: 'LinkNode',
+        description: 'Born to be different'
+      },
+      'bitvite': {
+        info: ['William Wang, senior financial expert and blockchain entrepreneur, co-founder of Bit Dimension, more than 5 years experience in the operation and management of Fortune 500 companies, has founded many technology companies。Living in Guangzhou, China.',
+          'Senyuan Zhang, blockchain engineer. Proficient in block technology, continuous blockchain entrepreneurs.The first batch of bitcoin players in China. With the successful application experience of multiple blockchains,he believes that the era of big navigation in the blockchain will come.Living in Guangzhou, China.',
+          'Alex Lee, senior Bitcoin player, co-founder of Fibos SuperNode, has more than 5 years of digital currency investment experience, more than three years of senior financial management experience, and continuous blockchain entrepreneurs.Living in Guangzhou, China.'],
+        config: ['16 GB, 4 CPU, More than 100Mbps bandwidth'],
+        location: ['Shenzhen,China'],
+        plan: ['2018 is destined to be an extraordinary year. Under the bright sunshine of the great transformation of the 40th anniversary of reform and opening up, the blockchain field has gradually penetrated into all walks of life and exerted its "credit value" function. Looking back at the 2017 chain and the currency circle, there is no doubt that "a big Yangxian can change the belief", "as long as you buy and hold, you can lie down and make money" hot market, but the tide will eventually recede, the economic market No one can guarantee that compared with the chain and the currency circle, it is necessary to effectively reflect the value of the team, accelerate the integration with the real economy, and cooperate with the common promotion of policies, technologies and markets to optimize the traditional industrial model and help the high quality. development of. As a public chain based on DAG technology, Vite proposes a forward-looking point of view of joint governance, and publicly selects high-quality talents with ability, condition, responsibility and ideal blockchain. As the candidate for Vite nodes, the following three points are bit dimensions. Community development planning:',
+          'The first, It is imperative. In the context of the Internet, where the demographic dividend is gradually fading, and the once-popular but eclipsed sharing economy, the blockchain focuses on assisting the transformation and upgrading of the industry. When the bit dimension succeeds as one of the Vite nodes, our team or community will follow. The official pace of Vite, in conjunction with the official completion of the node\'s responsibilities, participate in the Vite node co-construction and optimization steps. The Vite node is only one part of the community construction. The members of the Bit Dimensional team have doubled computer science and technology and financial economics, are proficient in various computer development languages, have more than five years of experience in the financial industry, and coincide with the blockchain field. Solid technical skills and rich experience in the development and operation of blockchain projects have made our bit dimension team more confident to be able to work on Vite nodes. At the same time, there are also Vite and Loopring positions among team members, which is a solid guideline protocol. Advocates and enthusiasts;',
+          'Second, Take a multi-pronged approach. Community and ecological construction need both hard and soft. On the one hand, the bit-dimensional team with experience in node selection has a complete set of server resources, provides a series of technical support, and arranges real-time monitoring of nodes to ensure stable operation of the system; In the process of promoting Vite\'s ecological construction, the Bit Dimensional team currently has thousands of communities and mature ecological promotion and organization experience, and effectively uses the bit dimension public number, bit dimension financial website and other self-media channels and consulting communities. The technical community co-catalyzes, effectively promotes Vite, knows Vite in a popular way, understands Vite in depth, and enthusiastically joins Vite. Anyone who contributes to the bit-dimensional node, whether it is community construction or technical maintenance, will be 20% of the proceeds are incentives and 5% are outstanding contributions. And the Bit Dimensional team will also combine their own project comprehension, share technical documentation, answer and guide the Vite technology community. At the same time, the bit dimension has the experience of Dapp landing application development, and has developed distributed applications based on the underlying technology of eos and sidechain fibos. Currently, it has a deep understanding and familiarity with Vite related technical documents for the later application of ecological construction. get ready;',
+          'Third, Be prepared for the rain. The Bit Dimensional Team firmly believes that in the context of the new era, the new journey, and the new mission, the blockchain revolution must be able to subvert the traditional, complex, over-centered, and inefficient system, serving more transparent and efficient And fair areas. Therefore, the bit-dimensional team is not only committed to node construction, but will use a more precise angle and more abundant power to make a combination of community construction and application development. In the future, the bit dimension team will implement “four more”. : Put forward more Vite project ideas, issue more applications, recruit more investment institutions, and recruit more people of insight.',
+          'We always believe that Vite will be the leader, not only bringing the next bull market, but also leading the blockchain era, and the bit dimension, more depth!'],
+        medium: ['1. We have created a blockchain media bit dimension (bitewd.com) in China to increase the vite exposure rate, and will adopt the form of opening vite knowledge column, node column, etc.;',
+          '2. Open the social account of WeChat public account, Weibo account, twitter, etc. on this node, and the special person will be responsible for operating the social account and strengthen the interaction with the fans;',
+          '3. Create multiple vite WeChat groups or telegraph groups, and continuously acquire new vite fans through diversified dapps developed by the team.'],
+        name: 'BitVite',
+        description: 'For Vite！ For Freedom！'
       }
     }
   },
