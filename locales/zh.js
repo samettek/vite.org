@@ -179,9 +179,9 @@ module.exports = {
     },
     'nameMap': {
       'vitecity': {
-        info: ['胡锦浪；vitecity节点创始人，香港中文大学 金融学硕士，CFA、 CPA，曾供职于德勤咨询公司，负责中概股海外上市咨询工作，丰富的资本运作经验，服务过聚美优品、拍拍贷、优信二手车等等中概股海外上市案例；任职某知名区块链投行，丰富的交易所资源以及区块链媒体资源，帮助区块链项目海外基金会设立、海外发行、上市等工作，服务过众多市值排名前100的项目，如VET、Tron、 link、WTC、IOST、ELF等；常驻中国上海；',
+        info: ['胡锦浪：vitecity节点创始人，香港中文大学 金融学硕士，CFA、 CPA，曾供职于德勤咨询公司，负责中概股海外上市咨询工作，丰富的资本运作经验，服务过聚美优品、拍拍贷、优信二手车等等中概股海外上市案例；任职某知名区块链投行，丰富的交易所资源以及区块链媒体资源，帮助区块链项目海外基金会设立、海外发行、上市等工作，服务过众多市值排名前100的项目，如VET、Tron、 link、WTC、IOST、ELF等；常驻中国上海；',
           '曾志芳：北京外国语大学英语学士 日本早稻田大学新闻学硕士； 知名社区负责人，运营3万人技术社区，与CSDN、开源中国、51CTO等国内顶级的技术社区保持密切的合作关系；丰富的区块链媒体资源，金色财经、巴比特、链得得、挖链网、核财经、火币资讯、芭比财经等密切的合作关系；社群运营专家，旗下拥有多个区块链社群，覆盖百万级用户；丰富的海外社区资源，曾经策划在一个月内将某项目在reddit讨论炒热，并带动该项目市值在三个月内增幅四倍；常驻中国上海；',
-          '钟力峰: CTO，浙江大学计算机硕士，十年技术开发经验，曾任职第四范式人工智能公司负责大数据与广告业务开发；擅长AI深度学习算法，对金融交易理解深刻，现负责加密货币量化系统开发；常驻中国上海；'],
+          '钟力峰：CTO，浙江大学计算机硕士，十年技术开发经验，曾任职第四范式人工智能公司负责大数据与广告业务开发；擅长AI深度学习算法，对金融交易理解深刻，现负责加密货币量化系统开发；常驻中国上海；'],
         config: ['8核16G 100M带宽'],
         location: ['杭州&中国'],
         photo: [],
@@ -191,8 +191,8 @@ module.exports = {
         plan: ['1、通过区块链媒体、钱包、行情软件等流量入口增加vite项目的曝光度，开设社交媒体账号并由专人运营，宣传vite项目的技术优势，转发官方公布的项目进展、公告；',
           '2、设计VITE周边产品，定期举行线下粉丝meetup活动，由专人负责社区运营；并配合官方举办的meetup活动；联合媒体、钱包、行情软件等友商定期举办空投活动；',
           '3、发动技术社区资源，辅助官方为vite项目DAPP生态落地提供支持；'],
-        'name': 'ViteCity',
-        'description': 'Make vite-blockchain stronger ！'
+        name: 'ViteCity',
+        description: 'Make vite-blockchain stronger ！'
       },
       'tenzor': {
         info: ['Tenzor Capital, more than 4 years in VC business. Founder of icoscoring.com. Kirill has deep knowledge in investment management, financial modelling and deals structuring. He has obtained BS is Chemistry and MA in Economics in the one of leading Russian university - MSU.',
@@ -242,6 +242,22 @@ module.exports = {
         plan: ['we currently have an over 200K blockchain community. we are planning to promote and advocate Vite in our community.'],
         name: 'Loopnode',
         description: 'Loop the world'
+      },
+      'zhizifund': {
+        info: ['李大伟 智子基金联合创始人  十五年半导体行业从业经验，和矿机设备厂商有深入合作，2014年开始进入区块链行业，早期区块链投资者。常驻中国深圳; ',
+          '高峰 智子基金项目联合创始人  区块链早期参与者及爱好者，多年金融行业从业经验，有着丰富的项目投资管理经验。常驻澳洲'],
+        config: ['8核Cpu 16G内存 100M带宽 1Tssd存储空间 Centos 7.4操作系统'],
+        location: ['美国 硅谷'],
+        photo: [],
+        plan: ['1、Vite项目孵化：智子基金是一家专注于区块链技术及加密货币投资的BVI基金。作为Vite的早期投资机构，我们也将积极参与Vite早期项目的孵化，为Vite生态项目方提供投资、运营、技术等全方位支持。', '2、智子基金合作方众多：智子基金从成立至今，与多个海内外知名项目达成了良好的合作关系，我们将会为Vite提供资源合作、资源整合方式促进Vite生态发展。', '3、海外市场拓展：海外一直是智子基金投资和合作的重点，在澳洲也有自己的运营中心，我们将为Vite提高更多的海外合作和市场拓展方面的资源。', '4、社区及媒体：智子基金与多家优质媒体拥有良好的合作关系，可为Vite提高全方位的宣传推广。线下沙龙等；', '5、高度认可Vite的发展理念：Vite是新一代响应式区块链，为工业级去中心化应用提供一个可靠的公共平台。VIte所倡导的公链发展方向与智子基金高度一致，智子基金将全力推动Vite生态建设发展。'],
+        medium: ['官网：zhizi.fund\n' +
+        '金色财经\n' +
+        '币乎\n' +
+        '币世界\n' +
+        '微博\n' +
+        '推特'],
+        name: '智子基金',
+        description: '智子基金助力Vite生态发展'
       }
     }
   },

@@ -242,6 +242,17 @@ module.exports = {
         plan: ['we currently have an over 200K blockchain community. we are planning to promote and advocate Vite in our community.'],
         name: 'Loopnode',
         description: 'Loop the world'
+      },
+      'zhizifund': {
+        info: ['Kongliang, Zhong ; ',
+          'Leila, Lin,Shanghai, China'],
+        config: ['NA'],
+        location: ['Shanghai'],
+        photo: [],
+        medium: ['We have all social media and KOL ready for this campaign.'],
+        plan: ['we currently have an over 200K blockchain community. we are planning to promote and advocate Vite in our community.'],
+        name: 'ZHIZI Fund',
+        description: 'ZHIZI Fund, we are here to support for the development of Vite ecosystem'
       }
     }
   },
@@ -314,7 +325,7 @@ module.exports = {
         '5. Setup specifications of your data center. (Recommended: 8 core, 16GB RAM, 100Mbps)',
         '6. Location of your server. ',
         "7. Please describe in detail how you plan to add value to Vite's ecosystem after becoming a SBP.",
-        "8. Plans for gaining social media exposure (significant presence within our social media reflects a certain level of commitment to nurturing the growth of Vite's community). <br/>Link for submitting your information: <a href='https://jiandaoyun.com/f/5bdbef8be1613237783c264b' target='_blank'>https://jiandaoyun.com/f/5bdbef8be1613237783c264b</a>"
+        "8. Plans for gaining social media exposure, significant presence within our social media reflects a certain level of commitment to nurturing the growth of Vite's community. Please fill out your accounts of social medias created as your SBP identity. <br/>Link for submitting your information: <a href='https://jiandaoyun.com/f/5bdbef8be1613237783c264b' target='_blank'>https://jiandaoyun.com/f/5bdbef8be1613237783c264b</a>"
       ]
     }, {
       'orderNum': 'II.',
@@ -353,8 +364,8 @@ module.exports = {
       'orderNum': 'IV.',
       'question': 'Incentive Plan',
       'answer': [
-        '1. All forging SBPs will share mining rewards, equivalent to 3% of the total issued token amount on an annual basis. This translates to 30 million VITE (3% of the current total supply of 1 billion VITE). ',
-        "2. supernode rewards are divided into two parts: 50% for creating blocks and 50% for voting. Among the 30 million token rewards per year, 15 million are awarded to the supernodes that create blocks, and 15 million are awarded to the supernodes that were elected by the community (in TestNet stage, this will be the top 100 supernodes).<br/>If a supernode were to keep mining for one year, it could get 600,000 VITE from the block creation reward ((30 million / 25 nodes) * 50%), plus the reward from voting.<br/> Voting reward calculation: according to the supernode's stake and voting ratio, (the node staking tokens + voting) / (all supernode staking tokens + all voting) * (block reward). Each round will be 75 seconds. The daily sum would be multiplied by the block rate.<br/>A single supernode daily reward would be: 1,643.835 VITE of voting rewards + token stake and voting reward.",
+        '1. Forging SBPs in TestNet stage will share annual forging rewards, equivalent to 3% of the total issued token amount. This translates to 30 million VITE (3% of the current total supply of 1 billion VITE). ',
+        "2. supernode rewards are divided into two parts: 50% for creating blocks and 50% for voting. Among the 30 million token rewards per year, 15 million are awarded to the supernodes that create blocks, and 15 million are awarded to the supernodes that were elected by the community (in TestNet stage, this will be the top 100 supernodes).<br/>If a supernode were to keep mining for one year, it could get 600,000 VITE from the block creation reward ((30 million / 25 nodes) * 50%), plus the reward from voting.<br/> Voting reward calculation: according to the supernode's stake and voting ratio, (the node staking tokens + voting) / (all supernode staking tokens + all voting) * (voting reward). Each round will be 75 seconds. The daily sum would be multiplied by the block rate.<br/>A single supernode daily reward would be: 1,643.835 VITE of voting rewards + token stake and voting reward.",
         '3. There are many Airdrop plans and rewards for the TestNet stage. We will increase the number of tokens issued to reward SBPs after the MainNet is launched.',
         '4. Reward Extraction, Only the rewards from the previous day can be extracted.'
       ]
