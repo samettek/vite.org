@@ -137,7 +137,7 @@ module.exports = {
       },
       {
         'time': 'Nov 2019',
-        'description': 'Vite Testnet Release'
+        'description': 'Vite TestNet Release'
       },
       {
         'time': 'Jan 2020',
@@ -154,7 +154,7 @@ module.exports = {
     'detailTitles': [
       {
         key: 'info',
-        title: 'Information of team members'
+        title: 'Information of Team Members'
       },
       {
         key: 'photo',
@@ -162,14 +162,14 @@ module.exports = {
       },
       {
         key: 'config',
-        title: 'Data Center Configuration'
+        title: 'Configuration of Data Center'
       },
       {
         key: 'location',
         title: 'Service Location'
       }, {
         key: 'plan',
-        title: 'Eco-development plans'
+        title: 'Eco-development Plans'
       }],
     'rightCommonPart': {
       title: 'Social Medias',
@@ -260,7 +260,7 @@ module.exports = {
           'Bishijie',
           'Weibo',
           'Twitter'],
-        name: 'Zhizi Fund',
+        name: 'ZVnode',
         description: 'Zhizi Fund, support for the development of Vite ecosystem'
       },
       'linknode': {
@@ -280,11 +280,11 @@ module.exports = {
         description: 'Born to be different'
       },
       'bitvite': {
-        info: ['William Wang, senior financial expert and blockchain entrepreneur, co-founder of Bit Dimension, more than 5 years experience in the operation and management of Fortune 500 companies, has founded many technology companies。Living in Guangzhou, China.',
+        info: ['William Wang, senior financial expert and blockchain entrepreneur, co-founder of Bit Dimension, more than 5 years experience in the operation and management of Fortune 500 companies, has founded many technology companies. Living in Guangzhou, China.',
           'Senyuan Zhang, blockchain engineer. Proficient in block technology, continuous blockchain entrepreneurs.The first batch of bitcoin players in China. With the successful application experience of multiple blockchains,he believes that the era of big navigation in the blockchain will come.Living in Guangzhou, China.',
-          'Alex Lee, senior Bitcoin player, co-founder of Fibos SuperNode, has more than 5 years of digital currency investment experience, more than three years of senior financial management experience, and continuous blockchain entrepreneurs.Living in Guangzhou, China.'],
+          'Alex Lee, senior Bitcoin player, co-founder of Fibos SuperNode, has more than 5 years of digital currency investment experience, more than three years of senior financial management experience, and continuous blockchain entrepreneurs. Living in Guangzhou, China.'],
         config: ['16 GB, 4 CPU, More than 100Mbps bandwidth'],
-        location: ['Shenzhen,China'],
+        location: ['Shenzhen, China'],
         plan: ['2018 is destined to be an extraordinary year. Under the bright sunshine of the great transformation of the 40th anniversary of reform and opening up, the blockchain field has gradually penetrated into all walks of life and exerted its "credit value" function. Looking back at the 2017 chain and the currency circle, there is no doubt that "a big Yangxian can change the belief", "as long as you buy and hold, you can lie down and make money" hot market, but the tide will eventually recede, the economic market No one can guarantee that compared with the chain and the currency circle, it is necessary to effectively reflect the value of the team, accelerate the integration with the real economy, and cooperate with the common promotion of policies, technologies and markets to optimize the traditional industrial model and help the high quality. development of. As a public chain based on DAG technology, Vite proposes a forward-looking point of view of joint governance, and publicly selects high-quality talents with ability, condition, responsibility and ideal blockchain. As the candidate for Vite nodes, the following three points are bit dimensions. Community development planning:',
           'The first, It is imperative. In the context of the Internet, where the demographic dividend is gradually fading, and the once-popular but eclipsed sharing economy, the blockchain focuses on assisting the transformation and upgrading of the industry. When the bit dimension succeeds as one of the Vite nodes, our team or community will follow. The official pace of Vite, in conjunction with the official completion of the node\'s responsibilities, participate in the Vite node co-construction and optimization steps. The Vite node is only one part of the community construction. The members of the Bit Dimensional team have doubled computer science and technology and financial economics, are proficient in various computer development languages, have more than five years of experience in the financial industry, and coincide with the blockchain field. Solid technical skills and rich experience in the development and operation of blockchain projects have made our bit dimension team more confident to be able to work on Vite nodes. At the same time, there are also Vite and Loopring positions among team members, which is a solid guideline protocol. Advocates and enthusiasts;',
           'Second, Take a multi-pronged approach. Community and ecological construction need both hard and soft. On the one hand, the bit-dimensional team with experience in node selection has a complete set of server resources, provides a series of technical support, and arranges real-time monitoring of nodes to ensure stable operation of the system; In the process of promoting Vite\'s ecological construction, the Bit Dimensional team currently has thousands of communities and mature ecological promotion and organization experience, and effectively uses the bit dimension public number, bit dimension financial website and other self-media channels and consulting communities. The technical community co-catalyzes, effectively promotes Vite, knows Vite in a popular way, understands Vite in depth, and enthusiastically joins Vite. Anyone who contributes to the bit-dimensional node, whether it is community construction or technical maintenance, will be 20% of the proceeds are incentives and 5% are outstanding contributions. And the Bit Dimensional team will also combine their own project comprehension, share technical documentation, answer and guide the Vite technology community. At the same time, the bit dimension has the experience of Dapp landing application development, and has developed distributed applications based on the underlying technology of eos and sidechain fibos. Currently, it has a deep understanding and familiarity with Vite related technical documents for the later application of ecological construction. get ready;',
@@ -293,8 +293,36 @@ module.exports = {
         medium: ['1. We have created a blockchain media bit dimension (bitewd.com) in China to increase the vite exposure rate, and will adopt the form of opening vite knowledge column, node column, etc.;',
           '2. Open the social account of WeChat public account, Weibo account, twitter, etc. on this node, and the special person will be responsible for operating the social account and strengthen the interaction with the fans;',
           '3. Create multiple vite WeChat groups or telegraph groups, and continuously acquire new vite fans through diversified dapps developed by the team.'],
-        name: 'BitVite',
-        description: 'For Vite！ For Freedom！'
+        name: 'Bitvite',
+        description: 'For Vite！For Freedom！'
+      },
+      'swissvite': {
+        info: ['Julien Pidoux, Designer, Belmont-sur-Lausanne, Switzerland',
+          'Guillaume Pedrazzini, Miner, Geneva, Switzerland',
+          'Pierre Boiteux, Computer Engineer, Quantitative Analyst, Vevey, Switzerland',
+          'Julien Mallet, Corporate Performance Management consultant, Martigny, Switzerland',
+          'Jean-Luc Strullu, Full Stack Developer, Beihai, China'],
+        config: ['8CPU, 24GB RAM and 100 Mbps bandwidth'],
+        location: ['Geneva, Switzerland'],
+        plan: ['Promotion of VITE through our website (http://swissvite.org/, in development), social media channels and meetups in Switzerland and European countries'],
+        medium: ['Creation of tutorials in English and French for users and developers Development of community tools Use growth hacking methods to target communication to a maximum of people interested in DAG and blockchain'],
+        name: 'Swiss Vite',
+        description: 'Your VITE community at the heart of Europe'
+      },
+      'xinsheng': {
+        info: ['崔哲，鑫盛资本创始人兼CEO，常驻地中国北京',
+          '李志博，鑫盛资本联合创始人兼CMO，常驻地中国北京',
+          '张旭铭，社区合伙人，常驻地中国北京',
+          'Emma，社区合伙人，常驻地中国北京',
+          '孙权，社区合伙人，常驻地中国北京'],
+        config: ['8 cores CPU 16G RAM 100 Mbps bandwidth 1T ssd storage Centos 7.4 OS'],
+        location: ['Beijing, China'],
+        plan: ['1、社区推广合作，组织渠道现有社群及新建社群宣传vite。',
+          '2、整合公司行业内资源，包括媒体、社群、资本方、项目方协助vite推广商业合作。',
+          '3、建立vite超级节点社区，帮助新用户了解vite 基础知识普及。'],
+        medium: ['WeChat official account, Weibo, Twitter, Bihu, Telegram'],
+        name: 'XinShengFound',
+        description: 'Shoot for the Vite'
       }
     }
   },
@@ -310,12 +338,12 @@ module.exports = {
       'wangdong': {
         'name': 'Daniel Wang',
         'position': '',
-        'description': 'Seasoned blockchain entrepreneur.  Graduated from China University of Science and Technology and Arizona State University.  Founder of Loopring, former Google America Tech Lead, Co-found and VP of Yun Yun Wang, Senior Research and Development Director at JD.com, and Co-Founder of Coinport.'
+        'description': 'Seasoned blockchain entrepreneur.  Graduated from China University of Science and Technology and Arizona State University.  Founder of Loopring, former Google America Tech Lead, Co-founder and VP of Yun Yun Wang, Senior Research and Development Director at JD.com, and Co-Founder of Coinport.'
       },
       'terenceLam': {
         'name': 'Terence Lam',
         'position': '',
-        'description': 'Veteran investor.  Graduated from Harvard Business School.  Partner of Zhizi Blockchain Investment Fund.  Adjust professor of SPACE China business school at Hong Kong University.  20+ years’ experience as senior technical manager at Global 500 companies.  Started many technology startups.'
+        'description': 'Veteran investor.  Graduated from Harvard Business School.  Partner of Zhizi Blockchain Investment Fund.  Adjust professor of SPACE China business school at Hong Kong University.  20+ years’ experience as senior technical manager at Global 500 companies. Started many technology startups.'
       },
       'richard': {
         name: 'Richard',
@@ -407,7 +435,7 @@ module.exports = {
       'question': 'Incentive Plan',
       'answer': [
         '1. Forging SBPs in TestNet stage will share annual forging rewards, equivalent to 3% of the total issued token amount. This translates to 30 million VITE (3% of the current total supply of 1 billion VITE). ',
-        "2. supernode rewards are divided into two parts: 50% for creating blocks and 50% for voting. Among the 30 million token rewards per year, 15 million are awarded to the supernodes that create blocks, and 15 million are awarded to the supernodes that were elected by the community (in TestNet stage, this will be the top 100 supernodes).<br/>If a supernode were to keep mining for one year, it could get 600,000 VITE from the block creation reward ((30 million / 25 nodes) * 50%), plus the reward from voting.<br/> Voting reward calculation: according to the supernode's stake and voting ratio, (the node staking tokens + voting) / (all supernode staking tokens + all voting) * (voting reward). Each round will be 75 seconds. The daily sum would be multiplied by the block rate.<br/>A single supernode daily reward would be: 1,643.835 VITE of voting rewards + token stake and voting reward.",
+        "2. supernode rewards are divided into two parts: 50% for creating blocks and 50% for voting. Among the 30 million token rewards per year, 15 million are awarded to the supernodes that create blocks, and 15 million are awarded to the supernodes that were elected by the community (in TestNet stage, this will be the top 100 supernodes).<br/>If a supernode were to keep mining for one year, it could get 600,000 VITE from the block creation reward ((30 million / 25 nodes) * 50%), plus the reward from voting.<br/> Voting reward calculation: according to the supernode's stake and voting ratio, (the node staking tokens + voting) / (all supernode staking tokens + all voting) * (voting reward). Each round will be 75 seconds. The daily sum would be multiplied by the block rate.<br/>A single supernode daily reward would be: 1,643.835 VITEs of blocks creation rewards, plus additional staking/voting rewards",
         '3. There are many Airdrop plans and rewards for the TestNet stage. We will increase the number of tokens issued to reward SBPs after the MainNet is launched.',
         '4. Reward Extraction, Only the rewards from the previous day can be extracted.'
       ]
@@ -440,7 +468,7 @@ module.exports = {
       {
         question: 'Will there be airdrops for Vite? In what way?',
         answer: [
-          'There will be.  Stay tuned for amount and mechanism.'
+          'There will be. Stay tuned for amount and mechanism.'
         ]
       },
       {

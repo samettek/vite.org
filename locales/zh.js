@@ -256,7 +256,7 @@ module.exports = {
           '币世界',
           '微博',
           '推特'],
-        name: '智子基金',
+        name: 'ZVnode',
         description: '智子基金助力Vite生态发展'
       },
       'linknode': {
@@ -289,8 +289,36 @@ module.exports = {
         medium: ['1. We have created a blockchain media bit dimension (bitewd.com) in China to increase the vite exposure rate, and will adopt the form of opening vite knowledge column, node column, etc.;',
           '2. Open the social account of WeChat public account, Weibo account, twitter, etc. on this node, and the special person will be responsible for operating the social account and strengthen the interaction with the fans;',
           '3. Create multiple vite WeChat groups or telegraph groups, and continuously acquire new vite fans through diversified dapps developed by the team.'],
-        name: 'BitVite',
-        description: 'For Vite！ For Freedom！'
+        name: 'Bitvite',
+        description: 'For Vite！For Freedom！'
+      },
+      'swissvite': {
+        info: ['Julien Pidoux, Designer, Belmont-sur-Lausanne, Switzerland',
+          'Guillaume Pedrazzini, Miner, Geneva, Switzerland',
+          'Pierre Boiteux, Computer Engineer, Quantitative Analyst, Vevey, Switzerland',
+          'Julien Mallet, Corporate Performance Management consultant, Martigny, Switzerland',
+          'Jean-Luc Strullu, Full Stack Developer, Beihai, China'],
+        config: ['8CPU, 24GB RAM and 100 Mbps bandwidth'],
+        location: ['Geneva, Switzerland'],
+        plan: ['Promotion of VITE through our website (http://swissvite.org/, in development), social media channels and meetups in Switzerland and European countries'],
+        medium: ['Creation of tutorials in English and French for users and developers Development of community tools Use growth hacking methods to target communication to a maximum of people interested in DAG and blockchain'],
+        name: 'Swiss Vite',
+        description: 'Your VITE community at the heart of Europe'
+      },
+      'xinsheng': {
+        info: ['崔哲，鑫盛资本创始人兼CEO，常驻地中国北京',
+          '李志博，鑫盛资本联合创始人兼CMO，常驻地中国北京',
+          '张旭铭，社区合伙人，常驻地中国北京',
+          'Emma，社区合伙人，常驻地中国北京',
+          '孙权，社区合伙人，常驻地中国北京'],
+        config: ['8核Cpu 16G内存 100M带宽 1Tssd存储空间 Centos 7.4操作系统'],
+        location: ['中国 北京'],
+        plan: ['1、社区推广合作，组织渠道现有社群及新建社群宣传vite。',
+          '2、整合公司行业内资源，包括媒体、社群、资本方、项目方协助vite推广商业合作。',
+          '3、建立vite超级节点社区，帮助新用户了解vite 基础知识普及。'],
+        medium: ['微信公众号 微博 twitter 币乎 Telegram'],
+        name: 'XinShengFound',
+        description: 'Shoot for the Vite'
       }
     }
   },

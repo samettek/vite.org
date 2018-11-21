@@ -55,6 +55,14 @@
           {
             img: require('~/assets/images/superNode/bitvitebanner.jpeg'),
             key: 'bitvite'
+          },
+          {
+            img: require('~/assets/images/superNode/swissbanner.jpg'),
+            key: 'swissvite'
+          },
+          {
+            img: require('~/assets/images/superNode/xinshengbanner.jpeg'),
+            key: 'xinsheng'
           }
         ]
       }
