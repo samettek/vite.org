@@ -355,7 +355,7 @@ module.exports = {
         '5、数据中心配置（建议配置8核16G 100M带宽）',
         '6、服务器所在地',
         '7、生态发展规划。请详细描述，成为一名超级节点后计划如何为Vite的生态系统增添价值。',
-        '8、社交媒体曝光。强有力的媒体曝光将决定您对社区的投入程度。请填写您作为超级节点身份创建的社交媒体账号。<br/>资料提交表单链接：<a href="https://jiandaoyun.com/f/5bdbef8be1613237783c264b" target="_blank">https://jiandaoyun.com/f/5bdbef8be1613237783c264b</a>'
+        '8、社交媒体曝光。强有力的媒体曝光将决定您对社区的投入程度。请填写您作为超级节点身份创建的社交媒体账号。<br/>资料提交表单链接：<a href="https://docs.google.com/forms/d/1u2HC3ecC3rkQk58Kn9D8eBNhN8DpkAB2DMY06QNzHvk/viewform?edit_requested=true" target="_blank">https://docs.google.com/forms/d/1u2HC3ecC3rkQk58Kn9D8eBNhN8DpkAB2DMY06QNzHvk/viewform?edit_requested=true</a>'
       ]
     }, {
       'orderNum': '二、',

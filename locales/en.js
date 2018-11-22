@@ -314,7 +314,7 @@ module.exports = {
         '5. Setup specifications of your data center. (Recommended: 8 core, 16GB RAM, 100Mbps)',
         '6. Location of your server. ',
         "7. Please describe in detail how you plan to add value to Vite's ecosystem after becoming a SBP.",
-        "8. Plans for gaining social media exposure (significant presence within our social media reflects a certain level of commitment to nurturing the growth of Vite's community). <br/>Link for submitting your information: <a href='https://jiandaoyun.com/f/5bdbef8be1613237783c264b' target='_blank'>https://jiandaoyun.com/f/5bdbef8be1613237783c264b</a>"
+        "8. Plans for gaining social media exposure (significant presence within our social media reflects a certain level of commitment to nurturing the growth of Vite's community). <br/>Link for submitting your information: <a href='https://docs.google.com/forms/d/1u2HC3ecC3rkQk58Kn9D8eBNhN8DpkAB2DMY06QNzHvk/viewform?edit_requested=true' target='_blank'>https://docs.google.com/forms/d/1u2HC3ecC3rkQk58Kn9D8eBNhN8DpkAB2DMY06QNzHvk/viewform?edit_requested=true</a>"
       ]
     }, {
       'orderNum': 'II.',
