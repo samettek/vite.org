@@ -138,6 +138,111 @@
               img: require('~/assets/images/superNode/JayZhou.jpg'),
               name: 'Kongliang, Zhong'
             }]
+          },
+          zhizifund: {
+            desc: [{
+              name: 'email',
+              links: ['mailto:zhizifund@gmail.com']
+            }, {
+              name: 'website',
+              links: ['http://zhizi.fund/']
+            }],
+            img: require('~/assets/images/superNode/zhizilogo.jpg'),
+            banner: require('~/assets/images/superNode/zhizibanner.jpg'),
+            photo: [{
+              img: require('~/assets/images/superNode/lidawei.png'),
+              name: 'Dawei Li'
+            }, {
+              img: require('~/assets/images/superNode/gaofeng.png'),
+              name: 'Feng Gao'
+            }]
+          },
+          linknode: {
+            desc: [{
+              name: 'email',
+              links: ['mailto:blairqu@linkvc.com']
+            }],
+            img: require('~/assets/images/superNode/linknodelogo.jpg'),
+            banner: require('~/assets/images/superNode/linknodebanner.jpg'),
+            photo: [{
+              img: require('~/assets/images/superNode/jiapenglin.jpg'),
+              name: 'Jiapeng Lin'
+            }, {
+              img: require('~/assets/images/superNode/henryxu.jpg'),
+              name: 'Henry（He） Xu'
+            }, {
+              img: require('~/assets/images/superNode/lizhang.jpg'),
+              name: 'Li Zhang'
+            }]
+          },
+          bitvite: {
+            desc: [{
+              name: 'email',
+              links: ['mailto:Contract@bitewd.com']
+            }],
+            img: require('~/assets/images/superNode/bitvitelogo.png'),
+            banner: require('~/assets/images/superNode/bitvitebanner.jpeg'),
+            photo: [{
+              img: require('~/assets/images/superNode/williamwang.jpg'),
+              name: 'William Wang'
+            }, {
+              img: require('~/assets/images/superNode/senyuanzhang.png'),
+              name: 'Senyuan Zhang'
+            }, {
+              img: require('~/assets/images/superNode/alexlee.jpg'),
+              name: 'Alex Lee'
+            }]
+          },
+          swissvite: {
+            desc: [{
+              name: 'email',
+              links: ['mailto:contact@swissvite.org']
+            }, {
+              name: 'website',
+              links: ['http://swissvite.org/']
+            }],
+            img: require('~/assets/images/superNode/swissvitelogo.jpg'),
+            banner: require('~/assets/images/superNode/swissbanner.jpg'),
+            photo: [{
+              img: require('~/assets/images/superNode/julien.jpg'),
+              name: 'Julien Pidoux'
+            }, {
+              img: require('~/assets/images/superNode/guillaume.jpg'),
+              name: 'Guillaume Pedrazzini'
+            }, {
+              img: require('~/assets/images/superNode/pierre.jpg'),
+              name: 'Pierre BoiteuxSwitzerland'
+            }, {
+              img: require('~/assets/images/superNode/mallet.jpg'),
+              name: 'Julien MalletSwitzerland'
+            }, {
+              img: require('~/assets/images/superNode/jean.jpg'),
+              name: 'Jean-Luc Strullu'
+            }]
+          },
+          xinsheng: {
+            desc: [{
+              name: 'email',
+              links: ['xinshengcap@hotmail.com']
+            }],
+            img: require('~/assets/images/superNode/xinshenglogo.png'),
+            banner: require('~/assets/images/superNode/xinshengbanner.jpeg'),
+            photo: [{
+              img: require('~/assets/images/superNode/cuizhe.png'),
+              name: 'Zhe Cui'
+            }, {
+              img: require('~/assets/images/superNode/lizhibo.png'),
+              name: 'Zhibo Li'
+            }, {
+              img: require('~/assets/images/superNode/zhangxuming.png'),
+              name: 'Xuming Zhang'
+            }, {
+              img: require('~/assets/images/superNode/emma.png'),
+              name: 'Emma'
+            }, {
+              img: require('~/assets/images/superNode/sunquan.png'),
+              name: 'Quan Sun'
+            }]
           }
         }
       }
