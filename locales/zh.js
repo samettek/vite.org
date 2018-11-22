@@ -317,7 +317,7 @@ module.exports = {
           '2、整合公司行业内资源，包括媒体、社群、资本方、项目方协助vite推广商业合作。',
           '3、建立vite超级节点社区，帮助新用户了解vite 基础知识普及。'],
         medium: ['微信公众号 微博 twitter 币乎 Telegram'],
-        name: 'XinShengFound',
+        name: 'XinShengFund',
         description: 'Shoot for the Vite'
       }
     }
