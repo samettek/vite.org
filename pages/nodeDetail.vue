@@ -243,7 +243,19 @@
               img: require('~/assets/images/superNode/sunquan.png'),
               name: 'Quan Sun'
             }]
-          }
+          },
+          zlnode: {
+            desc: [{
+              name: 'email',
+              links: ['mailto:blairqu@linkvc.com']
+            }],
+            img: require('~/assets/images/superNode/zllogo.jpg'),
+            banner: require('~/assets/images/superNode/zlbanner.jpg'),
+            photo: [{
+              img: require('~/assets/images/superNode/lizhang.jpg'),
+              name: 'Li Zhang'
+            }]
+          },
         }
       }
     }

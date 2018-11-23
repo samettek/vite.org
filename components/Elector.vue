@@ -63,6 +63,10 @@
           {
             img: require('~/assets/images/superNode/xinshengbanner.jpeg'),
             key: 'xinsheng'
+          },
+          {
+            img: require('~/assets/images/superNode/zlbanner.jpg'),
+            key: 'zlnode'
           }
         ]
       }

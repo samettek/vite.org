@@ -294,7 +294,7 @@ module.exports = {
           '2. Open the social account of WeChat public account, Weibo account, twitter, etc. on this node, and the special person will be responsible for operating the social account and strengthen the interaction with the fans;',
           '3. Create multiple vite WeChat groups or telegraph groups, and continuously acquire new vite fans through diversified dapps developed by the team.'],
         name: 'Bitvite',
-        description: 'For Vite！For Freedom！'
+        description: 'For Vite！For Freedom'
       },
       'swissvite': {
         info: ['Julien Pidoux, Designer, Belmont-sur-Lausanne, Switzerland',
@@ -323,6 +323,15 @@ module.exports = {
         medium: ['WeChat official account, Weibo, Twitter, Bihu, Telegram'],
         name: 'XinShengFund',
         description: 'Shoot for the Vite'
+      },
+      'zlnode': {
+        info: ['Li Zhang, Li is a partner of LinkVC. She is an early practitioner and sophisticated investor in blockchain industry. Prior to LinkVC, Li was in charge of the business development in Huobi, which is the most popular cryptocurrency exchange worldwide. Before Huobi, Li was the CMO of f2pool.',],
+        config: ['NA'],
+        location: ['NA'],
+        plan: ['Li is one of the most resourceful and influential KOL in the blockchain industry. As a post investment management partner of LinkVC, Li has rich experience in community building and project landing process can prevent the twist and turns in community development.',],
+        medium: ['WeChat and Weibo account'],
+        name: 'ZL node',
+        description: 'Working for better Vite'
       }
     }
   },
