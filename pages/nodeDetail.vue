@@ -223,7 +223,7 @@
           xinsheng: {
             desc: [{
               name: 'email',
-              links: ['xinshengcap@hotmail.com']
+              links: ['mailto:xinshengcap@hotmail.com']
             }],
             img: require('~/assets/images/superNode/xinshenglogo.png'),
             banner: require('~/assets/images/superNode/xinshengbanner.jpeg'),
@@ -256,6 +256,51 @@
               name: 'Li Zhang'
             }]
           },
+          loopnest: {
+            desc: [{
+              name: 'email',
+              links: ['mailto:jonathan@loopnest.io']
+            }],
+            img: require('~/assets/images/superNode/loopnestlogo.jpg'),
+            banner: require('~/assets/images/superNode/loopnestbanner.jpg'),
+            photo: [{
+              img: require('~/assets/images/teams/terence-bio.png'),
+              name: 'Mr. Terence Lam'
+            }]
+          },
+          belsona: {
+            desc: [{
+              name: 'email',
+              links: ['mailto:info@belsona.io']
+            }, {
+              name: 'twitter',
+              links: ['https://twitter.com/icofanatics']
+            }, {
+              name: 'telegram',
+              links: ['https://t.me/ICOFanatics']
+            }],
+            img: require('~/assets/images/superNode/belsonalogo.jpg'),
+            banner: require('~/assets/images/superNode/belsonabanner.jpg'),
+            photo: [{
+              img: require('~/assets/images/superNode/denis.jpg'),
+              name: 'Denis Meltsaev'
+            }, {
+              img: require('~/assets/images/superNode/vassily.jpg'),
+              name: 'Vassily Godunov'
+            }, {
+              img: require('~/assets/images/superNode/georgy.jpg'),
+              name: 'Georgy Yakovlev'
+            }, {
+              img: require('~/assets/images/superNode/artem.jpg'),
+              name: 'Artem Potapov'
+            }, {
+              img: require('~/assets/images/superNode/igor.jpg'),
+              name: 'Igor Peskov'
+            }, {
+              img: require('~/assets/images/superNode/usanov.jpg'),
+              name: 'Usanov Alexei'
+            }]
+          }
         }
       }
     }
@@ -314,7 +359,7 @@
           margin-bottom: 10px;
         }
         .content {
-
+          min-width: 1200px;
           font-size: 14px;
           color: #919AA3;
           text-align: justify;

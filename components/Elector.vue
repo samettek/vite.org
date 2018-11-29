@@ -67,6 +67,14 @@
           {
             img: require('~/assets/images/superNode/zlbanner.jpg'),
             key: 'zlnode'
+          },
+          {
+            img: require('~/assets/images/superNode/loopnestbanner.jpg'),
+            key: 'loopnest'
+          },
+          {
+            img: require('~/assets/images/superNode/belsonabanner.jpg'),
+            key: 'belsona'
           }
         ]
       }

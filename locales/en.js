@@ -175,6 +175,7 @@ module.exports = {
       title: 'Social Medias',
       email: 'Email',
       twitter: 'Twitter',
+      telegram: 'Telegram',
       website: 'Website'
     },
     'nameMap': {
@@ -325,13 +326,36 @@ module.exports = {
         description: 'Shoot for the Vite'
       },
       'zlnode': {
-        info: ['Li Zhang, Li is a partner of LinkVC. She is an early practitioner and sophisticated investor in blockchain industry. Prior to LinkVC, Li was in charge of the business development in Huobi, which is the most popular cryptocurrency exchange worldwide. Before Huobi, Li was the CMO of f2pool.',],
+        info: ['Li Zhang, Li is a partner of LinkVC. She is an early practitioner and sophisticated investor in blockchain industry. Prior to LinkVC, Li was in charge of the business development in Huobi, which is the most popular cryptocurrency exchange worldwide. Before Huobi, Li was the CMO of f2pool.'],
         config: ['NA'],
         location: ['NA'],
-        plan: ['Li is one of the most resourceful and influential KOL in the blockchain industry. As a post investment management partner of LinkVC, Li has rich experience in community building and project landing process can prevent the twist and turns in community development.',],
+        plan: ['Li is one of the most resourceful and influential KOL in the blockchain industry. As a post investment management partner of LinkVC, Li has rich experience in community building and project landing process can prevent the twist and turns in community development.'],
         medium: ['WeChat and Weibo account'],
         name: 'ZL node',
         description: 'Working for better Vite'
+      },
+      'loopnest': {
+        info: ['Mr. Terence Lam is the co-founder and CEO of Loopnest Blockchain Accelerator at Hong Kong Cyberport. He has also been an advisor to several successful blockchain projects. He is a renowned adjunct lecturer at the HK University SPACE China Business School and a serial entrepreneur with focuses on blockchain, mobile internet and Smart City initiatives. Prior to his entrepreneurship Terence has accumulated over two decades of experience in multinational companies and has extensive practical experiences from overseas assignments in Singapore, Mainland China, and Hong Kong. Terence is a graduate from the Harvard, Tsinghua, CEIBS Senior Executive Program.  He carries a Master of Arts in Marketing Management degree from Macquarie University and a Hon. Bachelor of Engineering degree from The Chinese University of Hong Kong.'],
+        config: ['AWS Elastic Compute Cloud'],
+        location: ['Cloud server in Singapore, managed in Hong Kong'],
+        plan: ['Loopnest Accelerator Limited is a blockchain accelerator dedicated to laying the foundation for the economy’s next digital evolution. Loopnest recognizes the blockchain space’s trending movement toward regulated, professional and securitized products and services. PwC Hong Kong and Loopnest offer the joint Blockchain Acceleration Programme that enables entrepreneurs to establish regulatory-friendly businesses in Hong Kong, allowing access to capital flow to-and-from the Greater Bay Area and international markets. For the acceleratees graduating from the PwC-Loopnest Programme, the Vite network may be a platform upon which they make contributions to the expanding global blockchain economy.'],
+        medium: ['Loopnest plans to hold regular meetups within the blockchain and fin-tech community in Hong Kong. Such events provide opportunities for admitted startups under PwC-Loopnest Blockchain Acceleration Programme to showcase their businesses and progress. This lends itself to insightful material for e-newsletter publications on top of social media sharing and regular updates.'],
+        name: 'Loopnest',
+        description: 'Tap into the digital economy'
+      },
+      'belsona': {
+        info: ['Denis Meltsaev, CTO, Moscow, Russia',
+          'Vassily Godunov, back-end developer, Moscow, Russia',
+          'Georgy Yakovlev, front-end developer, Budva, Montenegro',
+          'Artem Potapov, System Administrator, Saint-Petersburg, Russia',
+          'Igor Peskov, financial analyst, Moscow, Russia',
+          'Usanov Alexei, media relations, Kiev, Ukraine'],
+        config: ['RAM 192 GB, 32 CPUs, SSD 3.75 TB, 100Mbps bandwidth'],
+        location: ['Amsterdam, Netherlands'],
+        plan: ['We have a strong network. We are in contact with several projects and startups. Some of them are searching for suitable to their dapps ecosystem. We are friends with Belarus blockchain association. Quite often we participate in the blockchain conferences. We plan to showcase people Vite blockchain, explain why it is better than the others and help to migrate their project or understand how to do this.'],
+        medium: ['We have 2 big social media: Telegram channel (https://t.me/ICOFanatics) and Twitter (https://twitter.com/icofanatics). Where we follow the projects we like and share news with our community. Of course, we will provide a media coverage to all news and events about Vite'],
+        name: 'Belsona Investment Group LP',
+        description: 'In VITE we trust'
       }
     }
   },
