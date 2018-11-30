@@ -32,6 +32,17 @@ module.exports = {
     },
     exchange: {
       okex: 'https://www.okex.com/spot/trade#product=vite_eth'
+    },
+    vote: {
+      specific: {
+        en: '/regSpecificEn',
+        zh: '/regSpecificCh'
+      },
+      apply: {
+        en: 'https://docs.google.com/forms/d/e/1FAIpQLScixWTDuId0MCJQGi0jVI3LCivQ-r5fNUMFCnLf-uodIc_EsA/viewform',
+        zh: 'https://www.jiandaoyun.com/f/5bdbef8be1613237783c264b'
+      }
+
     }
   }
 }
