@@ -56,6 +56,13 @@
             <div class="nav-item">
               <Exchange></Exchange>
             </div>
+            <nuxt-link
+              :to="localePath('faq')"
+              class="nav-item text-hover-transition"
+              :class="{active: routeName === 'faq'}"
+            >
+            {{$t('nav.faq')}}
+            </nuxt-link>
             <div class="nav-item">
               <WhitePaper></WhitePaper>
             </div>
@@ -71,21 +78,22 @@
           </div>
         </div>
       </div>
-      <div class="container is-hidden-mobile">
-        <div class="img-text">
-          <div>参加活动</div>
-          <div>赢 VITE</div>
-          <div><img src="~assets/images/tail-right.svg" /></div>
-        </div>
-      </div>
-      <div
-        class="nuxt-content"
-        :class="`is-${routeName}-page`"
-      >
-        <nuxt :keep-alive="true"></nuxt>
-      </div>
-      <v-footer></v-footer>
     </div>
+    <div class="container is-hidden-mobile">
+      <div class="img-text">
+        <div>参加活动</div>
+        <div>赢 VITE</div>
+        <div><img src="~assets/images/tail-right.svg" /></div>
+      </div>
+    </div>
+    <div
+      class="nuxt-content"
+      :class="`is-${routeName}-page`"
+    >
+      <nuxt :keep-alive="true"></nuxt>
+    </div>
+    <v-footer></v-footer>
+  </div>
 </template>
 
 <script type="text/babel">
@@ -96,6 +104,8 @@ import Footer from "~/components/Footer.vue";
 import Exchange from "~/components/Exchange.vue";
 import config from "~/config";
 import voteNotice from "~/components/voteNotice.vue";
+import WhitePaper from "~/components/WhitePaper.vue";
+import Media from "~/components/Media.vue";
 
 export default {
   components: {
@@ -104,7 +114,9 @@ export default {
     LogoWithoutWords,
     VFooter: Footer,
     Exchange,
-    voteNotice
+    voteNotice,
+    WhitePaper,
+    Media
   },
   head() {
     let { routeName } = this;
@@ -173,7 +185,7 @@ export default {
   data: function() {
     return {
       navbarActive: false,
-      navs: ["index", "faq"],
+      navs: ["team", "partnership", "community" ],
       collapsing: false,
       urls: config.urls
     };
@@ -256,9 +268,10 @@ export default {
 }
 .is-index-page {
   margin-top: 0;
-  background: no-repeat url("~assets/images/bg/index/topright3.svg") 150% 0%,
+  background: no-repeat url("~assets/images/bg/index/topright3.svg") 100% 0%,
     no-repeat url("~assets/images/bg/index/topleft1.svg") -1% 9%,
     no-repeat url("~assets/images/bg/index/topleft2.svg") 0% 3%,
+    no-repeat url("~assets/images/bg/index/topleft3.svg") 0% 8%,
     no-repeat url("~assets/images/bg/index/topright1.svg") 90% 9%,
     no-repeat url("~assets/images/bg/index/topright2.svg") 110% 6%/ 900px 1000px,
     no-repeat url("~assets/images/bg/index/rightbottom.svg") 125% 97%/620px
