@@ -1,11 +1,12 @@
 {
   "name": "vite.org",
   "scripts": {
+    "genStaticPages":"node ./staticPages/depoly.js",
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "p": "npm run build && npm run generate",
+    "p": "npm run build && npm run generate && node ./staticPages/depoly.js",
     "monitor": "nuxt build --webpackmonitor"
   },
   "dependencies": {

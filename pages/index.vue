@@ -64,7 +64,8 @@
       JoinMailingList,
       WhitePaper
     },
-    mounted () {},
+    mounted () {
+    },
     data () {
       return {
         urls: config.urls,

@@ -9,6 +9,15 @@ $gap: 64px;
 
 @import "~bulma";
 
+a {
+  color: rgba(21,128,227,1);
+  cursor: pointer;
+  text-decoration: none;
+  &:hover {
+    color: rgba(21,128,227,1);
+  }
+}
+
 
 
 .container {

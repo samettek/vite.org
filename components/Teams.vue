@@ -79,6 +79,24 @@
             ]
           },
           {
+            img: require('~/assets/images/teams/leo.jpg'),
+            key: 'leo',
+            urls: [
+              {
+                icon: ['fab', 'twitter'],
+                url: 'https://twitter.com/soliury'
+              },
+              {
+                icon: ['fab', 'linkedin'],
+                url: 'https://www.linkedin.com/in/leo-zhang-b68a86166/'
+              },
+              {
+                icon: ['fab', 'github'],
+                url: 'https://github.com/soliury'
+              }
+            ]
+          },
+          {
             img: require('~/assets/images/teams/allen.jpeg'),
             key: 'allen',
             urls: [

@@ -37,6 +37,17 @@ module.exports = {
       medium: 'https://medium.com/vitelabs',
       bitcointalk: 'https://bitcointalk.org/index.php?topic=4438416',
       blog: 'https://vite.blog/'
+    },
+    vote: {
+      specific: {
+        en: '/regSpecificEn',
+        zh: '/regSpecificCh'
+      },
+      apply: {
+        en: 'https://docs.google.com/forms/d/e/1FAIpQLScixWTDuId0MCJQGi0jVI3LCivQ-r5fNUMFCnLf-uodIc_EsA/viewform',
+        zh: 'https://www.jiandaoyun.com/f/5bdbef8be1613237783c264b'
+      }
+
     }
   }
 }
