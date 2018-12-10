@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="182" height="60" viewBox="0 0 182 60">
-  <defs>
-    <linearGradient id="安全-a" x1="10.296%" x2="90.637%" y1="0%" y2="100%">
-      <stop offset="0%" stop-color="#6FBFFF"/>
-      <stop offset="100%" stop-color="#007AFF"/>
-    </linearGradient>
-  </defs>
-  <path fill="url(#安全-a)" fill-rule="evenodd" d="M0,29.9288275 L18.0017918,60 L164.238061,60 L181.506178,29.9288275 L164.238061,0 L18.0017918,0 L0,29.9288275 Z"/>
-</svg>

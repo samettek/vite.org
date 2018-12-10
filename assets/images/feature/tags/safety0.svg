@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="220px" height="220px" viewBox="0 0 220 220" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>多代币模型</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="11.3958739%" y1="0%" x2="89.8897258%" y2="89.5095885%" id="linearGradient-1">
+            <stop stop-color="#6FBFFF" offset="0%"></stop>
+            <stop stop-color="#007AFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="弹窗" transform="translate(-143.000000, -162.000000)">
+            <g id="Group-3" transform="translate(143.000000, 162.000000)">
+                <g id="Oval">
+                    <circle stroke="url(#linearGradient-1)" stroke-width="4" fill="#F9FCFF" fill-rule="evenodd" cx="30" cy="30" r="28"></circle>
+                    <text id="VITE" font-family="PingFangSC-Semibold, PingFang SC" font-size="15" font-weight="500" fill="#007AFF">
+                        <tspan x="13.7025" y="36">VITE</tspan>
+                    </text>
+                </g>
+                <g id="Oval" transform="translate(0.000000, 80.000000)">
+                    <circle stroke="url(#linearGradient-1)" stroke-width="4" fill="#F9FCFF" fill-rule="evenodd" cx="30" cy="30" r="28"></circle>
+                    <text id="VITE" font-family="PingFangSC-Semibold, PingFang SC" font-size="15" font-weight="500" fill="#007AFF">
+                        <tspan x="14.6925" y="36">BTH</tspan>
+                    </text>
+                </g>
+                <g id="Oval-Copy-14" transform="translate(0.000000, 160.000000)">
+                    <circle id="Oval" stroke="url(#linearGradient-1)" stroke-width="4" fill="#F9FCFF" fill-rule="evenodd" cx="30" cy="30" r="28"></circle>
+                    <text id="VITE" font-family="PingFangSC-Semibold, PingFang SC" font-size="13" font-weight="500" line-spacing="14" fill="#007AFF">
+                        <tspan x="14.764" y="23.624">User</tspan>
+                        <tspan x="10.11" y="37.624">Token</tspan>
+                        <tspan x="26.399" y="51.624">1</tspan>
+                    </text>
+                </g>
+                <g id="Oval-Copy-14" transform="translate(80.000000, 160.000000)">
+                    <circle id="Oval" stroke="url(#linearGradient-1)" stroke-width="4" fill="#F9FCFF" fill-rule="evenodd" cx="30" cy="30" r="28"></circle>
+                    <text id="VITE" font-family="PingFangSC-Semibold, PingFang SC" font-size="13" font-weight="500" line-spacing="14" fill="#007AFF">
+                        <tspan x="14.764" y="23.624">User </tspan>
+                        <tspan x="10.11" y="37.624">Token</tspan>
+                        <tspan x="25.164" y="51.624">2</tspan>
+                    </text>
+                </g>
+                <g id="Oval-Copy-14" transform="translate(160.000000, 160.000000)">
+                    <circle id="Oval" stroke="url(#linearGradient-1)" stroke-width="4" fill="#F9FCFF" fill-rule="evenodd" cx="30" cy="30" r="28"></circle>
+                    <text id="VITE" font-family="PingFangSC-Semibold, PingFang SC" font-size="13" font-weight="500" line-spacing="14" fill="#007AFF">
+                        <tspan x="14.764" y="23.624">User </tspan>
+                        <tspan x="10.11" y="37.624">Token</tspan>
+                        <tspan x="25.164" y="51.624">3</tspan>
+                    </text>
+                </g>
+                <g id="Oval" transform="translate(80.000000, 0.000000)">
+                    <circle stroke="url(#linearGradient-1)" stroke-width="4" fill="#F9FCFF" fill-rule="evenodd" cx="30" cy="30" r="28"></circle>
+                    <text id="VITE" font-family="PingFangSC-Semibold, PingFang SC" font-size="15" font-weight="500" fill="#007AFF">
+                        <tspan x="14.655" y="36">VCP</tspan>
+                    </text>
+                </g>
+                <g id="Oval" transform="translate(80.000000, 80.000000)">
+                    <circle stroke="url(#linearGradient-1)" stroke-width="4" fill="#F9FCFF" fill-rule="evenodd" cx="30" cy="30" r="28"></circle>
+                    <text id="VITE" font-family="PingFangSC-Semibold, PingFang SC" font-size="15" font-weight="500" fill="#007AFF">
+                        <tspan x="15.0525" y="36">ETH</tspan>
+                    </text>
+                </g>
+                <g id="Oval" transform="translate(160.000000, 0.000000)">
+                    <circle stroke="url(#linearGradient-1)" stroke-width="4" fill="#F9FCFF" fill-rule="evenodd" cx="30" cy="30" r="28"></circle>
+                    <text id="VITE" font-family="PingFangSC-Semibold, PingFang SC" font-size="15" font-weight="500" fill="#007AFF">
+                        <tspan x="15.8325" y="36">VTT</tspan>
+                    </text>
+                </g>
+                <g id="Oval" transform="translate(160.000000, 80.000000)">
+                    <circle stroke="url(#linearGradient-1)" stroke-width="4" fill="#F9FCFF" fill-rule="evenodd" cx="30" cy="30" r="28"></circle>
+                    <text id="VITE" font-family="PingFangSC-Semibold, PingFang SC" font-size="15" font-weight="500" fill="#007AFF">
+                        <tspan x="9.6" y="36">USDT</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

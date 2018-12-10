@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="313px" height="314px" viewBox="0 0 313 314" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>跨链</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="11.3958739%" y1="0%" x2="89.8897258%" y2="89.5095885%" id="linearGradient-1">
+            <stop stop-color="#6FBFFF" offset="0%"></stop>
+            <stop stop-color="#007AFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="24.4636581%" y1="50%" x2="100%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#E8F4FF" offset="0%"></stop>
+            <stop stop-color="#CDE5FE" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="弹窗" transform="translate(-554.000000, -1029.000000)">
+            <g id="Group-56" transform="translate(537.000000, 1020.000000)">
+                <g id="Oval-Copy-23" transform="translate(150.868603, 0.000000)">
+                    <circle id="Oval" stroke="#007AFF" stroke-width="4" fill="#FFFFFF" fill-rule="evenodd" cx="23" cy="29" r="18"></circle>
+                    <text id="VITE" font-family="PingFangSC-Semibold, PingFang SC" font-size="15" font-weight="500" fill="#007AFF">
+                        <tspan x="18.3875" y="34.8285714">T</tspan>
+                    </text>
+                    <g id="Group-56" stroke-width="1" fill-rule="evenodd" transform="translate(17.000000, 58.000000)" fill="#007AFF">
+                        <path id="Line-3-Copy-8" d="M2,14 L2,52 L2,53 L0,53 L0,52 L0,14 L-6,14 L1,7.10542736e-15 L8,14 L2,14 Z" fill-rule="nonzero"></path>
+                        <path id="Line-3-Copy-9" d="M12,38 L12,7.10542736e-15 L12,-1 L14,-1 L14,7.10542736e-15 L14,38 L20,38 L13,52 L6,38 L12,38 Z" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+                <g id="Oval-Copy-23" transform="translate(287.000000, 114.418584) rotate(60.000000) translate(-287.000000, -114.418584) translate(264.000000, 59.418584)">
+                    <circle id="Oval" stroke="#007AFF" stroke-width="4" fill="#FFFFFF" fill-rule="evenodd" cx="23" cy="29" r="18"></circle>
+                    <text id="VITE" font-family="PingFangSC-Semibold, PingFang SC" font-size="15" font-weight="500" fill="#007AFF">
+                        <tspan x="18.3875" y="34.8285714">T</tspan>
+                    </text>
+                    <g id="Group-56" stroke-width="1" fill-rule="evenodd" transform="translate(17.000000, 58.000000)" fill="#007AFF">
+                        <path id="Line-3-Copy-8" d="M2,14 L2,52 L2,53 L0,53 L0,52 L0,14 L-6,14 L1,7.10542736e-15 L8,14 L2,14 Z" fill-rule="nonzero"></path>
+                        <path id="Line-3-Copy-9" d="M12,38 L12,7.10542736e-15 L12,-1 L14,-1 L14,7.10542736e-15 L14,38 L20,38 L13,52 L6,38 L12,38 Z" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+                <g id="Oval-Copy-23" transform="translate(287.000000, 219.418584) rotate(120.000000) translate(-287.000000, -219.418584) translate(264.000000, 164.418584)">
+                    <circle id="Oval" stroke="#007AFF" stroke-width="4" fill="#FFFFFF" fill-rule="evenodd" cx="23" cy="29" r="18"></circle>
+                    <text id="VITE" font-family="PingFangSC-Semibold, PingFang SC" font-size="15" font-weight="500" fill="#007AFF">
+                        <tspan x="18.3875" y="34.8285714">T</tspan>
+                    </text>
+                    <g id="Group-56" stroke-width="1" fill-rule="evenodd" transform="translate(17.000000, 58.000000)" fill="#007AFF">
+                        <path id="Line-3-Copy-8" d="M2,14 L2,52 L2,53 L0,53 L0,52 L0,14 L-6,14 L1,7.10542736e-15 L8,14 L2,14 Z" fill-rule="nonzero"></path>
+                        <path id="Line-3-Copy-9" d="M12,38 L12,7.10542736e-15 L12,-1 L14,-1 L14,7.10542736e-15 L14,38 L20,38 L13,52 L6,38 L12,38 Z" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+                <g id="Oval-Copy-23" transform="translate(173.868603, 277.000000) rotate(180.000000) translate(-173.868603, -277.000000) translate(150.868603, 222.000000)">
+                    <circle id="Oval" stroke="#007AFF" stroke-width="4" fill="#FFFFFF" fill-rule="evenodd" cx="23" cy="29" r="18"></circle>
+                    <text id="VITE" font-family="PingFangSC-Semibold, PingFang SC" font-size="15" font-weight="500" fill="#007AFF">
+                        <tspan x="18.3875" y="34.8285714">T</tspan>
+                    </text>
+                    <g id="Group-56" stroke-width="1" fill-rule="evenodd" transform="translate(17.000000, 58.000000)" fill="#007AFF">
+                        <path id="Line-3-Copy-8" d="M2,14 L2,52 L2,53 L0,53 L0,52 L0,14 L-6,14 L1,7.10542736e-15 L8,14 L2,14 Z" fill-rule="nonzero"></path>
+                        <path id="Line-3-Copy-9" d="M12,38 L12,7.10542736e-15 L12,-1 L14,-1 L14,7.10542736e-15 L14,38 L20,38 L13,52 L6,38 L12,38 Z" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+                <g id="Oval-Copy-23" transform="translate(60.000000, 219.418584) rotate(240.000000) translate(-60.000000, -219.418584) translate(37.000000, 164.418584)">
+                    <circle id="Oval" stroke="#007AFF" stroke-width="4" fill="#FFFFFF" fill-rule="evenodd" cx="23" cy="29" r="18"></circle>
+                    <text id="VITE" font-family="PingFangSC-Semibold, PingFang SC" font-size="15" font-weight="500" fill="#007AFF">
+                        <tspan x="18.3875" y="34.8285714">T</tspan>
+                    </text>
+                    <g id="Group-56" stroke-width="1" fill-rule="evenodd" transform="translate(17.000000, 58.000000)" fill="#007AFF">
+                        <path id="Line-3-Copy-8" d="M2,14 L2,52 L2,53 L0,53 L0,52 L0,14 L-6,14 L1,7.10542736e-15 L8,14 L2,14 Z" fill-rule="nonzero"></path>
+                        <path id="Line-3-Copy-9" d="M12,38 L12,7.10542736e-15 L12,-1 L14,-1 L14,7.10542736e-15 L14,38 L20,38 L13,52 L6,38 L12,38 Z" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+                <g id="Oval-Copy-23" transform="translate(60.000000, 114.418584) rotate(300.000000) translate(-60.000000, -114.418584) translate(37.000000, 59.418584)">
+                    <circle id="Oval" stroke="#007AFF" stroke-width="4" fill="#FFFFFF" fill-rule="evenodd" cx="23" cy="29" r="18"></circle>
+                    <text id="VITE" font-family="PingFangSC-Semibold, PingFang SC" font-size="15" font-weight="500" fill="#007AFF">
+                        <tspan x="18.3875" y="34.8285714">T</tspan>
+                    </text>
+                    <g id="Group-56" stroke-width="1" fill-rule="evenodd" transform="translate(17.000000, 58.000000)" fill="#007AFF">
+                        <path id="Line-3-Copy-8" d="M2,14 L2,52 L2,53 L0,53 L0,52 L0,14 L-6,14 L1,7.10542736e-15 L8,14 L2,14 Z" fill-rule="nonzero"></path>
+                        <path id="Line-3-Copy-9" d="M12,38 L12,7.10542736e-15 L12,-1 L14,-1 L14,7.10542736e-15 L14,38 L20,38 L13,52 L6,38 L12,38 Z" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+                <g id="Group-57" transform="translate(126.000000, 112.000000)">
+                    <polygon id="Polygon" fill="url(#linearGradient-2)" points="47 -4.82885161e-13 94 27.5 94 82.5 47 110 4.30488978e-14 82.5 1.17406085e-14 27.5"></polygon>
+                    <text id="VCTP" font-family="PingFangSC-Semibold, PingFang SC" font-size="16" font-weight="500" fill="#007AFF">
+                        <tspan x="25.212" y="84">VCTP</tspan>
+                    </text>
+                    <g id="Group-53" transform="translate(22.000000, 28.000000)" stroke="#007AFF" stroke-width="2.7">
+                        <polygon id="Stroke-1" points="0 17.0875421 50 17.0875421 50 0.420875421 0 0.420875421"></polygon>
+                        <path d="M18.6363636,8.37542088 L5.3030303,8.37542088" id="Stroke-5"></path>
+                        <path d="M24.6212121,17.0875421 L24.6212121,31.9023569" id="Stroke-8"></path>
+                        <path d="M11.97,31.8181818 L38.1821212,31.8181818" id="Stroke-10"></path>
+                        <path d="M45,8.37542088 L41.6666667,8.37542088" id="Stroke-14"></path>
+                        <path d="M38.1818182,8.37542088 L34.8484848,8.37542088" id="Stroke-15"></path>
+                        <path d="M32.1204545,8.37542088 L28.7878788,8.37542088" id="Stroke-16"></path>
+                        <path d="M25.3022727,8.37542088 L21.969697,8.37542088" id="Stroke-17"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

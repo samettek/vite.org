@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <polygon id="易用-a" points="0 0 88 0 88 35.097 66.581 35.097 66.581 75 0 75"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(-24 -8)">
+    <mask id="易用-b" fill="#fff">
+      <use xlink:href="#易用-a"/>
+    </mask>
+    <path stroke="#007AFF" stroke-linejoin="round" stroke-width="1.8" d="M80.1914672 9C81.2259236 9 82.0645161 9.83859256 82.0645161 10.8730489L82.0645161 52.0801249 24 52.0801249 24 10.8730489C24 9.83859256 24.8385926 9 25.8730489 9L80.1914672 9zM24 41.7783559L82.0645161 41.7783559" mask="url(#易用-b)"/>
+    <polyline stroke="#007AFF" stroke-linejoin="round" stroke-width="1.8" points="59.588 52.08 61.461 61.445 44.604 61.445 46.477 52.08" mask="url(#易用-b)"/>
+    <polyline stroke="#007AFF" stroke-linejoin="round" stroke-width="1.8" points="41.794 65.191 41.794 61.445 64.271 61.445 64.271 65.191" mask="url(#易用-b)"/>
+    <polyline stroke="#007AFF" stroke-linejoin="round" stroke-width="1.8" points="28.683 41.778 28.683 13.683 77.382 13.683 77.382 41.778" mask="url(#易用-b)"/>
+    <path stroke="#007AFF" stroke-linejoin="round" stroke-width="1.8" d="M38.9843913,65.1914672 L67.0801249,65.1914672" mask="url(#易用-b)"/>
+    <circle cx="53.032" cy="46.461" r="1.873" stroke="#007AFF" stroke-linejoin="round" stroke-width="1.8" mask="url(#易用-b)"/>
+    <polyline stroke="#007AFF" stroke-linejoin="round" stroke-width="1.8" points="36.175 17.429 32.429 17.429 32.429 21.175" mask="url(#易用-b)"/>
+    <g stroke="#007AFF" stroke-linejoin="round" stroke-width="1.8" transform="translate(66.58 35.129)">
+      <rect width="17.419" height="30" rx="1"/>
+      <path d="M0 4.83870968L17.4193548 4.83870968M0 24.1935484L17.4193548 24.1935484"/>
+      <circle cx="8.71" cy="27.097" r="1"/>
+    </g>
+  </g>
+</svg>

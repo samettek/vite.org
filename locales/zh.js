@@ -791,5 +791,13 @@ module.exports = {
     title: '欢迎订阅Vite最新信息',
     button: '订阅',
     placeholder: '请输入邮箱地址'
+  },
+  featureTitle: 'Vite 特性',
+  features: {
+    performance: {title: '高性能', tags: ['DAG账本', '异步架构']},
+    safety: {title: '安全性', tags: ['多代币模型', '快照链']},
+    economical: {title: '经济性', tags: ['配额模型', '无手续费', 'Built-in DEX']},
+    easyusing: {title: '易用性', tags: ['Solidity++', '命名服务', '合约调度', '合约升级']},
+    flexable: {title: '扩展性', tags: ['跨链', 'HDPOS共识', '智能合约']}
   }
 }
