@@ -425,7 +425,7 @@ module.exports = {
       ivan: {
         name: 'Ivan Golovko',
         position: '',
-        description: 'LegalThings One 公司的策略与投资者关系副总裁。俄国著名基金Distributed.Fund的联合创始人。曾任全球知名评测网站I C ODrops的首席市场官。'
+        description: 'LegalThings One 公司的策略与投资者关系副总裁。俄国著名基金Distributed.Fund的联合创始人。曾任全球知名评测网站ICODrops的首席市场官。'
       },
       zhoudan: {
         name: 'ZHOU DAN',
@@ -455,7 +455,7 @@ module.exports = {
     },
     secbit: {
       desc: {
-        text1: 'Vite与专注智能合约安全研究的安比（SECBIT）实验室签署了战略合作协议。',
+        text1: 'Vite Labs与专注智能合约安全研究的安比（SECBIT）实验室签署了战略合作协议。',
         text2: '双方未来将从区块链低、中、上三个层面就Vite安全性开展全方位深度合作；其中，在公链底层的合作包括交易安全和虚拟机安全等。'
       }
     },
@@ -538,7 +538,7 @@ module.exports = {
       {
         'question': '什么是 Vite？',
         'answer': [
-          'Vite 是一个通用的去中心化应用平台，在兼顾安全性的同时，满足了工业级应用对高吞吐、低延迟和扩展性的要求。',
+          'Vite 是一个通用的去中心化生态系统，在兼顾安全性的同时，满足了工业级应用对高吞吐、低延迟和扩展性的要求。',
           'Vite 致力于解决基础链目前的性能和扩展性问题，以便在基础链上能搭建出真正实用且高频的应用。'
         ]
       },
