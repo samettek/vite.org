@@ -18,11 +18,11 @@
                   <img :src="electors[key].banner"/>
                 </div>
               </div>
-              <div class="column is-12 left-info" v-for="(item, index) in $t(`elector.detailTitles`)" :key="index">
+              <div class="column is-12 is-multiline left-info" v-for="(item, index) in $t(`elector.detailTitles`)" :key="index">
                 <div class="name">{{$t(`elector.detailTitles[${index}].title`)}}</div>
                 <div class="content">
                   <p v-for="(content,index) in $t(`elector.nameMap.${key}.${item.key}`)" :key="index" v-if="item.key !== 'photo'">{{content}}</p>
-                  <div class="is-flex columns">
+                  <div class="columns">
                     <div class="column photo" v-for="(photo, index) in electors[key][item.key]" :key="index" v-if="item.key === 'photo'">
                       <img :src="photo.img" />
                       <div class="photo-name">{{ photo.name }}</div>
@@ -359,7 +359,6 @@
           margin-bottom: 10px;
         }
         .content {
-          min-width: 1200px;
           font-size: 14px;
           color: #919AA3;
           text-align: justify;
