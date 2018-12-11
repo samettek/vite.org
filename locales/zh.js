@@ -799,5 +799,26 @@ module.exports = {
     economical: {title: '经济性', tags: ['配额模型', '无手续费', 'Built-in DEX']},
     easyusing: {title: '易用性', tags: ['Solidity++', '命名服务', '合约调度', '合约升级']},
     flexable: {title: '扩展性', tags: ['跨链', 'HDPOS共识', '智能合约']}
+  },
+  eco: {
+    worth: {
+      title: '价值',
+      pay: {
+        title: '支付',
+        child: ['秒级确认', '链上交易', '多币种']
+      },
+      finance: {
+        title: '资产发行',
+        child: ['一键铸币', '协议原生支持']
+      },
+      'dex': {
+        title: '内置DEX',
+        child: ['链上订单支持', '垮链支持', '极速成交']
+      }
+    },
+    dapps: {
+      title: 'dApps',
+      child: ['游戏', '本地服务娱乐', 'Social Network service', '知识产权', '版权', '物联网']
+    }
   }
 }
