@@ -1,12 +1,12 @@
 <template>
-  <section class="section">
+  <section class="section" @click="play">
     <img src="~assets/images/video/play.svg"/>
     <div class="video-text">Let's create something cool！</div>
   </section>
 </template>
 
 <script type="text/babel">
-
+import player from "./play"
 export default {
   components: {
   },
@@ -14,7 +14,11 @@ export default {
     return {
     }
   },
-  methods: {}
+  methods: {
+      play(){
+          player()
+      }
+  }
 }
 </script>
 
@@ -26,6 +30,7 @@ export default {
     background-size: cover;
     text-align: center;
     img {
+        cursor: pointer;
       margin-top: 178px;
     }
     .video-text {

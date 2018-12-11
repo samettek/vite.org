@@ -33,7 +33,6 @@ export default {
     dapps,
     worth
   },
-  data: function() {},
   methods: {}
 };
 </script>
