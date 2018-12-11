@@ -23,7 +23,7 @@ export default {
     z-index: 1000;
     display: flex;
     align-items: center;
-    justify-items: center;
+    justify-content: center;
     video{
         width: 70%;
         height: 70%;
