@@ -272,6 +272,7 @@ export default {
   font-family: $font-family-title;
   width: 100%;
   overflow-x: auto;
+  margin-top:125px;
   .feature-title {
     color: #171c34;
     font-size: 44px;

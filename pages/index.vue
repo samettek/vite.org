@@ -35,7 +35,7 @@
 
 <script>
   import News from '~/components/News.vue'
-  import Ecology from '~/components/Ecology.vue'
+  import Ecology from '~/components/Ecology'
   import Feature from '~/components/feature'
   import Video from '~/components/Video.vue'
   import Investor from '~/components/Investor'
