@@ -45,25 +45,6 @@ module.exports = {
     whitePaper: 'White Paper',
     testnet: 'TestNet'
   },
-  ecology: {
-    title: 'Vite 生态',
-    contract: {
-      title: '去中心化应用',
-      content: 'Vite是一个去中心化应用平台，提供兼容EVM的虚拟机，扩展自Solidity的语言Solidity++，dApp开发者在Vite上开发和部署应用将变得前所未有的简单'
-    },
-    issueCurrency: {
-      title: '资产发行',
-      content: 'Vite支持用户通过铸币交易发行自己的代币。Vite协议内置了多代币支持，用户发行的代币与vite代币共享交易的底层协议，具有同样的安全性，不会因不良实践而产生类似于溢出漏洞之类的安全隐患'
-    },
-    pay: {
-      title: '支付',
-      content: 'Vite通过引入HDPos，实现交易低延迟确认，缩短支付时间；通过DAG账本结构和异步模型提高系统的吞吐能力，并通过配额的资源配置模型及配额租赁功能，可以确保系统资源以最大效率进行分配。商业级用户可以保障足够的配额，而轻量级用户无需支付手续费'
-    },
-    transfer: {
-      title: '跨链价值传输',
-      content: 'Vite内置分布式交易所，实现价值交换；并且通过设计一个跨链协议VCTP（Vite Cross-chain Transfer Protocol)，消除“价值孤岛”，支持数字资产的跨链价值传输'
-    }
-  },
   roadmap: {
     title: 'Roadmap',
     timelines: [
@@ -663,7 +644,7 @@ module.exports = {
     },
     dapps: {
       title: 'dApps',
-      child: ['游戏', '本地服务娱乐', 'Social Network service', '知识产权', '版权', '物联网']
+      child: ['游戏', '本地服务', '娱乐', '社交', '知识产版权', '物联网']
     }
   }
 }
