@@ -1,7 +1,7 @@
 <template>
   <div class="scroll-container">
     <div class="eco">
-      <div class="eco-title"></div>
+      <div class="eco-title">{{$t('ecoTitle')}}</div>
       <div>
         <div class="eco-sub-title">
           <div>
@@ -11,7 +11,7 @@
         </div>
         <worth></worth>
       </div>
-      <div>
+      <div class="dapps-container">
         <div class="eco-sub-title">
           <div>
             <img src="~/assets/images/eco/dapps/dapps.svg">
@@ -42,6 +42,7 @@ export default {
 .scroll-container {
   width: 100%;
   display: flex;
+  margin-top:240px;
 }
 .eco {
   display: flex;
@@ -49,6 +50,9 @@ export default {
   min-width: 1052px;
   margin: 0 auto;
   font-family: $font-family-title;
+  .dapps-container{
+      margin-top:60px;
+  }
 }
 .eco-title {
   color: #171c34;

@@ -61,7 +61,7 @@
               class="nav-item text-hover-transition"
               :class="{active: routeName === 'faq'}"
             >
-            {{$t('nav.faq')}}
+              {{$t('nav.faq')}}
             </nuxt-link>
             <div class="nav-item">
               <WhitePaper></WhitePaper>
@@ -81,8 +81,9 @@
     </div>
     <div class="container is-hidden-mobile">
       <div class="img-text">
-        <div>参加活动</div>
-        <div>赢 VITE</div>
+        <div class="act">参加活动</div>
+        <div class="act">赢 VITE</div>
+        <div class="act-wait">敬请期待</div>
         <div><img src="~assets/images/tail-right.svg" /></div>
       </div>
     </div>
@@ -185,7 +186,7 @@ export default {
   data: function() {
     return {
       navbarActive: false,
-      navs: ["team", "partnership", "community" ],
+      navs: ["team", "partnership", "community"],
       collapsing: false,
       urls: config.urls
     };
@@ -249,7 +250,21 @@ export default {
 }
 
 .img-text {
+  .act-wait {
+    display: none;
+    margin-top:20px;
+  }
+  &:hover {
+    .act {
+      display: none;
+    }
+    .act-wait {
+      display: block;
+    }
+  }
+
   position: absolute;
+  cursor: pointer;
   right: 0;
   top: 79px;
   z-index: 999;
