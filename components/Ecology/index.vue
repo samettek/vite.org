@@ -1,7 +1,7 @@
 <template>
   <div class="scroll-container">
+    <div class="eco-title">{{$t('ecoTitle')}}</div>
     <div class="eco">
-      <div class="eco-title">{{$t('ecoTitle')}}</div>
       <div>
         <div class="eco-sub-title">
           <div>
@@ -42,22 +42,31 @@ export default {
 .scroll-container {
   width: 100%;
   display: flex;
-  margin-top:240px;
+  margin-top: 240px;
+  overflow-x: auto;
+  flex-direction: column;
 }
 .eco {
+  @include mobile {
+    transform: scale(0.7);
+    transform-origin: 0 0;
+    margin-left: 40px;
+  }
   display: flex;
   flex-direction: column;
   min-width: 1052px;
   margin: 0 auto;
   font-family: $font-family-title;
-  .dapps-container{
-      margin-top:60px;
+  .dapps-container {
+    margin-top: 60px;
   }
 }
 .eco-title {
   color: #171c34;
   font-size: 44px;
   text-align: center;
+  width: 100%;
+  margin-bottom: 60px;
 }
 .eco-sub-title {
   display: flex;

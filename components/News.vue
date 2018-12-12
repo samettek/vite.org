@@ -44,11 +44,7 @@ export default {
     client.onreadystatechange=e => {
       if (client.readyState === 4 && client.status === 200) {
         const items = Array.from(client.responseXML.getElementsByTagName("item"));
-        this.newsList = items
-          .filter((i, j) => {
-            return j <= 2;
-          })
-          .map(i => {
+        this.newsList = items.slice(0,3).map(i => {
               const d=new Date(i.getElementsByTagName("pubDate")[0].textContent);
             return {
               title: i.getElementsByTagName("title")[0].textContent,
@@ -73,6 +69,7 @@ export default {
   display: flex;
   display: -webkit-flex;
   position: relative;
+  width: 100%;
   .news-icon {
     // position: absolute;
     // left: -78px;
@@ -80,6 +77,7 @@ export default {
   .news {
     margin-left: 13px;
     margin-top: 21px;
+    width:100%;
     .news-title {
       font-family: $font-family-title;
       color: #363d4f;

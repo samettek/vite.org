@@ -35,7 +35,7 @@
         <div
           class="navbar-menu"
           :class="{ 'is-active': navbarActive, collapsing: collapsing }"
-          :style="navbarEndStyle"
+
         >
           <div
             ref="navbarStart"
@@ -64,7 +64,7 @@
               {{$t('nav.faq')}}
             </nuxt-link>
             <div class="nav-item">
-              <WhitePaper></WhitePaper>
+              <about></about>
             </div>
 
           </div>
@@ -81,9 +81,8 @@
     </div>
     <div class="container is-hidden-mobile">
       <div class="img-text">
-        <div class="act">参加活动</div>
-        <div class="act">赢 VITE</div>
-        <div class="act-wait">敬请期待</div>
+        <div class="act" v-html="$t('home.acttext')"></div>
+        <div class="act-wait">{{$t('home.actwait')}}</div>
         <div><img src="~assets/images/tail-right.svg" /></div>
       </div>
     </div>
@@ -105,7 +104,7 @@ import Footer from "~/components/Footer.vue";
 import Exchange from "~/components/Exchange.vue";
 import config from "~/config";
 import voteNotice from "~/components/voteNotice.vue";
-import WhitePaper from "~/components/WhitePaper.vue";
+import about from "~/components/about.vue";
 import Media from "~/components/Media.vue";
 
 export default {
@@ -116,7 +115,7 @@ export default {
     VFooter: Footer,
     Exchange,
     voteNotice,
-    WhitePaper,
+    about,
     Media
   },
   head() {
@@ -338,6 +337,7 @@ export default {
     height: $navbar-height;
     .nav-item {
       height: 100%;
+      cursor: pointer;
     }
   }
   .nav-item {

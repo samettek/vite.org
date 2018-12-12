@@ -4,7 +4,18 @@
     class="tag"
   >
     <div class="hover-img">
-      <img :src="iconMap[tagKey][index]">
+      <img
+        :src="iconMap[tagKey][index]"
+        v-if="typeof iconMap[tagKey][index]==='string'"
+        class="image"
+      >
+      <div v-else>
+        <img
+          :src="i"
+          v-for="(i,j) in iconMap[tagKey][index]"
+          :key="j"
+        >
+      </div>
     </div>
     {{$t(`features.${tagKey}.tags[${index}]`)}}
   </div>
@@ -76,8 +87,14 @@ export default {
     position: absolute;
     display: none;
     background: #fff;
-    top:80px;
+    top: -50%;
     z-index: 10;
+        &:hover {
+      display: block;
+    }
+    div {
+      overflow-x: scroll;
+    }
   }
   &.active {
     background: linear-gradient(

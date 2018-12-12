@@ -26,13 +26,20 @@ module.exports = {
     exchange: '交易所',
     media: '新闻',
     faq: '问题答疑',
-    whitePaper: '白皮书'
+    about: '关于'
   },
   home: {
     header: 'Vite',
     slogan: '高性能去中心化生态系统',
     whitePaper: '白皮书',
-    testnet: '预览版'
+    testnet: '预览版',
+    acttext: '参加活动</br>赢 VITE',
+    actwait: '敬请期待'
+  },
+  about: {
+    introduction: '简介',
+    blog: '博客',
+    whitepaper: '白皮书'
   },
   roadmap: {
     title: '路线图',
@@ -526,7 +533,7 @@ module.exports = {
       {
         question: 'Vite 会上哪个交易所？',
         answer: [
-          '我们在和交易所接触，但还没有具体的时间表。我们主要是一个技术驱动的项目，周期也会比较长，运营方面我们不会特别激进。'
+          '目前在OKEX可以交易VITE，我们正在接触其他交易所，敬请期待。'
         ]
       },
       {
@@ -775,11 +782,11 @@ module.exports = {
   },
   featureTitle: 'Vite 特性',
   features: {
-    performance: {title: '高性能', tags: ['DAG账本', '异步架构']},
-    safety: {title: '安全性', tags: ['多代币模型', '快照链']},
-    economical: {title: '经济性', tags: ['配额模型', '无手续费', 'Built-in DEX']},
-    easyusing: {title: '易用性', tags: ['Solidity++', '命名服务', '合约调度', '合约升级']},
-    flexable: {title: '扩展性', tags: ['跨链', 'HDPOS共识', '智能合约']}
+    performance: { title: '高性能', tags: ['DAG账本', '异步架构'] },
+    safety: { title: '安全性', tags: ['多代币模型', '快照链'] },
+    economical: { title: '经济性', tags: ['配额模型', '无手续费', 'Built-in DEX'] },
+    easyusing: { title: '易用性', tags: ['Solidity++', '命名服务', '合约调度', '合约升级'] },
+    flexable: { title: '扩展性', tags: ['跨链', 'HDPOS共识', '智能合约'] }
   },
   eco: {
     worth: {

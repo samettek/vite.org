@@ -2,7 +2,7 @@
   "name": "vite.org",
   "scripts": {
     "genStaticPages": "node ./staticPages/depoly.js",
-    "dev": "nuxt",
+    "dev": "HOST=0.0.0.0 nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",

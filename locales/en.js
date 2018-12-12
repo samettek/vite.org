@@ -26,7 +26,7 @@ module.exports = {
     exchange: 'EXCHANGE',
     media: 'MEDIA',
     faq: 'FAQ',
-    whitePaper: 'WHITE PAPER'
+    about: 'ABOUT'
     // superNodes: 'Guide for SBP (Snapshot Block Producer)',
     // nodeList: 'SBP Candidates',
     // nodeDetail: 'SBP Details',
@@ -39,11 +39,18 @@ module.exports = {
     // press: 'Press',
     // media: 'MEDIA',
   },
+  about: {
+    introduction: '简介',
+    blog: '博客',
+    whitepaper: '白皮书'
+  },
   home: {
     header: 'Vite',
     slogan: 'High-performance decentralized ecosystem',
     whitePaper: 'White Paper',
-    testnet: 'TestNet'
+    testnet: 'TestNet',
+    acttext: '参加活动</br>赢 VITE',
+    actwait: '敬请期待'
   },
   roadmap: {
     title: 'Roadmap',
@@ -500,7 +507,7 @@ module.exports = {
       {
         question: 'Which exchange(s) will Vite be listed on?',
         answer: [
-          'We are in contact with multiple exchanges, but there is no specific timetable.  Vite is a long-term, tech-driven project, and we don’t plan to run our operations at an aggressive pace.'
+          '目前在OKEX可以交易VITE，我们正在接触其他交易所，敬请期待。'
         ]
       },
       {
@@ -619,11 +626,11 @@ module.exports = {
   },
   featureTitle: 'Why does Vite stand out',
   features: {
-    performance: {title: 'High Performance', tags: ['DAG Ledger', 'Asynchronous Architecture']},
-    safety: {title: 'Secure', tags: ['Multi-Token Model', 'Snapshot Chain']},
-    economical: {title: '经济性', tags: ['Quota-based Model', '无手续费', 'Built-in DEX']},
-    easyusing: {title: '易用性', tags: ['Solidity++', '命名服务', '合约调度', '合约升级']},
-    flexable: {title: '扩展性', tags: ['跨链', 'HDPOS共识', '智能合约']}
+    performance: { title: 'High Performance', tags: ['DAG Ledger', 'Asynchronous Architecture'] },
+    safety: { title: 'Secure', tags: ['Multi-Token Model', 'Snapshot Chain'] },
+    economical: { title: '经济性', tags: ['Quota-based Model', '无手续费', 'Built-in DEX'] },
+    easyusing: { title: '易用性', tags: ['Solidity++', '命名服务', '合约调度', '合约升级'] },
+    flexable: { title: '扩展性', tags: ['跨链', 'HDPOS共识', '智能合约'] }
   },
   ecoTitle: 'What can Vite do',
   eco: {

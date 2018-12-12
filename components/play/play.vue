@@ -25,9 +25,7 @@ export default {
     align-items: center;
     justify-content: center;
     video{
-        width: 70%;
-        height: 70%;
-        min-height: 600px;
+        width: 90%;
     }
 }
 </style>

@@ -272,7 +272,8 @@ export default {
   font-family: $font-family-title;
   width: 100%;
   overflow-x: auto;
-  margin-top:125px;
+  margin-top: 125px;
+
   .feature-title {
     color: #171c34;
     font-size: 44px;
@@ -282,6 +283,11 @@ export default {
 }
 
 .features {
+  @include mobile {
+    transform: scale(0.7);
+    transform-origin: 0 0;
+    margin-left: 40px;
+  }
   height: 850px;
   padding-bottom: 73px;
   width: 1420px;

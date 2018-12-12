@@ -11,7 +11,7 @@
           <div class="column">
             <div class="columns is-multiline item">
               <div class="column">
-                <div class="video">
+                <div class="video" @click="play">
                   <img src="~assets/images/video/play.svg"/>
                 </div>
               </div>
@@ -35,11 +35,17 @@
 <script>
   import CommunityCard from '~/components/CommunityCard'
   import CommunityLink from '~/components/CommunityLink'
+  import player from '~/components/play'
 
   export default {
     components: {
       CommunityCard,
       CommunityLink
+    },
+    methods:{
+        play(){
+            player({src:"sffa"})
+        }
     },
     data: function () {
       return {
@@ -168,6 +174,7 @@
         background-image: url("~assets/images/community/world.png");
         background-size: cover;
         text-align: center;
+        cursor: pointer;
         img{
           margin-top: 110px;
         }

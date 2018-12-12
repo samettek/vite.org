@@ -16,7 +16,7 @@ export default {
   },
   methods: {
       play(){
-          player()
+          player({src:""})
       }
   }
 }
