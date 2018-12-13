@@ -73,7 +73,7 @@ module.exports = {
         'description': [
           'Vite Core beta M1: Trading / Issuance of assets / Hierarchical consensus algorithm / Snapshot chain',
           'Release Vite SDK',
-          'Vite Blockchain browser'
+          'Vite Blockchain Browser'
         ]
       },
       {
@@ -93,13 +93,13 @@ module.exports = {
       {
         'time': '2019.05',
         'description': [
-          'Vite Core beta M3: Quota leasing / Contract timing scheduling / VNS naming services',
-          'Vite dApplet support within Mobile app'
+          'Vite Core beta M3: Quota leasing / Contract Timing Scheduling / VNS Naming Services',
+          'Vite dApplet support within Mobile App'
         ]
       },
       {
         'time': '2019.07',
-        'description': 'Vite Core beta M4：Loopring / Ethereum cross-chain gateway'
+        'description': 'Vite Core beta M4：Loopring / Ethereum Cross-Chain Gateway'
       },
       {
         'time': '2019.08',
@@ -398,25 +398,26 @@ module.exports = {
   partnership: {
     okex: {
       desc: {
-        text1: 'Vite Labs和OK资本宣布建立长期战略合作伙伴关系。',
-        text2: '双方决定，在以下方面建立合作关系：OK资本成为Vite主要投资者之一；OK资本研究中心将为Vite去中心化交易所的咨询顾问；Vite的初始商业应用将会面向金融技术领域；OK将利用其在区块链行业积累的优势，为Vite提供相应的建议、渠道及其他资源；Vite Labs硅谷办公室将向OK输送海外项目资源。'
+        text1: 'Vite Labs announces long-term strategic partnership with OK Blockchain Capital.',
+        text2: 'Vite and OK Capital have decided to enter into the following areas of collaboration: OK Capital has become a major investor in Vite. OK Capital’s research center will undertake an advisory role in Vite’s plan to launch a decentralized exchange based on the Loopring protocol. Vite has positioned its initial commercial uses to be in financial technology, with at least two major projects yet to be announced. OK Capital will provide key insights, relationships and resources on these fronts. Vite Labs’ Silicon Valley office will provide overseas resources for potential project partnerships for OK Capital.'
       }
     },
     mxbank: {
       desc: {
-        text1: 'Vite Labs战略入股了数字资产银行MXBank。',
-        text2: 'Vite作为底层公链，将为MXBank提供公链相关技术支持，以帮助其未来在Vite上尽快落地；同时Vite生态基金负责人也将进入MXBank创始团队，加速项目发展。Vite Token也将成为MXBank第一批支持的数字资产之一。'
+        text1: 'Vite Labs strategically invested in a digital asset bank MXBank.',
+        text2: 'Vite as the infrastructural public chain, will provide MXBank with public-link related technical support to help MXBank land on Vite. In the meantime, the ecosystem fund leader from Vite will also join MXBank team to accelerate product development. Vite Token will also become one of the first group of digital assets supported by MXBank.'
       }
     },
     secbit: {
       desc: {
-        text1: 'Vite与专注智能合约安全研究的安比（SECBIT）实验室签署了战略合作协议。',
-        text2: '双方未来将从区块链低、中、上三个层面就Vite安全性开展全方位深度合作；其中，在公链底层的合作包括交易安全和虚拟机安全等。'
+        text1: 'Vite Labs became a strategic partner with SECBIT Labs, which focuses on smart contract security research.',
+        text2: 'In the future, the two companies will carry out thorough and in-depth cooperation on the security of Vite from top, middle, and bottom layers of the blockchain infrastructure. In this arrangement, the cooperation involving the bottom layer of the public chain includes security of transactions and security of virtual machine security.'
       }
     },
     achpay: {
       desc: {
-        text1: 'ACHPAY是Vite生态基金投资的一个非营利性基金会， Vite生态基金作为股东持有ACHPAY token。同时，Vite未来将支持ACHPAY的支付网络整合，其中，闪电支付网络通过Vite系统能够接入链上，提高支付效率、实现安全的资产流通。'
+        text1: 'ACHPAY is an non-profit foundation that is invested by Vite Ecosystem Foundation, and Vite Ecosystem Foundation held ACHPAY token as a shareholder.',
+        text2: 'Meanwhile, Vite will participate in ACHPAY\'s payment network integration. The Lightning Network will have access to blockchain through Vite system to improve payment efficiency and secure asset circulation.'
       }
     }
   },
@@ -559,7 +560,37 @@ module.exports = {
       {
         question: 'Can Vite’s smart contracts support running on a mobile device?  Will they be similar to Qtum and support mainstream languages like C++ and Java?',
         answer: [
-          'Vite won’t support mobile.  There are no current plans to support other languages. In the future, we will set up a VM Lab to continue research in smart contract language and virtual machine.  We welcome participation from experts in these areas.'
+          'Vite won’t support mobile. There are no current plans to support other languages. In the future, we will set up a VM Lab to continue research in smart contract language and virtual machine.  We welcome participation from experts in these areas.'
+        ]
+      },
+      {
+        question: 'The smart contract language used on Ethereum\'s platform is Solidity. A notable benefit of Solidity is its beginner-friendly nature, however a critical downside is its susceptibility to hackers\' attacks. What solution does Vite have for this problem? ',
+        answer: [
+          'Vite proposes a solution to the problem of smart contract vulnerability by introducing contract formal verification technology.'
+        ]
+      },
+      {
+        question: 'What does the Vite team think about the recent (and future) public chain competition?',
+        answer: [
+          'Currently, public chain technology is still in its early stage of development. There is still a long ways to go before the industry matures. We will be open-minded when it comes to working with other teams to promote the development of public chain technology. In the future, the competition within the public chain sphere will evolve into ecosystem development. Vite will develop an ecosystem layout, contributing to the applications of blockchain technology.'
+        ]
+      },
+      {
+        question: 'Token inflation (mining rewards) and consumption will be dynamically balanced under the premise of a total of 1 billion tokens?',
+        answer: [
+          'The amount of one billion tokens demonstrates initial circulation. Mining rewards are generated from additional token issuance: the inflation. As the system becomes widely used, tokens will continue to be burned. We hope that the circulation of tokens will attain the dynamic balance needed.'
+        ]
+      },
+      {
+        question: 'On Vite network, users can issue their own currency. Is the function similar to ERC20 token(s) on Ethereum? What advantages does Vite have with their system? What is the address of the VITE ERC20 token?',
+        answer: [
+          'Vite\'s asset issuance is similar to ERC20, but in other ways it is different. ERC20 is a specification but not part of the Ethereum protocol. The issuance of new tokens with Ethereum requires the user to develop and deploy a smart contract. Token balance is maintained by the state of the contract. If the contract development is flawed, there is a security risk. For example, if a user forgets to refer to the SaftMath library, an overflow may occur. Vite token is built into the Vite protocol. The token balance is maintained in the state of the user\'s account. The new token and the Vite native token share the same underlying protocol thus bringing the same measure of security to the new token and the Vite native token. When a user issues a new token in Vite,  the only thing that needs to be done is initiating a transaction, putting the new token parameters in the transaction data. Our network eliminates the need to write a smart contract and drastically decreases the possibility for bug generation to occur. '
+        ]
+      },
+      {
+        question: 'Can we mine Vite tokens?',
+        answer: [
+          'Vite\'s consensus mechanism is similar to EOS\'s. It generates 25 snapshot block producers through the DPoS algorithm. The block producers, in turn, receive mining rewards.'
         ]
       }
     ]
@@ -621,9 +652,9 @@ module.exports = {
   features: {
     performance: {title: 'High Performance', tags: ['DAG Ledger', 'Asynchronous Architecture']},
     safety: {title: 'Secure', tags: ['Multi-Token Model', 'Snapshot Chain']},
-    economical: {title: '经济性', tags: ['Quota-based Model', '无手续费', 'Built-in DEX']},
-    easyusing: {title: '易用性', tags: ['Solidity++', '命名服务', '合约调度', '合约升级']},
-    flexable: {title: '扩展性', tags: ['跨链', 'HDPOS共识', '智能合约']}
+    economical: {title: 'Economy', tags: ['Quota-based Model', 'Feeless-ness', 'Built-in DEX']},
+    easyusing: {title: 'Usability', tags: ['Solidity++', 'Naming Service', 'Contract Scheduling', 'Contract Upgrades']},
+    flexable: {title: 'Scalability', tags: ['Cross-Chain Gateway', 'HDPoS Consensus', 'Smart Contract']}
   },
   ecoTitle: 'What can Vite do',
   eco: {
@@ -631,20 +662,20 @@ module.exports = {
       title: 'Values',
       pay: {
         title: 'Payment',
-        child: ['秒级确认', '链上交易', 'Multiple Tokens']
+        child: ['Instant Confirmation', 'On-chain Transaction', 'Multiple Tokens']
       },
       finance: {
         title: 'Token Issuance',
-        child: ['One Button Token Issuance', '协议原生支持']
+        child: ['One Button Token Issuance', 'Protocol-Level Support']
       },
       'dex': {
         title: 'Built-in DEX',
-        child: ['链上订单支持', '垮链支持', '极速成交']
+        child: ['On-chain Order Book', 'Cross-Chain Support', 'Fast Matching']
       }
     },
     dapps: {
       title: 'dApps',
-      child: ['游戏', '本地服务', '娱乐', '社交', '知识产版权', '物联网']
+      child: ['Game', 'Local Service', 'Entertainment', 'Social Networking Service', 'Intellectual Property', 'IoT']
     }
   }
 }
