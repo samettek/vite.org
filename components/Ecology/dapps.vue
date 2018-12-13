@@ -64,7 +64,7 @@ export default {
     &::before {
       content: "";
       position: absolute;
-      right: -52px;
+      right: -51px;
       width: 0;
       height: 0;
       border-top: 90px solid transparent;
@@ -74,7 +74,7 @@ export default {
     &::after {
       content: "";
       position: absolute;
-      left: -52px;
+      left: -51px;
       width: 0;
       height: 0;
       border-top: 90px solid transparent;

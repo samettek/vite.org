@@ -8,7 +8,7 @@
           <div class="news-content" v-for="i in newsList" :key="i.title" @click="open(i.link)">
             <div class="news-item-row">
               <div class="news-item">{{i.title}}</div>
-              <div class="news-time">{{i.toLocal}}</div>
+              <div class="news-time">{{i.date}}</div>
             </div>
           </div>
           <div class="news-more">
@@ -39,20 +39,17 @@ export default {
   },
   beforeMount() {
     const client = new XMLHttpRequest();
-    client.open("get", "https://crossorigin.me/https://medium.com/feed/vitelabs");
+    client.open("get", "https://hidden-peak-43038.herokuapp.com/https://medium.com/feed/vitelabs");
     client.send();
     client.onreadystatechange=e => {
       if (client.readyState === 4 && client.status === 200) {
-        const items = client.responseXML.getElementsByTagName("item");
-        this.newsList = items
-          .filter((i, j) => {
-            return j <= 2;
-          })
-          .map(i => {
+        const items = Array.from(client.responseXML.getElementsByTagName("item"));
+        this.newsList = items.slice(0,3).map(i => {
+              const d=new Date(i.getElementsByTagName("pubDate")[0].textContent);
             return {
               title: i.getElementsByTagName("title")[0].textContent,
               link: i.getElementsByTagName("link")[0].textContent,
-              date: new Date(i.getElementsByTagName("pubDate")[0].textContent)
+              date: `${d.getMonth()+1}.${d.getDay()}`
             };
           });
       }
@@ -72,6 +69,7 @@ export default {
   display: flex;
   display: -webkit-flex;
   position: relative;
+  width: 100%;
   .news-icon {
     // position: absolute;
     // left: -78px;
@@ -79,6 +77,7 @@ export default {
   .news {
     margin-left: 13px;
     margin-top: 21px;
+    width:100%;
     .news-title {
       font-family: $font-family-title;
       color: #363d4f;
@@ -91,6 +90,7 @@ export default {
       color: #6d7783;
       letter-spacing: 0;
       line-height: 24px;
+      cursor: pointer;
       .news-item-row {
         display: flex;
         display: -webkit-flex;

@@ -7,17 +7,17 @@
     </div>
 
     <div class="team-desc" :class="{'team-no-img': !src }">
-      <span class="name">{{$t(`team.nameMap.${name}.name`)}}</span>
+      <span class="name">{{$t(`team.nameMap['${name}'].name`)}}</span>
       <div class="icon-wrapper">
         <a :href="url.url" target="_blank" :key="url.url" v-for="url in urls">
           <fa-icon class="icon text-hover-transition" :icon="url.icon" />
         </a>
       </div>
       <div class="desc is-flex">
-        <div class="job" v-if="!src">{{$t(`team.nameMap.${name}.job`)}}</div>
-        <div class="position"><span v-if="!src">|</span> {{$t(`team.nameMap.${name}.position`)}}</div>
+        <div class="job" v-if="!src">{{$t(`team.nameMap['${name}'].job`)}}</div>
+        <div class="position"><span v-if="!src">|</span> {{$t(`team.nameMap['${name}'].position`)}}</div>
       </div>
-      <p class="desc">{{$t(`team.nameMap.${name}.description`)}}</p>
+      <p class="desc">{{$t(`team.nameMap['${name}']`).description}}</p>
     </div>
   </div>
 </template>
@@ -55,6 +55,7 @@
     width: 100%;
     margin: 0 auto;
     box-shadow: 0 4px 24px 0 rgba(211,234,255,0.53);
+    padding-bottom: 10px;
     .img-wrapper {
       height: 242px;
       min-width: 242px;

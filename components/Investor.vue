@@ -120,6 +120,12 @@
               logoActive: require('~/assets/images/investor/bigcoin-blue.png'),
               url: 'https://www.linkedin.com/company/bigcoin-capital/'
             },
+                        {
+              key: 'UniValues',
+              logo: require('~/assets/images/investor/UniValues.png'),
+              logoActive: require('~/assets/images/investor/UniValues-blue.png'),
+              url: 'https://univalues.org/'
+            },
             {
               key: 'hot',
               logo: require('~/assets/images/investor/hot.png'),

@@ -1,5 +1,5 @@
 <template>
-  <div class="dropdown lang-btn is-hoverable is-right">
+  <div class="dropdown lang-btn is-hoverable">
     <div class="dropdown-trigger">
       <button class="button" aria-haspopup="true" aria-controls="lang-dropdown-menu">
         <span>{{$t('lang')}}</span>

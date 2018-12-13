@@ -26,13 +26,20 @@ module.exports = {
     exchange: '交易所',
     media: '新闻',
     faq: '问题答疑',
-    whitePaper: '白皮书'
+    about: '关于'
   },
   home: {
     header: 'Vite',
     slogan: '高性能去中心化生态系统',
     whitePaper: '白皮书',
-    testnet: '预览版'
+    testnet: '预览版',
+    acttext: '参加活动</br>赢 VITE',
+    actwait: '敬请期待'
+  },
+  about: {
+    introduction: '简介',
+    blog: '博客',
+    whitepaper: '白皮书'
   },
   roadmap: {
     title: '路线图',
@@ -418,6 +425,176 @@ module.exports = {
         name: '张灵勇',
         position: '',
         description: '资深区块链投资者，高级工程师，曾任职于美团、币丰港。'
+      },
+      'Chris Li': {
+        'name': 'Chris Li',
+        'job': '业务拓展总监',
+        'position': '美国'
+      },
+      'Luke Kim': {
+        'name': 'Luke Kim',
+        'job': 'CMO',
+        'position': '美国'
+      },
+      'Jeff Ng': {
+        'name': 'Jeff Ng',
+        'job': '社区项目经理',
+        'position': '美国'
+      },
+      'Agata Aks': {
+        'name': 'Agata Aks',
+        'job': '创意市场/业务运营助理',
+        'position': '美国'
+      },
+      'Lola': {
+        'name': 'Lola',
+        'job': '产品经理',
+        'position': '北京'
+      },
+      'Logan': {
+        'name': 'Logan',
+        'job': 'iOS开发',
+        'position': '北京'
+      },
+      'Stone': {
+        'name': 'Stone',
+        'job': 'iOS开发',
+        'position': '北京'
+      },
+      'jerry': {
+        'name': 'jerry',
+        'job': '后端开发',
+        'position': '北京'
+      },
+      'Alex': {
+        'name': 'Alex',
+        'job': '后端开发',
+        'position': '北京'
+      },
+      'Tuprise': {
+        'name': 'Tuprise',
+        'job': '后端开发',
+        'position': '北京'
+      },
+      'viteLiz': {
+        'name': 'viteLiz',
+        'job': '后端开发',
+        'position': '北京'
+      },
+      'Abbott': {
+        'name': 'Abbott',
+        'job': '测试',
+        'position': '北京'
+      },
+      'hubery': {
+        'name': 'hubery',
+        'job': '后端开发',
+        'position': '北京'
+      },
+      'Cecelia': {
+        'name': 'Cecelia',
+        'job': '前端开发',
+        'position': '北京'
+      },
+      'viteshan': {
+        'name': 'viteshan',
+        'job': '后端开发',
+        'position': '北京'
+      },
+      'Ada': {
+        'name': 'Ada',
+        'job': '研究员',
+        'position': '北京'
+      },
+      'Jin': {
+        'name': 'Jin',
+        'job': '后端开发',
+        'position': '北京'
+      },
+      'Shenyang': {
+        'name': 'Shenyang',
+        'job': 'iOS',
+        'position': '北京'
+      },
+      'Candy': {
+        'name': 'Candy',
+        'job': '产品运营',
+        'position': '北京'
+      },
+      'Eric': {
+        'name': 'Eric',
+        'job': '架构师',
+        'position': '北京'
+      },
+      'Asurily': {
+        'name': 'Asurily',
+        'job': '后端开发',
+        'position': '北京'
+      },
+      'Cassie': {
+        'name': 'Cassie',
+        'job': '产品运营',
+        'position': '北京'
+      },
+      'Reg': {
+        'name': 'Reg',
+        'job': '前端开发',
+        'position': '北京'
+      },
+      'Daisy': {
+        'name': 'Daisy',
+        'job': '前端开发',
+        'position': '北京'
+      },
+      'Tiantao': {
+        'name': 'Tiantao',
+        'job': '后端开发',
+        'position': '北京'
+      },
+      'weichao': {
+        'name': 'weichao',
+        'job': '后端开发',
+        'position': '北京'
+      },
+      'Zack': {
+        'name': 'Zack',
+        'job': '产品负责人',
+        'position': '北京'
+      },
+      'Tina': {
+        'name': 'Tina',
+        'job': '前端开发',
+        'position': '北京'
+      },
+      'Rod': {
+        'name': 'Rod',
+        'job': '工程师',
+        'position': '北京'
+      },
+      'Tony': {
+        'name': 'Tony',
+        'job': '运营总监',
+        'position': '北京'
+      },
+      'Flanke': {
+        'name': 'Flanke',
+        'job': '产品运营',
+        'position': '北京'
+      },
+      'Erin': {
+        'name': 'Erin',
+        'job': '数据运营',
+        'position': '北京'
+      },
+      'Hannah': {
+        'name': 'Hannah',
+        'job': 'QA',
+        'position': '北京'
+      },
+      'Miya': {
+        'name': 'Miya',
+        'job': 'UI设计',
+        'position': '北京'
       }
     }
   },
@@ -526,7 +703,7 @@ module.exports = {
       {
         question: 'Vite 会上哪个交易所？',
         answer: [
-          '我们在和交易所接触，但还没有具体的时间表。我们主要是一个技术驱动的项目，周期也会比较长，运营方面我们不会特别激进。'
+          '目前在OKEX可以交易VITE，我们正在接触其他交易所，敬请期待。'
         ]
       },
       {
@@ -775,11 +952,11 @@ module.exports = {
   },
   featureTitle: 'Vite 特性',
   features: {
-    performance: {title: '高性能', tags: ['DAG账本', '异步架构']},
-    safety: {title: '安全性', tags: ['多代币模型', '快照链']},
-    economical: {title: '经济性', tags: ['配额模型', '无手续费', 'Built-in DEX']},
-    easyusing: {title: '易用性', tags: ['Solidity++', '命名服务', '合约调度', '合约升级']},
-    flexable: {title: '扩展性', tags: ['跨链', 'HDPOS共识', '智能合约']}
+    performance: { title: '高性能', tags: ['DAG账本', '异步架构'] },
+    safety: { title: '安全性', tags: ['多代币模型', '快照链'] },
+    economical: { title: '经济性', tags: ['配额模型', '无手续费', 'Built-in DEX'] },
+    easyusing: { title: '易用性', tags: ['Solidity++', '命名服务', '合约调度', '合约升级'] },
+    flexable: { title: '扩展性', tags: ['跨链', 'HDPOS共识', '智能合约'] }
   },
   eco: {
     worth: {
