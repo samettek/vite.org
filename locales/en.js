@@ -793,7 +793,7 @@ module.exports = {
     safety: { title: 'Secure', tags: ['Multi-Token Model', 'Snapshot Chain'] },
     economical: { title: '经济性', tags: ['Quota-based Model', '无手续费', 'Built-in DEX'] },
     easyusing: { title: '易用性', tags: ['Solidity++', '命名服务', '合约调度', '合约升级'] },
-    flexable: { title: '扩展性', tags: ['跨链', 'HDPOS共识', '智能合约'] }
+    flexable: { title: '扩展性', tags: ['跨链', 'HDPoS共识', '智能合约'] }
   },
   ecoTitle: 'What can Vite do',
   eco: {
