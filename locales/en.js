@@ -40,17 +40,17 @@ module.exports = {
     // media: 'MEDIA',
   },
   about: {
-    introduction: '简介',
-    blog: '博客',
-    whitepaper: '白皮书'
+    introduction: 'Introduction',
+    blog: 'Blog',
+    whitepaper: 'White Paper'
   },
   home: {
     header: 'Vite',
     slogan: 'High-performance decentralized ecosystem',
     whitePaper: 'White Paper',
     testnet: 'TestNet',
-    acttext: '参加活动</br>赢 VITE',
-    actwait: '敬请期待'
+    acttext: 'Join us, </br>collect VITE',
+    actwait: 'Stay tuned!'
   },
   roadmap: {
     title: 'Roadmap',
