@@ -49,8 +49,7 @@ module.exports = {
     slogan: 'High-performance decentralized ecosystem',
     whitePaper: 'White Paper',
     testnet: 'TestNet',
-    acttext: '参加活动</br>赢 VITE',
-    actwait: '敬请期待'
+    acttext: '投票超级节点</br>赢VITE'
   },
   roadmap: {
     title: 'Roadmap',
@@ -669,7 +668,7 @@ module.exports = {
         ]
       },
       {
-        question: 'Which exchange(s) will Vite be listed on?',
+        question: 'VITE上了哪些交易所？',
         answer: [
           '目前在OKEX可以交易VITE，我们正在接触其他交易所，敬请期待。'
         ]

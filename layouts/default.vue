@@ -58,16 +58,6 @@
             <div class="nav-item">
               <Exchange></Exchange>
             </div>
-            <nuxt-link
-              :to="localePath('faq')"
-              class="nav-item text-hover-transition"
-              :class="{active: routeName === 'faq'}"
-            >
-              {{$t('nav.faq')}}
-            </nuxt-link>
-            <div class="nav-item">
-              <about></about>
-            </div>
 
           </div>
           <div
@@ -82,12 +72,14 @@
       </div>
     </div>
     <div class="container is-hidden-mobile">
-      <div class="img-text">
+      <div
+        class="img-text"
+        @click="openDotNet"
+      >
         <div
           class="act"
           v-html="$t('home.acttext')"
         ></div>
-        <div class="act-wait">{{$t('home.actwait')}}</div>
         <div><img src="~assets/images/tail-right.svg" /></div>
       </div>
     </div>
@@ -214,6 +206,11 @@ export default {
     }
   },
   methods: {
+    openDotNet() {
+      window.open(
+        this.$i18n.locale === "zh" ? "https://vite.net/zh/" : "https://vite.net"
+      );
+    },
     onNavClick(e) {
       let { target } = e;
       if (
@@ -254,19 +251,6 @@ export default {
 }
 
 .img-text {
-  .act-wait {
-    display: none;
-    margin-top: 20px;
-  }
-  &:hover {
-    .act {
-      display: none;
-    }
-    .act-wait {
-      display: block;
-    }
-  }
-
   position: absolute;
   cursor: pointer;
   right: 0;

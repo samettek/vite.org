@@ -9,26 +9,98 @@
           <div class="footer-tab">
             <div class="">
               <div class="is-flex footer-nav">
-                <div v-for="(item, index) in navs" :key="index" class="nav-item">
-                  <nuxt-link :key="item" :to="localePath(item)" class="text-hover-transition">
+                <div
+                  v-for="(item, index) in navs"
+                  :key="index"
+                  class="nav-item"
+                >
+                  <nuxt-link
+                    :key="item"
+                    :to="localePath(item)"
+                    class="text-hover-transition"
+                  >
                     {{$t(`nav.${item}`)}}
                   </nuxt-link>
                 </div>
                 <div class="is-flex">
-                  <Media class="nav-item" :is-footer="true"></Media>
-                  <Exchange class="nav-item" :is-footer="true"></Exchange>
-                  <WhitePaper class="nav-item" :is-footer="true"></WhitePaper>
+                  <voteNotice
+                    class="nav-item"
+                    :is-footer="true"
+                  ></voteNotice>
+                  <Media
+                    class="nav-item"
+                    :is-footer="true"
+                  ></Media>
+                  <Exchange
+                    class="nav-item"
+                    :is-footer="true"
+                  ></Exchange>
+                  <div class="nav-item">
+                    <nuxt-link
+                      :to="localePath('faq')"
+                      class="text-hover-transition"
+                    >
+                      {{$t('nav.faq')}}
+                    </nuxt-link>
+                  </div>
+                  <about
+                    class="nav-item"
+                    :is-footer="true"
+                  ></about>
                 </div>
               </div>
               <div class="">
                 <div class="icons mt40">
                   <div class="icon-links-wrapper">
-                    <a :href="urls.github" target="_blank" class="text-hover-transition"><fa-icon class="icon" :icon="['fab', 'github']"></fa-icon></a>
-                    <a :href="urls.discord" target="_blank" class="text-hover-transition"><fa-icon class="icon" :icon="['fab', 'discord']"></fa-icon></a>
-                    <a :href="urls.twitter" target="_blank" class="text-hover-transition"><fa-icon class="icon" :icon="['fab', 'twitter']"></fa-icon></a>
+                    <a
+                      :href="urls.github"
+                      target="_blank"
+                      class="text-hover-transition"
+                    >
+                      <fa-icon
+                        class="icon"
+                        :icon="['fab', 'github']"
+                      ></fa-icon>
+                    </a>
+                    <a
+                      :href="urls.discord"
+                      target="_blank"
+                      class="text-hover-transition"
+                    >
+                      <fa-icon
+                        class="icon"
+                        :icon="['fab', 'discord']"
+                      ></fa-icon>
+                    </a>
+                    <a
+                      :href="urls.twitter"
+                      target="_blank"
+                      class="text-hover-transition"
+                    >
+                      <fa-icon
+                        class="icon"
+                        :icon="['fab', 'twitter']"
+                      ></fa-icon>
+                    </a>
                     <telegram></telegram>
-                    <a :href="urls.reddit" target="_blank" class="text-hover-transition"><fa-icon class="icon" :icon="['fab', 'reddit']"/></a>
-                    <a :href="urls.youtube" target="_blank" class="text-hover-transition"><fa-icon class="icon" :icon="['fab', 'youtube']"/></a>
+                    <a
+                      :href="urls.reddit"
+                      target="_blank"
+                      class="text-hover-transition"
+                    >
+                      <fa-icon
+                        class="icon"
+                        :icon="['fab', 'reddit']"
+                      /></a>
+                    <a
+                      :href="urls.youtube"
+                      target="_blank"
+                      class="text-hover-transition"
+                    >
+                      <fa-icon
+                        class="icon"
+                        :icon="['fab', 'youtube']"
+                      /></a>
                     <wechat></wechat>
                   </div>
                 </div>
@@ -36,7 +108,7 @@
               <div class="">
                 <div class="copyright mt40">
                   <span>
-                    © 2018 VITE Labs. All Rights Reserved. 
+                    © 2018 VITE Labs. All Rights Reserved.
                   </span>
                 </div>
               </div>
@@ -49,146 +121,149 @@
 </template>
 
 <script type="text/babel">
-  import LogoWithoutWords from '~/components/LogoWithoutWords.vue'
-  import Wechat from '~/components/Wechat'
-  import Telegram from '~/components/Telegram'
-  import config from '~/config.js'
-  import Exchange from '~/components/Exchange.vue'
-  import Media from '~/components/Media.vue'
-  import WhitePaper from '~/components/WhitePaper.vue'
+import LogoWithoutWords from "~/components/LogoWithoutWords.vue";
+import Wechat from "~/components/Wechat";
+import Telegram from "~/components/Telegram";
+import config from "~/config.js";
+import Exchange from "~/components/Exchange.vue";
+import Media from "~/components/Media.vue";
+import WhitePaper from "~/components/WhitePaper.vue";
+import voteNotice from "~/components/voteNotice.vue";
+import about from "~/components/about";
 
-  export default {
-    components: {
-      LogoWithoutWords,
-      Wechat,
-      Telegram,
-      Exchange,
-      Media,
-      WhitePaper
-    },
-    data: function () {
-      let {urls} = config
-      return {
-        urls,
-        aboutList: ['tokenUrl'],
-        learnList: ['whitePaper', 'document', 'introduction'],
-        mediumList: ['medium', 'btt', 'blog'],
-        urlShouldTranslate: ['whitePaper', 'telegram', 'introduction'],
-        navs: ['team', 'partnership', 'community', 'faq']
+export default {
+  components: {
+    LogoWithoutWords,
+    Wechat,
+    Telegram,
+    Exchange,
+    Media,
+    WhitePaper,
+    voteNotice,
+    about
+  },
+  data: function() {
+    let { urls } = config;
+    return {
+      urls,
+      aboutList: ["tokenUrl"],
+      learnList: ["whitePaper", "document", "introduction"],
+      mediumList: ["medium", "btt", "blog"],
+      urlShouldTranslate: ["whitePaper", "telegram", "introduction"],
+      navs: ["team", "partnership", "community"]
+    };
+  },
+  methods: {
+    getUrl(item) {
+      if (this.urlShouldTranslate.indexOf(item) > -1) {
+        return this.$t(`urlSrc.${item}`);
       }
-    },
-    methods: {
-      getUrl (item) {
-        if (this.urlShouldTranslate.indexOf(item) > -1) {
-          return this.$t(`urlSrc.${item}`)
-        }
-        return config.urls[item]
-      }
+      return config.urls[item];
     }
   }
+};
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>
-  @import "~assets/vars";
+@import "~assets/vars";
 
-  .footer {
-    height: 315px;
-    background: url("~assets/images/footer/footer.svg") 46% 13%;
-    z-index: 3;
+.footer {
+  height: 315px;
+  background: url("~assets/images/footer/footer.svg") 46% 13%;
+  z-index: 3;
+  @include touch {
+    background: url("~assets/images/footer/footer.svg") 100% 60%;
+  }
+  .whole-footer {
+    justify-content: space-between;
+  }
+  .mt40 {
+    margin-top: 40px;
+  }
+  .footer-tab {
+    color: white;
     @include touch {
-      background: url("~assets/images/footer/footer.svg") 100% 60%;
+      margin: 0 auto;
     }
-    .whole-footer {
-      justify-content: space-between;
+  }
+  .icons {
+    text-align: right;
+  }
+  .copyright {
+    font-size: 12px;
+    text-align: right;
+    @include touch {
+      text-align: center;
     }
-    .mt40 {
-      margin-top: 40px;
+  }
+  .footer-nav {
+    justify-content: flex-end;
+    @include touch {
+      flex-wrap: wrap;
+      justify-content: center;
     }
-    .footer-tab {
+    a {
       color: white;
-      @include touch {
-        margin: 0 auto;
+    }
+    .nav-item {
+      padding: 0.5rem 23px;
+      color: $common-text-color;
+      font-family: $font-family-light;
+      &:hover {
+        color: $common-active-color;
       }
-      
-    }
-    .icons {
-      text-align: right;
-    }
-    .copyright {
-      font-size: 12px;
-      text-align: right;
-      @include touch {
-        text-align: center;
+      &.active {
+        color: $common-active-color;
       }
     }
-    .footer-nav {
-      justify-content: flex-end;
-      @include touch {
-         flex-wrap: wrap;
-         justify-content: center;
-      }
-      a {
-        color: white;
-      }
-      .nav-item {
-        padding: 0.5rem 23px;
-        color: $common-text-color;
-        font-family: $font-family-light;
-        &:hover {
-          color: $common-active-color;
-        }
-        &.active {
-          color: $common-active-color;
-        }
-      }
-    }
+  }
 
-    
-    .icon-links-wrapper {
-      @include touch {
-        text-align: center;
-      }
-      & > a, /deep/ .v-popover {
-        margin-left: 25px;
-        svg {
-          width: 30px;
-          height: 30px;
-          color: white;
-          &:hover {
-            // color: #1580E3;
-          }
-          @include touch {
-            width: 24px;
-            height: 24px;
-          }
+  .icon-links-wrapper {
+    @include touch {
+      text-align: center;
+    }
+    & > a,
+    /deep/ .v-popover {
+      margin-left: 25px;
+      svg {
+        width: 30px;
+        height: 30px;
+        color: white;
+        &:hover {
+          // color: #1580E3;
         }
         @include touch {
-          margin-left: 19px;
+          width: 24px;
+          height: 24px;
         }
-        &:first-child {
-          margin-left: 0;
-        }
+      }
+      @include touch {
+        margin-left: 19px;
+      }
+      &:first-child {
+        margin-left: 0;
       }
     }
-    .links-wrapper {
-      line-height: 1.75rem;
-      @include touch {
-        text-align: center;
-      }
-      & > div {
-        &:first-child {
-          font-size:16px;
-          font-family: $font-family-main;
-          color: rgba(51,51,51,1);
-          margin-bottom: 20px;
-          line-height: 25px;
-          @include touch {
-            font-size: 15px;
-            line-height: 21px;
-            margin-bottom: 18px;
-          }
+  }
+  .links-wrapper {
+    line-height: 1.75rem;
+    @include touch {
+      text-align: center;
+    }
+    & > div {
+      &:first-child {
+        font-size: 16px;
+        font-family: $font-family-main;
+        color: rgba(51, 51, 51, 1);
+        margin-bottom: 20px;
+        line-height: 25px;
+        @include touch {
+          font-size: 15px;
+          line-height: 21px;
+          margin-bottom: 18px;
         }
       }
     }
   }
+}
 </style>

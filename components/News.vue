@@ -5,7 +5,12 @@
         <news class="news-icon"></news>
         <div class="news">
           <div class="news-title">最新消息</div>
-          <div class="news-content" v-for="i in newsList" :key="i.title" @click="open(i.link)">
+          <div
+            class="news-content"
+            v-for="i in newsList"
+            :key="i.title"
+            @click="open(i.link)"
+          >
             <div class="news-item-row">
               <div class="news-item">{{i.title}}</div>
               <div class="news-time">{{i.date}}</div>
@@ -37,28 +42,47 @@ export default {
   data() {
     return { newsList: [] };
   },
+  computed: {
+    sourceUrl() {
+      return this.$i18n.locale === "zh"
+        ? "https://hidden-peak-43038.herokuapp.com/https://forum.vite.net/category/18.rss"
+        : "https://hidden-peak-43038.herokuapp.com/https://medium.com/feed/vitelabs";
+    }
+  },
+  watch: {
+    "$i18n.locale": function() {
+      this.getRss();
+    }
+  },
   beforeMount() {
-    const client = new XMLHttpRequest();
-    client.open("get", "https://hidden-peak-43038.herokuapp.com/https://medium.com/feed/vitelabs");
-    client.send();
-    client.onreadystatechange=e => {
-      if (client.readyState === 4 && client.status === 200) {
-        const items = Array.from(client.responseXML.getElementsByTagName("item"));
-        this.newsList = items.slice(0,3).map(i => {
-              const d=new Date(i.getElementsByTagName("pubDate")[0].textContent);
+    this.getRss();
+  },
+  methods: {
+    open(l) {
+      window.open(l);
+    },
+    getRss() {
+      const client = new XMLHttpRequest();
+      client.open("get", this.sourceUrl);
+      client.send();
+      client.onreadystatechange = e => {
+        if (client.readyState === 4 && client.status === 200) {
+          const items = Array.from(
+            client.responseXML.getElementsByTagName("item")
+          );
+          this.newsList = items.slice(0, 3).map(i => {
+            const d = new Date(
+              i.getElementsByTagName("pubDate")[0].textContent
+            );
             return {
               title: i.getElementsByTagName("title")[0].textContent,
               link: i.getElementsByTagName("link")[0].textContent,
-              date: `${d.getMonth()+1}.${d.getDay()}`
+              date: `${d.getMonth() + 1}.${d.getDay()}`
             };
           });
-      }
-    };
-  },
-  methods: {
-      open(l){
-          window.open(l)
-      }
+        }
+      };
+    }
   }
 };
 </script>
@@ -77,7 +101,7 @@ export default {
   .news {
     margin-left: 13px;
     margin-top: 21px;
-    width:100%;
+    width: 100%;
     .news-title {
       font-family: $font-family-title;
       color: #363d4f;

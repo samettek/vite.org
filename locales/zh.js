@@ -41,8 +41,7 @@ module.exports = {
     slogan: '高性能去中心化生态系统',
     whitePaper: '白皮书',
     testnet: '预览版',
-    acttext: '参加活动</br>赢 VITE',
-    actwait: '敬请期待'
+    acttext: '投票超级节点</br>赢VITE'
   },
   about: {
     introduction: '简介',
@@ -709,7 +708,8 @@ module.exports = {
         ]
       },
       {
-        question: 'Vite 会上哪个交易所？',
+
+        question: 'VITE上了哪些交易所？',
         answer: [
           '目前在OKEX可以交易VITE，我们正在接触其他交易所，敬请期待。'
         ]

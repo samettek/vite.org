@@ -25,6 +25,12 @@
   import config from '~/config'
 
   export default {
+          props: {
+      isFooter: {
+        type: Boolean,
+        default: false
+      }
+    },
     data () {
       return {
         voteMap: config.urls.vote
