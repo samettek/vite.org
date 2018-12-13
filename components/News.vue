@@ -18,7 +18,7 @@
           </div>
           <div class="news-more">
             <a
-              :href="$i18n.locale==='zh'?'https://forum.vite.net':'https://medium.com/vitelabs'"
+              :href="moreLink"
               target="_blank"
               class="more"
             >MORE</a><img
@@ -34,6 +34,7 @@
 
 <script type="text/babel">
   import News from "~/components/svg/News.vue";
+  import config from "~/config"
 
 export default {
   components: {
@@ -44,9 +45,10 @@ export default {
   },
   computed: {
     sourceUrl() {
-      return this.$i18n.locale === "zh"
-        ? "https://hidden-peak-43038.herokuapp.com/https://forum.vite.net/category/18.rss"
-        : "https://hidden-peak-43038.herokuapp.com/https://medium.com/feed/vitelabs";
+        return config.urls.news.rss[this.$i18n.locale]
+    },
+    moreLink(){
+        return config.urls.news.home[this.$i18n.locale]
     }
   },
   watch: {

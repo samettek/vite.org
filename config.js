@@ -1,5 +1,15 @@
 module.exports = {
   urls: {
+    news: {
+      rss: {
+        zh: 'https://hidden-peak-43038.herokuapp.com/https://forum.vite.net/category/18.rss',
+        en: 'https://hidden-peak-43038.herokuapp.com/https://medium.com/feed/vitelabs'
+      },
+      home: {
+        zh: 'https://forum.vite.net',
+        en: 'https://medium.com/vitelabs'
+      }
+    },
     video: {
       home: {
         zh: 'http://1257137467.vod2.myqcloud.com/c9d24a0dvodcq1257137467/72d670585285890783561692168/WGwQoGPaGHsA.mp4',
