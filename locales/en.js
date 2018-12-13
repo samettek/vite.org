@@ -50,7 +50,8 @@ module.exports = {
     whitePaper: 'White Paper',
     testnet: 'TestNet',
     acttext: 'Join us, </br>collect VITE',
-    actwait: 'Stay tuned!'
+    actwait: 'Stay tuned!',
+    news: 'Latest News'
   },
   roadmap: {
     title: 'Roadmap',
@@ -779,7 +780,7 @@ module.exports = {
       russia: 'Russia',
       thailand: 'Thailand'
     },
-    whitePaper: 'White Paper',
+    whitePaper: 'WHITEPAPER',
     whitePaperList: {
       english: 'English',
       chinese: 'Chinese',

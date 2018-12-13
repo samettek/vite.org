@@ -34,7 +34,9 @@ module.exports = {
     whitePaper: '白皮书',
     testnet: '预览版',
     acttext: '参加活动</br>赢 VITE',
-    actwait: '敬请期待'
+    actwait: '敬请期待',
+    news: '最新消息'
+
   },
   about: {
     introduction: '简介',
