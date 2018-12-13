@@ -522,7 +522,7 @@ module.exports = {
       },
       'weichao': {
         'name': 'weichao',
-        'job': 'Back-end Developer',
+        'job': 'System Architect',
         'position': 'Beijing, China'
       },
       'Zack': {
@@ -827,7 +827,7 @@ module.exports = {
     placeholder: 'Email Address'
   },
 
-  featureTitle: 'Vite特性',
+  featureTitle: 'Technical Characteristics of Vite',
   featureTitle2: 'Why does Vite stand out?',
   features: {
     performance: { title: 'High Performance', tags: ['DAG Ledger', 'Asynchronous Architecture'] },
@@ -836,8 +836,8 @@ module.exports = {
     easyusing: { title: 'Usability', tags: ['Solidity++', 'Naming Service', 'Contract Scheduling', 'Contract Upgrades'] },
     flexable: { title: 'Scalability', tags: ['Cross-Chain Gateway', 'HDPoS Consensus', 'Smart Contract'] }
   },
-  ecoTitle: 'Vite生态',
-  ecoTitle2: '在Vite上可以做什么？',
+  ecoTitle: 'Vite Ecosystem',
+  ecoTitle2: 'What can be done on Vite?',
   eco: {
     worth: {
       title: 'Values',
