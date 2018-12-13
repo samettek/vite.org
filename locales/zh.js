@@ -26,7 +26,15 @@ module.exports = {
     exchange: '交易所',
     media: '新闻',
     faq: '问题答疑',
-    about: '关于'
+    about: '关于',
+    superNodes: '超级节点说明',
+    nodeList: '超级节点竞选人',
+    nodeDetail: '超级节点详情',
+    notice: {
+      name: '超级节点',
+      specific: '超级节点说明',
+      apply: '申请超级节点'
+    }
   },
   home: {
     header: 'Vite',

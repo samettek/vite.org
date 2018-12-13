@@ -1,7 +1,7 @@
 <template>
   <div class="dropdown lang-btn is-hoverable">
     <div class="dropdown-trigger">
-      <button class="button">
+      <button class="button" :class="{'foot-btn': isFooter}">
         <span>{{$t('nav.notice.name')}}</span>
       </button>
     </div>
@@ -39,31 +39,34 @@
   .lang-btn {
     .dropdown-trigger {
       button {
-        color: #999999;
+        color: $common-text-color;
         background: transparent;
-        padding: 0 1rem 0 0;
+        padding: 0 0 0 0;
         border-radius: 0.35rem;
         height: (40rem/16);
         border: transparent;
-        font-family: $font-family-main;
-        @include touch {
-          font-size: 14px;
-        }
+        font-family: $font-family-light;
         &:focus {
           border: none;
           box-shadow: none;
         }
         &:hover {
-          color: #333333;
+          color: $common-active-color;
+        }
+      }
+      .foot-btn {
+        color: white;
+        &:hover {
+          color: white;
         }
       }
     }
     .dropdown-menu {
       .dropdown-content {
         .dropdown-item {
-          color: rgba(0,0,0,0.8);
+          color: $common-text-color;
           &:hover {
-            color: rgba(0,0,0,0.9)
+            color: $common-active-color
           }
         }
       }

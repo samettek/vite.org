@@ -88,6 +88,9 @@ export default {
     display: none;
     background: #fff;
     top: -50%;
+    width:300px;
+    height: 400px;
+    padding:15px;
     z-index: 10;
         &:hover {
       display: block;
