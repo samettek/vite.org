@@ -397,173 +397,173 @@ module.exports = {
       },
       'Chris Li': {
         'name': 'Chris Li',
-        'job': '业务拓展总监',
-        'position': '美国'
+        'job': 'Director of BD',
+        'position': 'Silicon Valley, United States'
       },
       'Luke Kim': {
         'name': 'Luke Kim',
         'job': 'CMO',
-        'position': '美国'
+        'position': 'Silicon Valley, United States'
       },
       'Jeff Ng': {
         'name': 'Jeff Ng',
-        'job': '社区项目经理',
-        'position': '美国'
+        'job': 'Project Manager',
+        'position': 'Silicon Valley, United States'
       },
       'Agata Aks': {
         'name': 'Agata Aks',
-        'job': '创意市场/业务运营助理',
-        'position': '美国'
+        'job': 'Creative Marketing / Business Operations Associate',
+        'position': 'Silicon Valley, United States'
       },
       'Lola': {
         'name': 'Lola',
-        'job': '产品经理',
-        'position': '北京'
+        'job': 'Product Manager',
+        'position': 'Beijing, China'
       },
       'Logan': {
         'name': 'Logan',
-        'job': 'iOS开发',
-        'position': '北京'
+        'job': 'iOS Developer',
+        'position': 'Beijing, China'
       },
       'Stone': {
         'name': 'Stone',
-        'job': 'iOS开发',
-        'position': '北京'
+        'job': 'iOS Developer',
+        'position': 'Beijing, China'
       },
       'jerry': {
         'name': 'jerry',
-        'job': '后端开发',
-        'position': '北京'
+        'job': 'Back-end Developer',
+        'position': 'Beijing, China'
       },
       'Alex': {
         'name': 'Alex',
-        'job': '后端开发',
-        'position': '北京'
+        'job': 'Back-end Developer',
+        'position': 'Beijing, China'
       },
       'Tuprise': {
         'name': 'Tuprise',
-        'job': '后端开发',
-        'position': '北京'
+        'job': 'Back-end Developer',
+        'position': 'Beijing, China'
       },
       'viteLiz': {
         'name': 'viteLiz',
-        'job': '后端开发',
-        'position': '北京'
+        'job': 'Back-end Developer',
+        'position': 'Beijing, China'
       },
       'Abbott': {
         'name': 'Abbott',
-        'job': '测试',
-        'position': '北京'
+        'job': 'QA',
+        'position': 'Beijing, China'
       },
       'hubery': {
         'name': 'hubery',
-        'job': '后端开发',
-        'position': '北京'
+        'job': 'Back-end Developer',
+        'position': 'Beijing, China'
       },
       'Cecelia': {
         'name': 'Cecelia',
-        'job': '前端开发',
-        'position': '北京'
+        'job': 'Front-end Developer',
+        'position': 'Beijing, China'
       },
       'viteshan': {
         'name': 'viteshan',
-        'job': '后端开发',
-        'position': '北京'
+        'job': 'Back-end Developer',
+        'position': 'Beijing, China'
       },
       'Ada': {
         'name': 'Ada',
-        'job': '研究员',
-        'position': '北京'
+        'job': 'Senior Researcher',
+        'position': 'Beijing, China'
       },
       'Jin': {
         'name': 'Jin',
-        'job': '后端开发',
-        'position': '北京'
+        'job': 'Back-end Developer',
+        'position': 'Beijing, China'
       },
       'Shenyang': {
         'name': 'Shenyang',
-        'job': 'iOS',
-        'position': '北京'
+        'job': 'iOS Developer',
+        'position': 'Beijing, China'
       },
       'Candy': {
         'name': 'Candy',
-        'job': '产品运营',
-        'position': '北京'
+        'job': 'Product Operations Manager',
+        'position': 'Beijing, China'
       },
       'Eric': {
         'name': 'Eric',
-        'job': '架构师',
-        'position': '北京'
+        'job': 'System Architect',
+        'position': 'Beijing, China'
       },
       'Asurily': {
         'name': 'Asurily',
-        'job': '后端开发',
-        'position': '北京'
+        'job': 'Back-end Developer',
+        'position': 'Beijing, China'
       },
       'Cassie': {
         'name': 'Cassie',
-        'job': '产品运营',
-        'position': '北京'
+        'job': 'Product Operations Manager',
+        'position': 'Beijing, China'
       },
       'Reg': {
         'name': 'Reg',
-        'job': '前端开发',
-        'position': '北京'
+        'job': 'Front-end Developer',
+        'position': 'Beijing, China'
       },
       'Daisy': {
         'name': 'Daisy',
-        'job': '前端开发',
-        'position': '北京'
+        'job': 'Front-end Developer',
+        'position': 'Beijing, China'
       },
       'Tiantao': {
         'name': 'Tiantao',
-        'job': '后端开发',
-        'position': '北京'
+        'job': 'Back-end Developer',
+        'position': 'Beijing, China'
       },
       'weichao': {
         'name': 'weichao',
-        'job': '后端开发',
-        'position': '北京'
+        'job': 'Back-end Developer',
+        'position': 'Beijing, China'
       },
       'Zack': {
         'name': 'Zack',
-        'job': '产品负责人',
-        'position': '北京'
+        'job': 'Director of PM',
+        'position': 'Beijing, China'
       },
       'Tina': {
         'name': 'Tina',
-        'job': '前端开发',
-        'position': '北京'
+        'job': 'Front-end Developer',
+        'position': 'Beijing, China'
       },
       'Rod': {
         'name': 'Rod',
-        'job': '工程师',
-        'position': '北京'
+        'job': 'Engineer',
+        'position': 'Beijing, China'
       },
       'Tony': {
         'name': 'Tony',
-        'job': '运营总监',
-        'position': '北京'
+        'job': 'Director of Operations',
+        'position': 'Beijing, China'
       },
       'Flanke': {
         'name': 'Flanke',
-        'job': '产品运营',
-        'position': '北京'
+        'job': 'Product Operations Manager',
+        'position': 'Beijing, China'
       },
       'Erin': {
         'name': 'Erin',
-        'job': '数据运营',
-        'position': '北京'
+        'job': 'Data Operations Manager',
+        'position': 'Beijing, China'
       },
       'Hannah': {
         'name': 'Hannah',
         'job': 'QA',
-        'position': '北京'
+        'position': 'Beijing, China'
       },
       'Miya': {
         'name': 'Miya',
-        'job': 'UI设计',
-        'position': '北京'
+        'job': 'UI Designer',
+        'position': 'Beijing, China'
       }
     }
   },
@@ -757,6 +757,12 @@ module.exports = {
         question: 'On Vite network, users can issue their own currency. Is the function similar to ERC20 token(s) on Ethereum? What advantages does Vite have with their system? What is the address of the VITE ERC20 token?',
         answer: [
           'Vite\'s asset issuance is similar to ERC20, but in other ways it is different. ERC20 is a specification but not part of the Ethereum protocol. The issuance of new tokens with Ethereum requires the user to develop and deploy a smart contract. Token balance is maintained by the state of the contract. If the contract development is flawed, there is a security risk. For example, if a user forgets to refer to the SaftMath library, an overflow may occur. Vite token is built into the Vite protocol. The token balance is maintained in the state of the user\'s account. The new token and the Vite native token share the same underlying protocol thus bringing the same measure of security to the new token and the Vite native token. When a user issues a new token in Vite,  the only thing that needs to be done is initiating a transaction, putting the new token parameters in the transaction data. Our network eliminates the need to write a smart contract and drastically decreases the possibility for bug generation to occur. '
+        ]
+      },
+      {
+        question: 'What is the address of the VITE ERC20 token?',
+        answer: [
+          'Currently, the VITE ERC20 token address hosted on Ethereum\'s platform is https://etherscan.io/token/0x1b793E49237758dBD8b752AFC9Eb4b329d5Da016, when Vite MainNet is launched, all of the ERC20 VITE tokens will be migrated to Vite MainNet tokens at a 1:1 ratio.'
         ]
       },
       {
