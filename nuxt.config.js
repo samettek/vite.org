@@ -77,7 +77,7 @@ whitepaperUrls.forEach(({lang, url}) => {
 
 module.exports = {
   head: {
-    title: 'Vite - Fast, No Fee, Scalability Contract Platform',
+    title: 'A high-performance decentralized ecosystem',
     meta: [
       {charset: 'utf-8'},
       {name: 'viewport', content: 'width=device-width, initial-scale=1'},

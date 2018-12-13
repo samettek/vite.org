@@ -26,17 +26,24 @@ module.exports = {
     exchange: '交易所',
     media: '新闻',
     faq: '问题答疑',
-    about: '关于'
+    about: '关于',
+    superNodes: '超级节点说明',
+    nodeList: '超级节点竞选人',
+    nodeDetail: '超级节点详情',
+    notice: {
+      name: '超级节点',
+      specific: '超级节点说明',
+      apply: '申请超级节点'
+    }
   },
   home: {
     header: 'Vite',
     slogan: '高性能去中心化生态系统',
     whitePaper: '白皮书',
     testnet: '预览版',
-    acttext: '参加活动</br>赢 VITE',
+    acttext: '投票超级节点</br>赢 VITE',
     actwait: '敬请期待',
     news: '最新消息'
-
   },
   about: {
     introduction: '简介',
@@ -703,7 +710,8 @@ module.exports = {
         ]
       },
       {
-        question: 'Vite 会上哪个交易所？',
+
+        question: 'VITE上了哪些交易所？',
         answer: [
           '目前在OKEX可以交易VITE，我们正在接触其他交易所，敬请期待。'
         ]
@@ -754,7 +762,7 @@ module.exports = {
         answer: '是的，跨链只支持价值传输，Vite主要目标并不是解决跨链问题。'
       },
       {
-        question: '白皮书有提到，开发工具和以太的相似，还拓展了一些特性。那是否意味着以太坊的dapp，稍作修改就能在vite上运行？',
+        question: '白皮书有提到，开发工具和以太的相似，还拓展了一些特性。那是否意味着以太坊的dapp，稍作修改就能在Vite上运行？',
         answer: [
           '是的，Vite的设计目标是尽量降低以太坊生态dApp的迁移成本，所以会尽量兼容EVM。'
         ]
@@ -958,7 +966,7 @@ module.exports = {
     safety: { title: '安全性', tags: ['多代币模型', '快照链'] },
     economical: { title: '经济性', tags: ['配额模型', '无手续费', 'Built-in DEX'] },
     easyusing: { title: '易用性', tags: ['Solidity++', '命名服务', '合约调度', '合约升级'] },
-    flexable: { title: '扩展性', tags: ['跨链', 'HDPOS共识', '智能合约'] }
+    flexable: { title: '扩展性', tags: ['跨链', 'HDPoS共识', '智能合约'] }
   },
   eco: {
     worth: {

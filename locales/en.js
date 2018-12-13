@@ -26,16 +26,16 @@ module.exports = {
     exchange: 'EXCHANGE',
     media: 'MEDIA',
     faq: 'FAQ',
-    about: 'ABOUT'
-    // superNodes: 'Guide for SBP (Snapshot Block Producer)',
-    // nodeList: 'SBP Candidates',
+    about: 'ABOUT',
+    superNodes: 'Guide for SBP (Snapshot Block Producer)',
+    nodeList: 'SBP Candidates',
     // nodeDetail: 'SBP Details',
     // careers: 'Careers',
-    // notice: {
-    //   name: 'Super Nodes',
-    //   specific: 'Guide for SBP (Snapshot Block Producer)',
-    //   apply: 'Apply for SBP (Snapshot Block Producer) '
-    // },
+    notice: {
+      name: 'Super Nodes',
+      specific: 'Guide for SBP (Snapshot Block Producer)',
+      apply: 'Apply for SBP (Snapshot Block Producer) '
+    }
     // press: 'Press',
     // media: 'MEDIA',
   },
@@ -49,7 +49,7 @@ module.exports = {
     slogan: 'High-performance decentralized ecosystem',
     whitePaper: 'White Paper',
     testnet: 'TestNet',
-    acttext: 'Join us, </br>collect VITE',
+    acttext: 'Vote for SBPs, </br>collect VITE',
     actwait: 'Stay tuned!',
     news: 'Latest News'
   },
@@ -671,7 +671,7 @@ module.exports = {
         ]
       },
       {
-        question: 'Which exchange(s) will Vite be listed on?',
+        question: 'VITE上了哪些交易所？',
         answer: [
           'Currently we have launched on OKEX exchange, we are also in contact with other exchanges. Stay tuned.'
         ]
