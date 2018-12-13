@@ -46,6 +46,7 @@ export default {
   margin-top: 240px;
   overflow-x: auto;
   flex-direction: column;
+  font-family: $font-family-title;
 }
 .eco {
   @include mobile {
@@ -57,18 +58,17 @@ export default {
   flex-direction: column;
   min-width: 1052px;
   margin: 0 auto;
-  font-family: $font-family-title;
   .dapps-container {
     margin-top: 60px;
   }
 }
-.eco-title{
+.eco-title {
   color: #171c34;
   font-size: 44px;
   text-align: center;
   width: 100%;
 }
-.eco-title2{
+.eco-title2 {
   text-align: center;
   width: 100%;
   margin-bottom: 60px;
