@@ -1,6 +1,7 @@
 <template>
   <div class="scroll-container">
     <div class="eco-title">{{$t('ecoTitle')}}</div>
+    <div class="eco-title2">{{$t('ecoTitle2')}}</div>
     <div class="eco">
       <div>
         <div class="eco-sub-title">
@@ -61,9 +62,13 @@ export default {
     margin-top: 60px;
   }
 }
-.eco-title {
+.eco-title{
   color: #171c34;
   font-size: 44px;
+  text-align: center;
+  width: 100%;
+}
+.eco-title2{
   text-align: center;
   width: 100%;
   margin-bottom: 60px;

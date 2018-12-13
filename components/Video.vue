@@ -6,7 +6,8 @@
 </template>
 
 <script type="text/babel">
-import player from "./play"
+import player from "./play";
+import config from "~/config";
 export default {
   components: {
   },
@@ -16,7 +17,7 @@ export default {
   },
   methods: {
       play(){
-          player({src:""})
+          player({src:config.urls.video.home[this.$i18n.locale]})
       }
   }
 }

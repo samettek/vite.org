@@ -18,7 +18,7 @@
           </div>
           <div class="news-more">
             <a
-              href="https://medium.com/vitelabs"
+              :href="$i18n.locale==='zh'?'https://forum.vite.net':'https://medium.com/vitelabs'"
               target="_blank"
               class="more"
             >MORE</a><img

@@ -1,6 +1,7 @@
 <template>
   <div class="scroll-container">
     <div class="feature-title">{{$t('featureTitle')}}</div>
+    <div class="feature-title2">{{$t('featureTitle2')}}</div>
     <div class="features">
       <!-- 1 -->
       <div class="item">
@@ -273,11 +274,17 @@ export default {
   width: 100%;
   overflow-x: auto;
   margin-top: 125px;
+  display: flex;
+  flex-direction: column;
 
   .feature-title {
     color: #171c34;
     font-size: 44px;
     text-align: center;
+  }
+  .feature-title2 {
+    text-align: center;
+    width: 100%;
     margin-bottom: 60px;
   }
 }

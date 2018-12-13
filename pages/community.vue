@@ -36,6 +36,7 @@
   import CommunityCard from '~/components/CommunityCard'
   import CommunityLink from '~/components/CommunityLink'
   import player from '~/components/play'
+  import config from "~/config";
 
   export default {
     components: {
@@ -44,7 +45,7 @@
     },
     methods:{
         play(){
-            player({src:"sffa"})
+            player({src:config.urls.video.loves[this.$i18n.locale]})
         }
     },
     data: function () {
@@ -73,7 +74,11 @@
         }, {
           img: require('~/assets/images/community/youtubeblue.svg'),
           links: ['https://www.youtube.com/channel/UC8qft2rEzBnP9yJOGdsJBVg']
-        }, {
+        }, 
+        {
+          img: require('~/assets/images/community/forum.svg'),
+          links: ['https://forum.vite.net/']
+        },{
           img: require('~/assets/images/community/wechatblue.svg'),
           key: 'pic',
           pic: require('~/assets/images/vitelabs_wechat.jpg')

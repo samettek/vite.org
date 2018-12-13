@@ -52,6 +52,12 @@
             <div class="nav-item">
               <voteNotice></voteNotice>
             </div>
+              <nuxt-link
+                :to="localePath('partnership')"
+                class="nav-item text-hover-transition"
+              >
+                {{$t('nav.partnership')}}
+              </nuxt-link>
             <div class="nav-item">
               <Media></Media>
             </div>
@@ -182,7 +188,7 @@ export default {
   data: function() {
     return {
       navbarActive: false,
-      navs: ["team", "partnership", "community"],
+      navs: ["team", "community"],
       collapsing: false,
       urls: config.urls
     };

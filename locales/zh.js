@@ -958,7 +958,8 @@ module.exports = {
     button: '订阅',
     placeholder: '请输入邮箱地址'
   },
-  featureTitle: 'Vite 特性',
+  featureTitle: 'Vite特性',
+  featureTitle2: '为什么Vite性能优越？',
   features: {
     performance: { title: '高性能', tags: ['DAG账本', '异步架构'] },
     safety: { title: '安全性', tags: ['多代币模型', '快照链'] },
@@ -966,6 +967,8 @@ module.exports = {
     easyusing: { title: '易用性', tags: ['Solidity++', '命名服务', '合约调度', '合约升级'] },
     flexable: { title: '扩展性', tags: ['跨链', 'HDPoS共识', '智能合约'] }
   },
+  ecoTitle: 'Vite生态',
+  ecoTitle2: '在Vite上可以做什么？',
   eco: {
     worth: {
       title: '价值',

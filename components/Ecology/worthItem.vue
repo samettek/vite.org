@@ -43,6 +43,7 @@ export default {
         }
     }
     .worth-item-child{
+        text-align: center;
         display:flex;
         margin-left: 80px;
         color:#919AA3;

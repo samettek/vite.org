@@ -27,6 +27,14 @@
                     class="nav-item"
                     :is-footer="true"
                   ></voteNotice>
+                <div class="nav-item">
+                    <nuxt-link
+                      :to="localePath('partnership')"
+                      class="text-hover-transition"
+                    >
+                      {{$t('nav.partnership')}}
+                    </nuxt-link>
+                  </div>
                   <Media
                     class="nav-item"
                     :is-footer="true"
@@ -150,7 +158,7 @@ export default {
       learnList: ["whitePaper", "document", "introduction"],
       mediumList: ["medium", "btt", "blog"],
       urlShouldTranslate: ["whitePaper", "telegram", "introduction"],
-      navs: ["team", "partnership", "community"]
+      navs: ["team","community"]
     };
   },
   methods: {

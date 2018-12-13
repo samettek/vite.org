@@ -4,20 +4,18 @@
     class="tag"
   >
     <div class="hover-img">
-      <transition name="fade">
+      <img
+        :src="iconMap[tagKey][index]"
+        v-if="typeof iconMap[tagKey][index]==='string'"
+        class="image"
+      >
+      <div v-else>
         <img
-          :src="iconMap[tagKey][index]"
-          v-if="typeof iconMap[tagKey][index]==='string'"
-          class="image"
+          :src="i"
+          v-for="(i,j) in iconMap[tagKey][index]"
+          :key="j"
         >
-        <div v-else>
-          <img
-            :src="i"
-            v-for="(i,j) in iconMap[tagKey][index]"
-            :key="j"
-          >
-        </div>
-      </transition>
+      </div>
     </div>
     {{$t(`features.${tagKey}.tags[${index}]`)}}
   </div>
@@ -73,6 +71,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 .tag {
+  text-align: center;
   position: absolute;
   width: 140px;
   height: 60px;
@@ -82,16 +81,16 @@ export default {
   cursor: pointer;
   &:hover {
     .hover-img {
-      visibility:visible;
-       opacity:1;
+      visibility: visible;
+      opacity: 1;
     }
   }
   .hover-img {
     position: absolute;
-    visibility:hidden;
+    visibility: hidden;
     background: #fff;
     transition: all linear 0.3s;
-     opacity:0;
+    opacity: 0;
     top: -50%;
     width: 300px;
     height: 400px;

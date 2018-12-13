@@ -818,15 +818,18 @@ module.exports = {
     button: 'Subscribe',
     placeholder: 'Email Address'
   },
-  featureTitle: 'Why does Vite stand out',
+
+  featureTitle: 'Vite特性',
+  featureTitle2: 'Why does Vite stand out?',
   features: {
-    performance: {title: 'High Performance', tags: ['DAG Ledger', 'Asynchronous Architecture']},
-    safety: {title: 'Secure', tags: ['Multi-Token Model', 'Snapshot Chain']},
-    economical: {title: 'Economy', tags: ['Quota-based Model', 'Feeless-ness', 'Built-in DEX']},
-    easyusing: {title: 'Usability', tags: ['Solidity++', 'Naming Service', 'Contract Scheduling', 'Contract Upgrades']},
-    flexable: {title: 'Scalability', tags: ['Cross-Chain Gateway', 'HDPoS Consensus', 'Smart Contract']}
+    performance: { title: 'High Performance', tags: ['DAG Ledger', 'Asynchronous Architecture'] },
+    safety: { title: 'Secure', tags: ['Multi-Token Model', 'Snapshot Chain'] },
+    economical: { title: 'Economy', tags: ['Quota-based Model', 'Feeless-ness', 'Built-in DEX'] },
+    easyusing: { title: 'Usability', tags: ['Solidity++', 'Naming Service', 'Contract Scheduling', 'Contract Upgrades'] },
+    flexable: { title: 'Scalability', tags: ['Cross-Chain Gateway', 'HDPoS Consensus', 'Smart Contract'] }
   },
-  ecoTitle: 'What can Vite do',
+  ecoTitle: 'Vite生态',
+  ecoTitle2: '在Vite上可以做什么？',
   eco: {
     worth: {
       title: 'Values',

@@ -38,6 +38,7 @@ export default {
   display: flex;
   justify-content: space-between;
   .items {
+    text-align: center;
     width: 120px;
     height: 180px;
     background: #f7fcff;
