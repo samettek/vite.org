@@ -35,7 +35,6 @@
         <div
           class="navbar-menu"
           :class="{ 'is-active': navbarActive, collapsing: collapsing }"
-
         >
           <div
             ref="navbarStart"
@@ -50,6 +49,9 @@
             >
               {{$t(`nav.${item}`)}}
             </nuxt-link>
+            <div class="nav-item">
+              <voteNotice></voteNotice>
+            </div>
             <div class="nav-item">
               <Media></Media>
             </div>
@@ -81,7 +83,10 @@
     </div>
     <div class="container is-hidden-mobile">
       <div class="img-text">
-        <div class="act" v-html="$t('home.acttext')"></div>
+        <div
+          class="act"
+          v-html="$t('home.acttext')"
+        ></div>
         <div class="act-wait">{{$t('home.actwait')}}</div>
         <div><img src="~assets/images/tail-right.svg" /></div>
       </div>
@@ -251,7 +256,7 @@ export default {
 .img-text {
   .act-wait {
     display: none;
-    margin-top:20px;
+    margin-top: 20px;
   }
   &:hover {
     .act {

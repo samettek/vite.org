@@ -26,16 +26,16 @@ module.exports = {
     exchange: 'EXCHANGE',
     media: 'MEDIA',
     faq: 'FAQ',
-    about: 'ABOUT'
-    // superNodes: 'Guide for SBP (Snapshot Block Producer)',
-    // nodeList: 'SBP Candidates',
+    about: 'ABOUT',
+    superNodes: 'Guide for SBP (Snapshot Block Producer)',
+    nodeList: 'SBP Candidates',
     // nodeDetail: 'SBP Details',
     // careers: 'Careers',
-    // notice: {
-    //   name: 'Super Nodes',
-    //   specific: 'Guide for SBP (Snapshot Block Producer)',
-    //   apply: 'Apply for SBP (Snapshot Block Producer) '
-    // },
+    notice: {
+      name: 'Super Nodes',
+      specific: 'Guide for SBP (Snapshot Block Producer)',
+      apply: 'Apply for SBP (Snapshot Block Producer) '
+    }
     // press: 'Press',
     // media: 'MEDIA',
   },
