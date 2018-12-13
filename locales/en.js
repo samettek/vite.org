@@ -49,7 +49,9 @@ module.exports = {
     slogan: 'High-performance decentralized ecosystem',
     whitePaper: 'White Paper',
     testnet: 'TestNet',
-    acttext: '投票超级节点</br>赢VITE'
+    acttext: 'Vote for SBPs, </br>collect VITE',
+    actwait: 'Stay tuned!',
+    news: 'Latest News'
   },
   roadmap: {
     title: 'Roadmap',
@@ -778,7 +780,7 @@ module.exports = {
       russia: 'Russia',
       thailand: 'Thailand'
     },
-    whitePaper: 'White Paper',
+    whitePaper: 'WHITEPAPER',
     whitePaperList: {
       english: 'English',
       chinese: 'Chinese',

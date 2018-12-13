@@ -41,7 +41,9 @@ module.exports = {
     slogan: '高性能去中心化生态系统',
     whitePaper: '白皮书',
     testnet: '预览版',
-    acttext: '投票超级节点</br>赢VITE'
+    acttext: '投票超级节点</br>赢 VITE',
+    actwait: '敬请期待',
+    news: '最新消息'
   },
   about: {
     introduction: '简介',
