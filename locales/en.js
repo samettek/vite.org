@@ -389,16 +389,180 @@ module.exports = {
         position: '',
         description: 'VP Strategy and Investor Relations of LegalThings One. Co-founder of Distributed.Fund and Distributed Alliance. Former CMO of ICODrops.'
       },
-      zhoudan: {
-        name: 'ZHOU DAN',
-        position: 'BEIJING',
-        description: 'hhhhhhhhhhhh',
-        job: '前端开发工程师'
-      },
       leo: {
         name: 'Leo',
         position: '',
         description: 'Seasoned blockchain investor and senior technical expert. Previously led engineering efforts at Meituan and Coinport.'
+      },
+      'Chris Li': {
+        'name': 'Chris Li',
+        'job': '业务拓展总监',
+        'position': '美国'
+      },
+      'Luke Kim': {
+        'name': 'Luke Kim',
+        'job': 'CMO',
+        'position': '美国'
+      },
+      'Jeff Ng': {
+        'name': 'Jeff Ng',
+        'job': '社区项目经理',
+        'position': '美国'
+      },
+      'Agata Aks': {
+        'name': 'Agata Aks',
+        'job': '创意市场/业务运营助理',
+        'position': '美国'
+      },
+      'Lola': {
+        'name': 'Lola',
+        'job': '产品经理',
+        'position': '北京'
+      },
+      'Logan': {
+        'name': 'Logan',
+        'job': 'iOS开发',
+        'position': '北京'
+      },
+      'Stone': {
+        'name': 'Stone',
+        'job': 'iOS开发',
+        'position': '北京'
+      },
+      'jerry': {
+        'name': 'jerry',
+        'job': '后端开发',
+        'position': '北京'
+      },
+      'Alex': {
+        'name': 'Alex',
+        'job': '后端开发',
+        'position': '北京'
+      },
+      'Tuprise': {
+        'name': 'Tuprise',
+        'job': '后端开发',
+        'position': '北京'
+      },
+      'viteLiz': {
+        'name': 'viteLiz',
+        'job': '后端开发',
+        'position': '北京'
+      },
+      'Abbott': {
+        'name': 'Abbott',
+        'job': '测试',
+        'position': '北京'
+      },
+      'hubery': {
+        'name': 'hubery',
+        'job': '后端开发',
+        'position': '北京'
+      },
+      'Cecelia': {
+        'name': 'Cecelia',
+        'job': '前端开发',
+        'position': '北京'
+      },
+      'viteshan': {
+        'name': 'viteshan',
+        'job': '后端开发',
+        'position': '北京'
+      },
+      'Ada': {
+        'name': 'Ada',
+        'job': '研究员',
+        'position': '北京'
+      },
+      'Jin': {
+        'name': 'Jin',
+        'job': '后端开发',
+        'position': '北京'
+      },
+      'Shenyang': {
+        'name': 'Shenyang',
+        'job': 'iOS',
+        'position': '北京'
+      },
+      'Candy': {
+        'name': 'Candy',
+        'job': '产品运营',
+        'position': '北京'
+      },
+      'Eric': {
+        'name': 'Eric',
+        'job': '架构师',
+        'position': '北京'
+      },
+      'Asurily': {
+        'name': 'Asurily',
+        'job': '后端开发',
+        'position': '北京'
+      },
+      'Cassie': {
+        'name': 'Cassie',
+        'job': '产品运营',
+        'position': '北京'
+      },
+      'Reg': {
+        'name': 'Reg',
+        'job': '前端开发',
+        'position': '北京'
+      },
+      'Daisy': {
+        'name': 'Daisy',
+        'job': '前端开发',
+        'position': '北京'
+      },
+      'Tiantao': {
+        'name': 'Tiantao',
+        'job': '后端开发',
+        'position': '北京'
+      },
+      'weichao': {
+        'name': 'weichao',
+        'job': '后端开发',
+        'position': '北京'
+      },
+      'Zack': {
+        'name': 'Zack',
+        'job': '产品负责人',
+        'position': '北京'
+      },
+      'Tina': {
+        'name': 'Tina',
+        'job': '前端开发',
+        'position': '北京'
+      },
+      'Rod': {
+        'name': 'Rod',
+        'job': '工程师',
+        'position': '北京'
+      },
+      'Tony': {
+        'name': 'Tony',
+        'job': '运营总监',
+        'position': '北京'
+      },
+      'Flanke': {
+        'name': 'Flanke',
+        'job': '产品运营',
+        'position': '北京'
+      },
+      'Erin': {
+        'name': 'Erin',
+        'job': '数据运营',
+        'position': '北京'
+      },
+      'Hannah': {
+        'name': 'Hannah',
+        'job': 'QA',
+        'position': '北京'
+      },
+      'Miya': {
+        'name': 'Miya',
+        'job': 'UI设计',
+        'position': '北京'
       }
     }
   },
