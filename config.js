@@ -10,9 +10,16 @@ module.exports = {
     medium: 'https://medium.com/vitelabs',
     tokenUrl: 'https://etherscan.io/token/0x1b793E49237758dBD8b752AFC9Eb4b329d5Da016',
     btt: 'https://bitcointalk.org/index.php?topic=4438416',
-    blog: 'https://vite.blog/',
     youtube: 'https://www.youtube.com/channel/UC8qft2rEzBnP9yJOGdsJBVg',
     testnet: 'https://vite.net',
+    introduction: {
+      en: 'https://vite.wiki/introduction/',
+      zh: 'https://vite.wiki/zh/introduction/'
+    },
+    blog: {
+      en: 'https://vite.blog/',
+      zh: 'https://vite.blog/zh-cn/'
+    },
     telegram: {
       ann: 'https://t.me/vite_ann',
       english: 'https://t.me/vite_en',
@@ -35,8 +42,7 @@ module.exports = {
     },
     media: {
       medium: 'https://medium.com/vitelabs',
-      bitcointalk: 'https://bitcointalk.org/index.php?topic=4438416',
-      blog: 'https://vite.blog/'
+      bitcointalk: 'https://bitcointalk.org/index.php?topic=4438416'
     },
     vote: {
       specific: {

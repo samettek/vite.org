@@ -37,8 +37,8 @@ export default {
 computed:{
     url(){
         return {
-            introduction:"",
-            blog:""
+            introduction:config.urls.introduction[this.$i18n.locale],
+            blog:config.urls.blog[this.$i18n.locale]
         }
     }
 }
