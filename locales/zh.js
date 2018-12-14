@@ -378,6 +378,7 @@ module.exports = {
   'team': {
     'core': '团队',
     'advisor': '顾问团队',
+    'join': '加入我们',
     'nameMap': {
       'liuchunming': {
         'name': '刘春明',
@@ -1010,7 +1011,7 @@ module.exports = {
   features: {
     performance: { title: '高性能', tags: ['DAG账本', '异步架构'] },
     safety: { title: '安全性', tags: ['多代币模型', '快照链'] },
-    economical: { title: '经济性', tags: ['配额模型', '无手续费', 'Built-in DEX'] },
+    economical: { title: '经济性', tags: ['配额模型', '无手续费', '内置 DEX'] },
     easyusing: { title: '易用性', tags: ['Solidity++', '命名服务', '合约调度', '合约升级'] },
     flexable: { title: '扩展性', tags: ['跨链', 'HDPoS共识', '智能合约'] }
   },

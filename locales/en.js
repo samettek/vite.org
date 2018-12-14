@@ -344,6 +344,7 @@ module.exports = {
   team: {
     'core': 'Team',
     'advisor': 'Advisors',
+    'join': '加入我们',
     'nameMap': {
       'liuchunming': {
         'name': 'Charles',
