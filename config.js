@@ -6,7 +6,7 @@ module.exports = {
         en: 'https://hidden-peak-43038.herokuapp.com/https://medium.com/feed/vitelabs'
       },
       home: {
-        zh: 'https://forum.vite.net',
+        zh: 'https://forum.vite.net/category/18/%E5%85%AC%E5%91%8A',
         en: 'https://medium.com/vitelabs'
       }
     },
