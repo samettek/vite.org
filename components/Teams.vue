@@ -4,9 +4,10 @@
       <h1>{{$t('team.core')}}</h1>
       <div class="columns is-multiline">
         <div
-          class="column item is-3-widescreen is-6-tablet is-12-mobile"
-          v-for="item in teams"
+          class="column item is-4-widescreen is-6-tablet is-12-mobile"
+          v-for="(item,i) in teams"
           :key="item.key"
+          :style="{'margin-right':i===4?'100px':'0'}"
         >
           <div class="is-info">
             <team-image
@@ -17,7 +18,7 @@
           </div>
         </div>
       </div>
-      <h1>顾问</h1>
+      <h1>{{$t('team.advisor')}}</h1>
       <div class="columns is-multiline is-center">
         <div
           class="column item is-4-widescreen is-6-tablet is-12-mobile"
@@ -35,7 +36,7 @@
         </div>
       </div>
       <mailto-btn
-        :text="'加入我们'"
+        :text="$t('team.join')"
         :href="`mailto:hr@vite.org`"
       ></mailto-btn>
     </div>

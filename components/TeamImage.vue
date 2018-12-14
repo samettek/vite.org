@@ -133,7 +133,7 @@
 
     .team-no-img {
       margin-top: 10px;
-      height: 144px;
+      min-height: 144px;
     }
   }
 </style>
