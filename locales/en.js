@@ -562,12 +562,14 @@ module.exports = {
       'Hannah': {
         'name': 'Hannah',
         'job': 'QA',
-        'position': 'Beijing, China'
+        'position': 'Beijing, China',
+        description: '2 years of experience in testing development, participated in designing of testing frameworks. 2 years of experience in back-end storage testing development, experience in gluster distributed storage technology. formerly cooperated with military related enterprise, experience in data security and encrypted storage fields.'
       },
       'Miya': {
         'name': 'Miya',
         'job': 'UI Designer',
-        'position': 'Beijing, China'
+        'position': 'Beijing, China',
+        description: ' 3 years of experience in UI design, participated in several internet-related industrial projects. Previously worked in large state-owed enterprise, served as a major designer of multiple national projects.'
       }
     }
   },
