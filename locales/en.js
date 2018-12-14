@@ -1,7 +1,7 @@
 module.exports = {
   lang: 'English',
   head: {
-    title: 'Vite - High-performance decentralized ecosystem',
+    title: 'Vite - High-performance Decentralized Ecosystem',
     document: 'Document',
     description: {
       index: 'Vite - High-performance decentralized ecosystem',
@@ -32,7 +32,7 @@ module.exports = {
     // nodeDetail: 'SBP Details',
     // careers: 'Careers',
     notice: {
-      name: 'Super Nodes',
+      name: 'SUPER NODES',
       specific: 'Guide for SBP (Snapshot Block Producer)',
       apply: 'Apply for SBP (Snapshot Block Producer) '
     }
@@ -397,173 +397,173 @@ module.exports = {
       },
       'Chris Li': {
         'name': 'Chris Li',
-        'job': '业务拓展总监',
-        'position': '美国'
+        'job': 'Director of BD',
+        'position': 'Silicon Valley, United States'
       },
       'Luke Kim': {
         'name': 'Luke Kim',
         'job': 'CMO',
-        'position': '美国'
+        'position': 'Silicon Valley, United States'
       },
       'Jeff Ng': {
         'name': 'Jeff Ng',
-        'job': '社区项目经理',
-        'position': '美国'
+        'job': 'Project Manager',
+        'position': 'Silicon Valley, United States'
       },
       'Agata Aks': {
         'name': 'Agata Aks',
-        'job': '创意市场/业务运营助理',
-        'position': '美国'
+        'job': 'Creative Marketing / Business Operations Associate',
+        'position': 'Silicon Valley, United States'
       },
       'Lola': {
         'name': 'Lola',
-        'job': '产品经理',
-        'position': '北京'
+        'job': 'Product Manager',
+        'position': 'Beijing, China'
       },
       'Logan': {
         'name': 'Logan',
-        'job': 'iOS开发',
-        'position': '北京'
+        'job': 'iOS Developer',
+        'position': 'Beijing, China'
       },
       'Stone': {
         'name': 'Stone',
-        'job': 'iOS开发',
-        'position': '北京'
+        'job': 'iOS Developer',
+        'position': 'Beijing, China'
       },
       'jerry': {
         'name': 'jerry',
-        'job': '后端开发',
-        'position': '北京'
+        'job': 'Back-end Developer',
+        'position': 'Beijing, China'
       },
       'Alex': {
         'name': 'Alex',
-        'job': '后端开发',
-        'position': '北京'
+        'job': 'Back-end Developer',
+        'position': 'Beijing, China'
       },
       'Tuprise': {
         'name': 'Tuprise',
-        'job': '后端开发',
-        'position': '北京'
+        'job': 'Back-end Developer',
+        'position': 'Beijing, China'
       },
       'viteLiz': {
         'name': 'viteLiz',
-        'job': '后端开发',
-        'position': '北京'
+        'job': 'Back-end Developer',
+        'position': 'Beijing, China'
       },
       'Abbott': {
         'name': 'Abbott',
-        'job': '测试',
-        'position': '北京'
+        'job': 'QA',
+        'position': 'Beijing, China'
       },
       'hubery': {
         'name': 'hubery',
-        'job': '后端开发',
-        'position': '北京'
+        'job': 'Back-end Developer',
+        'position': 'Beijing, China'
       },
       'Cecelia': {
         'name': 'Cecelia',
-        'job': '前端开发',
-        'position': '北京'
+        'job': 'Front-end Developer',
+        'position': 'Beijing, China'
       },
       'viteshan': {
         'name': 'viteshan',
-        'job': '后端开发',
-        'position': '北京'
+        'job': 'Back-end Developer',
+        'position': 'Beijing, China'
       },
       'Ada': {
         'name': 'Ada',
-        'job': '研究员',
-        'position': '北京'
+        'job': 'Senior Researcher',
+        'position': 'Beijing, China'
       },
       'Jin': {
         'name': 'Jin',
-        'job': '后端开发',
-        'position': '北京'
+        'job': 'Back-end Developer',
+        'position': 'Beijing, China'
       },
       'Shenyang': {
         'name': 'Shenyang',
-        'job': 'iOS',
-        'position': '北京'
+        'job': 'iOS Developer',
+        'position': 'Beijing, China'
       },
       'Candy': {
         'name': 'Candy',
-        'job': '产品运营',
-        'position': '北京'
+        'job': 'Product Operations Manager',
+        'position': 'Beijing, China'
       },
       'Eric': {
         'name': 'Eric',
-        'job': '架构师',
-        'position': '北京'
+        'job': 'System Architect',
+        'position': 'Beijing, China'
       },
       'Asurily': {
         'name': 'Asurily',
-        'job': '后端开发',
-        'position': '北京'
+        'job': 'Back-end Developer',
+        'position': 'Beijing, China'
       },
       'Cassie': {
         'name': 'Cassie',
-        'job': '产品运营',
-        'position': '北京'
+        'job': 'Product Operations Manager',
+        'position': 'Beijing, China'
       },
       'Reg': {
         'name': 'Reg',
-        'job': '前端开发',
-        'position': '北京'
+        'job': 'Front-end Developer',
+        'position': 'Beijing, China'
       },
       'Daisy': {
         'name': 'Daisy',
-        'job': '前端开发',
-        'position': '北京'
+        'job': 'Front-end Developer',
+        'position': 'Beijing, China'
       },
       'Tiantao': {
         'name': 'Tiantao',
-        'job': '后端开发',
-        'position': '北京'
+        'job': 'Back-end Developer',
+        'position': 'Beijing, China'
       },
       'weichao': {
         'name': 'weichao',
-        'job': '后端开发',
-        'position': '北京'
+        'job': 'System Architect',
+        'position': 'Beijing, China'
       },
       'Zack': {
         'name': 'Zack',
-        'job': '产品负责人',
-        'position': '北京'
+        'job': 'Director of PM',
+        'position': 'Beijing, China'
       },
       'Tina': {
         'name': 'Tina',
-        'job': '前端开发',
-        'position': '北京'
+        'job': 'Front-end Developer',
+        'position': 'Beijing, China'
       },
       'Rod': {
         'name': 'Rod',
-        'job': '工程师',
-        'position': '北京'
+        'job': 'Engineer',
+        'position': 'Beijing, China'
       },
       'Tony': {
         'name': 'Tony',
-        'job': '运营总监',
-        'position': '北京'
+        'job': 'Director of Operations',
+        'position': 'Beijing, China'
       },
       'Flanke': {
         'name': 'Flanke',
-        'job': '产品运营',
-        'position': '北京'
+        'job': 'Product Operations Manager',
+        'position': 'Beijing, China'
       },
       'Erin': {
         'name': 'Erin',
-        'job': '数据运营',
-        'position': '北京'
+        'job': 'Data Operations Manager',
+        'position': 'Beijing, China'
       },
       'Hannah': {
         'name': 'Hannah',
         'job': 'QA',
-        'position': '北京'
+        'position': 'Beijing, China'
       },
       'Miya': {
         'name': 'Miya',
-        'job': 'UI设计',
-        'position': '北京'
+        'job': 'UI Designer',
+        'position': 'Beijing, China'
       }
     }
   },
@@ -646,7 +646,7 @@ module.exports = {
       'question': 'Incentive Plan',
       'answer': [
         '1. Forging SBPs in TestNet stage will share annual forging rewards, equivalent to 3% of the total issued token amount. This translates to 30 million VITE (3% of the current total supply of 1 billion VITE). ',
-        "2. supernode rewards are divided into two parts: 50% for creating blocks and 50% for voting. Among the 30 million token rewards per year, 15 million are awarded to the supernodes that create blocks, and 15 million are awarded to the supernodes that were elected by the community (in TestNet stage, this will be the top 100 supernodes).<br/>If a supernode were to keep mining for one year, it could get 600,000 VITE from the block creation reward ((30 million / 25 nodes) * 50%), plus the reward from voting.<br/> Voting reward calculation: according to the supernode's stake and voting ratio, (the node staking tokens + voting) / (all supernode staking tokens + all voting) * (voting reward). Each round will be 75 seconds. The daily sum would be multiplied by the block rate.<br/>A single supernode daily reward would be: 1,643.835 VITEs of blocks creation rewards, plus additional staking/voting rewards",
+        "2. Supernode rewards are divided into two parts: 50% for creating blocks and 50% for voting. Among the 30 million token rewards per year, 15 million are awarded to the supernodes that create blocks, and 15 million are awarded to the supernodes that were elected by the community (in TestNet stage, this will be the top 100 supernodes).<br/>If a supernode were to keep mining for one year, it could get 600,000 VITE from the block creation reward ((30 million / 25 nodes) * 50%), plus the reward from voting.<br/> Voting reward calculation: according to the supernode's stake and voting ratio, (the node staking tokens + voting) / (all supernode staking tokens + all voting) * (voting reward). Each round will be 75 seconds. The daily sum would be multiplied by the block rate.<br/>A single supernode daily reward would be: 1,643.835 VITEs of blocks creation rewards, plus additional staking/voting rewards",
         '3. There are many Airdrop plans and rewards for the TestNet stage. We will increase the number of tokens issued to reward SBPs after the MainNet is launched.',
         '4. Reward Extraction, Only the rewards from the previous day can be extracted.'
       ]
@@ -671,7 +671,7 @@ module.exports = {
         ]
       },
       {
-        question: 'VITE上了哪些交易所？',
+        question: 'Which exchange(s) will Vite be listed on?',
         answer: [
           'Currently we have launched on OKEX exchange, we are also in contact with other exchanges. Stay tuned.'
         ]
@@ -738,7 +738,7 @@ module.exports = {
       {
         question: 'The smart contract language used on Ethereum\'s platform is Solidity. A notable benefit of Solidity is its beginner-friendly nature, however a critical downside is its susceptibility to hackers\' attacks. What solution does Vite have for this problem? ',
         answer: [
-          'Vite proposes a solution to the problem of smart contract vulnerability by introducing contract formal verification technology.'
+          'Vite has taken Solidity\'s problems into account and has adopted countermeasures when designing smart contracts. These operational improvements are seen within our Solidity++ language. One of those improvements, for example, would be the incorporation of a series of standard libraries. This serves a dual purpose of increasing security protection while simplifying programming complexity. Because Solidity++ inter-contract calls rely on asynchronous architecture, the attacks facilitated by contract synchronous calls are inherently prevented. The classic Ethereum example of a "reentrancy attack" scenario is not applicable in Vite\'s case. Vite will implement contractual formal verification technology to tackle smart contract development and we are considering offering a smart contract solution based on WASM. In short, we present users with a variety of solution-based options. '
         ]
       },
       {
@@ -756,7 +756,13 @@ module.exports = {
       {
         question: 'On Vite network, users can issue their own currency. Is the function similar to ERC20 token(s) on Ethereum? What advantages does Vite have with their system? What is the address of the VITE ERC20 token?',
         answer: [
-          'Vite\'s asset issuance is similar to ERC20, but in other ways it is different. ERC20 is a specification but not part of the Ethereum protocol. The issuance of new tokens with Ethereum requires the user to develop and deploy a smart contract. Token balance is maintained by the state of the contract. If the contract development is flawed, there is a security risk. For example, if a user forgets to refer to the SaftMath library, an overflow may occur. Vite token is built into the Vite protocol. The token balance is maintained in the state of the user\'s account. The new token and the Vite native token share the same underlying protocol thus bringing the same measure of security to the new token and the Vite native token. When a user issues a new token in Vite,  the only thing that needs to be done is initiating a transaction, putting the new token parameters in the transaction data. Our network eliminates the need to write a smart contract and drastically decreases the possibility for bug generation to occur. '
+          'Vite\'s asset issuance is similar to ERC20, but in other ways it is different. ERC20 is a specification, but not a part of the Ethereum protocol. The issuance of new tokens with Ethereum requires the user to develop and deploy a smart contract. Token balance is maintained by the state of the contract. If contract development is flawed, security risks surface. For example, if a user forgets to refer to the SaftMath library, an overflow may occur. Vite token is built into the Vite protocol. The token balance is maintained in the state of the user\'s account. The new token and the Vite native token share the same underlying protocol thus bringing the same measure of security to the new token and native token. When a user decides to issue a new token in Vite, all they need to do is initiate a transaction. The transaction then puts the new token parameters in the transaction data. The fact that our network does not require smart contract writing inherently leaves less room for bug generation to occur.'
+        ]
+      },
+      {
+        question: 'What is the address of the VITE ERC20 token?',
+        answer: [
+          'Currently, the VITE ERC20 token address hosted on Ethereum\'s platform is https://etherscan.io/token/0x1b793E49237758dBD8b752AFC9Eb4b329d5Da016, when Vite MainNet is launched, all of the ERC20 VITE tokens will be migrated to Vite MainNet tokens at a 1:1 ratio.'
         ]
       },
       {
@@ -821,7 +827,7 @@ module.exports = {
     placeholder: 'Email Address'
   },
 
-  featureTitle: 'Vite特性',
+  featureTitle: 'Technical Characteristics of Vite',
   featureTitle2: 'Why does Vite stand out?',
   features: {
     performance: { title: 'High Performance', tags: ['DAG Ledger', 'Asynchronous Architecture'] },
@@ -830,8 +836,8 @@ module.exports = {
     easyusing: { title: 'Usability', tags: ['Solidity++', 'Naming Service', 'Contract Scheduling', 'Contract Upgrades'] },
     flexable: { title: 'Scalability', tags: ['Cross-Chain Gateway', 'HDPoS Consensus', 'Smart Contract'] }
   },
-  ecoTitle: 'Vite生态',
-  ecoTitle2: '在Vite上可以做什么？',
+  ecoTitle: 'Vite Ecosystem',
+  ecoTitle2: 'What can be done on Vite?',
   eco: {
     worth: {
       title: 'Values',
