@@ -20,7 +20,7 @@
       <h1>顾问</h1>
       <div class="columns is-multiline is-center">
         <div
-          class="column item is-3-widescreen is-6-tablet is-12-mobile"
+          class="column item is-4-widescreen is-6-tablet is-12-mobile"
           v-for="item in advisors"
           :key="item.key"
         >

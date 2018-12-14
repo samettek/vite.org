@@ -129,7 +129,6 @@ export default {
         }
       }
     }
-    .news {
       margin-left: 13px;
       margin-top: 21px;
       width: 100%;
@@ -176,7 +175,7 @@ export default {
           cursor: pointer;
         }
       }
-    }
+    
   }
   }
 </style>

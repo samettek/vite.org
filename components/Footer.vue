@@ -1,7 +1,7 @@
 <template>
   <section>
     <footer class="footer">
-      <div class="container">
+      <div clss="ft-container">
         <div class="is-flex whole-footer">
           <div class="icon-wrapper is-one-third is-hidden-touch">
             <logo-without-words></logo-without-words>
@@ -22,42 +22,41 @@
                     {{$t(`nav.${item}`)}}
                   </nuxt-link>
                 </div>
-                <div class="is-flex">
-                  <voteNotice
-                    class="nav-item"
-                    :is-footer="true"
-                  ></voteNotice>
+                <voteNotice
+                  class="nav-item"
+                  :is-footer="true"
+                ></voteNotice>
                 <div class="nav-item">
-                    <nuxt-link
-                      :to="localePath('partnership')"
-                      class="text-hover-transition"
-                    >
-                      {{$t('nav.partnership')}}
-                    </nuxt-link>
-                  </div>
-                  <Media
-                    class="nav-item"
-                    :is-footer="true"
-                  ></Media>
-                  <Exchange
-                    class="nav-item"
-                    :is-footer="true"
-                  ></Exchange>
-                  <div class="nav-item">
-                    <nuxt-link
-                      :to="localePath('faq')"
-                      class="text-hover-transition"
-                    >
-                      {{$t('nav.faq')}}
-                    </nuxt-link>
-                  </div>
-                  <about
-                    class="nav-item"
-                    :is-footer="true"
-                  ></about>
+                  <nuxt-link
+                    :to="localePath('partnership')"
+                    class="text-hover-transition"
+                  >
+                    {{$t('nav.partnership')}}
+                  </nuxt-link>
                 </div>
+                <Media
+                  class="nav-item"
+                  :is-footer="true"
+                ></Media>
+                <Exchange
+                  class="nav-item"
+                  :is-footer="true"
+                ></Exchange>
+                <div class="nav-item">
+                  <nuxt-link
+                    :to="localePath('faq')"
+                    class="text-hover-transition"
+                  >
+                    {{$t('nav.faq')}}
+                  </nuxt-link>
+                </div>
+                <about
+                  class="nav-item"
+                  :is-footer="true"
+                ></about>
+
               </div>
-              <div class="">
+              <div class="social-icons">
                 <div class="icons mt40">
                   <div class="icon-links-wrapper">
                     <a
@@ -109,6 +108,15 @@
                         class="icon"
                         :icon="['fab', 'youtube']"
                       /></a>
+                    <a
+                      :href="urls.forum"
+                      target="_blank"
+                      class="text-hover-transition"
+                    >
+                      <img
+                        class="icon"
+                        src="~/assets/images/community/forum-icon.svg"
+                      /></a>
                     <wechat></wechat>
                   </div>
                 </div>
@@ -158,7 +166,7 @@ export default {
       learnList: ["whitePaper", "document", "introduction"],
       mediumList: ["medium", "btt", "blog"],
       urlShouldTranslate: ["whitePaper", "telegram", "introduction"],
-      navs: ["team","community"]
+      navs: ["team", "community"]
     };
   },
   methods: {
@@ -176,22 +184,38 @@ export default {
 @import "~assets/vars";
 
 .footer {
-  height: 315px;
+  min-height: 315px;
   background: url("~assets/images/footer/footer.svg") 46% 13%;
   z-index: 3;
+  padding: 0;
+  .ft-container {
+    display: flex;
+    justify-content: space-around;
+  }
   @include touch {
     background: url("~assets/images/footer/footer.svg") 100% 60%;
   }
   .whole-footer {
     justify-content: space-between;
+    .icon-wrapper {
+      margin-left: 50px;
+    }
   }
   .mt40 {
     margin-top: 40px;
   }
   .footer-tab {
     color: white;
+    justify-self: flex-end;
+    margin-right: 50px;
     @include touch {
       margin: 0 auto;
+    }
+    @include mobile {
+      width: 100%;
+    }
+    .social-icons {
+      margin-right: 10px;
     }
   }
   .icons {
@@ -200,12 +224,14 @@ export default {
   .copyright {
     font-size: 12px;
     text-align: right;
+    margin-right: 10px;
     @include touch {
       text-align: center;
     }
   }
   .footer-nav {
     justify-content: flex-end;
+    flex-wrap: wrap;
     @include touch {
       flex-wrap: wrap;
       justify-content: center;
@@ -232,7 +258,7 @@ export default {
     }
     & > a,
     /deep/ .v-popover {
-      margin-left: 25px;
+      margin: 10px 15px;
       svg {
         width: 30px;
         height: 30px;
@@ -241,15 +267,12 @@ export default {
           // color: #1580E3;
         }
         @include touch {
-          width: 24px;
-          height: 24px;
+          width: 30px;
+          height: 30px;
         }
       }
       @include touch {
-        margin-left: 19px;
-      }
-      &:first-child {
-        margin-left: 0;
+        margin: 10px 20px;
       }
     }
   }

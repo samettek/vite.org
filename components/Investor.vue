@@ -4,7 +4,7 @@
       <h1 style="text-align:center">
         {{$t('investor.title')}}
       </h1>
-      <div class="columns is-multiline is-centered is-mobile">
+      <div class="columns is-multiline is-mobile">
         <div :key="item.key" v-for="(item, index) in list" class="column item">
           <a :href="item.url" target="_blank" @mouseover="onHover(index)" @mouseout="onOut(index)" :class="`key-${item.key}`">
             <div class="img-wrapper">

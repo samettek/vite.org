@@ -52,12 +52,12 @@
             <div class="nav-item">
               <voteNotice></voteNotice>
             </div>
-              <nuxt-link
-                :to="localePath('partnership')"
-                class="nav-item text-hover-transition"
-              >
-                {{$t('nav.partnership')}}
-              </nuxt-link>
+            <nuxt-link
+              :to="localePath('partnership')"
+              class="nav-item text-hover-transition"
+            >
+              {{$t('nav.partnership')}}
+            </nuxt-link>
             <div class="nav-item">
               <Media></Media>
             </div>
@@ -268,12 +268,18 @@ export default {
   background-image: url("~assets/images/activity.svg");
   color: white;
   font-family: $font-family-title;
-  font-size: 20px;
+  font-size: 16px;
   padding-top: 22px;
+  .act {
+    margin-bottom: 10px;
+  }
 }
 .nuxt-content {
   margin-top: 72px;
   padding-bottom: 100px;
+  @include touch {
+    padding-bottom: 50px;
+  }
 }
 .is-index-page {
   margin-top: 0;
@@ -291,7 +297,9 @@ export default {
       no-repeat url("~assets/images/bg/index/topright1.svg") 90% 11%/ 230px 230px;
   }
   @include mobile {
-    background: none;
+    background: no-repeat url("~assets/images/bg/index/topright3.svg") 100% 0%,
+      no-repeat url("~assets/images/bg/index/topleft3.svg") -1% 5%;
+    background-size: 60%;
   }
 }
 .is-team-page {

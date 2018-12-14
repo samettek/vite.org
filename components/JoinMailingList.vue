@@ -40,6 +40,9 @@
   .section {
     padding-top: 0;
     margin-top:200px;
+    @include touch{
+        margin-top:50px;
+    }
     .title {
       text-align: center;
     }
@@ -72,8 +75,12 @@
     justify-content: center;
     .input {
       max-width: 500px;
-      box-shadow: none;
       height: 60px;
+      box-shadow:2px 2px 50px 1px rgba(126, 183, 238, 0.33);;
+      border:none;
+      &::-webkit-input-placeholder{
+          color:rgba(198,202,206,1);
+      }
     }
     .button {
       width: 180px;

@@ -276,6 +276,8 @@ export default {
   margin-top: 125px;
   display: flex;
   flex-direction: column;
+    @include mobile {
+  height: 750px;}
 
   .feature-title {
     color: #171c34;

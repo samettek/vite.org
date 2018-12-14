@@ -5,7 +5,7 @@
       <div class="columns is-multiline partner">
         <div class="column is-6-widescreen is-12-mobile" v-for="item in companys" :key="item.key">
           <div class="is-info">
-            <a :href="item.url"><img :src="item.img"/></a>
+            <a :href="item.url" target="__blank"><img :src="item.img"/></a>
             <div class="company-desc">
               <div v-for="(tx, index) in item.text" :key="index" class="company-item"> {{ $t(`partnership.${item.key}.desc.${tx}`) }}</div>
             </div>

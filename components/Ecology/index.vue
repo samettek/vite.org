@@ -47,6 +47,10 @@ export default {
   overflow-x: auto;
   flex-direction: column;
   font-family: $font-family-title;
+  @include mobile {
+    margin-top: 90px;
+    height: 700px;
+  }
 }
 .eco {
   @include mobile {

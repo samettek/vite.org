@@ -438,7 +438,8 @@ module.exports = {
       'Chris Li': {
         'name': 'Chris Li',
         'job': '业务拓展总监',
-        'position': '美国'
+        'position': '美国',
+        description: ''
       },
       'Luke Kim': {
         'name': 'Luke Kim',
@@ -455,60 +456,61 @@ module.exports = {
         'job': '创意市场/业务运营助理',
         'position': '美国'
       },
-      'Lola': {
-        'name': 'Lola',
-        'job': '产品经理',
-        'position': '北京'
-      },
+
       'Logan': {
         'name': 'Logan',
         'job': 'iOS开发',
-        'position': '北京'
+        'position': '北京',
+        description: '4年iOS开发经验，曾开发过3款日活百万的App'
       },
       'Stone': {
         'name': 'Stone',
         'job': 'iOS开发',
-        'position': '北京'
+        'position': '北京',
+        description: '5年 iOS 开发经验，曾在中国知名互联网企业任职'
       },
       'jerry': {
         'name': 'jerry',
         'job': '后端开发',
-        'position': '北京'
+        'position': '北京',
+        description: '5年互联网开发经验，曾在中国知名互联网企业任职'
       },
       'Alex': {
         'name': 'Alex',
         'job': '后端开发',
-        'position': '北京'
+        'position': '北京',
+        description: '3年互联网后台服务开发经验，曾在百度任职开发工程师'
       },
       'Tuprise': {
         'name': 'Tuprise',
         'job': '后端开发',
-        'position': '北京'
+        'position': '北京',
+        description: '7年后端服务开发及架构，曾职于亚信、艺龙等国内知名互联网企业；在海量数据处理、高并发方面具有丰富的经验；'
       },
       'viteLiz': {
         'name': 'viteLiz',
         'job': '后端开发',
-        'position': '北京'
+        'position': '北京',
+        description: '3年以上互联网后台服务开发经验，曾在中国知名互联网企业任职'
       },
-      'Abbott': {
-        'name': 'Abbott',
-        'job': '测试',
-        'position': '北京'
-      },
+
       'hubery': {
         'name': 'hubery',
         'job': '后端开发',
-        'position': '北京'
+        'position': '北京',
+        description: '5年互联网开发经验，曾就职于腾讯、猿题库等公司，毕业于西安电子科技大学'
       },
       'Cecelia': {
         'name': 'Cecelia',
         'job': '前端开发',
-        'position': '北京'
+        'position': '北京',
+        description: '3年互联网开发经验，曾在中国知名互联网企业任职'
       },
       'viteshan': {
         'name': 'viteshan',
         'job': '后端开发',
-        'position': '北京'
+        'position': '北京',
+        description: '3年互联网后端开发经验，曾在中国知名互联网企业任职'
       },
       'Ada': {
         'name': 'Ada',
@@ -518,58 +520,48 @@ module.exports = {
       'Jin': {
         'name': 'Jin',
         'job': '后端开发',
-        'position': '北京'
+        'position': '北京',
+        description: '3年互联网金融后台服务开发经验'
       },
       'Shenyang': {
         'name': 'Shenyang',
         'job': 'iOS',
-        'position': '北京'
+        'position': '北京',
+        description: '4年以上互联网开发经验，曾在中国知名互联网企业任职'
       },
-      'Candy': {
-        'name': 'Candy',
-        'job': '产品运营',
-        'position': '北京'
-      },
+
       'Eric': {
         'name': 'Eric',
         'job': '架构师',
-        'position': '北京'
+        'position': '北京',
+        description: '曾就职百度等国内Top互联网企业，具有丰富的后端服务和数据系统开发经验。2W+ QPS 系统架构经验；15人左右团队组织管理经历。'
       },
       'Asurily': {
         'name': 'Asurily',
         'job': '后端开发',
-        'position': '北京'
-      },
-      'Cassie': {
-        'name': 'Cassie',
-        'job': '产品运营',
-        'position': '北京'
+        'position': '北京',
+        description: '三年区块链项目经验，硕士毕业于东北大学，研究方向为“区块链与数据存储”。'
       },
       'Reg': {
         'name': 'Reg',
         'job': '前端开发',
-        'position': '北京'
+        'position': '北京',
+        description: '3年前端开发经验，曾在中国知名互联网企业任职'
       },
-      'Daisy': {
-        'name': 'Daisy',
-        'job': '前端开发',
-        'position': '北京'
-      },
+
       'Tiantao': {
         'name': 'Tiantao',
         'job': '后端开发',
-        'position': '北京'
+        'position': '北京',
+        description: '3年安全、网络、客户端系统架构设计经验，所开发的多个安全、网络、认证等客户端核心组件支撑某中国互联网三强内部核心系统。'
       },
       'weichao': {
         'name': 'weichao',
         'job': '后端开发',
-        'position': '北京'
+        'position': '北京',
+        'description': '7年后端服务架构设计经验，曾参与QPS 3w+系统的设计与开发，2年区块链系统开发经验。'
       },
-      'Zack': {
-        'name': 'Zack',
-        'job': '产品负责人',
-        'position': '北京'
-      },
+
       'Tina': {
         'name': 'Tina',
         'job': '前端开发',
@@ -578,32 +570,82 @@ module.exports = {
       'Rod': {
         'name': 'Rod',
         'job': '工程师',
+        'position': '北京',
+        description: '5年后端服务设计开发经验，曾在中国知名互联网企业任职'
+      },
+      'Daisy': {
+        'name': 'Daisy',
+        'job': '前端开发',
+        'position': '北京',
+        description: '3年前端开发经验，曾任职于国内知名的互联网企业，熟练运用vue，node等开发框架'
+      },
+      'Abbott': {
+        'name': 'Abbott',
+        'job': '测试',
         'position': '北京'
+      },
+
+      'Hannah': {
+        'name': 'Hannah',
+        'job': 'QA',
+        'position': '北京',
+        description: '2年测试开发经验；参与过自动化测试框架设计；2年后台存储开发测试经验，对gluster分布式存储技术有一定了解；与军工单位合作，在数据安全加密存储方面有相关经验'
+      },
+      'Zack': {
+        'name': 'Zack',
+        'job': '产品负责人',
+        'position': '北京',
+        description: '北京邮电大学硕士，4年互联网产品经验，曾在滴滴、百度等互联网公司任职，负责过2款日活百万的App'
+      },
+      'Lola': {
+        'name': 'Lola',
+        'job': '产品经理',
+        'position': '北京',
+        description: 'Lola拥有跨学科背景，在金融领域有丰富的经验。曾在德勤任职；曾在私募基金担任投资经理，负责TMT项目投资业务。西安交通大学经济学硕士，大连理工大学软件工程学士。'
       },
       'Tony': {
         'name': 'Tony',
         'job': '运营总监',
-        'position': '北京'
+        'position': '北京',
+        description: '曾任职腾讯、美团，6年以上产品+运营工作经验，负责过多款用户量和日GMV过亿的产品，同时参与或主导了多个创新项目，具有丰富的互联网项目经验。'
+      },
+      'Cassie': {
+        'name': 'Cassie',
+        'job': '产品运营',
+        'position': '北京',
+        description: '5年市场策划、运营经验。曾就职于金融、互联网等公司。'
+      },
+      'Candy': {
+        'name': 'Candy',
+        'job': '产品运营',
+        'position': '北京',
+        description: '3年产品运营经验，曾就职于美团网-SaaS收银和房天下指数研究院，主要负责项目培训、系统的需求对接、优化以及数据的维护和监控。'
       },
       'Flanke': {
         'name': 'Flanke',
         'job': '产品运营',
-        'position': '北京'
+        'position': '北京',
+        description: '曾在i黑马、向上金服任职，3年品牌运营经验。'
       },
+
       'Erin': {
         'name': 'Erin',
         'job': '数据运营',
-        'position': '北京'
+        'position': '北京',
+        description: '曾在优分期、新浪金融任职数据分析师，3年运营+风控工作经验'
       },
-      'Hannah': {
-        'name': 'Hannah',
-        'job': 'QA',
-        'position': '北京'
+
+      Layla: {
+        'name': 'Layla',
+        'job': 'UI设计',
+        'position': '北京',
+        description: '5年互联网公司设计经验'
       },
       'Miya': {
         'name': 'Miya',
         'job': 'UI设计',
-        'position': '北京'
+        'position': '北京',
+        description: '3年UI设计经验，涉足多项互联网产业项目，曾就职大型国企公司，负责设计多个国家项目'
       }
     }
   },

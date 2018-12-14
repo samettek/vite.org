@@ -120,9 +120,15 @@ export default {
 section {
   height: 700px;
   background: #f6fbff;
+  @include mobile {
+    height: 360px;
+  }
   .roadmap-title {
     text-align: center;
     padding-top: 109px;
+    @include mobile {
+      padding-top: 30px;
+    }
   }
   $timelineColor: #007aff;
   $dot-size: 1.5rem;
@@ -134,6 +140,9 @@ section {
     cursor: pointer;
     text-align: center;
     margin-top: 136px;
+    @include mobile {
+      margin-top: 56px;
+    }
   }
   .right-img {
     min-width: 60px;
@@ -141,13 +150,22 @@ section {
     cursor: pointer;
     text-align: center;
     margin-top: 136px;
+    @include mobile {
+      margin-top: 56px;
+    }
   }
   .timeline {
     min-height: 500px;
+    @include mobile {
+      min-height: 280px;
+    }
     overflow-x: scroll;
     scroll-behavior: smooth;
     ul {
       padding-top: 150px;
+      @include mobile {
+        padding-top: 70px;
+      }
       & li:first-child {
         min-width: 80px;
       }
@@ -165,7 +183,7 @@ section {
         min-width: 160px;
         height: 46px;
         margin: 0 auto;
-        border-top: 1px dashed $timelineColor;
+        border-top: 2px dashed $timelineColor;
         border-right: 1px dashed $timelineColor;
         &.is-finish {
           border-top: 2px solid $timelineColor;
