@@ -1,7 +1,7 @@
 module.exports = {
   lang: 'English',
   head: {
-    title: 'Vite - High-performance decentralized ecosystem',
+    title: 'Vite - High-performance Decentralized Ecosystem',
     document: 'Document',
     description: {
       index: 'Vite - High-performance decentralized ecosystem',
@@ -32,7 +32,7 @@ module.exports = {
     // nodeDetail: 'SBP Details',
     // careers: 'Careers',
     notice: {
-      name: 'Super Nodes',
+      name: 'SUPER NODES',
       specific: 'Guide for SBP (Snapshot Block Producer)',
       apply: 'Apply for SBP (Snapshot Block Producer) '
     }
@@ -738,7 +738,7 @@ module.exports = {
       {
         question: 'The smart contract language used on Ethereum\'s platform is Solidity. A notable benefit of Solidity is its beginner-friendly nature, however a critical downside is its susceptibility to hackers\' attacks. What solution does Vite have for this problem? ',
         answer: [
-          'Vite proposes a solution to the problem of smart contract vulnerability by introducing contract formal verification technology.'
+          'Vite has taken Solidity\'s problems into account and has adopted countermeasures when designing smart contracts. These operational improvements are seen within our Solidity++ language. One of those improvements, for example, would be the incorporation of a series of standard libraries. This serves a dual purpose of increasing security protection while simplifying programming complexity. Because Solidity++ inter-contract calls rely on asynchronous architecture, the attacks facilitated by contract synchronous calls are inherently prevented. The classic Ethereum example of a "reentrancy attack" scenario is not applicable in Vite\'s case. Vite will implement contractual formal verification technology to tackle smart contract development and we are considering offering a smart contract solution based on WASM. In short, we present users with a variety of solution-based options. '
         ]
       },
       {
@@ -756,7 +756,7 @@ module.exports = {
       {
         question: 'On Vite network, users can issue their own currency. Is the function similar to ERC20 token(s) on Ethereum? What advantages does Vite have with their system? What is the address of the VITE ERC20 token?',
         answer: [
-          'Vite\'s asset issuance is similar to ERC20, but in other ways it is different. ERC20 is a specification but not part of the Ethereum protocol. The issuance of new tokens with Ethereum requires the user to develop and deploy a smart contract. Token balance is maintained by the state of the contract. If the contract development is flawed, there is a security risk. For example, if a user forgets to refer to the SaftMath library, an overflow may occur. Vite token is built into the Vite protocol. The token balance is maintained in the state of the user\'s account. The new token and the Vite native token share the same underlying protocol thus bringing the same measure of security to the new token and the Vite native token. When a user issues a new token in Vite,  the only thing that needs to be done is initiating a transaction, putting the new token parameters in the transaction data. Our network eliminates the need to write a smart contract and drastically decreases the possibility for bug generation to occur. '
+          'Vite\'s asset issuance is similar to ERC20, but in other ways it is different. ERC20 is a specification, but not a part of the Ethereum protocol. The issuance of new tokens with Ethereum requires the user to develop and deploy a smart contract. Token balance is maintained by the state of the contract. If contract development is flawed, security risks surface. For example, if a user forgets to refer to the SaftMath library, an overflow may occur. Vite token is built into the Vite protocol. The token balance is maintained in the state of the user\'s account. The new token and the Vite native token share the same underlying protocol thus bringing the same measure of security to the new token and native token. When a user decides to issue a new token in Vite, all they need to do is initiate a transaction. The transaction then puts the new token parameters in the transaction data. The fact that our network does not require smart contract writing inherently leaves less room for bug generation to occur.'
         ]
       },
       {
