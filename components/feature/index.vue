@@ -343,6 +343,7 @@ export default {
         height: 150px;
         width: 150px;
         background: rgba(237, 246, 255, 1);
+        text-align:center;
       }
     }
     .column-line {
