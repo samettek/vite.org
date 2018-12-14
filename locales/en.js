@@ -398,22 +398,26 @@ module.exports = {
       'Chris Li': {
         'name': 'Chris Li',
         'job': 'Director of BD',
-        'position': 'Silicon Valley, United States'
+        'position': 'Silicon Valley, United States',
+        description: "Seasoned practitioner in the blockchain industry. Experienced in investment, business development, and operations. Former director of US Operations at GBiB. Previously worked for ZGC Capital, served as investment manager, and was responsible for Zhongguancun Development Group's investment business in the United States and Silicon Valley incubator operations. Worked for a Wall Street-based incubator in the investment and business development team. Master of Engineering from Lehigh University in Industrial Engineering."
       },
       'Luke Kim': {
         'name': 'Luke Kim',
         'job': 'CMO',
-        'position': 'Silicon Valley, United States'
+        'position': 'Silicon Valley, United States',
+        description: 'Luke is a digital nomad and entrepreneur from Seoul and Tokyo based in California. Formerly Business Development Manager at City Innovate Foundation and SuperPublic CoLab at United Nations Plaza, Head of US Relations at European Innovation Academy, Director of Strategic Partnerships at Gateway Accelerator and VC. Co-Founder of Startup Grind Berkeley, 3 Day Startup Berkeley and Paladin Partners. He most recently worked on a crypto-asset fund and ICO in a Swiss asset management firm, as well as technology acceleration at a South Korean startup. BA in Political Economy of Europe from UC Berkeley.'
       },
       'Jeff Ng': {
         'name': 'Jeff Ng',
         'job': 'Project Manager',
-        'position': 'Silicon Valley, United States'
+        'position': 'Silicon Valley, United States',
+        description: 'Blockchain enthusiast and experienced online community manager and member. Previous experience in the fields of manufacturing, inventory management, logistics  and art collecting/blogging. Graduated as a Mechanical Engineer from Cal Poly San Luis Obispo. '
       },
       'Agata Aks': {
         'name': 'Agata Aks',
         'job': 'Creative Marketing / Business Operations Associate',
-        'position': 'Silicon Valley, United States'
+        'position': 'Silicon Valley, United States',
+        description: 'Agatabrings to us a wide range of experiences in social media marketing and legal services. She graduated from University of California, Santa Barbara with BA in Psychological Sciences, and concentrations in Professional Writing for Civic Engagement.  She speaks English, Russian and French.'
       },
       'Lola': {
         'name': 'Lola',

@@ -439,22 +439,25 @@ module.exports = {
         'name': 'Chris Li',
         'job': '业务拓展总监',
         'position': '美国',
-        description: ''
+        description: 'Chris在投资，商务拓展和运营领域经验丰富。GBiB前美国业务总监，曾在zhong guan cun中关村硅谷分公司担任投资经理，负责硅谷孵化器和投资业务，曾在纽约华尔街的美东最大华人孵化器工作。美国里海大学工业工程硕士。'
       },
       'Luke Kim': {
         'name': 'Luke Kim',
         'job': 'CMO',
-        'position': '美国'
+        'position': '美国',
+        description: 'Luke是来自加州的数字领域企业家，曾住在首尔和东京。曾担任城市发展基金会和SuperPublic CoLab的商务拓展经理，欧洲创新学院的美国关系主管，Gateway加速器的战略合作总监，和VC的战略合作伙伴关系主管。 Startup Grind Berkeley的联合创始人，以及3 Day Startup Berkeley and Paladin的合伙人。最近的职位是在一家瑞士资产管理公司从事加密资产基金和ICO，以及任职于一家韩国科技企业初创公司。毕业于伯克利大学，欧洲政治经济学学士。'
       },
       'Jeff Ng': {
         'name': 'Jeff Ng',
         'job': '社区项目经理',
-        'position': '美国'
+        'position': '美国',
+        description: '区块链爱好者，经验丰富的线上社区管理者和活动策划者。在制造业，库存管理，物流和艺术收藏等领域有丰富的创业和运营经验。毕业于美国Cal Poly San Luis Obispo，机械工程专业。'
       },
       'Agata Aks': {
         'name': 'Agata Aks',
         'job': '创意市场/业务运营助理',
-        'position': '美国'
+        'position': '美国',
+        description: 'Agata有社交媒体营销和法律服务方面的丰富经验。她毕业于加州大学圣巴巴拉分校，获得心理科学学士学位以及写作方向。她精通英语，俄语和法语。'
       },
 
       'Logan': {
