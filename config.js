@@ -3,7 +3,7 @@ module.exports = {
     news: {
       rss: {
         zh: 'https://hidden-peak-43038.herokuapp.com/https://forum.vite.net/category/18.rss',
-        en: 'https://hidden-peak-43038.herokuapp.com/https://medium.com/feed/vitelabs'
+        en: 'https://hidden-peak-43038.herokuapp.com/https://medium.com/feed/vitelabs'// crossorigin via 
       },
       home: {
         zh: 'https://forum.vite.net/category/18/%E5%85%AC%E5%91%8A',
