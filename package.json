@@ -6,7 +6,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "p": "npm run build && npm run generate && node ./staticPages/depoly.js",
+    "p": "npm run build && npm run generate",
     "monitor": "nuxt build --webpackmonitor"
   },
   "dependencies": {
