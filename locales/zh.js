@@ -569,19 +569,20 @@ module.exports = {
       'Tina': {
         'name': 'Tina',
         'job': '前端开发',
-        'position': '北京'
+        'position': '北京',
+        description: '3年前端开发经验，毕业于新加坡南洋理工大学（NTU），获得信息科学硕士学位。曾任职于中国和新加坡知名互联网企业。'
       },
       'Rod': {
         'name': 'Rod',
         'job': '工程师',
         'position': '北京',
-        description: '5年后端服务设计开发经验，曾在中国知名互联网企业任职'
+        description: '5年后端服务设计开发经验，曾在中国知名互联网企业任职。'
       },
       'Daisy': {
         'name': 'Daisy',
         'job': '前端开发',
         'position': '北京',
-        description: '3年前端开发经验，曾任职于国内知名的互联网企业，熟练运用vue，node等开发框架'
+        description: '3年前端开发经验，曾任职于国内知名的互联网企业，熟练运用vue，node等开发框架。'
       },
       'Abbott': {
         'name': 'Abbott',

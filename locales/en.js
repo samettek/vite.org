@@ -423,37 +423,44 @@ module.exports = {
       'Lola': {
         'name': 'Lola',
         'job': 'Product Manager',
-        'position': 'Beijing, China'
+        'position': 'Beijing, China',
+        description: 'Lola was an experienced financial specialist who has inter-disciplinary background. She worked for Deloitte, served as investment manager in private equity funds, took in charge of TMT projects. Graduated from Xi\'an Jiaotong University with master degree in finance and Dalian University of Technology with bachelor degree in software engineering.'
       },
       'Logan': {
         'name': 'Logan',
         'job': 'iOS Developer',
-        'position': 'Beijing, China'
+        'position': 'Beijing, China',
+        description: '4 years of experience in iOS development. Previously developed 3 different Apps with over hundreds of millions DAU.'
       },
       'Stone': {
         'name': 'Stone',
         'job': 'iOS Developer',
-        'position': 'Beijing, China'
+        'position': 'Beijing, China',
+        description: '5+ years of experience in iOS development. Previously worked for well-known IT firms in China.'
       },
       'jerry': {
         'name': 'jerry',
         'job': 'Back-end Developer',
-        'position': 'Beijing, China'
+        'position': 'Beijing, China',
+        description: '5+ years of experience in back-end service development. Formerly worked for well-known IT firms in China.'
       },
       'Alex': {
         'name': 'Alex',
         'job': 'Back-end Developer',
-        'position': 'Beijing, China'
+        'position': 'Beijing, China',
+        description: '3+ years of experience in back-end service development. Formerly worked for a topnotch Chinese It firm Baidu, served as back-end engineer.'
       },
       'Tuprise': {
         'name': 'Tuprise',
         'job': 'Back-end Developer',
-        'position': 'Beijing, China'
+        'position': 'Beijing, China',
+        description: '7+ years of experience in back-end service development and architecture. Formerly worked for series of notable IT companies such as Yilong and Yaxin. Seasoned developer in massive data processing and high concurrency.'
       },
       'viteLiz': {
         'name': 'viteLiz',
         'job': 'Back-end Developer',
-        'position': 'Beijing, China'
+        'position': 'Beijing, China',
+        description: '3+ years of experience in back-end service development. Formerly worked for a well-known IT company in China.'
       },
       'Abbott': {
         'name': 'Abbott',
@@ -463,17 +470,20 @@ module.exports = {
       'hubery': {
         'name': 'hubery',
         'job': 'Back-end Developer',
-        'position': 'Beijing, China'
+        'position': 'Beijing, China',
+        description: '5+ years of experience in IT development, previously worked for Tencent and Yuantiku. Graduated from Xidian University'
       },
       'Cecelia': {
         'name': 'Cecelia',
         'job': 'Front-end Developer',
-        'position': 'Beijing, China'
+        'position': 'Beijing, China',
+        description: '3 years of experience in front-end development, previously worked for a famous IT firm in China.'
       },
       'viteshan': {
         'name': 'viteshan',
         'job': 'Back-end Developer',
-        'position': 'Beijing, China'
+        'position': 'Beijing, China',
+        description: '3+ years of experience in IT development. Formerly worked for a well-known IT company in China.'
       },
       'Ada': {
         'name': 'Ada',
@@ -483,82 +493,98 @@ module.exports = {
       'Jin': {
         'name': 'Jin',
         'job': 'Back-end Developer',
-        'position': 'Beijing, China'
+        'position': 'Beijing, China',
+        description: '3 years of experience in internet financial development.'
       },
       'Shenyang': {
         'name': 'Shenyang',
         'job': 'iOS Developer',
-        'position': 'Beijing, China'
+        'position': 'Beijing, China',
+        description: '4+ years of experience in iOS development. Formerly worked for a well-known IT company in China.'
       },
       'Candy': {
         'name': 'Candy',
         'job': 'Product Operations Manager',
-        'position': 'Beijing, China'
+        'position': 'Beijing, China',
+        description: '3 years of experience in product operation. Previously worked for Meituan-SaaS and Fangtianxia Index Research Institute, served as operation specialist who was in charge of project trainee, system request, optimization、surveillance and maintenance data.'
       },
       'Eric': {
         'name': 'Eric',
         'job': 'System Architect',
-        'position': 'Beijing, China'
+        'position': 'Beijing, China',
+        description: 'Previously worked with top IT firms in China, such as Baidu. Expert in back-end services and data system development. He has 2W+ QPS experience of system architecture.Formerly led a engineering team of 15+ members, experience in organizing engineering teams.'
       },
       'Asurily': {
         'name': 'Asurily',
         'job': 'Back-end Developer',
-        'position': 'Beijing, China'
+        'position': 'Beijing, China',
+        description: '3 years of experience in blockchain projects. Graduated from Northwest University with master degree, research orient is blockchain and data storage.'
       },
       'Cassie': {
         'name': 'Cassie',
         'job': 'Product Operations Manager',
-        'position': 'Beijing, China'
+        'position': 'Beijing, China',
+        description: '5 years of experience in marketing strategy and operation, previously worked for IT and finance related companies.'
       },
       'Reg': {
         'name': 'Reg',
         'job': 'Front-end Developer',
-        'position': 'Beijing, China'
+        'position': 'Beijing, China',
+        description: '3 years of experience in front-end development, previously worked for a well-known IT company in China.'
       },
       'Daisy': {
         'name': 'Daisy',
         'job': 'Front-end Developer',
-        'position': 'Beijing, China'
+        'position': 'Beijing, China',
+        description: '3 years of experience in front-end development, previously worked for a well-known IT company in China. Proficient in vue,node and other development frameworks'
       },
       'Tiantao': {
         'name': 'Tiantao',
         'job': 'Back-end Developer',
-        'position': 'Beijing, China'
+        'position': 'Beijing, China',
+        description: '3 years of experience in network security, client-side design of system architecture. Participated in the development of core components within various fields, especially in security, P2P network and verification. These components still play an important role within a core system of top IT firm.'
       },
       'weichao': {
         'name': 'weichao',
         'job': 'System Architect',
-        'position': 'Beijing, China'
+        'position': 'Beijing, China',
+        'description': '7+ years of experience in back-end service architecture design, he made a great effort in design and development of QPS 3w+ system, seasoned blockchain developer.'
       },
       'Zack': {
         'name': 'Zack',
         'job': 'Director of PM',
-        'position': 'Beijing, China'
+        'position': 'Beijing, China',
+        description: 'Graduated from Beijing University of Posts and Telecommunications with Master Degree. 4+ years of experience in IT products, formerly worked for top-notch IT firms such as Didi, Baidu, etc and was in charge of Apps with millions of DAU.'
       },
       'Tina': {
         'name': 'Tina',
         'job': 'Front-end Developer',
-        'position': 'Beijing, China'
+        'position': 'Beijing, China',
+        description: '3 years of experience in front-end development. Graduated from Nanyang Technological University, Singapore, with M.S in Information Studies. Previously worked for notable IT companies in both China and Singapore.'
       },
       'Rod': {
         'name': 'Rod',
         'job': 'Engineer',
-        'position': 'Beijing, China'
+        'position': 'Beijing, China',
+        description: '5+ years of experience in back-end design and development, previously worked for series of top-ranking IT firms in China.'
       },
       'Tony': {
         'name': 'Tony',
         'job': 'Director of Operations',
-        'position': 'Beijing, China'
+        'position': 'Beijing, China',
+        description: '6+ years of experience in operation and product, previously worked for Meituan Dianping and Tencent, previously took charge of many products that have over 100 million of daily GMV and active users. Meanwhile, he was a seasoned PM who also conducted multiple innovative projects.'
       },
       'Flanke': {
         'name': 'Flanke',
         'job': 'Product Operations Manager',
-        'position': 'Beijing, China'
+        'position': 'Beijing, China',
+        description: '3 years of experience in brand operation, previously worked for iHeima and Xiangshang Finance.'
       },
       'Erin': {
         'name': 'Erin',
         'job': 'Data Operations Manager',
-        'position': 'Beijing, China'
+        'position': 'Beijing, China',
+        description: '3 years of experience in operation and risk management, previously worked for Sina Finance and Youfenqi as a data specialist.'
       },
       'Hannah': {
         'name': 'Hannah',
