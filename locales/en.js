@@ -133,6 +133,10 @@ module.exports = {
       }
     ]
   },
+  partnership: {
+    title: 'Cooperation',
+    contact: 'Contact to Seek Cooperation'
+  },
   elector: {
     'title': 'SBP Candidates',
     'detailTitles': [
@@ -350,6 +354,7 @@ module.exports = {
     'nameMap': {
       'liuchunming': {
         'name': 'Charles',
+        job: 'CEO',
         'position': 'Beijing, China',
         'description': 'Veteran blockchain entrepreneur and technical expert. Standing director of China Blockchain Application Research Center. Graduated from China University of Science and Technology and the Institute of Software of the Chinese Academy of Sciences. Former senior architect of JD.com, co-founder of Coinport, and engineering director of Meituan Dianping. Abundant experience in distributed systems and high concurrency systems.'
       },
@@ -365,16 +370,19 @@ module.exports = {
       },
       'richard': {
         name: 'Richard',
+        job: 'COO',
         'position': 'Silicon Valley, United States',
         description: 'Seasoned Wall Street professional. Graduated B.A. from Dartmouth College and MBA from New York University.  Previously structured product trading strategist at Goldman Sachs and Vice President of Two Sigma\'s high-frequency platform and Business Innovation & Growth group.'
       },
       frank: {
         name: 'Frank Deng',
+        job: 'Director of Vite Foundation',
         'position': 'Beijing, China',
         description: 'Expert in digital and mobile marketing. Graduated from Tsinghua University. Served in Google Ads Operations Group, COO of Suizong Technology and co-founder of Yunke Technology.'
       },
       allen: {
         name: 'Allen Liu',
+        job: 'Silicon Valley Technical Director',
         'position': 'Beijing, China',
         description: 'Senior technical specialist. Graduated from China University of Science and Technology and Fudan University. Former HP Tech Lead; former IBM senior architect and product manager. Having 10 years high concurrency experience in multinational firms. Scrum expert. PMP.'
       },
@@ -395,6 +403,7 @@ module.exports = {
       },
       leo: {
         name: 'Leo',
+        job: 'Co-founder',
         'position': 'Beijing, China',
         description: 'Seasoned blockchain investor and senior technical expert. Previously led engineering efforts at Meituan and Coinport.'
       },
@@ -448,7 +457,7 @@ module.exports = {
       },
       'Alex': {
         'name': 'Alex',
-        'job': 'Back-end Developer',
+        'job': 'Complier Software Engineer',
         'position': 'Beijing, China',
         description: '3+ years of experience in back-end service development. Formerly worked for a topnotch Chinese It firm Baidu, served as back-end engineer.'
       },
@@ -460,7 +469,7 @@ module.exports = {
       },
       'viteLiz': {
         'name': 'viteLiz',
-        'job': 'Back-end Developer',
+        'job': 'VM Developer',
         'position': 'Beijing, China',
         description: '3+ years of experience in back-end service development. Formerly worked for a well-known IT company in China.'
       },
@@ -474,7 +483,8 @@ module.exports = {
       Layla: {
         name: 'Layla',
         position: 'Beijing, China',
-        job: 'UI Designer'
+        job: 'UI Designer',
+        description: 'Layla has 5 years of design experiences in Internet company, has rich experiences in brand, App, website design.'
       },
       'hubery': {
         'name': 'Hubery',
@@ -515,7 +525,7 @@ module.exports = {
       },
       'Candy': {
         'name': 'Candy',
-        'job': 'Product Operations Manager',
+        'job': 'Product Operations',
         'position': 'Beijing, China',
         description: '3 years of experience in product operation. Previously worked for Meituan-SaaS and Fangtianxia Index Research Institute, served as operation specialist who was in charge of project trainee, system request, optimization、surveillance and maintenance data.'
       },
@@ -533,7 +543,7 @@ module.exports = {
       },
       'Cassie': {
         'name': 'Cassie',
-        'job': 'Product Operations Manager',
+        'job': 'Product Operations',
         'position': 'Beijing, China',
         description: '5 years of experience in marketing strategy and operation, previously worked for IT and finance related companies.'
       },
@@ -563,7 +573,7 @@ module.exports = {
       },
       'Zack': {
         'name': 'Zack',
-        'job': 'Director of PM',
+        'job': 'Director of Product',
         'position': 'Beijing, China',
         description: 'Graduated from Beijing University of Posts and Telecommunications with Master Degree. 4+ years of experience in IT products, formerly worked for top-notch IT firms such as Didi, Baidu, etc and was in charge of Apps with millions of DAU.'
       },
@@ -575,7 +585,7 @@ module.exports = {
       },
       'Rod': {
         'name': 'Rod',
-        'job': 'Engineer',
+        'job': 'Back-end Developer',
         'position': 'Beijing, China',
         description: '5+ years of experience in back-end design and development, previously worked for series of top-ranking IT firms in China.'
       },
@@ -587,13 +597,13 @@ module.exports = {
       },
       'Flanke': {
         'name': 'Flanke',
-        'job': 'Product Operations Manager',
+        'job': 'Product Operations',
         'position': 'Beijing, China',
         description: '3 years of experience in brand operation, previously worked for iHeima and Xiangshang Finance.'
       },
       'Erin': {
         'name': 'Erin',
-        'job': 'Data Operations Manager',
+        'job': 'Data Operations',
         'position': 'Beijing, China',
         description: '3 years of experience in operation and risk management, previously worked for Sina Finance and Youfenqi as a data specialist.'
       },
@@ -871,12 +881,12 @@ module.exports = {
     placeholder: 'Email Address'
   },
 
-  featureTitle: 'Technical Characteristics of Vite',
+  featureTitle: 'Vite Features',
   featureTitle2: 'Why does Vite stand out?',
   features: {
     performance: { title: 'High Performance', tags: ['DAG Ledger', 'Asynchronous Architecture'] },
-    safety: { title: 'Secure', tags: ['Multi-Token Model', 'Snapshot Chain'] },
-    economical: { title: 'Economy', tags: ['Quota-based Model', 'Feeless-ness', 'Built-in DEX'] },
+    safety: { title: 'Security', tags: ['Multi-Token Model', 'Snapshot Chain'] },
+    economical: { title: 'Economicalness', tags: ['Quota-based Model', 'Feeless-ness', 'Built-in DEX'] },
     easyusing: { title: 'Usability', tags: ['Solidity++', 'Naming Service', 'Contract Scheduling', 'Contract Upgrades'] },
     flexable: { title: 'Scalability', tags: ['Cross-Chain Gateway', 'HDPoS Consensus', 'Smart Contract'] }
   },

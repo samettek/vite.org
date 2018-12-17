@@ -1,22 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
   <defs>
-    <polygon id="扩展性-a" points="0 0 88 0 88 35.097 66.581 35.097 66.581 75 0 75"/>
+    <polygon id="扩展性-a" points="0 0 85 0 85 33.9 64.311 33.9 64.311 72.443 0 72.443"/>
   </defs>
-  <g fill="none" fill-rule="evenodd" transform="translate(-24 -8)">
+  <g fill="none" fill-rule="evenodd" transform="translate(-22.2 -6)">
     <mask id="扩展性-b" fill="#fff">
       <use xlink:href="#扩展性-a"/>
     </mask>
-    <path stroke="#007AFF" stroke-linejoin="round" stroke-width="1.8" d="M80.1914672 9C81.2259236 9 82.0645161 9.83859256 82.0645161 10.8730489L82.0645161 52.0801249 24 52.0801249 24 10.8730489C24 9.83859256 24.8385926 9 25.8730489 9L80.1914672 9zM24 41.7783559L82.0645161 41.7783559" mask="url(#扩展性-b)"/>
-    <polyline stroke="#007AFF" stroke-linejoin="round" stroke-width="1.8" points="59.588 52.08 61.461 61.445 44.604 61.445 46.477 52.08" mask="url(#扩展性-b)"/>
-    <polyline stroke="#007AFF" stroke-linejoin="round" stroke-width="1.8" points="41.794 65.191 41.794 61.445 64.271 61.445 64.271 65.191" mask="url(#扩展性-b)"/>
-    <polyline stroke="#007AFF" stroke-linejoin="round" stroke-width="1.8" points="28.683 41.778 28.683 13.683 77.382 13.683 77.382 41.778" mask="url(#扩展性-b)"/>
-    <path stroke="#007AFF" stroke-linejoin="round" stroke-width="1.8" d="M38.9843913,65.1914672 L67.0801249,65.1914672" mask="url(#扩展性-b)"/>
-    <circle cx="53.032" cy="46.461" r="1.873" stroke="#007AFF" stroke-linejoin="round" stroke-width="1.8" mask="url(#扩展性-b)"/>
-    <polyline stroke="#007AFF" stroke-linejoin="round" stroke-width="1.8" points="36.175 17.429 32.429 17.429 32.429 21.175" mask="url(#扩展性-b)"/>
-    <g stroke="#007AFF" stroke-linejoin="round" stroke-width="1.8" transform="translate(66.58 35.129)">
-      <rect width="17.419" height="30" rx="1"/>
-      <path d="M0 4.83870968L17.4193548 4.83870968M0 24.1935484L17.4193548 24.1935484"/>
-      <circle cx="8.71" cy="27.097" r="1"/>
+    <path stroke="#007AFF" stroke-linejoin="round" stroke-width="1.8" d="M77.4576672 8.69318182C78.456858 8.69318182 79.2668622 9.503186 79.2668622 10.5023768L79.2668622 50.3046661 23.1818182 50.3046661 23.1818182 10.5023768C23.1818182 9.503186 23.9918224 8.69318182 24.9910131 8.69318182L77.4576672 8.69318182zM23.1818182 40.3540937L79.2668622 40.3540937" mask="url(#扩展性-b)"/>
+    <polyline stroke="#007AFF" stroke-linejoin="round" stroke-width="1.8" points="57.557 50.305 59.366 59.351 43.083 59.351 44.892 50.305" mask="url(#扩展性-b)"/>
+    <polyline stroke="#007AFF" stroke-linejoin="round" stroke-width="1.8" points="40.369 62.969 40.369 59.351 62.08 59.351 62.08 62.969" mask="url(#扩展性-b)"/>
+    <polyline stroke="#007AFF" stroke-linejoin="round" stroke-width="1.8" points="27.705 40.354 27.705 13.216 74.744 13.216 74.744 40.354" mask="url(#扩展性-b)"/>
+    <path stroke="#007AFF" stroke-linejoin="round" stroke-width="1.8" d="M37.6553779,62.9690308 L64.7933024,62.9690308" mask="url(#扩展性-b)"/>
+    <circle cx="51.224" cy="44.877" r="1.809" stroke="#007AFF" stroke-linejoin="round" stroke-width="1.8" mask="url(#扩展性-b)"/>
+    <polyline stroke="#007AFF" stroke-linejoin="round" stroke-width="1.8" points="34.942 16.835 31.323 16.835 31.323 20.453" mask="url(#扩展性-b)"/>
+    <g stroke="#007AFF" stroke-linejoin="round" stroke-width="1.8" transform="translate(64.31 33.931)">
+      <rect width="16.826" height="28.977" rx="1"/>
+      <path d="M0 4.67375367L16.8255132 4.67375367M0 23.3687683L16.8255132 23.3687683"/>
+      <circle cx="8.413" cy="26.173" r="1"/>
     </g>
   </g>
 </svg>

@@ -16,8 +16,7 @@ module.exports = {
   media: {
     medium: 'Medium',
     bitcointalk: 'Bitcointalk',
-    blog: 'Technology Blog',
-    forum: 'Forum'
+    forum: '论坛'
   },
   nav: {
     index: '首页',
@@ -129,6 +128,10 @@ module.exports = {
         'description': 'Vite 启动生态发展计划'
       }
     ]
+  },
+  partnership: {
+    title: '合作',
+    contact: '合作请联系'
   },
   elector: {
     'title': '超级节点竞选人',
@@ -384,6 +387,7 @@ module.exports = {
     'nameMap': {
       'liuchunming': {
         'name': '刘春明',
+        'job': '首席执行官',
         'position': '北京',
         'description': '资深区块链创业者，中国区块链应用研究中心常务理事。毕业于中国科技大学，中科院软件所。曾任京东高级架构师，币丰港联合创始人，美团点评技术总监。'
       },
@@ -394,6 +398,7 @@ module.exports = {
       },
       allen: {
         name: '刘晓涛',
+        job: '硅谷技术负责人',
         'position': '北京',
         description: '资深技术专家。毕业于中国科技大学，复旦大学。前HP Tech Lead，前IBM系统架构师，产品负责人。10年知名外企高并发工作经验，Scrum敏捷开发专家，PMP。'
       },
@@ -404,17 +409,19 @@ module.exports = {
       },
       'richard': {
         name: 'Richard',
+        'job': '首席运营官',
         position: '硅谷',
         description: '资深金融专家，多年华尔街工作经验。毕业于美国达特茅斯学院和纽约大学MBA。曾任职纽约高盛结构性资产交易策略副总裁，Two Sigma高频交易及商务创新拓展副总裁。'
       },
       Layla: {
-        name: '王爽',
+        name: 'Layla',
         position: '北京',
         'job': 'UI设计师',
-        description: '5年互联网公司设计经验'
+        description: '5年互联网公司设计，具有丰富的品牌设计，app和网站等项目经验'
       },
       frank: {
         name: '邓远辉',
+        job: 'Vite基金会负责人',
         'position': '北京',
         description: '数字营销及移动营销专家。毕业于清华大学。曾任职Google广告运营组，随踪科技COO，云克科技联合创始人。'
       },
@@ -435,30 +442,31 @@ module.exports = {
       },
       leo: {
         name: '张灵勇',
+        job: '联合创始人',
         'position': '北京',
         description: '资深区块链投资者，高级工程师，曾任职于美团、币丰港。'
       },
       'Chris Li': {
         'name': 'Chris Li',
-        'job': '业务拓展总监',
+        'job': '商务拓展总监',
         'position': '硅谷',
         description: 'Chris在投资，商务拓展和运营领域经验丰富。GBiB前美国业务总监，曾在zhong guan cun中关村硅谷分公司担任投资经理，负责硅谷孵化器和投资业务，曾在纽约华尔街的美东最大华人孵化器工作。美国里海大学工业工程硕士。'
       },
       'Luke Kim': {
         'name': 'Luke Kim',
-        'job': 'CMO',
+        'job': '首席营销官',
         'position': '硅谷',
         description: 'Luke是来自加州的数字领域企业家，曾住在首尔和东京。曾担任城市发展基金会和SuperPublic CoLab的商务拓展经理，欧洲创新学院的美国关系主管，Gateway加速器的战略合作总监，和VC的战略合作伙伴关系主管。 Startup Grind Berkeley的联合创始人，以及3 Day Startup Berkeley and Paladin的合伙人。最近的职位是在一家瑞士资产管理公司从事加密资产基金和ICO，以及任职于一家韩国科技企业初创公司。毕业于伯克利大学，欧洲政治经济学学士。'
       },
       'Jeff Ng': {
         'name': 'Jeff Ng',
-        'job': '社区项目经理',
+        'job': '社区经理',
         'position': '硅谷',
         description: '区块链爱好者，经验丰富的线上社区管理者和活动策划者。在制造业，库存管理，物流和艺术收藏等领域有丰富的创业和运营经验。毕业于美国Cal Poly San Luis Obispo，机械工程专业。'
       },
       'Agata Aks': {
         'name': 'Agata Aks',
-        'job': '创意市场/业务运营助理',
+        'job': '市场及运营助理',
         'position': '硅谷',
         description: 'Agata有社交媒体营销和法律服务方面的丰富经验。她毕业于加州大学圣巴巴拉分校，获得心理科学学士学位以及写作方向。她精通英语，俄语和法语。'
       },
@@ -495,7 +503,7 @@ module.exports = {
       },
       'viteLiz': {
         'name': 'viteLiz',
-        'job': '后端开发工程师',
+        'job': 'vm开发工程师',
         'position': '北京',
         description: '3年以上互联网后台服务开发经验，曾在中国知名互联网企业任职'
       },
@@ -577,7 +585,7 @@ module.exports = {
       },
       'Rod': {
         'name': 'Rod',
-        'job': '工程师',
+        'job': '后端开发工程师',
         'position': '北京',
         description: '5年后端服务设计开发经验，曾在中国知名互联网企业任职。'
       },

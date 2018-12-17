@@ -3,7 +3,7 @@
     <div class="feature-title">{{$t('featureTitle')}}</div>
     <div class="feature-title2">{{$t('featureTitle2')}}</div>
     <div class="features">
-      <!-- 1 -->
+            <!-- 1 -->
       <div class="item">
         <div class="arc-middle">
           <div class="arc-inner">
@@ -77,6 +77,7 @@
           </path>
         </svg>
       </div>
+
       <!-- 3 -->
       <div class="item">
         <div class="arc-middle">
@@ -312,6 +313,7 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
+    
     &:nth-child(4) {
       position: absolute;
       left: 245px;
