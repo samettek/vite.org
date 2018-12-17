@@ -81,6 +81,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 .tag {
+//   z-index: 1;
   text-align: center;
   position: absolute;
   min-width: 140px;
@@ -98,6 +99,7 @@ export default {
   }
   .hover-img,
   .hover-img-list {
+    // z-index: 1000;
     box-shadow: 2px 2px 30px 0px rgba(126, 183, 238, 0.63);
     display: flex;
     justify-content: center;
@@ -106,17 +108,16 @@ export default {
     background: #fff;
     transition: all linear 0.3s;
     opacity: 0;
-    top: -50%;
-    padding: 15px;
+    padding: 30px;
     z-index: 10;
-    .mutil-img-container{
-        border-left: 1px solid rgba(0, 122, 255, 1) ;
-        padding:0 10px;
-        width: 30%;
-        height: 100%;
-        &:first-child{
-            border:none;
-        }
+    .mutil-img-container {
+      border-left: 1px solid rgba(0, 122, 255, 1);
+      padding: 0 10px;
+      width: 30%;
+      height: 100%;
+      &:first-child {
+        border: none;
+      }
     }
     &:hover {
       display: flex;
@@ -131,7 +132,6 @@ export default {
     background: #fff;
 
     img {
-
     }
   }
   &.active {
