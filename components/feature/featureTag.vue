@@ -100,6 +100,7 @@ export default {
   .hover-img,
   .hover-img-list {
     // z-index: 1000;
+    top: 120%;
     box-shadow: 2px 2px 30px 0px rgba(126, 183, 238, 0.63);
     display: flex;
     justify-content: center;

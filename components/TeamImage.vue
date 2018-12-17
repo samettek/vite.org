@@ -15,7 +15,7 @@
 
     <div
       class="team-desc"
-      :class="{'team-no-img': !src }"
+      :class="{'team-no-img': !src ,'team-desc-zh':$i18n.locale==='zh'}"
     >
       <span class="name">{{$t(`team.nameMap['${name}'].name`)}}</span>
       <div class="icon-wrapper">
@@ -99,6 +99,9 @@ export default {
     padding: 0px 20px;
     margin-top: -10px;
     height: 300px;
+    &.team-desc-zh{
+        height: 150px;
+    }
     .name {
       font-family: $font-family-main;
       line-height: 28px;

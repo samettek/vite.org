@@ -16,8 +16,7 @@ module.exports = {
   media: {
     medium: 'Medium',
     bitcointalk: 'Bitcointalk',
-    blog: 'Technology Blog',
-    forum: 'Forum'
+    forum: '论坛'
   },
   nav: {
     index: '首页',
@@ -504,7 +503,7 @@ module.exports = {
       },
       'viteLiz': {
         'name': 'viteLiz',
-        'job': '后端开发工程师',
+        'job': 'vm开发工程师',
         'position': '北京',
         description: '3年以上互联网后台服务开发经验，曾在中国知名互联网企业任职'
       },
@@ -586,7 +585,7 @@ module.exports = {
       },
       'Rod': {
         'name': 'Rod',
-        'job': '工程师',
+        'job': '后端开发工程师',
         'position': '北京',
         description: '5年后端服务设计开发经验，曾在中国知名互联网企业任职。'
       },
