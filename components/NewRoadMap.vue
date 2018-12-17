@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h1 class="roadmap-title">路线图</h1>
+    <h1 class="roadmap-title">{{ $t('roadmap.title')}}</h1>
 
     <div class="container is-flex">
       <div

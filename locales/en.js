@@ -47,13 +47,13 @@ module.exports = {
   },
   home: {
     header: 'Vite',
-    slogan: 'High-performance decentralized ecosystem',
+    slogan: 'High-performance Decentralized Ecosystem',
     whitePaper: 'White Paper',
     testnet: 'TestNet',
     acttext: 'Vote for SBPs, </br>collect VITE',
     actwait: 'Stay tuned!',
     news: 'Latest News',
-    starttoUse: 'Get started on Vite'
+    starttoUse: 'Get Started on Vite'
   },
   roadmap: {
     title: 'Roadmap',
@@ -346,7 +346,7 @@ module.exports = {
   team: {
     'core': 'Team',
     'advisor': 'Advisors',
-    'join': '加入我们',
+    'join': 'Join Us',
     'nameMap': {
       'liuchunming': {
         'name': 'Charles',
@@ -420,7 +420,7 @@ module.exports = {
         'name': 'Agata Aks',
         'job': 'Creative Marketing / Business Operations Associate',
         'position': 'Silicon Valley, United States',
-        description: 'Agatabrings to us a wide range of experiences in social media marketing and legal services. She graduated from University of California, Santa Barbara with BA in Psychological Sciences, and concentrations in Professional Writing for Civic Engagement.  She speaks English, Russian and French.'
+        description: 'Agata brings to us a wide range of experiences in social media marketing and legal services. She graduated from University of California, Santa Barbara with BA in Psychological Sciences, and concentrations in Professional Writing for Civic Engagement.  She speaks English, Russian and French.'
       },
       'Lola': {
         'name': 'Lola',
@@ -432,7 +432,7 @@ module.exports = {
         'name': 'Logan',
         'job': 'iOS Developer',
         'position': 'Beijing, China',
-        description: '4 years of experience in iOS development. Previously developed 3 different Apps with over hundreds of millions DAU.'
+        description: '4 years\' experience in iOS development. Previously developed 3 different Apps with over hundreds of millions DAU.'
       },
       'Stone': {
         'name': 'Stone',
@@ -498,7 +498,7 @@ module.exports = {
         'name': 'Ada',
         'job': 'Senior Researcher',
         'position': 'Beijing, China',
-        description: 'Previously worked in Tencent and JD, over 5years experiences of machine learning algorithm development and big data analysis.'
+        description: 'Previously worked in Tencent and JD, over 5 years experiences of machine learning algorithm development and big data analysis.'
 
       },
       'Jin': {
@@ -818,7 +818,7 @@ module.exports = {
     ]
   },
   investor: {
-    title: 'Our investors'
+    title: 'Our Investors'
   },
   urls: {
     telegram: {
