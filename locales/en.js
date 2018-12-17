@@ -124,7 +124,7 @@ module.exports = {
         'description': 'Vite TestNet Release'
       },
       {
-        'time': 'J2020.01',
+        'time': '2020.01',
         'description': 'Vite 1.0 Release'
       },
       {
