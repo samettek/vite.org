@@ -53,7 +53,7 @@ module.exports = {
     acttext: 'Vote for SBPs, </br>collect VITE',
     actwait: 'Stay tuned!',
     news: 'Latest News',
-    starttoUse: '开始使用Vite'
+    starttoUse: 'Get started on Vite'
   },
   roadmap: {
     title: 'Roadmap',
@@ -350,52 +350,52 @@ module.exports = {
     'nameMap': {
       'liuchunming': {
         'name': 'Charles',
-        'position': 'Beijing',
+        'position': 'Beijing, China',
         'description': 'Veteran blockchain entrepreneur and technical expert. Standing director of China Blockchain Application Research Center. Graduated from China University of Science and Technology and the Institute of Software of the Chinese Academy of Sciences. Former senior architect of JD.com, co-founder of Coinport, and engineering director of Meituan Dianping. Abundant experience in distributed systems and high concurrency systems.'
       },
       'wangdong': {
         'name': 'Daniel Wang',
-        'position': '',
+        'position': 'Beijing, China',
         'description': 'Seasoned blockchain entrepreneur.  Graduated from China University of Science and Technology and Arizona State University.  Founder of Loopring, former Google America Tech Lead, Co-founder and VP of Yun Yun Wang, Senior Research and Development Director at JD.com, and Co-Founder of Coinport.'
       },
       'terenceLam': {
         'name': 'Terence Lam',
-        'position': '',
+        'position': 'Beijing, China',
         'description': 'Veteran investor.  Graduated from Harvard Business School.  Partner of Zhizi Blockchain Investment Fund.  Adjust professor of SPACE China business school at Hong Kong University.  20+ years’ experience as senior technical manager at Global 500 companies. Started many technology startups.'
       },
       'richard': {
         name: 'Richard',
-        position: '',
+        'position': 'Silicon Valley, United States',
         description: 'Seasoned Wall Street professional. Graduated B.A. from Dartmouth College and MBA from New York University.  Previously structured product trading strategist at Goldman Sachs and Vice President of Two Sigma\'s high-frequency platform and Business Innovation & Growth group.'
       },
       frank: {
         name: 'Frank Deng',
-        position: '',
+        'position': 'Beijing, China',
         description: 'Expert in digital and mobile marketing. Graduated from Tsinghua University. Served in Google Ads Operations Group, COO of Suizong Technology and co-founder of Yunke Technology.'
       },
       allen: {
         name: 'Allen Liu',
-        position: '',
+        'position': 'Beijing, China',
         description: 'Senior technical specialist. Graduated from China University of Science and Technology and Fudan University. Former HP Tech Lead; former IBM senior architect and product manager. Having 10 years high concurrency experience in multinational firms. Scrum expert. PMP.'
       },
       zhangli: {
         name: 'Li Zhang',
-        position: '',
+        'position': 'Beijing, China',
         description: 'Senior blockchain practitioner, investor. LinkVC Capital Partners, former CMO of F2pool , former business officer of Huobi.'
       },
       mirza: {
         name: 'Mirza Uddin',
-        position: '',
+        'position': 'Beijing, China',
         description: 'Mirza was previously a venture capitalist at Two Sigma, one of the largest quantitative hedge funds, where he was heavily involved in researching Blockchain startups. He also previously worked for Index Ventures and The Boston Consulting Group. Mirza earned his BA from Harvard University.'
       },
       ivan: {
         name: 'Ivan Golovko',
-        position: '',
+        'position': 'Beijing, China',
         description: 'VP Strategy and Investor Relations of LegalThings One. Co-founder of Distributed.Fund and Distributed Alliance. Former CMO of ICODrops.'
       },
       leo: {
         name: 'Leo',
-        position: '',
+        'position': 'Beijing, China',
         description: 'Seasoned blockchain investor and senior technical expert. Previously led engineering efforts at Meituan and Coinport.'
       },
       'Chris Li': {
@@ -468,12 +468,13 @@ module.exports = {
         'name': 'Abbott',
         'job': 'QA',
         'position': 'Beijing, China',
-        description: '4年QA经验，曾主导美团打车司机端测试工作，擅长风险控制及质量保障。'
+        description: '4 years experiences of QA, previously in charge of testing of Meituan Dache Driver end, is expert in risk control and quality assurance.'
 
       },
       Layla: {
         name: 'Layla',
-        position: 'Beijing, China'
+        position: 'Beijing, China',
+        job: 'UI Designer'
       },
       'hubery': {
         'name': 'Hubery',
@@ -497,7 +498,7 @@ module.exports = {
         'name': 'Ada',
         'job': 'Senior Researcher',
         'position': 'Beijing, China',
-        description: '曾就职于腾讯、京东，5年以上机器学习算法研发、大数据分析经验；'
+        description: 'Previously worked in Tencent and JD, over 5years experiences of machine learning algorithm development and big data analysis.'
 
       },
       'Jin': {

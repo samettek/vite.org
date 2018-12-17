@@ -389,81 +389,77 @@ module.exports = {
       },
       'wangdong': {
         'name': '王东',
-        'position': '',
+        'position': '北京',
         'description': '资深区块链创业者。毕业于中国科技大学，亚利桑那州立大学。路印协议创始人，前Google美国Tech Lead，云云网联合创始人兼副总裁，京东高级研发总监，币丰港联合创始人。'
       },
       allen: {
         name: '刘晓涛',
-        position: '',
+        'position': '北京',
         description: '资深技术专家。毕业于中国科技大学，复旦大学。前HP Tech Lead，前IBM系统架构师，产品负责人。10年知名外企高并发工作经验，Scrum敏捷开发专家，PMP。'
       },
       'terenceLam': {
         'name': 'Terence Lam',
-        'position': '',
+        'position': '北京',
         'description': '毕业于哈佛商学院。智子区块链基金合伙人。香港大学SPACE中国商业学院客座讲师。20年以上全球500强公司技术高管经验。曾创办过多家科技公司。'
       },
       'richard': {
         name: 'Richard',
-        position: '',
+        position: '硅谷',
         description: '资深金融专家，多年华尔街工作经验。毕业于美国达特茅斯学院和纽约大学MBA。曾任职纽约高盛结构性资产交易策略副总裁，Two Sigma高频交易及商务创新拓展副总裁。'
       },
       Layla: {
         name: '王爽',
-        position: '北京'
+        position: '北京',
+        'job': 'UI设计师',
+        description: '5年互联网公司设计经验'
       },
       frank: {
         name: '邓远辉',
-        position: '',
+        'position': '北京',
         description: '数字营销及移动营销专家。毕业于清华大学。曾任职Google广告运营组，随踪科技COO，云克科技联合创始人。'
       },
       zhangli: {
         name: '张力',
-        position: '',
+        'position': '北京',
         description: '资深区块链从业者，投资人。连接资本合伙人，前鱼池F2pool CMO，前火币商务负责人。'
       },
       mirza: {
         name: 'Mirza Uddin',
-        position: '',
+        'position': '硅谷',
         description: 'Mirza毕业于哈佛大学。他曾在掌管500亿美元的美国量化对冲基金双西资本从事风险投资，其中包括深度研究区块链创业公司。他曾经就职于投资过Facebook和Dropbox的Index Ventures风险投资基金和波士顿咨询公司。'
       },
       ivan: {
         name: 'Ivan Golovko',
-        position: '',
+        'position': '硅谷',
         description: 'LegalThings One 公司的策略与投资者关系副总裁。俄国著名基金Distributed.Fund的联合创始人。曾任全球知名评测网站ICODrops的首席市场官。'
-      },
-      zhoudan: {
-        name: 'ZHOU DAN',
-        position: 'BEIJING',
-        description: 'hhhhhhhhhhhh',
-        job: '前端开发工程师'
       },
       leo: {
         name: '张灵勇',
-        position: '',
+        'position': '北京',
         description: '资深区块链投资者，高级工程师，曾任职于美团、币丰港。'
       },
       'Chris Li': {
         'name': 'Chris Li',
         'job': '业务拓展总监',
-        'position': '美国',
+        'position': '硅谷',
         description: 'Chris在投资，商务拓展和运营领域经验丰富。GBiB前美国业务总监，曾在zhong guan cun中关村硅谷分公司担任投资经理，负责硅谷孵化器和投资业务，曾在纽约华尔街的美东最大华人孵化器工作。美国里海大学工业工程硕士。'
       },
       'Luke Kim': {
         'name': 'Luke Kim',
         'job': 'CMO',
-        'position': '美国',
+        'position': '硅谷',
         description: 'Luke是来自加州的数字领域企业家，曾住在首尔和东京。曾担任城市发展基金会和SuperPublic CoLab的商务拓展经理，欧洲创新学院的美国关系主管，Gateway加速器的战略合作总监，和VC的战略合作伙伴关系主管。 Startup Grind Berkeley的联合创始人，以及3 Day Startup Berkeley and Paladin的合伙人。最近的职位是在一家瑞士资产管理公司从事加密资产基金和ICO，以及任职于一家韩国科技企业初创公司。毕业于伯克利大学，欧洲政治经济学学士。'
       },
       'Jeff Ng': {
         'name': 'Jeff Ng',
         'job': '社区项目经理',
-        'position': '美国',
+        'position': '硅谷',
         description: '区块链爱好者，经验丰富的线上社区管理者和活动策划者。在制造业，库存管理，物流和艺术收藏等领域有丰富的创业和运营经验。毕业于美国Cal Poly San Luis Obispo，机械工程专业。'
       },
       'Agata Aks': {
         'name': 'Agata Aks',
         'job': '创意市场/业务运营助理',
-        'position': '美国',
+        'position': '硅谷',
         description: 'Agata有社交媒体营销和法律服务方面的丰富经验。她毕业于加州大学圣巴巴拉分校，获得心理科学学士学位以及写作方向。她精通英语，俄语和法语。'
       },
 
@@ -648,12 +644,6 @@ module.exports = {
         description: '曾在优分期、新浪金融任职数据分析师，3年运营+风控工作经验'
       },
 
-      Layla: {
-        'name': 'Layla',
-        'job': 'UI设计师',
-        'position': '北京',
-        description: '5年互联网公司设计经验'
-      },
       'Miya': {
         'name': 'Miya',
         'job': 'UI设计师',

@@ -271,7 +271,7 @@ export default {
   font-size: 16px;
   padding-top: 22px;
   .act {
-    margin-bottom: 10px;
+    margin:10px auto 5px;
   }
 }
 .nuxt-content {
@@ -323,7 +323,8 @@ export default {
 .navbar {
   border-bottom: 1px solid transparent;
   z-index: 222222;
-  background: transparent;
+  background: #fff;
+
   &.headroom--not-top {
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
     background: white;

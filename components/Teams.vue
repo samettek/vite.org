@@ -125,8 +125,8 @@ export default {
             }
           ]
         },
-        { urls: [], key: "Chris Li" },
         { urls: [], key: "Luke Kim" },
+        { urls: [], key: "Chris Li" },
         { urls: [], key: "Jeff Ng" },
         { urls: [], key: "Agata Aks" },
         { urls: [], key: "Ada" },

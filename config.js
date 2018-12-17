@@ -68,7 +68,7 @@ module.exports = {
     media: {
       medium: 'https://medium.com/vitelabs',
       bitcointalk: 'https://bitcointalk.org/index.php?topic=4438416',
-      forum: 'https://forum.vite.net/category/18/%E5%85%AC%E5%91%8A'
+      forum: 'https://forum.vite.net'
     },
     vote: {
       specific: {
