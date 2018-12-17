@@ -125,10 +125,34 @@ export default {
             }
           ]
         },
-        { urls: [], key: "Luke Kim" },
-        { urls: [], key: "Chris Li" },
+        {
+          urls: [
+            {
+              icon: ["fab", "linkedin"],
+              url: "https://www.linkedin.com/in/lukekim153/"
+            }
+          ],
+          key: "Luke Kim"
+        },
+        {
+          urls: [
+            {
+              icon: ["fab", "linkedin"],
+              url: "https://www.linkedin.com/in/kunyuanli/"
+            }
+          ],
+          key: "Chris Li"
+        },
         { urls: [], key: "Jeff Ng" },
-        { urls: [], key: "Agata Aks" },
+        {
+          urls: [
+            {
+              icon: ["fab", "linkedin"],
+              url: "https://www.linkedin.com/in/agataaks/"
+            }
+          ],
+          key: "Agata Aks"
+        },
         { urls: [], key: "Ada" },
         {
           urls: [
@@ -136,7 +160,16 @@ export default {
           ],
           key: "Eric"
         },
-        { urls: [{icon: ["fab", "github"], url: "https://github.com/weichaolee"},{icon: ["fab", "linkedin"], url: "https://www.linkedin.com/in/伟超-李-005721167/"}], key: "weichao" },
+        {
+          urls: [
+            { icon: ["fab", "github"], url: "https://github.com/weichaolee" },
+            {
+              icon: ["fab", "linkedin"],
+              url: "https://www.linkedin.com/in/伟超-李-005721167/"
+            }
+          ],
+          key: "weichao"
+        },
         {
           urls: [
             { icon: ["fab", "github"], url: "https://github.com/viteshan" }
@@ -153,7 +186,12 @@ export default {
           urls: [{ icon: ["fab", "github"], url: "https://github.com/lyd00" }],
           key: "hubery"
         },
-        { urls: [{ icon: ["fab", "github"], url: "https://github.com/viteFeng" }], key: "Rod" },
+        {
+          urls: [
+            { icon: ["fab", "github"], url: "https://github.com/viteFeng" }
+          ],
+          key: "Rod"
+        },
         {
           urls: [
             { icon: ["fab", "github"], url: "https://github.com/alex-yf" }
@@ -167,7 +205,12 @@ export default {
           ],
           key: "viteLiz"
         },
-        { urls: [{ icon: ["fab", "github"], url: "https://github.com/TiantaoZhu" }], key: "Tiantao" },
+        {
+          urls: [
+            { icon: ["fab", "github"], url: "https://github.com/TiantaoZhu" }
+          ],
+          key: "Tiantao"
+        },
         {
           urls: [
             { icon: ["fab", "github"], url: "https://github.com/jerry-vite" }
@@ -208,14 +251,24 @@ export default {
           ],
           key: "Shenyang"
         },
-        { urls: [{
+        {
+          urls: [
+            {
               icon: ["fab", "github"],
               url: "https://github.com/woodghost"
-            }], key: "Tina" },
-        { urls: [{
+            }
+          ],
+          key: "Tina"
+        },
+        {
+          urls: [
+            {
               icon: ["fab", "github"],
               url: "https://github.com/lovelycs"
-            }], key: "Cecelia" },
+            }
+          ],
+          key: "Cecelia"
+        },
 
         {
           urls: [
@@ -223,7 +276,16 @@ export default {
           ],
           key: "Reg"
         },
-        { urls: [{ icon: ["fab", "github"], url: "https://github.com/swan-zhou" },{ icon: ["fab", "linkedin"], url: "https://www.linkedin.com/in/%E4%B8%B9-%E5%96%B5-795a72169/" }], key: "Daisy" },
+        {
+          urls: [
+            { icon: ["fab", "github"], url: "https://github.com/swan-zhou" },
+            {
+              icon: ["fab", "linkedin"],
+              url: "https://www.linkedin.com/in/%E4%B8%B9-%E5%96%B5-795a72169/"
+            }
+          ],
+          key: "Daisy"
+        },
         {
           urls: [
             { icon: ["fab", "github"], url: "https://github.com/qianlei-jia" }

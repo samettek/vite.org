@@ -457,7 +457,7 @@ module.exports = {
       },
       'Alex': {
         'name': 'Alex',
-        'job': 'Back-end Developer',
+        'job': 'Complier Software Engineer',
         'position': 'Beijing, China',
         description: '3+ years of experience in back-end service development. Formerly worked for a topnotch Chinese It firm Baidu, served as back-end engineer.'
       },
@@ -469,7 +469,7 @@ module.exports = {
       },
       'viteLiz': {
         'name': 'viteLiz',
-        'job': 'Back-end Developer',
+        'job': 'VM Developer',
         'position': 'Beijing, China',
         description: '3+ years of experience in back-end service development. Formerly worked for a well-known IT company in China.'
       },
