@@ -16,7 +16,8 @@ module.exports = {
   media: {
     medium: 'Medium',
     bitcointalk: 'Bitcointalk',
-    blog: 'Technology Blog'
+    blog: 'Technology Blog',
+    forum: 'Forum'
   },
   nav: {
     index: '首页',
