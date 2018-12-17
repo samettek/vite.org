@@ -129,10 +129,6 @@ module.exports = {
       }
     ]
   },
-  partnership: {
-    title: '合作',
-    contact: '合作请联系'
-  },
   elector: {
     'title': '超级节点竞选人',
     'detailTitles': [
@@ -484,7 +480,7 @@ module.exports = {
         description: '5年 iOS 开发经验，曾在中国知名互联网企业任职'
       },
       'jerry': {
-        'name': 'jerry',
+        'name': 'Jerry',
         'job': '后端开发工程师',
         'position': '北京',
         description: '5年互联网开发经验，曾在中国知名互联网企业任职'
@@ -503,7 +499,7 @@ module.exports = {
       },
       'viteLiz': {
         'name': 'viteLiz',
-        'job': 'vm开发工程师',
+        'job': 'VM开发工程师',
         'position': '北京',
         description: '3年以上互联网后台服务开发经验，曾在中国知名互联网企业任职'
       },
@@ -661,6 +657,8 @@ module.exports = {
     }
   },
   partnership: {
+    title: '合作',
+    contact: '合作请联系',
     okex: {
       desc: {
         text1: 'Vite Labs和OK资本宣布建立长期战略合作伙伴关系。',

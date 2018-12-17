@@ -133,10 +133,6 @@ module.exports = {
       }
     ]
   },
-  partnership: {
-    title: 'Cooperation',
-    contact: 'Contact to Seek Cooperation'
-  },
   elector: {
     'title': 'SBP Candidates',
     'detailTitles': [
@@ -450,7 +446,7 @@ module.exports = {
         description: '5+ years of experience in iOS development. Previously worked for well-known IT firms in China.'
       },
       'jerry': {
-        'name': 'jerry',
+        'name': 'Jerry',
         'job': 'Back-end Developer',
         'position': 'Beijing, China',
         description: '5+ years of experience in back-end service development. Formerly worked for well-known IT firms in China.'
@@ -622,6 +618,8 @@ module.exports = {
     }
   },
   partnership: {
+    title: 'Cooperation',
+    contact: 'Contact to Seek Cooperation',
     okex: {
       desc: {
         text1: 'Vite Labs announces long-term strategic partnership with OK Blockchain Capital.',

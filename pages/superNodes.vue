@@ -79,61 +79,12 @@ export default {
   font-size: 44px;
   color: #171c34;
   margin: 60px auto;
-}
-.faq-header {
-  height: 340px;
+  display:flex;
+  align-content: center;
+  flex-wrap: wrap;
   .explain {
-    color: white;
-  }
-  h1 {
-    font-size: 60px;
-    font-family: $font-family-main;
-    color: rgba(144, 146, 154, 1);
-    line-height: 100px;
-    padding-top: 100px;
-    display: inline-block;
-  }
-  h2 {
-    font-size: 28px;
-    font-family: $font-family-light;
-    color: rgba(144, 146, 154, 1);
-    line-height: 40px;
-  }
-
-  .img-wrapper {
-    height: 270px;
-    width: 270px;
-    position: absolute;
-    right: 0;
-    top: 35px;
-  }
-
-  @include touch {
-    padding: 20px 1.5rem;
-    height: auto;
-    text-align: center;
-    .img-wrapper {
-      position: relative;
-      width: 100%;
-      height: 135px;
-      right: auto;
-      top: auto;
-      margin-bottom: 35px;
-      img {
-        width: 135px;
-        height: 135px;
-      }
-    }
-    h1 {
-      font-size: 32px;
-      line-height: 45px;
-      padding-top: 0;
-    }
-    h2 {
-      font-size: 14px;
-      line-height: 20px;
-      margin-bottom: 25px;
-    }
+    font-size: 25px;
+    line-height: 60px;
   }
 }
 .external-title {

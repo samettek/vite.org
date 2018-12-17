@@ -34,8 +34,8 @@
       <div class="desc is-flex">
         <div
           class="job"
-        >{{$t(`team.nameMap['${name}'].job`)}}</div>
-        <div class="position"><span >|</span> {{$t(`team.nameMap['${name}'].position`)}}</div>
+        >{{$t(`team.nameMap['${name}']`).job}}</div>
+        <div class="position"><span v-if="$t(`team.nameMap['${name}']`).job">|</span> {{$t(`team.nameMap['${name}'].position`)}}</div>
       </div>
       <p class="desc">{{$t(`team.nameMap['${name}']`).description}}</p>
     </div>
