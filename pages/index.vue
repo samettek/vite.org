@@ -12,9 +12,9 @@
 
           <div class="btn-group-wrapper">
             <a
-              href="https://vite.net/"
+              :href="vitenet"
               target="_blank"
-            >开始使用Vite</a>
+            >{{$t('home.starttoUse')}}</a>
           </div>
         </div>
       </div>
@@ -78,6 +78,11 @@ export default {
     onNavClick() {
       this.navbarActive = false;
     }
+  },
+  computed:{
+      vitenet(){
+          return config.urls.viteNet[this.$i18n.locale]
+      }
   }
 };
 </script>

@@ -43,7 +43,8 @@ module.exports = {
     testnet: '预览版',
     acttext: '投票超级节点</br>赢 VITE',
     actwait: '敬请期待',
-    news: '最新消息'
+    news: '最新消息',
+    starttoUse: '开始使用Vite'
   },
   about: {
     introduction: '简介',
@@ -463,73 +464,74 @@ module.exports = {
 
       'Logan': {
         'name': 'Logan',
-        'job': 'iOS开发',
+        'job': 'iOS 开发工程师',
         'position': '北京',
         description: '4年iOS开发经验，曾开发过3款日活百万的App'
       },
       'Stone': {
         'name': 'Stone',
-        'job': 'iOS开发',
+        'job': 'iOS 开发工程师',
         'position': '北京',
         description: '5年 iOS 开发经验，曾在中国知名互联网企业任职'
       },
       'jerry': {
         'name': 'jerry',
-        'job': '后端开发',
+        'job': '后端开发工程师',
         'position': '北京',
         description: '5年互联网开发经验，曾在中国知名互联网企业任职'
       },
       'Alex': {
         'name': 'Alex',
-        'job': '后端开发',
+        'job': '编译器开发工程师',
         'position': '北京',
         description: '3年互联网后台服务开发经验，曾在百度任职开发工程师'
       },
       'Tuprise': {
         'name': 'Tuprise',
-        'job': '后端开发',
+        'job': '后端开发工程师',
         'position': '北京',
         description: '7年后端服务开发及架构，曾职于亚信、艺龙等国内知名互联网企业；在海量数据处理、高并发方面具有丰富的经验；'
       },
       'viteLiz': {
         'name': 'viteLiz',
-        'job': '后端开发',
+        'job': '后端开发工程师',
         'position': '北京',
         description: '3年以上互联网后台服务开发经验，曾在中国知名互联网企业任职'
       },
 
       'hubery': {
         'name': 'hubery',
-        'job': '后端开发',
+        'job': '后端开发工程师',
         'position': '北京',
         description: '5年互联网开发经验，曾就职于腾讯、猿题库等公司，毕业于西安电子科技大学'
       },
       'Cecelia': {
         'name': 'Cecelia',
-        'job': '前端开发',
+        'job': '前端开发工程师',
         'position': '北京',
         description: '3年互联网开发经验，曾在中国知名互联网企业任职'
       },
       'viteshan': {
         'name': 'viteshan',
-        'job': '后端开发',
+        'job': '后端开发工程师',
         'position': '北京',
         description: '3年互联网后端开发经验，曾在中国知名互联网企业任职'
       },
       'Ada': {
         'name': 'Ada',
         'job': '研究员',
-        'position': '北京'
+        'position': '北京',
+        description: '曾就职于腾讯、京东，5年以上机器学习算法研发、大数据分析经验；'
       },
       'Jin': {
         'name': 'Jin',
-        'job': '后端开发',
+        'job': '后端开发工程师',
         'position': '北京',
         description: '3年互联网金融后台服务开发经验'
       },
       'Shenyang': {
         'name': 'Shenyang',
-        'job': 'iOS',
+        'job': 'iOS 开发工程师',
         'position': '北京',
         description: '4年以上互联网开发经验，曾在中国知名互联网企业任职'
       },
@@ -542,33 +544,33 @@ module.exports = {
       },
       'Asurily': {
         'name': 'Asurily',
-        'job': '后端开发',
+        'job': '后端开发工程师',
         'position': '北京',
         description: '三年区块链项目经验，硕士毕业于东北大学，研究方向为“区块链与数据存储”。'
       },
       'Reg': {
         'name': 'Reg',
-        'job': '前端开发',
+        'job': '前端开发工程师',
         'position': '北京',
         description: '3年前端开发经验，曾在中国知名互联网企业任职'
       },
 
       'Tiantao': {
         'name': 'Tiantao',
-        'job': '后端开发',
+        'job': '后端开发工程师',
         'position': '北京',
         description: '3年安全、网络、客户端系统架构设计经验，所开发的多个安全、网络、认证等客户端核心组件支撑某中国互联网三强内部核心系统。'
       },
       'weichao': {
         'name': 'weichao',
-        'job': '后端开发',
+        'job': '后端开发工程师',
         'position': '北京',
         'description': '7年后端服务架构设计经验，曾参与QPS 3w+系统的设计与开发，2年区块链系统开发经验。'
       },
 
       'Tina': {
         'name': 'Tina',
-        'job': '前端开发',
+        'job': '前端开发工程师',
         'position': '北京',
         description: '3年前端开发经验，毕业于新加坡南洋理工大学（NTU），获得信息科学硕士学位。曾任职于中国和新加坡知名互联网企业。'
       },
@@ -580,19 +582,20 @@ module.exports = {
       },
       'Daisy': {
         'name': 'Daisy',
-        'job': '前端开发',
+        'job': '前端开发工程师',
         'position': '北京',
         description: '3年前端开发经验，曾任职于国内知名的互联网企业，熟练运用vue，node等开发框架。'
       },
       'Abbott': {
         'name': 'Abbott',
-        'job': '测试',
-        'position': '北京'
+        'job': '测试工程师',
+        'position': '北京',
+        description: '4年QA经验，曾主导美团打车司机端测试工作，擅长风险控制及质量保障。'
       },
 
       'Hannah': {
         'name': 'Hannah',
-        'job': 'QA',
+        'job': '测试工程师',
         'position': '北京',
         description: '2年测试开发经验；参与过自动化测试框架设计；2年后台存储开发测试经验，对gluster分布式存储技术有一定了解；与军工单位合作，在数据安全加密存储方面有相关经验'
       },
@@ -642,13 +645,13 @@ module.exports = {
 
       Layla: {
         'name': 'Layla',
-        'job': 'UI设计',
+        'job': 'UI设计师',
         'position': '北京',
         description: '5年互联网公司设计经验'
       },
       'Miya': {
         'name': 'Miya',
-        'job': 'UI设计',
+        'job': 'UI设计师',
         'position': '北京',
         description: '3年UI设计经验，涉足多项互联网产业项目，曾就职大型国企公司，负责设计多个国家项目'
       }
@@ -1008,7 +1011,7 @@ module.exports = {
     placeholder: '请输入邮箱地址'
   },
   featureTitle: 'Vite特性',
-  featureTitle2: '为什么Vite性能优越？',
+  featureTitle2: '为什么Vite优越超群？',
   features: {
     performance: { title: '高性能', tags: ['DAG账本', '异步架构'] },
     safety: { title: '安全性', tags: ['多代币模型', '快照链'] },

@@ -2,9 +2,6 @@
   <div>
     <section class="faq-header">
       <div class="container">
-        <div class="img-wrapper">
-          <img src="~/assets/images/faq.png" alt="FAQ">
-        </div>
         <h1 v-html="$t('superNodes.title')"></h1><span class="explain" v-if="$i18n.locale === 'en'">(Snapshot Block Producer)</span>
       </div>
     </section>
@@ -63,7 +60,7 @@
       color: white;
     }
     h1 {
-      font-size:72px;
+      font-size:60px;
       font-family: $font-family-main;
       color:rgba(144,146,154,1);
       line-height:100px;

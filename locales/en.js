@@ -51,7 +51,8 @@ module.exports = {
     testnet: 'TestNet',
     acttext: 'Vote for SBPs, </br>collect VITE',
     actwait: 'Stay tuned!',
-    news: 'Latest News'
+    news: 'Latest News',
+    starttoUse: '开始使用Vite'
   },
   roadmap: {
     title: 'Roadmap',
@@ -465,7 +466,9 @@ module.exports = {
       'Abbott': {
         'name': 'Abbott',
         'job': 'QA',
-        'position': 'Beijing, China'
+        'position': 'Beijing, China',
+        description: '4年QA经验，曾主导美团打车司机端测试工作，擅长风险控制及质量保障。'
+
       },
       'hubery': {
         'name': 'hubery',
@@ -488,7 +491,9 @@ module.exports = {
       'Ada': {
         'name': 'Ada',
         'job': 'Senior Researcher',
-        'position': 'Beijing, China'
+        'position': 'Beijing, China',
+        description: '曾就职于腾讯、京东，5年以上机器学习算法研发、大数据分析经验；'
+
       },
       'Jin': {
         'name': 'Jin',

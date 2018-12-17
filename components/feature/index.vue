@@ -292,6 +292,7 @@ export default {
 }
 
 .features {
+    padding:0 60px;
   @include mobile {
     transform: scale(0.7);
     transform-origin: 0 0;

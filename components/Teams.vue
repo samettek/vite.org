@@ -129,21 +129,63 @@ export default {
         { urls: [], key: "Luke Kim" },
         { urls: [], key: "Jeff Ng" },
         { urls: [], key: "Agata Aks" },
+        { urls: [], key: "Ada" },
         {
           urls: [
-            {
-              icon: ["fab", "linkedin"],
-              url:
-                "https://www.linkedin.com/in/%E5%90%9B%E6%80%A1-%E6%9D%8E-4b9562b4/"
-            }
+            { icon: ["fab", "github"], url: "https://github.com/roymoro" }
           ],
-          key: "Lola"
+          key: "Eric"
+        },
+        { urls: [], key: "weichao" },
+        {
+          urls: [
+            { icon: ["fab", "github"], url: "https://github.com/viteshan" }
+          ],
+          key: "viteshan"
         },
         {
           urls: [
-            { icon: ["fab", "github"], url: "https://github.com/buckcao" }
+            { icon: ["fab", "github"], url: "https://github.com/tuprise" }
           ],
-          key: "Logan"
+          key: "Tuprise"
+        },
+        {
+          urls: [{ icon: ["fab", "github"], url: "https://github.com/lyd00" }],
+          key: "hubery"
+        },
+        { urls: [], key: "Rod" },
+        {
+          urls: [
+            { icon: ["fab", "github"], url: "https://github.com/alex-yf" }
+          ],
+          key: "Alex"
+        },
+
+        {
+          urls: [
+            { icon: ["fab", "github"], url: "https://github.com/viteLiz" }
+          ],
+          key: "viteLiz"
+        },
+        { urls: [], key: "Tiantao" },
+        {
+          urls: [
+            { icon: ["fab", "github"], url: "https://github.com/jerry-vite" }
+          ],
+          key: "jerry"
+        },
+        {
+          urls: [
+            { icon: ["fab", "github"], url: "https://github.com/vite-crzn" }
+          ],
+          key: "Jin"
+        },
+
+        {
+          urls: [
+            { icon: ["fab", "github"], url: "https://github.com/vite-pu" }
+          ],
+          key: "Asurily"
         },
         {
           urls: [
@@ -153,51 +195,9 @@ export default {
         },
         {
           urls: [
-            { icon: ["fab", "github"], url: "https://github.com/jerry-vite" }
+            { icon: ["fab", "github"], url: "https://github.com/buckcao" }
           ],
-          key: "jerry"
-        },
-        {
-          urls: [
-            { icon: ["fab", "github"], url: "https://github.com/alex-yf" }
-          ],
-          key: "Alex"
-        },
-        {
-          urls: [
-            { icon: ["fab", "github"], url: "https://github.com/tuprise" }
-          ],
-          key: "Tuprise"
-        },
-        {
-          urls: [
-            { icon: ["fab", "github"], url: "https://github.com/viteLiz" }
-          ],
-          key: "viteLiz"
-        },
-        {
-          urls: [
-            { icon: ["fab", "github"], url: "https://github.com/qianlei-jia" }
-          ],
-          key: "Abbott"
-        },
-        {
-          urls: [{ icon: ["fab", "github"], url: "https://github.com/lyd00" }],
-          key: "hubery"
-        },
-        { urls: [], key: "Cecelia" },
-        {
-          urls: [
-            { icon: ["fab", "github"], url: "https://github.com/viteshan" }
-          ],
-          key: "viteshan"
-        },
-        { urls: [], key: "Ada" },
-        {
-          urls: [
-            { icon: ["fab", "github"], url: "https://github.com/vite-crzn" }
-          ],
-          key: "Jin"
+          key: "Logan"
         },
         {
           urls: [
@@ -208,6 +208,41 @@ export default {
           ],
           key: "Shenyang"
         },
+        { urls: [], key: "Tina" },
+        { urls: [], key: "Cecelia" },
+
+        {
+          urls: [
+            { icon: ["fab", "github"], url: "https://github.com/hurrytospring" }
+          ],
+          key: "Reg"
+        },
+        { urls: [], key: "Daisy" },
+        {
+          urls: [
+            { icon: ["fab", "github"], url: "https://github.com/qianlei-jia" }
+          ],
+          key: "Abbott"
+        },
+        {
+          urls: [
+            { icon: ["fab", "github"], url: "https://github.com/fanglige" }
+          ],
+          key: "Hannah"
+        },
+        { urls: [], key: "Zack" },
+        {
+          urls: [
+            {
+              icon: ["fab", "linkedin"],
+              url:
+                "https://www.linkedin.com/in/%E5%90%9B%E6%80%A1-%E6%9D%8E-4b9562b4/"
+            }
+          ],
+          key: "Lola"
+        },
+        { urls: [], key: "Tony" },
+        { urls: [], key: "Cassie" },
         {
           urls: [
             {
@@ -217,40 +252,9 @@ export default {
           ],
           key: "Candy"
         },
-        {
-          urls: [
-            { icon: ["fab", "github"], url: "https://github.com/roymoro" }
-          ],
-          key: "Eric"
-        },
-        {
-          urls: [
-            { icon: ["fab", "github"], url: "https://github.com/vite-pu" }
-          ],
-          key: "Asurily"
-        },
-        { urls: [], key: "Cassie" },
-        {
-          urls: [
-            { icon: ["fab", "github"], url: "https://github.com/hurrytospring" }
-          ],
-          key: "Reg"
-        },
-        { urls: [], key: "Daisy" },
-        { urls: [], key: "Tiantao" },
-        { urls: [], key: "weichao" },
-        { urls: [], key: "Zack" },
-        { urls: [], key: "Tina" },
-        { urls: [], key: "Rod" },
-        { urls: [], key: "Tony" },
         { urls: [], key: "Flanke" },
         { urls: [], key: "Erin" },
-        {
-          urls: [
-            { icon: ["fab", "github"], url: "https://github.com/fanglige" }
-          ],
-          key: "Hannah"
-        },
+        { urls: [], key: "Layla" },
         { urls: [], key: "Miya" }
       ],
       advisors: [
