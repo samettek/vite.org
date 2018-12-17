@@ -471,8 +471,12 @@ module.exports = {
         description: '4年QA经验，曾主导美团打车司机端测试工作，擅长风险控制及质量保障。'
 
       },
+      Layla: {
+        name: 'Layla',
+        position: 'Beijing, China'
+      },
       'hubery': {
-        'name': 'hubery',
+        'name': 'Hubery',
         'job': 'Back-end Developer',
         'position': 'Beijing, China',
         description: '5+ years of experience in IT development, previously worked for Tencent and Yuantiku. Graduated from Xidian University'
@@ -484,7 +488,7 @@ module.exports = {
         description: '3 years of experience in front-end development, previously worked for a famous IT firm in China.'
       },
       'viteshan': {
-        'name': 'viteshan',
+        'name': 'Viteshan',
         'job': 'Back-end Developer',
         'position': 'Beijing, China',
         description: '3+ years of experience in IT development. Formerly worked for a well-known IT company in China.'
@@ -551,7 +555,7 @@ module.exports = {
         description: '3 years of experience in network security, client-side design of system architecture. Participated in the development of core components within various fields, especially in security, P2P network and verification. These components still play an important role within a core system of top IT firm.'
       },
       'weichao': {
-        'name': 'weichao',
+        'name': 'Weichao',
         'job': 'System Architect',
         'position': 'Beijing, China',
         'description': '7+ years of experience in back-end service architecture design, he made a great effort in design and development of QPS 3w+ system, seasoned blockchain developer.'

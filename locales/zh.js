@@ -407,6 +407,10 @@ module.exports = {
         position: '',
         description: '资深金融专家，多年华尔街工作经验。毕业于美国达特茅斯学院和纽约大学MBA。曾任职纽约高盛结构性资产交易策略副总裁，Two Sigma高频交易及商务创新拓展副总裁。'
       },
+      Layla: {
+        name: '王爽',
+        position: '北京'
+      },
       frank: {
         name: '邓远辉',
         position: '',
