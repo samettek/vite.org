@@ -33,7 +33,7 @@ module.exports = {
     // nodeDetail: 'SBP Details',
     // careers: 'Careers',
     notice: {
-      name: 'SUPER NODES',
+      name: 'SUPERNODES',
       specific: 'Guide for SBP (Snapshot Block Producer)',
       apply: 'Apply for SBP (Snapshot Block Producer) '
     }
@@ -124,7 +124,7 @@ module.exports = {
         'description': 'Vite TestNet Release'
       },
       {
-        'time': 'J2020.01',
+        'time': '2020.01',
         'description': 'Vite 1.0 Release'
       },
       {
