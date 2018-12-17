@@ -274,6 +274,7 @@ export default {
   font-family: $font-family-title;
   width: 100%;
   overflow-x: auto;
+  overflow-y: hidden;
   margin-top: 125px;
   display: flex;
   flex-direction: column;
