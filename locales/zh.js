@@ -18,6 +18,10 @@ module.exports = {
     bitcointalk: 'Bitcointalk',
     forum: '论坛'
   },
+  community: {
+    title: '社区',
+    star: '社区之星'
+  },
   nav: {
     index: '首页',
     team: '团队',
@@ -568,7 +572,7 @@ module.exports = {
       },
       'weichao': {
         'name': 'Weichao',
-        'job': '后端开发工程师',
+        'job': '架构师',
         'position': '北京',
         'description': '7年后端服务架构设计经验，曾参与QPS 3w+系统的设计与开发，2年区块链系统开发经验。'
       },

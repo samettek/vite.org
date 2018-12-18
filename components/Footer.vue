@@ -114,8 +114,17 @@
                       class="text-hover-transition"
                     >
                       <img
-                        class="icon"
+                        class="icon forum"
                         src="~/assets/images/community/forum-icon.svg"
+                      /></a>
+                    <a
+                      :href="urls.weibo"
+                      target="_blank"
+                      class="text-hover-transition"
+                    >
+                      <fa-icon
+                        class="icon"
+                        :icon="['fab', 'weibo']"
                       /></a>
                     <wechat></wechat>
                   </div>
@@ -216,6 +225,9 @@ export default {
     }
     .social-icons {
       margin-right: 10px;
+      .forum{
+          width:28px;
+      }
     }
   }
   .icons {

@@ -13,6 +13,10 @@ module.exports = {
   exchange: {
     okex: 'OKEX.COM'
   },
+  community: {
+    title: 'Community',
+    star: 'Community Star'
+  },
   media: {
     medium: 'Medium',
     bitcointalk: 'Bitcointalk',

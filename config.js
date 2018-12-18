@@ -1,5 +1,6 @@
 module.exports = {
   urls: {
+    weibo: 'https://weibo.com/u/6572727462',
     viteNet: {
       zh: 'https://vite.net/zh',
       en: 'https://vite.net'

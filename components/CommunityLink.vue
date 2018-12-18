@@ -44,6 +44,10 @@
     .flex-top {
       display: flex;
       align-items: flex-start;
+      img{
+          width: 50px;
+          height: 50px;
+      }
     }
     .link-content {
       margin-bottom: 23px;
