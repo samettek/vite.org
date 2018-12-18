@@ -37,7 +37,7 @@ module.exports = {
     // nodeDetail: 'SBP Details',
     // careers: 'Careers',
     notice: {
-      name: 'SUPER NODES',
+      name: 'SUPERNODES',
       specific: 'Guide for SBP (Snapshot Block Producer)',
       apply: 'Apply for SBP (Snapshot Block Producer) '
     }
