@@ -126,6 +126,9 @@ export default {
   }
   .hover-img {
     width: 300px;
+    img{
+        height: 250px;
+    }
   }
   .hover-img-list {
     width: 1000px;

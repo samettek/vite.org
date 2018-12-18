@@ -498,14 +498,14 @@ module.exports = {
         description: '7年后端服务开发及架构，曾职于亚信、艺龙等国内知名互联网企业；在海量数据处理、高并发方面具有丰富的经验；'
       },
       'viteLiz': {
-        'name': 'viteLiz',
+        'name': 'ViteLiz',
         'job': 'VM开发工程师',
         'position': '北京',
         description: '3年以上互联网后台服务开发经验，曾在中国知名互联网企业任职'
       },
 
       'hubery': {
-        'name': 'hubery',
+        'name': 'Jubery',
         'job': '后端开发工程师',
         'position': '北京',
         description: '5年互联网开发经验，曾就职于腾讯、猿题库等公司，毕业于西安电子科技大学'
@@ -517,7 +517,7 @@ module.exports = {
         description: '3年互联网开发经验，曾在中国知名互联网企业任职'
       },
       'viteshan': {
-        'name': 'viteshan',
+        'name': 'Viteshan',
         'job': '后端开发工程师',
         'position': '北京',
         description: '3年互联网后端开发经验，曾在中国知名互联网企业任职'
@@ -567,7 +567,7 @@ module.exports = {
         description: '3年安全、网络、客户端系统架构设计经验，所开发的多个安全、网络、认证等客户端核心组件支撑某中国互联网三强内部核心系统。'
       },
       'weichao': {
-        'name': 'weichao',
+        'name': 'Weichao',
         'job': '后端开发工程师',
         'position': '北京',
         'description': '7年后端服务架构设计经验，曾参与QPS 3w+系统的设计与开发，2年区块链系统开发经验。'
@@ -1007,7 +1007,7 @@ module.exports = {
     media: '媒体'
   },
   joinMailing: {
-    title: '欢迎订阅Vite最新信息',
+    title: '订阅Vite，抢先领福利',
     button: '订阅',
     placeholder: '请输入邮箱地址'
   },

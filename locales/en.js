@@ -874,7 +874,7 @@ module.exports = {
     media: 'MEDIA'
   },
   joinMailing: {
-    title: 'Subscribe to our newsletter',
+    title: 'Subscribe Vite, be the first to win benefits',
     button: 'Subscribe',
     placeholder: 'Email Address'
   },
