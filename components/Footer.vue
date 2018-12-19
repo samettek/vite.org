@@ -152,7 +152,6 @@ import Telegram from "~/components/Telegram";
 import config from "~/config.js";
 import Exchange from "~/components/Exchange.vue";
 import Media from "~/components/Media.vue";
-import WhitePaper from "~/components/WhitePaper.vue";
 import voteNotice from "~/components/voteNotice.vue";
 import about from "~/components/about";
 
@@ -163,7 +162,6 @@ export default {
     Telegram,
     Exchange,
     Media,
-    WhitePaper,
     voteNotice,
     about
   },
@@ -194,7 +192,7 @@ export default {
 
 .footer {
   min-height: 315px;
-  background: url("~assets/images/footer/footer.svg") 46% 13%;
+  background: url("~assets/images/footer/footer.svg") 100% no-repeat;
   z-index: 3;
   padding: 0;
   .ft-container {

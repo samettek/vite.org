@@ -3,10 +3,6 @@
     <section class="section">
       <div class="container">
         <h1 style="margin-bottom: 50px;">{{$t('community.title')}}</h1>
-        <div class="community-star">
-          <img src="~assets/images/community/star.svg" />
-          <span>{{$t('community.star')}}</span>
-        </div>
         <div class="columns content is-multiline">
           <div class="column">
             <div class="columns is-multiline item">
@@ -18,8 +14,12 @@
                   <img src="~assets/images/video/play.svg" />
                 </div>
               </div>
+              <div class="column community-star">
+                <img src="~assets/images/community/star.svg" />
+                <span>{{$t('community.star')}}</span>
+              </div>
               <div
-                class="column is-4"
+                class="column is-4 star-item"
                 v-for="(item, index) in arrays"
                 :key="index"
               >
@@ -28,6 +28,7 @@
                   :picture="item.picture"
                   :cname="item.cname"
                   :name="item.name"
+                  :mediaLink="item.mediaLink"
                 ></community-card>
               </div>
             </div>
@@ -115,55 +116,63 @@ export default {
           img: require("~/assets/images/community/Belgium.svg"),
           cname: "Belgium",
           picture: require("~/assets/images/community/Fernandez-Bravo.jpg"),
-          name: "Angelo Giacomo Canevari"
+          name: "Antonio Fernandez",
+          mediaLink:"https://twitter.com/afbr84"
         },
         {
           key: 1,
           img: require("~/assets/images/community/Russia.svg"),
           picture: require("~/assets/images/community/russia.jpeg"),
           cname: "Russia",
-          name: "Богдан Обойшев"
+          name: "Богдан Обойшев",
+          mediaLink:"https://twitter.com/bodya_oboyshev"
         },
         {
           key: 2,
           img: require("~/assets/images/community/France.svg"),
           picture: require("~/assets/images/community/france.jpeg"),
           cname: "France",
-          name: "Thomas BLANC"
+          name: "Thomas Blanc",
+          mediaLink: "https://twitter.com/ThomasBlnc"
         },
         {
           key: 3,
-          img: require("~/assets/images/community/Malaysia.svg"),
-          picture: require("~/assets/images/community/malaysia.jpg"),
-          cname: "Malaysia",
-          name: "पंकज"
+          img: require("~/assets/images/community/India.svg"),
+          picture: require("~/assets/images/community/india.jpg"),
+          cname: "India",
+          name: "पंकज",
+          mediaLink:"https://twitter.com/CryptoFonzie"
         },
         {
           key: 4,
           img: require("~/assets/images/community/Nigeria.svg"),
           picture: require("~/assets/images/community/nigeria.jpg"),
           cname: "Nigeria",
-          name: "Yomi Oyesiji"
+          name: "Yomi Oyesiji",
+          mediaLink: "https://twitter.com/Mexite3yo"
         },
         {
           key: 5,
           img: require("~/assets/images/community/Italy.svg"),
           picture: require("~/assets/images/community/italy.jpg"),
           cname: "Italy",
-          name: "Angelo Giacomo Canevari"
+          name: "Angelo Giacomo Canevari",
+          mediaLink:"https://twitter.com/Angelo_Canevari"
         },
         {
           key: 6,
           img: require("~/assets/images/community/Thailand.svg"),
           picture: require("~/assets/images/community/thailand.png"),
           cname: "Thailand",
-          name: "Boss"
+          name: "Boss",
+          mediaLink: "https://twitter.com/attakorn_p"
         },
         {
           key: 7,
           img: require("~/assets/images/community/Indonesia.svg"),
           picture: require("~/assets/images/community/indonesia.jpeg"),
           cname: "Indonesia",
+          mediaLink: "https://twitter.com/casualfungames",
           name: "Muhamad"
         },
         {
@@ -171,14 +180,16 @@ export default {
           img: require("~/assets/images/community/Vietnam.svg"),
           picture: require("~/assets/images/community/vietnam.png"),
           cname: "Vietnam",
-          name: "Trang"
+          name: "Trang",
+          mediaLink: "https://twitter.com/VoBaLu1"
         },
         {
           key: 9,
           img: require("~/assets/images/community/Turkey.svg"),
           picture: require("~/assets/images/community/turkey.jpg"),
           cname: "Turkey",
-          name: "Öznur TOPAL"
+          name: "Öznur Topal",
+          mediaLink: "https://twitter.com/znurTOPAL2"
         }
       ]
     };
@@ -198,7 +209,9 @@ export default {
     color: #171c34;
     letter-spacing: 0;
     line-height: 38px;
-    margin-bottom: 39px;
+    margin: 20px auto 10px;
+    flex: none;
+    width: 100%;
     span {
       display: inline-block;
       margin-left: 8px;

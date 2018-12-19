@@ -348,268 +348,268 @@ module.exports = {
       'liuchunming': {
         'name': 'Charles',
         job: 'CEO',
-        'position': 'Beijing, China',
+        'position': 'Beijing',
         'description': 'Veteran blockchain entrepreneur and technical expert. Standing director of China Blockchain Application Research Center. Graduated from China University of Science and Technology and the Institute of Software of the Chinese Academy of Sciences. Former senior architect of JD.com, co-founder of Coinport, and engineering director of Meituan Dianping. Abundant experience in distributed systems and high concurrency systems.'
       },
       'wangdong': {
         'name': 'Daniel Wang',
-        'position': 'Beijing, China',
+        'position': 'Beijing',
         'description': 'Seasoned blockchain entrepreneur.  Graduated from China University of Science and Technology and Arizona State University.  Founder of Loopring, former Google America Tech Lead, Co-founder and VP of Yun Yun Wang, Senior Research and Development Director at JD.com, and Co-Founder of Coinport.'
       },
       'terenceLam': {
         'name': 'Terence Lam',
-        'position': 'Beijing, China',
+        'position': 'Beijing',
         'description': 'Veteran investor.  Graduated from Harvard Business School.  Partner of Zhizi Blockchain Investment Fund.  Adjust professor of SPACE China business school at Hong Kong University.  20+ years’ experience as senior technical manager at Global 500 companies. Started many technology startups.'
       },
       'richard': {
         name: 'Richard',
         job: 'COO',
-        'position': 'Silicon Valley, United States',
+        'position': 'Silicon Valley',
         description: 'Seasoned Wall Street professional. Graduated B.A. from Dartmouth College and MBA from New York University.  Previously structured product trading strategist at Goldman Sachs and Vice President of Two Sigma\'s high-frequency platform and Business Innovation & Growth group.'
       },
       frank: {
         name: 'Frank Deng',
         job: 'Director of Vite Foundation',
-        'position': 'Beijing, China',
+        'position': 'Beijing',
         description: 'Expert in digital and mobile marketing. Graduated from Tsinghua University. Served in Google Ads Operations Group, COO of Suizong Technology and co-founder of Yunke Technology.'
       },
       allen: {
         name: 'Allen Liu',
         job: 'Silicon Valley Technical Director',
-        'position': 'Beijing, China',
+        'position': 'Beijing',
         description: 'Senior technical specialist. Graduated from China University of Science and Technology and Fudan University. Former HP Tech Lead; former IBM senior architect and product manager. Having 10 years high concurrency experience in multinational firms. Scrum expert. PMP.'
       },
       zhangli: {
         name: 'Li Zhang',
-        'position': 'Beijing, China',
+        'position': 'Beijing',
         description: 'Senior blockchain practitioner, investor. LinkVC Capital Partners, former CMO of F2pool , former business officer of Huobi.'
       },
       mirza: {
         name: 'Mirza Uddin',
-        'position': 'Beijing, China',
+        'position': 'Beijing',
         description: 'Mirza was previously a venture capitalist at Two Sigma, one of the largest quantitative hedge funds, where he was heavily involved in researching Blockchain startups. He also previously worked for Index Ventures and The Boston Consulting Group. Mirza earned his BA from Harvard University.'
       },
       ivan: {
         name: 'Ivan Golovko',
-        'position': 'Beijing, China',
+        'position': 'Beijing',
         description: 'VP Strategy and Investor Relations of LegalThings One. Co-founder of Distributed.Fund and Distributed Alliance. Former CMO of ICODrops.'
       },
       leo: {
         name: 'Leo',
         job: 'Co-founder',
-        'position': 'Beijing, China',
+        'position': 'Beijing',
         description: 'Seasoned blockchain investor and senior technical expert. Previously led engineering efforts at Meituan and Coinport.'
       },
       'Chris Li': {
         'name': 'Chris Li',
         'job': 'Director of BD',
-        'position': 'Silicon Valley, United States',
+        'position': 'Silicon Valley',
         description: "Seasoned practitioner in the blockchain industry. Experienced in investment, business development, and operations. Former director of US Operations at GBiB. Previously worked for ZGC Capital, served as investment manager, and was responsible for Zhongguancun Development Group's investment business in the United States and Silicon Valley incubator operations. Worked for a Wall Street-based incubator in the investment and business development team. Master of Engineering from Lehigh University in Industrial Engineering."
       },
       'Luke Kim': {
         'name': 'Luke Kim',
         'job': 'CMO',
-        'position': 'Silicon Valley, United States',
+        'position': 'Silicon Valley',
         description: 'Luke is a digital nomad and entrepreneur from Seoul and Tokyo based in California. Formerly Business Development Manager at City Innovate Foundation and SuperPublic CoLab at United Nations Plaza, Head of US Relations at European Innovation Academy, Director of Strategic Partnerships at Gateway Accelerator and VC. Co-Founder of Startup Grind Berkeley, 3 Day Startup Berkeley and Paladin Partners. He most recently worked on a crypto-asset fund and ICO in a Swiss asset management firm, as well as technology acceleration at a South Korean startup. BA in Political Economy of Europe from UC Berkeley.'
       },
       'Jeff Ng': {
         'name': 'Jeff Ng',
         'job': 'Project Manager',
-        'position': 'Silicon Valley, United States',
+        'position': 'Silicon Valley',
         description: 'Blockchain enthusiast and experienced online community manager and member. Previous experience in the fields of manufacturing, inventory management, logistics  and art collecting/blogging. Graduated as a Mechanical Engineer from Cal Poly San Luis Obispo. '
       },
       'Agata Aks': {
         'name': 'Agata Aks',
         'job': 'Creative Marketing / Business Operations Associate',
-        'position': 'Silicon Valley, United States',
+        'position': 'Silicon Valley',
         description: 'Agata brings to us a wide range of experiences in social media marketing and legal services. She graduated from University of California, Santa Barbara with BA in Psychological Sciences, and concentrations in Professional Writing for Civic Engagement.  She speaks English, Russian and French.'
       },
       'Lola': {
         'name': 'Lola',
         'job': 'Product Manager',
-        'position': 'Beijing, China',
+        'position': 'Beijing',
         description: 'Lola was an experienced financial specialist who has inter-disciplinary background. She worked for Deloitte, served as investment manager in private equity funds, took in charge of TMT projects. Graduated from Xi\'an Jiaotong University with master degree in finance and Dalian University of Technology with bachelor degree in software engineering.'
       },
       'Logan': {
         'name': 'Logan',
         'job': 'iOS Developer',
-        'position': 'Beijing, China',
+        'position': 'Beijing',
         description: '4 years\' experience in iOS development. Previously developed 3 different Apps with over hundreds of millions DAU.'
       },
       'Stone': {
         'name': 'Stone',
         'job': 'iOS Developer',
-        'position': 'Beijing, China',
+        'position': 'Beijing',
         description: '5+ years of experience in iOS development. Previously worked for well-known IT firms in China.'
       },
       'jerry': {
         'name': 'Jerry',
         'job': 'Back-end Developer',
-        'position': 'Beijing, China',
+        'position': 'Beijing',
         description: '5+ years of experience in back-end service development. Formerly worked for well-known IT firms in China.'
       },
       'Alex': {
         'name': 'Alex',
         'job': 'Complier Software Engineer',
-        'position': 'Beijing, China',
+        'position': 'Beijing',
         description: '3+ years of experience in back-end service development. Formerly worked for a topnotch Chinese It firm Baidu, served as back-end engineer.'
       },
       'Tuprise': {
         'name': 'Tuprise',
         'job': 'Back-end Developer',
-        'position': 'Beijing, China',
+        'position': 'Beijing',
         description: '7+ years of experience in back-end service development and architecture. Formerly worked for series of notable IT companies such as Yilong and Yaxin. Seasoned developer in massive data processing and high concurrency.'
       },
       'viteLiz': {
         'name': 'viteLiz',
         'job': 'VM Developer',
-        'position': 'Beijing, China',
+        'position': 'Beijing',
         description: '3+ years of experience in back-end service development. Formerly worked for a well-known IT company in China.'
       },
       'Abbott': {
         'name': 'Abbott',
         'job': 'QA',
-        'position': 'Beijing, China',
+        'position': 'Beijing',
         description: '4 years experiences of QA, previously in charge of testing of Meituan Dache Driver end, is expert in risk control and quality assurance.'
 
       },
       Layla: {
         name: 'Layla',
-        position: 'Beijing, China',
+        position: 'Beijing',
         job: 'UI Designer',
         description: 'Layla has 5 years of design experiences in Internet company, has rich experiences in brand, App, website design.'
       },
       'hubery': {
         'name': 'Hubery',
         'job': 'Back-end Developer',
-        'position': 'Beijing, China',
+        'position': 'Beijing',
         description: '5+ years of experience in IT development, previously worked for Tencent and Yuantiku. Graduated from Xidian University'
       },
       'Cecelia': {
         'name': 'Cecelia',
         'job': 'Front-end Developer',
-        'position': 'Beijing, China',
+        'position': 'Beijing',
         description: '3 years of experience in front-end development, previously worked for a famous IT firm in China.'
       },
       'viteshan': {
         'name': 'Viteshan',
         'job': 'Back-end Developer',
-        'position': 'Beijing, China',
+        'position': 'Beijing',
         description: '3+ years of experience in IT development. Formerly worked for a well-known IT company in China.'
       },
       'Ada': {
         'name': 'Ada',
         'job': 'Senior Researcher',
-        'position': 'Beijing, China',
+        'position': 'Beijing',
         description: 'Previously worked in Tencent and JD, over 5 years experiences of machine learning algorithm development and big data analysis.'
 
       },
       'Jin': {
         'name': 'Jin',
         'job': 'Back-end Developer',
-        'position': 'Beijing, China',
+        'position': 'Beijing',
         description: '3 years of experience in internet financial development.'
       },
       'Shenyang': {
         'name': 'Shenyang',
         'job': 'iOS Developer',
-        'position': 'Beijing, China',
+        'position': 'Beijing',
         description: '4+ years of experience in iOS development. Formerly worked for a well-known IT company in China.'
       },
       'Candy': {
         'name': 'Candy',
         'job': 'Product Operations',
-        'position': 'Beijing, China',
+        'position': 'Beijing',
         description: '3 years of experience in product operation. Previously worked for Meituan-SaaS and Fangtianxia Index Research Institute, served as operation specialist who was in charge of project trainee, system request, optimization、surveillance and maintenance data.'
       },
       'Eric': {
         'name': 'Eric',
         'job': 'System Architect',
-        'position': 'Beijing, China',
+        'position': 'Beijing',
         description: 'Previously worked with top IT firms in China, such as Baidu. Expert in back-end services and data system development. He has 2W+ QPS experience of system architecture.Formerly led a engineering team of 15+ members, experience in organizing engineering teams.'
       },
       'Asurily': {
         'name': 'Asurily',
         'job': 'Back-end Developer',
-        'position': 'Beijing, China',
+        'position': 'Beijing',
         description: '3 years of experience in blockchain projects. Graduated from Northwest University with master degree, research orient is blockchain and data storage.'
       },
       'Cassie': {
         'name': 'Cassie',
         'job': 'Product Operations',
-        'position': 'Beijing, China',
+        'position': 'Beijing',
         description: '5 years of experience in marketing strategy and operation, previously worked for IT and finance related companies.'
       },
       'Reg': {
         'name': 'Reg',
         'job': 'Front-end Developer',
-        'position': 'Beijing, China',
+        'position': 'Beijing',
         description: '3 years of experience in front-end development, previously worked for a well-known IT company in China.'
       },
       'Daisy': {
         'name': 'Daisy',
         'job': 'Front-end Developer',
-        'position': 'Beijing, China',
+        'position': 'Beijing',
         description: '3 years of experience in front-end development, previously worked for a well-known IT company in China. Proficient in vue,node and other development frameworks'
       },
       'Tiantao': {
         'name': 'Tiantao',
         'job': 'Back-end Developer',
-        'position': 'Beijing, China',
+        'position': 'Beijing',
         description: '3 years of experience in network security, client-side design of system architecture. Participated in the development of core components within various fields, especially in security, P2P network and verification. These components still play an important role within a core system of top IT firm.'
       },
       'weichao': {
         'name': 'Weichao',
         'job': 'System Architect',
-        'position': 'Beijing, China',
+        'position': 'Beijing',
         'description': '7+ years of experience in back-end service architecture design, he made a great effort in design and development of QPS 3w+ system, seasoned blockchain developer.'
       },
       'Zack': {
         'name': 'Zack',
         'job': 'Director of Product',
-        'position': 'Beijing, China',
+        'position': 'Beijing',
         description: 'Graduated from Beijing University of Posts and Telecommunications with Master Degree. 4+ years of experience in IT products, formerly worked for top-notch IT firms such as Didi, Baidu, etc and was in charge of Apps with millions of DAU.'
       },
       'Tina': {
         'name': 'Tina',
         'job': 'Front-end Developer',
-        'position': 'Beijing, China',
+        'position': 'Beijing',
         description: '3 years of experience in front-end development. Graduated from Nanyang Technological University, Singapore, with M.S in Information Studies. Previously worked for notable IT companies in both China and Singapore.'
       },
       'Rod': {
         'name': 'Rod',
         'job': 'Back-end Developer',
-        'position': 'Beijing, China',
+        'position': 'Beijing',
         description: '5+ years of experience in back-end design and development, previously worked for series of top-ranking IT firms in China.'
       },
       'Tony': {
         'name': 'Tony',
         'job': 'Director of Operations',
-        'position': 'Beijing, China',
+        'position': 'Beijing',
         description: '6+ years of experience in operation and product, previously worked for Meituan Dianping and Tencent, previously took charge of many products that have over 100 million of daily GMV and active users. Meanwhile, he was a seasoned PM who also conducted multiple innovative projects.'
       },
       'Flanke': {
         'name': 'Flanke',
         'job': 'Product Operations',
-        'position': 'Beijing, China',
+        'position': 'Beijing',
         description: '3 years of experience in brand operation, previously worked for iHeima and Xiangshang Finance.'
       },
       'Erin': {
         'name': 'Erin',
         'job': 'Data Operations',
-        'position': 'Beijing, China',
+        'position': 'Beijing',
         description: '3 years of experience in operation and risk management, previously worked for Sina Finance and Youfenqi as a data specialist.'
       },
       'Hannah': {
         'name': 'Hannah',
         'job': 'QA',
-        'position': 'Beijing, China',
+        'position': 'Beijing',
         description: '2 years of experience in testing development, participated in designing of testing frameworks. 2 years of experience in back-end storage testing development, experience in gluster distributed storage technology. formerly cooperated with military related enterprise, experience in data security and encrypted storage fields.'
       },
       'Miya': {
         'name': 'Miya',
         'job': 'UI Designer',
-        'position': 'Beijing, China',
+        'position': 'Beijing',
         description: ' 3 years of experience in UI design, participated in several internet-related industrial projects. Previously worked in large state-owed enterprise, served as a major designer of multiple national projects.'
       }
     }

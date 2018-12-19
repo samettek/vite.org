@@ -9,13 +9,14 @@
             </h1>
             <h2>{{$t("home.slogan")}}</h2>
           </div>
-
           <div class="btn-group-wrapper">
             <a
               :href="vitenet"
               target="_blank"
             >{{$t('home.starttoUse')}}</a>
+            <WhitePaper class="wp-btn"></WhitePaper>
           </div>
+
         </div>
       </div>
     </section>
@@ -79,10 +80,10 @@ export default {
       this.navbarActive = false;
     }
   },
-  computed:{
-      vitenet(){
-          return config.urls.viteNet[this.$i18n.locale]
-      }
+  computed: {
+    vitenet() {
+      return config.urls.viteNet[this.$i18n.locale];
+    }
   }
 };
 </script>
@@ -142,20 +143,23 @@ export default {
   }
   .btn-group-wrapper {
     margin-top: 3.75rem;
-    width: 200px;
     height: 60px;
-    background: #007aff;
-    box-shadow: 0 10px 40px 0 rgba(126, 183, 238, 0.83);
     color: white;
     letter-spacing: 1px;
     text-align: center;
     line-height: 60px;
+    display: flex;
     cursor: pointer;
+    .wp-btn {
+      margin-left: 20px;
+    }
     a {
+      box-shadow: 0 10px 40px 0 rgba(126, 183, 238, 0.83);
       display: inline-block;
       width: 200px;
       height: 60px;
       color: white;
+      background: #007aff;
     }
     @include touch {
       margin-top: 12px;
