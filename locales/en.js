@@ -60,7 +60,7 @@ module.exports = {
     starttoUse: 'Get Started on Vite'
   },
   roadmap: {
-    title: '路线图',
+    title: 'Roadmap',
     timelines: [
       {
         'time': '2018.02',
