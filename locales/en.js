@@ -1,10 +1,10 @@
 module.exports = {
   lang: 'English',
   head: {
-    title: 'Vite - High-performance Decentralized Ecosystem',
+    title: 'Vite - High-Performance Decentralized Ecosystem',
     document: 'Document',
     description: {
-      index: 'Vite - High-performance decentralized ecosystem',
+      index: 'Vite - High-Performance Decentralized Ecosystem',
       careers: 'Welcome to join our Vitelabs, Let\'s create A New Generation of High-performance Decentralized Application Platform',
       faq: 'All about FAQs of Vite',
       technology: 'The key technologies of Vite: DAG、Snapshot Chain、Asynchronous Architecture、Reactive Contract、Quota leasing、Loopring Integrated、Timer scheduling、Contract Upgrade、solidity++'
@@ -26,9 +26,9 @@ module.exports = {
   nav: {
     index: 'HOME',
     team: 'TEAM',
-    partnership: 'PARTNERSHIP',
+    partnership: 'PARTNERSHIPS',
     community: 'COMMUNITY',
-    exchange: 'EXCHANGE',
+    exchange: 'EXCHANGES',
     media: 'MEDIA',
     faq: 'FAQ',
     about: 'ABOUT',
@@ -346,7 +346,7 @@ module.exports = {
     'join': 'Join Us',
     'nameMap': {
       'liuchunming': {
-        'name': 'Charles',
+        'name': 'Charles Liu',
         job: 'CEO',
         'position': 'Beijing',
         'description': 'Veteran blockchain entrepreneur and technical expert. Standing director of China Blockchain Application Research Center. Graduated from China University of Science and Technology and the Institute of Software of the Chinese Academy of Sciences. Former senior architect of JD.com, co-founder of Coinport, and engineering director of Meituan Dianping. Abundant experience in distributed systems and high concurrency systems.'
@@ -362,20 +362,20 @@ module.exports = {
         'description': 'Veteran investor.  Graduated from Harvard Business School.  Partner of Zhizi Blockchain Investment Fund.  Adjust professor of SPACE China business school at Hong Kong University.  20+ years’ experience as senior technical manager at Global 500 companies. Started many technology startups.'
       },
       'richard': {
-        name: 'Richard',
+        name: 'Richard Yan',
         job: 'COO',
         'position': 'Silicon Valley',
-        description: 'Seasoned Wall Street professional. Graduated B.A. from Dartmouth College and MBA from New York University.  Previously structured product trading strategist at Goldman Sachs and Vice President of Two Sigma\'s high-frequency platform and Business Innovation & Growth group.'
+        description: 'Seasoned Wall Street Professional. Graduated with a B.A. from Dartmouth College and an MBA from New York University. Previously Structured Product Trading Strategist at Goldman Sachs and Vice President of Two Sigma\'s high-frequency platform and Business Innovation & Growth group.'
       },
       frank: {
         name: 'Frank Deng',
         job: 'Director of Vite Foundation',
         'position': 'Beijing',
-        description: 'Expert in digital and mobile marketing. Graduated from Tsinghua University. Served in Google Ads Operations Group, COO of Suizong Technology and co-founder of Yunke Technology.'
+        description: 'Expert in Digital and Mobile Marketing. Graduated from Tsinghua University. Former position in Google Ads Operations Group. Former CEO of Suizong Technology and Co-founder of Yunke Technology.'
       },
       allen: {
         name: 'Allen Liu',
-        job: 'Silicon Valley Technical Director',
+        job: 'Director of Engineering for Vite International',
         'position': 'Beijing',
         description: 'Senior technical specialist. Graduated from China University of Science and Technology and Fudan University. Former HP Tech Lead; former IBM senior architect and product manager. Having 10 years high concurrency experience in multinational firms. Scrum expert. PMP.'
       },
@@ -395,70 +395,70 @@ module.exports = {
         description: 'VP Strategy and Investor Relations of LegalThings One. Co-founder of Distributed.Fund and Distributed Alliance. Former CMO of ICODrops.'
       },
       leo: {
-        name: 'Leo',
+        name: 'Leo Zhang',
         job: 'Co-founder',
         'position': 'Beijing',
-        description: 'Seasoned blockchain investor and senior technical expert. Previously led engineering efforts at Meituan and Coinport.'
+        description: 'Seasoned Blockchain Investor and Senior Technical Expert. Previously led engineering efforts at Meituan-Dianping and Coinport.'
       },
       'Chris Li': {
         'name': 'Chris Li',
         'job': 'Director of BD',
         'position': 'Silicon Valley',
-        description: "Seasoned practitioner in the blockchain industry. Experienced in investment, business development, and operations. Former director of US Operations at GBiB. Previously worked for ZGC Capital, served as investment manager, and was responsible for Zhongguancun Development Group's investment business in the United States and Silicon Valley incubator operations. Worked for a Wall Street-based incubator in the investment and business development team. Master of Engineering from Lehigh University in Industrial Engineering."
+        description: "Chris is a seasoned practitioner in the blockchain industry. He has extensive experience in investment, business development and operations. He is the former Director of US Operations at GBiB. Chris has also worked for ZGC Capital, serving as Investment Manager. His responsibilities at Zhongguancun Development Group were tied to US investment business and Silicon Valley incubator operations. Additionally, Chris has worked for a Wall Street-based incubator, taking a position with the Investment and Business Development team. He holds a Master of Engineering from Lehigh University in Industrial Engineering."
       },
       'Luke Kim': {
         'name': 'Luke Kim',
         'job': 'CMO',
         'position': 'Silicon Valley',
-        description: 'Luke is a digital nomad and entrepreneur from Seoul and Tokyo based in California. Formerly Business Development Manager at City Innovate Foundation and SuperPublic CoLab at United Nations Plaza, Head of US Relations at European Innovation Academy, Director of Strategic Partnerships at Gateway Accelerator and VC. Co-Founder of Startup Grind Berkeley, 3 Day Startup Berkeley and Paladin Partners. He most recently worked on a crypto-asset fund and ICO in a Swiss asset management firm, as well as technology acceleration at a South Korean startup. BA in Political Economy of Europe from UC Berkeley.'
+        description: 'Luke is a digital entrepreneur hailing from Seoul and Tokyo, currently based in California. Formerly, he was the Business Development Manager at City Innovate Foundation and SuperPublic CoLab at United Nations Plaza. He also held positions as Head of US Relations at European Innovation Academy and Director of Strategic Partnerships at Gateway Accelerator and VC. He is also a Co-Founder of Startup Grind Berkeley, 3 Day Startup Berkeley and Paladin Partners. Most recently, Luke worked on a crypto-asset fund and ICO for a Swiss asset management firm, as well as focused on technology acceleration for a South Korean startup. He holds a BA in Political Economy of Europe from UC Berkeley.'
       },
       'Jeff Ng': {
         'name': 'Jeff Ng',
         'job': 'Project Manager',
         'position': 'Silicon Valley',
-        description: 'Blockchain enthusiast and experienced online community manager and member. Previous experience in the fields of manufacturing, inventory management, logistics  and art collecting/blogging. Graduated as a Mechanical Engineer from Cal Poly San Luis Obispo. '
+        description: 'Apart from being a blockchain enthusiast, Jeff is an experienced Vite community manager and member. His previous experiences include work done in the fields of manufacturing, inventory management, logistics, blogging and art collecting. Jeff graduated as a Mechanical Engineer from Cal Poly San Luis Obispo.'
       },
       'Agata Aks': {
         'name': 'Agata Aks',
         'job': 'Creative Marketing / Business Operations Associate',
         'position': 'Silicon Valley',
-        description: 'Agata brings to us a wide range of experiences in social media marketing and legal services. She graduated from University of California, Santa Barbara with BA in Psychological Sciences, and concentrations in Professional Writing for Civic Engagement.  She speaks English, Russian and French.'
+        description: 'Agata has relevant experiences in social media marketing, content writing, public relations  and legal services. She graduated from University of California, Santa Barbara with a BA in Psychological Sciences with concentrations in Civic Engagement Writing and Applied Psychology. She speaks English, Russian and French.'
       },
       'Lola': {
-        'name': 'Lola',
+        'name': 'Lola Li',
         'job': 'Product Manager',
         'position': 'Beijing',
-        description: 'Lola was an experienced financial specialist who has inter-disciplinary background. She worked for Deloitte, served as investment manager in private equity funds, took in charge of TMT projects. Graduated from Xi\'an Jiaotong University with master degree in finance and Dalian University of Technology with bachelor degree in software engineering.'
+        description: 'Lola is an experienced financial specialist who has an interdisciplinary background. She has worked for the Deloitte firm, served as an Investment Manager dealing with private equity funds as well as took charge inTMT projects. Lola has additionally graduated from Xi\'an Jiaotong University with a Master\'s Degree in Finance and a Bachelor\'s Degree from Dalian University of Technology, focusing in on her Software Engineering major.'
       },
       'Logan': {
-        'name': 'Logan',
+        'name': 'Logan Cao',
         'job': 'iOS Developer',
         'position': 'Beijing',
-        description: '4 years\' experience in iOS development. Previously developed 3 different Apps with over hundreds of millions DAU.'
+        description: 'Logan has worked 4 years in the iOS development field. He has previously developed 3 different applications with over hundreds of millions DAU'
       },
       'Stone': {
-        'name': 'Stone',
+        'name': 'Stone Xia',
         'job': 'iOS Developer',
         'position': 'Beijing',
-        description: '5+ years of experience in iOS development. Previously worked for well-known IT firms in China.'
+        description: 'Stone has over 5 years of experience in iOS development, working at some Chinese internet companies in the past. '
       },
       'jerry': {
         'name': 'Jerry',
-        'job': 'Back-end Developer',
+        'job': 'Back-End Developer',
         'position': 'Beijing',
-        description: '5+ years of experience in back-end service development. Formerly worked for well-known IT firms in China.'
+        description: 'Jerry has over 5 years of experience in back-end service development, previously working for Chinese information technology firms.'
       },
       'Alex': {
-        'name': 'Alex',
+        'name': 'Alex Hu',
         'job': 'Complier Software Engineer',
         'position': 'Beijing',
-        description: '3+ years of experience in back-end service development. Formerly worked for a topnotch Chinese It firm Baidu, served as back-end engineer.'
+        description: 'Alex has over 3 years of experience in back-end service development. He formerly worked as a back-end engineer for a topnotch Chinese internet firm named Baidu.'
       },
       'Tuprise': {
         'name': 'Tuprise',
-        'job': 'Back-end Developer',
+        'job': 'Back-End Developer',
         'position': 'Beijing',
-        description: '7+ years of experience in back-end service development and architecture. Formerly worked for series of notable IT companies such as Yilong and Yaxin. Seasoned developer in massive data processing and high concurrency.'
+        description: 'Tuprise has over 7 years of experience in back-end service development and architecture. He worked for a series of notable information technology companies, such as Yilong and Yaxin. Tuprise is a seasoned developer in massive data processing and high concurrency.'
       },
       'viteLiz': {
         'name': 'viteLiz',
@@ -467,11 +467,10 @@ module.exports = {
         description: '3+ years of experience in back-end service development. Formerly worked for a well-known IT company in China.'
       },
       'Abbott': {
-        'name': 'Abbott',
+        'name': 'Abbott Jia',
         'job': 'QA',
         'position': 'Beijing',
-        description: '4 years experiences of QA, previously in charge of testing of Meituan Dache Driver end, is expert in risk control and quality assurance.'
-
+        description: 'Abbott has 4 years experience in working in Quality Assurance, previously ---- was in charge of testing of Meituan Dache Driver end (unclear). Abbott is a seasoned expert in risk control and the Quality Assurance spectrum.'
       },
       Layla: {
         name: 'Layla',
@@ -480,41 +479,41 @@ module.exports = {
         description: 'Layla has 5 years of design experiences in Internet company, has rich experiences in brand, App, website design.'
       },
       'hubery': {
-        'name': 'Hubery',
-        'job': 'Back-end Developer',
+        'name': 'Hubery Lee',
+        'job': 'Back-End Developer',
         'position': 'Beijing',
-        description: '5+ years of experience in IT development, previously worked for Tencent and Yuantiku. Graduated from Xidian University'
+        description: 'Hubery is a graduate of Xidian University with over 5 years of experience in IT development, where he previously worked for Tencent and Yuantiku. '
       },
       'Cecelia': {
-        'name': 'Cecelia',
-        'job': 'Front-end Developer',
+        'name': 'Cecelia Chen',
+        'job': 'Front-End Developer',
         'position': 'Beijing',
-        description: '3 years of experience in front-end development, previously worked for a famous IT firm in China.'
+        description: 'Cecelia has 3 years of experience in front-end development showcasing her skills at a notable Chinese information technology firm.'
       },
       'viteshan': {
         'name': 'Viteshan',
-        'job': 'Back-end Developer',
+        'job': 'Back-End Developer',
         'position': 'Beijing',
         description: '3+ years of experience in IT development. Formerly worked for a well-known IT company in China.'
       },
       'Ada': {
-        'name': 'Ada',
+        'name': 'Ada Zhu',
         'job': 'Senior Researcher',
         'position': 'Beijing',
-        description: 'Previously worked in Tencent and JD, over 5 years experiences of machine learning algorithm development and big data analysis.'
+        description: 'Ada has previously worked in Tencent and JD with over 5 years of experience in machine learning algorithm development and big data analytics.'
 
       },
       'Jin': {
         'name': 'Jin',
-        'job': 'Back-end Developer',
+        'job': 'Back-End Developer',
         'position': 'Beijing',
-        description: '3 years of experience in internet financial development.'
+        description: 'Jin has 3 years of experience working in Internet Finances Development.'
       },
       'Shenyang': {
         'name': 'Shenyang',
         'job': 'iOS Developer',
         'position': 'Beijing',
-        description: '4+ years of experience in iOS development. Formerly worked for a well-known IT company in China.'
+        description: 'Shenyang has over 4 years of experience in iOS development, working for some popular information technology companies in China. '
       },
       'Candy': {
         'name': 'Candy',
@@ -523,76 +522,76 @@ module.exports = {
         description: '3 years of experience in product operation. Previously worked for Meituan-SaaS and Fangtianxia Index Research Institute, served as operation specialist who was in charge of project trainee, system request, optimization、surveillance and maintenance data.'
       },
       'Eric': {
-        'name': 'Eric',
+        'name': 'Eric Wong',
         'job': 'System Architect',
         'position': 'Beijing',
-        description: 'Previously worked with top IT firms in China, such as Baidu. Expert in back-end services and data system development. He has 2W+ QPS experience of system architecture.Formerly led a engineering team of 15+ members, experience in organizing engineering teams.'
+        description: 'Eric has previously worked with top IT firms in China including Baidu. He is an expert in back-end services and data system development. He has experience with system architecture, designing systems that can process over 20,000 queries per second. Eric has formerly led an engineering team of 15+ members, so he additionally holds experience in organizing engineering teams.'
       },
       'Asurily': {
-        'name': 'Asurily',
-        'job': 'Back-end Developer',
+        'name': 'Asurily He',
+        'job': 'Back-End Developer',
         'position': 'Beijing',
-        description: '3 years of experience in blockchain projects. Graduated from Northwest University with master degree, research orient is blockchain and data storage.'
+        description: 'Asurily has 3 years of experiences working on blockchain projects. ---- graduated from Northwestern University with a Master\'s Degree and his academic research revolved around blockchain technology and data storage.'
       },
       'Cassie': {
         'name': 'Cassie',
         'job': 'Product Operations',
         'position': 'Beijing',
-        description: '5 years of experience in marketing strategy and operation, previously worked for IT and finance related companies.'
+        description: 'Cassie has 5 years of experience implementing marketing strategy within business operations. She has previously worked in both finance and technology sectors respectively. '
       },
       'Reg': {
-        'name': 'Reg',
-        'job': 'Front-end Developer',
+        'name': 'Reg Yuan',
+        'job': 'Front-End Developer',
         'position': 'Beijing',
-        description: '3 years of experience in front-end development, previously worked for a well-known IT company in China.'
+        description: 'Reg has worked in the field of front-end development for 3 years, including time working at a well-known Chinese firm.'
       },
       'Daisy': {
-        'name': 'Daisy',
-        'job': 'Front-end Developer',
+        'name': 'Daisy Chou',
+        'job': 'Front-End Developer',
         'position': 'Beijing',
-        description: '3 years of experience in front-end development, previously worked for a well-known IT company in China. Proficient in vue,node and other development frameworks'
+        description: 'Daisy has 3 years of front-end development experience in front-end development and is proficient in vue, node, and other developmental frameworks.'
       },
       'Tiantao': {
-        'name': 'Tiantao',
-        'job': 'Back-end Developer',
+        'name': 'Tiantao Zhu',
+        'job': 'Back-End Developer',
         'position': 'Beijing',
-        description: '3 years of experience in network security, client-side design of system architecture. Participated in the development of core components within various fields, especially in security, P2P network and verification. These components still play an important role within a core system of top IT firm.'
+        description: 'Tiantao has 3 years of experience working in network security, specifically on the client-side design of system architecture. He had a role in core component development in the fields of security, peer-to-peer networking and verification. '
       },
       'weichao': {
-        'name': 'Weichao',
+        'name': 'Weichao Li',
         'job': 'System Architect',
         'position': 'Beijing',
-        'description': '7+ years of experience in back-end service architecture design, he made a great effort in design and development of QPS 3w+ system, seasoned blockchain developer.'
+        'description': 'Weichao has over 7 years of experience in back-end service architectural design. He has experience designing systems that process more than 20,000 QPS.'
       },
       'Zack': {
-        'name': 'Zack',
+        'name': 'Zack Hou',
         'job': 'Director of Product',
         'position': 'Beijing',
         description: 'Graduated from Beijing University of Posts and Telecommunications with Master Degree. 4+ years of experience in IT products, formerly worked for top-notch IT firms such as Didi, Baidu, etc and was in charge of Apps with millions of DAU.'
       },
       'Tina': {
-        'name': 'Tina',
-        'job': 'Front-end Developer',
+        'name': 'Tina Wong',
+        'job': 'Front-End Developer',
         'position': 'Beijing',
-        description: '3 years of experience in front-end development. Graduated from Nanyang Technological University, Singapore, with M.S in Information Studies. Previously worked for notable IT companies in both China and Singapore.'
+        description: 'Tina has 3 years of front-end development experience. She graduated from Nanyang Technological University in Singapore, with a Master\'s of Science in Information Studies. Tina has previously worked at technology firms in both China and Singapore.'
       },
       'Rod': {
         'name': 'Rod',
-        'job': 'Back-end Developer',
+        'job': 'Back-End Developer',
         'position': 'Beijing',
-        description: '5+ years of experience in back-end design and development, previously worked for series of top-ranking IT firms in China.'
+        description: 'Rod has over 5 years of experience in back-end design and development, previously working for a series of top-ranking information technology firms in China.'
       },
       'Tony': {
-        'name': 'Tony',
+        'name': 'Tony Wong',
         'job': 'Director of Operations',
         'position': 'Beijing',
-        description: '6+ years of experience in operation and product, previously worked for Meituan Dianping and Tencent, previously took charge of many products that have over 100 million of daily GMV and active users. Meanwhile, he was a seasoned PM who also conducted multiple innovative projects.'
+        description: 'Tony has over 6 impressive years of experience working in the product operations field. He has previously worked for Meituan-Dianping and Tencent and has handled products that have a gross merchanise value of over 100 million active users over 100 million daily GMV and active users. Tony is truly a seasoned Project Manager who is responsible for leading many innovative professional projects.         '
       },
       'Flanke': {
         'name': 'Flanke',
         'job': 'Product Operations',
         'position': 'Beijing',
-        description: '3 years of experience in brand operation, previously worked for iHeima and Xiangshang Finance.'
+        description: 'Flanke has 3 years of experience studying brand operations and has previously worked for iHeima and Xiangshang Finance.'
       },
       'Erin': {
         'name': 'Erin',
@@ -601,16 +600,16 @@ module.exports = {
         description: '3 years of experience in operation and risk management, previously worked for Sina Finance and Youfenqi as a data specialist.'
       },
       'Hannah': {
-        'name': 'Hannah',
+        'name': 'Hannah Fong',
         'job': 'QA',
         'position': 'Beijing',
-        description: '2 years of experience in testing development, participated in designing of testing frameworks. 2 years of experience in back-end storage testing development, experience in gluster distributed storage technology. formerly cooperated with military related enterprise, experience in data security and encrypted storage fields.'
+        description: 'Hannah has 2 years of experience in development testing, partaking in projects requiring designing participated in designing of testing frameworks. She also has 2 years of experience in back-end storage development testing, experience in gluster (as in Gluster the company or is this a tech term/typo) distributed storage technology. She has formerly cooperated with military-related enterprises demanding experience in dealing with data security and encrypted storage fields.'
       },
       'Miya': {
         'name': 'Miya',
         'job': 'UI Designer',
         'position': 'Beijing',
-        description: ' 3 years of experience in UI design, participated in several internet-related industrial projects. Previously worked in large state-owed enterprise, served as a major designer of multiple national projects.'
+        description: 'Miya has 3 years of experience in User Interface design and has participated in several Internet-related industrial projects. She formerly worked for a large state-owned enterprise, serving as a Chief Designer of multiple national projects.'
       }
     }
   },
@@ -871,7 +870,7 @@ module.exports = {
     media: 'MEDIA'
   },
   joinMailing: {
-    title: 'Subscribe Vite, be the first to win benefits',
+    title: 'Subscribe to Vite! Get Exclusive Benefits!',
     button: 'Subscribe',
     placeholder: 'Email Address'
   },
@@ -886,13 +885,13 @@ module.exports = {
     flexable: { title: 'Scalability', tags: ['Cross-Chain Gateway', 'HDPoS Consensus', 'Smart Contract'] }
   },
   ecoTitle: 'Vite Ecosystem',
-  ecoTitle2: 'What can be done on Vite?',
+  ecoTitle2: 'What Vite Can Do For You',
   eco: {
     worth: {
       title: 'Values',
       pay: {
         title: 'Payment',
-        child: ['Instant Confirmation', 'On-chain Transaction', 'Multiple Tokens']
+        child: ['Instant Confirmation', 'On-Chain Transaction', 'Multiple Tokens']
       },
       finance: {
         title: 'Token Issuance',
