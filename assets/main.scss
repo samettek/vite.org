@@ -19,7 +19,9 @@ h1 {
     line-height: 50px;
   }
 }
-
+::-webkit-scrollbar { 
+    display: none; 
+}
 // transition
 
 .text-hover-transition {

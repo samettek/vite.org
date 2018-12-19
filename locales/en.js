@@ -60,80 +60,73 @@ module.exports = {
     starttoUse: 'Get Started on Vite'
   },
   roadmap: {
-    title: 'Roadmap',
+    title: '路线图',
     timelines: [
       {
         'time': '2018.02',
-        'description': 'Initiation of Project'
+        'description': 'Initiation of project'
       },
       {
         'time': '2018.04',
-        'description': 'System design of Vite, completion of white paper'
+        'description': 'Publication of white paper'
       },
       {
         'time': '2018.05',
-        'description': 'Release the official website / Road show'
+        'description': ' Release of official website, capital raising, team assembling'
       },
       {
         'time': '2018.06',
-        'description': 'Beginning of Vite Core\'s R&D'
+        'description': ' RD team assembling complete, development started'
+      },
+      {
+        'time': '2018.08',
+        'description': ' go-vite 0.1, wallet, block explorer release'
+      },
+      {
+        'time': '2018.09',
+        'description': 'Web wallet, iOS wallet, block explorer officially release'
       },
       {
         'time': '2018.10',
-        'description': 'Vite Core alpha'
+        'description': 'Transfer ERC20 VITE which counts for 56% of total to Vite original net'
+      },
+      {
+        'time': '2018.11',
+        'description': ' Vite Testnet 1.0.0 release, SBP campaign and mining started'
       },
       {
         'time': '2018.12',
         'description': [
-          'Vite Core beta M1: Trading / Issuance of assets / Hierarchical consensus algorithm / Snapshot chain',
-          'Release Vite SDK',
-          'Vite Blockchain Browser'
+          'Smart Contract/ Solidity++ alpha test',
+          'Cross-chain gateway alpha test',
+          'Multi-token wallet alpha test',
+          'DEX alpha test',
+          'Official website 2.0, official forum release'
         ]
       },
       {
-        'time': '2019.01',
-        'description': 'Desktop client of Vite'
-      },
-      {
-        'time': '2019.02',
-        'description': 'Alpha version of Vite mobile app'
-      },
-      {
-        time: '2019.04',
-        description: [
-          'Vite Core beta M2: Smart Contract / Solidity++ Compiler / Smart Contract API Documentation'
-        ]
-      },
-      {
-        'time': '2019.05',
+        'time': '2019 Q1',
         'description': [
-          'Vite Core beta M3: Quota leasing / Contract Timing Scheduling / VNS Naming Services',
-          'Vite dApplet support within Mobile App'
+          'Pre-mainnet release',
+          'Cross-chain gateway open beta test',
+          'DEX open beta test',
+          'Smart contract/Solidity++ open beta test',
+          'Multi-token wallet release',
+          'Multi-VM supported(EVM/WASM)']
+      },
+      {
+        time: '2019 Q2',
+        description: ['Performance optimization', 'Timer-Triggered Scheduler', 'Naming service', 'Smart contract Upgrade'
         ]
       },
       {
-        'time': '2019.07',
-        'description': 'Vite Core beta M4：Loopring / Ethereum Cross-Chain Gateway'
+        'time': '2019 Q3',
+        'description': ['Mainnet release', 'dApps supported by mobile client application', 'Stable coin Issuance', 'Payment fulfilment'
+        ]
       },
       {
-        'time': '2019.08',
-        'description': 'Vite integrated decentralized trading function within Mobile app'
-      },
-      {
-        'time': '2019.10',
-        'description': 'Vite Core beta M5: Contract upgrade / Block pruning / Solidity++ optimization'
-      },
-      {
-        'time': 'Nov 2019',
-        'description': 'Vite TestNet Release'
-      },
-      {
-        'time': '2020.01',
-        'description': 'Vite 1.0 Release'
-      },
-      {
-        'time': '2020.02',
-        'description': 'Kickoff of plan for ecosystem development in Vite'
+        'time': '2019 Q4',
+        'description': ['dApp ecosystem construction']
       }
     ]
   },

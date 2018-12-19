@@ -94,7 +94,7 @@ export default {
     line-height: 20px;
     .company-desc {
       margin-top: 30px;
-      overflow: scroll;
+      overflow-y: scroll;
       height: 70%;
       .company-item {
         &:first-child {

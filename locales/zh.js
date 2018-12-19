@@ -64,72 +64,71 @@ module.exports = {
       },
       {
         'time': '2018.04',
-        'description': 'Vite系统设计，白皮书发布'
+        'description': '白皮书发布'
       },
       {
         'time': '2018.05',
-        'description': '发布官方网站，路演'
+        'description': '官方网站上线，融资，组建团队'
       },
       {
         'time': '2018.06',
-        'description': '启动Vite Core开发'
+        'description': '研发团队组建完成，开始开发'
+      },
+      {
+        'time': '2018.08',
+        'description': 'go-vite 0.1、钱包、浏览器预览版上线'
+      },
+      {
+        'time': '2018.09',
+        'description': 'Web钱包、iOS钱包、区块浏览器正式发布'
       },
       {
         'time': '2018.10',
-        'description': 'Vite Core alpha 内测版'
+        'description': '迁移总量56%的ERC20代币到Vite原生网络'
+      },
+      {
+        'time': '2018.11',
+        'description': 'Vite Testnet 1.0.0发布，开启SBP竞选及挖矿'
       },
       {
         'time': '2018.12',
         'description': [
-          'Vite Core beta M1：支持交易、资产发行、分层共识、快照链',
-          'Vite SDK发布',
-          'Vite 区块链浏览器'
+          '智能合约/solidity++内测',
+          '跨链网关内测',
+          '多币种钱包内测',
+          'DEX内测',
+          '官方网站2.0、官方论坛上线'
         ]
       },
       {
-        'time': '2019.01',
-        'description': 'Vite 客户端桌面版'
+        'time': '2019 Q1',
+        'description': ['pre-mainnet上线', '跨链网关公开测试',
+          'DEX公开测试',
+          '智能合约/solidity++公开测试',
+          '多币种钱包上线',
+          '多虚拟机支持（EVM / WASM）']
       },
       {
-        'time': '2019.02',
-        'description': 'Vite 移动客户端内测版'
-      },
-      {
-        time: '2019.04',
+        time: '2019 Q2',
         description: [
-          'Vite Core beta M2：智能合约、Solidity++编译器、智能合约开发文档'
+          '性能优化',
+          '定时调度',
+          '命名服务',
+          '智能合约升级'
         ]
       },
       {
-        'time': '2019.05',
+        'time': '2019 Q3',
         'description': [
-          'Vite Core beta M3：配额租赁、定时调度、命名服务',
-          'Vite 移动客户端支持dApplet小程序功能'
+          '主网上线',
+          '移动客户端支持小程序',
+          '发行稳定币',
+          '支付落地'
         ]
       },
       {
-        'time': '2019.07',
-        'description': 'Vite Core beta M4：路印协议、跨链'
-      },
-      {
-        'time': '2019.08',
-        'description': 'Vite 移动客户端集成去中心化交易'
-      },
-      {
-        'time': '2019.10',
-        'description': 'Vite Core beta M5：合约升级、区块裁剪、solidity++优化'
-      },
-      {
-        'time': '2019.11',
-        'description': 'Vite Testnet Release：测试网络上线'
-      },
-      {
-        'time': '2020.01',
-        'description': 'Vite 1.0 Release：主网上线'
-      },
-      {
-        'time': '2020.02',
-        'description': 'Vite 启动生态发展计划'
+        'time': '2019 Q4',
+        'description': ['dApp生态建设']
       }
     ]
   },
