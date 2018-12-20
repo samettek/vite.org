@@ -376,7 +376,7 @@ module.exports = {
       allen: {
         name: 'Allen Liu',
         job: 'Silicon Valley Technical Director',
-        'position': 'Beijing',
+        'position': 'Silicon Valley',
         description: 'Senior technical specialist. Graduated from China University of Science and Technology and Fudan University. Former HP Tech Lead; former IBM senior architect and product manager. Having 10 years high concurrency experience in multinational firms. Scrum expert. PMP.'
       },
       zhangli: {
@@ -391,8 +391,13 @@ module.exports = {
       },
       ivan: {
         name: 'Ivan Golovko',
-        'position': 'Beijing',
+        'position': 'Silicon Valley',
         description: 'VP Strategy and Investor Relations of LegalThings One. Co-founder of Distributed.Fund and Distributed Alliance. Former CMO of ICODrops.'
+      },
+      'Michael': {
+        name: 'Michael',
+        position: 'San Francisco',
+        description: "Michael is a founder, writer, and community builder. He's the founding partner of Truth Cartel, a marketing & product agency distributing emerging technologies. Michael was Editor in Chief at Startup Grind, and now serves as Director of the Startup Grind SF and OneSalon communities. His written work includes two books on living and working in Asia, and columns in Inc and Fortune."
       },
       leo: {
         name: 'Leo',

@@ -398,7 +398,7 @@ module.exports = {
       allen: {
         name: '刘晓涛',
         job: '硅谷技术负责人',
-        'position': '北京',
+        'position': '硅谷',
         description: '资深技术专家。毕业于中国科技大学，复旦大学。前HP Tech Lead，前IBM系统架构师，产品负责人。10年知名外企高并发工作经验，Scrum敏捷开发专家，PMP。'
       },
       'terenceLam': {
@@ -433,6 +433,11 @@ module.exports = {
         name: 'Mirza Uddin',
         'position': '硅谷',
         description: 'Mirza毕业于哈佛大学。他曾在掌管500亿美元的美国量化对冲基金双西资本从事风险投资，其中包括深度研究区块链创业公司。他曾经就职于投资过Facebook和Dropbox的Index Ventures风险投资基金和波士顿咨询公司。'
+      },
+      'Michael': {
+        name: 'Michael',
+        position: '旧金山',
+        description: 'Michael是一个创业家，作家及社区建设专家。他是Truth Cartel——一个传播新兴技术的市场&产品代理商。Michael曾是Startup Grind的首席编辑，现在是Startup Grind SF和OneSalon社团的总监。他的文章作品包括两本关于在亚洲工作和生活的书以及《公司与财富》的数个专栏。'
       },
       ivan: {
         name: 'Ivan Golovko',

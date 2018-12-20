@@ -100,7 +100,7 @@ export default {
     margin-top: -10px;
     height: 300px;
     &.team-desc-zh{
-        height: 150px;
+        height: 180px;
     }
     .name {
       font-family: $font-family-main;
