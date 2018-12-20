@@ -359,6 +359,16 @@ export default {
               url: "https://www.linkedin.com/in/ivangolovko/"
             }
           ]
+        },
+                {
+          img: require("~/assets/images/teams/michael.png"),
+          key: "Michael"
+        //   urls: [
+        //     {
+        //       icon: ["fab", "linkedin"],
+        //       url: "https://www.linkedin.com/in/dong77/"
+        //     }
+        //   ]
         }
       ]
     };
