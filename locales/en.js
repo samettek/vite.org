@@ -5,7 +5,7 @@ module.exports = {
     document: 'Document',
     description: {
       index: 'Vite - High-Performance Decentralized Ecosystem',
-      careers: 'Welcome to join our Vitelabs, Let\'s create A New Generation of High-performance Decentralized Application Platform',
+      careers: 'Welcome to join our Vitelabs, Let\'s create A New Generation of High-Performance Decentralized Application Platform',
       faq: 'All about FAQs of Vite',
       technology: 'The key technologies of Vite: DAG、Snapshot Chain、Asynchronous Architecture、Reactive Contract、Quota leasing、Loopring Integrated、Timer scheduling、Contract Upgrade、solidity++'
     }
@@ -51,7 +51,7 @@ module.exports = {
   },
   home: {
     header: 'Vite',
-    slogan: 'High-performance Decentralized Ecosystem',
+    slogan: 'High-Performance Decentralized Ecosystem',
     whitePaper: 'White Paper',
     testnet: 'TestNet',
     acttext: 'Vote for SBPs, </br>collect VITE',
