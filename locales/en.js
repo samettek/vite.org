@@ -57,7 +57,7 @@ module.exports = {
     acttext: 'Vote for SBPs, </br>collect VITE',
     actwait: 'Stay tuned!',
     news: 'Latest News',
-    starttoUse: 'Get Started on Vite'
+    starttoUse: 'Get Started with Vite'
   },
   roadmap: {
     title: 'Roadmap',
@@ -475,7 +475,7 @@ module.exports = {
         'name': 'Abbott Jia',
         'job': 'QA',
         'position': 'Beijing',
-        description: 'Abbott has 4 years experience in working in Quality Assurance, previously ---- was in charge of testing of Meituan Dache Driver end (unclear). Abbott is a seasoned expert in risk control and the Quality Assurance spectrum.'
+        description: 'Abbott has 4 years experience in working in Quality Assurance, previously ---- was in charge of testing of Meituan Dache Driver end. Abbott is a seasoned expert in risk control and the Quality Assurance spectrum.'
       },
       Layla: {
         name: 'Layla',
@@ -608,7 +608,7 @@ module.exports = {
         'name': 'Hannah Fong',
         'job': 'QA',
         'position': 'Beijing',
-        description: 'Hannah has 2 years of experience in development testing, partaking in projects requiring designing participated in designing of testing frameworks. She also has 2 years of experience in back-end storage development testing, experience in gluster (as in Gluster the company or is this a tech term/typo) distributed storage technology. She has formerly cooperated with military-related enterprises demanding experience in dealing with data security and encrypted storage fields.'
+        description: 'Hannah has 2 years of experience in development testing, partaking in projects requiring designing participated in designing of testing frameworks. She also has 2 years of experience in back-end storage development testing, experience in gluster distributed storage technology. She has formerly cooperated with military-related enterprises demanding experience in dealing with data security and encrypted storage fields.'
       },
       'Miya': {
         'name': 'Miya',
@@ -881,7 +881,7 @@ module.exports = {
   },
 
   featureTitle: 'Vite Features',
-  featureTitle2: 'Why does Vite stand out?',
+  featureTitle2: 'How Vite stand out?',
   features: {
     performance: { title: 'High Performance', tags: ['DAG Ledger', 'Asynchronous Architecture'] },
     safety: { title: 'Security', tags: ['Multi-Token Model', 'Snapshot Chain'] },
