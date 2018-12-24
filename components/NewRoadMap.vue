@@ -54,7 +54,7 @@ export default {
   data: function() {
     return {
       selected: 2,
-      finished: 4
+      finished: 8
     };
   },
   computed: {
