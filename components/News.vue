@@ -79,7 +79,7 @@ export default {
             return {
               title: i.getElementsByTagName("title")[0].textContent,
               link: i.getElementsByTagName("link")[0].textContent,
-              date: `${d.getMonth() + 1}.${d.getDay()}`
+              date: `${d.getMonth() + 1}.${d.getDate()}`
             };
           });
         }
