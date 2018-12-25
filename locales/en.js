@@ -1,5 +1,5 @@
 module.exports = {
-  lang: 'English',
+  lang: 'EN',
   head: {
     title: 'Vite - High-Performance Decentralized Ecosystem',
     document: 'Document',
@@ -54,7 +54,7 @@ module.exports = {
     slogan: 'High-Performance Decentralized Ecosystem',
     whitePaper: 'White Paper',
     testnet: 'TestNet',
-    acttext: 'Vote for SBPs, </br>collect VITE',
+    acttext: 'Vote for Supernode Operators </br> Get Awarded VITE!',
     actwait: 'Stay tuned!',
     news: 'Latest News',
     starttoUse: 'Get Started with Vite'
@@ -63,56 +63,56 @@ module.exports = {
     title: 'Roadmap',
     timelines: [
       {
-        'time': '2018.02',
-        'description': 'Initiation of project'
+        'time': 'February 2018',
+        'description': 'Project Initiation'
       },
       {
-        'time': '2018.04',
-        'description': 'Publication of white paper'
+        'time': 'April 2018',
+        'description': 'White Paper Completion'
       },
       {
-        'time': '2018.05',
-        'description': ' Release of official website, capital raising, team assembling'
+        'time': 'May 2018',
+        'description': 'Official Website Release, Capital Raising, Team Assembling'
       },
       {
-        'time': '2018.06',
-        'description': ' RD team assembling complete, development started'
+        'time': 'June 2018',
+        'description': ' RD Team Assembling Complete, Start of Vite Core\'s R&D'
       },
       {
-        'time': '2018.08',
-        'description': ' go-vite 0.1, wallet, block explorer release'
+        'time': 'August 2018',
+        'description': ' go-vite 0.1, Wallet, Block Explorer Release'
       },
       {
-        'time': '2018.09',
-        'description': 'Web wallet, iOS wallet, block explorer officially release'
+        'time': 'September 2018',
+        'description': 'Web Wallet, iOS Wallet, Block Explorer Officially Release'
       },
       {
-        'time': '2018.10',
+        'time': 'October 2018',
         'description': 'Transfer ERC20 VITE which counts for 56% of total to Vite original net'
       },
       {
-        'time': '2018.11',
-        'description': ' Vite Testnet 1.0.0 release, SBP campaign and mining started'
+        'time': 'November 2018',
+        'description': ' Vite TestNet 1.0.0 Release, SBP Campaign and Mining Started'
       },
       {
-        'time': '2018.12',
+        'time': 'December 2018',
         'description': [
-          'Smart Contract/ Solidity++ alpha test',
-          'Cross-chain gateway alpha test',
-          'Multi-token wallet alpha test',
-          'DEX alpha test',
-          'Official website 2.0, official forum release'
+          'Smart Contract/ Solidity++ Alpha Test',
+          'Cross-chain Gateway Alpha Test',
+          'Multi-Token Wallet Alpha Test',
+          'DEX Alpha Test',
+          'Official Website 2.0, Official Forum Release'
         ]
       },
       {
         'time': '2019 Q1',
         'description': [
-          'Pre-mainnet release',
-          'Cross-chain gateway open beta test',
-          'DEX open beta test',
-          'Smart contract/Solidity++ open beta test',
-          'Multi-token wallet release',
-          'Multi-VM supported(EVM/WASM)']
+          'Pre-MainNet Release',
+          'Cross-Chain Gateway Open Beta Test',
+          'DEX Open Beta Test',
+          'Smart Contract/Solidity++ oOpen Beta Test',
+          'Multi-Token Wallet Release',
+          'Multi-VM Supported(EVM/WASM)']
       },
       {
         time: '2019 Q2',
@@ -349,10 +349,10 @@ module.exports = {
         'name': 'Charles Liu',
         job: 'CEO',
         'position': 'Beijing',
-        'description': 'Veteran blockchain entrepreneur and technical expert. Standing director of China Blockchain Application Research Center. Graduated from China University of Science and Technology and the Institute of Software of the Chinese Academy of Sciences. Former senior architect of JD.com, co-founder of Coinport, and engineering director of Meituan Dianping. Abundant experience in distributed systems and high concurrency systems.'
+        'description': 'Veteran Blockchain Entrepreneur and Technical Expert. Standing director of China Blockchain Application Research Center. Graduated from China University of Science and Technology and the Institute of Software of the Chinese Academy of Sciences. Former senior architect of JD.com, co-founder of Coinport, and engineering director of Meituan Dianping. Abundant experience in distributed systems and high concurrency systems.'
       },
       'wangdong': {
-        'name': 'Daniel Wang',
+        'name': 'Daniel Wong',
         'position': 'Beijing',
         'description': 'Seasoned blockchain entrepreneur.  Graduated from China University of Science and Technology and Arizona State University.  Founder of Loopring, former Google America Tech Lead, Co-founder and VP of Yun Yun Wang, Senior Research and Development Director at JD.com, and Co-Founder of Coinport.'
       },
@@ -395,7 +395,7 @@ module.exports = {
         description: 'VP Strategy and Investor Relations of LegalThings One. Co-founder of Distributed.Fund and Distributed Alliance. Former CMO of ICODrops.'
       },
       'Michael': {
-        name: 'Michael',
+        name: 'Michael Gasiorek',
         position: 'San Francisco',
         description: "Michael is a founder, writer, and community builder. He's the founding partner of Truth Cartel, a marketing & product agency distributing emerging technologies. Michael was Editor in Chief at Startup Grind, and now serves as Director of the Startup Grind SF and OneSalon communities. His written work includes two books on living and working in Asia, and columns in Inc and Fortune."
       },
@@ -478,7 +478,7 @@ module.exports = {
         description: 'Abbott has 4 years experience in working in Quality Assurance, previously ---- was in charge of testing of Meituan Dache Driver end. Abbott is a seasoned expert in risk control and the Quality Assurance spectrum.'
       },
       Layla: {
-        name: 'Layla',
+        name: 'Layla Wong',
         position: 'Beijing',
         job: 'UI Designer',
         description: 'Layla has 5 years of design experiences in Internet company, has rich experiences in brand, App, website design.'
@@ -509,13 +509,13 @@ module.exports = {
 
       },
       'Jin': {
-        'name': 'Jin',
+        'name': 'Jin Ge',
         'job': 'Back-End Developer',
         'position': 'Beijing',
         description: 'Jin has 3 years of experience working in Internet Finances Development.'
       },
       'Shenyang': {
-        'name': 'Shenyang',
+        'name': 'Shenyang Hao',
         'job': 'iOS Developer',
         'position': 'Beijing',
         description: 'Shenyang has over 4 years of experience in iOS development, working for some popular information technology companies in China. '
@@ -599,7 +599,7 @@ module.exports = {
         description: 'Flanke has 3 years of experience studying brand operations and has previously worked for iHeima and Xiangshang Finance.'
       },
       'Erin': {
-        'name': 'Erin',
+        'name': 'Erin Yu',
         'job': 'Data Operations',
         'position': 'Beijing',
         description: '3 years of experience in operation and risk management, previously worked for Sina Finance and Youfenqi as a data specialist.'
@@ -881,13 +881,13 @@ module.exports = {
   },
 
   featureTitle: 'Vite Features',
-  featureTitle2: 'How Vite stand out?',
+  featureTitle2: 'How Vite stands out?',
   features: {
     performance: { title: 'High Performance', tags: ['DAG Ledger', 'Asynchronous Architecture'] },
     safety: { title: 'Security', tags: ['Multi-Token Model', 'Snapshot Chain'] },
-    economical: { title: 'Economicalness', tags: ['Quota-based Model', 'Feeless-ness', 'Built-in DEX'] },
-    easyusing: { title: 'Usability', tags: ['Solidity++', 'Naming Service', 'Contract Scheduling', 'Contract Upgrades'] },
-    flexable: { title: 'Scalability', tags: ['Cross-Chain Gateway', 'HDPoS Consensus', 'Smart Contract'] }
+    economical: { title: 'Economicalness', tags: ['Quota-Based Model', 'Feeless Transactions', 'Built-in DEX'] },
+    easyusing: { title: 'Usability', tags: ['Solidity++', 'Naming Services', 'Contract Scheduling', 'Contract Upgrades'] },
+    flexable: { title: 'Scalability', tags: ['Cross-Chain Gateway', 'HDPoS Consensus', 'Smart Contracts'] }
   },
   ecoTitle: 'Vite Ecosystem',
   ecoTitle2: 'What Vite Can Do For You',
@@ -900,7 +900,7 @@ module.exports = {
       },
       finance: {
         title: 'Token Issuance',
-        child: ['One Button Token Issuance', 'Protocol-Level Support']
+        child: ['One-Step Token Issuance', 'Protocol-Level of Support']
       },
       'dex': {
         title: 'Built-in DEX',
@@ -909,7 +909,7 @@ module.exports = {
     },
     dapps: {
       title: 'dApps',
-      child: ['Game', 'Local Service', 'Entertainment', 'Social Networking Service', 'Intellectual Property', 'IoT']
+      child: ['Games', 'Local Services', 'Entertainment', 'Social Networking Services', 'Intellectual Property', 'IoT']
     }
   }
 }
