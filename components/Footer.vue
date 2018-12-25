@@ -58,6 +58,7 @@
                   <a
                     :href="urls.wiki[$i18n.locale]"
                     class="text-hover-transition"
+                    target="_blank"
                   >
                     {{$t(`nav.wiki`)}}
                   </a>
