@@ -34,6 +34,7 @@ module.exports = {
     superNodes: '超级节点说明',
     nodeList: '超级节点竞选人',
     nodeDetail: '超级节点详情',
+    wiki: 'WIKI',
     notice: {
       name: '超级节点',
       specific: '超级节点说明',

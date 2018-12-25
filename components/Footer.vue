@@ -54,7 +54,14 @@
                   class="nav-item"
                   :is-footer="true"
                 ></about>
-
+                <div class="nav-item">
+                  <a
+                    :href="urls.wiki[$i18n.locale]"
+                    class="text-hover-transition"
+                  >
+                    {{$t(`nav.wiki`)}}
+                  </a>
+                </div>
               </div>
               <div class="social-icons">
                 <div class="icons mt40">
@@ -223,8 +230,8 @@ export default {
     }
     .social-icons {
       margin-right: 10px;
-      .forum{
-          width:28px;
+      .forum {
+        width: 28px;
       }
     }
   }

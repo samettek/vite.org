@@ -42,6 +42,10 @@ module.exports = {
       en: 'https://vite.wiki/introduction/',
       zh: 'https://vite.wiki/zh/introduction/'
     },
+    wiki: {
+      en: 'https://vite.wiki/introduction/',
+      zh: 'https://vite.wiki/zh/introduction/'
+    },
     blog: {
       en: 'https://vite.blog/',
       zh: 'https://vite.blog/zh-cn/'

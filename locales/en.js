@@ -32,6 +32,7 @@ module.exports = {
     media: 'MEDIA',
     faq: 'FAQ',
     about: 'ABOUT',
+    wiki: 'WIKI',
     superNodes: 'Guide for SBP (Snapshot Block Producer)',
     nodeList: 'SBP Candidates',
     // nodeDetail: 'SBP Details',
@@ -45,9 +46,8 @@ module.exports = {
     // media: 'MEDIA',
   },
   about: {
-    introduction: 'Introduction',
-    blog: 'Blog',
-    whitepaper: 'White Paper'
+    whitepaper: 'White Paper',
+    blog: 'Blog'
   },
   home: {
     header: 'Vite',
