@@ -1,7 +1,7 @@
 <template>
   <section class="section" @click="play">
     <img src="~assets/images/video/play.svg"/>
-    <div class="video-text">Let's create something cool！</div>
+    <div class="video-text">Let's Create Something Cool</div>
   </section>
 </template>
 
