@@ -14,7 +14,6 @@
       role="menu"
     >
       <div class="dropdown-content">
-        <a class="dropdown-item" target="_blank" :href="url.introduction">{{$t('about.introduction')}}</a>
         <a class="dropdown-item" target="_blank" :href="url.blog">{{$t('about.blog')}}</a>
         <whitepaper></whitepaper>
       </div>
