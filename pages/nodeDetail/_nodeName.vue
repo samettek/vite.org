@@ -53,7 +53,7 @@
     },
     data: function () {
       return {
-        key: this.$route.query.key,
+        key: this.$route.params.nodeName,
         electors: {
           vitecity: {
             desc: [{
