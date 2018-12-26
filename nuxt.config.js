@@ -35,7 +35,7 @@ const sitemapUrls = []
 const locales = [
   {
     code: 'en',
-    name: 'English',
+    name: 'EN',
     langFile: 'en.js'
   },
   {

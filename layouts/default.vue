@@ -268,7 +268,7 @@ export default {
   background-image: url("~assets/images/activity.svg");
   color: white;
   font-family: $font-family-title;
-  font-size: 16px;
+  font-size: 12px;
   padding-top: 22px;
   .act {
     margin:10px auto 5px;
