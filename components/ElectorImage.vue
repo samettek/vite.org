@@ -38,7 +38,7 @@
       toDetailPage () {
         let lang = ''
         this.$i18n.locale !== 'en' ? lang = `/${this.$i18n.locale}` : lang = ''
-        this.$router.push({path: `${lang}/nodeDetail?key=${this.name}`})
+        this.$router.push({path: `${lang}/nodeDetail/${this.name}`})
       }
     }
   }
