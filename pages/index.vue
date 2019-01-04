@@ -11,16 +11,14 @@
           </div>
           <WhitePaper class="wp-btn"></WhitePaper>
           <div class="btn-group-wrapper">
-            <no-ssr>
-              <v-popover
-                offset="16"
-                popoverClass="v-popover">
-                <div class="pop-btn">{{$t('home.wallet')}}</div>
-                <template slot="popover">
-                  kkkk
-                </template>
-              </v-popover>
-            </no-ssr>
+            <v-popover
+              offset="16"
+              popoverClass="v-popover">
+              <div class="pop-btn">{{$t('home.wallet')}}</div>
+              <template slot="popover">
+                kkkk
+              </template>
+            </v-popover>
             <a
               :href="webWallet"
               target="_blank"
@@ -173,9 +171,6 @@ export default {
     line-height: 60px;
     display: flex;
     cursor: pointer;
-    .wp-btn {
-      margin-left: 20px;
-    }
     .pop-btn {
       box-shadow: 0 10px 40px 0 rgba(126, 183, 238, 0.83);
       display: inline-block;
@@ -184,6 +179,9 @@ export default {
       line-height: 60px;
       color: white;
       background: #007aff;
+      @include touch {
+        font-size: 12px;
+      }
     }
     .other-btn {
       margin-left: 20px;
@@ -192,6 +190,10 @@ export default {
       border:2px solid rgba(0,122,255,1);
       color:#007AFF;
       background: transparent;
+       @include touch {
+        font-size: 12px;
+        margin-left: 10px;
+      }
     }
     @include touch {
       margin-top: 12px;

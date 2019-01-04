@@ -4,15 +4,19 @@
       offset="16"
       :disabled="!isEnabled"
       popoverClass="v-popover">
-      <div class="btn-wrapper">
-        <a class="button tooltip-target">
-          {{$t('home.whitePaper')}}
-        </a>
-      </div>
-
+        <span class="wp-wrapper">{{$t('home.whitePaper')}}</span>
+        <svg width="9px" height="14px" viewBox="0 0 9 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g id="page" transform="translate(-421.000000, -962.000000)" stroke="#007AFF" stroke-width="2">
+                  <g id="Group-14" transform="translate(421.000000, 962.000000)">
+                      <polyline id="Shape" points="1 13 7 7 1 1"></polyline>
+                  </g>
+              </g>
+          </g>
+        </svg>
       <template slot="popover">
         <div class="item-wrapper">
-          <div v-for="item in list">
+          <div v-for="(item,index) in list" :key="index">
             <a class="tag" target="_blank" :href="urlList[item]">
               {{$t(`urls.whitePaperList.${item}`)}}
             </a>
@@ -22,18 +26,16 @@
     </v-popover>
 
     <div class="btn-wrapper" slot="placeholder">
-      <a class="button" :href="$t('urlSrc.whitePaper')" target="_blank">
-        {{$t('home.whitePaper')}}
-        <svg width="13px" height="22px" viewBox="0 0 13 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <span class="wp-wrapper">{{$t('home.whitePaper')}}</span>
+        <svg width="9px" height="14px" viewBox="0 0 9 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-            <g id="home——PC" transform="translate(-526.000000, -473.000000)" stroke-width="2" stroke="currentColor">
-              <g id="Group" transform="translate(360.000000, 152.000000)">
-                <polyline id="Rectangle-2-Copy-2" transform="translate(172.000000, 332.000000) scale(-1, 1) translate(-172.000000, -332.000000) " points="177 342 167 332 177 322"></polyline>
+              <g id="page" transform="translate(-421.000000, -962.000000)" stroke="#007AFF" stroke-width="2">
+                  <g id="Group-14" transform="translate(421.000000, 962.000000)">
+                      <polyline id="Shape" points="1 13 7 7 1 1"></polyline>
+                  </g>
               </g>
-            </g>
           </g>
         </svg>
-      </a>
     </div>
   </no-ssr>
 </template>
@@ -71,6 +73,17 @@
 
   .no-ssr {
     display: inline-block;
+    cursor: pointer;
+  }
+  .wp-wrapper {
+    font-size:16px;
+    font-weight:600;
+    color:rgba(0,122,255,1);
+    line-height:18px;
+    vertical-align: baseline;
+    display: inline-block;
+    margin-right: 6px;
+    margin-top: 10px;
   }
 
   .button {
