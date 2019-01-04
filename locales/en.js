@@ -54,7 +54,7 @@ module.exports = {
     explorer: 'Explorer',
     webWallet: 'Web Wallet',
     wallet: {
-      name: 'Wallet App',
+      name: 'Vite App',
       en: 'Outside China Mainland',
       zh: 'China Mainland'
     },

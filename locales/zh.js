@@ -7,7 +7,7 @@ module.exports = {
       index: 'Vite - 高性能去中心化生态系统',
       careers: '欢迎加入Vitelabs，Do something cool',
       faq: '有关Vite的所有问题答疑',
-      technology: 'Vite核心技术：DAG、Snapchat Chain、异步架构、响应式合约、配额租赁、集成路印协议、定时调度、合约升级、solidity++'
+      technology: 'Vite核心技术：DAG、Snapshot Chain、异步架构、响应式合约、配额租赁、集成路印协议、定时调度、合约升级、solidity++'
     }
   },
   exchange: {
@@ -46,7 +46,7 @@ module.exports = {
     explorer: '区块浏览器',
     webWallet: 'Web 钱包',
     wallet: {
-      name: '钱包 App',
+      name: 'Vite App',
       en: '外国用户',
       zh: '中国用户'
     },
