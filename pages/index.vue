@@ -134,8 +134,8 @@ export default {
   letter-spacing: 0;
   text-align: center;
   .wallet-app {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
   }
   .wallet-item + .wallet-item{
     margin-left: 20px; 
