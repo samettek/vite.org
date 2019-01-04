@@ -100,15 +100,15 @@
 </template>
 
 <script type="text/babel">
-import LangSelect from "~/components/LangSelect.vue";
-import Logo from "~/components/Logo.vue";
-import LogoWithoutWords from "~/components/LogoWithoutWords.vue";
-import Footer from "~/components/Footer.vue";
-import Exchange from "~/components/Exchange.vue";
-import config from "~/config";
-import voteNotice from "~/components/voteNotice.vue";
-import about from "~/components/about.vue";
-import Media from "~/components/Media.vue";
+import LangSelect from '~/components/LangSelect.vue';
+import Logo from '~/components/Logo.vue';
+import LogoWithoutWords from '~/components/LogoWithoutWords.vue';
+import Footer from '~/components/Footer.vue';
+import Exchange from '~/components/Exchange.vue';
+import config from '~/config';
+import voteNotice from '~/components/voteNotice.vue';
+import about from '~/components/about.vue';
+import Media from '~/components/Media.vue';
 
 export default {
   components: {
@@ -121,125 +121,125 @@ export default {
     about,
     Media
   },
-  head() {
-    let { routeName } = this;
-    let title = this.$t(`nav.${routeName}`) + " - " + this.$t("head.title");
+  head () {
+    let { routeName } = this
+    let title = this.$t(`nav.${routeName}`) + ' - ' + this.$t('head.title')
 
-    let description = this.$t(`head.description.${routeName}`);
-    let iconUrl = "https://vite.org/icon.png";
+    let description = this.$t(`head.description.${routeName}`)
+    let iconUrl = 'https://vite.org/icon.png';
     let structuredData = [
       {
-        "@context": "http://schema.org",
-        "@type": "Organization",
-        url: "https://vite.org",
-        name: "Vite labs.",
+        '@context': 'http://schema.org',
+        '@type': 'Organization',
+        url: 'https://vite.org',
+        name: 'Vite labs.',
         description: description,
         image: iconUrl,
         brand: {
-          "@type": "Brand",
-          name: "VITE",
+          '@type': 'Brand',
+          name: 'VITE',
           logo: iconUrl
         },
         sameAs: [config.urls.twitter]
       }
-    ];
+    ]
     return {
       meta: [
-        { hid: "description", name: "description", content: description },
+        { hid: 'description', name: 'description', content: description },
         {
-          name: "google-site-verification",
-          content: "MyUvG14lvMm-nYCWoXYE9NT21vRda-kIT6xMETrGqZk"
+          name: 'google-site-verification',
+          content: 'MyUvG14lvMm-nYCWoXYE9NT21vRda-kIT6xMETrGqZk'
         },
         // Open Grapg
-        { name: "og:title", content: title, hid: "og:title" },
-        { name: "og:description", content: description, hid: "og:description" },
-        { name: "og:type", content: "website", hid: "og:type" },
-        { name: "og:url", content: "https://vite.org", hid: "og:url" },
-        { name: "og:image", content: "https://www.vite.org/icon.png" },
+        { name: 'og:title', content: title, hid: 'og:title' },
+        { name: 'og:description', content: description, hid: 'og:description' },
+        { name: 'og:type', content: 'website', hid: 'og:type' },
+        { name: 'og:url', content: 'https://vite.org', hid: 'og:url' },
+        { name: 'og:image', content: 'https://www.vite.org/icon.png' },
 
         // Twitter Card
-        { name: "twitter:card", content: "summary", hid: "twitter:card" },
-        { name: "twitter:site", content: "@vitelabs", hid: "twitter:site" },
-        { name: "twitter:title", content: title, hid: "twitter:title" },
+        { name: 'twitter:card', content: 'summary', hid: 'twitter:card' },
+        { name: 'twitter:site', content: '@vitelabs', hid: 'twitter:site' },
+        { name: 'twitter:title', content: title, hid: 'twitter:title' },
         {
-          name: "twitter:description",
+          name: 'twitter:description',
           content: description,
-          hid: "twitter:description"
+          hid: 'twitter:description'
         },
         {
-          name: "twitter:image:alt",
-          content: "Vite Logo",
-          hid: "twitter:image:alt"
+          name: 'twitter:image:alt',
+          content: 'Vite Logo',
+          hid: 'twitter:image:alt'
         },
         {
-          name: "twitter:image",
-          content: "https://www.vite.org/logo_appstore.png"
+          name: 'twitter:image',
+          content: 'https://www.vite.org/logo_appstore.png'
         }
       ],
-      __dangerouslyDisableSanitizers: ["script"],
+      __dangerouslyDisableSanitizers: ['script'],
       script: structuredData.map(item => {
         return {
           innerHTML: JSON.stringify(item),
-          type: "application/ld+json"
-        };
+          type: 'application/ld+json'
+        }
       })
-    };
+    }
   },
-  data: function() {
+  data: function () {
     return {
       navbarActive: false,
-      navs: ["team", "community"],
+      navs: ['team', 'community'],
       collapsing: false,
       urls: config.urls
-    };
+    }
   },
   computed: {
-    routeName() {
-      if (!this.$route || !this.$route.name) return "";
-      return this.$route.name.split("-")[0];
+    routeName () {
+      if (!this.$route || !this.$route.name) return '';
+      return this.$route.name.split('-')[0]
     },
-    navbarEndStyle() {
+    navbarEndStyle () {
       if (this.navbarActive) {
         return {
-          height: this.$refs.navbarEnd.clientHeight + "px",
-          overflowY: this.collapsing ? "hidden" : "visible"
-        };
+          height: this.$refs.navbarEnd.clientHeight + 'px',
+          overflowY: this.collapsing ? 'hidden' : 'visible'
+        }
       } else {
         return {
           height: 0
-        };
+        }
       }
     }
   },
   methods: {
-    openDotNet() {
+    openDotNet () {
       window.open(
-        this.$i18n.locale === "zh" ? "https://vite.net/zh/" : "https://vite.net"
-      );
+        this.$i18n.locale === 'zh' ? 'https://vite.net/zh/' : 'https://vite.net'
+      )
     },
-    onNavClick(e) {
-      let { target } = e;
+    onNavClick (e) {
+      let { target } = e
       if (
         target &&
         target.className &&
-        typeof target.className === "string" &&
-        target.className.indexOf("nav-item") > -1
+        typeof target.className === 'string' &&
+        target.className.indexOf('nav-item') > -1
       ) {
-        this.navbarActive = false;
+        this.navbarActive = false
       }
     },
-    onLogoClick() {
-      this.navbarActive = false;
+    onLogoClick () {
+      this.navbarActive = false
     },
-    onBurgerClick() {
-      this.collapsing = true;
-      this.navbarActive = !this.navbarActive;
+    onBurgerClick () {
+      this.collapsing = true
+      this.navbarActive = !this.navbarActive
       setTimeout(() => {
-        this.collapsing = false;
-      }, 500);
+        this.collapsing = false
+      }, 500)
     }
   }
-};
+}
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>

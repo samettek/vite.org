@@ -51,67 +51,67 @@
 <script type="text/babel">
 export default {
   components: {},
-  data: function() {
+  data: function () {
     return {
       selected: 2,
       finished: 8
-    };
+    }
   },
   computed: {
-    timelines: function(index) {
-      let roadmaps = this.$t(`roadmap.timelines`);
+    timelines: function (index) {
+      let roadmaps = this.$t(`roadmap.timelines`)
       if (!Array.isArray(roadmaps)) {
-        return [];
+        return []
       }
       return roadmaps.map(item => {
         if (!Array.isArray(item.description)) {
           return {
             ...item,
             description: [item.description]
-          };
+          }
         }
-        return item;
-      });
+        return item
+      })
     }
   },
   watch: {
-    selected(index, oldIndex) {
+    selected (index, oldIndex) {
       if (index === oldIndex) {
-        return;
+        return
       }
-      const containerRect = this.$refs.container.getBoundingClientRect();
-      const containerLeft = containerRect.left;
-      const center = (containerRect.right + containerRect.left) / 2;
+      const containerRect = this.$refs.container.getBoundingClientRect()
+      const containerLeft = containerRect.left
+      const center = (containerRect.right + containerRect.left) / 2
       const targetRight = this.$refs.nodes.children[
         index
-      ].getBoundingClientRect().right;
+      ].getBoundingClientRect().right
       if (
         targetRight - containerLeft < 0 &&
         targetRight - containerLeft < this.$refs.container.scrollLeft
       ) {
-        this.$refs.container.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+        this.$refs.container.scrollTo({ top: 0, left: 0, behavior: 'smooth' })
       } else {
         this.$refs.container.scrollBy({
           top: 0, // could be negative value
           left: targetRight - containerLeft,
-          behavior: "smooth"
-        });
+          behavior: 'smooth'
+        })
       }
     }
   },
   methods: {
-    onNext() {
+    onNext () {
       if (this.selected !== this.timelines.length - 1) {
-        this.selected = this.selected + 1;
+        this.selected = this.selected + 1
       }
     },
-    onPrev() {
+    onPrev () {
       if (this.selected !== 0) {
-        this.selected = this.selected - 1;
+        this.selected = this.selected - 1
       }
     }
   }
-};
+}
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>
