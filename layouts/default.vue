@@ -40,6 +40,13 @@
             ref="navbarStart"
             class="navbar-start"
           >
+            <a 
+              href="http://vite.net/" 
+              class="nav-item text-hover-transition" 
+              target="_blank"
+            >
+              {{$t(`nav.production`)}}
+            </a>
             <nuxt-link
               :key="item"
               :to="localePath(item)"
@@ -61,10 +68,9 @@
             <div class="nav-item">
               <Media></Media>
             </div>
-            <div class="nav-item">
+            <!-- <div class="nav-item">
               <Exchange></Exchange>
-            </div>
-
+            </div> -->
           </div>
           <div
             ref="navbarEnd"
@@ -100,15 +106,15 @@
 </template>
 
 <script type="text/babel">
-import LangSelect from '~/components/LangSelect.vue';
-import Logo from '~/components/Logo.vue';
-import LogoWithoutWords from '~/components/LogoWithoutWords.vue';
-import Footer from '~/components/Footer.vue';
-import Exchange from '~/components/Exchange.vue';
-import config from '~/config';
-import voteNotice from '~/components/voteNotice.vue';
-import about from '~/components/about.vue';
-import Media from '~/components/Media.vue';
+import LangSelect from '~/components/LangSelect.vue'
+import Logo from '~/components/Logo.vue'
+import LogoWithoutWords from '~/components/LogoWithoutWords.vue'
+import Footer from '~/components/Footer.vue'
+import Exchange from '~/components/Exchange.vue'
+import config from '~/config'
+import voteNotice from '~/components/voteNotice.vue'
+import about from '~/components/about.vue'
+import Media from '~/components/Media.vue'
 
 export default {
   components: {
@@ -126,7 +132,7 @@ export default {
     let title = this.$t(`nav.${routeName}`) + ' - ' + this.$t('head.title')
 
     let description = this.$t(`head.description.${routeName}`)
-    let iconUrl = 'https://vite.org/icon.png';
+    let iconUrl = 'https://vite.org/icon.png'
     let structuredData = [
       {
         '@context': 'http://schema.org',
@@ -195,7 +201,7 @@ export default {
   },
   computed: {
     routeName () {
-      if (!this.$route || !this.$route.name) return '';
+      if (!this.$route || !this.$route.name) return ''
       return this.$route.name.split('-')[0]
     },
     navbarEndStyle () {

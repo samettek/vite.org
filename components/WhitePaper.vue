@@ -80,7 +80,7 @@
     font-family: $font-family-title;
     color:#007AFF;
     line-height:60px;
-    width: 200px;
+    width: 168px;
     height: 60px;
     border-color: #007AFF;
     background: transparent;

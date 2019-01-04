@@ -24,6 +24,7 @@ module.exports = {
   },
   nav: {
     index: '首页',
+    production: '产品',
     team: '团队',
     partnership: '合作',
     community: '社区',
@@ -42,6 +43,9 @@ module.exports = {
     }
   },
   home: {
+    explorer: '区块浏览器',
+    webWallet: 'Web 钱包',
+    wallet: '钱包 App',
     header: 'Vite',
     slogan: '高性能去中心化生态系统',
     whitePaper: '白皮书',

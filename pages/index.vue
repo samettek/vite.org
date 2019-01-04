@@ -9,14 +9,29 @@
             </h1>
             <h2>{{$t("home.slogan")}}</h2>
           </div>
+          <WhitePaper class="wp-btn"></WhitePaper>
           <div class="btn-group-wrapper">
+            <no-ssr>
+              <v-popover
+                offset="16"
+                popoverClass="v-popover">
+                <div class="pop-btn">{{$t('home.wallet')}}</div>
+                <template slot="popover">
+                  kkkk
+                </template>
+              </v-popover>
+            </no-ssr>
             <a
-              :href="vitenet"
+              :href="webWallet"
               target="_blank"
-            >{{$t('home.starttoUse')}}</a>
-            <WhitePaper class="wp-btn"></WhitePaper>
+              class="pop-btn other-btn"
+            >{{$t('home.webWallet')}}</a>
+            <a
+              :href="explorer"
+              target="_blank"
+              class="pop-btn other-btn"
+            >{{$t('home.explorer')}}</a>
           </div>
-
         </div>
       </div>
     </section>
@@ -38,23 +53,25 @@
 </template>
 
 <script>
-import News from "~/components/News.vue";
-import Ecology from "~/components/Ecology";
-import Feature from "~/components/feature";
-import Video from "~/components/Video.vue";
-import Investor from "~/components/Investor";
-import Logo from "~/components/Logo.vue";
-import LogoWord from "~/components/LogoWord";
-import NewRoadMap from "~/components/NewRoadMap";
-import Wechat from "~/components/Wechat";
-import Telegram from "~/components/Telegram";
-import WhitePaper from "~/components/WhitePaper";
-import JoinMailingList from "~/components/JoinMailingList";
+import News from '~/components/News.vue'
+import Ecology from '~/components/Ecology'
+import Feature from '~/components/feature'
+import Video from '~/components/Video.vue'
+import Investor from '~/components/Investor'
+import Logo from '~/components/Logo.vue'
+import LogoWord from '~/components/LogoWord'
+import NewRoadMap from '~/components/NewRoadMap'
+import Wechat from '~/components/Wechat'
+import Telegram from '~/components/Telegram'
+import WhitePaper from '~/components/WhitePaper'
+import JoinMailingList from '~/components/JoinMailingList'
+import { VPopover } from 'v-tooltip'
 
-import config from "~/config.js";
+import config from '~/config.js'
 
 export default {
   components: {
+    VPopover,
     VNews: News,
     VEcology: Ecology,
     VFeature: Feature,
@@ -68,24 +85,30 @@ export default {
     JoinMailingList,
     WhitePaper
   },
-  mounted() {},
-  data() {
+  mounted () {},
+  data () {
     return {
       urls: config.urls,
       showNotice: true
-    };
+    }
   },
   methods: {
-    onNavClick() {
-      this.navbarActive = false;
+    onNavClick () {
+      this.navbarActive = false
     }
   },
   computed: {
-    vitenet() {
-      return config.urls.viteNet[this.$i18n.locale];
+    vitenet () {
+      return config.urls.viteNet[this.$i18n.locale]
+    },
+    webWallet () {
+      return config.urls.webWallet[this.$i18n.locale]
+    },
+    explorer () {
+      return config.urls.explorer[this.$i18n.locale]
     }
   }
-};
+}
 </script>
 
 
@@ -153,13 +176,22 @@ export default {
     .wp-btn {
       margin-left: 20px;
     }
-    a {
+    .pop-btn {
       box-shadow: 0 10px 40px 0 rgba(126, 183, 238, 0.83);
       display: inline-block;
-      width: 200px;
+      width: 168px;
       height: 60px;
+      line-height: 60px;
       color: white;
       background: #007aff;
+    }
+    .other-btn {
+      margin-left: 20px;
+      box-sizing: border-box;
+      box-shadow:0px 10px 40px 0px rgba(126,183,238,0.83);
+      border:2px solid rgba(0,122,255,1);
+      color:#007AFF;
+      background: transparent;
     }
     @include touch {
       margin-top: 12px;

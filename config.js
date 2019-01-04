@@ -5,6 +5,14 @@ module.exports = {
       zh: 'https://vite.net/zh',
       en: 'https://vite.net'
     },
+    explorer: {
+      zh: 'https://explorer.vite.net/zh',
+      en: 'https://explorer.vite.net'
+    },
+    webWallet: {
+      zh: 'https://wallet.vite.net',
+      en: 'https://wallet.vite.net'
+    },
     news: {
       rss: {
         zh: 'https://hidden-peak-43038.herokuapp.com/https://forum.vite.net/category/18.rss',

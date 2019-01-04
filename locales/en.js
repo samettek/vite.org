@@ -25,6 +25,7 @@ module.exports = {
   },
   nav: {
     index: 'HOME',
+    production: 'PRODUCTION',
     team: 'TEAM',
     partnership: 'PARTNERSHIPS',
     community: 'COMMUNITY',
@@ -50,6 +51,9 @@ module.exports = {
     blog: 'Blog'
   },
   home: {
+    explorer: 'Explorer',
+    webWallet: 'Web Wallet',
+    wallet: 'Wallet App',
     header: 'Vite',
     slogan: 'High-Performance Decentralized Ecosystem',
     whitePaper: 'White Paper',
