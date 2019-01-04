@@ -53,7 +53,11 @@ module.exports = {
   home: {
     explorer: 'Explorer',
     webWallet: 'Web Wallet',
-    wallet: 'Wallet App',
+    wallet: {
+      name: 'Wallet App',
+      en: 'Outside China Mainland',
+      zh: 'China Mainland'
+    },
     header: 'Vite',
     slogan: 'High-Performance Decentralized Ecosystem',
     whitePaper: 'White Paper',
@@ -61,7 +65,7 @@ module.exports = {
     acttext: 'Vote for Supernode Operators </br> Get Awarded VITE!',
     actwait: 'Stay tuned!',
     news: 'Latest News',
-    starttoUse: 'Get Started with Vite'
+    starttoUse: 'Get Started with Vite',
   },
   roadmap: {
     title: 'Roadmap',

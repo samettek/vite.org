@@ -14,9 +14,14 @@
             <v-popover
               offset="16"
               popoverClass="v-popover">
-              <div class="pop-btn">{{$t('home.wallet')}}</div>
-              <template slot="popover">
-                kkkk
+              <div class="pop-btn">{{$t('home.wallet.name')}}</div>
+              <template slot="popover" >
+                <div class="wallet-app-container">
+                  <div v-for="code in QRcode" :key="code.key" class="wallet-item">
+                    <img :src="code.img"  class="wallet-app" />
+                    <div>{{$t(`home.wallet.${code.key}`)}}</div>
+                  </div>
+                </div>
               </template>
             </v-popover>
             <a
@@ -86,6 +91,13 @@ export default {
   mounted () {},
   data () {
     return {
+      QRcode: [{
+        key: 'zh',
+        img: require('~/assets/images/zhongapp.png')
+      }, {
+        key: 'en',
+        img: require('~/assets/images/waiapp.png')
+      }],
       urls: config.urls,
       showNotice: true
     }
@@ -112,6 +124,24 @@ export default {
 
 <style lang="scss" scoped>
 @import "assets/vars.scss";
+.wallet-app-container {
+  display: flex;
+  display: -webkit-flex;
+  padding: 0;
+  background: #ffffff;
+  font-size: 14px;
+  color: #5e6875;
+  letter-spacing: 0;
+  text-align: center;
+  .wallet-app {
+    width: 100px;
+    height: 100px;
+  }
+  .wallet-item + .wallet-item{
+    margin-left: 20px; 
+  }
+
+}
 
 .section-title {
   text-align: center;
@@ -162,6 +192,8 @@ export default {
       font-size: 1rem;
     }
   }
+  
+
   .btn-group-wrapper {
     margin-top: 3.75rem;
     height: 60px;
@@ -171,6 +203,8 @@ export default {
     line-height: 60px;
     display: flex;
     cursor: pointer;
+
+    
     .pop-btn {
       box-shadow: 0 10px 40px 0 rgba(126, 183, 238, 0.83);
       display: inline-block;

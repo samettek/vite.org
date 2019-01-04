@@ -45,7 +45,11 @@ module.exports = {
   home: {
     explorer: '区块浏览器',
     webWallet: 'Web 钱包',
-    wallet: '钱包 App',
+    wallet: {
+      name: '钱包 App',
+      en: '外国用户',
+      zh: '中国用户'
+    },
     header: 'Vite',
     slogan: '高性能去中心化生态系统',
     whitePaper: '白皮书',
