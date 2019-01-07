@@ -94,15 +94,36 @@ module.exports = {
       },
       {
         'time': '2018.09',
-        'description': 'Web钱包、iOS钱包、区块浏览器正式发布'
+        'description': [
+          {
+            text: 'Web钱包',
+            url: 'https://wallet.vite.net/'
+          },
+          'iOS钱包',
+          {
+            text: '区块浏览器正式发布',
+            url: 'https://explorer.vite.net/'
+          }
+        ]
       },
       {
         'time': '2018.10',
-        'description': '迁移总量56%的ERC20代币到Vite原生网络'
+        'description': [
+          {
+            text: '迁移总量56%的ERC20代币到Vite原生网络',
+            url: 'https://medium.com/vitelabs/testnet-an-update-erc20-token-migration-guide-7c200bef7337'
+          }
+        ]
       },
       {
         'time': '2018.11',
-        'description': 'Vite Testnet 1.0.0发布，开启SBP竞选及挖矿'
+        'description': [
+          'Vite TestNet 1.0.0发布',
+          {
+            text: '开启SBP竞选及挖矿',
+            url: 'https://explorer.vite.net/SBPList'
+          }
+        ]
       },
       {
         'time': '2018.12',
@@ -111,7 +132,11 @@ module.exports = {
           '跨链网关内测',
           '多币种钱包内测',
           'DEX内测',
-          '官方网站2.0、官方论坛上线'
+          '官方网站2.0',
+          {
+            text: '官方论坛上线',
+            url: 'https://forum.vite.net/'
+          }
         ]
       },
       {
