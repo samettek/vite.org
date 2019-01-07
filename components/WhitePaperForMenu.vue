@@ -91,6 +91,10 @@ export default {
   display: block;
 }
 .dropdown-menu {
+  #lang-dropdown-menu{
+      overflow-y: scroll;
+      max-height: 160px;
+    }
   .dropdown-content {
     display: none;
     .dropdown-item {
