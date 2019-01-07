@@ -124,7 +124,7 @@ module.exports = {
           'Multi-Token Wallet Alpha Test',
           'Decentralized Exchange (DEX) Alpha Test',
           'Website 2.0',
-          'Official Forum Website | https://forum.vite.net/'
+          'Official Forum Website'
         ]
       },
       {
