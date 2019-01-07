@@ -76,7 +76,12 @@ module.exports = {
       },
       {
         'time': 'April 2018',
-        'description': 'White Paper Completion'
+        'description': [
+          {
+            text: 'White Paper Completion',
+            url: 'https://www.vite.org/whitepaper/vite_en.pdf'
+          }
+        ]
       },
       {
         'time': 'May 2018',
@@ -100,21 +105,36 @@ module.exports = {
       {
         'time': 'September 2018',
         'description': [
-          'Web Wallet',
+          {
+            text: 'Web Wallet',
+            url: 'https://wallet.vite.net/'
+          },
           'iOS Wallet',
-          'Block Explorer'
+          {
+            text: 'Block Explorer',
+            url: 'https://explorer.vite.net/'
+          }
         ]
       },
       {
         'time': 'October 2018',
-        'description': 'Conversion of ERC20 VITE into VITE (56% of total token supply)'
+        'description': [
+          {
+            text: 'Conversion of ERC20 VITE into VITE (56% of total token supply)',
+            url: 'https://medium.com/vitelabs/testnet-an-update-erc20-token-migration-guide-7c200bef7337'
+          }
+        ]
       },
       {
         'time': 'November 2018',
         'description': [
           'Vite TestNet 1.0.0',
-          'Snapshot Block Producer (SBP) Campaign',
-          'Mining']
+          {
+            text: 'Snapshot Block Producer (SBP) Campaign',
+            url: 'https://explorer.vite.net/SBPList'
+          },
+          'Mining'
+        ]
       },
       {
         'time': 'December 2018',
@@ -122,9 +142,15 @@ module.exports = {
           'Smart Contract/ Solidity++ Alpha Test',
           'Cross-Chain Gateway Alpha Test',
           'Multi-Token Wallet Alpha Test',
-          'Decentralized Exchange (DEX) Alpha Test',
+          {
+            text: 'Decentralized Exchange (DEX) Alpha Test | View Forbes Article',
+            url: 'https://www.forbes.com/sites/yoavvilner/2018/12/16/the-state-of-decentralized-exchanges-and-plans-for-2019/#6af853b83059'
+          },
           'Website 2.0',
-          'Official Forum Website'
+          {
+            text: 'Official Forum Website',
+            url: 'https://forum.vite.net/'
+          }
         ]
       },
       {

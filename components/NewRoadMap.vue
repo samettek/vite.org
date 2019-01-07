@@ -26,12 +26,20 @@
             <div class="desc-wrapper">
               <span class="time">{{item.time}}</span>
               <div class="desc">
-                <p
+                <div
                   v-for="(desc, index) in item.description"
                   :key="index"
                 >
-                  {{desc}}
-                </p>
+                <p v-if="!(desc instanceof Object)"> {{desc}} </p>
+                <a v-else
+                    :href="desc.url"
+                    target="_blank"
+                  >
+                    <p>
+                      {{ desc.text }}
+                    </p>
+                  </a>
+                </div>
               </div>
             </div>
           </li>
@@ -167,10 +175,10 @@ section {
         padding-top: 70px;
       }
       & li:first-child {
-        min-width: 80px;
+        min-width: 180px;
       }
       & li:last-child {
-        min-width: 80px;
+        min-width: 180px;
         border-right: none;
         &::after {
           width: 0;
@@ -180,7 +188,7 @@ section {
       li {
         list-style-type: none;
         position: relative;
-        min-width: 160px;
+        min-width: 180px;
         height: 46px;
         margin: 0 auto;
         border-top: 2px dashed $timelineColor;
@@ -235,8 +243,8 @@ section {
       }
       .desc {
         position: absolute;
-        width: 120px;
-        left: calc(50% - 60px);
+        width: 160px;
+        left: calc(50% - 80px);
         top: 100%;
         font-size: 13px;
         color: #171c34;

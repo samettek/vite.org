@@ -73,7 +73,12 @@ module.exports = {
       },
       {
         'time': '2018.04',
-        'description': '白皮书发布'
+        'description': [
+          {
+            text: '白皮书发布',
+            url: 'https://www.vite.org/whitepaper/vite_cn.pdf'
+          }
+        ]
       },
       {
         'time': '2018.05',
