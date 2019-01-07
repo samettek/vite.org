@@ -65,7 +65,7 @@ module.exports = {
     acttext: 'Vote for Supernode Operators </br> Get Awarded VITE!',
     actwait: 'Stay tuned!',
     news: 'Latest News',
-    starttoUse: 'Get Started with Vite',
+    starttoUse: 'Get Started with Vite'
   },
   roadmap: {
     title: 'Roadmap',
@@ -80,61 +80,85 @@ module.exports = {
       },
       {
         'time': 'May 2018',
-        'description': 'Official Website Release, Capital Raising, Team Assembling'
+        'description': [
+          'Private Sale Fundraise',
+          'Official Website',
+          'Founding Team'
+        ]
       },
       {
         'time': 'June 2018',
-        'description': ' RD Team Assembling Complete, Start of Vite Core\'s R&D'
+        'description': [
+          'R&D Team',
+          'Core Technology Development'
+        ]
       },
       {
         'time': 'August 2018',
-        'description': ' go-vite 0.1, Wallet, Block Explorer Release'
+        'description': ' go-vite 0.1'
       },
       {
         'time': 'September 2018',
-        'description': 'Web Wallet, iOS Wallet, Block Explorer Officially Release'
+        'description': [
+          'Web Wallet',
+          'iOS Wallet',
+          'Block Explorer'
+        ]
       },
       {
         'time': 'October 2018',
-        'description': 'Transfer ERC20 VITE which counts for 56% of total to Vite original net'
+        'description': 'Conversion of ERC20 VITE into VITE (56% of total token supply)'
       },
       {
         'time': 'November 2018',
-        'description': ' Vite TestNet 1.0.0 Release, SBP Campaign and Mining Started'
+        'description': [
+          'Vite TestNet 1.0.0',
+          'Snapshot Block Producer (SBP) Campaign',
+          'Mining']
       },
       {
         'time': 'December 2018',
         'description': [
           'Smart Contract/ Solidity++ Alpha Test',
-          'Cross-chain Gateway Alpha Test',
+          'Cross-Chain Gateway Alpha Test',
           'Multi-Token Wallet Alpha Test',
-          'DEX Alpha Test',
-          'Official Website 2.0, Official Forum Release'
+          'Decentralized Exchange (DEX) Alpha Test',
+          'Website 2.0',
+          'Official Forum Website | https://forum.vite.net/'
         ]
       },
       {
-        'time': '2019 Q1',
+        'time': 'Q1 2019',
         'description': [
           'Pre-MainNet Release',
           'Cross-Chain Gateway Open Beta Test',
           'DEX Open Beta Test',
-          'Smart Contract/Solidity++ oOpen Beta Test',
+          'Smart Contract/Solidity++ Open Beta Test',
           'Multi-Token Wallet Release',
-          'Multi-VM Supported(EVM/WASM)']
-      },
-      {
-        time: '2019 Q2',
-        description: ['Performance optimization', 'Timer-Triggered Scheduler', 'Naming service', 'Smart contract Upgrade'
+          'Multi-VM (Virtual Machine) Support (EVM / WASM)'
         ]
       },
       {
-        'time': '2019 Q3',
-        'description': ['Mainnet release', 'dApps supported by mobile client application', 'Stable coin Issuance', 'Payment fulfilment'
+        time: 'Q2 2019',
+        description: [
+          'Performance Optimization',
+          'Timer-Triggered Smart Contract Scheduler',
+          'Naming Service for Addresses',
+          'Smart Contract Upgrades'
         ]
       },
       {
-        'time': '2019 Q4',
-        'description': ['dApp ecosystem construction']
+        'time': 'Q3 2019',
+        'description': [
+          'MainNet Release',
+          'dApps (supported by mobile client application)',
+          'Stable Coin Issuance on DEX',
+          'Payment Fulfilment'
+        ]
+      },
+      {
+        'time': 'Q4 2019',
+        'description': ['dApp Ecosystem Construction']
       }
     ]
   },
