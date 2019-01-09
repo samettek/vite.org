@@ -36,12 +36,12 @@ const locales = [
   {
     code: 'en',
     name: 'EN',
-    langFile: 'en.js'
+    langFile: 'en.json'
   },
   {
     code: 'zh',
     name: '中文',
-    langFile: 'zh.js'
+    langFile: 'zh.json'
   }
 ]
 const defaultLocale = 'en'
@@ -121,7 +121,7 @@ module.exports = {
           /*
           * make the default locale can work in fallback in ssr.
           * */
-          en: require('./locales/en.js')
+          en: require('./locales/en.json')
         }
       }
     }],
