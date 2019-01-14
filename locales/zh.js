@@ -1089,5 +1089,20 @@ module.exports = {
       title: 'dApps',
       child: ['游戏', '本地服务', '娱乐', '社交网络服务', '知识产权', '物联网']
     }
+  },
+  airdrop: {
+    title1: '下载Vite App参与Airdrop',
+    text1: '打开App进入发现模块参与空投',
+    text2: '做任务提升V Power加速领VITE，最高V Power可每4小时领取一次',
+    title2: '不止是空投，Vite带你躺赢2019',
+    step: '躺赢两步走：',
+    step1: '1.下载Vite App领空投',
+    step2: '2.投票SBP',
+    android: '敬请期待Android空投',
+    btn1: '下载App领VITE',
+    btn2: '使用App投票SBP',
+    btn3: '每天瓜分8000+VITE奖励',
+    annual: '年化收益高达20%',
+    link: '点击查看投票奖励'
   }
 }

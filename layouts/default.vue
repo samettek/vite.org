@@ -85,8 +85,9 @@
     </div>
     <div class="container is-hidden-mobile">
       <div
+        :class="`${routeName}-hide`"
         class="img-text"
-        @click="openDotNet"
+        @click="openAirdropPage"
       >
         <div
           class="act"
@@ -223,6 +224,11 @@ export default {
         this.$i18n.locale === 'zh' ? 'https://vite.net/zh/' : 'https://vite.net'
       )
     },
+    openAirdropPage () {
+      let lang = ''
+      this.$i18n.locale !== 'en' ? lang = `/${this.$i18n.locale}` : lang = ''
+      this.$router.push({path: `${lang}/airdrop/`})
+    },
     onNavClick (e) {
       let { target } = e
       if (
@@ -325,6 +331,9 @@ export default {
 .is-community-page {
   background: no-repeat url("~assets/images/bg/partnership/topleft.svg") -8% 2%,
     no-repeat url("~assets/images/bg/community/rightbottom.svg") 110% 95%;
+}
+.airdrop-hide{
+  display: none;
 }
 .navbar {
   border-bottom: 1px solid transparent;
