@@ -59,18 +59,18 @@
             <div class="nav-item">
               <voteNotice></voteNotice>
             </div>
-            <nuxt-link
-              :to="localePath('partnership')"
-              class="nav-item text-hover-transition"
-            >
-              {{$t('nav.partnership')}}
-            </nuxt-link>
+            <!--<nuxt-link-->
+              <!--:to="localePath('partnership')"-->
+              <!--class="nav-item text-hover-transition"-->
+            <!--&gt;-->
+              <!--{{$t('nav.partnership')}}-->
+            <!--</nuxt-link>-->
             <div class="nav-item">
               <Media></Media>
             </div>
-            <!-- <div class="nav-item">
+            <div class="nav-item">
               <Exchange></Exchange>
-            </div> -->
+            </div>
           </div>
           <div
             ref="navbarEnd"
@@ -110,11 +110,11 @@ import LangSelect from '~/components/LangSelect.vue'
 import Logo from '~/components/Logo.vue'
 import LogoWithoutWords from '~/components/LogoWithoutWords.vue'
 import Footer from '~/components/Footer.vue'
-import Exchange from '~/components/Exchange.vue'
 import config from '~/config'
 import voteNotice from '~/components/voteNotice.vue'
 import about from '~/components/about.vue'
 import Media from '~/components/Media.vue'
+import Exchange from "~/components/Exchange.vue"
 
 export default {
   components: {
@@ -125,7 +125,7 @@ export default {
     Exchange,
     voteNotice,
     about,
-    Media
+    Media,
   },
   head () {
     let { routeName } = this

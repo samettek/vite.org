@@ -76,6 +76,7 @@ module.exports = {
       russian: '/whitepaper/vite_russian.pdf'
     },
     exchange: {
+      bittrex: 'https://international.bittrex.com/Market/Index?MarketName=BTC-VITE',
       okex: 'https://www.okex.com/spot/trade#product=vite_eth'
     },
     media: {

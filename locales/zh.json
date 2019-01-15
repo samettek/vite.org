@@ -11,7 +11,8 @@
         }
     },
     "exchange": {
-        "okex": "OKEX.COM"
+        "okex": "OKEX.COM",
+        "bittrex": "Bittrex"
     },
     "media": {
         "medium": "Medium",
