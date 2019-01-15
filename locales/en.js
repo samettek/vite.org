@@ -971,7 +971,7 @@ module.exports = {
     }
   },
   airdrop: {
-    title1: 'Download Vite App and participate in our Airdrop',
+    title1: 'Download Vite App and Participate in Airdrop',
     text1: '打开App进入发现模块参与空投',
     text2: '做任务提升V Power加速领VITE，最高V Power可每4小时领取一次',
     title2: '不止是空投，Vite带你躺赢2019',

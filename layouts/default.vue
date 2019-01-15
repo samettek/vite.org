@@ -85,7 +85,7 @@
     </div>
     <div class="container is-hidden-mobile">
       <div
-        :class="`${routeName}-hide`"
+        :class="{'airdrop-hide' : routeName === 'airdrop'}"
         class="img-text"
         @click="openAirdropPage"
       >
