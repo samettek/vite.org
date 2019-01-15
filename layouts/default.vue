@@ -424,7 +424,6 @@ export default {
 
     .nav-item {
       padding: 11px 16px;
-      font-size: 14px;
     }
 
     .navbar-menu {
@@ -441,7 +440,6 @@ export default {
       .nav-item {
         height: 48px;
         padding-left: 0;
-        font-size: 14px;
       }
       .line {
         height: 1px;
