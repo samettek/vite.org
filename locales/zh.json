@@ -1,235 +1,248 @@
 {
-    "lang": "中文",
+    "lang": "EN",
     "head": {
-        "title": "Vite - 高性能去中心化生态系统",
-        "document": "文档",
+        "title": "Vite - High-Performance Decentralized Ecosystem",
+        "document": "Document",
         "description": {
-            "index": "Vite - 高性能去中心化生态系统",
-            "careers": "欢迎加入Vitelabs，Do something cool",
-            "faq": "有关Vite的所有问题答疑",
-            "technology": "Vite核心技术：DAG、Snapshot Chain、异步架构、响应式合约、配额租赁、集成路印协议、定时调度、合约升级、solidity++"
+            "index": "Vite - High-Performance Decentralized Ecosystem",
+            "careers": "Welcome to join our Vitelabs, Let's create A New Generation of High-Performance Decentralized Application Platform",
+            "faq": "All about FAQs of Vite",
+            "technology": "The key technologies of Vite: DAG、Snapshot Chain、Asynchronous Architecture、Reactive Contract、Quota leasing、Loopring Integrated、Timer scheduling、Contract Upgrade、solidity++"
         }
     },
     "exchange": {
-        "okex": "OKEX.COM"
+        "okex": "OKEX.COM",
+        "bittrex": "Bittrex"
+    },
+    "community": {
+        "title": "Community",
+        "star": "Community Star"
     },
     "media": {
         "medium": "Medium",
         "bitcointalk": "Bitcointalk",
-        "forum": "论坛"
-    },
-    "community": {
-        "title": "社区",
-        "star": "社区之星"
+        "blog": "Technology Blog",
+        "forum": "Forum"
     },
     "nav": {
-        "index": "首页",
-        "production": "产品",
-        "team": "团队",
-        "partnership": "合作",
-        "community": "社区",
-        "exchange": "交易所",
-        "media": "新闻",
-        "faq": "问题答疑",
-        "about": "关于",
-        "superNodes": "超级节点说明",
-        "nodeList": "超级节点竞选人",
-        "nodeDetail": "超级节点详情",
+        "index": "HOME",
+        "production": "PRODUCTS",
+        "team": "TEAM",
+        "partnership": "PARTNERSHIPS",
+        "community": "COMMUNITY",
+        "exchange": "EXCHANGES",
+        "media": "MEDIA",
+        "faq": "FAQ",
+        "about": "ABOUT",
         "wiki": "WIKI",
+        "superNodes": "Guide for SBP (Snapshot Block Producer)",
+        "nodeList": "SBP Candidates",
         "notice": {
-            "name": "超级节点",
-            "specific": "超级节点说明",
-            "apply": "申请超级节点"
+            "name": "SUPERNODES",
+            "specific": "Guide for SBP (Snapshot Block Producer)",
+            "apply": "Apply for SBP (Snapshot Block Producer) "
         }
     },
+    "about": {
+        "whitepaper": "White Paper",
+        "blog": "Blog"
+    },
     "home": {
-        "explorer": "区块浏览器",
-        "webWallet": "Web 钱包",
+        "explorer": "Explorer",
+        "webWallet": "Web Wallet",
         "wallet": {
             "name": "Vite App",
-            "en": "外国用户",
-            "zh": "中国用户"
+            "en": "Outside China Mainland",
+            "zh": "China Mainland"
         },
         "header": "Vite",
-        "slogan": "高性能去中心化生态系统",
-        "whitePaper": "白皮书",
-        "testnet": "预览版",
-        "acttext": "投票超级节点</br>赢 VITE",
-        "actwait": "敬请期待",
-        "news": "最新消息",
-        "starttoUse": "开始使用Vite"
-    },
-    "about": {
-        "introduction": "简介",
-        "blog": "博客",
-        "whitepaper": "白皮书"
+        "slogan": "High-Performance Decentralized Ecosystem",
+        "whitePaper": "White Paper",
+        "testnet": "TestNet",
+        "acttext": "Vote for Supernode Operators </br> Get Awarded VITE!",
+        "actwait": "Stay tuned!",
+        "news": "Latest News",
+        "starttoUse": "Get Started with Vite"
     },
     "roadmap": {
-        "title": "路线图",
+        "title": "Roadmap",
         "timelines": [
             {
-                "time": "2018.02",
-                "description": "项目启动"
+                "time": "February 2018",
+                "description": "Project Initiation"
             },
             {
-                "time": "2018.04",
+                "time": "April 2018",
                 "description": [
                     {
-                        "text": "白皮书发布",
-                        "url": "https://www.vite.org/whitepaper/vite_cn.pdf"
+                        "text": "White Paper Completion",
+                        "url": "https://www.vite.org/whitepaper/vite_en.pdf"
                     }
                 ]
             },
             {
-                "time": "2018.05",
-                "description": "官方网站上线，融资，组建团队"
+                "time": "May 2018",
+                "description": [
+                    "Private Sale Fundraise",
+                    "Official Website",
+                    "Founding Team"
+                ]
             },
             {
-                "time": "2018.06",
-                "description": "研发团队组建完成，开始开发"
+                "time": "June 2018",
+                "description": [
+                    "R&D Team",
+                    "Core Technology Development"
+                ]
             },
             {
-                "time": "2018.08",
-                "description": "go-vite 0.1、钱包、浏览器预览版上线"
+                "time": "August 2018",
+                "description": " go-vite 0.1"
             },
             {
-                "time": "2018.09",
+                "time": "September 2018",
                 "description": [
                     {
-                        "text": "Web钱包",
+                        "text": "Web Wallet",
                         "url": "https://wallet.vite.net/"
                     },
-                    "iOS钱包",
+                    "iOS Wallet",
                     {
-                        "text": "区块浏览器正式发布",
+                        "text": "Block Explorer",
                         "url": "https://explorer.vite.net/"
                     }
                 ]
             },
             {
-                "time": "2018.10",
+                "time": "October 2018",
                 "description": [
                     {
-                        "text": "迁移总量56%的ERC20代币到Vite原生网络",
+                        "text": "Conversion of ERC20 VITE into VITE (56% of total token supply)",
                         "url": "https://medium.com/vitelabs/testnet-an-update-erc20-token-migration-guide-7c200bef7337"
                     }
                 ]
             },
             {
-                "time": "2018.11",
+                "time": "November 2018",
                 "description": [
-                    "Vite TestNet 1.0.0发布",
+                    "Vite TestNet 1.0.0",
                     {
-                        "text": "开启SBP竞选及挖矿",
+                        "text": "Snapshot Block Producer (SBP) Campaign",
                         "url": "https://explorer.vite.net/SBPList"
-                    }
+                    },
+                    "Mining"
                 ]
             },
             {
-                "time": "2018.12",
+                "time": "December 2018",
                 "description": [
-                    "智能合约/solidity++内测",
-                    "跨链网关内测",
-                    "多币种钱包内测",
-                    "DEX内测",
-                    "官方网站2.0",
+                    "Smart Contract/ Solidity++ Alpha Test",
+                    "Cross-Chain Gateway Alpha Test",
+                    "Multi-Token Wallet Alpha Test",
                     {
-                        "text": "官方论坛上线",
+                        "text": "Decentralized Exchange (DEX) Alpha Test | View Forbes Article",
+                        "url": "https://www.forbes.com/sites/yoavvilner/2018/12/16/the-state-of-decentralized-exchanges-and-plans-for-2019/#6af853b83059"
+                    },
+                    "Website 2.0",
+                    {
+                        "text": "Official Forum Website",
                         "url": "https://forum.vite.net/"
                     }
                 ]
             },
             {
-                "time": "2019 Q1",
+                "time": "Q1 2019",
                 "description": [
-                    "pre-mainnet上线",
-                    "跨链网关公开测试",
-                    "DEX公开测试",
-                    "智能合约/solidity++公开测试",
-                    "多币种钱包上线",
-                    "多虚拟机支持（EVM / WASM）"
+                    "Pre-MainNet Release",
+                    "Cross-Chain Gateway Open Beta Test",
+                    "DEX Open Beta Test",
+                    "Smart Contract/Solidity++ Open Beta Test",
+                    "Multi-Token Wallet Release",
+                    "Multi-VM (Virtual Machine) Support (EVM / WASM)"
                 ]
             },
             {
-                "time": "2019 Q2",
+                "time": "Q2 2019",
                 "description": [
-                    "性能优化",
-                    "定时调度",
-                    "命名服务",
-                    "智能合约升级"
+                    "Performance Optimization",
+                    "Timer-Triggered Smart Contract Scheduler",
+                    "Naming Service for Addresses",
+                    "Smart Contract Upgrades"
                 ]
             },
             {
-                "time": "2019 Q3",
+                "time": "Q3 2019",
                 "description": [
-                    "主网上线",
-                    "移动客户端支持小程序",
-                    "发行稳定币",
-                    "支付落地"
+                    "MainNet Release",
+                    "dApps (supported by mobile client application)",
+                    "Stable Coin Issuance on DEX",
+                    "Payment Fulfilment"
                 ]
             },
             {
-                "time": "2019 Q4",
+                "time": "Q4 2019",
                 "description": [
-                    "dApp生态建设"
+                    "dApp Ecosystem Construction"
                 ]
             }
         ]
     },
     "elector": {
-        "title": "超级节点竞选人",
+        "title": "SBP Candidates",
         "detailTitles": [
             {
                 "key": "info",
-                "title": "团队成员信息"
+                "title": "Information of Team Members"
             },
             {
                 "key": "photo",
-                "title": "团队成员照片"
+                "title": "Photos"
             },
             {
                 "key": "config",
-                "title": "数据中心配置"
+                "title": "Configuration of Data Center"
             },
             {
                 "key": "location",
-                "title": "服务器所在地"
+                "title": "Service Location"
             },
             {
                 "key": "plan",
-                "title": "生态发展规划"
+                "title": "Eco-development Plans"
             }
         ],
         "rightCommonPart": {
-            "title": "社交媒体及媒体曝光",
-            "email": "邮箱地址",
-            "twitter": "推特",
-            "telegram": "电报群",
-            "website": "网址"
+            "title": "Social Medias",
+            "email": "Email",
+            "twitter": "Twitter",
+            "telegram": "Telegram",
+            "website": "Website"
         },
         "nameMap": {
             "vitecity": {
                 "info": [
-                    "胡锦浪：vitecity节点创始人，香港中文大学 金融学硕士，CFA、 CPA，曾供职于德勤咨询公司，负责中概股海外上市咨询工作，丰富的资本运作经验，服务过聚美优品、拍拍贷、优信二手车等等中概股海外上市案例；任职某知名区块链投行，丰富的交易所资源以及区块链媒体资源，帮助区块链项目海外基金会设立、海外发行、上市等工作，服务过众多市值排名前100的项目，如VET、Tron、 link、WTC、IOST、ELF等；常驻中国上海；",
-                    "曾志芳：北京外国语大学英语学士 日本早稻田大学新闻学硕士； 知名社区负责人，运营3万人技术社区，与CSDN、开源中国、51CTO等国内顶级的技术社区保持密切的合作关系；丰富的区块链媒体资源，金色财经、巴比特、链得得、挖链网、核财经、火币资讯、芭比财经等密切的合作关系；社群运营专家，旗下拥有多个区块链社群，覆盖百万级用户；丰富的海外社区资源，曾经策划在一个月内将某项目在reddit讨论炒热，并带动该项目市值在三个月内增幅四倍；常驻中国上海；",
-                    "钟力峰：CTO，浙江大学计算机硕士，十年技术开发经验，曾任职第四范式人工智能公司负责大数据与广告业务开发；擅长AI深度学习算法，对金融交易理解深刻，现负责加密货币量化系统开发；常驻中国上海；"
+                    "Hu Jinlang: Founder of ViteCity node，MSc of Finance from Chinese University of Hong Kong, CFA, CPA, previously worked for Deloitte consulting, responsible for the overseas listing of Chinese stocks, veteran in capital operation. Serving for the overseas listing of the stocks cases such as Jumeiyoupin, Paipai Dai, Uxin Group, etc. Now employed by a well-known blockchain investment bank, affluent exchange and blockchain media resources, helping establishing blockchain projects overseas Foundation, issuing overseas, listing, etc., served for many top 100 projects with market capitalization, such as VET, Tron, link, WTC, IOST, ELF, etc., resident in Shanghai, China.",
+                    "Zeng Zhifang: B.A in Beijing Foreign Studies University, MSc of Journalism, Waseda University, Japan; Manager of well-known community, operating 30,000 technical communities, working closely with CSDN, Open Source China, 51CTO and other top domestic technology communities; abundant blocks Chain media resources like Jinse Finance, 8btc, Lian Dede, Walian Net, Nuclear Finance, Huobi Information, Babi Finance and keeps in close touch with them; community operations experts, with multiple blockchain communities, covering thousands of users; rich overseas community resources, once planned to discuss a project in reddit within one month, and promote the project's market value to increase four times in three months; resident in Shanghai, China.",
+                    "Zhong Lifeng: CTO, MSc of Computer Science in Zhejiang University, 10 years of technical development experience, former developer in the fourth paradigm artificial intelligence company responsible for big data and advertising business development; good at AI deep learning algorithm, deep understanding of financial transactions, now in charge of the development of cryptocurrency quantification system; resident in Shanghai, China."
                 ],
                 "config": [
-                    "8核16G 100M带宽"
+                    "8 cores 16G 100 Mbps bandwidths"
                 ],
                 "location": [
-                    "杭州&中国"
+                    "Hangzhou & China"
                 ],
-                "photo": [],
+                "photo": [
+
+                ],
                 "medium": [
-                    "1、首先在区块链垂直媒体如巴比特、金色财经、链得得等增加vite曝光率，不排除采取开设节点专栏等的形式；",
-                    "2、开设本节点微信公众号、微博账号、twitter、reddit、facebook等社交账号，由专人负责运营社交账号，加强与粉丝互动；",
-                    "3、定期举办社区空投活动，不断获取新的vite粉丝；"
+                    "1. First of all, we are trying to increase the exposure rate of Vite in many vertical blockchain medias including 8btc, Jinse Finance, Lian Dede etc., we leave open the possibility that adopting the form of setup a node column.",
+                    "2. Operating a node account in social medias such as WeChat official account, Weibo, Twitter, reddit, facebook, etc., this account will be in charge by a professional person in order to enhance the interaction with fans.",
+                    "3. Periodically plan for community airdrops and try to get more and more fans of Vite constantly."
                 ],
                 "plan": [
-                    "1、通过区块链媒体、钱包、行情软件等流量入口增加vite项目的曝光度，开设社交媒体账号并由专人运营，宣传vite项目的技术优势，转发官方公布的项目进展、公告；",
-                    "2、设计VITE周边产品，定期举行线下粉丝meetup活动，由专人负责社区运营；并配合官方举办的meetup活动；联合媒体、钱包、行情软件等友商定期举办空投活动；",
-                    "3、发动技术社区资源，辅助官方为vite项目DAPP生态落地提供支持；"
+                    "1. Increasing the exposure rate of Vite by blockchain medias, wallet, market trending apps, setting up accounts of various social medias and charging by professionals, evangelizing the technical advantages of Vite project and retweeting the official announcement and progress of project.",
+                    "2. Designing Vite themed products and organizing offline meetup of fans regularly, meanwhile, the community will be in charge of professionals and combine with official meetup event as well as media, wallet market trending apps to plan for airdrops.",
+                    "3. Making some incentive plans to activate community developers to support the up-coming dApp development of Vite ecosystem."
                 ],
                 "name": "ViteCity",
                 "description": "Make vite-blockchain stronger ！"
@@ -243,7 +256,9 @@
                 "config": [
                     "32 GB, 8 CPU, 640 GB SSD, More than 100Mbps bandwidth"
                 ],
-                "photo": [],
+                "photo": [
+
+                ],
                 "medium": [
                     "We actively work with the community at Twitter, Medium and Telegram.",
                     "Our team and our close partners have active community in EU & Russia exceeding 600K people."
@@ -270,7 +285,9 @@
                 "location": [
                     "Melbourne, Australia"
                 ],
-                "photo": [],
+                "photo": [
+
+                ],
                 "medium": [
                     "I have a Twitter created to provide status on node status, read updates on the Vite ecosystem, and to find out about important events. I have also created a website where users will be able to visit and view node/network status, use the vote calculator to see Vite earning potential, read tutorials and to enter competitions. Forging rewards will also be used to create media, advertisements on Twitter and Reddit, and basically anything to help promote Vite's growth. I'm open to all ideas. "
                 ],
@@ -292,7 +309,9 @@
                 "location": [
                     "Ukraine, Nikolaev City"
                 ],
-                "photo": [],
+                "photo": [
+
+                ],
                 "medium": [
                     "in progress.."
                 ],
@@ -313,7 +332,9 @@
                 "location": [
                     "Shanghai"
                 ],
-                "photo": [],
+                "photo": [
+
+                ],
                 "medium": [
                     "We have all social media and KOL ready for this campaign."
                 ],
@@ -325,33 +346,35 @@
             },
             "zhizifund": {
                 "info": [
-                    "李大伟 智子基金联合创始人  十五年半导体行业从业经验，和矿机设备厂商有深入合作，2014年开始进入区块链行业，早期区块链投资者。常驻中国深圳; ",
-                    "高峰 智子基金项目联合创始人  区块链早期参与者及爱好者，多年金融行业从业经验，有着丰富的项目投资管理经验。常驻澳洲"
+                    "Dawei Li, co-founder of the Zhizi Fund who has 15 years of experience in the semiconductor industry, and has deep cooperation with mining machine manufacturers. In 2014, he began to enter the blockchain industry and become a early blockchain investor. Resident in Shenzhen, China",
+                    "Feng Gao, co-founder of the Zhizi Fund Project, early participants and enthusiasts of the blockchain, many years of experience in the financial industry, and seasoned in project investment management. Resident in Australia"
                 ],
                 "config": [
-                    "8核Cpu 16G内存 100M带宽 1Tssd存储空间 Centos 7.4操作系统"
+                    "8 cores CPU 16G storage, 100 Mbps bandwidth, 1T SSD storage, CentOS 7.4"
                 ],
                 "location": [
-                    "美国 硅谷"
+                    "Silicon Valley, the US"
                 ],
-                "photo": [],
+                "photo": [
+
+                ],
                 "plan": [
-                    "1、Vite项目孵化：智子基金是一家专注于区块链技术及加密货币投资的BVI基金。作为Vite的早期投资机构，我们也将积极参与Vite早期项目的孵化，为Vite生态项目方提供投资、运营、技术等全方位支持。",
-                    "2、智子基金合作方众多：智子基金从成立至今，与多个海内外知名项目达成了良好的合作关系，我们将会为Vite提供资源合作、资源整合方式促进Vite生态发展。",
-                    "3、海外市场拓展：海外一直是智子基金投资和合作的重点，在澳洲也有自己的运营中心，我们将为Vite提高更多的海外合作和市场拓展方面的资源。",
-                    "4、社区及媒体：智子基金与多家优质媒体拥有良好的合作关系，可为Vite提高全方位的宣传推广。线下沙龙等；",
-                    "5、高度认可Vite的发展理念：Vite是新一代响应式区块链，为工业级去中心化应用提供一个可靠的公共平台。VIte所倡导的公链发展方向与智子基金高度一致，智子基金将全力推动Vite生态建设发展。"
+                    "1. Vite project incubation: Zhizi Fund is a BVI fund focusing on blockchain technology and cryptocurrency investment. As an early investment institution of Vite, we will also actively participate in the incubation of Vite's early projects and provide full support for investment, operation and technology for Vite ecological project partners.",
+                    "2. There are many partners of Zhizi Fund: since our establishment, Zhizi Fund has established good cooperative relations with many well-known projects domestic and overseas. We will provide Vite with resource cooperation and resource integration to promote the development of Vite.",
+                    "3. Overseas market expansion: Overseas has always been the focus of investment and cooperation of Zhizi Fund. We also have our own operation center in Australia. We will provide more resources for overseas cooperation and market expansion for Vite.",
+                    "4. Community and media: Zhizi Fund has a good cooperative relationship with a number of high-quality medias, which can enhance the overall promotion of Vite. Offline meetups, etc.;",
+                    "5. Highly recognizable Vite's development philosophy: Vite is a new generation of responsive blockchain, providing a reliable public platform for industrial decentralized applications. The development direction of the public chain advocated by Vite is highly consistent with the Zhizi Fund, and the Zhizi Fund will fully promote the development of Vite ecological construction."
                 ],
                 "medium": [
-                    "官网",
-                    "金色财经",
-                    "币乎",
-                    "币世界",
-                    "微博",
-                    "推特"
+                    "Official Website",
+                    "Jinse Finance",
+                    "Bihu",
+                    "Bishijie",
+                    "Weibo",
+                    "Twitter"
                 ],
                 "name": "ZVnode",
-                "description": "智子基金助力Vite生态发展"
+                "description": "Zhizi Fund, support for the development of Vite ecosystem"
             },
             "linknode": {
                 "info": [
@@ -381,15 +404,15 @@
             },
             "bitvite": {
                 "info": [
-                    "William Wang, senior financial expert and blockchain entrepreneur, co-founder of Bit Dimension, more than 5 years experience in the operation and management of Fortune 500 companies, has founded many technology companies。Living in Guangzhou, China.",
+                    "William Wang, senior financial expert and blockchain entrepreneur, co-founder of Bit Dimension, more than 5 years experience in the operation and management of Fortune 500 companies, has founded many technology companies. Living in Guangzhou, China.",
                     "Senyuan Zhang, blockchain engineer. Proficient in block technology, continuous blockchain entrepreneurs.The first batch of bitcoin players in China. With the successful application experience of multiple blockchains,he believes that the era of big navigation in the blockchain will come.Living in Guangzhou, China.",
-                    "Alex Lee, senior Bitcoin player, co-founder of Fibos SuperNode, has more than 5 years of digital currency investment experience, more than three years of senior financial management experience, and continuous blockchain entrepreneurs.Living in Guangzhou, China."
+                    "Alex Lee, senior Bitcoin player, co-founder of Fibos SuperNode, has more than 5 years of digital currency investment experience, more than three years of senior financial management experience, and continuous blockchain entrepreneurs. Living in Guangzhou, China."
                 ],
                 "config": [
-                    "16 GB, 4 CPU, More than 100Mbps bandwidth"
+                    "16 GB, 4 CPU, More than 100 Mbps bandwidth"
                 ],
                 "location": [
-                    "Shenzhen,China"
+                    "Shenzhen, China"
                 ],
                 "plan": [
                     "2018 is destined to be an extraordinary year. Under the bright sunshine of the great transformation of the 40th anniversary of reform and opening up, the blockchain field has gradually penetrated into all walks of life and exerted its \"credit value\" function. Looking back at the 2017 chain and the currency circle, there is no doubt that \"a big Yangxian can change the belief\", \"as long as you buy and hold, you can lie down and make money\" hot market, but the tide will eventually recede, the economic market No one can guarantee that compared with the chain and the currency circle, it is necessary to effectively reflect the value of the team, accelerate the integration with the real economy, and cooperate with the common promotion of policies, technologies and markets to optimize the traditional industrial model and help the high quality. development of. As a public chain based on DAG technology, Vite proposes a forward-looking point of view of joint governance, and publicly selects high-quality talents with ability, condition, responsibility and ideal blockchain. As the candidate for Vite nodes, the following three points are bit dimensions. Community development planning:",
@@ -404,7 +427,7 @@
                     "3. Create multiple vite WeChat groups or telegraph groups, and continuously acquire new vite fans through diversified dapps developed by the team."
                 ],
                 "name": "Bitvite",
-                "description": "For Vite！For Freedom！"
+                "description": "For Vite！For Freedom"
             },
             "swissvite": {
                 "info": [
@@ -431,25 +454,25 @@
             },
             "xinsheng": {
                 "info": [
-                    "崔哲，鑫盛资本创始人兼CEO，常驻地中国北京",
-                    "李志博，鑫盛资本联合创始人兼CMO，常驻地中国北京",
-                    "张旭铭，社区合伙人，常驻地中国北京",
-                    "Emma，社区合伙人，常驻地中国北京",
-                    "孙权，社区合伙人，常驻地中国北京"
+                    "Zhe Cui, founder and CEO of Xinsheng Fund, living in Beijing, China",
+                    "Zhibo Li, co-founder and CMO of Xinsheng Fund, living in Beijing, China",
+                    "Xuming Zhang, community partner, living in Beijing, China",
+                    "Emma, community partner, living in Beijing, China",
+                    "Quan Sun, Community partner, living in Beijing, China"
                 ],
                 "config": [
-                    "8核Cpu 16G内存 100M带宽 1Tssd存储空间 Centos 7.4操作系统"
+                    "8 cores CPU 16G RAM 100 Mbps bandwidth 1T ssd storage CentOS 7.4"
                 ],
                 "location": [
-                    "中国 北京"
+                    "Beijing, China"
                 ],
                 "plan": [
-                    "1、社区推广合作，组织渠道现有社群及新建社群宣传vite。",
-                    "2、整合公司行业内资源，包括媒体、社群、资本方、项目方协助vite推广商业合作。",
-                    "3、建立vite超级节点社区，帮助新用户了解vite 基础知识普及。"
+                    "1. Promote community cooperation, organise existing communities and create new community promotion of vite.",
+                    "2. Integrate resources within the company's industry, including media, community, capital, and project parties to assist Vite in promoting business cooperation.",
+                    "3. Establish a Vite supernode (SBP) community to help new users understand the basics of Vite."
                 ],
                 "medium": [
-                    "微信公众号 微博 twitter 币乎 Telegram"
+                    "WeChat official account, Weibo, Twitter, Bihu, Telegram"
                 ],
                 "name": "XinShengFund",
                 "description": "Shoot for the Vite"
@@ -518,769 +541,635 @@
             }
         }
     },
-    "tech": {
-        "title": "核心技术",
-        "dag": {
-            "title": "Block Lattice",
-            "description": [
-                "Vite采用一种称为block-lattice的DAG账本结构，每个账户对应一条链，每个交易引用本账户前一个交易的哈希；交易分为“请求交易”和“响应交易”两种，一个响应交易需要引用对应的请求交易的哈希。这样就构成了一种栅格状的DAG结构。",
-                "这种账本结构允许互不相干的交易“并行”写入，降低冲突概率，提高系统吞吐能力。"
-            ]
-        },
-        "snapshotChain": {
-            "title": "Snapshot Chain",
-            "description": [
-                "Block-lattice有先天的安全缺陷，一些交易被回滚的概率不会随时间推移而降低。为此，Vite 提出独创的快照链技术。",
-                "一个快照块存储一个 Vite 账本的状态快照，状态包括：账户的余额、合约状态 的 Merkle root，每个账户链中最后一个块的 hash。快照链是由快照块组成的链式结构，后一个快照块引用前一个快照块的hash。",
-                "攻击者想生成一个双花交易，除了要 重建 Vite 账本中的 hash 引用之外，还需要重建快照链 中，首次快照该交易的快照块之后的所有区块，并且需要 产生一条更长的快照链。"
-            ]
-        },
-        "async": {
-            "title": "异步架构",
-            "description": [
-                "Vite 最主要的创新是整个体统的异步设计。",
-                "第一：异步请求模型：交易分为请求交易和响应交易。无论是一笔转账还是一次合约调用，均会在账本上先后生成两笔交易。",
-                "第二：异步确认模型：交易写入账本和被系统确认是异步的。不同的用户可以并行的将交易写入账本，快照链将以固定的速度对账本进行快照。"
-            ]
-        },
-        "reactiveContract": {
-            "title": "响应式合约",
-            "description": [
-                "Vite的合约间通信采用了一种基于消息驱动的架构，合约间不共享状态，只通过彼此发送消息进行通信。",
-                "一个合约调用另一个合约，需要先发送一个请求交易，运行目标合约的节点观测到这条请求交易后，向账本中写入一个对应的响应交易，并更新合约的状态。"
-            ]
-        },
-        "ecosystem": {
-            "title": "生态闭环",
-            "description": [
-                "Vite 将内置Loopring协议，实现多种代币之间的互换，用户可以使用 vite 来支付资产互换交易费，路印矿工在 Vite 平台上进行环路撮合，赚取的代币也是 Vite。",
-                "Vite还提出了VCTP跨链协议，可以实现跨链资产传输。Vite团队将会负责与以太坊的跨链实现，其他目标链的跨链实现将会与项目团队以及社区共同推进。",
-                "Vite 支持更加灵活的资源配置，Vite系统的资源分配是基于用户持有的VITE代币、一次性支付的费用以及交易PoW难度综合计算。"
-            ]
-        }
-    },
     "team": {
-        "core": "团队",
-        "advisor": "顾问团队",
-        "join": "加入我们",
+        "core": "Team",
+        "advisor": "Advisors",
+        "join": "Join Us",
         "nameMap": {
             "liuchunming": {
-                "name": "刘春明",
-                "job": "首席执行官",
-                "position": "北京",
-                "description": "资深区块链创业者，中国区块链应用研究中心常务理事。毕业于中国科技大学，中科院软件所。曾任京东高级架构师，币丰港联合创始人，美团点评技术总监。"
+                "name": "Charles Liu",
+                "job": "CEO",
+                "position": "Beijing",
+                "description": "Veteran Blockchain Entrepreneur and Technical Expert. Standing Director at Blockchain Application Research Center of  China. Graduated from University of Science and Technology of China and the Institute of Software. Chinese Academy of Sciences. Former Senior Architect of JD.com. Co-founder of Coinport. Engineering Director of Meituan Dianping. Extensive experience with distributed systems and high concurrency systems."
             },
             "wangdong": {
-                "name": "王东",
-                "position": "北京",
-                "description": "资深区块链创业者。毕业于中国科技大学，亚利桑那州立大学。路印协议创始人，前Google美国Tech Lead，云云网联合创始人兼副总裁，京东高级研发总监，币丰港联合创始人。"
-            },
-            "allen": {
-                "name": "刘晓涛",
-                "job": "硅谷技术负责人",
-                "position": "硅谷",
-                "description": "资深技术专家。毕业于中国科技大学，复旦大学。前HP Tech Lead，前IBM系统架构师，产品负责人。10年知名外企高并发工作经验，Scrum敏捷开发专家，PMP。"
+                "name": "Daniel Wong",
+                "position": "Beijing",
+                "description": "Seasoned blockchain entrepreneur.  Graduated from China University of Science and Technology and Arizona State University.  Founder of Loopring, former Google America Tech Lead, Co-founder and VP of Yun Yun Wang, Senior Research and Development Director at JD.com, and Co-Founder of Coinport."
             },
             "terenceLam": {
                 "name": "Terence Lam",
-                "position": "北京",
-                "description": "毕业于哈佛商学院。智子区块链基金合伙人。香港大学SPACE中国商业学院客座讲师。20年以上全球500强公司技术高管经验。曾创办过多家科技公司。"
+                "position": "Beijing",
+                "description": "Veteran investor.  Graduated from Harvard Business School.  Partner of Zhizi Blockchain Investment Fund.  Adjust professor of SPACE China business school at Hong Kong University.  20+ years’ experience as senior technical manager at Global 500 companies. Started many technology startups."
             },
             "richard": {
-                "name": "Richard",
-                "job": "首席运营官",
-                "position": "硅谷",
-                "description": "资深金融专家，多年华尔街工作经验。毕业于美国达特茅斯学院和纽约大学MBA。曾任职纽约高盛结构性资产交易策略副总裁，Two Sigma高频交易及商务创新拓展副总裁。"
-            },
-            "Layla": {
-                "name": "Layla",
-                "position": "北京",
-                "job": "UI设计师",
-                "description": "5年互联网公司设计，具有丰富的品牌设计，app和网站等项目经验"
+                "name": "Richard Yan",
+                "job": "COO",
+                "position": "Silicon Valley",
+                "description": "Seasoned Wall Street Professional. Graduated with a B.A. from Dartmouth College and an MBA from New York University. Previously held roles as a Structured Product Trading Strategist at Goldman Sachs and Vice President of Two Sigma's high-frequency platform and Business Innovation & Growth group."
             },
             "frank": {
-                "name": "邓远辉",
-                "job": "Vite基金会负责人",
-                "position": "北京",
-                "description": "数字营销及移动营销专家。毕业于清华大学。曾任职Google广告运营组，随踪科技COO，云克科技联合创始人。"
+                "name": "Frank Deng",
+                "job": "Director of Vite Foundation",
+                "position": "Beijing",
+                "description": "Seasoned expert in Digital and Mobile Marketing. Graduated from Tsinghua University. Previously held a strategic position for Google Ad Operations. Former CEO of Suizong Technology. Co-founder of Yunke Technology."
+            },
+            "allen": {
+                "name": "Allen Liu",
+                "job": "Silicon Valley Technical Director",
+                "position": "Silicon Valley",
+                "description": "Senior Technical Specialist. Graduated from University of Science and Technology of China and Fudan University. Former HP Tech Lead. Former IBM Senior Architect and Product Manager. 10 years of experience working with high concurrency systems at multinational firms. Certified Scrum expert and Project Management Professional. "
             },
             "zhangli": {
-                "name": "张力",
-                "position": "北京",
-                "description": "资深区块链从业者，投资人。连接资本合伙人，前鱼池F2pool CMO，前火币商务负责人。"
+                "name": "Li Zhang",
+                "position": "Beijing",
+                "description": "Senior blockchain practitioner, investor. LinkVC Capital Partners, former CMO of F2pool , former business officer of Huobi."
             },
             "mirza": {
                 "name": "Mirza Uddin",
-                "position": "硅谷",
-                "description": "Mirza毕业于哈佛大学。他曾在掌管500亿美元的美国量化对冲基金双西资本从事风险投资，其中包括深度研究区块链创业公司。他曾经就职于投资过Facebook和Dropbox的Index Ventures风险投资基金和波士顿咨询公司。"
-            },
-            "Michael": {
-                "name": "Michael",
-                "position": "旧金山",
-                "description": "Michael是一个创业家，作家及社区建设专家。他是Truth Cartel——一个传播新兴技术的市场&产品代理商。Michael曾是Startup Grind的首席编辑，现在是Startup Grind SF和OneSalon社团的总监。他的文章作品包括两本关于在亚洲工作和生活的书以及《公司与财富》的数个专栏。"
+                "position": "Beijing",
+                "description": "Mirza was previously a venture capitalist at Two Sigma, one of the largest quantitative hedge funds, where he was heavily involved in researching Blockchain startups. He also previously worked for Index Ventures and The Boston Consulting Group. Mirza earned his BA from Harvard University."
             },
             "ivan": {
                 "name": "Ivan Golovko",
-                "position": "硅谷",
-                "description": "LegalThings One 公司的策略与投资者关系副总裁。俄国著名基金Distributed.Fund的联合创始人。曾任全球知名评测网站ICODrops的首席市场官。"
+                "position": "Silicon Valley",
+                "description": "VP Strategy and Investor Relations of LegalThings One. Co-founder of Distributed.Fund and Distributed Alliance. Former CMO of ICODrops."
+            },
+            "Michael": {
+                "name": "Michael Gasiorek",
+                "position": "San Francisco",
+                "description": "Michael is a founder, writer, and community builder. He's the founding partner of Truth Cartel, a marketing & product agency distributing emerging technologies. Michael was Editor in Chief at Startup Grind, and now serves as Director of the Startup Grind SF and OneSalon communities. His written work includes two books on living and working in Asia, and columns in Inc and Fortune."
             },
             "leo": {
-                "name": "张灵勇",
-                "job": "联合创始人",
-                "position": "北京",
-                "description": "资深区块链投资者，高级工程师，曾任职于美团、币丰港。"
+                "name": "Leo Chang",
+                "job": "Co-founder",
+                "position": "Beijing",
+                "description": "Seasoned Blockchain Investor and Senior Technical Expert. Previously led engineering efforts at Meituan-Dianping and Coinport."
             },
             "Chris Li": {
                 "name": "Chris Li",
-                "job": "商务拓展总监",
-                "position": "硅谷",
-                "description": "Chris在投资，商务拓展和运营领域经验丰富。GBiB前美国业务总监，曾在zhong guan cun中关村硅谷分公司担任投资经理，负责硅谷孵化器和投资业务，曾在纽约华尔街的美东最大华人孵化器工作。美国里海大学工业工程硕士。"
+                "job": "Director of BD",
+                "position": "Silicon Valley",
+                "description": "Chris is a seasoned practitioner in the blockchain industry. He has extensive experience in  investing, business development, and  business operations. He is the former Director of US Operations at GBiB. Chris has also worked for ZGC Capital, serving as an investment  manager. His responsibilities at Zhongguancun Development Group were tied to and Silicon Valley incubator operations. Additionally, Chris has worked for a Wall Street-based incubator, taking a position with the Business Development and Investment team. Chris has a Master of Engineering degree from Lehigh University, with a focus Industrial Engineering."
             },
             "Luke Kim": {
                 "name": "Luke Kim",
-                "job": "首席营销官",
-                "position": "硅谷",
-                "description": "Luke是来自加州的数字领域企业家，曾住在首尔和东京。曾担任城市发展基金会和SuperPublic CoLab的商务拓展经理，欧洲创新学院的美国关系主管，Gateway加速器的战略合作总监，和VC的战略合作伙伴关系主管。 Startup Grind Berkeley的联合创始人，以及3 Day Startup Berkeley and Paladin的合伙人。最近的职位是在一家瑞士资产管理公司从事加密资产基金和ICO，以及任职于一家韩国科技企业初创公司。毕业于伯克利大学，欧洲政治经济学学士。"
+                "job": "CMO",
+                "position": "Silicon Valley",
+                "description": "Luke is a digital entrepreneur hailing from Seoul and Tokyo, currently based in California. Formerly, he was the Business Development Manager at City Innovate Foundation and SuperPublic CoLab at United Nations Plaza. He also held positions as Head of US Relations at European Innovation Academy and Director of Strategic Partnerships at Gateway Accelerator and VC. He is also a Co-founder of Startup Grind Berkeley, 3 Day Startup Berkeley, and Paladin Partners. Most recently, Luke worked on a crypto-asset fund and ICO for a Swiss asset management firm, while also channeling efforts into a tech accelerator for a South Korean startup. He holds a B.A. Bachelor of Art's degree in the Political Economy of Europe from University of California, Berkeley."
             },
             "Jeff Ng": {
                 "name": "Jeff Ng",
-                "job": "社区经理",
-                "position": "硅谷",
-                "description": "区块链爱好者，经验丰富的线上社区管理者和活动策划者。在制造业，库存管理，物流和艺术收藏等领域有丰富的创业和运营经验。毕业于美国Cal Poly San Luis Obispo，机械工程专业。"
+                "job": "Project Manager",
+                "position": "Silicon Valley",
+                "description": "Apart from being a blockchain enthusiast, Jeff is an experienced Vite community manager and member. The versatility of his work experiences include working in logistics, inventory management, manufacturing, blogging, and art collecting. Jeff graduated as a Mechanical Engineer from Cal Poly, San Luis Obispo."
             },
             "Agata Aks": {
                 "name": "Agata Aks",
-                "job": "市场及运营助理",
-                "position": "硅谷",
-                "description": "Agata有社交媒体营销和法律服务方面的丰富经验。她毕业于加州大学圣巴巴拉分校，获得心理科学学士学位以及写作方向。她精通英语，俄语和法语。"
-            },
-            "Logan": {
-                "name": "Logan",
-                "job": "iOS 开发工程师",
-                "position": "北京",
-                "description": "4年iOS开发经验，曾开发过3款日活百万的App"
-            },
-            "Stone": {
-                "name": "Stone",
-                "job": "iOS 开发工程师",
-                "position": "北京",
-                "description": "5年 iOS 开发经验，曾在中国知名互联网企业任职"
-            },
-            "jerry": {
-                "name": "Jerry",
-                "job": "后端开发工程师",
-                "position": "北京",
-                "description": "5年互联网开发经验，曾在中国知名互联网企业任职"
-            },
-            "Alex": {
-                "name": "Alex",
-                "job": "编译器开发工程师",
-                "position": "北京",
-                "description": "3年互联网后台服务开发经验，曾在百度任职开发工程师"
-            },
-            "Tuprise": {
-                "name": "Tuprise",
-                "job": "后端开发工程师",
-                "position": "北京",
-                "description": "7年后端服务开发及架构，曾职于亚信、艺龙等国内知名互联网企业；在海量数据处理、高并发方面具有丰富的经验；"
-            },
-            "viteLiz": {
-                "name": "ViteLiz",
-                "job": "VM开发工程师",
-                "position": "北京",
-                "description": "3年以上互联网后台服务开发经验，曾在中国知名互联网企业任职"
-            },
-            "hubery": {
-                "name": "Jubery",
-                "job": "后端开发工程师",
-                "position": "北京",
-                "description": "5年互联网开发经验，曾就职于腾讯、猿题库等公司，毕业于西安电子科技大学"
-            },
-            "Cecelia": {
-                "name": "Cecelia",
-                "job": "前端开发工程师",
-                "position": "北京",
-                "description": "3年互联网开发经验，曾在中国知名互联网企业任职"
-            },
-            "viteshan": {
-                "name": "Viteshan",
-                "job": "后端开发工程师",
-                "position": "北京",
-                "description": "3年互联网后端开发经验，曾在中国知名互联网企业任职"
-            },
-            "Ada": {
-                "name": "Ada",
-                "job": "研究员",
-                "position": "北京",
-                "description": "曾就职于腾讯、京东，5年以上机器学习算法研发、大数据分析经验；"
-            },
-            "Jin": {
-                "name": "Jin",
-                "job": "后端开发工程师",
-                "position": "北京",
-                "description": "3年互联网金融后台服务开发经验"
-            },
-            "Shenyang": {
-                "name": "Shenyang",
-                "job": "iOS 开发工程师",
-                "position": "北京",
-                "description": "4年以上互联网开发经验，曾在中国知名互联网企业任职"
-            },
-            "Eric": {
-                "name": "Eric",
-                "job": "架构师",
-                "position": "北京",
-                "description": "曾就职百度等国内Top互联网企业，具有丰富的后端服务和数据系统开发经验。2W+ QPS 系统架构经验；15人左右团队组织管理经历。"
-            },
-            "Asurily": {
-                "name": "Asurily",
-                "job": "后端开发工程师",
-                "position": "北京",
-                "description": "三年区块链项目经验，硕士毕业于东北大学，研究方向为“区块链与数据存储”。"
-            },
-            "Reg": {
-                "name": "Reg",
-                "job": "前端开发工程师",
-                "position": "北京",
-                "description": "3年前端开发经验，曾在中国知名互联网企业任职"
-            },
-            "Tiantao": {
-                "name": "Tiantao",
-                "job": "后端开发工程师",
-                "position": "北京",
-                "description": "3年安全、网络、客户端系统架构设计经验，所开发的多个安全、网络、认证等客户端核心组件支撑某中国互联网三强内部核心系统。"
-            },
-            "weichao": {
-                "name": "Weichao",
-                "job": "架构师",
-                "position": "北京",
-                "description": "7年后端服务架构设计经验，曾参与QPS 3w+系统的设计与开发，2年区块链系统开发经验。"
-            },
-            "Tina": {
-                "name": "Tina",
-                "job": "前端开发工程师",
-                "position": "北京",
-                "description": "3年前端开发经验，毕业于新加坡南洋理工大学（NTU），获得信息科学硕士学位。曾任职于中国和新加坡知名互联网企业。"
-            },
-            "Rod": {
-                "name": "Rod",
-                "job": "后端开发工程师",
-                "position": "北京",
-                "description": "5年后端服务设计开发经验，曾在中国知名互联网企业任职。"
-            },
-            "Daisy": {
-                "name": "Daisy",
-                "job": "前端开发工程师",
-                "position": "北京",
-                "description": "3年前端开发经验，曾任职于国内知名的互联网企业，熟练运用vue，node等开发框架。"
-            },
-            "Abbott": {
-                "name": "Abbott",
-                "job": "测试工程师",
-                "position": "北京",
-                "description": "4年QA经验，曾主导美团打车司机端测试工作，擅长风险控制及质量保障。"
-            },
-            "Hannah": {
-                "name": "Hannah",
-                "job": "测试工程师",
-                "position": "北京",
-                "description": "2年测试开发经验；参与过自动化测试框架设计；2年后台存储开发测试经验，对gluster分布式存储技术有一定了解；与军工单位合作，在数据安全加密存储方面有相关经验"
-            },
-            "Zack": {
-                "name": "Zack",
-                "job": "产品负责人",
-                "position": "北京",
-                "description": "北京邮电大学硕士，4年互联网产品经验，曾在滴滴、百度等互联网公司任职，负责过2款日活百万的App"
+                "job": "Creative Marketing / Business Operations Associate",
+                "position": "Silicon Valley",
+                "description": "Agata has relevant work experiences in social media marketing, content writing, public relations, office administration and legal services. She graduated from University of California, Santa Barbara with a Bachelor's degree in Psychological Sciences, with strategic concentrations in Civic Engagement Writing and Applied Psychology. She speaks English, Russian and French."
             },
             "Lola": {
-                "name": "Lola",
-                "job": "产品经理",
-                "position": "北京",
-                "description": "Lola拥有跨学科背景，在金融领域有丰富的经验。曾在德勤任职；曾在私募基金担任投资经理，负责TMT项目投资业务。西安交通大学经济学硕士，大连理工大学软件工程学士。"
+                "name": "Lola Li",
+                "job": "Product Manager",
+                "position": "Beijing",
+                "description": "Lola is an experienced financial specialist who has worked for Deloitte as an investment manager dealing with private equity funds. She has also taken responsibility of managing TMT projects in the past. Lola's interdisciplinary background is highlighted by her Master's Degree in Finance from Xi'an Jiaotong University and her Bachelor of Science degree from Dalian University of Technology. Her focus was in Software Engineering.  "
             },
-            "Tony": {
-                "name": "Tony",
-                "job": "运营总监",
-                "position": "北京",
-                "description": "曾任职腾讯、美团，6年以上产品+运营工作经验，负责过多款用户量和日GMV过亿的产品，同时参与或主导了多个创新项目，具有丰富的互联网项目经验。"
+            "Logan": {
+                "name": "Logan Cao",
+                "job": "iOS Developer",
+                "position": "Beijing",
+                "description": "Logan has worked for 4 years in the iOS development field. He has previously developed 3 different applications, which have garnered hundreds of millions of daily active users."
             },
-            "Cassie": {
-                "name": "Cassie",
-                "job": "产品运营",
-                "position": "北京",
-                "description": "5年市场策划、运营经验。曾就职于金融、互联网等公司。"
+            "Stone": {
+                "name": "Stone Xia",
+                "job": "iOS Developer",
+                "position": "Beijing",
+                "description": "Stone has over 5 years of experience in iOS development, working with Chinese IT companies in the past."
+            },
+            "jerry": {
+                "name": "Jerry Yin",
+                "job": "Back-End Developer",
+                "position": "Beijing",
+                "description": "Jerry has over 5 years of experience in back-end service development, previously working for a select number of Chinese IT firms."
+            },
+            "Alex": {
+                "name": "Alex Hu",
+                "job": "Complier Software Engineer",
+                "position": "Beijing",
+                "description": "Alex has over 3 years of experience in back-end service development. He formerly worked as a back-end engineer for the well-known firm, Baidu."
+            },
+            "Tuprise": {
+                "name": "Tuprise Yuan",
+                "job": "Back-End Developer",
+                "position": "Beijing",
+                "description": "Tuprise has over 7 years of experience in back-end service development and architecture. He worked for a series of notable IT companies, including Yilong and Yaxin. Tuprise is a seasoned developer in Big Data Processing and high concurrency systems."
+            },
+            "viteLiz": {
+                "name": "Liz Chen",
+                "job": "VM Developer",
+                "position": "Beijing",
+                "description": "Liz has over 3 years of experience in back-end service development. She formerly worked for a well-known IT company in China."
+            },
+            "Abbott": {
+                "name": "Abbott Jia",
+                "job": "QA",
+                "position": "Beijing",
+                "description": "Abbott has 4 years of experience working in Quality Assurance. Previously, he was in charge of testing driver-end issues within Meituan's ride-hailing services. Abbott is a seasoned expert in Testing and Risk Management."
+            },
+            "Layla": {
+                "name": "Layla Wong",
+                "position": "Beijing",
+                "job": "UI Designer",
+                "description": "Layla has 5 years of design experience including brand, app, and website design."
+            },
+            "hubery": {
+                "name": "Hubery Lee",
+                "job": "Back-End Developer",
+                "position": "Beijing",
+                "description": "Hubery is a graduate of Xidian University, with over 5 years of experience in IT development. He previously worked for Tencent and Yuantiku."
+            },
+            "Cecelia": {
+                "name": "Cecelia Chen",
+                "job": "Front-End Developer",
+                "position": "Beijing",
+                "description": "Cecelia has 3 years of experience in front-end development and she has showcased at notable Chinese firms."
+            },
+            "viteshan": {
+                "name": "Shan Wong",
+                "job": "Back-End Developer",
+                "position": "Beijing",
+                "description": "Shan has over 3 years of experience in IT development. He formerly worked for a well-known IT company in China."
+            },
+            "Ada": {
+                "name": "Ada Zhu",
+                "job": "Senior Researcher",
+                "position": "Beijing",
+                "description": "AAda has previously worked in Tencent and JD and has over 5 years of experience in Machine Learning Algorithm Development and Big Data analytics."
+            },
+            "Jin": {
+                "name": "Jin Ge",
+                "job": "Back-End Developer",
+                "position": "Beijing",
+                "description": "JJin has 3 years of experience working in developing the Chinese Internet finance industry."
+            },
+            "Shenyang": {
+                "name": "Shenyang Hao",
+                "job": "iOS Developer",
+                "position": "Beijing",
+                "description": "Shenyang has over 4 years of experience in iOS development, working for some popular IT companies in China."
             },
             "Candy": {
                 "name": "Candy",
-                "job": "产品运营",
-                "position": "北京",
-                "description": "3年产品运营经验，曾就职于美团网-SaaS收银和房天下指数研究院，主要负责项目培训、系统的需求对接、优化以及数据的维护和监控。"
+                "job": "Product Operations",
+                "position": "Beijing",
+                "description": "Candy has 3 years of experience in Product Operations. She has previously worked for Meituan SaaS and Fangtianxia Research Institute, serving as an Operations specialist who dealt with data maintenance, system requests and optimization, and surveillance."
+            },
+            "Eric": {
+                "name": "Eric Wong",
+                "job": "System Architect",
+                "position": "Beijing",
+                "description": "Eric has previously worked with top IT firms in China, including Baidu. He is an expert in back-end services and data system development. He has experience with system architecture, designing systems that can process over 20,000 queries per second. Eric has also formerly led an engineering team of 15+ members, so he has management experience as well."
+            },
+            "Asurily": {
+                "name": "Asurily He",
+                "job": "Back-End Developer",
+                "position": "Beijing",
+                "description": "Asurily has 3 years of experiences working on blockchain projects. He holds a Master's degree from Northwestern University. His academic research focused on blockchain technology and data storage studies."
+            },
+            "Cassie": {
+                "name": "Cassie Liu",
+                "job": "Product Operations",
+                "position": "Beijing",
+                "description": "Cassie has 5 years of experience implementing marketing strategies for business operations. She has previously worked in both the finance and technology sectors, respectively."
+            },
+            "Reg": {
+                "name": "Reg Yuan",
+                "job": "Front-End Developer",
+                "position": "Beijing",
+                "description": "Reg has worked in the front-end development field for 3 years with a variety of firms."
+            },
+            "Daisy": {
+                "name": "Daisy Chou",
+                "job": "Front-End Developer",
+                "position": "Beijing",
+                "description": "Daisy has 3 years of front-end development experience. She is proficient in Vue, Node, and other developmental frameworks."
+            },
+            "Tiantao": {
+                "name": "Tiantao Zhu",
+                "job": "Back-End Developer",
+                "position": "Beijing",
+                "description": "Tiantao has 3 years of experience working in network security, specifically on the client-side system architecture design. He had a role in developing core components to service peer-to-peer networking, security, and verification features. "
+            },
+            "weichao": {
+                "name": "Weichao Li",
+                "job": "System Architect",
+                "position": "Beijing",
+                "description": "Weichao has over 7 years of experience in back-end service architectural design. He has designed systems that process more than 20,000 queries per second."
+            },
+            "Zack": {
+                "name": "Zack Hou",
+                "job": "Director of Product",
+                "position": "Beijing",
+                "description": "Zack graduated from Beijing University of Posts and Telecommunications with a Master's Degree. He has over 4 years of experience working with IT products and has worked for prestigious firms, the likes of DiDi and Baidu. There he was in charge of managing applications with millions of daily active users (DAU)."
+            },
+            "Tina": {
+                "name": "Tina Wong",
+                "job": "Front-End Developer",
+                "position": "Beijing",
+                "description": "Tina has 3 years of front-end development experience. She graduated from Nanyang Technological University in Singapore, with a Master's of Science in Information Studies. Tina has previously worked at technology firms in both China and Singapore."
+            },
+            "Rod": {
+                "name": "Rod Luo",
+                "job": "Back-End Developer",
+                "position": "Beijing",
+                "description": "Rod has over 5 years of experience in back-end design and development, previously working for a series of top-ranking IT firms in China."
+            },
+            "Tony": {
+                "name": "Tony Wong",
+                "job": "Director of Operations",
+                "position": "Beijing",
+                "description": "Tony has over 6 years of experience working in the Product Operations field. He has previously worked for Meituan-Dianping and Tencent, handling products gross merchandise values of over 100 million active users. Tony is a truly seasoned project manager, responsible for leading many innovative projects."
             },
             "Flanke": {
-                "name": "Flanke",
-                "job": "产品运营",
-                "position": "北京",
-                "description": "曾在i黑马、向上金服任职，3年品牌运营经验。"
+                "name": "Flanke Zhang",
+                "job": "Product Operations",
+                "position": "Beijing",
+                "description": "Flanke has 3 years of experience studying brand operations and has previously worked for iHeima and Xiangshang Finance."
             },
             "Erin": {
-                "name": "Erin",
-                "job": "数据运营",
-                "position": "北京",
-                "description": "曾在优分期、新浪金融任职数据分析师，3年运营+风控工作经验"
+                "name": "Erin Yu",
+                "job": "Data Operations",
+                "position": "Beijing",
+                "description": "3 years of experience in operation and risk management, previously worked for Sina Finance and Youfenqi as a data specialist."
+            },
+            "Hannah": {
+                "name": "Hannah Fong",
+                "job": "QA",
+                "position": "Beijing",
+                "description": "Hannah has 2 years of experience in Development testing, partaking in projects that designed testing frameworks. She also has 2 years of experience in back-end storage system testing and is familiar with the Gluster File System. Hannah has formerly cooperated with military-related enterprises, evoking knowledge on how to manage both data security and encrypted storage fields."
             },
             "Miya": {
                 "name": "Miya",
-                "job": "UI设计师",
-                "position": "北京",
-                "description": "3年UI设计经验，涉足多项互联网产业项目，曾就职大型国企公司，负责设计多个国家项目"
+                "job": "UI Designer",
+                "position": "Beijing",
+                "description": "Miya has 3 years of experience  working on User Interface design and has participated in several industrial IT projects.Miya formerly worked at a large state-owned enterprise, serving as a Chief Designer."
             }
         }
     },
     "partnership": {
-        "title": "合作",
-        "contact": "合作请联系",
+        "title": "Partnerships",
+        "contact": "Contact to Seek Cooperation",
         "okex": {
             "desc": {
-                "text1": "Vite Labs和OK资本宣布建立长期战略合作伙伴关系。",
-                "text2": "双方决定，在以下方面建立合作关系：OK资本成为Vite主要投资者之一；OK资本研究中心将为Vite去中心化交易所的咨询顾问；Vite的初始商业应用将会面向金融技术领域；OK将利用其在区块链行业积累的优势，为Vite提供相应的建议、渠道及其他资源；Vite Labs硅谷办公室将向OK输送海外项目资源。"
+                "text1": "Vite Labs announces long-term strategic partnership with OK Blockchain Capital.",
+                "text2": "Vite and OK Capital have decided to enter into the following areas of collaboration: OK Capital has become a major investor in Vite. OK Capital’s research center will undertake an advisory role in Vite’s plan to launch a decentralized exchange based on the Loopring protocol. Vite has positioned its initial commercial uses to be in financial technology, with at least two major projects yet to be announced. OK Capital will provide key insights, relationships and resources on these fronts. Vite Labs’ Silicon Valley office will provide overseas resources for potential project partnerships for OK Capital."
             }
         },
         "mxbank": {
             "desc": {
-                "text1": "Vite Labs战略入股了数字资产银行MXBank。",
-                "text2": "Vite作为底层公链，将为MXBank提供公链相关技术支持，以帮助其未来在Vite上尽快落地；同时Vite生态基金负责人也将进入MXBank创始团队，加速项目发展。Vite Token也将成为MXBank第一批支持的数字资产之一。"
+                "text1": "Vite Labs strategically invested in a digital asset bank MXBank.",
+                "text2": "Vite as the infrastructural public chain, will provide MXBank with public-link related technical support to help MXBank land on Vite. In the meantime, the ecosystem fund leader from Vite will also join MXBank team to accelerate product development. Vite Token will also become one of the first group of digital assets supported by MXBank."
             }
         },
         "secbit": {
             "desc": {
-                "text1": "Vite Labs与专注智能合约安全研究的安比（SECBIT）实验室签署了战略合作协议。",
-                "text2": "双方未来将从区块链低、中、上三个层面就Vite安全性开展全方位深度合作；其中，在公链底层的合作包括交易安全和虚拟机安全等。"
+                "text1": "Vite Labs became a strategic partner with SECBIT Labs, which focuses on smart contract security research.",
+                "text2": "In the future, the two companies will carry out thorough and in-depth cooperation on the security of Vite from top, middle, and bottom layers of the blockchain infrastructure. In this arrangement, the cooperation involving the bottom layer of the public chain includes security of transactions and security of virtual machine security."
             }
         },
         "achpay": {
             "desc": {
-                "text1": "ACHPAY是Vite生态基金投资的一个非营利性基金会， Vite生态基金作为股东持有ACHPAY token。同时，Vite未来将支持ACHPAY的支付网络整合，其中，闪电支付网络通过Vite系统能够接入链上，提高支付效率、实现安全的资产流通。"
+                "text1": "ACHPAY is an non-profit foundation that is invested by Vite Ecosystem Foundation, and Vite Ecosystem Foundation held ACHPAY token as a shareholder.",
+                "text2": "Meanwhile, Vite will participate in ACHPAY's payment network integration. The Lightning Network will have access to blockchain through Vite system to improve payment efficiency and secure asset circulation."
             }
         }
     },
     "superNodes": {
-        "title": "超级节点说明",
+        "title": "Guide for SBP",
         "contents": [
             {
-                "orderNum": "一、",
-                "question": "您需要提交的信息",
+                "orderNum": "I.",
+                "question": "Information you need to submit",
                 "answer": [
-                    "1、名称和logo。名称和logo是必不可少的，这能够以简单的形式让社区识别并反映您的形象。",
-                    "2、邮箱地址。超级节点项目方的邮箱地址。",
-                    "3、竞选口号。",
-                    "4、团队信息。关键成员及其背景信息，照片和常驻地区",
-                    "5、数据中心配置（建议配置8核16G 100M带宽）",
-                    "6、服务器所在地",
-                    "7、生态发展规划。请详细描述，成为一名超级节点后计划如何为Vite的生态系统增添价值。",
-                    "8、社交媒体曝光。强有力的媒体曝光将决定您对社区的投入程度。请填写您作为超级节点身份创建的社交媒体账号。<br/>资料提交表单链接：<a href=\"https://docs.google.com/forms/d/1u2HC3ecC3rkQk58Kn9D8eBNhN8DpkAB2DMY06QNzHvk/viewform?edit_requested=true\" target=\"_blank\">https://docs.google.com/forms/d/1u2HC3ecC3rkQk58Kn9D8eBNhN8DpkAB2DMY06QNzHvk/viewform?edit_requested=true</a>"
+                    "1. Name and logo for the supernode. These are necessary, as it helps create an identity for you within the community. ",
+                    "2. Email address for the entity that will operate the SBP. ",
+                    "3. Campaign slogan. ",
+                    "4. Information about the team: a list of key members and their backgrounds (please include profile photos and location of residence). ",
+                    "5. Setup specifications of your data center. (Recommended: 8 core, 16GB RAM, 100Mbps)",
+                    "6. Location of your server. ",
+                    "7. Please describe in detail how you plan to add value to Vite's ecosystem after becoming a SBP.",
+                    "8. Plans for gaining social media exposure (significant presence within our social media reflects a certain level of commitment to nurturing the growth of Vite's community). <br/>Link for submitting your information: <a href='https://docs.google.com/forms/d/1u2HC3ecC3rkQk58Kn9D8eBNhN8DpkAB2DMY06QNzHvk/viewform?edit_requested=true' target='_blank'>https://docs.google.com/forms/d/1u2HC3ecC3rkQk58Kn9D8eBNhN8DpkAB2DMY06QNzHvk/viewform?edit_requested=true</a>"
                 ]
             },
             {
-                "orderNum": "二、",
-                "question": "超级节点注册、投票和出块",
+                "orderNum": "II.",
+                "question": "Registration of SBP, Voting and Creating Blocks",
                 "second": [
                     {
-                        "title": "超级节点注册竞选",
+                        "title": "Follow these steps to register a supernode and prepare for election:",
                         "answer": [
-                            "1、VITE迁移 <br/> 在11月中旬通过智能合约，把ERC20的VITE，转换为到Vite测试网络的VITE。",
-                            "2、质押500,000 VITE（主网上线后竞选超级节点需要抵押1,000,000 VITE），超级节点注册质押会锁仓3个月。 ",
-                            "3、获得200,000 VITE以上的投票。测试网络初始上线，Vite项目方会负责25个挖矿超级节点的运行，每出现一个社区超级节点，并且该超级节点获得至少200,000 VITE投票的时候，官方会撤出一个超级节点，该节点会继任成为挖矿超级节点。",
-                            "4、运行超级节点服务器（超级节点运行指南：<a href=\"https://test.vite.wiki/zh/tutorial/node/install.html\" target=\"_blank\">https://test.vite.wiki/zh/tutorial/node/install.html</a>）。"
+                            "1. Migrate the Vite ERC20 tokens you wish to stake for your SBP. <br/> In mid-November, migrate your ERC20 Vite tokens to the Vite TestNet via the smart contract provided by Vite. ",
+                            "2. Stake 500,000 VITE (this amount will increase to 1,000,000 VITE after the MainNet is launched). These tokens will be locked for 3 months, as required for SBPs. ",
+                            "3. Receive at least 200,000 votes (each vote is represented by one VITE). With each new community supernode that receives a minimum of 200,000 votes, Vite will stop one of its own official supernodes running. The community supernode will become the new supernode. ",
+                            "4. Run the server for the SBP (more detailed information will be released later)"
                         ]
                     },
                     {
-                        "title": "投票",
+                        "title": "Voting",
                         "answer": [
-                            "1、每个VITE只可以给一个超级节点投票。",
-                            "2、每个用户地址也只可以投票给一个超级节点，投票数必须为该地址全部VITE代币数量",
-                            "3、投票不锁定用户的VITE代币，代币可以随时转出，相应的对某个节点对投票数量也会减少。",
-                            "4、用户可以随时更换投票目标，最长75秒生效。"
+                            "1. Each VITE can only be used to vote for one SBP. ",
+                            "2. Each address can only be used to vote for one SBP. The number of votes from that address will equal the entire amount of VITE held in that address. ",
+                            "3. Voting from a given address does not lock up the VITE tokens stored at that address. These tokens may be transferred at any time, however, it would inherently affect the total number of votes going towards the supernode.",
+                            "4. The user may change their unique address's voting target. The change will take effect within 75 seconds at most. "
                         ]
                     },
                     {
-                        "title": "出块规则",
+                        "title": "Rules for Creating Blocks",
                         "answer": [
-                            "前100个超级节点都会负责出块，每一轮（75秒），前25个节点有23/25的几率出块，后75个节点有2/75的几率出块。超级节点奖励计算通过出块情况计算出块率，出块率影响最终超级节点奖励。<br/>出块率计算公式为：一段周期的实际出块数目/一段周期的实际出块数目。"
+                            "The first 100 supernodes will be responsible for creating blocks. For each round (lasting 75 seconds), the first 25 nodes have a 23/25 chance to create a block, and the last 75 nodes have a 2/75 chance. The block creation rate will affect the final rewards for the supernodes."
                         ]
                     }
                 ]
             },
             {
-                "orderNum": "三、",
-                "question": "责任",
+                "orderNum": "III.",
+                "question": "Responsibilities of SBPs",
                 "answer": [
-                    "1、超级节点是Vite系统运行的保障，超级节点需要提供适用的服务器资源，来打包全网交易，保障系统稳定运行，同时也需要提供力所能及的技术支持，建设更稳定更高性能的Vite系统。",
-                    "2、超级节点是社区的代表，需要有能力组织和带领社区，做好社区代言人，同Vite基金会一起，建设更积极健康的Vite社区。",
-                    "3、Vite社区的繁荣也需要Vite生态的繁荣，超级节点需要有效的宣传Vite，扶持鼓励Vite系统上的落地应用，为Vite的发展贡献力所能及的力量。"
+                    "1. SBPs ensure that the Vite system functions properly. SBPs must pack transactions in the entire network and ensure stability of the system by providing usable server resources. In addition, operators of the SBPs are also expected to provide technical support for the Vite system to the best of their abilities.",
+                    "2. SBPs are representatives, evangelists, and leaders of the Vite community and are expected to take actions to build and preserve an active and healthy community. ",
+                    "3. The prosperity of the Vite community goes hand in hand with the success of the Vite ecosystem. SBPs are expected to evangelize Vite, and help create dApps based on Vite. "
                 ]
             },
             {
-                "orderNum": "四、",
-                "question": "激励方案",
+                "orderNum": "IV.",
+                "question": "Incentive Plan",
                 "answer": [
-                    "1、测试网络阶段的超级节点奖励年额度为，VITE总发行量的3%，即3000万VITE。",
-                    "2、超级节点奖励分两部分，50%奖励出块，50%奖励投票。即每年的3000万奖励中，1500万奖励给所有出块超级节点，1500万奖励给所有被投票超级节点（测试网络阶段为前100个超级节点）。<br/>一个挖矿超级节点如果持续挖矿1年，可以获得60万的VITE的出块奖励（ （3000万/25个节点）*50%），另外还可以获得一份投票奖励。投票奖励计算，按照该超级节点的质押和投票占比，即（该节点抵押数+投票数）/（所有超级节点的抵押数+投票数）*投票奖励，每一轮（75秒）计算，再每天汇总与出块率相乘。<br/>单个超级节点折算成每天收益为，1643.835VITE的投票奖励+抵押和投票所占比例的投票奖励",
-                    "3、测试网络阶段奖励为市场推广和空投的奖励，主网上线会通过增发进行超级节点奖励。",
-                    "4、奖励提取，每次提取只能提取一天前的出块奖励。"
+                    "1. Forging SBPs in TestNet stage will share annual forging rewards, equivalent to 3% of the total issued token amount. This translates to 30 million VITE (3% of the current total supply of 1 billion VITE). ",
+                    "2. Supernode rewards are divided into two parts: 50% for creating blocks and 50% for voting. Among the 30 million token rewards per year, 15 million are awarded to the supernodes that create blocks, and 15 million are awarded to the supernodes that were elected by the community (in TestNet stage, this will be the top 100 supernodes).<br/>If a supernode were to keep mining for one year, it could get 600,000 VITE from the block creation reward ((30 million / 25 nodes) * 50%), plus the reward from voting.<br/> Voting reward calculation: according to the supernode's stake and voting ratio, (the node staking tokens + voting) / (all supernode staking tokens + all voting) * (voting reward). Each round will be 75 seconds. The daily sum would be multiplied by the block rate.<br/>A single supernode daily reward would be: 1,643.835 VITEs of blocks creation rewards, plus additional staking/voting rewards",
+                    "3. There are many Airdrop plans and rewards for the TestNet stage. We will increase the number of tokens issued to reward SBPs after the MainNet is launched.",
+                    "4. Reward Extraction, Only the rewards from the previous day can be extracted."
                 ]
             },
             {
-                "orderNum": "五、",
-                "question": "测试网络的VITE代币说明",
+                "orderNum": "V.",
+                "question": "An explanation of the VITE token in TestNet",
                 "answer": [
-                    "1、在测试网络中，用户竞选超级节点和投票的VITE，来自于ERC20 VITE代币的1:1映射，需要用户把ERC20 VITE代币转换到Vite测试网络。",
-                    "2、转换是不可逆的，代币转换后，短期内将无法在二级市场流通。",
-                    "3、待主网上线后，测试网络的VITE和ERC20的VITE代币统一会映射到Vite主网。"
+                    "1. The VITE tokens in TestNet are used for SBP election and voting. They are added to the network from the mapping of VITE ERC20 tokens.",
+                    "2. The transfer of VITE ERC 20 tokens to VITE TestNet tokens cannot be reverted. You will not be able to circulate the TestNet tokens on the secondary market in the short term.",
+                    "3. After the MainNet is launched, VITE tokens on the TestNet and VITE ERC20 tokens will both be converted to VITE tokens on the MainNet. "
                 ]
             }
         ]
     },
     "faq": {
-        "title": "问题答疑",
+        "title": "VITE Q&A",
         "questions": [
             {
-                "question": "什么是 Vite？",
+                "question": "What is Vite?",
                 "answer": [
-                    "Vite 是一个通用的去中心化生态系统，在兼顾安全性的同时，满足了工业级应用对高吞吐、低延迟和扩展性的要求。",
-                    "Vite 致力于解决基础链目前的性能和扩展性问题，以便在基础链上能搭建出真正实用且高频的应用。"
+                    "Vite is a general-purpose platform for decentralized applications.  It is designed to support industrial-strength applications by offering high throughput, low latency and scalability while also providing security.",
+                    "The Vite team are dedicated to addressing current performance and scalability issues of infrastructural chains, so that truly practical applications with high-frequency data requirements can be built in a blockchain framework."
                 ]
             },
             {
-                "question": "VITE上了哪些交易所？",
+                "question": "Which exchange(s) will Vite be listed on?",
                 "answer": [
-                    "目前在OKEX可以交易VITE，我们正在接触其他交易所，敬请期待。"
+                    "Currently we have launched on OKEX exchange, we are also in contact with other exchanges. Stay tuned."
                 ]
             },
             {
-                "question": "Vite 微信官方公众号是哪个？",
+                "question": "What is the public WeChat account of Vite?",
                 "answer": [
-                    "我们的官方公众号为: vitelabs"
+                    "Our official account: vitelabs"
                 ],
                 "key": "wechat"
             },
             {
-                "question": "Vite 公链和其它公链相比，最大的创新在哪里？",
+                "question": "What is Vite’s biggest innovation as compared to other public chains?",
                 "answer": [
-                    "Vite 最大的创新点是引入了异步的设置：",
-                    "第一，我们把智能合约的调用做了异步的拆分。Nano（DAG三驾马车之一）把一笔转账分为出账和入账两个动作。我们借鉴了Nano，把它扩展到转账及智能合约的调用上，把一笔转账交易拆分为出账和入账，把一个合约调用交易拆分为合约的请求交易和合约的响应交易两部分。",
-                    "第二个是写入和确认的一个异步的设计。在Vite中，一个交易被写入账本和一个交易被确认是异步的。传统的区块链（如比特币），交易写入账本的速度会受到打包速度的制约。而在Vite中，用户可以在TPS限额之内写入很多交易到账本，但交易是以匀速异步确认的，这样可以削平波峰波谷，最大化地利用系统的资源，提高整个系统的吞吐量。同时，两个账户之间的交易不会彼此堵塞，不会出现因为某一个账户发送了大量交易，使其他账户的交易长期得不到确认。",
-                    "第三个是合约间调用的异步设计。以太坊里的合约间调用是通过消息调用，或者叫内部交易的方式来完成的，这组调用要么同时完成，要么全部失败，这是一个原子性的ACID语义，会成为性能瓶颈。我们借鉴了一些中心化互联网技术中比较成熟的方案，采用了消息驱动的架构，合约之间不共享任何状态，只通过彼此发送消息来进行通信。"
+                    "The biggest innovation is the asynchronous design, which can be understood in three aspects: ",
+                    "First, we are introducing the concept of asynchronous design into smart contracts.  The Nano project (one of three well-known chains that use DAG) separates a transfer action into a send and a receive transaction. We are building upon this mechanism, and will separate the call and the response of a smart contract, so they can take place asynchronously.",
+                    "Second, the writing and verification of a transaction also happen asynchronously in Vite.  In traditional blockchain setup (e.g., Bitcoin), the speed of writing transactions into a ledger is limited by the speed of packing.  But Vite allows writing of many transactions into the ledger within the constraints of the TPS.  Because the asynchronous setup allows the transactions to happen at an even speed, this reduces the peaks and troughs of the speed of transaction writing, thus optimizing usage of resources and increasing system throughput.  Also, the transactions of two users will no longer be blocked; that is, we will no longer see a scenario where a user sends a large amount of transactions that prevents the transactions of other users from taking place.",
+                    "Third, calls between contracts will also happen asynchronously in Vite.  The calls between smart contracts in Ethereum are implemented through messaging (aka insider transactions); and the calls either all succeed or all fail, as per an atomic ACID semantic.  To solve for this bottleneck in performance, we take a page from well-developed solutions in centralized Internet technologies, and will make use of a message-driven architecture.  As such, contracts do not share states and communicate via messages."
                 ]
             },
             {
-                "question": "Vite的智能合约间调用取消了同步调用，那如何兼容以太里同步调用的场景？",
-                "answer": "不能兼容。需要改动同步的代码为异步代码，才能兼容。"
+                "question": "Since smart contracts in Vite don’t support synchronous calls, how will such calls in Ethereum be compatible with Vite?",
+                "answer": "Unfortunately, these calls are not compatible with Vite.  Synchronous calls need to be changed to asynchronous calls to work in Vite."
             },
             {
-                "question": "Vite 的 Solidity++ 和以太的 Solidity 有什么区别？",
+                "question": "What is the difference between Vite's Solidity++ and Ethereum’s Solidity?",
                 "answer": [
-                    "就像c和c++一样，solidity++的名字就是源自于此。在基本语法上，Solidity++和Solidity兼容，最大差异是消息调用的语义不同，以太代码里，是一个同步调用，在Solidity++里是异步调用。",
-                    "另外，在Solidity++中，将提供一系列标准库，例如:字符串处理、浮点运算、基本数学运算、容器、排序等。"
+                    "On a high level, the differences are similar to those of C and C++.  In basic syntax, the two languages are largely compatible.  The largest difference is in the synchronous (Ethereum) vs asynchronous (Vite) calls as mentioned earlier.",
+                    "In addition, a series of standard libraries, such as string manipulation, floating-point operations, basic mathematical operations, containers, and sorting will be provided in Solidity++."
                 ]
             },
             {
-                "question": "基于消息的架构具有高吞吐和扩展性的优势。但与此相应，付出的代价是编程模型变得相对复杂，无法保证强一致性，而且有可能使延迟变大，Vite是如何降低编程复杂度和延迟？",
+                "question": "The message-based architecture has an advantage of high throughput and scalability. However, this comes at a cost of more complex programming model, which may not guarantee strong consistency, and may lead to even higher latencies.  How does Vite reduce both the complexity in programming model and latencies?",
                 "answer": [
-                    "Vite将提供Solidity++合约语言以及完善的SDK，降低异步编程的成本。",
-                    "经过认真的研究，我们发现在实际场景中，强一致性语义是可以用BASE语义替代的。由于Vite的HDPoS共识算法可以保障交易确认在1秒之内完成，因此，延迟的增加仍然在可控范围之内。"
+                    "Vite will provide Solidity++ contract language and a complete SDK to reduce the cost of asynchronous programming.",
+                    "After rigorous research, we find that in practical use cases, strong consistency semantics can be replaced by BASE semantics. Since the HDPoS consensus algorithm of Vite can guarantee transaction confirmation within 1 second, any potential latency increase is still under control."
                 ]
             },
             {
-                "question": "Snapchat Chain存在的意义是什么？",
+                "question": "What is the significance of Snapshot Chain?",
                 "answer": [
-                    "Vite 采用栅格化（Block-Lattice）账本结构，每个账户对应一条链，每个交易引用本账户前一个交易的哈希；交易分为“请求交易”和“响应交易”两种，一个响应交易需要引用对应的请求交易的哈希。",
-                    "这种DAG结构有先天的安全性缺陷。这是由于交易是按账户分组的，一个交易只会附加到其所属账户的账户链末端，其他账户产生的交易不会自动成为该交易的后继节点，因此，一些交易被回滚的概率不会随时间推移而降低。Vite通过独创的快照链技术，弥补了这一缺陷。"
+                    "Vite employs a ledger structure called block-lattice. Each account corresponds to a blockchain and each transaction refers to the hash of the previous transaction in the account. Transactions are divided into two types: \"request transactions\" and \"response transactions.”  A response transaction needs to quote the corresponding hash of the request transaction.",
+                    "The DAG structure has an inherent deficiency in security. This is because transactions are grouped by accounts, and each transaction is only attached to the chain associated with the relevant account. Transactions generated by other accounts do not automatically become the subsequent nodes of the previous transaction. Therefore, for some transactions, the rollback probability will not drop over time.  The Snapshot chain technology is meant to address this issue."
                 ]
             },
             {
-                "question": "跨链协议，只支持资产互换吗？",
-                "answer": "是的，跨链只支持价值传输，Vite主要目标并不是解决跨链问题。"
-            },
-            {
-                "question": "白皮书有提到，开发工具和以太的相似，还拓展了一些特性。那是否意味着以太坊的dapp，稍作修改就能在Vite上运行？",
+                "question": "Does the inter-chain protocol only support exchange of assets?",
                 "answer": [
-                    "是的，Vite的设计目标是尽量降低以太坊生态dApp的迁移成本，所以会尽量兼容EVM。"
+                    "Yes.  Vite will support value transfers between different chains but not other inter-chain functions such as message transfers or smart contract calls between chains."
                 ]
             },
             {
-                "question": "Vite智能合约支持在移动端运行吗？ 会像qtum那样 支持c++ java这种主流语言吗?",
+                "question": "The whitepaper mentions that Vite’s development tools are similar to, and have features extended from, those of Ethereum. Does this indicate that dApp’s for Ethereum can be deployed on Vite with minor changes?",
                 "answer": [
-                    "不支持移动端。目前不支持其他语言。未来我们会成立一个VM Lab，在合约语言和虚拟机方面开展持续研究，欢迎社区推荐在该领域有经验的技术专家加入我们。",
-                    "我们的招聘邮箱是：hr@vite.org。"
+                    "Yes, one of Vite’s goals is to reduce the cost of porting over dApps from Ethereum. Vite tries to maximize compatibility with EVM."
                 ]
             },
             {
-                "question": "以太坊智能合约现在的编程语言是solidity，它的好处之一是对于初学者简单易上手，但与此同时也给黑客留下了许多攻击的可能性，使智能合约变得脆弱。针对这个问题，vite有什么解决方案吗？",
-                "answer": "我们将通过合约形式化验证技术解决这个问题。"
-            },
-            {
-                "question": "管理层对近期诸多公链主网上线和未来竞争格局是如何看待的？",
+                "question": "Can Vite’s smart contracts support running on a mobile device?  Will they be similar to Qtum and support mainstream languages like C++ and Java?",
                 "answer": [
-                    "目前共链技术还处于发展早期，距离真正成熟还有很长一段路。从技术视角看，各个项目均处于同一起跑线。我们将抱着开放的态度，与其他项目团队共同推动公链技术的发展。",
-                    "未来在技术成熟之后，公链的竞争将围绕生态展开。Vite也会提前做好全产业链生态布局，为推动区块链技术落地应用贡献自己的力量。"
+                    "Vite won’t support mobile. There are no current plans to support other languages. In the future, we will set up a VM Lab to continue research in smart contract language and virtual machine.  We welcome participation from experts in these areas."
                 ]
             },
             {
-                "question": "代币通胀（锻造奖励）和消耗是在10亿枚总量不变的前提下动态平衡？",
-                "answer": "10亿是初始发行量，锻造奖励是以增发的形式产生。随着系统被广泛使用，代币也会被不断销毁。我们希望代币的流通可以达到一个动态平衡，详细的参数在白皮书中并没有给出，我们后续会建立更为精确的数学模型，计算相关参数，并通过黄皮书的形式对Vite协议进行补充。"
-            },
-            {
-                "question": "在Vite网络上用户可以发行自己的货币，那么请问发行的资产是类似于ERC 20代币吗？以太已经做到了，Vite现在还在做的话有什么优势呢？ERC 20的VITE的地址是什么？",
+                "question": "The smart contract language used on Ethereum's platform is Solidity. A notable benefit of Solidity is its beginner-friendly nature, however a critical downside is its susceptibility to hackers' attacks. What solution does Vite have for this problem? ",
                 "answer": [
-                    "Vite的资产发行类似于以太的ERC20，但本质有所不同。ERC20是一个规范，而不是以太坊协议的一部分。在以太坊中发行新代币，需要用户开发和部署一个智能合约，代币的余额维护在该合约的状态中。一旦合约开发有所疏漏，就会产生安全风险。例如用户忘记引用SaftMath库，就可能产生溢出漏洞。而Vite的代币发行是内置在Vite协议中的，代币余额维护在用户账户的状态中，新代币和Vite原生代币共享转账底层协议，具有和Vite原生代币同样的安全性。用户在Vite中发行新代币，只需要发起一个交易，将新代币参数放在交易的data字段中，不需要写合约代码，这样也就不容易产生安全漏洞。",
-                    "ERC 20的VITE地址是https://etherscan.io/token/0x1b793E49237758dBD8b752AFC9Eb4b329d5Da016"
-                ],
-                "key": "erc"
+                    "Vite has taken Solidity's problems into account and has adopted countermeasures when designing smart contracts. These operational improvements are seen within our Solidity++ language. One of those improvements, for example, would be the incorporation of a series of standard libraries. This serves a dual purpose of increasing security protection while simplifying programming complexity. Because Solidity++ inter-contract calls rely on asynchronous architecture, the attacks facilitated by contract synchronous calls are inherently prevented. The classic Ethereum example of a \"reentrancy attack\" scenario is not applicable in Vite's case. Vite will implement contractual formal verification technology to tackle smart contract development and we are considering offering a smart contract solution based on WASM. In short, we present users with a variety of solution-based options. "
+                ]
             },
             {
-                "question": "Vite能挖矿吗？",
-                "answer": "Vite的共识机制类似EOS，通过选举产生25个快照节点，通过DPoS算法生产快照块，并领取锻造奖励。"
+                "question": "What does the Vite team think about the recent (and future) public chain competition?",
+                "answer": [
+                    "Currently, public chain technology is still in its early stage of development. There is still a long ways to go before the industry matures. We will be open-minded when it comes to working with other teams to promote the development of public chain technology. In the future, the competition within the public chain sphere will evolve into ecosystem development. Vite will develop an ecosystem layout, contributing to the applications of blockchain technology."
+                ]
+            },
+            {
+                "question": "Token inflation (mining rewards) and consumption will be dynamically balanced under the premise of a total of 1 billion tokens?",
+                "answer": [
+                    "The amount of one billion tokens demonstrates initial circulation. Mining rewards are generated from additional token issuance: the inflation. As the system becomes widely used, tokens will continue to be burned. We hope that the circulation of tokens will attain the dynamic balance needed."
+                ]
+            },
+            {
+                "question": "On Vite network, users can issue their own currency. Is the function similar to ERC20 token(s) on Ethereum? What advantages does Vite have with their system? What is the address of the VITE ERC20 token?",
+                "answer": [
+                    "Vite's asset issuance is similar to ERC20, but in other ways it is different. ERC20 is a specification, but not a part of the Ethereum protocol. The issuance of new tokens with Ethereum requires the user to develop and deploy a smart contract. Token balance is maintained by the state of the contract. If contract development is flawed, security risks surface. For example, if a user forgets to refer to the SaftMath library, an overflow may occur. Vite token is built into the Vite protocol. The token balance is maintained in the state of the user's account. The new token and the Vite native token share the same underlying protocol thus bringing the same measure of security to the new token and native token. When a user decides to issue a new token in Vite, all they need to do is initiate a transaction. The transaction then puts the new token parameters in the transaction data. The fact that our network does not require smart contract writing inherently leaves less room for bug generation to occur."
+                ]
+            },
+            {
+                "question": "What is the address of the VITE ERC20 token?",
+                "answer": [
+                    "Currently, the VITE ERC20 token address hosted on Ethereum's platform is https: //etherscan.io/token/0x1b793E49237758dBD8b752AFC9Eb4b329d5Da016, when Vite MainNet is launched, all of the ERC20 VITE tokens will be migrated to Vite MainNet tokens at a 1:1 ratio."
+                ]
+            },
+            {
+                "question": "Can we mine Vite tokens?",
+                "answer": [
+                    "Vite's consensus mechanism is similar to EOS's. It generates 25 snapshot block producers through the DPoS algorithm. The block producers, in turn, receive mining rewards."
+                ]
             }
         ]
     },
     "investor": {
-        "title": "投资机构"
+        "title": "Our Investors"
     },
     "urls": {
         "telegram": {
-            "ann": "公告群",
-            "english": "英文群",
-            "chinese": "中文群",
-            "vietnamese": "越南群",
-            "korean": "韩国群",
-            "russia": "俄罗斯群",
-            "thailand": "泰国群"
+            "ann": "Announcement Channel",
+            "english": "English",
+            "chinese": "Chinese",
+            "vietnamese": "Vietnamese",
+            "korean": "Korean",
+            "russia": "Russia",
+            "thailand": "Thailand"
         },
+        "whitePaper": "WHITEPAPER",
         "whitePaperList": {
-            "english": "英语",
-            "chinese": "中文",
-            "french": "法语",
-            "korean": "韩语",
-            "vietnamese": "越南语",
-            "russian": "俄语"
+            "english": "English",
+            "chinese": "Chinese",
+            "french": "French",
+            "korean": "Korean",
+            "vietnamese": "Vietnamese",
+            "russian": "Russian"
         },
-        "whitePaper": "白皮书",
-        "document": "文档",
-        "loopring": "路印协议",
-        "faq": "问题答疑",
-        "medium": "博客",
-        "introduction": "简介",
-        "tokenUrl": "ERC20 地址",
+        "document": "Documentation",
+        "loopring": "Loopring",
+        "faq": "FAQ",
+        "medium": "Medium",
+        "introduction": "Introduction",
+        "tokenUrl": "ERC20 Address",
         "btt": "Bitcointalk",
+        "telegramEn": "Telegram English",
+        "telegramZh": "Telegram Chinese",
+        "telegramAnn": "Telegram ",
         "youtube": "Youtube",
-        "blog": "技术博客"
+        "blog": "Technology Blog"
     },
     "urlSrc": {
-        "telegram": "https://t.me/vite_zh",
-        "whitePaper": "/whitepaper/vite_cn.pdf",
-        "introduction": "https://vite.wiki/zh/introduction/"
+        "telegram": "https://t.me/vite_en",
+        "whitePaper": "/whitepaper/vite_en.pdf",
+        "introduction": "https://vite.wiki/introduction/"
     },
     "utils": {
-        "readMore": "阅读更多"
-    },
-    "careers": {
-        "title": "VITE Labs",
-        "subtitle": "加入我们一起创造一个全新的智能合约平台",
-        "desc": "职位描述",
-        "require": "职位要求",
-        "special": "有以下经验者优先",
-        "contact": "简历提交",
-        "jd": {
-            "pm": {
-                "title": "高级产品经理",
-                "desc": [
-                    "从事区块链技术在业务领域的应用产品设计；",
-                    "设计去中心化业务生态模型和用户成长体系；",
-                    "负责带领团队完成区块链项目"
-                ],
-                "require": [
-                    "本科以上学历，计算机类相关专业；",
-                    "2年以上产品工作经验，熟悉大量级C端用户产品；",
-                    "熟悉掌握互联网产品的需求分析、产品原型设计、交互设计，及产品项目流程，并具有很强的推动力和执行力；",
-                    "有创新意识、责任心、进取心与团队合作精神，对新技术应用感兴趣；"
-                ],
-                "special": [
-                    "1年以上虚拟货币相关从业经验",
-                    "掌握Bitcoin，Ethereum，HyperLedger Fabric的区块链相关机制与原理；",
-                    "英语优秀，能快速阅读英文论文及相关资料，学习能力强"
-                ]
-            },
-            "fe": {
-                "title": "高级web前端开发工程师",
-                "desc": [
-                    "负责Vite钱包项目开发",
-                    "负责编写Vite前端相关SDK",
-                    "参与Vite dApplet小程序平台开发"
-                ],
-                "require": [
-                    "三年以上PC／移动端前端开发经验，能独立完成前端开发任务；",
-                    "精通JavaScript、CSS、HTML等前端相关技术，熟悉 W3C 标准与 ES 规范；",
-                    "熟悉nodejs，使用并研究过至少一个nodejs框架（express/koa等；",
-                    "熟悉至少一种前端框架（React/Vue/Angular等）或对JS语言掌握较深；",
-                    "了解至少一种非前端开发语言（PHP/Java/Python/Ruby等），并有一定的实战经验；",
-                    "了解webpack、gulp等能提高开发效率的工具的使用；",
-                    "较强的逻辑思维能力，善于分析、归纳、解决问题。"
-                ],
-                "special": [
-                    "有虚拟货币相关开发经验",
-                    "掌握Bitcoin，Ethereum，HyperLedger Fabric的区块链相关机制与原理；",
-                    "参与维护过超大型开源项目"
-                ]
-            },
-            "ios": {
-                "title": "高级iOS开发工程师",
-                "desc": [
-                    "负责Vite前端iOS客户端设计与开发 ",
-                    "参与Vite dApplet小程序平台iOS部分开发"
-                ],
-                "require": [
-                    "良好的编程风格，扎实的编程基础和数据结构算法基础",
-                    "超强的问题解决能力",
-                    "深入理解 iOS SDK，具有丰富的 Objective-C 或 C/C++ 开发经验",
-                    "深入理解面向对象编程思想，具有较强的设计能力",
-                    "熟悉网络通信机制及常用数据传输协议",
-                    "热爱互联网和新技术，具有极强的快速学习能力"
-                ],
-                "special": [
-                    "了解虚拟货币相关原理",
-                    "有过类似小程序平台开发经验"
-                ]
-            },
-            "android": {
-                "title": "高级Android 开发工程师",
-                "desc": [
-                    "负责Vite前端 Android 客户端设计与开发 ",
-                    "参与Vite dApplet小程序平台 Android 部分开发"
-                ],
-                "require": [
-                    "具备4年以上Android平台开发经验，有跨平台项目开发经验者优先；",
-                    "熟悉Android应用开发，具有开发过完整Android应用的经历，有独立开发完成app经历者优先；",
-                    "熟悉Android开发的所有机制，对Android系统应用管理、进程管理、内存管理、Activity管理机制有深入理解；",
-                    "熟悉目前常用的网络通信协议；",
-                    "熟悉Android的各大UI控件的使用，能够独立开发定制控件；"
-                ],
-                "special": [
-                    "性格开朗，对技术有强烈的兴趣，喜欢钻研，具有良好的学习能力、沟通技能与团队合作能力",
-                    "有自己的技术blog或开源代码仓库",
-                    "了解虚拟货币相关原理",
-                    "有过类似小程序平台开发经验"
-                ]
-            },
-            "go": {
-                "title": "高级Golang 开发工程师",
-                "desc": [
-                    "负责Vite Core Golang版本开发和维护",
-                    "负责相关SDK的开发"
-                ],
-                "require": [
-                    "计算机相关专业本科及以上学历",
-                    "计算机基础扎实，有较好的数据结构与算法功底，熟悉Linux系统和网络编程",
-                    "熟练掌握Golang，有实际项目开发经验"
-                ],
-                "special": [
-                    "具有分布式/高性能系统设计和开发经验",
-                    "注重代码质量，有良好的自我驱动能力，工作严谨，责任感强，有协作精神",
-                    "了解虚拟货币相关原理"
-                ]
-            }
-        }
+        "readMore": "Read More"
     },
     "footer": {
-        "learning": "学习",
-        "about": "关于",
-        "media": "媒体"
+        "learning": "LEARN",
+        "about": "ABOUT",
+        "media": "MEDIA"
     },
     "joinMailing": {
-        "title": "订阅Vite，抢先领福利",
-        "button": "订阅",
-        "placeholder": "请输入邮箱地址"
+        "title": "Subscribe to Vite to Get Exclusive Benefits",
+        "button": "Subscribe",
+        "placeholder": "Email Address"
     },
-    "featureTitle": "Vite特性",
-    "featureTitle2": "为什么Vite优越超群？",
+    "featureTitle": "Vite Fundamentals",
+    "featureTitle2": "Why Does Vite Stand Out",
     "features": {
         "performance": {
-            "title": "高性能",
+            "title": "High Performance",
             "tags": [
-                "DAG账本",
-                "异步架构"
+                "DAG Ledger",
+                "Asynchronous Architecture"
             ]
         },
         "safety": {
-            "title": "安全性",
+            "title": "Security",
             "tags": [
-                "多代币模型",
-                "快照链"
+                "Multi-Token Model",
+                "Snapshot Chain"
             ]
         },
         "economical": {
-            "title": "经济性",
+            "title": "Economicalness",
             "tags": [
-                "配额模型",
-                "无手续费",
-                "内置 DEX"
+                "Quota-Based Model",
+                "Feeless Transactions",
+                "Built-in DEX"
             ]
         },
         "easyusing": {
-            "title": "易用性",
+            "title": "Usability",
             "tags": [
                 "Solidity++",
-                "命名服务",
-                "合约调度",
-                "合约升级"
+                "Naming Services",
+                "Contract Scheduling",
+                "Contract Upgrades"
             ]
         },
         "flexable": {
-            "title": "扩展性",
+            "title": "Scalability",
             "tags": [
-                "跨链",
-                "HDPoS共识",
-                "智能合约"
+                "Cross-Chain Gateway",
+                "HDPoS Consensus",
+                "Smart Contracts"
             ]
         }
     },
-    "ecoTitle": "Vite生态",
-    "ecoTitle2": "在Vite上可以做什么？",
+    "ecoTitle": "Vite Ecosystem",
+    "ecoTitle2": "What Vite Can Do For You",
     "eco": {
         "worth": {
-            "title": "价值",
+            "title": "Values",
             "pay": {
-                "title": "支付",
+                "title": "Payment",
                 "child": [
-                    "秒级确认",
-                    "链上交易",
-                    "多币种"
+                    "Instant Confirmation",
+                    "On-Chain Transaction",
+                    "Multiple Tokens"
                 ]
             },
             "finance": {
-                "title": "资产发行",
+                "title": "Token Issuance",
                 "child": [
-                    "一键铸币",
-                    "协议原生支持"
+                    "One-Step Token Issuance",
+                    "Protocol-Level of Support"
                 ]
             },
             "dex": {
-                "title": "内置DEX",
+                "title": "Built-in DEX",
                 "child": [
-                    "链上订单支持",
-                    "跨链支持",
-                    "极速成交"
+                    "On-Chain Order Book",
+                    "Cross-Chain Support",
+                    "Fast Order-Matching"
                 ]
             }
         },
         "dapps": {
             "title": "dApps",
             "child": [
-                "游戏",
-                "本地服务",
-                "娱乐",
-                "社交网络服务",
-                "知识产权",
-                "物联网"
+                "Games",
+                "Local Services",
+                "Entertainment",
+                "Social Networking Services",
+                "Intellectual Property",
+                "IoT"
             ]
         }
     }
