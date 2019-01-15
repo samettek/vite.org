@@ -1,0 +1,142 @@
+<svg id="图层_1" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330.33 290">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-4 {
+        isolation: isolate;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        font-size: 16px;
+        font-family: PingFangHK-Medium-B5pc-H, PingFang HK;
+      }
+
+      .cls-14, .cls-2, .cls-3, .cls-4 {
+        fill: #1b4366;
+      }
+
+      .cls-2 {
+        letter-spacing: -0.06em;
+      }
+
+      .cls-3, .cls-4 {
+        letter-spacing: -0.06em;
+      }
+
+      .cls-5, .cls-6, .cls-7 {
+        fill: #f9fcff;
+      }
+
+      .cls-13, .cls-15, .cls-5, .cls-6, .cls-7 {
+        stroke-width: 3px;
+      }
+
+      .cls-5 {
+        stroke: url(#未命名的渐变);
+      }
+
+      .cls-6 {
+        stroke: url(#未命名的渐变_2);
+      }
+
+      .cls-7 {
+        stroke: url(#未命名的渐变_3);
+      }
+
+      .cls-8 {
+        fill: #007aff;
+      }
+
+      .cls-10, .cls-13, .cls-15, .cls-9 {
+        fill: none;
+      }
+
+      .cls-10, .cls-13, .cls-9 {
+        stroke: #007aff;
+      }
+
+      .cls-9 {
+        stroke-linecap: square;
+        stroke-dasharray: 10 10;
+      }
+
+      .cls-10, .cls-9 {
+        stroke-width: 2px;
+      }
+
+      .cls-10 {
+        stroke-dasharray: 2 2.5;
+      }
+
+      .cls-11 {
+        fill: url(#未命名的渐变_4);
+      }
+
+      .cls-12 {
+        fill: url(#未命名的渐变_5);
+      }
+
+      .cls-15 {
+        stroke: #1b4366;
+      }
+    </style>
+    <linearGradient id="未命名的渐变" x1="-370.06" y1="1087.04" x2="-369.28" y2="1086.15" gradientTransform="matrix(97, 0, 0, -43, 36117.5, 46819.5)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6fbfff"/>
+      <stop offset="1" stop-color="#007aff"/>
+    </linearGradient>
+    <linearGradient id="未命名的渐变_2" data-name="未命名的渐变 2" x1="-370.06" y1="1087.04" x2="-369.28" y2="1086.15" gradientTransform="matrix(97, 0, 0, -43, 36117.5, 46904.5)" xlink:href="#未命名的渐变"/>
+    <linearGradient id="未命名的渐变_3" data-name="未命名的渐变 3" x1="-370.06" y1="1087.04" x2="-369.28" y2="1086.15" gradientTransform="matrix(97, 0, 0, -43, 36117.5, 46989.5)" xlink:href="#未命名的渐变"/>
+    <linearGradient id="未命名的渐变_4" data-name="未命名的渐变 4" x1="-355.29" y1="1076.49" x2="-354.5" y2="1075.59" gradientTransform="matrix(20, 0, 0, -27.67, 7121, 29785.45)" xlink:href="#未命名的渐变"/>
+    <linearGradient id="未命名的渐变_5" data-name="未命名的渐变 5" x1="-355.29" y1="1076.49" x2="-354.5" y2="1075.59" gradientTransform="matrix(20, 0, 0, -27.67, 7224, 29785.45)" xlink:href="#未命名的渐变"/>
+  </defs>
+  <title>HDPoS共识2</title>
+  <g>
+    <g class="cls-1">
+      <text class="cls-2" transform="translate(200.96 20)">SNAPSHOT CHAI</text>
+      <text class="cls-3" transform="translate(319.04 20)"> </text>
+      <text class="cls-4" transform="translate(319.66 20)">N</text>
+    </g>
+    <path class="cls-5" d="M213.5,75.5v43h97v-43Z" transform="translate(-0.33)"/>
+    <path class="cls-6" d="M213.5,160.5v43h97v-43Z" transform="translate(-0.33)"/>
+    <path class="cls-7" d="M213.5,245.5v43h97v-43Z" transform="translate(-0.33)"/>
+    <path class="cls-8" d="M263.16,134.34V160h-2V134.34h-6l7-14,7,14Zm0,85V245h-2V219.34h-6l7-14,7,14Z" transform="translate(-0.33)"/>
+    <path class="cls-9" d="M262.5,35V75" transform="translate(-0.33)"/>
+    <path class="cls-10" d="M214,185a4,4,0,1,0-4-4A4,4,0,0,0,214,185ZM45,102a4,4,0,1,0-4-4A4,4,0,0,0,45,102Z" transform="translate(-0.33)"/>
+    <path class="cls-10" d="M45,102a4,4,0,1,0-4-4A4,4,0,0,0,45,102Zm4-3,162,81m-63-78a4,4,0,1,0-4-4A4,4,0,0,0,148,102Zm4-3,59,81m2,92a4,4,0,1,0-4-4A4,4,0,0,0,213,272ZM45,185a4,4,0,1,0-4-4A4,4,0,0,0,45,185Zm4-3,161,85m-26,4a4,4,0,1,0-4-4A4,4,0,0,0,184,271Zm6-3.88,20,.75" transform="translate(-0.33)"/>
+    <path class="cls-11" d="M15,24.33a10,10,0,0,1,20,0,3.33,3.33,0,0,1-3.33,3.33H18.33A3.33,3.33,0,0,1,15,24.33ZM25,0a6,6,0,1,1-6,6A6,6,0,0,1,25,0Z" transform="translate(-0.33)"/>
+    <path class="cls-12" d="M118,24.33a10,10,0,0,1,20,0,3.33,3.33,0,0,1-3.33,3.33H121.33A3.33,3.33,0,0,1,118,24.33ZM128,0a6,6,0,1,1-6,6A6,6,0,0,1,128,0Z" transform="translate(-0.33)"/>
+    <g>
+      <path class="cls-13" d="M23.48,116.29a21.16,21.16,0,1,0,0-42.3,21.16,21.16,0,1,0,0,42.3Z" transform="translate(-0.33)"/>
+      <path class="cls-8" d="M6.77,95.14a16.53,16.53,0,0,0,16.71,16.35,16.35,16.35,0,1,0,0-32.7A16.53,16.53,0,0,0,6.77,95.14" transform="translate(-0.33)"/>
+    </g>
+    <g>
+      <path class="cls-13" d="M23.48,202.29A21.64,21.64,0,1,0,1.83,180.65,21.67,21.67,0,0,0,23.48,202.29Z" transform="translate(-0.33)"/>
+      <path class="cls-8" d="M6.77,180.65a16.71,16.71,0,1,0,16.71-16.71A16.71,16.71,0,0,0,6.77,180.65" transform="translate(-0.33)"/>
+    </g>
+    <g>
+      <path class="cls-13" d="M23.48,287.29A21.64,21.64,0,1,0,1.83,265.65,21.67,21.67,0,0,0,23.48,287.29Z" transform="translate(-0.33)"/>
+      <path class="cls-8" d="M6.77,265.65a16.71,16.71,0,1,0,16.71-16.71A16.71,16.71,0,0,0,6.77,265.65" transform="translate(-0.33)"/>
+    </g>
+    <path class="cls-8" d="M23.5,132v25h-2V132h-6l7-14,7,14Zm0,86v25h-2V218h-6l7-14,7,14Z" transform="translate(-0.33)"/>
+    <path class="cls-9" d="M23.5,34V74" transform="translate(-0.33)"/>
+    <g>
+      <path class="cls-13" d="M126.48,116.29a21.16,21.16,0,1,0-21.64-21.15A21.43,21.43,0,0,0,126.48,116.29Z" transform="translate(-0.33)"/>
+      <path class="cls-8" d="M109.77,95.14a16.71,16.71,0,1,0,16.71-16.35,16.53,16.53,0,0,0-16.71,16.35" transform="translate(-0.33)"/>
+    </g>
+    <g>
+      <path class="cls-13" d="M126.48,202.29a21.64,21.64,0,1,0-21.64-21.64A21.67,21.67,0,0,0,126.48,202.29Z" transform="translate(-0.33)"/>
+      <path class="cls-8" d="M109.77,180.65a16.71,16.71,0,1,0,16.71-16.71,16.71,16.71,0,0,0-16.71,16.71" transform="translate(-0.33)"/>
+    </g>
+    <path class="cls-8" d="M133.65,212.77l19.22,34.75.48.88-1.75,1-.48-.88L131.9,213.73l-5.25,2.9L126,201l12.9,8.86Z" transform="translate(-0.33)"/>
+    <g>
+      <path class="cls-13" d="M162,287.29a21.15,21.15,0,1,0-21.15-21.15A21.18,21.18,0,0,0,162,287.29Z" transform="translate(-0.33)"/>
+      <path class="cls-8" d="M145.63,266.14A16.35,16.35,0,1,0,162,249.79a16.35,16.35,0,0,0-16.35,16.35" transform="translate(-0.33)"/>
+    </g>
+    <g>
+      <path class="cls-14" d="M113.7,210.86l12.36-9.61.27,15.65-5.41-2.59-16,33.37-.43.9-1.8-.86.43-.9,16-33.37Z" transform="translate(-0.33)"/>
+      <path class="cls-15" d="M94,287.29a21.15,21.15,0,1,0-21.15-21.15A21.18,21.18,0,0,0,94,287.29Z" transform="translate(-0.33)"/>
+      <path class="cls-14" d="M77.63,266.14A16.35,16.35,0,1,0,94,249.79a16.35,16.35,0,0,0-16.35,16.35" transform="translate(-0.33)"/>
+    </g>
+    <path class="cls-8" d="M126.16,132.34V158h-2V132.34h-6l7-14,7,14Z" transform="translate(-0.33)"/>
+    <path class="cls-9" d="M126.5,34V74" transform="translate(-0.33)"/>
+  </g>
+</svg>

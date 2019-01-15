@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="219" height="129" viewBox="0 0 219 129">
+  <defs>
+    <linearGradient id="配额英文-a" x1="11.396%" x2="89.89%" y1="0%" y2="89.51%">
+      <stop offset="0%" stop-color="#6FBFFF"/>
+      <stop offset="100%" stop-color="#007AFF"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(1 22)">
+      <polygon stroke="#007AFF" points="0 0 99.953 0 113 12 99.953 24 0 24 0 11.813"/>
+      <text fill="#007AFF" font-family="PingFangSC-Semibold, PingFang SC" font-size="13" font-weight="500">
+        <tspan x="23.491" y="17">Run PoW</tspan>
+      </text>
+    </g>
+    <g fill="url(#配额英文-a)" transform="translate(128)">
+      <path stroke="url(#配额英文-a)" stroke-width="4" d="M72.758465,64.9981816 L72.758465,126.110811 L16,126.110811 L16,64.9981816 L4,64.9981816 L44.2106847,22 L84,64.9981816 L72.758465,64.9981816 Z"/>
+      <polygon points="25.394 4 27.855 4 27.855 9.367 33.222 9.367 33.222 11.829 27.855 11.829 27.855 17.222 25.394 17.222 25.394 11.829 20 11.829 20 9.367 25.394 9.367"/>
+      <polygon points="61.394 0 63.855 0 63.855 5.367 69.222 5.367 69.222 7.829 63.855 7.829 63.855 13.222 61.394 13.222 61.394 7.829 56 7.829 56 5.367 61.394 5.367"/>
+      <polygon points="82.394 27 84.855 27 84.855 32.367 90.222 32.367 90.222 34.829 84.855 34.829 84.855 40.222 82.394 40.222 82.394 34.829 77 34.829 77 32.367 82.394 32.367"/>
+      <polygon points="4.487 31 6.535 31 6.535 35.465 11 35.465 11 37.513 6.535 37.513 6.535 42 4.487 42 4.487 37.513 0 37.513 0 35.465 4.487 35.465"/>
+    </g>
+    <text fill="#FFF" font-family="PingFangSC-Semibold, PingFang SC" font-size="14" font-weight="500">
+      <tspan x="152.263" y="114">Quota</tspan>
+    </text>
+    <g transform="translate(1 62)">
+      <polygon stroke="#007AFF" points="0 0 99.953 0 113 12 99.953 24 0 24 0 11.813"/>
+      <text fill="#007AFF" font-family="PingFangSC-Semibold, PingFang SC" font-size="13" font-weight="500">
+        <tspan x="18.226" y="17">Stake VITE</tspan>
+      </text>
+    </g>
+    <g transform="translate(1 102)">
+      <polygon stroke="#007AFF" points="0 0 99.953 0 113 12 99.953 24 0 24 0 11.813"/>
+      <text fill="#007AFF" font-family="PingFangSC-Semibold, PingFang SC" font-size="13" font-weight="500">
+        <tspan x="6.747" y="17">Consume VITE</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

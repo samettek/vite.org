@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="254" viewBox="0 0 320 254">
+  <defs>
+    <rect id="solidity++-a" width="84" height="30" x="20" y="183"/>
+    <mask id="solidity++-c" width="84" height="30" x="0" y="0" fill="#fff">
+      <use xlink:href="#solidity++-a"/>
+    </mask>
+    <rect id="solidity++-b" width="84" height="30" x="216" y="113"/>
+    <mask id="solidity++-d" width="84" height="30" x="0" y="0" fill="#fff">
+      <use xlink:href="#solidity++-b"/>
+    </mask>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <rect width="122" height="252" x="1" y="1" stroke="#007AFF" stroke-width="2"/>
+    <rect width="122" height="252" x="197" y="1" stroke="#1B4366" stroke-width="2"/>
+    <text fill="#007AFF" font-family="PingFangSC-Semibold, PingFang SC" font-size="16" font-weight="500">
+      <tspan x="56" y="26">A</tspan>
+    </text>
+    <text fill="#1B4366" font-family="PingFangSC-Semibold, PingFang SC" font-size="16" font-weight="500">
+      <tspan x="252" y="26">B</tspan>
+    </text>
+    <rect width="104" height="30" x="10" y="37" fill="#007AFF"/>
+    <rect width="104" height="30" x="206" y="37" fill="#1B4366"/>
+    <rect width="102" height="156" x="11" y="78" stroke="#1B4366" stroke-width="2"/>
+    <rect width="104" height="74" x="206" y="77" fill="#E5E7EA"/>
+    <rect width="102" height="72" x="207" y="162" stroke="#007AFF" stroke-width="2"/>
+    <path fill="#007AFF" fill-rule="nonzero" d="M193.451327,199.5 L191.5,199.5 L191.5,197.5 L193.451327,197.5 L193.451327,191.5 L207.451327,198.5 L193.451327,205.5 L193.451327,199.5 Z M115,199.5 L115,197.5 L117,197.5 L117,199.5 L115,199.5 Z M119.5,199.5 L119.5,197.5 L121.5,197.5 L121.5,199.5 L119.5,199.5 Z M124,199.5 L124,197.5 L126,197.5 L126,199.5 L124,199.5 Z M128.5,199.5 L128.5,197.5 L130.5,197.5 L130.5,199.5 L128.5,199.5 Z M133,199.5 L133,197.5 L135,197.5 L135,199.5 L133,199.5 Z M137.5,199.5 L137.5,197.5 L139.5,197.5 L139.5,199.5 L137.5,199.5 Z M142,199.5 L142,197.5 L144,197.5 L144,199.5 L142,199.5 Z M146.5,199.5 L146.5,197.5 L148.5,197.5 L148.5,199.5 L146.5,199.5 Z M151,199.5 L151,197.5 L153,197.5 L153,199.5 L151,199.5 Z M155.5,199.5 L155.5,197.5 L157.5,197.5 L157.5,199.5 L155.5,199.5 Z M160,199.5 L160,197.5 L162,197.5 L162,199.5 L160,199.5 Z M164.5,199.5 L164.5,197.5 L166.5,197.5 L166.5,199.5 L164.5,199.5 Z M169,199.5 L169,197.5 L171,197.5 L171,199.5 L169,199.5 Z M173.5,199.5 L173.5,197.5 L175.5,197.5 L175.5,199.5 L173.5,199.5 Z M178,199.5 L178,197.5 L180,197.5 L180,199.5 L178,199.5 Z M182.5,199.5 L182.5,197.5 L184.5,197.5 L184.5,199.5 L182.5,199.5 Z M187,199.5 L187,197.5 L189,197.5 L189,199.5 L187,199.5 Z"/>
+    <path fill="#1B4366" fill-rule="nonzero" d="M136,126.5 L137,126.5 L137,128.5 L136,128.5 L136,134.5 L122,127.5 L136,120.5 L136,126.5 Z M139.5,128.5 L139.5,126.5 L141.5,126.5 L141.5,128.5 L139.5,128.5 Z M144,128.5 L144,126.5 L146,126.5 L146,128.5 L144,128.5 Z M148.5,128.5 L148.5,126.5 L150.5,126.5 L150.5,128.5 L148.5,128.5 Z M153,128.5 L153,126.5 L155,126.5 L155,128.5 L153,128.5 Z M157.5,128.5 L157.5,126.5 L159.5,126.5 L159.5,128.5 L157.5,128.5 Z M162,128.5 L162,126.5 L164,126.5 L164,128.5 L162,128.5 Z M166.5,128.5 L166.5,126.5 L168.5,126.5 L168.5,128.5 L166.5,128.5 Z M171,128.5 L171,126.5 L173,126.5 L173,128.5 L171,128.5 Z M175.5,128.5 L175.5,126.5 L177.5,126.5 L177.5,128.5 L175.5,128.5 Z M180,128.5 L180,126.5 L182,126.5 L182,128.5 L180,128.5 Z M184.5,128.5 L184.5,126.5 L186.5,126.5 L186.5,128.5 L184.5,128.5 Z M189,128.5 L189,126.5 L191,126.5 L191,128.5 L189,128.5 Z M193.5,128.5 L193.5,126.5 L195.5,126.5 L195.5,128.5 L193.5,128.5 Z M198,128.5 L198,126.5 L200,126.5 L200,128.5 L198,128.5 Z M202.5,128.5 L202.5,126.5 L204.5,126.5 L204.5,128.5 L202.5,128.5 Z M207,128.5 L207,126.5 L209,126.5 L209,128.5 L207,128.5 Z M211.5,128.5 L211.5,126.5 L213.5,126.5 L213.5,128.5 L211.5,128.5 Z"/>
+    <text fill="#007AFF" font-family="PingFangSC-Semibold, PingFang SC" font-size="14" font-weight="500">
+      <tspan x="143.193" y="186">Send</tspan>
+    </text>
+    <text fill="#007AFF" font-family="PingFangSC-Semibold, PingFang SC" font-size="14" font-weight="500">
+      <tspan x="143.193" y="115">Send</tspan>
+    </text>
+    <use stroke="#007AFF" stroke-dasharray="2 2.5" stroke-width="4" mask="url(#solidity++-c)" xlink:href="#solidity++-a"/>
+    <text fill="#007AFF" font-family="PingFangSC-Semibold, PingFang SC" font-size="14" font-weight="500">
+      <tspan x="33.171" y="203">Send M1</tspan>
+    </text>
+    <text fill="#FFF" font-family="PingFangSC-Semibold, PingFang SC" font-size="14" font-weight="500">
+      <tspan x="21.151" y="57">Message M1</tspan>
+    </text>
+    <text fill="#FFF" font-family="PingFangSC-Semibold, PingFang SC" font-size="14" font-weight="500">
+      <tspan x="216.321" y="58">Message M2</tspan>
+    </text>
+    <use stroke="#1B4366" stroke-dasharray="2 2.5" stroke-width="4" mask="url(#solidity++-d)" xlink:href="#solidity++-b"/>
+    <text fill="#1B4366" font-family="PingFangSC-Semibold, PingFang SC" font-size="14" font-weight="500">
+      <tspan x="228.341" y="133">Send M2</tspan>
+    </text>
+    <text fill="#1B4366" font-family="PingFangSC-Semibold, PingFang SC" font-size="14" font-weight="500">
+      <tspan x="40.156" y="100">On M2</tspan>
+    </text>
+    <text fill="#1B4366" font-family="PingFangSC-Semibold, PingFang SC" font-size="14" font-weight="500">
+      <tspan x="226.692" y="100">Method 2</tspan>
+    </text>
+    <text fill="#007AFF" font-family="PingFangSC-Semibold, PingFang SC" font-size="14" font-weight="500">
+      <tspan x="237.486" y="184">On M1</tspan>
+    </text>
+  </g>
+</svg>

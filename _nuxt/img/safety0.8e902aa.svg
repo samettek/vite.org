@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="220" viewBox="0 0 220 220">
+  <defs>
+    <linearGradient id="多代币模型-a" x1="11.396%" x2="89.89%" y1="0%" y2="89.51%">
+      <stop offset="0%" stop-color="#6FBFFF"/>
+      <stop offset="100%" stop-color="#007AFF"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <circle cx="30" cy="30" r="28" fill="#F9FCFF" stroke="url(#多代币模型-a)" stroke-width="4"/>
+    <text fill="#007AFF" font-family="PingFangSC-Semibold, PingFang SC" font-size="15" font-weight="500">
+      <tspan x="13.703" y="36">VITE</tspan>
+    </text>
+    <g transform="translate(0 80)">
+      <circle cx="30" cy="30" r="28" fill="#F9FCFF" stroke="url(#多代币模型-a)" stroke-width="4"/>
+      <text fill="#007AFF" font-family="PingFangSC-Semibold, PingFang SC" font-size="15" font-weight="500">
+        <tspan x="14.723" y="36">BTC</tspan>
+      </text>
+    </g>
+    <g transform="translate(0 160)">
+      <circle cx="30" cy="30" r="28" fill="#F9FCFF" stroke="url(#多代币模型-a)" stroke-width="4"/>
+      <text fill="#007AFF" font-family="PingFangSC-Semibold, PingFang SC" font-size="13" font-weight="500">
+        <tspan x="14.764" y="23.624">User</tspan> <tspan x="10.11" y="37.624">Token</tspan> <tspan x="26.399" y="51.624">1</tspan>
+      </text>
+    </g>
+    <g transform="translate(80 160)">
+      <circle cx="30" cy="30" r="28" fill="#F9FCFF" stroke="url(#多代币模型-a)" stroke-width="4"/>
+      <text fill="#007AFF" font-family="PingFangSC-Semibold, PingFang SC" font-size="13" font-weight="500">
+        <tspan x="14.764" y="23.624">User </tspan> <tspan x="10.11" y="37.624">Token</tspan> <tspan x="25.164" y="51.624">2</tspan>
+      </text>
+    </g>
+    <g transform="translate(160 160)">
+      <circle cx="30" cy="30" r="28" fill="#F9FCFF" stroke="url(#多代币模型-a)" stroke-width="4"/>
+      <text fill="#007AFF" font-family="PingFangSC-Semibold, PingFang SC" font-size="13" font-weight="500">
+        <tspan x="14.764" y="23.624">User </tspan> <tspan x="10.11" y="37.624">Token</tspan> <tspan x="25.164" y="51.624">3</tspan>
+      </text>
+    </g>
+    <g transform="translate(80)">
+      <circle cx="30" cy="30" r="28" fill="#F9FCFF" stroke="url(#多代币模型-a)" stroke-width="4"/>
+      <text fill="#007AFF" font-family="PingFangSC-Semibold, PingFang SC" font-size="15" font-weight="500">
+        <tspan x="14.655" y="36">VCP</tspan>
+      </text>
+    </g>
+    <g transform="translate(80 80)">
+      <circle cx="30" cy="30" r="28" fill="#F9FCFF" stroke="url(#多代币模型-a)" stroke-width="4"/>
+      <text fill="#007AFF" font-family="PingFangSC-Semibold, PingFang SC" font-size="15" font-weight="500">
+        <tspan x="15.053" y="36">ETH</tspan>
+      </text>
+    </g>
+    <g transform="translate(160)">
+      <circle cx="30" cy="30" r="28" fill="#F9FCFF" stroke="url(#多代币模型-a)" stroke-width="4"/>
+      <text fill="#007AFF" font-family="PingFangSC-Semibold, PingFang SC" font-size="15" font-weight="500">
+        <tspan x="15.832" y="36">VTT</tspan>
+      </text>
+    </g>
+    <g transform="translate(160 80)">
+      <circle cx="30" cy="30" r="28" fill="#F9FCFF" stroke="url(#多代币模型-a)" stroke-width="4"/>
+      <text fill="#007AFF" font-family="PingFangSC-Semibold, PingFang SC" font-size="15" font-weight="500">
+        <tspan x="9.6" y="36">USDT</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
