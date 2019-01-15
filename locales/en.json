@@ -12,12 +12,12 @@
     },
     "exchange": {
         "okex": "OKEX.COM",
-        "bittrex": "Bittrex"
+        "bittrex": "Bittrex "
     },
     "community": {
         "title": "Community",
         "star": "Community Star",
-      
+
     },
     "media": {
         "medium": "Medium",
