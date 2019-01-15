@@ -441,6 +441,7 @@ export default {
       .nav-item {
         height: 48px;
         padding-left: 0;
+        font-size: 14px;
       }
       .line {
         height: 1px;

@@ -53,6 +53,7 @@
         height: (40rem/16);
         border: transparent;
         font-family: $font-family-light;
+        font-size: 14px;
         &:focus {
           border: none;
           box-shadow: none;
@@ -72,6 +73,7 @@
       .dropdown-content {
         .dropdown-item {
           color: $common-text-color;
+          font-size: 14px;
           &:hover {
             color: $common-active-color
           }
