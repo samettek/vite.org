@@ -127,44 +127,44 @@
                 "description": [
                     "Vite TestNet 1.0.0",
                     {
-                        "text": "Snapshot Block Producer (SBP) Campaign",
+                        "text": "Snapshot Block Producer (SBP) Кампания",
                         "url": "https://explorer.vite.net/SBPList"
                     },
-                    "Mining"
+                    "Майнинг"
                 ]
             },
             {
-                "time": "December 2018",
+                "time": "Декабрь 2018",
                 "description": [
-                    "Smart Contract/ Solidity++ Alpha Test",
-                    "Cross-Chain Gateway Alpha Test",
-                    "Multi-Token Wallet Alpha Test",
+                    "Смарт Контракт/ Solidity++ Альфа Тест",
+                    "Альфа-тест Межсетевого Шлюза",
+                    "Альфа Тест Мульти-Токен Кошелька",
                     {
-                        "text": "Decentralized Exchange (DEX) Alpha Test | View Forbes Article",
+                        "text": "Альфа Тест Децентрализованного Обмена (DEX) | Посмотреть статью Forbes",
                         "url": "https://www.forbes.com/sites/yoavvilner/2018/12/16/the-state-of-decentralized-exchanges-and-plans-for-2019/#6af853b83059"
                     },
-                    "Website 2.0",
+                    "Веб-сайт 2.0",
                     {
-                        "text": "Official Forum Website",
+                        "text": "Официальный Сайт Форума",
                         "url": "https://forum.vite.net/"
                     }
                 ]
             },
             {
-                "time": "Q1 2019",
+                "time": "1 квартал 2019 года",
                 "description": [
-                    "Pre-MainNet Release",
-                    "Cross-Chain Gateway Open Beta Test",
-                    "DEX Open Beta Test",
-                    "Smart Contract/Solidity++ Open Beta Test",
-                    "Multi-Token Wallet Release",
-                    "Multi-VM (Virtual Machine) Support (EVM / WASM)"
+                    "Предварительный выпуск MainNet",
+                    "Открытое Бета Тестирование Межсетевого Шлюза",
+                    "Открытый Бета Тест DEX",
+                    "Смарт Контракт/ Solidity++ Открытый Бета Тест",
+                    "Выпуск Мульти-Токен Кошелька",
+                    "Поддержка нескольких VM (виртуальных машин) (EVM / WASM)"
                 ]
             },
             {
-                "time": "Q2 2019",
+                "time": "2 квартал 2019 года",
                 "description": [
-                    "Performance Optimization",
+                    "Оптимизация Производительности",
                     "Timer-Triggered Smart Contract Scheduler",
                     "Naming Service for Addresses",
                     "Smart Contract Upgrades"
