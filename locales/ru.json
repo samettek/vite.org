@@ -188,35 +188,35 @@
         ]
     },
     "elector": {
-        "title": "SBP Candidates",
+        "title": "SBP Кандидаты",
         "detailTitles": [
             {
-                "key": "info",
-                "title": "Information of Team Members"
+                "key": "инфо",
+                "title": "Информация о Членах Команды"
             },
             {
-                "key": "photo",
-                "title": "Photos"
+                "key": "фото",
+                "title": "Фото"
             },
             {
-                "key": "config",
-                "title": "Configuration of Data Center"
+                "key": "Конфигурация",
+                "title": "Конфигурация Дата Центра"
             },
             {
-                "key": "location",
-                "title": "Service Location"
+                "key": "расположение",
+                "title": "Расположение Сервера"
             },
             {
-                "key": "plan",
-                "title": "Eco-development Plans"
+                "key": "план",
+                "title": "Планы развития экосистемы"
             }
         ],
         "rightCommonPart": {
-            "title": "Social Medias",
-            "email": "Email",
+            "title": "Социальные Медиа",
+            "email": "Электронная Почта",
             "twitter": "Twitter",
             "telegram": "Telegram",
-            "website": "Website"
+            "website": "Веб-сайт"
         },
         "nameMap": {
             "vitecity": {
