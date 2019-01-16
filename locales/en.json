@@ -923,7 +923,7 @@
             {
                 "question": "Which exchange(s) will Vite be listed on?",
                 "answer": [
-                    "Currently we have launched on OKEX exchange, we are also in contact with other exchanges. Stay tuned."
+                    "Currently we have launched on BITTREX and OKEX exchanges, we are also in contact with other exchanges. Stay tuned."
                 ]
             },
             {
@@ -1123,7 +1123,7 @@
     "ecoTitle2": "What Vite Can Do For You",
     "eco": {
         "worth": {
-            "title": "Values",
+            "title": "Features",
             "pay": {
                 "title": "Payment",
                 "child": [
