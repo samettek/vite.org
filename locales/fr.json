@@ -61,8 +61,8 @@
         "testnet": "TestNet",
         "acttext": "Vote for Supernode Operators </br> Get Awarded VITE!",
         "actwait": "Stay tuned!",
-        "news": "Latest News",
-        "starttoUse": "Get Started with Vite"
+        "news": "Dernières news",
+        "starttoUse": "Commencer avec Vite"
     },
     "roadmap": {
         "title": "Feuille de route",
@@ -81,15 +81,15 @@
                 ]
             },
             {
-                "time": "May 2018",
+                "time": "Mai 2018",
                 "description": [
-                    "Private Sale Fundraise",
-                    "Official Website",
+                    "Vente de fonds privée",
+                    "Site officiel",
                     "Founding Team"
                 ]
             },
             {
-                "time": "June 2018",
+                "time": "Juin 2018",
                 "description": [
                     "R&D Team",
                     "Core Technology Development"
@@ -1042,16 +1042,16 @@
     "urls": {
         "telegram": {
             "ann": "Announcement Channel",
-            "english": "English",
-            "chinese": "Chinese",
-            "vietnamese": "Vietnamese",
-            "korean": "Korean",
-            "russia": "Russia",
-            "thailand": "Thailand"
+            "english": "Anglais",
+            "chinese": "Chinois",
+            "vietnamese": "Vietnamien",
+            "korean": "Coréeen",
+            "russia": "Russe",
+            "thailand": "Thailandais"
         },
         "whitePaper": "WHITEPAPER",
         "whitePaperList": {
-            "english": "English",
+            "english": "Anglais",
             "chinese": "Chinese",
             "french": "French",
             "korean": "Korean",
