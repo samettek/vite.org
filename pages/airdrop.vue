@@ -1,37 +1,43 @@
 <template>
   <div>
     <section class="airdrop">
-      <div class="hero-body">
+      <div class="hero-body part1">
         <div class="container">
-          <div class="slogan-wrapper">
-            <h1> {{ $t('airdrop.title1' )}}</h1>
-            <div> {{ $t('airdrop.link' )}}</div>
-          </div>
-          <div class="btn-group-wrapper">
-            <v-popover
-              offset="16"
-              popoverClass="v-popover"
-              trigger="hover">
-              <div class="pop-btn">{{$t('home.wallet.name')}}</div>
-              <template slot="popover" >
-                <div class="wallet-app-container">
-                  <div class="wallet-item">
-                    <img :src="QRcode[$i18n.locale]"  class="wallet-app" />
-                  </div>
-                </div>
-              </template>
-            </v-popover>
+          <div class="columns">
+            <div class="column is-half">
+              <div class="slogan-wrapper">
+                <h1> {{ $t('airdrop.title1' )}}</h1>
+                <ul>
+                  <li>{{ $t('airdrop.text1') }}</li>
+                  <li>{{ $t('airdrop.text2') }}</li>
+                </ul>
+              </div>
+              <div class="btn-group-wrapper">
+                <v-popover
+                  offset="16"
+                  popoverClass="v-popover"
+                  trigger="hover">
+                  <div class="pop-btn">{{$t('airdrop.btn1')}}</div>
+                  <template slot="popover">
+                    <div class="wallet-app-container">
+                      <div class="wallet-item">
+                        <img :src="QRcode[$i18n.locale]" class="wallet-app"/>
+                      </div>
+                    </div>
+                  </template>
+                </v-popover>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+      <div class="part2"></div>
     </section>
   </div>
 </template>
 
 <script type="text/babel">
-  import { VPopover } from 'v-tooltip'
-
-  import config from '~/config.js'
+  import {VPopover} from 'v-tooltip'
 
   export default {
     components: {
@@ -42,12 +48,11 @@
         QRcode: {
           zh: require('~/assets/images/zhongapp.png'),
           en: require('~/assets/images/waiapp.png')
-        }
+        },
+        rightPic: require('~/assets/images/airdrop/right.png')
       }
     },
-    methods: {
-
-    }
+    methods: {}
   }
 </script>
 
@@ -66,8 +71,10 @@
       }
 
       .slogan-wrapper {
-        margin-top: 212px;
         max-width: 590px;
+        ul{
+          list-style: disc outside $common-active-color;
+        }
         @include touch {
           max-width: unset;
         }
@@ -87,7 +94,6 @@
       display: flex;
       cursor: pointer;
 
-
       .pop-btn {
         box-shadow: 0 10px 40px 0 rgba(126, 183, 238, 0.83);
         display: inline-block;
@@ -103,9 +109,9 @@
       .other-btn {
         margin-left: 20px;
         box-sizing: border-box;
-        box-shadow:none;
-        border:2px solid rgba(0,122,255,1);
-        color:#007AFF;
+        box-shadow: none;
+        border: 2px solid rgba(0, 122, 255, 1);
+        color: #007AFF;
         background: transparent;
         @include touch {
           font-size: 12px;
