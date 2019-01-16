@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="airdrop">
-      <div class="hero-body part1">
+      <div class="hero-body">
         <div class="container">
           <div class="columns">
             <div class="column is-half">
@@ -31,7 +31,41 @@
           </div>
         </div>
       </div>
-      <div class="part2"></div>
+    </section>
+    <section class="steps">
+      <div class="container">
+        <h1 class="title">{{ $t('airdrop.title2' ) }}</h1>
+        <div class="timeline">
+          <div> {{ $t('airdrop.step') }} </div>
+          <ul class="is-flex">
+            <li>
+              <div class="desc-wrapper">
+                <div> {{ $t('airdrop.step1') }} </div>
+                <img :src="step1Pic" class="image"/>
+              </div>
+            </li>
+            <li>
+              <div class="desc-wrapper">
+                <div> {{ $t('airdrop.step2') }} </div>
+                <img :src="step2Pic" class="image"/>
+              </div>
+            </li>
+            <li>
+              <div class="desc-wrapper">
+                <div class="top">
+                  <div>{{ $t('airdrop.annual', {rate}) }}</div>
+                  <div>{{ $t('airdrop.btn2') }}</div>
+                </div>
+                <div class="desc">
+                  <div> {{$t('airdrop.step3', {vite}) }} </div>
+                  <img :src="step3Pic" class="image"/>
+                </div>
+
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
     </section>
   </div>
 </template>
@@ -49,7 +83,12 @@
           zh: require('~/assets/images/zhongapp.png'),
           en: require('~/assets/images/waiapp.png')
         },
-        rightPic: require('~/assets/images/airdrop/right.png')
+        rightPic: require('~/assets/images/airdrop/right.png'),
+        step1Pic: require('~/assets/images/airdrop/step1.png'),
+        step2Pic: require('~/assets/images/airdrop/step2.png'),
+        step3Pic: require('~/assets/images/airdrop/step3.png'),
+        rate: '20%',
+        vite: '8000+ VITE',
       }
     },
     methods: {}
@@ -60,6 +99,7 @@
   @import "~assets/vars";
 
   .airdrop {
+    height: 700px;
     padding-top: 92px;
     .container {
       .is-info {
@@ -71,7 +111,7 @@
       }
 
       .slogan-wrapper {
-        max-width: 590px;
+        max-width: 490px;
         ul{
           list-style: disc outside $common-active-color;
         }
@@ -104,18 +144,6 @@
         background: #007aff;
         @include touch {
           font-size: 12px;
-        }
-      }
-      .other-btn {
-        margin-left: 20px;
-        box-sizing: border-box;
-        box-shadow: none;
-        border: 2px solid rgba(0, 122, 255, 1);
-        color: #007AFF;
-        background: transparent;
-        @include touch {
-          font-size: 12px;
-          margin-left: 10px;
         }
       }
       @include touch {
@@ -205,6 +233,67 @@
           font-size: 24px;
           line-height: 34px;
           margin-bottom: 25px;
+        }
+      }
+    }
+  }
+  .steps{
+    .title{
+      padding-top: 80px;
+      text-align: center;
+    }
+    height: 700px;
+    background-color: $common-bg-color;
+
+    $dot-size: 3rem;
+    $dot-gap: 0.5;
+    .timeline {
+      min-height: 500px;
+      @include mobile {
+        min-height: 280px;
+      }
+      overflow-x: scroll;
+      scroll-behavior: smooth;
+      ul {
+        padding-top: 150px;
+        @include mobile {
+          padding-top: 70px;
+        }
+        & li:first-child {
+          min-width: 180px;
+          &::after{
+            background: no-repeat url("~assets/images/airdrop/1.svg");
+          }
+        }
+        & li:nth-child(2) {
+          min-width: 180px;
+          &::after{
+            background: no-repeat url("~assets/images/airdrop/2.svg");
+          }
+        }
+        & li:last-child {
+          min-width: 180px;
+          border-right: none;
+          &::after {
+            background: no-repeat url("~assets/images/airdrop/3.svg");
+          }
+        }
+        li {
+          list-style-type: none;
+          position: relative;
+          min-width: 180px;
+          margin: 0 auto;
+          border-top: 2px solid $timelineColor;
+          &::after {
+            content: "";
+            position: absolute;
+            left: 100%;
+            transform: translateX(-50%);
+            width: 1.75rem;
+            height: 1.75rem;
+            border-radius: 50%;
+            top: -($dot-size * ((1 - $dot-gap) / 2));
+          }
         }
       }
     }

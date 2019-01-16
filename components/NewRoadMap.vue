@@ -127,7 +127,7 @@ export default {
 
 section {
   height: 700px;
-  background: #f6fbff;
+  background: $common-bg-color;
   @include mobile {
     height: 360px;
   }
@@ -138,7 +138,6 @@ section {
       padding-top: 30px;
     }
   }
-  $timelineColor: #007aff;
   $dot-size: 1.5rem;
   $dot-gap: 0.5;
   $dot-size-inner: 0.75rem;
