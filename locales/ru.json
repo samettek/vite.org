@@ -35,11 +35,11 @@
         "faq": "FAQ",
         "about": "О НАС",
         "wiki": "WIKI",
-        "superNodes": "Руководство для SBP (Snapshot Block Producer)",
+        "superNodes": "Руководство для SBP (Производитель Снимков Блоков)",
         "nodeList": "SBP Кандидаты",
         "notice": {
             "name": "СУПЕРНОДЫ",
-            "specific": "Guide for SBP (Snapshot Block Producer)",
+            "specific": "Руководство для SBP (Производитель Снимков Блоков)",
             "apply": "Apply for SBP (Snapshot Block Producer) "
         }
     },
