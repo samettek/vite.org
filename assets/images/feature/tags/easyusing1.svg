@@ -1,36 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="215px" height="222px" viewBox="0 0 215 222" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
-    <title>命名服务</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <linearGradient x1="11.3958739%" y1="0%" x2="89.8897258%" y2="89.5095885%" id="linearGradient-1">
-            <stop stop-color="#6FBFFF" offset="0%"></stop>
-            <stop stop-color="#3DA0FF" offset="44.8549411%"></stop>
-            <stop stop-color="#007AFF" offset="100%"></stop>
-        </linearGradient>
-    </defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="弹窗" transform="translate(-184.000000, -1043.000000)">
-            <g id="Group-7" transform="translate(184.000000, 1038.000000)">
-                <text id="*-VNS:-Vite-Name-Ser" font-family="PingFang-SC-Regular, PingFang SC" font-size="16" font-weight="normal" fill="#919AA3">
-                    <tspan x="14" y="226">* VNS: Vite Name Service</tspan>
-                </text>
-                <g id="Group-64" transform="translate(38.000000, 73.000000)">
-                    <rect id="Rectangle" fill="url(#linearGradient-1)" x="0" y="0" width="140" height="48"></rect>
-                    <text id="VNS" font-family="PingFangSC-Semibold, PingFang SC" font-size="18" font-weight="500" fill="#FFFFFF">
-                        <tspan x="52" y="31">VNS</tspan>
-                    </text>
-                </g>
-                <text id="vite_413b8ad9...-..." font-family="PingFangSC-Semibold, PingFang SC" font-size="16" font-weight="500" fill="#007AFF">
-                    <tspan x="0.328" y="188">vite_413b8ad9... ...b778a945</tspan>
-                </text>
-                <text id="vite.mycontract" font-family="PingFangSC-Semibold, PingFang SC" font-size="16" font-weight="500" fill="#1B4366">
-                    <tspan x="49.056" y="17">vite.mycontract</tspan>
-                </text>
-                <path d="M114.470655,47.6722054 L114.470655,58 L101.7,58 L101.7,47.6722054 L99,47.6722054 L108.047404,38 L117,47.6722054 L114.470655,47.6722054 Z" id="Combined-Shape-Copy-6" fill="#007AFF" transform="translate(108.000000, 48.000000) scale(1, -1) translate(-108.000000, -48.000000) "></path>
-                <path d="M114.470655,143.672205 L114.470655,154 L101.7,154 L101.7,143.672205 L99,143.672205 L108.047404,134 L117,143.672205 L114.470655,143.672205 Z" id="Combined-Shape-Copy-14" fill="#007AFF" transform="translate(108.000000, 144.000000) scale(1, -1) translate(-108.000000, -144.000000) "></path>
-            </g>
-        </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="215" height="222" viewBox="0 0 215 222">
+  <defs>
+    <linearGradient id="命名服务-a" x1="11.396%" x2="89.89%" y1="0%" y2="89.51%">
+      <stop offset="0%" stop-color="#6FBFFF"/>
+      <stop offset="44.855%" stop-color="#3DA0FF"/>
+      <stop offset="100%" stop-color="#007AFF"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(0 -5)">
+    <text fill="#919AA3" font-family="PingFang-SC-Regular, PingFang SC" font-size="16">
+      <tspan x="8" y="222">* VNS: Vite Naming Service</tspan>
+    </text>
+    <g transform="translate(38 73)">
+      <rect width="140" height="48" fill="url(#命名服务-a)"/>
+      <text fill="#FFF" font-family="PingFangSC-Semibold, PingFang SC" font-size="18" font-weight="500">
+        <tspan x="52" y="31">VNS</tspan>
+      </text>
     </g>
+    <text fill="#007AFF" font-family="PingFangSC-Semibold, PingFang SC" font-size="16" font-weight="500">
+      <tspan x=".328" y="188">vite_413b8ad9... ...b778a945</tspan>
+    </text>
+    <text fill="#1B4366" font-family="PingFangSC-Semibold, PingFang SC" font-size="16" font-weight="500">
+      <tspan x="49.056" y="17">vite.mycontract</tspan>
+    </text>
+    <path fill="#007AFF" d="M114.470655,47.6722054 L114.470655,58 L101.7,58 L101.7,47.6722054 L99,47.6722054 L108.047404,38 L117,47.6722054 L114.470655,47.6722054 Z" transform="matrix(1 0 0 -1 0 96)"/>
+    <path fill="#007AFF" d="M114.470655,143.672205 L114.470655,154 L101.7,154 L101.7,143.672205 L99,143.672205 L108.047404,134 L117,143.672205 L114.470655,143.672205 Z" transform="matrix(1 0 0 -1 0 288)"/>
+  </g>
 </svg>
