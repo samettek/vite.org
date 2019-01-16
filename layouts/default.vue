@@ -332,6 +332,27 @@ export default {
   background: no-repeat url("~assets/images/bg/partnership/topleft.svg") -8% 2%,
     no-repeat url("~assets/images/bg/community/rightbottom.svg") 110% 95%;
 }
+.is-airdrop-page {
+  margin-top: 0;
+  background: no-repeat url("~assets/images/bg/index/topright3.svg") 100% 0%,
+  no-repeat url("~assets/images/bg/index/topleft1.svg") -1% 9%,
+  no-repeat url("~assets/images/bg/index/topleft2.svg") 0% 3%,
+  no-repeat url("~assets/images/bg/index/topleft3.svg") 0% 8%,
+  no-repeat url("~assets/images/bg/index/topright1.svg") 90% 9%,
+  no-repeat url("~assets/images/bg/index/topright2.svg") 110% 6%/ 900px 1000px,
+  no-repeat url("~assets/images/bg/index/rightbottom.svg") 125% 97%/620px
+  526px;
+
+  @include touch {
+    background: no-repeat url("~assets/images/bg/index/topright3.svg") 150% 0%,
+    no-repeat url("~assets/images/bg/index/topright1.svg") 90% 11%/ 230px 230px;
+  }
+  @include mobile {
+    background: no-repeat url("~assets/images/bg/index/topright3.svg") 100% 0%,
+    no-repeat url("~assets/images/bg/index/topleft3.svg") -1% 5%;
+    background-size: 60%;
+  }
+}
 .airdrop-hide{
   display: none;
 }

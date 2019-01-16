@@ -64,6 +64,17 @@
         margin-top: 60px;
         margin-bottom: 80px;
       }
+
+      .slogan-wrapper {
+        margin-top: 212px;
+        max-width: 590px;
+        @include touch {
+          max-width: unset;
+        }
+        @include mobile {
+          margin-top: 0;
+        }
+      }
     }
 
     .btn-group-wrapper {
