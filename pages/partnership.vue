@@ -102,6 +102,9 @@ export default {
         }
       }
     }
+    @include touch {
+      min-width: 312px;
+    }
   }
 }
 </style>

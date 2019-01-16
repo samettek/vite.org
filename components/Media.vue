@@ -72,6 +72,7 @@
       .dropdown-content {
         .dropdown-item {
           color: $common-text-color;
+          font-size: 14px;
           &:hover {
             color: $common-active-color
           }

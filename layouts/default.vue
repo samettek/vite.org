@@ -433,7 +433,6 @@ export default {
 
     .nav-item {
       padding: 11px 16px;
-      font-size: 14px;
     }
 
     .navbar-menu {

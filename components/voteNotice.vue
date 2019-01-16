@@ -25,7 +25,7 @@
   import config from '~/config'
 
   export default {
-          props: {
+    props: {
       isFooter: {
         type: Boolean,
         default: false

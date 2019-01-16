@@ -211,11 +211,12 @@ export default {
       color: white;
       background: #007aff;
       @include touch {
+        width: 100px;
         font-size: 12px;
       }
     }
     .other-btn {
-      margin-left: 20px;
+      margin:2px 0 0 20px;
       box-sizing: border-box;
       box-shadow:none;
       border:2px solid rgba(0,122,255,1);
