@@ -7,7 +7,7 @@
             "index": "Vite - Высокопроизводительная Децентрализованная Экосистема",
             "careers": "Добро пожаловать в нашу Vitelabs, Давайте создадим Новое Поколение Высокопроизводительной Децентрализованной Платформы Приложений",
             "faq": "Все о часто задаваемых вопросах Vite",
-            "technology": "Ключевые технологии Vite: DAG 、 Цепь Моментальных снимков 、 Асинхронная Архитектура 、 Контракт с повторным использованием 、 Лизинг квот 、 Интегрированный Loopring 、 Планирование по таймеру 、 Обновление контракта 、 solidity ++"
+            "technology": "Ключевые технологии Vite: DAG、 Цепь Snapshot 、 Асинхронная Архитектура 、 Контракт с повторным использованием 、 Лизинг квот 、 Интегрированный Loopring 、 Планирование по таймеру 、 Обновление контракта 、 solidity ++"
         }
     },
     "exchange": {
@@ -40,24 +40,24 @@
         "notice": {
             "name": "СУПЕРНОДЫ",
             "specific": "Руководство для SBP (Производитель Снимков Блоков)",
-            "apply": "Apply for SBP (Snapshot Block Producer) "
+            "apply": "Подать заявку на SBP (Snapshot Block Producer) "
         }
     },
     "about": {
         "whitepaper": "White Paper",
-        "blog": "Blog"
+        "blog": "Блог"
     },
     "home": {
-        "explorer": "Explorer",
-        "webWallet": "Web Wallet",
+        "explorer": "Обозреватель",
+        "webWallet": "Веб Кошелёк",
         "wallet": {
-            "name": "Vite App",
-            "en": "Outside China Mainland",
-            "zh": "China Mainland"
+            "name": "Приложение Vite",
+            "en": "За пределами материкового Китая",
+            "zh": "Материковая часть Китая"
         },
         "header": "Vite",
-        "slogan": "High-Performance Decentralized Ecosystem",
-        "whitePaper": "White Paper",
+        "slogan": "Высокопроизводительная Децентрализованная Экосистема",
+        "whitePaper": "Белая бумага",
         "testnet": "TestNet",
         "acttext": "Vote for Supernode Operators </br> Get Awarded VITE!",
         "actwait": "Stay tuned!",
