@@ -7,7 +7,7 @@
             "index": "Vite - Высокопроизводительная Децентрализованная Экосистема",
             "careers": "Добро пожаловать в нашу Vitelabs, Давайте создадим Новое Поколение Высокопроизводительной Децентрализованной Платформы Приложений",
             "faq": "Все о часто задаваемых вопросах Vite",
-            "technology": "The key technologies of Vite: DAG、Snapshot Chain、Asynchronous Architecture、Reactive Contract、Quota leasing、Loopring Integrated、Timer scheduling、Contract Upgrade、solidity++"
+            "technology": "Ключевые технологии Vite: DAG 、 Цепь Моментальных снимков 、 Асинхронная Архитектура 、 Контракт с повторным использованием 、 Лизинг квот 、 Интегрированный Loopring 、 Планирование по таймеру 、 Обновление контракта 、 solidity ++"
         }
     },
     "exchange": {
@@ -15,17 +15,17 @@
         "bittrex": "BITTREX"
     },
     "community": {
-        "title": "Community",
-        "star": "Community Star"
+        "title": "Сообщество",
+        "star": "Звезда Сообщества"
     },
     "media": {
         "medium": "Medium",
         "bitcointalk": "Bitcointalk",
-        "blog": "Technology Blog",
-        "forum": "Forum"
+        "blog": "Блог",
+        "forum": "Форум"
     },
     "nav": {
-        "index": "HOME",
+        "index": "ГЛАВНАЯ",
         "production": "PRODUCTS",
         "team": "TEAM",
         "partnership": "PARTNERSHIPS",
