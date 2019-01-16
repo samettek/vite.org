@@ -1,5 +1,5 @@
 {
-    "lang": "EN",
+    "lang": "FR",
     "head": {
         "title": "Vite - High-Performance Decentralized Ecosystem",
         "document": "Document",
@@ -15,23 +15,23 @@
         "bittrex": "BITTREX"
     },
     "community": {
-        "title": "Community",
-        "star": "Community Star"
+        "title": "Communauté",
+        "star": "Star de la communauté"
     },
     "media": {
         "medium": "Medium",
         "bitcointalk": "Bitcointalk",
-        "blog": "Technology Blog",
+        "blog": "Blog de technologie",
         "forum": "Forum"
     },
     "nav": {
-        "index": "HOME",
-        "production": "PRODUCTS",
-        "team": "TEAM",
-        "partnership": "PARTNERSHIPS",
-        "community": "COMMUNITY",
-        "exchange": "EXCHANGES",
-        "media": "MEDIA",
+        "index": "ACCUEIL",
+        "production": "PRODUITS",
+        "team": "ÉQUIPE",
+        "partnership": "PARTENARIATS",
+        "community": "COMMUNAUTÉ",
+        "exchange": "ÉCHANGES",
+        "media": "MEDIAS",
         "faq": "FAQ",
         "about": "ABOUT",
         "wiki": "WIKI",
@@ -65,17 +65,17 @@
         "starttoUse": "Get Started with Vite"
     },
     "roadmap": {
-        "title": "Roadmap",
+        "title": "Feuille de route",
         "timelines": [
             {
-                "time": "February 2018",
-                "description": "Project Initiation"
+                "time": "Février 2018",
+                "description": "Lancement du projet"
             },
             {
-                "time": "April 2018",
+                "time": "Avril 2018",
                 "description": [
                     {
-                        "text": "White Paper Completion",
+                        "text": "Achèvement du livre blanc",
                         "url": "https://www.vite.org/whitepaper/vite_en.pdf"
                     }
                 ]
