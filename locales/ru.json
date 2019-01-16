@@ -92,38 +92,38 @@
                 "time": "Июнь 2018",
                 "description": [
                     "R&D Команда",
-                    "Core Technology Development"
+                    "Развитие Основных Технологий"
                 ]
             },
             {
-                "time": "August 2018",
+                "time": "Август 2018",
                 "description": " go-vite 0.1"
             },
             {
-                "time": "September 2018",
+                "time": "Сентябрь 2018",
                 "description": [
                     {
-                        "text": "Web Wallet",
+                        "text": "Веб Кошелёк",
                         "url": "https://wallet.vite.net/"
                     },
-                    "iOS Wallet",
+                    "iOS Кошелёк",
                     {
-                        "text": "Block Explorer",
+                        "text": "Обозреватель Блоков",
                         "url": "https://explorer.vite.net/"
                     }
                 ]
             },
             {
-                "time": "October 2018",
+                "time": "Октябрь 2018",
                 "description": [
                     {
-                        "text": "Conversion of ERC20 VITE into VITE (56% of total token supply)",
-                        "url": "https://medium.com/vitelabs/testnet-an-update-erc20-token-migration-guide-7c200bef7337"
+                        "text": "Преобразование ERC20 VITE в VITE (56% от общей поставки токенов)",
+                        "url": "https://medium.com/@Enthusiast1/testnet-обновление-руководство-по-миграции-токенов-erc20-63c629571cf9"
                     }
                 ]
             },
             {
-                "time": "November 2018",
+                "time": "Ноябрь 2018",
                 "description": [
                     "Vite TestNet 1.0.0",
                     {
