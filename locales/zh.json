@@ -11,7 +11,8 @@
         }
     },
     "exchange": {
-        "okex": "OKEX.COM"
+        "okex": "OKEX.COM",
+        "bittrex": "BITTREX"
     },
     "media": {
         "medium": "Medium",
@@ -953,7 +954,7 @@
             {
                 "question": "VITE上了哪些交易所？",
                 "answer": [
-                    "目前在OKEX可以交易VITE，我们正在接触其他交易所，敬请期待。"
+                    "目前，在BITTREX和OKEX上可以交易VITE；同时我们也在接触其他交易所，敬请期待。"
                 ]
             },
             {
