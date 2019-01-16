@@ -260,19 +260,18 @@
           padding-top: 70px;
         }
         & li:first-child {
-          min-width: 180px;
           &::after{
             background: no-repeat url("~assets/images/airdrop/1.svg");
           }
         }
         & li:nth-child(2) {
-          min-width: 180px;
+          min-width: 300px;
           &::after{
             background: no-repeat url("~assets/images/airdrop/2.svg");
           }
         }
         & li:last-child {
-          min-width: 180px;
+          border: 0;
           border-right: none;
           &::after {
             background: no-repeat url("~assets/images/airdrop/3.svg");
@@ -281,18 +280,28 @@
         li {
           list-style-type: none;
           position: relative;
-          min-width: 180px;
-          margin: 0 auto;
+          left: 26%;
+          min-width: 300px;
+          margin: 0;
           border-top: 2px solid $timelineColor;
           &::after {
             content: "";
             position: absolute;
-            left: 100%;
-            transform: translateX(-50%);
+            left: 68%;
+            transform: translateX(-800%);
             width: 1.75rem;
             height: 1.75rem;
             border-radius: 50%;
             top: -($dot-size * ((1 - $dot-gap) / 2));
+          }
+        }
+        .desc-wrapper {
+          position: relative;
+          .top {
+
+          }
+          .desc {
+
           }
         }
       }
