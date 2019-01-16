@@ -59,39 +59,39 @@
         "slogan": "Высокопроизводительная Децентрализованная Экосистема",
         "whitePaper": "Белая бумага",
         "testnet": "TestNet",
-        "acttext": "Vote for Supernode Operators </br> Get Awarded VITE!",
-        "actwait": "Stay tuned!",
-        "news": "Latest News",
-        "starttoUse": "Get Started with Vite"
+        "acttext": "Голосуйте за Операторов Супернод</br> Получайте награду в VITE!",
+        "actwait": "Будьте в курсе!",
+        "news": "Последние Новости",
+        "starttoUse": "Начните с Vite"
     },
     "roadmap": {
-        "title": "Roadmap",
+        "title": "Дорожная карта",
         "timelines": [
             {
-                "time": "February 2018",
-                "description": "Project Initiation"
+                "time": "Февраль 2018",
+                "description": "Инициирование проекта"
             },
             {
-                "time": "April 2018",
+                "time": "Апрель 2018",
                 "description": [
                     {
-                        "text": "White Paper Completion",
-                        "url": "https://www.vite.org/whitepaper/vite_en.pdf"
+                        "text": "Завершение Белой Бумаги",
+                        "url": "https://www.vite.org/whitepaper/vite_russian.pdf"
                     }
                 ]
             },
             {
-                "time": "May 2018",
+                "time": "Май 2018",
                 "description": [
-                    "Private Sale Fundraise",
-                    "Official Website",
-                    "Founding Team"
+                    "Приватная Продажа Сбор средств",
+                    "Официальный Веб-сайт",
+                    "Основание Команды"
                 ]
             },
             {
-                "time": "June 2018",
+                "time": "Июнь 2018",
                 "description": [
-                    "R&D Team",
+                    "R&D Команда",
                     "Core Technology Development"
                 ]
             },
