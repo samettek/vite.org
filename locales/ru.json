@@ -165,18 +165,18 @@
                 "time": "2 квартал 2019 года",
                 "description": [
                     "Оптимизация Производительности",
-                    "Timer-Triggered Smart Contract Scheduler",
-                    "Naming Service for Addresses",
-                    "Smart Contract Upgrades"
+                    "Планировщик Cмарт Контракта С Таймером",
+                    "Служба Именования Адресов",
+                    "Обновления Смарт Контракта"
                 ]
             },
             {
-                "time": "Q3 2019",
+                "time": "3 квартал 2019 года",
                 "description": [
-                    "MainNet Release",
-                    "dApps (supported by mobile client application)",
-                    "Stable Coin Issuance on DEX",
-                    "Payment Fulfilment"
+                    "Выпуск MainNet",
+                    "dApps (поддерживается мобильным клиентским приложением)",
+                    "Выпуск Стабильной Монеты на DEX",
+                    "Выполнение Платежа"
                 ]
             },
             {
