@@ -204,7 +204,7 @@
             },
             {
                 "key": "location",
-                "title": "Service Location"
+                "title": "Server Location"
             },
             {
                 "key": "plan",
@@ -1124,7 +1124,7 @@
     "ecoTitle2": "What Vite Can Do For You",
     "eco": {
         "worth": {
-            "title": "Features",
+            "title": "Ecosystem of Value",
             "pay": {
                 "title": "Payment",
                 "child": [
@@ -1150,7 +1150,7 @@
             }
         },
         "dapps": {
-            "title": "dApps",
+            "title": "Ecosystem of dApps",
             "child": [
                 "Games",
                 "Local Services",
