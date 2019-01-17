@@ -17,7 +17,7 @@
                   offset="16"
                   placement="bottom-center"
                   popoverClass="v-popover"
-                  trigger="true">
+                  trigger="hover">
                   <div class="pop-btn">{{$t('airdrop.btn1')}}</div>
                   <template slot="popover">
                     <div class="wallet-app-container">
@@ -278,7 +278,8 @@
         min-height: 280px;
       }
       .step-title{
-        font: $font-family-title 24px;
+        font-family: $font-family-title;
+        font-size: 24px;
         color: $common-active-color;
       }
       ul {
@@ -307,14 +308,14 @@
         li {
           list-style-type: none;
           position: relative;
-          left: 24%;
+          left: 18%;
           min-width: 300px;
           margin: 0;
           border-top: 2px solid $timelineColor;
           &::after {
             content: "";
             position: absolute;
-            left: 68%;
+            left: 73%;
             transform: translateX(-800%);
             width: 1.75rem;
             height: 1.75rem;
@@ -324,28 +325,50 @@
         }
         .desc-wrapper {
           position: relative;
+          top: 10%;
+          left: -20%;
+          margin-right: 30px;
           font-family: $font-family-title;
           color: #171C34;
+          .image{
+            margin:-7% 0 0 -8%;
+            &:first-child{
+              margin-left: -10%;
+            }
+          }
           .text{
+            max-width: 200px;
+            min-height: 64px;
             font-size: 14px;
+            padding-bottom: 20px;
           }
           .nums{
+            font-size: 16px;
             color: $common-active-color;
           }
           .check-btn{
-            padding-top: 10px;
             font-size: 12px;
           }
           .top {
             position: absolute;
-            top: -42%;
-            right: 79%;
-            min-width: 140px;
-            max-height: 82px;
+            top: -60%;
+            right: 30%;
+            min-width: 250px;
+            max-height: 120px;
             padding: 20px 8px;
             text-align: center;
             box-shadow: 0 -5px 30px 0 rgba(126, 183, 238, 0.83);
             background-color: #ffffff;
+            &::after{
+              content: ' ';
+              display: inline-block;
+              border: 6px solid transparent;
+              border-top: 6px solid #ffffff;
+              position: absolute;
+              bottom: -12px;
+              left: 50%;
+              margin-left: -6px;
+            }
           }
           .desc {
 
