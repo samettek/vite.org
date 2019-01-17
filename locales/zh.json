@@ -1293,8 +1293,9 @@
     "step": "躺赢两步走：",
     "step1": "下载Vite App领空投",
     "step2": "使用App投票SBP",
-    "step3": "每天瓜分 {vite} 奖励",
-    "annual": "年化收益高达 {rate}",
+    "step3f": "每天瓜分 ",
+    "step3e": " 奖励",
+    "annual": "年化收益高达",
     "btn1": "下载 Vite App",
     "btn2": "查看投票奖励"
   }

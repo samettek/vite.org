@@ -15,8 +15,9 @@
               <div class="btn-group-wrapper">
                 <v-popover
                   offset="16"
+                  placement="bottom-center"
                   popoverClass="v-popover"
-                  trigger="hover">
+                  trigger="true">
                   <div class="pop-btn">{{$t('airdrop.btn1')}}</div>
                   <template slot="popover">
                     <div class="wallet-app-container">
@@ -36,28 +37,35 @@
       <div class="container">
         <h1 class="title">{{ $t('airdrop.title2' ) }}</h1>
         <div class="timeline">
-          <div> {{ $t('airdrop.step') }} </div>
+          <div class="step-title"> {{ $t('airdrop.step') }} </div>
           <ul class="is-flex">
             <li>
               <div class="desc-wrapper">
-                <div> {{ $t('airdrop.step1') }} </div>
+                <div class="text"> {{ $t('airdrop.step1') }} </div>
                 <img :src="step1Pic" class="image"/>
               </div>
             </li>
             <li>
               <div class="desc-wrapper">
-                <div> {{ $t('airdrop.step2') }} </div>
+                <div class="text"> {{ $t('airdrop.step2') }} </div>
                 <img :src="step2Pic" class="image"/>
               </div>
             </li>
             <li>
               <div class="desc-wrapper">
                 <div class="top">
-                  <div>{{ $t('airdrop.annual', {rate}) }}</div>
-                  <div>{{ $t('airdrop.btn2') }}</div>
+                  <div class="text">{{ $t('airdrop.annual') }} <span class="nums">20%</span></div>
+                  <div class="check-btn">
+                    <a href=""
+                       target="_blank"
+                    >
+                      {{ $t('airdrop.btn2') }}
+                    </a>
+                  </div>
                 </div>
+                <div class="triangle"></div>
                 <div class="desc">
-                  <div> {{$t('airdrop.step3', {vite}) }} </div>
+                  <div class="text"> {{$t('airdrop.step3f') }} <span class="nums">8000+ VITE</span> {{$t('airdrop.step3e') }}</div>
                   <img :src="step3Pic" class="image"/>
                 </div>
 
@@ -86,9 +94,7 @@
         rightPic: require('~/assets/images/airdrop/right.png'),
         step1Pic: require('~/assets/images/airdrop/step1.png'),
         step2Pic: require('~/assets/images/airdrop/step2.png'),
-        step3Pic: require('~/assets/images/airdrop/step3.png'),
-        rate: '20%',
-        vite: '8000+ VITE',
+        step3Pic: require('~/assets/images/airdrop/step3.png')
       }
     },
     methods: {}
@@ -97,6 +103,25 @@
 
 <style rel="stylesheet/scss" lang="scss" scoped>
   @import "~assets/vars";
+
+  .wallet-app-container {
+    display: flex;
+    display: -webkit-flex;
+    padding: 0;
+    background: #ffffff;
+    font-size: 14px;
+    color: #5e6875;
+    letter-spacing: 0;
+    text-align: center;
+    .wallet-app {
+      width: 120px;
+      height: 120px;
+    }
+    .wallet-item + .wallet-item{
+      margin-left: 20px;
+    }
+
+  }
 
   .airdrop {
     height: 700px;
@@ -111,9 +136,9 @@
       }
 
       .slogan-wrapper {
-        max-width: 490px;
+        max-width: 500px;
         ul{
-          list-style: disc outside $common-active-color;
+          list-style: disc $common-active-color;
         }
         @include touch {
           max-width: unset;
@@ -141,7 +166,7 @@
         height: 60px;
         line-height: 60px;
         color: white;
-        background: #007aff;
+        background: $common-active-color;
         @include touch {
           font-size: 12px;
         }
@@ -252,8 +277,10 @@
       @include mobile {
         min-height: 280px;
       }
-      overflow-x: scroll;
-      scroll-behavior: smooth;
+      .step-title{
+        font: $font-family-title 24px;
+        color: $common-active-color;
+      }
       ul {
         padding-top: 150px;
         @include mobile {
@@ -280,7 +307,7 @@
         li {
           list-style-type: none;
           position: relative;
-          left: 26%;
+          left: 24%;
           min-width: 300px;
           margin: 0;
           border-top: 2px solid $timelineColor;
@@ -297,8 +324,28 @@
         }
         .desc-wrapper {
           position: relative;
+          font-family: $font-family-title;
+          color: #171C34;
+          .text{
+            font-size: 14px;
+          }
+          .nums{
+            color: $common-active-color;
+          }
+          .check-btn{
+            padding-top: 10px;
+            font-size: 12px;
+          }
           .top {
-
+            position: absolute;
+            top: -42%;
+            right: 79%;
+            min-width: 140px;
+            max-height: 82px;
+            padding: 20px 8px;
+            text-align: center;
+            box-shadow: 0 -5px 30px 0 rgba(126, 183, 238, 0.83);
+            background-color: #ffffff;
           }
           .desc {
 

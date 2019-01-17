@@ -209,7 +209,7 @@ export default {
       height: 60px;
       line-height: 60px;
       color: white;
-      background: #007aff;
+      background: $common-active-color;
       @include touch {
         width: 100px;
         font-size: 12px;
@@ -220,7 +220,7 @@ export default {
       box-sizing: border-box;
       box-shadow:none;
       border:2px solid rgba(0,122,255,1);
-      color:#007AFF;
+      color:$common-active-color;
       background: transparent;
        @include touch {
         font-size: 12px;

@@ -1162,16 +1162,17 @@
     }
   },
   "airdrop": {
-    "title1": "下载 Vite App 参与空投",
-    "text1": "打开App进入发现模块参与空投",
-    "text2": "做任务提升V Power加速领VITE，最高V Power可每4小时领取一次",
-    "title2": "不止是空投 Vite带你躺赢2019",
-    "step": "躺赢两步走：",
-    "step1": "下载Vite App领空投",
-    "step2": "使用App投票SBP",
-    "step3": "每天瓜分 {vite} 奖励",
-    "annual": "年化收益高达 {rate}",
-    "btn1": "下载 Vite App",
-    "btn2": "查看投票奖励"
+    "title1": "Download Vite App and Participate in Airdrop",
+    "text1": "Open App and enter into Discovery page to join us",
+    "text2": "Complete tasks to raise your V Power to speed up receiving VITE, you can pick up V Power every 4 hours at most",
+    "title2": "Not Just an Airdrop. Vite Will Bring your a Great Fortune in 2019",
+    "step": "Two More Steps to Become a Big Winner: ",
+    "step1": "Download Vite App and Receive Vite Airdrop",
+    "step2": "Vote for SBPs in Vite App",
+    "step3f": "Over",
+    "step3e": "Will be Distributed Everyday",
+    "annual": "Annual Return Rate of an Account can Achieve ",
+    "btn1": "Download Vite App",
+    "btn2": "Check Voting Rewards"
   }
 }
