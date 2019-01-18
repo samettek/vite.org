@@ -522,39 +522,39 @@
                     "Georgy Yakovlev, nhà phát triển front-end, Budva, Montenegro",
                     "Artem Potapov, Quản trị viên hệ thống, Saint-Petersburg, Nga",
                     "Igor Peskov, nhà phân tích tài chính, Moscow, Nga",
-                    "Usanov Alexei, media relations, Kiev, Ukraine"
+                    "Usanov Alexei, quan hệ truyền thông, Kiev, Ukraine"
                 ],
                 "config": [
-                    "RAM 192 GB, 32 CPUs, SSD 3.75 TB, 100Mbps bandwidth"
+                    "RAM 192 GB, 32 CPUs, SSD 3.75 TB, 100Mbps"
                 ],
                 "location": [
-                    "Amsterdam, Netherlands"
+                    "Amsterdam, Hà Lan"
                 ],
                 "plan": [
-                    "We have a strong network. We are in contact with several projects and startups. Some of them are searching for suitable to their dapps ecosystem. We are friends with Belarus blockchain association. Quite often we participate in the blockchain conferences. We plan to showcase people Vite blockchain, explain why it is better than the others and help to migrate their project or understand how to do this."
+                    "Chúng tôi có một mạng lưới mạnh mẽ. Chúng tôi đang liên hệ với một số dự án và startup. Một số trong số họ đang tìm kiếm hệ sinh thái phù hợp cho dApps của họ. Chúng tôi là đối tác với hiệp hội blockchain Belarus. Thường xuyên tham gia vào các hội nghị blockchain, chúng tôi dự định giới thiệu cho mọi người Vite blockchain, giải thích lý do tại sao nó tốt hơn những public chain khác và giúp di chuyển dự án của họ hoặc hiểu cách thực hiện điều này."
                 ],
                 "medium": [
-                    "We have 2 big social media: Telegram channel (https://t.me/ICOFanatics) and Twitter (https://twitter.com/icofanatics). Where we follow the projects we like and share news with our community. Of course, we will provide a media coverage to all news and events about Vite"
+                    "Chúng tôi có 2 phương tiện truyền thông xã hội lớn: kênh Telegram (https://t.me/ICOFanatics) và Twitter (https://twitter.com/icofanatics). Đây là nơi chúng tôi theo dõi các dự án mà chúng tôi  yêu thích và chia sẻ tin tức với cộng đồng của chúng tôi. Tất nhiên, chúng tôi sẽ cung cấp một phương tiện truyền thông cho tất cả các tin tức và sự kiện về Vite."
                 ],
-                "name": "Belsona Investment Group LP",
-                "description": "In VITE we trust"
+                "name": "Tập đoàn đầu tư Belsona LP",
+                "description": "Chúng tôi tin vào VITE"
             }
         }
     },
     "team": {
-        "core": "Team",
-        "advisor": "Advisors",
-        "join": "Join Us",
+        "core": "Đội ngũ",
+        "advisor": "Cố vấn",
+        "join": "Tham gia cùng chúng tôi",
         "nameMap": {
             "liuchunming": {
                 "name": "Charles Liu",
-                "job": "CEO",
-                "position": "Beijing",
-                "description": "Veteran Blockchain Entrepreneur and Technical Expert. Standing Director at Blockchain Application Research Center of  China. Graduated from University of Science and Technology of China and the Institute of Software. Chinese Academy of Sciences. Former Senior Architect of JD.com. Co-founder of Coinport. Engineering Director of Meituan Dianping. Extensive experience with distributed systems and high concurrency systems."
+                "job": "Giám đốc điều hành",
+                "position": "Bắc Kinh",
+                "description": "Chuyên gia kĩ thuật và doanh nghiệp Blockchain đời đầu. Hiện là giám đốc Trung tâm nghiên cứu ứng dụng Blockchain của Trung Quốc. Tốt nghiệp trường Đại học Khoa học và Công nghệ Trung Quốc và Viện Phần mềm, Viện Hàn lâm Khoa học Trung Quốc. Từng là kiến trúc sư cao cấp của JD.com. Đồng sáng lập của Coinport. Giám đốc kỹ thuật Meituan Dianping. Có kinh nghiệm chuyên sâu với các hệ thống phân phối và các hệ thống đồng thời cao."
             },
             "wangdong": {
                 "name": "Daniel Wong",
-                "position": "Beijing",
+                "position": "Bắc Kinh",
                 "description": "Seasoned blockchain entrepreneur.  Graduated from China University of Science and Technology and Arizona State University.  Founder of Loopring, former Google America Tech Lead, Co-founder and VP of Yun Yun Wang, Senior Research and Development Director at JD.com, and Co-Founder of Coinport."
             },
             "terenceLam": {
