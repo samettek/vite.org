@@ -703,22 +703,22 @@
                 "description": "Shan có hơn 3 năm kinh nghiệm trong phát triển IT. Trước đây anh từng làm việc cho một công ty IT nổi tiếng tại Trung Quốc."
             },
             "Ada": {
-                "name": "Ada Zhu",
-                "job": "Senior Researcher",
-                "position": "Beijing",
-                "description": "AAda has previously worked in Tencent and JD and has over 5 years of experience in Machine Learning Algorithm Development and Big Data analytics."
+                "name": "Ada chu",
+                "job": "Nghiên cứu viên cao cấp",
+                "position": "Bắc Kinh",
+                "description": "Ada đã từng làm việc ở Tencent và JD; có trên 5 năm kinh nghiệm trong Phân tích Phát triển Thuật toán học máy và Big data."
             },
             "Jin": {
                 "name": "Jin Ge",
-                "job": "Back-End Developer",
-                "position": "Beijing",
-                "description": "JJin has 3 years of experience working in developing the Chinese Internet finance industry."
+                "job": "Nhà phát triển Back-end",
+                "position": "Bắc Kinh",
+                "description": "Jin đã có 3 năm kinh nghiệm làm việc trong việc phát triển các ngành công nghiệp tài chính Internet tại Trung Quốc."
             },
             "Shenyang": {
                 "name": "Shenyang Hao",
-                "job": "iOS Developer",
-                "position": "Beijing",
-                "description": "Shenyang has over 4 years of experience in iOS development, working for some popular IT companies in China."
+                "job": "Nhà phát triển iOS",
+                "position": "Bắc Kinh",
+                "description": "Stone đã hơn 4 năm kinh nghiệm trong phát triển iOS, từng làm việc cho các công ty IT tại Trung Quốc."
             },
             "Candy": {
                 "name": "Candy",
@@ -795,35 +795,35 @@
             "Flanke": {
                 "name": "Flanke Zhang",
                 "job": "Product Operations",
-                "position": "Beijing",
-                "description": "Flanke has 3 years of experience studying brand operations and has previously worked for iHeima and Xiangshang Finance."
+                "position": "Bắc Kinh",
+                "description": "Flanke có 3 năm kinh nghiệm nghiên cứu hoạt động thương hiệu và trước đây đã từng làm việc cho iHeima và Xiangshang Finance."
             },
             "Erin": {
                 "name": "Erin Yu",
-                "job": "Data Operations",
-                "position": "Beijing",
-                "description": "3 years of experience in operation and risk management, previously worked for Sina Finance and Youfenqi as a data specialist."
+                "job": "Điều hành dữ liệu",
+                "position": "Bắc Kinh",
+                "description": "3 năm kinh nghiệm trong Hoạt động và Quản lý rủi ro, trước đây đã làm việc cho công ty Tài chính Sina và Youfenqi với tư cách là chuyên gia dữ liệu."
             },
             "Hannah": {
                 "name": "Hannah Fong",
-                "job": "QA",
-                "position": "Beijing",
-                "description": "Hannah has 2 years of experience in Development testing, partaking in projects that designed testing frameworks. She also has 2 years of experience in back-end storage system testing and is familiar with the Gluster File System. Hannah has formerly cooperated with military-related enterprises, evoking knowledge on how to manage both data security and encrypted storage fields."
+                "job": "Đảm bảo chất lượng",
+                "position": "Bắc Kinh",
+                "description": "Hannah có 2 năm kinh nghiệm trong thử nghiệm Phát triển, tham gia vào các dự án thiết kế khung thử nghiệm. Cô cũng có 2 năm kinh nghiệm trong việc thử nghiệm hệ thống lưu trữ back-end và quen thuộc với Hệ thống tệp Gluster. Hannah trước đây đã hợp tác với các doanh nghiệp liên quan đến quân sự, gia tăng kiến thức về cách quản lý lĩnh vực bảo mật dữ liệu và lưu trữ mã hóa."
             },
             "Miya": {
                 "name": "Miya",
                 "job": "UI Designer",
-                "position": "Beijing",
-                "description": "Miya has 3 years of experience  working on User Interface design and has participated in several industrial IT projects.Miya formerly worked at a large state-owned enterprise, serving as a Chief Designer."
+                "position": "Bắc Kinh",
+                "description": "Miya có 3 năm kinh nghiệm làm việc về thiết kế Giao diện người dùng và đã tham gia vào một số dự án CNTT. Miya trước đây là Giám đốc thiết kế làm việc tại một doanh nghiệp nhà nước lớn."
             }
         }
     },
     "partnership": {
-        "title": "Partnerships",
-        "contact": "Contact to Seek Cooperation",
+        "title": "Đối tác",
+        "contact": "Liên hệ hợp tác",
         "okex": {
             "desc": {
-                "text1": "Vite Labs announces long-term strategic partnership with OK Blockchain Capital.",
+                "text1": "Vite Labs tuyên bố hợp tác chiến lược lâu dài với OK Blockchain Capital.",
                 "text2": "Vite and OK Capital have decided to enter into the following areas of collaboration: OK Capital has become a major investor in Vite. OK Capital’s research center will undertake an advisory role in Vite’s plan to launch a decentralized exchange based on the Loopring protocol. Vite has positioned its initial commercial uses to be in financial technology, with at least two major projects yet to be announced. OK Capital will provide key insights, relationships and resources on these fronts. Vite Labs’ Silicon Valley office will provide overseas resources for potential project partnerships for OK Capital."
             }
         },
