@@ -274,10 +274,11 @@ export default {
   background-image: url("~assets/images/activity.svg");
   color: white;
   font-family: $font-family-title;
-  font-size: 12px;
-  padding-top: 22px;
+  font-size: 13px;
+  padding-top: 30px;
   .act {
-    margin:10px auto 5px;
+    max-width: 130px;
+    margin:10px;
   }
 }
 .nuxt-content {
