@@ -295,48 +295,48 @@
                     "Создание статей о платформе / экосистеме Vite, предоставление базовые учебных пособий (для новичков, для чтения и изучения), программирование / разработка калькулятора, для того, чтобы показать, сколько избиратель может заработать, просто проголосовав за суперноду Snap Secure, проведение соревнований, чтобы сообщество могло расти / становиться вовлечённым, а также возможность помочь в финансировании разработчиков для создания приложений Vite Dapps или переноса приложений Ethereum Dapps на платформу Vite."
                 ],
                 "name": "SnapSecure",
-                "description": "Securing Vite's Snapshot Chain, One Block At A Time."
+                "description": "Обеспечение цепи Vite Snapshot, Один Блок За Раз."
             },
             "ux": {
                 "info": [
-                    "Vladimir Polishchuk: CTO UIXAgency.com, UIX_LAB, python developer(backend), IT security specialist, MCP, MCTS:Windows Server 2008 Network Infrastructure, Configuration, MCID: 8125056, Linux Administration, Ukraine, Nikolaev ",
-                    "Serhiy Polishchuk: UIXAgency.com Art Lead, 3D-modeling & 3D-sculpting for Gamedev, CGI, Animation, Project Manager, Ukraine, Nikolaev",
-                    "Julia Novak: SMM, Mobile Marketing & Promotion specialist, Mobile Markets analytic"
+                    "Владимир Полищук: технический директор UIXAgency.com, UIX_LAB, разработчик python (бэкэнд), специалист по информационной безопасности, MCP, MCTS: сетевая инфраструктура Windows Server 2008, настройка, MCID: 8125056, администрирование Linux, Украина, Николаев",
+                    "Сергей Полищук: UIXAgency.com Art Lead, 3D-моделирование и 3D-скульптура для Gamedev, CGI, Animation, Менеджер проектов, Украина, Николаев",
+                    "Юлия Новак: SMM, специалист по Мобильному Маркетингу и Продвижению, аналитик Мобильных Рынков"
                 ],
                 "config": [
-                    "HP DL360e, 2 x Xeon E5-2430 v2 @ 2.50GHz, 64 GB RAM, 240GB+2x500GB SSD, HP Smart Array P420i/2GB. 1 Gb/s speed inter&intranet"
+                    "HP DL360e, 2 x Xeon E5-2430 v2, 2,50 ГГц, 64 ГБ ОЗУ, 240 ГБ + 2x500 ГБ SSD, HP Smart Array P420i / 2 ГБ. 1 Гбит / с, скорость внутри сети"
                 ],
                 "location": [
-                    "Ukraine, Nikolaev City"
+                    "Украина, город Николаев"
                 ],
                 "photo": [
 
                 ],
                 "medium": [
-                    "in progress.."
+                    "в ходе выполнения.."
                 ],
                 "plan": [
-                    "General strategy of building community in progress for now, need a few days for introducing it. In plans: - build a new site for SBP (design like https://uixagency.com) - add VITE as payment method for our outsourced projects - we want to create an e-shop of exclusive limited jewellery collection or many, one of this collections could be designed with VITE logo - for example ... this idea is flashing in my mind just now - trying to integrate VITE in mobile games and apps - we have gamedev and appdev departments to our team really likes VITE Platform, that's why we accumulate about 2.5 mil VITE and ready for helping to integrate VITE tokens in our reality :)"
+                    "Общая стратегия построения сообщества находится в стадии разработки, нужно несколько дней для ее внедрения. В планах: - создать новый сайт для SBP (дизайн как https://uixagency.com) - добавить VITE в качестве способа оплаты для наших аутсорсинговых проектов - мы хотим создать интернет-магазин эксклюзивной ограниченной коллекции ювелирных изделий, одна из этих коллекций может быть разработаны с логотипом VITE - например ... эта идея всплывает у меня в голове сейчас - пытаясь интегрировать VITE в мобильные игры и приложения - у нас есть отделы gamedev и appdev, и нашей команде очень нравится платформа VITE, поэтому мы накопили около 2,5 млн. VITE и готовы помочь интегрировать токены VITE в нашу реальность :)"
                 ],
                 "name": "UX SBP",
-                "description": "async equity"
+                "description": "асинхронный капитал"
             },
             "loopring": {
                 "info": [
-                    "Kongliang, Zhong ; ",
-                    "Leila, Lin,Shanghai, China"
+                    "Kongliang, Чжун; ",
+                    "Лейла, Лин, Шанхай, Китай"
                 ],
                 "config": [
-                    "NA"
+                    "Не Доступно"
                 ],
                 "location": [
-                    "Shanghai"
+                    "Шанхай"
                 ],
                 "photo": [
 
                 ],
                 "medium": [
-                    "We have all social media and KOL ready for this campaign."
+                    "У нас есть все социальные сети и KOL, готовые к этой кампании."
                 ],
                 "plan": [
                     "we currently have an over 200K blockchain community. we are planning to promote and advocate Vite in our community."
