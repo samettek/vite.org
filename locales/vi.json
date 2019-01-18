@@ -555,18 +555,18 @@
             "wangdong": {
                 "name": "Daniel Wong",
                 "position": "Bắc Kinh",
-                "description": "Seasoned blockchain entrepreneur.  Graduated from China University of Science and Technology and Arizona State University.  Founder of Loopring, former Google America Tech Lead, Co-founder and VP of Yun Yun Wang, Senior Research and Development Director at JD.com, and Co-Founder of Coinport."
+                "description": "Doanh nhân blockchain dày dạn kinh nghiệm.  Tốt nghiệp trường Đại học Khoa học và Công nghệ Trung Quốc và Đại học bang Arizona.  Người sáng lập của Loopring, cựu lãnh đạo Google America Tech, đồng sáng lập và phó chủ tịch của Yun Yun Wang, Giám đốc nghiên cứu và phát triển cấp cao tại JD.com và đồng sáng lập của Coinport."
             },
             "terenceLam": {
                 "name": "Terence Lam",
-                "position": "Beijing",
-                "description": "Veteran investor.  Graduated from Harvard Business School.  Partner of Zhizi Blockchain Investment Fund.  Adjust professor of SPACE China business school at Hong Kong University.  20+ years’ experience as senior technical manager at Global 500 companies. Started many technology startups."
+                "position": "Bắc Kinh",
+                "description": "Nhà đầu tư từ đời đầu.  Tốt nghiệp trường Kinh doanh Harvard.  Đối tác của quỹ đầu tư Zhizi Blockchain. Giáo sư của trường Kinh doanh SPACE Trung Quốc tại Đại học Hong Kong.  Hơn 20 năm kinh nghiệm quản lý kỹ thuật cấp cao tại các công ty Global 500. Gây dựng nhiều công nghệ startup."
             },
             "richard": {
                 "name": "Richard Yan",
-                "job": "COO",
+                "job": "Đồng sáng lập & Giám đốc điều hành ",
                 "position": "Silicon Valley",
-                "description": "Seasoned Wall Street Professional. Graduated with a B.A. from Dartmouth College and an MBA from New York University. Previously held roles as a Structured Product Trading Strategist at Goldman Sachs and Vice President of Two Sigma's high-frequency platform and Business Innovation & Growth group."
+                "description": "Có kinh nghiệm dày dặn tại Wall Street. Tốt nghiệp bằng Cử nhân trường Đại học Dartmouth và MBA từ Đại học New York. Trước đây có vai trò tổ chức cấu trúc chiến lược sản phẩm thương mại tại Goldman Sachs và là phó chủ tịch của Two Sigma - một nền tảng4 tần số cao và tập đoàn Business Innovation & Growth."
             },
             "frank": {
                 "name": "Frank Deng",
@@ -645,62 +645,62 @@
             "Stone": {
                 "name": "Stone Xia",
                 "job": "iOS Developer",
-                "position": "Beijing",
-                "description": "Stone has over 5 years of experience in iOS development, working with Chinese IT companies in the past."
+                "position": "Bắc Kinh",
+                "description": "Stone đã hơn 5 năm kinh nghiệm trong phát triển iOS, từng làm việc cho các công ty IT Trung Quốc."
             },
             "jerry": {
                 "name": "Jerry Yin",
-                "job": "Back-End Developer",
-                "position": "Beijing",
-                "description": "Jerry has over 5 years of experience in back-end service development, previously working for a select number of Chinese IT firms."
+                "job": "Nhà phát triển Back-end",
+                "position": "Bắc Kinh",
+                "description": "Jerry đã hơn 5 năm kinh nghiệm trong phát triển dịch vụ back-end, trước đây làm việc cho một số công ty IT Trung Quốc có tên tuổi."
             },
             "Alex": {
                 "name": "Alex Hu",
-                "job": "Complier Software Engineer",
-                "position": "Beijing",
-                "description": "Alex has over 3 years of experience in back-end service development. He formerly worked as a back-end engineer for the well-known firm, Baidu."
+                "job": "Kỹ sư phần mềm complier",
+                "position": "Bắc Kinh",
+                "description": "Alex đã hơn 3 năm kinh nghiệm trong phát triển dịch vụ back-end. Trước đây anh từng là kỹ sư back-end cho công ty nổi tiếng - Baidu."
             },
             "Tuprise": {
                 "name": "Tuprise Yuan",
-                "job": "Back-End Developer",
-                "position": "Beijing",
-                "description": "Tuprise has over 7 years of experience in back-end service development and architecture. He worked for a series of notable IT companies, including Yilong and Yaxin. Tuprise is a seasoned developer in Big Data Processing and high concurrency systems."
+                "job": "Nhà phát triển Back-end",
+                "position": "Bắc Kinh",
+                "description": "Tuprise đã có hơn 7 năm kinh nghiệm trong dịch vụ phát triển và kiến trúc back-end. Anh từng làm việc cho chuỗi những công ty nổi tiếng, trong đó có Yilong và Yaxin. Tuprise là một nhà phát triển dày dạn trong xử lý dữ liệu big data  và các hệ thống high concurrency."
             },
             "viteLiz": {
                 "name": "Liz Chen",
-                "job": "VM Developer",
-                "position": "Beijing",
-                "description": "Liz has over 3 years of experience in back-end service development. She formerly worked for a well-known IT company in China."
+                "job": "Nhà phát triển máy ảo",
+                "position": "Bắc Kinh",
+                "description": "Liz đã hơn 3 năm kinh nghiệm trong phát triển dịch vụ back-end. Cô trước đây làm việc cho một công ty IT nổi tiếng tại Trung Quốc."
             },
             "Abbott": {
                 "name": "Abbott Jia",
-                "job": "QA",
-                "position": "Beijing",
-                "description": "Abbott has 4 years of experience working in Quality Assurance. Previously, he was in charge of testing driver-end issues within Meituan's ride-hailing services. Abbott is a seasoned expert in Testing and Risk Management."
+                "job": "Đảm bảo chất lượng",
+                "position": "Bắc Kinh",
+                "description": "Abbott có 4 năm kinh nghiệm làm việc trong bảo đảm chất lượng. Trước đó, anh đã phụ trách kiểm tra driver-end của Meituan. Abbott là một chuyên gia dày dạn trong Thử nghiệm và Quản lý rủi ro."
             },
             "Layla": {
                 "name": "Layla Wong",
-                "position": "Beijing",
+                "position": "Bắc Kinh",
                 "job": "UI Designer",
-                "description": "Layla has 5 years of design experience including brand, app, and website design."
+                "description": "Layla đã có 5 năm kinh nghiệm thiết kế bao gồm thiết kế thương hiệu, ứng dụng và trang web."
             },
             "hubery": {
                 "name": "Hubery Lee",
-                "job": "Back-End Developer",
-                "position": "Beijing",
-                "description": "Hubery is a graduate of Xidian University, with over 5 years of experience in IT development. He previously worked for Tencent and Yuantiku."
+                "job": "Nhà phát triển Back-end",
+                "position": "Bắc Kinh",
+                "description": "Hubery tốt nghiệp trường Đại học Xidian, với hơn 5 năm kinh nghiệm trong phát triển CNTT. Anh từng làm việc cho Tencent và Yuantiku."
             },
             "Cecelia": {
                 "name": "Cecelia Chen",
-                "job": "Front-End Developer",
-                "position": "Beijing",
-                "description": "Cecelia has 3 years of experience in front-end development and she has showcased at notable Chinese firms."
+                "job": "Nhà phát triển Front-end",
+                "position": "Bắc Kinh",
+                "description": "Cecelia có 3 năm kinh nghiệm trong phát triển front-end và cô đã từng làm việc tại một số công ty có tên tuổi tại Trung Quốc."
             },
             "viteshan": {
                 "name": "Shan Wong",
-                "job": "Back-End Developer",
-                "position": "Beijing",
-                "description": "Shan has over 3 years of experience in IT development. He formerly worked for a well-known IT company in China."
+                "job": "Nhà phát triển Back-end",
+                "position": "Bắc Kinh",
+                "description": "Shan có hơn 3 năm kinh nghiệm trong phát triển IT. Trước đây anh từng làm việc cho một công ty IT nổi tiếng tại Trung Quốc."
             },
             "Ada": {
                 "name": "Ada Zhu",
