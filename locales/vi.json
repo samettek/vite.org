@@ -212,7 +212,7 @@
             }
         ],
         "rightCommonPart": {
-            "title": "Truyền thông xã hội",
+            "title": "Mạng Xã hội",
             "email": "Email",
             "twitter": "Twitter",
             "telegram": "Telegram",
@@ -374,13 +374,13 @@
                     "Twitter"
                 ],
                 "name": "ZVnode",
-                "description": "Zhizi Fund, support for the development of Vite ecosystem"
+                "description": "Quỹ Zhizi, hỗ trợ phát triển hệ sinh thái Vite"
             },
             "linknode": {
                 "info": [
-                    "Jiapeng Lin, Founding Partner, Jiapeng is the founding partner of LinkVC, a leading crypto fund which aim to incubate the most creative and game-changing companies in the blockchain industry. Prior to founding LinkVC, Jiapeng was a co-founder of Aicoin and consultant of Okcoin. Before Aicoin，he worked in the NASDAQ listed company Xunlei network, responsible for core product development, including Xunlei client, Xunlei Finance, Xunlei video and Thunder member value-added services. ",
-                    "Henry（He） Xu, Partner, Henry is a partner of LinkVC. Prior to joining LinkVC, he was the early team member of Chinese top tech blog PingWest，Chief Editor of SLD website“SHIFT”. Founder of whitepaper researcher club “Monroe protocol”. Before that, Henry played various roles in Nanfang Daily、SEEC Media Group Limited、Autobot venture capital partners.",
-                    "Li Zhang, Partner, Li is a partner of LinkVC. She is an early practitioner and sophisticated investor in blockchain industry. Prior to LinkVC, Li was in charge of the business development in Huobi, which is the most popular cryptocurrency exchange worldwide. Before Huobi, Li was the CMO of f2pool."
+                    "Jiapeng Lin, nhà sáng lập, Jiapeng là nhà sáng lập của LinkVC, một quỹ đầu tư tiền mã hóa nhằm mục đích ươm tạo các công ty thay đổi trò chơi và sáng tạo nhất trong ngành công nghiệp blockchain. Trước khi thành lập LinkVC, Jiapeng là người đồng sáng lập Aicoin và cố vấn của Okcoin. Trước Aicoin, anh đã làm việc trong mạng lưới Xunlei của công ty niêm yết NASDAQ, chịu trách nhiệm phát triển sản phẩm cốt lõi, khách hàng bao gồm Xunlei, Xunlei Finance, Xunlei video và các dịch vụ giá trị gia tăng của thành viên của Thunder. ",
+                    "Henry (He) Xu, Thành viên, Henry là thành viên của LinkVC. Trước khi gia nhập LinkVC, anh là thành viên đầu tiên của đội ngũ blog công nghệ hàng đầu Trung Quốc PingWest, Tổng biên tập trang web SLD. Người sáng lập câu lạc bộ nghiên cứu whitepaper \"Monroe Protocol\". Trước đó, Henry đã đóng nhiều vai trò khác nhau trong Nanfang Daily, SEEC Media Group Limited, Autobot đối tác đầu tư mạo hiểm.",
+                    "Li Zhang, Li là thành viên của LinkVC. Cô là một học viên sớm và nhà đầu tư tinh vi trong ngành công nghiệp blockchain. Trước LinkVC, Li phụ trách phát triển kinh doanh tại Huobi, đây là sàn giao dịch tiền mã hóa phổ biến nhất trên toàn thế giới. Trước Huobi, Li là CMO của f2pool."
                 ],
                 "config": [
                     "NA"
@@ -389,18 +389,18 @@
                     "NA"
                 ],
                 "plan": [
-                    "Linknode is backed up by LinkVC, a crypto fund committed to serving outstanding companies and developers in the field of blockchain with global commercial resources and professional financial services. In the past two years, linkVC invested dozens projects worldwide including Aicoin, BBEX, aelf, Zilliqa, Blockv, Certik, Oasis labs, etc.",
-                    "1. We have strong competitive advantages in both media exposure and industry resources. Having linknode as a super node, Vite can easily cooperate with other top tier projects to enhance community‘s influence.",
-                    "2. Our rich experience in community building and project landing process can prevent the twist and turns in your development. ",
-                    "3. Brand and endorsement effect"
+                    "Linknode được hỗ trợ bởi LinkVC, một quỹ tiền mã hóa cam kết phục vụ các công ty và nhà phát triển xuất sắc trong lĩnh vực blockchain với các nguồn lực thương mại toàn cầu và dịch vụ tài chính chuyên nghiệp. Trong hai năm qua, LinkVC đã đầu tư hàng chục dự án trên toàn thế giới bao gồm Aicoin, BBEX, aelf, Zilliqa, Blockv, Certik, Oasis lab, v. v.",
+                    "1. Chúng tôi có lợi thế cạnh tranh mạnh mẽ về cả phương tiện truyền thông và tài nguyên công nghiệp. Có Linknode như một supernode, Vite có thể dễ dàng hợp tác với các dự án hàng đầu khác để tăng cường ảnh hưởng của cộng đồng.",
+                    "2. Kinh nghiệm phong phú của chúng tôi trong quá trình xây dựng cộng đồng và quá trình phát triển dự án có thể ngăn chặn sự biến đổi và gia tăng sự phát triển của bạn. ",
+                    "3. Hiệu quả thương hiệu và chứng thực"
                 ],
                 "medium": [
-                    "As mentioned, LinkNode can provide various exposure channels.",
-                    "1. We are the shareholder of several leading blockchain medias, such as pivot, AICoin, dp rating and chainfor.",
-                    "2. Influential social medias account on hand in both WeChat and Telegram"
+                    "Như đã đề cập, LinkNode có thể cung cấp các kênh truyền thông khác nhau.",
+                    "1. Chúng tôi là cổ đông của một số phương tiện truyền thông blockchain hàng đầu, chẳng hạn như pivot, AICoin, dp rating và chainfor.",
+                    "2. Các kênh truyền thông có tầm ảnh hướng, bao gồm Wechat và Telegram"
                 ],
                 "name": "LinkNode",
-                "description": "Born to be different"
+                "description": "Sinh ra để khác biệt"
             },
             "bitvite": {
                 "info": [
@@ -1085,18 +1085,18 @@
         "media": "TRUYỀN THÔNG"
     },
     "joinMailing": {
-        "title": "Subscribe to Vite to Get Exclusive Benefits",
+        "title": "Đăng ký để Vite để có cập nhật nhanh nhất",
         "button": "Đăng ký",
         "placeholder": "Địa chỉ Email"
     },
     "featureTitle": "Nguyên tắc cơ bản của Vite",
-    "featureTitle2": "Why Does Vite Stand Out",
+    "featureTitle2": "Tại sao Vite lại nổi bật",
     "features": {
         "performance": {
-            "title": "High Performance",
+            "title": "Hiệu suất cao",
             "tags": [
-                "DAG Ledger",
-                "Asynchronous Architecture"
+                "Sổ cái DAG",
+                "Kiến trúc không đồng bộ"
             ]
         },
         "safety": {
