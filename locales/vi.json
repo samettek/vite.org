@@ -898,15 +898,15 @@
                 "question": "Trách nhiệm của SBP",
                 "answer": [
                     "1. SBP đảm bảo rằng hệ thống Vite hoạt động đúng. SBP phải xác nhận các giao dịch trong toàn bộ mạng và đảm bảo sự ổn định của hệ thống bằng cách cung cấp tài nguyên máy chủ có thể sử dụng. Ngoài ra, các nhà khai thác của SBP cũng dự kiến sẽ cung cấp hỗ trợ kỹ thuật cho hệ thống Vite với khả năng tốt nhất của họ.",
-                    "2. SBPs are representatives, evangelists, and leaders of the Vite community and are expected to take actions to build and preserve an active and healthy community. ",
-                    "3. The prosperity of the Vite community goes hand in hand with the success of the Vite ecosystem. SBPs are expected to evangelize Vite, and help create dApps based on Vite. "
+                    "2. SBP là đại diện, nhà thuyết giáo và lãnh đạo của cộng đồng Vite và được kì vọng sẽ có hành động để xây dựng và bảo tồn một cộng đồng năng động và lành mạnh.",
+                    "3. Sự thịnh vượng của cộng đồng Vite đi đôi với sự thành công của hệ sinh thái Vite. SBP được kì vọng sẽ thuyết giáo cho Vite và giúp tạo ra các ứng dụng dựa trên Vite. "
                 ]
             },
             {
                 "orderNum": "IV.",
-                "question": "Incentive Plan",
+                "question": "Kế hoạch ưu đãi",
                 "answer": [
-                    "1. Forging SBPs in TestNet stage will share annual forging rewards, equivalent to 3% of the total issued token amount. This translates to 30 million VITE (3% of the current total supply of 1 billion VITE). ",
+                    "1. Việc vận hành SBP trong giai đoạn TestNet sẽ chia sẻ ưu đãi hàng năm, tương đương với 3% tổng số token đã phát hành. Điều này có nghĩa là 30 triệu VITE (3% tổng nguồn cung hiện tại là 1 tỷ VITE).",
                     "2. Supernode rewards are divided into two parts: 50% for creating blocks and 50% for voting. Among the 30 million token rewards per year, 15 million are awarded to the supernodes that create blocks, and 15 million are awarded to the supernodes that were elected by the community (in TestNet stage, this will be the top 100 supernodes).<br/>If a supernode were to keep mining for one year, it could get 600,000 VITE from the block creation reward ((30 million / 25 nodes) * 50%), plus the reward from voting.<br/> Voting reward calculation: according to the supernode's stake and voting ratio, (the node staking tokens + voting) / (all supernode staking tokens + all voting) * (voting reward). Each round will be 75 seconds. The daily sum would be multiplied by the block rate.<br/>A single supernode daily reward would be: 1,643.835 VITEs of blocks creation rewards, plus additional staking/voting rewards",
                     "3. There are many Airdrop plans and rewards for the TestNet stage. We will increase the number of tokens issued to reward SBPs after the MainNet is launched.",
                     "4. Reward Extraction, Only the rewards from the previous day can be extracted."
