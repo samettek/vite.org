@@ -38,7 +38,7 @@
         <h1 class="title">{{ $t('airdrop.title2' ) }}</h1>
         <div class="timeline">
           <div class="step-title"> {{ $t('airdrop.step') }} </div>
-          <ul class="is-flex">
+          <ul class="is-flex-desktop">
             <li>
               <div class="desc-wrapper">
                 <div class="text"> {{ $t('airdrop.step1') }} </div>
@@ -283,22 +283,29 @@
     }
     height: 700px;
     background-color: $common-bg-color;
-
+    @include mobile {
+      height: auto;
+    }
     $dot-size: 3rem;
     $dot-gap: 0.5;
     .timeline {
       min-height: 500px;
       @include mobile {
-        min-height: 280px;
+        min-height: unset;
+        text-align: center;
       }
       .step-title{
         font-family: $font-family-title;
         font-size: 24px;
         color: $common-active-color;
+        @include mobile {
+          font-size: 18px;
+        }
       }
       ul {
         padding-top: 150px;
         @include mobile {
+          display: block;
           padding-top: 70px;
         }
         & li:first-child {
@@ -335,6 +342,13 @@
             height: 1.75rem;
             border-radius: 50%;
             top: -($dot-size * ((1 - $dot-gap) / 2));
+            @include mobile {
+              top: 0;
+            }
+          }
+          @include mobile {
+            border-top: 0;
+            width: 100%;
           }
         }
         .desc-wrapper {
@@ -344,10 +358,17 @@
           margin-right: 30px;
           font-family: $font-family-title;
           color: #171C34;
+          @include mobile {
+            display: block;
+            position: static;
+          }
           .image{
             margin:-7% 0 0 -8%;
             &:first-child{
               margin-left: -10%;
+            }
+            @include mobile{
+              margin: 0;
             }
           }
           .text{
