@@ -299,38 +299,38 @@
             },
             "ux": {
                 "info": [
-                    "Vladimir Polishchuk: CTO UIXAgency.com, UIX_LAB, python developer(backend), IT security specialist, MCP, MCTS:Windows Server 2008 Network Infrastructure, Configuration, MCID: 8125056, Linux Administration, Ukraine, Nikolaev ",
-                    "Serhiy Polishchuk: UIXAgency.com Art Lead, 3D-modeling & 3D-sculpting for Gamedev, CGI, Animation, Project Manager, Ukraine, Nikolaev",
-                    "Julia Novak: SMM, Mobile Marketing & Promotion specialist, Mobile Markets analytic"
+                    "Vladimir Polishchuk: Giám đốc công nghệ UIXAgency.com, UIX_LAB, nhà phát triển python (backend), chuyên gia bảo mật CNTT, MCP, MCTS: Cơ sở hạ tầng, cấu hình mạng Windows Server 2008, MCID: 8125056, Quản trị Linux, Ukraine, Nikolaev ",
+                    "Serhiy Polishchuk: UIXAgency.com Art Lead, Mô hình 3D & Điêu khắc 3D cho Gamedev, CGI, Hoạt hình, Quản lý dự án, Ukraine, Nikolaev",
+                    "Julia Novak: SMM, Chuyên gia xúc tiến và tiếp thị di động, phân tích thị trường di động"
                 ],
                 "config": [
                     "HP DL360e, 2 x Xeon E5-2430 v2 @ 2.50GHz, 64 GB RAM, 240GB+2x500GB SSD, HP Smart Array P420i/2GB. 1 Gb/s speed inter&intranet"
                 ],
                 "location": [
-                    "Ukraine, Nikolaev City"
+                    "Ukraine, thành phố Nikolaev"
                 ],
                 "photo": [
 
                 ],
                 "medium": [
-                    "in progress.."
+                    "đang tiến hành.."
                 ],
                 "plan": [
-                    "General strategy of building community in progress for now, need a few days for introducing it. In plans: - build a new site for SBP (design like https://uixagency.com) - add VITE as payment method for our outsourced projects - we want to create an e-shop of exclusive limited jewellery collection or many, one of this collections could be designed with VITE logo - for example ... this idea is flashing in my mind just now - trying to integrate VITE in mobile games and apps - we have gamedev and appdev departments to our team really likes VITE Platform, that's why we accumulate about 2.5 mil VITE and ready for helping to integrate VITE tokens in our reality :)"
+                    "Các chiến lược chung của xây dựng cộng đồng trong tiến trình hiện nay, cần một vài ngày để giới thiệu. Kế hoạch: - xây dựng một trang web mới cho SBP (thiết kế giống như https://uixagency.com) - thêm VITE là phương thức thanh toán cho các dự án outsource của chúng tôi - chúng tôi muốn tạo ra một cửa hàng điện tử của bộ sưu tập đồ trang sức độc quyền giới hạn hay nhiều người, một trong các bộ sưu tập này có thể được thiết kế với logo của VITE - Ví dụ... ý tưởng này trong tâm trí của tôi ngay bây giờ - cố gắng để tích hợp VITE trong trò chơi điện thoại di động và ứng dụng - chúng tôi có phòng gamedev và appdev và đội ngũ của chúng tôi thực sự thích nền tảng VITE, đó là lý do tại sao chúng tôi tích lũy khoảng 2,5 triệu VITE và sẵn sàng cho việc giúp đỡ để tích hợp VITE vào thực tế :)"
                 ],
                 "name": "UX SBP",
-                "description": "async equity"
+                "description": "vốn chủ sở hữu không đồng bộ"
             },
             "loopring": {
                 "info": [
                     "Kongliang, Zhong ; ",
-                    "Leila, Lin,Shanghai, China"
+                    "Leila, Lin, Thượng Hải, Trung Quốc"
                 ],
                 "config": [
                     "NA"
                 ],
                 "location": [
-                    "Shanghai"
+                    "Thượng Hải"
                 ],
                 "photo": [
 
