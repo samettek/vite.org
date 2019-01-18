@@ -498,30 +498,30 @@
             },
             "loopnest": {
                 "info": [
-                    "Mr. Terence Lam is the co-founder and CEO of Loopnest Blockchain Accelerator at Hong Kong Cyberport. He has also been an advisor to several successful blockchain projects. He is a renowned adjunct lecturer at the HK University SPACE China Business School and a serial entrepreneur with focuses on blockchain, mobile internet and Smart City initiatives. Prior to his entrepreneurship Terence has accumulated over two decades of experience in multinational companies and has extensive practical experiences from overseas assignments in Singapore, Mainland China, and Hong Kong. Terence is a graduate from the Harvard, Tsinghua, CEIBS Senior Executive Program.  He carries a Master of Arts in Marketing Management degree from Macquarie University and a Hon. Bachelor of Engineering degree from The Chinese University of Hong Kong."
+                    "Terence Lam là người đồng sáng lập và Giám đốc điều hành của Loopnest Blockchain Accelerator tại Hong Kong Cyberport. Anh cũng là cố vấn cho một số dự án blockchain thành công. Anh là giảng viên phụ trợ nổi tiếng tại Đại học Kinh doanh Trung Quốc SPACE Trung Quốc và là một doanh nhân tập trung vào blockchain, internet di động và các sáng kiến Thành phố thông minh. Trước khi khởi nghiệp, Terence đã tích lũy hơn hai thập kỷ kinh nghiệm trong các công ty đa quốc gia và có nhiều kinh nghiệm thực tế từ các nhiệm vụ ở nước ngoài, Singapore, Trung Quốc đại lục và Hồng Kông. Terence tốt nghiệp chương trình điều hành cao cấp của Harvard, Tsinghua, CEIBS. Anh có bằng Thạc sĩ Nghệ thuật Quản lý Marketing tại Đại học Macquarie và bằng Cử nhân Kỹ thuật của Đại học Trung Quốc Hồng Kông."
                 ],
                 "config": [
-                    "AWS Elastic Compute Cloud"
+                    "Đám mây điện toán đàn hồi AWS"
                 ],
                 "location": [
-                    "Cloud server in Singapore, managed in Hong Kong"
+                    "Máy chủ đám mây ở Singapore, được quản lý tại Hồng Kông"
                 ],
                 "plan": [
-                    "Loopnest Accelerator Limited is a blockchain accelerator dedicated to laying the foundation for the economy’s next digital evolution. Loopnest recognizes the blockchain space’s trending movement toward regulated, professional and securitized products and services. PwC Hong Kong and Loopnest offer the joint Blockchain Acceleration Programme that enables entrepreneurs to establish regulatory-friendly businesses in Hong Kong, allowing access to capital flow to-and-from the Greater Bay Area and international markets. For the acceleratees graduating from the PwC-Loopnest Programme, the Vite network may be a platform upon which they make contributions to the expanding global blockchain economy."
+                    "Loopnest Accelerator Limited là một công cụ tăng tốc blockchain dành riêng để đặt nền tảng cho sự phát triển kỹ thuật số tiếp theo của nền kinh tế. Loopnest công nhận phong trào không gian blockchain hướng tới các sản phẩm và dịch vụ được quy định, chuyên nghiệp và chứng khoán hóa. PwC Hồng Kông và Loopnest cung cấp Chương trình tăng tốc Blockchain chung cho phép các doanh nhân thành lập các doanh nghiệp thân thiện với quy định tại Hồng Kông, cho phép tiếp cận dòng vốn đến và đi từ Khu vực Vịnh Lớn và thị trường quốc tế. Mạng Vite có thể là một nền tảng mà những thành viên tốt nghiệp chương trình PwC-Loopnest đóng góp cho nền kinh tế blockchain toàn cầu đang mở rộng."
                 ],
                 "medium": [
-                    "Loopnest plans to hold regular meetups within the blockchain and fin-tech community in Hong Kong. Such events provide opportunities for admitted startups under PwC-Loopnest Blockchain Acceleration Programme to showcase their businesses and progress. This lends itself to insightful material for e-newsletter publications on top of social media sharing and regular updates."
+                    "Loopnest kế hoạch thường xuyên tổ chức các meetup trong cộng đồng blockchain và công nghệ tại Hồng Kông. Các sự kiện cung cấp cơ hội cho startup biết tới và tìm hiểu chương trình PwC-Loopnest Blockchain  Acceleration để giới thiệu các doanh nghiệp và sự tiến bộ của họ. Điều này nhờ có các tài liệu có chiều sâu từ các ấn phẩm tin trên kênh truyền thông xã hội, chia sẻ và cập nhật thường xuyên."
                 ],
                 "name": "Loopnest",
-                "description": "Tap into the digital economy"
+                "description": "Chạm vào nền kinh tế kỹ thuật số"
             },
             "belsona": {
                 "info": [
-                    "Denis Meltsaev, CTO, Moscow, Russia",
-                    "Vassily Godunov, back-end developer, Moscow, Russia",
-                    "Georgy Yakovlev, front-end developer, Budva, Montenegro",
-                    "Artem Potapov, System Administrator, Saint-Petersburg, Russia",
-                    "Igor Peskov, financial analyst, Moscow, Russia",
+                    "Denis Meltsaev, CTO, Moscow, Nga",
+                    "Vassily Godunov, nhà phát triển back-end, Moscow, Nga",
+                    "Georgy Yakovlev, nhà phát triển front-end, Budva, Montenegro",
+                    "Artem Potapov, Quản trị viên hệ thống, Saint-Petersburg, Nga",
+                    "Igor Peskov, nhà phân tích tài chính, Moscow, Nga",
                     "Usanov Alexei, media relations, Kiev, Ukraine"
                 ],
                 "config": [
