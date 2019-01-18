@@ -269,30 +269,30 @@
                 "plan": [
                     "Đội ngũ của chúng tôi có nhiều kinh nghiệm trong lĩnh vực Quan hệ Đầu tư. Chúng tôi luôn giúp các dự án trong danh mục đầu tư về sự phát triển của cộng đồng và ứng dụng công nghệ.",
                     "Đội ngũ và các đối tác thân thiết của chúng tôi có cộng đồng tích cực ở EU và Nga với hơn 600 nghìn người. Chúng tôi cung cấp các dịch vụ tư vấn trong việc xây dựng chiến lược tiếp thị quảng bá trên thị trường CIS và SEA.",
-                    "We could attract C-level industry experts as advisors for projects. In addition to that, we have a proven track record in hiring for IT startups.",
-                    "As a result, our team has the great value proposition for Vite community and we could bust the development and adoption of the project."
+                    "Chúng tôi có thể thu hút các chuyên gia bậc C làm cố vấn cho các dự án. Ngoài ra, chúng tôi có một hồ sơ theo dõi đã được chứng minh trong việc tuyển dụng cho các công ty khởi nghiệp CNTT.",
+                    "Do đó, đội ngũ của chúng tôi có giá trị lớn cho cộng đồng Vite và chúng tôi có thể đóng góp cho sự phát triển và ứng dụng của Vite."
                 ],
                 "name": "Tenzor",
-                "description": "Unite the world through the blockchain technology."
+                "description": "Gắp kết thế giới thông qua công nghệ blockchain."
             },
             "snap": {
                 "info": [
-                    "Mathew Pham (AKA plasmo) I first got first interested in crypto/blockchain when I found out about Bitcoin in 2012. Invested in a small amount and ever since then, I've truly fallen in love with everything crypto/blockchain-related (especially smart contracts). I've dabbled before in hosting nodes, mining and investing/using one of the first ever mass produced Bitcoin miners (Kncminer), beta testing in the first ever version of Ubuntu Linux back in 2004 and even operating my own business hosting gaming servers/competitions. I discovered Vite back in May, read the Vite Whitepaper, looked over the team's extensive background and thought to myself that this could be become something big. I want to help Vite grow. I am located in Melbourne, Australia."
+                    "Mathew Phạm (còn gọi là plasmo) Lần đầu tiên tôi quan tâm đến tiền mã hóa/ blockchain khi tôi tìm hiểu về Bitcoin vào năm 2012. Đầu tư một số tiền nhỏ và kể từ đó, tôi thực sự yêu thích tất cả mọi thứ liên quan đến tiền mã hóa/ blockchain (đặc biệt là hợp đồng thông minh). Trước đây tôi đã tìm hiểu về các node lưu trữ, khai thác và đầu tư/ sử dụng một trong những công cụ khai thác Bitcoin được sản xuất hàng loạt đầu tiên (Kncminer), thử nghiệm phiên bản Ubuntu Linux đầu tiên vào năm 2004 và thậm chí vận hành máy chủ chơi game của riêng tôi/ thi đấu. Tôi phát hiện ra Vite vào tháng 5, đọc Whitepaper của Vite, nhìn qua bối cảnh rộng lớn của đội ngũ và tự nghĩ rằng Vite có thể trở thành một điều gì đó lớn lao. Tôi muốn giúp Vite phát triển. Tôi sống tại Melbourne, Úc."
                 ],
                 "config": [
-                    "Intel i5-8600K (6 cores), 16GB DDR4 memory, Samsung SSD, 100Mbps connection"
+                    "Intel i5-8600K (6 cores), 16GB DDR4 memory, Samsung SSD, 100Mbps"
                 ],
                 "location": [
-                    "Melbourne, Australia"
+                    "Melbourne, Úc"
                 ],
                 "photo": [
 
                 ],
                 "medium": [
-                    "I have a Twitter created to provide status on node status, read updates on the Vite ecosystem, and to find out about important events. I have also created a website where users will be able to visit and view node/network status, use the vote calculator to see Vite earning potential, read tutorials and to enter competitions. Forging rewards will also be used to create media, advertisements on Twitter and Reddit, and basically anything to help promote Vite's growth. I'm open to all ideas. "
+                    "Tôi tạo một tài khoản Twitter để cập nhật trạng thái node, đọc các bản cập nhật trên hệ sinh thái Vite và tìm hiểu về các sự kiện quan trọng. Tôi cũng đã tạo một trang web nơi người dùng có thể truy cập và xem trạng thái node/ mạng, sử dụng máy tính bỏ phiếu để xem tiềm năng kiếm tiền của Vite, đọc hướng dẫn và tham gia các cuộc thi. Phần thưởng nhận được, tôi cũng sẽ sử dụng trong việc đăng tải các phương tiện truyền thông, quảng cáo trên Twitter và Reddit và về cơ bản là bất cứ điều gì giúp thúc đẩy sự phát triển của Vite. Tôi chào đón tất cả các ý tưởng. "
                 ],
                 "plan": [
-                    "Create articles about the Vite platform/ecosystem, provide basic tutorials (for newcomers to read and learn), program/design a calculator to show how much a voter can earn just by voting for Snap Secure supernode, provide competitions so community can grow/become involved and also a possibility to help provide funding for developers to create Vite Dapps or migrate Ethereum Dapps over to the Vite platform."
+                    "Tạo các bài viết về nền tảng / hệ sinh thái Vite, cung cấp các hướng dẫn cơ bản (cho người mới đọc và học), lập trình / thiết kế một máy tính để cho biết một người bỏ phiếu có thể kiếm được bao nhiêu chỉ qua việc bỏ phiếu cho supernode Snap Secure, cung cấp các cuộc thi để cộng đồng có thể phát triển / trở thành mỗi liên quan và cũng có khả năng giúp cung cấp tài chính cho các nhà phát triển để tạo Vite dApps hoặc di chuyển Ethereum dApps sang nền tảng Vite."
                 ],
                 "name": "SnapSecure",
                 "description": "Securing Vite's Snapshot Chain, One Block At A Time."
