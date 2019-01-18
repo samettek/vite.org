@@ -14,15 +14,15 @@
     "okex": "OKEX.COM",
     "bittrex": "BITTREX"
   },
-  "community": {
-    "title": "Community",
-    "star": "Community Star"
-  },
   "media": {
     "medium": "Medium",
     "bitcointalk": "Bitcointalk",
     "blog": "Technology Blog",
     "forum": "Forum"
+  },
+  "community": {
+    "title": "Community",
+    "star": "Community Star"
   },
   "nav": {
     "index": "HOME",
@@ -59,7 +59,7 @@
     "slogan": "High-Performance Decentralized Ecosystem",
     "whitePaper": "White Paper",
     "testnet": "TestNet",
-    "acttext": "Vote for Supernode Operators </br> Get Awarded VITE!",
+    "acttext": "Trading VITE on BITTREX Now",
     "actwait": "Stay tuned!",
     "news": "Latest News",
     "starttoUse": "Get Started with Vite"
@@ -204,7 +204,7 @@
       },
       {
         "key": "location",
-        "title": "Service Location"
+        "title": "Server Location"
       },
       {
         "key": "plan",
@@ -1124,7 +1124,7 @@
   "ecoTitle2": "What Vite Can Do For You",
   "eco": {
     "worth": {
-      "title": "Features",
+      "title": "Ecosystem of Value",
       "pay": {
         "title": "Payment",
         "child": [
@@ -1150,7 +1150,7 @@
       }
     },
     "dapps": {
-      "title": "dApps",
+      "title": "Ecosystem of dApps",
       "child": [
         "Games",
         "Local Services",

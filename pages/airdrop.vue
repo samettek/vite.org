@@ -8,8 +8,8 @@
               <div class="slogan-wrapper">
                 <h1> {{ $t('airdrop.title1' )}}</h1>
                 <ul>
-                  <li>{{ $t('airdrop.text1') }}</li>
-                  <li>{{ $t('airdrop.text2') }}</li>
+                  <li class="text">{{ $t('airdrop.text1') }}</li>
+                  <li class="text">{{ $t('airdrop.text2') }}</li>
                 </ul>
               </div>
               <div class="btn-group-wrapper">
@@ -54,18 +54,20 @@
             <li>
               <div class="desc-wrapper">
                 <div class="top">
-                  <div class="text">{{ $t('airdrop.annual') }} <span class="nums">20%</span></div>
-                  <div class="check-btn">
-                    <a href=""
-                       target="_blank"
+                  <div class="text __text-popover">{{ $t('airdrop.annual') }} <span class="nums">20%</span></div>
+                  <div class="check-btn"
+                       @click="openRewardPage"
+                  >
+                    <div
+                      class="link"
                     >
                       {{ $t('airdrop.btn2') }}
-                    </a>
+                    </div>
                   </div>
                 </div>
                 <div class="triangle"></div>
                 <div class="desc">
-                  <div class="text"> {{$t('airdrop.step3f') }} <span class="nums">8000+ VITE</span> {{$t('airdrop.step3e') }}</div>
+                  <div class="text __text-third"> {{$t('airdrop.step3f') }} <span class="nums">8000+ VITE</span> {{$t('airdrop.step3e') }}</div>
                   <img :src="step3Pic" class="image"/>
                 </div>
 
@@ -97,7 +99,13 @@
         step3Pic: require('~/assets/images/airdrop/step3.png')
       }
     },
-    methods: {}
+    methods: {
+      openRewardPage () {
+        window.open(
+          this.$i18n.locale === 'zh' ? 'https://reward.vite.net/?language=zh' : 'https://reward.vite.net'
+        )
+      }
+    }
   }
 </script>
 
@@ -120,7 +128,6 @@
     .wallet-item + .wallet-item{
       margin-left: 20px;
     }
-
   }
 
   .airdrop {
@@ -130,15 +137,22 @@
       .is-info {
         display: flex;
       }
-      .columns {
-        margin-top: 60px;
-        margin-bottom: 80px;
-      }
-
       .slogan-wrapper {
         max-width: 500px;
         ul{
-          list-style: disc $common-active-color;
+          margin-left: 3%;
+          padding-top: 20px;
+          li{
+            &::before{
+              content: ' • ';
+              margin-left: -1rem;
+              color: $common-active-color;
+            }
+          }
+          .text{
+            font-size: 20px;
+            color: #9b9b9b;
+          }
         }
         @include touch {
           max-width: unset;
@@ -308,7 +322,7 @@
         li {
           list-style-type: none;
           position: relative;
-          left: 18%;
+          left: 20%;
           min-width: 300px;
           margin: 0;
           border-top: 2px solid $timelineColor;
@@ -339,8 +353,12 @@
           .text{
             max-width: 200px;
             min-height: 64px;
-            font-size: 14px;
             padding-bottom: 20px;
+            margin-left: 16px;
+            font-size: 14px;
+          }
+          .__text-third{
+            margin-left: -10px;
           }
           .nums{
             font-size: 16px;
@@ -349,16 +367,27 @@
           .check-btn{
             font-size: 12px;
           }
+          .link{
+            font-size: 12px;
+            color: $common-active-color;
+            cursor: pointer;
+          }
           .top {
             position: absolute;
-            top: -60%;
-            right: 30%;
-            min-width: 250px;
-            max-height: 120px;
+            top: -57%;
+            right: 39%;
+            min-width: 200px;
+            max-height: 100px;
             padding: 20px 8px;
             text-align: center;
             box-shadow: 0 -5px 30px 0 rgba(126, 183, 238, 0.83);
             background-color: #ffffff;
+            .__text-popover{
+              margin: 0;
+              padding: 0;
+              max-width: unset;
+              min-height: 50px;
+            }
             &::after{
               content: ' ';
               display: inline-block;
@@ -369,9 +398,6 @@
               left: 50%;
               margin-left: -6px;
             }
-          }
-          .desc {
-
           }
         }
       }

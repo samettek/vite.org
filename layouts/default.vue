@@ -221,7 +221,8 @@ export default {
   methods: {
     openDotNet () {
       window.open(
-        this.$i18n.locale === 'zh' ? 'https://vite.net/zh/' : 'https://vite.net'
+        'https://international.bittrex.com/Market/Index?MarketName=BTC-VITE'
+        // this.$i18n.locale === 'zh' ? 'https://vite.net/zh/' : 'https://vite.net'
       )
     },
     openAirdropPage () {
@@ -280,10 +281,11 @@ export default {
   background-image: url("~assets/images/activity.svg");
   color: white;
   font-family: $font-family-title;
-  font-size: 12px;
-  padding-top: 22px;
+  font-size: 13px;
+  padding-top: 30px;
   .act {
-    margin:10px auto 5px;
+    max-width: 130px;
+    margin:10px;
   }
 }
 .nuxt-content {
