@@ -59,23 +59,23 @@
         "slogan": "Hệ sinh thái phi tập trung hiệu suất cao",
         "whitePaper": "White-paper",
         "testnet": "TestNet",
-        "acttext": "Vote for Supernode Operators </br> Get Awarded VITE!",
-        "actwait": "Stay tuned!",
-        "news": "Latest News",
-        "starttoUse": "Get Started with Vite"
+        "acttext": "Bình chọn cho các Supernode </br> Nhận thưởng VITE!",
+        "actwait": "Hãy theo dõi!",
+        "news": "Tin tức mới nhất",
+        "starttoUse": "Bắt đầu cùng Vite"
     },
     "roadmap": {
-        "title": "Roadmap",
+        "title": "Lộ trình",
         "timelines": [
             {
-                "time": "February 2018",
-                "description": "Project Initiation"
+                "time": "02/2018",
+                "description": "Khởi động dự án"
             },
             {
-                "time": "April 2018",
+                "time": "04/2018",
                 "description": [
                     {
-                        "text": "White Paper Completion",
+                        "text": "Hoàn thành Whitepaper",
                         "url": "https://www.vite.org/whitepaper/vite_en.pdf"
                     }
                 ]
@@ -176,43 +176,43 @@
                     "MainNet Release",
                     "dApps (supported by mobile client application)",
                     "Stable Coin Issuance on DEX",
-                    "Payment Fulfilment"
+                    "Hoàn thành thanh toán"
                 ]
             },
             {
-                "time": "Q4 2019",
+                "time": "Quý 4/ 2019",
                 "description": [
-                    "dApp Ecosystem Construction"
+                    "xây dựng hệ sinh thái dApp"
                 ]
             }
         ]
     },
     "elector": {
-        "title": "SBP Candidates",
+        "title": "Ứng cử viên SBP",
         "detailTitles": [
             {
-                "key": "info",
-                "title": "Information of Team Members"
+                "key": "thông tin",
+                "title": "Thông tin của thành viên trong đội ngũ"
             },
             {
-                "key": "photo",
-                "title": "Photos"
+                "key": "hình ảnh",
+                "title": "Hình ảnh"
             },
             {
-                "key": "config",
-                "title": "Configuration of Data Center"
+                "key": "cấu hình",
+                "title": "Cấu hình của Trung tâm dữ liệu"
             },
             {
-                "key": "location",
-                "title": "Server Location"
+                "key": "vị trí",
+                "title": "Vị trí máy chủ"
             },
             {
-                "key": "plan",
-                "title": "Eco-development Plans"
+                "key": "kế hoạch",
+                "title": "Kế hoạch phát triển hệ sinh thái"
             }
         ],
         "rightCommonPart": {
-            "title": "Social Medias",
+            "title": "Truyền thông xã hội",
             "email": "Email",
             "twitter": "Twitter",
             "telegram": "Telegram",
