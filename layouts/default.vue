@@ -220,7 +220,8 @@ export default {
   methods: {
     openDotNet () {
       window.open(
-        this.$i18n.locale === 'zh' ? 'https://vite.net/zh/' : 'https://vite.net'
+        'https://international.bittrex.com/Market/Index?MarketName=BTC-VITE'
+        // this.$i18n.locale === 'zh' ? 'https://vite.net/zh/' : 'https://vite.net'
       )
     },
     onNavClick (e) {
