@@ -447,21 +447,21 @@
                     "Quảng bá VITE thông qua website của chúng http://swissvite.org/ , trong mục phát triển), qua các kênh truyền thông và meetup tại Thụy Sĩ và các nước châu Âu"
                 ],
                 "medium": [
-                    "Creation of tutorials in English and French for users and developers Development of community tools Use growth hacking methods to target communication to a maximum of people interested in DAG and blockchain"
+                    "Tạo hướng dẫn bằng tiếng Anh và tiếng Pháp cho người dùng và nhà phát triển. Phát triển các công cụ cộng đồng. Sử dụng các phương pháp hack tăng trưởng để nhắm mục tiêu truyền thông tối đa tới những người quan tâm đến DAG và blockchain."
                 ],
                 "name": "Swiss Vite",
                 "description": "Cộng đồng VITE của bạn trong trái tim của người Châu Âu"
             },
             "xinsheng": {
                 "info": [
-                    "Zhe Cui, founder and CEO of Xinsheng Fund, living in Beijing, China",
-                    "Zhibo Li, co-founder and CMO of Xinsheng Fund, living in Beijing, China",
-                    "Xuming Zhang, community partner, living in Beijing, China",
-                    "Emma, community partner, living in Beijing, China",
-                    "Quan Sun, Community partner, living in Beijing, China"
+                    "Zhe Cui, người sáng lập và Giám đốc điều hành của Quỹ Xinsheng, sống tại Bắc Kinh, Trung Quốc",
+                    "Zhibo Li, đồng sáng lập và CMO của Quỹ Xinsheng, sống tại Bắc Kinh, Trung Quốc",
+                    "Xuming Zhang, Phát triển cộng đồng, sống ở Bắc Kinh, Trung Quốc",
+                    "Emma, Phát triển cộng đồng, sống ở Bắc Kinh, Trung Quốc",
+                    "Quan Sun, Phát triển cộng đồng, sống ở Bắc Kinh, Trung Quốc"
                 ],
                 "config": [
-                    "8 cores CPU 16G RAM 100 Mbps bandwidth 1T ssd storage CentOS 7.4"
+                    "8 cores CPU 16G RAM 100 Mbp 1T ssd storage CentOS 7.4"
                 ],
                 "location": [
                     "Bắc Kinh, Trung Quốc"
@@ -644,7 +644,7 @@
             },
             "Stone": {
                 "name": "Stone Xia",
-                "job": "iOS Developer",
+                "job": "Nhà phát triển iOS",
                 "position": "Bắc Kinh",
                 "description": "Stone đã hơn 5 năm kinh nghiệm trong phát triển iOS, từng làm việc cho các công ty IT Trung Quốc."
             },
@@ -722,8 +722,8 @@
             },
             "Candy": {
                 "name": "Candy",
-                "job": "Product Operations",
-                "position": "Beijing",
+                "job": "Vận hành sản phẩm",
+                "position": "Bắc Kinh",
                 "description": "Candy has 3 years of experience in Product Operations. She has previously worked for Meituan SaaS and Fangtianxia Research Institute, serving as an Operations specialist who dealt with data maintenance, system requests and optimization, and surveillance."
             },
             "Eric": {
