@@ -214,8 +214,8 @@
         "rightCommonPart": {
             "title": "Социальные Медиа",
             "email": "Электронная Почта",
-            "twitter": "Twitter",
-            "telegram": "Telegram",
+            "twitter": "Твиттер",
+            "telegram": "Телеграм",
             "website": "Веб-сайт"
         },
         "nameMap": {
@@ -292,7 +292,7 @@
                     "У меня есть твиттер, созданный для того, чтобы сообщать о состоянии ноды, обновлениях в экосистеме Vite и о важных событиях. Я также создал веб-сайт, на котором пользователи смогут посещать и просматривать состояние ноды / сети, использовать калькулятор голосов, чтобы увидеть потенциал заработка Vite, прочитать учебные пособия и принять участие в соревнованиях. Награды за кование также будут использованы для создания средств массовой информации, рекламы в Twitter и Reddit, а также всего, что будет способствовать росту Vite. Я открыт для всех идей."
                 ],
                 "plan": [
-                    "Create articles about the Vite platform/ecosystem, provide basic tutorials (for newcomers to read and learn), program/design a calculator to show how much a voter can earn just by voting for Snap Secure supernode, provide competitions so community can grow/become involved and also a possibility to help provide funding for developers to create Vite Dapps or migrate Ethereum Dapps over to the Vite platform."
+                    "Создание статей о платформе / экосистеме Vite, предоставление базовые учебных пособий (для новичков, для чтения и изучения), программирование / разработка калькулятора, для того, чтобы показать, сколько избиратель может заработать, просто проголосовав за суперноду Snap Secure, проведение соревнований, чтобы сообщество могло расти / становиться вовлечённым, а также возможность помочь в финансировании разработчиков для создания приложений Vite Dapps или переноса приложений Ethereum Dapps на платформу Vite."
                 ],
                 "name": "SnapSecure",
                 "description": "Securing Vite's Snapshot Chain, One Block At A Time."
