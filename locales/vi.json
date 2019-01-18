@@ -888,7 +888,7 @@
                     {
                         "title": "Các quy tắc cho việc tạo các Block",
                         "answer": [
-                            "The first 100 supernodes will be responsible for creating blocks. For each round (lasting 75 seconds), the first 25 nodes have a 23/25 chance to create a block, and the last 75 nodes have a 2/75 chance. The block creation rate will affect the final rewards for the supernodes."
+                            "100 Supernodes đầu tiên sẽ chịu trách nhiệm cho việc tạo ra các khối. Đối với mỗi vòng (kéo dài 75 giây), 25 node đầu tiên có 23/25 cơ hội để tạo ra một khối, và 75 node cuối có cơ hội 2/75. Tỷ lệ tạo khối sẽ ảnh hưởng đến các phần thưởng cuối cùng cho các supernodes."
                         ]
                     }
                 ]
@@ -1011,13 +1011,13 @@
                 ]
             },
             {
-                "question": "Token inflation (mining rewards) and consumption will be dynamically balanced under the premise of a total of 1 billion tokens?",
+                "question": "Token lạm phát (từ việc khai thác phần thưởng) và tiêu thụ sẽ được tự động cân bằng theo tiền đề của tổng cung 1 tỷ token?",
                 "answer": [
-                    "The amount of one billion tokens demonstrates initial circulation. Mining rewards are generated from additional token issuance: the inflation. As the system becomes widely used, tokens will continue to be burned. We hope that the circulation of tokens will attain the dynamic balance needed."
+                    "Số tiền token lưu thông ban đầu là một tỷ. Khai thác phần thưởng được tạo ra từ cấp token bổ sung là lạm phát. Khi hệ thống được sử dụng rộng rãi, token sẽ tiếp tục bị hủy. Chúng tôi hy vọng rằng việc lưu thông token sẽ đạt được sự cân bằng cần thiết."
                 ]
             },
             {
-                "question": "On Vite network, users can issue their own currency. Is the function similar to ERC20 token(s) on Ethereum? What advantages does Vite have with their system? What is the address of the VITE ERC20 token?",
+                "question": "Trên mạng Vite, người dùng có thể phát hành tiền tệ riêng của họ. Có phải chức năng tương tự như ERC20 token trên Ethereum? Lợi thế của Vite khi có hệ thống đó là gì? Địa chỉ của token VITE ERC20 là gì?",
                 "answer": [
                     "Vite's asset issuance is similar to ERC20, but in other ways it is different. ERC20 is a specification, but not a part of the Ethereum protocol. The issuance of new tokens with Ethereum requires the user to develop and deploy a smart contract. Token balance is maintained by the state of the contract. If contract development is flawed, security risks surface. For example, if a user forgets to refer to the SaftMath library, an overflow may occur. Vite token is built into the Vite protocol. The token balance is maintained in the state of the user's account. The new token and the Vite native token share the same underlying protocol thus bringing the same measure of security to the new token and native token. When a user decides to issue a new token in Vite, all they need to do is initiate a transaction. The transaction then puts the new token parameters in the transaction data. The fact that our network does not require smart contract writing inherently leaves less room for bug generation to occur."
                 ]
