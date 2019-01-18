@@ -59,7 +59,7 @@
         "slogan": "Hệ sinh thái phi tập trung hiệu suất cao",
         "whitePaper": "White-paper",
         "testnet": "TestNet",
-        "acttext": "Trading VITE on BITTREX Now",
+        "acttext": "VITE đang được giao dịch trên Bittrex",
         "actwait": "Hãy theo dõi!",
         "news": "Tin tức mới nhất",
         "starttoUse": "Bắt đầu cùng Vite"
@@ -570,41 +570,41 @@
             },
             "frank": {
                 "name": "Frank Deng",
-                "job": "Director of Vite Foundation",
-                "position": "Beijing",
-                "description": "Seasoned expert in Digital and Mobile Marketing. Graduated from Tsinghua University. Previously held a strategic position for Google Ad Operations. Former CEO of Suizong Technology. Co-founder of Yunke Technology."
+                "job": "Giám đốc Quỹ Vite",
+                "position": "Bắc Kinh",
+                "description": "Chuyên gia dày dạn về Tiếp thị Kỹ thuật số và Di động. Tốt nghiệp Đại học Thanh Hoa. Trước đây từng là vị trí chiến lược cho Google Ad Operations. Cựu CEO của Suizong Technology. Đồng sáng lập Yunke Technology."
             },
             "allen": {
                 "name": "Allen Liu",
-                "job": "Silicon Valley Technical Director",
+                "job": "Giám đốc kỹ thuật Silicon Valley",
                 "position": "Silicon Valley",
-                "description": "Senior Technical Specialist. Graduated from University of Science and Technology of China and Fudan University. Former HP Tech Lead. Former IBM Senior Architect and Product Manager. 10 years of experience working with high concurrency systems at multinational firms. Certified Scrum expert and Project Management Professional. "
+                "description": "Chuyên viên kỹ thuật cao cấp. Tốt nghiệp Đại học Khoa học và Công nghệ Trung Quốc và Đại học Fudan. Cựu lãnh đạo HP Tech. Cựu kiến trúc sư cao cấp của IBM và Giám đốc Sản phẩm. 10 năm kinh nghiệm làm việc với các hệ thống high concurrency tại các công ty đa quốc gia. Chứng nhận chuyên gia Scrum và Quản lý dự án chuyên nghiệp. "
             },
             "zhangli": {
                 "name": "Li Zhang",
-                "position": "Beijing",
-                "description": "Senior blockchain practitioner, investor. LinkVC Capital Partners, former CMO of F2pool , former business officer of Huobi."
+                "position": "Bắc Kinh",
+                "description": "Học viên blockchain cao cấp, nhà đầu tư. Thành viên của LinkVC Capital Partners, cựu CMO của F2pool, cựu nhân viên kinh doanh của Huobi."
             },
             "mirza": {
                 "name": "Mirza Uddin",
-                "position": "Beijing",
-                "description": "Mirza was previously a venture capitalist at Two Sigma, one of the largest quantitative hedge funds, where he was heavily involved in researching Blockchain startups. He also previously worked for Index Ventures and The Boston Consulting Group. Mirza earned his BA from Harvard University."
+                "position": "Bắc Kinh",
+                "description": "Mirza trước đây là một nhà đầu tư mạo hiểm tại Two Sigma, một trong những quỹ phòng hộ định lượng lớn nhất, nơi anh tham gia rất nhiều vào việc nghiên cứu các công ty khởi nghiệp Blockchain. Trước đây anh cũng từng làm việc cho Index Ventures và Tập đoàn tư vấn Boston. Mirza tốt nghiệp Cử nhân trường Đại học Harvard."
             },
             "ivan": {
                 "name": "Ivan Golovko",
                 "position": "Silicon Valley",
-                "description": "VP Strategy and Investor Relations of LegalThings One. Co-founder of Distributed.Fund and Distributed Alliance. Former CMO of ICODrops."
+                "description": "Phó giám đốc Chiến lược và Quan hệ đầu tư của LegalThings One. Đồng sáng lập củaDistributed.Fund và cựu CMO của ICODrops."
             },
             "Michael": {
                 "name": "Michael Gasiorek",
                 "position": "San Francisco",
-                "description": "Michael is a founder, writer, and community builder. He's the founding partner of Truth Cartel, a marketing & product agency distributing emerging technologies. Michael was Editor in Chief at Startup Grind, and now serves as Director of the Startup Grind SF and OneSalon communities. His written work includes two books on living and working in Asia, and columns in Inc and Fortune."
+                "description": "Michael là một người sáng lập, nhà văn và nhà xây dựng cộng đồng. Anh là thành viên sáng lập của Truth Cartel, một công ty tiếp thị và sản phẩm phân phối các công nghệ mới nổi. Michael là Tổng biên tập tại Startup Grind, và hiện là Giám đốc của cộng đồng Startup Grind SF và OneSalon. Tác phẩm viết của ông bao gồm hai cuốn sách về Sống và Làm việc ở châu Á, và Các cột trong Inc và Fortune."
             },
             "leo": {
                 "name": "Leo Chang",
-                "job": "Co-founder",
-                "position": "Beijing",
-                "description": "Seasoned Blockchain Investor and Senior Technical Expert. Previously led engineering efforts at Meituan-Dianping and Coinport."
+                "job": "Đồng sáng lập",
+                "position": "Bắc Kinh",
+                "description": "Nhà đầu tư Blockchain dày dạn và Chuyên gia kỹ thuật cao cấp. Trước đây anh từng dẫn đầu các nỗ lực kỹ thuật tại Meituan-Dianping và Coinport."
             },
             "Chris Li": {
                 "name": "Chris Li",
@@ -788,9 +788,9 @@
             },
             "Tony": {
                 "name": "Tony Wong",
-                "job": "Director of Operations",
-                "position": "Beijing",
-                "description": "Tony has over 6 years of experience working in the Product Operations field. He has previously worked for Meituan-Dianping and Tencent, handling products gross merchandise values of over 100 million active users. Tony is a truly seasoned project manager, responsible for leading many innovative projects."
+                "job": "Giám đốc vận hành",
+                "position": "Bắc Kinh",
+                "description": "Tony có hơn 6 năm kinh nghiệm làm việc trong lĩnh vực Hoạt động sản phẩm. Trước đây ông đã từng làm việc cho Meituan-Dianping và Tencent, xử lý các sản phẩm có giá trị hàng hóa với hơn 100 triệu người dùng hoạt động. Tony là một người quản lý dự án thực sự dày dạn, từng chịu trách nhiệm lãnh đạo nhiều dự án sáng tạo."
             },
             "Flanke": {
                 "name": "Flanke Zhang",
@@ -1007,7 +1007,7 @@
             {
                 "question": "What does the Vite team think about the recent (and future) public chain competition?",
                 "answer": [
-                    "Currently, public chain technology is still in its early stage of development. There is still a long ways to go before the industry matures. We will be open-minded when it comes to working with other teams to promote the development of public chain technology. In the future, the competition within the public chain sphere will evolve into ecosystem development. Vite will develop an ecosystem layout, contributing to the applications of blockchain technology."
+                    "Hiện nay, công nghệ public chain vẫn đang trong giai đoạn phát triển ban đầu. Vẫn còn một chặng đường dài phái trước để trở thành một ngành trưởng thành. Chúng tôi sẽ cởi mở khi hợp tác với các đội ngũ khác để thúc đẩy sự phát triển của công nghệ public chain. Trong tương lai, sự cạnh tranh trong phạm vi public chian sẽ phát triển thành sự phát triển hệ sinh thái. Vite sẽ phát triển bố cục hệ sinh thái, đóng góp cho các ứng dụng của công nghệ blockchain."
                 ]
             },
             {
@@ -1100,76 +1100,76 @@
             ]
         },
         "safety": {
-            "title": "Security",
+            "title": "Bảo mật",
             "tags": [
-                "Multi-Token Model",
+                "Mô hình đa token",
                 "Snapshot Chain"
             ]
         },
         "economical": {
-            "title": "Economicalness",
+            "title": "Kinh tế",
             "tags": [
-                "Quota-Based Model",
-                "Feeless Transactions",
-                "Built-in DEX"
+                "Mô hình dựa trên quota",
+                "Không mất phí giao dịch",
+                "Tích hơp DEX"
             ]
         },
         "easyusing": {
-            "title": "Usability",
+            "title": "Khả năng sử dụng",
             "tags": [
                 "Solidity++",
-                "Naming Services",
-                "Contract Scheduling",
-                "Contract Upgrades"
+                "Dịch vụ đặt tên",
+                "Lập trình hợp đồng",
+                "Nâng cấp hợp đồng"
             ]
         },
         "flexable": {
-            "title": "Scalability",
+            "title": "Khả năng mở rộng",
             "tags": [
-                "Cross-Chain Gateway",
-                "HDPoS Consensus",
-                "Smart Contracts"
+                "Cổng chuỗi chéo",
+                "Cơ chế HDPoS",
+                "Hợp đồng thông minh"
             ]
         }
     },
-    "ecoTitle": "Vite Ecosystem",
-    "ecoTitle2": "What Vite Can Do For You",
+    "ecoTitle": "Hệ sinh thái Vite",
+    "ecoTitle2": "Những Gì Vite Có Thể Làm Cho Bạn",
     "eco": {
         "worth": {
-            "title": "Ecosystem of Value",
+            "title": "Hệ sinh thái của sự giá trị",
             "pay": {
-                "title": "Payment",
+                "title": "Thanh toán",
                 "child": [
-                    "Instant Confirmation",
-                    "On-Chain Transaction",
-                    "Multiple Tokens"
+                    "Xác nhận tức thì",
+                    "Giao dịch On-chain",
+                    "Đa token"
                 ]
             },
             "finance": {
-                "title": "Token Issuance",
+                "title": "Phát hành token",
                 "child": [
-                    "One-Step Token Issuance",
-                    "Protocol-Level of Support"
+                    "Phát hành token một bước",
+                    "Hỗ trợ Giao thức cấp độ"
                 ]
             },
             "dex": {
-                "title": "Built-in DEX",
+                "title": "Tích hơp DEX",
                 "child": [
-                    "On-Chain Order Book",
-                    "Cross-Chain Support",
-                    "Fast Order-Matching"
+                    "Đặt hàng onchain",
+                    "Hỗ trợ chuỗi chéo",
+                    "Đặt hàng kết hợp nhanh"
                 ]
             }
         },
         "dapps": {
-            "title": "Ecosystem of dApps",
+            "title": "Hệ sinh thái của dApp",
             "child": [
-                "Games",
-                "Local Services",
-                "Entertainment",
-                "Social Networking Services",
-                "Intellectual Property",
-                "IoT"
+                "Trò chơi",
+                "Dịch vụ địa phương",
+                "Giải trí",
+                "Dịch vụ mạng xã hội",
+                "Sở hữu trí tuệ",
+                "Internet vạn vật"
             ]
         }
     }
