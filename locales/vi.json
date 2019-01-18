@@ -7,7 +7,7 @@
             "index": "Vite - Hệ sinh thái phi tập trung hiệu suất cao",
             "careers": "Chào mừng bạn tham gia Vite Labs, hãy cùng tạo ra một nền tảng ứng dụng phi tập trung thế hệ mới hiệu suất cao",
             "faq": "Các câu hỏi thường gặp về Vite",
-            "technology": "The key technologies of Vite: DAG、Snapshot Chain、Asynchronous Architecture、Reactive Contract、Quota leasing、Loopring Integrated、Timer scheduling、Contract Upgrade、solidity++"
+            "technology": "Các công nghệ then chốt của Vite: DAG, Snapshot Chain, Cấu trúc không đồng bộ, Hợp đồng phản ứng, Sản xuất quota, Tích hợp Loopring, Điều chỉnh thời gian, Cập nhật hợp đồng, Solidity++"
         }
     },
     "exchange": {
@@ -15,49 +15,49 @@
         "bittrex": "BITTREX"
     },
     "community": {
-        "title": "Community",
-        "star": "Community Star"
+        "title": "Cộng đồng",
+        "star": "Cộng đồng tiêu biểu"
     },
     "media": {
         "medium": "Medium",
         "bitcointalk": "Bitcointalk",
-        "blog": "Technology Blog",
-        "forum": "Forum"
+        "blog": "Blog công nghệ",
+        "forum": "Diễn đàn"
     },
     "nav": {
-        "index": "HOME",
-        "production": "PRODUCTS",
-        "team": "TEAM",
-        "partnership": "PARTNERSHIPS",
-        "community": "COMMUNITY",
-        "exchange": "EXCHANGES",
-        "media": "MEDIA",
-        "faq": "FAQ",
-        "about": "ABOUT",
+        "index": "TRANG CHỦ",
+        "production": "SẢN PHẨM",
+        "team": "ĐỘI NGŨ",
+        "partnership": "ĐỐI TÁC\n",
+        "community": "CỘNG ĐỒNG",
+        "exchange": "SÀN GIAO DỊCH",
+        "media": "TRUYỀN THÔNG",
+        "faq": "CÂU HỎI THƯỜNG GẶP",
+        "about": "VỀ VITE LABS",
         "wiki": "WIKI",
-        "superNodes": "Guide for SBP (Snapshot Block Producer)",
-        "nodeList": "SBP Candidates",
+        "superNodes": "Hướng dẫn cho SBP (Snapshot Block Producer)",
+        "nodeList": "Ứng cử viên SBP",
         "notice": {
-            "name": "SUPERNODES",
-            "specific": "Guide for SBP (Snapshot Block Producer)",
-            "apply": "Apply for SBP (Snapshot Block Producer) "
+            "name": "SUPER-NODE",
+            "specific": "Hướng dẫn cho SBP (Snapshot Block Producer)",
+            "apply": "Đăng ký làm SBP (Snapshot Block Producer) "
         }
     },
     "about": {
-        "whitepaper": "White Paper",
+        "whitepaper": "White-paper",
         "blog": "Blog"
     },
     "home": {
-        "explorer": "Explorer",
-        "webWallet": "Web Wallet",
+        "explorer": "Trình duyệt",
+        "webWallet": "Ví web",
         "wallet": {
-            "name": "Vite App",
-            "en": "Outside China Mainland",
-            "zh": "China Mainland"
+            "name": "Ứng dụng ví",
+            "en": "Ngoài Trung Quốc",
+            "zh": "Trung Quốc"
         },
         "header": "Vite",
-        "slogan": "High-Performance Decentralized Ecosystem",
-        "whitePaper": "White Paper",
+        "slogan": "Hệ sinh thái phi tập trung hiệu suất cao",
+        "whitePaper": "White-paper",
         "testnet": "TestNet",
         "acttext": "Vote for Supernode Operators </br> Get Awarded VITE!",
         "actwait": "Stay tuned!",
