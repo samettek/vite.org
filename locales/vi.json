@@ -907,18 +907,18 @@
                 "question": "Kế hoạch ưu đãi",
                 "answer": [
                     "1. Việc vận hành SBP trong giai đoạn TestNet sẽ chia sẻ ưu đãi hàng năm, tương đương với 3% tổng số token đã phát hành. Điều này có nghĩa là 30 triệu VITE (3% tổng nguồn cung hiện tại là 1 tỷ VITE).",
-                    "2. Supernode rewards are divided into two parts: 50% for creating blocks and 50% for voting. Among the 30 million token rewards per year, 15 million are awarded to the supernodes that create blocks, and 15 million are awarded to the supernodes that were elected by the community (in TestNet stage, this will be the top 100 supernodes).<br/>If a supernode were to keep mining for one year, it could get 600,000 VITE from the block creation reward ((30 million / 25 nodes) * 50%), plus the reward from voting.<br/> Voting reward calculation: according to the supernode's stake and voting ratio, (the node staking tokens + voting) / (all supernode staking tokens + all voting) * (voting reward). Each round will be 75 seconds. The daily sum would be multiplied by the block rate.<br/>A single supernode daily reward would be: 1,643.835 VITEs of blocks creation rewards, plus additional staking/voting rewards",
-                    "3. There are many Airdrop plans and rewards for the TestNet stage. We will increase the number of tokens issued to reward SBPs after the MainNet is launched.",
-                    "4. Reward Extraction, Only the rewards from the previous day can be extracted."
+                    "2. Phần thưởng supernode được chia thành hai phần: 50% cho việc tạo khối và 50% cho việc bỏ phiếu. Trong số 30 triệu phần thưởng token mỗi năm, 15 triệu phần thưởng được trao cho các supernode tạo ra các khối và 15 triệu phần thưởng được trao cho các supernode được cộng đồng bầu chọn (trong giai đoạn TestNet, 100 supernode đầu tiên). /> Nếu một supernode tiếp tục khai thác trong một năm, nó có thể nhận được 600.000 VITE từ phần thưởng tạo khối ((30 triệu / 25 node) * 50%), cộng với phần thưởng từ bỏ phiếu. <br/> Tính toán phần thưởng bỏ phiếu: theo tỷ lệ cổ phần và tỷ lệ bỏ phiếu của supernode, (node stake token + bỏ phiếu) / (tất cả token supernode stake + tất cả phiếu) * (phần thưởng bỏ phiếu). Mỗi vòng sẽ là 75 giây. Tổng số tiền hàng ngày sẽ được nhân với tỷ lệ khối. <br/> Một phần thưởng hàng ngày cho supernode duy nhất sẽ là: 1.643.835 VITE của phần thưởng tạo khối, cộng với phần thưởng stake/ bỏ phiếu bổ sung",
+                    "3. Có nhiều kế hoạch và phần thưởng Airdrop trong giai đoạn TestNet. Chúng tôi sẽ tăng số lượng token được phát hành để thưởng cho SBP sau khi MainNet được ra mắt.",
+                    "4. Trích xuất phần thưởng, Chỉ có thể trích xuất phần thưởng từ ngày hôm trước."
                 ]
             },
             {
                 "orderNum": "V.",
-                "question": "An explanation of the VITE token in TestNet",
+                "question": "Giải thích về token VITE trong TestNet",
                 "answer": [
-                    "1. The VITE tokens in TestNet are used for SBP election and voting. They are added to the network from the mapping of VITE ERC20 tokens.",
-                    "2. The transfer of VITE ERC 20 tokens to VITE TestNet tokens cannot be reverted. You will not be able to circulate the TestNet tokens on the secondary market in the short term.",
-                    "3. After the MainNet is launched, VITE tokens on the TestNet and VITE ERC20 tokens will both be converted to VITE tokens on the MainNet. "
+                    "1. Token VITE trong TestNet được sử dụng cho bầu cử và bỏ phiếu SBP. Chúng được thêm vào mạng lười từ việc chuyển đổi token VITE ERC20.",
+                    "2. Việc chuyển token VITE ERC20 sang VITE Testnet token không thể phục hồi. Bạn sẽ không thể lưu hành Testnet token trên thị trường thứ cấp trong một thời gian ngắn.",
+                    "3. Sau khi ra mắt MainNet, token VITE trên TestNet và VITE ERC20 sẽ đều được chuyển đổi sang token VITE rên MainNet. "
                 ]
             }
         ]
@@ -927,10 +927,10 @@
         "title": "VITE Q&A",
         "questions": [
             {
-                "question": "What is Vite?",
+                "question": "Vite là gì?",
                 "answer": [
-                    "Vite is a general-purpose platform for decentralized applications.  It is designed to support industrial-strength applications by offering high throughput, low latency and scalability while also providing security.",
-                    "The Vite team are dedicated to addressing current performance and scalability issues of infrastructural chains, so that truly practical applications with high-frequency data requirements can be built in a blockchain framework."
+                    "Vite là một nền tảng đa năng cho các ứng dụng phi tập trung. Nó được thiết kế để hỗ trợ các ứng dụng cường độ công nghiệp bằng cách cung cấp thông lượng cao, độ trễ thấp và khả năng mở rộng và đảm bảo bảo mật.",
+                    "Đội ngũ Vite tập trung giải quyết các vấn đề về hiệu suất và khả năng mở rộng hiện tại của các chuỗi cơ sở hạ tầng, do đó, các ứng dụng thực tế với yêu cầu dữ liệu tần số cao có thể được xây dựng trong khung blockchain."
                 ]
             },
             {
