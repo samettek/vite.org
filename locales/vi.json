@@ -860,33 +860,33 @@
                     "5. Thông số kỹ thuật cài đặt của trung tâm dữ liệu của bạn. (Khuyến nghị: 8 core, RAM 16 GB, 100Mbps)",
                     "6. Vị trí của máy chủ của bạn. ",
                     "7. Vui lòng mô tả chi tiết cách bạn dự định gia tăng giá trị cho hệ sinh thái của Vite sau khi trở thành SBP.",
-                    "8. Plans for gaining social media exposure (significant presence within our social media reflects a certain level of commitment to nurturing the growth of Vite's community). <br/>Link for submitting your information: <a href='https://docs.google.com/forms/d/1u2HC3ecC3rkQk58Kn9D8eBNhN8DpkAB2DMY06QNzHvk/viewform?edit_requested=true' target='_blank'>https://docs.google.com/forms/d/1u2HC3ecC3rkQk58Kn9D8eBNhN8DpkAB2DMY06QNzHvk/viewform?edit_requested=true</a>"
+                    "8. Kế hoạch tiếp xúc của bạn trên phương tiện truyền thông (sự hiện diện đáng kể trong phương tiện truyền thông của chúng tôi phản ánh mức độ cam kết nhất định để nuôi dưỡng phát triển cộng đồng Vite). <br/> Link để gửi thông tin của bạn: <a href='https://docs.google.com/forms/d/1u2HC3ecC3rkQk58Kn9D8eBNhN8DpkAB2DMY06QNzHvk/viewform?edit_Vquested=true=.com / Forms / d / 1u2HC3ecC3rkQk58Kn9D8eBNhN8DpkAB2DMY06QNzHvk / viewform? edit_Vquested = true </a>"
                 ]
             },
             {
-                "orderNum": "II.",
-                "question": "Registration of SBP, Voting and Creating Blocks",
+                "orderNum": "II. ",
+                "question": "Đăng ký SBP, Bỏ phiếu và Tạo block",
                 "second": [
                     {
-                        "title": "Follow these steps to register a supernode and prepare for election:",
+                        "title": "Thực hiện theo các bước sau để đăng ký là supernode và chuẩn bị cho cuộc bầu cử:",
                         "answer": [
-                            "1. Migrate the Vite ERC20 tokens you wish to stake for your SBP. <br/> In mid-November, migrate your ERC20 Vite tokens to the Vite TestNet via the smart contract provided by Vite. ",
-                            "2. Stake 500,000 VITE (this amount will increase to 1,000,000 VITE after the MainNet is launched). These tokens will be locked for 3 months, as required for SBPs. ",
-                            "3. Receive at least 200,000 votes (each vote is represented by one VITE). With each new community supernode that receives a minimum of 200,000 votes, Vite will stop one of its own official supernodes running. The community supernode will become the new supernode. ",
-                            "4. Run the server for the SBP (more detailed information will be released later)"
+                            "1. Di chuyển token Vite ERC20 mà bạn muốn đặt cọc cho SBP của mình. <br/> Vào giữa tháng 11, di chuyển token Vite ERC20 của bạn sang Vite TestNet thông qua hợp đồng thông minh do Vite cung cấp. ",
+                            "2. Cược 500.000 VITE (số tiền này phải là 1.000.000 VITE sau khi ra mắt MainNet). Các token này sẽ bị khóa trong 3 tháng, theo như yêu cầu đối với SBP. ",
+                            "3. Nhận được ít nhất 200.000 phiếu (mỗi phiếu là 01 VITE). Với mỗi một supernode cộng đồng nhận được tối thiểu là 200.000 vote, Vite sẽ ngừng một trong những supernode chính thức riêng của mình đang chạy. Supernode cộng đồng sẽ trở thành supernode mới. ",
+                            "4. Chạy máy chủ cho SBP (thông tin chi tiết hơn sẽ được thông báo sau)"
                         ]
                     },
                     {
-                        "title": "Voting",
+                        "title": "Bỏ phiếu",
                         "answer": [
-                            "1. Each VITE can only be used to vote for one SBP. ",
-                            "2. Each address can only be used to vote for one SBP. The number of votes from that address will equal the entire amount of VITE held in that address. ",
-                            "3. Voting from a given address does not lock up the VITE tokens stored at that address. These tokens may be transferred at any time, however, it would inherently affect the total number of votes going towards the supernode.",
-                            "4. The user may change their unique address's voting target. The change will take effect within 75 seconds at most. "
+                            "1. Mỗi VITE chỉ có thể được sử dụng để bình chọn cho một SBP. ",
+                            "2. Mỗi địa chỉ ví chỉ có thể được sử dụng để bình chọn cho một SBP. Số phiếu từ địa chỉ đó sẽ bằng toàn bộ số VITE địa chỉ ví đó có. ",
+                            "3. Bỏ phiếu từ một địa chỉ nhất định không phải là sẽ khóa token VITE được lưu trữ tại địa chỉ đó. Các token có thể được giao dịch bất cứ lúc nào. Tuy nhiên, tổng số VITE sẽ ảnh hưởng đến tổng số phiếu bầu cho supernode.",
+                            "4. Người sử dụng có thể thay đổi địa chỉ duy nhất của họ bầu cử. Thay đổi sẽ có hiệu lực trong vòng nhiều nhất 75 giây. "
                         ]
                     },
                     {
-                        "title": "Rules for Creating Blocks",
+                        "title": "Các quy tắc cho việc tạo các Block",
                         "answer": [
                             "The first 100 supernodes will be responsible for creating blocks. For each round (lasting 75 seconds), the first 25 nodes have a 23/25 chance to create a block, and the last 75 nodes have a 2/75 chance. The block creation rate will affect the final rewards for the supernodes."
                         ]
