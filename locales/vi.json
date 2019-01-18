@@ -1019,57 +1019,57 @@
             {
                 "question": "Trên mạng Vite, người dùng có thể phát hành tiền tệ riêng của họ. Có phải chức năng tương tự như ERC20 token trên Ethereum? Lợi thế của Vite khi có hệ thống đó là gì? Địa chỉ của token VITE ERC20 là gì?",
                 "answer": [
-                    "Vite's asset issuance is similar to ERC20, but in other ways it is different. ERC20 is a specification, but not a part of the Ethereum protocol. The issuance of new tokens with Ethereum requires the user to develop and deploy a smart contract. Token balance is maintained by the state of the contract. If contract development is flawed, security risks surface. For example, if a user forgets to refer to the SaftMath library, an overflow may occur. Vite token is built into the Vite protocol. The token balance is maintained in the state of the user's account. The new token and the Vite native token share the same underlying protocol thus bringing the same measure of security to the new token and native token. When a user decides to issue a new token in Vite, all they need to do is initiate a transaction. The transaction then puts the new token parameters in the transaction data. The fact that our network does not require smart contract writing inherently leaves less room for bug generation to occur."
+                    "Phát hành tài sản của Vite tương tự như ERC20, nhưng theo những cách khác thì khác. ERC20 là một đặc điểm kỹ thuật, nhưng không phải là một phần của giao thức Ethereum. Việc phát hành token mới với Ethereum yêu cầu người dùng phát triển và triển khai hợp đồng thông minh. Số dư token được duy trì bởi trạng thái của hợp đồng. Nếu phát triển hợp đồng là thiếu sót, thì bảo mật sẽ có rủi ro. Ví dụ: nếu người dùng quên tham khảo thư viện SaftMath, lỗi tràn bộ nhớ đệm sẽ xảy ra. Token Vite được tích hợp vào giao thức Vite. Số dư token được duy trì ở trạng thái tài khoản của người dùng. Token mới và token gốc Vite chia sẻ cùng một giao thức cơ bản, do đó mang lại cùng một biện pháp bảo mật cho token mới và token gốc. Khi người dùng quyết định phát hành toiken mới trong Vite, tất cả những gì họ cần làm là bắt đầu một giao dịch. Giao dịch sau đó đặt các tham số token mới trong dữ liệu giao dịch. Thực tế là mạng của chúng tôi không yêu cầu viết hợp đồng thông minh vốn đã để ngăn chặn được lỗi phát sinh."
                 ]
             },
             {
-                "question": "What is the address of the VITE ERC20 token?",
+                "question": "Địa chỉ của token VITE ERC20 là gì?",
                 "answer": [
-                    "Currently, the VITE ERC20 token address hosted on Ethereum's platform is https: //etherscan.io/token/0x1b793E49237758dBD8b752AFC9Eb4b329d5Da016, when Vite MainNet is launched, all of the ERC20 VITE tokens will be migrated to Vite MainNet tokens at a 1:1 ratio."
+                    "Hiện tại, địa chỉ token VITE ERC20 được lưu trữ trên nền tảng của Ethereum là https: //etherscan.io/token/0x1b793E49237758dBD8b752AFC9Eb4b329d5Da016, khi Vite MainNet ra mắt, tất cả VITE ERC20 sẽ được di chuyển lên Vite Mainnet với quy đổi 1:1."
                 ]
             },
             {
-                "question": "Can we mine Vite tokens?",
+                "question": "Chúng tôi có thể đào Vite token không?",
                 "answer": [
-                    "Vite's consensus mechanism is similar to EOS's. It generates 25 snapshot block producers through the DPoS algorithm. The block producers, in turn, receive mining rewards."
+                    "Cơ chế đồng thuận của Vite tương tự như của EOS. Nó tạo ra 25 snapshot block producers thông qua các thuật toán DPoS. Các nhà sản xuất khối, lần lượt, nhận được phần thưởng đào."
                 ]
             }
         ]
     },
     "investor": {
-        "title": "Our Investors"
+        "title": "Các nhà đầu tư của chúng tôi"
     },
     "urls": {
         "telegram": {
-            "ann": "Announcement Channel",
-            "english": "English",
-            "chinese": "Chinese",
-            "vietnamese": "Vietnamese",
-            "korean": "Korean",
-            "russia": "Russia",
-            "thailand": "Thailand"
+            "ann": "Kênh thông báo",
+            "english": "Tiếng Anh",
+            "chinese": "Tiếng Trung",
+            "vietnamese": "Tiếng Việt",
+            "korean": "Tiếng Hàn",
+            "russia": "Tiếng Nga",
+            "thailand": "Tiếng Thái"
         },
         "whitePaper": "WHITEPAPER",
         "whitePaperList": {
-            "english": "English",
-            "chinese": "Chinese",
-            "french": "French",
-            "korean": "Korean",
-            "vietnamese": "Vietnamese",
-            "russian": "Russian"
+            "english": "Tiếng Anh",
+            "chinese": "Tiếng Trung",
+            "french": "Tiếng Pháp",
+            "korean": "Tiếng Hàn",
+            "vietnamese": "Tiếng Việt",
+            "russian": "Tiếng Nga"
         },
-        "document": "Documentation",
+        "document": "Tài liệu hướng dẫn",
         "loopring": "Loopring",
-        "faq": "FAQ",
+        "faq": "Những câu hỏi thường gặp",
         "medium": "Medium",
-        "introduction": "Introduction",
-        "tokenUrl": "ERC20 Address",
+        "introduction": "Giới thiệu",
+        "tokenUrl": "Địa chỉ ERC20",
         "btt": "Bitcointalk",
-        "telegramEn": "Telegram English",
-        "telegramZh": "Telegram Chinese",
+        "telegramEn": "Telegram Tiếng Anh",
+        "telegramZh": "Telegram Trung Quốc",
         "telegramAnn": "Telegram ",
-        "youtube": "Youtube",
-        "blog": "Technology Blog"
+        "youtube": "YouTube",
+        "blog": "Blog công nghệ"
     },
     "urlSrc": {
         "telegram": "https://t.me/vite_en",
@@ -1077,19 +1077,19 @@
         "introduction": "https://vite.wiki/introduction/"
     },
     "utils": {
-        "readMore": "Read More"
+        "readMore": "Đọc thêm"
     },
     "footer": {
-        "learning": "LEARN",
-        "about": "ABOUT",
-        "media": "MEDIA"
+        "learning": "TÌM HIỂU",
+        "about": "VỀ",
+        "media": "TRUYỀN THÔNG"
     },
     "joinMailing": {
         "title": "Subscribe to Vite to Get Exclusive Benefits",
-        "button": "Subscribe",
-        "placeholder": "Email Address"
+        "button": "Đăng ký",
+        "placeholder": "Địa chỉ Email"
     },
-    "featureTitle": "Vite Fundamentals",
+    "featureTitle": "Nguyên tắc cơ bản của Vite",
     "featureTitle2": "Why Does Vite Stand Out",
     "features": {
         "performance": {
