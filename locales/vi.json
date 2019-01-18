@@ -1,12 +1,12 @@
 {
     "lang": "EN",
     "head": {
-        "title": "Vite - High-Performance Decentralized Ecosystem",
-        "document": "Document",
+        "title": "Vite - Hệ sinh thái phi tập trung hiệu suất cao",
+        "document": "Tài liệu",
         "description": {
-            "index": "Vite - High-Performance Decentralized Ecosystem",
-            "careers": "Welcome to join our Vitelabs, Let's create A New Generation of High-Performance Decentralized Application Platform",
-            "faq": "All about FAQs of Vite",
+            "index": "Vite - Hệ sinh thái phi tập trung hiệu suất cao",
+            "careers": "Chào mừng bạn tham gia Vite Labs, hãy cùng tạo ra một nền tảng ứng dụng phi tập trung thế hệ mới hiệu suất cao",
+            "faq": "Các câu hỏi thường gặp về Vite",
             "technology": "The key technologies of Vite: DAG、Snapshot Chain、Asynchronous Architecture、Reactive Contract、Quota leasing、Loopring Integrated、Timer scheduling、Contract Upgrade、solidity++"
         }
     },
