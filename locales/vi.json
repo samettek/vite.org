@@ -934,25 +934,25 @@
                 ]
             },
             {
-                "question": "Which exchange(s) will Vite be listed on?",
+                "question": "Vite sẽ được niêm yết trên các sàn giao dịch nào?",
                 "answer": [
-                    "Currently we have launched on BITTREX and OKEX exchanges, we are also in contact with other exchanges. Stay tuned."
+                    "Hiện tại, VITE đang được niêm yết trên BITTREX và OKEX, chúng tôi cũng đang liên hệ với các sàn giao dịch khác. Theo dõi chúng tôi!"
                 ]
             },
             {
-                "question": "What is the public WeChat account of Vite?",
+                "question": "Tài khoản WeChat của Vite là gì?",
                 "answer": [
-                    "Our official account: vitelabs"
+                    "Tài khoản Wechat chính thức của chúng tôi: vitelabs"
                 ],
-                "key": "wechat"
+                "key": "Wechat"
             },
             {
-                "question": "What is Vite’s biggest innovation as compared to other public chains?",
+                "question": "Cải tiến lớn nhất của Vite so với các public chain khác là gì?",
                 "answer": [
-                    "The biggest innovation is the asynchronous design, which can be understood in three aspects: ",
-                    "First, we are introducing the concept of asynchronous design into smart contracts.  The Nano project (one of three well-known chains that use DAG) separates a transfer action into a send and a receive transaction. We are building upon this mechanism, and will separate the call and the response of a smart contract, so they can take place asynchronously.",
-                    "Second, the writing and verification of a transaction also happen asynchronously in Vite.  In traditional blockchain setup (e.g., Bitcoin), the speed of writing transactions into a ledger is limited by the speed of packing.  But Vite allows writing of many transactions into the ledger within the constraints of the TPS.  Because the asynchronous setup allows the transactions to happen at an even speed, this reduces the peaks and troughs of the speed of transaction writing, thus optimizing usage of resources and increasing system throughput.  Also, the transactions of two users will no longer be blocked; that is, we will no longer see a scenario where a user sends a large amount of transactions that prevents the transactions of other users from taking place.",
-                    "Third, calls between contracts will also happen asynchronously in Vite.  The calls between smart contracts in Ethereum are implemented through messaging (aka insider transactions); and the calls either all succeed or all fail, as per an atomic ACID semantic.  To solve for this bottleneck in performance, we take a page from well-developed solutions in centralized Internet technologies, and will make use of a message-driven architecture.  As such, contracts do not share states and communicate via messages."
+                    "Cải tiến lớn nhất là thiết kế không đồng bộ, có thể được hiểu ở ba khía cạnh sau: ",
+                    "Đầu tiên, chúng tôi đang giới thiệu khái niệm thiết kế không đồng bộ vào các hợp đồng thông minh. Dự án Nano (một trong public chain nổi tiếng sử dụng DAG) tách hành động chuyển tiền thành giao dịch gửi và nhận. Chúng tôi đang xây dựng theo cơ chế này, và sẽ phân tách cuộc gọi và phản hồi của hợp đồng thông minh, để chúng có thể diễn ra không đồng bộ.",
+                    "Thứ hai, việc viết và xác minh giao dịch cũng xảy ra không đồng bộ trong Vite. Trong thiết lập blockchain truyền thống (ví dụ: Bitcoin), tốc độ ghi các giao dịch vào sổ cái bị giới hạn bởi tốc độ xử lí. Nhưng Vite cho phép viết nhiều giao dịch vào sổ cái trong các ràng buộc của TPS. Bởi vì thiết lập không đồng bộ cho phép các giao dịch diễn ra với tốc độ đồng đều, điều này làm giảm các đỉnh và đáy của tốc độ viết giao dịch, do đó tối ưu hóa việc sử dụng tài nguyên và tăng thông lượng hệ thống. Ngoài ra, các giao dịch của hai người dùng sẽ không còn bị chặn; nghĩa là, chúng ta sẽ không còn thấy một viễn cảnh khi một người dùng gửi  lượng lớn giao dịch sẽ ngăn cản xác nhận các giao dịch của người dùng khác.",
+                    "Thứ ba, các cuộc gọi giữa các hợp đồng cũng sẽ diễn ra không đồng bộ trong Vite. Các cuộc gọi giữa các hợp đồng thông minh trong Ethereum được thực hiện thông qua tin nhắn (còn gọi là giao dịch nội bộ); và các cuộc gọi đều thành công hoặc tất cả đều thất bại, theo ngữ nghĩa ACID nguyên tử. Để giải quyết vấn đề tắc nghẽnhiệu suất này, chúng tôi lấy một trang từ các giải pháp được phát triển tốt trong các công nghệ Internet tập trung và sẽ sử dụng kiến trúc hướng thông điệp. Như vậy, hợp đồng không chia sẻ trạng thái và liên lạc qua tin nhắn."
                 ]
             },
             {
