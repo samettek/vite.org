@@ -841,25 +841,25 @@
         },
         "achpay": {
             "desc": {
-                "text1": "ACHPAY is an non-profit foundation that is invested by Vite Ecosystem Foundation, and Vite Ecosystem Foundation held ACHPAY token as a shareholder.",
-                "text2": "Meanwhile, Vite will participate in ACHPAY's payment network integration. The Lightning Network will have access to blockchain through Vite system to improve payment efficiency and secure asset circulation."
+                "text1": "ACHPAY là một tổ chức phi lợi nhuận được đầu tư bởi Quỹ hệ sinh thái Vite và Quỹ hệ sinh thái Vite đã tổ chức mã thông báo ACHPAY với tư cách là một cổ đông.",
+                "text2": "Trong khi đó, Vite sẽ tham gia tích hợp mạng thanh toán của ACHPAY. Mạng Lightning sẽ có quyền truy cập vào blockchain thông qua hệ thống Vite để cải thiện hiệu quả thanh toán và lưu thông tài sản an toàn."
             }
         }
     },
     "superNodes": {
-        "title": "Guide for SBP",
+        "title": "Hướng dẫn cho SBP",
         "contents": [
             {
                 "orderNum": "I.",
-                "question": "Information you need to submit",
+                "question": "Thông tin bạn cần gửi",
                 "answer": [
-                    "1. Name and logo for the supernode. These are necessary, as it helps create an identity for you within the community. ",
-                    "2. Email address for the entity that will operate the SBP. ",
-                    "3. Campaign slogan. ",
-                    "4. Information about the team: a list of key members and their backgrounds (please include profile photos and location of residence). ",
-                    "5. Setup specifications of your data center. (Recommended: 8 core, 16GB RAM, 100Mbps)",
-                    "6. Location of your server. ",
-                    "7. Please describe in detail how you plan to add value to Vite's ecosystem after becoming a SBP.",
+                    "1. Tên và logo cho Supernode. Đây là những điều cần thiết, vì nó giúp tạo ra bản sắc của riêng bạn trong cộng đồng. ",
+                    "2. Địa chỉ email sẽ vận hành SBP. ",
+                    "3. Khẩu hiệu chiến dịch. ",
+                    "4. Thông tin về đội ngũ: Danh sách các thành viên chủ chốt và thông tin của họ (vui lòng đính kèm ảnh hồ sơ và nơi cư trú). ",
+                    "5. Thông số kỹ thuật cài đặt của trung tâm dữ liệu của bạn. (Khuyến nghị: 8 core, RAM 16 GB, 100Mbps)",
+                    "6. Vị trí của máy chủ của bạn. ",
+                    "7. Vui lòng mô tả chi tiết cách bạn dự định gia tăng giá trị cho hệ sinh thái của Vite sau khi trở thành SBP.",
                     "8. Plans for gaining social media exposure (significant presence within our social media reflects a certain level of commitment to nurturing the growth of Vite's community). <br/>Link for submitting your information: <a href='https://docs.google.com/forms/d/1u2HC3ecC3rkQk58Kn9D8eBNhN8DpkAB2DMY06QNzHvk/viewform?edit_requested=true' target='_blank'>https://docs.google.com/forms/d/1u2HC3ecC3rkQk58Kn9D8eBNhN8DpkAB2DMY06QNzHvk/viewform?edit_requested=true</a>"
                 ]
             },
