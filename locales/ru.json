@@ -280,16 +280,16 @@
                     "Мэтью Фам (AKA Plasmo) Впервые я заинтересовался крипто / блокчейном, когда узнал о Биткойне в 2012 году. Вложил небольшое количество и с тех пор, я действительно влюбился во все, что связано с крипто / блокчейном (особенно смарт контракты). Ранее я занимался хостингом нод, майнингом и инвестированием / использованием одного из первых в мире майнеров Bitcoin массового производства (Kncminer), бета-тестированием первой версии Ubuntu Linux еще в 2004 году и даже управлял своими собственными бизнес-хостингами игровых серверов /соревнований. Я обнаружил Vite еще в мае, прочитал «Белую бумагу» Vite, просмотрел обширный опыт команды и подумал про себя, что это может стать чем-то большим. Я хочу помочь Vite расти. Я нахожусь в Мельбурне, Австралия."
                 ],
                 "config": [
-                    "Intel i5-8600K (6 cores), 16GB DDR4 memory, Samsung SSD, 100Mbps connection"
+                    "Intel i5 - 8600K (6 ядер), 16 ГБ памяти DDR4, Samsung SSD, 100Mbps соединения"
                 ],
                 "location": [
-                    "Melbourne, Australia"
+                    "Мельбурн, Австралия"
                 ],
                 "photo": [
 
                 ],
                 "medium": [
-                    "I have a Twitter created to provide status on node status, read updates on the Vite ecosystem, and to find out about important events. I have also created a website where users will be able to visit and view node/network status, use the vote calculator to see Vite earning potential, read tutorials and to enter competitions. Forging rewards will also be used to create media, advertisements on Twitter and Reddit, and basically anything to help promote Vite's growth. I'm open to all ideas. "
+                    "У меня есть твиттер, созданный для того, чтобы сообщать о состоянии ноды, обновлениях в экосистеме Vite и о важных событиях. Я также создал веб-сайт, на котором пользователи смогут посещать и просматривать состояние ноды / сети, использовать калькулятор голосов, чтобы увидеть потенциал заработка Vite, прочитать учебные пособия и принять участие в соревнованиях. Награды за кование также будут использованы для создания средств массовой информации, рекламы в Twitter и Reddit, а также всего, что будет способствовать росту Vite. Я открыт для всех идей."
                 ],
                 "plan": [
                     "Create articles about the Vite platform/ecosystem, provide basic tutorials (for newcomers to read and learn), program/design a calculator to show how much a voter can earn just by voting for Snap Secure supernode, provide competitions so community can grow/become involved and also a possibility to help provide funding for developers to create Vite Dapps or migrate Ethereum Dapps over to the Vite platform."
