@@ -724,67 +724,67 @@
                 "name": "Candy",
                 "job": "Vận hành sản phẩm",
                 "position": "Bắc Kinh",
-                "description": "Candy has 3 years of experience in Product Operations. She has previously worked for Meituan SaaS and Fangtianxia Research Institute, serving as an Operations specialist who dealt with data maintenance, system requests and optimization, and surveillance."
+                "description": "Candy có 3 năm kinh nghiệm trong vận hành sản phẩm. Cô đã từng làm việc cho Meituan SaaS và viện nghiên cứu Fangtianxia, vị trí chuyên viên về vận hành đảm nhận bảo trì dữ liệu, yêu cầu hệ thống và tối ưu hóa & giám sát."
             },
             "Eric": {
                 "name": "Eric Wong",
-                "job": "System Architect",
-                "position": "Beijing",
-                "description": "Eric has previously worked with top IT firms in China, including Baidu. He is an expert in back-end services and data system development. He has experience with system architecture, designing systems that can process over 20,000 queries per second. Eric has also formerly led an engineering team of 15+ members, so he has management experience as well."
+                "job": "Kiến trúc sư Hệ thống",
+                "position": "Bắc Kinh",
+                "description": "Eric đã từng làm việc với các công ty CNTT hàng đầu ở Trung Quốc, bao gồm cả Baidu. Anh là chuyên gia trong phát triển hệ thống dữ liệu và dịch vụ back-end. Anh có kinh nghiệm với các hệ thống kiến trúc, thiết kế hệ thống có thể xử lý truy vấn hơn 20.000 mỗi giây. Eric trước kia cũng đã đứng đầu một đội ngũ kỹ thuật gồm hơn 15 thành viên do đó, anh cũng đã có kinh nghiệm quản lý."
             },
             "Asurily": {
                 "name": "Asurily He",
-                "job": "Back-End Developer",
-                "position": "Beijing",
-                "description": "Asurily has 3 years of experiences working on blockchain projects. He holds a Master's degree from Northwestern University. His academic research focused on blockchain technology and data storage studies."
+                "job": "Nhà phát triển Back-end",
+                "position": "Bắc Kinh",
+                "description": "Asurily đã có 3 năm kinh nghiệm làm việc về các dự án blockchain. Anh có bằng Thạc sĩ từ trường Đại học Northwestern. Nghiên cứu học thuật của anh tập trung vào nghiên cứu công nghệ và lưu trữ dữ liệu blockchain."
             },
             "Cassie": {
                 "name": "Cassie Liu",
-                "job": "Product Operations",
-                "position": "Beijing",
-                "description": "Cassie has 5 years of experience implementing marketing strategies for business operations. She has previously worked in both the finance and technology sectors, respectively."
+                "job": "Vận hành sản phẩm",
+                "position": "Bắc Kinh",
+                "description": "Cassie có 5 năm kinh nghiệm thực hiện các chiến lược tiếp thị cho hoạt động kinh doanh. Cô cũng đã từng làm việc trong lĩnh vực tài chính và lĩnh vực công nghệ."
             },
             "Reg": {
                 "name": "Reg Yuan",
-                "job": "Front-End Developer",
-                "position": "Beijing",
-                "description": "Reg has worked in the front-end development field for 3 years with a variety of firms."
+                "job": "Nhà phát triển Front-end",
+                "position": "Bắc Kinh",
+                "description": "Reg đã làm việc trong lĩnh vực phát triển front-end cho 3 năm với một loạt các công ty."
             },
             "Daisy": {
                 "name": "Daisy Chou",
-                "job": "Front-End Developer",
-                "position": "Beijing",
-                "description": "Daisy has 3 years of front-end development experience. She is proficient in Vue, Node, and other developmental frameworks."
+                "job": "Nhà phát triển Front-end",
+                "position": "Bắc Kinh",
+                "description": "Daisy đã có 3 năm kinh nghiệm phát triển front-end. Cô là thành thạo trong Vue, Node, và các khuôn khổ phát triển khác."
             },
             "Tiantao": {
                 "name": "Tiantao Zhu",
-                "job": "Back-End Developer",
-                "position": "Beijing",
-                "description": "Tiantao has 3 years of experience working in network security, specifically on the client-side system architecture design. He had a role in developing core components to service peer-to-peer networking, security, and verification features. "
+                "job": "Nhà phát triển Back-end",
+                "position": "Bắc Kinh",
+                "description": "Tiantao đã có 3 năm kinh nghiệm làm việc trong bảo mật mạng lưới, đặc biệt về thiết kế kiến trúc hệ thống client-side. Anh từng đóng vai trò quan trọng trong việc phát triển các thành phần cốt lõi cho dịch vụ mạng peer-to-peer, an ninh và xác minh các tính năng. "
             },
             "weichao": {
                 "name": "Weichao Li",
-                "job": "System Architect",
-                "position": "Beijing",
-                "description": "Weichao has over 7 years of experience in back-end service architectural design. He has designed systems that process more than 20,000 queries per second."
+                "job": "Kiến trúc sư Hệ thống",
+                "position": "Bắc Kinh",
+                "description": "Weichao có hơn 7 năm kinh nghiệm trong thiết kế kiến trúc dịch vụ back-end. Anh đã thiết kế hệ thống có thể xử lý được hơn 20.000 truy vấn mỗi giây."
             },
             "Zack": {
                 "name": "Zack Hou",
-                "job": "Director of Product",
-                "position": "Beijing",
-                "description": "Zack graduated from Beijing University of Posts and Telecommunications with a Master's Degree. He has over 4 years of experience working with IT products and has worked for prestigious firms, the likes of DiDi and Baidu. There he was in charge of managing applications with millions of daily active users (DAU)."
+                "job": "Giám đốc sản phẩm",
+                "position": "Bắc Kinh",
+                "description": "Zack tốt nghiệp Thạc sỹ Học viện Bưu chính Viễn thông Bắc Kinh. Anh đã có hơn 4 năm kinh nghiệm làm việc với các sản phẩm công nghệ và đã làm việc cho các công ty có uy tín, trong đó có DiDi và Baidu. Anh đã từng phụ trách việc quản lý các ứng dụng với hàng triệu người dùng hoạt động mỗi ngày (DAU)."
             },
             "Tina": {
                 "name": "Tina Wong",
-                "job": "Front-End Developer",
-                "position": "Beijing",
-                "description": "Tina has 3 years of front-end development experience. She graduated from Nanyang Technological University in Singapore, with a Master's of Science in Information Studies. Tina has previously worked at technology firms in both China and Singapore."
+                "job": "Nhà phát triển Front-end",
+                "position": "Bắc Kinh",
+                "description": "Tina có 3 năm kinh nghiệm phát triển front-end. Cô tốt nghiệp Đại học Công nghệ Nanyang ở Singapore, với bằng Thạc sĩ Khoa học về Nghiên cứu Thông tin. Tina trước đây đã làm việc tại các công ty công nghệ ở cả Trung Quốc và Singapore."
             },
             "Rod": {
                 "name": "Rod Luo",
-                "job": "Back-End Developer",
-                "position": "Beijing",
-                "description": "Rod has over 5 years of experience in back-end design and development, previously working for a series of top-ranking IT firms in China."
+                "job": "Nhà phát triển Back-end",
+                "position": "Bắc Kinh",
+                "description": "Rod có hơn 5 năm kinh nghiệm trong thiết kế và phát triển back-end, trước đây làm việc cho một loạt các công ty CNTT hàng đầu tại Trung Quốc."
             },
             "Tony": {
                 "name": "Tony Wong",
