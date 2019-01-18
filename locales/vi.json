@@ -167,15 +167,15 @@
                     "Tối ưu hóa hiệu suất",
                     "Kích hoạt Hợp đồng thông minh điều chỉnh theo thời gian",
                     "Dịch vụ đặt tên cho địa chỉ",
-                    "Smart Contract Upgrades"
+                    "Nâng cấp hợp đồng thông minh"
                 ]
             },
             {
-                "time": "Q3 2019",
+                "time": "Quý 3/ 2019",
                 "description": [
-                    "MainNet Release",
-                    "dApps (supported by mobile client application)",
-                    "Stable Coin Issuance on DEX",
+                    "Ra mắt MainNet",
+                    "dApps (được hỗ trợ bởi ứng dụng khách trên thiết bị di động)",
+                    "Phát hành Stablecoin trên DEX",
                     "Hoàn thành thanh toán"
                 ]
             },
@@ -249,26 +249,26 @@
             },
             "tenzor": {
                 "info": [
-                    "Tenzor Capital, more than 4 years in VC business. Founder of icoscoring.com. Kirill has deep knowledge in investment management, financial modelling and deals structuring. He has obtained BS is Chemistry and MA in Economics in the one of leading Russian university - MSU.",
-                    "Maksim Mizerov - senior analyst Tenzor Capital and Icoscoring.com. He has deep knowledge in the financial infrastructure. He worked at the Moscow Exchange at the primary market. Maksim has more than 3 years of trading experience at stock and crypto exchanges. He has graduated from the leading economics university in Russia NES and one of the best university - HSE.",
-                    "Daniil Ogurtsov - senior analyst Tenzor Capital and Icoscoring.com. He has great experience in Big4 consulting company and leading oil&gas company Rosneft. He has graduated from MGIMO, the top-tier Russian university."
+                    "Tenzor Capital, hơn 4 năm trong lĩnh vực kinh doanh VC. Nhà sáng lập icoscoring.com. Kirill có kiến thức chuyên sâu về quản lý đầu tư, mô hình tài chính và cơ cấu giao dịch. Anh đã nhận được Cử nhân Khoa học về Hóa học và Thạc sĩ Kinh tế tại một trong những trường đại học hàng đầu của Nga - MSU.",
+                    "Maksim Mizerov - nhà phân tích cao cấp Tenzor Capital và Icoscoring.com. Anh có kiến thức sâu rộng trong cơ sở hạ tầng tài chính. Anh đã từng làm việc tại Sàn giao dịch Moscow về thị trường sơ cấp. Maksim có hơn 3 năm kinh nghiệm giao dịch tại các sàn giao dịch chứng khoán và tiền mã hóa. Anh đã tốt nghiệp trường Đại học kinh tế hàng đầu ở Nga NES và một trong những trường đại học tốt nhất - HSE.",
+                    "Daniil Ogurtsov - nhà phân tích cao cấp Tenzor Capital và Icoscoring.com. Anh có kinh nghiệm tuyệt vời trong công ty tư vấn Big4 và công ty Dầu khí hàng đầu Rosneft. Anh tốt nghiệp MGIMO, trường Đại học hàng đầu của Nga."
                 ],
                 "config": [
-                    "32 GB, 8 CPU, 640 GB SSD, More than 100Mbps bandwidth"
+                    "32 GB, 8 CPU, 640 GB SSD, hơn 100Mbps"
                 ],
                 "photo": [
 
                 ],
                 "medium": [
-                    "We actively work with the community at Twitter, Medium and Telegram.",
-                    "Our team and our close partners have active community in EU & Russia exceeding 600K people."
+                    "Chúng tôi hoạt động tích cực cùng cộng đồng trên Twitter, Medium và Telegram.",
+                    "Đội ngũ của chúng tôi và các đối tác thân thiết có các cộng đồng 600.000 người tại EU và Nga."
                 ],
                 "location": [
-                    "US, UK, Germany, Canada, Netherlands, Singapore, depending on your needs"
+                    "Mỹ, Anh, Đức, Canada, Hà Lan, Singapore, tùy theo nhu cầu của bạn"
                 ],
                 "plan": [
-                    "Our team has huge experience in investor relation field. We always help our portfolio projects with the community development and the adoption of the technology.",
-                    "Our team and our close partners have active community in EU & Russia exceeding 600K people. We provide advisory services in building the marketing strategy and in promotion on CIS and SEA markets.",
+                    "Đội ngũ của chúng tôi có nhiều kinh nghiệm trong lĩnh vực Quan hệ Đầu tư. Chúng tôi luôn giúp các dự án trong danh mục đầu tư về sự phát triển của cộng đồng và ứng dụng công nghệ.",
+                    "Đội ngũ và các đối tác thân thiết của chúng tôi có cộng đồng tích cực ở EU và Nga với hơn 600 nghìn người. Chúng tôi cung cấp các dịch vụ tư vấn trong việc xây dựng chiến lược tiếp thị quảng bá trên thị trường CIS và SEA.",
                     "We could attract C-level industry experts as advisors for projects. In addition to that, we have a proven track record in hiring for IT startups.",
                     "As a result, our team has the great value proposition for Vite community and we could bust the development and adoption of the project."
                 ],
