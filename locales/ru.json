@@ -59,7 +59,7 @@
         "slogan": "Высокопроизводительная Децентрализованная Экосистема",
         "whitePaper": "Белая Бумага",
         "testnet": "TestNet",
-        "acttext": "Trading VITE on BITTREX Now",
+        "acttext": "Торгуйте VITE на BITTREX Сейчас",
         "actwait": "Будьте в курсе!",
         "news": "Последние Новости",
         "starttoUse": "Начните с Vite"
@@ -431,23 +431,23 @@
             },
             "swissvite": {
                 "info": [
-                    "Julien Pidoux, Designer, Belmont-sur-Lausanne, Switzerland",
-                    "Guillaume Pedrazzini, Miner, Geneva, Switzerland",
-                    "Pierre Boiteux, Computer Engineer, Quantitative Analyst, Vevey, Switzerland",
-                    "Julien Mallet, Corporate Performance Management consultant, Martigny, Switzerland",
-                    "Jean-Luc Strullu, Full Stack Developer, Beihai, China"
+                    "Жюльен Пиду, Дизайнер, Бельмон-сюр-Лозанна, Швейцария",
+                    "Гийом Педраззини, Майнер, Женева, Швейцария",
+                    "Пьер Бойто, Инженер, Количественный Аналитик, Веве, Швейцария",
+                    "Жюльен Маллет, Консультант по Управлению Корпоративной Эффективностью, Мартиньи, Швейцария",
+                    "Жан-Люк Струллу, Разработчик, Бэйхай, Китай"
                 ],
                 "config": [
-                    "8CPU, 24GB RAM and 100 Mbps bandwidth"
+                    "8CPU, 24 ГБ ОЗУ и пропускная способность 100 Мбит / с"
                 ],
                 "location": [
-                    "Geneva, Switzerland"
+                    "Женева, Швейцария"
                 ],
                 "plan": [
-                    "Promotion of VITE through our website (http://swissvite.org/, in development), social media channels and meetups in Switzerland and European countries"
+                    "Продвижение VITE через наш веб-сайт (http://swissvite.org/, в разработке), социальные сети и встречи в Швейцарии и Европейских странах"
                 ],
                 "medium": [
-                    "Creation of tutorials in English and French for users and developers Development of community tools Use growth hacking methods to target communication to a maximum of people interested in DAG and blockchain"
+                    "Создание учебных пособий на английском и французском языках для пользователей и разработчиков. Разработка инструментов сообщества. Используйте методы \"хакинга\" роста, чтобы привлечь внимание к максимуму людей, заинтересованных в DAG и блокчейне"
                 ],
                 "name": "Swiss Vite",
                 "description": "Your VITE community at the heart of Europe"
