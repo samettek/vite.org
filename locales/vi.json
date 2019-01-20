@@ -59,7 +59,7 @@
         "slogan": "Hệ sinh thái phi tập trung hiệu suất cao",
         "whitePaper": "White-paper",
         "testnet": "TestNet",
-        "acttext": "VITE đang được giao dịch trên Bittrex",
+        "acttext": "VITE đang được giao dịch trên Bittrex!",
         "actwait": "Hãy theo dõi!",
         "news": "Tin tức mới nhất",
         "starttoUse": "Bắt đầu cùng Vite"
@@ -72,7 +72,7 @@
                 "description": "Khởi động dự án"
             },
             {
-                "time": "04/2018",
+                "time": "Tháng 4/ 2018",
                 "description": [
                     {
                         "text": "Hoàn thành Whitepaper",
