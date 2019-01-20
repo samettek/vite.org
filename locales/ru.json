@@ -498,58 +498,58 @@
             },
             "loopnest": {
                 "info": [
-                    "Mr. Terence Lam is the co-founder and CEO of Loopnest Blockchain Accelerator at Hong Kong Cyberport. He has also been an advisor to several successful blockchain projects. He is a renowned adjunct lecturer at the HK University SPACE China Business School and a serial entrepreneur with focuses on blockchain, mobile internet and Smart City initiatives. Prior to his entrepreneurship Terence has accumulated over two decades of experience in multinational companies and has extensive practical experiences from overseas assignments in Singapore, Mainland China, and Hong Kong. Terence is a graduate from the Harvard, Tsinghua, CEIBS Senior Executive Program.  He carries a Master of Arts in Marketing Management degree from Macquarie University and a Hon. Bachelor of Engineering degree from The Chinese University of Hong Kong."
+                    "Г-н Теренс Лэм является соучредителем и генеральным директором Loopnest Blockchain Accelerator в гонконгском Cyberport. Он также был советником нескольких успешных блокчейн-проектах. Он является известным адъюнкт-лектором в Китайской бизнес-школе SPACE в Китае и серийным предпринимателем, специализирующимся на блокчейне, мобильном интернете и инициативах Smart City. До своего предпринимательства Теренс накопил более двух десятилетий опыта работы в многонациональных компаниях и имеет обширный практический опыт работы за рубежом в Сингапуре, материковом Китае и Гонконге. Теренс - выпускник Гарварда, Цинхуа, программы старших руководителей CEIBS. Он имеет степень магистра в области управления маркетингом в Университете Маккуори и степень магистра. Степень бакалавра инженерных наук в Китайском университете Гонконга."
                 ],
                 "config": [
                     "AWS Elastic Compute Cloud"
                 ],
                 "location": [
-                    "Cloud server in Singapore, managed in Hong Kong"
+                    "Облачный сервер в Сингапуре, управляемый в Гонконге"
                 ],
                 "plan": [
-                    "Loopnest Accelerator Limited is a blockchain accelerator dedicated to laying the foundation for the economy’s next digital evolution. Loopnest recognizes the blockchain space’s trending movement toward regulated, professional and securitized products and services. PwC Hong Kong and Loopnest offer the joint Blockchain Acceleration Programme that enables entrepreneurs to establish regulatory-friendly businesses in Hong Kong, allowing access to capital flow to-and-from the Greater Bay Area and international markets. For the acceleratees graduating from the PwC-Loopnest Programme, the Vite network may be a platform upon which they make contributions to the expanding global blockchain economy."
+                    "Loopnest Accelerator Limited - это блокчейн-акселератора, призванный заложить основу для следующего цифрового развития экономики. Loopnest признает тенденцию движения пространства блокчейн к регулируемым, профессиональным и секьюритизированным продуктам и услугам. PwC Гонконг и Loopnest предлагают совместную Программу Акселерации Блокчейнов, которая позволяет предпринимателям создавать регулируемые предприятия в Гонконге, обеспечивая доступ к потокам капитала в район Большого залива и на международные рынки. Для выпускников, заканчивающих программу PwC-Loopnest, сеть Vite может стать платформой, на которой они вносят вклад в расширяющуюся глобальную экономику блокчейна."
                 ],
                 "medium": [
-                    "Loopnest plans to hold regular meetups within the blockchain and fin-tech community in Hong Kong. Such events provide opportunities for admitted startups under PwC-Loopnest Blockchain Acceleration Programme to showcase their businesses and progress. This lends itself to insightful material for e-newsletter publications on top of social media sharing and regular updates."
+                    "Loopnest планирует проводить регулярные встречи в блокчейне и финтех-сообществе в Гонконге. Такие мероприятия предоставляют возможности для допущенных стартапов в рамках Программы ускорения цепочки блоков PwC-Loopnest, чтобы продемонстрировать свой бизнес и прогресс. Это дает полезный материал для публикаций электронных рассылок, а также для обмена информацией в социальных сетях и регулярных обновлений."
                 ],
                 "name": "Loopnest",
-                "description": "Tap into the digital economy"
+                "description": "Нажмём на цифровую экономику"
             },
             "belsona": {
                 "info": [
-                    "Denis Meltsaev, CTO, Moscow, Russia",
-                    "Vassily Godunov, back-end developer, Moscow, Russia",
-                    "Georgy Yakovlev, front-end developer, Budva, Montenegro",
-                    "Artem Potapov, System Administrator, Saint-Petersburg, Russia",
-                    "Igor Peskov, financial analyst, Moscow, Russia",
-                    "Usanov Alexei, media relations, Kiev, Ukraine"
+                    "Денис Мельцаев, технический директор, Москва, Россия",
+                    "Василий Годунов, back-end разработчик, Москва, Россия",
+                    "Георгий Яковлев, фронтенд девелопер, Будва, Черногория",
+                    "Артем Потапов, системный администратор, Санкт-Петербург, Россия",
+                    "Игорь Песков, финансовый аналитик, Москва, Россия",
+                    "Усанов Алексей, отношения со СМИ, Киев, Украина"
                 ],
                 "config": [
-                    "RAM 192 GB, 32 CPUs, SSD 3.75 TB, 100Mbps bandwidth"
+                    "ОЗУ 192 ГБ, 32 процессоров, SSD 3,75 ТБ, пропускная способность 100 Мбит/с"
                 ],
                 "location": [
-                    "Amsterdam, Netherlands"
+                    "Амстердам, Нидерланды"
                 ],
                 "plan": [
-                    "We have a strong network. We are in contact with several projects and startups. Some of them are searching for suitable to their dapps ecosystem. We are friends with Belarus blockchain association. Quite often we participate in the blockchain conferences. We plan to showcase people Vite blockchain, explain why it is better than the others and help to migrate their project or understand how to do this."
+                    "У нас сильная сеть. Мы находимся в контакте с несколькими проектами и стартапами. Некоторые из них ищут подходящие экосистемы для их dapps. Мы дружим с Белорусской блокчейн ассоциацией. Довольно часто мы участвуем в конференциях блокчейна. Мы планируем продемонстрировать людям блокчейн Vite, объяснить, почему он лучше других, и помочь перенести их проект или понять, как это сделать."
                 ],
                 "medium": [
-                    "We have 2 big social media: Telegram channel (https://t.me/ICOFanatics) and Twitter (https://twitter.com/icofanatics). Where we follow the projects we like and share news with our community. Of course, we will provide a media coverage to all news and events about Vite"
+                    "У нас есть 2 большие социальные сети: канал Telegram (https://t.me/ICOFanatics) и Twitter (https://twitter.com/icofanatics). Где мы следим за проектами, которые нам нравятся, и делимся новостями с нашим сообществом. Конечно, мы обеспечим освещение в СМИ всех новостей и событий о Vite"
                 ],
                 "name": "Belsona Investment Group LP",
-                "description": "In VITE we trust"
+                "description": "В VITE мы верим"
             }
         }
     },
     "team": {
-        "core": "Team",
-        "advisor": "Advisors",
-        "join": "Join Us",
+        "core": "Команда",
+        "advisor": "Советники",
+        "join": "Присоединиться к нам",
         "nameMap": {
             "liuchunming": {
-                "name": "Charles Liu",
-                "job": "CEO",
-                "position": "Beijing",
+                "name": "Чарльз Лю",
+                "job": "Генеральный директор",
+                "position": "Пекин",
                 "description": "Veteran Blockchain Entrepreneur and Technical Expert. Standing Director at Blockchain Application Research Center of  China. Graduated from University of Science and Technology of China and the Institute of Software. Chinese Academy of Sciences. Former Senior Architect of JD.com. Co-founder of Coinport. Engineering Director of Meituan Dianping. Extensive experience with distributed systems and high concurrency systems."
             },
             "wangdong": {
