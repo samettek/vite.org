@@ -28,7 +28,7 @@
         "index": "TRANG CHỦ",
         "production": "SẢN PHẨM",
         "team": "ĐỘI NGŨ",
-        "partnership": "ĐỐI TÁC\n",
+        "partnership": "ĐỐI TÁC",
         "community": "CỘNG ĐỒNG",
         "exchange": "SÀN GIAO DỊCH",
         "media": "TRUYỀN THÔNG",
@@ -91,7 +91,7 @@
             {
                 "time": "Tháng 6/ 2018",
                 "description": [
-                    "Đội ngũ Nghiên cứu và Phát triển",
+                    "Đội ngũ Nghiên cứu Phát triển",
                     "Đội ngũ Phát triển công nghệ"
                 ]
             },
@@ -182,7 +182,7 @@
             {
                 "time": "Quý 4/ 2019",
                 "description": [
-                    "xây dựng hệ sinh thái dApp"
+                    "Xây dựng hệ sinh thái dApp"
                 ]
             }
         ]
@@ -226,7 +226,7 @@
                     "Zhong Lifeng: Giám đốc Kỹ thuật, Thạc sỹ Khoa học máy tính trường Đại học Chiết Giang, có 10 năm kinh nghiệm phát triển kỹ thuật, nhà cựu phát triển trong mô hình trí tuệ nhân tạo lần thứ tư, chịu trách nhiệm về big data và phát triển kinh doanh quảng cáo. Anh có tài năng về Thuật toán học sâu AI, hiểu biết sâu sắc về các giao dịch tài chính, hiện phụ trách phát triển hệ thống định lượng tiền mã hóa. Anh thường trú tại Thượng Hải, Trung Quốc."
                 ],
                 "config": [
-                    "8 cores 16G 100 Mbps bandwidths"
+                    "8 cores 16G 100 Mbps"
                 ],
                 "location": [
                     "Hàng Châu & Trung Quốc"
@@ -235,7 +235,7 @@
 
                 ],
                 "medium": [
-                    "1. Trước hết, chúng tôi đang cố gắng tăng tỷ lệ hiển thị của Vite trong nhiều phương tiện truyền thông blockchain bao gồm 8btc, Jinse Finance, Lian Dede, vv. Chúng tôi bỏ ngỏ khả năng áp dụng hình thức thiết lập node theo cột.",
+                    "1. Trước hết, chúng tôi đang cố gắng tăng tỉ lệ hiển thị của Vite trong nhiều phương tiện truyền thông blockchain bao gồm 8btc, Jinse Finance, Lian Dede, vv. Chúng tôi bỏ ngỏ khả năng áp dụng hình thức thiết lập node theo cột.",
                     "2. Điều hành tài khoản node trong phương tiện truyền thông như tài khoản chính thức WeChat, Weibo, Twitter, Reddit, Facebook, vv, tài khoản này sẽ được phụ trách bởi một người chuyên nghiệp để tăng cường sự tương tác với người theo dõi.",
                     "3. Định kỳ kế hoạch cho các cộng đồng airdrop và liên tục cố gắng để có được nhiều người hâm mộ Vite."
                 ],
