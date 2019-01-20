@@ -301,6 +301,7 @@
         font-size: 24px;
         color: $common-active-color;
         @include mobile {
+          padding: 0 15px;
           font-size: 18px;
         }
       }
@@ -308,7 +309,7 @@
         padding-top: 150px;
         @include mobile {
           display: block;
-          padding-top: 30px;
+          padding-top: 10px;
         }
         & li:first-child {
           &::after {
@@ -354,6 +355,10 @@
             &:last-child {
               margin-top: 140px;
             }
+            &::after{
+              top: 10px;
+              left: 200px;
+            }
           }
         }
         .desc-wrapper {
@@ -366,7 +371,7 @@
           @include mobile {
             display: block;
             position: static;
-            padding-top: 10%;
+            padding-top: 10px;
           }
           .image {
             margin: -7% 0 0 -8%;
@@ -433,10 +438,11 @@
               margin-left: -6px;
             }
             @include mobile{
-              top: -33%;
-              right: 50%;
+              top: -105px;
+              left: -4px;
+              max-width: 200px;
               &::after{
-                content:''
+                border: 0;
               }
             }
           }
