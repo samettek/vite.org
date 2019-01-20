@@ -37,17 +37,17 @@
       <div class="container">
         <h1 class="title">{{ $t('airdrop.title2' ) }}</h1>
         <div class="timeline">
-          <div class="step-title"> {{ $t('airdrop.step') }} </div>
+          <div class="step-title"> {{ $t('airdrop.step') }}</div>
           <ul class="is-flex-desktop">
             <li>
               <div class="desc-wrapper">
-                <div class="text"> {{ $t('airdrop.step1') }} </div>
+                <div class="text"> {{ $t('airdrop.step1') }}</div>
                 <img :src="step1Pic" class="image"/>
               </div>
             </li>
             <li>
               <div class="desc-wrapper">
-                <div class="text"> {{ $t('airdrop.step2') }} </div>
+                <div class="text"> {{ $t('airdrop.step2') }}</div>
                 <img :src="step2Pic" class="image"/>
               </div>
             </li>
@@ -65,9 +65,10 @@
                     </div>
                   </div>
                 </div>
-                <div class="triangle"></div>
                 <div class="desc">
-                  <div class="text __text-third"> {{$t('airdrop.step3f') }} <span class="nums">8000+ VITE</span> {{$t('airdrop.step3e') }}</div>
+                  <div class="text __text-third"> {{$t('airdrop.step3f') }} <span class="nums">8000+ VITE</span>
+                    {{$t('airdrop.step3e') }}
+                  </div>
                   <img :src="step3Pic" class="image"/>
                 </div>
 
@@ -100,7 +101,7 @@
       }
     },
     methods: {
-      openRewardPage () {
+      openRewardPage() {
         window.open(
           this.$i18n.locale === 'zh' ? 'https://reward.vite.net/?language=zh' : 'https://reward.vite.net'
         )
@@ -125,7 +126,7 @@
       width: 120px;
       height: 120px;
     }
-    .wallet-item + .wallet-item{
+    .wallet-item + .wallet-item {
       margin-left: 20px;
     }
   }
@@ -139,17 +140,17 @@
       }
       .slogan-wrapper {
         max-width: 500px;
-        ul{
+        ul {
           margin-left: 3%;
           padding-top: 20px;
-          li{
-            &::before{
+          li {
+            &::before {
               content: ' • ';
               margin-left: -1rem;
               color: $common-active-color;
             }
           }
-          .text{
+          .text {
             font-size: 20px;
             color: #9b9b9b;
           }
@@ -276,8 +277,9 @@
       }
     }
   }
-  .steps{
-    .title{
+
+  .steps {
+    .title {
       padding-top: 80px;
       text-align: center;
     }
@@ -294,7 +296,7 @@
         min-height: unset;
         text-align: center;
       }
-      .step-title{
+      .step-title {
         font-family: $font-family-title;
         font-size: 24px;
         color: $common-active-color;
@@ -306,16 +308,16 @@
         padding-top: 150px;
         @include mobile {
           display: block;
-          padding-top: 70px;
+          padding-top: 30px;
         }
         & li:first-child {
-          &::after{
+          &::after {
             background: no-repeat url("~assets/images/airdrop/1.svg");
           }
         }
         & li:nth-child(2) {
           min-width: 300px;
-          &::after{
+          &::after {
             background: no-repeat url("~assets/images/airdrop/2.svg");
           }
         }
@@ -348,7 +350,10 @@
           }
           @include mobile {
             border-top: 0;
-            width: 100%;
+            margin-top: 30px;
+            &:last-child {
+              margin-top: 140px;
+            }
           }
         }
         .desc-wrapper {
@@ -361,34 +366,42 @@
           @include mobile {
             display: block;
             position: static;
+            padding-top: 10%;
           }
-          .image{
-            margin:-7% 0 0 -8%;
-            &:first-child{
+          .image {
+            margin: -7% 0 0 -8%;
+            &:first-child {
               margin-left: -10%;
             }
-            @include mobile{
+            @include mobile {
               margin: 0;
             }
           }
-          .text{
+          .text {
             max-width: 200px;
             min-height: 64px;
             padding-bottom: 20px;
             margin-left: 16px;
             font-size: 14px;
+            @include mobile {
+              min-height: unset;
+              margin: 0;
+            }
           }
-          .__text-third{
+          .__text-third {
             margin-left: -10px;
+            @include mobile {
+              margin: 0;
+            }
           }
-          .nums{
+          .nums {
             font-size: 16px;
             color: $common-active-color;
           }
-          .check-btn{
+          .check-btn {
             font-size: 12px;
           }
-          .link{
+          .link {
             font-size: 12px;
             color: $common-active-color;
             cursor: pointer;
@@ -403,13 +416,13 @@
             text-align: center;
             box-shadow: 0 -5px 30px 0 rgba(126, 183, 238, 0.83);
             background-color: #ffffff;
-            .__text-popover{
+            .__text-popover {
               margin: 0;
               padding: 0;
               max-width: unset;
               min-height: 50px;
             }
-            &::after{
+            &::after {
               content: ' ';
               display: inline-block;
               border: 6px solid transparent;
@@ -418,6 +431,13 @@
               bottom: -12px;
               left: 50%;
               margin-left: -6px;
+            }
+            @include mobile{
+              top: -33%;
+              right: 50%;
+              &::after{
+                content:''
+              }
             }
           }
         }
