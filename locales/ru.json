@@ -578,21 +578,21 @@
                 "name": "Аллен Лю",
                 "job": "Технический Директор в Силиконовой Долине",
                 "position": "Силиконовая Долина",
-                "description": "Senior Technical Specialist. Graduated from University of Science and Technology of China and Fudan University. Former HP Tech Lead. Former IBM Senior Architect and Product Manager. 10 years of experience working with high concurrency systems at multinational firms. Certified Scrum expert and Project Management Professional. "
+                "description": "Старший Технический Специалист. Окончил Университет Науки и Техники Китая и Университет Фудань. Бывший Технический Руководитель HP. Бывший Старший Архитектор IBM и менеджер по продукту. 10-летний опыт работы с системами с высоким уровнем параллелизма в многонациональных фирмах. Сертифицированный специалист Scrum и Специалист по Управлению Проектами. "
             },
             "zhangli": {
-                "name": "Li Zhang",
-                "position": "Beijing",
-                "description": "Senior blockchain practitioner, investor. LinkVC Capital Partners, former CMO of F2pool , former business officer of Huobi."
+                "name": "Ли Чжан",
+                "position": "Пекин",
+                "description": "Блокчейн практик, инвестор. LinkVC Capital Partners, бывший Директор по Маркетингу F2pool, бывший Бизнес-Директор Huobi."
             },
             "mirza": {
-                "name": "Mirza Uddin",
-                "position": "Beijing",
-                "description": "Mirza was previously a venture capitalist at Two Sigma, one of the largest quantitative hedge funds, where he was heavily involved in researching Blockchain startups. He also previously worked for Index Ventures and The Boston Consulting Group. Mirza earned his BA from Harvard University."
+                "name": "Мирза Уддин",
+                "position": "Пекин",
+                "description": "Мирза ранее был венчурным капиталистом в Two Sigma, одном из крупнейших количественных хедж-фондов, где он активно участвовал в исследовании стартапов Blockchain. Ранее он также работал в Index Ventures и The Boston Consulting Group. Мирза получил степень бакалавра в Гарвардском университете."
             },
             "ivan": {
-                "name": "Ivan Golovko",
-                "position": "Silicon Valley",
+                "name": "Иван Головко",
+                "position": "Силиконовая Долина",
                 "description": "VP Strategy and Investor Relations of LegalThings One. Co-founder of Distributed.Fund and Distributed Alliance. Former CMO of ICODrops."
             },
             "Michael": {
