@@ -447,54 +447,54 @@
                     "Продвижение VITE через наш веб-сайт (http://swissvite.org/, в разработке), социальные сети и встречи в Швейцарии и Европейских странах"
                 ],
                 "medium": [
-                    "Создание учебных пособий на английском и французском языках для пользователей и разработчиков. Разработка инструментов сообщества. Используйте методы \"хакинга\" роста, чтобы привлечь внимание к максимуму людей, заинтересованных в DAG и блокчейне"
+                    "Создание учебных пособий на Английском и Французском языках для пользователей и разработчиков. Разработка инструментов сообщества. Используйте методы \"хакинга\" роста, чтобы привлечь внимание к максимуму людей, заинтересованных в DAG и блокчейне"
                 ],
                 "name": "Swiss Vite",
-                "description": "Your VITE community at the heart of Europe"
+                "description": "Ваше сообщество VITE в сердце Европы"
             },
             "xinsheng": {
                 "info": [
-                    "Zhe Cui, founder and CEO of Xinsheng Fund, living in Beijing, China",
-                    "Zhibo Li, co-founder and CMO of Xinsheng Fund, living in Beijing, China",
-                    "Xuming Zhang, community partner, living in Beijing, China",
-                    "Emma, community partner, living in Beijing, China",
-                    "Quan Sun, Community partner, living in Beijing, China"
+                    "Чжэ Цуй, основатель и генеральный директор Фонда Xinsheng, живет в Пекине, Китай",
+                    "Жибо Ли, соучредитель и директор по маркетингу Фонда Xinsheng, живет в Пекине, Китай",
+                    "Сюмин Чжан, партнер сообщества, живет в Пекине, Китай",
+                    "Эмма, партнер сообщества, живет в Пекине, Китай",
+                    "Цюань Сунь, партнер по сообществу, живет в Пекине, Китай"
                 ],
                 "config": [
-                    "8 cores CPU 16G RAM 100 Mbps bandwidth 1T ssd storage CentOS 7.4"
+                    "8-ядерный процессор 16 ГБ, пропускная способность 100 Мбит / с, 1 ТБ SSD, CentOS 7.4"
                 ],
                 "location": [
-                    "Beijing, China"
+                    "Пекин, Китай"
                 ],
                 "plan": [
-                    "1. Promote community cooperation, organise existing communities and create new community promotion of vite.",
-                    "2. Integrate resources within the company's industry, including media, community, capital, and project parties to assist Vite in promoting business cooperation.",
-                    "3. Establish a Vite supernode (SBP) community to help new users understand the basics of Vite."
+                    "1. Содействовать сотрудничеству сообществ, организовывать существующие сообщества и создавать новые сообщества для продвижения Vite.",
+                    "2. Интегрировать ресурсы в отрасль компании, включая средства массовой информации, сообщества, капитал и участников проекта, чтобы помочь Vite в продвижении делового сотрудничества.",
+                    "3. Создать сообщество Vite Supernode (SBP), чтобы помочь новым пользователям понять основы Vite."
                 ],
                 "medium": [
-                    "WeChat official account, Weibo, Twitter, Bihu, Telegram"
+                    "Официальный аккаунт WeChat, Weibo, Twitter, Bihu, Telegram"
                 ],
                 "name": "XinShengFund",
-                "description": "Shoot for the Vite"
+                "description": "Стрелять для Vite"
             },
             "zlnode": {
                 "info": [
-                    "Li Zhang, Li is a partner of LinkVC. She is an early practitioner and sophisticated investor in blockchain industry. Prior to LinkVC, Li was in charge of the business development in Huobi, which is the most popular cryptocurrency exchange worldwide. Before Huobi, Li was the CMO of f2pool."
+                    "Ли Чжан, Ли является партнером LinkVC. Она опытный и опытный инвестор в индустрии блокчейна. До LinkVC Ли отвечала за развитие бизнеса в Huobi, самой популярной бирже криптовалют в мире. До Huobi Ли была генеральным директором f2pool."
                 ],
                 "config": [
-                    "NA"
+                    "Не Доступно"
                 ],
                 "location": [
-                    "NA"
+                    "Не Доступно"
                 ],
                 "plan": [
-                    "Li is one of the most resourceful and influential KOL in the blockchain industry. As a post investment management partner of LinkVC, Li has rich experience in community building and project landing process can prevent the twist and turns in community development."
+                    "Ли является одной из самых изобретательных и влиятельных KOL в индустрии блокчейна. Будучи партнером LinkVC по управлению инвестициями, Ли имеет богатый опыт построения сообществ, и процесс посадки проектов может предотвратить поворот в развитии сообщества."
                 ],
                 "medium": [
-                    "WeChat and Weibo account"
+                    "WeChat и Weibo аккаунт"
                 ],
                 "name": "ZL node",
-                "description": "Working for better Vite"
+                "description": "Работая для лучшего Vite"
             },
             "loopnest": {
                 "info": [
