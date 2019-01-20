@@ -566,18 +566,18 @@
                 "name": "Ричард Ян",
                 "job": "Главный Операционный Директор",
                 "position": "Силиконовая Долина",
-                "description": "Seasoned Wall Street Professional. Graduated with a B.A. from Dartmouth College and an MBA from New York University. Previously held roles as a Structured Product Trading Strategist at Goldman Sachs and Vice President of Two Sigma's high-frequency platform and Business Innovation & Growth group."
+                "description": "Опытный Уолл Стрит Профессионал. Окончил Дартмутский колледж и Нью-Йоркский университет MBA.. Ранее занимал должность Вице-Президента по Стратегии Структурированной Торговли Активами в Goldman Sachs в Нью-Йорке и Вице-Президента Two Sigma High Frequency Trading и бизнес-инноваций."
             },
             "frank": {
-                "name": "Frank Deng",
-                "job": "Director of Vite Foundation",
-                "position": "Beijing",
-                "description": "Seasoned expert in Digital and Mobile Marketing. Graduated from Tsinghua University. Previously held a strategic position for Google Ad Operations. Former CEO of Suizong Technology. Co-founder of Yunke Technology."
+                "name": "Фрэнк Дэн",
+                "job": "Директор фонда Vite",
+                "position": "Пекин",
+                "description": "Эксперт в области цифрового и мобильного маркетинга. Окончил Университет Цинхуа. Ранее занимал стратегическую позицию в Google Ad Operations. Бывший Генеральный Директор Suizong Technology. Соучредитель Yunke Technology."
             },
             "allen": {
-                "name": "Allen Liu",
-                "job": "Silicon Valley Technical Director",
-                "position": "Silicon Valley",
+                "name": "Аллен Лю",
+                "job": "Технический Директор в Силиконовой Долине",
+                "position": "Силиконовая Долина",
                 "description": "Senior Technical Specialist. Graduated from University of Science and Technology of China and Fudan University. Former HP Tech Lead. Former IBM Senior Architect and Product Manager. 10 years of experience working with high concurrency systems at multinational firms. Certified Scrum expert and Project Management Professional. "
             },
             "zhangli": {
