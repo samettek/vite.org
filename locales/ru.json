@@ -548,7 +548,7 @@
         "nameMap": {
             "liuchunming": {
                 "name": "Чарльз Лю",
-                "job": "Генеральный директор",
+                "job": "Генеральный Директор",
                 "position": "Пекин",
                 "description": "Опытный Блокчейн Предприниматель и Технический Эксперт. Постоянный директор Центра Прикладных Исследований Блокчейна в Китае. Окончил Университет Науки и Технологий Китая и Институт Программного Обеспечения. Академия наук Китая. Бывший старший архитектор JD.com. Соучредитель Coinport. Инженерный директор Meituan Dianping. Большой опыт работы с распределенными системами и системами с высоким уровнем параллелизма."
             },
@@ -560,12 +560,12 @@
             "terenceLam": {
                 "name": "Теренс Лам",
                 "position": "Пекин",
-                "description": "Veteran investor.  Graduated from Harvard Business School.  Partner of Zhizi Blockchain Investment Fund.  Adjust professor of SPACE China business school at Hong Kong University.  20+ years’ experience as senior technical manager at Global 500 companies. Started many technology startups."
+                "description": "Опытный инвестор. Окончил Гарвардскую школу бизнеса. Партнер инвестиционного фонда Zhizi Blockchain. Заместитель профессора китайской бизнес-школы SPACE в Гонконгском университете. Более 20 лет опыта работы в качестве старшего технического менеджера в компаниях Global 500. Основал множество технологических стартапов."
             },
             "richard": {
-                "name": "Richard Yan",
-                "job": "COO",
-                "position": "Silicon Valley",
+                "name": "Ричард Ян",
+                "job": "Главный Операционный Директор",
+                "position": "Силиконовая Долина",
                 "description": "Seasoned Wall Street Professional. Graduated with a B.A. from Dartmouth College and an MBA from New York University. Previously held roles as a Structured Product Trading Strategist at Goldman Sachs and Vice President of Two Sigma's high-frequency platform and Business Innovation & Growth group."
             },
             "frank": {
