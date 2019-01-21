@@ -66,7 +66,7 @@
                   </div>
                 </div>
                 <div class="desc">
-                  <div class="text __text-third"> {{$t('airdrop.step3f') }} <span class="nums">8000+ VITE</span>
+                  <div class="text"> {{$t('airdrop.step3f') }} <span class="nums">8000+ VITE</span>
                     {{$t('airdrop.step3e') }}
                   </div>
                   <img :src="step3Pic" class="image"/>
@@ -288,7 +288,7 @@
     @include mobile {
       height: auto;
     }
-    $dot-size: 3rem;
+    $dot-size: 3.5rem;
     $dot-gap: 0.5;
     .timeline {
       min-height: 500px;
@@ -297,6 +297,8 @@
         text-align: center;
       }
       .step-title {
+        text-align: center;
+        padding-bottom: 30px;
         font-family: $font-family-title;
         font-size: 24px;
         color: $common-active-color;
@@ -313,20 +315,20 @@
         }
         & li:first-child {
           &::after {
-            background: no-repeat url("~assets/images/airdrop/1.svg");
+            background: no-repeat url("~assets/images/airdrop/1.svg") 2px 2px;
           }
         }
         & li:nth-child(2) {
           min-width: 300px;
           &::after {
-            background: no-repeat url("~assets/images/airdrop/2.svg");
+            background: no-repeat url("~assets/images/airdrop/2.svg") 2px 2px;
           }
         }
         & li:last-child {
           border: 0;
           border-right: none;
           &::after {
-            background: no-repeat url("~assets/images/airdrop/3.svg");
+            background: no-repeat url("~assets/images/airdrop/3.svg") 2px 2px;
           }
         }
         li {
@@ -339,7 +341,7 @@
           &::after {
             content: "";
             position: absolute;
-            left: 73%;
+            left: 70%;
             transform: translateX(-800%);
             width: 1.75rem;
             height: 1.75rem;
@@ -374,29 +376,23 @@
             padding-top: 10px;
           }
           .image {
-            margin: -7% 0 0 -8%;
+            margin-left: -30px;
             &:first-child {
-              margin-left: -10%;
             }
             @include mobile {
               margin: 0;
             }
           }
           .text {
-            max-width: 200px;
+            max-width: 160px;
             min-height: 64px;
-            padding-bottom: 20px;
-            margin-left: 16px;
+            padding: 0 10px;
             font-size: 14px;
             @include mobile {
               min-height: unset;
+              max-width: 200px;
               margin: 0;
-            }
-          }
-          .__text-third {
-            margin-left: -10px;
-            @include mobile {
-              margin: 0;
+              padding-bottom: 10px;
             }
           }
           .nums {
@@ -414,7 +410,7 @@
           .top {
             position: absolute;
             top: -57%;
-            right: 39%;
+            right: 41%;
             min-width: 200px;
             max-height: 100px;
             padding: 20px 8px;
