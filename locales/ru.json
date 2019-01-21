@@ -59,7 +59,7 @@
     "slogan": "Высокопроизводительная Децентрализованная Экосистема",
     "whitePaper": "Белая Бумага",
     "testnet": "TestNet",
-    "acttext": "Participate in Vite Airdrop",
+    "acttext": "Участие в Vite Airdrop",
     "actwait": "Будьте в курсе!",
     "news": "Последние Новости",
     "starttoUse": "Начните с Vite"
@@ -628,84 +628,84 @@
         "name": "Агата Акс",
         "job": "Креативный маркетинг / Бизнес-сотрудник",
         "position": "Силиконовая Долина",
-        "description": "Agata has relevant work experiences in social media marketing, content writing, public relations, office administration and legal services. She graduated from University of California, Santa Barbara with a Bachelor's degree in Psychological Sciences, with strategic concentrations in Civic Engagement Writing and Applied Psychology. She speaks English, Russian and French."
+        "description": "Агата имеет соответствующий опыт работы в области маркетинга в социальных сетях, написания контента, связей с общественностью, административного управления и юридических услуг. Она окончила Калифорнийский Университет в Санта-Барбаре со степенью бакалавра в области Психологических Наук, со стратегическим образованием в области написания документов о гражданской активности и прикладной психологии. Она говорит на Английском, Русском и Французском языках."
       },
       "Lola": {
-        "name": "Lola Li",
-        "job": "Product Manager",
-        "position": "Beijing",
-        "description": "Lola is an experienced financial specialist who has worked for Deloitte as an investment manager dealing with private equity funds. She has also taken responsibility of managing TMT projects in the past. Lola's interdisciplinary background is highlighted by her Master's Degree in Finance from Xi'an Jiaotong University and her Bachelor of Science degree from Dalian University of Technology. Her focus was in Software Engineering.  "
+        "name": "Лола Ли",
+        "job": "Менеджер по Продукту",
+        "position": "Пекин",
+        "description": "Лола - опытный финансовый специалист, который работал в Deloitte в качестве инвестиционного менеджера, занимающегося фондами прямых инвестиций. Она также взяла на себя ответственность за управление проектами TMT в прошлом. Междисциплинарный опыт Лолы подчеркивается ее степенью магистра финансов в Сианьском университете Цзяотун и степенью бакалавра наук Даляньского технического университета. Ее фокус был в разработке программного обеспечения."
       },
       "Logan": {
-        "name": "Logan Cao",
-        "job": "iOS Developer",
-        "position": "Beijing",
-        "description": "Logan has worked for 4 years in the iOS development field. He has previously developed 3 different applications, which have garnered hundreds of millions of daily active users."
+        "name": "Логан Цао",
+        "job": "iOS Разработчик",
+        "position": "Пекин",
+        "description": "Логан проработал 4 года в области разработки под iOS. Ранее он разработал 3 разных приложения, которые ежедневно собирали сотни миллионов активных пользователей."
       },
       "Stone": {
-        "name": "Stone Xia",
-        "job": "iOS Developer",
-        "position": "Beijing",
-        "description": "Stone has over 5 years of experience in iOS development, working with Chinese IT companies in the past."
+        "name": "Стоун Ся",
+        "job": "iOS Разработчик",
+        "position": "Пекин",
+        "description": "У Стоуна более 5 лет опыта разработки под iOS, в прошлом он работал с китайскими IT-компаниями."
       },
       "jerry": {
-        "name": "Jerry Yin",
-        "job": "Back-End Developer",
-        "position": "Beijing",
-        "description": "Jerry has over 5 years of experience in back-end service development, previously working for a select number of Chinese IT firms."
+        "name": "Джерри Инь",
+        "job": "Back-End Разработчик",
+        "position": "Пекин",
+        "description": "Джерри обладает более чем 5-летним опытом разработки серверных услуг, ранее он работал в ряде китайских ИТ-компаний."
       },
       "Alex": {
-        "name": "Alex Hu",
-        "job": "Complier Software Engineer",
-        "position": "Beijing",
-        "description": "Alex has over 3 years of experience in back-end service development. He formerly worked as a back-end engineer for the well-known firm, Baidu."
+        "name": "Алекс Ху",
+        "job": "Инженер-Разработчик",
+        "position": "Пекин",
+        "description": "Алекс имеет более чем 3-х летний опыт разработки серверных услуг. Ранее он работал бэк-инженером в известной фирме Baidu."
       },
       "Tuprise": {
-        "name": "Tuprise Yuan",
-        "job": "Back-End Developer",
-        "position": "Beijing",
-        "description": "Tuprise has over 7 years of experience in back-end service development and architecture. He worked for a series of notable IT companies, including Yilong and Yaxin. Tuprise is a seasoned developer in Big Data Processing and high concurrency systems."
+        "name": "Туприз Юань",
+        "job": "Back-End Разработчик",
+        "position": "Пекин",
+        "description": "Tuprise обладает более чем 7-летним опытом разработки серверных сервисов и архитектуры. Он работал в ряде известных ИТ-компаний, включая Yilong и Yaxin. Tuprise - опытный разработчик систем обработки больших данных и систем с высоким уровнем параллелизма."
       },
       "viteLiz": {
-        "name": "Liz Chen",
-        "job": "VM Developer",
-        "position": "Beijing",
-        "description": "Liz has over 3 years of experience in back-end service development. She formerly worked for a well-known IT company in China."
+        "name": "Лиз Чен",
+        "job": "VM Разработчик",
+        "position": "Пекин",
+        "description": "Лиз обладает более чем 3-летним опытом в области разработки серверных услуг. Ранее она работала в известной IT-компании в Китае."
       },
       "Abbott": {
-        "name": "Abbott Jia",
-        "job": "QA",
-        "position": "Beijing",
-        "description": "Abbott has 4 years of experience working in Quality Assurance. Previously, he was in charge of testing driver-end issues within Meituan's ride-hailing services. Abbott is a seasoned expert in Testing and Risk Management."
+        "name": "Эбботт Цзя",
+        "job": "Контроль Качества",
+        "position": "Пекин",
+        "description": "Эбботт имеет 4-летний опыт работы в Сфере Обеспечения Качества. Ранее он отвечал за тестирование проблем с драйверами в сервисах Meituan. Эбботт является опытным экспертом в области Тестирования и Управления Рисками."
       },
       "Layla": {
-        "name": "Layla Wong",
-        "position": "Beijing",
-        "job": "UI Designer",
-        "description": "Layla has 5 years of design experience including brand, app, and website design."
+        "name": "Лейла Вонг",
+        "position": "Пекин",
+        "job": "Дизайнер пользовательского интерфейса",
+        "description": "Лейла имеет 5-летний опыт работы в области дизайна брендов, приложений и веб-сайтов."
       },
       "hubery": {
-        "name": "Hubery Lee",
-        "job": "Back-End Developer",
-        "position": "Beijing",
-        "description": "Hubery is a graduate of Xidian University, with over 5 years of experience in IT development. He previously worked for Tencent and Yuantiku."
+        "name": "Хьюбери Ли",
+        "job": "Back-End Разработчик",
+        "position": "Пекин",
+        "description": "Хьюбери - выпускник университета Xidian, с более чем 5-летним опытом работы в сфере ИТ. Ранее он работал на Tencent и Yuantiku."
       },
       "Cecelia": {
-        "name": "Cecelia Chen",
-        "job": "Front-End Developer",
-        "position": "Beijing",
-        "description": "Cecelia has 3 years of experience in front-end development and she has showcased at notable Chinese firms."
+        "name": "Сесилия Чен",
+        "job": "Front-End Разработчик",
+        "position": "Пекин",
+        "description": "Сесилия имеет 3-летний опыт в разработке внешнего интерфейса, и она демонстрировала себя в известных китайских фирмах."
       },
       "viteshan": {
-        "name": "Shan Wong",
-        "job": "Back-End Developer",
-        "position": "Beijing",
-        "description": "Shan has over 3 years of experience in IT development. He formerly worked for a well-known IT company in China."
+        "name": "Шан Вонг",
+        "job": "Back-End Разработчик",
+        "position": "Пекин",
+        "description": "Шан имеет более 3-х лет опыта в развитии Информационных Технологий. Ранее он работал в известной IT-компании в Китае."
       },
       "Ada": {
-        "name": "Ada Zhu",
-        "job": "Senior Researcher",
-        "position": "Beijing",
+        "name": "Ада Чжу",
+        "job": "Старший научный сотрудник",
+        "position": "Пекин",
         "description": "AAda has previously worked in Tencent and JD and has over 5 years of experience in Machine Learning Algorithm Development and Big Data analytics."
       },
       "Jin": {
