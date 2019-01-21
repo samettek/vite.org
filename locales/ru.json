@@ -718,36 +718,36 @@
         "name": "Шэньян Хао",
         "job": "iOS Разработчик",
         "position": "Пекин",
-        "description": "Shenyang has over 4 years of experience in iOS development, working for some popular IT companies in China."
+        "description": "Шеньян имеет более чем 4-летний опыт разработки под iOS, работая в некоторых популярных ИТ-компаниях в Китае."
       },
       "Candy": {
-        "name": "Candy",
-        "job": "Product Operations",
-        "position": "Beijing",
-        "description": "Candy has 3 years of experience in Product Operations. She has previously worked for Meituan SaaS and Fangtianxia Research Institute, serving as an Operations specialist who dealt with data maintenance, system requests and optimization, and surveillance."
+        "name": "Кэнди",
+        "job": "Операции Продукта",
+        "position": "Пекин",
+        "description": "Кэнди имеет 3-летний опыт Работы с Продуктами. Ранее она работала в исследовательском институте Meituan SaaS и Исследовательском Институте Fangtianxia, ​​работая в качестве специалиста по операциям, который занимался обслуживанием данных, системными запросами и оптимизацией, а также надзором."
       },
       "Eric": {
-        "name": "Eric Wong",
-        "job": "System Architect",
-        "position": "Beijing",
-        "description": "Eric has previously worked with top IT firms in China, including Baidu. He is an expert in back-end services and data system development. He has experience with system architecture, designing systems that can process over 20,000 queries per second. Eric has also formerly led an engineering team of 15+ members, so he has management experience as well."
+        "name": "Эрик Вонг",
+        "job": "Системный Архитектор",
+        "position": "Пекин",
+        "description": "Эрик ранее работал с ведущими IT-фирмами в Китае, включая Baidu. Он является экспертом в области базовых услуг и разработки систем данных. Он имеет опыт работы с системной архитектурой, проектированием систем, которые могут обрабатывать более 20 000 запросов в секунду. Эрик также ранее возглавлял инженерную команду из 15+ членов, поэтому у него также есть опыт управления."
       },
       "Asurily": {
-        "name": "Asurily He",
-        "job": "Back-End Developer",
-        "position": "Beijing",
-        "description": "Asurily has 3 years of experiences working on blockchain projects. He holds a Master's degree from Northwestern University. His academic research focused on blockchain technology and data storage studies."
+        "name": "Асурили Хе",
+        "job": "Back-End Разработчик",
+        "position": "Пекин",
+        "description": "Асурили имеет 3-летний опыт работы над блокчейн-проектами. Он имеет степень Магистра Северо-Западного Университета. Его научные исследования были сосредоточены на технологиях блокчейна и хранении данных."
       },
       "Cassie": {
-        "name": "Cassie Liu",
-        "job": "Product Operations",
-        "position": "Beijing",
-        "description": "Cassie has 5 years of experience implementing marketing strategies for business operations. She has previously worked in both the finance and technology sectors, respectively."
+        "name": "Кэсси Лю",
+        "job": "Операции с Продуктом",
+        "position": "Пекин",
+        "description": "Кэсси имеет 5-летний опыт реализации маркетинговых стратегий для бизнес-операций. Ранее она работала в финансовом и технологическом секторах соответственно."
       },
       "Reg": {
-        "name": "Reg Yuan",
-        "job": "Front-End Developer",
-        "position": "Beijing",
+        "name": "Рег Юань",
+        "job": "Front-End Разработчик",
+        "position": "Пекин",
         "description": "Reg has worked in the front-end development field for 3 years with a variety of firms."
       },
       "Daisy": {
