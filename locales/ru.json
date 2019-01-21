@@ -706,18 +706,18 @@
         "name": "Ада Чжу",
         "job": "Старший научный сотрудник",
         "position": "Пекин",
-        "description": "AAda has previously worked in Tencent and JD and has over 5 years of experience in Machine Learning Algorithm Development and Big Data analytics."
+        "description": "Ада ранее работала в Tencent и JD и имеет более 5 лет опыта в Разработке Алгоритмов Машинного Обучения и Аналитики Больших Данных."
       },
       "Jin": {
-        "name": "Jin Ge",
-        "job": "Back-End Developer",
-        "position": "Beijing",
-        "description": "JJin has 3 years of experience working in developing the Chinese Internet finance industry."
+        "name": "Джин Ге",
+        "job": "Back-End Разработчик",
+        "position": "Пекин",
+        "description": "JJin имеет 3-летний опыт работы в развитии Китайской индустрии интернет-финансов."
       },
       "Shenyang": {
-        "name": "Shenyang Hao",
-        "job": "iOS Developer",
-        "position": "Beijing",
+        "name": "Шэньян Хао",
+        "job": "iOS Разработчик",
+        "position": "Пекин",
         "description": "Shenyang has over 4 years of experience in iOS development, working for some popular IT companies in China."
       },
       "Candy": {
