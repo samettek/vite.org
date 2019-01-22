@@ -9,7 +9,7 @@
                 <h1> {{ $t('airdrop.title1' )}}</h1>
                 <ul>
                   <li class="text">{{ $t('airdrop.text1') }}</li>
-                  <li class="text">{{ $t('airdrop.text2') }}</li>
+                  <!--<li class="text">{{ $t('airdrop.text2') }}</li>-->
                 </ul>
               </div>
               <div class="btn-group-wrapper">
