@@ -853,19 +853,19 @@
         "orderNum": "I.",
         "question": "Информация, которую вы должны предоставить",
         "answer": [
-          "1. Name and logo for the supernode. These are necessary, as it helps create an identity for you within the community. ",
-          "2. Email address for the entity that will operate the SBP. ",
-          "3. Campaign slogan. ",
-          "4. Information about the team: a list of key members and their backgrounds (please include profile photos and location of residence). ",
-          "5. Setup specifications of your data center. (Recommended: 8 core, 16GB RAM, 100Mbps)",
-          "6. Location of your server. ",
-          "7. Please describe in detail how you plan to add value to Vite's ecosystem after becoming a SBP.",
-          "8. Plans for gaining social media exposure (significant presence within our social media reflects a certain level of commitment to nurturing the growth of Vite's community). <br/>Link for submitting your information: <a href='https://docs.google.com/forms/d/1u2HC3ecC3rkQk58Kn9D8eBNhN8DpkAB2DMY06QNzHvk/viewform?edit_requested=true' target='_blank'>https://docs.google.com/forms/d/1u2HC3ecC3rkQk58Kn9D8eBNhN8DpkAB2DMY06QNzHvk/viewform?edit_requested=true</a>"
+          "Имя и логотип вашей суперноды. Это необходимо, поскольку это помогает идентифицировать вас в сообществе. ",
+          "2. Адрес электронной почты для организации, которая будет управлять SBP. ",
+          "3. Лозунг кампании. ",
+          "4. Информация о команде: список ключевых членов и их опыт (пожалуйста, включите фотографии профиля и место жительства). ",
+          "5. Настройте характеристики вашего центра обработки данных. (Рекомендуется: 8 ядер, 16 ГБ ОЗУ, 100 Мбит / с)",
+          "6. Расположение вашего сервера. ",
+          "7. Пожалуйста, опишите подробно, как вы планируете повысить ценность экосистемы Vite после того, как станете SBP.",
+          "8. Планы по привлечению внимания соцсетей (значительное присутствие в наших соцсетях отражает определенный уровень приверженности развитию сообщества Vite). <br/>Ссылка для отправки вашей информации: <a href='https://docs.google.com/forms/d/1u2HC3ecC3rkQk58Kn9D8eBNhN8DpkAB2DMY06QNzHvk/viewform?edit_requested=true' target='_blank'>https://docs.google.com/forms/d/1u2HC3ecC3rkQk58Kn9D8eBNhN8DpkAB2DMY06QNzHvk/viewform?edit_requested=true</a>"
         ]
       },
       {
         "orderNum": "II.",
-        "question": "Registration of SBP, Voting and Creating Blocks",
+        "question": "Регистрация SBP, Голосование и Создание блоков",
         "second": [
           {
             "title": "Follow these steps to register a supernode and prepare for election:",
