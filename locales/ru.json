@@ -868,10 +868,10 @@
         "question": "Регистрация SBP, Голосование и Создание блоков",
         "second": [
           {
-            "title": "Follow these steps to register a supernode and prepare for election:",
+            "title": "Выполните эти действия, чтобы зарегистрировать суперноду и подготовиться к выборам:",
             "answer": [
-              "1. Migrate the Vite ERC20 tokens you wish to stake for your SBP. <br/> In mid-November, migrate your ERC20 Vite tokens to the Vite TestNet via the smart contract provided by Vite. ",
-              "2. Stake 500,000 VITE (this amount will increase to 1,000,000 VITE after the MainNet is launched). These tokens will be locked for 3 months, as required for SBPs. ",
+              "1. Конвертируйте токены Vite ERC20, которые вы хотите поставить на свой SBP. <br/> Перенесите токены ERC20 Vite в Vite TestNet по смарт контракту, предоставленному Vite. ",
+              "2. Разместите 500 000 VITE (эта сумма увеличится до 1 000 000 VITE после запуска MainNet). Эти токены будут заблокированы на 3 месяца, как требуется для SBP. ",
               "3. Receive at least 200,000 votes (each vote is represented by one VITE). With each new community supernode that receives a minimum of 200,000 votes, Vite will stop one of its own official supernodes running. The community supernode will become the new supernode. ",
               "4. Run the server for the SBP (more detailed information will be released later)"
             ]
