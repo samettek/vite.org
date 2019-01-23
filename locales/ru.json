@@ -872,33 +872,33 @@
             "answer": [
               "1. Конвертируйте токены Vite ERC20, которые вы хотите поставить на свой SBP. <br/> Перенесите токены ERC20 Vite в Vite TestNet по смарт контракту, предоставленному Vite. ",
               "2. Разместите 500 000 VITE (эта сумма увеличится до 1 000 000 VITE после запуска MainNet). Эти токены будут заблокированы на 3 месяца, как требуется для SBP. ",
-              "3. Receive at least 200,000 votes (each vote is represented by one VITE). With each new community supernode that receives a minimum of 200,000 votes, Vite will stop one of its own official supernodes running. The community supernode will become the new supernode. ",
-              "4. Run the server for the SBP (more detailed information will be released later)"
+              "3. Получите не менее 200 000 голосов (каждый голос представлен одним VITE). С каждой новой супернодой сообщества, которая получает минимум 200 000 голосов, Vite останавливает работу одного из своих собственных официальных суперузлов. Супернода сообщества станет новым суперузлом. ",
+              "4. Запустите сервер для SBP (более подробная информация будет опубликована позже)"
             ]
           },
           {
-            "title": "Voting",
+            "title": "Голосование",
             "answer": [
-              "1. Each VITE can only be used to vote for one SBP. ",
-              "2. Each address can only be used to vote for one SBP. The number of votes from that address will equal the entire amount of VITE held in that address. ",
-              "3. Voting from a given address does not lock up the VITE tokens stored at that address. These tokens may be transferred at any time, however, it would inherently affect the total number of votes going towards the supernode.",
-              "4. The user may change their unique address's voting target. The change will take effect within 75 seconds at most. "
+              "1. Каждый VITE может быть использован только для голосования за один SBP. ",
+              "2. Каждый адрес может быть использован только для голосования за один SBP. Количество голосов с этого адреса будет равно общему количеству VITE, удерживаемому по этому адресу. ",
+              "3. Голосование по указанному адресу не блокирует токены VITE, хранящиеся по этому адресу. Эти токены могут быть переведены в любое время, однако это неизбежно повлияет на общее количество голосов, приходящихся на суперноду.",
+              "4. Пользователь может изменить целевой адрес голосования. Изменение вступит в силу в течение не более 75 секунд. "
             ]
           },
           {
-            "title": "Rules for Creating Blocks",
+            "title": "Правила Создания Блоков",
             "answer": [
-              "The first 100 supernodes will be responsible for creating blocks. For each round (lasting 75 seconds), the first 25 nodes have a 23/25 chance to create a block, and the last 75 nodes have a 2/75 chance. The block creation rate will affect the final rewards for the supernodes."
+              "Первые 100 супернод будут отвечать за создание блоков. Для каждого раунда (продолжительностью 75 секунд) первые 25 узлов имеют шанс 23/25 создать блок, а последние 75 узлов имеют шанс 2/75. Скорость создания блока будет влиять на окончательные награды за суперноды."
             ]
           }
         ]
       },
       {
         "orderNum": "III.",
-        "question": "Responsibilities of SBPs",
+        "question": "Обязанности SBP",
         "answer": [
-          "1. SBPs ensure that the Vite system functions properly. SBPs must pack transactions in the entire network and ensure stability of the system by providing usable server resources. In addition, operators of the SBPs are also expected to provide technical support for the Vite system to the best of their abilities.",
-          "2. SBPs are representatives, evangelists, and leaders of the Vite community and are expected to take actions to build and preserve an active and healthy community. ",
+          "1. SBP обеспечивают правильную работу системы Vite. SBP должны упаковывать транзакции во всей сети и обеспечивать стабильность системы, предоставляя используемые серверные ресурсы. Кроме того, операторы SBP также должны предоставлять техническую поддержку для системы Vite в меру своих возможностей.",
+          "2. SBP являются представителями, евангелистами и лидерами сообщества Vite и должны принять меры для создания и сохранения активного и здорового сообщества. ",
           "3. The prosperity of the Vite community goes hand in hand with the success of the Vite ecosystem. SBPs are expected to evangelize Vite, and help create dApps based on Vite. "
         ]
       },
