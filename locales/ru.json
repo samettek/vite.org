@@ -824,24 +824,24 @@
     "okex": {
       "desc": {
         "text1": "Vite Labs объявляет о долгосрочном стратегическом партнерстве с OK Blockchain Capital.",
-        "text2": "Vite and OK Capital have decided to enter into the following areas of collaboration: OK Capital has become a major investor in Vite. OK Capital’s research center will undertake an advisory role in Vite’s plan to launch a decentralized exchange based on the Loopring protocol. Vite has positioned its initial commercial uses to be in financial technology, with at least two major projects yet to be announced. OK Capital will provide key insights, relationships and resources on these fronts. Vite Labs’ Silicon Valley office will provide overseas resources for potential project partnerships for OK Capital."
+        "text2": "Vite и OK Capital решили вступить в следующие области сотрудничества: OK Capital стала основным инвестором Vite. Исследовательский центр OK Capital возьмет на себя консультативную роль в плане Vite по запуску децентрализованного обмена на основе протокола Loopring. Vite позиционирует свое первоначальное коммерческое использование в области финансовых технологий, с по крайней мере двумя крупными проектами, которые ещё не объявлены. OK Capital предоставит ключевые идеи, отношения и ресурсы по этим направлениям. Офис Vite Labs в Силиконовой долине предоставит зарубежные ресурсы для потенциальных партнерских проектов OK Capital."
       }
     },
     "mxbank": {
       "desc": {
-        "text1": "Vite Labs strategically invested in a digital asset bank MXBank.",
-        "text2": "Vite as the infrastructural public chain, will provide MXBank with public-link related technical support to help MXBank land on Vite. In the meantime, the ecosystem fund leader from Vite will also join MXBank team to accelerate product development. Vite Token will also become one of the first group of digital assets supported by MXBank."
+        "text1": "Vite Labs стратегически инвестировала в банк цифровых активов MXBank.",
+        "text2": "Vite, как инфраструктурная публичная сеть, предоставит MXBank техническую поддержку по связям с общественностью, чтобы помочь MXBank разместится на Vite. Тем временем, лидер фонда экосистемы Vite также присоединится к команде MXBank, чтобы ускорить разработку продукта. В добавок, Vite Token станет одной из первых групп цифровых активов, поддерживаемых MXBank."
       }
     },
     "secbit": {
       "desc": {
-        "text1": "Vite Labs became a strategic partner with SECBIT Labs, which focuses on smart contract security research.",
-        "text2": "In the future, the two companies will carry out thorough and in-depth cooperation on the security of Vite from top, middle, and bottom layers of the blockchain infrastructure. In this arrangement, the cooperation involving the bottom layer of the public chain includes security of transactions and security of virtual machine security."
+        "text1": "Vite Labs стала стратегическим партнером SECBIT Labs, которая занимается исследованиями безопасности смарт контрактов.",
+        "text2": "В будущем обе компании будут осуществлять глубокое и всестороннее сотрудничество в области безопасности Vite с верхнего, среднего и нижнего уровней инфраструктуры блокчейна. В этой договоренности, сотрудничество вовлекающее нижний уровень публичной цепи, включает безопасность транзакций и безопасность виртуальной машины."
       }
     },
     "achpay": {
       "desc": {
-        "text1": "ACHPAY is an non-profit foundation that is invested by Vite Ecosystem Foundation, and Vite Ecosystem Foundation held ACHPAY token as a shareholder.",
+        "text1": "ACHPAY является некоммерческим фондом, который проинвестирован Фондом Vite Ecosystem, в свою очередь Фонд Vite Ecosystem держал токен ACHPAY, как акционер.",
         "text2": "Meanwhile, Vite will participate in ACHPAY's payment network integration. The Lightning Network will have access to blockchain through Vite system to improve payment efficiency and secure asset circulation."
       }
     }
