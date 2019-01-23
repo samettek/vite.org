@@ -906,30 +906,30 @@
         "orderNum": "IV.",
         "question": "План Стимулирования",
         "answer": [
-          "1. SBP на этапе TestNet будет делиться ежегодными вознаграждениями за ковку, эквивалентными 3% от общей суммы выданных токенов. Это означает 30 миллионов VITE (3% от общего текущего объема в 1 миллиард VITE). ",
-          "2. Supernode rewards are divided into two parts: 50% for creating blocks and 50% for voting. Among the 30 million token rewards per year, 15 million are awarded to the supernodes that create blocks, and 15 million are awarded to the supernodes that were elected by the community (in TestNet stage, this will be the top 100 supernodes).<br/>If a supernode were to keep mining for one year, it could get 600,000 VITE from the block creation reward ((30 million / 25 nodes) * 50%), plus the reward from voting.<br/> Voting reward calculation: according to the supernode's stake and voting ratio, (the node staking tokens + voting) / (all supernode staking tokens + all voting) * (voting reward). Each round will be 75 seconds. The daily sum would be multiplied by the block rate.<br/>A single supernode daily reward would be: 1,643.835 VITEs of blocks creation rewards, plus additional staking/voting rewards",
-          "3. There are many Airdrop plans and rewards for the TestNet stage. We will increase the number of tokens issued to reward SBPs after the MainNet is launched.",
-          "4. Reward Extraction, Only the rewards from the previous day can be extracted."
+          "1. Между SBP на этапе TestNet будет распределена ежегодная награда, еквивалентная 3% от общей суммы выданных токенов. Это означает 30 миллионов VITE (3% от общего текущего объема в 1 миллиард VITE). ",
+          "2. Награды Supernode разделены на две части: 50% за создание блоков и 50% за голосование. Из 30 миллионов наград за токены в год 15 миллионов присуждаются супернодам, которые создают блоки, и 15 миллионов присуждаются супернодам, которые были выбраны сообществом (на этапе TestNet это будут первые 100 супернод).<br/>Если бы супернода продолжала майнить в течение одного года, она мог бы получить 600 000 VITE из награды за создание блока ((30 миллионов / 25 узлов) * 50%) плюс вознаграждение за голосование.<br/>Расчет вознаграждения за голосование: в соответствии с ставкой суперноды и соотношением голосов, (токены ставки ноды + голосование) / (все токены ставки суперноды + все голосование) * (вознаграждение за голосование). Каждый раунд будет 75 секунд. Ежедневная сумма будет умножена на ставку блока.<br/>Одна суточная награда одной суперноды составит: 1 643 835 VITE наград за создание блоков, плюс дополнительные вознаграждения за ставку / голосование",
+          "3. Существует множество Airdrop планов и наград для этапа TestNet. Мы увеличим количество токенов, выпущенных для вознаграждения SBP после запуска MainNet.",
+          "4. Извлечение наград. Только награды за предыдущий день могут быть извлечены."
         ]
       },
       {
         "orderNum": "V.",
-        "question": "An explanation of the VITE token in TestNet",
+        "question": "Объяснение токена VITE в TestNet",
         "answer": [
-          "1. The VITE tokens in TestNet are used for SBP election and voting. They are added to the network from the mapping of VITE ERC20 tokens.",
-          "2. The transfer of VITE ERC 20 tokens to VITE TestNet tokens cannot be reverted. You will not be able to circulate the TestNet tokens on the secondary market in the short term.",
-          "3. After the MainNet is launched, VITE tokens on the TestNet and VITE ERC20 tokens will both be converted to VITE tokens on the MainNet. "
+          "1. Токены VITE в TestNet используются для выбора и голосования SBP. Они добавляются в сеть из сопоставления токенов VITE ERC20.",
+          "2. Перенос токенов VITE ERC 20 на токены VITE TestNet не может быть отменен. Вы не сможете распространять токены TestNet на вторичном рынке в краткосрочной перспективе.",
+          "3. После запуска MainNet токены VITE TestNet и VITE ERC20 токены будут преобразованы в токены VITE на MainNet. "
         ]
       }
     ]
   },
   "faq": {
-    "title": "VITE Q&A",
+    "title": "VITE Вопрос/Ответ",
     "questions": [
       {
-        "question": "What is Vite?",
+        "question": "Что такое Vite?",
         "answer": [
-          "Vite is a general-purpose platform for decentralized applications.  It is designed to support industrial-strength applications by offering high throughput, low latency and scalability while also providing security.",
+          "Vite - универсальная платформа для децентрализованных приложений. Он разработан для поддержки промышленных приложений, предлагая высокую пропускную способность, низкую задержку и масштабируемость, а также обеспечивает безопасность.",
           "The Vite team are dedicated to addressing current performance and scalability issues of infrastructural chains, so that truly practical applications with high-frequency data requirements can be built in a blockchain framework."
         ]
       },
@@ -1107,7 +1107,7 @@
       ]
     },
     "economical": {
-      "title": "Economicalness",
+      "title": "Powerful Economic Model",
       "tags": [
         "Quota-Based Model",
         "Feeless Transactions",
