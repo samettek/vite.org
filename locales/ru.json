@@ -842,16 +842,16 @@
     "achpay": {
       "desc": {
         "text1": "ACHPAY является некоммерческим фондом, который проинвестирован Фондом Vite Ecosystem, в свою очередь Фонд Vite Ecosystem держал токен ACHPAY, как акционер.",
-        "text2": "Meanwhile, Vite will participate in ACHPAY's payment network integration. The Lightning Network will have access to blockchain through Vite system to improve payment efficiency and secure asset circulation."
+        "text2": "Тем временем Vite будет участвовать в интеграции платежной сети ACHPAY. Сеть Lightning будет иметь доступ к блокчейну через систему Vite, чтобы повысить эффективность платежей и обеспечить безопасное обращение с активами."
       }
     }
   },
   "superNodes": {
-    "title": "Guide for SBP",
+    "title": "Руководство для SBP",
     "contents": [
       {
         "orderNum": "I.",
-        "question": "Information you need to submit",
+        "question": "Информация, которую вы должны предоставить",
         "answer": [
           "1. Name and logo for the supernode. These are necessary, as it helps create an identity for you within the community. ",
           "2. Email address for the entity that will operate the SBP. ",
