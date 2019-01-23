@@ -757,28 +757,28 @@
         "description": "Дейзи имеет 3-х летний опыт разработки в фронт-энд. Она опытна в Vue, Node и других фреймворках."
       },
       "Tiantao": {
-        "name": "Tiantao Zhu",
-        "job": "Back-End Developer",
-        "position": "Beijing",
-        "description": "Tiantao has 3 years of experience working in network security, specifically on the client-side system architecture design. He had a role in developing core components to service peer-to-peer networking, security, and verification features. "
+        "name": "Тяньтао Чжу",
+        "job": "Back-End Разработчик",
+        "position": "Пекин",
+        "description": "Тяньтао имеет 3-летний опыт работы в области сетевой безопасности, в частности, над проектированием архитектуры системы на стороне клиента. Он принимал участие в разработке основных компонентов для обслуживания функций одноранговой сети, безопасности и проверки. "
       },
       "weichao": {
-        "name": "Weichao Li",
-        "job": "System Architect",
-        "position": "Beijing",
-        "description": "Weichao has over 7 years of experience in back-end service architectural design. He has designed systems that process more than 20,000 queries per second."
+        "name": "Вейхао Ли",
+        "job": "Системный Архитектор",
+        "position": "Пекин",
+        "description": "Вейхао имеет более чем 7-летний опыт работы в сфере архитектурного проектирования. Он разработал системы, которые обрабатывают более 20 000 запросов в секунду."
       },
       "Zack": {
-        "name": "Zack Hou",
-        "job": "Director of Product",
-        "position": "Beijing",
-        "description": "Zack graduated from Beijing University of Posts and Telecommunications with a Master's Degree. He has over 4 years of experience working with IT products and has worked for prestigious firms, the likes of DiDi and Baidu. There he was in charge of managing applications with millions of daily active users (DAU)."
+        "name": "Зак Хоу",
+        "job": "Директор по продукту",
+        "position": "Пекин",
+        "description": "Зак окончил Пекинский Университет Почты и Телекоммуникаций со степенью магистра. Он имеет более 4 лет опыта работы с ИТ-продуктами и работал в престижных фирмах, таких как DiDi и Baidu. Там он отвечал за управление приложениями с миллионами ежедневно активных пользователей (DAU)."
       },
       "Tina": {
-        "name": "Tina Wong",
-        "job": "Front-End Developer",
-        "position": "Beijing",
-        "description": "Tina has 3 years of front-end development experience. She graduated from Nanyang Technological University in Singapore, with a Master's of Science in Information Studies. Tina has previously worked at technology firms in both China and Singapore."
+        "name": "Тина Вонг",
+        "job": "Front-End Разработчик",
+        "position": "Пекин",
+        "description": "Тина имеет 3-х летний опыт фронт-энд разработки. Она окончила технологический университет Наньянга в Сингапуре со степенью магистра информационных технологий. Тина ранее работала в технологических фирмах в Китае и Сингапуре."
       },
       "Rod": {
         "name": "Rod Luo",
