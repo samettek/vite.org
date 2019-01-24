@@ -177,7 +177,7 @@
       .pop-btn {
         box-shadow: 0 10px 40px 0 rgba(126, 183, 238, 0.83);
         display: inline-block;
-        width: 168px;
+        width: 220px;
         height: 60px;
         line-height: 60px;
         color: white;

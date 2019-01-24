@@ -1162,8 +1162,8 @@
     }
   },
   "airdrop": {
-    "title1": "Download Vite App and Participate in Airdrop",
-    "text1": "Open App and enter into Discovery page to join us <br /> (Stay tuned for Vite Android Version Airdrop)",
+    "title1": "Download Vite iOS App and Participate in Airdrop",
+    "text1": "Open iOS App and enter into Discovery page to join us <br /> (Airdrop is available on iOS. Stay tuned for Vite Android Version)",
     "text2": "Complete tasks to raise your V Power to speed up receiving VITE, you can pick up V Power every 4 hours at most",
     "title2": "Not Just an Airdrop. Vite Will Bring you a Great Fortune in 2019",
     "step": "Two More Steps to Become a Big Winner: ",
@@ -1172,7 +1172,7 @@
     "step3f": "Over",
     "step3e": "Will be Distributed Everyday",
     "annual": "Annual Return Rate Achieves ",
-    "btn1": "Download Vite App",
+    "btn1": "Download Vite iOS App",
     "btn2": "Check Voting Rewards"
   }
 }
