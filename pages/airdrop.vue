@@ -45,7 +45,7 @@
                 <a
                   placement="bottom-center"
                   class="download-btn"
-                  href='itms-services://?action=download-manifest&url=https://download.vite.net/ios/manifest.plist'
+                  href='https://itunes.apple.com/us/app/vite-official-hd-wallet/id1437629486?mt=8'
                 >{{$t('airdrop.btnIos')}}</a>
                 <a
                   placement="bottom-center"
