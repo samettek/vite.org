@@ -43,12 +43,10 @@
                 class="mobile-btn-group"
               >
                 <a
-                  placement="bottom-center"
                   class="download-btn"
                   href='https://itunes.apple.com/us/app/vite-official-hd-wallet/id1437629486?mt=8'
                 >{{$t('airdrop.btnIos')}}</a>
                 <a
-                  placement="bottom-center"
                   class="download-btn"
                   download="vite.apk"
                   href='https://download.vite.net/android/vite.apk'
