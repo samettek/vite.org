@@ -1155,32 +1155,32 @@
       "dex": {
         "title": "Встроенный DEX",
         "child": [
-          "On-Chain Order Book",
-          "Cross-Chain Support",
+          "Он-чейн Книга Заявков",
+          "Кросс-Чейн Поддержка",
           "Fast Order-Matching"
         ]
       }
     },
     "dapps": {
-      "title": "Ecosystem of dApps",
+      "title": "Экосистема dApps",
       "child": [
-        "Games",
-        "Local Services",
-        "Entertainment",
-        "Social Networking Services",
-        "Intellectual Property",
-        "IoT"
+        "Игры",
+        "Местные Услуги",
+        "Развлечения",
+        "Сервисы Социальных Сетей",
+        "Интеллектуальная Собственность",
+        "Интернет Вещей"
       ]
     }
   },
   "airdrop": {
-    "title1": "Download Vite iOS App and Participate in Airdrop",
-    "text1": "Open iOS App and enter into Discovery page to join us <br /> (Airdrop is available on iOS. Stay tuned for Vite Android Version)",
-    "text2": "Complete tasks to raise your V Power to speed up receiving VITE, you can pick up V Power every 4 hours at most",
-    "title2": "Not just an airdrop, VITE is bringing you a prosperous 2019",
-    "step": "Two More Steps to Become a Big Winner: ",
-    "step1": "Download Vite App and Receive Vite Airdrop",
-    "step2": "Vote for SBPs in Vite App",
+    "title1": "Загрузите приложение Vite для iOS и примите участие в Airdrop",
+    "text1": "Откройте приложение iOS и войдите на страницу Discovery, чтобы присоединиться к нам. <br /> (Airdrop доступен на iOS. Следите за новостями о версии Vite для Android)",
+    "text2": "Выполняйте задачи по повышению вашего V Power для ускорения получения VITE, вы можете использовать V Power каждые 4 часа максимум",
+    "title2": "VITE приносит вам не только airdrop, но и процветающий 2019 год",
+    "step": "Еще Два Шага, чтобы Стать Крупным Победителем: ",
+    "step1": "Скачать приложение Vite и получить Vite Airdrop",
+    "step2": "Голосуйте за SBP в приложении Vite",
     "step3f": "Over",
     "step3e": "Will be Distributed Everyday",
     "annual": "Annual Return Rate Achieves ",
