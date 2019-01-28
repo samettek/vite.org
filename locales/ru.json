@@ -951,26 +951,26 @@
         "answer": [
           "Самым большим нововведением является асинхронный дизайн, который можно понять в трех аспектах: ",
           "Во-первых, мы внедряем концепцию асинхронного проектирования в смарт контракты. Проект Nano (одна из трех известных цепей, использующих DAG) разделяет действие передачи на транзакцию отправки и получения. Мы основываемся на этом механизме и будем разделять вызов и ответ смарт контракта, чтобы они могли происходить асинхронно.",
-          "Second, the writing and verification of a transaction also happen asynchronously in Vite.  In traditional blockchain setup (e.g., Bitcoin), the speed of writing transactions into a ledger is limited by the speed of packing.  But Vite allows writing of many transactions into the ledger within the constraints of the TPS.  Because the asynchronous setup allows the transactions to happen at an even speed, this reduces the peaks and troughs of the speed of transaction writing, thus optimizing usage of resources and increasing system throughput.  Also, the transactions of two users will no longer be blocked; that is, we will no longer see a scenario where a user sends a large amount of transactions that prevents the transactions of other users from taking place.",
-          "Third, calls between contracts will also happen asynchronously in Vite.  The calls between smart contracts in Ethereum are implemented through messaging (aka insider transactions); and the calls either all succeed or all fail, as per an atomic ACID semantic.  To solve for this bottleneck in performance, we take a page from well-developed solutions in centralized Internet technologies, and will make use of a message-driven architecture.  As such, contracts do not share states and communicate via messages."
+          "Во-вторых, написание и проверка транзакции также происходят асинхронно в Vite. В традиционной настройке блокчейна (например, биткойн) скорость записи транзакций в регистр ограничена скоростью упаковки. Но Vite позволяет записывать множество транзакций в книгу учёта в рамках ограничений TPS. Поскольку асинхронная настройка позволяет выполнять транзакции с равномерной скоростью, это уменьшает пики и минимумы скорости записи транзакций, оптимизируя тем самым использование ресурсов и увеличивая пропускную способность системы. Также транзакции двух пользователей больше не будут блокироваться; то есть мы больше не увидим сценарий, в котором пользователь отправляет большое количество транзакций, что предотвращает выполнение транзакций других пользователей.",
+          "В-третьих, вызовы между контрактами также будут происходить асинхронно в Vite. Вызовы между смарт контрактами в Ethereum осуществляются через обмен сообщениями (иначе говоря, инсайдерские транзакции); и вызовы или все успешны или все провальны, согласно атомарной семантике ACID. Чтобы устранить это узкое место в производительности, мы возьмем страницу с хорошо разработанными решениями в области централизованных интернет-технологий и будем использовать архитектуру, управляемую сообщениями. Как таковые, контракты не разделяют состояния и коммуницируют через сообщения."
         ]
       },
       {
-        "question": "Since smart contracts in Vite don’t support synchronous calls, how will such calls in Ethereum be compatible with Vite?",
-        "answer": "Unfortunately, these calls are not compatible with Vite.  Synchronous calls need to be changed to asynchronous calls to work in Vite."
+        "question": "Поскольку смарт контракты в Vite не поддерживают синхронные вызовы, как эти вызовы в Ethereum будут совместимы с Vite?",
+        "answer": "К сожалению, эти вызовы не совместимы с Vite. Синхронные вызовы должны быть изменены на асинхронные вызовы для работы в Vite."
       },
       {
-        "question": "What is the difference between Vite's Solidity++ and Ethereum’s Solidity?",
+        "question": "В чем разница между Solidity++ от Vite и Solidity от Ethereum?",
         "answer": [
-          "On a high level, the differences are similar to those of C and C++.  In basic syntax, the two languages are largely compatible.  The largest difference is in the synchronous (Ethereum) vs asynchronous (Vite) calls as mentioned earlier.",
-          "In addition, a series of standard libraries, such as string manipulation, floating-point operations, basic mathematical operations, containers, and sorting will be provided in Solidity++."
+          "На высоком уровне различия похожи на C и C ++. В базовом синтаксисе два языка в значительной степени совместимы. Наибольшее различие заключается в синхронных (Ethereum) и асинхронных (Vite) вызовах, как упоминалось ранее.",
+          "Кроме того, в Solidity ++ будет представлен ряд стандартных библиотек, таких как операции со строками, операции с плавающей точкой, базовые математические операции, контейнеры и сортировка."
         ]
       },
       {
-        "question": "The message-based architecture has an advantage of high throughput and scalability. However, this comes at a cost of more complex programming model, which may not guarantee strong consistency, and may lead to even higher latencies.  How does Vite reduce both the complexity in programming model and latencies?",
+        "question": "Основанная на сообщениях архитектура обладает преимуществом высокой пропускной способности и масштабируемости. Однако это происходит за счет более сложной модели программирования, которая может не гарантировать строгой согласованности и может привести к еще большим задержкам. Как Vite уменьшает сложность в модели программирования и задержки?",
         "answer": [
-          "Vite will provide Solidity++ contract language and a complete SDK to reduce the cost of asynchronous programming.",
-          "After rigorous research, we find that in practical use cases, strong consistency semantics can be replaced by BASE semantics. Since the HDPoS consensus algorithm of Vite can guarantee transaction confirmation within 1 second, any potential latency increase is still under control."
+          "Vite предоставит язык контрактов Solidity ++ и полный SDK для снижения стоимости асинхронного программирования.",
+          "После тщательного исследования мы обнаружили, что в практических случаях семантика сильной согласованности может быть заменена семантикой BASE. Поскольку согласованный алгоритм HDPoS Vite может гарантировать подтверждение транзакции в течение 1 секунды, любое потенциальное увеличение задержки все еще находится под контролем."
         ]
       },
       {
