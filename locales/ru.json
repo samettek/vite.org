@@ -1115,45 +1115,45 @@
       ]
     },
     "easyusing": {
-      "title": "Usability",
+      "title": "Удобство Использования",
       "tags": [
         "Solidity++",
-        "Naming Services",
-        "Contract Scheduling",
-        "Contract Upgrades"
+        "Сервис Именования",
+        "Планирование Контрактов",
+        "Обновление Контракта"
       ]
     },
     "flexable": {
-      "title": "Scalability",
+      "title": "Масштабируемость",
       "tags": [
-        "Cross-Chain Gateway",
-        "HDPoS Consensus",
-        "Smart Contracts"
+        "Кросс-чейн Шлюз",
+        "HDPoS Консенсус",
+        "Смарт-Контракты"
       ]
     }
   },
-  "ecoTitle": "Vite Ecosystem",
-  "ecoTitle2": "What Vite Can Do For You",
+  "ecoTitle": "Экосистема Vite",
+  "ecoTitle2": "Что Vite может сделать для вас",
   "eco": {
     "worth": {
-      "title": "Ecosystem of Value",
+      "title": "Экосистема Ценности",
       "pay": {
-        "title": "Payment",
+        "title": "Оплата",
         "child": [
-          "Instant Confirmation",
-          "On-Chain Transaction",
-          "Multiple Tokens"
+          "Мгновенное Подтверждение",
+          "On-Chain Транзакции",
+          "Множество Токенов"
         ]
       },
       "finance": {
-        "title": "Token Issuance",
+        "title": "Выпуск Актива",
         "child": [
-          "One-Step Token Issuance",
+          "Выпуск Токена за Один Шаг",
           "Protocol-Level of Support"
         ]
       },
       "dex": {
-        "title": "Built-in DEX",
+        "title": "Встроенный DEX",
         "child": [
           "On-Chain Order Book",
           "Cross-Chain Support",
