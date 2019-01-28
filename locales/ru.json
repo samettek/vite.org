@@ -1077,30 +1077,30 @@
     "introduction": "https://vite.wiki/introduction/"
   },
   "utils": {
-    "readMore": "Read More"
+    "readMore": "Подробнее"
   },
   "footer": {
-    "learning": "LEARN",
-    "about": "ABOUT",
-    "media": "MEDIA"
+    "learning": "ИЗУЧИТЬ",
+    "about": "О НАС",
+    "media": "МЕДИА"
   },
   "joinMailing": {
-    "title": "Subscribe to Vite to Get Exclusive Benefits",
-    "button": "Subscribe",
-    "placeholder": "Email Address"
+    "title": "Подпишитесь на Vite, чтобы Получить Эксклюзивные Преимущества",
+    "button": "Подписаться",
+    "placeholder": "E-mail Адрес"
   },
-  "featureTitle": "Vite Fundamentals",
-  "featureTitle2": "Why Does Vite Stand Out",
+  "featureTitle": "Основы Vite",
+  "featureTitle2": "Почему Vite Выделяется",
   "features": {
     "performance": {
-      "title": "High Performance",
+      "title": "Высокая Производительность",
       "tags": [
-        "DAG Ledger",
-        "Asynchronous Architecture"
+        "DAG Книга",
+        "Асинхронная Архитектура"
       ]
     },
     "safety": {
-      "title": "Security",
+      "title": "Безопасность",
       "tags": [
         "Multi-Token Model",
         "Snapshot Chain"
