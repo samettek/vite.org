@@ -1011,65 +1011,65 @@
         ]
       },
       {
-        "question": "Token inflation (mining rewards) and consumption will be dynamically balanced under the premise of a total of 1 billion tokens?",
+        "question": "Инфляция токенов (награды за майнинг) и потребление будут динамически сбалансированы, исходя из предположения, что в общей сложности 1 миллиард токенов?",
         "answer": [
-          "The amount of one billion tokens demonstrates initial circulation. Mining rewards are generated from additional token issuance: the inflation. As the system becomes widely used, tokens will continue to be burned. We hope that the circulation of tokens will attain the dynamic balance needed."
+          "Количество в один миллиард токенов демонстрирует первоначальный циркуляцию. Награды за майнинг генерируются за счет дополнительной эмиссии токенов: инфляции. Поскольку система станет широко использоваться, токены будут продолжать сжигаться. Мы надеемся, что обращение токенов достигнет необходимого динамического баланса."
         ]
       },
       {
-        "question": "On Vite network, users can issue their own currency. Is the function similar to ERC20 token(s) on Ethereum? What advantages does Vite have with their system? What is the address of the VITE ERC20 token?",
+        "question": "В сети Vite пользователи могут выпускать собственную валюту. Схожа ли функция с токенами ERC20 в Ethereum? Какие преимущества имеет Vite в своей системе? Какой адрес у токена VITE ERC20?",
         "answer": [
-          "Vite's asset issuance is similar to ERC20, but in other ways it is different. ERC20 is a specification, but not a part of the Ethereum protocol. The issuance of new tokens with Ethereum requires the user to develop and deploy a smart contract. Token balance is maintained by the state of the contract. If contract development is flawed, security risks surface. For example, if a user forgets to refer to the SaftMath library, an overflow may occur. Vite token is built into the Vite protocol. The token balance is maintained in the state of the user's account. The new token and the Vite native token share the same underlying protocol thus bringing the same measure of security to the new token and native token. When a user decides to issue a new token in Vite, all they need to do is initiate a transaction. The transaction then puts the new token parameters in the transaction data. The fact that our network does not require smart contract writing inherently leaves less room for bug generation to occur."
+          "Выпуск активов Vite похож на ERC20, но в других отношениях он отличается. ERC20 является спецификацией, но не является частью протокола Ethereum. Выпуск новых токенов с Ethereum требует от пользователя разработки и развертывания смарт контракта. Баланс токена поддерживается состоянием контракта. Если разработка контракта ошибочна, появляются риски для безопасности. Например, если пользователь забывает ссылаться на библиотеку SaftMath, может произойти переполнение. Токен Vite встроен в протокол Vite. Баланс токена сохраняется в состоянии учетной записи пользователя. Новый токен и собственный токен Vite используют один и тот же базовый протокол, что обеспечивает одинаковую степень безопасности для нового токена и собственного токена. Когда пользователь решает выпустить новый токен в Vite, ему нужно только инициировать транзакцию. Затем транзакция помещает новые параметры токена в данные транзакции. Тот факт, что наша сеть не требует написания смарт контрактов, по сути оставляет меньше места для возникновения ошибок."
         ]
       },
       {
-        "question": "What is the address of the VITE ERC20 token?",
+        "question": "Какой адрес у токена VITE ERC20?",
         "answer": [
-          "Currently, the VITE ERC20 token address hosted on Ethereum's platform is https: //etherscan.io/token/0x1b793E49237758dBD8b752AFC9Eb4b329d5Da016, when Vite MainNet is launched, all of the ERC20 VITE tokens will be migrated to Vite MainNet tokens at a 1:1 ratio."
+          "В настоящее время адрес токена VITE ERC20, размещенный на платформе Ethereum, является https: //etherscan.io/token/0x1b793E49237758dBD8b752AFC9Eb4b329d5Da016, когда при запуске Vite MainNet все токены ERС20 VITE будут перенесены в Vite MainNet в соотношении 1:1."
         ]
       },
       {
-        "question": "Can we mine Vite tokens?",
+        "question": "Можем ли мы майнить токены Vite?",
         "answer": [
-          "Vite's consensus mechanism is similar to EOS's. It generates 25 snapshot block producers through the DPoS algorithm. The block producers, in turn, receive mining rewards."
+          "Консенсусный механизм Vite похож на EOS. Он генерирует 25 производителей snapshot блоков с помощью алгоритма DPoS. Производители блоков, в свою очередь, получают награды за майнинг."
         ]
       }
     ]
   },
   "investor": {
-    "title": "Our Investors"
+    "title": "Наши Инвесторы"
   },
   "urls": {
     "telegram": {
-      "ann": "Announcement Channel",
-      "english": "English",
-      "chinese": "Chinese",
-      "vietnamese": "Vietnamese",
-      "korean": "Korean",
-      "russia": "Russia",
-      "thailand": "Thailand"
+      "ann": "Канал Новостей",
+      "english": "Английский",
+      "chinese": "Китайский",
+      "vietnamese": "Вьетнамский",
+      "korean": "Корейский",
+      "russia": "Русский",
+      "thailand": "Тайский"
     },
-    "whitePaper": "WHITEPAPER",
+    "whitePaper": "БЕЛАЯ БУМАГА",
     "whitePaperList": {
-      "english": "English",
-      "chinese": "Chinese",
-      "french": "French",
-      "korean": "Korean",
-      "vietnamese": "Vietnamese",
-      "russian": "Russian"
+      "english": "Английский",
+      "chinese": "Китайский",
+      "french": "Французский",
+      "korean": "Корейский",
+      "vietnamese": "Вьетнамский",
+      "russian": "Русский"
     },
-    "document": "Documentation",
+    "document": "Документация",
     "loopring": "Loopring",
     "faq": "FAQ",
     "medium": "Medium",
-    "introduction": "Introduction",
-    "tokenUrl": "ERC20 Address",
+    "introduction": "Введение",
+    "tokenUrl": "ERC20 Адрес",
     "btt": "Bitcointalk",
-    "telegramEn": "Telegram English",
-    "telegramZh": "Telegram Chinese",
+    "telegramEn": "Telegram Английский",
+    "telegramZh": "Telegram Китайский",
     "telegramAnn": "Telegram ",
     "youtube": "Youtube",
-    "blog": "Technology Blog"
+    "blog": "Блог"
   },
   "urlSrc": {
     "telegram": "https://t.me/vite_en",
