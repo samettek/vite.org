@@ -1102,16 +1102,16 @@
     "safety": {
       "title": "Безопасность",
       "tags": [
-        "Multi-Token Model",
-        "Snapshot Chain"
+        "Мульти-Токен Модель",
+        "Snapshot Цепь"
       ]
     },
     "economical": {
-      "title": "Powerful Economic Model",
+      "title": "Мощная Экономическая Модель",
       "tags": [
-        "Quota-Based Model",
-        "Feeless Transactions",
-        "Built-in DEX"
+        "Модель на Основе Квоты",
+        "Бесплатные Транзакции",
+        "Встроенный DEX"
       ]
     },
     "easyusing": {
