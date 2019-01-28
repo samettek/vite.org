@@ -934,23 +934,23 @@
         ]
       },
       {
-        "question": "Which exchange(s) will Vite be listed on?",
+        "question": "На какой бирже(ах) будет Vite в ближайшее время?",
         "answer": [
-          "Currently we have launched on BITTREX and OKEX exchanges, we are also in contact with other exchanges. Stay tuned."
+          "В настоящее время мы размещены на биржах BITTREX и OKEX, мы также находимся в контакте с другими биржами. Следите за новостями."
         ]
       },
       {
-        "question": "What is the public WeChat account of Vite?",
+        "question": "Какой публчиный аккаунт WeChat у Vite?",
         "answer": [
-          "Our official account: vitelabs"
+          "Наш официальный аккаунт: vitelabs"
         ],
         "key": "wechat"
       },
       {
-        "question": "What is Vite’s biggest innovation as compared to other public chains?",
+        "question": "Какова самая большая инновация Vite по сравнению с другими публичными сетями?",
         "answer": [
-          "The biggest innovation is the asynchronous design, which can be understood in three aspects: ",
-          "First, we are introducing the concept of asynchronous design into smart contracts.  The Nano project (one of three well-known chains that use DAG) separates a transfer action into a send and a receive transaction. We are building upon this mechanism, and will separate the call and the response of a smart contract, so they can take place asynchronously.",
+          "Самым большим нововведением является асинхронный дизайн, который можно понять в трех аспектах: ",
+          "Во-первых, мы внедряем концепцию асинхронного проектирования в смарт контракты. Проект Nano (одна из трех известных цепей, использующих DAG) разделяет действие передачи на транзакцию отправки и получения. Мы основываемся на этом механизме и будем разделять вызов и ответ смарт контракта, чтобы они могли происходить асинхронно.",
           "Second, the writing and verification of a transaction also happen asynchronously in Vite.  In traditional blockchain setup (e.g., Bitcoin), the speed of writing transactions into a ledger is limited by the speed of packing.  But Vite allows writing of many transactions into the ledger within the constraints of the TPS.  Because the asynchronous setup allows the transactions to happen at an even speed, this reduces the peaks and troughs of the speed of transaction writing, thus optimizing usage of resources and increasing system throughput.  Also, the transactions of two users will no longer be blocked; that is, we will no longer see a scenario where a user sends a large amount of transactions that prevents the transactions of other users from taking place.",
           "Third, calls between contracts will also happen asynchronously in Vite.  The calls between smart contracts in Ethereum are implemented through messaging (aka insider transactions); and the calls either all succeed or all fail, as per an atomic ACID semantic.  To solve for this bottleneck in performance, we take a page from well-developed solutions in centralized Internet technologies, and will make use of a message-driven architecture.  As such, contracts do not share states and communicate via messages."
         ]
