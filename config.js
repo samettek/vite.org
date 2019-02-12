@@ -68,12 +68,12 @@ module.exports = {
       thailand: 'https://t.me/vite_thailand'
     },
     whitePaper: {
-      english: '/whitepaper/vite_en.pdf',
-      chinese: '/whitepaper/vite_cn.pdf',
-      french: '/whitepaper/vite_fr.pdf',
-      korean: '/whitepaper/vite_korean.pdf',
-      vietnamese: '/whitepaper/vite_vietnamese.pdf',
-      russian: '/whitepaper/vite_russian.pdf'
+      english: 'https://github.com/vitelabs/whitepaper/blob/master/vite_en.pdf',
+      chinese: 'https://github.com/vitelabs/whitepaper/blob/master/vite_cn.pdf',
+      french: 'https://github.com/vitelabs/whitepaper/blob/master/vite_fr.pdf',
+      korean: 'https://github.com/vitelabs/whitepaper/blob/master/vite_korean.pdf',
+      vietnamese: 'https://github.com/vitelabs/whitepaper/blob/master/vite_vietnamese.pdf',
+      russian: 'https://github.com/vitelabs/whitepaper/blob/master/vite_russian.pdf'
     },
     exchange: {
       bittrex: 'https://international.bittrex.com/Market/Index?MarketName=BTC-VITE',
