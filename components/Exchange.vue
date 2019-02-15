@@ -34,7 +34,7 @@
     },
     computed: {
       exchangeList: function () {
-        return ['bittrex', 'okex']
+        return ['bittrex', 'okex','upbit']
       }
     }
   }
