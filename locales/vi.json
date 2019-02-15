@@ -12,7 +12,8 @@
   },
   "exchange": {
     "okex": "OKEX.COM",
-    "bittrex": "BITTREX"
+    "bittrex": "BITTREX",
+    "upbit": "UPBIT"
   },
   "media": {
     "medium": "Medium",
@@ -59,7 +60,7 @@
     "slogan": "Hệ sinh thái phi tập trung hiệu suất cao",
     "whitePaper": "White-paper",
     "testnet": "TestNet",
-    "acttext": "Tham gia Vite Airdrop",
+    "acttext": "Get VITE Token Free",
     "actwait": "Hãy theo dõi!",
     "news": "Tin tức mới nhất",
     "starttoUse": "Bắt đầu cùng Vite"
