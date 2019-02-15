@@ -12,7 +12,8 @@
   },
   "exchange": {
     "okex": "OKEX.COM",
-    "bittrex": "BITTREX"
+    "bittrex": "BITTREX",
+    "upbit": "UPBIT"
   },
   "media": {
     "medium": "Medium",
@@ -59,7 +60,7 @@
     "slogan": "High-Performance Decentralized Ecosystem",
     "whitePaper": "White Paper",
     "testnet": "TestNet",
-    "acttext": "Participate in Vite Airdrop",
+    "acttext": "Get VITE Token Free",
     "actwait": "Stay tuned!",
     "news": "Dernières news",
     "starttoUse": "Commencer avec Vite"
