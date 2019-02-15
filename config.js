@@ -77,7 +77,8 @@ module.exports = {
     },
     exchange: {
       bittrex: 'https://international.bittrex.com/Market/Index?MarketName=BTC-VITE',
-      okex: 'https://www.okex.com/spot/trade#product=vite_eth'
+      okex: 'https://www.okex.com/spot/trade#product=vite_eth',
+      upbit: 'https://sg.upbit.com/exchange?code=CRIX.UPBIT.BTC-VITE'
     },
     media: {
       medium: 'https://medium.com/vitelabs',

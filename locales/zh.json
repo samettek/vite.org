@@ -12,7 +12,9 @@
     },
     "exchange": {
         "okex": "OKEX.COM",
-        "bittrex": "BITTREX"
+        "bittrex": "BITTREX",
+        "upbit":"UPBIT"
+
     },
     "media": {
         "medium": "Medium",
@@ -60,7 +62,7 @@
         "slogan": "高性能去中心化生态系统",
         "whitePaper": "白皮书",
         "testnet": "预览版",
-        "acttext": "参与Vite空投",
+        "acttext": "免费领取VITE代币",
         "actwait": "敬请期待",
         "news": "最新消息",
         "starttoUse": "开始使用Vite"
