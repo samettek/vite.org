@@ -36,7 +36,6 @@
                 </div>
               </template>
             </v-popover>
-            
             <a
               :href="webWallet"
               target="_blank"
@@ -251,6 +250,7 @@ export default {
       @include touch {
         width: 100px;
         font-size: 12px;
+        margin-right: 10px;
       }
     }
     .other-btn {

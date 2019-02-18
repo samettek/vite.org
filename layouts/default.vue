@@ -115,7 +115,7 @@ import config from '~/config'
 import voteNotice from '~/components/voteNotice.vue'
 import about from '~/components/about.vue'
 import Media from '~/components/Media.vue'
-import Exchange from "~/components/Exchange.vue"
+import Exchange from '~/components/Exchange.vue'
 
 export default {
   components: {
@@ -126,7 +126,7 @@ export default {
     Exchange,
     voteNotice,
     about,
-    Media,
+    Media
   },
   head () {
     let { routeName } = this
@@ -284,7 +284,7 @@ export default {
   font-size: 13px;
   padding-top: 30px;
   @include touch {
-    top: 29px;
+    top: 19px;
   }
   .act {
     max-width: 130px;
