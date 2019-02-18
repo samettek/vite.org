@@ -10,33 +10,37 @@
             <h2>{{$t("home.slogan")}}</h2>
           </div>
           <WhitePaper class="wp-btn"></WhitePaper>
-          <div v-if="isMobile" class="mobile-btn-group">
-            <a
-              class="download-btn"
-              href='https://itunes.apple.com/us/app/vite-official-hd-wallet/id1437629486?mt=8'
-            >{{$t('airdrop.btnIos')}}</a>
-            <a
-              class="download-btn"
-              download="vite.apk"
-              href='https://download.vite.net/android/vite.apk'
-            >{{$t('airdrop.btnAndroid')}}</a>
-          </div>
-          <div class="btn-group-wrapper">
-            <div v-if="!isMobile">
-              <v-popover
-                offset="16"
-                popoverClass="v-popover"
-                trigger="hover">
-                <div class="pop-btn">{{$t('home.wallet.name')}}</div>
-                <template slot="popover" >
-                  <div class="wallet-app-container">
-                    <div class="wallet-item">
-                      <img :src="QRcode[$i18n.locale]"  class="wallet-app" />
-                    </div>
-                  </div>
-                </template>
-              </v-popover>
+          <no-ssr>
+            <div v-if="isMobile" class="mobile-btn-group">
+              <a
+                class="download-btn"
+                href='https://itunes.apple.com/us/app/vite-official-hd-wallet/id1437629486?mt=8'
+              >{{$t('airdrop.btnIos')}}</a>
+              <a
+                class="download-btn"
+                download="vite.apk"
+                href='https://download.vite.net/android/vite.apk'
+              >{{$t('airdrop.btnAndroid')}}</a>
             </div>
+          </no-ssr>
+          <div class="btn-group-wrapper">
+            <no-ssr>
+              <div v-if="!isMobile">
+                <v-popover
+                  offset="16"
+                  popoverClass="v-popover"
+                  trigger="hover">
+                  <div class="pop-btn">{{$t('home.wallet.name')}}</div>
+                  <template slot="popover" >
+                    <div class="wallet-app-container">
+                      <div class="wallet-item">
+                        <img :src="QRcode[$i18n.locale]"  class="wallet-app" />
+                      </div>
+                    </div>
+                  </template>
+                </v-popover>
+              </div>
+            </no-ssr>
             <a
               :href="webWallet"
               target="_blank"
