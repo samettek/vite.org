@@ -83,7 +83,7 @@
         </div>
       </div>
     </div>
-    <div class="container is-hidden-mobile">
+    <div class="container">
       <div
         :class="{'airdrop-hide' : routeName === 'airdrop'}"
         class="img-text"
@@ -283,6 +283,9 @@ export default {
   font-family: $font-family-title;
   font-size: 13px;
   padding-top: 30px;
+  @include touch {
+    top: 29px;
+  }
   .act {
     max-width: 130px;
     margin:10px;

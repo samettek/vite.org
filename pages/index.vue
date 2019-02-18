@@ -10,8 +10,20 @@
             <h2>{{$t("home.slogan")}}</h2>
           </div>
           <WhitePaper class="wp-btn"></WhitePaper>
+          <div v-if="isMobile" class="mobile-btn-group">
+            <a
+              class="download-btn"
+              href='https://itunes.apple.com/us/app/vite-official-hd-wallet/id1437629486?mt=8'
+            >{{$t('airdrop.btnIos')}}</a>
+            <a
+              class="download-btn"
+              download="vite.apk"
+              href='https://download.vite.net/android/vite.apk'
+            >{{$t('airdrop.btnAndroid')}}</a>
+          </div>
           <div class="btn-group-wrapper">
             <v-popover
+              v-if="!isMobile"
               offset="16"
               popoverClass="v-popover"
               trigger="hover">
@@ -24,6 +36,7 @@
                 </div>
               </template>
             </v-popover>
+            
             <a
               :href="webWallet"
               target="_blank"
@@ -69,6 +82,7 @@ import Telegram from '~/components/Telegram'
 import WhitePaper from '~/components/WhitePaper'
 import JoinMailingList from '~/components/JoinMailingList'
 import { VPopover } from 'v-tooltip'
+import isMobile from 'is-mobile'
 
 import config from '~/config.js'
 
@@ -91,6 +105,7 @@ export default {
   mounted () {},
   data () {
     return {
+      isMobile: isMobile(),
       QRcode: {
         zh: require('~/assets/images/zhongapp.png'),
         en: require('~/assets/images/waiapp.png')
@@ -139,6 +154,29 @@ export default {
   }
 
 }
+
+.mobile-btn-group {
+    display: flex;
+    margin-top: 1.75rem;
+    flex-direction: column;
+    .download-btn {
+      display: flex;
+      box-shadow: 0 10px 40px 0 rgba(126, 183, 238, 0.83);
+      height: 60px;
+      width: 210px;
+      line-height: 60px;
+      color: white;
+      background: $common-active-color;
+      cursor: pointer;
+      justify-content: center;
+      &:first-child {
+        margin-bottom: 20px;
+      }
+      @include touch {
+        font-size: 12px;
+      }
+    }
+  }
 
 .section-title {
   text-align: center;
@@ -224,7 +262,8 @@ export default {
       background: transparent;
        @include touch {
         font-size: 12px;
-        margin-left: 10px;
+        margin-left: 0;
+        margin-right: 10px;
       }
     }
     @include touch {
