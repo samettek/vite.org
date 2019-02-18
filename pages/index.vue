@@ -22,20 +22,21 @@
             >{{$t('airdrop.btnAndroid')}}</a>
           </div>
           <div class="btn-group-wrapper">
-            <v-popover
-              v-if="!isMobile"
-              offset="16"
-              popoverClass="v-popover"
-              trigger="hover">
-              <div class="pop-btn">{{$t('home.wallet.name')}}</div>
-              <template slot="popover" >
-                <div class="wallet-app-container">
-                  <div class="wallet-item">
-                    <img :src="QRcode[$i18n.locale]"  class="wallet-app" />
+            <div v-if="!isMobile">
+              <v-popover
+                offset="16"
+                popoverClass="v-popover"
+                trigger="hover">
+                <div class="pop-btn">{{$t('home.wallet.name')}}</div>
+                <template slot="popover" >
+                  <div class="wallet-app-container">
+                    <div class="wallet-item">
+                      <img :src="QRcode[$i18n.locale]"  class="wallet-app" />
+                    </div>
                   </div>
-                </div>
-              </template>
-            </v-popover>
+                </template>
+              </v-popover>
+            </div>
             <a
               :href="webWallet"
               target="_blank"
