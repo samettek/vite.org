@@ -284,7 +284,7 @@ export default {
   font-size: 13px;
   padding-top: 30px;
   @include touch {
-    top: 19px;
+    top: 0px;
   }
   .act {
     max-width: 130px;
