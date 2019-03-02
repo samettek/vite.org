@@ -109,33 +109,33 @@
           },
           "Portefeuille iOS",
           {
-            "text": "Block Explorer",
+            "text": "Explorateurs de Blocks",
             "url": "https://explorer.vite.net/"
           }
         ]
       },
       {
-        "time": "October 2018",
+        "time": "Octobre 2018",
         "description": [
           {
-            "text": "Conversion of ERC20 VITE into VITE (56% of total token supply)",
+            "text": "Conversion de VITE ERC20 en VITE (56% de l'offre totale de jetons)",
             "url": "https://medium.com/vitelabs/testnet-an-update-erc20-token-migration-guide-7c200bef7337"
           }
         ]
       },
       {
-        "time": "November 2018",
+        "time": "Novembre 2018",
         "description": [
-          "Vite TestNet 1.0.0",
+          "Testnet Vite 1.0.0",
           {
-            "text": "Snapshot Block Producer (SBP) Campaign",
+            "text": "Campagne de Producteurs de Blocks (SBP)",
             "url": "https://explorer.vite.net/SBPList"
           },
-          "Mining"
+          "Minage"
         ]
       },
       {
-        "time": "December 2018",
+        "time": "Décembre 2018",
         "description": [
           "Smart Contract/ Solidity++ Alpha Test",
           "Cross-Chain Gateway Alpha Test",
@@ -238,10 +238,10 @@
         "medium": [
           "1. First of all, we are trying to increase the exposure rate of Vite in many vertical blockchain medias including 8btc, Jinse Finance, Lian Dede etc., we leave open the possibility that adopting the form of setup a node column.",
           "2. Operating a node account in social medias such as WeChat official account, Weibo, Twitter, reddit, facebook, etc., this account will be in charge by a professional person in order to enhance the interaction with fans.",
-          "3. Periodically plan for community airdrops and try to get more and more fans of Vite constantly."
+          "3. Planifier périodiquement des airdrops pour la communauté et constamment essayer d'attirer de plus en plus de fans de Vite."
         ],
         "plan": [
-          "1. Increasing the exposure rate of Vite by blockchain medias, wallet, market trending apps, setting up accounts of various social medias and charging by professionals, evangelizing the technical advantages of Vite project and retweeting the official announcement and progress of project.",
+          "1. Augmenter l'exposition de Vite dans les médias liés à la Blockchain, les portefeuilles, les apps en vogues sur les marchés, créer divers comptes de réseaux sociaux gérés par des professionels, évangéliser les avantages techniques du projet Vite et retweeter les annoncements officiels et les progrès du projet.",
           "2. Designing Vite themed products and organizing offline meetup of fans regularly, meanwhile, the community will be in charge of professionals and combine with official meetup event as well as media, wallet market trending apps to plan for airdrops.",
           "3. Making some incentive plans to activate community developers to support the up-coming dApp development of Vite ecosystem."
         ],
