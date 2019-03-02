@@ -177,23 +177,23 @@
           "Lancement du MainNet",
           "dApps (supportées par les clients d'applications mobiles)",
           "Lancement de Stable Coins sur le DEX",
-          "Payment Fulfilment"
+          "Réalisation de Paiements"
         ]
       },
       {
-        "time": "Q4 2019",
+        "time": "T4 2019",
         "description": [
-          "dApp Ecosystem Construction"
+          "Construction de l'Ecosystème de dApp"
         ]
       }
     ]
   },
   "elector": {
-    "title": "SBP Candidates",
+    "title": "Candidats SBP",
     "detailTitles": [
       {
         "key": "info",
-        "title": "Information of Team Members"
+        "title": "Informations sur les Membres de l'Equipe"
       },
       {
         "key": "photo",
@@ -201,23 +201,23 @@
       },
       {
         "key": "config",
-        "title": "Configuration of Data Center"
+        "title": "Configuration de Data Center"
       },
       {
-        "key": "location",
-        "title": "Server Location"
+        "key": "emplacement",
+        "title": "Emplacement du Serveur"
       },
       {
         "key": "plan",
-        "title": "Eco-development Plans"
+        "title": "Plans d'Eco-développement"
       }
     ],
     "rightCommonPart": {
-      "title": "Social Medias",
-      "email": "Email",
+      "title": "Médias Sociaux",
+      "email": "E-mail",
       "twitter": "Twitter",
       "telegram": "Telegram",
-      "website": "Website"
+      "website": "Site Internet"
     },
     "nameMap": {
       "vitecity": {
