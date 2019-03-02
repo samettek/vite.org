@@ -6,8 +6,8 @@
     "description": {
       "index": "Vite - Ecosystème Décentralisé De Haute Performance",
       "careers": "Soyez les bienvenus à rejoindre Vitelabs, Créons ensemble une Nouvelle Génération de plateforme d'Ecosystème Décentralisé De Haute Performance",
-      "faq": "All about FAQs of Vite",
-      "technology": "The key technologies of Vite: DAG、Snapshot Chain、Asynchronous Architecture、Reactive Contract、Quota leasing、Loopring Integrated、Timer scheduling、Contract Upgrade、solidity++"
+      "faq": "Tout sur Vite - FAQ",
+      "technology": "Les technologies clés de Vite: DAG, Chaine de Snapshots , Architecture Asynchrone, Contrats Réactifs, Leasing de Quota, Integration avec Loopring, Timer scheduling, Mises à Jour de Contrats, solidity ++"
     }
   },
   "exchange": {
@@ -34,34 +34,34 @@
     "exchange": "ÉCHANGES",
     "media": "MEDIAS",
     "faq": "FAQ",
-    "about": "ABOUT",
+    "about": "A PROPOS",
     "wiki": "WIKI",
-    "superNodes": "Guide for SBP (Snapshot Block Producer)",
-    "nodeList": "SBP Candidates",
+    "superNodes": "Guide pour SBP (Producteur de Blocs de Snapshots)",
+    "nodeList": "Candidats SBP",
     "notice": {
       "name": "SUPERNODES",
-      "specific": "Guide for SBP (Snapshot Block Producer)",
-      "apply": "Apply for SBP (Snapshot Block Producer) "
+      "specific": "Guide pour SBP (Producteur de Blocs de Snapshots)",
+      "apply": "Postulez pour SBP (Producteur de Blocs de Snapshots)"
     }
   },
   "about": {
-    "whitepaper": "White Paper",
+    "whitepaper": "Livre Blanc",
     "blog": "Blog"
   },
   "home": {
-    "explorer": "Explorer",
-    "webWallet": "Web Wallet",
+    "explorer": "Explorateur",
+    "webWallet": "Portefeuille Web",
     "wallet": {
-      "name": "Vite App",
-      "en": "Outside China Mainland",
-      "zh": "China Mainland"
+      "name": "App Vite",
+      "en": "Hors Chine Continentale",
+      "zh": "Chine Continentale"
     },
     "header": "Vite",
-    "slogan": "High-Performance Decentralized Ecosystem",
-    "whitePaper": "White Paper",
+    "slogan": "Ecosystème Décentralisé De Haute Performance",
+    "whitePaper": "Livre Blanc",
     "testnet": "TestNet",
-    "acttext": "Get VITE Token Free",
-    "actwait": "Stay tuned!",
+    "acttext": "Recevez Gratuitement des jetons VITE",
+    "actwait": "Restez connecté !",
     "news": "Dernières news",
     "starttoUse": "Commencer avec Vite"
   },
@@ -86,28 +86,28 @@
         "description": [
           "Vente de fonds privée",
           "Site officiel",
-          "Founding Team"
+          "Equipe Fondatrice"
         ]
       },
       {
         "time": "Juin 2018",
         "description": [
-          "R&D Team",
-          "Core Technology Development"
+          "Equipe R&D",
+          "Développement de la Technologie Coeur"
         ]
       },
       {
-        "time": "August 2018",
+        "time": "Août 2018",
         "description": " go-vite 0.1"
       },
       {
-        "time": "September 2018",
+        "time": "Septembre 2018",
         "description": [
           {
-            "text": "Web Wallet",
+            "text": "Portefeuille Web",
             "url": "https://wallet.vite.net/"
           },
-          "iOS Wallet",
+          "Portefeuille iOS",
           {
             "text": "Block Explorer",
             "url": "https://explorer.vite.net/"
