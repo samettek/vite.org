@@ -278,13 +278,13 @@
       },
       "snap": {
         "info": [
-          "Mathew Pham (AKA plasmo) I first got first interested in crypto/blockchain when I found out about Bitcoin in 2012. Invested in a small amount and ever since then, I've truly fallen in love with everything crypto/blockchain-related (especially smart contracts). I've dabbled before in hosting nodes, mining and investing/using one of the first ever mass produced Bitcoin miners (Kncminer), beta testing in the first ever version of Ubuntu Linux back in 2004 and even operating my own business hosting gaming servers/competitions. I discovered Vite back in May, read the Vite Whitepaper, looked over the team's extensive background and thought to myself that this could be become something big. I want to help Vite grow. I am located in Melbourne, Australia."
+          "Mathew Pham (AKA plasmo) Je me suis intéressé pour la première fois à la blockchain/cryptomonnaires quand j'ai découvert le Bitcoin en 2012. J'ai investi un petit moment et depuis ce moment, je suis vraiment tombé amoureux de tout ce qui est lié à la blockchain/cryptomonnaires (spécialement les Smart Contracts). Je me suis essayé à faire tourner des nodes, miner et investir/utiliser l'un des premier mineurs de Bitcoin produits en masse (Kncminer), béta testé dans la première version de Linux Ubuntu en 2004, et même en opérant mon propre commerce d'hébergement de serveurs de Gaming et de competitions. J'ai découvert Vite en Mai, ai lu le livre blanc, ai regarde l'expérience de l'équipe et ai pensé que cela pouvait devenir énorme. Je veux aider Vite à grandir. Je suis localisé à Melbourne, en Australie."
         ],
         "config": [
-          "Intel i5-8600K (6 cores), 16GB DDR4 memory, Samsung SSD, 100Mbps connection"
+          "Intel i5-8600K (6 coeurs), mémoire 16GB DDR4 , SSD Samsung , 100Mbps de bande passante"
         ],
         "location": [
-          "Melbourne, Australia"
+          "Melbourne, Australie"
         ],
         "photo": [
 
@@ -293,7 +293,7 @@
           "I have a Twitter created to provide status on node status, read updates on the Vite ecosystem, and to find out about important events. I have also created a website where users will be able to visit and view node/network status, use the vote calculator to see Vite earning potential, read tutorials and to enter competitions. Forging rewards will also be used to create media, advertisements on Twitter and Reddit, and basically anything to help promote Vite's growth. I'm open to all ideas. "
         ],
         "plan": [
-          "Create articles about the Vite platform/ecosystem, provide basic tutorials (for newcomers to read and learn), program/design a calculator to show how much a voter can earn just by voting for Snap Secure supernode, provide competitions so community can grow/become involved and also a possibility to help provide funding for developers to create Vite Dapps or migrate Ethereum Dapps over to the Vite platform."
+          "Créer des articles à propos de la plateforme/de l'écosystème Vite, fournir des tutoriels basiques (pour les nouveaux-venus), programmer/designer un calculateur pour monter combien un votant peut gagner juste en votant pour la supernode Snap Secure, fournir des competitions pour que la communauté grandisse/devienne impliquée et aussi une possibilité d'aider à fournir du financement à des développeurs voulant créer des dApps Vite ou migrer des dApps Ethereum sur la plateforme Vite."
         ],
         "name": "SnapSecure",
         "description": "Securing Vite's Snapshot Chain, One Block At A Time."
