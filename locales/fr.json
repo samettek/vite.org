@@ -296,16 +296,16 @@
           "Créer des articles à propos de la plateforme/de l'écosystème Vite, fournir des tutoriels basiques (pour les nouveaux-venus), programmer/designer un calculateur pour monter combien un votant peut gagner juste en votant pour la supernode Snap Secure, fournir des competitions pour que la communauté grandisse/devienne impliquée et aussi une possibilité d'aider à fournir du financement à des développeurs voulant créer des dApps Vite ou migrer des dApps Ethereum sur la plateforme Vite."
         ],
         "name": "SnapSecure",
-        "description": "Securing Vite's Snapshot Chain, One Block At A Time."
+        "description": "Sécuriser la Chaine de Snapshots Vite, Un Bloc Après l'Autre."
       },
       "ux": {
         "info": [
-          "Vladimir Polishchuk: CTO UIXAgency.com, UIX_LAB, python developer(backend), IT security specialist, MCP, MCTS:Windows Server 2008 Network Infrastructure, Configuration, MCID: 8125056, Linux Administration, Ukraine, Nikolaev ",
-          "Serhiy Polishchuk: UIXAgency.com Art Lead, 3D-modeling & 3D-sculpting for Gamedev, CGI, Animation, Project Manager, Ukraine, Nikolaev",
-          "Julia Novak: SMM, Mobile Marketing & Promotion specialist, Mobile Markets analytic"
+          "Vladimir Polishchuk: CTO UIXAgency.com, UIX_LAB, développeur python (backend), spécialiste de la sécurité informatique, MCP, MCTS: Windows Server 2008 Network Infrastructure, Configuration, MCID: 8125056, Linux Administration, Ukraine, Nikolaev ",
+          "Serhiy Polishchuk: UIXAgency.com Directeur Artistique, modélisation 3D & sculpture 3D pour Gamedev, CGI, Animation, Chef de Projet, Ukraine, Nikolaev",
+          "Julia Novak: SMM, Marketing Mobile & Spécialiste de Promotion, Analyse de Marchés Mobiles"
         ],
         "config": [
-          "HP DL360e, 2 x Xeon E5-2430 v2 @ 2.50GHz, 64 GB RAM, 240GB+2x500GB SSD, HP Smart Array P420i/2GB. 1 Gb/s speed inter&intranet"
+          "HP DL360e, 2 x Xeon E5-2430 v2 @ 2.50GHz, 64 GB RAM, 240GB+2x500GB SSD, HP Smart Array P420i/2GB. 1 Gb/s de bande passante inter&intranet"
         ],
         "location": [
           "Ukraine, Nikolaev City"
@@ -314,10 +314,10 @@
 
         ],
         "medium": [
-          "in progress.."
+          "en cours..."
         ],
         "plan": [
-          "General strategy of building community in progress for now, need a few days for introducing it. In plans: - build a new site for SBP (design like https://uixagency.com) - add VITE as payment method for our outsourced projects - we want to create an e-shop of exclusive limited jewellery collection or many, one of this collections could be designed with VITE logo - for example ... this idea is flashing in my mind just now - trying to integrate VITE in mobile games and apps - we have gamedev and appdev departments to our team really likes VITE Platform, that's why we accumulate about 2.5 mil VITE and ready for helping to integrate VITE tokens in our reality :)"
+          "Stratégie générale en construction de communauté en progression pour le moment, nous avons besoin de quelques jours pour la présenter. Dans nos plans: - créer un nouveau site pour SBP (design similaire à https://uixagency.com) - ajouter VITE comme une méthode de paiement pour nos projets sous-traités - nous voulons créer un e-commerce exclusivement limité à une ou plusieurs collections de bijouterie, l'une de celles-ci pourrait être designée avec un logo VITE - par example... cette idée vient de parvenir à mon esprit à l'instant - essayer d'intégrer VITE dans des jeux et applications mobiles - nous avons des départements de développement de jeux et d'application dans notre équipe qui aiment vraiment la plateforme Vite, c'est pour cela que nous accumulons environ 2.5 milions de VITE et somme prêts à aider à l'intégration des jetons VITE à notre réalité :)"
         ],
         "name": "UX SBP",
         "description": "async equity"
