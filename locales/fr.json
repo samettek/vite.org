@@ -137,28 +137,28 @@
       {
         "time": "Décembre 2018",
         "description": [
-          "Smart Contract/ Solidity++ Alpha Test",
-          "Cross-Chain Gateway Alpha Test",
-          "Multi-Token Wallet Alpha Test",
+          "Smart Contract/ Solidity++ Test Alpha",
+          "Gateway Cross-Chain Test Alpha",
+          "Portefeuille Multi-Jetons Test Alpha",
           {
-            "text": "Decentralized Exchange (DEX) Alpha Test | View Forbes Article",
+            "text": "Echange Decentralisé (DEX) Test Alpha | Voir L'Article De Forbes",
             "url": "https://www.forbes.com/sites/yoavvilner/2018/12/16/the-state-of-decentralized-exchanges-and-plans-for-2019/#6af853b83059"
           },
-          "Website 2.0",
+          "Site 2.0",
           {
-            "text": "Official Forum Website",
+            "text": "Site du Forum Officiel",
             "url": "https://forum.vite.net/"
           }
         ]
       },
       {
-        "time": "Q1 2019",
+        "time": "T1 2019",
         "description": [
-          "Pre-MainNet Release",
-          "Cross-Chain Gateway Open Beta Test",
-          "DEX Open Beta Test",
-          "Smart Contract/Solidity++ Open Beta Test",
-          "Multi-Token Wallet Release",
+          "Lancement du Pré-MainNet",
+          "Beta Test Ouvert du Gateway Cross-Chain",
+          "Beta Test Ouvert du DEX",
+          "Beta Test Ouvert des Smart Contract/Solidity++",
+          "Lancement du Portefeuille Multi-Jetons",
           "Multi-VM (Virtual Machine) Support (EVM / WASM)"
         ]
       },
