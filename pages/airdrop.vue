@@ -44,7 +44,7 @@
                   popoverClass="v-popover"
                   trigger="hover"
                 >
-                  <div class="pop-btn">{{$t('airdrop.btnAndroid')}}</div>
+                  <div class="pop-btn pop-btn-android">{{$t('airdrop.btnAndroid')}}</div>
                   <template slot="popover">
                     <div class="wallet-app-container">
                       <div class="wallet-item">
@@ -264,6 +264,9 @@ export default {
       @include touch {
         font-size: 12px;
       }
+    }
+    .pop-btn-android {
+      width: 240px;
     }
 
     @include touch {
