@@ -37,6 +37,25 @@
                     </div>
                   </template>
                 </v-popover>
+                <v-popover
+                  style="margin-left: 30px;"
+                  offset="16"
+                  placement="bottom-center"
+                  popoverClass="v-popover"
+                  trigger="hover"
+                >
+                  <div class="pop-btn">{{$t('airdrop.btnAndroid')}}</div>
+                  <template slot="popover">
+                    <div class="wallet-app-container">
+                      <div class="wallet-item">
+                        <img
+                          :src="QRAndroidcode[$i18n.locale]"
+                          class="wallet-app"
+                        />
+                      </div>
+                    </div>
+                  </template>
+                </v-popover>
               </div>
               <div
                 v-else
@@ -126,6 +145,10 @@ export default {
       QRcode: {
         zh: require('~/assets/images/zhongapp.png'),
         en: require('~/assets/images/waiapp.png')
+      },
+      QRAndroidcode: {
+        zh: require('~/assets/images/airdrop/android.png'),
+        en: require('~/assets/images/airdrop/android.png')
       },
       rightPic: require('~/assets/images/airdrop/right.png'),
       step1Pic: require('~/assets/images/airdrop/step1.png'),
