@@ -68,7 +68,7 @@
                 <a
                   class="download-btn"
                   download="vite.apk"
-                  href='https://download.vite.net/android/vite.apk'
+                  href='https://play.google.com/store/apps/details?id=net.vite.wallet'
                 >{{$t('airdrop.btnAndroid')}}</a>
               </div>
             </div>
