@@ -445,42 +445,42 @@
           "Genève, Suisse"
         ],
         "plan": [
-          "Promotion of VITE through our website (http://swissvite.org/, in development), social media channels and meetups in Switzerland and European countries"
+          "Promotion de VITE à travers notre site internet (http://swissvite.org/), réseaux sociaux et meetups en Suisse et en Europe"
         ],
         "medium": [
-          "Creation of tutorials in English and French for users and developers Development of community tools Use growth hacking methods to target communication to a maximum of people interested in DAG and blockchain"
+          "Création de tutoriels en anglais et français pour les utilisateurs et développeurs. Developpement d'outils communautaires. Utilisation de méthodes de growth hacking pour cibler notre communication vers un maximum de personnes interessée en DAG et en blockchain"
         ],
         "name": "Swiss Vite",
-        "description": "Your VITE community at the heart of Europe"
+        "description": "Votre communauté Vité au coeur de l'Europe"
       },
       "xinsheng": {
         "info": [
-          "Zhe Cui, founder and CEO of Xinsheng Fund, living in Beijing, China",
-          "Zhibo Li, co-founder and CMO of Xinsheng Fund, living in Beijing, China",
-          "Xuming Zhang, community partner, living in Beijing, China",
-          "Emma, community partner, living in Beijing, China",
-          "Quan Sun, Community partner, living in Beijing, China"
+          "Zhe Cui, fondateur et CEO du fonds Xingsheng, vivant à Pékin, Chine",
+          "Zhibo Li, co-fondateur et CMO du fonds Xingsheng, vivant à Pékin, Chine",
+          "Ximing Zhang, partenaire communauté, vivant à Pékin, Chine",
+          "Emma, partenaire communauté, vivant à Pékin, Chine",
+          "Quan Sun, partenaire Communauté, vivant à Beijing, Chine"
         ],
         "config": [
-          "8 cores CPU 16G RAM 100 Mbps bandwidth 1T ssd storage CentOS 7.4"
+          "CPU 8 coeurs 16G RAM 100 Mbps de bande passante 1T ssd de stockage CentOS 7.4"
         ],
         "location": [
-          "Beijing, China"
+          "Pékin, Chine"
         ],
         "plan": [
-          "1. Promote community cooperation, organise existing communities and create new community promotion of vite.",
-          "2. Integrate resources within the company's industry, including media, community, capital, and project parties to assist Vite in promoting business cooperation.",
-          "3. Establish a Vite supernode (SBP) community to help new users understand the basics of Vite."
+          "1. Promouvoir la coopération de la communauté, organiser les communautés existantes et créer une nouvelle communauté de promotion de vite.",
+          "2. Intégrer des resources dans les entreprises de l'industrie, incluant les médias, les communautés, le capital, et les projets pour assister Vite à promouvoir la coopération commerciale.",
+          "3. Etablir une communauté de supernode Vite (SBP) pour aider les nouveaux utilisateurs à comprendre les bases de Vite."
         ],
         "medium": [
-          "WeChat official account, Weibo, Twitter, Bihu, Telegram"
+          "Compte WeChat officiel, Weibo, Twitter, Bihu, Telegram"
         ],
         "name": "XinShengFund",
-        "description": "Shoot for the Vite"
+        "description": "Tire pour Vite"
       },
       "zlnode": {
         "info": [
-          "Li Zhang, Li is a partner of LinkVC. She is an early practitioner and sophisticated investor in blockchain industry. Prior to LinkVC, Li was in charge of the business development in Huobi, which is the most popular cryptocurrency exchange worldwide. Before Huobi, Li was the CMO of f2pool."
+          "Li Zhang, Li est un partenaire de LinkVC. Elle est une participante d'avant-garde et une investisseuse sophistiquée dans l'industrie de la blockchain. Avant LinkVC, Li était en charge du développement commercial de Huobi, qui est l'un des échanges crypto les plus populaires dans le monde. Avant Huobi, Li était la CMO de f2pool."
         ],
         "config": [
           "NA"
