@@ -82,7 +82,7 @@ module.exports = {
     },
     media: {
       medium: 'https://medium.com/vitelabs',
-      bitcointalk: 'https://bitcointalk.org/index.php?topic=4438416',
+      bitcointalk: 'https://bitcointalk.org/index.php?topic=5056409',
       forum: 'https://forum.vite.net'
     },
     vote: {
