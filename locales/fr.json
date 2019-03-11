@@ -511,57 +511,57 @@
           "Loopnest Accelerator Limited est un accélérateur concentré sur la blockchain, qui pose les fondations pour la prochaine révolution digitale de l'économie. Loopnest cautionne la tendance de la blockchain vers des produits et services professionels, régulés et titrisés. PwC Hong Kong et Loopnest offrent le Blockchain Acceleration Programme, qui permet aux entrepreneurs d'établir un commerce à Hong Kong dans un environnement avec une régulation adaptée, en permettant l'accès au capital de et vers les marchés internationaux. Pour les participants sortant du programme PwC-Loopnest, le réseau Vite pourrait être une plateforme sur laquelle ils contribueront à l'économie de la blockchain en pleine expansion."
         ],
         "medium": [
-          "Loopnest plans to hold regular meetups within the blockchain and fin-tech community in Hong Kong. Such events provide opportunities for admitted startups under PwC-Loopnest Blockchain Acceleration Programme to showcase their businesses and progress. This lends itself to insightful material for e-newsletter publications on top of social media sharing and regular updates."
+          "Loopnest planifie de tenir des meetups réguliers avec la communauté tech et blockchain de Hong Kong. De tels évènements offrent des opportunités pour les startups admises sous le PwC-Loopnest Blockchain Acceleration Programme de mettre en valeur leurs business et leurs progrès. Cela entrainera de la publication de médias au contenu pertinent à l'occasion de e-newsletters diffusées sur les réseaux sociaux."
         ],
         "name": "Loopnest",
-        "description": "Tap into the digital economy"
+        "description": "Puiser dans l'économie digitale"
       },
       "belsona": {
         "info": [
-          "Denis Meltsaev, CTO, Moscow, Russia",
-          "Vassily Godunov, back-end developer, Moscow, Russia",
-          "Georgy Yakovlev, front-end developer, Budva, Montenegro",
-          "Artem Potapov, System Administrator, Saint-Petersburg, Russia",
-          "Igor Peskov, financial analyst, Moscow, Russia",
-          "Usanov Alexei, media relations, Kiev, Ukraine"
+          "Denis Meltsaev, CTO, Moscou, Russie",
+          "Vassily Godunov, développeur back-end, Moscou, Russie",
+          "Georgy Yakovlev, Déceloppeur front-end, Budva, Montenegro",
+          "Artem Potapov, Administrateur Système, Saint-Petersburg, Russie",
+          "Igor Peskov, Analyste Financier, Moscou, Russie",
+          "Usanov Alexei, Relations Medias, Kiev, Ukraine"
         ],
         "config": [
-          "RAM 192 GB, 32 CPUs, SSD 3.75 TB, 100Mbps bandwidth"
+          "RAM 192 GB, 32 CPUs, SSD 3.75 TB, 100Mbps de bande passante"
         ],
         "location": [
-          "Amsterdam, Netherlands"
+          "Amsterdam, Pays-Bas"
         ],
         "plan": [
-          "We have a strong network. We are in contact with several projects and startups. Some of them are searching for suitable to their dapps ecosystem. We are friends with Belarus blockchain association. Quite often we participate in the blockchain conferences. We plan to showcase people Vite blockchain, explain why it is better than the others and help to migrate their project or understand how to do this."
+          "Nous avons un réseau solide. Nous sommes en contact avec plusieurs projets et startups. Quelques-uns sont en recherche d'écosystèmes addaptés à leurs dApps. Nous sommes amis avec l'association Belarus blockchain. Souvent, nous participons à des conférences blockchain. Nous planifions de mettre en avant le projet Vite, et d'expliquer pourquoi il est meilleurs que d'autres et à les aider à migrer leurs projets ou à comprendre comment le faire."
         ],
         "medium": [
-          "We have 2 big social media: Telegram channel (https://t.me/ICOFanatics) and Twitter (https://twitter.com/icofanatics). Where we follow the projects we like and share news with our community. Of course, we will provide a media coverage to all news and events about Vite"
+          "Nous avons 2 gros médias sociaux: une chaine Telegram (https://t.me/ICOFanatics) et un compteTwitter (https://twitter.com/icofanatics). Nous y suivons les projets que nous aimons et partageons des annonces avec notre communauté. Bien sûr, nous fournirons une couverture médiatique de tous les évènements au sujet de Vite"
         ],
         "name": "Belsona Investment Group LP",
-        "description": "In VITE we trust"
+        "description": "En VITE nous avons confiance"
       }
     }
   },
   "team": {
-    "core": "Team",
-    "advisor": "Advisors",
-    "join": "Join Us",
+    "core": "Equipe",
+    "advisor": "Conseillers",
+    "join": "Rejoignez Nous",
     "nameMap": {
       "liuchunming": {
         "name": "Charles Liu",
         "job": "CEO",
-        "position": "Beijing",
-        "description": "Veteran Blockchain Entrepreneur and Technical Expert. Standing Director at Blockchain Application Research Center of  China. Graduated from University of Science and Technology of China and the Institute of Software. Chinese Academy of Sciences. Former Senior Architect of JD.com. Co-founder of Coinport. Engineering Director of Meituan Dianping. Extensive experience with distributed systems and high concurrency systems."
+        "position": "Pékin",
+        "description": "Entrepreneur Blockchain Vétéran et Expert Technique. Directeur du Blockchain Application Research Center de Chine. Diplomé de l'université de Science et Technologie de Chine et de l'Institut du Logiciel, Académie des Sciences Chinoise. Ancien directeur Arcitecte de JD.com. Co-fondateur de Coinport. Directeur de l'Ingénierie de Meituan Dianping. Expérience approfondie avec les système distribués et les systèmes à haute concurrence."
       },
       "wangdong": {
         "name": "Daniel Wong",
-        "position": "Beijing",
-        "description": "Seasoned blockchain entrepreneur.  Graduated from China University of Science and Technology and Arizona State University.  Founder of Loopring, former Google America Tech Lead, Co-founder and VP of Yun Yun Wang, Senior Research and Development Director at JD.com, and Co-Founder of Coinport."
+        "position": "Pékin",
+        "description": "Entrepreneur blockchain averti. Diplomé de l'université chinoise des Sciences et Technologies, et Université de l'Etat d'Arizona. Fondateur de Loopring, ancien Tech Lead de Google America, Co-fondateur et Vice Président de Yun Yun Wang, Directeur Sénior de la Recherche et Développement à JD.com, et Co-Fondateur de Coinport."
       },
       "terenceLam": {
         "name": "Terence Lam",
-        "position": "Beijing",
-        "description": "Veteran investor.  Graduated from Harvard Business School.  Partner of Zhizi Blockchain Investment Fund.  Adjust professor of SPACE China business school at Hong Kong University.  20+ years’ experience as senior technical manager at Global 500 companies. Started many technology startups."
+        "position": "Pékin",
+        "description": "Investisseur Vétéran. Diplomé de Harvard Business School. Partenaire du fonds d'investissement Zhizi. Professeur attaché de l'école de commerce SPACE China à l'université de Hong Kong. Expérience supérieure à 20 ans en tant que gestionnaire technique sénior dans des entreprise du Global 500. A lancé plusieurs startups en technologie."
       },
       "richard": {
         "name": "Richard Yan",
