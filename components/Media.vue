@@ -34,7 +34,7 @@
     },
     computed: {
       mediaList: function () {
-        return ['forum','medium', 'bitcointalk']
+        return ['forum', 'medium', 'bitcointalk']
       }
     }
   }
