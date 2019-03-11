@@ -682,68 +682,68 @@
       "Layla": {
         "name": "Layla Wong",
         "position": "Pékin",
-        "job": "UI Designer",
-        "description": "Layla has 5 years of design experience including brand, app, and website design."
+        "job": "Désigner UI",
+        "description": "Layla à 5 ans d'expérience en design, incluant du branding, des applications et des sites web."
       },
       "hubery": {
         "name": "Hubery Lee",
-        "job": "Back-End Developer",
-        "position": "Beijing",
-        "description": "Hubery is a graduate of Xidian University, with over 5 years of experience in IT development. He previously worked for Tencent and Yuantiku."
+        "job": "Développeur Back-End",
+        "position": "Pékin",
+        "description": "Hubery est diplomé de l'université de Xidian, avec plus de 5 ans d'expérience en dévelopmment informatique. il a précédemment travaillé pour Tencent et Yuantiku."
       },
       "Cecelia": {
         "name": "Cecelia Chen",
-        "job": "Front-End Developer",
-        "position": "Beijing",
-        "description": "Cecelia has 3 years of experience in front-end development and she has showcased at notable Chinese firms."
+        "job": "Développeur Front-End",
+        "position": "Pékin",
+        "description": "Cecelia à 3 ans d'expérience en developpement front-end, et a travaillé pour plusieurs entreprises remarquables."
       },
       "viteshan": {
         "name": "Shan Wong",
-        "job": "Back-End Developer",
-        "position": "Beijing",
-        "description": "Shan has over 3 years of experience in IT development. He formerly worked for a well-known IT company in China."
+        "job": "Développeur Back-End",
+        "position": "Pékin",
+        "description": "Shan à plus de 3 ans d'expérience en développement informatique. Il a travaillé précédemment pour une entreprise des TIC reconnue de Chine."
       },
       "Ada": {
         "name": "Ada Zhu",
-        "job": "Senior Researcher",
-        "position": "Beijing",
-        "description": "AAda has previously worked in Tencent and JD and has over 5 years of experience in Machine Learning Algorithm Development and Big Data analytics."
+        "job": "Chercheur Sénior",
+        "position": "Pékin",
+        "description": "Ada a travaillé précedement chez Tencent et JD et a plus de 5 ans d'expérience en Developpement d'Algorithmes de Machine Learning en analyse de Big Data."
       },
       "Jin": {
         "name": "Jin Ge",
-        "job": "Back-End Developer",
-        "position": "Beijing",
-        "description": "JJin has 3 years of experience working in developing the Chinese Internet finance industry."
+        "job": "Développeur Back-End",
+        "position": "Pékin",
+        "description": "Jin à 3 ans d'expérience en développement de sites internet chinois pour l'industrie financière."
       },
       "Shenyang": {
         "name": "Shenyang Hao",
-        "job": "iOS Developer",
-        "position": "Beijing",
-        "description": "Shenyang has over 4 years of experience in iOS development, working for some popular IT companies in China."
+        "job": "Développeur iOS",
+        "position": "Pékin",
+        "description": "Shenyang à plus de 4 ans d'expérience en développement iOS, ayant travaillé pour quelques entreprises des TIC populaires en Chine."
       },
       "Candy": {
         "name": "Candy",
         "job": "Product Operations",
-        "position": "Beijing",
-        "description": "Candy has 3 years of experience in Product Operations. She has previously worked for Meituan SaaS and Fangtianxia Research Institute, serving as an Operations specialist who dealt with data maintenance, system requests and optimization, and surveillance."
+        "position": "Pékin",
+        "description": "Candy à 3 ans d'expérience en Product Opérations. Elle à précedemment travaillé pour Meituan SaaS et l'Institut de Recherche Fangtianxia , en servant comme spécialiste des opérations, ayant travaillé en maintenance de données, optimisation des requêtes système, et surveillance."
       },
       "Eric": {
         "name": "Eric Wong",
-        "job": "System Architect",
-        "position": "Beijing",
-        "description": "Eric has previously worked with top IT firms in China, including Baidu. He is an expert in back-end services and data system development. He has experience with system architecture, designing systems that can process over 20,000 queries per second. Eric has also formerly led an engineering team of 15+ members, so he has management experience as well."
+        "job": "Architecte Système",
+        "position": "Pékin",
+        "description": "Eric à précedemment travaillé avec des entreprise des TIC chinoises de premier rang, incluant Baidu. Il est un expert en services back-end et en développement de systèmes de données. Il a de l'éxpérience en architecture système, et design des systèmes pouvant traiter plus de 20,000 requêtes par seconde. Eric a aussi précedemment dirigé une équipe d'ingénierie de plus de 15 personnes, il a donc également une expérience en management."
       },
       "Asurily": {
         "name": "Asurily He",
-        "job": "Back-End Developer",
-        "position": "Beijing",
-        "description": "Asurily has 3 years of experiences working on blockchain projects. He holds a Master's degree from Northwestern University. His academic research focused on blockchain technology and data storage studies."
+        "job": "Développeur Back-End",
+        "position": "Pékin",
+        "description": "Asurily à 3 ans d'expérience de travail sur des projets blockchain. ll à un Master de Northwestern University. Son sujet de recherche académique est concentré sur la technologie de la blockchain et le stockage de données."
       },
       "Cassie": {
         "name": "Cassie Liu",
-        "job": "Product Operations",
-        "position": "Beijing",
-        "description": "Cassie has 5 years of experience implementing marketing strategies for business operations. She has previously worked in both the finance and technology sectors, respectively."
+        "job": "Product Opérations",
+        "position": "Pékin",
+        "description": "Cassie à 5 ans d'expérience en implémentation de stratégies marketing pour des opérations commerciales. Elle à précedemment travaillée respectivement dans les secteurs de la finance de la technologie."
       },
       "Reg": {
         "name": "Reg Yuan",
