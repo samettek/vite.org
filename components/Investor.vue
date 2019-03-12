@@ -219,7 +219,7 @@
 
   .columns {
     flex-direction: row;
-    margin:-15px -25px;
+    margin:-15px -15px;
     .item {
       padding:10px;
       flex-grow: 0;
