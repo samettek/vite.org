@@ -36,19 +36,19 @@ export default {
     cname: {
       type: String
     },
-    mediaLink:{
-        type:String
+    mediaLink: {
+      type: String
     }
   },
-  data: function() {
-    return {};
+  data: function () {
+    return {}
   },
   methods: {
-      gotoLink(){
-          window.open(this.mediaLink)
-      }
+    gotoLink () {
+      window.open(this.mediaLink)
+    }
   }
-};
+}
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>
