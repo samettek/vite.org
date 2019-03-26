@@ -202,7 +202,7 @@ export default {
   },
   computed: {
     routeName () {
-      if (!this.$route || !this.$route.name) return ''
+      if (!this.$route || !this.$route.name) return 'index'
       return this.$route.name.split('-')[0]
     },
     navbarEndStyle () {
