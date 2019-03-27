@@ -602,7 +602,7 @@
         "description": "Michael là một người sáng lập, nhà văn và nhà xây dựng cộng đồng. Anh là thành viên sáng lập của Truth Cartel, một công ty tiếp thị và sản phẩm phân phối các công nghệ mới nổi. Michael là Tổng biên tập tại Startup Grind, và hiện là Giám đốc của cộng đồng Startup Grind SF và OneSalon. Tác phẩm viết của ông bao gồm hai cuốn sách về Sống và Làm việc ở châu Á, và Các cột trong Inc và Fortune."
       },
       "leo": {
-        "name": "Leo Chang",
+        "name": "Leo Zhang",
         "job": "Đồng sáng lập",
         "position": "Bắc Kinh",
         "description": "Nhà đầu tư Blockchain dày dạn và Chuyên gia kỹ thuật cao cấp. Trước đây anh từng dẫn đầu các nỗ lực kỹ thuật tại Meituan-Dianping và Coinport."
@@ -657,7 +657,7 @@
       },
       "Alex": {
         "name": "Alex Hu",
-        "job": "Kỹ sư phần mềm complier",
+        "job": "Compiler Software Engineer",
         "position": "Bắc Kinh",
         "description": "Alex đã hơn 3 năm kinh nghiệm trong phát triển dịch vụ back-end. Trước đây anh từng là kỹ sư back-end cho công ty nổi tiếng - Baidu."
       },
@@ -680,13 +680,13 @@
         "description": "Abbott có 4 năm kinh nghiệm làm việc trong bảo đảm chất lượng. Trước đó, anh đã phụ trách kiểm tra driver-end của Meituan. Abbott là một chuyên gia dày dạn trong Thử nghiệm và Quản lý rủi ro."
       },
       "Layla": {
-        "name": "Layla Wong",
+        "name": "Layla Wang",
         "position": "Bắc Kinh",
         "job": "UI Designer",
         "description": "Layla đã có 5 năm kinh nghiệm thiết kế bao gồm thiết kế thương hiệu, ứng dụng và trang web."
       },
       "hubery": {
-        "name": "Hubery Lee",
+        "name": "Hubery Li",
         "job": "Nhà phát triển Back-end",
         "position": "Bắc Kinh",
         "description": "Hubery tốt nghiệp trường Đại học Xidian, với hơn 5 năm kinh nghiệm trong phát triển CNTT. Anh từng làm việc cho Tencent và Yuantiku."
@@ -698,7 +698,7 @@
         "description": "Cecelia có 3 năm kinh nghiệm trong phát triển front-end và cô đã từng làm việc tại một số công ty có tên tuổi tại Trung Quốc."
       },
       "viteshan": {
-        "name": "Shan Wong",
+        "name": "Shan Wang",
         "job": "Nhà phát triển Back-end",
         "position": "Bắc Kinh",
         "description": "Shan có hơn 3 năm kinh nghiệm trong phát triển IT. Trước đây anh từng làm việc cho một công ty IT nổi tiếng tại Trung Quốc."
@@ -707,13 +707,13 @@
         "name": "Ada chu",
         "job": "Nghiên cứu viên cao cấp",
         "position": "Bắc Kinh",
-        "description": "Ada đã từng làm việc ở Tencent và JD; có trên 5 năm kinh nghiệm trong Phân tích Phát triển Thuật toán học máy và Big data."
+        "description": "Ada has previously worked in Tencent and JD and has over 5 years of experience in Machine Learning Algorithm Development and Big Data analytics."
       },
       "Jin": {
         "name": "Jin Ge",
         "job": "Nhà phát triển Back-end",
         "position": "Bắc Kinh",
-        "description": "Jin đã có 3 năm kinh nghiệm làm việc trong việc phát triển các ngành công nghiệp tài chính Internet tại Trung Quốc."
+        "description": "Jin has 3 years of experience working in developing the Chinese Internet finance industry."
       },
       "Shenyang": {
         "name": "Shenyang Hao",
@@ -722,13 +722,13 @@
         "description": "Stone đã hơn 4 năm kinh nghiệm trong phát triển iOS, từng làm việc cho các công ty IT tại Trung Quốc."
       },
       "Candy": {
-        "name": "Candy",
+        "name": "Candy Han",
         "job": "Vận hành sản phẩm",
         "position": "Bắc Kinh",
         "description": "Candy có 3 năm kinh nghiệm trong vận hành sản phẩm. Cô đã từng làm việc cho Meituan SaaS và viện nghiên cứu Fangtianxia, vị trí chuyên viên về vận hành đảm nhận bảo trì dữ liệu, yêu cầu hệ thống và tối ưu hóa & giám sát."
       },
       "Eric": {
-        "name": "Eric Wong",
+        "name": "Eric Wang",
         "job": "Kiến trúc sư Hệ thống",
         "position": "Bắc Kinh",
         "description": "Eric đã từng làm việc với các công ty CNTT hàng đầu ở Trung Quốc, bao gồm cả Baidu. Anh là chuyên gia trong phát triển hệ thống dữ liệu và dịch vụ back-end. Anh có kinh nghiệm với các hệ thống kiến trúc, thiết kế hệ thống có thể xử lý truy vấn hơn 20.000 mỗi giây. Eric trước kia cũng đã đứng đầu một đội ngũ kỹ thuật gồm hơn 15 thành viên do đó, anh cũng đã có kinh nghiệm quản lý."
@@ -752,7 +752,7 @@
         "description": "Reg đã làm việc trong lĩnh vực phát triển front-end cho 3 năm với một loạt các công ty."
       },
       "Daisy": {
-        "name": "Daisy Chou",
+        "name": "Daisy Zhou",
         "job": "Nhà phát triển Front-end",
         "position": "Bắc Kinh",
         "description": "Daisy đã có 3 năm kinh nghiệm phát triển front-end. Cô là thành thạo trong Vue, Node, và các khuôn khổ phát triển khác."
@@ -788,7 +788,7 @@
         "description": "Rod có hơn 5 năm kinh nghiệm trong thiết kế và phát triển back-end, trước đây làm việc cho một loạt các công ty CNTT hàng đầu tại Trung Quốc."
       },
       "Tony": {
-        "name": "Tony Wong",
+        "name": "Tony Wang",
         "job": "Giám đốc vận hành",
         "position": "Bắc Kinh",
         "description": "Tony có hơn 6 năm kinh nghiệm làm việc trong lĩnh vực Hoạt động sản phẩm. Trước đây ông đã từng làm việc cho Meituan-Dianping và Tencent, xử lý các sản phẩm có giá trị hàng hóa với hơn 100 triệu người dùng hoạt động. Tony là một người quản lý dự án thực sự dày dạn, từng chịu trách nhiệm lãnh đạo nhiều dự án sáng tạo."
@@ -812,7 +812,7 @@
         "description": "Hannah có 2 năm kinh nghiệm trong thử nghiệm Phát triển, tham gia vào các dự án thiết kế khung thử nghiệm. Cô cũng có 2 năm kinh nghiệm trong việc thử nghiệm hệ thống lưu trữ back-end và quen thuộc với Hệ thống tệp Gluster. Hannah trước đây đã hợp tác với các doanh nghiệp liên quan đến quân sự, gia tăng kiến thức về cách quản lý lĩnh vực bảo mật dữ liệu và lưu trữ mã hóa."
       },
       "Miya": {
-        "name": "Miya",
+        "name": "Miya Li",
         "job": "UI Designer",
         "position": "Bắc Kinh",
         "description": "Miya có 3 năm kinh nghiệm làm việc về thiết kế Giao diện người dùng và đã tham gia vào một số dự án CNTT. Miya trước đây là Giám đốc thiết kế làm việc tại một doanh nghiệp nhà nước lớn."
