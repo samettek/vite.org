@@ -602,7 +602,7 @@
         "description": "Michael is a founder, writer, and community builder. He's the founding partner of Truth Cartel, a marketing & product agency distributing emerging technologies. Michael was Editor in Chief at Startup Grind, and now serves as Director of the Startup Grind SF and OneSalon communities. His written work includes two books on living and working in Asia, and columns in Inc and Fortune."
       },
       "leo": {
-        "name": "Leo Chang",
+        "name": "Leo Zhang",
         "job": "Co-founder",
         "position": "Beijing",
         "description": "Seasoned Blockchain Investor and Senior Technical Expert. Previously led engineering efforts at Meituan-Dianping and Coinport."
@@ -657,7 +657,7 @@
       },
       "Alex": {
         "name": "Alex Hu",
-        "job": "Complier Software Engineer",
+        "job": "Compiler Software Engineer",
         "position": "Beijing",
         "description": "Alex has over 3 years of experience in back-end service development. He formerly worked as a back-end engineer for the well-known firm, Baidu."
       },
@@ -680,13 +680,13 @@
         "description": "Abbot à 4 ans d'expérience de travail en Assurance de la Qualité. Précedemment, il était en charge de tester les problèmes des chauffeurs dans le service d'appel de voitures avec chauffeur de Meituan. Abbot est un expert averti en Testing et en Gestion du Risque."
       },
       "Layla": {
-        "name": "Layla Wong",
+        "name": "Layla Wang",
         "position": "Pékin",
         "job": "Désigner UI",
         "description": "Layla à 5 ans d'expérience en design, incluant du branding, des applications et des sites web."
       },
       "hubery": {
-        "name": "Hubery Lee",
+        "name": "Hubery Li",
         "job": "Développeur Back-End",
         "position": "Pékin",
         "description": "Hubery est diplomé de l'université de Xidian, avec plus de 5 ans d'expérience en dévelopmment informatique. il a précédemment travaillé pour Tencent et Yuantiku."
@@ -698,7 +698,7 @@
         "description": "Cecelia à 3 ans d'expérience en developpement front-end, et a travaillé pour plusieurs entreprises remarquables."
       },
       "viteshan": {
-        "name": "Shan Wong",
+        "name": "Shan Wang",
         "job": "Développeur Back-End",
         "position": "Pékin",
         "description": "Shan à plus de 3 ans d'expérience en développement informatique. Il a travaillé précédemment pour une entreprise des TIC reconnue de Chine."
@@ -707,13 +707,13 @@
         "name": "Ada Zhu",
         "job": "Chercheur Sénior",
         "position": "Pékin",
-        "description": "Ada a travaillé précedement chez Tencent et JD et a plus de 5 ans d'expérience en Developpement d'Algorithmes de Machine Learning en analyse de Big Data."
+        "description": "Ada has previously worked in Tencent and JD and has over 5 years of experience in Machine Learning Algorithm Development and Big Data analytics."
       },
       "Jin": {
         "name": "Jin Ge",
         "job": "Développeur Back-End",
         "position": "Pékin",
-        "description": "Jin à 3 ans d'expérience en développement de sites internet chinois pour l'industrie financière."
+        "description": "Jin has 3 years of experience working in developing the Chinese Internet finance industry."
       },
       "Shenyang": {
         "name": "Shenyang Hao",
@@ -722,13 +722,13 @@
         "description": "Shenyang à plus de 4 ans d'expérience en développement iOS, ayant travaillé pour quelques entreprises des TIC populaires en Chine."
       },
       "Candy": {
-        "name": "Candy",
+        "name": "Candy Han",
         "job": "Product Operations",
         "position": "Pékin",
         "description": "Candy à 3 ans d'expérience en Product Opérations. Elle à précedemment travaillé pour Meituan SaaS et l'Institut de Recherche Fangtianxia , en servant comme spécialiste des opérations, ayant travaillé en maintenance de données, optimisation des requêtes système, et surveillance."
       },
       "Eric": {
-        "name": "Eric Wong",
+        "name": "Eric Wang",
         "job": "Architecte Système",
         "position": "Pékin",
         "description": "Eric à précedemment travaillé avec des entreprise des TIC chinoises de premier rang, incluant Baidu. Il est un expert en services back-end et en développement de systèmes de données. Il a de l'éxpérience en architecture système, et design des systèmes pouvant traiter plus de 20,000 requêtes par seconde. Eric a aussi précedemment dirigé une équipe d'ingénierie de plus de 15 personnes, il a donc également une expérience en management."
@@ -752,7 +752,7 @@
         "description": "Reg has worked in the front-end development field for 3 years with a variety of firms."
       },
       "Daisy": {
-        "name": "Daisy Chou",
+        "name": "Daisy Zhou",
         "job": "Front-End Developer",
         "position": "Beijing",
         "description": "Daisy has 3 years of front-end development experience. She is proficient in Vue, Node, and other developmental frameworks."
@@ -788,7 +788,7 @@
         "description": "Rod has over 5 years of experience in back-end design and development, previously working for a series of top-ranking IT firms in China."
       },
       "Tony": {
-        "name": "Tony Wong",
+        "name": "Tony Wang",
         "job": "Director of Operations",
         "position": "Beijing",
         "description": "Tony has over 6 years of experience working in the Product Operations field. He has previously worked for Meituan-Dianping and Tencent, handling products gross merchandise values of over 100 million active users. Tony is a truly seasoned project manager, responsible for leading many innovative projects."
@@ -812,7 +812,7 @@
         "description": "Hannah has 2 years of experience in Development testing, partaking in projects that designed testing frameworks. She also has 2 years of experience in back-end storage system testing and is familiar with the Gluster File System. Hannah has formerly cooperated with military-related enterprises, evoking knowledge on how to manage both data security and encrypted storage fields."
       },
       "Miya": {
-        "name": "Miya",
+        "name": "Miya Li",
         "job": "UI Designer",
         "position": "Beijing",
         "description": "Miya has 3 years of experience  working on User Interface design and has participated in several industrial IT projects.Miya formerly worked at a large state-owned enterprise, serving as a Chief Designer."
