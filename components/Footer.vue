@@ -141,7 +141,7 @@
               <div class="">
                 <div class="copyright mt40">
                   <span>
-                    © 2018 VITE Labs. All Rights Reserved.
+                    © 2018-2019 VITE Labs. All Rights Reserved.
                   </span>
                 </div>
               </div>
@@ -154,14 +154,14 @@
 </template>
 
 <script type="text/babel">
-import LogoWithoutWords from "~/components/LogoWithoutWords.vue";
-import Wechat from "~/components/Wechat";
-import Telegram from "~/components/Telegram";
-import config from "~/config.js";
-import Exchange from "~/components/Exchange.vue";
-import Media from "~/components/Media.vue";
-import voteNotice from "~/components/voteNotice.vue";
-import about from "~/components/about";
+import LogoWithoutWords from '~/components/LogoWithoutWords.vue'
+import Wechat from '~/components/Wechat'
+import Telegram from '~/components/Telegram'
+import config from '~/config.js'
+import Exchange from '~/components/Exchange.vue'
+import Media from '~/components/Media.vue'
+import voteNotice from '~/components/voteNotice.vue'
+import about from '~/components/about'
 
 export default {
   components: {
@@ -173,26 +173,26 @@ export default {
     voteNotice,
     about
   },
-  data: function() {
-    let { urls } = config;
+  data: function () {
+    let { urls } = config
     return {
       urls,
-      aboutList: ["tokenUrl"],
-      learnList: ["whitePaper", "document", "introduction"],
-      mediumList: ["medium", "btt", "blog"],
-      urlShouldTranslate: ["whitePaper", "telegram", "introduction"],
-      navs: ["team", "community"]
-    };
+      aboutList: ['tokenUrl'],
+      learnList: ['whitePaper', 'document', 'introduction'],
+      mediumList: ['medium', 'btt', 'blog'],
+      urlShouldTranslate: ['whitePaper', 'telegram', 'introduction'],
+      navs: ['team', 'community']
+    }
   },
   methods: {
-    getUrl(item) {
+    getUrl (item) {
       if (this.urlShouldTranslate.indexOf(item) > -1) {
-        return this.$t(`urlSrc.${item}`);
+        return this.$t(`urlSrc.${item}`)
       }
-      return config.urls[item];
+      return config.urls[item]
     }
   }
-};
+}
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>

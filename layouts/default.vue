@@ -59,18 +59,18 @@
             <div class="nav-item">
               <voteNotice></voteNotice>
             </div>
-            <nuxt-link
-              :to="localePath('partnership')"
-              class="nav-item text-hover-transition"
-            >
-              {{$t('nav.partnership')}}
-            </nuxt-link>
+            <!--<nuxt-link-->
+              <!--:to="localePath('partnership')"-->
+              <!--class="nav-item text-hover-transition"-->
+            <!--&gt;-->
+              <!--{{$t('nav.partnership')}}-->
+            <!--</nuxt-link>-->
             <div class="nav-item">
               <Media></Media>
             </div>
-            <!-- <div class="nav-item">
+            <div class="nav-item">
               <Exchange></Exchange>
-            </div> -->
+            </div>
           </div>
           <div
             ref="navbarEnd"
@@ -83,10 +83,11 @@
         </div>
       </div>
     </div>
-    <div class="container is-hidden-mobile">
+    <div class="container">
       <div
+        :class="{'airdrop-hide' : routeName === 'airdrop'}"
         class="img-text"
-        @click="openDotNet"
+        @click="openAirdropPage"
       >
         <div
           class="act"
@@ -110,11 +111,11 @@ import LangSelect from '~/components/LangSelect.vue'
 import Logo from '~/components/Logo.vue'
 import LogoWithoutWords from '~/components/LogoWithoutWords.vue'
 import Footer from '~/components/Footer.vue'
-import Exchange from '~/components/Exchange.vue'
 import config from '~/config'
 import voteNotice from '~/components/voteNotice.vue'
 import about from '~/components/about.vue'
 import Media from '~/components/Media.vue'
+import Exchange from '~/components/Exchange.vue'
 
 export default {
   components: {
@@ -201,7 +202,7 @@ export default {
   },
   computed: {
     routeName () {
-      if (!this.$route || !this.$route.name) return ''
+      if (!this.$route || !this.$route.name) return 'index'
       return this.$route.name.split('-')[0]
     },
     navbarEndStyle () {
@@ -220,8 +221,14 @@ export default {
   methods: {
     openDotNet () {
       window.open(
-        this.$i18n.locale === 'zh' ? 'https://vite.net/zh/' : 'https://vite.net'
+        'https://international.bittrex.com/Market/Index?MarketName=BTC-VITE'
+        // this.$i18n.locale === 'zh' ? 'https://vite.net/zh/' : 'https://vite.net'
       )
+    },
+    openAirdropPage () {
+      let lang = ''
+      this.$i18n.locale !== 'en' ? lang = `/${this.$i18n.locale}` : lang = ''
+      this.$router.push({path: `${lang}/airdrop/`})
     },
     onNavClick (e) {
       let { target } = e
@@ -274,10 +281,14 @@ export default {
   background-image: url("~assets/images/activity.svg");
   color: white;
   font-family: $font-family-title;
-  font-size: 12px;
-  padding-top: 22px;
+  font-size: 13px;
+  padding-top: 30px;
+  @include touch {
+    top: 0px;
+  }
   .act {
-    margin:10px auto 5px;
+    max-width: 130px;
+    margin:10px;
   }
 }
 .nuxt-content {
@@ -325,6 +336,20 @@ export default {
 .is-community-page {
   background: no-repeat url("~assets/images/bg/partnership/topleft.svg") -8% 2%,
     no-repeat url("~assets/images/bg/community/rightbottom.svg") 110% 95%;
+}
+.is-airdrop-page {
+  margin-top: 0;
+  background: no-repeat url("~assets/images/bg/airdrop/bgpic.png");
+  background-color: $common-bg-color;
+  @include touch {
+    background: no-repeat url("~assets/images/bg/airdrop/bgpic.png") 60% 0%;
+  }
+  @include mobile {
+    background: no-repeat url("~assets/images/bg/airdrop/bg.png") 50% 0%;
+  }
+}
+.airdrop-hide{
+  display: none;
 }
 .navbar {
   border-bottom: 1px solid transparent;
@@ -424,7 +449,6 @@ export default {
 
     .nav-item {
       padding: 11px 16px;
-      font-size: 14px;
     }
 
     .navbar-menu {

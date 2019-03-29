@@ -4,7 +4,7 @@
       <h1 style="text-align:center">
         {{$t('investor.title')}}
       </h1>
-      <div class="columns is-multiline is-mobile">
+      <div class="columns is-multiline is-mobile is-centered">
         <div :key="item.key" v-for="(item, index) in list" class="column item">
           <a :href="item.url" target="_blank" @mouseover="onHover(index)" @mouseout="onOut(index)" :class="`key-${item.key}`">
             <div class="img-wrapper">
@@ -219,7 +219,7 @@
 
   .columns {
     flex-direction: row;
-    margin:-15px -25px;
+    margin:-15px -15px;
     .item {
       padding:10px;
       flex-grow: 0;

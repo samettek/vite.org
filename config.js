@@ -68,19 +68,21 @@ module.exports = {
       thailand: 'https://t.me/vite_thailand'
     },
     whitePaper: {
-      english: '/whitepaper/vite_en.pdf',
-      chinese: '/whitepaper/vite_cn.pdf',
-      french: '/whitepaper/vite_fr.pdf',
-      korean: '/whitepaper/vite_korean.pdf',
-      vietnamese: '/whitepaper/vite_vietnamese.pdf',
-      russian: '/whitepaper/vite_russian.pdf'
+      english: 'https://github.com/vitelabs/whitepaper/blob/master/vite_en.pdf',
+      chinese: 'https://github.com/vitelabs/whitepaper/blob/master/vite_cn.pdf',
+      french: 'https://github.com/vitelabs/whitepaper/blob/master/vite_fr.pdf',
+      korean: 'https://github.com/vitelabs/whitepaper/blob/master/vite_korean.pdf',
+      vietnamese: 'https://github.com/vitelabs/whitepaper/blob/master/vite_vietnamese.pdf',
+      russian: 'https://github.com/vitelabs/whitepaper/blob/master/vite_russian.pdf'
     },
     exchange: {
-      okex: 'https://www.okex.com/spot/trade#product=vite_eth'
+      bittrex: 'https://international.bittrex.com/Market/Index?MarketName=BTC-VITE',
+      okex: 'https://www.okex.com/spot/trade#product=vite_eth',
+      upbit: 'https://sg.upbit.com/exchange?code=CRIX.UPBIT.BTC-VITE'
     },
     media: {
       medium: 'https://medium.com/vitelabs',
-      bitcointalk: 'https://bitcointalk.org/index.php?topic=4438416',
+      bitcointalk: 'https://bitcointalk.org/index.php?topic=5056409',
       forum: 'https://forum.vite.net'
     },
     vote: {

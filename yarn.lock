@@ -4348,6 +4348,11 @@ is-https@^1.0.0:
   resolved "https://registry.yarnpkg.com/is-https/-/is-https-1.0.0.tgz#9c1dde000dc7e7288edb983bef379e498e7cb1bf"
   integrity sha512-1adLLwZT9XEXjzhQhZxd75uxf0l+xI9uTSFaZeSESjL3E1eXSPpO+u5RcgqtzeZ1KCaNvtEwZSTO2P4U5erVqQ==
 
+is-mobile@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npmjs.org/is-mobile/-/is-mobile-2.0.0.tgz#4d0140e91bb4e26d7e0402ead2f8a79d1551b9d5"
+  integrity sha512-k2+p7BBCzhqHMdYJwGUNNo+6zegGiMIVbM6bEPzxWXpQV6BUzV892UW0oDFgqxT6DygO7LdxRbwC0xmOhJdbew==
+
 is-number@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/is-number/-/is-number-3.0.0.tgz#24fd6201a4782cf50561c810276afc7d12d71195"
@@ -8274,11 +8279,6 @@ vue-meta@^1.4.3:
     deepmerge "^2.0.0"
     lodash.isplainobject "^4.0.6"
     object-assign "^4.1.1"
-
-vue-no-ssr@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.npmjs.org/vue-no-ssr/-/vue-no-ssr-1.1.1.tgz#875f3be6fb0ae41568a837f3ac1a80eaa137b998"
-  integrity sha512-ZMjqRpWabMPqPc7gIrG0Nw6vRf1+itwf0Itft7LbMXs2g3Zs/NFmevjZGN1x7K3Q95GmIjWbQZTVerxiBxI+0g==
 
 vue-resize@^0.4.3:
   version "0.4.4"

@@ -34,7 +34,7 @@
     },
     computed: {
       mediaList: function () {
-        return ['forum','medium', 'bitcointalk']
+        return ['forum', 'medium', 'bitcointalk']
       }
     }
   }
@@ -72,6 +72,7 @@
       .dropdown-content {
         .dropdown-item {
           color: $common-text-color;
+          font-size: 14px;
           &:hover {
             color: $common-active-color
           }

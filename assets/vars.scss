@@ -20,6 +20,12 @@ $common-text-color: #919AA3;
 $common-active-color: #007AFF;
 $lang-select-color: #007EE5;
 
+// background color
+$common-bg-color: #f6fbff;
+
+// timeline
+$timelineColor: #007aff;
+
 @mixin widescreen-desktop {
   @media screen and (min-width: $desktop) and (max-width: $fullhd - 1px) {
     @content
