@@ -1,0 +1,1192 @@
+{
+  "lang": "VI",
+  "head": {
+    "title": "Vite - Hệ sinh thái phi tập trung hiệu suất cao",
+    "document": "Tài liệu",
+    "description": {
+      "index": "Vite - Hệ sinh thái phi tập trung hiệu suất cao",
+      "careers": "Chào mừng bạn tham gia Vite Labs, hãy cùng tạo ra một nền tảng ứng dụng phi tập trung thế hệ mới hiệu suất cao",
+      "faq": "Các câu hỏi thường gặp về Vite",
+      "technology": "Các công nghệ then chốt của Vite: DAG, Snapshot Chain, Cấu trúc không đồng bộ, Hợp đồng phản ứng, Sản xuất quota, Tích hợp Loopring, Điều chỉnh thời gian, Cập nhật hợp đồng, Solidity++"
+    }
+  },
+  "exchange": {
+    "okex": "OKEX.COM",
+    "bittrex": "BITTREX",
+    "upbit": "UPBIT"
+  },
+  "media": {
+    "medium": "Medium",
+    "bitcointalk": "Bitcointalk",
+    "blog": "Blog công nghệ",
+    "forum": "Diễn đàn"
+  },
+  "community": {
+    "title": "Cộng đồng",
+    "star": "Cộng đồng tiêu biểu"
+  },
+  "nav": {
+    "index": "TRANG CHỦ",
+    "production": "SẢN PHẨM",
+    "team": "ĐỘI NGŨ",
+    "partnership": "ĐỐI TÁC",
+    "community": "CỘNG ĐỒNG",
+    "exchange": "SÀN GIAO DỊCH",
+    "media": "TRUYỀN THÔNG",
+    "faq": "CÂU HỎI THƯỜNG GẶP",
+    "about": "VỀ VITE LABS",
+    "wiki": "WIKI",
+    "superNodes": "Hướng dẫn cho SBP (Snapshot Block Producer)",
+    "nodeList": "Ứng cử viên SBP",
+    "notice": {
+      "name": "SUPER-NODE",
+      "specific": "Hướng dẫn cho SBP (Snapshot Block Producer)",
+      "apply": "Đăng ký làm SBP (Snapshot Block Producer) "
+    }
+  },
+  "about": {
+    "whitepaper": "White-paper",
+    "blog": "Blog"
+  },
+  "home": {
+    "explorer": "Trình duyệt",
+    "webWallet": "Ví web",
+    "wallet": {
+      "name": "Ứng dụng ví",
+      "en": "Ngoài Trung Quốc",
+      "zh": "Trung Quốc"
+    },
+    "header": "Vite",
+    "slogan": "Hệ sinh thái phi tập trung hiệu suất cao",
+    "whitePaper": "White-paper",
+    "testnet": "TestNet",
+    "acttext": "Get VITE Token miễn phí",
+    "actwait": "Hãy theo dõi!",
+    "news": "Tin tức mới nhất",
+    "starttoUse": "Bắt đầu cùng Vite"
+  },
+  "roadmap": {
+    "title": "Lộ trình",
+    "timelines": [
+      {
+        "time": "02/2018",
+        "description": "Khởi động dự án"
+      },
+      {
+        "time": "Tháng 4/ 2018",
+        "description": [
+          {
+            "text": "Hoàn thành Whitepaper",
+            "url": "https://www.vite.org/whitepaper/vite_en.pdf"
+          }
+        ]
+      },
+      {
+        "time": "Tháng 5/ 2018",
+        "description": [
+          "Kêu gọi vốn Private Sale",
+          "Trang chủ",
+          "Đội ngũ sáng lập"
+        ]
+      },
+      {
+        "time": "Tháng 6/ 2018",
+        "description": [
+          "Đội ngũ Nghiên cứu Phát triển",
+          "Đội ngũ Phát triển công nghệ"
+        ]
+      },
+      {
+        "time": "Tháng 8/ 2018",
+        "description": " go-vite 0.1"
+      },
+      {
+        "time": "Tháng 9/ 2018",
+        "description": [
+          {
+            "text": "Ví web",
+            "url": "https://wallet.vite.net/"
+          },
+          "Ví iOS",
+          {
+            "text": "Trình duyệt Block",
+            "url": "https://explorer.vite.net/"
+          }
+        ]
+      },
+      {
+        "time": "Tháng 10/ 2018",
+        "description": [
+          {
+            "text": "Chuyển đổi VITE ERC20 sang VITE (56% tổng cung)",
+            "url": "https://medium.com/vitelabs/testnet-an-update-erc20-token-migration-guide-7c200bef7337"
+          }
+        ]
+      },
+      {
+        "time": "Tháng 11/ 2018",
+        "description": [
+          "Vite TestNet 1.0.0",
+          {
+            "text": "Chiến dịch Snapshot Block Producer (SBP)",
+            "url": "https://explorer.vite.net/SBPList"
+          },
+          "Khai thác"
+        ]
+      },
+      {
+        "time": "Tháng 12/ 2018",
+        "description": [
+          "Hợp đồng thông minh/ Solidity++ Alpha Test",
+          "Cross-Chain Gateway Alpha Test",
+          "Thử nghiệm Ví đa token Alpha",
+          {
+            "text": "Sàn giao dịch phi tập trung (DEX) Alpha Test | Tin tức từ Forbes",
+            "url": "https://www.forbes.com/sites/yoavvilner/2018/12/16/the-state-of-decentralized-exchanges-and-plans-for-2019/#6af853b83059"
+          },
+          "Website 2.0",
+          {
+            "text": "Website Diễn đàn chính thức",
+            "url": "https://forum.vite.net/"
+          }
+        ]
+      },
+      {
+        "time": "Quý 1/ 2019",
+        "description": [
+          "Ra mắt Pre-MainNet",
+          "Cross-Chain Gateway Alpha Test",
+          "DEX Open Beta Test",
+          "Hợp đồng thông minh/ Solidity++ Open Beta Test",
+          "Ra mắt Ví đa token",
+          "Hỗ trợ Đa máy ảo (Multi-VM) (EVM / WASM)"
+        ]
+      },
+      {
+        "time": "Quý 2/ 2019",
+        "description": [
+          "Tối ưu hóa hiệu suất",
+          "Kích hoạt Hợp đồng thông minh điều chỉnh theo thời gian",
+          "Dịch vụ đặt tên cho địa chỉ",
+          "Nâng cấp hợp đồng thông minh"
+        ]
+      },
+      {
+        "time": "Quý 3/ 2019",
+        "description": [
+          "Ra mắt MainNet",
+          "dApps (được hỗ trợ bởi ứng dụng khách trên thiết bị di động)",
+          "Phát hành Stablecoin trên DEX",
+          "Hoàn thành thanh toán"
+        ]
+      },
+      {
+        "time": "Quý 4/ 2019",
+        "description": [
+          "Xây dựng hệ sinh thái dApp"
+        ]
+      }
+    ]
+  },
+  "elector": {
+    "title": "Ứng cử viên SBP",
+    "detailTitles": [
+      {
+        "key": "thông tin",
+        "title": "Thông tin của thành viên trong đội ngũ"
+      },
+      {
+        "key": "hình ảnh",
+        "title": "Hình ảnh"
+      },
+      {
+        "key": "cấu hình",
+        "title": "Cấu hình của Trung tâm dữ liệu"
+      },
+      {
+        "key": "vị trí",
+        "title": "Vị trí máy chủ"
+      },
+      {
+        "key": "kế hoạch",
+        "title": "Kế hoạch phát triển hệ sinh thái"
+      }
+    ],
+    "rightCommonPart": {
+      "title": "Mạng Xã hội",
+      "email": "Email",
+      "twitter": "Twitter",
+      "telegram": "Telegram",
+      "website": "Website"
+    },
+    "nameMap": {
+      "vitecity": {
+        "info": [
+          "Hu Jinlang: Nhà sáng lập của node ViteCity, anh là Thạc sĩ Tài chính tốt nghiệp trường Đại học Trung văn Hương Cảng, CFA, CPA, trước đây từng làm việc tại Công ty Kiểm toán Deloitte, chịu trách nhiệm cho danh sách chứng khoán Trung Quốc ở nước ngoài, thành viên kì cựu trong điều hành quỹ. Chịu trách nhiệm niêm yết các trường hợp cổ phiếu như Jumeiyoupin, Paipai Dai, Uxin Group, vv. Bây giờ anh đang làm việc tạo một Ngân hàng Đầu tư Blockchain nổi tiếng, một sàn giao dịch có tên tuổi có đa dạng hóa các phương tiện truyền thông blockchain, giúp thiết lập các dự án blockchain nền tảng ở nước ngoài, phát hành ở nước ngoài, niêm yết, vv. Công ty đã ươm mầm cho nhiều dự án đứng đầu top 100 về vốn hóa thị trường, chẳng hạn như VET, Tron, Link, WTC, IOST, ELF, vv. Anh đang thường trú tại Thượng Hải, Trung Quốc.",
+          "Zeng Zhifang: Cử nhân trường Đại học Quốc tế học Beijing, Thạc sỹ Báo chí truyền thông của trường Đại chọ Waseda, Nhật Bản; Quản lý của các cộng đồng nổi tiếng, điều hành 30.000 cộng đồng kỹ thuật, làm việc chặt chẽ với CSDN, Mã nguồn mở Trung Quốc, 51CTO và các cộng đồng công nghệ hàng đầu khác trong nước; khối chuỗi tài nguyên phương tiện truyền thông phong phú như Jinse Fianance, 8btc, Lian Dede, Walian Net, Nuclear Finance, Huobi Information, Babi Finance và có mối liên hệ chặt chẽ; các chuyên gia điều hành cộng đồng, với nhiều cộng đồng blockchain, bao gồm hàng ngàn người dùng; cộng đồng tài nguyên phong phú ở nước ngoài, lên kế hoạch để thảo luận về một dự án ở Reddit một tháng một lần, và phát huy giá trị thị trường của dự án đạt mức tăng bốn lần trong ba tháng. Anh là cư dân tại Thượng Hải, Trung Quốc.",
+          "Zhong Lifeng: Giám đốc Kỹ thuật, Thạc sỹ Khoa học máy tính trường Đại học Chiết Giang, có 10 năm kinh nghiệm phát triển kỹ thuật, nhà cựu phát triển trong mô hình trí tuệ nhân tạo lần thứ tư, chịu trách nhiệm về big data và phát triển kinh doanh quảng cáo. Anh có tài năng về Thuật toán học sâu AI, hiểu biết sâu sắc về các giao dịch tài chính, hiện phụ trách phát triển hệ thống định lượng tiền mã hóa. Anh thường trú tại Thượng Hải, Trung Quốc."
+        ],
+        "config": [
+          "8 cores 16G 100 Mbps"
+        ],
+        "location": [
+          "Hàng Châu & Trung Quốc"
+        ],
+        "photo": [
+
+        ],
+        "medium": [
+          "1. Trước hết, chúng tôi đang cố gắng tăng tỉ lệ hiển thị của Vite trong nhiều phương tiện truyền thông blockchain bao gồm 8btc, Jinse Finance, Lian Dede, vv. Chúng tôi bỏ ngỏ khả năng áp dụng hình thức thiết lập node theo cột.",
+          "2. Điều hành tài khoản node trong phương tiện truyền thông như tài khoản chính thức WeChat, Weibo, Twitter, Reddit, Facebook, vv, tài khoản này sẽ được phụ trách bởi một người chuyên nghiệp để tăng cường sự tương tác với người theo dõi.",
+          "3. Định kỳ kế hoạch cho các cộng đồng airdrop và liên tục cố gắng để có được nhiều người hâm mộ Vite."
+        ],
+        "plan": [
+          "1. Tăng tốc độ hiển thị của Vite bởi các phương tiện truyền thông blockchain, ví, xu hướng thị trường ứng dụng, thiết lập tài khoản của các kênh truyền thông khác nhau và chịu trách nhiệm bởi các chuyên gia, đánh giá ưu điểm kỹ thuật của dự án Vite và retweeting các thông báo chính thức và tiến độ của dự án.",
+          "2. Thiết kế các sản phẩm Vite theo chủ đề và thường xuyên tổ chức các buổi gặp mặt những người hâm mộ Vite, cùng với đó, cộng đồng sẽ phụ trách các buổi họp mặt chuyên nghiệp cũng như đăng tải các sự kiện chính thức trên các phương tiện truyền thông, nghiên cứu xu hướng thị trường ứng dụng ví để lập kế hoạch airdrop.",
+          "3. Lập kế hoạch một số ưu đãi để kích hoạt các cộng đồng các nhà phát triển hỗ trợ phát triển dApp sắp tới trong hệ sinh thái Vite."
+        ],
+        "name": "ViteCity",
+        "description": "Làm cho Vite blockchain mạnh hơn!"
+      },
+      "tenzor": {
+        "info": [
+          "Tenzor Capital, hơn 4 năm trong lĩnh vực kinh doanh VC. Nhà sáng lập icoscoring.com. Kirill có kiến thức chuyên sâu về quản lý đầu tư, mô hình tài chính và cơ cấu giao dịch. Anh đã nhận được Cử nhân Khoa học về Hóa học và Thạc sĩ Kinh tế tại một trong những trường đại học hàng đầu của Nga - MSU.",
+          "Maksim Mizerov - nhà phân tích cao cấp Tenzor Capital và Icoscoring.com. Anh có kiến thức sâu rộng trong cơ sở hạ tầng tài chính. Anh đã từng làm việc tại Sàn giao dịch Moscow về thị trường sơ cấp. Maksim có hơn 3 năm kinh nghiệm giao dịch tại các sàn giao dịch chứng khoán và tiền mã hóa. Anh đã tốt nghiệp trường Đại học kinh tế hàng đầu ở Nga NES và một trong những trường đại học tốt nhất - HSE.",
+          "Daniil Ogurtsov - nhà phân tích cao cấp Tenzor Capital và Icoscoring.com. Anh có kinh nghiệm tuyệt vời trong công ty tư vấn Big4 và công ty Dầu khí hàng đầu Rosneft. Anh tốt nghiệp MGIMO, trường Đại học hàng đầu của Nga."
+        ],
+        "config": [
+          "32 GB, 8 CPU, 640 GB SSD, hơn 100Mbps"
+        ],
+        "photo": [
+
+        ],
+        "medium": [
+          "Chúng tôi hoạt động tích cực cùng cộng đồng trên Twitter, Medium và Telegram.",
+          "Đội ngũ của chúng tôi và các đối tác thân thiết có các cộng đồng 600.000 người tại EU và Nga."
+        ],
+        "location": [
+          "Mỹ, Anh, Đức, Canada, Hà Lan, Singapore, tùy theo nhu cầu của bạn"
+        ],
+        "plan": [
+          "Đội ngũ của chúng tôi có nhiều kinh nghiệm trong lĩnh vực Quan hệ Đầu tư. Chúng tôi luôn giúp các dự án trong danh mục đầu tư về sự phát triển của cộng đồng và ứng dụng công nghệ.",
+          "Đội ngũ và các đối tác thân thiết của chúng tôi có cộng đồng tích cực ở EU và Nga với hơn 600 nghìn người. Chúng tôi cung cấp các dịch vụ tư vấn trong việc xây dựng chiến lược tiếp thị quảng bá trên thị trường CIS và SEA.",
+          "Chúng tôi có thể thu hút các chuyên gia bậc C làm cố vấn cho các dự án. Ngoài ra, chúng tôi có một hồ sơ theo dõi đã được chứng minh trong việc tuyển dụng cho các công ty khởi nghiệp CNTT.",
+          "Do đó, đội ngũ của chúng tôi có giá trị lớn cho cộng đồng Vite và chúng tôi có thể đóng góp cho sự phát triển và ứng dụng của Vite."
+        ],
+        "name": "Tenzor",
+        "description": "Gắp kết thế giới thông qua công nghệ blockchain."
+      },
+      "snap": {
+        "info": [
+          "Mathew Phạm (còn gọi là plasmo) Lần đầu tiên tôi quan tâm đến tiền mã hóa/ blockchain khi tôi tìm hiểu về Bitcoin vào năm 2012. Đầu tư một số tiền nhỏ và kể từ đó, tôi thực sự yêu thích tất cả mọi thứ liên quan đến tiền mã hóa/ blockchain (đặc biệt là hợp đồng thông minh). Trước đây tôi đã tìm hiểu về các node lưu trữ, khai thác và đầu tư/ sử dụng một trong những công cụ khai thác Bitcoin được sản xuất hàng loạt đầu tiên (Kncminer), thử nghiệm phiên bản Ubuntu Linux đầu tiên vào năm 2004 và thậm chí vận hành máy chủ chơi game của riêng tôi/ thi đấu. Tôi phát hiện ra Vite vào tháng 5, đọc Whitepaper của Vite, nhìn qua bối cảnh rộng lớn của đội ngũ và tự nghĩ rằng Vite có thể trở thành một điều gì đó lớn lao. Tôi muốn giúp Vite phát triển. Tôi sống tại Melbourne, Úc."
+        ],
+        "config": [
+          "Intel i5-8600K (6 cores), 16GB DDR4 memory, Samsung SSD, 100Mbps"
+        ],
+        "location": [
+          "Melbourne, Úc"
+        ],
+        "photo": [
+
+        ],
+        "medium": [
+          "Tôi tạo một tài khoản Twitter để cập nhật trạng thái node, đọc các bản cập nhật trên hệ sinh thái Vite và tìm hiểu về các sự kiện quan trọng. Tôi cũng đã tạo một trang web nơi người dùng có thể truy cập và xem trạng thái node/ mạng, sử dụng máy tính bỏ phiếu để xem tiềm năng kiếm tiền của Vite, đọc hướng dẫn và tham gia các cuộc thi. Phần thưởng nhận được, tôi cũng sẽ sử dụng trong việc đăng tải các phương tiện truyền thông, quảng cáo trên Twitter và Reddit và về cơ bản là bất cứ điều gì giúp thúc đẩy sự phát triển của Vite. Tôi chào đón tất cả các ý tưởng. "
+        ],
+        "plan": [
+          "Tạo các bài viết về nền tảng / hệ sinh thái Vite, cung cấp các hướng dẫn cơ bản (cho người mới đọc và học), lập trình / thiết kế một máy tính để cho biết một người bỏ phiếu có thể kiếm được bao nhiêu chỉ qua việc bỏ phiếu cho supernode Snap Secure, cung cấp các cuộc thi để cộng đồng có thể phát triển / trở thành mỗi liên quan và cũng có khả năng giúp cung cấp tài chính cho các nhà phát triển để tạo Vite dApps hoặc di chuyển Ethereum dApps sang nền tảng Vite."
+        ],
+        "name": "SnapSecure",
+        "description": "Securing Vite's Snapshot Chain, One Block At A Time."
+      },
+      "ux": {
+        "info": [
+          "Vladimir Polishchuk: Giám đốc công nghệ UIXAgency.com, UIX_LAB, nhà phát triển python (backend), chuyên gia bảo mật CNTT, MCP, MCTS: Cơ sở hạ tầng, cấu hình mạng Windows Server 2008, MCID: 8125056, Quản trị Linux, Ukraine, Nikolaev ",
+          "Serhiy Polishchuk: UIXAgency.com Art Lead, Mô hình 3D & Điêu khắc 3D cho Gamedev, CGI, Hoạt hình, Quản lý dự án, Ukraine, Nikolaev",
+          "Julia Novak: SMM, Chuyên gia xúc tiến và tiếp thị di động, phân tích thị trường di động"
+        ],
+        "config": [
+          "HP DL360e, 2 x Xeon E5-2430 v2 @ 2.50GHz, 64 GB RAM, 240GB+2x500GB SSD, HP Smart Array P420i/2GB. 1 Gb/s speed inter&intranet"
+        ],
+        "location": [
+          "Ukraine, thành phố Nikolaev"
+        ],
+        "photo": [
+
+        ],
+        "medium": [
+          "đang tiến hành.."
+        ],
+        "plan": [
+          "Các chiến lược chung của xây dựng cộng đồng trong tiến trình hiện nay, cần một vài ngày để giới thiệu. Kế hoạch: - xây dựng một trang web mới cho SBP (thiết kế giống như https://uixagency.com) - thêm VITE là phương thức thanh toán cho các dự án outsource của chúng tôi - chúng tôi muốn tạo ra một cửa hàng điện tử của bộ sưu tập đồ trang sức độc quyền giới hạn hay nhiều người, một trong các bộ sưu tập này có thể được thiết kế với logo của VITE - Ví dụ... ý tưởng này trong tâm trí của tôi ngay bây giờ - cố gắng để tích hợp VITE trong trò chơi điện thoại di động và ứng dụng - chúng tôi có phòng gamedev và appdev và đội ngũ của chúng tôi thực sự thích nền tảng VITE, đó là lý do tại sao chúng tôi tích lũy khoảng 2,5 triệu VITE và sẵn sàng cho việc giúp đỡ để tích hợp VITE vào thực tế :)"
+        ],
+        "name": "UX SBP",
+        "description": "vốn chủ sở hữu không đồng bộ"
+      },
+      "loopring": {
+        "info": [
+          "Kongliang, Zhong ; ",
+          "Leila, Lin, Thượng Hải, Trung Quốc"
+        ],
+        "config": [
+          "NA"
+        ],
+        "location": [
+          "Thượng Hải"
+        ],
+        "photo": [
+
+        ],
+        "medium": [
+          "Chúng tôi có tất cả các phương tiện truyền thông xã hội và KOL đã sẵn sàng cho chiến dịch này."
+        ],
+        "plan": [
+          "Chúng tôi hiện có cộng đồng blockchain với hơn 200K thành viên. Chúng tôi đang có kế hoạch để thúc đẩy và phổ biến Vite trong cộng đồng của chúng tôi."
+        ],
+        "name": "Loopnode",
+        "description": "Loop the world"
+      },
+      "zhizifund": {
+        "info": [
+          "Dawei Li, đồng sáng lập của Quỹ Zhizi, có 15 năm kinh nghiệm trong ngành công nghiệp bán dẫn, đã hợp tác sâu sắc với các nhà sản xuất máy đào. Trong năm 2014, anh bắt đầu vào ngành công nghiệp blockchain và trở thành một nhà đầu tư blockchain sớm nhất. Anh sống tại Thâm Quyến, Trung Quốc",
+          "Phong cao, đồng sáng lập của Quỹ dự án  Zhizi , người tham gia đầu và đam mê blockchain, có nhiều năm kinh nghiệm trong ngành công nghiệp tài chính, dày dạn trong quản lý dự án đầu tư. Cư dân tại Úc."
+        ],
+        "config": [
+          "8 cores CPU 16G storage, 100 Mbps, 1T SSD storage, CentOS 7.4"
+        ],
+        "location": [
+          "Silicon Valley, Mỹ"
+        ],
+        "photo": [
+
+        ],
+        "plan": [
+          "1. Vườn ươm dự án Vite: Quỹ Zhizi là một quỹ BVI tập trung vào công nghệ blockchain và đầu tư tiền mã hóa. Là một tổ chức đầu tư sớm của Vite, chúng tôi cũng sẽ tích cực tham gia vào việc ươm tạo các dự án ban đầu của Vite và hỗ trợ đầy đủ cho đầu tư, vận hành và công nghệ cho các đối tác dự án sinh thái trong Vite.",
+          "2. Nhiều đối tác của Quỹ Zhizi: kể từ khi thành lập, Quỹ Zhizi đã thiết lập quan hệ hợp tác tốt với nhiều dự án nổi tiếng trong và ngoài nước. Chúng tôi sẽ cung cấp cho Vite tài nguyên hợp tác và tích hợp tài nguyên để thúc đẩy sự phát triển của Vite.",
+          "3. Mở rộng thị trường nước ngoài: Nước ngoài luôn là trọng tâm đầu tư và hợp tác của Quỹ Zhizi. Chúng tôi cũng có trung tâm hoạt động riêng tại Úc. Chúng tôi sẽ cung cấp thêm nguồn lực cho hợp tác ở nước ngoài và mở rộng thị trường cho Vite.",
+          "4. Cộng đồng và phương tiện truyền thông: Quỹ Zhizi có mối quan hệ hợp tác tốt với một số phương tiện truyền thông chất lượng cao, có thể tăng cường quảng bá tổng thể Vite. Tổ chức các buổi gặp mặt, v.v.",
+          "5. Triết lý phát triển của Vite rất dễ nhận biết: Vite là một thế hệ blockchain đáp ứng mới, cung cấp một nền tảng công cộng đáng tin cậy cho các ứng dụng phi tập trung công nghiệp. Định hướng phát triển của blockchain công cộng do Vite chủ trương rất phù hợp với Quỹ Zhizi và Quỹ Zhizi sẽ thúc đẩy đầy đủ sự phát triển của xây dựng sinh thái Vite."
+        ],
+        "medium": [
+          "Trang web chính thức",
+          "Jinse Finance",
+          "Bihu",
+          "Bishijie",
+          "Weibo",
+          "Twitter"
+        ],
+        "name": "ZVnode",
+        "description": "Quỹ Zhizi, hỗ trợ phát triển hệ sinh thái Vite"
+      },
+      "linknode": {
+        "info": [
+          "Jiapeng Lin, nhà sáng lập, Jiapeng là nhà sáng lập của LinkVC, một quỹ đầu tư tiền mã hóa nhằm mục đích ươm tạo các công ty thay đổi trò chơi và sáng tạo nhất trong ngành công nghiệp blockchain. Trước khi thành lập LinkVC, Jiapeng là người đồng sáng lập Aicoin và cố vấn của Okcoin. Trước Aicoin, anh đã làm việc trong mạng lưới Xunlei của công ty niêm yết NASDAQ, chịu trách nhiệm phát triển sản phẩm cốt lõi, khách hàng bao gồm Xunlei, Xunlei Finance, Xunlei video và các dịch vụ giá trị gia tăng của thành viên của Thunder. ",
+          "Henry (He) Xu, Thành viên, Henry là thành viên của LinkVC. Trước khi gia nhập LinkVC, anh là thành viên đầu tiên của đội ngũ blog công nghệ hàng đầu Trung Quốc PingWest, Tổng biên tập trang web SLD. Người sáng lập câu lạc bộ nghiên cứu whitepaper \"Monroe Protocol\". Trước đó, Henry đã đóng nhiều vai trò khác nhau trong Nanfang Daily, SEEC Media Group Limited, Autobot đối tác đầu tư mạo hiểm.",
+          "Li Zhang, Li là thành viên của LinkVC. Cô là một học viên sớm và nhà đầu tư tinh vi trong ngành công nghiệp blockchain. Trước LinkVC, Li phụ trách phát triển kinh doanh tại Huobi, đây là sàn giao dịch tiền mã hóa phổ biến nhất trên toàn thế giới. Trước Huobi, Li là CMO của f2pool."
+        ],
+        "config": [
+          "NA"
+        ],
+        "location": [
+          "NA"
+        ],
+        "plan": [
+          "Linknode được hỗ trợ bởi LinkVC, một quỹ tiền mã hóa cam kết phục vụ các công ty và nhà phát triển xuất sắc trong lĩnh vực blockchain với các nguồn lực thương mại toàn cầu và dịch vụ tài chính chuyên nghiệp. Trong hai năm qua, LinkVC đã đầu tư hàng chục dự án trên toàn thế giới bao gồm Aicoin, BBEX, aelf, Zilliqa, Blockv, Certik, Oasis lab, v. v.",
+          "1. Chúng tôi có lợi thế cạnh tranh mạnh mẽ về cả phương tiện truyền thông và tài nguyên công nghiệp. Có Linknode như một supernode, Vite có thể dễ dàng hợp tác với các dự án hàng đầu khác để tăng cường ảnh hưởng của cộng đồng.",
+          "2. Kinh nghiệm phong phú của chúng tôi trong quá trình xây dựng cộng đồng và quá trình phát triển dự án có thể ngăn chặn sự biến đổi và gia tăng sự phát triển của bạn. ",
+          "3. Hiệu quả thương hiệu và chứng thực"
+        ],
+        "medium": [
+          "Như đã đề cập, LinkNode có thể cung cấp các kênh truyền thông khác nhau.",
+          "1. Chúng tôi là cổ đông của một số phương tiện truyền thông blockchain hàng đầu, chẳng hạn như pivot, AICoin, dp rating và chainfor.",
+          "2. Các kênh truyền thông có tầm ảnh hướng, bao gồm Wechat và Telegram"
+        ],
+        "name": "LinkNode",
+        "description": "Sinh ra để khác biệt"
+      },
+      "bitvite": {
+        "info": [
+          "William Wang, chuyên gia tài chính cấp cao và doanh nhân blockchain, đồng sáng lập của Bit Dimension, hơn 5 năm kinh nghiệm trong hoạt động và quản lý của công ty Fortune 500, đã thành lập nhiều công ty công nghệ. Sinh sống tại Quảng Châu, Trung Quốc.",
+          "Senyuan Zhang, kỹ sư blockchain. Thành thạo trong công nghệ khối, kinh doanh blockchain. Là một trong những người đầu tiên mua Bitcoin tại Trung Quốc. Với kinh nghiệm ứng dụng thành công nhiều blockchain, anh tin rằng thời đại của các điều hướng lớn trong blockchain sẽ đến. Anh hiện sinh sống tại Quảng Châu, Trung Quốc.",
+          "Alex Lee, là người năm giữ nhiều Bitcoin, đồng sáng lập của Fibos SuperNode, có nhiều hơn 5 năm kinh nghiệm đầu tư tiền tệ kỹ thuật số, hơn ba năm kinh nghiệm quản lý tài chính cấp cao, và là doanh nhân blockchain. Sinh sống tại Quảng Châu, Trung Quốc."
+        ],
+        "config": [
+          "16 GB, 4 CPU, tốc độ truyền Internet hơn 100 Mbp"
+        ],
+        "location": [
+          "Thâm Quyến, Trung Quốc"
+        ],
+        "plan": [
+          "Năm 2018 được định sẵn là một năm phi thường. Dưới ánh mặt trời rực rỡ của sự biến đổi lớn lao của kỷ niệm 40 năm cải cách và mở cửa, lĩnh vực blockchain đã dần dần thâm nhập vào mọi tầng lớp và phát huy chức năng \"giá trị tín dụng\". Nhìn lại chuỗi 2017 và vòng tròn tiền tệ, không còn nghi ngờ gì nữa rằng \"Yangxian có thể thay đổi niềm tin\", \"miễn là bạn mua và giữ, bạn có thể nằm xuống và kiếm tiền\". Thị trường có nóng, nhưng thủy triều sẽ rút, khi đó thị trường kinh tế, không ai có thể đảm bảo rằng so với chuỗi và vòng tròn tiền tệ, cần phải phản ánh hiệu quả giá trị của đội ngũ, đẩy nhanh sự hội nhập với nền kinh tế thực và hợp tác với việc thúc đẩy chung các chính sách, công nghệ và thị trường nhằm mục tiêu tối ưu hóa mô hình công nghiệp truyền thống và gia tăng phát triển công nghệ cao. Là một blockchain công cộng dựa trên công nghệ DAG, Vite đề xuất một quan điểm hướng tới tương lai về quản trị chung và lựa chọn công khai các tài năng chất lượng cao với khả năng, điều kiện, trách nhiệm và blockchain lý tưởng. Là ứng cử viên cho các node Vite, 3 điểm sau đây là ưu điểm của Bit Dimensions. Kế hoạch phát triển cộng đồng:",
+          "Thứ nhất, là ràng buộc. Trong bối cảnh Internet, nơi cổ tức nhân khẩu học đang dần mờ nhạt và nền kinh tế chia sẻ phổ biến nhưng bị lu mờ, blockchain tập trung vào việc hỗ trợ chuyển đổi và nâng cấp ngành công nghiệp. Khi Bit Dimension thành công là một trong các node của Vite, cộng đồng của chúng tôi và cộng đồng của chúng tôi cũng sẽ theo dõi. Tốc độ chính thức của Vite, kết hợp với việc hoàn thành các trách nhiệm của một node, tham gia vào các bước đồng xây dựng và tối ưu hóa node Vite. Node Vite chỉ là một phần của việc xây dựng cộng đồng. Các thành viên của đội ngũ Bit Dimension đã tăng gấp đôi, trong lĩnh vực khoa học máy tính, công nghệ và kinh tế tài chính, thành thạo các ngôn ngữ phát triển máy tính khác nhau, có hơn năm năm kinh nghiệm trong ngành tài chính và lĩnh vực blockchain. Kỹ năng kỹ thuật vững chắc và kinh nghiệm phong phú trong việc phát triển và vận hành các dự án blockchain đã khiến đội ngũ Bit Dimension của chúng tôi tự tin hơn để có thể làm việc như một node của Vite. Đồng thời, cũng có các thành viên trong đội ngũ hoạt động chặt chẽ cùng Vite và Loopring, đây là một protocol hướng dẫn vững chắc. Những người ủng hộ và đam mê;",
+          "Thứ hai, tiếp cận một cách đa phương. Cộng đồng và xây dựng hệ sinh thái cần cả phần cứng và phần mềm. Một măt, đội ngũ Bit Dimension có kinh nghiệm trong các đợt bầu cử node đã có tài nguyên máy chủ hoàn chỉnh, cung cấp một loạt các hỗ trợ kĩ thuật, và sắp xếp thời gian thực điều chỉnh, giám sát các node để đảm hệ thống bảo hoạt động ổn định. Trong quá trình thúc đẩy xây dụng hệ sinh thái của Vite, Bit Dimension cũng sử dụng những người theo dõi của mình, trang web tài chính, và các phương tiện truyền thông khác cũng như các cộng đồng tư vấn khác. Cộng đồng kĩ thuật kết hợp catalyzes, có hiệu quả khuyến khích Vite, biết tới Vite một cách phổ biến, hiểu Vite một cách sâu sắc và tham gia Vite một cách nhiệt tình. Bất cứ ai tham gia vào Bit Dimension node, cho dù có phải là xây dựng cộng đồng hay là duy trì kĩ thuật, đều được 20% của số tiền ưu đãi thu được, và 5% cho đóng góp xuất sắc. Và đội ngũ Bit Dimension cũng CÓ kinh nghiệm phát triển hoàn thiện dApp, đã phát triển ứng dụng phân tán dựa trên công nghệ cơ bản của EOS, và Fibos sidechain. Hiện tại,  đội ngũ hiểu sâu và quen thuộc với các tài liệu kĩ thuật của Vite, để có thể phát triển ứng dụng hệ sinh thái cho sau nay. Chuẩn bị sẵn sàng!",
+          "Thứ ba, Hãy chuẩn bị cho mưa. Bit Dimension vững tin rằng trong bối cảnh của kỷ nguyên mới, hành trình mới và sứ mệnh mới, cuộc cách mạng blockchain phải có khả năng lật đổ hệ thống truyền thống, phức tạp, quá tập trung và kém hiệu quả, phục vụ minh bạch, hiệu quả hơn và đảm bảo công bằng. Do đó, đội ngũ Bit Dimension không chỉ cam kết xây dựng node, mà sẽ sử dụng góc chính xác hơn và sức mạnh dồi dào hơn để tạo ra sự kết hợp giữa xây dựng cộng đồng và phát triển ứng dụng. Trong tương lai, đội ngũ Bit Dimension sẽ triển khai thêm \"bốn điểm\" nữa: Đưa ra nhiều ý tưởng cho dự án Vite, phát hành nhiều ứng dụng hơn, tuyển mộ thêm các tổ chức đầu tư và tuyển mộ nhiều người hiểu biết sâu sắc về dự án.",
+          "Chúng tôi luôn tin rằng Vite sẽ là người dẫn đầu, không chỉ mang lại thị trường tăng giá tiếp theo, mà còn dẫn đầu kỷ nguyên blockchain, và Bit Dimension, cùng đi sâu hơn!"
+        ],
+        "medium": [
+          "1. Chúng tôi đã tạo Bit Dimension cùng một phương tiện truyền thông blockchain (bitewd.com) ở Trung Quốc để tăng tỷ lệ tiếp xúc với Vite và sẽ áp dụng hình thức mở cột \"Kiến thức Vite\", cột \"Vite node\" trên website, v.v.;",
+          "2. Mở tài khoản xã hội của tài khoản công cộng WeChat, tài khoản Weibo, Twitter, v. v. trên node này và người đặc biệt sẽ chịu trách nhiệm điều hành tài khoản xã hội và tăng cường tương tác với người hâm mộ;",
+          "3. Tạo nhiều nhóm WeChat hay nhóm Telegram và liên tục kêu gọi những người hâm mộ mới thông qua các dApps đa dạng được phát triển bởi đội ngũ."
+        ],
+        "name": "Bitvite",
+        "description": "Cho Vite! Cho tự do"
+      },
+      "swissvite": {
+        "info": [
+          "Julien Pidoux, Desinger, Belmont-sur-Lausanne, Thụy Sĩ",
+          "Guillaume Pedrazzini, Thợ đào coin, Geneva, Thụy Sĩ",
+          "Pierre Boiteux, Kỹ sư máy tính, Nhà phân tích định lượng, Vevey, Thụy Sĩ",
+          "Julien Mallet, Nhà tư vấn Quản lý Hiệu suất Doanh nghiệp, Martigny, Thụy Sĩ",
+          "Jean-Luc Strullu, Nhà phát triển Full Stack, Bắc Hải, Trung Quốc"
+        ],
+        "config": [
+          "8CPU, 24GB RAM và 100 Mbp"
+        ],
+        "location": [
+          "Geneva, Thụy Sĩ"
+        ],
+        "plan": [
+          "Quảng bá VITE thông qua website của chúng http://swissvite.org/ , trong mục phát triển), qua các kênh truyền thông và meetup tại Thụy Sĩ và các nước châu Âu"
+        ],
+        "medium": [
+          "Tạo hướng dẫn bằng tiếng Anh và tiếng Pháp cho người dùng và nhà phát triển. Phát triển các công cụ cộng đồng. Sử dụng các phương pháp hack tăng trưởng để nhắm mục tiêu truyền thông tối đa tới những người quan tâm đến DAG và blockchain."
+        ],
+        "name": "Swiss Vite",
+        "description": "Cộng đồng VITE của bạn trong trái tim của người Châu Âu"
+      },
+      "xinsheng": {
+        "info": [
+          "Zhe Cui, người sáng lập và Giám đốc điều hành của Quỹ Xinsheng, sống tại Bắc Kinh, Trung Quốc",
+          "Zhibo Li, đồng sáng lập và CMO của Quỹ Xinsheng, sống tại Bắc Kinh, Trung Quốc",
+          "Xuming Zhang, Phát triển cộng đồng, sống ở Bắc Kinh, Trung Quốc",
+          "Emma, Phát triển cộng đồng, sống ở Bắc Kinh, Trung Quốc",
+          "Quan Sun, Phát triển cộng đồng, sống ở Bắc Kinh, Trung Quốc"
+        ],
+        "config": [
+          "8 cores CPU 16G RAM 100 Mbp 1T ssd storage CentOS 7.4"
+        ],
+        "location": [
+          "Bắc Kinh, Trung Quốc"
+        ],
+        "plan": [
+          "1. Thúc đẩy hợp tác cộng đồng, tổ chức các cộng đồng hiện có và tạo ra sự thúc đẩy cộng đồng mới của Vite.",
+          "2. Tích hợp các nguồn lực trong ngành của công ty, bao gồm các phương tiện truyền thông, cộng đồng, quỹ và các bên dự án để hỗ trợ Vite thúc đẩy hợp tác kinh doanh.",
+          "3. Thiết lập cộng đồng Vite supernode (SBP) để giúp người dùng mới hiểu những điều cơ bản của Vite."
+        ],
+        "medium": [
+          "Wechat, Weibo, Twitter, Bihu, Telegram"
+        ],
+        "name": "XinShengFund",
+        "description": "Shoot for the Vite"
+      },
+      "zlnode": {
+        "info": [
+          "Li Zhang, Li là đối tác của LinkVC. Cô là một học viên sớm và nhà đầu tư tinh vi trong ngành công nghiệp blockchain. Trước LinkVC, Li phụ trách phát triển kinh doanh tại Huobi, đây là sàn giao dịch tiền mã hóa phổ biến nhất trên toàn thế giới. Trước Huobi, Li là CMO của f2pool."
+        ],
+        "config": [
+          "NA"
+        ],
+        "location": [
+          "NA"
+        ],
+        "plan": [
+          "Li là một trong những KOL  và có ảnh hưởng nhất định trong ngành công nghiệp blockchain. Là một đối tác quản lý đầu tư của LinkVC, Li có nhiều kinh nghiệm trong việc xây dựng cộng đồng và điều hành phát triển xuyên suốt quá trình phát triển dự án."
+        ],
+        "medium": [
+          "WeChat và Weibo"
+        ],
+        "name": "ZL node",
+        "description": "Làm việc cho một Vite tốt hơn"
+      },
+      "loopnest": {
+        "info": [
+          "Terence Lam là người đồng sáng lập và Giám đốc điều hành của Loopnest Blockchain Accelerator tại Hong Kong Cyberport. Anh cũng là cố vấn cho một số dự án blockchain thành công. Anh là giảng viên phụ trợ nổi tiếng tại Đại học Kinh doanh Trung Quốc SPACE Trung Quốc và là một doanh nhân tập trung vào blockchain, internet di động và các sáng kiến Thành phố thông minh. Trước khi khởi nghiệp, Terence đã tích lũy hơn hai thập kỷ kinh nghiệm trong các công ty đa quốc gia và có nhiều kinh nghiệm thực tế từ các nhiệm vụ ở nước ngoài, Singapore, Trung Quốc đại lục và Hồng Kông. Terence tốt nghiệp chương trình điều hành cao cấp của Harvard, Tsinghua, CEIBS. Anh có bằng Thạc sĩ Nghệ thuật Quản lý Marketing tại Đại học Macquarie và bằng Cử nhân Kỹ thuật của Đại học Trung Quốc Hồng Kông."
+        ],
+        "config": [
+          "Đám mây điện toán đàn hồi AWS"
+        ],
+        "location": [
+          "Máy chủ đám mây ở Singapore, được quản lý tại Hồng Kông"
+        ],
+        "plan": [
+          "Loopnest Accelerator Limited là một công cụ tăng tốc blockchain dành riêng để đặt nền tảng cho sự phát triển kỹ thuật số tiếp theo của nền kinh tế. Loopnest công nhận phong trào không gian blockchain hướng tới các sản phẩm và dịch vụ được quy định, chuyên nghiệp và chứng khoán hóa. PwC Hồng Kông và Loopnest cung cấp Chương trình tăng tốc Blockchain chung cho phép các doanh nhân thành lập các doanh nghiệp thân thiện với quy định tại Hồng Kông, cho phép tiếp cận dòng vốn đến và đi từ Khu vực Vịnh Lớn và thị trường quốc tế. Mạng Vite có thể là một nền tảng mà những thành viên tốt nghiệp chương trình PwC-Loopnest đóng góp cho nền kinh tế blockchain toàn cầu đang mở rộng."
+        ],
+        "medium": [
+          "Loopnest kế hoạch thường xuyên tổ chức các meetup trong cộng đồng blockchain và công nghệ tại Hồng Kông. Các sự kiện cung cấp cơ hội cho startup biết tới và tìm hiểu chương trình PwC-Loopnest Blockchain  Acceleration để giới thiệu các doanh nghiệp và sự tiến bộ của họ. Điều này nhờ có các tài liệu có chiều sâu từ các ấn phẩm tin trên kênh truyền thông xã hội, chia sẻ và cập nhật thường xuyên."
+        ],
+        "name": "Loopnest",
+        "description": "Chạm vào nền kinh tế kỹ thuật số"
+      },
+      "belsona": {
+        "info": [
+          "Denis Meltsaev, CTO, Moscow, Nga",
+          "Vassily Godunov, nhà phát triển back-end, Moscow, Nga",
+          "Georgy Yakovlev, nhà phát triển front-end, Budva, Montenegro",
+          "Artem Potapov, Quản trị viên hệ thống, Saint-Petersburg, Nga",
+          "Igor Peskov, nhà phân tích tài chính, Moscow, Nga",
+          "Usanov Alexei, quan hệ truyền thông, Kiev, Ukraine"
+        ],
+        "config": [
+          "RAM 192 GB, 32 CPUs, SSD 3.75 TB, 100Mbps"
+        ],
+        "location": [
+          "Amsterdam, Hà Lan"
+        ],
+        "plan": [
+          "Chúng tôi có một mạng lưới mạnh mẽ. Chúng tôi đang liên hệ với một số dự án và startup. Một số trong số họ đang tìm kiếm hệ sinh thái phù hợp cho dApps của họ. Chúng tôi là đối tác với hiệp hội blockchain Belarus. Thường xuyên tham gia vào các hội nghị blockchain, chúng tôi dự định giới thiệu cho mọi người Vite blockchain, giải thích lý do tại sao nó tốt hơn những public chain khác và giúp di chuyển dự án của họ hoặc hiểu cách thực hiện điều này."
+        ],
+        "medium": [
+          "Chúng tôi có 2 phương tiện truyền thông xã hội lớn: kênh Telegram (https://t.me/ICOFanatics) và Twitter (https://twitter.com/icofanatics). Đây là nơi chúng tôi theo dõi các dự án mà chúng tôi  yêu thích và chia sẻ tin tức với cộng đồng của chúng tôi. Tất nhiên, chúng tôi sẽ cung cấp một phương tiện truyền thông cho tất cả các tin tức và sự kiện về Vite."
+        ],
+        "name": "Tập đoàn đầu tư Belsona LP",
+        "description": "Chúng tôi tin vào VITE"
+      }
+    }
+  },
+  "team": {
+    "core": "Đội ngũ",
+    "advisor": "Cố vấn",
+    "join": "Tham gia cùng chúng tôi",
+    "nameMap": {
+      "liuchunming": {
+        "name": "Charles Liu",
+        "job": "Giám đốc điều hành",
+        "position": "Bắc Kinh",
+        "description": "Chuyên gia kĩ thuật và doanh nghiệp Blockchain đời đầu. Hiện là giám đốc Trung tâm nghiên cứu ứng dụng Blockchain của Trung Quốc. Tốt nghiệp trường Đại học Khoa học và Công nghệ Trung Quốc và Viện Phần mềm, Viện Hàn lâm Khoa học Trung Quốc. Từng là kiến trúc sư cao cấp của JD.com. Đồng sáng lập của Coinport. Giám đốc kỹ thuật Meituan Dianping. Có kinh nghiệm chuyên sâu với các hệ thống phân phối và các hệ thống đồng thời cao."
+      },
+      "wangdong": {
+        "name": "Daniel Wong",
+        "position": "Bắc Kinh",
+        "description": "Doanh nhân blockchain dày dạn kinh nghiệm.  Tốt nghiệp trường Đại học Khoa học và Công nghệ Trung Quốc và Đại học bang Arizona.  Người sáng lập của Loopring, cựu lãnh đạo Google America Tech, đồng sáng lập và phó chủ tịch của Yun Yun Wang, Giám đốc nghiên cứu và phát triển cấp cao tại JD.com và đồng sáng lập của Coinport."
+      },
+      "terenceLam": {
+        "name": "Terence Lam",
+        "position": "Bắc Kinh",
+        "description": "Nhà đầu tư từ đời đầu.  Tốt nghiệp trường Kinh doanh Harvard.  Đối tác của quỹ đầu tư Zhizi Blockchain. Giáo sư của trường Kinh doanh SPACE Trung Quốc tại Đại học Hong Kong.  Hơn 20 năm kinh nghiệm quản lý kỹ thuật cấp cao tại các công ty Global 500. Gây dựng nhiều công nghệ startup."
+      },
+      "richard": {
+        "name": "Richard Yan",
+        "job": "Đồng sáng lập & Giám đốc điều hành ",
+        "position": "Silicon Valley",
+        "description": "Có kinh nghiệm dày dặn tại Wall Street. Tốt nghiệp bằng Cử nhân trường Đại học Dartmouth và MBA từ Đại học New York. Trước đây có vai trò tổ chức cấu trúc chiến lược sản phẩm thương mại tại Goldman Sachs và là phó chủ tịch của Two Sigma - một nền tảng4 tần số cao và tập đoàn Business Innovation & Growth."
+      },
+      "frank": {
+        "name": "Frank Deng",
+        "job": "Giám đốc Quỹ Vite",
+        "position": "Bắc Kinh",
+        "description": "Chuyên gia dày dạn về Tiếp thị Kỹ thuật số và Di động. Tốt nghiệp Đại học Thanh Hoa. Trước đây từng là vị trí chiến lược cho Google Ad Operations. Cựu CEO của Suizong Technology. Đồng sáng lập Yunke Technology."
+      },
+      "allen": {
+        "name": "Allen Liu",
+        "job": "Giám đốc kỹ thuật Silicon Valley",
+        "position": "Silicon Valley",
+        "description": "Chuyên viên kỹ thuật cao cấp. Tốt nghiệp Đại học Khoa học và Công nghệ Trung Quốc và Đại học Fudan. Cựu lãnh đạo HP Tech. Cựu kiến trúc sư cao cấp của IBM và Giám đốc Sản phẩm. 10 năm kinh nghiệm làm việc với các hệ thống high concurrency tại các công ty đa quốc gia. Chứng nhận chuyên gia Scrum và Quản lý dự án chuyên nghiệp. "
+      },
+      "zhangli": {
+        "name": "Li Zhang",
+        "position": "Bắc Kinh",
+        "description": "Học viên blockchain cao cấp, nhà đầu tư. Thành viên của LinkVC Capital Partners, cựu CMO của F2pool, cựu nhân viên kinh doanh của Huobi."
+      },
+      "mirza": {
+        "name": "Mirza Uddin",
+        "position": "Bắc Kinh",
+        "description": "Mirza trước đây là một nhà đầu tư mạo hiểm tại Two Sigma, một trong những quỹ phòng hộ định lượng lớn nhất, nơi anh tham gia rất nhiều vào việc nghiên cứu các công ty khởi nghiệp Blockchain. Trước đây anh cũng từng làm việc cho Index Ventures và Tập đoàn tư vấn Boston. Mirza tốt nghiệp Cử nhân trường Đại học Harvard."
+      },
+      "ivan": {
+        "name": "Ivan Golovko",
+        "position": "Silicon Valley",
+        "description": "Phó giám đốc Chiến lược và Quan hệ đầu tư của LegalThings One. Đồng sáng lập củaDistributed.Fund và cựu CMO của ICODrops."
+      },
+      "Michael": {
+        "name": "Michael Gasiorek",
+        "position": "San Francisco",
+        "description": "Michael là một người sáng lập, nhà văn và nhà xây dựng cộng đồng. Anh là thành viên sáng lập của Truth Cartel, một công ty tiếp thị và sản phẩm phân phối các công nghệ mới nổi. Michael là Tổng biên tập tại Startup Grind, và hiện là Giám đốc của cộng đồng Startup Grind SF và OneSalon. Tác phẩm viết của ông bao gồm hai cuốn sách về Sống và Làm việc ở châu Á, và Các cột trong Inc và Fortune."
+      },
+      "leo": {
+        "name": "Leo Zhang",
+        "job": "Đồng sáng lập",
+        "position": "Bắc Kinh",
+        "description": "Nhà đầu tư Blockchain dày dạn và Chuyên gia kỹ thuật cao cấp. Trước đây anh từng dẫn đầu các nỗ lực kỹ thuật tại Meituan-Dianping và Coinport."
+      },
+      "Chris Li": {
+        "name": "Chris Li",
+        "job": "Giám đốc Phát triển Kinh doanh",
+        "position": "Silicon Valley",
+        "description": "Chris là một thành viên dày dạn trong ngành công nghiệp blockchain. Anh có nhiều kinh nghiệm trong đầu tư, phát triển kinh doanh và hoạt động kinh doanh. Anh là cựu Giám đốc Điều hành Hoa Kỳ tại GBiB. Chris cũng đã làm việc cho ZGC Capital vị trí quản lý đầu tư. Trách nhiệm của anh tại Tập đoàn Phát triển Zhongguancun gắn liền với các hoạt động ươm tạo tại Silicon Valley. Ngoài ra, Chris đã làm việc cho một vườn ươm tại Phố Wall, đảm nhận vị trí với nhóm Đầu tư và Phát triển Kinh doanh. Chris có bằng Thạc sĩ Kỹ thuật của Đại học Lehigh, với chuyên ngành Kỹ thuật Công nghiệp."
+      },
+      "Luke Kim": {
+        "name": "Luke Kim",
+        "job": "Giám đốc Marketing",
+        "position": "Silicon Valley",
+        "description": "Luke là một doanh nhân kỹ thuật số đến từ Seoul và Tokyo, hiện có sống tại California. Trước đây, anh là Giám đốc Phát triển Kinh doanh tại City Innovate Foundation và SuperPublic CoLab tại United Nations Plaza. Anh cũng giữ các vị trí là Trưởng phòng Quan hệ Hoa Kỳ tại Học viện Sáng tạo Châu Âu và Giám đốc Quan hệ Đối tác Chiến lược tại Gateway Accelerator và VC. Anh cũng là người đồng sáng lập Startup Grind Berkeley, 3 Day Startup Berkeley và Paladin Partners. Gần đây nhất, Luke đã làm việc với một quỹ tài sản tiền mã hóa và ICO cho một công ty quản lý tài sản Thụy Sĩ, đồng thời hướng những nỗ lực vào một công cụ tăng tốc công nghệ cho một công ty khởi nghiệp ở Hàn Quốc. Anh ta có bằng Cử nhân Nghệ thuật về Kinh tế chính trị Châu Âu tại Đại học California, Berkeley."
+      },
+      "Jeff Ng": {
+        "name": "Jeff Ng",
+        "job": "Quản lý dự án",
+        "position": "Silicon Valley",
+        "description": "Ngoài việc là một người đam mê blockchain, Jeff còn là một thành viên và quản lý giàu kinh nghiệm trong cộng đồng Vite. Tính linh hoạt của kinh nghiệm làm việc của anh ấy bao gồm làm việc trong lĩnh vực hậu cần, quản lý hàng tồn kho, sản xuất, viết blog và thu thập nghệ thuật. Jeff tốt nghiệp Kỹ sư cơ khí từ Cal Poly, San Luis Obispo."
+      },
+      "Agata Aks": {
+        "name": "Agata Aks",
+        "job": "Marketing sáng tạo / Hoạt động Kinh doanh Liên kết",
+        "position": "Silicon Valley",
+        "description": "Agata có kinh nghiệm làm việc liên quan trong tiếp thị truyền thông, viết nội dung, quan hệ công chúng, quản trị văn phòng và dịch vụ pháp lý. Cô tốt nghiệp Đại học California, Santa Barbara với bằng Cử nhân Khoa học Tâm lý, với sự tập trung chiến lược về Tâm lý học Viết và Tham gia Ứng dụng. Cô có thể sử dụng tiếng Anh, tiếng Nga và tiếng Pháp."
+      },
+      "Lola": {
+        "name": "Lola Li",
+        "job": "Quản lý sản phẩm",
+        "position": "Bắc Kinh",
+        "description": "Lola là một chuyên gia tài chính giàu kinh nghiệm, từng làm việc cho Deloitte với tư cách là người quản lý đầu tư giao dịch với các quỹ đầu tư tư nhân. Cô cũng đã chịu trách nhiệm quản lý các dự án TMT trong quá khứ. Nền tảng liên ngành của Lola được làm nổi bật bởi bằng Thạc sĩ Tài chính của Đại học Xi'an Jiaotong và bằng Cử nhân Khoa học của Đại học Công nghệ Đại Liên. Trọng tâm của cô là về Kỹ thuật phần mềm.  "
+      },
+      "Logan": {
+        "name": "Logan Cao",
+        "job": "Nhà phát triển iOS",
+        "position": "Bắc Kinh",
+        "description": "Logan đã làm việc 4 năm trong lĩnh vực phát triển iOS. Trước đây, anh đã phát triển 3 ứng dụng khác nhau, thu hút hàng trăm triệu người dùng hoạt động hàng ngày."
+      },
+      "Stone": {
+        "name": "Stone Xia",
+        "job": "Nhà phát triển iOS",
+        "position": "Bắc Kinh",
+        "description": "Stone đã hơn 5 năm kinh nghiệm trong phát triển iOS, từng làm việc cho các công ty IT Trung Quốc."
+      },
+      "jerry": {
+        "name": "Jerry Yin",
+        "job": "Nhà phát triển Back-end",
+        "position": "Bắc Kinh",
+        "description": "Jerry đã hơn 5 năm kinh nghiệm trong phát triển dịch vụ back-end, trước đây làm việc cho một số công ty IT Trung Quốc có tên tuổi."
+      },
+      "Alex": {
+        "name": "Alex Hu",
+        "job": "Compiler Software Engineer",
+        "position": "Bắc Kinh",
+        "description": "Alex đã hơn 3 năm kinh nghiệm trong phát triển dịch vụ back-end. Trước đây anh từng là kỹ sư back-end cho công ty nổi tiếng - Baidu."
+      },
+      "Tuprise": {
+        "name": "Tuprise Yuan",
+        "job": "Nhà phát triển Back-end",
+        "position": "Bắc Kinh",
+        "description": "Tuprise đã có hơn 7 năm kinh nghiệm trong dịch vụ phát triển và kiến trúc back-end. Anh từng làm việc cho chuỗi những công ty nổi tiếng, trong đó có Yilong và Yaxin. Tuprise là một nhà phát triển dày dạn trong xử lý dữ liệu big data  và các hệ thống high concurrency."
+      },
+      "viteLiz": {
+        "name": "Liz Chen",
+        "job": "Nhà phát triển máy ảo",
+        "position": "Bắc Kinh",
+        "description": "Liz đã hơn 3 năm kinh nghiệm trong phát triển dịch vụ back-end. Cô trước đây làm việc cho một công ty IT nổi tiếng tại Trung Quốc."
+      },
+      "Abbott": {
+        "name": "Abbott Jia",
+        "job": "Đảm bảo chất lượng",
+        "position": "Bắc Kinh",
+        "description": "Abbott có 4 năm kinh nghiệm làm việc trong bảo đảm chất lượng. Trước đó, anh đã phụ trách kiểm tra driver-end của Meituan. Abbott là một chuyên gia dày dạn trong Thử nghiệm và Quản lý rủi ro."
+      },
+      "Layla": {
+        "name": "Layla Wang",
+        "position": "Bắc Kinh",
+        "job": "UI Designer",
+        "description": "Layla đã có 5 năm kinh nghiệm thiết kế bao gồm thiết kế thương hiệu, ứng dụng và trang web."
+      },
+      "hubery": {
+        "name": "Hubery Li",
+        "job": "Nhà phát triển Back-end",
+        "position": "Bắc Kinh",
+        "description": "Hubery tốt nghiệp trường Đại học Xidian, với hơn 5 năm kinh nghiệm trong phát triển CNTT. Anh từng làm việc cho Tencent và Yuantiku."
+      },
+      "Cecelia": {
+        "name": "Cecelia Chen",
+        "job": "Nhà phát triển Front-end",
+        "position": "Bắc Kinh",
+        "description": "Cecelia có 3 năm kinh nghiệm trong phát triển front-end và cô đã từng làm việc tại một số công ty có tên tuổi tại Trung Quốc."
+      },
+      "viteshan": {
+        "name": "Shan Wang",
+        "job": "Nhà phát triển Back-end",
+        "position": "Bắc Kinh",
+        "description": "Shan có hơn 3 năm kinh nghiệm trong phát triển IT. Trước đây anh từng làm việc cho một công ty IT nổi tiếng tại Trung Quốc."
+      },
+      "Ada": {
+        "name": "Ada chu",
+        "job": "Nghiên cứu viên cao cấp",
+        "position": "Bắc Kinh",
+        "description": "Ada has previously worked in Tencent and JD and has over 5 years of experience in Machine Learning Algorithm Development and Big Data analytics."
+      },
+      "Jin": {
+        "name": "Jin Ge",
+        "job": "Nhà phát triển Back-end",
+        "position": "Bắc Kinh",
+        "description": "Jin has 3 years of experience working in developing the Chinese Internet finance industry."
+      },
+      "Shenyang": {
+        "name": "Shenyang Hao",
+        "job": "Nhà phát triển iOS",
+        "position": "Bắc Kinh",
+        "description": "Stone đã hơn 4 năm kinh nghiệm trong phát triển iOS, từng làm việc cho các công ty IT tại Trung Quốc."
+      },
+      "Candy": {
+        "name": "Helen Han",
+        "job": "Vận hành sản phẩm",
+        "position": "Bắc Kinh",
+        "description": "Helen has 3 years of experience in Product Operations. She has previously worked for Meituan SaaS and Fangtianxia Research Institute, serving as an Operations specialist who dealt with data maintenance, system requests and optimization, and surveillance."
+      },
+      "Eric": {
+        "name": "Eric Wang",
+        "job": "Kiến trúc sư Hệ thống",
+        "position": "Bắc Kinh",
+        "description": "Eric đã từng làm việc với các công ty CNTT hàng đầu ở Trung Quốc, bao gồm cả Baidu. Anh là chuyên gia trong phát triển hệ thống dữ liệu và dịch vụ back-end. Anh có kinh nghiệm với các hệ thống kiến trúc, thiết kế hệ thống có thể xử lý truy vấn hơn 20.000 mỗi giây. Eric trước kia cũng đã đứng đầu một đội ngũ kỹ thuật gồm hơn 15 thành viên do đó, anh cũng đã có kinh nghiệm quản lý."
+      },
+      "Asurily": {
+        "name": "Asurily He",
+        "job": "Nhà phát triển Back-end",
+        "position": "Bắc Kinh",
+        "description": "Asurily đã có 3 năm kinh nghiệm làm việc về các dự án blockchain. Anh có bằng Thạc sĩ từ trường Đại học Northwestern. Nghiên cứu học thuật của anh tập trung vào nghiên cứu công nghệ và lưu trữ dữ liệu blockchain."
+      },
+      "Cassie": {
+        "name": "Cassie Liu",
+        "job": "Vận hành sản phẩm",
+        "position": "Bắc Kinh",
+        "description": "Cassie có 5 năm kinh nghiệm thực hiện các chiến lược tiếp thị cho hoạt động kinh doanh. Cô cũng đã từng làm việc trong lĩnh vực tài chính và lĩnh vực công nghệ."
+      },
+      "Reg": {
+        "name": "Reg Yuan",
+        "job": "Nhà phát triển Front-end",
+        "position": "Bắc Kinh",
+        "description": "Reg đã làm việc trong lĩnh vực phát triển front-end cho 3 năm với một loạt các công ty."
+      },
+      "Daisy": {
+        "name": "Daisy Zhou",
+        "job": "Nhà phát triển Front-end",
+        "position": "Bắc Kinh",
+        "description": "Daisy đã có 3 năm kinh nghiệm phát triển front-end. Cô là thành thạo trong Vue, Node, và các khuôn khổ phát triển khác."
+      },
+      "Tiantao": {
+        "name": "Tiantao Zhu",
+        "job": "Nhà phát triển Back-end",
+        "position": "Bắc Kinh",
+        "description": "Tiantao đã có 3 năm kinh nghiệm làm việc trong bảo mật mạng lưới, đặc biệt về thiết kế kiến trúc hệ thống client-side. Anh từng đóng vai trò quan trọng trong việc phát triển các thành phần cốt lõi cho dịch vụ mạng peer-to-peer, an ninh và xác minh các tính năng. "
+      },
+      "weichao": {
+        "name": "Weichao Li",
+        "job": "Kiến trúc sư Hệ thống",
+        "position": "Bắc Kinh",
+        "description": "Weichao có hơn 7 năm kinh nghiệm trong thiết kế kiến trúc dịch vụ back-end. Anh đã thiết kế hệ thống có thể xử lý được hơn 20.000 truy vấn mỗi giây."
+      },
+      "Zack": {
+        "name": "Zack Hou",
+        "job": "Giám đốc sản phẩm",
+        "position": "Bắc Kinh",
+        "description": "Zack tốt nghiệp Thạc sỹ Học viện Bưu chính Viễn thông Bắc Kinh. Anh đã có hơn 4 năm kinh nghiệm làm việc với các sản phẩm công nghệ và đã làm việc cho các công ty có uy tín, trong đó có DiDi và Baidu. Anh đã từng phụ trách việc quản lý các ứng dụng với hàng triệu người dùng hoạt động mỗi ngày (DAU)."
+      },
+      "Tina": {
+        "name": "Tina Wang",
+        "job": "Nhà phát triển Front-end",
+        "position": "Bắc Kinh",
+        "description": "Tina có 3 năm kinh nghiệm phát triển front-end. Cô tốt nghiệp Đại học Công nghệ Nanyang ở Singapore, với bằng Thạc sĩ Khoa học về Nghiên cứu Thông tin. Tina trước đây đã làm việc tại các công ty công nghệ ở cả Trung Quốc và Singapore."
+      },
+      "Rod": {
+        "name": "Rod Luo",
+        "job": "Nhà phát triển Back-end",
+        "position": "Bắc Kinh",
+        "description": "Rod có hơn 5 năm kinh nghiệm trong thiết kế và phát triển back-end, trước đây làm việc cho một loạt các công ty CNTT hàng đầu tại Trung Quốc."
+      },
+      "Tony": {
+        "name": "Tony Wang",
+        "job": "Giám đốc vận hành",
+        "position": "Bắc Kinh",
+        "description": "Tony có hơn 6 năm kinh nghiệm làm việc trong lĩnh vực Hoạt động sản phẩm. Trước đây ông đã từng làm việc cho Meituan-Dianping và Tencent, xử lý các sản phẩm có giá trị hàng hóa với hơn 100 triệu người dùng hoạt động. Tony là một người quản lý dự án thực sự dày dạn, từng chịu trách nhiệm lãnh đạo nhiều dự án sáng tạo."
+      },
+      "Flanke": {
+        "name": "Flanke Zhang",
+        "job": "Vận hành sản phẩm",
+        "position": "Bắc Kinh",
+        "description": "Flanke có 3 năm kinh nghiệm nghiên cứu hoạt động thương hiệu và trước đây đã từng làm việc cho iHeima và Xiangshang Finance."
+      },
+      "Erin": {
+        "name": "Erin Yu",
+        "job": "Điều hành dữ liệu",
+        "position": "Bắc Kinh",
+        "description": "3 năm kinh nghiệm trong Hoạt động và Quản lý rủi ro, trước đây đã làm việc cho công ty Tài chính Sina và Youfenqi với tư cách là chuyên gia dữ liệu."
+      },
+      "Hannah": {
+        "name": "Hannah Fong",
+        "job": "Đảm bảo chất lượng",
+        "position": "Bắc Kinh",
+        "description": "Hannah có 2 năm kinh nghiệm trong thử nghiệm Phát triển, tham gia vào các dự án thiết kế khung thử nghiệm. Cô cũng có 2 năm kinh nghiệm trong việc thử nghiệm hệ thống lưu trữ back-end và quen thuộc với Hệ thống tệp Gluster. Hannah trước đây đã hợp tác với các doanh nghiệp liên quan đến quân sự, gia tăng kiến thức về cách quản lý lĩnh vực bảo mật dữ liệu và lưu trữ mã hóa."
+      },
+      "Miya": {
+        "name": "Miya Li",
+        "job": "UI Designer",
+        "position": "Bắc Kinh",
+        "description": "Miya có 3 năm kinh nghiệm làm việc về thiết kế Giao diện người dùng và đã tham gia vào một số dự án CNTT. Miya trước đây là Giám đốc thiết kế làm việc tại một doanh nghiệp nhà nước lớn."
+      }
+    }
+  },
+  "partnership": {
+    "title": "Đối tác",
+    "contact": "Liên hệ hợp tác",
+    "okex": {
+      "desc": {
+        "text1": "Vite Labs tuyên bố hợp tác chiến lược lâu dài với OK Blockchain Capital.",
+        "text2": "Vite và OK Capital đã quyết định tham gia vào các lĩnh vực hợp tác sau: OK Capital đã trở thành nhà đầu tư lớn vào Vite. Trung tâm nghiên cứu của OK Capital, sẽ đảm nhận vai trò tư vấn trong kế hoạch Vite, để triển khai sàn giao dịch phi tập trung dựa trên giao thức Loopring. Vite định vị việc sử dụng thương mại ban đầu của mình như là một công nghệ tài chính, với ít nhất hai dự án lớn hiện chưa được công bố. OK Capital sẽ cung cấp những hiểu biết, mối quan hệ và nguồn lực quan trọng trên các mặt trận này. Văn phòng Vite Labs của Silicon Valley sẽ cung cấp nguồn lực ở nước ngoài cung cấp, kết nối các đối tác, dự án tiềm năng cho OK Capital."
+      }
+    },
+    "mxbank": {
+      "desc": {
+        "text1": "Vite Labs đầu tư chiến lược vào Ngân hàng tài sản kỹ thuật số MXBank.",
+        "text2": "Vite là blockchain công cộng cơ sở hạ tầng, sẽ cung cấp cho MXBank những hỗ trợ kỹ thuật liên quan đến liên kết công khai, giúp MXBank gia nhập Vite. Trong khi đó, nhà lãnh đạo quỹ hệ sinh thái từ Vite cũng sẽ tham gia đội ngũ MXBank để tăng tốc phát triển sản phẩm. Vite token cũng sẽ trở thành một trong những nhóm tài sản kỹ thuật số đầu tiên được MXBank hỗ trợ."
+      }
+    },
+    "secbit": {
+      "desc": {
+        "text1": "Vite Labs trở thành đối tác chiến lược với SECBIT Labs, tập trung vào nghiên cứu bảo mật hợp đồng thông minh.",
+        "text2": "Trong tương lai, hai công ty sẽ thực hiện hợp tác toàn diện và chuyên sâu về bảo mật của Vite từ các lớp trên cùng, giữa và dưới cùng của cơ sở hạ tầng blockchain. Trong sự sắp xếp này, sự hợp tác liên quan đến lớp dưới cùng của chuỗi công khai bao gồm bảo mật các giao dịch và bảo mật máy ảo."
+      }
+    },
+    "achpay": {
+      "desc": {
+        "text1": "ACHPAY là một tổ chức phi lợi nhuận được đầu tư bởi Quỹ hệ sinh thái Vite và Quỹ hệ sinh thái Vite đã tổ chức mã thông báo ACHPAY với tư cách là một cổ đông.",
+        "text2": "Trong khi đó, Vite sẽ tham gia tích hợp mạng thanh toán của ACHPAY. Mạng Lightning sẽ có quyền truy cập vào blockchain thông qua hệ thống Vite để cải thiện hiệu quả thanh toán và lưu thông tài sản an toàn."
+      }
+    }
+  },
+  "superNodes": {
+    "title": "Hướng dẫn cho SBP",
+    "contents": [
+      {
+        "orderNum": "I.",
+        "question": "Thông tin bạn cần gửi",
+        "answer": [
+          "1. Tên và logo cho Supernode. Đây là những điều cần thiết, vì nó giúp tạo ra bản sắc của riêng bạn trong cộng đồng. ",
+          "2. Địa chỉ email sẽ vận hành SBP. ",
+          "3. Khẩu hiệu chiến dịch. ",
+          "4. Thông tin về đội ngũ: Danh sách các thành viên chủ chốt và thông tin của họ (vui lòng đính kèm ảnh hồ sơ và nơi cư trú). ",
+          "5. Thông số kỹ thuật cài đặt của trung tâm dữ liệu của bạn. (Khuyến nghị: 8 core, RAM 16 GB, 100Mbps)",
+          "6. Vị trí của máy chủ của bạn. ",
+          "7. Vui lòng mô tả chi tiết cách bạn dự định gia tăng giá trị cho hệ sinh thái của Vite sau khi trở thành SBP.",
+          "8. Kế hoạch tiếp xúc của bạn trên phương tiện truyền thông (sự hiện diện đáng kể trong phương tiện truyền thông của chúng tôi phản ánh mức độ cam kết nhất định để nuôi dưỡng phát triển cộng đồng Vite). <br/> Link để gửi thông tin của bạn: <a href='https://docs.google.com/forms/d/1u2HC3ecC3rkQk58Kn9D8eBNhN8DpkAB2DMY06QNzHvk/viewform?edit_Vquested=true=.com / Forms / d / 1u2HC3ecC3rkQk58Kn9D8eBNhN8DpkAB2DMY06QNzHvk / viewform? edit_Vquested = true </a>"
+        ]
+      },
+      {
+        "orderNum": "II. ",
+        "question": "Đăng ký SBP, Bỏ phiếu và Tạo block",
+        "second": [
+          {
+            "title": "Thực hiện theo các bước sau để đăng ký là supernode và chuẩn bị cho cuộc bầu cử:",
+            "answer": [
+              "1. Di chuyển token Vite ERC20 mà bạn muốn đặt cọc cho SBP của mình. <br/> Vào giữa tháng 11, di chuyển token Vite ERC20 của bạn sang Vite TestNet thông qua hợp đồng thông minh do Vite cung cấp. ",
+              "2. Cược 500.000 VITE (số tiền này phải là 1.000.000 VITE sau khi ra mắt MainNet). Các token này sẽ bị khóa trong 3 tháng, theo như yêu cầu đối với SBP. ",
+              "3. Nhận được ít nhất 200.000 phiếu (mỗi phiếu là 01 VITE). Với mỗi một supernode cộng đồng nhận được tối thiểu là 200.000 vote, Vite sẽ ngừng một trong những supernode chính thức riêng của mình đang chạy. Supernode cộng đồng sẽ trở thành supernode mới. ",
+              "4. Chạy máy chủ cho SBP (thông tin chi tiết hơn sẽ được thông báo sau)"
+            ]
+          },
+          {
+            "title": "Bỏ phiếu",
+            "answer": [
+              "1. Mỗi VITE chỉ có thể được sử dụng để bình chọn cho một SBP. ",
+              "2. Mỗi địa chỉ ví chỉ có thể được sử dụng để bình chọn cho một SBP. Số phiếu từ địa chỉ đó sẽ bằng toàn bộ số VITE địa chỉ ví đó có. ",
+              "3. Bỏ phiếu từ một địa chỉ nhất định không phải là sẽ khóa token VITE được lưu trữ tại địa chỉ đó. Các token có thể được giao dịch bất cứ lúc nào. Tuy nhiên, tổng số VITE sẽ ảnh hưởng đến tổng số phiếu bầu cho supernode.",
+              "4. Người sử dụng có thể thay đổi địa chỉ duy nhất của họ bầu cử. Thay đổi sẽ có hiệu lực trong vòng nhiều nhất 75 giây. "
+            ]
+          },
+          {
+            "title": "Các quy tắc cho việc tạo các Block",
+            "answer": [
+              "100 Supernodes đầu tiên sẽ chịu trách nhiệm cho việc tạo ra các khối. Đối với mỗi vòng (kéo dài 75 giây), 25 node đầu tiên có 23/25 cơ hội để tạo ra một khối, và 75 node cuối có cơ hội 2/75. Tỷ lệ tạo khối sẽ ảnh hưởng đến các phần thưởng cuối cùng cho các supernodes."
+            ]
+          }
+        ]
+      },
+      {
+        "orderNum": "III.",
+        "question": "Trách nhiệm của SBP",
+        "answer": [
+          "1. SBP đảm bảo rằng hệ thống Vite hoạt động đúng. SBP phải xác nhận các giao dịch trong toàn bộ mạng và đảm bảo sự ổn định của hệ thống bằng cách cung cấp tài nguyên máy chủ có thể sử dụng. Ngoài ra, các nhà khai thác của SBP cũng dự kiến sẽ cung cấp hỗ trợ kỹ thuật cho hệ thống Vite với khả năng tốt nhất của họ.",
+          "2. SBP là đại diện, nhà thuyết giáo và lãnh đạo của cộng đồng Vite và được kì vọng sẽ có hành động để xây dựng và bảo tồn một cộng đồng năng động và lành mạnh.",
+          "3. Sự thịnh vượng của cộng đồng Vite đi đôi với sự thành công của hệ sinh thái Vite. SBP được kì vọng sẽ thuyết giáo cho Vite và giúp tạo ra các ứng dụng dựa trên Vite. "
+        ]
+      },
+      {
+        "orderNum": "IV.",
+        "question": "Kế hoạch ưu đãi",
+        "answer": [
+          "1. Việc vận hành SBP trong giai đoạn TestNet sẽ chia sẻ ưu đãi hàng năm, tương đương với 3% tổng số token đã phát hành. Điều này có nghĩa là 30 triệu VITE (3% tổng nguồn cung hiện tại là 1 tỷ VITE).",
+          "2. Phần thưởng supernode được chia thành hai phần: 50% cho việc tạo khối và 50% cho việc bỏ phiếu. Trong số 30 triệu phần thưởng token mỗi năm, 15 triệu phần thưởng được trao cho các supernode tạo ra các khối và 15 triệu phần thưởng được trao cho các supernode được cộng đồng bầu chọn (trong giai đoạn TestNet, 100 supernode đầu tiên). /> Nếu một supernode tiếp tục khai thác trong một năm, nó có thể nhận được 600.000 VITE từ phần thưởng tạo khối ((30 triệu / 25 node) * 50%), cộng với phần thưởng từ bỏ phiếu. <br/> Tính toán phần thưởng bỏ phiếu: theo tỷ lệ cổ phần và tỷ lệ bỏ phiếu của supernode, (node stake token + bỏ phiếu) / (tất cả token supernode stake + tất cả phiếu) * (phần thưởng bỏ phiếu). Mỗi vòng sẽ là 75 giây. Tổng số tiền hàng ngày sẽ được nhân với tỷ lệ khối. <br/> Một phần thưởng hàng ngày cho supernode duy nhất sẽ là: 1.643.835 VITE của phần thưởng tạo khối, cộng với phần thưởng stake/ bỏ phiếu bổ sung",
+          "3. Có nhiều kế hoạch và phần thưởng Airdrop trong giai đoạn TestNet. Chúng tôi sẽ tăng số lượng token được phát hành để thưởng cho SBP sau khi MainNet được ra mắt.",
+          "4. Trích xuất phần thưởng, Chỉ có thể trích xuất phần thưởng từ ngày hôm trước."
+        ]
+      },
+      {
+        "orderNum": "V.",
+        "question": "Giải thích về token VITE trong TestNet",
+        "answer": [
+          "1. Token VITE trong TestNet được sử dụng cho bầu cử và bỏ phiếu SBP. Chúng được thêm vào mạng lười từ việc chuyển đổi token VITE ERC20.",
+          "2. Việc chuyển token VITE ERC20 sang VITE Testnet token không thể phục hồi. Bạn sẽ không thể lưu hành Testnet token trên thị trường thứ cấp trong một thời gian ngắn.",
+          "3. Sau khi ra mắt MainNet, token VITE trên TestNet và VITE ERC20 sẽ đều được chuyển đổi sang token VITE rên MainNet. "
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "title": "VITE Q&A",
+    "questions": [
+      {
+        "question": "Vite là gì?",
+        "answer": [
+          "Vite là một nền tảng đa năng cho các ứng dụng phi tập trung. Nó được thiết kế để hỗ trợ các ứng dụng cường độ công nghiệp bằng cách cung cấp thông lượng cao, độ trễ thấp và khả năng mở rộng và đảm bảo bảo mật.",
+          "Đội ngũ Vite tập trung giải quyết các vấn đề về hiệu suất và khả năng mở rộng hiện tại của các chuỗi cơ sở hạ tầng, do đó, các ứng dụng thực tế với yêu cầu dữ liệu tần số cao có thể được xây dựng trong khung blockchain."
+        ]
+      },
+      {
+        "question": "Vite sẽ được niêm yết trên các sàn giao dịch nào?",
+        "answer": [
+          "Hiện tại, VITE đang được niêm yết trên BITTREX và OKEX, chúng tôi cũng đang liên hệ với các sàn giao dịch khác. Theo dõi chúng tôi!"
+        ]
+      },
+      {
+        "question": "Tài khoản WeChat của Vite là gì?",
+        "answer": [
+          "Tài khoản Wechat chính thức của chúng tôi: vitelabs"
+        ],
+        "key": "Wechat"
+      },
+      {
+        "question": "Cải tiến lớn nhất của Vite so với các public chain khác là gì?",
+        "answer": [
+          "Cải tiến lớn nhất là thiết kế không đồng bộ, có thể được hiểu ở ba khía cạnh sau: ",
+          "Đầu tiên, chúng tôi đang giới thiệu khái niệm thiết kế không đồng bộ vào các hợp đồng thông minh. Dự án Nano (một trong public chain nổi tiếng sử dụng DAG) tách hành động chuyển tiền thành giao dịch gửi và nhận. Chúng tôi đang xây dựng theo cơ chế này, và sẽ phân tách cuộc gọi và phản hồi của hợp đồng thông minh, để chúng có thể diễn ra không đồng bộ.",
+          "Thứ hai, việc viết và xác minh giao dịch cũng xảy ra không đồng bộ trong Vite. Trong thiết lập blockchain truyền thống (ví dụ: Bitcoin), tốc độ ghi các giao dịch vào sổ cái bị giới hạn bởi tốc độ xử lí. Nhưng Vite cho phép viết nhiều giao dịch vào sổ cái trong các ràng buộc của TPS. Bởi vì thiết lập không đồng bộ cho phép các giao dịch diễn ra với tốc độ đồng đều, điều này làm giảm các đỉnh và đáy của tốc độ viết giao dịch, do đó tối ưu hóa việc sử dụng tài nguyên và tăng thông lượng hệ thống. Ngoài ra, các giao dịch của hai người dùng sẽ không còn bị chặn; nghĩa là, chúng ta sẽ không còn thấy một viễn cảnh khi một người dùng gửi  lượng lớn giao dịch sẽ ngăn cản xác nhận các giao dịch của người dùng khác.",
+          "Thứ ba, các cuộc gọi giữa các hợp đồng cũng sẽ diễn ra không đồng bộ trong Vite. Các cuộc gọi giữa các hợp đồng thông minh trong Ethereum được thực hiện thông qua tin nhắn (còn gọi là giao dịch nội bộ); và các cuộc gọi đều thành công hoặc tất cả đều thất bại, theo ngữ nghĩa ACID nguyên tử. Để giải quyết vấn đề tắc nghẽnhiệu suất này, chúng tôi lấy một trang từ các giải pháp được phát triển tốt trong các công nghệ Internet tập trung và sẽ sử dụng kiến trúc hướng thông điệp. Như vậy, hợp đồng không chia sẻ trạng thái và liên lạc qua tin nhắn."
+        ]
+      },
+      {
+        "question": "Vì các hợp đồng thông minh trong Vite  không hỗ trợ các cuộc gọi đồng bộ, làm thế nào các cuộc gọi như vậy trong Ethereum sẽ tương thích với Vite?",
+        "answer": "Thật không may, những cuộc gọi này không tương thích với Vite. Các cuộc gọi đồng bộ cần được thay đổi thành các cuộc gọi không đồng bộ để hoạt động trong Vite."
+      },
+      {
+        "question": "Sự khác biệt giữa Solidity ++ của Vite và  Solidity của Ethereum là gì?",
+        "answer": [
+          "Ở mức độ cao, sự khác biệt tương tự như của C và C ++. Trong cú pháp cơ bản, hai ngôn ngữ phần lớn tương thích. Sự khác biệt lớn nhất là các cuộc gọi đồng bộ (Ethereum) so với không đồng bộ (Vite) như đã đề cập trước đó.",
+          "Ngoài ra, một loạt các thư viện tiêu chuẩn, chẳng hạn như thao tác chuỗi, hoạt động điểm nổi, vận hành các phép toán cơ bản, container và sắp xếp sẽ được cung cấp trong Solidity ++."
+        ]
+      },
+      {
+        "question": "Kiến trúc dựa trên thông điệp có một lợi thế về thông lượng và khả năng mở rộng cao. Tuy nhiên, điều này khiến cho mô hình lập trình phức tạp hơn, có thể không đảm bảo tính nhất quán mạnh mẽ và có thể dẫn đến độ trễ cao hơn. Làm thế nào để Vite giảm cả sự phức tạp trong mô hình lập trình và độ trễ?",
+        "answer": [
+          "Vite sẽ cung cấp ngôn ngữ hợp đồng Solidity ++ và SDK hoàn chỉnh để giảm chi phí lập trình không đồng bộ.",
+          "Sau khi nghiên cứu nghiêm ngặt, chúng tôi thấy rằng trong các trường hợp sử dụng thực tế, ngữ nghĩa nhất quán mạnh mẽ có thể được thay thế bằng ngữ nghĩa BASE. Vì thuật toán đồng thuận HDPoS của Vite có thể đảm bảo xác nhận giao dịch trong vòng 1 giây, bất kỳ sự gia tăng độ trễ tiềm năng nào vẫn nằm trong tầm kiểm soát."
+        ]
+      },
+      {
+        "question": "Tầm quan trọng của Snapshot Chain là gì?",
+        "answer": [
+          "Vite sử dụng một cấu trúc sổ cái gọi là mạng tinh thể block-lattice. Mỗi tài khoản tương ứng với một blockchain và mỗi giao dịch đề cập đến hàm băm của giao dịch trước đó trong tài khoản. Giao dịch được chia thành hai loại: \"giao dịch yêu cầu\" và \"giao dịch phản hồi. Một giao dịch phản hồi cần trích dẫn hàm băm tương ứng của giao dịch yêu cầu.",
+          "Cấu trúc DAG có một sự thiếu hụt cố hữu trong bảo mật. Điều này là do các giao dịch được nhóm theo tài khoản và mỗi giao dịch chỉ được gắn vào chuỗi liên kết với tài khoản có liên quan. Giao dịch được tạo bởi các tài khoản khác không tự động trở thành các node tiếp theo của giao dịch trước đó. Do đó, đối với một số giao dịch, xác suất rollback sẽ không giảm theo thời gian. Công nghệ chuỗi Snapshot là để giải quyết vấn đề này."
+        ]
+      },
+      {
+        "question": "Giao thức liên chuỗi có phải chỉ hỗ trợ trao đổi tài sản?",
+        "answer": [
+          "Đúng vậy. Vite sẽ hỗ trợ chuyển giá trị giữa các chuỗi khác nhau nhưng không hỗ trợ các chức năng liên chuỗi khác như chuyển tin nhắn hoặc gọi hợp đồng thông minh giữa các chuỗi."
+        ]
+      },
+      {
+        "question": "Whitepaper đề cập rằng các công cụ phát triển Vite, tương tự và có các tính năng được mở rộng từ Ethereum. Có phải điều này chỉ ra rằng dApp cho Ethereum có thể được triển khai trên Vite với những thay đổi nhỏ?",
+        "answer": [
+          "Đúng vậy, một trong những mục tiêu của Vite, là giảm chi phí chuyển các ứng dụng từ Ethereum. Vite cố gắng tối đa hóa khả năng tương thích với EVM."
+        ]
+      },
+      {
+        "question": "Hợp đồng thông minh Vite có thể hỗ trợ chạy trên thiết bị di động không? Chúng có giống với Qtum và hỗ trợ các ngôn ngữ chính như C ++ và Java không?",
+        "answer": [
+          "Vite không hỗ trợ di động. Hiện tại chúng tôi không có kế hoạch hỗ trợ các ngôn ngữ lập trình khác. Trong tương lai, chúng tôi sẽ thành lập VM Lab để tiếp tục nghiên cứu về ngôn ngữ hợp đồng thông minh và máy ảo. Chúng tôi hoan nghênh sự tham gia của các chuyên gia trong các lĩnh vực này."
+        ]
+      },
+      {
+        "question": "Ngôn ngữ hợp đồng thông minh được sử dụng trên nền tảng của Ethereum là Solidity. Một lợi ích đáng chú ý của Solidity là bản chất thân thiện với người mới, tuy nhiên một nhược điểm quan trọng là tính dễ bị tấn công của hacker. Vite có giải pháp nào cho vấn đề này?",
+        "answer": [
+          "Vite đã tính đến các vấn đề của Solidity và đã áp dụng các biện pháp đối phó khi thiết kế hợp đồng thông minh. Những cải tiến hoạt động này được nhìn thấy trong ngôn ngữ Solidity ++ của chúng tôi. Một trong những cải tiến đó, ví dụ, sẽ là sự kết hợp của một loạt các thư viện tiêu chuẩn. Điều này phục vụ một mục đích kép là tăng bảo vệ an ninh trong khi đơn giản hóa sự phức tạp của lập trình. Do các cuộc gọi liên hợp đồng của Solidity ++ dựa trên kiến trúc không đồng bộ, nên các cuộc tấn công được hỗ trợ bởi các cuộc gọi đồng bộ theo hợp đồng vốn đã bị ngăn chặn. Ví dụ Ethereum classic với kịch bản \"tấn công reentrancy\" không được áp dụng trong trường hợp của Vite. Vite sẽ triển khai công nghệ xác minh chính thức theo hợp đồng để giải quyết phát triển hợp đồng thông minh và chúng tôi đang xem xét cung cấp giải pháp hợp đồng thông minh dựa trên WASM. Nói tóm lại, chúng tôi cung cấp cho người dùng nhiều tùy chọn dựa trên giải pháp. "
+        ]
+      },
+      {
+        "question": "Đội ngũ Vite nghĩ như thế nào về những cạnh tranh gần đây (và trong tương lai) của public chain?",
+        "answer": [
+          "Hiện nay, công nghệ public chain vẫn đang trong giai đoạn phát triển ban đầu. Vẫn còn một chặng đường dài phái trước để trở thành một ngành trưởng thành. Chúng tôi sẽ cởi mở khi hợp tác với các đội ngũ khác để thúc đẩy sự phát triển của công nghệ public chain. Trong tương lai, sự cạnh tranh trong phạm vi public chian sẽ phát triển thành sự phát triển hệ sinh thái. Vite sẽ phát triển bố cục hệ sinh thái, đóng góp cho các ứng dụng của công nghệ blockchain."
+        ]
+      },
+      {
+        "question": "Token lạm phát (từ việc khai thác phần thưởng) và tiêu thụ sẽ được tự động cân bằng theo tiền đề của tổng cung 1 tỷ token?",
+        "answer": [
+          "Số tiền token lưu thông ban đầu là một tỷ. Khai thác phần thưởng được tạo ra từ cấp token bổ sung là lạm phát. Khi hệ thống được sử dụng rộng rãi, token sẽ tiếp tục bị hủy. Chúng tôi hy vọng rằng việc lưu thông token sẽ đạt được sự cân bằng cần thiết."
+        ]
+      },
+      {
+        "question": "Trên mạng Vite, người dùng có thể phát hành tiền tệ riêng của họ. Có phải chức năng tương tự như ERC20 token trên Ethereum? Lợi thế của Vite khi có hệ thống đó là gì? Địa chỉ của token VITE ERC20 là gì?",
+        "answer": [
+          "Phát hành tài sản của Vite tương tự như ERC20, nhưng theo những cách khác thì khác. ERC20 là một đặc điểm kỹ thuật, nhưng không phải là một phần của giao thức Ethereum. Việc phát hành token mới với Ethereum yêu cầu người dùng phát triển và triển khai hợp đồng thông minh. Số dư token được duy trì bởi trạng thái của hợp đồng. Nếu phát triển hợp đồng là thiếu sót, thì bảo mật sẽ có rủi ro. Ví dụ: nếu người dùng quên tham khảo thư viện SaftMath, lỗi tràn bộ nhớ đệm sẽ xảy ra. Token Vite được tích hợp vào giao thức Vite. Số dư token được duy trì ở trạng thái tài khoản của người dùng. Token mới và token gốc Vite chia sẻ cùng một giao thức cơ bản, do đó mang lại cùng một biện pháp bảo mật cho token mới và token gốc. Khi người dùng quyết định phát hành toiken mới trong Vite, tất cả những gì họ cần làm là bắt đầu một giao dịch. Giao dịch sau đó đặt các tham số token mới trong dữ liệu giao dịch. Thực tế là mạng của chúng tôi không yêu cầu viết hợp đồng thông minh vốn đã để ngăn chặn được lỗi phát sinh."
+        ]
+      },
+      {
+        "question": "Địa chỉ của token VITE ERC20 là gì?",
+        "answer": [
+          "Hiện tại, địa chỉ token VITE ERC20 được lưu trữ trên nền tảng của Ethereum là https: //etherscan.io/token/0x1b793E49237758dBD8b752AFC9Eb4b329d5Da016, khi Vite MainNet ra mắt, tất cả VITE ERC20 sẽ được di chuyển lên Vite Mainnet với quy đổi 1:1."
+        ]
+      },
+      {
+        "question": "Chúng tôi có thể đào Vite token không?",
+        "answer": [
+          "Cơ chế đồng thuận của Vite tương tự như của EOS. Nó tạo ra 25 snapshot block producers thông qua các thuật toán DPoS. Các nhà sản xuất khối, lần lượt, nhận được phần thưởng đào."
+        ]
+      }
+    ]
+  },
+  "investor": {
+    "title": "Các nhà đầu tư của chúng tôi"
+  },
+  "urls": {
+    "telegram": {
+      "ann": "Kênh thông báo",
+      "english": "Tiếng Anh",
+      "chinese": "Tiếng Trung",
+      "vietnamese": "Tiếng Việt",
+      "korean": "Tiếng Hàn",
+      "russia": "Tiếng Nga",
+      "thailand": "Tiếng Thái"
+    },
+    "whitePaper": "WHITEPAPER",
+    "whitePaperList": {
+      "english": "Tiếng Anh",
+      "chinese": "Tiếng Trung",
+      "french": "Tiếng Pháp",
+      "korean": "Tiếng Hàn",
+      "vietnamese": "Tiếng Việt",
+      "russian": "Tiếng Nga"
+    },
+    "document": "Tài liệu hướng dẫn",
+    "loopring": "Loopring",
+    "faq": "Những câu hỏi thường gặp",
+    "medium": "Medium",
+    "introduction": "Giới thiệu",
+    "tokenUrl": "Địa chỉ ERC20",
+    "btt": "Bitcointalk",
+    "telegramEn": "Telegram Tiếng Anh",
+    "telegramZh": "Telegram Trung Quốc",
+    "telegramAnn": "Telegram ",
+    "youtube": "YouTube",
+    "blog": "Blog công nghệ"
+  },
+  "urlSrc": {
+    "telegram": "https://t.me/vite_en",
+    "whitePaper": "/whitepaper/vite_en.pdf",
+    "introduction": "https://vite.wiki/introduction/"
+  },
+  "utils": {
+    "readMore": "Đọc thêm"
+  },
+  "footer": {
+    "learning": "TÌM HIỂU",
+    "about": "VỀ",
+    "media": "TRUYỀN THÔNG"
+  },
+  "joinMailing": {
+    "title": "Stay Tuned for Updates from Vite",
+    "button": "Đăng ký",
+    "placeholder": "Địa chỉ Email"
+  },
+  "featureTitle": "Nguyên tắc cơ bản của Vite",
+  "featureTitle2": "Tại sao Vite lại nổi bật",
+  "features": {
+    "performance": {
+      "title": "Hiệu suất cao",
+      "tags": [
+        "Sổ cái DAG",
+        "Kiến trúc không đồng bộ"
+      ]
+    },
+    "safety": {
+      "title": "Bảo mật",
+      "tags": [
+        "Mô hình đa token",
+        "Snapshot Chain"
+      ]
+    },
+    "economical": {
+      "title": "Mô hình Kinh tế Hiệu quả",
+      "tags": [
+        "Mô hình dựa trên quota",
+        "Không mất phí giao dịch",
+        "Tích hơp DEX"
+      ]
+    },
+    "easyusing": {
+      "title": "Khả năng sử dụng",
+      "tags": [
+        "Solidity++",
+        "Dịch vụ đặt tên",
+        "Lập trình hợp đồng",
+        "Nâng cấp hợp đồng"
+      ]
+    },
+    "flexable": {
+      "title": "Khả năng mở rộng",
+      "tags": [
+        "Cổng chuỗi chéo",
+        "Cơ chế HDPoS",
+        "Hợp đồng thông minh"
+      ]
+    }
+  },
+  "ecoTitle": "Hệ sinh thái Vite",
+  "ecoTitle2": "Những Gì Vite Có Thể Làm Cho Bạn",
+  "eco": {
+    "worth": {
+      "title": "Hệ sinh thái của sự giá trị",
+      "pay": {
+        "title": "Thanh toán",
+        "child": [
+          "Xác nhận tức thì",
+          "Giao dịch On-chain",
+          "Đa token"
+        ]
+      },
+      "finance": {
+        "title": "Phát hành token",
+        "child": [
+          "Phát hành token một bước",
+          "Hỗ trợ Giao thức cấp độ"
+        ]
+      },
+      "dex": {
+        "title": "Tích hơp DEX",
+        "child": [
+          "Đặt hàng onchain",
+          "Hỗ trợ chuỗi chéo",
+          "Đặt hàng kết hợp nhanh"
+        ]
+      }
+    },
+    "dapps": {
+      "title": "Hệ sinh thái của dApp",
+      "child": [
+        "Trò chơi",
+        "Dịch vụ địa phương",
+        "Giải trí",
+        "Dịch vụ mạng xã hội",
+        "Sở hữu trí tuệ",
+        "Internet vạn vật"
+      ]
+    }
+  },
+  "airdrop": {
+    "title1": "Tải App Vite iOS và tham gia Airdrop",
+    "text1": "Xin vui lòng tải về và cài đặt Vite Wallet trên App Store hoặc Google chơi.",
+    "text2": "Hoàn thành các bước để tăng hạng V Power và tăng tốc nhận VITE, bạn có thể nhận V Power mỗi 4 tiếng",
+    "title2": "Không chỉ là airdrop, VITE sẽ mang lại cho bạn tiềm năng tăng trưởng trong năm 2019",
+    "step": "Hai bước nữa để trở thành Big Winner:",
+    "step1": "Tải ví Vite và nhận Vite Airdrop",
+    "step2": "Vote cho SBP bằng Vite Wallet",
+    "step3f": "Hoàn thành",
+    "step3e": "Airdrop sẽ được phân bổ mỗi ngày",
+    "annual": "Bình quân đạt được hàng năm",
+    "btnIos": "Tải Ví Vite iOS",
+    "btnAndroid": "Tải ví Vite Android ",
+    "btn2": "Kiểm tra Phần thưởng Vote"
+  }
+}
