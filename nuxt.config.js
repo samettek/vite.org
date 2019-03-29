@@ -42,6 +42,16 @@ const locales = [
     code: 'zh',
     name: '中文',
     langFile: 'zh.json'
+  },
+  {
+    code: 'vi',
+    name: 'Tiếng việt',
+    langFile: 'vi.json'
+  },
+  {
+    code: 'ru',
+    name: 'русский',
+    langFile: 'ru.json'
   }
 ]
 const defaultLocale = 'en'

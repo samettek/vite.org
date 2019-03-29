@@ -34,7 +34,7 @@
                   <template slot="popover" >
                     <div class="wallet-app-container">
                       <div class="wallet-item">
-                        <img :src="QRcode[$i18n.locale]"  class="wallet-app" />
+                        <img :src="QRcode[$i18n.locale] ? QRcode[$i18n.locale] : QRcode['en']"  class="wallet-app" />
                       </div>
                     </div>
                   </template>
