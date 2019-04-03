@@ -93,7 +93,8 @@ module.exports = {
       french: 'https://github.com/vitelabs/whitepaper/blob/master/vite_fr.pdf',
       korean: 'https://github.com/vitelabs/whitepaper/blob/master/vite_korean.pdf',
       vietnamese: 'https://github.com/vitelabs/whitepaper/blob/master/vite_vietnamese.pdf',
-      russian: 'https://github.com/vitelabs/whitepaper/blob/master/vite_russian.pdf'
+      russian: 'https://github.com/vitelabs/whitepaper/blob/master/vite_russian.pdf',
+      japan: 'https://github.com/vitelabs/whitepaper/blob/master/vite_japan.pdf'
     },
     exchange: {
       bittrex: 'https://international.bittrex.com/Market/Index?MarketName=BTC-VITE',

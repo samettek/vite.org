@@ -51,7 +51,8 @@ export default {
         'korean',
         'french',
         'vietnamese',
-        'russian'
+        'russian',
+        'japan'
       ]
     }
   }
