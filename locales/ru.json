@@ -1087,12 +1087,12 @@
     "media": "МЕДИА"
   },
   "joinMailing": {
-    "title": "Оставайтесь под настройками для обновлений от Vite",
+    "title": "Следите за обновлениями от Vite",
     "button": "Подписаться",
     "placeholder": "E-mail Адрес"
   },
   "featureTitle": "Основы Vite",
-  "featureTitle2": "Почему Vite Выделяется",
+  "featureTitle2": "Чем выделяется Vite",
   "features": {
     "performance": {
       "title": "Высокая Производительность",
@@ -1135,7 +1135,7 @@
     }
   },
   "ecoTitle": "Экосистема Vite",
-  "ecoTitle2": "Что Vite может сделать для вас",
+  "ecoTitle2": "Что Vite Может Сделать Для Вас",
   "eco": {
     "worth": {
       "title": "Экосистема Ценности",
