@@ -17,7 +17,7 @@
 </template>
 
 <script type="text/babel">
-  import { VPopover } from 'v-tooltip'
+  import { VPopover } from 'v-tooltip';
 
   export default {
     components: {
@@ -26,10 +26,10 @@
     data: function () {
       return {
         isEnabled: true
-      }
+      };
     },
     methods: {}
-  }
+  };
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>

@@ -29,20 +29,20 @@
   export default {
     computed: {
       faqs () {
-        let faqs = this.$t('faq.questions')
-        faqs = Array.isArray(faqs) ? faqs : []
+        let faqs = this.$t('faq.questions');
+        faqs = Array.isArray(faqs) ? faqs : [];
         return faqs.map(item => {
-          let {answer} = item
-          if (!answer) answer = []
-          if (!Array.isArray(answer)) answer = [answer]
+          let {answer} = item;
+          if (!answer) answer = [];
+          if (!Array.isArray(answer)) answer = [answer];
           return {
             ...item,
             answer
-          }
-        })
+          };
+        });
       }
     }
-  }
+  };
 </script>
 
 <style  rel="stylesheet/scss" lang="scss" scoped>

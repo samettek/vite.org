@@ -1,4 +1,4 @@
-const hostname = 'https://www.vite.org'
+const hostname = 'https://www.vite.org';
 const routes = [
   {
     url: '/',
@@ -20,7 +20,7 @@ const routes = [
     url: '/faq',
     priority: 0.3
   }
-]
+];
 const whitepaperUrls = [
   {
     lang: 'en',
@@ -30,8 +30,8 @@ const whitepaperUrls = [
     lang: 'zh',
     url: 'https://www.vite.org/whitepaper/vite_cn.pdf'
   }
-]
-const sitemapUrls = []
+];
+const sitemapUrls = [];
 const locales = [
   {
     code: 'en',
@@ -53,37 +53,37 @@ const locales = [
     name: 'русский',
     langFile: 'ru.json'
   }
-]
-const defaultLocale = 'en'
+];
+const defaultLocale = 'en';
 
 routes.forEach((route) => {
   let links = locales.map((locale) => {
-    let lang = locale.code
-    let url = `${hostname}/${lang}${route.url}`
+    let lang = locale.code;
+    let url = `${hostname}/${lang}${route.url}`;
     if (defaultLocale === lang) {
-      url = `${hostname}${route.url}`
+      url = `${hostname}${route.url}`;
     }
     return {
       lang,
       url
-    }
-  })
+    };
+  });
   links.forEach(({url}) => {
     sitemapUrls.push({
       ...route,
       url,
       changefreq: 'daily',
       links: links
-    })
-  })
-})
+    });
+  });
+});
 
 whitepaperUrls.forEach(({lang, url}) => {
   sitemapUrls.push({
     url,
     links: whitepaperUrls
-  })
-})
+  });
+});
 
 module.exports = {
   head: {
@@ -157,10 +157,10 @@ module.exports = {
       '/',
       '/faq'
     ].concat(locales.map((lang) => {
-      return `/${lang.code}/**`
+      return `/${lang.code}/**`;
     })).concat(locales.map((lang) => {
-      return `/${lang.code}`
+      return `/${lang.code}`;
     })),
     routes: sitemapUrls
   }
-}
+};

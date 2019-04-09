@@ -18,7 +18,7 @@
 </template>
 
 <script type="text/babel">
-  import config from '~/config'
+  import config from '~/config';
 
   export default {
     props: {
@@ -30,14 +30,14 @@
     data () {
       return {
         mediaMap: config.urls.media
-      }
+      };
     },
     computed: {
       mediaList: function () {
-        return ['forum', 'medium', 'bitcointalk']
+        return ['forum', 'medium', 'bitcointalk'];
       }
     }
-  }
+  };
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>

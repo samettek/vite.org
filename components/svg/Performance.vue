@@ -47,10 +47,10 @@
 <script type="text/babel">
   export default {
     data: function () {
-      return {}
+      return {};
     },
     methods: {}
-  }
+  };
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>

@@ -57,7 +57,7 @@
 export default {
   computed: {
     superNodes() {
-      let superNodes = this.$t("superNodes.contents");
+      let superNodes = this.$t('superNodes.contents');
       superNodes = Array.isArray(superNodes) ? superNodes : [];
       return superNodes.map(item => {
         let { answer } = item;

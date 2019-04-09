@@ -27,8 +27,8 @@
 </template>
 
 <script type="text/babel">
-import dapps from "./dapps";
-import worth from "./worth";
+import dapps from './dapps';
+import worth from './worth';
 export default {
   components: {
     dapps,

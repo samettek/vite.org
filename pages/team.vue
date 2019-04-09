@@ -6,7 +6,7 @@
 </template>
 
 <script>
-  import Teams from '~/components/Teams.vue'
+  import Teams from '~/components/Teams.vue';
 
   export default {
     components: {
@@ -14,7 +14,7 @@
     },
     computed: {
     }
-  }
+  };
 </script>
 
 <style  rel="stylesheet/scss" lang="scss" scoped>

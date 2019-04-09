@@ -13,12 +13,12 @@
 </template>
 
 <script type="text/babel">
-import entertainment from "~/assets/images/eco/dapps/entertainment.svg";
-import game from "~/assets/images/eco/dapps/game.svg";
-import iot from "~/assets/images/eco/dapps/iot.svg";
-import knowledge from "~/assets/images/eco/dapps/knowledge.svg";
-import local from "~/assets/images/eco/dapps/local.svg";
-import social from "~/assets/images/eco/dapps/social.svg";
+import entertainment from '~/assets/images/eco/dapps/entertainment.svg';
+import game from '~/assets/images/eco/dapps/game.svg';
+import iot from '~/assets/images/eco/dapps/iot.svg';
+import knowledge from '~/assets/images/eco/dapps/knowledge.svg';
+import local from '~/assets/images/eco/dapps/local.svg';
+import social from '~/assets/images/eco/dapps/social.svg';
 const iconList = [game, local, entertainment, social, knowledge, iot];
 export default {
   components: {},

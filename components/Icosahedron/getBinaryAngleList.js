@@ -18,7 +18,7 @@ function getArea(xzChunk, xyChunk) {
     }
   }
   return area;
-};
+}
 
 function getBinaryAngle(angleRanges) {
   return angleRanges.map((angleRange) => ((angleRange[1] - angleRange[0]) / 2 + angleRange[0]));

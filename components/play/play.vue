@@ -8,7 +8,7 @@
 <script>
 export default {
   props: {
-    src: { type: String, default: "" },
+    src: { type: String, default: '' },
     closeMe:{type:Function}
   }
 };

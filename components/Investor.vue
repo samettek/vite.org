@@ -120,7 +120,7 @@
               logoActive: require('~/assets/images/investor/bigcoin-blue.png'),
               url: 'https://www.linkedin.com/company/bigcoin-capital/'
             },
-                        {
+            {
               key: 'UniValues',
               logo: require('~/assets/images/investor/UniValues.png'),
               logoActive: require('~/assets/images/investor/UniValues-blue.png'),
@@ -157,17 +157,17 @@
               logoActive: require('~/assets/images/investor/bn-blue.png')
             }
           ]
-        }
+        };
       },
       methods: {
         onHover (index) {
-          this.hover = index
+          this.hover = index;
         },
         onOut () {
-          this.hover = null
+          this.hover = null;
         }
       }
-    }
+    };
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>

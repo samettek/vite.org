@@ -15,7 +15,7 @@
 </template>
 
 <script type="text/babel">
-  import ElectorImage from '~/components/ElectorImage'
+  import ElectorImage from '~/components/ElectorImage';
 
   export default {
     components: {
@@ -77,10 +77,10 @@
             key: 'belsona'
           }
         ]
-      }
+      };
     },
     methods: {}
-  }
+  };
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>

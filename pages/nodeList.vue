@@ -7,17 +7,17 @@
 </template>
 
 <script type="text/babel">
-  import Elector from '~/components/Elector'
+  import Elector from '~/components/Elector';
 
   export default {
     components: {
       Elector
     },
     data: function () {
-      return {}
+      return {};
     },
     methods: {}
-  }
+  };
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>

@@ -73,22 +73,22 @@
 </template>
 
 <script>
-import News from '~/components/News.vue'
-import Ecology from '~/components/Ecology'
-import Feature from '~/components/feature'
-import Video from '~/components/Video.vue'
-import Investor from '~/components/Investor'
-import Logo from '~/components/Logo.vue'
-import LogoWord from '~/components/LogoWord'
-import NewRoadMap from '~/components/NewRoadMap'
-import Wechat from '~/components/Wechat'
-import Telegram from '~/components/Telegram'
-import WhitePaper from '~/components/WhitePaper'
-import JoinMailingList from '~/components/JoinMailingList'
-import { VPopover } from 'v-tooltip'
-import isMobile from 'is-mobile'
+import News from '~/components/News.vue';
+import Ecology from '~/components/Ecology';
+import Feature from '~/components/feature';
+import Video from '~/components/Video.vue';
+import Investor from '~/components/Investor';
+import Logo from '~/components/Logo.vue';
+import LogoWord from '~/components/LogoWord';
+import NewRoadMap from '~/components/NewRoadMap';
+import Wechat from '~/components/Wechat';
+import Telegram from '~/components/Telegram';
+import WhitePaper from '~/components/WhitePaper';
+import JoinMailingList from '~/components/JoinMailingList';
+import { VPopover } from 'v-tooltip';
+import isMobile from 'is-mobile';
 
-import config from '~/config.js'
+import config from '~/config.js';
 
 export default {
   components: {
@@ -116,25 +116,25 @@ export default {
       },
       urls: config.urls,
       showNotice: true
-    }
+    };
   },
   methods: {
     onNavClick () {
-      this.navbarActive = false
+      this.navbarActive = false;
     }
   },
   computed: {
     vitenet () {
-      return config.urls.viteNet[this.$i18n.locale]
+      return config.urls.viteNet[this.$i18n.locale];
     },
     webWallet () {
-      return config.urls.webWallet[this.$i18n.locale]
+      return config.urls.webWallet[this.$i18n.locale];
     },
     explorer () {
-      return config.urls.explorer[this.$i18n.locale]
+      return config.urls.explorer[this.$i18n.locale];
     }
   }
-}
+};
 </script>
 
 

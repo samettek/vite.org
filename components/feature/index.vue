@@ -249,7 +249,7 @@
 </template>
 
 <script type="text/babel">
-import tag from "./featureTag";
+import tag from './featureTag';
 export default {
   components: {
     tag
@@ -257,11 +257,11 @@ export default {
   data() {
     return {
       iconMap: {
-        easyusing: require("~/assets/images/feature/easyusing.svg"),
-        performance: require("~/assets/images/feature/performance.svg"),
-        flexable: require("~/assets/images/feature/flexable.svg"),
-        safety: require("~/assets/images/feature/safety.svg"),
-        economical: require("~/assets/images/feature/economical.svg")
+        easyusing: require('~/assets/images/feature/easyusing.svg'),
+        performance: require('~/assets/images/feature/performance.svg'),
+        flexable: require('~/assets/images/feature/flexable.svg'),
+        safety: require('~/assets/images/feature/safety.svg'),
+        economical: require('~/assets/images/feature/economical.svg')
       }
     };
   }

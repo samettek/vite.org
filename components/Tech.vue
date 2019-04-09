@@ -20,7 +20,7 @@
 </template>
 
 <script type="text/babel">
-  import ReadMore from '~/components/ReadMore'
+  import ReadMore from '~/components/ReadMore';
 
   export default {
     components: {
@@ -52,19 +52,19 @@
             img: '/icon.png'
           }
         ]
-      }
+      };
     },
     methods: {
       renderDesc (key) {
-        let desc = this.$t(`tech.${key}.description`)
+        let desc = this.$t(`tech.${key}.description`);
         if (Array.isArray(desc)) {
-          return desc
+          return desc;
         } else {
-          return [desc]
+          return [desc];
         }
       }
     }
-  }
+  };
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>

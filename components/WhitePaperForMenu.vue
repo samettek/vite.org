@@ -29,7 +29,7 @@
 </template>
 
 <script type="text/babel">
-import config from '~/config'
+import config from '~/config';
 
 export default {
   props: {
@@ -41,7 +41,7 @@ export default {
   data () {
     return {
       urlMap: config.urls.whitePaper
-    }
+    };
   },
   computed: {
     urlList: function () {
@@ -53,10 +53,10 @@ export default {
         'vietnamese',
         'russian',
         'japan'
-      ]
+      ];
     }
   }
-}
+};
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>

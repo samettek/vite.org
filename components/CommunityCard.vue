@@ -41,14 +41,14 @@ export default {
     }
   },
   data: function () {
-    return {}
+    return {};
   },
   methods: {
     gotoLink () {
-      window.open(this.mediaLink)
+      window.open(this.mediaLink);
     }
   }
-}
+};
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>

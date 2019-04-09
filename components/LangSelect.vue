@@ -26,10 +26,10 @@
   export default {
     computed: {
       locales: function () {
-        return this.$i18n.locales
+        return this.$i18n.locales;
       }
     }
-}
+};
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>

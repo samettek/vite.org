@@ -32,16 +32,16 @@
       }
     },
     data: function () {
-      return {}
+      return {};
     },
     methods: {
       toDetailPage () {
-        let lang = ''
-        this.$i18n.locale !== 'en' ? lang = `/${this.$i18n.locale}` : lang = ''
-        this.$router.push({path: `${lang}/nodeDetail/${this.name}`})
+        let lang = '';
+        this.$i18n.locale !== 'en' ? lang = `/${this.$i18n.locale}` : lang = '';
+        this.$router.push({path: `${lang}/nodeDetail/${this.name}`});
       }
     }
-  }
+  };
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>

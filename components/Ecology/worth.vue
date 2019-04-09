@@ -14,7 +14,7 @@
 </template>
 
 <script type="text/babel">
-import item from "./worthItem";
+import item from './worthItem';
 export default {
   components: {
     item

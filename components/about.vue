@@ -22,8 +22,8 @@
 </template>
 
 <script type="text/babel">
-import config from "~/config";
-import whitepaper from "./WhitePaperForMenu";
+import config from '~/config';
+import whitepaper from './WhitePaperForMenu';
 
 export default {
   components: { whitepaper },
@@ -33,14 +33,14 @@ export default {
       default: false
     }
   },
-computed:{
+  computed:{
     url(){
-        return {
-            introduction:config.urls.introduction[this.$i18n.locale],
-            blog:config.urls.blog[this.$i18n.locale]
-        }
+      return {
+        introduction:config.urls.introduction[this.$i18n.locale],
+        blog:config.urls.blog[this.$i18n.locale]
+      };
     }
-}
+  }
 };
 </script>
 

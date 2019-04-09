@@ -46,7 +46,7 @@
 </template>
 
 <script>
-  import NodeDetailLink from '~/components/NodeDetailLink'
+  import NodeDetailLink from '~/components/NodeDetailLink';
   export default {
     components: {
       NodeDetailLink
@@ -302,9 +302,9 @@
             }]
           }
         }
-      }
+      };
     }
-  }
+  };
 </script>
 
 <style  rel="stylesheet/scss" lang="scss" scoped>

@@ -39,19 +39,19 @@
         return {
           jdList: ['go', 'fe', 'ios', 'android', 'pm'],
           jdContentKey: ['desc', 'require', 'special']
-        }
+        };
       },
       methods: {
         getContent (item, jdKey) {
-          let arr = this.$t(`careers.jd.${item}.${jdKey}`)
-          if (!arr) return []
+          let arr = this.$t(`careers.jd.${item}.${jdKey}`);
+          if (!arr) return [];
           if (!Array.isArray(arr)) {
-            return [arr]
+            return [arr];
           }
-          return arr
+          return arr;
         }
       }
-    }
+    };
 </script>
 
 <style  rel="stylesheet/scss" lang="scss" scoped>

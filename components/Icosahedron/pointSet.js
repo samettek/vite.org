@@ -21,7 +21,7 @@ export default (THREE) => {
           speed: [Math.random() * SPEED_INTERVAL + BASE_SPEED, Math.random() * SPEED_INTERVAL + BASE_SPEED, Math.random() * SPEED_INTERVAL + BASE_SPEED], //speedX, speedY, speedZ
 
           direction: [Math.random() * 2 - 1, Math.random() * 2 - 1, Math.random() * 2 - 1] // directionX, directionY, directionZ
-        }
+        };
       });
 
     }
@@ -68,7 +68,7 @@ export default (THREE) => {
           outterPointObject
         };
 
-        this._setPointModelPosition(pointModel, point)
+        this._setPointModelPosition(pointModel, point);
         this.pointModelList.push(pointModel);
       }
 
@@ -167,7 +167,7 @@ export default (THREE) => {
           }
 
           return nextPosition;
-        }
+        };
 
         let nextPositionX = moveOnOneDirection(pointModel.pointObject.position.x, 0);
         let nextPositionY = moveOnOneDirection(pointModel.pointObject.position.y, 1);
@@ -189,5 +189,5 @@ export default (THREE) => {
         }
       }
     }
-  }
-}
+  };
+};

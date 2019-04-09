@@ -41,8 +41,8 @@
 </template>
 
 <script type="text/babel">
-  import config from '~/config.js'
-  import { VPopover } from 'v-tooltip'
+  import config from '~/config.js';
+  import { VPopover } from 'v-tooltip';
 
   export default {
     components: {
@@ -54,10 +54,10 @@
         urlList: config.urls.whitePaper,
         list: ['english', 'chinese', 'korean', 'french', 'vietnamese', 'russian', 'japan'],
         isBrowser: process.browser
-      }
+      };
     },
     methods: {}
-  }
+  };
 </script>
 
 <style rel="stylesheet/scss" lang="scss">

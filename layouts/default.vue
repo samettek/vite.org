@@ -107,15 +107,15 @@
 </template>
 
 <script type="text/babel">
-import LangSelect from '~/components/LangSelect.vue'
-import Logo from '~/components/Logo.vue'
-import LogoWithoutWords from '~/components/LogoWithoutWords.vue'
-import Footer from '~/components/Footer.vue'
-import config from '~/config'
-import voteNotice from '~/components/voteNotice.vue'
-import about from '~/components/about.vue'
-import Media from '~/components/Media.vue'
-import Exchange from '~/components/Exchange.vue'
+import LangSelect from '~/components/LangSelect.vue';
+import Logo from '~/components/Logo.vue';
+import LogoWithoutWords from '~/components/LogoWithoutWords.vue';
+import Footer from '~/components/Footer.vue';
+import config from '~/config';
+import voteNotice from '~/components/voteNotice.vue';
+import about from '~/components/about.vue';
+import Media from '~/components/Media.vue';
+import Exchange from '~/components/Exchange.vue';
 
 export default {
   components: {
@@ -129,11 +129,11 @@ export default {
     Media
   },
   head () {
-    let { routeName } = this
-    let title = this.$t(`nav.${routeName}`) + ' - ' + this.$t('head.title')
+    let { routeName } = this;
+    let title = this.$t(`nav.${routeName}`) + ' - ' + this.$t('head.title');
 
-    let description = this.$t(`head.description.${routeName}`)
-    let iconUrl = 'https://vite.org/icon.png'
+    let description = this.$t(`head.description.${routeName}`);
+    let iconUrl = 'https://vite.org/icon.png';
     let structuredData = [
       {
         '@context': 'http://schema.org',
@@ -149,7 +149,7 @@ export default {
         },
         sameAs: [config.urls.twitter]
       }
-    ]
+    ];
     return {
       meta: [
         { hid: 'description', name: 'description', content: description },
@@ -188,9 +188,9 @@ export default {
         return {
           innerHTML: JSON.stringify(item),
           type: 'application/ld+json'
-        }
+        };
       })
-    }
+    };
   },
   data: function () {
     return {
@@ -198,23 +198,23 @@ export default {
       navs: ['team', 'community'],
       collapsing: false,
       urls: config.urls
-    }
+    };
   },
   computed: {
     routeName () {
-      if (!this.$route || !this.$route.name) return 'index'
-      return this.$route.name.split('-')[0]
+      if (!this.$route || !this.$route.name) return 'index';
+      return this.$route.name.split('-')[0];
     },
     navbarEndStyle () {
       if (this.navbarActive) {
         return {
           height: this.$refs.navbarEnd.clientHeight + 'px',
           overflowY: this.collapsing ? 'hidden' : 'visible'
-        }
+        };
       } else {
         return {
           height: 0
-        }
+        };
       }
     }
   },
@@ -223,36 +223,36 @@ export default {
       window.open(
         'https://international.bittrex.com/Market/Index?MarketName=BTC-VITE'
         // this.$i18n.locale === 'zh' ? 'https://vite.net/zh/' : 'https://vite.net'
-      )
+      );
     },
     openAirdropPage () {
-      let lang = ''
-      this.$i18n.locale !== 'en' ? lang = `/${this.$i18n.locale}` : lang = ''
-      this.$router.push({path: `${lang}/airdrop/`})
+      let lang = '';
+      this.$i18n.locale !== 'en' ? lang = `/${this.$i18n.locale}` : lang = '';
+      this.$router.push({path: `${lang}/airdrop/`});
     },
     onNavClick (e) {
-      let { target } = e
+      let { target } = e;
       if (
         target &&
         target.className &&
         typeof target.className === 'string' &&
         target.className.indexOf('nav-item') > -1
       ) {
-        this.navbarActive = false
+        this.navbarActive = false;
       }
     },
     onLogoClick () {
-      this.navbarActive = false
+      this.navbarActive = false;
     },
     onBurgerClick () {
-      this.collapsing = true
-      this.navbarActive = !this.navbarActive
+      this.collapsing = true;
+      this.navbarActive = !this.navbarActive;
       setTimeout(() => {
-        this.collapsing = false
-      }, 500)
+        this.collapsing = false;
+      }, 500);
     }
   }
-}
+};
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>

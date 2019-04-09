@@ -133,8 +133,8 @@
 </template>
 
 <script type="text/babel">
-import { VPopover } from 'v-tooltip'
-import isMobile from 'is-mobile'
+import { VPopover } from 'v-tooltip';
+import isMobile from 'is-mobile';
 export default {
   components: {
     VPopover
@@ -154,7 +154,7 @@ export default {
       step1Pic: require('~/assets/images/airdrop/step1.png'),
       step2Pic: require('~/assets/images/airdrop/step2.png'),
       step3Pic: require('~/assets/images/airdrop/step3.png')
-    }
+    };
   },
   methods: {
     openRewardPage () {
@@ -162,10 +162,10 @@ export default {
         this.$i18n.locale === 'zh'
           ? 'https://reward.vite.net/?language=zh'
           : 'https://reward.vite.net'
-      )
+      );
     }
   }
-}
+};
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>

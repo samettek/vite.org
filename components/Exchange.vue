@@ -18,7 +18,7 @@
 </template>
 
 <script type="text/babel">
-  import config from '~/config'
+  import config from '~/config';
 
   export default {
     props: {
@@ -30,14 +30,14 @@
     data () {
       return {
         exchangeMap: config.urls.exchange
-      }
+      };
     },
     computed: {
       exchangeList: function () {
-        return ['bittrex', 'okex','upbit']
+        return ['bittrex', 'okex','upbit'];
       }
     }
-  }
+  };
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>

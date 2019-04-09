@@ -57,7 +57,7 @@ export default {
     },
     type: {
       type: String,
-      default: "core"
+      default: 'core'
     }
   },
   data: function() {

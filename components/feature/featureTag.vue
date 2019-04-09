@@ -33,32 +33,32 @@
 <script>
 const iconMap = {
   easyusing: [
-    require("~/assets/images/feature/tags/easyusing0.svg"),
-    require("~/assets/images/feature/tags/easyusing1.svg"),
-    require("~/assets/images/feature/tags/easyusing2.svg"),
-    require("~/assets/images/feature/tags/easyusing3.svg")
+    require('~/assets/images/feature/tags/easyusing0.svg'),
+    require('~/assets/images/feature/tags/easyusing1.svg'),
+    require('~/assets/images/feature/tags/easyusing2.svg'),
+    require('~/assets/images/feature/tags/easyusing3.svg')
   ],
   performance: [
-    require("~/assets/images/feature/tags/performance0.svg"),
+    require('~/assets/images/feature/tags/performance0.svg'),
     [
-      require("~/assets/images/feature/tags/performance10.svg"),
-      require("~/assets/images/feature/tags/performance11.svg"),
-      require("~/assets/images/feature/tags/performance12.svg")
+      require('~/assets/images/feature/tags/performance10.svg'),
+      require('~/assets/images/feature/tags/performance11.svg'),
+      require('~/assets/images/feature/tags/performance12.svg')
     ]
   ],
   flexable: [
-    require("~/assets/images/feature/tags/flexable0.svg"),
-    require("~/assets/images/feature/tags/flexable1.svg"),
-    require("~/assets/images/feature/tags/flexable2.svg")
+    require('~/assets/images/feature/tags/flexable0.svg'),
+    require('~/assets/images/feature/tags/flexable1.svg'),
+    require('~/assets/images/feature/tags/flexable2.svg')
   ],
   safety: [
-    require("~/assets/images/feature/tags/safety0.svg"),
-    require("~/assets/images/feature/tags/safety1.svg")
+    require('~/assets/images/feature/tags/safety0.svg'),
+    require('~/assets/images/feature/tags/safety1.svg')
   ],
   economical: [
-    require("~/assets/images/feature/tags/economical0.svg"),
-    require("~/assets/images/feature/tags/economical1.svg"),
-    require("~/assets/images/feature/tags/economical2.svg")
+    require('~/assets/images/feature/tags/economical0.svg'),
+    require('~/assets/images/feature/tags/economical1.svg'),
+    require('~/assets/images/feature/tags/economical2.svg')
   ]
 };
 

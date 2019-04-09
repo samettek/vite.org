@@ -7,17 +7,17 @@
 </template>
 
 <script type="text/babel">
-  import Tech from '~/components/Tech'
+  import Tech from '~/components/Tech';
 
   export default {
     components: {
       Tech
     },
     data: function () {
-      return {}
+      return {};
     },
     methods: {}
-  }
+  };
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>

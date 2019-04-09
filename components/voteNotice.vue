@@ -22,7 +22,7 @@
 </template>
 
 <script type="text/babel">
-  import config from '~/config'
+  import config from '~/config';
 
   export default {
     props: {
@@ -34,9 +34,9 @@
     data () {
       return {
         voteMap: config.urls.vote
-      }
+      };
     }
-  }
+  };
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>

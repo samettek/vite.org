@@ -6,21 +6,21 @@
 </template>
 
 <script type="text/babel">
-import player from "./play";
-import config from "~/config";
+import player from './play';
+import config from '~/config';
 export default {
   components: {
   },
   data: function () {
     return {
-    }
+    };
   },
   methods: {
-      play(){
-          player({src:config.urls.video.home[this.$i18n.locale]})
-      }
+    play(){
+      player({src:config.urls.video.home[this.$i18n.locale]});
+    }
   }
-}
+};
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>
