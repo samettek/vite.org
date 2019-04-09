@@ -55,6 +55,7 @@ export default {
     &.active {
       background: #0099ff;
       color: #fff;
+      font-size: 13px;
       &::before {
         border-left-color: #0099ff;
       }

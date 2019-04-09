@@ -29,7 +29,7 @@ export default {
   text-align: center;
   span {
     display: inline-block;
-    width: 300px;
+    width: 390px;
     height: 60px;
     background: #007AFF;
     line-height: 60px;
