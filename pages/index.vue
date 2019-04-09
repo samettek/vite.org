@@ -24,7 +24,7 @@
             </div>
           </no-ssr>
           <div class="btn-group-wrapper">
-            <no-ssr>
+            <!-- <no-ssr>
               <div v-if="!isMobile">
                 <v-popover
                   offset="16"
@@ -40,23 +40,23 @@
                   </template>
                 </v-popover>
               </div>
-            </no-ssr>
+            </no-ssr> -->
             <a
               :href="webWallet"
               target="_blank"
-              class="pop-btn other-btn"
-            >{{$t('home.webWallet')}}</a>
+              class="pop-btn"
+            >{{$t('home.activity1')}}</a>
             <a
               :href="explorer"
               target="_blank"
               class="pop-btn other-btn"
-            >{{$t('home.explorer')}}</a>
+            >{{$t('home.activity2')}}</a>
           </div>
         </div>
       </div>
     </section>
 
-    <v-news></v-news>
+    <!-- <v-news></v-news> -->
 
     <v-ecology></v-ecology>
 
@@ -73,7 +73,7 @@
 </template>
 
 <script>
-import News from '~/components/News.vue';
+// import News from '~/components/News.vue';
 import Ecology from '~/components/Ecology';
 import Feature from '~/components/feature';
 import Video from '~/components/Video.vue';
@@ -93,7 +93,7 @@ import config from '~/config.js';
 export default {
   components: {
     VPopover,
-    VNews: News,
+    // VNews: News,
     VEcology: Ecology,
     VFeature: Feature,
     VVideo: Video,
@@ -259,7 +259,7 @@ export default {
       }
     }
     .other-btn {
-      margin:2px 0 0 20px;
+      margin:0 0 0 20px;
       box-sizing: border-box;
       box-shadow:none;
       border:2px solid rgba(0,122,255,1);

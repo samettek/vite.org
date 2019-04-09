@@ -353,7 +353,7 @@ export default {
     no-repeat url("~assets/images/bg/index/topleft1.svg") -1% 9%,
     no-repeat url("~assets/images/bg/index/topleft2.svg") 0% 3%,
     no-repeat url("~assets/images/bg/index/topleft3.svg") 0% 8%,
-    no-repeat url("~assets/images/bg/index/topright1.svg") 90% 9%,
+    // no-repeat url("~assets/images/bg/index/topright1.svg") 90% 9%,
     no-repeat url("~assets/images/bg/index/topright2.svg") 110% 6%/ 900px 1000px,
     no-repeat url("~assets/images/bg/index/rightbottom.svg") 125% 97%/620px
       526px;

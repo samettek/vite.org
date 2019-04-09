@@ -68,6 +68,8 @@
     "blog": "技术博客"
   },
   "home": {
+    "activity1": "活动1",
+    "activity2": "活动2",
     "explorer": "Explorer",
     "webWallet": "Web Wallet",
     "wallet": {
