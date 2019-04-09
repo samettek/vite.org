@@ -72,8 +72,8 @@
         "blog": "技术博客"
     },
     "home": {
-        "activity1": "活动1",
-        "activity2": "活动2",
+        "activity1": "最新活动",
+        "activity2": "最新动态",
         "explorer": "区块浏览器",
         "webWallet": "Web 钱包",
         "wallet": {
@@ -89,6 +89,9 @@
         "actwait": "敬请期待",
         "news": "最新消息",
         "starttoUse": "开始使用Vite"
+    },
+    "product": {
+        "title": "产品"
     },
     "roadmap": {
         "title": "路线图",

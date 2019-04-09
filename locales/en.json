@@ -68,8 +68,8 @@
     "blog": "技术博客"
   },
   "home": {
-    "activity1": "活动1",
-    "activity2": "活动2",
+    "activity1": "最新活动",
+    "activity2": "最新动态",
     "explorer": "Explorer",
     "webWallet": "Web Wallet",
     "wallet": {
@@ -85,6 +85,9 @@
     "actwait": "Stay tuned!",
     "news": "Latest News",
     "starttoUse": "Get Started with Vite"
+  },
+  "product": {
+    "title": "产品"
   },
   "roadmap": {
     "title": "Roadmap",

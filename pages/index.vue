@@ -55,12 +55,14 @@
         </div>
       </div>
     </section>
+  
+    <v-product></v-product>
 
-    <!-- <v-news></v-news> -->
+    <!-- <v-news></v-news> 最新消息-->
 
-    <v-ecology></v-ecology>
+    <!-- <v-ecology></v-ecology> vite生态-->
 
-    <v-feature></v-feature>
+    <!-- <v-feature></v-feature> vite特性-->
 
     <v-video></v-video>
 
@@ -74,8 +76,9 @@
 
 <script>
 // import News from '~/components/News.vue';
-import Ecology from '~/components/Ecology';
-import Feature from '~/components/feature';
+// import Ecology from '~/components/Ecology';
+// import Feature from '~/components/feature';
+import Product from '~/components/Product.vue';
 import Video from '~/components/Video.vue';
 import Investor from '~/components/Investor';
 import Logo from '~/components/Logo.vue';
@@ -94,8 +97,9 @@ export default {
   components: {
     VPopover,
     // VNews: News,
-    VEcology: Ecology,
-    VFeature: Feature,
+    // VEcology: Ecology,
+    // VFeature: Feature,
+    VProduct: Product,
     VVideo: Video,
     Logo,
     LogoWord,
