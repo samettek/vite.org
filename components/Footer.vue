@@ -9,59 +9,60 @@
           <div class="footer-tab">
             <div class="">
               <div class="is-flex footer-nav">
-                <div
-                  v-for="(item, index) in navs"
-                  :key="index"
-                  class="nav-item"
-                >
-                  <nuxt-link
-                    :key="item"
-                    :to="localePath(item)"
-                    class="text-hover-transition"
-                  >
-                    {{$t(`nav.${item}`)}}
-                  </nuxt-link>
+                <div class="nav-item">
+                  <secondary-menu 
+                    :footer-name="$t(`nav.production`)"
+                    :secondary-list="navProductionList"
+                    :is-footer="true">
+                  </secondary-menu>
                 </div>
-                <voteNotice
-                  class="nav-item"
-                  :is-footer="true"
-                ></voteNotice>
+                <div class="nav-item">
+                  <secondary-menu 
+                    :footer-name="$t(`nav.person`)"
+                    :secondary-list="navPersonList"
+                    :is-footer="true">
+                  </secondary-menu>
+                </div>
+                <div class="nav-item">
+                  <voteNotice 
+                    :is-footer="true">
+                  </voteNotice>
+                </div>
+                <div class="nav-item">
+                  <Media 
+                    :is-footer="true"
+                  ></Media>
+                </div>
+                <div class="nav-item">
+                  <Exchange
+                   :is-footer="true">
+                  </Exchange>
+                </div>
+                <div class="nav-item">
+                  <secondary-menu 
+                    :footer-name="$t(`nav.guide`)"
+                    :secondary-list="navGuideList"
+                    :is-footer="true">
+                  </secondary-menu>
+                </div>
                 <div class="nav-item">
                   <nuxt-link
-                    :to="localePath('partnership')"
-                    class="text-hover-transition"
-                  >
-                    {{$t('nav.partnership')}}
+                    :to="localePath('airdrop')"
+                    class="text-hover-transition">
+                    {{$t('nav.airdrop')}}
                   </nuxt-link>
                 </div>
-                <Media
-                  class="nav-item"
-                  :is-footer="true"
-                ></Media>
-                <Exchange
-                  class="nav-item"
-                  :is-footer="true"
-                ></Exchange>
                 <div class="nav-item">
-                  <nuxt-link
-                    :to="localePath('faq')"
-                    class="text-hover-transition"
-                  >
-                    {{$t('nav.faq')}}
-                  </nuxt-link>
+                  <about
+                    :is-footer="true">
+                  </about>
                 </div>
-                <about
-                  class="nav-item"
-                  :is-footer="true"
-                ></about>
                 <div class="nav-item">
-                  <a
-                    :href="urls.wiki[$i18n.locale]"
-                    class="text-hover-transition"
-                    target="_blank"
-                  >
-                    {{$t(`nav.wiki`)}}
-                  </a>
+                  <secondary-menu 
+                    :footer-name="$t(`nav.more`)"
+                    :secondary-list="navMoreList"
+                    :is-footer="true">
+                  </secondary-menu>
                 </div>
               </div>
               <div class="social-icons">
@@ -162,6 +163,7 @@ import Exchange from '~/components/Exchange.vue';
 import Media from '~/components/Media.vue';
 import voteNotice from '~/components/voteNotice.vue';
 import about from '~/components/about';
+import SecondaryMenu from '~/components/SecondaryMenu.vue';
 
 export default {
   components: {
@@ -171,11 +173,35 @@ export default {
     Exchange,
     Media,
     voteNotice,
-    about
+    about,
+    SecondaryMenu
+  },
+  props: {
+    navProductionList: {
+      type: Array,
+      default: ()=> []
+    },
+    navPersonList: {
+      type: Array,
+      default: ()=> []
+    },
+    navGuideList: {
+      type: Array,
+      default: ()=> []
+    },
   },
   data: function () {
     let { urls } = config;
     return {
+      navMoreList: [{
+        type: 'inner',
+        name: 'explorer',
+        to: 'xxx'
+      }, {
+        type: 'inner',
+        name: 'store',
+        to: 'xxx'
+      }],
       urls,
       aboutList: ['tokenUrl'],
       learnList: ['whitePaper', 'document', 'introduction'],

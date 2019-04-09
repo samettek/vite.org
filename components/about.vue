@@ -14,6 +14,7 @@
       role="menu"
     >
       <div class="dropdown-content">
+        <a class="dropdown-item" target="_blank" :href="url.wiki">{{$t('nav.wiki')}}</a>
         <a class="dropdown-item" target="_blank" :href="url.blog">{{$t('about.blog')}}</a>
         <whitepaper></whitepaper>
       </div>
@@ -37,7 +38,8 @@ export default {
     url(){
       return {
         introduction:config.urls.introduction[this.$i18n.locale],
-        blog:config.urls.blog[this.$i18n.locale]
+        blog:config.urls.blog[this.$i18n.locale],
+        wiki: config.urls.wiki[this.$i18n.locale],
       };
     }
   }

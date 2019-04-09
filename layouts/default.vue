@@ -36,17 +36,36 @@
           class="navbar-menu"
           :class="{ 'is-active': navbarActive, collapsing: collapsing }"
         >
-          <div
+          <div 
             ref="navbarStart"
-            class="navbar-start"
-          >
-            <a 
-              href="http://vite.net/" 
-              class="nav-item text-hover-transition" 
-              target="_blank"
-            >
-              {{$t(`nav.production`)}}
-            </a>
+            class="navbar-start">
+            <div class="nav-item">
+              <secondary-menu 
+                :footer-name="$t(`nav.production`)"
+                :secondary-list="navProductionList">
+              </secondary-menu>
+            </div>
+            <div class="nav-item">
+              <secondary-menu 
+                :footer-name="$t(`nav.person`)"
+                :secondary-list="navPersonList">
+              </secondary-menu>
+            </div>
+            <div class="nav-item">
+              <voteNotice></voteNotice>
+            </div>
+            <div class="nav-item">
+              <Media></Media>
+            </div>
+            <div class="nav-item">
+              <Exchange></Exchange>
+            </div>
+            <div class="nav-item">
+              <secondary-menu 
+                :footer-name="$t(`nav.guide`)"
+                :secondary-list="navGuideList">
+              </secondary-menu>
+            </div>
             <nuxt-link
               :key="item"
               :to="localePath(item)"
@@ -56,21 +75,6 @@
             >
               {{$t(`nav.${item}`)}}
             </nuxt-link>
-            <div class="nav-item">
-              <voteNotice></voteNotice>
-            </div>
-            <!--<nuxt-link-->
-              <!--:to="localePath('partnership')"-->
-              <!--class="nav-item text-hover-transition"-->
-            <!--&gt;-->
-              <!--{{$t('nav.partnership')}}-->
-            <!--</nuxt-link>-->
-            <div class="nav-item">
-              <Media></Media>
-            </div>
-            <div class="nav-item">
-              <Exchange></Exchange>
-            </div>
           </div>
           <div
             ref="navbarEnd"
@@ -102,7 +106,11 @@
     >
       <nuxt :keep-alive="true"></nuxt>
     </div>
-    <v-footer></v-footer>
+    <v-footer 
+      :nav-production-list="navProductionList"
+      :nav-person-list="navPersonList"
+      :nav-guide-list="navGuideList">
+    </v-footer>
   </div>
 </template>
 
@@ -116,6 +124,7 @@ import voteNotice from '~/components/voteNotice.vue';
 import about from '~/components/about.vue';
 import Media from '~/components/Media.vue';
 import Exchange from '~/components/Exchange.vue';
+import SecondaryMenu from '~/components/SecondaryMenu.vue';
 
 export default {
   components: {
@@ -126,7 +135,8 @@ export default {
     Exchange,
     voteNotice,
     about,
-    Media
+    Media,
+    SecondaryMenu
   },
   head () {
     let { routeName } = this;
@@ -194,8 +204,47 @@ export default {
   },
   data: function () {
     return {
+      navProductionList: [{
+        type: 'inner',
+        name: 'platform',
+        to: 'xxx'
+      }, {
+        type: 'inner',
+        name: 'wallet',
+        to: 'xxx'
+      }, {
+        type: 'inner',
+        name: 'exchange',
+        to: 'xxx'        
+      }, {
+        type: 'inner',
+        name: 'pay',
+        to: 'xxx'
+      }],
+      navPersonList: [{
+        type: 'inner',
+        name: 'team',
+        to: 'xxx'
+      }, {
+        type: 'inner',
+        name: 'investor',
+        to: 'xxx'
+      }, {
+        type: 'inner',
+        name: 'community',
+        to: 'xxx'        
+      }],
+      navGuideList: [{
+        type: 'inner',
+        name: 'tutorial',
+        to: 'xxx'
+      }, {
+        type: 'inner',
+        name: 'faq',
+        to: 'xxx'
+      }],
       navbarActive: false,
-      navs: ['team', 'community'],
+      navs: ['airdrop'],
       collapsing: false,
       urls: config.urls
     };

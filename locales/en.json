@@ -28,25 +28,44 @@
   "nav": {
     "index": "HOME",
     "production": "PRODUCTS",
+    "platform": "平台",
+    "wallet": "钱包",
+    "exchange": "交易所",
+    "pay": "支付",
+    "person": "人物",
     "team": "TEAM",
-    "partnership": "PARTNERSHIPS",
-    "community": "COMMUNITY",
-    "exchange": "EXCHANGES",
-    "media": "MEDIA",
-    "faq": "FAQ",
-    "about": "ABOUT",
-    "wiki": "WIKI",
+    "investor": "投资人",
+    "community": "社区",
+
     "superNodes": "Guide for SBP (Snapshot Block Producer)",
-    "nodeList": "SBP Candidates",
+    "nodeList": "候选超级节点",
     "notice": {
       "name": "SUPERNODES",
       "specific": "Guide for SBP (Snapshot Block Producer)",
       "apply": "Apply for SBP (Snapshot Block Producer) "
-    }
+    },
+
+    "media": "新闻和媒体",
+    "blogs": "官方博客",
+    "news": "最新报道",
+    
+    "guide": "指南",
+    "tutorial": "教程",
+    "faq": "问答",
+
+    "airdrop": "空投",
+
+    "about": "关于",
+    "wiki": "WIKI",
+
+    "more": "更多",
+    "explorer": "区块浏览器",
+    "store": "Vite商城"
   },
   "about": {
     "whitepaper": "White Paper",
-    "blog": "Blog"
+    "wiki": "WIKI",
+    "blog": "技术博客"
   },
   "home": {
     "explorer": "Explorer",

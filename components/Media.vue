@@ -9,7 +9,7 @@
       <div class="dropdown-content">
         <template v-for="(item, index) in mediaList">
           <a class="dropdown-item" target="_blank" :href="mediaMap[item]" :key="index">
-            {{$t(`media.${item}`)}}
+            {{$t(`nav.${item}`)}}
           </a>
         </template>
       </div>
@@ -34,7 +34,7 @@
     },
     computed: {
       mediaList: function () {
-        return ['forum', 'medium', 'bitcointalk'];
+        return ['blogs', 'news'];
       }
     }
   };

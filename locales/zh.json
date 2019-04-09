@@ -27,28 +27,49 @@
     },
     "nav": {
         "index": "首页",
+
         "production": "产品",
-        "team": "团队",
-        "partnership": "合作",
-        "community": "社区",
+        "platform": "平台",
+        "wallet": "钱包",
         "exchange": "交易所",
-        "media": "新闻",
-        "faq": "问题答疑",
-        "about": "关于",
+        "pay": "支付",
+
+        "person": "人物",
+        "team": "团队",
+        "investor": "投资人",
+        "community": "社区",
+
         "superNodes": "超级节点说明",
-        "nodeList": "超级节点竞选人",
-        "nodeDetail": "超级节点详情",
-        "wiki": "WIKI",
+        "nodeList": "候选超级节点",
         "notice": {
             "name": "超级节点",
             "specific": "超级节点说明",
             "apply": "申请超级节点"
-        }
+        },
+        
+        "media": "新闻和媒体",
+        "blogs": "官方博客",
+        "news": "最新报道",
+        
+        "tokenTransaction": "代币交易",
+
+        "guide": "指南",
+        "tutorial": "教程",
+        "faq": "问答",
+
+        "airdrop": "空投",
+
+        "about": "关于",
+        "wiki": "WIKI",
+
+        "more": "更多",
+        "explorer": "区块浏览器",
+        "store": "Vite商城"
     },
     "about": {
-        "introduction": "简介",
-        "blog": "博客",
-        "whitepaper": "白皮书"
+        "whitepaper": "白皮书",
+        "wiki": "WIKI",
+        "blog": "技术博客"
     },
     "home": {
         "explorer": "区块浏览器",

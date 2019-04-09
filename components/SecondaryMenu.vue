@@ -2,22 +2,36 @@
   <div class="dropdown lang-btn is-hoverable">
     <div class="dropdown-trigger">
       <button class="button" :class="{'foot-btn': isFooter}">
-        <span>{{$t('nav.tokenTransaction')}}</span>
+        <span>{{ footerName }}</span>
       </button>
     </div>
     <div class="dropdown-menu" id="lang-dropdown-menu" role="menu">
-      <div class="dropdown-content">
-        <template v-for="(item, index) in exchangeList">
-          <a class="dropdown-item" target="_blank" :href="exchangeMap[item]" :key="index">
-            {{$t(`exchange.${item}`)}}
-          </a>
-        </template>
+      <div class="dropdown-content" v-if="list.length">
+        <nuxt-link 
+          :to="localePath(item.to)"
+          class="dropdown-item" 
+          v-for="(item, index) in list" 
+          :key="index"
+          v-if="item.type && item.type === 'inner'">
+          {{$t(`nav.${item.name}`)}}
+        </nuxt-link>
+        <a 
+          class="dropdown-item" 
+          target="_blank" 
+          :href="voteMap.apply[$i18n.locale]"
+          v-for="(item, index) in list" 
+          :key="index"
+          v-if="item.key && item.key === 'outer'"
+          >
+          {{$t(`nav.notice.apply`)}}
+        </a>
       </div>
     </div>
   </div>
 </template>
 
 <script type="text/babel">
+  // secondaryList   item {type: inner/outer, name: xxx, to: xxx}
   import config from '~/config';
 
   export default {
@@ -25,17 +39,25 @@
       isFooter: {
         type: Boolean,
         default: false
+      },
+      footerName: {
+        type: String,
+        default: ''
+      },
+      secondaryList: {
+        type: Array,
+        default: ()=> []
+      }
+    },
+    computed: {
+      list() {
+        return this.secondaryList;
       }
     },
     data () {
       return {
-        exchangeMap: config.urls.exchange
+        voteMap: config.urls.vote
       };
-    },
-    computed: {
-      exchangeList: function () {
-        return ['bittrex', 'okex','upbit'];
-      }
     }
   };
 </script>
