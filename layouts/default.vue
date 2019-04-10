@@ -207,19 +207,19 @@ export default {
       navProductionList: [{
         type: 'inner',
         name: 'platform',
-        to: 'xxx'
+        to: 'products'
       }, {
         type: 'inner',
         name: 'wallet',
-        to: 'xxx'
+        to: 'products'
       }, {
         type: 'inner',
         name: 'exchange',
-        to: 'xxx'        
+        to: 'products'        
       }, {
         type: 'inner',
         name: 'pay',
-        to: 'xxx'
+        to: 'products'
       }],
       navPersonList: [{
         type: 'inner',

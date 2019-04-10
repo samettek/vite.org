@@ -80,7 +80,7 @@
 // import News from '~/components/News.vue';
 // import Ecology from '~/components/Ecology';
 // import Feature from '~/components/feature';
-import Product from '~/components/Product/index.vue';
+import product from '~/components/product.vue';
 import New from '~/components/New/index.vue';
 // import Video from '~/components/Video.vue';
 import Investor from '~/components/Investor';
@@ -104,7 +104,7 @@ export default {
     // VEcology: Ecology,
     // VFeature: Feature,
     VNew: New,
-    VProduct: Product,
+    VProduct: product,
     // VVideo: Video,
     Logo,
     LogoWord,

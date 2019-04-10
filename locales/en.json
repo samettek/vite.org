@@ -110,6 +110,9 @@
         "link": "Vite商城"
     }
   },
+  "products": {
+    "title": "产品"
+},
   "roadmap": {
     "title": "Roadmap",
     "timelines": [
