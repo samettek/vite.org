@@ -7,6 +7,16 @@
     </div>
     <div class="dropdown-menu" id="lang-dropdown-menu" role="menu">
       <div class="dropdown-content" v-if="list.length">
+        <a 
+          class="dropdown-item" 
+          target="_blank" 
+          :href="item.to"
+          v-for="(item, index) in list" 
+          :key="index"
+          v-if="item.type && item.type === 'outer'"
+          >
+          {{$t(`nav.${item.name}`)}}
+        </a>
         <nuxt-link 
           :to="localePath(item.to)"
           class="dropdown-item" 
@@ -15,16 +25,6 @@
           v-if="item.type && item.type === 'inner'">
           {{$t(`nav.${item.name}`)}}
         </nuxt-link>
-        <a 
-          class="dropdown-item" 
-          target="_blank" 
-          :href="voteMap.apply[$i18n.locale]"
-          v-for="(item, index) in list" 
-          :key="index"
-          v-if="item.key && item.key === 'outer'"
-          >
-          {{$t(`nav.notice.apply`)}}
-        </a>
       </div>
     </div>
   </div>

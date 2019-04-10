@@ -87,7 +87,7 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <!-- <div class="container">
       <div
         :class="{'airdrop-hide' : routeName === 'airdrop'}"
         class="img-text"
@@ -99,7 +99,7 @@
         ></div>
         <div><img src="~assets/images/tail-right.svg" /></div>
       </div>
-    </div>
+    </div> -->
     <div
       class="nuxt-content"
       :class="`is-${routeName}-page`"
@@ -235,13 +235,13 @@ export default {
         to: 'xxx'        
       }],
       navGuideList: [{
-        type: 'inner',
+        type: 'outer',
         name: 'tutorial',
-        to: 'xxx'
+        to: 'https://vite.wiki/tutorial/start/'
       }, {
         type: 'inner',
         name: 'faq',
-        to: 'xxx'
+        to: 'faq'
       }],
       navbarActive: false,
       navs: ['airdrop'],
