@@ -224,15 +224,15 @@ export default {
       navPersonList: [{
         type: 'inner',
         name: 'team',
-        to: 'xxx'
+        to: 'figure'
       }, {
         type: 'inner',
         name: 'investor',
-        to: 'xxx'
+        to: 'figure'
       }, {
         type: 'inner',
         name: 'community',
-        to: 'xxx'        
+        to: 'figure'        
       }],
       navGuideList: [{
         type: 'outer',

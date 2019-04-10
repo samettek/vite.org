@@ -44,7 +44,7 @@
 </template>
 
 <script type="text/babel">
-import TeamImage from '~/components/TeamImage';
+import TeamImage from './TeamImage';
 import MailtoBtn from '~/components/MailtoBtn';
 
 export default {

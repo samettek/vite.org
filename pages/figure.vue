@@ -1,16 +1,16 @@
 <template>
-  <div class="team-wrapper">
-    <teams></teams>
+  <div class="figure-wrapper">
+    <Figure></Figure>
   </div>
 
 </template>
 
 <script>
-  import Teams from '~/components/Teams.vue';
+  import Figure from '~/components/Figure';
 
   export default {
     components: {
-      Teams
+      Figure
     },
     computed: {
     }
@@ -19,7 +19,7 @@
 
 <style  rel="stylesheet/scss" lang="scss" scoped>
   @import "assets/vars.scss";
-  .team-wrapper {
+  .figure-wrapper {
     padding-top: 92px;
   }
 
