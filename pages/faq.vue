@@ -11,22 +11,7 @@
                 {{$t('faq.technology')}}
           </div>
         </div>
-        <div class="columns is-multiline">
-          <div class="column item is-destop is-12" v-for="(item, index) in faqs" :key="index">
-            <div class="is-info">
-              <h3> {{`${index + 1}. ${item.question}`}}</h3>
-              <div class="answer">
-                <p v-for="(answerItem, index) in item.answer" :key="index">
-                  <template v-if="item.key === 'wechat'">
-                    {{answerItem}}
-                    <div><img src="~/assets/images/vitelabs_wechat.jpg" alt=""/></div>
-                  </template>
-                  <template v-else>{{answerItem}}</template>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+        <faqs :faqs="tabParams === 'common' ? faqsCommon : faqsTech"></faqs>
       </div>
     </section>
   </div>
@@ -34,37 +19,48 @@
 </template>
 
 <script>
-  export default {
-    data() {
-      return {
-        tabParams: 'common'
-      };
+import Faqs from '~/components/Faqs';
+
+export default {
+  components: {
+    Faqs
+  },
+  data() {
+    return {
+      tabParams: 'common'
+    };
+  },
+  computed: {
+    faqsCommon () {
+      let faqs = this.$t('faq.questions.common');
+      return this.convertFaqs(faqs);
     },
-    computed: {
-      faqs () {
-        let faqs = this.$t('faq.questions');
-        faqs = Array.isArray(faqs) ? faqs : [];
-        return faqs.map(item => {
-          let {answer} = item;
-          if (!answer) answer = [];
-          if (!Array.isArray(answer)) answer = [answer];
-          return {
-            ...item,
-            answer
-          };
-        });
-      }
-    },
-    methods: {
-      
-      changeTab(tabName) {
-        this.tabParams = tabName;
-      },
-      clickTab(str) {
-        this.tabParams = str;
-      }
+    faqsTech() {
+      let faqs = this.$t('faq.questions.technology');
+      return this.convertFaqs(faqs);
     }
-  };
+  },
+  methods: {
+    convertFaqs(faqs) {
+      faqs = Array.isArray(faqs) ? faqs : [];
+      return faqs.map(item => {
+        let {answer} = item;
+        if (!answer) answer = [];
+        if (!Array.isArray(answer)) answer = [answer];
+        return {
+          ...item,
+          answer
+        };
+      });
+    },
+    changeTab(tabName) {
+      this.tabParams = tabName;
+    },
+    clickTab(str) {
+      this.tabParams = str;
+    }
+  }
+};
 </script>
 
 <style  rel="stylesheet/scss" lang="scss" scoped>
@@ -74,41 +70,7 @@
     @include touch {
       padding-top: 25px;
     }
-    .is-info {
-      margin-bottom: 10px;
-      h3 {
-        margin-bottom: 12px;
-        font-size: 20px;
-        font-family: $font-family-main;
-        color: #171C34;
-        line-height: 28px;
-        
-        @include touch {
-          font-size: 17px;
-          line-height: 24px;
-          margin-bottom: 10px;
-        }
-      }
-      .answer {
-        font-size: 14px;
-        font-family: $font-family-light;
-        color: #919AA3;
-        line-height: 20px;
-        img {
-          max-width: 200px;
-          margin-top: 0.5rem;
-        }
-        p {
-          &:first-child {
-            margin-top: 0;
-          }
-        }
-        @include touch {
-          font-size: 14px;
-          line-height: 16px;
-        }
-      }
-    }
+    
   }
 
 </style>
