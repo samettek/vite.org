@@ -949,6 +949,8 @@
     },
     "faq": {
         "title": "问题答疑",
+        "common": "一般",
+        "technology": "技术",
         "questions": [
             {
                 "question": "什么是 Vite？",

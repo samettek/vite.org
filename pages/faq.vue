@@ -3,6 +3,14 @@
     <section class="section">
       <div class="container">
         <h1 style="margin-bottom: 50px;">{{$t('faq.title')}}</h1>
+        <div class="tab-wrapper">
+          <div class="tab-content" :class="{'is-active': tabParams === 'common'}" @click="clickTab('common')">{{$t('faq.common')}}</div>
+          <div class="tab-content" 
+                :class="{'is-active': tabParams === 'technology'}" 
+                @click="clickTab('technology')">
+                {{$t('faq.technology')}}
+          </div>
+        </div>
         <div class="columns is-multiline">
           <div class="column item is-destop is-12" v-for="(item, index) in faqs" :key="index">
             <div class="is-info">
@@ -27,6 +35,11 @@
 
 <script>
   export default {
+    data() {
+      return {
+        tabParams: 'common'
+      };
+    },
     computed: {
       faqs () {
         let faqs = this.$t('faq.questions');
@@ -41,6 +54,15 @@
           };
         });
       }
+    },
+    methods: {
+      
+      changeTab(tabName) {
+        this.tabParams = tabName;
+      },
+      clickTab(str) {
+        this.tabParams = str;
+      }
     }
   };
 </script>
@@ -49,7 +71,6 @@
   @import "assets/vars.scss";
   .section {
     padding-top: 92px;
-    color: white;
     @include touch {
       padding-top: 25px;
     }

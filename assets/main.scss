@@ -33,6 +33,29 @@ h1 {
   transition: color 0.4s ease-in-out;
 }
 
+// tabs
+.tab-wrapper {
+  margin-top: 30px;
+  display: flex;
+  .tab-content {
+    font-size:16px;
+    font-family:PingFangSC-Semibold;
+    font-weight:600;
+    color: rgba(145,154,163,1);
+    line-height:20px;
+    margin-right: 30px;
+    padding-bottom: 4px;
+    margin-bottom: 24px;
+    cursor: pointer;
+  }
+  .is-active {
+    border-radius:1px;
+    border-bottom: 2px solid $common-active-color;
+    color: $common-active-color;
+    
+  }
+}
+
 // headroom
 .headroom {
   position: fixed;
