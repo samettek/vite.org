@@ -1,16 +1,16 @@
 <template>
   <div class="columns is-multiline">
-    <div class="column item is-destop is-12" v-for="(item, index) in faqs" :key="index">
+    <div class="column item is-destop is-12" v-for="(item, index) in faqs" :key="index" v-if="faqs.length">
       <div class="is-info">
         <h3> {{`${index + 1}. ${item.question}`}}</h3>
         <div class="answer">
-          <p v-for="(answerItem, index) in item.answer" :key="index">
-            <template v-if="item.key === 'wechat'">
+          <div v-for="(answerItem, index) in item.answer" :key="index">
+            <div v-if="item.key === 'wechat'">
               {{answerItem}}
               <div><img src="~/assets/images/vitelabs_wechat.jpg" alt=""/></div>
-            </template>
-            <template v-else>{{answerItem}}</template>
-          </p>
+            </div>
+            <div v-else>{{answerItem}}</div>
+          </div>
         </div>
       </div>
     </div>
