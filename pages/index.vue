@@ -57,18 +57,20 @@
     </section>
   
     <v-product></v-product>
+    
+    <v-new></v-new>
 
-    <!-- <v-news></v-news> 最新消息-->
+    <!-- <v-news></v-news> 最新消息 -->
 
-    <!-- <v-ecology></v-ecology> vite生态-->
+    <!-- <v-ecology></v-ecology> vite生态 -->
 
-    <!-- <v-feature></v-feature> vite特性-->
+    <!-- <v-feature></v-feature> vite特性 -->
 
-    <v-video></v-video>
+    <!-- <v-video></v-video> vite视频 -->
 
     <v-roadmap></v-roadmap>
 
-    <v-investor></v-investor>
+    <!-- <v-investor></v-investor> vite投资机构-->
 
     <join-mailing-list></join-mailing-list>
   </div>
@@ -79,7 +81,8 @@
 // import Ecology from '~/components/Ecology';
 // import Feature from '~/components/feature';
 import Product from '~/components/Product/index.vue';
-import Video from '~/components/Video.vue';
+import New from '~/components/New/index.vue';
+// import Video from '~/components/Video.vue';
 import Investor from '~/components/Investor';
 import Logo from '~/components/Logo.vue';
 import LogoWord from '~/components/LogoWord';
@@ -96,11 +99,13 @@ import config from '~/config.js';
 export default {
   components: {
     VPopover,
+    
     // VNews: News,
     // VEcology: Ecology,
     // VFeature: Feature,
+    VNew: New,
     VProduct: Product,
-    VVideo: Video,
+    // VVideo: Video,
     Logo,
     LogoWord,
     VInvestor: Investor,

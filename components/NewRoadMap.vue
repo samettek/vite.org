@@ -126,7 +126,6 @@ export default {
 
 section {
   height: 700px;
-  background: $common-bg-color;
   @include mobile {
     height: 360px;
   }
