@@ -76,8 +76,8 @@ export default {
   box-shadow: 0 4px 24px 0 rgba(211, 234, 255, 0.53);
   padding-bottom: 20px;
   .img-wrapper {
-    height: 242px;
-    min-width: 242px;
+    height: 230px;
+    min-width: 230px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -90,7 +90,6 @@ export default {
         height: 190px;
         min-width: 190px;
         transition: all 0.6s ease;
-        border-radius: 50%;
       }
     }
   }

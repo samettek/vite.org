@@ -4,7 +4,7 @@
       <h1>{{$t('team.core')}}</h1>
       <div class="columns is-multiline">
         <div
-          class="column item is-4-widescreen is-6-tablet is-12-mobile"
+          class="column item is-3-widescreen is-6-tablet is-12-mobile"
           v-for="(item,i) in teams"
           :key="item.key"
           :style="{'margin-right':i===4?'100px':'0'}"
