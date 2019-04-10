@@ -113,7 +113,77 @@
         }
     },
     "products": {
-        "title": "产品"
+        "title": "产品",
+        "platform": {
+            "title": "高性能去中心化平台",
+            "textList": [{
+                "name": "高性能",
+                "description": "Vite通过DAG账本和异步架构设计确保了平台快速、高吞吐"
+            }, {
+                "name": "安全",
+                "description": "Vite引入快照链技术弥补了DAG账本的安全性缺陷"
+            }, {
+                "name": "易用",
+                "description": "Vite提供合约调度、升级，命名服务及Solidity++，极大地提高了平台的易用性"
+            }, {
+                "name": "经济",
+                "description": "Vite平台没有交易费，交易消耗配额，而配额可以"
+            }, {
+                "name": "可扩展",
+                "description": "采用HDPoS共识算法，并支持跨链和智能合约进一步提高平台的可扩展性"
+            }]
+        },
+        "wallet": {
+            "title": "多币种钱包",
+            "textList": [{
+                "name": "转账零费用",
+                "description": "交易消耗配额，运行PoW免费获取"
+            }, {
+                "name": "交易速度快",
+                "description": "异步架构设计，交易畅通无阻"
+            }, {
+                "name": "HD钱包结构",
+                "description": "支持多种代币，方便账号管理"
+            }, {
+                "name": "投票赚奖励",
+                "description": "投票官方节点，瓜分VITE分红"
+            }, {
+                "name": "空投得VITE",
+                "description": "每天打卡App，免费领取惊喜空投"
+            }, {
+                "name": "DApp小游戏",
+                "description": "猜数字赢VITE，投资娱乐两不误"
+            }]
+        },
+        "exchange": {
+            "title": "去中心化数字资产交易平台",
+            "textList": [{
+                "name": "完全去中心化，资产更安全",
+                "description": "通过链上智能合约实现交易撮合引擎、手续费分红，链上完成订单撮合、订单簿存储；私钥由您自己保管，只有您本人可以控制资产的流向"
+            }, {
+                "name": "底链性能卓越，更好交易体验",
+                "description": "ViteX底层的公链Vite提供的高吞吐、秒级确认、无gas费用、多代币模型、跨链等基础能力，将为ViteX的用户带来接近中心化交易所的交易体验"
+            }, {
+                "name": "挖矿方式多，持币得分红",
+                "description": "在ViteX完成交易可获得VX代币，在ViteX上币可获得VX代币，为交易所抵押VITE也可获得VX代币；持有VX代币可持续获得交易所手续费分红"
+            }, {
+                "name": "向社区开放，铸币更简单",
+                "description": "只要符合Vite和ViteX协议，从铸币、搭建跨链网关到开通交易对，社区都有100%的自主权。ViteX的订单深度完全开放，社区用户及合作伙伴可以通过接入ViteX API开设自己的交易所"
+            }]
+        },
+        "pay": {
+            "title": "安全、便捷、低成本支付方式",
+            "textList": [{
+                "name": "秒级交易确认，支持工业级需求",
+                "description": "Vite底层公链通过引入DAG链和异步架构设计保证交易的秒级确认，可以承载亿万级交易和高性能并发需求"
+            }, {
+                "name": "订单信息上链，支付更安全",
+                "description": "订单信息存储在去中心化的网络中，完全公开、不可篡改，保证用户自由、平等、私密地享受支付"
+            }, {
+                "name": "低频0费用，抵押加速交易",
+                "description": "Vite链上的交易不需要手续费只需要配额，而配额可以通过运行PoW免费获取，保证了低频用户免费支付；高频用户则可以通过抵押（可取回）获得配额交易支付确认"
+            }]
+        }
     },
     "roadmap": {
         "title": "路线图",
