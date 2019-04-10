@@ -91,7 +91,26 @@
         "starttoUse": "开始使用Vite"
     },
     "product": {
-        "title": "产品"
+        "title": "产品",
+        "platform": {
+            "title": "高性能去中心化平台",
+            "subtitle": "到Vite Wiki全面了解Vite平台",
+            "link": "Vite区块浏览器"
+        },
+        "wallet": {
+            "title": "去中心化多币种钱包",
+            "subtitle": "使用Vite钱包管理数字资产"
+        },
+        "exchange": {
+            "title": "去中心化数字资产交易平台",
+            "subtitle": "使用ViteX交易数字资产",
+            "link": "ViteX"
+        },
+        "pay": {
+            "title": "安全、便捷、低成本支付方式",
+            "subtitle": "到Vite商城体验VitePay",
+            "link": "Vite商城"
+        }
     },
     "roadmap": {
         "title": "路线图",
