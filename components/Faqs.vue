@@ -9,7 +9,7 @@
               {{answerItem}}
               <div><img src="~/assets/images/vitelabs_wechat.jpg" alt=""/></div>
             </div>
-            <div v-else>{{answerItem}}</div>
+            <div v-else v-html="answerItem"></div>
           </div>
         </div>
       </div>

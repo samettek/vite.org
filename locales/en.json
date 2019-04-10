@@ -1073,7 +1073,7 @@
               "answer": [
                   "注册超级节点需提交申请信息，同时需要抵押50万VITE，抵押期90天，注册完成后可邀请社区投票竞选，票数排名前25名的超级节点可获得奖励。",
                   "测试网络阶段超级节点奖励的总额度为3000万VITE/年，即VITE发行量的3%，每个超级节点奖励分为两部分，50%出块奖励+50%投票奖励，U一个超级节点如果持续挖矿一年，可以获得60万的出块奖励（3000万/25个节点*50%），另外还可以获得一部分投票奖励。",
-                  "超级节点注册指南：https://mp.weixin.qq.com/s/sVD9AeKwB9xDE9eiJgQqSQ"
+                  "超级节点注册指南：<a href='https://mp.weixin.qq.com/s/sVD9AeKwB9xDE9eiJgQqSQ' target='_blank'>https://mp.weixin.qq.com/s/sVD9AeKwB9xDE9eiJgQqSQ</a>"
               ]
           },
           {
@@ -1145,7 +1145,7 @@
           {
               "question": "Vite的Github地址是？",
               "answer": [
-                  "Github地址：https://github.com/vitelabs"
+                  "Github地址：<a href='https://github.com/vitelabs' target='_blank'>https://github.com/vitelabs</a>"
               ]
           },
           {
@@ -1166,7 +1166,7 @@
               "question": "命名服务（Name Service）是否会受到同形异义文件攻击（Homograph Attack）的保护？如果会受到保护，这将是如何实现的？",
               "answer": [
                   "我们会将字符集限制为ASCII 并提供一个存库来将名称散列成素图像，",
-                  "如以下所显示：https://github.com/ethereum/blockies。名称的文字可能看起来很相似，但个人资料图片看起来是完全不同的。"
+                  "如以下所显示：<a href='https://github.com/ethereum/blockies' target='_blank'>https://github.com/ethereum/blockies</a>。名称的文字可能看起来很相似，但个人资料图片看起来是完全不同的。"
               ]
           }
       ]
