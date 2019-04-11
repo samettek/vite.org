@@ -185,6 +185,9 @@
             }]
         }
     },
+    "medium": {
+        "title": "媒体和新闻"
+    },
     "roadmap": {
         "title": "路线图",
         "timelines": [

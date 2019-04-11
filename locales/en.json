@@ -183,6 +183,9 @@
         }]
     }
   },
+  "medium": {
+    "title": "媒体和新闻"
+  },
   "roadmap": {
     "title": "Roadmap",
     "timelines": [

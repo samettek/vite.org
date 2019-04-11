@@ -29,9 +29,11 @@
                   </voteNotice>
                 </div>
                 <div class="nav-item">
-                  <Media 
+                  <secondary-menu 
                     :is-footer="true"
-                  ></Media>
+                    :footer-name="$t(`nav.media`)"
+                    :secondary-list="navMediaList">
+                  </secondary-menu>
                 </div>
                 <div class="nav-item">
                   <Exchange
@@ -160,7 +162,6 @@ import Wechat from '~/components/Wechat';
 import Telegram from '~/components/Telegram';
 import config from '~/config.js';
 import Exchange from '~/components/Exchange.vue';
-import Media from '~/components/Media.vue';
 import voteNotice from '~/components/voteNotice.vue';
 import about from '~/components/about';
 import SecondaryMenu from '~/components/SecondaryMenu.vue';
@@ -171,7 +172,6 @@ export default {
     Wechat,
     Telegram,
     Exchange,
-    Media,
     voteNotice,
     about,
     SecondaryMenu
@@ -189,6 +189,10 @@ export default {
       type: Array,
       default: ()=> []
     },
+    navMediaList: {
+      type: Array,
+      default: ()=> []
+    }
   },
   data: function () {
     let { urls } = config;

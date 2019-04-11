@@ -55,7 +55,10 @@
               <voteNotice></voteNotice>
             </div>
             <div class="nav-item">
-              <Media></Media>
+              <secondary-menu 
+                :footer-name="$t(`nav.media`)"
+                :secondary-list="navMediaList">
+              </secondary-menu>
             </div>
             <div class="nav-item">
               <Exchange></Exchange>
@@ -109,7 +112,8 @@
     <v-footer 
       :nav-production-list="navProductionList"
       :nav-person-list="navPersonList"
-      :nav-guide-list="navGuideList">
+      :nav-guide-list="navGuideList"
+      :nav-media-list="navMediaList">
     </v-footer>
   </div>
 </template>
@@ -122,7 +126,7 @@ import Footer from '~/components/Footer.vue';
 import config from '~/config';
 import voteNotice from '~/components/voteNotice.vue';
 import about from '~/components/about.vue';
-import Media from '~/components/Media.vue';
+// import Media from '~/components/Media.vue';
 import Exchange from '~/components/Exchange.vue';
 import SecondaryMenu from '~/components/SecondaryMenu.vue';
 
@@ -135,7 +139,7 @@ export default {
     Exchange,
     voteNotice,
     about,
-    Media,
+    // Media,
     SecondaryMenu
   },
   head () {
@@ -233,6 +237,15 @@ export default {
         type: 'inner',
         name: 'community',
         to: 'figure'        
+      }],
+      navMediaList: [{
+        type: 'inner',
+        name: 'blogs',
+        to: 'medium'
+      }, {
+        type: 'inner',
+        name: 'news',
+        to: 'medium'
       }],
       navGuideList: [{
         type: 'outer',
