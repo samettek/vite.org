@@ -4,7 +4,7 @@
   </section>
 </template>
 <script type="text/babel">
-import Teams from './Teams';
+import Teams from './Team/Teams';
 
 export default {
   components: {
