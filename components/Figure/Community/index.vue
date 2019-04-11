@@ -15,8 +15,7 @@
                 </div>
               </div>
               <div class="column community-star">
-                <img src="~assets/images/community/star.svg" />
-                <span>{{$t('community.star')}}</span>
+                <sub-title :title="$t('community.star')"></sub-title>
               </div>
               <div
                 class="column is-4 star-item"
@@ -46,15 +45,17 @@
 </template>
 
 <script>
-import CommunityCard from '~/components/CommunityCard';
-import CommunityLink from '~/components/CommunityLink';
+import CommunityCard from './CommunityCard';
+import CommunityLink from './CommunityLink';
+import subTitle from '../subTitle';
 import player from '~/components/play';
 import config from '~/config';
 
 export default {
   components: {
     CommunityCard,
-    CommunityLink
+    CommunityLink,
+    subTitle
   },
   methods: {
     play() {
