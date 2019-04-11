@@ -650,6 +650,10 @@
   },
   "team": {
     "core": "Team",
+    "manage": "北京管理团队",
+    "siliconValley": "硅谷团队",
+    "tech": "北京团队",
+    "global": "全球社区管理员",
     "advisor": "Advisors",
     "join": "Join Us",
     "nameMap": {
@@ -922,7 +926,22 @@
         "job": "UI Designer",
         "position": "Beijing",
         "description": "Miya has 3 years of experience  working on User Interface design and has participated in several industrial IT projects.Miya formerly worked at a large state-owned enterprise, serving as a Chief Designer."
-      }
+      },
+      "Oleg": {
+        "name": "Oleg Igorevych",
+        "position": "Ukraine",
+        "description": "Seasoned blockchain & crypto enthusiast, engaged in trading and investment. Experienced in community management, business development and marketing."
+    },
+    "Pankaj": {
+        "name": "Pankaj Kataria",
+        "position": "India",
+        "description": "A seasoned IT professional with over a decade of experience performing diverse roles such as Developer, QA engineer, Data analyst and Business Analyst. He is a community manager for Vite social media and is looking to expand his interest in the world of block chain and associated tech."
+    },
+    "HaViet": {
+        "name": "Ha Viet Nguyen",
+        "position": "Vietnam",
+        "description": "Former CMO of a Blockchain & Crypto Marketing agency and BD of a Venture Capital in Vietnam. Previously joined as CM for several notable blockchain projects."
+    }
     }
   },
   "partnership": {

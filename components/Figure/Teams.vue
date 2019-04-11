@@ -1,11 +1,13 @@
 <template>
-  <section class="section">
+  <section>
     <div class="container">
-      <h1>{{$t('team.core')}}</h1>
+      <h1 style="margin-bottom: 30px;">{{$t('team.core')}}</h1>
+
+      <sub-title :title="$t('team.manage')"></sub-title>
       <div class="columns is-multiline">
         <div
           class="column item is-3-widescreen is-6-tablet is-12-mobile"
-          v-for="(item,i) in teams"
+          v-for="(item,i) in manage"
           :key="item.key"
           :style="{'margin-right':i===4?'100px':'0'}"
         >
@@ -18,10 +20,45 @@
           </div>
         </div>
       </div>
-      <h1>{{$t('team.advisor')}}</h1>
+      
+      <sub-title :title="$t('team.siliconValley')"></sub-title>
+      <div class="columns is-multiline">
+        <div
+          class="column item is-3-widescreen is-6-tablet is-12-mobile"
+          v-for="(item) in siliconValley"
+          :key="item.key"
+        >
+          <div class="is-info">
+            <team-image
+              :src="item.img"
+              :name="item.key"
+              :urls="item.urls"
+            ></team-image>
+          </div>
+        </div>
+      </div>
+
+      <sub-title :title="$t('team.tech')"></sub-title>
+      <div class="columns is-multiline">
+        <div
+          class="column item is-3-widescreen is-6-tablet is-12-mobile"
+          v-for="(item) in tech"
+          :key="item.key"
+        >
+          <div class="is-info">
+            <team-image
+              :src="item.img"
+              :name="item.key"
+              :urls="item.urls"
+            ></team-image>
+          </div>
+        </div>
+      </div>
+
+      <sub-title :title="$t('team.advisor')"></sub-title>
       <div class="columns is-multiline is-center">
         <div
-          class="column item is-4-widescreen is-6-tablet is-12-mobile"
+          class="column item is-3-widescreen is-6-tablet is-12-mobile"
           v-for="item in advisors"
           :key="item.key"
         >
@@ -35,26 +72,45 @@
           </div>
         </div>
       </div>
-      <mailto-btn
+
+      <sub-title :title="$t('team.global')"></sub-title>
+      <div class="columns is-multiline is-center">
+        <div
+          class="column item is-3-widescreen is-6-tablet is-12-mobile"
+          v-for="item in global"
+          :key="item.key"
+        >
+          <div class="is-info">
+            <team-image
+              :src="item.img"
+              :name="item.key"
+              :urls="item.urls"
+              type="advisor"
+            ></team-image>
+          </div>
+        </div>
+      </div>
+      <!-- <mailto-btn
         :text="$t('team.join')"
         :href="`mailto:hr@vite.org`"
-      ></mailto-btn>
+      ></mailto-btn> -->
     </div>
   </section>
 </template>
 
 <script type="text/babel">
 import TeamImage from './TeamImage';
-import MailtoBtn from '~/components/MailtoBtn';
+import subTitle from './subTitle';
+// import MailtoBtn from '~/components/MailtoBtn';
 
 export default {
   components: {
     TeamImage,
-    MailtoBtn
+    subTitle
   },
   data: function () {
     return {
-      teams: [
+      manage: [
         {
           img: require('~/assets/images/teams/liuchunming.png'),
           key: 'liuchunming',
@@ -70,20 +126,6 @@ export default {
             {
               icon: ['fab', 'github'],
               url: 'https://github.com/charles-liu'
-            }
-          ]
-        },
-        {
-          img: require('~/assets/images/teams/richard.jpg'),
-          key: 'richard',
-          urls: [
-            {
-              icon: ['fab', 'twitter'],
-              url: 'https://twitter.com/Gentso09'
-            },
-            {
-              icon: ['fab', 'linkedin'],
-              url: 'https://www.linkedin.com/in/richard-yan-934229a5/'
             }
           ]
         },
@@ -114,6 +156,22 @@ export default {
               url: 'https://github.com/soliury'
             }
           ]
+        }
+      ],
+      siliconValley: [
+        {
+          img: require('~/assets/images/teams/richard.jpg'),
+          key: 'richard',
+          urls: [
+            {
+              icon: ['fab', 'twitter'],
+              url: 'https://twitter.com/Gentso09'
+            },
+            {
+              icon: ['fab', 'linkedin'],
+              url: 'https://www.linkedin.com/in/richard-yan-934229a5/'
+            }
+          ]
         },
         {
           img: require('~/assets/images/teams/allen.jpeg'),
@@ -142,7 +200,9 @@ export default {
             }
           ],
           key: 'Chris Li'
-        },
+        }
+      ],
+      tech: [
         { urls: [], key: 'Ada' },
         {
           urls: [
@@ -188,7 +248,6 @@ export default {
           ],
           key: 'Alex'
         },
-
         {
           urls: [
             { icon: ['fab', 'github'], url: 'https://github.com/viteLiz' }
@@ -213,7 +272,6 @@ export default {
           ],
           key: 'Jin'
         },
-
         {
           urls: [
             { icon: ['fab', 'github'], url: 'https://github.com/vite-pu' }
@@ -353,13 +411,39 @@ export default {
         {
           img: require('~/assets/images/teams/michael.png'),
           key: 'Michael'
-        //   urls: [
-        //     {
-        //       icon: ["fab", "linkedin"],
-        //       url: "https://www.linkedin.com/in/dong77/"
-        //     }
-        //   ]
         }
+      ],
+      global: [
+        {
+          img: require('~/assets/images/teams/Oleg.png'),
+          key: 'Oleg',
+          urls: [
+            {
+              icon: ['fab', 'linkedin'],
+              url: 'https://www.linkedin.com/in/oleg-igorevych-775833b3/'
+            }
+          ]
+        },
+        {
+          img: require('~/assets/images/teams/HaViet.png'),
+          key: 'HaViet',
+          urls: [
+            {
+              icon: ['fab', 'linkedin'],
+              url: 'https://www.linkedin.com/in/ha-viet-nguyen-210/'
+            }
+          ]
+        },
+        {
+          img: require('~/assets/images/teams/Pankaj.png'),
+          key: 'Pankaj',
+          urls: [
+            {
+              icon: ['fab', 'linkedin'],
+              url: 'https://www.linkedin.com/in/pankaj-kataria-cbap®-87ba1b7/'
+            }
+          ]
+        },
       ]
     };
   },
@@ -371,14 +455,13 @@ export default {
 @import "~assets/vars";
 
 section {
-  padding-top: 92px;
   .container {
     .is-info {
       display: flex;
     }
     .columns {
-      margin-top: 60px;
-      margin-bottom: 80px;
+      margin-top: 24px;
+      margin-bottom: 55px;
     }
   }
 
