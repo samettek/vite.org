@@ -1,6 +1,6 @@
 <template>
   <div class="text-card">
-    <div class="text__card-title"><span class="icon"></span>{{ title }}</div>
+    <sub-title :title="title"></sub-title>
     <div class="text__card-content">
       <div 
         v-for="(item, index) in textList" 
@@ -18,8 +18,12 @@
 </template>
 
 <script type="text/babel">
+import subTitle from '~/components/subTitle';
 
 export default {
+  components: {
+    subTitle
+  },
   props: {
     title: {
       type: String,
@@ -44,22 +48,6 @@ export default {
 @import "~assets/vars";
 .text-card {
   font-family:PingFangSC-Semibold;
-  .text__card-title {
-    height:28px;
-    font-size:24px;
-    font-family:PingFang-SC-Bold;
-    font-weight:bold;
-    color:rgba(23,28,52,1);
-    line-height:28px;
-    .icon {
-      display: inline-block;
-      width: 4px;
-      height: 20px;
-      background-color: $common-active-color;
-      margin-right: 12px;
-      vertical-align: baseline;
-    }
-  }
   .text__card-content {
     font-size:14px;
     font-weight:600;

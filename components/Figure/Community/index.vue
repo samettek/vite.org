@@ -47,7 +47,7 @@
 <script>
 import CommunityCard from './CommunityCard';
 import CommunityLink from './CommunityLink';
-import subTitle from '../subTitle';
+import subTitle from '~/components/subTitle';
 import player from '~/components/play';
 import config from '~/config';
 

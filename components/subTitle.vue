@@ -1,5 +1,5 @@
 <template>
-  <div class="figure__card-title">
+  <div class="common__card-title">
     <span class="icon"></span>
     {{ title }}
   </div>
@@ -19,7 +19,7 @@ export default {
 <style rel="stylesheet/scss" lang="scss" scoped>
 @import "~assets/vars";
 
-.figure__card-title {
+.common__card-title {
     height:28px;
     font-size:24px;
     font-family:PingFang-SC-Bold;

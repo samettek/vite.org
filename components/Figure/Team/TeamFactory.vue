@@ -22,7 +22,7 @@
 
 <script type="text/babel">
 import TeamImage from './TeamImage';
-import subTitle from '../subTitle';
+import subTitle from '~/components/subTitle';
 
 export default {
   components: {
