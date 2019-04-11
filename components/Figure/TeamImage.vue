@@ -98,6 +98,7 @@ export default {
     padding: 0px 20px;
     margin-top: -10px;
     height: 300px;
+    overflow-y: auto;
     &.team-desc-zh{
         height: 180px;
     }
