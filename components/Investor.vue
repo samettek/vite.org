@@ -1,7 +1,7 @@
 <template>
   <section id="investor" class="section">
     <div class="container">
-      <h1 style="text-align:center">
+      <h1 style="margin-bottom: 50px;">
         {{$t('investor.title')}}
       </h1>
       <div class="columns is-multiline is-mobile is-centered">
@@ -190,7 +190,6 @@
     font-family: $font-family-main;
     color:rgba(51,51,51,1);
     line-height:50px;
-    text-align: center;
     @include desktop {
       margin-bottom: 3rem;
     }

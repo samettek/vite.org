@@ -83,7 +83,7 @@
 import product from '~/components/product.vue';
 import New from '~/components/New/index.vue';
 // import Video from '~/components/Video.vue';
-import Investor from '~/components/Investor';
+// import Investor from '~/components/Investor';
 import Logo from '~/components/Logo.vue';
 import LogoWord from '~/components/LogoWord';
 import NewRoadMap from '~/components/NewRoadMap';
@@ -108,7 +108,7 @@ export default {
     // VVideo: Video,
     Logo,
     LogoWord,
-    VInvestor: Investor,
+    // VInvestor: Investor,
     VRoadmap: NewRoadMap,
     Wechat,
     Telegram,
