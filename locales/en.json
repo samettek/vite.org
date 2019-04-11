@@ -1050,7 +1050,7 @@
     ]
   },
   "faq": {
-    "title": "VITE Q&A",
+    "title": "Vite Q&A",
     "common": "一般",
     "technology": "技术",
     "questions": {
@@ -1078,7 +1078,7 @@
               ]
           },
           {
-              "question": "VITE上线了哪些交易所？",
+              "question": "Which exchange(s) will VITE be listed on?",
               "answer": [
                   "目前，在BITTREX和OKEX上可以交易VITE；同时我们也在接触其他交易所，敬请期待。"
               ]
