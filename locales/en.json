@@ -97,7 +97,12 @@
     },
     "wallet": {
         "title": "去中心化多币种钱包",
-        "subtitle": "使用Vite钱包管理数字资产"
+        "subtitle": "使用Vite钱包管理数字资产",
+        "ios": "iOS",
+        "android": "Android",
+        "web": "Web",
+        "mac": "Mac",
+        "windows": "Windows"
     },
     "exchange": {
         "title": "去中心化数字资产交易平台",

@@ -11,14 +11,15 @@
           <div class="is-info">
             <img :src="item.img" />
             <div class="product-desc">
-              <div class="title">{{ $t(`product.${item.key}.title`) }}</div>
-              <div>{{ $t(`product.${item.key}.subtitle`) }}</div>
+              <div class="desc__title">{{ $t(`product.${item.key}.title`) }}</div>
+              <div class="desc__subtitle">{{ $t(`product.${item.key}.subtitle`) }}</div>
               <a 
                 v-if="item.url"
                 :href="item.url"
                 target="_blank"> 
                 {{ $t(`product.${item.key}.link`) }}
               </a>
+              <wallet-btn v-else></wallet-btn>
             </div>
           </div>
         </div>
@@ -28,8 +29,12 @@
 </template>
 
 <script type="text/babel">
+import walletBtn from '~/components/Products/walletBtn';
+
 export default {
-  components: {},
+  components: {
+    walletBtn
+  },
   data: function () {
     return {
       products: [
@@ -76,6 +81,25 @@ section {
     padding-top: 109px;
     @include mobile {
       padding-top: 30px;
+    }
+  }
+  .is-info {
+    text-align: center;
+    .desc__title {
+      font-size:24px;
+      font-family:PingFangSC-Semibold;
+      font-weight:600;
+      color:rgba(23,28,52,1);
+      line-height:28px;
+      margin: 31px 0 16px 0;
+    }
+    .desc__subtitle {
+      margin-bottom: 12px;
+      font-size:14px;
+      font-family:PingFangSC-Semibold;
+      font-weight:600;
+      color:rgba(145,154,163,1);
+      line-height:18px;
     }
   }
   img {

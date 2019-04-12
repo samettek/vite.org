@@ -17,14 +17,12 @@
               </div>
               <div
                 class="btn-group-wrapper"
-                v-if="!isMobile"
-              >
+                v-if="!isMobile">
                 <v-popover
                   offset="16"
                   placement="bottom-center"
                   popoverClass="v-popover"
-                  trigger="hover"
-                >
+                  trigger="hover">
                   <div class="pop-btn">{{$t('airdrop.btnIos')}}</div>
                   <template slot="popover">
                     <div class="wallet-app-container">
@@ -42,8 +40,7 @@
                   offset="16"
                   placement="bottom-center"
                   popoverClass="v-popover"
-                  trigger="hover"
-                >
+                  trigger="hover">
                   <div class="pop-btn pop-btn-android">{{$t('airdrop.btnAndroid')}}</div>
                   <template slot="popover">
                     <div class="wallet-app-container">
@@ -59,17 +56,18 @@
               </div>
               <div
                 v-else
-                class="mobile-btn-group"
-              >
+                class="mobile-btn-group">
                 <a
                   class="download-btn"
-                  href='https://itunes.apple.com/us/app/vite-official-hd-wallet/id1437629486?mt=8'
-                >{{$t('airdrop.btnIos')}}</a>
+                  href='https://itunes.apple.com/us/app/vite-official-hd-wallet/id1437629486?mt=8'>
+                    {{$t('airdrop.btnIos')}}
+                </a>
                 <a
                   class="download-btn"
                   download="vite.apk"
-                  href='https://play.google.com/store/apps/details?id=net.vite.wallet'
-                >{{$t('airdrop.btnAndroid')}}</a>
+                  href='https://play.google.com/store/apps/details?id=net.vite.wallet'>
+                  {{$t('airdrop.btnAndroid')}}
+                </a>
               </div>
             </div>
           </div>
