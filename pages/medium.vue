@@ -3,20 +3,22 @@
     <div class="container">
       <h1>{{$t('medium.title')}}</h1>
     </div>
-    <Medium></Medium>
-    <div class="container">
-      官方博客
-      最新报道
-    </div>
+    <youtube></youtube>
+    <blog></blog>
+    <report></report>
   </section>
 </template>
 
 <script>
-import Medium from '~/components/Medium';
+import youtube from '~/components/Medium/youtube';
+import blog from '~/components/Medium/blog';
+import report from '~/components/Medium/report';
 
 export default {
   components: {
-    Medium
+    youtube,
+    blog,
+    report
   },
   data: function() {
     return {

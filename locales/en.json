@@ -184,7 +184,16 @@
     }
   },
   "medium": {
-    "title": "媒体和新闻"
+    "title": "媒体和新闻",
+    "youtube": {
+        "title": "Youtube"
+    },
+    "blog": {
+        "title": "官方博客"
+    },
+    "report": {
+        "title": "最新报道"
+    }
   },
   "roadmap": {
     "title": "Roadmap",

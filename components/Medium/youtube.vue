@@ -2,7 +2,7 @@
   <div class="youtube__wrapper">
     <div class="container">
       <div class="youtube__content">
-        <sub-title title="youtube" style="color: white"></sub-title>
+        <sub-title :title="$t('medium.youtube.title')" style="color: white"></sub-title>
       </div>
     </div>
   </div>
