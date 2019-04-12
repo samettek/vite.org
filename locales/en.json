@@ -189,7 +189,8 @@
         "title": "Youtube"
     },
     "blog": {
-        "title": "官方博客"
+        "title": "官方博客",
+        "desc": "The latest announcements of Vite can be found at Medium."
     },
     "report": {
         "title": "最新报道"

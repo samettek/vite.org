@@ -191,7 +191,8 @@
             "title": "Youtube"
         },
         "blog": {
-            "title": "官方博客"
+            "title": "官方博客",
+            "desc": "Vite的最新官方公告可以在论坛公告页找到。"
         },
         "report": {
             "title": "最新报道"
