@@ -11,7 +11,13 @@
         <div class="description">{{ item.description }}</div>
       </div>
       <div class="text__outer-link">
-        <a>外部链接</a>
+        <a 
+          :href="outerLink.url" 
+          target="_blank"
+          v-if="outerLink.url">
+          {{ outerLink.name }}
+        </a>
+        <div v-else>{{ outerLink.name }}</div>
       </div>
       <wallet-btn 
         :is-active="false" 
@@ -38,6 +44,10 @@ export default {
     title: {
       type: String,
       default: ''
+    },
+    outerLink: {
+      type: Object,
+      default: () => {}
     },
     textList: {
       type: Array,

@@ -2,32 +2,21 @@
   <section>
     <text-card 
       :title="$t('products.platform.title')" 
-      :text-list="$t('products.platform.textList')">
+      :text-list="$t('products.platform.textList')"
+      :outer-link="link.platform">
     </text-card>
-
-    <div class="mt products__wallet is-flex">
-      <img src="~/assets/images/product/products1.png"/>
+    
+    <div 
+      class="products__common is-flex" 
+      v-for="(item, index) in list" 
+      :key="index">
+      <img :src="require(`~/assets/images/product/products${index+1}.png`)" />
       <text-card 
-        class="mt products__wallet-text"
-        :title="$t('products.wallet.title')" 
-        :text-list="$t('products.wallet.textList')"
-        keyStr="wallet">
-      </text-card>
-    </div>
-    <div class="mt products__exchange is-flex">
-      <text-card 
-        class="products__exchange-text"
-        :title="$t('products.exchange.title')" 
-        :text-list="$t('products.exchange.textList')">
-      </text-card>
-      <img src="~/assets/images/product/products2.png"/>
-    </div>
-    <div class="mt products__pay is-flex">
-      <img src="~/assets/images/product/products3.png"/>
-      <text-card 
-        class="products__pay-text"
-        :title="$t('products.pay.title')" 
-        :text-list="$t('products.pay.textList')">
+        :class="`mt products__${item}-text`"
+        :title="$t(`products.${item}.title`)" 
+        :text-list="$t(`products.${item}.textList`)"
+        :outer-link="link[item]"
+        :key-str="item === 'wallet' ? item : ''">
       </text-card>
     </div>
   </section>
@@ -42,7 +31,25 @@ export default {
   },
   data: function () {
     return {
-     
+      list: ['wallet', 'exchange', 'pay'],
+      link: {
+        platform: {
+          name: this.$t('product.platform.subtitle'),
+          url: 'https://vite.wiki/'
+        },
+        wallet: {
+          name: this.$t('product.wallet.subtitle')
+        },
+        exchange: {
+          name: this.$t('product.exchange.subtitle'),
+          url: 'https://vitextest.vite.net/trade'
+        },
+        pay: {
+          name: this.$t('product.pay.subtitle'),
+          url: this.$i18n.locale === 'zh' ? 'https://vite.store/' : 'https://global.vite.store'
+        }
+      }
+      
     };
   },
   computed: {
@@ -58,12 +65,18 @@ export default {
 @import "~assets/vars";
 
 section {
-  .mt {
-    margin-top: 90px; 
-  }
   img {
     width: 600px;
     height: 416px;
+  }
+  .products__common {
+    margin-top: 90px; 
+    &:nth-child(odd) {
+      flex-direction: row-reverse;
+    }
+    img {
+      align-self: center;
+    }
   }
   .products__wallet-text {
     margin-left: 50px; 

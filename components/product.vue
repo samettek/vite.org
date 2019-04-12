@@ -40,7 +40,7 @@ export default {
       products: [
         {
           key: 'platform',
-          url: 'https://explorer.vite.net',
+          url: 'https://vite.wiki/',
           img: require('~/assets/images/product/platform.png'),
         },
         {
