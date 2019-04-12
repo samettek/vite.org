@@ -1,7 +1,74 @@
 <template>
   <div class="scroll-container">
-    <div class="features">
-      <!-- 1 -->
+    <div class="feature_wrapper">
+
+      <div class="arc-wrapper">
+        <div class="arc-inner">
+          <img :src="iconMap['performance']">
+          <div>{{$t('features.performance.title')}}</div>
+        </div>
+        <tag
+          :tagKey="'performance'"
+          style="top: -10px;left: 140px;">
+        </tag>
+        <tag
+          :active='true'
+          :tagKey="'performance'"
+          :index='1'
+          style="top: 50px;left: 140px;">
+        </tag>
+        <svg
+          class="row-line"
+          style="top: 16px;left: 91px;">
+          <path d="M0 10 l10 -10">
+          </path>
+          <path d="M10 0 l 30 0">
+          </path>
+        </svg>
+        <svg
+          class="row-line"
+          style="top: 65px;left: 91px;">
+          <path d="M0 0 l10 10">
+          </path>
+          <path d="M10 10 l 30 0">
+          </path>
+        </svg>
+      </div>
+      
+      <div class="arc-wrapper">
+        <div class="arc-inner">
+          <img :src="iconMap['safety']">
+          <div>{{$t('features.safety.title')}}</div>
+        </div>
+        <tag
+          :tagKey="'safety'"
+          style="top: -10px;left: 140px;">
+        </tag>
+        <tag
+          :active='true'
+          :tagKey="'safety'"
+          :index='1'
+          style="top: 50px;left: 140px;">
+        </tag>
+        <svg
+          class="row-line"
+          style="top: 16px;left: 91px;">
+          <path d="M0 10 l10 -10">
+          </path>
+          <path d="M10 0 l 30 0">
+          </path>
+        </svg>
+        <svg
+          class="row-line"
+          style="top: 65px;left: 91px;">
+          <path d="M0 0 l10 10">
+          </path>
+          <path d="M10 10 l 30 0">
+          </path>
+        </svg>
+      </div>
+    </div>
+    <!-- <div class="features">
       <div class="item">
         <div class="arc-middle">
           <div class="arc-inner">
@@ -17,7 +84,8 @@
           :active='true'
           :tagKey="'performance'"
           :index='1'
-          style="top: 220px;left: 325px;"></tag>
+          style="top: 220px;left: 325px;">
+        </tag>
         <svg
           class="row-line"
           style="top: 153px;left: 267px;">
@@ -35,7 +103,8 @@
           </path>
         </svg>
       </div>
-      <!-- 2 -->
+      
+
       <div class="item">
         <div class="arc-middle">
           <div class="arc-inner">
@@ -71,7 +140,7 @@
         </svg>
       </div>
 
-      <!-- 3 -->
+      
       <div class="item">
         <div class="arc-middle">
           <div class="arc-inner">
@@ -116,7 +185,8 @@
           </path>
         </svg>
       </div>
-      <!-- 4 -->
+      
+
       <div class="item">
         <div class="arc-middle">
           <div class="arc-inner">
@@ -179,7 +249,8 @@
           </path>
         </svg>
       </div>
-      <!-- 5 -->
+      
+
       <div class="item">
         <div class="arc-middle">
           <div class="arc-inner">
@@ -225,7 +296,7 @@
           </path>
         </svg>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -259,95 +330,44 @@ export default {
   margin-top: 125px;
   display: flex;
   flex-direction: column;
-    @include mobile {
-  height: 750px;}
-
-  .feature-title {
-    color: #171c34;
-    font-size: 44px;
-    text-align: center;
-  }
-  .feature-title2 {
-    text-align: center;
-    width: 100%;
-    margin-bottom: 60px;
+  
+  @include mobile {
+    height: 750px;
   }
 }
 
-.features {
-    padding:0 60px;
-  @include mobile {
-    transform: scale(0.7);
-    transform-origin: 0 0;
-    margin-left: 40px;
-  }
-  height: 850px;
-  padding-bottom: 73px;
-  width: 1420px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  position: relative;
-  margin: 0 auto;
-  .item {
+.feature_wrapper {
+  height: 700px;
+  border: 1px solid red;
+  padding: 60px;
+  .arc-wrapper {
     position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    &:nth-child(4) {
-      position: absolute;
-      left: 245px;
-      top: 380px;
-    }
-    &:last-child {
-      position: absolute;
-      left: 760px;
-      top: 380px;
-    }
-    height: 400px;
-    width: 400px;
-    .arc-middle {
-      height: 286px;
-      width: 286px;
+    .arc-inner {
+      border-radius: 100%;
+      padding: 19px 0;
       display: flex;
+      flex-direction: column;
+      justify-content: space-between;
       align-items: center;
-      justify-content: center;
-      .arc-inner {
-        border-radius: 100%;
-        padding: 30px 50px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        color: #1b4366;
-        height: 150px;
-        width: 150px;
-        background: rgba(237, 246, 255, 1);
-        text-align:center;
-      }
-    }
-    .column-line {
-      position: absolute;
-      width: 20px;
-      height: 40px;
-      path {
-        shape-rendering: crispEdges;
-        stroke: #007aff;
-        stroke-width: 4px;
-        fill: none;
-        stroke-linecap: round;
-        &:first-child {
-          stroke-width: 2px;
-          stroke-linecap: round;
-        }
+      color: #1b4366;
+      height: 91px;
+      width: 91px;
+      background: rgba(237, 246, 255, 1);
+      text-align:center;
+      font-size:12px;
+      font-family:PingFangSC-Semibold;
+      font-weight:600;
+      color:rgba(27,67,102,1);
+      line-height:16px;
+      img {
+        width: 30px;
+        height: 30px;
       }
     }
     .row-line {
       position: absolute;
       width: 40px;
       height: 10px;
-
       path {
         shape-rendering: crispEdges;
         stroke: #007aff;
@@ -362,4 +382,92 @@ export default {
     }
   }
 }
+// .features {
+//   padding:0 60px;
+//   @include mobile {
+//     transform: scale(0.7);
+//     transform-origin: 0 0;
+//     margin-left: 40px;
+//   }
+//   height: 850px;
+//   padding-bottom: 73px;
+//   width: 1420px;
+//   display: flex;
+//   flex-wrap: wrap;
+//   justify-content: space-between;
+//   position: relative;
+//   margin: 0 auto;
+//   .item {
+//     position: relative;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+    
+//     &:nth-child(4) {
+//       position: absolute;
+//       left: 245px;
+//       top: 380px;
+//     }
+//     &:last-child {
+//       position: absolute;
+//       left: 760px;
+//       top: 380px;
+//     }
+//     height: 400px;
+//     width: 400px;
+//     .arc-middle {
+//       height: 286px;
+//       width: 286px;
+//       display: flex;
+//       align-items: center;
+//       justify-content: center;
+//       .arc-inner {
+//         border-radius: 100%;
+//         padding: 30px 50px;
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: space-between;
+//         align-items: center;
+//         color: #1b4366;
+//         height: 150px;
+//         width: 150px;
+//         background: rgba(237, 246, 255, 1);
+//         text-align:center;
+//       }
+//     }
+//     .column-line {
+//       position: absolute;
+//       width: 20px;
+//       height: 40px;
+//       path {
+//         shape-rendering: crispEdges;
+//         stroke: #007aff;
+//         stroke-width: 4px;
+//         fill: none;
+//         stroke-linecap: round;
+//         &:first-child {
+//           stroke-width: 2px;
+//           stroke-linecap: round;
+//         }
+//       }
+//     }
+//     .row-line {
+//       position: absolute;
+//       width: 40px;
+//       height: 10px;
+
+//       path {
+//         shape-rendering: crispEdges;
+//         stroke: #007aff;
+//         stroke-width: 4px;
+//         fill: none;
+//         stroke-linecap: round;
+//         &:first-child {
+//           stroke-width: 2px;
+//           stroke-linecap: round;
+//         }
+//       }
+//     }
+//   }
+// }
 </style>

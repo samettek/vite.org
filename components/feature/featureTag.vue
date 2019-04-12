@@ -84,10 +84,11 @@ export default {
 //   z-index: 1;
   text-align: center;
   position: absolute;
-  min-width: 140px;
-  height: 60px;
+  font-size:12px;
+  min-width: 106px;
+  height: 46px;
   background: rgba(255, 255, 255, 1);
-  box-shadow: 0px 0px 403px 0px rgba(211, 234, 255, 1);
+  box-shadow:0px 0px 20px 0px rgba(211,234,255,1);
   border-radius: 30px 30px 30px 0px;
   cursor: pointer;
   &:hover {
