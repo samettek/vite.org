@@ -1,9 +1,7 @@
 <template>
   <div class="scroll-container">
-    <div class="feature-title">{{$t('featureTitle')}}</div>
-    <div class="feature-title2">{{$t('featureTitle2')}}</div>
     <div class="features">
-            <!-- 1 -->
+      <!-- 1 -->
       <div class="item">
         <div class="arc-middle">
           <div class="arc-inner">
@@ -13,18 +11,16 @@
         </div>
         <tag
           :tagKey="'performance'"
-          style="top: 120px;left: 325px;"
-        ></tag>
+          style="top: 120px;left: 325px;">
+        </tag>
         <tag
           :active='true'
           :tagKey="'performance'"
           :index='1'
-          style="top: 220px;left: 325px;"
-        ></tag>
+          style="top: 220px;left: 325px;"></tag>
         <svg
           class="row-line"
-          style="top: 153px;left: 267px;"
-        >
+          style="top: 153px;left: 267px;">
           <path d="M0 10 l10 -10">
           </path>
           <path d="M10 0 l 30 0">
@@ -32,8 +28,7 @@
         </svg>
         <svg
           class="row-line"
-          style="top: 232px;left: 267px;"
-        >
+          style="top: 232px;left: 267px;">
           <path d="M0 0 l10 10">
           </path>
           <path d="M10 10 l 30 0">
@@ -50,18 +45,17 @@
         </div>
         <tag
           :tagKey="'safety'"
-          style="top: 300px;left: 220px;"
-        ></tag>
+          style="top: 300px;left: 220px;">
+        </tag>
         <tag
           :active='true'
           :tagKey="'safety'"
           :index="1"
-          style="top: 300px;left: 20px;"
-        ></tag>
+          style="top: 300px;left: 20px;">
+        </tag>
         <svg
           class="row-line"
-          style="top: 275px;left: 227px;transform:rotate(90deg)"
-        >
+          style="top: 275px;left: 227px;transform:rotate(90deg)">
           <path d="M0 10 l10 -10">
           </path>
           <path d="M10 0 l 30 0">
@@ -69,8 +63,7 @@
         </svg>
         <svg
           class="row-line"
-          style="top: 274px;left: 132px;transform:rotate(90deg)"
-        >
+          style="top: 274px;left: 132px;transform:rotate(90deg)">
           <path d="M0 0 l10 10">
           </path>
           <path d="M10 10 l 30 0">
@@ -88,23 +81,21 @@
         </div>
         <tag
           :tagKey="'economical'"
-          style="top: 250px;left: -13px;"
-        ></tag>
+          style="top: 250px;left: -13px;">
+        </tag>
         <tag
           :tagKey="'economical'"
           :index='1'
-          style="top: 175px;left: -55px;"
-        ></tag>
+          style="top: 175px;left: -55px;">
+        </tag>
         <tag
           :tagKey="'economical'"
           :index='2'
-          style="top: 90px;left: -13px;"
-        >
+          style="top: 90px;left: -13px;">
         </tag>
         <svg
           class="row-line"
-          style="top: 120px;left: 130px;"
-        >
+          style="top: 120px;left: 130px;">
           <path d="M40 10 l-10 -10">
           </path>
           <path d="M30 0 l -30 0">
@@ -112,15 +103,13 @@
         </svg>
         <svg
           class="row-line"
-          style="top: 200px;left: 90px;"
-        >
+          style="top: 200px;left: 90px;">
           <path d="M0 5 l28 0">
           </path>
         </svg>
         <svg
           class="row-line"
-          style="top: 270px;left: 130px;"
-        >
+          style="top: 270px;left: 130px;">
           <path d="M40 0 l-10 10">
           </path>
           <path d="M30 10 l -30 0">
@@ -137,29 +126,28 @@
         </div>
         <tag
           :tagKey="'easyusing'"
-          style="top: 120px;left: -50px;"
-        ></tag>
+          style="top: 120px;left: -50px;">
+        </tag>
         <tag
           :tagKey="'easyusing'"
           style="top: 35px;left: 40px;"
-          :index="1"
-        ></tag>
+          :index="1">
+        </tag>
         <tag
           :tagKey="'easyusing'"
           style="top: 35px;left: 220px;"
           :index="2"
-          :active="true"
-        ></tag>
+          :active="true">
+        </tag>
         <tag
           :tagKey="'easyusing'"
           style="top: 120px;left: 310px;"
-          :index="3"
-        ></tag>
+          :index="3">
+        </tag>
 
         <svg
           class="row-line"
-          style="top: 153px;left: 94px;"
-        >
+          style="top: 153px;left: 94px;">
           <path d="M40 10 l-10 -10">
           </path>
           <path d="M30 0 l -30 0">
@@ -168,8 +156,7 @@
 
         <svg
           class="column-line"
-          style="top: 95px;left: 150px;"
-        >
+          style="top: 95px;left: 150px;">
           <path d="M0 0 L20 20">
           </path>
           <path d="M20 20 L20 35">
@@ -177,8 +164,7 @@
         </svg>
         <svg
           class="column-line"
-          style="top: 95px;left: 230px;"
-        >
+          style="top: 95px;left: 230px;">
           <path d="M20 0 l-20 20">
           </path>
           <path d="M0 20 L 0 35">
@@ -186,8 +172,7 @@
         </svg>
         <svg
           class="row-line"
-          style="top: 153px;left: 267px;"
-        >
+          style="top: 153px;left: 267px;">
           <path d="M0 10 l10 -10">
           </path>
           <path d="M10 0 l 30 0">
@@ -204,22 +189,21 @@
         </div>
         <tag
           :tagKey="'flexable'"
-          style="top: 90px;left: -25px;"
-        ></tag>
+          style="top: 90px;left: -25px;">
+        </tag>
         <tag
           :tagKey="'flexable'"
           :index="1"
-          style="top: 30px;left: 130px;"
-        ></tag>
+          style="top: 30px;left: 130px;">
+        </tag>
         <tag
           :tagKey="'flexable'"
           :index="2"
-          style="top: 90px;left: 270px;"
-        ></tag>
+          style="top: 90px;left: 270px;">
+        </tag>
         <svg
           class="row-line"
-          style="top: 120px;left: 120px;"
-        >
+          style="top: 120px;left: 120px;">
           <path d="M40 10 l-10 -10">
           </path>
           <path d="M30 0 l -30 0">
@@ -228,22 +212,19 @@
 
         <svg
           class="column-line"
-          style="top: 95px;left: 185px;"
-        >
+          style="top: 95px;left: 185px;">
           <path d="M10 0 L10 25">
           </path>
         </svg>
         <svg
           class="row-line"
-          style="top: 120px;left: 225px;"
-        >
+          style="top: 120px;left: 225px;">
           <path d="M0 10 l10 -10">
           </path>
           <path d="M10 0 l 30 0">
           </path>
         </svg>
       </div>
-
     </div>
   </div>
 </template>
@@ -310,7 +291,6 @@ export default {
   margin: 0 auto;
   .item {
     position: relative;
-    border-radius: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -327,12 +307,9 @@ export default {
     }
     height: 400px;
     width: 400px;
-    border: 1px dashed #007aff;
     .arc-middle {
-      border-radius: 100%;
       height: 286px;
       width: 286px;
-      background: rgba(248, 251, 255, 1);
       display: flex;
       align-items: center;
       justify-content: center;
