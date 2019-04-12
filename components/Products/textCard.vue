@@ -13,18 +13,28 @@
       <div class="text__outer-link">
         <a>外部链接</a>
       </div>
+      <wallet-btn 
+        :is-active="false" 
+        v-if="keyStr === 'wallet'"
+        style="margin-top: 14px;"></wallet-btn>
     </div>
   </div>
 </template>
 
 <script type="text/babel">
 import subTitle from '~/components/subTitle';
+import walletBtn from './walletBtn';
 
 export default {
   components: {
-    subTitle
+    subTitle,
+    walletBtn
   },
   props: {
+    keyStr: {
+      type: String,
+      default: ''
+    },
     title: {
       type: String,
       default: ''
@@ -62,7 +72,7 @@ export default {
     }
   }
   .text__outer-link {
-    margin-top: 21px;
+    margin-top: 15px;
     font-size:16px;
     font-weight:600;
     color:rgba(0,122,255,1);

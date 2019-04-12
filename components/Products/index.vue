@@ -10,7 +10,8 @@
       <text-card 
         class="mt products__wallet-text"
         :title="$t('products.wallet.title')" 
-        :text-list="$t('products.wallet.textList')">
+        :text-list="$t('products.wallet.textList')"
+        keyStr="wallet">
       </text-card>
     </div>
     <div class="mt products__exchange is-flex">

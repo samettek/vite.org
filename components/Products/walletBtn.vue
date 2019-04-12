@@ -66,26 +66,12 @@
           {{ $t(`product.wallet.${item.key}`) }}
         </div>
       </a>
-      <!-- <a
-        class="wallet__btn"
-        href='https://itunes.apple.com/us/app/vite-official-hd-wallet/id1437629486?mt=8'>
-          {{$t('product.wallet.ios')}}
-      </a>
-      <a
-        class="wallet__btn"
-        download="vite.apk"
-        style="margin-right: 10px;"
-        href='https://play.google.com/store/apps/details?id=net.vite.wallet'>
-        {{$t('product.wallet.android')}}
-      </a> -->
     </div>
     
   </div>
 </template>
 
 <script type="text/babel">
-// ios:
-// android: 
 import isMobile from 'is-mobile';
 import { VPopover } from 'v-tooltip';
 
