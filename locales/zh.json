@@ -205,6 +205,9 @@
     },
     "roadmap": {
         "title": "路线图",
+        "inProgress": "正在进行",
+        "completed": "已完成",
+        "nextStep": "下一步",
         "timelines": [
             {
                 "time": "2018.02",

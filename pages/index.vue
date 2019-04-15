@@ -56,7 +56,7 @@ import New from '~/components/New/index.vue';
 // import Investor from '~/components/Investor';
 import Logo from '~/components/Logo.vue';
 import LogoWord from '~/components/LogoWord';
-import NewRoadMap from '~/components/NewRoadMap';
+import RoadMap from '~/components/RoadMap/index.vue';
 import Wechat from '~/components/Wechat';
 import Telegram from '~/components/Telegram';
 import WhitePaper from '~/components/WhitePaper';
@@ -79,7 +79,7 @@ export default {
     Logo,
     LogoWord,
     // VInvestor: Investor,
-    VRoadmap: NewRoadMap,
+    VRoadmap: RoadMap,
     Wechat,
     Telegram,
     JoinMailingList,
