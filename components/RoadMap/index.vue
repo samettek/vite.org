@@ -3,9 +3,9 @@
     <h1 class="roadmap-title">{{ $t('roadmap.title')}}</h1>
 
     <div class="container is-flex roadmap__timeline">
-      <timeline></timeline>
-      <timeline></timeline>
-      <timeline></timeline>
+      <timeline :time-lines="completedList" type="completed"></timeline>
+      <timeline :time-lines="inProgress" type="inProgress"></timeline>
+      <timeline :time-lines="nextStep" type="nextStep"></timeline>
     </div>
   </section>
 </template>
@@ -22,10 +22,33 @@ export default {
       finished: 8
     };
   },
-  
-  watch: {
+  computed: {
+    completedList() {
+      return this.getTimelines().slice(0, 9);
+    },
+    inProgress() {
+      return this.getTimelines().slice(9, 10);
+    },
+    nextStep() {
+      return this.getTimelines().slice(10);
+    }
   },
   methods: {
+    getTimelines() {
+      let roadmaps = this.$t('roadmap.timelines');
+      if (!Array.isArray(roadmaps)) {
+        return [];
+      }
+      return roadmaps.map(item => {
+        if (!Array.isArray(item.description)) {
+          return {
+            ...item,
+            description: [item.description]
+          };
+        }
+        return item;
+      });
+    }
   }
 };
 </script>

@@ -1,12 +1,16 @@
 <template>
   <div
     class="timeline">
-    <div class="timeline__title in-progress">{{ $t('roadmap.inProgress') }}</div>
+    <div 
+      class="timeline__title" 
+      :class="{'in-progress': type === 'inProgress'}">
+      {{ $t(`roadmap.${type}`) }}
+    </div>
     <ul>
       <li
         :class="{ 'is-finish': index<=finished }"
         :key="item.time"
-        v-for="(item, index) in timelines">
+        v-for="(item, index) in timeLines">
         <div class="desc-wrapper">
           <span class="time">{{item.time}}</span>
           <div class="desc">
@@ -30,22 +34,18 @@
 </template>
 <script type="text/babel">
 export default {
-  computed: {
-    timelines: function () {
-      let roadmaps = this.$t('roadmap.timelines');
-      if (!Array.isArray(roadmaps)) {
-        return [];
-      }
-      return roadmaps.map(item => {
-        if (!Array.isArray(item.description)) {
-          return {
-            ...item,
-            description: [item.description]
-          };
-        }
-        return item;
-      });
+  props: {
+    type: {
+      type: String,
+      default: ''
+    },
+    timeLines: {
+      type: Array,
+      default: () => []
     }
+  },
+  computed: {
+    
   },
   data: function () {
     return {
