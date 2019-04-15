@@ -62,6 +62,7 @@ $dot-gap: 0.5;
 $dot-size-inner: 0.75rem;
 
 .timeline {
+  padding-right: 200px;
   .timeline__title {
     display: inline-block;
     margin-left: calc(100% + 30px);
@@ -79,6 +80,7 @@ $dot-size-inner: 0.75rem;
     }
   }
   ul {
+    width: 150px;
     padding-top: 30px;
     @include mobile {
       padding-top: 10px;

@@ -2,39 +2,9 @@
   <section>
     <h1 class="roadmap-title">{{ $t('roadmap.title')}}</h1>
 
-    <div class="container is-flex">
-      <!-- <div
-        class="timeline"
-        ref='container'>
-        <ul
-          class="is-flex"
-          ref="nodes">
-          <li
-            class="in-view"
-            :class="{ 'is-finish': index<=finished }"
-            :key="item.time"
-            v-for="(item, index) in timelines">
-            <div class="desc-wrapper">
-              <span class="time">{{item.time}}</span>
-              <div class="desc">
-                <div
-                  v-for="(desc, index) in item.description"
-                  :key="index">
-                <p v-if="!(desc instanceof Object)"> {{desc}} </p>
-                <a v-else
-                    :href="desc.url"
-                    target="_blank">
-                    <p>
-                      {{ desc.text }}
-                    </p>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="in-view"></li>
-        </ul>
-      </div> -->
+    <div class="container is-flex roadmap__timeline">
+      <timeline></timeline>
+      <timeline></timeline>
       <timeline></timeline>
     </div>
   </section>
@@ -74,6 +44,10 @@ section {
     @include mobile {
       padding-top: 30px;
     }
+  }
+  .roadmap__timeline {
+    margin-top: 50px;
+    justify-content: space-between;
   }
   
   

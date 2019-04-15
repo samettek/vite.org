@@ -203,6 +203,9 @@
   },
   "roadmap": {
     "title": "Roadmap",
+    "inProgress": "正在进行",
+    "completed": "已完成",
+    "nextStep": "下一步",
     "timelines": [
       {
         "time": "February 2018",
