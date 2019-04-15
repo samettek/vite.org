@@ -9,20 +9,20 @@
         </div>
         <tag
           :tagKey="'performance'"
-          style="top: -10px;left: 140px;">
+          style="top: -10px;left: 150px;">
         </tag>
         <tag
           :active='true'
           :tagKey="'performance'"
           :index='1'
-          style="top: 50px;left: 140px;">
+          style="top: 50px;left: 150px;">
         </tag>
         <svg
           class="row-line"
           style="top: 16px;left: 91px;">
           <path d="M0 10 l10 -10">
           </path>
-          <path d="M10 0 l 30 0">
+          <path d="M10 0 l 50 0">
           </path>
         </svg>
         <svg
@@ -30,32 +30,32 @@
           style="top: 65px;left: 91px;">
           <path d="M0 0 l10 10">
           </path>
-          <path d="M10 10 l 30 0">
+          <path d="M10 10 l 50 0">
           </path>
         </svg>
       </div>
       
-      <div class="arc-wrapper">
+      <div class="arc-wrapper" style="margin-top: 33px;">
         <div class="arc-inner">
           <img :src="iconMap['safety']">
           <div>{{$t('features.safety.title')}}</div>
         </div>
         <tag
           :tagKey="'safety'"
-          style="top: -10px;left: 140px;">
+          style="top: -10px;left: 150px;">
         </tag>
         <tag
           :active='true'
           :tagKey="'safety'"
           :index='1'
-          style="top: 50px;left: 140px;">
+          style="top: 50px;left: 150px;">
         </tag>
         <svg
           class="row-line"
           style="top: 16px;left: 91px;">
           <path d="M0 10 l10 -10">
           </path>
-          <path d="M10 0 l 30 0">
+          <path d="M10 0 l50 0">
           </path>
         </svg>
         <svg
@@ -63,7 +63,50 @@
           style="top: 65px;left: 91px;">
           <path d="M0 0 l10 10">
           </path>
-          <path d="M10 10 l 30 0">
+          <path d="M10 10 l 50 0">
+          </path>
+        </svg>
+      </div>
+
+      <div class="arc-wrapper" style="margin-top: 61px;">
+        <div class="arc-inner">
+          <img :src="iconMap['economical']">
+          <div>{{$t('features.economical.title')}}</div>
+        </div>
+        <tag
+          :tagKey="'economical'"
+          style="top: -40px;left: 150px;">
+        </tag>
+        <tag
+          :tagKey="'economical'"
+          :index='1'
+          style="top: 20px;left: 150px;">
+        </tag>
+        <tag
+          :tagKey="'economical'"
+          :index='2'
+          style="top: 80px;left: 150px;">
+        </tag>
+        <svg
+          class="row-line row-line2"
+          style="top: -16px;left: 82px;">
+          <path d="M0 22 l22 -22">
+          </path>
+          <path d="M22 0 l38 0">
+          </path>
+        </svg>
+        <svg
+          class="row-line"
+          style="top: 40px;left: 94px;">
+          <path d="M0 5 l50 0">
+          </path>
+        </svg>
+        <svg
+          class="row-line row-line2"
+          style="top: 82px;left: 84px;">
+          <path d="M0 0 l22 22">
+          </path>
+          <path d="M22 22 l38 0">
           </path>
         </svg>
       </div>
@@ -366,7 +409,7 @@ export default {
     }
     .row-line {
       position: absolute;
-      width: 40px;
+      width: 50px;
       height: 10px;
       path {
         shape-rendering: crispEdges;
@@ -379,6 +422,10 @@ export default {
           stroke-linecap: round;
         }
       }
+    }
+    .row-line2 {
+      width: 60px;
+      height: 22px;
     }
   }
 }
