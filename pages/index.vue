@@ -34,7 +34,7 @@
 
     <!-- <v-ecology></v-ecology> vite生态 -->
 
-    <v-feature></v-feature>
+    <!-- <v-feature></v-feature> -->
 
     <!-- <v-video></v-video> vite视频 -->
 
@@ -49,7 +49,7 @@
 <script>
 // import News from '~/components/News.vue';
 // import Ecology from '~/components/Ecology';
-import Feature from '~/components/feature';
+// import Feature from '~/components/feature';
 import product from '~/components/product.vue';
 import New from '~/components/New/index.vue';
 // import Video from '~/components/Video.vue';
@@ -72,7 +72,7 @@ export default {
     
     // VNews: News,
     // VEcology: Ecology,
-    VFeature: Feature,
+    // VFeature: Feature,
     VNew: New,
     VProduct: product,
     // VVideo: Video,

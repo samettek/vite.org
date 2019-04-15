@@ -175,6 +175,7 @@
           <tag
             :tagKey="'easyusing'"
             :index='2'
+            :active='true'
             style="top: 45px;left: -162px;">
           </tag>
           <tag
@@ -244,21 +245,18 @@ export default {
 @import "~assets/vars";
 .scroll-container {
   font-family: $font-family-title;
-  width: 100%;
-  overflow-x: auto;
-  overflow-y: hidden;
-  margin-top: 125px;
+  width: 600px;
   display: flex;
   flex-direction: column;
   
-  @include mobile {
-    height: 750px;
-  }
 }
 
 .feature_wrapper {
-  height: 700px;
-  padding: 60px;
+  height: 450px;
+  padding: 25px;
+  .feature-left {
+    margin-left: 30px;
+  }
   .feature-right {
     margin-left: 390px;
   }

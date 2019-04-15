@@ -1,10 +1,15 @@
 <template>
   <section>
-    <text-card 
-      :title="$t('products.platform.title')" 
-      :text-list="$t('products.platform.textList')"
-      :outer-link="link.platform">
-    </text-card>
+    <div class="is-flex">
+      <text-card 
+        :title="$t('products.platform.title')" 
+        :text-list="$t('products.platform.textList')"
+        :outer-link="link.platform"
+        style="margin-right: 25px;">
+      </text-card>
+      <Feature></Feature>
+    </div>
+    
     
     <div 
       class="products__common is-flex" 
@@ -24,10 +29,12 @@
 
 <script type="text/babel">
 import textCard from './textCard';
+import Feature from '~/components/feature';
 
 export default {
   components: {
-    textCard
+    textCard,
+    Feature
   },
   data: function () {
     return {
