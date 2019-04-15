@@ -9,7 +9,7 @@
     <ul>
       <li class="is-common is-finish" v-if="type === 'completed'">
         <div class="desc-wrapper">
-          <div class="desc special-item">
+          <div class="desc special-item" @click="clickPrevious">
             <p> PREVIOUS </p>
           </div>
         </div>
@@ -22,7 +22,7 @@
           'is-next': type === 'nextStep' 
         }"
         :key="item.time"
-        v-for="(item) in timeLines">
+        v-for="(item) in list">
         <div class="desc-wrapper">
           <span class="time">{{item.time}}</span>
           <div class="desc">
@@ -43,7 +43,7 @@
       </li>
       <li class="is-common is-next" v-if="type === 'nextStep'">
         <div class="desc-wrapper">
-          <div class="desc special-item">
+          <div class="desc special-item" @click="clickNext">
             <p> NEXT </p>
           </div>
         </div>
@@ -52,6 +52,7 @@
   </div>
 </template>
 <script type="text/babel">
+
 export default {
   props: {
     type: {
@@ -64,13 +65,30 @@ export default {
     }
   },
   computed: {
-    
+    list() {
+      if (this.type === 'completed') {
+        return this.previousOpen ? this.timeLines : this.timeLines.slice(7);
+      }
+      if (this.type === 'nextStep') {
+        return this.nextOpen ? this.timeLines : this.timeLines.slice(0, 2);
+      }
+      return this.timeLines;
+    }
   },
   data: function () {
     return {
-      finished: 8
+      previousOpen: false,
+      nextOpen: false,
     };
   },
+  methods: {
+    clickPrevious() {
+      this.previousOpen = !this.previousOpen;
+    },
+    clickNext() {
+      this.nextOpen = !this.nextOpen;
+    }
+  }
 };
 </script>
 <style rel="stylesheet/scss" lang="scss" scoped>
@@ -84,6 +102,7 @@ $timelineCommonColor: #919AA3;
 .timeline {
   padding-right: 200px;
   .special-item {
+    cursor: pointer;
     font-size:16px;
     font-family:Poppins-SemiBold;
     font-weight:600;
@@ -143,25 +162,8 @@ $timelineCommonColor: #919AA3;
           // background: #919AA3;
         }
       }
-      &.is-finish {
-        color: $timelineCommonColor;
-        border-right: 2px solid $timelineCommonColor;
-        &::before {
-          content: "";
-          position: absolute;
-          left: 100%;
-          transform: translateX(-50%);
-          width: $dot-size;
-          height: $dot-size;
-          border-radius: 50%;
-          background: #ccd0d4;
-        }
-        &::after {
-          background: $timelineCommonColor;
-        }
-      }
+      
       &.is-in-progress {
-        color: $timelineColor;
         border-right: 2px dashed $timelineColor;
         &::before {
           content: "";
@@ -199,7 +201,7 @@ $timelineCommonColor: #919AA3;
           position: absolute;
           right: 24px;
           display: inline;
-          // color: #007aff;
+          color: #007aff;
           letter-spacing: 0.23px;
           text-align: right;
           font-size:16px;
@@ -222,6 +224,29 @@ $timelineCommonColor: #919AA3;
           }
         }
       }
+
+      &.is-finish {
+        color: $timelineCommonColor;
+        border-right: 2px solid $timelineCommonColor;
+        &::before {
+          content: "";
+          position: absolute;
+          left: 100%;
+          transform: translateX(-50%);
+          width: $dot-size;
+          height: $dot-size;
+          border-radius: 50%;
+          background: #ccd0d4;
+        }
+        &::after {
+          background: $timelineCommonColor;
+        }
+        .desc-wrapper {
+          .time {
+            color: $timelineCommonColor;
+          }
+        }
+      }
       
       &.is-next{
         color: $timelineCommonColor;
@@ -233,6 +258,7 @@ $timelineCommonColor: #919AA3;
         .desc-wrapper {
           .time {
             top: -5px;
+            color: $timelineCommonColor;
           }
           .desc {
             margin-top: -6px;
