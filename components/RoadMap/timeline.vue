@@ -7,10 +7,22 @@
       {{ $t(`roadmap.${type}`) }}
     </div>
     <ul>
+      <li class="is-common is-finish" v-if="type === 'completed'">
+        <div class="desc-wrapper">
+          <div class="desc special-item">
+            <p> PREVIOUS </p>
+          </div>
+        </div>
+      </li>
       <li
-        :class="{ 'is-finish': index<=finished }"
+        class="is-common"
+        :class="{ 
+          'is-finish': type === 'completed',
+          'is-in-progress':  type === 'inProgress',
+          'is-next': type === 'nextStep' 
+        }"
         :key="item.time"
-        v-for="(item, index) in timeLines">
+        v-for="(item) in timeLines">
         <div class="desc-wrapper">
           <span class="time">{{item.time}}</span>
           <div class="desc">
@@ -26,6 +38,13 @@
                 </p>
               </a>
             </div>
+          </div>
+        </div>
+      </li>
+      <li class="is-common is-next" v-if="type === 'nextStep'">
+        <div class="desc-wrapper">
+          <div class="desc special-item">
+            <p> NEXT </p>
           </div>
         </div>
       </li>
@@ -60,9 +79,17 @@ export default {
 $dot-size: 1.5rem;
 $dot-gap: 0.5;
 $dot-size-inner: 0.75rem;
+$timelineCommonColor: #919AA3;
 
 .timeline {
   padding-right: 200px;
+  .special-item {
+    font-size:16px;
+    font-family:Poppins-SemiBold;
+    font-weight:600;
+    color:rgba(145,154,163,1);
+    line-height:20px;
+  }
   .timeline__title {
     display: inline-block;
     margin-left: calc(100% + 30px);
@@ -90,10 +117,10 @@ $dot-size-inner: 0.75rem;
     }
     & li:last-child {
       // min-width: 180px;
-      border-right: none;
+      // border-right: none;
       &::after {
-        width: 0;
-        height: 0;
+        // width: 0;
+        // height: 0;
       }
     }
     li {
@@ -102,8 +129,23 @@ $dot-size-inner: 0.75rem;
       min-width: 120px;
       margin: 0 auto;
       border-right: 2px dashed $timelineColor;
+      
+      &.is-common {
+        // color: #919AA3;
+        border-right: 2px dashed $timelineColor;
+        
+        &::after {
+          left: 100%;
+          width: $dot-size-inner;
+          height: $dot-size-inner;
+          top: ($dot-size * ((1 - $dot-gap) / 2));
+          background: $timelineColor;
+          // background: #919AA3;
+        }
+      }
       &.is-finish {
-        border-right: 2px solid $timelineColor;
+        color: $timelineCommonColor;
+        border-right: 2px solid $timelineCommonColor;
         &::before {
           content: "";
           position: absolute;
@@ -112,17 +154,30 @@ $dot-size-inner: 0.75rem;
           width: $dot-size;
           height: $dot-size;
           border-radius: 50%;
-          // top: -($dot-size * (1 - $dot-gap));
+          background: #ccd0d4;
+        }
+        &::after {
+          background: $timelineCommonColor;
+        }
+      }
+      &.is-in-progress {
+        color: $timelineColor;
+        border-right: 2px dashed $timelineColor;
+        &::before {
+          content: "";
+          position: absolute;
+          left: 100%;
+          transform: translateX(-50%);
+          width: $dot-size;
+          height: $dot-size;
+          border-radius: 50%;
           background: #b8d8ff;
         }
         &::after {
-          left: 100%;
-          width: $dot-size-inner;
-          height: $dot-size-inner;
-          top: ($dot-size * ((1 - $dot-gap) / 2));
           background: $timelineColor;
         }
       }
+      
       &::after {
         content: "";
         position: absolute;
@@ -132,41 +187,62 @@ $dot-size-inner: 0.75rem;
         height: $dot-size-inner;
         border-radius: 50%;
         top: -($dot-size * ((1 - $dot-gap) / 2));
-        background: $timelineColor;
+        // background: $timelineColor;
+        background: #919AA3;
       }
-    }
-  }
-  .desc-wrapper {
-    width: 200%;
-    padding-bottom: 10px;
-    .time {
-      font-family: $font-family-title;
-      position: absolute;
-      right: 24px;
-      display: inline;
-      color: #007aff;
-      letter-spacing: 0.23px;
-      text-align: right;
-      font-size:16px;
-      font-family:Poppins-SemiBold;
-      font-weight:600;
-      line-height:24px;
-    }
-    .desc {
-      display: inline-block;
-      width: 220px;
-      min-height: 50px;
-      margin-left: calc(100%/2 + 30px);
-      font-size: 13px;
+      
+      .desc-wrapper {
+        width: 200%;
+        padding-bottom: 10px;
+        .time {
+          font-family: $font-family-title;
+          position: absolute;
+          right: 24px;
+          display: inline;
+          // color: #007aff;
+          letter-spacing: 0.23px;
+          text-align: right;
+          font-size:16px;
+          font-family:Poppins-SemiBold;
+          font-weight:600;
+          line-height:24px;
+        }
+        .desc {
+          display: inline-block;
+          width: 220px;
+          min-height: 30px;
+          margin-left: calc(100%/2 + 30px);
+          font-size: 13px;
 
-      color: #171c34;
-      letter-spacing: 0;
-      line-height: 17px;
-      p {
-        margin-top: 5px;
+          // color: #171c34;
+          letter-spacing: 0;
+          line-height: 17px;
+          p {
+            margin-top: 5px;
+          }
+        }
       }
+      
+      &.is-next{
+        color: $timelineCommonColor;
+        border-right: 2px dashed $timelineCommonColor;
+        &::after {
+          background: $timelineCommonColor;
+          top: 0;
+        }
+        .desc-wrapper {
+          .time {
+            top: -5px;
+          }
+          .desc {
+            margin-top: -6px;
+          }
+        }
+      }
+
     }
   }
+  
 }
 
 /* EFFECTS
