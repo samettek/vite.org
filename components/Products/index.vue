@@ -1,15 +1,17 @@
 <template>
   <section>
-    <div class="is-flex">
-      <text-card 
-        :title="$t('products.platform.title')" 
-        :text-list="$t('products.platform.textList')"
-        :outer-link="link.platform"
-        style="margin-right: 25px;">
-      </text-card>
-      <Feature></Feature>
+    <div class="products__platform">
+      <div class="is-flex">
+        <text-card 
+          :title="$t('products.platform.title')" 
+          :text-list="$t('products.platform.textList')"
+          :outer-link="link.platform"
+          style="margin-right: 25px;">
+        </text-card>
+        <Feature></Feature>
+      </div>
+      <Stats></Stats>
     </div>
-    
     
     <div 
       class="products__common is-flex" 
@@ -30,11 +32,13 @@
 <script type="text/babel">
 import textCard from './textCard';
 import Feature from '~/components/feature';
+import Stats from './Stats/index.vue';
 
 export default {
   components: {
     textCard,
-    Feature
+    Feature,
+    Stats
   },
   data: function () {
     return {

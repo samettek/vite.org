@@ -121,6 +121,13 @@
         "title": "产品",
         "platform": {
             "title": "高性能去中心化平台",
+            "explorer": "到区块浏览器查看Vite网络状况",
+            "supernode": {
+                "title": "Vite超级节点出块率达99.9%"
+            },
+            "fullnode": {
+                "title": "Vite全节点4个月数量达1047"
+            },
             "textList": [{
                 "name": "高性能",
                 "description": "Vite通过DAG账本和异步架构设计确保了平台快速、高吞吐"
