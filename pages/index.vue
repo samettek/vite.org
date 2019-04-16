@@ -1,6 +1,12 @@
 <template>
   <div>
-    <div class="airdrop__fiexd">参与空投</div>
+    <div class="airdrop__fiexd">
+      <nuxt-link
+        :to="localePath('airdrop')"
+        class="text-hover-transition">
+        {{$t('home.jionAirdrop')}}
+      </nuxt-link>
+    </div>
     <section class="hero home">
       <div class="hero-body">
         <div class="container">
@@ -132,10 +138,17 @@ export default {
   font-size:16px;
   font-family:PingFangSC-Semibold;
   font-weight:600;
-  color:rgba(255,255,255,1);
   box-sizing: border-box;
-  padding-left: 60px; 
+  
   line-height:50px;
+  cursor: pointer;
+  a {
+    display: inline-block;
+     padding-left: 60px; 
+     width: 200px;
+     height: 50px;
+    color: white;
+  }
 }
 .wallet-app-container {
   display: flex;
