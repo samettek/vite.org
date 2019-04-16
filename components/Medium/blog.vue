@@ -5,7 +5,7 @@
         <div class="blog__card-title">{{ $t('medium.blog.title') }}</div>
         <div class="blog__card-desc">{{ $t('medium.blog.desc') }}</div>
       </div>
-      <div><img src="~/assets/images/medium/M.svg"/></div>
+      <div class="M-img"><img src="~/assets/images/medium/M.svg"/></div>
     </div>
   </div>
 </template>
@@ -43,6 +43,9 @@ export default {
     font-weight:400;
     color:rgba(23,28,52,1);
     line-height:20px;
+  }
+  .M-img {
+    margin-left: 20px; 
   }
 }
 
