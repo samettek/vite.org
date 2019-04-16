@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container" id="blogs">
     <div class="blog__card is-flex">
       <div>
         <div class="blog__card-title">{{ $t('medium.blog.title') }}</div>

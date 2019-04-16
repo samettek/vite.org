@@ -17,14 +17,14 @@
           >
           {{$t(`nav.${item.name}`)}}
         </a>
-        <nuxt-link 
-          :to="localePath(item.to)"
+        <a
+          :href="item.anchor ? `${localePath(item.to)}#${item.anchor}` : localePath(item.to)"
           class="dropdown-item" 
           v-for="(item, index) in list" 
           :key="index"
           v-if="item.type && item.type === 'inner'">
           {{$t(`nav.${item.name}`)}}
-        </nuxt-link>
+        </a>
       </div>
     </div>
   </div>

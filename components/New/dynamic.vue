@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="dynamic">
     <h1 class="is-border-box">{{ $t('New.dynamic.title') }}</h1>
     <div class="pic">
 

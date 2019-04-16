@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="products__platform">
+    <div class="products__platform" id="platform">
       <div class="is-flex">
         <text-card 
           :title="$t('products.platform.title')" 
@@ -16,7 +16,8 @@
     <div 
       class="products__common is-flex" 
       v-for="(item, index) in list" 
-      :key="index">
+      :key="index"
+      :id="item">
       <img :src="require(`~/assets/images/product/products${index+1}.png`)" />
       <text-card 
         :class="`mt products__${item}-text`"

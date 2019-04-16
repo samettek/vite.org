@@ -20,13 +20,11 @@
             <WhitePaper class="wp-btn"></WhitePaper>
             <div class="btn-group-wrapper">
               <a
-                :href="webWallet"
-                target="_blank"
+                href="#activity"
                 class="pop-btn"
               >{{$t('home.activity1')}}</a>
               <a
-                :href="explorer"
-                target="_blank"
+                href="#dynamic"
                 class="pop-btn other-btn"
               >{{$t('home.activity2')}}</a>
             </div>
@@ -112,17 +110,6 @@ export default {
   methods: {
     onNavClick () {
       this.navbarActive = false;
-    }
-  },
-  computed: {
-    vitenet () {
-      return config.urls.viteNet[this.$i18n.locale];
-    },
-    webWallet () {
-      return config.urls.webWallet[this.$i18n.locale];
-    },
-    explorer () {
-      return config.urls.explorer[this.$i18n.locale];
     }
   }
 };

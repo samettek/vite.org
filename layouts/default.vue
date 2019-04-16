@@ -211,41 +211,50 @@ export default {
       navProductionList: [{
         type: 'inner',
         name: 'platform',
-        to: 'products'
+        to: 'products',
+        anchor: 'platform'
       }, {
         type: 'inner',
         name: 'wallet',
-        to: 'products'
+        to: 'products',
+        anchor: 'wallet'
       }, {
         type: 'inner',
         name: 'exchange',
-        to: 'products'        
+        to: 'products',
+        anchor: 'exchange'      
       }, {
         type: 'inner',
         name: 'pay',
-        to: 'products'
+        to: 'products',
+        anchor: 'pay'
       }],
       navPersonList: [{
         type: 'inner',
         name: 'team',
-        to: 'figure'
+        to: 'figure',
+        anchor: 'team'
       }, {
         type: 'inner',
         name: 'investor',
-        to: 'figure'
+        to: 'figure',
+        anchor: 'investor'
       }, {
         type: 'inner',
         name: 'community',
-        to: 'figure'        
+        to: 'figure',
+        anchor: 'community'       
       }],
       navMediaList: [{
         type: 'inner',
         name: 'blogs',
-        to: 'medium'
+        to: 'medium',
+        anchor: 'blogs'
       }, {
         type: 'inner',
         name: 'news',
-        to: 'medium'
+        to: 'medium',
+        anchor: 'news'
       }],
       navGuideList: [{
         type: 'outer',
