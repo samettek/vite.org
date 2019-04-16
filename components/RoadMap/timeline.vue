@@ -10,7 +10,7 @@
       <li class="is-common is-finish" v-if="type === 'completed'">
         <div class="desc-wrapper">
           <div class="desc special-item" @click="clickPrevious">
-            <p> PREVIOUS <img src="~/assets/images/roadmap/previous.svg"/></p>
+            <p> {{ $t(`roadmap.previous`) }} <img src="~/assets/images/roadmap/previous.svg"/></p>
           </div>
         </div>
       </li>
@@ -44,7 +44,7 @@
       <li class="is-common is-next" v-if="type === 'nextStep'">
         <div class="desc-wrapper">
           <div class="desc special-item" @click="clickNext">
-            <p> NEXT <img src="~/assets/images/roadmap/next.svg"/></p>
+            <p> {{ $t(`roadmap.next`) }}  <img src="~/assets/images/roadmap/next.svg"/></p>
           </div>
         </div>
       </li>

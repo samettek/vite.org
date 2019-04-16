@@ -224,6 +224,8 @@
         "inProgress": "正在进行",
         "completed": "已完成",
         "nextStep": "下一步",
+        "previous": "PREVIOUS",
+        "next": "NEXT",
         "timelines": [
             {
                 "time": "2018.02",
