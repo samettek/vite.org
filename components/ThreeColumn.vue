@@ -1,35 +1,30 @@
 <template>
   <div class="three-column is-flex">
-    <div v-for="(item, index) in list" :key="index" class="three-column-item">
+    <div 
+      v-for="(item, index) in list" 
+      :key="index" 
+      class="three-column-item" 
+      v-if="list.length">
       <img :src="item.img" width="320px" height="213px"/>
-      <div class="date">{{ item.date }}</div>
-      <div class="desc">{{ item.desc }}</div>
-      <div class="copyright">@ {{ item.copyright }}</div>
+      <div class="date" v-if="item.date">{{ item.date }}</div>
+      <div class="desc" v-if="item.desc">{{ item.desc }}</div>
+      <div class="copyright" v-if="item.copyright">@ {{ item.copyright }}</div>
     </div>
   </div>
 </template>
 
 <script type="text/babel">
   export default {
+    props: {
+      list: {
+        type: Array,
+        default: () => []
+      }
+    },
   
     data: function () {
       return {
-        list: [{
-          img: require('~/assets/images/product/products1.png'),
-          date: '2019.01.01',
-          desc: '首款可战斗的区块链游首款可战斗的区块链游首款可战斗的区块链游首款可战斗的区块链游',
-          copyright: 'lnc.'
-        }, {
-          img: require('~/assets/images/product/products1.png'),
-          date: '2019.01.01',
-          desc: '首款可战斗的区块链游首款可战斗的区块链游首款可战斗的区块链游首款可战斗的区块链游',
-          copyright: 'lnc.'
-        }, {
-          img: require('~/assets/images/product/products1.png'),
-          date: '2019.01.01',
-          desc: '首款可战斗的区块链游首款可战斗的区块链游首款可战斗的区块链游首款可战斗的区块链游',
-          copyright: 'lnc.'
-        }]
+        
       };
     },
     methods: {}

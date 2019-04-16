@@ -2,7 +2,7 @@
   <div id="activity">
     <h1 class="is-border-box">{{ $t('New.activity.title') }}</h1>
     <div class="pic">
-
+      <three-column :list="list"></three-column>
     </div>
     <div>
       <a 
@@ -17,8 +17,23 @@
   </div>
 </template>
 <script type="text/babel">
+import ThreeColumn from '~/components/ThreeColumn';
+
 export default {
-  
+  components: {
+    ThreeColumn
+  },
+  data() {
+    return {
+      list: [{
+        img: require('~/assets/images/product/products1.png'),
+      }, {
+        img: require('~/assets/images/product/products1.png'),
+      }, {
+        img: require('~/assets/images/product/products1.png'),
+      }]
+    };
+  }
 };
 </script>
 <style rel="stylesheet/scss" lang="scss" scoped>
