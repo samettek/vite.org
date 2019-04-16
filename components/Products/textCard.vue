@@ -16,6 +16,7 @@
           target="_blank"
           v-if="outerLink.url">
           {{ outerLink.name }}
+          <img src="~/assets/images/arrow_forward.svg"/>
         </a>
         <div v-else>{{ outerLink.name }}</div>
       </div>

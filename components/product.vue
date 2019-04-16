@@ -9,7 +9,7 @@
           :key="item.key"
         >
           <div class="is-info">
-            <img :src="item.img" />
+            <img class="product__img"   :src="item.img" />
             <div class="product-desc">
               <div class="desc__title">{{ $t(`product.${item.key}.title`) }}</div>
               <div class="desc__subtitle">{{ $t(`product.${item.key}.subtitle`) }}</div>
@@ -18,6 +18,7 @@
                 :href="item.url"
                 target="_blank"> 
                 {{ $t(`product.${item.key}.link`) }}
+                <img src="~/assets/images/arrow_forward.svg"/>
               </a>
               <wallet-btn v-else></wallet-btn>
             </div>
@@ -102,7 +103,7 @@ section {
       line-height:18px;
     }
   }
-  img {
+  .product__img {
     width: 450px;
     height: 359px;
     @include mobile {
