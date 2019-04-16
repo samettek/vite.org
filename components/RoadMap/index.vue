@@ -1,12 +1,28 @@
 <template>
   <section>
     <h1 class="roadmap-title">{{ $t('roadmap.title')}}</h1>
-
-    <div class="container is-flex roadmap__timeline">
-      <timeline :time-lines="completedList" type="completed"></timeline>
-      <timeline :time-lines="inProgress" type="inProgress"></timeline>
-      <timeline :time-lines="nextStep" type="nextStep"></timeline>
+    <div class="is-hidden-touch">
+      <div class="container is-flex roadmap__timeline">
+        <timeline :time-lines="tableList(item)" :type="item" v-for="(item, index) in tabs" :key="index"></timeline>
+      </div>
     </div>
+
+    <div class="is-hidden-desktop">
+      <div class="tab-wrapper">
+        <div
+          v-for="(item, index) in tabs"
+          :key="index"
+          class="tab-content" 
+          :class="{'is-active': tabParams === item}" 
+          @click="clickTab(item)">
+          {{$t('faq.common')}}
+        </div>
+      </div>
+      <div class="container is-flex roadmap__timeline">
+        <timeline :time-lines="list" :type="tabParams" ></timeline>
+      </div>
+    </div>
+
   </section>
 </template>
 
@@ -19,21 +35,41 @@ export default {
   },
   data: function () {
     return {
-      finished: 8
+      tabParams: 'inProgress',
+      tabs: ['completed', 'inProgress', 'nextStep']
     };
   },
   computed: {
-    completedList() {
-      return this.getTimelines().slice(0, 9);
-    },
-    inProgress() {
-      return this.getTimelines().slice(9, 10);
-    },
-    nextStep() {
-      return this.getTimelines().slice(10);
+    list() {
+      if (this.tabParams === 'completed') {
+        return this.getTimelines().slice(0, 9);
+      }
+      if (this.tabParams === 'inProgress') {
+        return this.getTimelines().slice(9, 10);
+      }
+      if (this.tabParams === 'nextStep') {
+        return this.getTimelines().slice(10);
+      }
+      return [];
     }
   },
   methods: {
+    tableList(item) {
+      for (let i = 0; i < this.tabs.length; i++) {
+        if (item === 'completed') {
+          return this.getTimelines().slice(0, 9);
+        }
+        if (item === 'inProgress') {
+          return this.getTimelines().slice(9, 10);
+        }
+        if (item === 'nextStep') {
+          return this.getTimelines().slice(10);
+        }
+      }
+    },
+    clickTab(str) {
+      this.tabParams = str;
+    },
     getTimelines() {
       let roadmaps = this.$t('roadmap.timelines');
       if (!Array.isArray(roadmaps)) {
