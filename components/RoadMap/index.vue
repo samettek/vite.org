@@ -57,10 +57,6 @@ export default {
 @import "~assets/vars";
 
 section {
-  height: 700px;
-  @include mobile {
-    height: 360px;
-  }
   .roadmap-title {
     text-align: center;
     padding-top: 109px;
