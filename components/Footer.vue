@@ -198,13 +198,13 @@ export default {
     let { urls } = config;
     return {
       navMoreList: [{
-        type: 'inner',
+        type: 'outer',
         name: 'explorer',
-        to: 'xxx'
+        to: 'https://explorer.vite.net'
       }, {
-        type: 'inner',
+        type: 'outer',
         name: 'store',
-        to: 'xxx'
+        to: this.$i18n.locale === 'zh' ? 'https://vite.store/' : 'https://global.vite.store'
       }],
       urls,
       aboutList: ['tokenUrl'],
