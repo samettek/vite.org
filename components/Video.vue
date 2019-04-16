@@ -1,14 +1,12 @@
 <template>
-  <section class="is-flex" @click="play">
-    <div>
-      <div class="video__head is-flex">
-        <div class="video__head-icon"></div>
-        <div class="video__head-icon"></div>
-        <div class="video__head-icon"></div>
-      </div>
-      <div class="video__img is-flex">
-        <img  src="~assets/images/video/play.svg"/>
-      </div>
+  <section @click="play">
+    <div class="video__head is-flex">
+      <div class="video__head-icon"></div>
+      <div class="video__head-icon"></div>
+      <div class="video__head-icon"></div>
+    </div>
+    <div class="video__img is-flex">
+      <img  src="~assets/images/video/play.svg"/>
     </div>
   </section>
 </template>
@@ -57,7 +55,7 @@ export default {
       justify-content: center;
       align-items: center;
       @include mobile {
-        width: 334px;
+        width: 100%;
         height: 202px;
       }
     }

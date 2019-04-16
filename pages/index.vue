@@ -219,9 +219,16 @@ export default {
   .topinfo__left {
     padding-bottom: 130px;
     margin-right: 50px;
+    @include mobile {
+      padding-bottom: 40px;
+      margin-right: 0px;
+    }
   }
   .topinfo__right {
     align-self: flex-end;
+    @include mobile {
+      align-self: stretch;
+    }
   }
 
   .slogan-wrapper {
