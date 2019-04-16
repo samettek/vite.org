@@ -1,5 +1,5 @@
 <template>
-  <section class="section is-flex" @click="play">
+  <section class="is-flex" @click="play">
     <div>
       <div class="video__head is-flex">
         <div class="video__head-icon"></div>
@@ -33,7 +33,6 @@ export default {
 
 <style rel="stylesheet/scss" lang="scss" scoped>
   @import "~assets/vars";
-  .section {
     .video__head {
       background:rgba(255,255,255,1);
       box-shadow:0px 4px 15px 0px rgba(7,42,68,0.1);
@@ -57,11 +56,14 @@ export default {
       text-align: center;
       justify-content: center;
       align-items: center;
+      @include mobile {
+        width: 334px;
+        height: 202px;
+      }
     }
     img {
       cursor: pointer;
     }
-  }
 
 </style>
 

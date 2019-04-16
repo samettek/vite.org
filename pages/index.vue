@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="airdrop__fiexd">
+    <div class="airdrop__fiexd is-tablet">
       <nuxt-link
         :to="localePath('airdrop')"
         class="text-hover-transition">
@@ -9,7 +9,7 @@
     </div>
     <section class="hero home">
       <div class="hero-body">
-        <div class="container is-flex">
+        <div class="container is-flex topinfo">
           <div class="topinfo__left">
             <div class="is-size-1-desktop is-size-2-touch slogan-wrapper">
               <h1>
@@ -211,7 +211,11 @@ export default {
       display: block;
     }
   }
-
+  .topinfo {
+    @include mobile {
+      flex-direction: column;
+    }
+  }
   .topinfo__left {
     padding-bottom: 130px;
     margin-right: 50px;
