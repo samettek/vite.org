@@ -115,6 +115,15 @@
         "link": "Vite商城"
     }
   },
+  "New": {
+    "activity":{
+        "title": "最新活动",
+        "more": "查看更多"
+    },
+    "dynamic": {
+        "title": "最新动态"
+    }
+  },
   "products": {
     "title": "产品",
     "platform": {

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="is-border-box">最新动态</h1>
+    <h1 class="is-border-box">{{ $t('New.dynamic.title') }}</h1>
     <div class="pic">
 
     </div>
