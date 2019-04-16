@@ -1,5 +1,6 @@
 <template>
   <div>
+    <div class="airdrop__fiexd">参与空投</div>
     <section class="hero home">
       <div class="hero-body">
         <div class="container">
@@ -119,6 +120,23 @@ export default {
 
 <style lang="scss" scoped>
 @import "assets/vars.scss";
+.airdrop__fiexd {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  z-index: 999;
+  background-image: url("~assets/images/airdrop.svg");
+  background-size: cover;
+  width: 200px;
+  height: 50px;
+  font-size:16px;
+  font-family:PingFangSC-Semibold;
+  font-weight:600;
+  color:rgba(255,255,255,1);
+  box-sizing: border-box;
+  padding-left: 60px; 
+  line-height:50px;
+}
 .wallet-app-container {
   display: flex;
   display: -webkit-flex;
