@@ -9,25 +9,30 @@
     </div>
     <section class="hero home">
       <div class="hero-body">
-        <div class="container">
-          <div class="is-size-1-desktop is-size-2-touch slogan-wrapper">
-            <h1>
-              VITE
-            </h1>
-            <h2>{{$t("home.slogan")}}</h2>
+        <div class="container is-flex">
+          <div class="topinfo__left">
+            <div class="is-size-1-desktop is-size-2-touch slogan-wrapper">
+              <h1>
+                VITE
+              </h1>
+              <h2>{{$t("home.slogan")}}</h2>
+            </div>
+            <WhitePaper class="wp-btn"></WhitePaper>
+            <div class="btn-group-wrapper">
+              <a
+                :href="webWallet"
+                target="_blank"
+                class="pop-btn"
+              >{{$t('home.activity1')}}</a>
+              <a
+                :href="explorer"
+                target="_blank"
+                class="pop-btn other-btn"
+              >{{$t('home.activity2')}}</a>
+            </div>
           </div>
-          <WhitePaper class="wp-btn"></WhitePaper>
-          <div class="btn-group-wrapper">
-            <a
-              :href="webWallet"
-              target="_blank"
-              class="pop-btn"
-            >{{$t('home.activity1')}}</a>
-            <a
-              :href="explorer"
-              target="_blank"
-              class="pop-btn other-btn"
-            >{{$t('home.activity2')}}</a>
+          <div class="topinfo__right">
+            <v-video></v-video>
           </div>
         </div>
       </div>
@@ -59,7 +64,7 @@
 // import Feature from '~/components/feature';
 import product from '~/components/product.vue';
 import New from '~/components/New/index.vue';
-// import Video from '~/components/Video.vue';
+import Video from '~/components/Video.vue';
 // import Investor from '~/components/Investor';
 import Logo from '~/components/Logo.vue';
 import LogoWord from '~/components/LogoWord';
@@ -82,7 +87,7 @@ export default {
     // VFeature: Feature,
     VNew: New,
     VProduct: product,
-    // VVideo: Video,
+    VVideo: Video,
     Logo,
     LogoWord,
     // VInvestor: Investor,
@@ -218,6 +223,14 @@ export default {
     .hero-body {
       display: block;
     }
+  }
+
+  .topinfo__left {
+    padding-bottom: 130px;
+    margin-right: 50px;
+  }
+  .topinfo__right {
+    align-self: flex-end;
   }
 
   .slogan-wrapper {

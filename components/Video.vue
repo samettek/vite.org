@@ -1,7 +1,15 @@
 <template>
-  <section class="section" @click="play">
-    <img src="~assets/images/video/play.svg"/>
-    <div class="video-text">Let's Create Something Cool</div>
+  <section class="section is-flex" @click="play">
+    <div>
+      <div class="video__head is-flex">
+        <div class="video__head-icon"></div>
+        <div class="video__head-icon"></div>
+        <div class="video__head-icon"></div>
+      </div>
+      <div class="video__img is-flex">
+        <img  src="~assets/images/video/play.svg"/>
+      </div>
+    </div>
   </section>
 </template>
 
@@ -26,21 +34,32 @@ export default {
 <style rel="stylesheet/scss" lang="scss" scoped>
   @import "~assets/vars";
   .section {
-    height: 700px;
-    background: url("~assets/images/video/bg.jpg") 51% 0%;
-    background-size: cover;
-    text-align: center;
-    img {
-        cursor: pointer;
-      margin-top: 178px;
+    .video__head {
+      background:rgba(255,255,255,1);
+      box-shadow:0px 4px 15px 0px rgba(7,42,68,0.1);
+      border-radius:10px 10px 0 0;
+      height: 45px;
+      box-sizing: border-box;
+      padding: 18px 0 0 18px;
+      .video__head-icon {
+        width:11px;
+        height:11px;
+        background:#cce5ff;
+        margin-right: 7px; 
+        border-radius: 11px;
+      }
     }
-    .video-text {
-      margin-top: 60px; 
-      font-family: $font-family-title;
-      font-size: 44px;
-      color: #FFFFFF;
-      letter-spacing: 1.1px;
+    .video__img {
+      width: 665px;
+      height: 403px;
+      background: url("~assets/images/video/bg.jpg") 51% 0%;
+      background-size: cover;
       text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
+    img {
+      cursor: pointer;
     }
   }
 
