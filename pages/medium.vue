@@ -1,11 +1,11 @@
 <template>
-  <section class="section">
-    <div class="container">
+  <section>
+    <div class="container medium__title">
       <h1>{{$t('medium.title')}}</h1>
     </div>
-    <youtube></youtube>
-    <blog></blog>
-    <report></report>
+    <youtube class="section"></youtube>
+    <blog class="section"></blog>
+    <report class="section"></report>
   </section>
 </template>
 
@@ -30,9 +30,11 @@ export default {
 
 <style  rel="stylesheet/scss" lang="scss" scoped>
 @import "assets/vars.scss";
-.section {
-  padding: 0px;
+.medium__title {
   padding-top: 92px;
-  
+  @include touch {
+    padding-left: 24px;
+    padding-top: 50px;
+  }
 }
 </style>

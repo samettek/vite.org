@@ -1,6 +1,6 @@
 <template>
-  <div class="figure-wrapper">
-    <Figure class="container"></Figure>
+  <div class="figure-wrapper section">
+    <Figure></Figure>
   </div>
 
 </template>
