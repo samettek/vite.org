@@ -254,11 +254,22 @@ export default {
 .feature_wrapper {
   height: 450px;
   padding: 25px;
+  @include mobile {
+    height: 100%;
+    flex-direction: column;
+  }
   .feature-left {
     margin-left: 30px;
+    @include touch {
+      margin-left: 0px;
+    }
   }
   .feature-right {
     margin-left: 390px;
+    @include touch {
+      margin-top: 60px;
+      margin-left: 155px;
+    }
   }
   .arc-wrapper {
     position: relative;
