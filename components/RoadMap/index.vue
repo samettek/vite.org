@@ -8,17 +8,17 @@
     </div>
 
     <div class="is-hidden-desktop">
-      <div class="tab-wrapper">
+      <div class="tab-wrapper is-flex">
         <div
           v-for="(item, index) in tabs"
           :key="index"
           class="tab-content" 
           :class="{'is-active': tabParams === item}" 
           @click="clickTab(item)">
-          {{$t('faq.common')}}
+          {{ $t(`roadmap.${item}`) }}
         </div>
       </div>
-      <div class="container is-flex roadmap__timeline">
+      <div class="container is-flex roadmap__timeline roadmap__touch">
         <timeline :time-lines="list" :type="tabParams" ></timeline>
       </div>
     </div>
@@ -103,8 +103,21 @@ section {
   .roadmap__timeline {
     margin-top: 50px;
     justify-content: space-between;
+    @include touch {
+      margin-top: 0px;
+    }
   }
-  
+  .roadmap__touch {
+    justify-content: center;
+  }
+  .is-active {
+    color: #171C34;
+  }
+  .tab-wrapper {
+    box-sizing: border-box;
+    padding: 0 40px;
+    justify-content: space-between;
+  }
   
 }
 </style>

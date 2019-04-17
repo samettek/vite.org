@@ -2,7 +2,7 @@
   <div
     class="timeline">
     <div 
-      class="timeline__title" 
+      class="timeline__title is-hidden-touch" 
       :class="{'in-progress': type === 'inProgress'}">
       {{ $t(`roadmap.${type}`) }}
     </div>
