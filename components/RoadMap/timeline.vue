@@ -101,6 +101,9 @@ $timelineCommonColor: #919AA3;
 
 .timeline {
   padding-right: 200px;
+  @include mobile {
+    padding-right: 280px;
+  }
   img {
     margin-left: 4px;
     vertical-align: baseline;
@@ -279,7 +282,7 @@ $timelineCommonColor: #919AA3;
         –––––––––––––––––––––––––––––––––––––––––––––––––– */
   .timeline ul li::after {
     transition: background 0.5s ease-in-out;
-    cursor: pointer;
+    // cursor: pointer;
   }
   .timeline ul li div {
     // visibility: hidden;

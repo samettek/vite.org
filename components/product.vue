@@ -1,7 +1,7 @@
 <template>
   <section>
     <h1 class="product-title">{{ $t('product.title')}}</h1>
-    <div class="container is-flex">
+    <div class="container is-flex product__content">
       <div class="columns is-multiline">
         <div
           class="column is-6-widescreen is-6-tablet is-12-mobile"
@@ -77,6 +77,11 @@ section {
   // @include mobile {
   //   height: 360px;
   // }
+  .product__content {
+    @include mobile {
+      justify-content: center;
+    }
+  }
   .product-title {
     text-align: center;
     padding-top: 109px;

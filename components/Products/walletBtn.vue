@@ -164,9 +164,9 @@ export default {
 }
 .wallet__wrapper {
   justify-content: center;
-  @include touch {
-    justify-content: flex-start;
-  }
+  // @include touch {
+  //   justify-content: flex-start;
+  // }
   .wallet__desktop {
     @include touch {
       width: 235px; 
