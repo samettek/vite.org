@@ -90,7 +90,9 @@ export default {
     }
   }
   .mt {
-    margin-top: 20px;
+    @include mobile {
+      margin-top: 20px;
+    }
   }
   .text__outer-link {
     text-align: center;

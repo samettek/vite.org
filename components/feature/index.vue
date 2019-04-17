@@ -254,19 +254,19 @@ export default {
 .feature_wrapper {
   height: 450px;
   padding: 25px;
-  @include mobile {
+  @media only screen and (min-width: 320px) and (max-width: 767px)  {
     height: 100%;
     flex-direction: column;
   }
   .feature-left {
     margin-left: 30px;
-    @include touch {
+    @media only screen and (min-width: 320px) and (max-width: 767px) {
       margin-left: 0px;
     }
   }
   .feature-right {
     margin-left: 390px;
-    @include touch {
+    @media only screen and (min-width: 320px) and (max-width: 767px) {
       margin-top: 60px;
       margin-left: 155px;
     }
