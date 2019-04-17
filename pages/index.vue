@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="airdrop__fiexd is-tablet">
+    <div class="airdrop__fiexd is-hidden-mobile">
       <nuxt-link
         :to="localePath('airdrop')"
         class="text-hover-transition">
