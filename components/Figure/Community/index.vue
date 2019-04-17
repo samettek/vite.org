@@ -106,6 +106,10 @@ export default {
           links: ['https://forum.vite.net/']
         },
         {
+          img: require('~/assets/images/community/bitcoinblue.svg'),
+          links: ['https://bitcointalk.org/index.php?topic=5056409']
+        },
+        {
           img: require('~/assets/images/community/wechatblue.svg'),
           key: 'pic',
           pic: require('~/assets/images/vitelabs_wechat.jpg')

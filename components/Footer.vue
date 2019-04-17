@@ -129,6 +129,15 @@
                         src="~/assets/images/community/forum-icon.svg"
                       /></a>
                     <a
+                      :href="urls.media.bitcointalk"
+                      target="_blank"
+                      class="text-hover-transition"
+                    >
+                      <img
+                        class="bitcoin"
+                        src="~/assets/images/footer/bitcoin.svg"
+                      /></a>
+                    <a
                       :href="urls.weibo"
                       target="_blank"
                       class="text-hover-transition"
