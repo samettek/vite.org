@@ -6,7 +6,7 @@
           <bar :bar-style="barStyle" :list="percents"></bar>
         </template>
       </card>
-      <card :info="info.nodePosition" class="card-multi">
+      <card :info="info.nodePosition" class="card-multi mt">
         <template slot="nodeContent">
           <w-map :list="mapList"></w-map>
         </template>
@@ -72,15 +72,25 @@ export default {
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>
+@import "~assets/vars";
   .line {
     display: flex;
     display: -webkit-flex;
     justify-content: space-between;
     margin-top: 70px;
+    @include mobile {
+      flex-direction: column;
+    }
   }
   .card-multi {
     width: 516px;
     height: 315px;
+    @include mobile {
+      width: 100%;
+    }
+  }
+  .mt {
+    margin-top: 20px;
   }
   .text__outer-link {
     text-align: center;

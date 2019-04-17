@@ -1,7 +1,7 @@
 <template>
   <section>
-    <div class="products__platform" id="platform">
-      <div class="is-flex">
+    <div id="platform">
+      <div class="is-flex products__platform">
         <text-card 
           :title="$t('products.platform.title')" 
           :text-list="$t('products.platform.textList')"
@@ -80,11 +80,33 @@ section {
   img {
     width: 600px;
     height: 416px;
+    @include touch {
+      width: 500px;
+      height: 316px;
+    }
+    @include mobile {
+      width: 350px;
+      height: 216px;
+      margin-bottom: 30px;
+    }
+  }
+  .products__platform {
+    @include mobile {
+      flex-direction: column;
+    }
   }
   .products__common {
     margin-top: 90px; 
+    @include mobile {
+      flex-direction: column;
+    }
     &:nth-child(odd) {
       flex-direction: row-reverse;
+    }
+    @include mobile {
+      &:nth-child(odd) {
+        flex-direction: column;
+      }
     }
     img {
       align-self: center;
@@ -92,12 +114,21 @@ section {
   }
   .products__wallet-text {
     margin-left: 50px; 
+    @include mobile {
+      margin-left: 0px; 
+    }
   }
   .products__exchange-text {
     margin-right: 50px; 
+    @include mobile {
+      margin-right: 0px; 
+    }
   }
   .products__pay-text {
-    margin-left: 50px; 
+    margin-left: 50px;
+    @include mobile {
+      margin-left: 0px; 
+    }
   }
 }
 </style>

@@ -1,10 +1,11 @@
 <template>
   <div class="is-flex wallet__wrapper">
     <!-- ios & android -->
-    <div class="is-flex"
+    <div class="is-flex wallet__desktop"
       v-if="!isMobile">
       <v-popover
         style="margin-right: 10px;"
+        class="mbt"
         offset="16"
         placement="bottom-center"
         popoverClass="v-popover"
@@ -22,6 +23,7 @@
         </template>
       </v-popover>
       <v-popover
+        class="mbt"
         style="margin-right: 10px;"
         offset="16"
         placement="bottom-center"
@@ -41,7 +43,7 @@
       </v-popover>
       <!-- btnCommonList -->
       <a
-        class="wallet__btn"
+        class="wallet__btn mb"
         :href="item.url"
         v-for="(item, index) in btnCommonList"
         :key="index"
@@ -55,7 +57,7 @@
       v-else
       class="is-flex">
       <a
-        class="wallet__btn"
+        class="wallet__btn mbt"
         :class="{'is-active': item.active}"
         :href="item.url"
         v-for="(item, index) in btnSpecList.concat(btnCommonList)"
@@ -122,6 +124,9 @@ export default {
 
 <style rel="stylesheet/scss" lang="scss" scoped>
 @import "~assets/vars";
+.mbt {
+  margin-bottom: 10px;
+}
 .wallet-app-container {
   display: flex;
   display: -webkit-flex;
@@ -159,6 +164,16 @@ export default {
 }
 .wallet__wrapper {
   justify-content: center;
+  @include touch {
+    justify-content: flex-start;
+  }
+  .wallet__desktop {
+    @include touch {
+      width: 235px; 
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
 }
 .is-active {
   background: $common-active-color;
