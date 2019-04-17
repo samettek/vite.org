@@ -1,7 +1,8 @@
 <template>
   <div class="is-flex wallet__wrapper">
     <!-- ios & android -->
-    <div class="is-flex wallet__desktop"
+    <no-ssr>
+    <div class="is-flex"
       v-if="!isMobile">
       <v-popover
         style="margin-right: 10px;"
@@ -22,6 +23,7 @@
           </div>
         </template>
       </v-popover>
+      
       <v-popover
         class="mbt"
         style="margin-right: 10px;"
@@ -41,6 +43,7 @@
           </div>
         </template>
       </v-popover>
+      
       <!-- btnCommonList -->
       <a
         class="wallet__btn mb"
@@ -53,9 +56,10 @@
         </div>
       </a>
     </div>
+    
     <div
       v-else
-      class="is-flex">
+      class="is-flex wallet__desktop">
       <a
         class="wallet__btn mbt"
         :class="{'is-active': item.active}"
@@ -69,7 +73,7 @@
         </div>
       </a>
     </div>
-    
+    </no-ssr>
   </div>
 </template>
 
@@ -164,9 +168,6 @@ export default {
 }
 .wallet__wrapper {
   justify-content: center;
-  // @include touch {
-  //   justify-content: flex-start;
-  // }
   .wallet__desktop {
     @include touch {
       width: 235px; 
