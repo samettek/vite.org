@@ -8,7 +8,7 @@
             <div class="columns is-multiline item">
               <div class="column">
                 <div
-                  class="video"
+                  class="video is-flex"
                   @click="play"
                 >
                   <img src="~assets/images/video/play.svg" />
@@ -230,9 +230,15 @@ export default {
       background-image: url("~assets/images/community/world.png");
       background-size: cover;
       text-align: center;
+      justify-content: center;
+      align-items: center;
       cursor: pointer;
+      @include touch {
+        min-width: 100%;
+        height: 202px;
+      }
       img {
-        margin-top: 110px;
+        // margin-top: 110px;
       }
     }
   }

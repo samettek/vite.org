@@ -61,6 +61,9 @@ export default {
   box-shadow: 0 4px 24px 0 rgba(211, 234, 255, 0.53);
   padding: 18px;
   box-sizing: border-box;
+  @include touch {
+    width: 270px;
+  }
   .person-info{
       display: flex;
       flex-direction: column;
