@@ -3,6 +3,23 @@
     class="public"
     :class="`is-${routeName}-public`"
   >
+    <dialog-compo
+      :visible.sync="dialogVisible"
+      v-if="routeName === 'index'">
+      <div class="is-flex dialog__img" style="justify-content: center;">
+        <img src="~/assets/images/airdrop/dialog.svg"/>
+      </div>
+      <div style="margin-top: 23px;">{{$t('home.jionAirdrop')}}</div>
+      <span slot="footer">
+        <div @click="dialogVisible = false" >
+          <nuxt-link
+            :to="localePath('airdrop')"
+            class="footer-btn">
+            {{$t('home.jionAirdrop')}}
+          </nuxt-link>
+        </div>
+      </span>
+    </dialog-compo>
     <div
       class="navbar headroom"
       :class="`is-${routeName}-page`"
@@ -119,6 +136,7 @@
 </template>
 
 <script type="text/babel">
+import dialogCompo from '~/components/dialog/component.vue';
 import LangSelect from '~/components/LangSelect.vue';
 import Logo from '~/components/Logo.vue';
 import LogoWithoutWords from '~/components/LogoWithoutWords.vue';
@@ -139,6 +157,7 @@ export default {
     Exchange,
     voteNotice,
     about,
+    dialogCompo,
     // Media,
     SecondaryMenu
   },
@@ -208,6 +227,7 @@ export default {
   },
   data: function () {
     return {
+      dialogVisible: true,
       navProductionList: [{
         type: 'inner',
         name: 'platform',
@@ -290,6 +310,9 @@ export default {
     }
   },
   methods: {
+    handleClose(done) {
+      console.log(done);
+    },
     openDotNet () {
       window.open(
         'https://international.bittrex.com/Market/Index?MarketName=BTC-VITE'
@@ -328,6 +351,25 @@ export default {
 
 <style rel="stylesheet/scss" lang="scss" scoped>
 @import "assets/vars.scss";
+.dialog__img {
+  @media only screen and (min-width: 320px) and (max-width: 767px)  {
+    height: 100px;
+  }
+}
+.footer-btn {
+  display: inline-block;
+  width:242px;
+  height:50px;
+  line-height: 50px;
+  font-size:16px;
+  font-family:PingFangSC-Semibold;
+  font-weight:600;
+  color: white;
+  background:rgba(0,122,255,1);
+  box-shadow:0px 10px 20px 0px rgba(126,183,238,0.83);
+  border-radius:2px;
+  cursor: pointer;
+}
 .public {
   background: no-repeat url("~assets/images/bg/footer_others.svg") 0% 100%;
 }
