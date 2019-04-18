@@ -3,23 +3,25 @@
     class="public"
     :class="`is-${routeName}-public`"
   >
-    <dialog-compo
-      :visible.sync="dialogVisible"
-      v-if="routeName === 'index'">
-      <div class="is-flex dialog__img" style="justify-content: center;">
-        <img src="~/assets/images/airdrop/dialog.svg"/>
-      </div>
-      <div style="margin-top: 23px;">{{$t('home.jionAirdrop')}}</div>
-      <span slot="footer">
-        <div @click="dialogVisible = false" >
-          <nuxt-link
-            :to="localePath('airdrop')"
-            class="footer-btn">
-            {{$t('home.jionAirdrop')}}
-          </nuxt-link>
+    <no-ssr>
+      <dialog-compo
+        :visible.sync="dialogVisible"
+        v-if="routeName === 'index'">
+        <div class="is-flex dialog__img" style="justify-content: center;">
+          <img src="~/assets/images/airdrop/dialog.svg"/>
         </div>
-      </span>
-    </dialog-compo>
+        <div style="margin-top: 23px;">{{$t('home.jionAirdrop')}}</div>
+        <span slot="footer">
+          <div @click="dialogVisible = false" >
+            <nuxt-link
+              :to="localePath('airdrop')"
+              class="footer-btn">
+              {{$t('home.jionAirdrop')}}
+            </nuxt-link>
+          </div>
+        </span>
+      </dialog-compo>
+    </no-ssr>
     <div
       class="navbar headroom"
       :class="`is-${routeName}-page`"
@@ -107,19 +109,6 @@
         </div>
       </div>
     </div>
-    <!-- <div class="container">
-      <div
-        :class="{'airdrop-hide' : routeName === 'airdrop'}"
-        class="img-text"
-        @click="openAirdropPage"
-      >
-        <div
-          class="act"
-          v-html="$t('home.acttext')"
-        ></div>
-        <div><img src="~assets/images/tail-right.svg" /></div>
-      </div>
-    </div> -->
     <div
       class="nuxt-content"
       :class="`is-${routeName}-page`"
@@ -136,6 +125,7 @@
 </template>
 
 <script type="text/babel">
+import Cookies from 'js-cookie';
 import dialogCompo from '~/components/dialog/component.vue';
 import LangSelect from '~/components/LangSelect.vue';
 import Logo from '~/components/Logo.vue';
@@ -144,7 +134,6 @@ import Footer from '~/components/Footer.vue';
 import config from '~/config';
 import voteNotice from '~/components/voteNotice.vue';
 import about from '~/components/about.vue';
-// import Media from '~/components/Media.vue';
 import Exchange from '~/components/Exchange.vue';
 import SecondaryMenu from '~/components/SecondaryMenu.vue';
 
@@ -158,7 +147,6 @@ export default {
     voteNotice,
     about,
     dialogCompo,
-    // Media,
     SecondaryMenu
   },
   head () {
@@ -227,7 +215,7 @@ export default {
   },
   data: function () {
     return {
-      dialogVisible: true,
+      dialogVisible: false,
       navProductionList: [{
         type: 'inner',
         name: 'platform',
@@ -290,6 +278,14 @@ export default {
       collapsing: false,
       urls: config.urls
     };
+  },
+  created() {
+    if (!Cookies.get('airdropDialog')) {
+      Cookies.set('airdropDialog', 'true', { expires: 1 });
+      this.dialogVisible = true;
+    } else {
+      this.dialogVisible = false;
+    }
   },
   computed: {
     routeName () {

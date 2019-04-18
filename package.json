@@ -21,17 +21,18 @@
     "@nuxtjs/webpackmonitor": "^0.1.0",
     "animate-canvas-line": "^1.1.0",
     "babel-polyfill": "^6.26.0",
+    "echarts": "^4.1.0",
     "headroom.js": "^0.9.4",
     "is-mobile": "^2.0.0",
     "ismobilejs": "^0.4.1",
+    "js-cookie": "^2.2.0",
     "nuxt": "^1.4.0",
     "nuxt-i18n": "2.9.5",
     "scrollmonitor": "^1.2.4",
     "three": "^0.92.0",
     "v-tooltip": "^2.0.0-rc.32",
     "vue-i18n": "^7.6.0",
-    "xui-module": "^0.1.5",
-    "echarts": "^4.1.0"
+    "xui-module": "^0.1.5"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.2",
