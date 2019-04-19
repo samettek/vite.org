@@ -270,7 +270,7 @@ export default {
     justify-content: space-around;
   }
   @include touch {
-    background: url("~assets/images/footer/footer.svg") 50% 100%;
+    background: url("~assets/images/footer/footer.svg") 75% 100%;
   }
   .whole-footer {
     padding-top: 28px;
@@ -310,7 +310,7 @@ export default {
     font-size: 12px;
     text-align: right;
     margin-right: 10px;
-    @include touch {
+    @include mobile {
       margin-top: 0px;
       margin-left: 23px;
       text-align: left;
@@ -349,7 +349,7 @@ export default {
   }
 
   .icon-links-wrapper {
-    @include touch {
+    @include mobile {
       text-align: left;
     }
     & > a,
