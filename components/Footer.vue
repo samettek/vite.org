@@ -269,7 +269,7 @@ export default {
     display: flex;
     justify-content: space-around;
   }
-   @media only screen and (min-width: 320px) and (max-width: 1024px)  {
+   @media only screen and (min-width: 320px) and (max-width: 1295px)  {
     background: #007AFF;
     }
   .whole-footer {
@@ -314,7 +314,7 @@ export default {
     font-size: 12px;
     text-align: right;
     margin-right: 10px;
-    @media only screen and (min-width: 320px) and (max-width: 1024px)  {
+    @media only screen and (min-width: 320px) and (max-width: 1295px)  {
       margin-top: 0px;
       margin-left: 23px;
       text-align: left;
@@ -353,7 +353,7 @@ export default {
   }
 
   .icon-links-wrapper {
-    @media only screen and (min-width: 320px) and (max-width: 1024px)  {
+    @media only screen and (min-width: 320px) and (max-width: 1295px)  {
       text-align: left;
     }
     & > a,
