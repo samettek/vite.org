@@ -63,7 +63,7 @@
                 </div>
               </div>
               <div class="social-icons">
-                <div class="icons mt40">
+                <div class="icons mt30">
                   <div class="icon-links-wrapper">
                     <a
                       :href="urls.github"
@@ -71,7 +71,7 @@
                       class="text-hover-transition"
                     >
                       <fa-icon
-                        class="icon"
+                        class="icon__item"
                         :icon="['fab', 'github']"
                       ></fa-icon>
                     </a>
@@ -81,7 +81,7 @@
                       class="text-hover-transition"
                     >
                       <fa-icon
-                        class="icon"
+                        class="icon__item"
                         :icon="['fab', 'discord']"
                       ></fa-icon>
                     </a>
@@ -91,7 +91,7 @@
                       class="text-hover-transition"
                     >
                       <fa-icon
-                        class="icon"
+                        class="icon__item"
                         :icon="['fab', 'twitter']"
                       ></fa-icon>
                     </a>
@@ -102,7 +102,7 @@
                       class="text-hover-transition"
                     >
                       <fa-icon
-                        class="icon"
+                        class="icon__item"
                         :icon="['fab', 'reddit']"
                       /></a>
                     <a
@@ -111,42 +111,36 @@
                       class="text-hover-transition"
                     >
                       <fa-icon
-                        class="icon"
+                        class="icon__item"
                         :icon="['fab', 'youtube']"
                       /></a>
                     <a
                       :href="urls.forum"
-                      target="_blank"
-                      class="text-hover-transition"
-                    >
+                      target="_blank">
                       <img
-                        class="icon forum"
-                        src="~/assets/images/community/forum-icon.svg"
-                      /></a>
+                        class="icon__item"
+                        src="~/assets/images/community/forum-icon.svg"/>
+                    </a>
                     <a
                       :href="urls.media.bitcointalk"
-                      target="_blank"
-                      class="text-hover-transition"
-                    >
+                      target="_blank">
                       <img
-                        class="icon forum"
-                        src="~/assets/images/footer/bitcoin.svg"
-                      /></a>
+                        class="icon__item"
+                        src="~/assets/images/footer/bitcoin.svg"/>
+                    </a>
                     <a
                       :href="urls.weibo"
-                      target="_blank"
-                      class="text-hover-transition"
-                    >
-                      <fa-icon
-                        class="icon"
-                        :icon="['fab', 'weibo']"
-                      /></a>
+                      target="_blank">
+                      <img
+                        class="icon__item"
+                        src="~/assets/images/footer/weibo.svg"/>
+                    </a>
                     <wechat></wechat>
                   </div>
                 </div>
               </div>
               <div class="">
-                <div class="copyright mt40">
+                <div class="copyright mt30">
                   <span>
                     © 2018-2019 VITE Labs. All Rights Reserved.
                   </span>
@@ -276,12 +270,12 @@ export default {
       margin-left: 50px;
     }
   }
-  .mt40 {
-    margin-top: 40px;
+  .mt30 {
+    margin-top: 30px;
   }
   .footer-tab {
     color: white;
-    justify-self: flex-end;
+    // justify-self: flex-end;
     margin-right: 50px;
     @include touch {
       margin: 0 auto;
@@ -291,8 +285,9 @@ export default {
     }
     .social-icons {
       margin-right: 10px;
-      .forum {
-        width: 28px;
+      .icon__item {
+        width: 22px;
+        height: 22px;
       }
     }
   }

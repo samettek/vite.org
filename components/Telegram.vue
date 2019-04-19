@@ -4,7 +4,7 @@
       offset="16"
       :disabled="!isEnabled"
       popoverClass="v-popover">
-      <a class="tooltip-target"  target="_blank"><fa-icon :icon="['fab', 'telegram-plane']" /></a>
+      <a target="_blank"><fa-icon style="width: 22px; height: 22px" :icon="['fab', 'telegram-plane']" /></a>
 
       <template slot="popover">
         <div class="item-wrapper">
@@ -64,14 +64,12 @@
   }
   .v-popover {
     display: inline-block;
-    height: 30px;
-    width: 30px;
+    height: 22px;
+    width: 22px;
     margin-left: 20px;
   }
   .no-ssr {
     display: inline-block;
-    height: 30px;
-    width: 30px;
     margin-left: 20px;
   }
 
