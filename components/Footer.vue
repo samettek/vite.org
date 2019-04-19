@@ -7,43 +7,49 @@
             <logo-without-words></logo-without-words>
           </div>
           <div class="footer-tab">
-            <div class="">
+            <div class="is-flex footer-tab-wrapper">
               <div class="is-flex footer-nav">
-                <div class="nav-item">
-                  <footer-menu 
-                    :footer-name="$t(`nav.production`)"
-                    :secondary-list="navProductionList">
-                  </footer-menu>
+                <div class="is-flex">
+                  <div class="nav-item">
+                    <footer-menu 
+                      :footer-name="$t(`nav.production`)"
+                      :secondary-list="navProductionList">
+                    </footer-menu>
+                  </div>
+                  <div class="nav-item">
+                    <footer-menu 
+                      :footer-name="$t(`nav.person`)"
+                      :secondary-list="navPersonList">
+                    </footer-menu>
+                  </div>
                 </div>
-                <div class="nav-item">
-                  <footer-menu 
-                    :footer-name="$t(`nav.person`)"
-                    :secondary-list="navPersonList">
-                  </footer-menu>
+                <div class="is-flex">
+                  <div class="nav-item">
+                    <footer-menu 
+                      :footer-name="$t('nav.notice.name')"
+                      :secondary-list="navNodeList">
+                    </footer-menu>
+                  </div>
+                  <div class="nav-item">
+                    <footer-menu 
+                      :footer-name="$t('nav.media')"
+                      :secondary-list="navMediaList">
+                    </footer-menu>
+                  </div>
                 </div>
-                <div class="nav-item">
-                  <footer-menu 
-                    :footer-name="$t('nav.notice.name')"
-                    :secondary-list="navNodeList">
-                  </footer-menu>
-                </div>
-                <div class="nav-item">
-                  <footer-menu 
-                    :footer-name="$t('nav.media')"
-                    :secondary-list="navMediaList">
-                  </footer-menu>
-                </div>
-                <div class="nav-item">
-                  <footer-menu 
-                    :footer-name="$t('nav.tokenTransaction')"
-                    :secondary-list="navExchangeList">
-                  </footer-menu>
-                </div>
-                <div class="nav-item">
-                  <footer-menu 
-                    :footer-name="$t('nav.guide')"
-                    :secondary-list="navGuideList">
-                  </footer-menu>
+                <div class="is-flex">
+                  <div class="nav-item">
+                    <footer-menu 
+                      :footer-name="$t('nav.tokenTransaction')"
+                      :secondary-list="navExchangeList">
+                    </footer-menu>
+                  </div>
+                  <div class="nav-item">
+                    <footer-menu 
+                      :footer-name="$t('nav.guide')"
+                      :secondary-list="navGuideList">
+                    </footer-menu>
+                  </div>
                 </div>
                 <!-- <div class="nav-item">
                   <nuxt-link
@@ -52,14 +58,16 @@
                     {{$t('nav.airdrop')}}
                   </nuxt-link>
                 </div> -->
-                <div class="nav-item">
-                  <about></about>
-                </div>
-                <div class="nav-item">
-                  <footer-menu 
-                    :footer-name="$t(`nav.more`)"
-                    :secondary-list="navMoreList">
-                  </footer-menu>
+                <div class="is-flex">
+                  <div class="nav-item">
+                    <about></about>
+                  </div>
+                  <div class="nav-item">
+                    <footer-menu 
+                      :footer-name="$t(`nav.more`)"
+                      :secondary-list="navMoreList">
+                    </footer-menu>
+                  </div>
                 </div>
               </div>
               <div class="social-icons">
@@ -139,12 +147,12 @@
                   </div>
                 </div>
               </div>
-              <div class="">
-                <div class="copyright mt30">
-                  <span>
-                    © 2018-2019 VITE Labs. All Rights Reserved.
-                  </span>
-                </div>
+            </div>
+            <div class="">
+              <div class="copyright mt30">
+                <span>
+                  © 2018-2019 VITE Labs. All Rights Reserved.
+                </span>
               </div>
             </div>
           </div>
@@ -262,16 +270,17 @@ export default {
     justify-content: space-around;
   }
   @include touch {
-    background: url("~assets/images/footer/footer.svg") 100% 60%;
+    background: url("~assets/images/footer/footer.svg") 50% 100%;
   }
   .whole-footer {
+    padding-top: 28px;
     justify-content: space-between;
     .icon-wrapper {
       margin-left: 50px;
     }
   }
   .mt30 {
-    margin-top: 30px;
+    margin-top: 10px;
   }
   .footer-tab {
     color: white;
@@ -282,6 +291,9 @@ export default {
     }
     @include mobile {
       width: 100%;
+    }
+    .footer-tab-wrapper {
+      flex-direction: column-reverse;
     }
     .social-icons {
       margin-right: 10px;
@@ -299,15 +311,18 @@ export default {
     text-align: right;
     margin-right: 10px;
     @include touch {
-      text-align: center;
+      margin-top: 0px;
+      margin-left: 23px;
+      text-align: left;
+      margin-bottom: 40px;
     }
   }
   .footer-nav {
     justify-content: flex-start;
     flex-wrap: wrap;
     @include touch {
-      flex-wrap: wrap;
-      justify-content: center;
+      flex-direction: column;
+      justify-content: space-between;
     }
     a {
       color: white;
@@ -318,6 +333,12 @@ export default {
       padding: 0.5rem 23px;
       color: $common-text-color;
       font-family: $font-family-light;
+      @include touch {
+        display: block;
+        padding: 0.5rem 23px;
+        width: 50%;
+        text-align: left;
+      }
       &:hover {
         color: $common-active-color;
       }
@@ -329,7 +350,7 @@ export default {
 
   .icon-links-wrapper {
     @include touch {
-      text-align: center;
+      text-align: left;
     }
     & > a,
     /deep/ .v-popover {
