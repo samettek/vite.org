@@ -269,9 +269,9 @@ export default {
     display: flex;
     justify-content: space-around;
   }
-  @include touch {
-    background: url("~assets/images/footer/footer.svg") 75% 60%;
-  }
+   @media only screen and (min-width: 320px) and (max-width: 1024px)  {
+    background: #007AFF;
+    }
   .whole-footer {
     padding-top: 28px;
     justify-content: space-between;
@@ -314,7 +314,7 @@ export default {
     font-size: 12px;
     text-align: right;
     margin-right: 10px;
-    @include mobile {
+    @media only screen and (min-width: 320px) and (max-width: 1024px)  {
       margin-top: 0px;
       margin-left: 23px;
       text-align: left;
@@ -353,7 +353,7 @@ export default {
   }
 
   .icon-links-wrapper {
-    @include mobile {
+    @media only screen and (min-width: 320px) and (max-width: 1024px)  {
       text-align: left;
     }
     & > a,
