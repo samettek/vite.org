@@ -10,11 +10,7 @@
       "technology": "The key technologies of Vite: DAG、Snapshot Chain、Asynchronous Architecture、Reactive Contract、Quota leasing、Loopring Integrated、Timer scheduling、Contract Upgrade、solidity++"
     }
   },
-  "exchange": {
-    "okex": "OKEX.COM",
-    "bittrex": "BITTREX",
-    "upbit":"UPBIT"
-  },
+  
   "media": {
     "medium": "Medium",
     "bitcointalk": "Bitcointalk",
@@ -50,6 +46,9 @@
     "news": "最新报道",
 
     "tokenTransaction": "代币交易",
+    "okex": "OKEX.COM",
+    "bittrex": "BITTREX",
+    "upbit":"UPBIT",
     
     "guide": "指南",
     "tutorial": "教程",
@@ -58,17 +57,15 @@
     "airdrop": "空投",
 
     "about": "关于",
+    "whitepaper": "White Paper",
     "wiki": "WIKI",
+    "blog": "技术博客",
 
     "more": "更多",
     "explorer": "区块浏览器",
     "store": "Vite商城"
   },
-  "about": {
-    "whitepaper": "White Paper",
-    "wiki": "WIKI",
-    "blog": "技术博客"
-  },
+  
   "home": {
     "jionAirdrop": "参与空投",
     "activity1": "最新活动",

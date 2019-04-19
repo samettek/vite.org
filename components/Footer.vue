@@ -10,61 +10,56 @@
             <div class="">
               <div class="is-flex footer-nav">
                 <div class="nav-item">
-                  <secondary-menu 
+                  <footer-menu 
                     :footer-name="$t(`nav.production`)"
-                    :secondary-list="navProductionList"
-                    :is-footer="true">
-                  </secondary-menu>
+                    :secondary-list="navProductionList">
+                  </footer-menu>
                 </div>
                 <div class="nav-item">
-                  <secondary-menu 
+                  <footer-menu 
                     :footer-name="$t(`nav.person`)"
-                    :secondary-list="navPersonList"
-                    :is-footer="true">
-                  </secondary-menu>
+                    :secondary-list="navPersonList">
+                  </footer-menu>
                 </div>
                 <div class="nav-item">
-                  <voteNotice 
-                    :is-footer="true">
-                  </voteNotice>
+                  <footer-menu 
+                    :footer-name="$t('nav.notice.name')"
+                    :secondary-list="navNodeList">
+                  </footer-menu>
                 </div>
                 <div class="nav-item">
-                  <secondary-menu 
-                    :is-footer="true"
-                    :footer-name="$t(`nav.media`)"
+                  <footer-menu 
+                    :footer-name="$t('nav.media')"
                     :secondary-list="navMediaList">
-                  </secondary-menu>
+                  </footer-menu>
                 </div>
                 <div class="nav-item">
-                  <Exchange
-                   :is-footer="true">
-                  </Exchange>
+                  <footer-menu 
+                    :footer-name="$t('nav.tokenTransaction')"
+                    :secondary-list="navExchangeList">
+                  </footer-menu>
                 </div>
                 <div class="nav-item">
-                  <secondary-menu 
-                    :footer-name="$t(`nav.guide`)"
-                    :secondary-list="navGuideList"
-                    :is-footer="true">
-                  </secondary-menu>
+                  <footer-menu 
+                    :footer-name="$t('nav.guide')"
+                    :secondary-list="navGuideList">
+                  </footer-menu>
                 </div>
-                <div class="nav-item">
+                <!-- <div class="nav-item">
                   <nuxt-link
                     :to="localePath('airdrop')"
                     class="text-hover-transition">
                     {{$t('nav.airdrop')}}
                   </nuxt-link>
+                </div> -->
+                <div class="nav-item">
+                  <about></about>
                 </div>
                 <div class="nav-item">
-                  <about
-                    :is-footer="true">
-                  </about>
-                </div>
-                <div class="nav-item">
-                  <secondary-menu 
+                  <footer-menu 
                     :footer-name="$t(`nav.more`)"
-                    :secondary-list="navMoreList"
-                    :is-footer="true">
-                  </secondary-menu>
+                    :secondary-list="navMoreList">
+                  </footer-menu>
                 </div>
               </div>
               <div class="social-icons">
@@ -134,7 +129,7 @@
                       class="text-hover-transition"
                     >
                       <img
-                        class="bitcoin"
+                        class="icon forum"
                         src="~/assets/images/footer/bitcoin.svg"
                       /></a>
                     <a
@@ -171,9 +166,9 @@ import Wechat from '~/components/Wechat';
 import Telegram from '~/components/Telegram';
 import config from '~/config.js';
 import Exchange from '~/components/Exchange.vue';
-import voteNotice from '~/components/voteNotice.vue';
 import about from '~/components/about';
 import SecondaryMenu from '~/components/SecondaryMenu.vue';
+import FooterMenu from '~/components/FooterMenu.vue';
 
 export default {
   components: {
@@ -181,9 +176,9 @@ export default {
     Wechat,
     Telegram,
     Exchange,
-    voteNotice,
     about,
-    SecondaryMenu
+    SecondaryMenu,
+    FooterMenu
   },
   props: {
     navProductionList: {
@@ -206,6 +201,32 @@ export default {
   data: function () {
     let { urls } = config;
     return {
+      navNodeList: [{
+        type: 'inner',
+        name: 'nodeList',
+        to: 'nodeList'
+      }, {
+        type: 'inner',
+        name: 'superNodes',
+        to: 'superNodes'
+      }, {
+        type: 'outer',
+        name: 'notice.apply',
+        to: urls.vote.apply[this.$i18n.locale]
+      }],
+      navExchangeList: [{
+        type: 'outer',
+        name: 'okex',
+        to: urls.exchange.okex
+      }, {
+        type: 'outer',
+        name: 'bittrex',
+        to: urls.exchange.bittrex
+      }, {
+        type: 'outer',
+        name: 'upbit',
+        to: urls.exchange.upbit
+      }],
       navMoreList: [{
         type: 'outer',
         name: 'explorer',
@@ -287,7 +308,7 @@ export default {
     }
   }
   .footer-nav {
-    justify-content: flex-end;
+    justify-content: flex-start;
     flex-wrap: wrap;
     @include touch {
       flex-wrap: wrap;
@@ -297,6 +318,8 @@ export default {
       color: white;
     }
     .nav-item {
+      display: flex;
+      align-items: flex-start;
       padding: 0.5rem 23px;
       color: $common-text-color;
       font-family: $font-family-light;

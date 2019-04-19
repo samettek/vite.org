@@ -10,12 +10,7 @@
             "technology": "Vite核心技术：DAG、Snapshot Chain、异步架构、响应式合约、配额租赁、集成路印协议、定时调度、合约升级、solidity++"
         }
     },
-    "exchange": {
-        "okex": "OKEX.COM",
-        "bittrex": "BITTREX",
-        "upbit":"UPBIT"
-
-    },
+    
     "media": {
         "medium": "Medium",
         "bitcointalk": "Bitcointalk",
@@ -52,6 +47,9 @@
         "news": "最新报道",
         
         "tokenTransaction": "代币交易",
+        "okex": "OKEX.COM",
+        "bittrex": "BITTREX",
+        "upbit":"UPBIT",
 
         "guide": "指南",
         "tutorial": "教程",
@@ -61,15 +59,12 @@
 
         "about": "关于",
         "wiki": "WIKI",
+        "blog": "技术博客",
+        "whitepaper": "白皮书",
 
         "more": "更多",
         "explorer": "区块浏览器",
         "store": "Vite商城"
-    },
-    "about": {
-        "whitepaper": "白皮书",
-        "wiki": "WIKI",
-        "blog": "技术博客"
     },
     "home": {
         "jionAirdrop": "参与空投",

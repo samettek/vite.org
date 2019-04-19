@@ -1,38 +1,26 @@
 <template>
-  <div class="dropdown lang-btn is-hoverable">
-    <div class="dropdown-trigger">
-      <button
-        class="button"
-        :class="{'foot-btn': isFooter}"
-      >
-        <span>{{$t('nav.about')}}</span>
-      </button>
+  <div>
+    <div class="secondary-button">
+      <span>{{ $t(`nav.about`) }}</span>
     </div>
-    <div
-      class="dropdown-menu"
-      id="lang-dropdown-menu"
-      role="menu"
-    >
-      <div class="dropdown-content">
-        <a class="dropdown-item" target="_blank" :href="url.wiki">{{$t('nav.wiki')}}</a>
-        <a class="dropdown-item" target="_blank" :href="url.blog">{{$t('about.blog')}}</a>
-        <whitepaper></whitepaper>
-      </div>
-    </div>
+    <whitepaper :is-footer="true"></whitepaper>
+    <footer-menu 
+      :secondary-list="navAboutList">
+    </footer-menu>
   </div>
 </template>
 
 <script type="text/babel">
 import config from '~/config';
 import whitepaper from './WhitePaperForMenu';
+import FooterMenu from '~/components/FooterMenu.vue';
 
 export default {
-  components: { whitepaper },
+  components: { 
+    whitepaper, 
+    FooterMenu
+  },
   props: {
-    isFooter: {
-      type: Boolean,
-      default: false
-    }
   },
   computed:{
     url(){
@@ -42,49 +30,43 @@ export default {
         wiki: config.urls.wiki[this.$i18n.locale],
       };
     }
+  },
+  data() {
+    return {
+      navAboutList: [{
+        type: 'outer',
+        name: 'wiki',
+        to: config.urls.blog[this.$i18n.locale]
+      }, {
+        type: 'outer',
+        name: 'blog',
+        to: config.urls.blog[this.$i18n.locale]
+      }],
+    };
   }
 };
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>
 @import "~assets/vars";
-.lang-btn {
-  .dropdown-trigger {
-    button {
-      color: $common-text-color;
-      background: transparent;
-      padding: 0 0 0 0;
-      border-radius: 0.35rem;
-      height: (40rem/16);
-      border: transparent;
-      font-family: $font-family-light;
-      &:focus {
-        border: none;
-        box-shadow: none;
-      }
-      &:hover {
-        color: $common-active-color;
-      }
+.secondary-button {
+    color: white;;
+    padding: 0 0 0 0;
+    // font-family: $font-family-light;
+    font-size:14px;
+    font-family:PingFangSC-Semibold;
+    font-weight:600;
+    color:rgba(255,255,255,1);
+    line-height:20px;
+    margin-bottom: 6px;
+    &:focus {
+      border: none;
+      box-shadow: none;
     }
-    .foot-btn {
+    &:hover {
       color: white;
-      &:hover {
-        color: white;
-      }
     }
   }
-  .dropdown-menu {
-    .dropdown-content {
-      .dropdown-item {
-        color: $common-text-color;
-        &:hover {
-          background-color: whitesmoke;
-          color: $common-active-color;
-        }
-      }
-    }
-  }
-}
 </style>
 
 
