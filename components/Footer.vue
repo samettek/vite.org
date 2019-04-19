@@ -270,7 +270,7 @@ export default {
     justify-content: space-around;
   }
   @include touch {
-    background: url("~assets/images/footer/footer.svg") 75% 100%;
+    background: url("~assets/images/footer/footer.svg") 75% 60%;
   }
   .whole-footer {
     padding-top: 28px;
@@ -293,7 +293,11 @@ export default {
       width: 100%;
     }
     .footer-tab-wrapper {
-      flex-direction: column-reverse;
+      flex-direction: column;
+      @include mobile {
+        flex-direction: column-reverse;
+      }
+      
     }
     .social-icons {
       margin-right: 10px;
