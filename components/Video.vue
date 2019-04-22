@@ -13,7 +13,6 @@
 
 <script type="text/babel">
 import player from './play';
-import config from '~/config';
 export default {
   components: {
   },
@@ -23,7 +22,9 @@ export default {
   },
   methods: {
     play(){
-      player({src:config.urls.video.home[this.$i18n.locale]});
+      this.$i18n.locale === 'zh' 
+        ? player({src: 'http://1257137467.vod2.myqcloud.com/c9d24a0dvodcq1257137467/bc96b2315285890788090827060/BdwEe78ChG8A.mp4'}) 
+        : player({src: '', iframeSrc: 'https://www.youtube.com/embed/FRvdP_KcNRk'});
     }
   }
 };
