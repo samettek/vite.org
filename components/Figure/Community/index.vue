@@ -59,7 +59,9 @@ export default {
   },
   methods: {
     play() {
-      player({ src: config.urls.video.loves[this.$i18n.locale] });
+      this.$i18n.locale === 'zh' 
+        ? player({ src: config.urls.video.loves.zh }) 
+        : player({ src: '', iframeSrc: 'https://www.youtube.com/embed/s_hxkBMizgM' }) ;
     }
   },
   data: function() {
