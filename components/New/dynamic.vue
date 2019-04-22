@@ -25,11 +25,12 @@ export default {
   computed: {
     list() {
       return this.dynamics.map(item=> {
+        let time = new Date(item.createTime * 1000);
         return {
           img: item.imgUrl,
           desc: item.desc,
           skipUrl: item.skipUrl,
-          date: new Date(item.createTime).toLocaleString()
+          date: time.toLocaleDateString()
         };
       });
     }
