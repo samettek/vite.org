@@ -9,7 +9,7 @@
       <div class="dropdown-content">
         <template v-for="(item, index) in exchangeList">
           <a class="dropdown-item" target="_blank" :href="exchangeMap[item]" :key="index">
-            {{$t(`exchange.${item}`)}}
+            {{$t(`nav.${item}`)}}
           </a>
         </template>
       </div>
