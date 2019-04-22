@@ -23,15 +23,30 @@ export default {
   components: {
     ThreeColumn
   },
+  async mounted() {
+    let url = this.$i18n.locale === 'zh' ? '/discover_zh' : '/discover_en';
+    let res = await this.$axios.$get(url);
+    let resAcLen = res.tags[1].list.length;
+    if (resAcLen < 3) {
+      this.activitys = resAcLen || [];
+    } else {
+      this.activitys = res.tags[1].list.slice(resAcLen - 3, resAcLen) || [];
+    }
+  },
+  computed: {
+    list() {
+      return this.activitys.map(item=> {
+        return {
+          img: item.imgUrl,
+          title: item.title,
+          skipUrl: item.skipUrl,
+        };
+      });
+    }
+  },
   data() {
     return {
-      list: [{
-        img: require('~/assets/images/product/products1.png'),
-      }, {
-        img: require('~/assets/images/product/products1.png'),
-      }, {
-        img: require('~/assets/images/product/products1.png'),
-      }]
+      activitys: []
     };
   }
 };

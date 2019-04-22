@@ -156,7 +156,7 @@ module.exports = {
     '/api/discover_en': {
       target: 'https://testnet-vite-1257137467.cos.ap-hongkong.myqcloud.com/discover/discover_en.json',
       changeOrigin: true,
-      pathRewrite: { '^/api/discover_zh': '' }
+      pathRewrite: { '^/api/discover_en': '' }
     },
   },
   css: [
