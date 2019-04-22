@@ -115,6 +115,8 @@ module.exports = {
   },
   modules: [
     // '@nuxtjs/webpackmonitor',
+    '@nuxtjs/axios',
+    '@nuxtjs/proxy',
     '@nuxtjs/pwa',
     ['nuxt-i18n', {
       locales,
@@ -140,6 +142,23 @@ module.exports = {
     }],
     '@nuxtjs/sitemap'
   ],
+  axios: {
+    prefix: '/api',
+    proxy: true,
+    credentials: true
+  },
+  proxy: {
+    '/api/discover_zh': {
+      target: 'https://testnet-vite-1257137467.cos.ap-hongkong.myqcloud.com/discover/discover_zh.json',
+      changeOrigin: true,
+      pathRewrite: { '^/api/discover_zh': '' }
+    },
+    '/api/discover_en': {
+      target: 'https://testnet-vite-1257137467.cos.ap-hongkong.myqcloud.com/discover/discover_en.json',
+      changeOrigin: true,
+      pathRewrite: { '^/api/discover_zh': '' }
+    },
+  },
   css: [
     '~/assets/main.scss'
   ],
