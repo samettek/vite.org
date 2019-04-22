@@ -1,18 +1,31 @@
 <template>
   <div class="container" id="blogs">
-    <div class="blog__card is-flex">
+    <a :href="href" target="_blank">
+      <div class="blog__card is-flex">
       <div>
         <div class="blog__card-title">{{ $t('medium.blog.title') }}</div>
         <div class="blog__card-desc">{{ $t('medium.blog.desc') }}</div>
       </div>
       <div class="M-img"><img src="~/assets/images/medium/M.svg"/></div>
     </div>
+    </a>
+    
   </div>
 </template>
 
 <script type="text/babel">
+import config from '~/config.js';
 
 export default {
+  data() {
+    return {
+    };
+  },
+  computed: {
+    href() {
+      return this.$i18n.locale === 'zh' ? config.urls.forum : config.urls.medium;
+    }
+  },
   components: {
   } 
 };
