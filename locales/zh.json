@@ -204,8 +204,8 @@
     },
     "medium": {
         "title": "媒体和新闻",
-        "youtube": {
-            "title": "Youtube"
+        "tencent": {
+            "title": "官方腾讯主页"
         },
         "blog": {
             "title": "官方博客",
