@@ -4,9 +4,11 @@
       <div class="youtube__content">
         <div class="is-flex" style="justify-content: space-between">
           <sub-title :title="title" style="color: white"></sub-title>
-          <div class="youtube__more">
-            <img src="~/assets/images/arrow_forward.svg"/>
-          </div>
+          <a :href="href" target="_blank">
+            <div class="youtube__more">
+              <img src="~/assets/images/arrow_forward.svg"/>
+            </div>
+          </a>
         </div>
         <div class="is-flex youtube__vedio" v-if="$i18n.locale === 'zh'">
           <iframe frameborder="0" class="iframe" src="https://v.qq.com/txp/iframe/player.html?vid=i0861u34sbz" allowFullScreen="true"></iframe>
@@ -33,7 +35,14 @@ export default {
   },
   computed: {
     title() {
-      return this.$i18n.locale === 'zh' ? this.$t('medium.tencent.title') : this.$t('medium.youtube.title');
+      return this.$i18n.locale === 'zh' 
+        ? this.$t('medium.tencent.title') 
+        : this.$t('medium.youtube.title');
+    },
+    href() {
+      return this.$i18n.locale === 'zh' 
+        ? 'http://v.qq.com/vplus/231ba235da67faeb91069f1800862a96' 
+        : 'https://www.youtube.com/channel/UC8qft2rEzBnP9yJOGdsJBVg/videos';
     }
   }
 };
@@ -53,7 +62,8 @@ export default {
     }
   }
   .youtube__more {
-    
+    width: 50px;
+    text-align: right;
   }
   .youtube__vedio {
     justify-content: space-between; 
