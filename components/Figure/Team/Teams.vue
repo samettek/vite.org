@@ -101,6 +101,7 @@ export default {
               ]
             },
             {
+              img: require('~/assets/images/teams/luke.jpg'),
               urls: [
                 {
                   icon: ['fab', 'linkedin'],
@@ -110,6 +111,7 @@ export default {
               key: 'Luke Kim'
             },
             {
+              img: require('~/assets/images/teams/chris.jpg'),
               urls: [
                 {
                   icon: ['fab', 'linkedin'],
@@ -123,14 +125,20 @@ export default {
         {
           title: 'tech',
           list: [
-            { urls: [], key: 'Ada' },
+            { 
+              img: require('~/assets/images/teams/zy2.jpg'),
+              urls: [], 
+              key: 'Ada'
+            },
             {
+              img: require('~/assets/images/teams/wm.jpg'),
               urls: [
                 { icon: ['fab', 'github'], url: 'https://github.com/roymoro' }
               ],
               key: 'Eric'
             },
             {
+              img: require('~/assets/images/teams/lwc.jpg'),
               urls: [
                 { icon: ['fab', 'github'], url: 'https://github.com/weichaolee' },
                 {
@@ -141,76 +149,89 @@ export default {
               key: 'weichao'
             },
             {
+              img: require('~/assets/images/teams/wj.jpg'),
               urls: [
                 { icon: ['fab', 'github'], url: 'https://github.com/viteshan' }
               ],
               key: 'viteshan'
             },
             {
+              img: require('~/assets/images/teams/yyl.jpg'),
               urls: [
                 { icon: ['fab', 'github'], url: 'https://github.com/tuprise' }
               ],
               key: 'Tuprise'
             },
             {
+              img: require('~/assets/images/teams/lyd.jpg'),
               urls: [{ icon: ['fab', 'github'], url: 'https://github.com/lyd00' }],
               key: 'hubery'
             },
             {
+              img: require('~/assets/images/teams/lld.jpg'),
               urls: [
                 { icon: ['fab', 'github'], url: 'https://github.com/viteFeng' }
               ],
               key: 'Rod'
             },
             {
+              img: require('~/assets/images/teams/hyf.jpg'),
               urls: [
                 { icon: ['fab', 'github'], url: 'https://github.com/alex-yf' }
               ],
               key: 'Alex'
             },
             {
+              img: require('~/assets/images/teams/cp.jpg'),
               urls: [
                 { icon: ['fab', 'github'], url: 'https://github.com/viteLiz' }
               ],
               key: 'viteLiz'
             },
             {
+              img: require('~/assets/images/teams/ztt.jpg'),
               urls: [
                 { icon: ['fab', 'github'], url: 'https://github.com/TiantaoZhu' }
               ],
               key: 'Tiantao'
             },
             {
+              img: require('~/assets/images/teams/yj.jpg'),
               urls: [
                 { icon: ['fab', 'github'], url: 'https://github.com/jerry-vite' }
               ],
               key: 'jerry'
             },
             {
+              img: require('~/assets/images/teams/gx.jpg'),
               urls: [
                 { icon: ['fab', 'github'], url: 'https://github.com/vite-crzn' }
               ],
               key: 'Jin'
             },
             {
+              img: require('~/assets/images/teams/hp.jpg'),
               urls: [
                 { icon: ['fab', 'github'], url: 'https://github.com/vite-pu' }
               ],
               key: 'Asurily'
             },
             {
+              img: require('~/assets/images/teams/xst.jpg'),
               urls: [
                 { icon: ['fab', 'github'], url: 'https://github.com/shitong' }
               ],
               key: 'Stone'
             },
             {
+              img: require('~/assets/images/teams/cl.jpg'),
               urls: [
                 { icon: ['fab', 'github'], url: 'https://github.com/buckcao' }
               ],
               key: 'Logan'
             },
             {
+              img: require('~/assets/images/teams/hsy.jpg'),
               urls: [
                 {
                   icon: ['fab', 'github'],
@@ -220,6 +241,7 @@ export default {
               key: 'Shenyang'
             },
             {
+              img: require('~/assets/images/teams/wty.jpg'),
               urls: [
                 {
                   icon: ['fab', 'github'],
@@ -229,6 +251,7 @@ export default {
               key: 'Tina'
             },
             {
+              img: require('~/assets/images/teams/cs.jpg'),
               urls: [
                 {
                   icon: ['fab', 'github'],
@@ -237,14 +260,15 @@ export default {
               ],
               key: 'Cecelia'
             },
-
             {
+              img: require('~/assets/images/teams/yz.jpg'),
               urls: [
                 { icon: ['fab', 'github'], url: 'https://github.com/hurrytospring' }
               ],
               key: 'Reg'
             },
             {
+              img: require('~/assets/images/teams/zd.jpg'),
               urls: [
                 { icon: ['fab', 'github'], url: 'https://github.com/swan-zhou' },
                 {
@@ -255,19 +279,26 @@ export default {
               key: 'Daisy'
             },
             {
+              img: require('~/assets/images/teams/jql.jpg'),
               urls: [
                 { icon: ['fab', 'github'], url: 'https://github.com/qianlei-jia' }
               ],
               key: 'Abbott'
             },
             {
+              img: require('~/assets/images/teams/flg.jpg'),
               urls: [
                 { icon: ['fab', 'github'], url: 'https://github.com/fanglige' }
               ],
               key: 'Hannah'
             },
-            { urls: [], key: 'Zack' },
+            { 
+              img: require('~/assets/images/teams/hzh.jpg'),
+              urls: [], 
+              key: 'Zack' 
+            },
             {
+              img: require('~/assets/images/teams/ljy.jpg'),
               urls: [
                 {
                   icon: ['fab', 'linkedin'],
@@ -277,9 +308,18 @@ export default {
               ],
               key: 'Lola'
             },
-            { urls: [], key: 'Tony' },
-            { urls: [], key: 'Cassie' },
+            { 
+              img: require('~/assets/images/teams/wt.jpg'),
+              urls: [], 
+              key: 'Tony' 
+            },
+            { 
+              img: require('~/assets/images/teams/lx.jpg'),
+              urls: [], 
+              key: 'Cassie' 
+            },
             {
+              img: require('~/assets/images/teams/hjy.jpg'),
               urls: [
                 {
                   icon: ['fab', 'github'],
@@ -288,10 +328,26 @@ export default {
               ],
               key: 'Candy'
             },
-            { urls: [], key: 'Flanke' },
-            { urls: [], key: 'Erin' },
-            { urls: [], key: 'Layla' },
-            { urls: [], key: 'Miya' }
+            { 
+              img: require('~/assets/images/teams/zqj.jpg'),
+              urls: [], 
+              key: 'Flanke' 
+            },
+            { 
+              img: require('~/assets/images/teams/yl.jpg'),
+              urls: [], 
+              key: 'Erin' 
+            },
+            { 
+              img: require('~/assets/images/teams/ws.jpg'),
+              urls: [], 
+              key: 'Layla' 
+            },
+            { 
+              img: require('~/assets/images/teams/llk.jpg'),
+              urls: [], 
+              key: 'Miya' 
+            }
           ],
         },
         {
@@ -351,7 +407,7 @@ export default {
               ]
             },
             {
-              img: require('~/assets/images/teams/HaViet.png'),
+              img: require('~/assets/images/teams/haviet.jpg'),
               key: 'HaViet',
               urls: [
                 {

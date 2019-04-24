@@ -51,6 +51,7 @@
 @import "~assets/vars";
 
 .three-column {
+  margin-top: 36px; 
   justify-content: space-between;
   @include mobile {
     flex-direction: column;
