@@ -128,10 +128,10 @@
         "title": "高性能去中心化平台",
         "explorer": "到区块浏览器查看Vite网络状况",
         "supernode": {
-          "title": "Vite超级节点出块率达99.9%"
+          "title": "Vite超级节点出块率达"
         },
         "fullnode": {
-            "title": "Vite全节点4个月数量达1047"
+            "title": "Vite全节点4个月数量达"
         },
         "textList": [{
             "name": "高性能",

@@ -128,7 +128,7 @@ export default {
           }
         },
         geo: {
-          roam: true,
+          roam: false,
           map: 'world',
           layoutCenter: ['50%', '57%'],
           layoutSize: 500,

@@ -4,7 +4,10 @@
       <div class="node-title">
         <div class="title-content is-flex">
           <img :src="info.img"/>
-          <div class="title-content__title">{{ info.title }}</div>
+          <div class="title-content__title">
+            {{ info.title }} 
+            <span style=" font-family:PingFangSC-Semibold">{{ info.titleData }}</span>
+          </div>
         </div>
       </div>
       <a :href="info.rightLink" target="_blank" v-if="info.rightLink" class="right-title-link">
@@ -28,6 +31,7 @@
           return {
             img: '',
             title: '',
+            titleData: '',
             rightLink: ''
           };
         }
@@ -53,8 +57,6 @@
   .head {
     font-size: 16px;
     background:rgba(242,248,255,1);
-    font-family:PingFangSC-Semibold;
-    font-weight:600;
     color:rgba(23,28,52,1);
     line-height:20px;
     display: flex;

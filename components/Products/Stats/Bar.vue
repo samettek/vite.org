@@ -23,10 +23,6 @@ export default {
       type: Boolean,
       default: true
     },
-    type: {
-      type: String,
-      default: 'large'
-    },
     yMax: {
       type: Number,
       default: 0
@@ -59,59 +55,49 @@ export default {
       return '';
     },
     draw() {
-      let yAxis = Object.assign({
+      let xAxis = Object.assign({
         show: this.showAxis,
-        position: 'right',
         axisLabel : { 
           formatter : '{value}%' 
         },
         splitLine:{ 
           show:false 
         }
-      }, this.type === 'mini' ? {min: 0,
-        max: this.yMax} : {});
+      });
       this.echarsInstance.setOption({
-        xAxis: {
+        xAxis: xAxis,
+        yAxis:  {
           show: this.showAxis,
           type: 'category',
           data: this.list.map(item => {
-            return item.name;
+            return item.count;
           })
         },
-        yAxis: yAxis,
         tooltip: {
           trigger: 'item'
         },
         series: [{
           type: 'bar',
-          data: this.type === 'mini' ? this.list: this.list.map(item => {
-            return Math.round(item.percent * 100);
+          data: this.list.map(item => {
+            return Math.round(item.item);
           }),
           animation: false,
           barWidth: '50%',
           itemStyle: {
             color: params =>{
               let item = this.list[params.dataIndex];
-              if (this.type === 'mini') {
-                return this.dispatchBarColor(item / 1000); 
-              }
               let itemName = item.name;
               let name = itemName && itemName.substring(0, itemName.length - 1) || '';
               return name && this.dispatchBarColor(+name) || '';
             }
           },
           tooltip: {
-            position: this.type === 'mini' ? ['80%', '0%'] : 'top',
+            position: 'top',
             formatter: params=> {
               let index = params.dataIndex;
-              let item = this.list[index];
-              if (this.type === 'mini') {
-                return `<div class="mini-header">${item}ms</div>`;
-              }
+              let listItem = this.list[index];
               return `<div class="">
-                <div class="">${item.name}</div>
-                <div class="">${this.$t('fullNode.popover.percent')}：${Math.round(item.percent * 100)}%</div> 
-                <div class="">${this.$t('fullNode.popover.sumPercent')}：${Math.round(item.sumPercent * 100)}%</div>
+                <div class="">${this.$t('fullNode.popover.percent')}：${listItem.item}%</div> 
               </div>`;
             }
           }

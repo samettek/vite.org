@@ -41,11 +41,13 @@ export default {
         broadcast: {
           img: require('~/assets/images/product/supernode.svg'),
           title: this.$t('products.platform.supernode.title'),
+          titleData: '99.9%',
           rightLink: 'https://explorer.vite.net/FullNode'
         },
         nodePosition: {
           img: require('~/assets/images/product/fullnode.svg'),
           title: this.$t('products.platform.fullnode.title'),
+          titleData: '1047',
           rightLink: 'https://explorer.vite.net/FullNode'
         },
         
@@ -55,32 +57,27 @@ export default {
   data: function () {
     return {
       barStyle: {
-        width: '110%',
-        height: '250px',
+        width: '100%',
+        height: '315px',
         marginTop: '0px',
-        marginLeft: '-40px'
+        marginLeft: '0px'
       },
       percents: [
         {
-          'name': '0s',
-          'percent': 0.02,
-          'sumPercent': 0.02
+          'count': '5',
+          'item': '99.98'
         }, {
-          'name': '0.25s',
-          'percent': 0.3,
-          'sumPercent': 0.32
+          'count': '5',
+          'item': '99.98'
         }, {
-          'name': '0.5s',
-          'percent': 0.3,
-          'sumPercent': 0.62
+          'count': '5',
+          'item': '99.98'
         }, {
-          'name': '0.75s',
-          'percent': 0.3,
-          'sumPercent': 0.92
+          'count': '5',
+          'item': '99.98'
         }, {
-          'name': '0.75s',
-          'percent': 0.08,
-          'sumPercent': 1.0
+          'count': '10',
+          'item': '99.98'
         }
       ],
       mapList: [
