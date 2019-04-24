@@ -1,7 +1,13 @@
 <template>
   <div class="map-container">
     <div class="content">
-      <div id="map" style="width: 100%; height: 218px;"></div>
+      <div id="map" style="width: 100%; height: 249px;"></div>
+      <div class="map__footer is-flex">
+        <div v-for="(item, index) in valList" :key="index" class="map__footer-wrapper">
+          <div>{{item.name}}</div>
+          <div>{{item.value}}</div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -19,7 +25,73 @@ export default {
   },
   data() {
     return {
-      mapInstance: null
+      mapInstance: null,
+      valList: [
+        {
+          name: '北京',
+          value: '1000'
+        },
+        {
+          name: '北京',
+          value: '1000'
+        },
+        {
+          name: '北京',
+          value: '1000'
+        },
+        {
+          name: '北京',
+          value: '1000'
+        },
+        {
+          name: '北京',
+          value: '1000'
+        },
+        {
+          name: '北京',
+          value: '1000'
+        },
+        {
+          name: '北京',
+          value: '1000'
+        },
+        {
+          name: '北京',
+          value: '1000'
+        },
+        {
+          name: '北京',
+          value: '1000'
+        },
+        {
+          name: '北京',
+          value: '1000'
+        },
+        {
+          name: '北京',
+          value: '1000'
+        },
+        {
+          name: '北京',
+          value: '1000'
+        },
+        {
+          name: '北京',
+          value: '1000'
+        },
+        {
+          name: '北京',
+          value: '1000'
+        },
+        {
+          name: '北京',
+          value: '1000'
+        },
+        {
+          name: '北京',
+          value: '1000'
+        }
+      ]
     };
   },
   watch: {
@@ -58,7 +130,7 @@ export default {
         geo: {
           roam: true,
           map: 'world',
-          layoutCenter: ['50%', '53%'],
+          layoutCenter: ['50%', '57%'],
           layoutSize: 500,
           itemStyle: {
             normal: {
@@ -82,5 +154,20 @@ export default {
 <style rel="stylesheet/scss" lang="scss" scoped>
 @import "~assets/vars.scss";
 .map-container {
+  box-sizing: border-box;
+  padding: 0 15px;
+  .map__footer {
+    justify-content: space-between;
+    overflow-x: scroll;
+    font-size:14px;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(145,154,163,1);
+    line-height:18px;
+    .map__footer-wrapper {
+      padding-left: 15px; 
+      padding-right: 15px; 
+    }
+  }
 }
 </style>

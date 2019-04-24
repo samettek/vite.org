@@ -60,8 +60,51 @@ export default {
         marginTop: '0px',
         marginLeft: '-40px'
       },
-      percents: [],
-      mapList: [],
+      percents: [
+        {
+          'name': '0s',
+          'percent': 0.02,
+          'sumPercent': 0.02
+        }, {
+          'name': '0.25s',
+          'percent': 0.3,
+          'sumPercent': 0.32
+        }, {
+          'name': '0.5s',
+          'percent': 0.3,
+          'sumPercent': 0.62
+        }, {
+          'name': '0.75s',
+          'percent': 0.3,
+          'sumPercent': 0.92
+        }, {
+          'name': '0.75s',
+          'percent': 0.08,
+          'sumPercent': 1.0
+        }
+      ],
+      mapList: [
+        {
+          'avgBroadcastTime': 0,
+          'broadcastTime': 0,
+          'getAvgBroadcastTime': 0,
+          'ipInfo': {
+            'area_code': 0,
+            'country_name': 'USA',
+            'found': 0,
+            'lat': 31.0,
+            'lng': 111.0,
+            'metro_code': 0,
+            'region_name': 'California'
+          },
+          'latestBlockHeight': 0,
+          'latestBlockTime': 0,
+          'nodeDelayTime': 0,
+          'nodeName': 'AAABBB',
+          'onlinePercent': 0.0,
+          'peersNum': 0
+        }
+      ],
       outerLink: {
         name: this.$t('products.platform.explorer'),
         url: 'https://explorer.vite.net/'
@@ -85,7 +128,7 @@ export default {
   }
   .card-multi {
     width: 516px;
-    height: 315px;
+    height: 375px;
     @include mobile {
       width: 100%;
     }

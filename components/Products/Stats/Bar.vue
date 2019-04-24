@@ -108,10 +108,10 @@ export default {
               if (this.type === 'mini') {
                 return `<div class="mini-header">${item}ms</div>`;
               }
-              return `<div class="card">
-                <div class="card-header">${item.name}</div>
-                <div class="card-content">${this.$t('fullNode.popover.percent')}：${Math.round(item.percent * 100)}%</div> 
-                <div class="card-footer">${this.$t('fullNode.popover.sumPercent')}：${Math.round(item.sumPercent * 100)}%</div>
+              return `<div class="">
+                <div class="">${item.name}</div>
+                <div class="">${this.$t('fullNode.popover.percent')}：${Math.round(item.percent * 100)}%</div> 
+                <div class="">${this.$t('fullNode.popover.sumPercent')}：${Math.round(item.sumPercent * 100)}%</div>
               </div>`;
             }
           }
