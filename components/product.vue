@@ -74,6 +74,7 @@ export default {
 @import "~assets/vars";
 
 section {
+  overflow: auto; 
   // @include mobile {
   //   height: 360px;
   // }

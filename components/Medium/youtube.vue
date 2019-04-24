@@ -6,7 +6,7 @@
           <sub-title :title="title" style="color: white"></sub-title>
           <a :href="href" target="_blank">
             <div class="youtube__more">
-              <img src="~/assets/images/arrow_forward.svg"/>
+              <img src="~/assets/images/medium/arrow.svg"/>
             </div>
           </a>
         </div>
@@ -63,7 +63,11 @@ export default {
   }
   .youtube__more {
     width: 50px;
+    height: 28px;
     text-align: right;
+    img {
+      margin-top: 4px;
+    }
   }
   .youtube__vedio {
     justify-content: space-between; 
