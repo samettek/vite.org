@@ -5,7 +5,7 @@
       <div class="map__footer is-flex">
         <div v-for="(item, index) in valList" :key="index" class="map__footer-wrapper">
           <div>{{item.name}}</div>
-          <div>{{item.value}}</div>
+          <div style="margin-top:2px;">{{item.value}}</div>
         </div>
       </div>
     </div>
@@ -142,7 +142,12 @@ export default {
         series: [{
           type: 'scatter',
           coordinateSystem: 'geo',
-          symbolSize: 5,
+          symbolSize: 8,
+          itemStyle: {
+            color: 'rgba(0, 122, 255, 1)',
+            borderColor: 'rgba(0, 122, 255, 0.2)',
+            borderWidth: 8
+          },
           data: this.convertData()
         }]
       },true);
@@ -165,6 +170,7 @@ export default {
     color:rgba(145,154,163,1);
     line-height:18px;
     .map__footer-wrapper {
+      margin-top: 5px;
       padding-left: 15px; 
       padding-right: 15px; 
     }
