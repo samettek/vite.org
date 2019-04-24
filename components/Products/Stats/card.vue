@@ -7,17 +7,12 @@
           <div class="title-content__title">{{ info.title }}</div>
         </div>
       </div>
-      <div v-if="info.rightTitle" class="right-title">{{ info.rightTitle }}</div>
-    </div>
-    <div class="node-content" v-if="info.text">
-      <el-popover trigger="hover" placement="top-start" :disabled="!info.popover">
-        <no-ssr>
-          <slot name="popoverContent"></slot>
-        </no-ssr>
-        <span slot="reference">
-          <span class="node-text" v-html="info.text"></span>
-        </span>
-      </el-popover>
+      <a :href="info.rightLink" target="_blank" v-if="info.rightLink" class="right-title-link">
+        <div class="right-title">
+          {{ $t('nav.more') }}
+          <img src="~/assets/images/arrow_forward.svg"/>
+        </div>
+      </a>
     </div>
     <slot name="nodeContent"></slot>
   </div>
@@ -33,8 +28,7 @@
           return {
             img: '',
             title: '',
-            rightTitle: '',
-            popover: false
+            rightLink: ''
           };
         }
       }
@@ -66,24 +60,28 @@
     display: flex;
     display: -webkit-flex;
     justify-content: space-between;
-    padding: 12px 31px 12px 20px;
     .node-title {
       .title-content {
+        padding: 12px 21px 12px 20px;
         .title-content__title {
           margin-left: 12px; 
           line-height: 36px;
         }   
       } 
     }
+    .right-title-link {
+      display: inline-block;
+      height: 60px;
+      line-height: 60px;
+      cursor: pointer;
+    }
     .right-title {
-      margin-top: -5px;
-      background: rgba(239,243,252,0.69);
-      border-radius: 1px;
-      font-size: 12px;
-      padding: 3px 8px;
-      color: #5E6875;
-      letter-spacing: 0.3px;
-      line-height: 24px;
+      cursor: pointer;
+      font-size:12px;
+      font-family:PingFangSC-Semibold;
+      font-weight:600;
+      line-height: 60px;
+      padding-right: 31px;
     }
   }
   .node-content {

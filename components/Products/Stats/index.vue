@@ -40,12 +40,13 @@ export default {
       return {
         broadcast: {
           img: require('~/assets/images/product/supernode.svg'),
-          title: this.$t('products.platform.supernode.title')
+          title: this.$t('products.platform.supernode.title'),
+          rightLink: 'https://explorer.vite.net/FullNode'
         },
         nodePosition: {
           img: require('~/assets/images/product/fullnode.svg'),
           title: this.$t('products.platform.fullnode.title'),
-          // rightTitle: `${this.$t("fullNode.contentTitle.onlinePercent")}：${percent}`
+          rightLink: 'https://explorer.vite.net/FullNode'
         },
         
       };
@@ -56,7 +57,7 @@ export default {
       barStyle: {
         width: '110%',
         height: '250px',
-        marginTop: '-32px',
+        marginTop: '0px',
         marginLeft: '-40px'
       },
       percents: [],
