@@ -60,7 +60,7 @@
       }
     }
     .link-content {
-      margin-bottom: 23px;
+      margin-bottom: 6px;
       padding: 5px;
       @include touch {
         margin-bottom: 0px;
