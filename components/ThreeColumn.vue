@@ -1,21 +1,23 @@
 <template>
   <div class="three-column is-flex" :class="{'three-column-spec': isCustom, 'three-column-more': isMore}">
-    <div 
-      v-for="(item, index) in list" 
-      :key="index" 
-      class="three-column-item" 
-      v-if="list.length">
-      <div class="three-column__wrapper is-flex">
-        <a :href="item.skipUrl" target="_blank" v-if="item.skipUrl">
-          <div class="three-column__content">
-            <div class="three-column__title" v-if="item.title">{{ item.title }}</div>
-            <img :src="item.img" :style="imgSize"/>
-          </div>
-        </a>
+    <div class="three-column-mobile">
+      <div 
+        v-for="(item, index) in list" 
+        :key="index" 
+        class="three-column-item" 
+        v-if="list.length">
+        <div class="three-column__wrapper is-flex">
+          <a :href="item.skipUrl" target="_blank" v-if="item.skipUrl">
+            <div class="three-column__content">
+              <div class="three-column__title" v-if="item.title">{{ item.title }}</div>
+              <img :src="item.img" :style="imgSize"/>
+            </div>
+          </a>
+        </div>
+        <div class="date" v-if="item.date">{{ item.date }}</div>
+        <div class="desc" v-if="item.desc">{{ item.desc }}</div>
+        <div class="copyright" v-if="item.copyright">@ {{ item.copyright }}</div>
       </div>
-      <div class="date" v-if="item.date">{{ item.date }}</div>
-      <div class="desc" v-if="item.desc">{{ item.desc }}</div>
-      <div class="copyright" v-if="item.copyright">@ {{ item.copyright }}</div>
     </div>
   </div>
 </template>
@@ -63,11 +65,17 @@
   justify-content: space-between;
   @include mobile {
     flex-direction: column;
+    align-items: center;
+  }
+  .three-column-mobile {
+    width: 320px;
+    height: 750px;
+    overflow-y: scroll;
   }
   .three-column-item {
     @include mobile {
       box-sizing: border-box;
-      padding: 30px;
+      margin-bottom: 50px;
     }
   }
   
@@ -123,7 +131,10 @@
 .three-column-spec {
     justify-content: flex-start;
     .three-column-item {
-      margin-right: 25px; 
+      margin-right: 25px;
+      @include mobile {
+        margin-right: 0px; 
+      }
     }
 }
 .three-column-more {
