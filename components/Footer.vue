@@ -84,6 +84,15 @@
                       ></fa-icon>
                     </a>
                     <a
+                      :href="urls.medium"
+                      target="_blank"
+                      class="text-hover-transition"
+                    >
+                      <img
+                        class="icon__item"
+                        src="~/assets/images/footer/medium.svg"/>
+                    </a>
+                    <a
                       :href="urls.discord"
                       target="_blank"
                       class="text-hover-transition"

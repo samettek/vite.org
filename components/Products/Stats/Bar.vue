@@ -101,17 +101,7 @@ export default {
           }
         }]
       });
-    },
-    // refreshData() {
-    //   if(!this.echarsInstance){
-    //     return;
-    //   }
-    //   var option = this.echarsInstance.getOption();
-    //   option.series[0].data = this.type === "mini" ? this.list: this.list.map(item => {
-    //     return item.percent * 100;
-    //   });   
-    //   this.echarsInstance.setOption(option);   
-    // }
+    }
   }
 };
 </script>
