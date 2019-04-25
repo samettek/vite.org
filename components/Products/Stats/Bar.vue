@@ -47,11 +47,10 @@ export default {
       this.echarsInstance.clear();
     },
     dispatchBarColor(name) {
-      if (name === 0) return '#749AF8';
-      if (name > 0 && name <= 1) return '#5CB85C';
-      if (name > 1 && name <= 3) return '#F4CD41';
-      if (name > 3 && name <= 7) return '#E87400';
-      if (name > 7) return '#EE2E38';
+      if (name >= 0 && name <= 10) return '#EE2E38';
+      if (name > 10 && name <= 40) return '#E87400';
+      if (name > 40 && name <= 80) return '#F4CD41';
+      if (name > 80) return '#5CB85C';
       return '';
     },
     draw() {
@@ -85,10 +84,9 @@ export default {
           barWidth: '50%',
           itemStyle: {
             color: params =>{
-              let item = this.list[params.dataIndex];
-              let itemName = item.name;
-              let name = itemName && itemName.substring(0, itemName.length - 1) || '';
-              return name && this.dispatchBarColor(+name) || '';
+              let itemList = this.list[params.dataIndex];
+              let percent = itemList.item;
+              return this.dispatchBarColor(+percent) || '';
             }
           },
           tooltip: {

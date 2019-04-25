@@ -64,19 +64,19 @@ export default {
       },
       percents: [
         {
-          'count': '5',
-          'item': '99.98'
-        }, {
-          'count': '5',
-          'item': '99.98'
-        }, {
-          'count': '5',
-          'item': '99.98'
-        }, {
-          'count': '5',
-          'item': '99.98'
-        }, {
           'count': '10',
+          'item': '9.98'
+        }, {
+          'count': '20',
+          'item': '37.98'
+        }, {
+          'count': '30',
+          'item': '59.98'
+        }, {
+          'count': '40',
+          'item': '70.98'
+        }, {
+          'count': '50',
           'item': '99.98'
         }
       ],
