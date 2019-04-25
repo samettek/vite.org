@@ -15,7 +15,7 @@ export default {
     ThreeColumn
   },
   async mounted() {
-    let url = this.$i18n.locale === 'zh' ? '/report_zh' : '/report_en';
+    let url = this.$i18n.locale === 'zh' ? '/report_zh.json' : '/report_en.json';
     let res = await this.$axios.$get(url) || [];
     this.resAcLen = res.length;
     this.reports = res || [];

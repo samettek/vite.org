@@ -13,7 +13,7 @@ export default {
     ThreeColumn
   },
   async mounted() {
-    let url = this.$i18n.locale === 'zh' ? '/discover_zh' : '/discover_en';
+    let url = this.$i18n.locale === 'zh' ? '/discover_zh.json' : '/discover_en.json';
     let res = await this.$axios.$get(url);
     let resAcLen = res.tags[2].list.length;
     if (resAcLen < 3) {

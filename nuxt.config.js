@@ -148,26 +148,11 @@ module.exports = {
     credentials: true
   },
   proxy: {
-    '/api/report_zh': {
-      target: 'https://testnet-vite-1257137467.cos.ap-hongkong.myqcloud.com/discover/report_zh.json',
+    '/api': {
+      target: 'https://testnet-vite-1257137467.cos.ap-hongkong.myqcloud.com/discover',
       changeOrigin: true,
-      pathRewrite: { '^/api/report_zh': '' }
-    },
-    '/api/report_en': {
-      target: 'https://testnet-vite-1257137467.cos.ap-hongkong.myqcloud.com/discover/report_en.json',
-      changeOrigin: true,
-      pathRewrite: { '^/api/report_en': '' }
-    },
-    '/api/discover_zh': {
-      target: 'https://testnet-vite-1257137467.cos.ap-hongkong.myqcloud.com/discover/discover_zh.json',
-      changeOrigin: true,
-      pathRewrite: { '^/api/discover_zh': '' }
-    },
-    '/api/discover_en': {
-      target: 'https://testnet-vite-1257137467.cos.ap-hongkong.myqcloud.com/discover/discover_en.json',
-      changeOrigin: true,
-      pathRewrite: { '^/api/discover_en': '' }
-    },
+      pathRewrite: { '^/api': '' }
+    }
   },
   css: [
     '~/assets/main.scss'
