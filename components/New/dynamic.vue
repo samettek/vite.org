@@ -2,7 +2,7 @@
   <div id="dynamic">
     <h1 class="is-border-box">{{ $t('New.dynamic.title') }}</h1>
     <div class="pic">
-      <three-column :list="list"></three-column>
+      <three-column :list="list" :is-custom="resAcLen > 3"></three-column>
     </div>
   </div>
 </template>
@@ -14,13 +14,12 @@ export default {
   },
   async mounted() {
     let url = this.$i18n.locale === 'zh' ? '/discover_zh.json' : '/discover_en.json';
+    let reportUrl = this.$i18n.locale === 'zh' ? '/report_zh.json' : '/report_en.json';
     let res = await this.$axios.$get(url);
-    let resAcLen = res.tags[2].list.length;
-    if (resAcLen < 3) {
-      this.dynamics = res || [];
-    } else {
-      this.dynamics = res.tags[2].list.slice(0, 3) || [];
-    }
+    let resReport = await this.$axios.$get(reportUrl);
+    this.resAcLen = res.tags[2].list.length + resReport.length;
+   
+    this.dynamics = res.tags[2].list.concat(resReport) || [];
   },
   computed: {
     list() {
@@ -37,7 +36,8 @@ export default {
   },
   data() {
     return {
-      dynamics: []
+      dynamics: [],
+      resAcLen: 0
     };
   }
 };
@@ -47,5 +47,8 @@ export default {
 
 h1 {
   padding-top: 90px;
+}
+.pic {
+  overflow-x: scroll;
 }
 </style>
