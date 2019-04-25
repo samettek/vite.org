@@ -69,7 +69,7 @@
   }
   .three-column-mobile {
     width: 320px;
-    height: 750px;
+    max-height: 750px;
     overflow-y: scroll;
   }
   .three-column-item {
