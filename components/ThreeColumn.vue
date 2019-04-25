@@ -1,6 +1,6 @@
 <template>
-  <div class="three-column is-flex" :class="{'three-column-spec': isCustom, 'three-column-more': isMore}">
-    <div class="three-column-mobile">
+  <div class="three-column is-flex" >
+    <div class="three-column-mobile is-flex" :class="{'three-column-spec': isCustom, 'three-column-more': isMore}">
       <div 
         v-for="(item, index) in list" 
         :key="index" 
@@ -62,15 +62,19 @@
 
 .three-column {
   margin-top: 36px; 
-  justify-content: space-between;
   @include mobile {
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
   }
   .three-column-mobile {
-    width: 320px;
-    max-height: 750px;
-    overflow-y: scroll;
+    width: 100%;
+    justify-content: space-between;
+    @include mobile {
+      flex-direction: column;
+      width: 320px;
+      max-height: 750px;
+      overflow-y: scroll;
+    }
   }
   .three-column-item {
     @include mobile {
@@ -126,9 +130,7 @@
     line-height:16px;
     text-align: left;
   }
-}
-
-.three-column-spec {
+  .three-column-spec {
     justify-content: flex-start;
     .three-column-item {
       margin-right: 25px;
@@ -136,19 +138,18 @@
         margin-right: 0px; 
       }
     }
-}
-.three-column-more {
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  .three-column-item {
-    margin-right: 25px; 
-    margin-bottom: 25px;
-    @include mobile {
-      margin-right: 0px; 
-      margin-bottom: 0px;
+  }
+  .three-column-more {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    .three-column-item {
+      margin-right: 25px; 
+      margin-bottom: 25px;
+      @include mobile {
+        margin-right: 0px; 
+        margin-bottom: 0px;
+      }
     }
   }
 }
-
-
 </style>
