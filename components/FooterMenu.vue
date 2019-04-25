@@ -24,11 +24,11 @@
           v-if="item.type && item.type === 'inner'"
           v-for="(item, index) in list" 
           :key="index">
-          <a
-            :href="item.anchor ? `${localePath(item.to)}#${item.anchor}` : localePath(item.to)"
+          <nuxt-link
+            :to="item.anchor ? `${localePath(item.to)}#${item.anchor}` : localePath(item.to)"
             class="secondary-item">
             {{$t(`nav.${item.name}`)}}
-          </a>
+          </nuxt-link>
         </div>
       </div>
     </div>

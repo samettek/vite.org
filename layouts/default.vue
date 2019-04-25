@@ -113,7 +113,9 @@
       class="nuxt-content"
       :class="`is-${routeName}-page`"
     >
-      <nuxt :keep-alive="true"></nuxt>
+      <transition name="fade" mode="out-in" @after-leave="afterLeave">
+        <nuxt :keep-alive="true"></nuxt>
+      </transition>
     </div>
     <v-footer 
       :nav-production-list="navProductionList"
@@ -306,8 +308,8 @@ export default {
     }
   },
   methods: {
-    handleClose(done) {
-      console.log(done);
+    afterLeave () {
+      this.$root.$emit('triggerScroll');
     },
     openDotNet () {
       window.open(
