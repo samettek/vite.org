@@ -2,7 +2,7 @@
   <div id="dynamic">
     <h1 class="is-border-box">{{ $t('New.dynamic.title') }}</h1>
     <div class="pic">
-      <three-column :list="list" :img-size="{width: '155px', height: '155px'}"></three-column>
+      <three-column :list="list"></three-column>
     </div>
   </div>
 </template>
@@ -17,7 +17,7 @@ export default {
     let res = await this.$axios.$get(url);
     let resAcLen = res.tags[2].list.length;
     if (resAcLen < 3) {
-      this.dynamics = resAcLen || [];
+      this.dynamics = res || [];
     } else {
       this.dynamics = res.tags[2].list.slice(0, 3) || [];
     }
@@ -27,7 +27,7 @@ export default {
       return this.dynamics.map(item=> {
         let time = new Date(item.createTime * 1000);
         return {
-          img: item.imgUrl,
+          img: item.bannerUrl,
           desc: item.desc,
           skipUrl: item.skipUrl,
           date: time.toLocaleDateString()

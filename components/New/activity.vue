@@ -28,7 +28,7 @@ export default {
     let res = await this.$axios.$get(url);
     let resAcLen = res.tags[1].list.length;
     if (resAcLen < 3) {
-      this.activitys = resAcLen || [];
+      this.activitys = res || [];
     } else {
       this.activitys = res.tags[1].list.slice(resAcLen - 3, resAcLen) || [];
     }

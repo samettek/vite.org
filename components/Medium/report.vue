@@ -1,7 +1,7 @@
 <template>
   <div class="container" id="news">
     <sub-title :title="$t('medium.report.title')"></sub-title>
-    <three-column :list="list"></three-column>
+    <three-column :list="list" :is-custom="resAcLen < 3" :is-more="resAcLen > 3"></three-column>
   </div>
 </template>
 
@@ -14,48 +14,29 @@ export default {
     subTitle,
     ThreeColumn
   },
+  async mounted() {
+    let url = this.$i18n.locale === 'zh' ? '/report_zh' : '/report_en';
+    let res = await this.$axios.$get(url) || [];
+    this.resAcLen = res.length;
+    this.reports = res || [];
+  },
   computed: {
     list() {
-      return this.$i18n.locale === 'zh' ? this.list_zh : this.list_en;
+      return this.reports.map(item=> {
+        let time = new Date(item.createTime * 1000);
+        return {
+          img: item.bannerUrl,
+          desc: item.desc,
+          skipUrl: item.skipUrl,
+          date: time.toLocaleDateString()
+        };
+      });
     }
   },
   data() {
     return {
-      list_zh: [{
-        img: require('~/assets/images/medium/1.jpg'),
-        skipUrl: 'https://www.jinse.com/news/blockchain/352453.html',
-        date: '2019.04.23',
-        desc: '退房租押金要21天？美国城市政府与Vite实验室探索通过区块链技术解决民生问题',
-        // copyright: 'lnc.'
-      }, {
-        img: require('~/assets/images/medium/2.jpg'),
-        date: '2019.04.19',
-        skipUrl: 'https://www.jinse.com/blockchain/350551.html',
-        desc: '币圈一级防空警报，VITE钱包空投来袭',
-      }, {
-        img: require('~/assets/images/medium/3.jpg'),
-        skipUrl: 'https://www.jinse.com/blockchain/347878.html',
-        date: '2019.04.16',
-        desc: '全球第一个基于DAG的去中心化交易所ViteX正式公测',
-      }],
-
-      list_en: [{
-        img: require('~/assets/images/medium/1.jpg'),
-        skipUrl: 'https://www.jinse.com/news/blockchain/352453.html',
-        date: '2019.04.23',
-        desc: '退房租押金要21天？美国城市政府与Vite实验室探索通过区块链技术解决民生问题',
-        // copyright: 'lnc.'
-      }, {
-        img: require('~/assets/images/medium/2.jpg'),
-        date: '2019.04.19',
-        skipUrl: 'https://www.jinse.com/blockchain/350551.html',
-        desc: '币圈一级防空警报，VITE钱包空投来袭',
-      }, {
-        img: require('~/assets/images/medium/3.jpg'),
-        skipUrl: 'https://www.jinse.com/blockchain/347878.html',
-        date: '2019.04.16',
-        desc: '全球第一个基于DAG的去中心化交易所ViteX正式公测',
-      }]
+      resAcLen: 0,
+      reports: []
     };
   }
 };

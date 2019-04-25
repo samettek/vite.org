@@ -1,5 +1,5 @@
 <template>
-  <div class="three-column is-flex">
+  <div class="three-column is-flex" :class="{'three-column-spec': isCustom, 'three-column-more': isMore}">
     <div 
       v-for="(item, index) in list" 
       :key="index" 
@@ -26,6 +26,14 @@
       list: {
         type: Array,
         default: () => []
+      },
+      isCustom: {
+        type: Boolean,
+        default: false
+      },
+      isMore: {
+        type: Boolean,
+        default: false
       },
       imgSize: {
         type: Object,
@@ -62,10 +70,8 @@
       padding: 30px;
     }
   }
-  // img {
-  //   width: 320px;
-  //   height: 190px;
-  // }
+  
+  
   .three-column__wrapper {
     justify-content: center;
     .three-column__content {
@@ -113,5 +119,25 @@
     text-align: left;
   }
 }
+
+.three-column-spec {
+    justify-content: flex-start;
+    .three-column-item {
+      margin-right: 25px; 
+    }
+}
+.three-column-more {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  .three-column-item {
+    margin-right: 25px; 
+    margin-bottom: 25px;
+    @include mobile {
+      margin-right: 0px; 
+      margin-bottom: 0px;
+    }
+  }
+}
+
 
 </style>

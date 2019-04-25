@@ -4,8 +4,8 @@
       <h1>{{$t('medium.title')}}</h1>
     </div>
     <youtube class="section"></youtube>
-    <blog class="section"></blog>
-    <report class="section"></report>
+    <blog></blog>
+    <report></report>
   </section>
 </template>
 
