@@ -74,11 +74,9 @@ export default {
 @import "~assets/vars";
 
 section {
-  overflow: auto; 
-  // @include mobile {
-  //   height: 360px;
-  // }
+  padding: 0 0 130px 0;
   .product__content {
+    margin-top: 60px;
     @include mobile {
       justify-content: center;
     }
