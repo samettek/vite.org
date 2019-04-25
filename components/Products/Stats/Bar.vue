@@ -95,7 +95,7 @@ export default {
               let index = params.dataIndex;
               let listItem = this.list[index];
               return `<div class="">
-                <div class="">${this.$t('fullNode.popover.percent')}：${listItem.item}%</div> 
+                <div class="">${this.$t('products.platform.supernode.count')}：${listItem.item}%</div> 
               </div>`;
             }
           }

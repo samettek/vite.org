@@ -80,26 +80,34 @@ export default {
           'item': '99.98'
         }
       ],
-      mapList: [
+      mapList:[
         {
-          'avgBroadcastTime': 0,
-          'broadcastTime': 0,
-          'getAvgBroadcastTime': 0,
-          'ipInfo': {
-            'area_code': 0,
-            'country_name': 'USA',
-            'found': 0,
-            'lat': 31.0,
-            'lng': 111.0,
-            'metro_code': 0,
-            'region_name': 'California'
-          },
-          'latestBlockHeight': 0,
-          'latestBlockTime': 0,
-          'nodeDelayTime': 0,
-          'nodeName': 'AAABBB',
-          'onlinePercent': 0.0,
-          'peersNum': 0
+          'city':'A_0',
+          'count':5,
+          'lat':51.2993,
+          'lng':9.491,
+          'nodeNames':['0nodename','1nodename','2nodename','3nodename','4nodename']
+        },
+        {
+          'city':'A_1',
+          'count':7,
+          'lat':40.7939,
+          'lng':-74.0258,
+          'nodeNames':['0nodename','1nodename','2nodename','3nodename','4nodename','5nodename']
+        },
+        {
+          'city':'A_2',
+          'count':9,
+          'lat':50.1153,
+          'lng':8.6823,
+          'nodeNames':['0nodename','1nodename','2nodename','3nodename','4nodename','5nodename','6nodename']
+        },
+        {
+          'city':'A_3',
+          'count':11,
+          'lat':60.1708,
+          'lng':24.9375,
+          'nodeNames':['0nodename','1nodename','2nodename','3nodename','4nodename','5nodename','6nodename','7nodename']
         }
       ],
       outerLink: {

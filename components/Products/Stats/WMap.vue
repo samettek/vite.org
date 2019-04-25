@@ -3,9 +3,13 @@
     <div class="content">
       <div id="map" style="width: 100%; height: 249px;"></div>
       <div class="map__footer is-flex">
-        <div v-for="(item, index) in valList" :key="index" class="map__footer-wrapper">
-          <div>{{item.name}}</div>
-          <div style="margin-top:2px;">{{item.value}}</div>
+        <div 
+          v-for="(item, index) in list" 
+          :key="index" 
+          class="map__footer-wrapper"
+          v-if="list.length">
+          <div>{{item.city}}</div>
+          <div style="margin-top:2px;">{{item.count}}</div>
         </div>
       </div>
     </div>
@@ -26,72 +30,6 @@ export default {
   data() {
     return {
       mapInstance: null,
-      valList: [
-        {
-          name: '北京',
-          value: '1000'
-        },
-        {
-          name: '北京',
-          value: '1000'
-        },
-        {
-          name: '北京',
-          value: '1000'
-        },
-        {
-          name: '北京',
-          value: '1000'
-        },
-        {
-          name: '北京',
-          value: '1000'
-        },
-        {
-          name: '北京',
-          value: '1000'
-        },
-        {
-          name: '北京',
-          value: '1000'
-        },
-        {
-          name: '北京',
-          value: '1000'
-        },
-        {
-          name: '北京',
-          value: '1000'
-        },
-        {
-          name: '北京',
-          value: '1000'
-        },
-        {
-          name: '北京',
-          value: '1000'
-        },
-        {
-          name: '北京',
-          value: '1000'
-        },
-        {
-          name: '北京',
-          value: '1000'
-        },
-        {
-          name: '北京',
-          value: '1000'
-        },
-        {
-          name: '北京',
-          value: '1000'
-        },
-        {
-          name: '北京',
-          value: '1000'
-        }
-      ]
     };
   },
   watch: {
@@ -109,10 +47,10 @@ export default {
     convertData() {
       let res = [];
       for (var i = 0; i < this.list.length; i++) {
-        if (this.list[i].ipInfo && this.list[i].ipInfo.lng) {
+        if (this.list[i].lng && this.list[i].lng) {
           res.push({
-            name: this.$t('fullNode.popover.nodeName'),
-            value: [this.list[i].ipInfo.lng, this.list[i].ipInfo.lat, this.list[i].nodeName]
+            name: this.$t('products.platform.fullnode.nodeName'),
+            value: [this.list[i].lng, this.list[i].lat, this.list[i].nodeNames]
           });
         }
       }
