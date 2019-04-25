@@ -1,33 +1,33 @@
 <template>
-  <section>
-    <div id="platform">
-      <div class="is-flex products__platform">
-        <text-card 
-          :title="$t('products.platform.title')" 
-          :text-list="$t('products.platform.textList')"
-          :outer-link="link.platform"
-          style="margin-right: 25px;">
-        </text-card>
-        <Feature></Feature>
+    <section>
+      <div id="platform">
+        <div class="is-flex products__platform">
+          <text-card 
+            :title="$t('products.platform.title')" 
+            :text-list="$t('products.platform.textList')"
+            :outer-link="link.platform"
+            style="margin-right: 25px;">
+          </text-card>
+          <Feature></Feature>
+        </div>
+        <Stats></Stats>
       </div>
-      <Stats></Stats>
-    </div>
-    
-    <div 
-      class="products__common is-flex" 
-      v-for="(item, index) in list" 
-      :key="index"
-      :id="item">
-      <img :src="require(`~/assets/images/product/products${index+1}.png`)" />
-      <text-card 
-        :class="`mt products__${item}-text`"
-        :title="$t(`products.${item}.title`)" 
-        :text-list="$t(`products.${item}.textList`)"
-        :outer-link="link[item]"
-        :key-str="item === 'wallet' ? item : ''">
-      </text-card>
-    </div>
-  </section>
+      
+      <div 
+        class="products__common is-flex" 
+        v-for="(item, index) in list" 
+        :key="index"
+        :id="item">
+        <img :src="require(`~/assets/images/product/products${index+1}.png`)" />
+        <text-card 
+          :class="`mt products__${item}-text`"
+          :title="$t(`products.${item}.title`)" 
+          :text-list="$t(`products.${item}.textList`)"
+          :outer-link="link[item]"
+          :key-str="item === 'wallet' ? item : ''">
+        </text-card>
+      </div>
+    </section>
 </template>
 
 <script type="text/babel">
@@ -64,12 +64,10 @@ export default {
       
     };
   },
-  computed: {
-
-    // window.location.hash
+  mounted() {
+    // console.log(this.$route.hash);
   },
   methods: {
-    
   }
 };
 </script>
