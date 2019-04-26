@@ -30,6 +30,10 @@
                   :mediaLink="item.mediaLink"
                 ></community-card>
               </div>
+              <div
+                class="column is-4 star-item" style="visibility:hidden">
+                <community-card></community-card>
+              </div>
             </div>
           </div>
           <div class="column">
@@ -195,6 +199,14 @@ export default {
           img: require('~/assets/images/community/Turkey.svg'),
           picture: require('~/assets/images/community/turkey.jpg'),
           cname: 'Turkey',
+          name: 'Öznur Topal',
+          mediaLink: 'https://twitter.com/znurTOPAL2'
+        },
+        {
+          key: 10,
+          img: require('~/assets/images/community/Germany.svg'),
+          picture: require('~/assets/images/community/Juan.jpg'),
+          cname: 'Germany',
           name: 'Öznur Topal',
           mediaLink: 'https://twitter.com/znurTOPAL2'
         }
