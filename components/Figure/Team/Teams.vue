@@ -123,10 +123,10 @@ export default {
             {
               img: require('~/assets/images/teams/Juliet Su.jpg'),
               urls: [
-                // {
-                //   icon: ['fab', 'linkedin'],
-                //   url: 'https://www.linkedin.com/in/kunyuanli/'
-                // }
+                {
+                  icon: ['fab', 'linkedin'],
+                  url: 'https://www.linkedin.com/in/juliet-su-27386a8b/'
+                }
               ],
               key: 'Juliet Su'
             }
