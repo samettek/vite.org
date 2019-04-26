@@ -39,7 +39,7 @@ export default {
   padding: 50px;
   height:180px;
   margin-top: 88px;
-  margin-bottom: 40px;
+  margin-bottom: 100px;
   background:rgba(255,255,255,1);
   box-shadow:0px 0px 20px 0px rgba(211,234,255,1);
   .blog__card-title {
