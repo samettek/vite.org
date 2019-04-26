@@ -1,33 +1,32 @@
 const hostname = 'https://www.vite.org';
 
-const scrollBehavior = function (to, from, savedPosition) {
-  if (savedPosition) {
-    return savedPosition;
-  } else {
-    const position = {};
+const scrollBehavior = function (to, from) {
+  const position = {};
 
-    if (to.hash) {
-      position.selector = to.hash;
-      if (document.querySelector(to.hash)) {
-        return position;
-      }
-      return false;
+  if (to.hash) {
+    position.selector = to.hash;
+    if (document.querySelector(to.hash)) {
+      return position;
     }
+    return {
+      x: 0,
+      y: 0
+    };
+  } 
 
-    return new Promise(resolve => {
-      if (to.matched.some(m => m.meta.scrollToTop)) {
-        position.x = 0;
-        position.y = 0;
-      }
+  return new Promise(resolve => {
+    position.x = 0;
+    position.y = 0;
+    resolve(position);
 
-      // wait for the out transition to complete (if necessary)
-      // this.app.$root.$once('triggerScroll', () => {
-      //   // if the resolved position is falsy or an empty object,
-      //   // will retain current scroll position.
-      //   resolve(position);
-      // });
-    });
-  }
+    // wait for the out transition to complete (if necessary)
+    // this.app.$root.$once('triggerScroll', () => {
+    //   // if the resolved position is falsy or an empty object,
+    //   // will retain current scroll position.
+    //   resolve(position);
+    // });
+  });
+  // }
 };
 
 const routes = [

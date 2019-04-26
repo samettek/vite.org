@@ -64,9 +64,6 @@ export default {
       
     };
   },
-  mounted() {
-    // console.log(this.$route.hash);
-  },
   methods: {
   }
 };

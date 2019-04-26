@@ -15,7 +15,7 @@ export default {
     Teams,
     Community,
     Investor
-  } 
+  }
 };
 </script>
 
