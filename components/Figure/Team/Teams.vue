@@ -119,6 +119,16 @@ export default {
                 }
               ],
               key: 'Chris Li'
+            },
+            {
+              img: require('~/assets/images/teams/Juliet Su.jpg'),
+              urls: [
+                // {
+                //   icon: ['fab', 'linkedin'],
+                //   url: 'https://www.linkedin.com/in/kunyuanli/'
+                // }
+              ],
+              key: 'Juliet Su'
             }
           ],
         },
