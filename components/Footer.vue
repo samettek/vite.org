@@ -272,14 +272,15 @@ export default {
 .footer {
   min-height: 315px;
   background: url("~assets/images/footer/footer.svg") 100% no-repeat;
+  // background-size: cover;
   z-index: 3;
   padding: 0;
   .ft-container {
     display: flex;
     justify-content: space-around;
   }
-   @media only screen and (min-width: 320px) and (max-width: 1295px)  {
-    background: #007AFF;
+   @media only screen and (min-width: 320px) and (max-width: 1473px)  {
+    background: #2b88ff;
     }
   .whole-footer {
     padding-top: 28px;
@@ -323,7 +324,7 @@ export default {
     font-size: 12px;
     text-align: right;
     margin-right: 10px;
-    @media only screen and (min-width: 320px) and (max-width: 1295px)  {
+    @media only screen and (min-width: 320px) and (max-width: 1472px)  {
       margin-top: 0px;
       margin-left: 23px;
       text-align: left;
@@ -363,7 +364,7 @@ export default {
   }
 
   .icon-links-wrapper {
-    @media only screen and (min-width: 320px) and (max-width: 1295px)  {
+    @media only screen and (min-width: 320px) and (max-width: 1472px)  {
       text-align: left;
     }
     & > a,
