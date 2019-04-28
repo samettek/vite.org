@@ -222,8 +222,8 @@
         "inProgress": "正在进行",
         "completed": "已完成",
         "nextStep": "下一步",
-        "previous": "PREVIOUS",
-        "next": "NEXT",
+        "previous": "展开",
+        "next": "展开",
         "timelines": [
             {
                 "time": "2018.02",
@@ -1359,14 +1359,14 @@
             ]
         },
         "safety": {
-            "title": "安全性",
+            "title": "安全",
             "tags": [
                 "多代币模型",
                 "快照链"
             ]
         },
         "economical": {
-            "title": "经济性",
+            "title": "经济",
             "tags": [
                 "配额模型",
                 "无手续费",
@@ -1374,7 +1374,7 @@
             ]
         },
         "easyusing": {
-            "title": "易用性",
+            "title": "易用",
             "tags": [
                 "Solidity++",
                 "命名服务",
@@ -1383,7 +1383,7 @@
             ]
         },
         "flexable": {
-            "title": "扩展性",
+            "title": "可扩展",
             "tags": [
                 "跨链",
                 "HDPoS共识",
