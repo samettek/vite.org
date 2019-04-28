@@ -75,7 +75,7 @@
             </div>
             <div class="nav-item">
               <secondary-menu 
-                :footer-name="$t(`nav.media`)"
+                :footer-name="$t(`nav.medium`)"
                 :secondary-list="navMediaList">
               </secondary-menu>
             </div>

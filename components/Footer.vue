@@ -32,7 +32,7 @@
                   </div>
                   <div class="nav-item">
                     <footer-menu 
-                      :footer-name="$t('nav.media')"
+                      :footer-name="$t('nav.medium')"
                       :secondary-list="navMediaList">
                     </footer-menu>
                   </div>

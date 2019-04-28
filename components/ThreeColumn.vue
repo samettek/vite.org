@@ -16,7 +16,7 @@
         </div>
         <div class="date" v-if="item.date">{{ item.date }}</div>
         <div class="desc" v-if="item.desc">{{ item.desc }}</div>
-        <div class="copyright" v-if="item.copyright">@ {{ item.copyright }}</div>
+        <div class="copyright" v-if="item.from">@ {{ item.from }}</div>
       </div>
     </div>
   </div>

@@ -28,7 +28,8 @@ export default {
           img: item.bannerUrl,
           desc: item.desc,
           skipUrl: item.skipUrl,
-          date: time.toLocaleDateString()
+          date: time.toLocaleDateString(),
+          from: item.from
         };
       });
     }
