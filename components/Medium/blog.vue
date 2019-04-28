@@ -19,7 +19,7 @@ import config from '~/config.js';
 export default {
   data() {
     return {
-      imgSrc: this.$i18n.locale === 'zh' ? require('~/assets/images/medium/F.svg') : require('~/assets/images/medium/M.svg')
+      imgSrc: this.$i18n.locale === 'zh' ? require('~/assets/images/medium/f.svg') : require('~/assets/images/medium/M.svg')
     };
   },
   computed: {
