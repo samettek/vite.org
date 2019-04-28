@@ -4,7 +4,7 @@
     "genStaticPages": "node ./staticPages/depoly.js",
     "dev": "HOST=0.0.0.0 nuxt",
     "build": "nuxt build",
-    "start": "npm run build && HOST=0.0.0.0 nuxt start",
+    "start": "HOST=0.0.0.0 nuxt start",
     "generate": "nuxt generate",
     "p": "npm run build && npm run generate",
     "monitor": "nuxt build --webpackmonitor"
