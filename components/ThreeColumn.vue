@@ -42,7 +42,7 @@
         default: () => {
           return {
             width: '320px',
-            height: '190px'
+            height: '180px'
           };
         }
       }
