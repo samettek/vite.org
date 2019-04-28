@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="section">
+    <section>
       <div class="container">
         <h1 style="margin-bottom: 50px;">{{$t('community.title')}}</h1>
         <div class="columns content is-multiline">
@@ -8,7 +8,7 @@
             <div class="columns is-multiline item">
               <div class="column">
                 <div
-                  class="video"
+                  class="video is-flex"
                   @click="play"
                 >
                   <img src="~assets/images/video/play.svg" />
@@ -29,6 +29,10 @@
                   :name="item.name"
                   :mediaLink="item.mediaLink"
                 ></community-card>
+              </div>
+              <div
+                class="column is-4 star-item" style="visibility:hidden">
+                <community-card></community-card>
               </div>
             </div>
           </div>
@@ -59,7 +63,9 @@ export default {
   },
   methods: {
     play() {
-      player({ src: config.urls.video.loves[this.$i18n.locale] });
+      this.$i18n.locale === 'zh' 
+        ? player({ src: config.urls.video.loves.zh }) 
+        : player({ src: '', iframeSrc: 'https://www.youtube.com/embed/s_hxkBMizgM' }) ;
     }
   },
   data: function() {
@@ -104,6 +110,10 @@ export default {
         {
           img: require('~/assets/images/community/forum.svg'),
           links: ['https://forum.vite.net/']
+        },
+        {
+          img: require('~/assets/images/community/bitcoinblue.svg'),
+          links: ['https://bitcointalk.org/index.php?topic=5056409']
         },
         {
           img: require('~/assets/images/community/wechatblue.svg'),
@@ -191,6 +201,14 @@ export default {
           cname: 'Turkey',
           name: 'Öznur Topal',
           mediaLink: 'https://twitter.com/znurTOPAL2'
+        },
+        {
+          key: 10,
+          img: require('~/assets/images/community/Germany.svg'),
+          picture: require('~/assets/images/community/Juan.jpg'),
+          cname: 'Germany',
+          name: 'Öznur Topal',
+          mediaLink: 'https://twitter.com/znurTOPAL2'
         }
       ]
     };
@@ -230,9 +248,15 @@ export default {
       background-image: url("~assets/images/community/world.png");
       background-size: cover;
       text-align: center;
+      justify-content: center;
+      align-items: center;
       cursor: pointer;
+      @include touch {
+        min-width: 100%;
+        height: 202px;
+      }
       img {
-        margin-top: 110px;
+        // margin-top: 110px;
       }
     }
   }

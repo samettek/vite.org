@@ -1,18 +1,31 @@
 <template>
-  <div class="container">
-    <div class="blog__card is-flex">
+  <div class="container" id="blogs">
+    <a :href="href" target="_blank">
+      <div class="blog__card is-flex">
       <div>
         <div class="blog__card-title">{{ $t('medium.blog.title') }}</div>
         <div class="blog__card-desc">{{ $t('medium.blog.desc') }}</div>
       </div>
-      <div><img src="~/assets/images/medium/M.svg"/></div>
+      <div class="M-img"><img src="~/assets/images/medium/M.svg"/></div>
     </div>
+    </a>
+    
   </div>
 </template>
 
 <script type="text/babel">
+import config from '~/config.js';
 
 export default {
+  data() {
+    return {
+    };
+  },
+  computed: {
+    href() {
+      return this.$i18n.locale === 'zh' ? config.urls.forum : config.urls.medium;
+    }
+  },
   components: {
   } 
 };
@@ -26,7 +39,7 @@ export default {
   padding: 50px;
   height:180px;
   margin-top: 88px;
-  margin-bottom: 127px;
+  margin-bottom: 100px;
   background:rgba(255,255,255,1);
   box-shadow:0px 0px 20px 0px rgba(211,234,255,1);
   .blog__card-title {
@@ -43,6 +56,9 @@ export default {
     font-weight:400;
     color:rgba(23,28,52,1);
     line-height:20px;
+  }
+  .M-img {
+    margin-left: 20px; 
   }
 }
 

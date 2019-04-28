@@ -20,7 +20,6 @@ export default {
 @import "~assets/vars";
 
 .common__card-title {
-    height:28px;
     font-size:24px;
     font-family:PingFang-SC-Bold;
     font-weight:bold;

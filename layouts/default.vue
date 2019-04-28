@@ -3,6 +3,25 @@
     class="public"
     :class="`is-${routeName}-public`"
   >
+    <no-ssr>
+      <dialog-compo
+        :visible.sync="dialogVisible"
+        v-if="routeName === 'index'">
+        <div class="is-flex dialog__img" style="justify-content: center;">
+          <img src="~/assets/images/airdrop/dialog.svg"/>
+        </div>
+        <div style="margin-top: 23px;">{{$t('home.jionAirdrop')}}</div>
+        <span slot="footer">
+          <div @click="dialogVisible = false" >
+            <nuxt-link
+              :to="localePath('airdrop')"
+              class="footer-btn">
+              {{$t('home.jionAirdrop')}}
+            </nuxt-link>
+          </div>
+        </span>
+      </dialog-compo>
+    </no-ssr>
     <div
       class="navbar headroom"
       :class="`is-${routeName}-page`"
@@ -90,24 +109,13 @@
         </div>
       </div>
     </div>
-    <!-- <div class="container">
-      <div
-        :class="{'airdrop-hide' : routeName === 'airdrop'}"
-        class="img-text"
-        @click="openAirdropPage"
-      >
-        <div
-          class="act"
-          v-html="$t('home.acttext')"
-        ></div>
-        <div><img src="~assets/images/tail-right.svg" /></div>
-      </div>
-    </div> -->
     <div
       class="nuxt-content"
       :class="`is-${routeName}-page`"
     >
-      <nuxt :keep-alive="true"></nuxt>
+      <transition name="fade" mode="out-in" @after-leave="afterLeave">
+        <nuxt :keep-alive="true"></nuxt>
+      </transition>
     </div>
     <v-footer 
       :nav-production-list="navProductionList"
@@ -119,6 +127,8 @@
 </template>
 
 <script type="text/babel">
+import Cookies from 'js-cookie';
+import dialogCompo from '~/components/dialog/component.vue';
 import LangSelect from '~/components/LangSelect.vue';
 import Logo from '~/components/Logo.vue';
 import LogoWithoutWords from '~/components/LogoWithoutWords.vue';
@@ -126,7 +136,6 @@ import Footer from '~/components/Footer.vue';
 import config from '~/config';
 import voteNotice from '~/components/voteNotice.vue';
 import about from '~/components/about.vue';
-// import Media from '~/components/Media.vue';
 import Exchange from '~/components/Exchange.vue';
 import SecondaryMenu from '~/components/SecondaryMenu.vue';
 
@@ -139,7 +148,7 @@ export default {
     Exchange,
     voteNotice,
     about,
-    // Media,
+    dialogCompo,
     SecondaryMenu
   },
   head () {
@@ -208,44 +217,54 @@ export default {
   },
   data: function () {
     return {
+      dialogVisible: false,
       navProductionList: [{
         type: 'inner',
         name: 'platform',
-        to: 'products'
+        to: 'products',
+        anchor: 'platform'
       }, {
         type: 'inner',
         name: 'wallet',
-        to: 'products'
+        to: 'products',
+        anchor: 'wallet'
       }, {
         type: 'inner',
         name: 'exchange',
-        to: 'products'        
+        to: 'products',
+        anchor: 'exchange'      
       }, {
         type: 'inner',
         name: 'pay',
-        to: 'products'
+        to: 'products',
+        anchor: 'pay'
       }],
       navPersonList: [{
         type: 'inner',
         name: 'team',
-        to: 'figure'
+        to: 'figure',
+        anchor: 'team'
       }, {
         type: 'inner',
         name: 'investor',
-        to: 'figure'
+        to: 'figure',
+        anchor: 'investor'
       }, {
         type: 'inner',
         name: 'community',
-        to: 'figure'        
+        to: 'figure',
+        anchor: 'community'       
       }],
       navMediaList: [{
         type: 'inner',
         name: 'blogs',
-        to: 'medium'
+        to: 'medium',
+        anchor: 'blogs'
       }, {
         type: 'inner',
         name: 'news',
-        to: 'medium'
+        to: 'medium',
+        anchor: 'news'
       }],
       navGuideList: [{
         type: 'outer',
@@ -261,6 +280,14 @@ export default {
       collapsing: false,
       urls: config.urls
     };
+  },
+  created() {
+    if (!Cookies.get('airdropDialog')) {
+      Cookies.set('airdropDialog', 'true', { expires: 1 });
+      this.dialogVisible = true;
+    } else {
+      this.dialogVisible = false;
+    }
   },
   computed: {
     routeName () {
@@ -281,6 +308,9 @@ export default {
     }
   },
   methods: {
+    afterLeave () {
+      this.$root.$emit('triggerScroll');
+    },
     openDotNet () {
       window.open(
         'https://international.bittrex.com/Market/Index?MarketName=BTC-VITE'
@@ -319,6 +349,25 @@ export default {
 
 <style rel="stylesheet/scss" lang="scss" scoped>
 @import "assets/vars.scss";
+.dialog__img {
+  @media only screen and (min-width: 320px) and (max-width: 767px)  {
+    height: 100px;
+  }
+}
+.footer-btn {
+  display: inline-block;
+  width:242px;
+  height:50px;
+  line-height: 50px;
+  font-size:16px;
+  font-family:PingFangSC-Semibold;
+  font-weight:600;
+  color: white;
+  background:rgba(0,122,255,1);
+  box-shadow:0px 10px 20px 0px rgba(126,183,238,0.83);
+  border-radius:2px;
+  cursor: pointer;
+}
 .public {
   background: no-repeat url("~assets/images/bg/footer_others.svg") 0% 100%;
 }

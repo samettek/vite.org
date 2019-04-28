@@ -1,8 +1,8 @@
 <template>
   <section>
-    <Teams></Teams>
-    <Community></Community>
-    <Investor></Investor>
+    <Teams id="team"></Teams>
+    <Community id="community"></Community>
+    <Investor id="investor"></Investor>
   </section>
 </template>
 <script type="text/babel">
@@ -15,7 +15,7 @@ export default {
     Teams,
     Community,
     Investor
-  } 
+  }
 };
 </script>
 

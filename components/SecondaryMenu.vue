@@ -17,8 +17,8 @@
           >
           {{$t(`nav.${item.name}`)}}
         </a>
-        <nuxt-link 
-          :to="localePath(item.to)"
+        <nuxt-link
+          :to="item.anchor ? `${localePath(item.to)}#${item.anchor}` : localePath(item.to)"
           class="dropdown-item" 
           v-for="(item, index) in list" 
           :key="index"

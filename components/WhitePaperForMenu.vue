@@ -4,7 +4,7 @@
       <a
         :class="{'foot-btn': isFooter,'dropdown-item':!isFooter}"
       >
-        <span>{{$t('about.whitepaper')}}</span>
+        <span>{{$t('nav.whitepaper')}}</span>
       </a>
     </div>
     <div
@@ -64,24 +64,8 @@ export default {
 
 .dropdown-trigger {
   width: 100%;
-  button {
-    font-size: 14px;
-    color: $common-text-color;
-    background: transparent;
-    padding: 0 0 0 0;
-    border-radius: 0.35rem;
-    height: (40rem/16);
-    border: transparent;
-    font-family: $font-family-light;
-    &:focus {
-      border: none;
-      box-shadow: none;
-    }
-    &:hover {
-      color: $common-active-color;
-    }
-  }
   .foot-btn {
+    font-size: 14px;
     color: white;
     &:hover {
       color: white;
@@ -94,7 +78,7 @@ export default {
 .dropdown-menu {
   #lang-dropdown-menu{
       overflow-y: scroll;
-      max-height: 160px;
+      max-height: 100px;
     }
   .dropdown-content {
     display: none;

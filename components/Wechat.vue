@@ -5,7 +5,7 @@
       :disabled="!isEnabled"
       popoverClass="v-popover"
     >
-      <a class="tooltip-target"  target="_blank"><fa-icon :icon="['fab', 'weixin']" /></a>
+      <a class="tooltip-target"  target="_blank"><fa-icon style="width:22px; height: 22px" :icon="['fab', 'weixin']" /></a>
 
       <template slot="popover">
         <img src="~/assets/images/vitelabs_wechat.jpg" alt="">
@@ -47,15 +47,11 @@
   }
   .v-popover {
     display: inline-block;
-    height: 30px;
-    width: 30px;
     margin-left: 20px;
   }
 
   .no-ssr {
     display: inline-block;
-    height: 30px;
-    width: 30px;
     margin-left: 20px;
   }
 </style>

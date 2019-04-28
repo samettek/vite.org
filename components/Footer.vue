@@ -7,68 +7,71 @@
             <logo-without-words></logo-without-words>
           </div>
           <div class="footer-tab">
-            <div class="">
+            <div class="is-flex footer-tab-wrapper">
               <div class="is-flex footer-nav">
-                <div class="nav-item">
-                  <secondary-menu 
-                    :footer-name="$t(`nav.production`)"
-                    :secondary-list="navProductionList"
-                    :is-footer="true">
-                  </secondary-menu>
+                <div class="is-flex">
+                  <div class="nav-item">
+                    <footer-menu 
+                      :footer-name="$t(`nav.production`)"
+                      :secondary-list="navProductionList">
+                    </footer-menu>
+                  </div>
+                  <div class="nav-item">
+                    <footer-menu 
+                      :footer-name="$t(`nav.person`)"
+                      :secondary-list="navPersonList">
+                    </footer-menu>
+                  </div>
                 </div>
-                <div class="nav-item">
-                  <secondary-menu 
-                    :footer-name="$t(`nav.person`)"
-                    :secondary-list="navPersonList"
-                    :is-footer="true">
-                  </secondary-menu>
+                <div class="is-flex">
+                  <div class="nav-item">
+                    <footer-menu 
+                      :footer-name="$t('nav.notice.name')"
+                      :secondary-list="navNodeList">
+                    </footer-menu>
+                  </div>
+                  <div class="nav-item">
+                    <footer-menu 
+                      :footer-name="$t('nav.media')"
+                      :secondary-list="navMediaList">
+                    </footer-menu>
+                  </div>
                 </div>
-                <div class="nav-item">
-                  <voteNotice 
-                    :is-footer="true">
-                  </voteNotice>
+                <div class="is-flex">
+                  <div class="nav-item">
+                    <footer-menu 
+                      :footer-name="$t('nav.tokenTransaction')"
+                      :secondary-list="navExchangeList">
+                    </footer-menu>
+                  </div>
+                  <div class="nav-item">
+                    <footer-menu 
+                      :footer-name="$t('nav.guide')"
+                      :secondary-list="navGuideList">
+                    </footer-menu>
+                  </div>
                 </div>
-                <div class="nav-item">
-                  <secondary-menu 
-                    :is-footer="true"
-                    :footer-name="$t(`nav.media`)"
-                    :secondary-list="navMediaList">
-                  </secondary-menu>
-                </div>
-                <div class="nav-item">
-                  <Exchange
-                   :is-footer="true">
-                  </Exchange>
-                </div>
-                <div class="nav-item">
-                  <secondary-menu 
-                    :footer-name="$t(`nav.guide`)"
-                    :secondary-list="navGuideList"
-                    :is-footer="true">
-                  </secondary-menu>
-                </div>
-                <div class="nav-item">
+                <!-- <div class="nav-item">
                   <nuxt-link
                     :to="localePath('airdrop')"
                     class="text-hover-transition">
                     {{$t('nav.airdrop')}}
                   </nuxt-link>
-                </div>
-                <div class="nav-item">
-                  <about
-                    :is-footer="true">
-                  </about>
-                </div>
-                <div class="nav-item">
-                  <secondary-menu 
-                    :footer-name="$t(`nav.more`)"
-                    :secondary-list="navMoreList"
-                    :is-footer="true">
-                  </secondary-menu>
+                </div> -->
+                <div class="is-flex">
+                  <div class="nav-item">
+                    <about></about>
+                  </div>
+                  <div class="nav-item">
+                    <footer-menu 
+                      :footer-name="$t(`nav.more`)"
+                      :secondary-list="navMoreList">
+                    </footer-menu>
+                  </div>
                 </div>
               </div>
               <div class="social-icons">
-                <div class="icons mt40">
+                <div class="icons mt30">
                   <div class="icon-links-wrapper">
                     <a
                       :href="urls.github"
@@ -76,9 +79,18 @@
                       class="text-hover-transition"
                     >
                       <fa-icon
-                        class="icon"
+                        class="icon__item"
                         :icon="['fab', 'github']"
                       ></fa-icon>
+                    </a>
+                    <a
+                      :href="urls.medium"
+                      target="_blank"
+                      class="text-hover-transition"
+                    >
+                      <img
+                        class="icon__item"
+                        src="~/assets/images/footer/medium.svg"/>
                     </a>
                     <a
                       :href="urls.discord"
@@ -86,7 +98,7 @@
                       class="text-hover-transition"
                     >
                       <fa-icon
-                        class="icon"
+                        class="icon__item"
                         :icon="['fab', 'discord']"
                       ></fa-icon>
                     </a>
@@ -96,7 +108,7 @@
                       class="text-hover-transition"
                     >
                       <fa-icon
-                        class="icon"
+                        class="icon__item"
                         :icon="['fab', 'twitter']"
                       ></fa-icon>
                     </a>
@@ -107,7 +119,7 @@
                       class="text-hover-transition"
                     >
                       <fa-icon
-                        class="icon"
+                        class="icon__item"
                         :icon="['fab', 'reddit']"
                       /></a>
                     <a
@@ -116,37 +128,40 @@
                       class="text-hover-transition"
                     >
                       <fa-icon
-                        class="icon"
+                        class="icon__item"
                         :icon="['fab', 'youtube']"
                       /></a>
                     <a
                       :href="urls.forum"
-                      target="_blank"
-                      class="text-hover-transition"
-                    >
+                      target="_blank">
                       <img
-                        class="icon forum"
-                        src="~/assets/images/community/forum-icon.svg"
-                      /></a>
+                        class="icon__item"
+                        src="~/assets/images/community/forum-icon.svg"/>
+                    </a>
+                    <a
+                      :href="urls.media.bitcointalk"
+                      target="_blank">
+                      <img
+                        class="icon__item"
+                        src="~/assets/images/footer/bitcoin.svg"/>
+                    </a>
                     <a
                       :href="urls.weibo"
-                      target="_blank"
-                      class="text-hover-transition"
-                    >
-                      <fa-icon
-                        class="icon"
-                        :icon="['fab', 'weibo']"
-                      /></a>
+                      target="_blank">
+                      <img
+                        class="icon__item"
+                        src="~/assets/images/footer/weibo.svg"/>
+                    </a>
                     <wechat></wechat>
                   </div>
                 </div>
               </div>
-              <div class="">
-                <div class="copyright mt40">
-                  <span>
-                    © 2018-2019 VITE Labs. All Rights Reserved.
-                  </span>
-                </div>
+            </div>
+            <div class="">
+              <div class="copyright mt30">
+                <span>
+                  © 2018-2019 VITE Labs. All Rights Reserved.
+                </span>
               </div>
             </div>
           </div>
@@ -162,9 +177,9 @@ import Wechat from '~/components/Wechat';
 import Telegram from '~/components/Telegram';
 import config from '~/config.js';
 import Exchange from '~/components/Exchange.vue';
-import voteNotice from '~/components/voteNotice.vue';
 import about from '~/components/about';
 import SecondaryMenu from '~/components/SecondaryMenu.vue';
+import FooterMenu from '~/components/FooterMenu.vue';
 
 export default {
   components: {
@@ -172,9 +187,9 @@ export default {
     Wechat,
     Telegram,
     Exchange,
-    voteNotice,
     about,
-    SecondaryMenu
+    SecondaryMenu,
+    FooterMenu
   },
   props: {
     navProductionList: {
@@ -197,14 +212,40 @@ export default {
   data: function () {
     let { urls } = config;
     return {
-      navMoreList: [{
+      navNodeList: [{
         type: 'inner',
-        name: 'explorer',
-        to: 'xxx'
+        name: 'nodeList',
+        to: 'nodeList'
       }, {
         type: 'inner',
+        name: 'superNodes',
+        to: 'superNodes'
+      }, {
+        type: 'outer',
+        name: 'notice.apply',
+        to: urls.vote.apply[this.$i18n.locale]
+      }],
+      navExchangeList: [{
+        type: 'outer',
+        name: 'okex',
+        to: urls.exchange.okex
+      }, {
+        type: 'outer',
+        name: 'bittrex',
+        to: urls.exchange.bittrex
+      }, {
+        type: 'outer',
+        name: 'upbit',
+        to: urls.exchange.upbit
+      }],
+      navMoreList: [{
+        type: 'outer',
+        name: 'explorer',
+        to: 'https://explorer.vite.net'
+      }, {
+        type: 'outer',
         name: 'store',
-        to: 'xxx'
+        to: this.$i18n.locale === 'zh' ? 'https://vite.store/' : 'https://global.vite.store'
       }],
       urls,
       aboutList: ['tokenUrl'],
@@ -237,21 +278,22 @@ export default {
     display: flex;
     justify-content: space-around;
   }
-  @include touch {
-    background: url("~assets/images/footer/footer.svg") 100% 60%;
-  }
+   @media only screen and (min-width: 320px) and (max-width: 1295px)  {
+    background: #007AFF;
+    }
   .whole-footer {
+    padding-top: 28px;
     justify-content: space-between;
     .icon-wrapper {
       margin-left: 50px;
     }
   }
-  .mt40 {
-    margin-top: 40px;
+  .mt30 {
+    margin-top: 10px;
   }
   .footer-tab {
     color: white;
-    justify-self: flex-end;
+    // justify-self: flex-end;
     margin-right: 50px;
     @include touch {
       margin: 0 auto;
@@ -259,10 +301,18 @@ export default {
     @include mobile {
       width: 100%;
     }
+    .footer-tab-wrapper {
+      flex-direction: column;
+      @include mobile {
+        flex-direction: column-reverse;
+      }
+      
+    }
     .social-icons {
       margin-right: 10px;
-      .forum {
-        width: 28px;
+      .icon__item {
+        width: 22px;
+        height: 22px;
       }
     }
   }
@@ -273,24 +323,35 @@ export default {
     font-size: 12px;
     text-align: right;
     margin-right: 10px;
-    @include touch {
-      text-align: center;
+    @media only screen and (min-width: 320px) and (max-width: 1295px)  {
+      margin-top: 0px;
+      margin-left: 23px;
+      text-align: left;
+      margin-bottom: 40px;
     }
   }
   .footer-nav {
-    justify-content: flex-end;
+    justify-content: flex-start;
     flex-wrap: wrap;
     @include touch {
-      flex-wrap: wrap;
-      justify-content: center;
+      flex-direction: column;
+      justify-content: space-between;
     }
     a {
       color: white;
     }
     .nav-item {
+      display: flex;
+      align-items: flex-start;
       padding: 0.5rem 23px;
       color: $common-text-color;
       font-family: $font-family-light;
+      @include touch {
+        display: block;
+        padding: 0.5rem 23px;
+        width: 50%;
+        text-align: left;
+      }
       &:hover {
         color: $common-active-color;
       }
@@ -301,8 +362,8 @@ export default {
   }
 
   .icon-links-wrapper {
-    @include touch {
-      text-align: center;
+    @media only screen and (min-width: 320px) and (max-width: 1295px)  {
+      text-align: left;
     }
     & > a,
     /deep/ .v-popover {

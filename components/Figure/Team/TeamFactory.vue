@@ -356,7 +356,7 @@ export default {
           ]
         },
         {
-          img: require('~/assets/images/teams/HaViet.png'),
+          img: require('~/assets/images/teams/haviet.jpg'),
           key: 'HaViet',
           urls: [
             {

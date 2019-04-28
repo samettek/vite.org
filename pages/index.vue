@@ -1,26 +1,36 @@
 <template>
   <div>
+    <div class="airdrop__fiexd is-hidden-mobile">
+      <nuxt-link
+        :to="localePath('airdrop')"
+        class="text-hover-transition">
+        {{$t('home.jionAirdrop')}}
+      </nuxt-link>
+    </div>
     <section class="hero home">
       <div class="hero-body">
-        <div class="container">
-          <div class="is-size-1-desktop is-size-2-touch slogan-wrapper">
-            <h1>
-              VITE
-            </h1>
-            <h2>{{$t("home.slogan")}}</h2>
+        <div class="container is-flex topinfo">
+          <div class="topinfo__left">
+            <div class="is-size-1-desktop is-size-2-touch slogan-wrapper">
+              <h1>
+                VITE
+              </h1>
+              <h2>{{$t("home.slogan")}}</h2>
+            </div>
+            <WhitePaper class="wp-btn"></WhitePaper>
+            <div class="btn-group-wrapper">
+              <a
+                href="#activity"
+                class="pop-btn"
+              >{{$t('home.activity1')}}</a>
+              <a
+                href="#dynamic"
+                class="pop-btn other-btn"
+              >{{$t('home.activity2')}}</a>
+            </div>
           </div>
-          <WhitePaper class="wp-btn"></WhitePaper>
-          <div class="btn-group-wrapper">
-            <a
-              :href="webWallet"
-              target="_blank"
-              class="pop-btn"
-            >{{$t('home.activity1')}}</a>
-            <a
-              :href="explorer"
-              target="_blank"
-              class="pop-btn other-btn"
-            >{{$t('home.activity2')}}</a>
+          <div class="topinfo__right">
+            <v-video></v-video>
           </div>
         </div>
       </div>
@@ -30,33 +40,19 @@
     
     <v-new></v-new>
 
-    <!-- <v-news></v-news> 最新消息 -->
-
-    <!-- <v-ecology></v-ecology> vite生态 -->
-
-    <v-feature></v-feature>
-
-    <!-- <v-video></v-video> vite视频 -->
-
     <v-roadmap></v-roadmap>
-
-    <!-- <v-investor></v-investor> vite投资机构-->
 
     <join-mailing-list></join-mailing-list>
   </div>
 </template>
 
 <script>
-// import News from '~/components/News.vue';
-// import Ecology from '~/components/Ecology';
-import Feature from '~/components/feature';
 import product from '~/components/product.vue';
 import New from '~/components/New/index.vue';
-// import Video from '~/components/Video.vue';
-// import Investor from '~/components/Investor';
+import Video from '~/components/Video.vue';
 import Logo from '~/components/Logo.vue';
 import LogoWord from '~/components/LogoWord';
-import NewRoadMap from '~/components/NewRoadMap';
+import RoadMap from '~/components/RoadMap/index.vue';
 import Wechat from '~/components/Wechat';
 import Telegram from '~/components/Telegram';
 import WhitePaper from '~/components/WhitePaper';
@@ -69,17 +65,12 @@ import config from '~/config.js';
 export default {
   components: {
     VPopover,
-    
-    // VNews: News,
-    // VEcology: Ecology,
-    VFeature: Feature,
     VNew: New,
     VProduct: product,
-    // VVideo: Video,
+    VVideo: Video,
     Logo,
     LogoWord,
-    // VInvestor: Investor,
-    VRoadmap: NewRoadMap,
+    VRoadmap: RoadMap,
     Wechat,
     Telegram,
     JoinMailingList,
@@ -101,17 +92,6 @@ export default {
     onNavClick () {
       this.navbarActive = false;
     }
-  },
-  computed: {
-    vitenet () {
-      return config.urls.viteNet[this.$i18n.locale];
-    },
-    webWallet () {
-      return config.urls.webWallet[this.$i18n.locale];
-    },
-    explorer () {
-      return config.urls.explorer[this.$i18n.locale];
-    }
   }
 };
 </script>
@@ -119,6 +99,30 @@ export default {
 
 <style lang="scss" scoped>
 @import "assets/vars.scss";
+.airdrop__fiexd {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  z-index: 999;
+  background-image: url("~assets/images/airdrop.svg");
+  background-size: cover;
+  width: 200px;
+  height: 50px;
+  font-size:16px;
+  font-family:PingFangSC-Semibold;
+  font-weight:600;
+  box-sizing: border-box;
+  
+  line-height:50px;
+  cursor: pointer;
+  a {
+    display: inline-block;
+     padding-left: 60px; 
+     width: 200px;
+     height: 50px;
+    color: white;
+  }
+}
 .wallet-app-container {
   display: flex;
   display: -webkit-flex;
@@ -186,6 +190,25 @@ export default {
   @include touch {
     .hero-body {
       display: block;
+    }
+  }
+  .topinfo {
+    @include mobile {
+      flex-direction: column;
+    }
+  }
+  .topinfo__left {
+    padding-bottom: 130px;
+    margin-right: 50px;
+    @include mobile {
+      padding-bottom: 40px;
+      margin-right: 0px;
+    }
+  }
+  .topinfo__right {
+    align-self: flex-end;
+    @include mobile {
+      align-self: stretch;
     }
   }
 

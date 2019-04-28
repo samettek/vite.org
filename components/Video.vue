@@ -1,13 +1,18 @@
 <template>
-  <section class="section" @click="play">
-    <img src="~assets/images/video/play.svg"/>
-    <div class="video-text">Let's Create Something Cool</div>
+  <section @click="play">
+    <div class="video__head is-flex">
+      <div class="video__head-icon"></div>
+      <div class="video__head-icon"></div>
+      <div class="video__head-icon"></div>
+    </div>
+    <div class="video__img is-flex">
+      <img  src="~assets/images/video/play.svg"/>
+    </div>
   </section>
 </template>
 
 <script type="text/babel">
 import player from './play';
-import config from '~/config';
 export default {
   components: {
   },
@@ -17,7 +22,9 @@ export default {
   },
   methods: {
     play(){
-      player({src:config.urls.video.home[this.$i18n.locale]});
+      this.$i18n.locale === 'zh' 
+        ? player({src: 'http://1257137467.vod2.myqcloud.com/c9d24a0dvodcq1257137467/bc96b2315285890788090827060/BdwEe78ChG8A.mp4'}) 
+        : player({src: '', iframeSrc: 'https://www.youtube.com/embed/FRvdP_KcNRk'});
     }
   }
 };
@@ -25,24 +32,37 @@ export default {
 
 <style rel="stylesheet/scss" lang="scss" scoped>
   @import "~assets/vars";
-  .section {
-    height: 700px;
-    background: url("~assets/images/video/bg.jpg") 51% 0%;
-    background-size: cover;
-    text-align: center;
-    img {
-        cursor: pointer;
-      margin-top: 178px;
+    .video__head {
+      background:rgba(255,255,255,1);
+      box-shadow:0px 4px 15px 0px rgba(7,42,68,0.1);
+      border-radius:10px 10px 0 0;
+      height: 45px;
+      box-sizing: border-box;
+      padding: 18px 0 0 18px;
+      .video__head-icon {
+        width:11px;
+        height:11px;
+        background:#cce5ff;
+        margin-right: 7px; 
+        border-radius: 11px;
+      }
     }
-    .video-text {
-      margin-top: 60px; 
-      font-family: $font-family-title;
-      font-size: 44px;
-      color: #FFFFFF;
-      letter-spacing: 1.1px;
+    .video__img {
+      width: 665px;
+      height: 403px;
+      background: url("~assets/images/video/bg.jpg") 51% 0%;
+      background-size: cover;
       text-align: center;
+      justify-content: center;
+      align-items: center;
+      @include mobile {
+        width: 100%;
+        height: 202px;
+      }
     }
-  }
+    img {
+      cursor: pointer;
+    }
 
 </style>
 

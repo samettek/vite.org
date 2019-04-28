@@ -1,5 +1,5 @@
 <template>
-  <div class="figure-wrapper">
+  <div class="figure-wrapper section">
     <Figure></Figure>
   </div>
 

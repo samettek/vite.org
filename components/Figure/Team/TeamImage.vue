@@ -95,7 +95,7 @@ export default {
   }
 
   .team-desc {
-    padding: 0px 20px;
+    padding: 0px 25px;
     margin-top: -10px;
     height: 300px;
     overflow-y: auto;

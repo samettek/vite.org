@@ -35,17 +35,8 @@ module.exports = {
     },
     forum: 'https://forum.vite.net',
     video: {
-      home: {
-        zh: 'http://1257137467.vod2.myqcloud.com/c9d24a0dvodcq1257137467/72d670585285890783561692168/WGwQoGPaGHsA.mp4',
-        en: 'http://1257137467.vod2.myqcloud.com/c9d24a0dvodcq1257137467/6e1ba7d25285890783561485090/pnzXKMBXtB4A.mp4',
-        ru: 'http://1257137467.vod2.myqcloud.com/c9d24a0dvodcq1257137467/6e1ba7d25285890783561485090/pnzXKMBXtB4A.mp4',
-        vi: 'http://1257137467.vod2.myqcloud.com/c9d24a0dvodcq1257137467/6e1ba7d25285890783561485090/pnzXKMBXtB4A.mp4'
-      },
       loves: {
         zh: 'http://1257137467.vod2.myqcloud.com/c9d24a0dvodcq1257137467/6dbf98485285890783561432421/ZKiKb7ZBzq4A.mp4',
-        en: 'http://1257137467.vod2.myqcloud.com/c9d24a0dvodcq1257137467/696fc14d5285890783561282405/iunXawfrnzoA.mp4',
-        ru: 'http://1257137467.vod2.myqcloud.com/c9d24a0dvodcq1257137467/696fc14d5285890783561282405/iunXawfrnzoA.mp4',
-        vi: 'http://1257137467.vod2.myqcloud.com/c9d24a0dvodcq1257137467/696fc14d5285890783561282405/iunXawfrnzoA.mp4'
       }
     },
     twitter: 'https://twitter.com/vitelabs',

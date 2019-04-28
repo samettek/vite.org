@@ -38,19 +38,33 @@
   @import "~assets/vars";
 
   .link-wrapper {
+    margin: 0 auto;
     background: #F5FAFF;
     padding: 22px;
     box-sizing: border-box;
+    @include touch {
+      padding: 5px;
+      width: 270px;
+    }
     .flex-top {
       display: flex;
       align-items: flex-start;
       img{
           width: 50px;
           height: 50px;
+          @include touch {
+            margin-top: 5px;
+            width: 30px;
+            height: 30px;
+          }
       }
     }
     .link-content {
-      margin-bottom: 23px;
+      margin-bottom: 6px;
+      padding: 5px;
+      @include touch {
+        margin-bottom: 0px;
+      }
     }
     .link-url {
       display: block;
@@ -64,6 +78,10 @@
     .links {
       margin-left: 23px;
       margin-top: 10px;
+      @include touch {
+        margin-left: 3px;
+        margin-top: 5px;
+      }
       img {
         width: 100px;
         height: 100px;

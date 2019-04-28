@@ -1,345 +1,223 @@
 <template>
   <div class="scroll-container">
-    <div class="feature_wrapper">
-
-      <div class="arc-wrapper">
-        <div class="arc-inner">
-          <img :src="iconMap['performance']">
-          <div>{{$t('features.performance.title')}}</div>
-        </div>
-        <tag
-          :tagKey="'performance'"
-          style="top: -10px;left: 150px;">
-        </tag>
-        <tag
-          :active='true'
-          :tagKey="'performance'"
-          :index='1'
-          style="top: 50px;left: 150px;">
-        </tag>
-        <svg
-          class="row-line"
-          style="top: 16px;left: 91px;">
-          <path d="M0 10 l10 -10">
-          </path>
-          <path d="M10 0 l 50 0">
-          </path>
-        </svg>
-        <svg
-          class="row-line"
-          style="top: 65px;left: 91px;">
-          <path d="M0 0 l10 10">
-          </path>
-          <path d="M10 10 l 50 0">
-          </path>
-        </svg>
-      </div>
-      
-      <div class="arc-wrapper" style="margin-top: 33px;">
-        <div class="arc-inner">
-          <img :src="iconMap['safety']">
-          <div>{{$t('features.safety.title')}}</div>
-        </div>
-        <tag
-          :tagKey="'safety'"
-          style="top: -10px;left: 150px;">
-        </tag>
-        <tag
-          :active='true'
-          :tagKey="'safety'"
-          :index='1'
-          style="top: 50px;left: 150px;">
-        </tag>
-        <svg
-          class="row-line"
-          style="top: 16px;left: 91px;">
-          <path d="M0 10 l10 -10">
-          </path>
-          <path d="M10 0 l50 0">
-          </path>
-        </svg>
-        <svg
-          class="row-line"
-          style="top: 65px;left: 91px;">
-          <path d="M0 0 l10 10">
-          </path>
-          <path d="M10 10 l 50 0">
-          </path>
-        </svg>
-      </div>
-
-      <div class="arc-wrapper" style="margin-top: 61px;">
-        <div class="arc-inner">
-          <img :src="iconMap['economical']">
-          <div>{{$t('features.economical.title')}}</div>
-        </div>
-        <tag
-          :tagKey="'economical'"
-          style="top: -40px;left: 150px;">
-        </tag>
-        <tag
-          :tagKey="'economical'"
-          :index='1'
-          style="top: 20px;left: 150px;">
-        </tag>
-        <tag
-          :tagKey="'economical'"
-          :index='2'
-          style="top: 80px;left: 150px;">
-        </tag>
-        <svg
-          class="row-line row-line2"
-          style="top: -16px;left: 82px;">
-          <path d="M0 22 l22 -22">
-          </path>
-          <path d="M22 0 l38 0">
-          </path>
-        </svg>
-        <svg
-          class="row-line"
-          style="top: 40px;left: 94px;">
-          <path d="M0 5 l50 0">
-          </path>
-        </svg>
-        <svg
-          class="row-line row-line2"
-          style="top: 82px;left: 84px;">
-          <path d="M0 0 l22 22">
-          </path>
-          <path d="M22 22 l38 0">
-          </path>
-        </svg>
-      </div>
-    </div>
-    <!-- <div class="features">
-      <div class="item">
-        <div class="arc-middle">
+    <div class="feature_wrapper is-flex">
+     
+      <div class="feature-left">
+        <div class="arc-wrapper">
           <div class="arc-inner">
             <img :src="iconMap['performance']">
             <div>{{$t('features.performance.title')}}</div>
           </div>
+          <tag
+            :tagKey="'performance'"
+            style="top: -10px;left: 150px;">
+          </tag>
+          <tag
+            :active='true'
+            :tagKey="'performance'"
+            :index='1'
+            style="top: 50px;left: 150px;">
+          </tag>
+          <svg
+            class="row-line"
+            style="top: 16px;left: 91px;">
+            <path d="M0 10 l10 -10">
+            </path>
+            <path d="M10 0 l 50 0">
+            </path>
+          </svg>
+          <svg
+            class="row-line"
+            style="top: 65px;left: 91px;">
+            <path d="M0 0 l10 10">
+            </path>
+            <path d="M10 10 l 50 0">
+            </path>
+          </svg>
         </div>
-        <tag
-          :tagKey="'performance'"
-          style="top: 120px;left: 325px;">
-        </tag>
-        <tag
-          :active='true'
-          :tagKey="'performance'"
-          :index='1'
-          style="top: 220px;left: 325px;">
-        </tag>
-        <svg
-          class="row-line"
-          style="top: 153px;left: 267px;">
-          <path d="M0 10 l10 -10">
-          </path>
-          <path d="M10 0 l 30 0">
-          </path>
-        </svg>
-        <svg
-          class="row-line"
-          style="top: 232px;left: 267px;">
-          <path d="M0 0 l10 10">
-          </path>
-          <path d="M10 10 l 30 0">
-          </path>
-        </svg>
-      </div>
       
-
-      <div class="item">
-        <div class="arc-middle">
+        <div class="arc-wrapper" style="margin-top: 30px;">
           <div class="arc-inner">
             <img :src="iconMap['safety']">
             <div>{{$t('features.safety.title')}}</div>
           </div>
+          <tag
+            :tagKey="'safety'"
+            style="top: -10px;left: 150px;">
+          </tag>
+          <tag
+            :active='true'
+            :tagKey="'safety'"
+            :index='1'
+            style="top: 50px;left: 150px;">
+          </tag>
+          <svg
+            class="row-line"
+            style="top: 16px;left: 91px;">
+            <path d="M0 10 l10 -10">
+            </path>
+            <path d="M10 0 l50 0">
+            </path>
+          </svg>
+          <svg
+            class="row-line"
+            style="top: 65px;left: 91px;">
+            <path d="M0 0 l10 10">
+            </path>
+            <path d="M10 10 l 50 0">
+            </path>
+          </svg>
         </div>
-        <tag
-          :tagKey="'safety'"
-          style="top: 300px;left: 220px;">
-        </tag>
-        <tag
-          :active='true'
-          :tagKey="'safety'"
-          :index="1"
-          style="top: 300px;left: 20px;">
-        </tag>
-        <svg
-          class="row-line"
-          style="top: 275px;left: 227px;transform:rotate(90deg)">
-          <path d="M0 10 l10 -10">
-          </path>
-          <path d="M10 0 l 30 0">
-          </path>
-        </svg>
-        <svg
-          class="row-line"
-          style="top: 274px;left: 132px;transform:rotate(90deg)">
-          <path d="M0 0 l10 10">
-          </path>
-          <path d="M10 10 l 30 0">
-          </path>
-        </svg>
-      </div>
 
-      
-      <div class="item">
-        <div class="arc-middle">
+        <div class="arc-wrapper" style="margin-top: 61px;">
           <div class="arc-inner">
             <img :src="iconMap['economical']">
             <div>{{$t('features.economical.title')}}</div>
           </div>
+          <tag
+            :tagKey="'economical'"
+            style="top: 80px;left: 150px;">
+          </tag>
+          <tag
+            :tagKey="'economical'"
+            :index='1'
+            style="top: 20px;left: 150px;">
+          </tag>
+          <tag
+            :tagKey="'economical'"
+            :index='2'
+            style="top: -40px;left: 150px;">
+          </tag>
+          
+          <svg
+            class="row-line row-line2"
+            style="top: -16px;left: 82px;">
+            <path d="M0 22 l22 -22">
+            </path>
+            <path d="M22 0 l38 0">
+            </path>
+          </svg>
+          <svg
+            class="row-line"
+            style="top: 40px;left: 94px;">
+            <path d="M0 5 l50 0">
+            </path>
+          </svg>
+          <svg
+            class="row-line row-line2"
+            style="top: 82px;left: 84px;">
+            <path d="M0 0 l22 22">
+            </path>
+            <path d="M22 22 l38 0">
+            </path>
+          </svg>
         </div>
-        <tag
-          :tagKey="'economical'"
-          style="top: 250px;left: -13px;">
-        </tag>
-        <tag
-          :tagKey="'economical'"
-          :index='1'
-          style="top: 175px;left: -55px;">
-        </tag>
-        <tag
-          :tagKey="'economical'"
-          :index='2'
-          style="top: 90px;left: -13px;">
-        </tag>
-        <svg
-          class="row-line"
-          style="top: 120px;left: 130px;">
-          <path d="M40 10 l-10 -10">
-          </path>
-          <path d="M30 0 l -30 0">
-          </path>
-        </svg>
-        <svg
-          class="row-line"
-          style="top: 200px;left: 90px;">
-          <path d="M0 5 l28 0">
-          </path>
-        </svg>
-        <svg
-          class="row-line"
-          style="top: 270px;left: 130px;">
-          <path d="M40 0 l-10 10">
-          </path>
-          <path d="M30 10 l -30 0">
-          </path>
-        </svg>
       </div>
       
-
-      <div class="item">
-        <div class="arc-middle">
-          <div class="arc-inner">
-            <img :src="iconMap['easyusing']">
-            <div>{{$t('features.easyusing.title')}}</div>
-          </div>
-        </div>
-        <tag
-          :tagKey="'easyusing'"
-          style="top: 120px;left: -50px;">
-        </tag>
-        <tag
-          :tagKey="'easyusing'"
-          style="top: 35px;left: 40px;"
-          :index="1">
-        </tag>
-        <tag
-          :tagKey="'easyusing'"
-          style="top: 35px;left: 220px;"
-          :index="2"
-          :active="true">
-        </tag>
-        <tag
-          :tagKey="'easyusing'"
-          style="top: 120px;left: 310px;"
-          :index="3">
-        </tag>
-
-        <svg
-          class="row-line"
-          style="top: 153px;left: 94px;">
-          <path d="M40 10 l-10 -10">
-          </path>
-          <path d="M30 0 l -30 0">
-          </path>
-        </svg>
-
-        <svg
-          class="column-line"
-          style="top: 95px;left: 150px;">
-          <path d="M0 0 L20 20">
-          </path>
-          <path d="M20 20 L20 35">
-          </path>
-        </svg>
-        <svg
-          class="column-line"
-          style="top: 95px;left: 230px;">
-          <path d="M20 0 l-20 20">
-          </path>
-          <path d="M0 20 L 0 35">
-          </path>
-        </svg>
-        <svg
-          class="row-line"
-          style="top: 153px;left: 267px;">
-          <path d="M0 10 l10 -10">
-          </path>
-          <path d="M10 0 l 30 0">
-          </path>
-        </svg>
-      </div>
-      
-
-      <div class="item">
-        <div class="arc-middle">
+      <div class="feature-right">
+        <div class="arc-wrapper" style="margin-top: 33px;">
           <div class="arc-inner">
             <img :src="iconMap['flexable']">
             <div>{{$t('features.flexable.title')}}</div>
           </div>
+          <tag
+            :tagKey="'flexable'"
+            style="top: -43px;left: -162px;">
+          </tag>
+          <tag
+            :tagKey="'flexable'"
+            :index='1'
+            style="top: 17px;left: -162px;">
+          </tag>
+          <tag
+            :tagKey="'flexable'"
+            :index='2'
+            style="top: 77px;left: -162px;">
+          </tag>
+          <svg
+            class="row-line row-line2"
+            style="top: -21px;left: -50px;">
+            <path d="M60 22 l-22 -22">
+            </path>
+            <path d="M38 0 l -38 0">
+            </path>
+          </svg>
+          <svg
+            class="row-line"
+            style="top: 33px;left: -50px;">
+            <path d="M0 5 l48 0">
+            </path>
+          </svg>
+          <svg
+            class="row-line row-line2"
+            style="top: 78px;left: -50px;">
+            <path d="M60 0 l-22 22">
+            </path>
+            <path d="M38 22 l -38 0">
+            </path>
+          </svg>
         </div>
-        <tag
-          :tagKey="'flexable'"
-          style="top: 90px;left: -25px;">
-        </tag>
-        <tag
-          :tagKey="'flexable'"
-          :index="1"
-          style="top: 30px;left: 130px;">
-        </tag>
-        <tag
-          :tagKey="'flexable'"
-          :index="2"
-          style="top: 90px;left: 270px;">
-        </tag>
-        <svg
-          class="row-line"
-          style="top: 120px;left: 120px;">
-          <path d="M40 10 l-10 -10">
-          </path>
-          <path d="M30 0 l -30 0">
-          </path>
-        </svg>
 
-        <svg
-          class="column-line"
-          style="top: 95px;left: 185px;">
-          <path d="M10 0 L10 25">
-          </path>
-        </svg>
-        <svg
-          class="row-line"
-          style="top: 120px;left: 225px;">
-          <path d="M0 10 l10 -10">
-          </path>
-          <path d="M10 0 l 30 0">
-          </path>
-        </svg>
+        <div class="arc-wrapper" style="margin-top: 122px;">
+          <div class="arc-inner">
+            <img :src="iconMap['easyusing']">
+            <div>{{$t('features.easyusing.title')}}</div>
+          </div>
+          <tag
+            :tagKey="'easyusing'"
+            style="top: -75px;left: -162px;">
+          </tag>
+          <tag
+            :tagKey="'easyusing'"
+            :index='1'
+            style="top: -15px;left: -162px;">
+          </tag>
+          <tag
+            :tagKey="'easyusing'"
+            :index='2'
+            :active='true'
+            style="top: 45px;left: -162px;">
+          </tag>
+          <tag
+            :tagKey="'easyusing'"
+            :index='3'
+            style="top: 105px;left: -162px;">
+          </tag>
+          <svg
+            class="row-line row-line2"
+            style="top: -55px;left: -50px;">
+            <path d="M60 22 l-22 -22">
+            </path>
+            <path d="M38 0 l -38 0">
+            </path>
+          </svg>
+          <svg
+            class="row-line"
+            style="top: 5px;left: -50px;">
+            <path d="M50 10 l-10 -10">
+            </path>
+            <path d="M40 0 l -40 0">
+            </path>
+          </svg>
+          <svg
+            class="row-line"
+            style="top: 61px;left: -50px;">
+            <path d="M50 0 l-10 10">
+            </path>
+            <path d="M40 10 l -40 0">
+            </path>
+          </svg>
+          <svg
+            class="row-line row-line2"
+            style="top: 107px;left: -50px;">
+            <path d="M60 0 l-22 22">
+            </path>
+            <path d="M38 22 l -38 0">
+            </path>
+          </svg>
+        </div>
       </div>
-    </div> -->
+    </div>
   </div>
 </template>
 
@@ -367,22 +245,32 @@ export default {
 @import "~assets/vars";
 .scroll-container {
   font-family: $font-family-title;
-  width: 100%;
-  overflow-x: auto;
-  overflow-y: hidden;
-  margin-top: 125px;
+  width: 600px;
   display: flex;
   flex-direction: column;
   
-  @include mobile {
-    height: 750px;
-  }
 }
 
 .feature_wrapper {
-  height: 700px;
-  border: 1px solid red;
-  padding: 60px;
+  height: 450px;
+  padding: 25px;
+  @media only screen and (min-width: 320px) and (max-width: 767px)  {
+    height: 100%;
+    flex-direction: column;
+  }
+  .feature-left {
+    margin-left: 30px;
+    @media only screen and (min-width: 320px) and (max-width: 767px) {
+      margin-left: 0px;
+    }
+  }
+  .feature-right {
+    margin-left: 400px;
+    @media only screen and (min-width: 320px) and (max-width: 767px) {
+      margin-top: 60px;
+      margin-left: 155px;
+    }
+  }
   .arc-wrapper {
     position: relative;
     .arc-inner {
@@ -429,92 +317,4 @@ export default {
     }
   }
 }
-// .features {
-//   padding:0 60px;
-//   @include mobile {
-//     transform: scale(0.7);
-//     transform-origin: 0 0;
-//     margin-left: 40px;
-//   }
-//   height: 850px;
-//   padding-bottom: 73px;
-//   width: 1420px;
-//   display: flex;
-//   flex-wrap: wrap;
-//   justify-content: space-between;
-//   position: relative;
-//   margin: 0 auto;
-//   .item {
-//     position: relative;
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-    
-//     &:nth-child(4) {
-//       position: absolute;
-//       left: 245px;
-//       top: 380px;
-//     }
-//     &:last-child {
-//       position: absolute;
-//       left: 760px;
-//       top: 380px;
-//     }
-//     height: 400px;
-//     width: 400px;
-//     .arc-middle {
-//       height: 286px;
-//       width: 286px;
-//       display: flex;
-//       align-items: center;
-//       justify-content: center;
-//       .arc-inner {
-//         border-radius: 100%;
-//         padding: 30px 50px;
-//         display: flex;
-//         flex-direction: column;
-//         justify-content: space-between;
-//         align-items: center;
-//         color: #1b4366;
-//         height: 150px;
-//         width: 150px;
-//         background: rgba(237, 246, 255, 1);
-//         text-align:center;
-//       }
-//     }
-//     .column-line {
-//       position: absolute;
-//       width: 20px;
-//       height: 40px;
-//       path {
-//         shape-rendering: crispEdges;
-//         stroke: #007aff;
-//         stroke-width: 4px;
-//         fill: none;
-//         stroke-linecap: round;
-//         &:first-child {
-//           stroke-width: 2px;
-//           stroke-linecap: round;
-//         }
-//       }
-//     }
-//     .row-line {
-//       position: absolute;
-//       width: 40px;
-//       height: 10px;
-
-//       path {
-//         shape-rendering: crispEdges;
-//         stroke: #007aff;
-//         stroke-width: 4px;
-//         fill: none;
-//         stroke-linecap: round;
-//         &:first-child {
-//           stroke-width: 2px;
-//           stroke-linecap: round;
-//         }
-//       }
-//     }
-//   }
-// }
 </style>

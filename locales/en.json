@@ -10,11 +10,7 @@
       "technology": "The key technologies of Vite: DAG、Snapshot Chain、Asynchronous Architecture、Reactive Contract、Quota leasing、Loopring Integrated、Timer scheduling、Contract Upgrade、solidity++"
     }
   },
-  "exchange": {
-    "okex": "OKEX.COM",
-    "bittrex": "BITTREX",
-    "upbit":"UPBIT"
-  },
+  
   "media": {
     "medium": "Medium",
     "bitcointalk": "Bitcointalk",
@@ -50,6 +46,9 @@
     "news": "最新报道",
 
     "tokenTransaction": "代币交易",
+    "okex": "OKEX.COM",
+    "bittrex": "BITTREX",
+    "upbit":"UPBIT",
     
     "guide": "指南",
     "tutorial": "教程",
@@ -58,18 +57,17 @@
     "airdrop": "空投",
 
     "about": "关于",
+    "whitepaper": "White Paper",
     "wiki": "WIKI",
+    "blog": "技术博客",
 
     "more": "更多",
     "explorer": "区块浏览器",
     "store": "Vite商城"
   },
-  "about": {
-    "whitepaper": "White Paper",
-    "wiki": "WIKI",
-    "blog": "技术博客"
-  },
+  
   "home": {
+    "jionAirdrop": "参与空投",
     "activity1": "最新活动",
     "activity2": "最新动态",
     "explorer": "Explorer",
@@ -93,7 +91,7 @@
     "platform": {
         "title": "高性能去中心化平台",
         "subtitle": "到Vite Wiki全面了解Vite平台",
-        "link": "Vite区块浏览器"
+        "link": "Vite Wiki"
     },
     "wallet": {
         "title": "去中心化多币种钱包",
@@ -115,10 +113,28 @@
         "link": "Vite商城"
     }
   },
+  "New": {
+    "activity":{
+        "title": "最新活动",
+        "more": "查看更多"
+    },
+    "dynamic": {
+        "title": "最新动态"
+    }
+  },
   "products": {
     "title": "产品",
     "platform": {
         "title": "高性能去中心化平台",
+        "explorer": "到区块浏览器查看Vite网络状况",
+        "supernode": {
+          "title": "Vite超级节点出块率达",
+          "count": "超级节点出块率"
+        },
+        "fullnode": {
+            "title": "Vite全节点4个月数量达",
+            "nodeName": "节点名称"
+        },
         "textList": [{
             "name": "高性能",
             "description": "Vite通过DAG账本和异步架构设计确保了平台快速、高吞吐"
@@ -191,18 +207,23 @@
   "medium": {
     "title": "媒体和新闻",
     "youtube": {
-        "title": "Youtube"
+        "title": "Official YouTube Channel"
     },
     "blog": {
-        "title": "官方博客",
+        "title": "Official Blog",
         "desc": "The latest announcements of Vite can be found at Medium."
     },
     "report": {
-        "title": "最新报道"
+        "title": "Latest Press"
     }
   },
   "roadmap": {
     "title": "Roadmap",
+    "inProgress": "正在进行",
+    "completed": "已完成",
+    "nextStep": "下一步",
+    "previous": "PREVIOUS",
+    "next": "NEXT",
     "timelines": [
       {
         "time": "February 2018",
@@ -747,6 +768,12 @@
         "position": "Silicon Valley",
         "description": "Luke is a digital entrepreneur hailing from Seoul and Tokyo, currently based in California. Formerly, he was the Business Development Manager at City Innovate Foundation and SuperPublic CoLab at United Nations Plaza. He also held positions as Head of US Relations at European Innovation Academy and Director of Strategic Partnerships at Gateway Accelerator and VC. He is also a Co-founder of Startup Grind Berkeley, 3 Day Startup Berkeley, and Paladin Partners. Most recently, Luke worked on a crypto-asset fund and ICO for a Swiss asset management firm, while also channeling efforts into a tech accelerator for a South Korean startup. He holds a B.A. Bachelor of Art's degree in the Political Economy of Europe from University of California, Berkeley."
       },
+      "Juliet Su": {
+        "name": "Juliet Su",
+        "job": "Operations Manager",
+        "position": "Silicon Valley",
+        "description": "Juliet got her degree in chemistry from the California Institute of Technology, where she conducted research at the Frances Arnold Lab (winner of 2018 Nobel Prize) using directed evolution to engineer proteins. Post-graduating, she decided chemistry was not quite right for her, and went on to explore the business world instead. She brings operating experience from a BioTech startup and from building a photography business."
+      },
       "Jeff Ng": {
         "name": "Jeff Ng",
         "job": "Project Manager",
@@ -889,7 +916,7 @@
         "name": "Tiantao Zhu",
         "job": "Back-End Developer",
         "position": "Beijing",
-        "description": "Tiantao has 3 years of experience working in network security, specifically on the client-side system architecture design. He had a role in developing core components to service peer-to-peer networking, security, and verification features. "
+        "description": "Tiantao has over 4 years of experience in back-end service development, previously working for a select number of Chinese IT firms."
       },
       "weichao": {
         "name": "Weichao Li",
@@ -898,7 +925,7 @@
         "description": "Weichao has over 7 years of experience in back-end service architectural design. He has designed systems that process more than 20,000 queries per second."
       },
       "Zack": {
-        "name": "Zack Hou",
+        "name": "Blackey Hou",
         "job": "Director of Product",
         "position": "Beijing",
         "description": "Zack graduated from Beijing University of Posts and Telecommunications with a Master's Degree. He has over 4 years of experience working with IT products and has worked for prestigious firms, the likes of DiDi and Baidu. There he was in charge of managing applications with millions of daily active users (DAU)."

@@ -1,7 +1,9 @@
 <template>
-  <section class="is-border-box">
-    <activity></activity>
-    <dynamic></dynamic>
+  <section>
+    <div class="container">
+      <activity></activity>
+      <dynamic></dynamic>
+    </div>
   </section>
 </template>
 <script type="text/babel">
@@ -12,7 +14,12 @@ export default {
   components: {
     activity,
     dynamic
-  } 
+  },
+  data() {
+    return {
+    };
+  },
+ 
 };
 </script>
 
@@ -23,8 +30,5 @@ section {
   text-align: center;
   background: $common-bg-color;
   padding-bottom: 90px;
-  @include mobile {
-    height: 360px;
-  }
 }
 </style>

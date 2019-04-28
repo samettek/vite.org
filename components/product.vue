@@ -1,7 +1,7 @@
 <template>
   <section>
     <h1 class="product-title">{{ $t('product.title')}}</h1>
-    <div class="container is-flex">
+    <div class="container is-flex product__content">
       <div class="columns is-multiline">
         <div
           class="column is-6-widescreen is-6-tablet is-12-mobile"
@@ -9,7 +9,7 @@
           :key="item.key"
         >
           <div class="is-info">
-            <img :src="item.img" />
+            <img class="product__img"   :src="item.img" />
             <div class="product-desc">
               <div class="desc__title">{{ $t(`product.${item.key}.title`) }}</div>
               <div class="desc__subtitle">{{ $t(`product.${item.key}.subtitle`) }}</div>
@@ -18,6 +18,7 @@
                 :href="item.url"
                 target="_blank"> 
                 {{ $t(`product.${item.key}.link`) }}
+                <img src="~/assets/images/arrow_forward.svg"/>
               </a>
               <wallet-btn v-else></wallet-btn>
             </div>
@@ -73,9 +74,13 @@ export default {
 @import "~assets/vars";
 
 section {
-  // @include mobile {
-  //   height: 360px;
-  // }
+  padding: 0 0 130px 0;
+  .product__content {
+    margin-top: 60px;
+    @include mobile {
+      justify-content: center;
+    }
+  }
   .product-title {
     text-align: center;
     padding-top: 109px;
@@ -102,7 +107,7 @@ section {
       line-height:18px;
     }
   }
-  img {
+  .product__img {
     width: 450px;
     height: 359px;
     @include mobile {
