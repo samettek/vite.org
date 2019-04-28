@@ -2,7 +2,7 @@
   <section>
     <footer class="footer">
       <div clss="ft-container">
-        <div class="is-flex whole-footer">
+        <div class="is-flex whole-footer container">
           <div class="icon-wrapper is-one-third is-hidden-touch">
             <logo-without-words></logo-without-words>
           </div>
@@ -285,7 +285,7 @@ export default {
     padding-top: 28px;
     justify-content: space-between;
     .icon-wrapper {
-      margin-left: 50px;
+      // margin-left: 50px;
     }
   }
   .mt30 {
@@ -294,7 +294,7 @@ export default {
   .footer-tab {
     color: white;
     // justify-self: flex-end;
-    margin-right: 50px;
+    // margin-right: 50px;
     @include touch {
       margin: 0 auto;
     }
@@ -346,6 +346,7 @@ export default {
       padding: 0.5rem 23px;
       color: $common-text-color;
       font-family: $font-family-light;
+      max-width: 180px;
       @include touch {
         display: block;
         padding: 0.5rem 23px;
