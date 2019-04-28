@@ -26,36 +26,6 @@
           hover: null,
           list: [
             {
-              key: 'bitmain',
-              logo: require('~/assets/images/investor/bitmain.png'),
-              logoActive: require('~/assets/images/investor/bitmain-blue.png'),
-              url: 'https://www.bitmain.com/'
-            },
-            {
-              key: 'funcityCapital',
-              logo: require('~/assets/images/investor/funcity.png'),
-              logoActive: require('~/assets/images/investor/funcity-blue.png'),
-              url: 'http://www.funcityholding.com/'
-            },
-            {
-              key: 'starwinCapital',
-              logo: require('~/assets/images/investor/starwin.png'),
-              logoActive: require('~/assets/images/investor/starwin-blue.png'),
-              url: 'https://www.tianyancha.com/organize/b5dfe14738'
-            },
-            {
-              key: 'nodeCapital',
-              logo: require('~/assets/images/investor/node.png'),
-              logoActive: require('~/assets/images/investor/node-blue.png'),
-              url: 'http://www.nodecap.com/'
-            },
-            {
-              key: 'linkvc',
-              logo: require('~/assets/images/investor/linkvc.png'),
-              logoActive: require('~/assets/images/investor/linkvc-blue.png'),
-              url: 'http://www.linkvc.com/'
-            },
-            {
               key: 'ld',
               logo: require('~/assets/images/investor/ld.png'),
               logoActive: require('~/assets/images/investor/ld-blue.png'),
@@ -132,6 +102,24 @@
               logoActive: require('~/assets/images/investor/hot-blue.png')
             },
             {
+              key: 'bitmain',
+              logo: require('~/assets/images/investor/bitmain.png'),
+              logoActive: require('~/assets/images/investor/bitmain-blue.png'),
+              url: 'https://www.bitmain.com/'
+            },
+            {
+              key: 'funcityCapital',
+              logo: require('~/assets/images/investor/funcity.png'),
+              logoActive: require('~/assets/images/investor/funcity-blue.png'),
+              url: 'http://www.funcityholding.com/'
+            },
+            {
+              key: 'starwinCapital',
+              logo: require('~/assets/images/investor/starwin.png'),
+              logoActive: require('~/assets/images/investor/starwin-blue.png'),
+              url: 'https://www.tianyancha.com/organize/b5dfe14738'
+            },
+            {
               key: 'dazhi',
               logo: require('~/assets/images/investor/dazhi.png'),
               logoActive: require('~/assets/images/investor/dazhi-blue.png')
@@ -155,6 +143,18 @@
               key: 'bn',
               logo: require('~/assets/images/investor/bn.png'),
               logoActive: require('~/assets/images/investor/bn-blue.png')
+            },
+            {
+              key: 'nodeCapital',
+              logo: require('~/assets/images/investor/node.png'),
+              logoActive: require('~/assets/images/investor/node-blue.png'),
+              url: 'http://www.nodecap.com/'
+            },
+            {
+              key: 'linkvc',
+              logo: require('~/assets/images/investor/linkvc.png'),
+              logoActive: require('~/assets/images/investor/linkvc-blue.png'),
+              url: 'http://www.linkvc.com/'
             }
           ]
         };
