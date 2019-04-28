@@ -36,7 +36,7 @@ export default {
       navAboutList: [{
         type: 'outer',
         name: 'wiki',
-        to: config.urls.blog[this.$i18n.locale]
+        to: config.urls.wiki[this.$i18n.locale]
       }, {
         type: 'outer',
         name: 'blog',

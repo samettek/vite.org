@@ -207,8 +207,8 @@ export default {
           img: require('~/assets/images/community/Germany.svg'),
           picture: require('~/assets/images/community/Juan.jpg'),
           cname: 'Germany',
-          name: 'Öznur Topal',
-          mediaLink: 'https://twitter.com/znurTOPAL2'
+          name: 'جوان محمود ',
+          mediaLink: 'https://www.facebook.com/baveciwan29'
         }
       ]
     };
