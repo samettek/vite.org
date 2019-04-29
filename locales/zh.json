@@ -31,8 +31,10 @@
 
         "person": "人物",
         "team": "团队",
-        "investor": "投资人",
+        "counselor": "顾问",
+        "global": "全球社区管理员",
         "community": "社区",
+        "investor": "投资机构",
 
         "superNodes": "超级节点说明",
         "nodeList": "候选超级节点",
@@ -43,6 +45,7 @@
         },
         
         "medium": "新闻和媒体",
+        "video": "官方视频",
         "blogs": "官方博客",
         "news": "最新报道",
         
@@ -682,7 +685,7 @@
         "siliconValley": "硅谷团队",
         "tech": "北京技术团队",
         "global": "全球社区管理员",
-        "advisor": "顾问团队",
+        "advisor": "顾问",
         "join": "加入我们",
         "nameMap": {
             "liuchunming": {

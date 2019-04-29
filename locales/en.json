@@ -28,10 +28,13 @@
     "wallet": "钱包",
     "exchange": "交易所",
     "pay": "支付",
+
     "person": "人物",
-    "team": "TEAM",
-    "investor": "投资人",
+    "team": "团队",
+    "counselor": "顾问",
+    "global": "全球社区管理员",
     "community": "社区",
+    "investor": "投资机构",
 
     "superNodes": "Guide for SBP (Snapshot Block Producer)",
     "nodeList": "候选超级节点",
@@ -42,6 +45,7 @@
     },
 
     "medium": "新闻和媒体",
+    "video": "官方视频",
     "blogs": "官方博客",
     "news": "最新报道",
 

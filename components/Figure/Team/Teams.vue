@@ -3,6 +3,7 @@
     <div class="container">
       <h1 style="margin-bottom: 30px;">{{$t('team.core')}}</h1>
       <team-factory 
+        :id="item.title"
         :title="item.title" 
         :list="item.list" 
         v-for="(item, index) in teams" 

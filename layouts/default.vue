@@ -249,16 +249,31 @@ export default {
         anchor: 'team'
       }, {
         type: 'inner',
-        name: 'investor',
+        name: 'counselor',
         to: 'figure',
-        anchor: 'investor'
+        anchor: 'advisor'
+      }, {
+        type: 'inner',
+        name: 'global',
+        to: 'figure',
+        anchor: 'global'
       }, {
         type: 'inner',
         name: 'community',
         to: 'figure',
         anchor: 'community'       
+      }, {
+        type: 'inner',
+        name: 'investor',
+        to: 'figure',
+        anchor: 'investor'
       }],
       navMediaList: [{
+        type: 'inner',
+        name: 'video',
+        to: 'medium',
+        anchor: 'video'
+      },{
         type: 'inner',
         name: 'blogs',
         to: 'medium',

@@ -1,5 +1,5 @@
 <template>
-  <div class="youtube__wrapper">
+  <div class="youtube__wrapper" id="video">
     <div class="container">
       <div class="youtube__content">
         <div class="is-flex" style="justify-content: space-between">
