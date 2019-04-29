@@ -22,54 +22,54 @@
     "star": "Community Star"
   },
   "nav": {
-    "index": "HOME",
-    "production": "PRODUCTS",
+    "index": "Home",
+    "production": "Products",
     "platform": "Platform",
     "wallet": "Wallet",
     "exchange": "Exchange",
     "pay": "Payment",
     "person": "People",
-    "team": "TEAM",
+    "team": "Team",
     "investor": "Investors",
-    "community": "社区",
+    "community": "Community",
 
     "superNodes": "Guide for SBP (Snapshot Block Producer)",
-    "nodeList": "候选超级节点",
+    "nodeList": "SBP Candidates",
     "notice": {
-      "name": "SUPERNODES",
+      "name": "SuperNodes",
       "specific": "Guide for SBP (Snapshot Block Producer)",
       "apply": "Apply for SBP (Snapshot Block Producer) "
     },
 
-    "media": "新闻和媒体",
-    "blogs": "官方博客",
-    "news": "最新报道",
+    "media": "Media & News",
+    "blogs": "Blog",
+    "news": "News",
 
-    "tokenTransaction": "代币交易",
+    "tokenTransaction": "Trading",
     "okex": "OKEX.COM",
     "bittrex": "BITTREX",
     "upbit":"UPBIT",
     
-    "guide": "指南",
-    "tutorial": "教程",
-    "faq": "问答",
+    "guide": "Guide",
+    "tutorial": "Tutorial",
+    "faq": "FAQ",
 
-    "airdrop": "空投",
+    "airdrop": "Airdrop",
 
-    "about": "关于",
+    "about": "About",
     "whitepaper": "White Paper",
     "wiki": "WIKI",
-    "blog": "技术博客",
+    "blog": "Tech Blog",
 
-    "more": "更多",
-    "explorer": "区块浏览器",
-    "store": "Vite商城"
+    "more": "More",
+    "explorer": "Block Explorer",
+    "store": "Vite Store"
   },
   
   "home": {
-    "jionAirdrop": "参与空投",
-    "activity1": "最新活动",
-    "activity2": "最新动态",
+    "jionAirdrop": "Airdrop Now",
+    "activity1": "Activities",
+    "activity2": "News",
     "explorer": "Explorer",
     "webWallet": "Web Wallet",
     "wallet": {
@@ -87,15 +87,15 @@
     "starttoUse": "Get Started with Vite"
   },
   "product": {
-    "title": "产品",
+    "title": "Products",
     "platform": {
-        "title": "高性能去中心化平台",
-        "subtitle": "到Vite Wiki全面了解Vite平台",
+        "title": "High-Performance Decentralized Platform",
+        "subtitle": "Find out more at Vite Wiki",
         "link": "Vite Wiki"
     },
     "wallet": {
-        "title": "去中心化多币种钱包",
-        "subtitle": "使用Vite钱包管理数字资产",
+        "title": "Decentralized, Multi-Token Wallet",
+        "subtitle": "Use Vite Wallet to Manage Your Digital Assets",
         "ios": "iOS",
         "android": "Android",
         "web": "Web",
@@ -103,59 +103,59 @@
         "windows": "Windows"
     },
     "exchange": {
-        "title": "去中心化数字资产交易平台",
-        "subtitle": "使用ViteX交易数字资产",
+        "title": "Decentralized Exchange for Trading Digital Assets",
+        "subtitle": "Trade on ViteX Now",
         "link": "ViteX"
     },
     "pay": {
-        "title": "安全、便捷、低成本支付方式",
-        "subtitle": "到Vite商城体验VitePay",
-        "link": "Vite商城"
+        "title": "Secure, Convenient, Low-Cost",
+        "subtitle": "Try VitePay in Vite Store Now",
+        "link": "Vite Store"
     }
   },
   "New": {
     "activity":{
-        "title": "最新活动",
-        "more": "查看更多"
+        "title": "Activities",
+        "more": "View More"
     },
     "dynamic": {
-        "title": "最新动态"
+        "title": "News"
     }
   },
   "products": {
-    "title": "产品",
+    "title": "Products",
     "platform": {
-        "title": "高性能去中心化平台",
-        "explorer": "到区块浏览器查看Vite网络状况",
+        "title": "High-Performance Decentralized Platform",
+        "explorer": "Check Vite Public Chain on Block Explorer",
         "supernode": {
-          "title": "Vite超级节点出块率达",
-          "count": "超级节点出块率"
+          "title": "Vite SBPs' block creation ratio reaches",
+          "count": "Block Creation Ratio"
         },
         "fullnode": {
-            "title": "Vite全节点4个月数量达",
-            "nodeName": "节点名称"
+            "title": "Vite Full Nodes have reach",
+            "nodeName": "Node Name"
         },
         "textList": [{
-            "name": "高性能",
-            "description": "Vite通过DAG账本和异步架构设计确保了平台快速、高吞吐"
+            "name": "High Performance",
+            "description": "DAG Ledger and Asynchronous Architecture ensure fast and ultra-high throughput of Vite platform"
         }, {
-            "name": "安全",
-            "description": "Vite引入快照链技术弥补了DAG账本的安全性缺陷"
+            "name": "Security",
+            "description": "The Snapshot chain technology introduced by Vite is meant to address inherent secure deficiency of DAG structure"
         }, {
-            "name": "易用",
-            "description": "Vite提供合约调度、升级，命名服务及Solidity++，极大地提高了平台的易用性"
+            "name": "Usability",
+            "description": "Vite Ecosystem provides services of Contract Scheduling and Upgrading, Naming Services, Solidity++, all of these features are tremendously improving the usability of this platform"
         }, {
-            "name": "经济",
-            "description": "Vite平台没有交易费，交易消耗配额，而配额可以"
+            "name": "Economy",
+            "description": "Vite platform has no transaction fees. Trading only consume quotas which can be acquired by running PoW"
         }, {
-            "name": "可扩展",
-            "description": "采用HDPoS共识算法，并支持跨链和智能合约进一步提高平台的可扩展性"
+            "name": "Scalability",
+            "description": "Introducing HDPoS consensus algorithm as well as supporting cross-chain gateway and smart contracts to achieve further scalability"
         }]
     },
     "wallet": {
-        "title": "多币种钱包",
+        "title": "Multi-Token Wallet",
         "textList": [{
-            "name": "转账零费用",
+            "name": "Zero Transaction Fees",
             "description": "交易消耗配额，运行PoW免费获取"
         }, {
             "name": "交易速度快",
@@ -205,7 +205,7 @@
     }
   },
   "medium": {
-    "title": "媒体和新闻",
+    "title": "Media & News",
     "youtube": {
         "title": "Official YouTube Channel"
     },
@@ -219,9 +219,9 @@
   },
   "roadmap": {
     "title": "Roadmap",
-    "inProgress": "正在进行",
-    "completed": "已完成",
-    "nextStep": "下一步",
+    "inProgress": "Ongoing",
+    "completed": "Completed",
+    "nextStep": "Future",
     "previous": "PREVIOUS",
     "next": "NEXT",
     "timelines": [
