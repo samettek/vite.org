@@ -255,9 +255,11 @@ export default {
       color: white;
       background: $common-active-color;
       @include touch {
-        width: 100px;
+        width: 124px;
+        height: 50px;
         font-size: 12px;
-        margin-right: 10px;
+        line-height: 50px;
+        margin-right: 14px;
       }
     }
     .other-btn {

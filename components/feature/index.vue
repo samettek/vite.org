@@ -275,7 +275,7 @@ export default {
     position: relative;
     .arc-inner {
       border-radius: 100%;
-      padding: 19px 0;
+      padding: 16px 0;
       display: flex;
       flex-direction: column;
       justify-content: space-between;

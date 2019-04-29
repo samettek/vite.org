@@ -54,7 +54,7 @@ export default {
       return '';
     },
     draw() {
-      let xAxis = Object.assign({
+      let yAxis = Object.assign({
         show: this.showAxis,
         axisLabel : { 
           formatter : '{value}%' 
@@ -64,14 +64,14 @@ export default {
         }
       });
       this.echarsInstance.setOption({
-        xAxis: xAxis,
-        yAxis:  {
+        xAxis:  {
           show: this.showAxis,
           type: 'category',
           data: this.list.map(item => {
             return item.count;
-          })
+          }) 
         },
+        yAxis: yAxis,
         tooltip: {
           trigger: 'item'
         },
@@ -95,7 +95,7 @@ export default {
               let index = params.dataIndex;
               let listItem = this.list[index];
               return `<div class="">
-                <div class="">${this.$t('products.platform.supernode.count')}：${listItem.item}%</div> 
+                <div class="">${this.$t('products.platform.supernode.count')}：${listItem.count}</div> 
               </div>`;
             }
           }

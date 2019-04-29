@@ -28,12 +28,13 @@
                   :cname="item.cname"
                   :name="item.name"
                   :mediaLink="item.mediaLink"
+                  :icon="item.icon"
                 ></community-card>
               </div>
-              <div
+              <!-- <div
                 class="column is-4 star-item" style="visibility:hidden">
                 <community-card></community-card>
-              </div>
+              </div> -->
             </div>
           </div>
           <div class="column">
@@ -128,7 +129,8 @@ export default {
           cname: 'Belgium',
           picture: require('~/assets/images/community/Fernandez-Bravo.jpg'),
           name: 'Antonio Fernandez',
-          mediaLink:'https://twitter.com/afbr84'
+          mediaLink:'https://twitter.com/afbr84',
+          icon: 'twitter'
         },
         {
           key: 1,
@@ -136,7 +138,8 @@ export default {
           picture: require('~/assets/images/community/russia.jpeg'),
           cname: 'Russia',
           name: 'Богдан Обойшев',
-          mediaLink:'https://twitter.com/bodya_oboyshev'
+          mediaLink:'https://twitter.com/bodya_oboyshev',
+          icon: 'twitter'
         },
         {
           key: 2,
@@ -144,7 +147,8 @@ export default {
           picture: require('~/assets/images/community/france.jpeg'),
           cname: 'France',
           name: 'Thomas Blanc',
-          mediaLink: 'https://twitter.com/ThomasBlnc'
+          mediaLink: 'https://twitter.com/ThomasBlnc',
+          icon: 'twitter'
         },
         {
           key: 3,
@@ -152,7 +156,8 @@ export default {
           picture: require('~/assets/images/community/india.jpg'),
           cname: 'India',
           name: 'पंकज',
-          mediaLink:'https://twitter.com/CryptoFonzie'
+          mediaLink:'https://twitter.com/CryptoFonzie',
+          icon: 'twitter'
         },
         {
           key: 4,
@@ -160,7 +165,8 @@ export default {
           picture: require('~/assets/images/community/nigeria.jpg'),
           cname: 'Nigeria',
           name: 'Yomi Oyesiji',
-          mediaLink: 'https://twitter.com/Mexite3yo'
+          mediaLink: 'https://twitter.com/Mexite3yo',
+          icon: 'twitter'
         },
         {
           key: 5,
@@ -168,7 +174,8 @@ export default {
           picture: require('~/assets/images/community/italy.jpg'),
           cname: 'Italy',
           name: 'Angelo Giacomo Canevari',
-          mediaLink:'https://twitter.com/Angelo_Canevari'
+          mediaLink:'https://twitter.com/Angelo_Canevari',
+          icon: 'twitter'
         },
         {
           key: 6,
@@ -176,7 +183,8 @@ export default {
           picture: require('~/assets/images/community/thailand.png'),
           cname: 'Thailand',
           name: 'Boss',
-          mediaLink: 'https://twitter.com/attakorn_p'
+          mediaLink: 'https://twitter.com/attakorn_p',
+          icon: 'twitter'
         },
         {
           key: 7,
@@ -184,7 +192,8 @@ export default {
           picture: require('~/assets/images/community/indonesia.jpeg'),
           cname: 'Indonesia',
           mediaLink: 'https://twitter.com/casualfungames',
-          name: 'Muhamad'
+          name: 'Muhamad',
+          icon: 'twitter'
         },
         {
           key: 8,
@@ -192,7 +201,8 @@ export default {
           picture: require('~/assets/images/community/vietnam.png'),
           cname: 'Vietnam',
           name: 'Trang',
-          mediaLink: 'https://twitter.com/VoBaLu1'
+          mediaLink: 'https://twitter.com/VoBaLu1',
+          icon: 'twitter'
         },
         {
           key: 9,
@@ -200,15 +210,26 @@ export default {
           picture: require('~/assets/images/community/turkey.jpg'),
           cname: 'Turkey',
           name: 'Öznur Topal',
-          mediaLink: 'https://twitter.com/znurTOPAL2'
+          mediaLink: 'https://twitter.com/znurTOPAL2',
+          icon: 'twitter'
         },
         {
           key: 10,
-          img: require('~/assets/images/community/Germany.svg'),
-          picture: require('~/assets/images/community/Juan.jpg'),
-          cname: 'Germany',
-          name: 'Öznur Topal',
-          mediaLink: 'https://twitter.com/znurTOPAL2'
+          img: require('~/assets/images/community/Indonesia.svg'),
+          picture: require('~/assets/images/community/muhammad.jpg'),
+          cname: 'Indonesia',
+          name: 'Muhammad Usman',
+          mediaLink: 'https://medium.com/@netral8787',
+          icon: 'medium'
+        },
+        {
+          key: 11,
+          img: require('~/assets/images/community/Indonesia.svg'),
+          picture: require('~/assets/images/community/erik.jpg'),
+          cname: 'Spain',
+          name: 'Erik Siria',
+          mediaLink: 'https://twitter.com/CriptoErik',
+          icon: 'twitter'
         }
       ]
     };

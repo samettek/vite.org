@@ -54,7 +54,7 @@ export default {
         },
         exchange: {
           name: this.$t('product.exchange.subtitle'),
-          url: 'https://vitextest.vite.net/trade'
+          url: 'https://x-test.vite.net/trade'
         },
         pay: {
           name: this.$t('product.pay.subtitle'),

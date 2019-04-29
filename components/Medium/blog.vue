@@ -6,7 +6,7 @@
         <div class="blog__card-title">{{ $t('medium.blog.title') }}</div>
         <div class="blog__card-desc">{{ $t('medium.blog.desc') }}</div>
       </div>
-      <div class="M-img"><img src="~/assets/images/medium/M.svg"/></div>
+      <div class="M-img"><img :src="imgSrc"/></div>
     </div>
     </a>
     
@@ -19,6 +19,7 @@ import config from '~/config.js';
 export default {
   data() {
     return {
+      imgSrc: this.$i18n.locale === 'zh' ? require('~/assets/images/medium/f.svg') : require('~/assets/images/medium/M.svg')
     };
   },
   computed: {

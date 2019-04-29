@@ -61,12 +61,14 @@
             <div class="nav-item">
               <secondary-menu 
                 :footer-name="$t(`nav.production`)"
+                footer-to="products"
                 :secondary-list="navProductionList">
               </secondary-menu>
             </div>
             <div class="nav-item">
               <secondary-menu 
                 :footer-name="$t(`nav.person`)"
+                footer-to="figure"
                 :secondary-list="navPersonList">
               </secondary-menu>
             </div>
@@ -75,7 +77,8 @@
             </div>
             <div class="nav-item">
               <secondary-menu 
-                :footer-name="$t(`nav.media`)"
+                :footer-name="$t(`nav.medium`)"
+                footer-to="medium"
                 :secondary-list="navMediaList">
               </secondary-menu>
             </div>
@@ -246,16 +249,31 @@ export default {
         anchor: 'team'
       }, {
         type: 'inner',
-        name: 'investor',
+        name: 'counselor',
         to: 'figure',
-        anchor: 'investor'
+        anchor: 'advisor'
+      }, {
+        type: 'inner',
+        name: 'global',
+        to: 'figure',
+        anchor: 'global'
       }, {
         type: 'inner',
         name: 'community',
         to: 'figure',
         anchor: 'community'       
+      }, {
+        type: 'inner',
+        name: 'investor',
+        to: 'figure',
+        anchor: 'investor'
       }],
       navMediaList: [{
+        type: 'inner',
+        name: 'video',
+        to: 'medium',
+        anchor: 'video'
+      },{
         type: 'inner',
         name: 'blogs',
         to: 'medium',

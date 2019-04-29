@@ -30,6 +30,7 @@
     "pay": "Payment",
     "person": "People",
     "team": "Team",
+    "counselor": "Advisor",
     "investor": "Investors",
     "community": "Community",
 
@@ -41,7 +42,8 @@
       "apply": "Apply for SBP (Snapshot Block Producer) "
     },
 
-    "media": "Media & News",
+    "medium": "Media & News",
+    "video": "Videos",
     "blogs": "Blog",
     "news": "News",
 
@@ -132,7 +134,7 @@
           "count": "Block Creation Ratio"
         },
         "fullnode": {
-            "title": "Vite Full Nodes have reach",
+            "title": "Vite Full Nodes within 5 months have reach",
             "nodeName": "Node Name"
         },
         "textList": [{
@@ -889,10 +891,10 @@
         "description": "Eric has previously worked with top IT firms in China, including Baidu. He is an expert in back-end services and data system development. He has experience with system architecture, designing systems that can process over 20,000 queries per second. Eric has also formerly led an engineering team of 15+ members, so he has management experience as well."
       },
       "Asurily": {
-        "name": "Asurily He",
+        "name": "Otis He",
         "job": "Back-End Developer",
         "position": "Beijing",
-        "description": "Asurily has 3 years of experiences working on blockchain projects. He holds a Master's degree from Northwestern University. His academic research focused on blockchain technology and data storage studies."
+        "description": "Otis has 3 years of experiences working on blockchain projects. He holds a Master's degree from Northeastern University. His academic research focused on blockchain technology and data storage studies."
       },
       "Cassie": {
         "name": "Cassie Liu",
@@ -981,6 +983,11 @@
         "name": "Pankaj Kataria",
         "position": "India",
         "description": "A seasoned IT professional with over a decade of experience performing diverse roles such as Developer, QA engineer, Data analyst and Business Analyst. He is a community manager for Vite social media and is looking to expand his interest in the world of block chain and associated tech."
+    },
+    "Juan": {
+      "name": "Juan Mhmod",
+      "position": "Germany",
+      "description": "Dr. Mhmod, Juan studied engineering science and Technology. Previously served as a project manager and assistant professor at a well-know German university. He holds a Ph.D and Postdoctoral degree from Jilin University in China. He graduated his Ph.D with honors in 2016."
     },
     "HaViet": {
         "name": "Ha Viet Nguyen",

@@ -3,6 +3,7 @@
     <div class="container">
       <h1 style="margin-bottom: 30px;">{{$t('team.core')}}</h1>
       <team-factory 
+        :id="item.title"
         :title="item.title" 
         :list="item.list" 
         v-for="(item, index) in teams" 
@@ -433,6 +434,16 @@ export default {
                 {
                   icon: ['fab', 'linkedin'],
                   url: 'https://www.linkedin.com/in/pankaj-kataria-cbap®-87ba1b7/'
+                }
+              ]
+            },
+            {
+              img: require('~/assets/images/community/Juan.jpg'),
+              key: 'Juan',
+              urls: [
+                {
+                  icon: ['fab', 'facebook'],
+                  url: 'https://www.facebook.com/baveciwan29'
                 }
               ]
             },

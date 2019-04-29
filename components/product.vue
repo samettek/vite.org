@@ -42,7 +42,7 @@ export default {
         {
           key: 'platform',
           url: 'https://vite.wiki/',
-          img: require('~/assets/images/product/platform.png'),
+          img: this.$i18n.locale === 'zh' ? require('~/assets/images/product/platform.png') : require('~/assets/images/product/platform-1.jpg'),
         },
         {
           key: 'wallet',
@@ -50,7 +50,7 @@ export default {
         },
         {
           key: 'exchange',
-          url: 'https://vitextest.vite.net/trade',
+          url: 'https://x-test.vite.net/trade',
           img: require('~/assets/images/product/exchange.png'),
         },
         {

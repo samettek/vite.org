@@ -31,8 +31,10 @@
 
         "person": "人物",
         "team": "团队",
-        "investor": "投资人",
+        "counselor": "顾问",
+        "global": "全球社区管理员",
         "community": "社区",
+        "investor": "投资机构",
 
         "superNodes": "超级节点说明",
         "nodeList": "候选超级节点",
@@ -42,7 +44,8 @@
             "apply": "申请超级节点"
         },
         
-        "media": "新闻和媒体",
+        "medium": "新闻和媒体",
+        "video": "官方视频",
         "blogs": "官方博客",
         "news": "最新报道",
         
@@ -129,10 +132,10 @@
             "explorer": "到区块浏览器查看Vite网络状况",
             "supernode": {
                 "title": "Vite超级节点出块率达",
-                "count": "超级节点出块率"
+                "count": "超级节点个数"
             },
             "fullnode": {
-                "title": "Vite全节点4个月数量达",
+                "title": "Vite全节点数量5个月达",
                 "nodeName": "节点名称"
             },
             "textList": [{
@@ -222,8 +225,8 @@
         "inProgress": "正在进行",
         "completed": "已完成",
         "nextStep": "下一步",
-        "previous": "PREVIOUS",
-        "next": "NEXT",
+        "previous": "展开",
+        "next": "展开",
         "timelines": [
             {
                 "time": "2018.02",
@@ -682,7 +685,7 @@
         "siliconValley": "硅谷团队",
         "tech": "北京技术团队",
         "global": "全球社区管理员",
-        "advisor": "顾问团队",
+        "advisor": "顾问",
         "join": "加入我们",
         "nameMap": {
             "liuchunming": {
@@ -970,6 +973,11 @@
                 "name": "Pankaj Kataria",
                 "position": "India",
                 "description": "A seasoned IT professional with over a decade of experience performing diverse roles such as Developer, QA engineer, Data analyst and Business Analyst. He is a community manager for Vite social media and is looking to expand his interest in the world of block chain and associated tech."
+            },
+            "Juan": {
+                "name": "Juan Mhmod",
+                "position": "Germany",
+                "description": "Dr. Mhmod, Juan studied engineering science and Technology. Previously served as a project manager and assistant professor at a well-know German university. He holds a Ph.D and Postdoctoral degree from Jilin University in China. He graduated his Ph.D with honors in 2016."
             },
             "HaViet": {
                 "name": "Ha Viet Nguyen",
@@ -1359,14 +1367,14 @@
             ]
         },
         "safety": {
-            "title": "安全性",
+            "title": "安全",
             "tags": [
                 "多代币模型",
                 "快照链"
             ]
         },
         "economical": {
-            "title": "经济性",
+            "title": "经济",
             "tags": [
                 "配额模型",
                 "无手续费",
@@ -1374,7 +1382,7 @@
             ]
         },
         "easyusing": {
-            "title": "易用性",
+            "title": "易用",
             "tags": [
                 "Solidity++",
                 "命名服务",
@@ -1383,7 +1391,7 @@
             ]
         },
         "flexable": {
-            "title": "扩展性",
+            "title": "可扩展",
             "tags": [
                 "跨链",
                 "HDPoS共识",
