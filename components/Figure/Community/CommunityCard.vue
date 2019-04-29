@@ -9,12 +9,12 @@
         </div>
 
       </div>
-      <div class="card-img">
+      <div class="card-img" v-if="picture">
         <img :src="picture" />
         <fa-icon
             @click="gotoLink"
             class="icon"
-            :icon="['fab','twitter']"
+            :icon="['fab', icon ]"
           />
       </div>
     </div>
@@ -34,6 +34,9 @@ export default {
       type: String
     },
     cname: {
+      type: String
+    },
+    icon: {
       type: String
     },
     mediaLink: {

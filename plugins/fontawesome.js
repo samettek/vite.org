@@ -13,9 +13,11 @@ import faPlusCircle from '@fortawesome/fontawesome-free-solid/faPlusCircle';
 import faWechat from '@fortawesome/fontawesome-free-brands/faWeixin';
 import faYoutube from '@fortawesome/fontawesome-free-brands/faYoutube';
 import faWeibo from '@fortawesome/fontawesome-free-brands/faWeibo';
+import faFacebook from '@fortawesome/fontawesome-free-brands/faFacebook';
+import faMedium from '@fortawesome/fontawesome-free-brands/faMedium';
 
 export default ({ app, store }) => {
-  fontawesome.library.add(faGithub, faLinkin, faTwitter, faDiscord, faPlusCircle, faTelegram, faReddit, faWechat, faYoutube, faWeibo);
+  fontawesome.library.add(faGithub, faLinkin, faTwitter, faDiscord, faPlusCircle, faTelegram, faReddit, faWechat, faYoutube, faWeibo, faFacebook, faMedium);
 
   Vue.component('fa-icon', FontAwesomeIcon);
 };

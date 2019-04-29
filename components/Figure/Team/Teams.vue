@@ -436,6 +436,16 @@ export default {
                 }
               ]
             },
+            {
+              img: require('~/assets/images/community/Juan.jpg'),
+              key: 'Juan',
+              urls: [
+                {
+                  icon: ['fab', 'facebook'],
+                  url: 'https://www.facebook.com/baveciwan29'
+                }
+              ]
+            },
           ]
         }
       ]
