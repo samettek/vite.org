@@ -344,13 +344,13 @@ export default {
     .nav-item {
       display: flex;
       align-items: flex-start;
-      padding: 0.5rem 23px;
+      padding: 0.5rem 10px;
       color: $common-text-color;
       font-family: $font-family-light;
-      max-width: 180px;
+      max-width: 131px;
       @include touch {
         display: block;
-        padding: 0.5rem 23px;
+        padding: 0.5rem 10px;
         width: 50%;
         text-align: left;
       }
