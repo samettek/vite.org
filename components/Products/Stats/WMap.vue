@@ -67,6 +67,9 @@ export default {
         tooltip: {
           trigger: 'item',
           formatter: function (params) {
+            if (params.value[2].length > 6) {
+              params.value[2] = params.value[2].slice(0, 6);
+            }
             return params.name + ' : ' + params.value[2];
           }
         },

@@ -2,7 +2,13 @@
   <div class="dropdown lang-btn is-hoverable">
     <div class="dropdown-trigger">
       <button class="button" :class="{'foot-btn': isFooter}">
-        <span>{{ footerName }}</span>
+        <span v-if="!footerTo">{{ footerName }}</span>
+        <nuxt-link
+          :to="localePath(footerTo)"
+          v-else
+          class="btn__click">
+          {{ footerName }}
+        </nuxt-link>
       </button>
     </div>
     <div class="dropdown-menu" id="lang-dropdown-menu" role="menu">
@@ -44,6 +50,10 @@
         type: String,
         default: ''
       },
+      footerTo: {
+        type: String,
+        default: ''
+      },
       secondaryList: {
         type: Array,
         default: ()=> []
@@ -67,6 +77,12 @@
 
   .lang-btn {
     .dropdown-trigger {
+      .btn__click {
+        color: $common-text-color;
+        &:hover {
+          color: $common-active-color;
+        }
+      }
       button {
         color: $common-text-color;
         background: transparent;

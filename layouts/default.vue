@@ -61,12 +61,14 @@
             <div class="nav-item">
               <secondary-menu 
                 :footer-name="$t(`nav.production`)"
+                footer-to="products"
                 :secondary-list="navProductionList">
               </secondary-menu>
             </div>
             <div class="nav-item">
               <secondary-menu 
                 :footer-name="$t(`nav.person`)"
+                footer-to="figure"
                 :secondary-list="navPersonList">
               </secondary-menu>
             </div>
@@ -76,6 +78,7 @@
             <div class="nav-item">
               <secondary-menu 
                 :footer-name="$t(`nav.medium`)"
+                footer-to="medium"
                 :secondary-list="navMediaList">
               </secondary-menu>
             </div>
