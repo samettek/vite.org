@@ -129,10 +129,10 @@
         "explorer": "到区块浏览器查看Vite网络状况",
         "supernode": {
           "title": "Vite超级节点出块率达",
-          "count": "超级节点出块率"
+          "count": "超级节点个数"
         },
         "fullnode": {
-            "title": "Vite全节点4个月数量达",
+            "title": "Vite全节点数量5个月达",
             "nodeName": "节点名称"
         },
         "textList": [{

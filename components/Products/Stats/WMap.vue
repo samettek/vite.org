@@ -4,10 +4,10 @@
       <div id="map" style="width: 100%; height: 249px;"></div>
       <div class="map__footer is-flex">
         <div 
-          v-for="(item, index) in list" 
+          v-for="(item, index) in compulist" 
           :key="index" 
           class="map__footer-wrapper"
-          v-if="list.length">
+          v-if="compulist.length">
           <div>{{item.city}}</div>
           <div style="margin-top:2px;">{{item.count}}</div>
         </div>
@@ -39,6 +39,11 @@ export default {
   },
   mounted() {
     this.draw();
+  },
+  computed: {
+    compulist() {
+      return this.list.slice(0, 6);
+    }
   },
   methods: {
     clear() {
@@ -109,8 +114,6 @@ export default {
     line-height:18px;
     .map__footer-wrapper {
       margin-top: 5px;
-      padding-left: 15px; 
-      padding-right: 15px; 
     }
   }
 }
