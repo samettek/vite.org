@@ -64,7 +64,7 @@
     justify-content: space-between;
     .node-title {
       .title-content {
-        padding: 12px 21px 12px 20px;
+        padding: 12px 0px 12px 20px;
         .title-content__title {
           margin-left: 12px; 
           line-height: 36px;

@@ -117,9 +117,10 @@ export default {
   cursor: pointer;
   a {
     display: inline-block;
-     padding-left: 60px; 
-     width: 200px;
-     height: 50px;
+    text-align: center;
+    margin-left: -10px;
+    width: 200px;
+    height: 50px;
     color: white;
   }
 }
