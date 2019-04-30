@@ -81,6 +81,10 @@ export default {
     .card-title {
       display: flex;
       display: -webkit-flex;
+      img {
+        margin-top: 3px;
+        height: 12px;
+      }
       .name {
         margin-left: 6px;
         font-size: 14px;

@@ -27,7 +27,7 @@
           class="image"
         ></div>
     </div>
-    {{$t(`features.${tagKey}.tags[${index}]`)}}
+    {{ features[tagKey].tags[index] }}
   </div>
 </template>
 <script>
@@ -64,7 +64,85 @@ const iconMap = {
 
 export default {
   data() {
-    return { iconMap };
+    return { 
+      iconMap,
+      features_zh: {
+        'performance': {
+          'tags': [
+            'DAG账本',
+            '异步架构'
+          ]
+        },
+        'safety': {
+          'tags': [
+            '多代币模型',
+            '快照链'
+          ]
+        },
+        'economical': {
+          'tags': [
+            '配额模型',
+            '无手续费',
+            '内置 DEX'
+          ]
+        },
+        'easyusing': {
+          'tags': [
+            'Solidity++',
+            '命名服务',
+            '合约调度',
+            '合约升级'
+          ]
+        },
+        'flexable': {
+          'tags': [
+            '跨链',
+            'HDPoS共识',
+            '智能合约'
+          ]
+        }
+      },
+      features_en: {
+        'performance': {
+          'tags': [
+            'DAG Ledger',
+            'Asynchronous Architecture'
+          ]
+        },
+        'safety': {
+          'tags': [
+            'Multi-Token Model',
+            'Snapshot Chain'
+          ]
+        },
+        'economical': {
+          'tags': [
+            'Quota-Based Model',
+            'Feeless Transactions',
+            'Built-in DEX'
+          ]
+        },
+        'easyusing': {
+          'tags': [
+            'Solidity++',
+            'Naming Services',
+            'Contract Scheduling',
+            'Contract Upgrades'
+          ]
+        },
+        'flexable': {
+          'tags': [
+            'Cross-Chain Gateway',
+            'HDPoS Consensus',
+            'Smart Contracts'
+          ]
+        }
+      }, };
+  },
+  computed: {
+    features() {
+      return this.$i18n.locale === 'zh' ? this.features_zh : this.features_en;
+    }
   },
   props: {
     tagKey: { type: String, required: true },

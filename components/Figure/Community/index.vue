@@ -224,7 +224,7 @@ export default {
         },
         {
           key: 11,
-          img: require('~/assets/images/community/Indonesia.svg'),
+          img: require('~/assets/images/community/spain.jpg'),
           picture: require('~/assets/images/community/erik.jpg'),
           cname: 'Spain',
           name: 'Erik Siria',

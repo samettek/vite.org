@@ -6,7 +6,7 @@
         <div class="arc-wrapper">
           <div class="arc-inner">
             <img :src="iconMap['performance']">
-            <div>{{$t('features.performance.title')}}</div>
+            <div>{{ features.performance.title }}</div>
           </div>
           <tag
             :tagKey="'performance'"
@@ -39,7 +39,7 @@
         <div class="arc-wrapper" style="margin-top: 30px;">
           <div class="arc-inner">
             <img :src="iconMap['safety']">
-            <div>{{$t('features.safety.title')}}</div>
+            <div>{{ features.safety.title }}</div>
           </div>
           <tag
             :tagKey="'safety'"
@@ -72,7 +72,7 @@
         <div class="arc-wrapper" style="margin-top: 61px;">
           <div class="arc-inner">
             <img :src="iconMap['economical']">
-            <div>{{$t('features.economical.title')}}</div>
+            <div>{{ features.economical.title }}</div>
           </div>
           <tag
             :tagKey="'economical'"
@@ -118,25 +118,25 @@
         <div class="arc-wrapper" style="margin-top: 33px;">
           <div class="arc-inner">
             <img :src="iconMap['flexable']">
-            <div>{{$t('features.flexable.title')}}</div>
+            <div>{{ features.flexable.title }}</div>
           </div>
           <tag
             :tagKey="'flexable'"
-            style="top: -43px;left: -162px;">
+            style="top: -43px;left: -172px;">
           </tag>
           <tag
             :tagKey="'flexable'"
             :index='1'
-            style="top: 17px;left: -162px;">
+            style="top: 17px;left: -172px;">
           </tag>
           <tag
             :tagKey="'flexable'"
             :index='2'
-            style="top: 77px;left: -162px;">
+            style="top: 77px;left: -172px;">
           </tag>
           <svg
             class="row-line row-line2"
-            style="top: -21px;left: -50px;">
+            style="top: -21px;left: -37px;">
             <path d="M60 22 l-22 -22">
             </path>
             <path d="M38 0 l -38 0">
@@ -150,7 +150,7 @@
           </svg>
           <svg
             class="row-line row-line2"
-            style="top: 78px;left: -50px;">
+            style="top: 81px;left: -46px;">
             <path d="M60 0 l-22 22">
             </path>
             <path d="M38 22 l -38 0">
@@ -158,34 +158,34 @@
           </svg>
         </div>
 
-        <div class="arc-wrapper" style="margin-top: 122px;">
+        <div class="arc-wrapper" style="margin-top: 120px;">
           <div class="arc-inner">
             <img :src="iconMap['easyusing']">
-            <div>{{$t('features.easyusing.title')}}</div>
+            <div>{{ features.easyusing.title }}</div>
           </div>
           <tag
             :tagKey="'easyusing'"
-            style="top: -75px;left: -162px;">
+            style="top: -73px;left: -172px;">
           </tag>
           <tag
             :tagKey="'easyusing'"
             :index='1'
-            style="top: -15px;left: -162px;">
+            style="top: -13px;left: -172px;">
           </tag>
           <tag
             :tagKey="'easyusing'"
             :index='2'
             :active='true'
-            style="top: 45px;left: -162px;">
+            style="top: 47px;left: -172px;">
           </tag>
           <tag
             :tagKey="'easyusing'"
             :index='3'
-            style="top: 105px;left: -162px;">
+            style="top: 107px;left: -172px;">
           </tag>
           <svg
             class="row-line row-line2"
-            style="top: -55px;left: -50px;">
+            style="top: -55px;left: -46px;">
             <path d="M60 22 l-22 -22">
             </path>
             <path d="M38 0 l -38 0">
@@ -193,7 +193,7 @@
           </svg>
           <svg
             class="row-line"
-            style="top: 5px;left: -50px;">
+            style="top: 5px;left: -46px;">
             <path d="M50 10 l-10 -10">
             </path>
             <path d="M40 0 l -40 0">
@@ -201,7 +201,7 @@
           </svg>
           <svg
             class="row-line"
-            style="top: 61px;left: -50px;">
+            style="top: 63px;left: -46px;">
             <path d="M50 0 l-10 10">
             </path>
             <path d="M40 10 l -40 0">
@@ -209,7 +209,7 @@
           </svg>
           <svg
             class="row-line row-line2"
-            style="top: 107px;left: -50px;">
+            style="top: 107px;left: -44px;">
             <path d="M60 0 l-22 22">
             </path>
             <path d="M38 22 l -38 0">
@@ -227,8 +227,47 @@ export default {
   components: {
     tag
   },
+  computed: {
+    features() {
+      return this.$i18n.locale === 'zh' ? this.features_zh : this.features_en;
+    }
+  },
   data() {
     return {
+      features_zh: {
+        'performance': {
+          'title': '高性能',
+        },
+        'safety': {
+          'title': '安全',
+        },
+        'economical': {
+          'title': '经济',
+        },
+        'easyusing': {
+          'title': '易用',
+        },
+        'flexable': {
+          'title': '可扩展',
+        }
+      },
+      features_en: {
+        'performance': {
+          'title': 'High Performance',
+        },
+        'safety': {
+          'title': 'Security',
+        },
+        'economical': {
+          'title': 'Powerful Economic Model',
+        },
+        'easyusing': {
+          'title': 'Usability',
+        },
+        'flexable': {
+          'title': 'Scalability',
+        }
+      },
       iconMap: {
         easyusing: require('~/assets/images/feature/easyusing.svg'),
         performance: require('~/assets/images/feature/performance.svg'),
@@ -253,7 +292,7 @@ export default {
 
 .feature_wrapper {
   height: 450px;
-  padding: 25px;
+  padding: 25px 0;
   @media only screen and (min-width: 320px) and (max-width: 767px)  {
     height: 100%;
     flex-direction: column;
@@ -265,7 +304,7 @@ export default {
     }
   }
   .feature-right {
-    margin-left: 400px;
+    margin-left: 420px;
     @media only screen and (min-width: 320px) and (max-width: 767px) {
       margin-top: 60px;
       margin-left: 155px;
