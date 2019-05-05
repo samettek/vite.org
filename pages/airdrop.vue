@@ -254,7 +254,7 @@ export default {
     .pop-btn {
       box-shadow: 0 10px 40px 0 rgba(126, 183, 238, 0.83);
       display: inline-block;
-      width: 220px;
+      width: 140px;
       height: 60px;
       line-height: 60px;
       color: white;
@@ -264,7 +264,7 @@ export default {
       }
     }
     .pop-btn-android {
-      width: 240px;
+      width: 140px;
     }
 
     @include touch {

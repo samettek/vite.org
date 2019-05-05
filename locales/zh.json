@@ -1441,18 +1441,18 @@
         }
     },
     "airdrop": {
-        "title1": "下载 Vite App 参与空投",
-        "text1": "请前往App Store 或 Google Play下载 Vite App",
+        "title1": "下载 Vite Wallet 参与空投",
+        "text1": "请前往App Store 或 Google Play下载 Vite Wallet",
         "text2": "做任务提升V Power加速领VITE，最高V Power可每4小时领取一次",
         "title2": "不止是空投 Vite带你躺赢2019",
         "step": "躺赢两步走：",
-        "step1": "下载Vite App领空投",
-        "step2": "使用App投票SBP",
+        "step1": "下载Vite Wallet领空投",
+        "step2": "投票官方超级节点",
         "step3f": "每天瓜分 ",
         "step3e": " 奖励",
         "annual": "年化收益高达",
-        "btnIos": "下载 Vite iOS App",
-        "btnAndroid": "下载 Vite Android App",
+        "btnIos": "iOS",
+        "btnAndroid": "Android",
         "btn2": "查看投票奖励"
     }
 }
