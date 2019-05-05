@@ -212,19 +212,6 @@ export default {
   data: function () {
     let { urls } = config;
     return {
-      navNodeList: [{
-        type: 'inner',
-        name: 'nodeList',
-        to: 'nodeList'
-      }, {
-        type: 'inner',
-        name: 'superNodes',
-        to: 'superNodes'
-      }, {
-        type: 'outer',
-        name: 'notice.apply',
-        to: urls.vote.apply[this.$i18n.locale]
-      }],
       navExchangeList: [{
         type: 'outer',
         name: 'okex',
@@ -238,15 +225,6 @@ export default {
         name: 'upbit',
         to: urls.exchange.upbit
       }],
-      navMoreList: [{
-        type: 'outer',
-        name: 'explorer',
-        to: 'https://explorer.vite.net'
-      }, {
-        type: 'outer',
-        name: 'store',
-        to: this.$i18n.locale === 'zh' ? 'https://vite.store/' : 'https://global.vite.store'
-      }],
       urls,
       aboutList: ['tokenUrl'],
       learnList: ['whitePaper', 'document', 'introduction'],
@@ -254,6 +232,34 @@ export default {
       urlShouldTranslate: ['whitePaper', 'telegram', 'introduction'],
       navs: ['team', 'community']
     };
+  },
+  computed: {
+    navNodeList() {
+      return [{
+        type: 'inner',
+        name: 'nodeList',
+        to: 'nodeList'
+      }, {
+        type: 'inner',
+        name: 'superNodes',
+        to: 'superNodes'
+      }, {
+        type: 'outer',
+        name: 'notice.apply',
+        to: this.urls.vote.apply[this.$i18n.locale]
+      }];
+    },
+    navMoreList() {
+      return [{
+        type: 'outer',
+        name: 'explorer',
+        to: this.urls.explorer[this.$i18n.locale]
+      }, {
+        type: 'outer',
+        name: 'store',
+        to: this.urls.vitestore[this.$i18n.locale]
+      }];
+    } 
   },
   methods: {
     getUrl (item) {

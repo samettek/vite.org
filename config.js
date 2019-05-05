@@ -7,6 +7,12 @@ module.exports = {
       ru: 'https://vite.net',
       vi: 'https://vite.net'
     },
+    vitestore: {
+      zh: 'https://vite.store/',
+      en: 'https://global.vite.store',
+      ru: 'https://global.vite.store',
+      vi: 'https://global.vite.store'
+    },
     explorer: {
       zh: 'https://explorer.vite.net/zh',
       en: 'https://explorer.vite.net',

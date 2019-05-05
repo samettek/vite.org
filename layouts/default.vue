@@ -291,15 +291,6 @@ export default {
         to: 'medium',
         anchor: 'news'
       }],
-      navGuideList: [{
-        type: 'outer',
-        name: 'tutorial',
-        to: 'https://vite.wiki/tutorial/start/'
-      }, {
-        type: 'inner',
-        name: 'faq',
-        to: 'faq'
-      }],
       navbarActive: false,
       navs: ['airdrop'],
       collapsing: false,
@@ -315,6 +306,18 @@ export default {
     }
   },
   computed: {
+    navGuideList() {
+      let tutoriallink = this.$i18n.locale === 'zh' ? 'https://vite.wiki/zh/tutorial/start/' : 'https://vite.wiki/tutorial/start/';
+      return [{
+        type: 'outer',
+        name: 'tutorial',
+        to: tutoriallink
+      }, {
+        type: 'inner',
+        name: 'faq',
+        to: 'faq'
+      }];
+    },
     routeName () {
       if (!this.$route || !this.$route.name) return 'index';
       return this.$route.name.split('-')[0];
