@@ -1,12 +1,5 @@
 <template>
   <div>
-    <div class="airdrop__fiexd is-hidden-mobile">
-      <nuxt-link
-        :to="localePath('airdrop')"
-        class="text-hover-transition">
-        {{$t('home.jionAirdrop')}}
-      </nuxt-link>
-    </div>
     <section class="hero home">
       <div class="hero-body">
         <div class="container is-flex topinfo">
@@ -99,31 +92,7 @@ export default {
 
 <style lang="scss" scoped>
 @import "assets/vars.scss";
-.airdrop__fiexd {
-  position: fixed;
-  right: 40px;
-  bottom: 40px;
-  z-index: 999;
-  background-image: url("~assets/images/airdrop.svg");
-  background-size: cover;
-  width: 200px;
-  height: 50px;
-  font-size:16px;
-  font-family:PingFangSC-Semibold;
-  font-weight:600;
-  box-sizing: border-box;
-  
-  line-height:50px;
-  cursor: pointer;
-  a {
-    display: inline-block;
-    text-align: center;
-    margin-left: -10px;
-    width: 200px;
-    height: 50px;
-    color: white;
-  }
-}
+
 .wallet-app-container {
   display: flex;
   display: -webkit-flex;

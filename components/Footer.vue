@@ -271,7 +271,7 @@ export default {
 
 .footer {
   min-height: 315px;
-  background: url("~assets/images/footer/footer.svg") 100% no-repeat;
+  background: url("~assets/images/footer/footer.svg") 87% no-repeat;
   // background-size: cover;
   z-index: 3;
   padding: 0;
@@ -347,7 +347,7 @@ export default {
       padding: 0.5rem 10px;
       color: $common-text-color;
       font-family: $font-family-light;
-      max-width: 131px;
+      max-width: 128px;
       @include touch {
         display: block;
         padding: 0.5rem 10px;
