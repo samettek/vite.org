@@ -10,7 +10,7 @@
         <div class="is-flex dialog__img" style="justify-content: center;">
           <img src="~/assets/images/airdrop/dialog.svg"/>
         </div>
-        <div style="margin-top: 23px;">{{$t('home.jionAirdrop')}}</div>
+        <!-- <div style="margin-top: 23px;">{{$t('home.jionAirdrop')}}</div> -->
         <span slot="footer">
           <div @click="dialogVisible = false" >
             <nuxt-link
