@@ -28,9 +28,21 @@ export default {
     let res = await this.$axios.$get(url);
     let resAcLen = res.tags[1].list.length;
     if (resAcLen < 3) {
-      this.activitys = res || [];
+      this.activitys = res.tags[1].list || [];
     } else {
-      this.activitys = res.tags[1].list.slice(resAcLen - 3, resAcLen) || [];
+      this.activitys = res.tags[1].list.slice(0, 3) || [];
+    }
+  },
+  watch: {
+    '$i18n.locale': async function(val) {
+      let url = val === 'zh' ? '/discover_zh.json' : '/discover_en.json';
+      let res = await this.$axios.$get(url);
+      let resAcLen = res.tags[1].list.length;
+      if (resAcLen < 3) {
+        this.activitys = res.tags[1].list || [];
+      } else {
+        this.activitys = res.tags[1].list.slice(0, 3) || [];
+      }
     }
   },
   computed: {

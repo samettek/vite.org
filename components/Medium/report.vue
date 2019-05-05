@@ -20,6 +20,14 @@ export default {
     this.resAcLen = res.length;
     this.reports = res || [];
   },
+  watch: {
+    '$i18n.locale': async function(val) {
+      let url = val === 'zh' ? '/report_zh.json' : '/report_en.json';
+      let res = await this.$axios.$get(url) || [];
+      this.resAcLen = res.length;
+      this.reports = res || [];
+    }
+  },
   computed: {
     list() {
       return this.reports.map(item=> {

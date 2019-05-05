@@ -16,9 +16,9 @@
           <iframe frameborder="0" class="iframe" src="https://v.qq.com/txp/iframe/player.html?vid=i08541rsi3e" allowFullScreen="true"></iframe>
         </div>
         <div class="is-flex youtube__vedio" v-else>
+          <iframe class="iframe" src="https://www.youtube.com/embed/bXiGDTr0-wI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <iframe class="iframe" src="https://www.youtube.com/embed/-f_CiqfjGJU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <iframe class="iframe" src="https://www.youtube.com/embed/FRvdP_KcNRk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe class="iframe" src="https://www.youtube.com/embed/BZI8jMsP-9I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         
       </div>

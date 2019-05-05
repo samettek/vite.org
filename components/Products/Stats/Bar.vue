@@ -78,7 +78,7 @@ export default {
         series: [{
           type: 'bar',
           data: this.list.map(item => {
-            return Math.round(item.item);
+            return Math.round(item.count);
           }),
           animation: false,
           barWidth: '50%',

@@ -21,6 +21,17 @@ export default {
    
     this.dynamics = res.tags[2].list.concat(resReport) || [];
   },
+  watch: {
+    '$i18n.locale': async function(val) {
+      let url = val === 'zh' ? '/discover_zh.json' : '/discover_en.json';
+      let reportUrl = val === 'zh' ? '/report_zh.json' : '/report_en.json';
+      let res = await this.$axios.$get(url);
+      let resReport = await this.$axios.$get(reportUrl);
+      this.resAcLen = res.tags[2].list.length + resReport.length;
+   
+      this.dynamics = res.tags[2].list.concat(resReport) || [];
+    }
+  },
   computed: {
     list() {
       return this.dynamics.map(item=> {

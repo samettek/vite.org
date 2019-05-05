@@ -92,6 +92,7 @@
 
     }
     .three-column__title {
+      text-align: left;
       position: absolute;
       top: 24px;
       left: 24px;
