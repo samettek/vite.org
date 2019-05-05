@@ -62,6 +62,9 @@
 
 .three-column {
   margin-top: 36px; 
+  img {
+    max-width: none;
+  }
   @include mobile {
     justify-content: center;
     align-items: center;
@@ -71,7 +74,7 @@
     justify-content: space-between;
     @include mobile {
       flex-direction: column;
-      width: 320px;
+      // width: 320px;
       max-height: 750px;
       overflow-y: scroll;
     }
@@ -88,7 +91,7 @@
     justify-content: center;
     .three-column__content {
       position: relative;
-      width: 320px;
+      // width: 320px;
 
     }
     .three-column__title {
@@ -96,6 +99,7 @@
       position: absolute;
       top: 24px;
       left: 24px;
+      right: 24px;
       font-size:15px;
       font-family:PingFangSC-Semibold;
       font-weight:600;

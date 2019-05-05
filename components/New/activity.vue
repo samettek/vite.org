@@ -2,9 +2,9 @@
   <div id="activity">
     <h1 class="is-border-box">{{ $t('New.activity.title') }}</h1>
     <div class="pic">
-      <three-column :list="list"></three-column>
+      <three-column :list="list" :img-size="imgSize"></three-column>
     </div>
-    <div>
+    <div style="font-weight: 600">
       <a 
         :href="$i18n.locale === 'zh' ? 
         'https://forum.vite.net/category/21/%E6%B4%BB%E5%8A%A8%E4%B8%93%E5%8C%BA' : 
@@ -58,6 +58,10 @@ export default {
   },
   data() {
     return {
+      imgSize: {
+        width: '330px',
+        height: '162px'
+      },
       activitys: []
     };
   }

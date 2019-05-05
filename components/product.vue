@@ -14,6 +14,7 @@
               <div class="desc__title">{{ $t(`product.${item.key}.title`) }}</div>
               <div class="desc__subtitle">{{ $t(`product.${item.key}.subtitle`) }}</div>
               <a 
+                style="font-weight: 600"
                 v-if="item.url"
                 :href="item.url"
                 target="_blank"> 

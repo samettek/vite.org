@@ -67,10 +67,10 @@ export default {
   computed: {
     list() {
       if (this.type === 'completed') {
-        return this.previousOpen ? this.timeLines : this.timeLines.slice(7);
+        return this.previousOpen ? this.timeLines : this.timeLines.slice(8);
       }
       if (this.type === 'nextStep') {
-        return this.nextOpen ? this.timeLines : this.timeLines.slice(0, 2);
+        return this.nextOpen ? this.timeLines : this.timeLines.slice(0, 1);
       }
       return this.timeLines;
     }
