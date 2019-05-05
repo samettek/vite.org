@@ -57,28 +57,28 @@ export default {
       let yAxis = Object.assign({
         show: this.showAxis,
         axisLabel : { 
-          formatter : '{value}%' 
+          formatter : '{value}' 
         },
         splitLine:{ 
           show:false 
         }
       });
       this.echarsInstance.setOption({
-        xAxis:  {
+        xAxis:  yAxis,
+        yAxis: {
           show: this.showAxis,
           type: 'category',
           data: this.list.map(item => {
-            return item.count;
+            return item.item + '%';
           }) 
         },
-        yAxis: yAxis,
         tooltip: {
           trigger: 'item'
         },
         series: [{
           type: 'bar',
           data: this.list.map(item => {
-            return Math.round(item.count);
+            return item.count;
           }),
           animation: false,
           barWidth: '50%',
