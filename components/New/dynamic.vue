@@ -16,20 +16,22 @@ export default {
     let url = this.$i18n.locale === 'zh' ? '/discover_zh.json' : '/discover_en.json';
     let reportUrl = this.$i18n.locale === 'zh' ? '/report_zh.json' : '/report_en.json';
     let res = await this.$axios.$get(url);
+    res = res.tags[2].list.filter(item => item.source === 1);
     let resReport = await this.$axios.$get(reportUrl);
-    this.resAcLen = res.tags[2].list.length + resReport.length;
+    this.resAcLen = res.length + resReport.length;
    
-    this.dynamics = res.tags[2].list.concat(resReport) || [];
+    this.dynamics = res.concat(resReport) || [];
   },
   watch: {
     '$i18n.locale': async function(val) {
       let url = val === 'zh' ? '/discover_zh.json' : '/discover_en.json';
       let reportUrl = val === 'zh' ? '/report_zh.json' : '/report_en.json';
       let res = await this.$axios.$get(url);
+      res = res.tags[2].list.filter(item => item.source === 1);
       let resReport = await this.$axios.$get(reportUrl);
-      this.resAcLen = res.tags[2].list.length + resReport.length;
+      this.resAcLen = res.length + resReport.length;
    
-      this.dynamics = res.tags[2].list.concat(resReport) || [];
+      this.dynamics = res.concat(resReport) || [];
     }
   },
   computed: {

@@ -30,16 +30,20 @@ export default {
   },
   computed: {
     list() {
-      return this.reports.map(item=> {
-        let time = new Date(item.createTime * 1000);
-        return {
-          img: item.bannerUrl,
-          desc: item.desc,
-          skipUrl: item.skipUrl,
-          date: time.toLocaleDateString(),
-          from: item.from
-        };
-      });
+      if (this.resAcLen && this.reports) {
+        return this.reports.map(item=> {
+          let time = new Date(item.createTime * 1000);
+          return {
+            img: item.bannerUrl,
+            desc: item.desc,
+            skipUrl: item.skipUrl,
+            date: time.toLocaleDateString(),
+            from: item.from
+          };
+        });
+      } else {
+        return [];
+      }
     }
   },
   data() {
