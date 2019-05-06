@@ -11,12 +11,12 @@
             <div class="three-column__content">
               <div class="three-column__title" v-if="item.title">{{ item.title }}</div>
               <img :src="item.img" :style="imgSize"/>
+              <div class="date" v-if="item.date">{{ item.date }}</div>
+              <div class="desc" v-if="item.desc">{{ item.desc }}</div>
+              <div class="copyright" v-if="item.from">@ {{ item.from }}</div>
             </div>
           </a>
         </div>
-        <div class="date" v-if="item.date">{{ item.date }}</div>
-        <div class="desc" v-if="item.desc">{{ item.desc }}</div>
-        <div class="copyright" v-if="item.from">@ {{ item.from }}</div>
       </div>
     </div>
   </div>
@@ -74,7 +74,7 @@
     justify-content: space-between;
     @include mobile {
       flex-direction: column;
-      // width: 320px;
+      width: 320px;
       max-height: 750px;
       overflow-y: scroll;
     }
