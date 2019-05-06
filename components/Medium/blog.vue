@@ -45,7 +45,7 @@ export default {
   box-shadow:0px 0px 20px 0px rgba(211,234,255,1);
   .blog__card-title {
     font-size:24px;
-    font-family:PingFangSC-Semibold;
+    font-family:$font-family-title;
     font-weight:600;
     color:rgba(23,28,52,1);
     line-height:28px;
@@ -53,7 +53,7 @@ export default {
   .blog__card-desc {
     margin-top: 26px;
     font-size:14px;
-    font-family:PingFang-SC-Regular;
+    font-family:$font-family-light;
     font-weight:400;
     color:rgba(23,28,52,1);
     line-height:20px;

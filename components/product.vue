@@ -93,7 +93,7 @@ section {
     text-align: center;
     .desc__title {
       font-size:24px;
-      font-family:PingFangSC-Semibold;
+      font-family:$font-family-title;
       font-weight:600;
       color:rgba(23,28,52,1);
       line-height:28px;
@@ -102,7 +102,7 @@ section {
     .desc__subtitle {
       margin-bottom: 12px;
       font-size:14px;
-      font-family:PingFangSC-Semibold;
+      font-family:$font-family-title;
       font-weight:600;
       color:rgba(145,154,163,1);
       line-height:18px;

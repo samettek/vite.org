@@ -121,9 +121,10 @@
       "title": "High-Performance Decentralized Platform",
       "explorer": "Check Vite Public Chain on Block Explorer",
       "supernode": {
-        "title": "Vite SBPs' block creation ratio reaches",
-        "count": "Block Creation Ratio"
-      },
+        "title": "出快率超95%的超级节点达",
+        "title1": "个",
+        "count": "超级节点个数"
+    },
       "fullnode": {
         "title": "Vite Full Nodes within 5 months have reach",
         "nodeName": "Node Name"

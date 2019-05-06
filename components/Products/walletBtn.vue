@@ -158,7 +158,7 @@ export default {
   color:$common-active-color;
   line-height:26px;
   font-size:16px;
-  font-family:PingFangSC-Semibold;
+  font-family:$font-family-title;
   font-weight:600;
   margin-right: 10px;
   cursor: pointer;

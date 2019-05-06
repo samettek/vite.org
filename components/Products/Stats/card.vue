@@ -6,7 +6,8 @@
           <img :src="info.img"/>
           <div class="title-content__title">
             {{ info.title }} 
-            <span style=" font-family:PingFangSC-Semibold">{{ info.titleData }}</span>
+            <span class="title-content__title-num">{{ info.titleData }}</span>
+            <span v-if="info.title1">{{ info.title1 }} </span>
           </div>
         </div>
       </div>
@@ -68,6 +69,9 @@
         .title-content__title {
           margin-left: 12px; 
           line-height: 36px;
+          .title-content__title-num {
+            font-family:$font-family-title;
+          }
         }   
       } 
     }
@@ -80,7 +84,7 @@
     .right-title {
       cursor: pointer;
       font-size:12px;
-      font-family:PingFangSC-Semibold;
+      font-family:$font-family-title;
       font-weight:600;
       line-height: 60px;
       padding-right: 31px;

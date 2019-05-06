@@ -111,7 +111,7 @@ export default {
     justify-content: space-between;
     overflow-x: scroll;
     font-size:14px;
-    font-family:PingFangSC-Regular;
+    font-family: $font-family-light;
     font-weight:400;
     color:rgba(145,154,163,1);
     line-height:18px;

@@ -21,7 +21,7 @@ export default {
 
 .common__card-title {
     font-size:24px;
-    font-family:PingFang-SC-Bold;
+    font-family:$font-family-title;
     font-weight:bold;
     color:rgba(23,28,52,1);
     line-height:28px;

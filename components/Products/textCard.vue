@@ -68,7 +68,7 @@ export default {
 <style rel="stylesheet/scss" lang="scss" scoped>
 @import "~assets/vars";
 .text-card {
-  font-family:PingFangSC-Semibold;
+  font-family:$font-family-title;
   .text__card-content {
     font-size:14px;
     font-weight:600;

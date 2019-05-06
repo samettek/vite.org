@@ -101,7 +101,7 @@
       left: 24px;
       right: 24px;
       font-size:15px;
-      font-family:PingFangSC-Semibold;
+      font-family:$font-family-title;
       font-weight:600;
       color:rgba(255,255,255,1);
       line-height:20px;
@@ -110,7 +110,7 @@
   
   .date {
     font-size:13px;
-    font-family:PingFangSC-Semibold;
+    font-family:$font-family-title;
     font-weight:600;
     color:rgba(145,154,163,1);
     line-height:16px;
@@ -119,7 +119,7 @@
   }
   .desc {
     font-size:14px;
-    font-family:PingFangSC-Semibold;
+    font-family:$font-family-title;
     font-weight:600;
     color:rgba(23,28,52,1);
     line-height:18px;
@@ -129,7 +129,7 @@
   .copyright {
     margin-top: 8px;
     font-size:13px;
-    font-family:PingFang-SC-Regular;
+    font-family:$font-family-light;
     font-weight:400;
     color:rgba(23,28,52,1);
     line-height:16px;
