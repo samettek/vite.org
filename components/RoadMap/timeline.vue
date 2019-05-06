@@ -111,7 +111,7 @@ $timelineCommonColor: #919AA3;
   .special-item {
     cursor: pointer;
     font-size:16px;
-    font-family:Poppins-SemiBold;
+    font-family:$font-family-title;
     font-weight:600;
     color:rgba(145,154,163,1);
     line-height:20px;
@@ -121,13 +121,13 @@ $timelineCommonColor: #919AA3;
     margin-left: calc(100% + 30px);
     width: 100%;
     font-size:20px;
-    font-family:PingFang-SC-Regular;
+    font-family:$font-family-light;
     font-weight:400;
     color:rgba(145,154,163,1);
     line-height:28px;
     &.in-progress {
       font-size:24px;
-      font-family:PingFangSC-Semibold;
+      font-family:$font-family-title;
       font-weight:600;
       color:rgba(23,28,52,1);
     }
@@ -212,7 +212,7 @@ $timelineCommonColor: #919AA3;
           letter-spacing: 0.23px;
           text-align: right;
           font-size:16px;
-          font-family:Poppins-SemiBold;
+          font-family:$font-family-title;
           font-weight:600;
           line-height:24px;
         }

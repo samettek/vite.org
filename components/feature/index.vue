@@ -325,7 +325,7 @@ export default {
       background: rgba(237, 246, 255, 1);
       text-align:center;
       font-size:12px;
-      font-family:PingFangSC-Semibold;
+      font-family:$font-family-title;
       font-weight:600;
       color:rgba(27,67,102,1);
       line-height:16px;

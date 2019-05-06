@@ -113,7 +113,7 @@ export default {
     .dialog__body {
       padding: 24px 20px;
       font-size:19px;
-      font-family:PingFang-SC-Bold;
+      font-family:$font-family-title;
       font-weight:bold;
       color:rgba(104,104,104,1);
       line-height:26px;

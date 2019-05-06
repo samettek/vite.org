@@ -122,9 +122,10 @@
       "title": "High-Performance Decentralized Platform",
       "explorer": "Check Vite Public Chain on Block Explorer",
       "supernode": {
-        "title": "Vite's SBP number reaches",
+        "title": "SBP number of which block creation ratio is over 95% reaches",
+        "title1": "",
         "count": "SBP Number"
-      },
+    },
       "fullnode": {
         "title": "Vite Full Nodes have reached",
         "nodeName": "Node Name"

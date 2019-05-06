@@ -3,7 +3,7 @@
     class="public"
     :class="`is-${routeName}-public`"
   >
-    <div class="airdrop__fiexd">
+    <div class="airdrop__fiexd" v-if="routeName !== 'airdrop'">
       <nuxt-link
         :to="localePath('airdrop')"
         class="text-hover-transition">
@@ -387,7 +387,7 @@ export default {
   width: 200px;
   height: 50px;
   font-size:16px;
-  font-family:PingFangSC-Semibold;
+  font-family:$font-family-title;
   font-weight:600;
   box-sizing: border-box;
   
@@ -413,7 +413,7 @@ export default {
   height:50px;
   line-height: 50px;
   font-size:16px;
-  font-family:PingFangSC-Semibold;
+  font-family:$font-family-title;
   font-weight:600;
   color: white;
   background:rgba(0,122,255,1);

@@ -54,7 +54,7 @@ export default {
     padding: 0 0 0 0;
     // font-family: $font-family-light;
     font-size:14px;
-    font-family:PingFangSC-Semibold;
+    font-family:$font-family-title;
     font-weight:600;
     color:rgba(255,255,255,1);
     line-height:20px;

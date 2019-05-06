@@ -2,9 +2,9 @@
 @import "~bulma/sass/utilities/mixins";
 
 
-$font-family-light: PingFangSC-Regular,Arial,Sans-serif;
-$font-family-main: PingFangSC-Medium,Arial,Sans-serif;
-$font-family-title: PingFangSC-Semibold, Arial, Sans-serif;
+$font-family-light: Arial,PingFangSC-Regular, Sans-serif;
+$font-family-main: Arial, PingFangSC-Medium, Sans-serif;
+$font-family-title: Arial Bold, PingFangSC-Semibold, Sans-serif;
 
 // bulma
 $family-serif: $font-family-light;

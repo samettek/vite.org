@@ -11,12 +11,12 @@
             <div class="three-column__content">
               <div class="three-column__title" v-if="item.title">{{ item.title }}</div>
               <img :src="item.img" :style="imgSize"/>
+              <div class="date" v-if="item.date">{{ item.date }}</div>
+              <div class="desc" v-if="item.desc">{{ item.desc }}</div>
+              <div class="copyright" v-if="item.from">@ {{ item.from }}</div>
             </div>
           </a>
         </div>
-        <div class="date" v-if="item.date">{{ item.date }}</div>
-        <div class="desc" v-if="item.desc">{{ item.desc }}</div>
-        <div class="copyright" v-if="item.from">@ {{ item.from }}</div>
       </div>
     </div>
   </div>
@@ -74,7 +74,7 @@
     justify-content: space-between;
     @include mobile {
       flex-direction: column;
-      // width: 320px;
+      width: 320px;
       max-height: 750px;
       overflow-y: scroll;
     }
@@ -101,7 +101,7 @@
       left: 24px;
       right: 24px;
       font-size:15px;
-      font-family:PingFangSC-Semibold;
+      font-family:$font-family-title;
       font-weight:600;
       color:rgba(255,255,255,1);
       line-height:20px;
@@ -110,7 +110,7 @@
   
   .date {
     font-size:13px;
-    font-family:PingFangSC-Semibold;
+    font-family:$font-family-title;
     font-weight:600;
     color:rgba(145,154,163,1);
     line-height:16px;
@@ -119,7 +119,7 @@
   }
   .desc {
     font-size:14px;
-    font-family:PingFangSC-Semibold;
+    font-family:$font-family-title;
     font-weight:600;
     color:rgba(23,28,52,1);
     line-height:18px;
@@ -129,7 +129,7 @@
   .copyright {
     margin-top: 8px;
     font-size:13px;
-    font-family:PingFang-SC-Regular;
+    font-family:$font-family-light;
     font-weight:400;
     color:rgba(23,28,52,1);
     line-height:16px;
