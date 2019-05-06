@@ -90,7 +90,12 @@ section {
     }
   }
   .is-info {
+    width: 450px;
     text-align: center;
+     @include mobile {
+      width: 335px;
+      height: 100%;
+    }
     .desc__title {
       font-size:24px;
       font-family:$font-family-title;
