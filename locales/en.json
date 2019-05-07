@@ -29,7 +29,7 @@
     "pay": "Payment",
     "person": "People",
     "team": "Team",
-    "counselor": "Advisor",
+    "counselor": "Advisors",
     "global": "Global Community Managers",
     "investor": "Investors",
     "community": "Community",
@@ -67,7 +67,7 @@
     "explorer": "Explorer",
     "webWallet": "Web Wallet",
     "wallet": {
-      "name": "Vite App",
+      "name": "Vite Wallet",
       "en": "Outside China Mainland",
       "zh": "China Mainland"
     },
@@ -122,12 +122,12 @@
       "title": "High-Performance Decentralized Platform",
       "explorer": "Check Vite Public Chain on Block Explorer",
       "supernode": {
-        "title": "SBP number of which block creation ratio is over 95% reaches",
+        "title": "SBP number reaches",
         "title1": "",
         "count": "SBP Number"
     },
       "fullnode": {
-        "title": "Vite Full Nodes have reached",
+        "title": "Vite full nodes reach",
         "nodeName": "Node Name"
       },
       "textList": [
@@ -1206,12 +1206,6 @@
           ]
         },
         {
-          "question": "Will my VITE be affected in other wallets without transferring to the Vite wallet?",
-          "answer": [
-            "There is no affect. It's just you can't participate in the SBP voting to earn extra VITE."
-          ]
-        },
-        {
           "question": "Token inflation (mining rewards) and consumption will be dynamically balanced under the premise of a total of 1 billion tokens?",
           "answer": "The amount of one billion tokens demonstrates initial circulation. Mining rewards are generated from additional token issuance: the inflation. As the system becomes widely used, tokens will continue to be burned. We hope that the circulation of tokens will attain the dynamic balance needed."
         },
@@ -1309,7 +1303,7 @@
           "question": "How to solve the problem of one success with one failure in the asynchronous processing? Is there a transaction processing rollback mechanism?",
           "answer": [
             "Vite is based on the block-lattice ledge structure. Under such a structure, it is impossible to make one success and one failure transaction. What can happen is one success with an unconfirmation by the “recipient”. So there will be no rollback.",
-            "A transaction is not 'confirmed' by the system is because a recorded transaction is to be confirmed. The recipient's private key is required to be signed and broadcast, and if the recipient has not confirmed (using the private key to sign and broadcast the block), In the so-called 'failure' or 'pending' state."
+            "A transaction is not 'confirmed' by the system is because a recorded transaction is to be confirmed. The recipient's private key is required to be signed and broadcast, and if the recipient has not confirmed (using the private key to sign and broadcast the block), In the 'pending' state."
           ]
         },
         {
@@ -1468,13 +1462,13 @@
     }
   },
   "airdrop": {
-    "title1": "Download Vite App and Participate in Airdrop",
+    "title1": "Download Vite Wallet and Participate in Airdrop",
     "text1": "Please download and install Vite Wallet on App Store or Google Play.",
     "text2": "Complete tasks to raise your V Power to speed up receiving VITE, you can pick up V Power every 4 hours at most",
     "title2": "Not just an airdrop, VITE is bringing you a prosperous 2019",
     "step": "Two More Steps to Become a Big Winner: ",
-    "step1": "Download Vite App and Receive Vite Airdrop",
-    "step2": "Vote for SBPs in Vite App",
+    "step1": "Download Vite Wallet and Receive Vite Airdrop",
+    "step2": "Vote for SBPs in Vite Wallet",
     "step3f": "Over",
     "step3e": "Will be Distributed Everyday",
     "annual": "Annual Return Rate Achieves ",
