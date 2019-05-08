@@ -75,14 +75,12 @@ export default {
 section {
   img {
     width: 600px;
-    height: 416px;
+    margin-top: -50px;
     @include touch {
       width: 500px;
-      height: 316px;
     }
     @include mobile {
       width: 350px;
-      height: 216px;
       margin-bottom: 30px;
     }
   }
