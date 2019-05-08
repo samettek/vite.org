@@ -29,7 +29,8 @@
     "pay": "Payment",
     "person": "People",
     "team": "Team",
-    "counselor": "Advisor",
+    "counselor": "Advisors",
+    "global": "Global Community Managers",
     "investor": "Investors",
     "community": "Community",
     "superNodes": "Guide for SBP (Snapshot Block Producer)",
@@ -42,7 +43,7 @@
     "medium": "Media & News",
     "video": "Videos",
     "blogs": "Blog",
-    "news": "News",
+    "news": "Latest Press",
     "tokenTransaction": "Trading",
     "okex": "OKEX.COM",
     "bittrex": "BITTREX",
@@ -61,12 +62,12 @@
   },
   "home": {
     "jionAirdrop": "Airdrop Now",
-    "activity1": "Activities",
+    "activity1": "Campaigns",
     "activity2": "News",
     "explorer": "Explorer",
     "webWallet": "Web Wallet",
     "wallet": {
-      "name": "Vite App",
+      "name": "Vite Wallet",
       "en": "Outside China Mainland",
       "zh": "China Mainland"
     },
@@ -76,14 +77,14 @@
     "testnet": "TestNet",
     "acttext": "Get VITE Token Free",
     "actwait": "Stay tuned!",
-    "news": "Latest News",
+    "news": "News",
     "starttoUse": "Get Started with Vite"
   },
   "product": {
     "title": "Products",
     "platform": {
       "title": "High-Performance Decentralized Platform",
-      "subtitle": "Find out more at Vite Wiki",
+      "subtitle": "Find out More at Vite Wiki",
       "link": "Vite Wiki"
     },
     "wallet": {
@@ -108,7 +109,7 @@
   },
   "New": {
     "activity": {
-      "title": "Activities",
+      "title": "Campaigns",
       "more": "View More"
     },
     "dynamic": {
@@ -121,12 +122,12 @@
       "title": "High-Performance Decentralized Platform",
       "explorer": "Check Vite Public Chain on Block Explorer",
       "supernode": {
-        "title": "出块率超95%的超级节点达",
-        "title1": "个",
-        "count": "超级节点个数"
+        "title": "SBP number reaches",
+        "title1": "",
+        "count": "SBP Number"
     },
       "fullnode": {
-        "title": "Vite Full Nodes within 5 months have reach",
+        "title": "Vite full nodes reach",
         "nodeName": "Node Name"
       },
       "textList": [
@@ -705,10 +706,10 @@
   },
   "team": {
     "core": "Team",
-    "manage": "北京管理团队",
-    "siliconValley": "硅谷团队",
-    "tech": "北京团队",
-    "global": "全球社区管理员",
+    "manage": "Beijing Management Team",
+    "siliconValley": "Silicon Valley Team",
+    "tech": "Beijing Team",
+    "global": "Global Community Managers",
     "advisor": "Advisors",
     "join": "Join Us",
     "nameMap": {
@@ -1117,214 +1118,206 @@
   },
   "faq": {
     "title": "Vite Q&A",
-    "common": "一般",
-    "technology": "技术",
+    "common": "Common",
+    "technology": "Tech",
     "questions": {
       "common": [
         {
-          "question": "什么是 Vite？",
+          "question": "What is Vite?",
           "answer": [
-            "Vite 是一个通用的去中心化生态系统，在兼顾安全性的同时，满足了工业级应用对高吞吐、低延迟和扩展性的要求。",
-            "Vite 致力于解决基础链目前的性能和扩展性问题，以便在基础链上能搭建出真正实用且高频的应用。"
+            "Vite is a general-purpose platform for decentralized applications. It is designed to support industrial-strength applications by offering high throughput, low latency and scalability while also providing security.",
+            "The Vite team are dedicated to addressing current performance and scalability issues of infrastructural chains, so that truly practical applications with high-frequency data requirements can be built in a blockchain framework."
           ]
         },
         {
-          "question": "Vite项目团队在哪？一共多少人？",
+          "question": "Where is the Vite team? How many people are there?",
           "answer": [
-            "Vite团队办公室分别在北京和硅谷，团队共计40人，其中开发团队占比二分之一。",
-            "技术开发团队均有一线互联网从业经历，来源主要是百度、腾讯、滴滴、京东、美团的高P，具备较强的技术开发能力。"
+            "The Vite team offices are Silicon Valley, US, and in Beijing China, with a total of over 40 full-time team members, of which over the half are developers.",
+            "The engineering team are from top-tier IT companies, such as Tencent, JD, Baidu, Didi, and Meituan."
           ]
         },
         {
-          "question": "Vite发行了哪些币？分别有什么作用？",
+          "question": "What cryptocurrencies did Vite release? What are the differences?",
           "answer": [
-            "VITE，总量10亿（主网、ERC20代币，可在交易所交易，有投资价值）",
-            "VCP，总量100亿（标准的社区积分，可以在积分商城兑换实物或虚拟商品。只是我们把积分代币化了，放在Vite测试网络上，目的是测试Vite网络的功能。这个VCP是由Vite官方运营活动赠送，价值是稳定的，类似于稳定币，没有投资价值，不会上交易所）",
-            "VTT，无总量（测试代币，用户可以测试转账等功能，无意义)"
+            "VITE, a total of 1 billion. VITE is native token on Vite public chain. We are released ERC20 tokens in the beginning. VITE can be traded on exchanges with have an investment value.",
+            "VCP, a total of 10 billion. VCP stands for Vite Community Points. You can exchange physical or virtual goods in the Vite Store. VCP can be earned from campaigns. The value is stable, similar to stablecoin. No investment value, will not be listed on exchanges.",
+            "VTT, no total amount. VTT is test tokens. Users can test transactions and smart contract functions by using VTT."
           ]
         },
         {
           "question": "Which exchange(s) will VITE be listed on?",
           "answer": [
-            "目前，在BITTREX和OKEX上可以交易VITE；同时我们也在接触其他交易所，敬请期待。"
+            "Currently VITE is listed on Bittex, Okex, and Upbit. We are also in contact with other exchanges. Stay tuned!"
           ]
         },
         {
-          "question": "Vite微信官方公众号是哪个？",
+          "question": "What is the public WeChat account of Vite?",
           "answer": [
-            "我们的官方公众号为: vitelabs"
+            "Our official account: vitelabs"
           ],
           "key": "wechat"
         },
         {
-          "question": "Vite目前开发到哪个阶段？主网上线了吗？",
+          "question": " What is the current development stage? Is there a MainNet?",
           "answer": [
-            "Vite目前还是测试网络，测试网络可以做超级节点挖矿，同时，将ERC20的VITE转移到Vite钱包可以参与超级节点投票赢取VITE收益，每日中午13:00奖励将自动发放到Vite钱包。",
-            "主网预计2019年第三季度上线"
+            "Vite is still in the TestNet phase. The current TestNet supports SBP mining. VITE ERC20 token can be transferred to Vite wallet to participate in SBP voting to earn more VITE.",
+            "The MainNet is expected to be launched in the 3rd quarter of 2019."
           ]
         },
         {
-          "question": "对比其他公链，Vite有哪些优势？",
+          "question": "What are the advantages of Vite compared to other public chains?",
           "answer": [
-            "1.技术优势，Vite是全球第一个在DAG上实现智能合约的公链，对比以太坊公链，Vite引入了异步设置，交易速度更快，秒级确认，吞吐量高，加上创建合约成本低（10VITE)，为Vite智能合约吸引更多Dapp开发者，增加应用场景数量。",
-            "2.对比其他公链，交易速度快，无手续费。",
-            "3.引入快照链，内置Dex，弥补了DAG先天性安全缺陷，交易更安全。"
+            "1. Vite is the public chain to implement smart contracts on DAG. Vite introduces asynchronous settings, faster transaction speed, second-level confirmation, and low-cost of creating smart contracts.",
+            "2. Vite has a fee-less transaction model.",
+            "3. Introducing the snapshot chain and built-in Dex to make up for the DAG security flaws and make the transaction more secure."
           ]
         },
         {
-          "question": "Vite公链最大的创新在哪里？",
+          "question": "What is Vite’s biggest innovation as compared to other public chains?",
           "answer": [
-            "Vite 最大的创新点是引入了异步的设置：",
-            "第一，我们把智能合约的调用做了异步的拆分。Nano（DAG三驾马车之一）的项目，它把一笔转账分为出账和入账两个动作。我们借鉴了Nano，把它扩展到转账及智能合约的调用上，把一笔转账交易拆分为出账和入账，把一个合约调用交易拆分为合约的请求交易和合约的响应交易两部分。",
-            "第二个是写入和确认的一个异步的设计。在Vite中，一个交易被写入账本和一个交易被确认是异步的。传统的区块链（如比特币），交易写入账本的速度会受到打包速度的制约。而在Vite中，用户可以在TPS限额之内写入很多交易到账本，但交易是以匀速异步确认的，这样可以削平波峰波谷，最大化地利用系统的资源，提高整个系统的吞吐量。同时，两个账户之间的交易不会彼此堵塞，不会出现因为某一个账户发送了大量交易，使其他账户的交易长期得不到确认。",
-            "第三个是合约间调用的异步设计。以太坊里的合约间调用是通过消息调用，或者叫内部交易的方式来完成的，这组调用要么同时完成，要么全部失败，这是一个原子性的ACID语义，会成为性能瓶颈。我们借鉴了一些中心化互联网技术中比较成熟的方案，采用了消息驱动的架构，合约之间不共享任何状态，只通过彼此发送消息来进行通信。"
+            "The biggest innovation is the asynchronous design, which can be understood in three aspects:",
+            "First, we are introducing the concept of asynchronous design into smart contracts. The Nano project (one of three well-known chains that uses DAG) separates a transfer action into a send and a receive transaction. We are building upon this mechanism, and will separate the call into the request and the response of a smart contract, so they can take place asynchronously.",
+            "Second, the writing and verification of a transaction also happen asynchronously in Vite. In traditional blockchain setup (e.g., Bitcoin), the speed of writing transactions into a ledger is limited by the speed of packing. But Vite allows writing of many transactions into the ledger within the constraints of the TPS. Because the asynchronous setup allows the transactions to happen at an even speed, this reduces the peaks and troughs of the speed of transaction writing, thus optimizing usage of resources and increasing system throughput. Also, the transactions of two users will no longer be blocked; that is, we will no longer see a scenario where a user sends a large amount of transactions that prevents the transactions of other users from taking place.",
+            "Third, calls between contracts will also happen asynchronously in Vite. The calls between smart contracts in Ethereum are implemented through messaging (aka insider transactions); and the calls either all succeed or all fail, as per an atomic ACID semantic. To solve for this bottleneck in performance, we take a page from well-developed solutions in centralized Internet technologies, and will make use of a message-driven architecture. As such, contracts do not share states and communicate via messages."
           ]
         },
         {
-          "question": "Vite目前开发了哪些产品？",
+          "question": "What products did Vite develop?",
           "answer": [
-            "支持多种代币的跨链钱包(iOS/安卓APP），目前支持VITE、ETH、ERC20代币及GRIN等代币。",
-            "区块浏览器",
-            "Vite Store：支付落地场景之一，用户可使用Vite代币（VITE/VCP）在商城支付购买Vite周边",
-            "Vite去中心化交易所，ViteX，一个完全的去中心化交易所，资产更安全，交易体验接近中心化交易所，支持交易挖矿经济模型。目前开放基于四个币种的交易市场：VITE、BTC、ETH、美元稳定币。"
+            "Multi-token wallet (iOS/Android APP). Currently supports VITE, ETH, ERC20 tokens and GRIN.",
+            "Block explorer",
+            "Vite Store: One of the blockchain payment use case. Users can use VCP to the purchase on the online store.",
+            "Vite decentralized exchange, ViteX, with safer assets management, trading experience close to a centralized exchange, and support mining economic model. The current trading markets are: VITE, BTC, ETH, and a USD stablecoin."
           ]
         },
         {
-          "question": "怎么下载Vite钱包？下载钱包有奖励吗？",
+          "question": "How to download Vite wallet? Is there a reward for downloading the wallet?？",
           "answer": [
-            "iOS下载：",
-            "国内用户需使用海外Apple ID前往APP Store下载",
-            "安卓下载：",
-            "国内用户需前往科学上网前往Google play下载",
-            "目前下载钱包可以领取每日空投奖励，每天领取10个VITE。首次注册用户需牢记助记词。"
+            "iOS App is in Apple Store: ",
+            "Android App is in Play Store: ",
+            "Users can receive daily airdrop rewards of 10VITE everyday."
           ]
         },
         {
-          "question": "钱包转账时候提示配额不足怎么办？配额是什么？如何获得配额？",
+          "question": "What should I do if my wallet transaction saying insufficient quota? What is the quota? How to get a quota?",
           "answer": [
-            "配额是工作量证明，注册超级节点需要配额，单次转账用户无需抵押VITE获取配额，只要点击运行pow就好。频繁、大额转账需要配额。",
-            "在钱包内抵押VITE就可以得到配额，抵押期最短是3天，3天后可选择赎回。"
+            "Quota is a proof of workload. Sending transactions requires quota. Single transaction does not need to stake VITE to obtain quota. Select and run PoW instead. Frequent transactions will require a certain amount of quota.",
+            "You can get a quota by staking VITE in your wallet. The minimum freezing period is 3 days. You can choose to redeem it after that period."
           ]
         },
         {
-          "question": "我的VITE在其他钱包里，不转到Vite钱包会受影响吗？",
+          "question": "Token inflation (mining rewards) and consumption will be dynamically balanced under the premise of a total of 1 billion tokens?",
+          "answer": "The amount of one billion tokens demonstrates initial circulation. Mining rewards are generated from additional token issuance: the inflation. As the system becomes widely used, tokens will continue to be burned. We hope that the circulation of tokens will attain the dynamic balance needed."
+        },
+        {
+          "question": "What is the address of the VITE ERC20 token?",
           "answer": [
-            "不会受影响，只是无法参与超级节点投票获取每日收益。"
+            "Currently, the VITE ERC20 token address hosted on Ethereum's platform is <a href='https://etherscan.io/token/0x1b793E49237758dBD8b752AFC9Eb4b329d5Da016' target='_blank'>https://etherscan.io/token/0x1b793E49237758dBD8b752AFC9Eb4b329d5Da016</a>, when Vite MainNet is launched, all of the ERC20 VITE tokens will be migrated to Vite MainNet tokens at a 1:1 ratio."
           ]
         },
         {
-          "question": "代币通胀（锻造奖励）和消耗是在10亿枚总量不变的前提下动态平衡？",
-          "answer": "10亿是初始发行量，锻造奖励是以增发的形式产生。随着系统被广泛使用，代币也会被不断销毁。我们希望代币的流通可以达到一个动态平衡，详细的参数在白皮书中并没有给出，我们后续会建立更为精确的数学模型，计算相关参数，并通过黄皮书的形式对Vite协议进行补充。"
+          "question": "Can we mine Vite tokens?",
+          "answer": "Vite's consensus mechanism is similar to EOS's. It generates 25 snapshot block producers through the DPoS algorithm. The block producers, in turn, receive mining rewards."
         },
         {
-          "question": "Vite在以太坊的token合约地址是多少？",
+          "question": "How to run a Vite supernode, what is the benefit?",
           "answer": [
-            "ERC 20 VITE合约地址是<a href='https://etherscan.io/token/0x1b793E49237758dBD8b752AFC9Eb4b329d5Da016' target='_blank'>https://etherscan.io/token/0x1b793E49237758dBD8b752AFC9Eb4b329d5Da016</a>"
+            "To register a supernode, you need to submit the application information. You will also need to take 500,000 VITE. The staking period is 90 days. After the registration is completed, you can invite community to vote for your SBP. The top 25 SBP get more rewards.",
+            "The total amount of SBP rewards in the TestNet phase is 30 million VITE/year, which is 3% of the VITE circulation. Such reward is divided into two parts, 50% out of the block producing reward and 50% voting reward.",
+            "SuperNode Registration Guide: <a href='https://medium.com/vitelabs/supernode-101-earn-vite-rewards-daily-a47027401cab' target='_blank'>https://medium.com/vitelabs/supernode-101-earn-vite-rewards-daily-a47027401cab</a>"
           ]
         },
         {
-          "question": "Vite能挖矿吗？",
-          "answer": "Vite的共识机制类似EOS，通过选举产生25个快照节点，通过DPoS算法生产快照块，并领取锻造奖励。"
-        },
-        {
-          "question": "怎么做Vite超级节点，收益如何？",
+          "question": "What is the daily reward of voting?",
           "answer": [
-            "注册超级节点需提交申请信息，同时需要抵押50万VITE，抵押期90天，注册完成后可邀请社区投票竞选，票数排名前25名的超级节点可获得奖励。",
-            "测试网络阶段超级节点奖励的总额度为3000万VITE/年，即VITE发行量的3%，每个超级节点奖励分为两部分，50%出块奖励+50%投票奖励，U一个超级节点如果持续挖矿一年，可以获得60万的出块奖励（3000万/25个节点*50%），另外还可以获得一部分投票奖励。",
-            "超级节点注册指南：<a href='https://mp.weixin.qq.com/s/sVD9AeKwB9xDE9eiJgQqSQ' target='_blank'>https://mp.weixin.qq.com/s/sVD9AeKwB9xDE9eiJgQqSQ</a>"
-          ]
-        },
-        {
-          "question": "投票后每天收益多少？",
-          "answer": [
-            "目前年化收益率为预计为18%，但官方总奖励是固定的，随着越来越多的用户参与投票，奖励将会被稀释，投票奖励会减少。"
+            "The current annual return is expected to be 18%, but the total reward is fixed. As more and more users participate in the voting, the reward will be diluted for each person."
           ]
         }
       ],
       "technology": [
         {
-          "question": "Vite的智能合约间调用取消了同步调用，那如何兼容以太里同步调用的场景？",
-          "answer": "不能兼容。需要改动同步的代码为异步代码，才能兼容。"
+          "question": "Since smart contracts in Vite don’t support synchronous calls, how will such calls in Ethereum be compatible with Vite?",
+          "answer": "Unfortunately, these calls are not compatible with Vite. Synchronous calls need to be changed to asynchronous calls to work in Vite."
         },
         {
-          "question": "Vite 的 Solidity++ 和以太的 Solidity 有什么区别？",
+          "question": "What is the difference between Vite's Solidity++ and Ethereum’s Solidity?",
           "answer": [
-            "就像c和c++一样，solidity++的名字就是源自于此。在基本语法上，Solidity++和Solidity兼容，最大差异是消息调用的语义不同，以太代码里，是一个同步调用，在Solidity++里是异步调用。",
-            "另外，在Solidity++中，将提供一系列标准库，例如:字符串处理、浮点运算、基本数学运算、容器、排序等。"
+            "On a high level, the differences are similar to those of C and C++. In basic syntax, the two languages are largely compatible. The largest difference is in the synchronous (Ethereum) vs asynchronous (Vite) calls as mentioned earlier.",
+            "In addition, a series of standard libraries, such as string manipulation, floating-point operations, basic mathematical operations, containers, and sorting will be provided in Solidity++."
           ]
         },
         {
-          "question": "基于消息的架构具有高吞吐和扩展性的优势。但与此相应，付出的代价是编程模型变得相对复杂，无法保证强一致性，而且有可能使延迟变大，Vite是如何降低编程复杂度和延迟？",
+          "question": "The message-based architecture has an advantage of high throughput and scalability. However, this comes at a cost of more complex programming model, which may not guarantee strong consistency, and may lead to even higher latencies. How does Vite reduce both the complexity in programming model and latencies?",
           "answer": [
-            "Vite将提供Solidity++合约语言以及完善的SDK，降低异步编程的成本。",
-            "经过认真的研究，我们发现在实际场景中，强一致性语义是可以用BASE语义替代的。由于Vite的HDPoS共识算法可以保障交易确认在1秒之内完成，因此，延迟的增加仍然在可控范围之内。"
+            "Vite will provide Solidity++ contract language and a complete SDK to reduce the cost of asynchronous programming.",
+            "After rigorous research, we find that in practical use cases, strong consistency semantics can be replaced by BASE semantics. Since the HDPoS consensus algorithm of Vite can guarantee transaction confirmation within 1 second, any potential latency increase is still under control."
           ]
         },
         {
-          "question": "Snapchat Chain存在的意义是什么？",
+          "question": "What is the significance of Snapshot Chain?",
           "answer": [
-            "Vite 采用栅格化（Block-Lattice）账本结构，每个账户对应一条链，每个交易引用本账户前一个交易的哈希；交易分为“请求交易”和“响应交易”两种，一个响应交易需要引用对应的请求交易的哈希。",
-            "这种DAG结构有先天的安全性缺陷。这是由于交易是按账户分组的，一个交易只会附加到其所属账户的账户链末端，其他账户产生的交易不会自动成为该交易的后继节点，因此，一些交易被回滚的概率不会随时间推移而降低。Vite通过独创的快照链技术，弥补了这一缺陷。"
+            "Vite employs a ledger structure called block-lattice. Each account corresponds to a blockchain and each transaction refers to the hash of the previous transaction in the account. Transactions are divided into two types: 'request transactions' and 'response transactions.' A response transaction needs to quote the corresponding hash of the request transaction.",
+            "The DAG structure has an inherent deficiency in security. This is because transactions are grouped by accounts, and each transaction is only attached to the chain associated with the relevant account. Transactions generated by other accounts do not automatically become the subsequent nodes of the previous transaction. Therefore, for some transactions, the rollback probability will not drop over time. The Snapshot chain technology is meant to address this issue."
           ]
         },
         {
-          "question": "跨链协议，只支持资产互换吗？",
-          "answer": "是的，跨链只支持价值传输，Vite主要目标并不是解决跨链问题。"
+          "question": "Does the inter-chain protocol only support exchange of assets?",
+          "answer": "Yes. Vite will support value transfers between different chains but not other inter-chain functions such as message transfers or smart contract calls between chains."
         },
         {
-          "question": "白皮书有提到，开发工具和以太的相似，还拓展了一些特性。那是否意味着以太坊的dapp，稍作修改就能在Vite上运行？",
+          "question": "The whitepaper mentions that Vite’s development tools are similar to, and have features extended from, those of Ethereum. Does this indicate that dApp’s for Ethereum can be deployed on Vite with minor changes?",
           "answer": [
-            "是的，Vite的设计目标是尽量降低以太坊生态dApp的迁移成本，所以会尽量兼容EVM。"
+            "Yes, one of Vite’s goals is to reduce the cost of porting over dApps from Ethereum. Vite tries to maximize compatibility with EVM."
           ]
         },
         {
-          "question": "Vite智能合约支持在移动端运行吗？ 会像qtum那样 支持c++ java这种主流语言吗?",
+          "question": "Can Vite’s smart contracts support running on a mobile device? Will they be similar to Qtum and support mainstream languages like C++ and Java?",
           "answer": [
-            "不支持移动端。目前不支持其他语言。未来我们会成立一个VM Lab，在合约语言和虚拟机方面开展持续研究，欢迎社区推荐在该领域有经验的技术专家加入我们。",
-            "我们的招聘邮箱是：hr@vite.org。"
+            "Vite won’t support mobile. There are no current plans to support other languages. In the future, we will set up a VM Lab to continue research in smart contract language and virtual machine. We welcome participation from experts in these areas.",
+            "Our hiring Email address is: hr@vite.org。"
           ]
         },
         {
-          "question": "以太坊智能合约现在的编程语言是solidity，它的好处之一是对于初学者简单易上手，但与此同时也给黑客留下了许多攻击的可能性，使智能合约变得脆弱。针对这个问题，vite有什么解决方案吗？",
-          "answer": "我们将通过合约形式化验证技术解决这个问题。"
+          "question": "The smart contract language used on Ethereum's platform is Solidity. A notable benefit of Solidity is its beginner-friendly nature, however a critical downside is its susceptibility to hackers' attacks. What solution does Vite have for this problem? ",
+          "answer": "Vite has taken Solidity's problems into account and has adopted countermeasures when designing smart contracts. These operational improvements are seen within our Solidity++ language. One of those improvements, for example, would be the incorporation of a series of standard libraries. This serves a dual purpose of increasing security protection while simplifying programming complexity. Because Solidity++ inter-contract calls rely on asynchronous architecture, the attacks facilitated by contract synchronous calls are inherently prevented. The classic Ethereum example of a 'reentrancy attack' scenario is not applicable in Vite's case. Vite will implement contractual formal verification technology to tackle smart contract development and we are considering offering a smart contract solution based on WASM. In short, we present users with a variety of solution-based options. "
         },
         {
-          "question": "在Vite网络上用户可以发行自己的货币，那么请问发行的资产是类似于ERC 20代币吗？以太已经做到了，Vite现在还在做的话有什么优势呢？",
+          "question": "On Vite network, users can issue their own currency. Is the function similar to ERC20 token(s) on Ethereum? What advantages does Vite have with their system? What is the address of the VITE ERC20 token?",
           "answer": [
-            "Vite的资产发行类似于以太的ERC20，但本质有所不同。ERC20是一个规范，而不是以太坊协议的一部分。在以太坊中发行新代币，需要用户开发和部署一个智能合约，代币的余额维护在该合约的状态中。一旦合约开发有所疏漏，就会产生安全风险。例如用户忘记引用SaftMath库，就可能产生溢出漏洞。而Vite的代币发行是内置在Vite协议中的，代币余额维护在用户账户的状态中，新代币和Vite原生代币共享转账底层协议，具有和Vite原生代币同样的安全性。用户在Vite中发行新代币，只需要发起一个交易，将新代币参数放在交易的data字段中，不需要写合约代码，这样也就不容易产生安全漏洞。"
+            "Vite's asset issuance is similar to ERC20, but in other ways it is different. ERC20 is a specification, but not a part of the Ethereum protocol. The issuance of new tokens with Ethereum requires the user to develop and deploy a smart contract. Token balance is maintained by the state of the contract. If contract development is flawed, security risks surface. For example, if a user forgets to refer to the SaftMath library, an overflow may occur. Vite token is built into the Vite protocol. The token balance is maintained in the state of the user's account. The new token and the Vite native token share the same underlying protocol thus bringing the same measure of security to the new token and native token. When a user decides to issue a new token in Vite, all they need to do is initiate a transaction. The transaction then puts the new token parameters in the transaction data. The fact that our network does not require smart contract writing inherently leaves less room for bug generation to occur."
           ]
         },
         {
-          "question": "假如以太坊的VITE代币出现漏洞了，可以用硬分叉修补损失吗？",
+          "question": "If the ERC20 VITE token on Ethereum has a bug, can you repair the loss with a hard fork?",
           "answer": [
-            "我们会将合约代码开源，做好code review以及安全审计。如果出现重大安全漏洞，可能会考虑重新发行token并做1:1映射等补救手段。"
+            "We will open source the code for review and security audit. In the event of a major security problem, remediation of tokens and 1:1 mapping may be considered."
           ]
         },
         {
-          "question": "Vite的Github地址是？",
+          "question": "What is the Github address of Vite?？",
           "answer": [
-            "Github地址：<a href='https://github.com/vitelabs' target='_blank'>https://github.com/vitelabs</a>"
+            "Github address: <a href='https://github.com/vitelabs' target='_blank'>https://github.com/vitelabs</a>"
           ]
         },
         {
-          "question": "如何解决异步处理中出账入账一个成功一个失败的情况呢，有类似事务处理的回滚机制吗？",
+          "question": "How to solve the problem of one success with one failure in the asynchronous processing? Is there a transaction processing rollback mechanism?",
           "answer": [
-            "Vite是基于Block-lattice账本结构，在这样的结构下，出账入账不可能出现一个成功一个失败，只会出现一个出账成功，但是一个入账没有被“接收者”确认。所以也不会有什么回滚机制。",
-            "一个入账交易没有被“确认”是系统允许的，因为一个入账的交易要被确认，需要接收者的私钥签名并广播，如果接收者一直不确认（用私钥签名并广播块），就一直处于所谓的“失败”状态下。"
+            "Vite is based on the block-lattice ledge structure. Under such a structure, it is impossible to make one success and one failure transaction. What can happen is one success with an unconfirmation by the “recipient”. So there will be no rollback.",
+            "A transaction is not 'confirmed' by the system is because a recorded transaction is to be confirmed. The recipient's private key is required to be signed and broadcast, and if the recipient has not confirmed (using the private key to sign and broadcast the block), In the 'pending' state."
           ]
         },
         {
-          "question": "黑客或恶意的合约所有者（也就是骗子）可以更改智能合约的内部结构，然而普通用户还会认为一切正常。 这个问题将如何被解决？",
+          "question": "Hackers or malicious contract owners can change the internal structure of a smart contract, but users will think that everything is ok. How will this problem be solved?",
           "answer": [
-            "我们不认为委托共识组的代理节点（Delegated nodes consensus）是一个好主意。 关键性合约应该被定义为静态的。 而非静态的合约则是扮演去中心化应用(dApps)后端的角色。 合约的所有者该负责合约的准确性。",
-            "与以太链一样，合同更新依赖审查机制。"
+            "We don't think that delegated nodes consensus is a good idea. Critical contracts should be defined as static. Non-static contracts are the role of the decentralized application (dApps) backend. The owner of the contract is responsible for the accuracy of the contract.",
+            "Like the Ethernet, contract update relies on a audit mechanism."
           ]
         },
         {
-          "question": "命名服务（Name Service）是否会受到同形异义文件攻击（Homograph Attack）的保护？如果会受到保护，这将是如何实现的？",
+          "question": "Is the Name Service protected by a Homomorph Attack? If it is protected, how will this be achieved?",
           "answer": [
-            "我们会将字符集限制为ASCII 并提供一个存库来将名称散列成素图像，",
-            "如以下所显示：<a href='https://github.com/ethereum/blockies' target='_blank'>https://github.com/ethereum/blockies</a>。名称的文字可能看起来很相似，但个人资料图片看起来是完全不同的。"
+            "We will limit the character set to ASCII and provide a library to hash the name into a prime image.",
+            "As shown below: <a href='https://github.com/ethereum/blockies' target='_blank'>https://github.com/ethereum/blockies</a>. The text of the name may look similar, but the profile picture looks completely different."
           ]
         }
       ]
@@ -1469,18 +1462,18 @@
     }
   },
   "airdrop": {
-    "title1": "Download Vite App and Participate in Airdrop",
+    "title1": "Download Vite Wallet and Participate in Airdrop",
     "text1": "Please download and install Vite Wallet on App Store or Google Play.",
     "text2": "Complete tasks to raise your V Power to speed up receiving VITE, you can pick up V Power every 4 hours at most",
     "title2": "Not just an airdrop, VITE is bringing you a prosperous 2019",
     "step": "Two More Steps to Become a Big Winner: ",
-    "step1": "Download Vite App and Receive Vite Airdrop",
-    "step2": "Vote for SBPs in Vite App",
+    "step1": "Download Vite Wallet and Receive Vite Airdrop",
+    "step2": "Vote for SBPs in Vite Wallet",
     "step3f": "Over",
     "step3e": "Will be Distributed Everyday",
     "annual": "Annual Return Rate Achieves ",
-    "btnIos": "Download Vite iOS App",
-    "btnAndroid": "Download Vite Android App",
+    "btnIos": "iOS",
+    "btnAndroid": "Android",
     "btn2": "Check Voting Rewards"
   }
 }
