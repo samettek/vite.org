@@ -288,7 +288,7 @@ export default {
   @media only screen and (min-width: 320px) and (max-width: 1240px)  {
     background: #2b88ff;
   }
-  @media only screen and (min-width: 1241px) {
+  @media only screen and (min-width: 1540px) {
    background: url("~assets/images/footer/footer2.svg") 100% no-repeat;
   }
   .whole-footer {
