@@ -260,6 +260,10 @@ export default {
   .item {
     display: flex;
     justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
   .content {
