@@ -345,6 +345,11 @@ export default {
               key: 'Flanke' 
             },
             { 
+              img: require('~/assets/images/teams/wc.jpg'),
+              urls: [], 
+              key: 'Nate Wong' 
+            },
+            { 
               img: require('~/assets/images/teams/yl.jpg'),
               urls: [], 
               key: 'Erin' 

@@ -18,7 +18,7 @@
                 <sub-title :title="$t('community.star')"></sub-title>
               </div>
               <div
-                class="column is-4 star-item"
+                class="column is-4-desktop is-6-tablet is-12-mobile star-item"
                 v-for="(item, index) in arrays"
                 :key="index"
               >
