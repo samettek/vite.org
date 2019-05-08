@@ -258,6 +258,7 @@ export default {
   }
   .item {
     display: flex;
+    display: -webkit-flex;
     justify-content: space-between;
     -webkit-flex-wrap:wrap;
     -webkit-box-lines:multiple;
