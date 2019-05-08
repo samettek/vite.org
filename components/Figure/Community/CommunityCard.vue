@@ -65,7 +65,7 @@ export default {
   padding: 18px;
   box-sizing: border-box;
   @include touch {
-    width: 270px;
+    width: 205px;
   }
   .person-info{
       display: flex;

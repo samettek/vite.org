@@ -5,7 +5,7 @@
         {{$t('investor.title')}}
       </h1>
       <div class="columns is-multiline is-mobile is-centered">
-        <div :key="item.key" v-for="(item, index) in list" class="column item">
+        <div :key="item.key" v-for="(item, index) in list" class="item">
           <a :href="item.url" target="_blank" @mouseover="onHover(index)" @mouseout="onOut(index)" :class="`key-${item.key}`">
             <div class="img-wrapper">
               <img v-show="index === hover" class="investor-logo" :src="item.logoActive" alt="">
@@ -172,7 +172,11 @@
 
 <style rel="stylesheet/scss" lang="scss" scoped>
   @import "~assets/vars";
-
+  .is-multiline {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+  }
   .section {
     @include touch {
       padding-top: 25px;
@@ -195,24 +199,19 @@
     }
   }
 
-  .column {
-    text-align: center;
+  
+  .img-wrapper {
+    flex-direction: row;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    .img-wrapper {
-      flex-direction: row;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      &:hover {
-        cursor: pointer;
-      }
-      img {
-        /*max-height: 180px;*/
-        /*max-width: 180px;*/
-      }
+    justify-content: center;
+    &:hover {
+      cursor: pointer;
+    }
+    img {
+      width: 120px;
+      height: auto;
+      
     }
   }
 

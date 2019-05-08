@@ -3,22 +3,22 @@
     <section>
       <div class="container">
         <h1 style="margin-bottom: 50px;">{{$t('community.title')}}</h1>
-        <div class="columns content is-multiline">
-          <div class="column">
-            <div class="columns is-multiline item">
-              <div class="column">
-                <div
-                  class="video is-flex"
-                  @click="play"
-                >
-                  <img src="~assets/images/video/play.svg" />
-                </div>
-              </div>
-              <div class="column community-star">
-                <sub-title :title="$t('community.star')"></sub-title>
-              </div>
+        <div class="is-flex content">
+          <div>
+            <div class="">
               <div
-                class="column is-4 star-item"
+                class="video is-flex"
+                @click="play"
+              >
+                <img src="~assets/images/video/play.svg" />
+              </div>
+            </div>
+            <div class="column community-star">
+              <sub-title :title="$t('community.star')"></sub-title>
+            </div>
+              <div class="columns is-multiline item">
+              <div
+                class="column is-4-desktop is-6-tablet is-12-mobile star-item"
                 v-for="(item, index) in arrays"
                 :key="index"
               >
@@ -37,7 +37,7 @@
               </div> -->
             </div>
           </div>
-          <div class="column">
+          <div>
             <div class="column-right is-12-tablet">
               <community-link :desc="desc"></community-link>
             </div>
@@ -260,12 +260,21 @@ export default {
   .item {
     display: flex;
     justify-content: space-between;
+    -webkit-flex-wrap:wrap;
+    -webkit-box-lines:multiple;
+    -moz-flex-wrap:wrap;
+    -o-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .content {
+     @include touch {
+      flex-direction: column;
+    }
     .video {
       margin: 0 auto;
       min-width: 695px;
-      height: 348px;
+      min-height: 348px;
       background-image: url("~assets/images/community/world.png");
       background-size: cover;
       text-align: center;
@@ -285,6 +294,7 @@ export default {
     width: 220px;
   }
   .column-right {
+    margin-left: 20px;
     min-width: 320px;
   }
 }
