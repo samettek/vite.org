@@ -190,6 +190,14 @@ export default {
           name: 'google-site-verification',
           content: 'MyUvG14lvMm-nYCWoXYE9NT21vRda-kIT6xMETrGqZk'
         },
+        {
+          name: 'renderer',
+          content: 'webkit'
+        },
+        {
+          'http-equiv': 'X-UA-Compatible',
+          content: 'IE=edge,chrome=1'
+        },
         // Open Grapg
         { name: 'og:title', content: title, hid: 'og:title' },
         { name: 'og:description', content: description, hid: 'og:description' },
