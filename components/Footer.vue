@@ -285,9 +285,12 @@ export default {
     display: flex;
     justify-content: space-around;
   }
-   @media only screen and (min-width: 320px) and (max-width: 1240px)  {
+  @media only screen and (min-width: 320px) and (max-width: 1240px)  {
     background: #2b88ff;
-    }
+  }
+  @media only screen and (min-width: 1440px) {
+   background: url("~assets/images/footer/footer.svg") 100% no-repeat;
+  }
   .whole-footer {
     padding-top: 28px;
     justify-content: space-between;
