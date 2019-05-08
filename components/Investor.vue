@@ -172,7 +172,11 @@
 
 <style rel="stylesheet/scss" lang="scss" scoped>
   @import "~assets/vars";
-
+  .is-multiline {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+  }
   .section {
     @include touch {
       padding-top: 25px;

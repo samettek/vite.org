@@ -260,6 +260,7 @@ export default {
   .item {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
   .content {
     .video {
