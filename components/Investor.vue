@@ -199,25 +199,19 @@
     }
   }
 
-  .column {
-    text-align: center;
+  
+  .img-wrapper {
+    flex-direction: row;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    flex-basis: auto;
-    .img-wrapper {
-      flex-direction: row;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      &:hover {
-        cursor: pointer;
-      }
-      img {
-        height: auto;
-        width: 120px;
-      }
+    justify-content: center;
+    &:hover {
+      cursor: pointer;
+    }
+    img {
+      width: 120px;
+      height: auto;
+      
     }
   }
 
