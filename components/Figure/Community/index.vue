@@ -4,7 +4,7 @@
       <div class="container">
         <h1 style="margin-bottom: 50px;">{{$t('community.title')}}</h1>
         <div class="is-flex content">
-          <div>
+          <div style="width:100%">
             <div class="">
               <div
                 class="video is-flex"
@@ -18,7 +18,7 @@
             </div>
             <div class="is-flex is-multiline item">
               <div
-                class="is-4-desktop is-6-tablet is-12-mobile star-item"
+                class="star-item"
                 v-for="(item, index) in arrays"
                 :key="index">
                 <community-card
@@ -278,7 +278,7 @@ export default {
     .video {
       margin: 0 auto;
       min-width: 695px;
-      min-height: 348px;
+      height: 348px;
       background-image: url("~assets/images/community/world.png");
       background-size: cover;
       text-align: center;
