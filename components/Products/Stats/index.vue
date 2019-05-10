@@ -36,6 +36,12 @@ export default {
     WMap
   },
   computed: {
+    outerLink() {
+      return {
+        name: this.$t('products.platform.explorer'),
+        url: 'https://explorer.vite.net/'
+      };
+    },
     info() {
       return {
         broadcast: {
@@ -2258,12 +2264,8 @@ export default {
           ]
         }
       ],
-      outerLink: {
-        name: this.$t('products.platform.explorer'),
-        url: 'https://explorer.vite.net/'
-      }
     };
-  },
+  }
   
 };
 </script>
