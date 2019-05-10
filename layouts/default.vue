@@ -392,21 +392,21 @@ export default {
   z-index: 999;
   background-image: url("~assets/images/airdrop.svg");
   background-size: cover;
-  width: 200px;
-  height: 50px;
+  width: 265px;
+  height: 66px;
   font-size:16px;
   font-family:$font-family-title;
   font-weight:600;
   box-sizing: border-box;
-  
-  line-height:50px;
+  text-align: center;
+  line-height:66px;
   cursor: pointer;
   a {
     display: inline-block;
     text-align: center;
-    margin-left: -10px;
-    width: 200px;
-    height: 50px;
+    margin-left: -45px;
+    width: 265px;
+    height: 66px;
     color: white;
   }
 }
