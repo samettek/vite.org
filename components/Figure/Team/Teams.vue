@@ -433,7 +433,7 @@ export default {
               ]
             },
             {
-              img: require('~/assets/images/teams/Pankaj.png'),
+              img: require('~/assets/images/teams/Pankaj.jpg'),
               key: 'Pankaj',
               urls: [
                 {
