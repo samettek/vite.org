@@ -21,7 +21,7 @@
                 {{ $t(`product.${item.key}.link`) }}
                 <img src="~/assets/images/arrow_forward.svg"/>
               </a>
-              <wallet-btn v-else></wallet-btn>
+              <wallet-btn v-else style="justify-content:center;"></wallet-btn>
             </div>
           </div>
         </div>

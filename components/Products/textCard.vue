@@ -12,18 +12,19 @@
       </div>
       <div class="text__outer-link">
         <a 
-          :href="outerLink.url" 
+          :href="outerLink" 
           target="_blank"
-          v-if="outerLink.url">
-          {{ outerLink.name }}
+          v-if="outerLink">
+          {{ outerLinkName }}
           <img src="~/assets/images/arrow_forward.svg"/>
         </a>
-        <div v-else>{{ outerLink.name }}</div>
+        <div v-else>{{ outerLinkName }}</div>
       </div>
       <wallet-btn 
         :is-active="false" 
         v-if="keyStr === 'wallet'"
-        style="margin-top: 14px;"></wallet-btn>
+        style="margin-top: 14px;">
+      </wallet-btn>
     </div>
   </div>
 </template>
@@ -46,9 +47,13 @@ export default {
       type: String,
       default: ''
     },
+    outerLinkName: {
+      type: String,
+      default: ''
+    },
     outerLink: {
-      type: Object,
-      default: () => {}
+      type: String,
+      default: ''
     },
     textList: {
       type: Array,

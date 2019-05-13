@@ -169,7 +169,7 @@ export default {
   }
 }
 .wallet__wrapper {
-  justify-content: center;
+  // justify-content: center;
   .wallet__desktop {
     @include touch {
       width: 235px; 

@@ -4,7 +4,7 @@
       <div class="container">
         <h1 style="margin-bottom: 50px;">{{$t('community.title')}}</h1>
         <div class="is-flex content">
-          <div>
+          <div style="width:100%">
             <div class="">
               <div
                 class="video is-flex"
@@ -13,23 +13,22 @@
                 <img src="~assets/images/video/play.svg" />
               </div>
             </div>
-            <div class="column community-star">
+            <div class="community-star">
               <sub-title :title="$t('community.star')"></sub-title>
             </div>
-              <div class="columns is-multiline item">
+            <div class="is-flex is-multiline item">
               <div
-                class="column is-4-desktop is-6-tablet is-12-mobile star-item"
+                class="star-item"
                 v-for="(item, index) in arrays"
-                :key="index"
-              >
+                :key="index">
                 <community-card
                   :src="item.img"
                   :picture="item.picture"
                   :cname="item.cname"
                   :name="item.name"
                   :mediaLink="item.mediaLink"
-                  :icon="item.icon"
-                ></community-card>
+                  :icon="item.icon">
+                </community-card>
               </div>
               <!-- <div
                 class="column is-4 star-item" style="visibility:hidden">
@@ -259,6 +258,7 @@ export default {
   }
   .item {
     display: flex;
+    display: -webkit-flex;
     justify-content: space-between;
     -webkit-flex-wrap:wrap;
     -webkit-box-lines:multiple;
@@ -267,6 +267,10 @@ export default {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
+  .star-item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
   .content {
      @include touch {
       flex-direction: column;
@@ -274,7 +278,7 @@ export default {
     .video {
       margin: 0 auto;
       min-width: 695px;
-      min-height: 348px;
+      height: 348px;
       background-image: url("~assets/images/community/world.png");
       background-size: cover;
       text-align: center;
@@ -295,7 +299,11 @@ export default {
   }
   .column-right {
     margin-left: 20px;
-    min-width: 320px;
+    width: 300px;
+    @include touch {
+      width: 100%;
+      margin-left: 0px;
+    }
   }
 }
 </style>

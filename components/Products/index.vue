@@ -5,7 +5,8 @@
           <text-card 
             :title="$t('products.platform.title')" 
             :text-list="$t('products.platform.textList')"
-            :outer-link="link.platform"
+            :outer-link-name="link.platform.name"
+            :outer-link="link.platform.url"
             style="margin-right: 25px;">
           </text-card>
           <Feature></Feature>
@@ -23,7 +24,8 @@
           :class="`mt products__${item}-text`"
           :title="$t(`products.${item}.title`)" 
           :text-list="$t(`products.${item}.textList`)"
-          :outer-link="link[item]"
+          :outer-link-name="link[item].name"
+          :outer-link="link[item].url"
           :key-str="item === 'wallet' ? item : ''">
         </text-card>
       </div>
@@ -44,7 +46,11 @@ export default {
   data: function () {
     return {
       list: ['wallet', 'exchange', 'pay'],
-      link: {
+    };
+  },
+  computed: {
+    link() {
+      return {
         platform: {
           name: this.$t('product.platform.subtitle'),
           url: 'https://vite.wiki/'
@@ -60,9 +66,8 @@ export default {
           name: this.$t('product.pay.subtitle'),
           url: this.$i18n.locale === 'zh' ? 'https://vite.store/' : 'https://global.vite.store'
         }
-      }
-      
-    };
+      };
+    }
   },
   methods: {
   }
