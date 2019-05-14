@@ -30,7 +30,7 @@
     "person": "People",
     "team": "Team",
     "counselor": "Advisors",
-    "global": "Global Community Managers",
+    "global": "Community Managers",
     "investor": "Investors",
     "community": "Community",
     "superNodes": "Hướng dẫn cho SBP (Snapshot Block Producer)",
@@ -1026,6 +1026,26 @@
         "name": "Ha Viet Nguyen",
         "position": "Vietnam",
         "description": "Former CMO of a Blockchain & Crypto Marketing agency and BD of a Venture Capital in Vietnam. Previously joined as CM for several notable blockchain projects."
+      },
+      "snaker": {
+        "name": "Snaker.Zhang",
+        "position": "China",
+        "description": "He has worked as an executive producer for a TV media and has 15 years of experience in the media industry. He is a blockchain technology enthusiast and digital currency investor, currently served as a Vite community manager."
+      },
+      "liyang": {
+        "name": "Yang Li",
+        "position": "China",
+        "description": "He graduated from Beijing Institute of Technology and worked as a project manager in the R&D department of Beijing Guodian Technology Industry Group. With more than 7 years of development experience, he is a blockchain technology researcher and early participant in the Vite community. He has in-depth research on DAG-based infrastructure public chain technology."
+      },
+      "chenle": {
+        "name": "Le Chen",
+        "position": "China",
+        "description": "He graduated from Changchun University of Science and Technology. He worked in the China Banknote Blockchain Research Institute under the Central Bank, and later engaged in stock trading development. He has three years of experience in virtual currency investment and two years of community management experience. He is currently a vite community administrator."
+      },
+      "qingshui": {
+        "name": "Qing Shui",
+        "position": "China",
+        "description": "Early investors in the currency circle have rich investment experience and currency resources. Participated in the early investment of many excellent projects such as EOS, Bell, IDA, Lud, etc., and assisted in community construction and operation with rich experience. "
       }
     }
   },
