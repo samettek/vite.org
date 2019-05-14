@@ -452,6 +452,28 @@ export default {
                 }
               ]
             },
+            {
+              img: require('~/assets/images/community/snaker.png'),
+              key: 'snaker',
+              urls: [
+                {
+                  icon: ['fab', 'twitter'],
+                  url: 'https://twitter.com/SnakerZhang'
+                }
+              ]
+            },
+            {
+              img: require('~/assets/images/community/liyang.png'),
+              key: 'liyang',
+            },
+            {
+              img: require('~/assets/images/community/chenle.png'),
+              key: 'chenle',
+            },
+            {
+              img: require('~/assets/images/community/qingshui.png'),
+              key: 'qingshui',
+            },
           ]
         }
       ]
