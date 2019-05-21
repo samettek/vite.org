@@ -17,6 +17,7 @@ export default {
   async mounted() {
     let url = this.$i18n.locale === 'zh' ? '/report_zh.json' : '/report_en.json';
     let res = await this.$axios.$get(url) || [];
+    console.log(res);
     this.resAcLen = res.length;
     this.reports = res || [];
   },

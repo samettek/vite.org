@@ -996,17 +996,17 @@
         "description": "Miya has 3 years of experience  working on User Interface design and has participated in several industrial IT projects.Miya formerly worked at a large state-owned enterprise, serving as a Chief Designer."
       },
       "Oleg": {
-        "name": "Oleg Igorevych",
+        "name": "Олег Игоревич (Oleg Igorevych)",
         "position": "Ukraine",
         "description": "Seasoned blockchain & crypto enthusiast, engaged in trading and investment. Experienced in community management, business development and marketing."
       },
       "Pankaj": {
-        "name": "Pankaj Kataria",
+        "name": "पंकज कटारिया (Pankaj Kataria)",
         "position": "India",
-        "description": "A seasoned IT professional with over a decade of experience performing diverse roles such as Developer, QA engineer, Data analyst and Business Analyst. He is a community manager for Vite social media and is looking to expand his interest in the world of block chain and associated tech."
+        "description": "A seasoned IT professional with over a decade of experience performing diverse roles such as Developer, QA engineer, Data analyst and Business Analyst. He is a community manager for Vite social media and is looking to expand his interest in the world of blockchain and associated tech."
       },
       "Juan": {
-        "name": "Juan Mhmod",
+        "name": " جوان محمود Juan Mhmod ",
         "position": "Germany",
         "description": "Dr. Mhmod, Juan studied engineering science and Technology. Previously served as a project manager and assistant professor at a well-know German university. He holds a Ph.D and Postdoctoral degree from Jilin University in China. He graduated his Ph.D with honors in 2016."
       },
@@ -1014,6 +1014,11 @@
         "name": "Ha Viet Nguyen",
         "position": "Vietnam",
         "description": "Former CMO of a Blockchain & Crypto Marketing agency and BD of a Venture Capital in Vietnam. Previously joined as CM for several notable blockchain projects."
+      },
+      "Takeshi": {
+        "name": "楮本 剛史 (Takeshi Kazumoto)",
+        "position": "Japan",
+        "description": "Seasonal blockchain practitioner. Involved in the formation of crypto communities through a forex FX trader. Worked as a human resources manager of a well-know Japanese company."
       },
       "snaker": {
         "name": "Snaker Zhang",
@@ -1165,9 +1170,14 @@
         {
           "question": "What cryptocurrencies did Vite release? What are the differences?",
           "answer": [
-            "VITE, a total of 1 billion. VITE is native token on Vite public chain. We are released ERC20 tokens in the beginning. VITE can be traded on exchanges with have an investment value.",
-            "VCP, a total of 10 billion. VCP stands for Vite Community Points. You can exchange physical or virtual goods in the Vite Store. VCP can be earned from campaigns. The value is stable, similar to stablecoin. No investment value, will not be listed on exchanges.",
-            "VTT, no total amount. VTT is test tokens. Users can test transactions and smart contract functions by using VTT."
+            "VITE - 1 billion",
+            "VITE is the native coin on Vite public chain. VITE ERC20 tokens were issued when Vite was first founded and can now be migrated VITE native tokens at a 1:1 ratio on the Vite wallet app. Both VITE native coins and Vite ERC20 tokens have investment value and can be traded on exchanges.",
+
+            "VCP - 10 billion",
+            "VCP stands for Vite Community Points. VCP can be earned from campaigns or activities. You can exchange VCP for physical or virtual goods in the Vite Store. Although VCP is stable in value, it has no investment value and will not be listed on exchanges.",
+
+            "VTT - no total amount.",
+            "VTT stands for Vite Test Tokens. VTT only exist in Testnet so that users can test transactions and smart contract functions. "
           ]
         },
         {
@@ -1177,58 +1187,53 @@
           ]
         },
         {
-          "question": "What is the public WeChat account of Vite?",
-          "answer": [
-            "Our official account: vitelabs"
-          ],
-          "key": "wechat"
-        },
-        {
           "question": " What is the current development stage? Is there a MainNet?",
           "answer": [
-            "Vite is still in the TestNet phase. The current TestNet supports SBP mining. VITE ERC20 token can be transferred to Vite wallet to participate in SBP voting to earn more VITE.",
-            "The MainNet is expected to be launched in the 3rd quarter of 2019."
+            "Vite is still in the Testnet phase. However, VITE does have a value as the current Testnet supports supernode mining. ",
+            "Pre-Mainnet is launched on 15:00 on May 21, 2019 in PST. The MainNet is expected to be launched in the 3rd quarter of 2019."
           ]
         },
         {
           "question": "What are the advantages of Vite compared to other public chains?",
           "answer": [
-            "1. Vite is the public chain to implement smart contracts on DAG. Vite introduces asynchronous settings, faster transaction speed, second-level confirmation, and low-cost of creating smart contracts.",
-            "2. Vite has a fee-less transaction model.",
-            "3. Introducing the snapshot chain and built-in Dex to make up for the DAG security flaws and make the transaction more secure."
+            "1. Vite is the first public chain to implement smart contracts within a DAG structure.",
+            "2. Vite introduces asynchronous sending/receiving of transactions, resulting in fast transaction speeds with transaction confirmation in seconds and low-cost smart contract creation. ",
+            "3. Vite has a fee-less transaction model.",
+            "4. Vite utilizes a unique snapshot chain model that greatly strengthens the transaction security by eliminating the inherent security flaws associated with DAG. ",
+            "5. Vite features a built-in decentralized exchange."
           ]
         },
         {
           "question": "What is Vite’s biggest innovation as compared to other public chains?",
           "answer": [
-            "The biggest innovation is the asynchronous design, which can be understood in three aspects:",
-            "First, we are introducing the concept of asynchronous design into smart contracts. The Nano project (one of three well-known chains that uses DAG) separates a transfer action into a send and a receive transaction. We are building upon this mechanism, and will separate the call into the request and the response of a smart contract, so they can take place asynchronously.",
-            "Second, the writing and verification of a transaction also happen asynchronously in Vite. In traditional blockchain setup (e.g., Bitcoin), the speed of writing transactions into a ledger is limited by the speed of packing. But Vite allows writing of many transactions into the ledger within the constraints of the TPS. Because the asynchronous setup allows the transactions to happen at an even speed, this reduces the peaks and troughs of the speed of transaction writing, thus optimizing usage of resources and increasing system throughput. Also, the transactions of two users will no longer be blocked; that is, we will no longer see a scenario where a user sends a large amount of transactions that prevents the transactions of other users from taking place.",
-            "Third, calls between contracts will also happen asynchronously in Vite. The calls between smart contracts in Ethereum are implemented through messaging (aka insider transactions); and the calls either all succeed or all fail, as per an atomic ACID semantic. To solve for this bottleneck in performance, we take a page from well-developed solutions in centralized Internet technologies, and will make use of a message-driven architecture. As such, contracts do not share states and communicate via messages."
+            "The biggest innovation lies in our asynchronous design, which is implemented in three distinct areas: ",
+            "1. Smart contracts.",
+            "The Nano project (one of three well-known chains that use DAG) separates a transfer action into send and receive components. We have built upon this mechanism by separating the call and response actions of a smart contract so they can take place asynchronously.",
+            "2. Writing and verifying transactions.",
+            "In a traditional blockchain setup (e.g., Bitcoin), the speed of writing transactions into a ledger is limited by the speed of packing. Vite allows the writing of many transactions into the ledger simultaneously. Due to the asynchronous setup, transactions happen at a relatively steady rate, thus reducing the peaks and troughs typically associated with traditional setups which are limited by the speed of packing. Additionally, with this setup there will no longer be situations in which a user sending large numbers of transactions twill prevent other users' transactions from going through. This setup optimizes usage of resources and increases overall system throughput.",
+            "3. Calls between contracts.",
+            "The calls between smart contracts in Ethereum are implemented through messaging (aka insider transactions). These calls either all succeed or all fail, per an atomic ACID semantic. To solve for this performance bottleneck, we took inspiration from well-developed solutions in centralized Internet technologies, and will make use of a message-driven architecture. As such, contracts do not share states and communicate via messages."
           ]
         },
         {
           "question": "What products did Vite develop?",
           "answer": [
-            "Multi-token wallet (iOS/Android APP). Currently supports VITE, ETH, ERC20 tokens and GRIN.",
+            "Multi-token wallet (iOS/Android app): currently supports VITE, ETH, ERC20 tokens and GRIN.",
             "Block explorer",
-            "Vite Store: One of the blockchain payment use case. Users can use VCP to the purchase on the online store.",
-            "Vite decentralized exchange, ViteX, with safer assets management, trading experience close to a centralized exchange, and support mining economic model. The current trading markets are: VITE, BTC, ETH, and a USD stablecoin."
+            "Vite merchandise store: a blockchain payment use case in which items can be purchased by VCP (Vite Community Points). ",
+            "Vite decentralized exchange (ViteX): secure asset management, seamless trading experience, and VX (ViteX native token) mining capabilities. The current trading markets are: VITE, BTC, ETH, and a stablecoin."
           ]
         },
         {
           "question": "How to download Vite wallet? Is there a reward for downloading the wallet?？",
           "answer": [
-            "iOS App is in Apple Store: ",
-            "Android App is in Play Store: ",
-            "Users can receive daily airdrop rewards of 10VITE everyday."
+            "You can find the Vite iOS wallet in the Apple Store and the Vite Android wallet in the Play Store. Once the wallet is downloaded, users can receive daily airdrop rewards of 10-1000 VITE everyday. "
           ]
         },
         {
           "question": "What should I do if my wallet transaction saying insufficient quota? What is the quota? How to get a quota?",
           "answer": [
-            "Quota is a proof of workload. Sending transactions requires quota. Single transaction does not need to stake VITE to obtain quota. Select and run PoW instead. Frequent transactions will require a certain amount of quota.",
-            "You can get a quota by staking VITE in your wallet. The minimum freezing period is 3 days. You can choose to redeem it after that period."
+            "Think of \"quota\" as the fuel that keeps the Vite public chain running. Every transaction that is sent requires a certain amount of quota. For users that have high transaction frequency, they will need to obtain quota by staking VITE. The minimum amount is 134 VITE with a minimum staking period of 3 days. However, users that do not send frequent transactions can choose to run a quick PoW on their respective device instead. "
           ]
         },
         {
@@ -1243,20 +1248,20 @@
         },
         {
           "question": "Can we mine Vite tokens?",
-          "answer": "Vite's consensus mechanism is similar to EOS's. It generates 25 snapshot block producers through the DPoS algorithm. The block producers, in turn, receive mining rewards."
+          "answer": "Vite's consensus mechanism is similar to that of EOS. The DPoS algorithm selects 25 snapshot block producers who, in turn, receive mining rewards."
         },
         {
           "question": "How to run a Vite supernode, what is the benefit?",
           "answer": [
             "To register a supernode, you need to submit the application information. You will also need to take 500,000 VITE. The staking period is 90 days. After the registration is completed, you can invite community to vote for your SBP. The top 25 SBP get more rewards.",
-            "The total amount of SBP rewards in the TestNet phase is 30 million VITE/year, which is 3% of the VITE circulation. Such reward is divided into two parts, 50% out of the block producing reward and 50% voting reward.",
-            "SuperNode Registration Guide: <a href='https://medium.com/vitelabs/supernode-101-earn-vite-rewards-daily-a47027401cab' target='_blank'>https://medium.com/vitelabs/supernode-101-earn-vite-rewards-daily-a47027401cab</a>"
+            "You can find the SuperNode Registration Guide here: <a href='https://medium.com/vitelabs/supernode-101-earn-vite-rewards-daily-a47027401cab' target='_blank'>https://medium.com/vitelabs/supernode-101-earn-vite-rewards-daily-a47027401cab</a>",
+            "The total amount of SBP rewards within the Testnet environment is 30 million VITE/year, which is 3% of the total VITE in circulation. Of this 30 million VITE, 50% goes to the block producers and 50% to be distributed as voting rewards."
           ]
         },
         {
           "question": "What is the daily reward of voting?",
           "answer": [
-            "The current annual return is expected to be 18%, but the total reward is fixed. As more and more users participate in the voting, the reward will be diluted for each person."
+            "The current annual return is expected to be 18%, but the total amount of distributed reward is fixed. Thus, as more and more users participate in voting, the amount of VITE received per person will be reduced. "
           ]
         }
       ],
@@ -1268,7 +1273,7 @@
         {
           "question": "What is the difference between Vite's Solidity++ and Ethereum’s Solidity?",
           "answer": [
-            "On a high level, the differences are similar to those of C and C++. In basic syntax, the two languages are largely compatible. The largest difference is in the synchronous (Ethereum) vs asynchronous (Vite) calls as mentioned earlier.",
+            "At a high level, the differences can be compared to those between C and C++. In basic syntax, the two languages are largely compatible. The largest difference lies in the synchronous (Ethereum) and asynchronous (Vite) calls as mentioned earlier.",
             "In addition, a series of standard libraries, such as string manipulation, floating-point operations, basic mathematical operations, containers, and sorting will be provided in Solidity++."
           ]
         },
@@ -1299,7 +1304,7 @@
         {
           "question": "Can Vite’s smart contracts support running on a mobile device? Will they be similar to Qtum and support mainstream languages like C++ and Java?",
           "answer": [
-            "Vite won’t support mobile. There are no current plans to support other languages. In the future, we will set up a VM Lab to continue research in smart contract language and virtual machine. We welcome participation from experts in these areas.",
+            "Vite smart contract will not have mobile support. There are no current plans to support other languages. In the future, we will set up a VM Lab to continue research in smart contract language and virtual machine. We welcome participation from experts in these areas.",
             "Our hiring Email address is: hr@vite.org。"
           ]
         },
@@ -1328,8 +1333,8 @@
         {
           "question": "How to solve the problem of one success with one failure in the asynchronous processing? Is there a transaction processing rollback mechanism?",
           "answer": [
-            "Vite is based on the block-lattice ledge structure. Under such a structure, it is impossible to make one success and one failure transaction. What can happen is one success with an unconfirmation by the “recipient”. So there will be no rollback.",
-            "A transaction is not 'confirmed' by the system is because a recorded transaction is to be confirmed. The recipient's private key is required to be signed and broadcast, and if the recipient has not confirmed (using the private key to sign and broadcast the block), In the 'pending' state."
+            "Vite is based on the block-lattice ledger structure. Under this setup, it is impossible to have one successful request with a failed response in a given transaction. Instead of a failed response, a successful request can be met with an unconfirmed response from the “recipient”. There will be no rollback.",
+            "Such a transaction will not be \"confirmed\" by the system until the recipient logs in to his or her account and signs off on the transaction. If the recipient does not confirm the transaction, it will remain in a \"pending\" state. "
           ]
         },
         {
@@ -1340,7 +1345,7 @@
           ]
         },
         {
-          "question": "Is the Name Service protected by a Homomorph Attack? If it is protected, how will this be achieved?",
+          "question": "Is the Name Service protected by a Homograph Attack? If it is protected, how will this be achieved?",
           "answer": [
             "We will limit the character set to ASCII and provide a library to hash the name into a prime image.",
             "As shown below: <a href='https://github.com/ethereum/blockies' target='_blank'>https://github.com/ethereum/blockies</a>. The text of the name may look similar, but the profile picture looks completely different."

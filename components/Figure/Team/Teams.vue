@@ -453,6 +453,16 @@ export default {
               ]
             },
             {
+              img: require('~/assets/images/community/Takeshi.jpg'),
+              key: 'Takeshi',
+              urls: [
+                {
+                  icon: ['fab', 'twitter'],
+                  url: 'https://twitter.com/Takeshi_TGAL'
+                }
+              ]
+            },
+            {
               img: require('~/assets/images/community/snaker.png'),
               key: 'snaker',
               urls: [
