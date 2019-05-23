@@ -2,11 +2,11 @@
   <section>
     <div class="container">
       <h1 style="margin-bottom: 30px;">{{$t('team.core')}}</h1>
-      <team-factory 
+      <team-factory
         :id="item.title"
-        :title="item.title" 
-        :list="item.list" 
-        v-for="(item, index) in teams" 
+        :title="item.title"
+        :list="item.list"
+        v-for="(item, index) in teams"
         :key="index">
       </team-factory>
     </div>
@@ -136,9 +136,9 @@ export default {
         {
           title: 'tech',
           list: [
-            { 
+            {
               img: require('~/assets/images/teams/zy2.jpg'),
-              urls: [], 
+              urls: [],
               key: 'Ada'
             },
             {
@@ -255,6 +255,10 @@ export default {
               img: require('~/assets/images/teams/wty.jpg'),
               urls: [
                 {
+                  icon: ['fab', 'linkedin'],
+                  url: 'https://www.linkedin.com/in/tingyue-wang-152813a2/'
+                },
+                {
                   icon: ['fab', 'github'],
                   url: 'https://github.com/woodghost'
                 }
@@ -303,10 +307,10 @@ export default {
               ],
               key: 'Hannah'
             },
-            { 
+            {
               img: require('~/assets/images/teams/hzh.jpg'),
-              urls: [], 
-              key: 'Zack' 
+              urls: [],
+              key: 'Zack'
             },
             {
               img: require('~/assets/images/teams/ljy.jpg'),
@@ -319,15 +323,15 @@ export default {
               ],
               key: 'Lola'
             },
-            { 
+            {
               img: require('~/assets/images/teams/wt.jpg'),
-              urls: [], 
-              key: 'Tony' 
+              urls: [],
+              key: 'Tony'
             },
-            { 
+            {
               img: require('~/assets/images/teams/lx.jpg'),
-              urls: [], 
-              key: 'Cassie' 
+              urls: [],
+              key: 'Cassie'
             },
             {
               img: require('~/assets/images/teams/hjy.jpg'),
@@ -339,30 +343,30 @@ export default {
               ],
               key: 'Candy'
             },
-            { 
+            {
               img: require('~/assets/images/teams/zqj.jpg'),
-              urls: [], 
-              key: 'Flanke' 
+              urls: [],
+              key: 'Flanke'
             },
-            { 
+            {
               img: require('~/assets/images/teams/wc.jpg'),
-              urls: [], 
-              key: 'Nate Wong' 
+              urls: [],
+              key: 'Nate Wong'
             },
-            { 
+            {
               img: require('~/assets/images/teams/yl.jpg'),
-              urls: [], 
-              key: 'Erin' 
+              urls: [],
+              key: 'Erin'
             },
-            { 
+            {
               img: require('~/assets/images/teams/ws.jpg'),
-              urls: [], 
-              key: 'Layla' 
+              urls: [],
+              key: 'Layla'
             },
-            { 
+            {
               img: require('~/assets/images/teams/llk.jpg'),
-              urls: [], 
-              key: 'Miya' 
+              urls: [],
+              key: 'Miya'
             }
           ],
         },

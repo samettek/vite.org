@@ -63,8 +63,8 @@ export default {
   },
   methods: {
     play() {
-      this.$i18n.locale === 'zh' 
-        ? player({ src: config.urls.video.loves.zh }) 
+      this.$i18n.locale === 'zh'
+        ? player({ src: config.urls.video.loves.zh })
         : player({ src: '', iframeSrc: 'https://www.youtube.com/embed/s_hxkBMizgM' }) ;
     }
   },
@@ -84,6 +84,10 @@ export default {
             'https://t.me/vite_russia',
             'https://t.me/vite_vietnamese',
             'https://t.me/vite_korean',
+            'https://t.me/vite_french',
+            'https://t.me/vite_arabic',
+            'https://t.me/vite_german',
+            'https://t.me/vite_japanese',
             'https://t.me/vite_thailand'
           ]
         },
@@ -218,8 +222,8 @@ export default {
           picture: require('~/assets/images/community/muhammad.jpg'),
           cname: 'Indonesia',
           name: 'Muhammad Usman',
-          mediaLink: 'https://medium.com/@netral8787',
-          icon: 'medium'
+          mediaLink: 'https://www.linkedin.com/in/netral8787/',
+          icon: 'linkedin'
         },
         {
           key: 11,

@@ -78,11 +78,14 @@ module.exports = {
     telegram: {
       ann: 'https://t.me/vite_ann',
       english: 'https://t.me/vite_en',
-      chinese: 'https://t.me/vite_zh',
+      russia: 'https://t.me/vite_russia',
       vietnamese: 'https://t.me/vite_vietnamese',
       korean: 'https://t.me/vite_korean',
-      russia: 'https://t.me/vite_russia',
-      thailand: 'https://t.me/vite_thailand'
+      japan: 'https://t.me/vite_japanese',
+      german: 'https://t.me/vite_german',
+      arabic: 'https://t.me/vite_arabic',
+      french: 'https://t.me/vite_french',
+      chinese: 'https://t.me/vite_zh'
     },
     whitePaper: {
       english: 'https://github.com/vitelabs/whitepaper/blob/master/vite_en.pdf',
