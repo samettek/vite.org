@@ -1369,7 +1369,12 @@
       "french": "French",
       "arabic": "Arabic",
       "german": "German",
-      "thailand": "Thailand"
+      "thailand": "Thailand",
+      "turkish": "Turkish",
+      "indonesian": "Indonesian",
+      "spanish": "Spanish",
+      "malaysian": "Malaysian",
+      "filipino": "Filipino"
     },
     "whitePaper": "WHITEPAPER",
     "whitePaperList": {

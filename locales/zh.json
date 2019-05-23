@@ -1359,7 +1359,12 @@
       "german": "德国群",
       "arabic": "阿拉伯群",
       "french": "法国群",
-      "thailand": "泰国群"
+      "thailand": "泰国群",
+      "turkish": "土耳其群",
+      "indonesian": "印度尼西亚群",
+      "spanish": "西班牙群",
+      "malaysian": "马来西亚群",
+      "filipino": "菲律宾群"
     },
     "whitePaperList": {
       "english": "英语",

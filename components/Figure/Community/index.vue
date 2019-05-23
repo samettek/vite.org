@@ -88,7 +88,12 @@ export default {
             'https://t.me/vite_arabic',
             'https://t.me/vite_german',
             'https://t.me/vite_japanese',
-            'https://t.me/vite_thailand'
+            'https://t.me/vite_thailand',
+            'https://t.me/vite_turkish',
+            'https://t.me/vite_indonesian',
+            'https://t.me/vite_spanish',
+            'https://t.me/vite_malaysian',
+            'https://t.me/vite_filipino'
           ]
         },
         {
