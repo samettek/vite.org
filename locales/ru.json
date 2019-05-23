@@ -1379,7 +1379,12 @@
       "french": "French",
       "arabic": "Arabic",
       "german": "German",
-      "thailand": "Тайский"
+      "thailand": "Тайский",
+      "turkish": "Turkish",
+      "indonesian": "Indonesian",
+      "spanish": "Spanish",
+      "malaysian": "Malaysian",
+      "filipino": "Filipino"
     },
     "whitePaper": "БЕЛАЯ КНИГА",
     "whitePaperList": {
