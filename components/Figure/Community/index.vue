@@ -93,7 +93,8 @@ export default {
             'https://t.me/vite_indonesian',
             'https://t.me/vite_spanish',
             'https://t.me/vite_malaysian',
-            'https://t.me/vite_filipino'
+            'https://t.me/vite_filipino',
+            'https://t.me/vite_bengali'
           ]
         },
         {

@@ -86,11 +86,12 @@ module.exports = {
       arabic: 'https://t.me/vite_arabic',
       french: 'https://t.me/vite_french',
       chinese: 'https://t.me/vite_zh',
-      turkish: "https://t.me/vite_turkish",
-      indonesian: "https://t.me/vite_indonesian",
-      spanish: "https://t.me/vite_spanish",
-      malaysian: "https://t.me/vite_malaysian",
-      filipino: "https://t.me/vite_filipino"
+      turkish: 'https://t.me/vite_turkish',
+      indonesian: 'https://t.me/vite_indonesian',
+      spanish: 'https://t.me/vite_spanish',
+      malaysian: 'https://t.me/vite_malaysian',
+      filipino: 'https://t.me/vite_filipino',
+      bengali: 'https://t.me/vite_bengali'
     },
     whitePaper: {
       english: 'https://github.com/vitelabs/whitepaper/blob/master/vite_en.pdf',
