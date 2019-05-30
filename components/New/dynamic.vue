@@ -16,7 +16,7 @@ export default {
     let url = this.$i18n.locale === 'zh' ? '/discover_zh.json' : '/discover_en.json';
     let reportUrl = this.$i18n.locale === 'zh' ? '/report_zh.json' : '/report_en.json';
     let res = await this.$axios.$get(url);
-    res = res.tags[2].list.filter(item => item.source === 1);
+    res = res.tags[1].list.filter(item => item.source === 1);
     let resReport = await this.$axios.$get(reportUrl);
     this.resAcLen = res.length + resReport.length;
    
@@ -27,7 +27,7 @@ export default {
       let url = val === 'zh' ? '/discover_zh.json' : '/discover_en.json';
       let reportUrl = val === 'zh' ? '/report_zh.json' : '/report_en.json';
       let res = await this.$axios.$get(url);
-      res = res.tags[2].list.filter(item => item.source === 1);
+      res = res.tags[1].list.filter(item => item.source === 1);
       let resReport = await this.$axios.$get(reportUrl);
       this.resAcLen = res.length + resReport.length;
    

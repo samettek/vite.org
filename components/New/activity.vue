@@ -26,22 +26,22 @@ export default {
   async mounted() {
     let url = this.$i18n.locale === 'zh' ? '/discover_zh.json' : '/discover_en.json';
     let res = await this.$axios.$get(url);
-    let resAcLen = res.tags[1].list.length;
+    let resAcLen = res.tags[0].list.length;
     if (resAcLen < 3) {
-      this.activitys = res.tags[1].list || [];
+      this.activitys = res.tags[0].list || [];
     } else {
-      this.activitys = res.tags[1].list.slice(0, 3) || [];
+      this.activitys = res.tags[0].list.slice(0, 3) || [];
     }
   },
   watch: {
     '$i18n.locale': async function(val) {
       let url = val === 'zh' ? '/discover_zh.json' : '/discover_en.json';
       let res = await this.$axios.$get(url);
-      let resAcLen = res.tags[1].list.length;
+      let resAcLen = res.tags[0].list.length;
       if (resAcLen < 3) {
-        this.activitys = res.tags[1].list || [];
+        this.activitys = res.tags[0].list || [];
       } else {
-        this.activitys = res.tags[1].list.slice(0, 3) || [];
+        this.activitys = res.tags[0].list.slice(0, 3) || [];
       }
     }
   },
@@ -49,7 +49,7 @@ export default {
     list() {
       return this.activitys.map(item=> {
         return {
-          img: item.imgUrl,
+          img: item.bannerUrl,
           title: item.title,
           skipUrl: item.skipUrl,
         };
