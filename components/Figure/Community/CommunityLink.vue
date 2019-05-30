@@ -76,7 +76,7 @@
       word-break: break-all;
     }
     .links {
-      margin-left: 23px;
+      margin-left: 15px;
       margin-top: 10px;
       @include touch {
         margin-left: 3px;
