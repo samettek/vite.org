@@ -25,23 +25,26 @@ export default {
   },
   async mounted() {
     let url = this.$i18n.locale === 'zh' ? '/discover_zh.json' : '/discover_en.json';
-    let res = await this.$axios.$get(url);
-    let resAcLen = res.tags[0].list.length;
-    if (resAcLen < 3) {
-      this.activitys = res.tags[0].list || [];
-    } else {
-      this.activitys = res.tags[0].list.slice(0, 3) || [];
-    }
+    await this.getData(url);
   },
   watch: {
     '$i18n.locale': async function(val) {
       let url = val === 'zh' ? '/discover_zh.json' : '/discover_en.json';
+      await this.getData(url);
+    }
+  },
+  methods: {
+    async getData(url) {
       let res = await this.$axios.$get(url);
-      let resAcLen = res.tags[0].list.length;
-      if (resAcLen < 3) {
-        this.activitys = res.tags[0].list || [];
-      } else {
-        this.activitys = res.tags[0].list.slice(0, 3) || [];
+      for (let i = 0; i < res.tags.length; i++) {
+        if (res.tags[i].tag === 'activity') {
+          let resAcLen = res.tags[i].list.length;
+          if (resAcLen < 3) {
+            this.activitys = res.tags[i].list || [];
+          } else {
+            this.activitys = res.tags[i].list.slice(0, 3) || [];
+          }
+        }
       }
     }
   },
@@ -49,7 +52,7 @@ export default {
     list() {
       return this.activitys.map(item=> {
         return {
-          img: item.bannerUrl,
+          img: item.imgUrl,
           title: item.title,
           skipUrl: item.skipUrl,
         };

@@ -15,23 +15,28 @@ export default {
   async mounted() {
     let url = this.$i18n.locale === 'zh' ? '/discover_zh.json' : '/discover_en.json';
     let reportUrl = this.$i18n.locale === 'zh' ? '/report_zh.json' : '/report_en.json';
-    let res = await this.$axios.$get(url);
-    res = res.tags[1].list.filter(item => item.source === 1);
-    let resReport = await this.$axios.$get(reportUrl);
-    this.resAcLen = res.length + resReport.length;
-   
-    this.dynamics = res.concat(resReport) || [];
+    await this.getData(url, reportUrl);
   },
   watch: {
     '$i18n.locale': async function(val) {
       let url = val === 'zh' ? '/discover_zh.json' : '/discover_en.json';
       let reportUrl = val === 'zh' ? '/report_zh.json' : '/report_en.json';
+      await this.getData(url, reportUrl);
+    }
+  },
+  methods: {
+    async getData(url, reportUrl) {
       let res = await this.$axios.$get(url);
-      res = res.tags[1].list.filter(item => item.source === 1);
-      let resReport = await this.$axios.$get(reportUrl);
-      this.resAcLen = res.length + resReport.length;
+      for (let i = 0; i < res.tags.length; i++) {
+        if (res.tags[i].tag === 'news') {
+          let res = await this.$axios.$get(url);
+          res = res.tags[i].list.filter(item => item.source === 1);
+          let resReport = await this.$axios.$get(reportUrl);
+          this.resAcLen = res.length + resReport.length;
    
-      this.dynamics = res.concat(resReport) || [];
+          this.dynamics = res.concat(resReport) || [];
+        }
+      }
     }
   },
   computed: {
