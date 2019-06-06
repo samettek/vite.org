@@ -15,9 +15,10 @@ import faYoutube from '@fortawesome/fontawesome-free-brands/faYoutube';
 import faWeibo from '@fortawesome/fontawesome-free-brands/faWeibo';
 import faFacebook from '@fortawesome/fontawesome-free-brands/faFacebook';
 import faMedium from '@fortawesome/fontawesome-free-brands/faMedium';
+import faInstagram from '@fortawesome/fontawesome-free-brands/faInstagram';
 
 export default ({ app, store }) => {
-  fontawesome.library.add(faGithub, faLinkin, faTwitter, faDiscord, faPlusCircle, faTelegram, faReddit, faWechat, faYoutube, faWeibo, faFacebook, faMedium);
+  fontawesome.library.add(faGithub, faLinkin, faTwitter, faDiscord, faPlusCircle, faTelegram, faReddit, faWechat, faYoutube, faWeibo, faFacebook, faMedium, faInstagram);
 
   Vue.component('fa-icon', FontAwesomeIcon);
 };
