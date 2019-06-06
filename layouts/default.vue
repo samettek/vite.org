@@ -269,11 +269,6 @@ export default {
         anchor: 'advisor'
       }, {
         type: 'inner',
-        name: 'global',
-        to: 'figure',
-        anchor: 'global'
-      }, {
-        type: 'inner',
         name: 'community',
         to: 'figure',
         anchor: 'community'       
