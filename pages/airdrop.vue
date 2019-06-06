@@ -74,7 +74,7 @@
         </div>
       </div>
     </section>
-    <section class="steps">
+    <!-- <section class="steps">
       <div class="container">
         <h1 class="title">{{ $t('airdrop.title2' ) }}</h1>
         <div class="timeline">
@@ -126,7 +126,7 @@
           </ul>
         </div>
       </div>
-    </section>
+    </section> -->
   </div>
 </template>
 
