@@ -105,6 +105,10 @@ module.exports = {
       russian: 'https://github.com/vitelabs/whitepaper/blob/master/vite_russian.pdf',
       japan: 'https://github.com/vitelabs/whitepaper/blob/master/vite_japan.pdf'
     },
+    SyraWP: {
+      en: 'https://github.com/vitelabs/whitepaper/blob/master/SyraCoinWhitePaper.pdf',
+      zh: 'https://github.com/vitelabs/whitepaper/blob/master/SyraCoinWhitePaper.pdf'
+    },
     exchange: {
       bittrex: 'https://international.bittrex.com/Market/Index?MarketName=BTC-VITE',
       okex: 'https://www.okex.com/spot/trade#product=vite_eth',

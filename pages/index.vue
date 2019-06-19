@@ -10,7 +10,19 @@
               </h1>
               <h2>{{$t("home.slogan")}}</h2>
             </div>
-            <WhitePaper class="wp-btn"></WhitePaper>
+            <WhitePaper class="wp-margin"></WhitePaper>
+            <div class="wp-margin wp-syra" @click="openSyraWP">
+              <span class="wp-wrapper">{{$t('home.whitePaperSyra')}}</span>
+              <svg width="9px" height="12px" viewBox="0 0 9 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g id="page" transform="translate(-421.000000, -962.000000)" stroke="#007AFF" stroke-width="2">
+                    <g id="Group-14" transform="translate(421.000000, 962.000000)">
+                      <polyline id="Shape" points="1 13 7 7 1 1"></polyline>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </div>
             <div class="btn-group-wrapper">
               <a
                 href="#activity"
@@ -73,17 +85,13 @@ export default {
   data () {
     return {
       isMobile: isMobile(),
-      QRcode: {
-        zh: require('~/assets/images/zhongapp.png'),
-        en: require('~/assets/images/waiapp.png')
-      },
-      urls: config.urls,
+      syraWP: config.urls.SyraWP,
       showNotice: true
     };
   },
   methods: {
-    onNavClick () {
-      this.navbarActive = false;
+    openSyraWP(){
+      window.open(this.syraWP[this.$i18n.locale]);
     }
   }
 };
@@ -168,7 +176,7 @@ export default {
     }
   }
   .topinfo__left {
-    padding-bottom: 130px;
+    padding-bottom: 5.625rem;
     margin-right: 50px;
     @include mobile {
       padding-bottom: 40px;
@@ -203,10 +211,23 @@ export default {
       font-size: 1rem;
     }
   }
-  
+
+  .wp-margin{
+    margin-top: 12px;
+  }
+  .wp-wrapper {
+    display: inline-block;
+    font-size:16px;
+    font-weight:600;
+    color:rgba(0,122,255,1);
+    line-height:18px;
+    vertical-align: baseline;
+    margin-right: 6px;
+    cursor: pointer;
+  }
 
   .btn-group-wrapper {
-    margin-top: 3.75rem;
+    margin-top: 1.5rem;
     height: 60px;
     color: white;
     letter-spacing: 1px;
@@ -220,8 +241,8 @@ export default {
       box-shadow: 0 10px 40px 0 rgba(126, 183, 238, 0.83);
       display: inline-block;
       width: 168px;
-      height: 60px;
-      line-height: 60px;
+      height: 50px;
+      line-height: 50px;
       color: white;
       background: $common-active-color;
       @include touch {
