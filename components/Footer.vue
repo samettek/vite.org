@@ -320,7 +320,11 @@ export default {
     padding-top: 28px;
     justify-content: space-between;
     .icon-wrapper {
-      // margin-left: 50px;
+      position: relative;
+      svg{
+        position: absolute;
+        right: -60px;
+      }
     }
   }
   .mt30 {
