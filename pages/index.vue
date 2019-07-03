@@ -215,8 +215,10 @@ export default {
   .wp-margin{
     margin-top: 12px;
   }
+  .wp-syra{
+    margin-right: 20px;
+  }
   .wp-wrapper {
-    display: inline-block;
     font-size:16px;
     font-weight:600;
     color:rgba(0,122,255,1);
