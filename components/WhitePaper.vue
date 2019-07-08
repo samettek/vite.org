@@ -5,7 +5,7 @@
       :disabled="!isEnabled"
       popoverClass="v-popover">
         <span class="wp-wrapper">{{$t('home.whitePaper')}}</span>
-        <svg width="9px" height="14px" viewBox="0 0 9 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <svg width="9px" height="12px" viewBox="0 0 9 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
               <g id="page" transform="translate(-421.000000, -962.000000)" stroke="#007AFF" stroke-width="2">
                   <g id="Group-14" transform="translate(421.000000, 962.000000)">

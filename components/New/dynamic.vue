@@ -43,6 +43,7 @@ export default {
     list() {
       return this.dynamics.map(item=> {
         let time = new Date(item.createTime * 1000);
+        item.bannerUrl = item.bannerUrl.replace(/\s/ig,'');
         return {
           img: item.bannerUrl,
           desc: item.desc,

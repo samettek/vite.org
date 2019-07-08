@@ -93,6 +93,24 @@
                         src="~/assets/images/footer/medium.svg"/>
                     </a>
                     <a
+                      :href="urls.instagram"
+                      target="_blank"
+                      class="text-hover-transition"
+                    >
+                      <img
+                        class="icon__item"
+                        src="~/assets/images/community/ins-white.svg"/>
+                    </a>
+                    <a
+                      :href="urls.facebook"
+                      target="_blank"
+                      class="text-hover-transition"
+                    >
+                      <img
+                        class="icon__item"
+                        src="~/assets/images/community/fb-white.svg"/>
+                    </a>
+                    <a
                       :href="urls.discord"
                       target="_blank"
                       class="text-hover-transition"
@@ -137,6 +155,13 @@
                       <img
                         class="icon__item"
                         src="~/assets/images/community/forum-icon.svg"/>
+                    </a>
+                    <a
+                      :href="urls.blockfolio"
+                      target="_blank">
+                      <img
+                        class="icon__item"
+                        src="~/assets/images/community/blockfolio-white.svg"/>
                     </a>
                     <a
                       :href="urls.media.bitcointalk"
@@ -295,7 +320,11 @@ export default {
     padding-top: 28px;
     justify-content: space-between;
     .icon-wrapper {
-      // margin-left: 50px;
+      position: relative;
+      svg{
+        position: absolute;
+        right: -60px;
+      }
     }
   }
   .mt30 {

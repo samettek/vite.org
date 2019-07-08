@@ -73,6 +73,7 @@
     "header": "Vite",
     "slogan": "快速，实用，闭环区块链",
     "whitePaper": "白皮书",
+    "whitePaperSyra": "Vite 美国雪城合作项目白皮书",
     "testnet": "预览版",
     "acttext": "免费领取VITE代币",
     "actwait": "敬请期待",
@@ -169,7 +170,7 @@
         },
         {
           "name": "投票赚奖励",
-          "description": "投票官方节点，瓜分VITE分红"
+          "description": "投票超级节点，瓜分VITE分红"
         },
         {
           "name": "空投得VITE",
@@ -921,9 +922,9 @@
       },
       "Tina": {
         "name": "王莛岳",
-        "job": "前端开发工程师",
+        "job": "产品经理",
         "position": "北京",
-        "description": "3年前端开发经验，毕业于新加坡南洋理工大学（NTU），获得信息科学硕士学位。曾任职于中国和新加坡知名互联网企业。"
+        "description": "3年前端开发经验，1年产品经验，毕业于新加坡南洋理工大学（NTU），获得信息科学硕士学位。曾任职于中国和新加坡知名互联网企业。"
       },
       "Rod": {
         "name": "罗立东",

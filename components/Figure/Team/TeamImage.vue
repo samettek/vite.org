@@ -26,9 +26,14 @@
           v-for="url in urls"
         >
           <fa-icon
-            class="icon text-hover-transition"
+            v-if="!url.icon.includes('linkedin')"
+            class="icon icon__padding text-hover-transition"
             :icon="url.icon"
           />
+          <img
+            v-else
+            class="icon text-hover-transition"
+            src="~/assets/images/community/linkedin.svg">
         </a>
       </div>
       <div class="desc is-flex">
@@ -122,6 +127,9 @@ export default {
         height: 24px;
         width: 24px;
         margin-left: 16px;
+      }
+      .icon__padding {
+        padding: 2px;
       }
     }
     .position {

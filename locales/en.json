@@ -74,6 +74,7 @@
     "header": "Vite",
     "slogan": "High-Performance Decentralized Ecosystem",
     "whitePaper": "White Paper",
+    "whitePaperSyra": "Vite Selected to Tokenize American City!",
     "testnet": "TestNet",
     "acttext": "Get VITE Token Free",
     "actwait": "Stay tuned!",
@@ -170,7 +171,7 @@
         },
         {
           "name": "Acquire Rewards via Voting",
-          "description": "Voting for Official SBPs, Collect VITE Rewards"
+          "description": "Voting for Supernodes, Collect VITE Rewards"
         },
         {
           "name": "Earn VITE via Airdrop",
@@ -969,9 +970,9 @@
       },
       "Tina": {
         "name": "Tina Wang",
-        "job": "Front-End Developer",
+        "job": "Product Manager",
         "position": "Beijing",
-        "description": "Tina has 3 years of front-end development experience. She graduated from Nanyang Technological University in Singapore, with a Master's of Science in Information Studies. Tina has previously worked at technology firms in both China and Singapore."
+        "description": "Tina has 3 years of front-end development experience and 1 year of experience in PM. She graduated from Nanyang Technological University in Singapore, with a Master's of Science in Information Studies. Tina has previously worked at technology firms in both China and Singapore."
       },
       "Rod": {
         "name": "Rod Luo",

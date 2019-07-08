@@ -47,6 +47,9 @@ module.exports = {
     },
     twitter: 'https://twitter.com/vitelabs',
     discord: 'https://discordapp.com/invite/CsVY76q',
+    instagram: 'https://www.instagram.com/vite.labs/',
+    facebook: 'https://www.facebook.com/vitelabs/',
+    blockfolio: 'https://blockfolio.com/coin/VITE',
     reddit: 'https://www.reddit.com/r/vitelabs',
     github: 'https://github.com/vitelabs',
     document: 'https://vite.wiki',
@@ -101,6 +104,10 @@ module.exports = {
       vietnamese: 'https://github.com/vitelabs/whitepaper/blob/master/vite_vietnamese.pdf',
       russian: 'https://github.com/vitelabs/whitepaper/blob/master/vite_russian.pdf',
       japan: 'https://github.com/vitelabs/whitepaper/blob/master/vite_japan.pdf'
+    },
+    SyraWP: {
+      en: 'https://github.com/vitelabs/whitepaper/blob/master/SyraCoinWhitePaper.pdf',
+      zh: 'https://github.com/vitelabs/whitepaper/blob/master/SyraCoinWhitePaper.pdf'
     },
     exchange: {
       bittrex: 'https://international.bittrex.com/Market/Index?MarketName=BTC-VITE',

@@ -102,6 +102,18 @@ export default {
           links: ['https://github.com/vitelabs']
         },
         {
+          img: require('~/assets/images/community/instagram.svg'),
+          links: ['https://www.instagram.com/vite.labs/']
+        },
+        {
+          img: require('~/assets/images/community/facebook.svg'),
+          links: ['https://www.facebook.com/vitelabs/']
+        },
+        {
+          img: require('~/assets/images/community/blockfolio.svg'),
+          links: ['https://blockfolio.com/coin/VITE']
+        },
+        {
           img: require('~/assets/images/community/dicordblue.svg'),
           links: ['https://discordapp.com/invite/CsVY76q']
         },
