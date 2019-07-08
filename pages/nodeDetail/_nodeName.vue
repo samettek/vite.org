@@ -268,6 +268,18 @@
               name: 'Mr. Terence Lam'
             }]
           },
+          n4q: {
+            desc: [{
+              name: 'email',
+              links: ['mailto:contact@n4q.org']
+            }],
+            img: require('~/assets/images/superNode/n4q.png'),
+            banner: require('~/assets/images/superNode/n4qbanner.png'),
+            photo: [{
+              img: require('~/assets/images/superNode/yandong.jpg'),
+              name: 'Dong, Yan'
+            }]
+          },
           belsona: {
             desc: [{
               name: 'email',

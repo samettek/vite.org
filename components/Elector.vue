@@ -75,6 +75,10 @@
           {
             img: require('~/assets/images/superNode/belsonabanner.jpg'),
             key: 'belsona'
+          },
+          {
+            img: require('~/assets/images/superNode/n4qbanner.png'),
+            key: 'n4q'
           }
         ]
       };
