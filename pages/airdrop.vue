@@ -194,8 +194,14 @@ export default {
     .is-info {
       display: flex;
     }
+    .is-half{
+      margin: 8%;
+    }
     .slogan-wrapper {
       max-width: 500px;
+      h1{
+        font-size: 40px;
+      }
       ul {
         margin-left: 3%;
         padding-top: 20px;
@@ -242,7 +248,7 @@ export default {
     }
   }
   .btn-group-wrapper {
-    margin-top: 12px;
+    margin-top: 6%;
     height: 60px;
     color: white;
     letter-spacing: 1px;

@@ -506,8 +506,9 @@ export default {
 }
 .is-airdrop-page {
   margin-top: 0;
-  background: no-repeat url("~assets/images/bg/airdrop/bgpic.png");
+  background: no-repeat url("~assets/images/bg/airdrop/airdropbg.svg");
   background-color: $common-bg-color;
+  background-size: 120%;
   @include touch {
     background: no-repeat url("~assets/images/bg/airdrop/bgpic.png") 60% 0%;
   }
