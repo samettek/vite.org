@@ -1,9 +1,9 @@
 <template>
   <section>
     <footer class="footer">
-      <div clss="ft-container">
-        <div class="is-flex whole-footer container">
-          <div class="icon-wrapper is-one-third is-hidden-touch">
+      <div class="ft-container">
+        <div class="is-flex whole-footer">
+          <div class="icon-wrapper is-hidden-touch">
             <logo-without-words></logo-without-words>
           </div>
           <div class="footer-tab">
@@ -303,27 +303,30 @@ export default {
 .footer {
   min-height: 315px;
   background: url("~assets/images/footer/footer.svg") 87% no-repeat;
-  // background-size: cover;
-  z-index: 3;
+  background-size: cover;
   padding: 0;
+  z-index: 3;
   .ft-container {
     display: flex;
     justify-content: space-around;
+    margin: 0 10% 0 16%;
   }
   @media only screen and (min-width: 320px) and (max-width: 1240px)  {
     background: #2b88ff;
   }
   @media only screen and (min-width: 1540px) {
    background: url("~assets/images/footer/footer2.svg") 100% no-repeat;
+
   }
   .whole-footer {
-    padding-top: 28px;
+    width: 100%;
+    padding: 30px;
     justify-content: space-between;
     .icon-wrapper {
       position: relative;
       svg{
         position: absolute;
-        right: -60px;
+        right: -80px;
       }
     }
   }
