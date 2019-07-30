@@ -195,7 +195,7 @@ export default {
       display: flex;
     }
     .is-half{
-      margin: 8%;
+      margin: 8% 20% 5% 2%;
     }
     .slogan-wrapper {
       max-width: 500px;
