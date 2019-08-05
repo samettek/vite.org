@@ -51,7 +51,7 @@ export default {
         },
         {
           key: 'exchange',
-          url: 'https://x-test.vite.net/trade',
+          url: 'https://x.vite.net',
           img: require('~/assets/images/product/exchange.jpg'),
         },
         {
