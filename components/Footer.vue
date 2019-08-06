@@ -239,6 +239,10 @@ export default {
     return {
       navExchangeList: [{
         type: 'outer',
+        name: 'vitex',
+        to: urls.exchange.vitex
+      }, {
+        type: 'outer',
         name: 'okex',
         to: urls.exchange.okex
       }, {

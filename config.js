@@ -110,8 +110,9 @@ module.exports = {
       zh: 'https://github.com/vitelabs/whitepaper/blob/master/SyraCoinWhitePaper.pdf'
     },
     exchange: {
+      vitex: 'https://x.vite.net',
       bittrex: 'https://international.bittrex.com/Market/Index?MarketName=BTC-VITE',
-      okex: 'https://www.okex.com/spot/trade#product=vite_eth',
+      okex: 'https://www.okex.com/spot/trade#product=vite_btc',
       upbit: 'https://sg.upbit.com/exchange?code=CRIX.UPBIT.BTC-VITE'
     },
     media: {
