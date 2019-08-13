@@ -119,6 +119,18 @@
               logoActive: require('~/assets/images/investor/dazhi-blue.png')
             },
             {
+               key: 'UniValues',
+               logo: require('~/assets/images/investor/UniValues.png'),
+               logoActive: require('~/assets/images/investor/UniValues-blue.png'),
+               url: 'https://univalues.org/'
+             },
+             {
+               key: 'axi',
+               logo: require('~/assets/images/investor/axi.png'),
+               logoActive: require('~/assets/images/investor/axi-blue.png'),
+               url: 'https://axi.vc/'
+             },
+            {
               key: 'handsome',
               logo: require('~/assets/images/investor/handsome.png'),
               logoActive: require('~/assets/images/investor/handsome-blue.png')
@@ -138,18 +150,6 @@
               logo: require('~/assets/images/investor/bn.png'),
               logoActive: require('~/assets/images/investor/bn-blue.png')
             }
-            // {
-            //   key: 'axi',
-            //   logo: require('~/assets/images/investor/axi.png'),
-            //   logoActive: require('~/assets/images/investor/axi-blue.png'),
-            //   url: 'https://axi.vc/'
-            // },
-            // {
-            //   key: 'UniValues',
-            //   logo: require('~/assets/images/investor/UniValues.png'),
-            //   logoActive: require('~/assets/images/investor/UniValues-blue.png'),
-            //   url: 'https://univalues.org/'
-            // },
             // {
             //   key: 'helloCapital',
             //   logo: require('~/assets/images/investor/hello.png'),
