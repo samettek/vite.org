@@ -26,6 +26,12 @@
           hover: null,
           list: [
             {
+              key: 'bitmain',
+              logo: require('~/assets/images/investor/bitmain.png'),
+              logoActive: require('~/assets/images/investor/bitmain-blue.png'),
+              url: 'https://www.bitmain.com/'
+            },
+            {
               key: 'ld',
               logo: require('~/assets/images/investor/ld.png'),
               logoActive: require('~/assets/images/investor/ld-blue.png'),
@@ -47,7 +53,7 @@
               key: 'ok',
               logo: require('~/assets/images/investor/ok.png'),
               logoActive: require('~/assets/images/investor/ok-blue.png'),
-              url: 'https://www.okex.com/pages/products/blockchain.html'
+              url: 'https://www.okex.com/project/9'
             },
             {
               key: 'bp',
@@ -62,50 +68,16 @@
               url: 'http://distributed.fund'
             },
             {
-              key: 'helloCapital',
-              logo: require('~/assets/images/investor/hello.png'),
-              logoActive: require('~/assets/images/investor/hello-blue.png'),
-              url: 'http://hellocapital.net/'
-            },
-            {
-              key: 'zhizi',
-              logo: require('~/assets/images/investor/zhizi.png'),
-              logoActive: require('~/assets/images/investor/zhizi-blue.png')
-            },
-            {
-              key: 'wanbu',
-              logo: require('~/assets/images/investor/wanbu.png'),
-              logoActive: require('~/assets/images/investor/wanbu-blue.png'),
-              url: 'http://wandarin.org/'
-            },
-            {
-              key: 'axi',
-              logo: require('~/assets/images/investor/axi.png'),
-              logoActive: require('~/assets/images/investor/axi-blue.png'),
-              url: 'https://axi.vc/'
-            },
-            {
               key: 'bigcoin',
               logo: require('~/assets/images/investor/bigcoin.png'),
               logoActive: require('~/assets/images/investor/bigcoin-blue.png'),
               url: 'https://www.linkedin.com/company/bigcoin-capital/'
             },
             {
-              key: 'UniValues',
-              logo: require('~/assets/images/investor/UniValues.png'),
-              logoActive: require('~/assets/images/investor/UniValues-blue.png'),
-              url: 'https://univalues.org/'
-            },
-            {
-              key: 'hot',
-              logo: require('~/assets/images/investor/hot.png'),
-              logoActive: require('~/assets/images/investor/hot-blue.png')
-            },
-            {
-              key: 'bitmain',
-              logo: require('~/assets/images/investor/bitmain.png'),
-              logoActive: require('~/assets/images/investor/bitmain-blue.png'),
-              url: 'https://www.bitmain.com/'
+              key: 'wanbu',
+              logo: require('~/assets/images/investor/wanbu.png'),
+              logoActive: require('~/assets/images/investor/wanbu-blue.png'),
+              url: 'http://wandarin.org/'
             },
             {
               key: 'funcityCapital',
@@ -118,6 +90,28 @@
               logo: require('~/assets/images/investor/starwin.png'),
               logoActive: require('~/assets/images/investor/starwin-blue.png'),
               url: 'https://www.tianyancha.com/organize/b5dfe14738'
+            },
+            {
+              key: 'nodeCapital',
+              logo: require('~/assets/images/investor/node.png'),
+              logoActive: require('~/assets/images/investor/node-blue.png'),
+              url: 'http://www.nodecap.com/'
+            },
+            {
+              key: 'linkvc',
+              logo: require('~/assets/images/investor/linkvc.png'),
+              logoActive: require('~/assets/images/investor/linkvc-blue.png'),
+              url: 'http://www.linkvc.com/'
+            },
+            {
+              key: 'zhizi',
+              logo: require('~/assets/images/investor/zhizi.png'),
+              logoActive: require('~/assets/images/investor/zhizi-blue.png')
+            },
+            {
+              key: 'hot',
+              logo: require('~/assets/images/investor/hot.png'),
+              logoActive: require('~/assets/images/investor/hot-blue.png')
             },
             {
               key: 'dazhi',
@@ -143,19 +137,25 @@
               key: 'bn',
               logo: require('~/assets/images/investor/bn.png'),
               logoActive: require('~/assets/images/investor/bn-blue.png')
-            },
-            {
-              key: 'nodeCapital',
-              logo: require('~/assets/images/investor/node.png'),
-              logoActive: require('~/assets/images/investor/node-blue.png'),
-              url: 'http://www.nodecap.com/'
-            },
-            {
-              key: 'linkvc',
-              logo: require('~/assets/images/investor/linkvc.png'),
-              logoActive: require('~/assets/images/investor/linkvc-blue.png'),
-              url: 'http://www.linkvc.com/'
             }
+            // {
+            //   key: 'axi',
+            //   logo: require('~/assets/images/investor/axi.png'),
+            //   logoActive: require('~/assets/images/investor/axi-blue.png'),
+            //   url: 'https://axi.vc/'
+            // },
+            // {
+            //   key: 'UniValues',
+            //   logo: require('~/assets/images/investor/UniValues.png'),
+            //   logoActive: require('~/assets/images/investor/UniValues-blue.png'),
+            //   url: 'https://univalues.org/'
+            // },
+            // {
+            //   key: 'helloCapital',
+            //   logo: require('~/assets/images/investor/hello.png'),
+            //   logoActive: require('~/assets/images/investor/hello-blue.png'),
+            //   url: 'http://hellocapital.net/'
+            // },
           ]
         };
       },
