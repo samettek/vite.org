@@ -121,14 +121,12 @@
             {
                key: 'UniValues',
                logo: require('~/assets/images/investor/UniValues.png'),
-               logoActive: require('~/assets/images/investor/UniValues-blue.png'),
-               url: 'https://univalues.org/'
+               logoActive: require('~/assets/images/investor/UniValues-blue.png')
              },
              {
                key: 'axi',
                logo: require('~/assets/images/investor/axi.png'),
-               logoActive: require('~/assets/images/investor/axi-blue.png'),
-               url: 'https://axi.vc/'
+               logoActive: require('~/assets/images/investor/axi-blue.png')
              },
             {
               key: 'handsome',
