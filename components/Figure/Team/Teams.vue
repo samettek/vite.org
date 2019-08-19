@@ -130,6 +130,16 @@ export default {
                 }
               ],
               key: 'Juliet Su'
+            },
+            {
+              img: require('~/assets/images/teams/emmanuel.png'),
+              urls: [
+                {
+                  icon: ['fab', 'linkedin'],
+                  url: 'https://www.linkedin.com/in/emmanuel-tokunbo-darko-8490a341/'
+                }
+              ],
+              key: 'Emmanuel Darko'
             }
           ],
         },
