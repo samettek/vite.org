@@ -723,6 +723,32 @@
         ],
         "name": "Belsona Investment Group LP",
         "description": "En VITE nous avons confiance"
+      },
+      "bi23": {
+        "info": [
+          "bi23 team is an expericenced team in blockchain fields , we have developed several dapps independently, such as coinwar、sports forecast ,and so on. also, we have a professional crypto navigation site—bi23.com, which is aimed to provide a better crypto navigation service.  ",
+          "Andrew Shen——Senior practitioners in blockchain fields, he has deep knowledge in and more than 8 years of trading experience at crypto exchanges;"
+        ],
+        "config": [
+          "We have a primary validation node and a backup validation node located in two different data centers in Hong Kong and the United States.They all have reserve power and private networks.Our special program can monitor the status of these two validation nodes at any time, and inform us by email, SMS or telegram in case of failure, so as to ensure the safety and stability of the validation node online."
+        ],
+        "location": [
+          "Toronto,Canada"
+        ],
+        "plan": [
+          "Step 1：become a supernode, providing a safer staking service for our users through a stable block rate and 100% uptime.",
+          "Step 2: apply to become a VITEX operator , actively participate in the ecological construction.",
+          "Step 3: focus on the promotion of bi32 supernode and continue promoting the increase of vite consensus."
+        ],
+        "medium": [
+          "Wechat：bi23com",
+          "Twitter：@bi23com",
+          "Telegram：Liqianyi，andrew shen",
+          "Official website：https://bi23.com",
+          "Vite website：https://vite.bi23.com"
+        ],
+        "name": "vite.bi23",
+        "description": "Bi23 focuses on the Crypto-Assets, providing customers with Staking and DeFi services. "
       }
     }
   },
