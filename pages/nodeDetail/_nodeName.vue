@@ -280,6 +280,18 @@
               name: 'Dong, Yan'
             }]
           },
+          bi23: {
+            desc: [{
+              name: 'email',
+              links: ['mailto:support@bi23.com']
+            }],
+            img: require('~/assets/images/superNode/bi23logo.jpg'),
+            banner: require('~/assets/images/superNode/bi23banner.png'),
+            photo: [{
+              img: require('~/assets/images/superNode/andrewshen.png'),
+              name: 'Dong, Yan'
+            }]
+          },
           belsona: {
             desc: [{
               name: 'email',
@@ -359,7 +371,7 @@
         text-align: left;
         img {
           height: 160px;
-          width: 160px;
+          max-width: 160px;
         }
       }
       .left-info {

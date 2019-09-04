@@ -710,6 +710,39 @@
         ],
         "name": "Belsona Investment Group LP",
         "description": "In VITE we trust"
+      },
+      "bi23": {
+        "info": [
+          "bi23团队是一支有深厚扎实的技术开发经验的团队，深耕于区块链及加密货币行业数十年，潜心于技术，专心于服务。不仅独立开发上线币神争霸（coinwar）、体育赛事预测等DAPP，更有bi23.com类专业加密货币导航网站。雄厚的技术背景毋庸置疑。",
+
+          "Andrew——区块链资深从业者，对区块链和加密货币领域有深刻的洞察和独到见解，在加密资产领域有超过8年的实践经验。"
+        ],
+        "config": [
+          "bi23节点设有一个主验证节点和一个备份验证节点，分别位于香港和美国两个独立的数据中心，拥有储备电力和专用网络。特别配置的智能监控程序会持续监控两个验证节点的运营状况，一旦故障发生，会即刻通过电子邮件，短信或电报通知运维人员，以确保节点安全稳定的在线。"
+        ],
+        "location": [
+          "加拿大，多伦多"
+        ],
+        "plan": [
+          "第一步：积极承担超级节点的责任及义务，为用户提供更安全/更稳定收益的质押奖励服务。",
+
+          "第二步：积极申请成为VITEX运营商，以更多元的角色加入到vite项目的生态建设中。",
+
+          "第三步：持续通过多渠道/多方式，进行vite生态和bi23节点的推广宣传，持续推进vite项目公信度的提升和共识度的增加。"
+        ],
+        "medium": [
+          "Wechat：bi23com",
+
+          "Twitter：@bi23com",
+
+          "Telegram：Liqianyi，andrew shen",
+
+          "Official website：https://bi23.com",
+
+          "Vite website：https://vite.bi23.com"
+        ],
+        "name": "vite.bi23",
+        "description": "Bi23 focuses on the Crypto-Assets, providing customers with Staking and DeFi services. "
       }
     }
   },

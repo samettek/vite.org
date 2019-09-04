@@ -79,6 +79,10 @@
           {
             img: require('~/assets/images/superNode/n4qbanner.png'),
             key: 'n4q'
+          },
+          {
+            img: require('~/assets/images/superNode/bi23banner.png'),
+            key: 'bi23'
           }
         ]
       };
