@@ -941,12 +941,6 @@
         "position": "Пекин",
         "description": "Шеньян имеет более чем 4-летний опыт разработки под iOS, работая в некоторых популярных ИТ-компаниях в Китае."
       },
-      "Candy": {
-        "name": "Хелен Хан",
-        "job": "Операции Продукта",
-        "position": "Пекин",
-        "description": "Helen has 3 years of experience in Product Operations. She has previously worked for Meituan SaaS and Fangtianxia Research Institute, serving as an Operations specialist who dealt with data maintenance, system requests and optimization, and surveillance."
-      },
       "Eric": {
         "name": "Эрик Вонг",
         "job": "Системный Архитектор",
@@ -1018,12 +1012,6 @@
         "job": "Операции Продукта",
         "position": "Пекин",
         "description": "Фланке имеет 3-летний опыт работы с брендами и ранее работал в iHeima и Xiangshang Finance."
-      },
-      "Nate Wong": {
-        "name": "Nate Wong",
-        "job": "Product Operations",
-        "position": "Beijing",
-        "description": "Nate has 2 years of experience working in a well-known cryptocurrency exchange as an operation specialist."
       },
       "Erin": {
         "name": "Эрин Ю",
