@@ -289,7 +289,7 @@
             banner: require('~/assets/images/superNode/bi23banner.png'),
             photo: [{
               img: require('~/assets/images/superNode/andrewshen.png'),
-              name: 'Dong, Yan'
+              name: 'Andrew Shen'
             }]
           },
           belsona: {

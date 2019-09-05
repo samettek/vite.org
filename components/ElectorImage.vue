@@ -64,10 +64,10 @@
       position: relative;
       margin-bottom: 10px;
       .img-bg {
-        height: 120px;
+        max-height: 120px;
         width: 214px;
         img {
-          height: 120px;
+          max-height: 120px;
           width: 214px;
           opacity: 1;
           transition: all 0.6s ease;
