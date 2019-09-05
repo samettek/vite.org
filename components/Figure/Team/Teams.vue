@@ -344,24 +344,9 @@ export default {
               key: 'Cassie'
             },
             {
-              img: require('~/assets/images/teams/hjy.jpg'),
-              urls: [
-                {
-                  icon: ['fab', 'github'],
-                  url: 'https://github.com/Candyhanjingyi'
-                }
-              ],
-              key: 'Candy'
-            },
-            {
               img: require('~/assets/images/teams/zqj.jpg'),
               urls: [],
               key: 'Flanke'
-            },
-            {
-              img: require('~/assets/images/teams/wc.jpg'),
-              urls: [],
-              key: 'Nate Wong'
             },
             {
               img: require('~/assets/images/teams/yl.jpg'),
