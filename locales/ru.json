@@ -726,14 +726,14 @@
       },
       "bi23": {
         "info": [
-          "bi23 team is an expericenced team in blockchain fields , we have developed several dapps independently, such as coinwar、sports forecast ,and so on. also, we have a professional crypto navigation site—bi23.com, which is aimed to provide a better crypto navigation service.  ",
-          "Andrew Shen——Senior practitioners in blockchain fields, he has deep knowledge in and more than 8 years of trading experience at crypto exchanges;"
+          "Bi23 team is an expericenced team in blockchain fields , focus on the Crypto-Assets, providing customers with Staking and DeFi services. Bi23 is not only the Third supernode of Vite, but also the operator of ViteX ,  through which we deeply participate in the construction of vite ecology and increasing consensus. Besides, Bi23 also are the active validators of  Cosmos、IRISnet、Tezos and Terra , which proves Bi23's strong technical background and rich experiences in the field of Crypto-Assets.",
+          "Andrew Shen——Senior practitioners in bolckchain fields, he has deep knowledge in and more than 8 years of trading experience at crypto exchanges"
         ],
         "config": [
           "We have a primary validation node and a backup validation node located in two different data centers in Hong Kong and the United States.They all have reserve power and private networks.Our special program can monitor the status of these two validation nodes at any time, and inform us by email, SMS or telegram in case of failure, so as to ensure the safety and stability of the validation node online."
         ],
         "location": [
-          "Toronto,Canada"
+          "Independent data centers in Toronto,Canada and Hong Kong, China."
         ],
         "plan": [
           "Step 1：become a supernode, providing a safer staking service for our users through a stable block rate and 100% uptime.",
