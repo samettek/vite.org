@@ -4,11 +4,18 @@
     :class="`is-${routeName}-public`"
   >
     <div class="airdrop__fiexd" v-if="routeName !== 'airdrop'">
-      <nuxt-link
-        :to="localePath('airdrop')"
-        class="text-hover-transition">
+      <a
+        :href="urls.exchange.vitex"
+        target="_blank"
+        class="text-hover-transition"
+      >
         {{$t('home.jionAirdrop')}}
-      </nuxt-link>
+      </a>
+      <!--<nuxt-link-->
+        <!--:to="localePath('airdrop')"-->
+        <!--class="text-hover-transition">-->
+        <!--{{$t('home.jionAirdrop')}}-->
+      <!--</nuxt-link>-->
     </div>
     <no-ssr>
       <dialog-compo

@@ -42,13 +42,13 @@ export default {
   computed: {
     list() {
       if (this.tabParams === 'completed') {
-        return this.getTimelines().slice(0, 10);
+        return this.getTimelines().slice(0, 11);
       }
       if (this.tabParams === 'inProgress') {
-        return this.getTimelines().slice(10, 11);
+        return this.getTimelines().slice(11, 12);
       }
       if (this.tabParams === 'nextStep') {
-        return this.getTimelines().slice(11);
+        return this.getTimelines().slice(12);
       }
       return [];
     }
@@ -57,13 +57,13 @@ export default {
     tableList(item) {
       for (let i = 0; i < this.tabs.length; i++) {
         if (item === 'completed') {
-          return this.getTimelines().slice(0, 10);
+          return this.getTimelines().slice(0, 11);
         }
         if (item === 'inProgress') {
-          return this.getTimelines().slice(10, 11);
+          return this.getTimelines().slice(11, 12);
         }
         if (item === 'nextStep') {
-          return this.getTimelines().slice(11);
+          return this.getTimelines().slice(12);
         }
       }
     },
