@@ -62,7 +62,7 @@
     "store": "Vite Store"
   },
   "home": {
-    "jionAirdrop": "Earn VITE Tokens Now!",
+    "jionAirdrop": "Trade on ViteX Now!",
     "activity1": "Campaigns",
     "activity2": "News",
     "explorer": "Explorateur",
@@ -350,10 +350,11 @@
       {
         "time": "T3 2019",
         "description": [
-          "Lancement du MainNet",
-          "dApps (supportées par les clients d'applications mobiles)",
-          "Lancement de Stable Coins sur le DEX",
-          "Réalisation de Paiements"
+          "ViteX Decentralized Exchange Release",
+          "MainNet Release",
+          "dApps (supported by mobile client application)",
+          "Stable Coin Issuance on DEX",
+          "Payment Fulfilment"
         ]
       },
       {
