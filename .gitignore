@@ -33,4 +33,5 @@ workbox-*
 
 .DS_store
 package-lock.json
+static.tar
 
