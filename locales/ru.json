@@ -62,7 +62,7 @@
     "store": "Vite Store"
   },
   "home": {
-    "jionAirdrop": "Earn VITE Tokens Now!",
+    "jionAirdrop": "Trade on ViteX Now!",
     "activity1": "Campaigns",
     "activity2": "News",
     "explorer": "Обозреватель",
@@ -350,10 +350,11 @@
       {
         "time": "3 квартал 2019 года",
         "description": [
-          "Выпуск Основной Сети",
-          "dApps (поддерживается мобильным клиентским приложением)",
-          "Выпуск Стабильной Монеты на DEX",
-          "Выполнение Платежа"
+          "ViteX Decentralized Exchange Release",
+          "MainNet Release",
+          "dApps (supported by mobile client application)",
+          "Stable Coin Issuance on DEX",
+          "Payment Fulfilment"
         ]
       },
       {
