@@ -62,8 +62,7 @@
     "store": "Vite Store"
   },
   "home": {
-    "jionAirdrop": "Earn VITE Tokens Now!",
-    "bottomBtn": "Trade on ViteX Now!",
+    "gotoVitex": "Trade on ViteX Now!",
     "activity1": "Campaigns",
     "activity2": "News",
     "explorer": "Обозреватель",
