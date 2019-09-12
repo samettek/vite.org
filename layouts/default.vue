@@ -9,7 +9,7 @@
         target="_blank"
         class="text-hover-transition"
       >
-        {{$t('home.bottomBtn')}}
+        {{$t('home.gotoVitex')}}
       </a>
       <!--<nuxt-link-->
         <!--:to="localePath('airdrop')"-->
@@ -22,7 +22,7 @@
         :visible.sync="dialogVisible"
         v-if="routeName === 'index'">
         <div class="is-flex dialog__img" style="justify-content: center;">
-          <img src="~/assets/images/airdrop/dialog.svg"/>
+          <img src="~/assets/images/vitex.svg"/>
         </div>
         <!-- <div style="margin-top: 23px;">{{$t('home.jionAirdrop')}}</div> -->
         <span slot="footer">
@@ -30,7 +30,7 @@
             <nuxt-link
               :to="localePath('airdrop')"
               class="footer-btn">
-              {{$t('home.jionAirdrop')}}
+              {{$t('home.gotoVitex')}}
             </nuxt-link>
           </div>
         </span>

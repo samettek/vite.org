@@ -60,8 +60,7 @@
     "store": "Vite商城"
   },
   "home": {
-    "jionAirdrop": "参与空投",
-    "bottomBtn": "去ViteX交易",
+    "gotoVitex": "去ViteX交易",
     "activity1": "最新活动",
     "activity2": "最新动态",
     "explorer": "区块浏览器",
