@@ -452,7 +452,6 @@ export default {
   width: 153px;
   height: 131px;
   text-align: center;
-  background-image: url("~assets/images/activity.svg");
   color: white;
   font-family: $font-family-title;
   font-size: 13px;

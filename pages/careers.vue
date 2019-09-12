@@ -3,7 +3,7 @@
     <section class="faq-header">
       <div class="container">
         <div class="img-wrapper">
-          <img src="~/assets/images/careers.png" alt="careers">
+          <!--<img src="~/assets/images/careers.png" alt="careers">-->
         </div>
         <h1>VITE Labs</h1>
         <h2>{{$t('careers.subtitle')}}</h2>
