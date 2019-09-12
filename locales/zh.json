@@ -60,7 +60,8 @@
     "store": "Vite商城"
   },
   "home": {
-    "jionAirdrop": "去ViteX交易",
+    "jionAirdrop": "参与空投",
+    "bottomBtn": "去ViteX交易",
     "activity1": "最新活动",
     "activity2": "最新动态",
     "explorer": "区块浏览器",
@@ -337,7 +338,6 @@
       {
         "time": "2019 Q3",
         "description": [
-          "ViteX 去中心化交易所上线",
           "主网上线",
           "移动客户端支持小程序",
           "发行稳定币",

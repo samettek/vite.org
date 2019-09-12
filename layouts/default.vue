@@ -9,7 +9,7 @@
         target="_blank"
         class="text-hover-transition"
       >
-        {{$t('home.jionAirdrop')}}
+        {{$t('home.bottomBtn')}}
       </a>
       <!--<nuxt-link-->
         <!--:to="localePath('airdrop')"-->
