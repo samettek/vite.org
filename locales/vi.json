@@ -342,24 +342,31 @@
         "time": "Quý 2/ 2019",
         "description": [
           "Tối ưu hóa hiệu suất",
-          "Kích hoạt Hợp đồng thông minh điều chỉnh theo thời gian",
-          "Dịch vụ đặt tên cho địa chỉ",
-          "Nâng cấp hợp đồng thông minh"
+          "Smart Contract Upgrades"
         ]
       },
       {
         "time": "Quý 3/ 2019",
         "description": [
           "MainNet Release",
-          "dApps (supported by mobile client application)",
-          "Stable Coin Issuance on DEX",
-          "Payment Fulfilment"
+          "ViteX Decentralised Exchange Release",
+          "ViteX Mobile Support"
         ]
       },
       {
         "time": "Quý 4/ 2019",
         "description": [
-          "Xây dựng hệ sinh thái dApp"
+          "Timer-Triggered Smart Contract Scheduler",
+          "Naming Service for Addresses",
+          "Stable Coin Issuance on DEX",
+          "Payment Fulfilment"
+        ]
+      },
+      {
+        "time": "Q1 2020",
+        "description": [
+          "dApp Ecosystem Construction",
+          "dApps (supported by mobile client application)"
         ]
       }
     ]
