@@ -342,24 +342,31 @@
         "time": "T2 2019",
         "description": [
           "Optimisation de Performance",
-          "Planificateur Temporel de Smart Contract",
-          "Service d'Apellation pour Adresses",
-          "Améliorations des Smart Contracts"
+          "Smart Contract Upgrades"
         ]
       },
       {
         "time": "T3 2019",
         "description": [
           "MainNet Release",
-          "dApps (supported by mobile client application)",
-          "Stable Coin Issuance on DEX",
-          "Payment Fulfilment"
+          "ViteX Decentralised Exchange Release",
+          "ViteX Mobile Support"
         ]
       },
       {
         "time": "T4 2019",
         "description": [
-          "Construction de l'Ecosystème de dApp"
+          "Timer-Triggered Smart Contract Scheduler",
+          "Naming Service for Addresses",
+          "Stable Coin Issuance on DEX",
+          "Payment Fulfilment"
+        ]
+      },
+      {
+        "time": "Q1 2020",
+        "description": [
+          "dApp Ecosystem Construction",
+          "dApps (supported by mobile client application)"
         ]
       }
     ]
