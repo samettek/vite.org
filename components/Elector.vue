@@ -81,7 +81,7 @@
             key: 'n4q'
           },
           {
-            img: require('~/assets/images/superNode/bi23banner.png'),
+            img: require('~/assets/images/superNode/bi23banner.jpg'),
             key: 'bi23'
           }
         ]

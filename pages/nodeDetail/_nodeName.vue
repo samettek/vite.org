@@ -286,7 +286,7 @@
               links: ['mailto:support@bi23.com']
             }],
             img: require('~/assets/images/superNode/bi23logo.jpg'),
-            banner: require('~/assets/images/superNode/bi23banner.png'),
+            banner: require('~/assets/images/superNode/bi23banner.jpg'),
             photo: [{
               img: require('~/assets/images/superNode/andrewshen.png'),
               name: 'Andrew Shen'
