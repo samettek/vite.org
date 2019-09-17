@@ -342,24 +342,31 @@
         "time": "2 квартал 2019 года",
         "description": [
           "Оптимизация Производительности",
-          "Планировщик Cмарт Контракта с Таймером",
-          "Служба Именования Адресов",
-          "Обновления Смарт Контракта"
+          "Smart Contract Upgrades"
         ]
       },
       {
         "time": "3 квартал 2019 года",
         "description": [
           "MainNet Release",
-          "dApps (supported by mobile client application)",
-          "Stable Coin Issuance on DEX",
-          "Payment Fulfilment"
+          "ViteX Decentralised Exchange Release",
+          "ViteX Mobile Support"
         ]
       },
       {
         "time": "4 квартал 2019 года",
         "description": [
-          "Построение Экосистемы dApp"
+          "Timer-Triggered Smart Contract Scheduler",
+          "Naming Service for Addresses",
+          "Stable Coin Issuance on DEX",
+          "Payment Fulfilment"
+        ]
+      },
+      {
+        "time": "Q1 2020",
+        "description": [
+          "dApp Ecosystem Construction",
+          "dApps (supported by mobile client application)"
         ]
       }
     ]
