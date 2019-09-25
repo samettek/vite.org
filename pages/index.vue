@@ -34,8 +34,9 @@
               >{{$t('home.activity2')}}</a>
             </div>
           </div>
-          <div class="topinfo__right">
-            <v-video></v-video>
+          <div class="topinfo__right" @click="openLink">
+            <!--<v-video></v-video>-->
+            <img :src="imgObj[$i18n.locale]" >
           </div>
         </div>
       </div>
@@ -66,6 +67,8 @@ import { VPopover } from 'v-tooltip';
 import isMobile from 'is-mobile';
 
 import config from '~/config.js';
+import imgEn from '~/assets/images/notice/en.jpg';
+import imgZh from '~/assets/images/notice/zh.jpg';
 
 export default {
   components: {
@@ -86,12 +89,20 @@ export default {
     return {
       isMobile: isMobile(),
       syraWP: config.urls.SyraWP,
-      showNotice: true
+      activity: config.urls.mainnetRelease,
+      showNotice: true,
+      imgObj:{
+        'en': imgEn,
+        'zh': imgZh,
+      },
     };
   },
   methods: {
     openSyraWP(){
       window.open(this.syraWP[this.$i18n.locale]);
+    },
+    openLink(){
+      window.open(this.activity[this.$i18n.locale]);
     }
   }
 };
@@ -185,6 +196,10 @@ export default {
   }
   .topinfo__right {
     align-self: flex-end;
+    img{
+      margin-bottom: 6%;
+      cursor: pointer;
+    }
     @include mobile {
       align-self: stretch;
     }

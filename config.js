@@ -134,6 +134,10 @@ module.exports = {
         vi: 'https://docs.google.com/forms/d/e/1FAIpQLScixWTDuId0MCJQGi0jVI3LCivQ-r5fNUMFCnLf-uodIc_EsA/viewform'
       }
 
+    },
+    mainnetRelease:{
+      en: '',
+      zh: ''
     }
   }
 };
