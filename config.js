@@ -136,8 +136,8 @@ module.exports = {
 
     },
     mainnetRelease:{
-      en: '',
-      zh: ''
+      en: 'https://forum.vite.net/topic/2753/announcing-the-vite-mainnet-launch',
+      zh: 'https://forum.vite.net/topic/2750/%E4%B8%BB%E7%BD%91%E4%B8%8A%E7%BA%BF-%E5%85%A8%E7%90%83%E9%A6%96%E4%B8%AA%E5%9F%BA%E4%BA%8Edag%E5%AE%9E%E7%8E%B0%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6%E7%9A%84%E5%85%AC%E9%93%BE-vite%E4%B8%BB%E7%BD%91%E6%88%90%E5%8A%9F%E4%B8%8A%E7%BA%BF'
     }
   }
 };
