@@ -1222,24 +1222,24 @@
             "VITE - 1 billion",
             "VITE is the native coin on Vite public chain. VITE ERC20 tokens were issued when Vite was first founded and can now be migrated VITE native tokens at a 1:1 ratio on the Vite wallet app. Both VITE native coins and Vite ERC20 tokens have investment value and can be traded on exchanges.",
 
-            "VCP - 10 billion",
-            "VCP stands for Vite Community Points. VCP can be earned from campaigns or activities. You can exchange VCP for physical or virtual goods in the Vite Store. Although VCP is stable in value, it has no investment value and will not be listed on exchanges.",
+            "VX - 100 million",
+            "VX is the token related to ViteX. Users who hold VX enjoy payouts from a shared dividend pool comprised of transaction and listing fees. There will be no public nor private sale for VX. Users can only get VX through mining.",
 
-            "VTT - no total amount.",
-            "VTT stands for Vite Test Tokens. VTT only exist in Testnet so that users can test transactions and smart contract functions. "
+            "VCP - 10 billion",
+            "VCP stands for Vite Community Points. VCP can be earned from campaigns or activities. You can exchange VCP for physical or virtual goods in the Vite Store. Although VCP is stable in value, it has no investment value and will not be listed on exchanges."
+
           ]
         },
         {
           "question": "Which exchange(s) will VITE be listed on?",
           "answer": [
-            "Currently VITE is listed on Bittex, Okex, and Upbit. We are also in contact with other exchanges. Stay tuned!"
+            "Currently VITE is listed on ViteX, Bittex, Okex, and Upbit. We are also in contact with other exchanges. Stay tuned!"
           ]
         },
         {
-          "question": " What is the current development stage? Is there a MainNet?",
+          "question": " What is the current development stage? Is there a Mainnet?",
           "answer": [
-            "Vite is still in the Testnet phase. However, VITE does have a value as the current Testnet supports supernode mining. ",
-            "Pre-Mainnet is launched on 15:00 on May 21, 2019 in PST. The MainNet is expected to be launched in the 3rd quarter of 2019."
+            "Vite Mainnet is launched officially on September 25, 2019. The launching of Mainnet marks a significant milestone in Vite’s development as it signifies that the Vite public chain will now formally support the functions and expansions of the ecosystem built upon it. We have so far deployed several use cases, such as our Syracuse GovCoin pilot project, a Decentralized Exchange (ViteX), and many DApp games. However, with the launch of our Mainnet, we will be actively engaging and involving more users to help us grow our community-driven decentralized ecosystem."
           ]
         },
         {
@@ -1274,7 +1274,7 @@
           ]
         },
         {
-          "question": "How to download Vite wallet? Is there a reward for downloading the wallet?？",
+          "question": "How to download Vite wallet? Is there a reward for downloading the wallet？",
           "answer": [
             "You can find the Vite iOS wallet in the Apple Store and the Vite Android wallet in the Play Store. Once the wallet is downloaded, users can receive daily airdrop rewards of 10-1000 VITE everyday. "
           ]
