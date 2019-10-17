@@ -59,6 +59,8 @@
     "blog": "Tech Blog",
     "more": "More",
     "explorer": "Block Explorer",
+    "viteExplorer": "Vite Block Explorer",
+    "viteScan": "ViteScan",
     "store": "Vite Store"
   },
   "home": {
