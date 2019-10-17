@@ -43,7 +43,7 @@ const iconMap = {
     [
       require('~/assets/images/feature/tags/performance10.svg'),
       require('~/assets/images/feature/tags/performance11.svg'),
-      require('~/assets/images/feature/tags/performance12.svg')
+      require('~/assets/images/feature/tags/performance12.png')
     ]
   ],
   flexable: [
