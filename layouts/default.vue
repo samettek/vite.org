@@ -77,6 +77,7 @@
                 :footer-name="$t(`nav.production`)"
                 footer-to="products"
                 :secondary-list="navProductionList">
+                <explorer></explorer>
               </secondary-menu>
             </div>
             <div class="nav-item">
@@ -155,6 +156,7 @@ import voteNotice from '~/components/voteNotice.vue';
 import about from '~/components/about.vue';
 import Exchange from '~/components/Exchange.vue';
 import SecondaryMenu from '~/components/SecondaryMenu.vue';
+import Explorer from '~/components/Explorer.vue';
 
 export default {
   components: {
@@ -166,7 +168,8 @@ export default {
     voteNotice,
     about,
     dialogCompo,
-    SecondaryMenu
+    SecondaryMenu,
+    Explorer
   },
   head () {
     let { routeName } = this;

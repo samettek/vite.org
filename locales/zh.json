@@ -56,7 +56,9 @@
     "blog": "技术博客",
     "whitepaper": "白皮书",
     "more": "更多",
-    "explorer": "区块浏览器",
+    "explorer":"区块浏览器",
+    "viteExplorer": "Vite区块浏览器",
+    "viteScan": "ViteScan",
     "store": "Vite商城"
   },
   "home": {

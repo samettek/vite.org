@@ -14,10 +14,16 @@ module.exports = {
       vi: 'https://global.vite.store'
     },
     explorer: {
-      zh: 'https://explorer.vite.net/zh',
-      en: 'https://explorer.vite.net',
-      ru: 'https://explorer.vite.net',
-      vi: 'https://explorer.vite.net'
+      viteExplorer: {
+        zh: 'https://explorer.vite.net/zh',
+        en: 'https://explorer.vite.net',
+        ru: 'https://explorer.vite.net',
+        vi: 'https://explorer.vite.net'
+      },
+      viteScan: {
+        zh: 'https://vitescan.io/',
+        en: 'https://vitescan.io/'
+      }
     },
     webWallet: {
       zh: 'https://wallet.vite.net',

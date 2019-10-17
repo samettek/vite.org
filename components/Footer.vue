@@ -63,10 +63,15 @@
                     <about></about>
                   </div>
                   <div class="nav-item">
-                    <footer-menu 
-                      :footer-name="$t(`nav.more`)"
-                      :secondary-list="navMoreList">
-                    </footer-menu>
+                    <div>
+                      <div class="secondary-button">
+                        <span>{{ $t(`nav.more`) }}</span>
+                      </div>
+                      <explorer :is-footer="true"></explorer>
+                      <footer-menu 
+                        :secondary-list="navMoreList">
+                      </footer-menu>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -205,6 +210,7 @@ import Exchange from '~/components/Exchange.vue';
 import about from '~/components/about';
 import SecondaryMenu from '~/components/SecondaryMenu.vue';
 import FooterMenu from '~/components/FooterMenu.vue';
+import Explorer from '~/components/Explorer.vue';
 
 export default {
   components: {
@@ -214,7 +220,8 @@ export default {
     Exchange,
     about,
     SecondaryMenu,
-    FooterMenu
+    FooterMenu,
+    Explorer
   },
   props: {
     navProductionList: {
@@ -279,15 +286,17 @@ export default {
       }];
     },
     navMoreList() {
-      return [{
-        type: 'outer',
-        name: 'explorer',
-        to: this.urls.explorer[this.$i18n.locale]
-      }, {
-        type: 'outer',
-        name: 'store',
-        to: this.urls.vitestore[this.$i18n.locale]
-      }];
+      return [
+      //   {
+      //   type: 'outer',
+      //   name: 'explorer',
+      //   to: this.urls.explorer[this.$i18n.locale]
+      // }, 
+        {
+          type: 'outer',
+          name: 'store',
+          to: this.urls.vitestore[this.$i18n.locale]
+        }];
     } 
   },
   methods: {
@@ -303,6 +312,24 @@ export default {
 
 <style rel="stylesheet/scss" lang="scss" scoped>
 @import "~assets/vars";
+.secondary-button {
+    color: white;;
+    padding: 0 0 0 0;
+    // font-family: $font-family-light;
+    font-size:14px;
+    font-family:$font-family-title;
+    font-weight:600;
+    color:rgba(255,255,255,1);
+    line-height:20px;
+    margin-bottom: 6px;
+    &:focus {
+      border: none;
+      box-shadow: none;
+    }
+    &:hover {
+      color: white;
+    }
+  }
 
 .footer {
   min-height: 315px;

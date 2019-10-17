@@ -31,6 +31,7 @@
           v-if="item.type && item.type === 'inner'">
           {{$t(`nav.${item.name}`)}}
         </nuxt-link>
+        <slot></slot>
       </div>
     </div>
   </div>
