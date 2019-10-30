@@ -349,11 +349,6 @@ export default {
               key: 'Flanke'
             },
             {
-              img: require('~/assets/images/teams/yl.jpg'),
-              urls: [],
-              key: 'Erin'
-            },
-            {
               img: require('~/assets/images/teams/ws.jpg'),
               urls: [],
               key: 'Layla'
