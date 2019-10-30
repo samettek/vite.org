@@ -1,5 +1,5 @@
 <template>
-  <div class="dropdown is-hoverable is-right dropdown-lv2" :style="{width:isFooter?'':'100%'}">
+  <div class="dropdown is-hoverable  dropdown-lv2" :class="{'is-right': !isFooter}" :style="{width:isFooter?'':'100%'}">
     <div class="dropdown-trigger">
       <a
         :class="{'foot-btn': isFooter,'dropdown-item':!isFooter}"
@@ -72,8 +72,8 @@ export default {
 }
 .dropdown-menu {
   #lang-dropdown-menu{
-      overflow-y: scroll;
-      max-height: 100px;
+      // overflow-y: scroll;
+      // max-height: 100px;
     }
   .dropdown-content {
     display: none;
@@ -84,6 +84,10 @@ export default {
       }
     }
   }
+}
+.dropdown.is-right .dropdown-menu {
+  left: 100%;
+  top: 0;
 }
 </style>
 
