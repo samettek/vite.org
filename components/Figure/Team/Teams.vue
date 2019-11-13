@@ -121,16 +121,16 @@ export default {
               ],
               key: 'Chris Li'
             },
-            {
-              img: require('~/assets/images/teams/Juliet Su.jpg'),
-              urls: [
-                {
-                  icon: ['fab', 'linkedin'],
-                  url: 'https://www.linkedin.com/in/juliet-su-27386a8b/'
-                }
-              ],
-              key: 'Juliet Su'
-            },
+            // {
+            //   img: require('~/assets/images/teams/Juliet Su.jpg'),
+            //   urls: [
+            //     {
+            //       icon: ['fab', 'linkedin'],
+            //       url: 'https://www.linkedin.com/in/juliet-su-27386a8b/'
+            //     }
+            //   ],
+            //   key: 'Juliet Su'
+            // },
             {
               img: require('~/assets/images/teams/emmanuel.png'),
               urls: [
@@ -348,11 +348,11 @@ export default {
               urls: [],
               key: 'Flanke'
             },
-            {
-              img: require('~/assets/images/teams/ws.jpg'),
-              urls: [],
-              key: 'Layla'
-            },
+            // {
+            //   img: require('~/assets/images/teams/ws.jpg'),
+            //   urls: [],
+            //   key: 'Layla'
+            // },
             {
               img: require('~/assets/images/teams/llk.jpg'),
               urls: [],
