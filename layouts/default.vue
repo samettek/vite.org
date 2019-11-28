@@ -1,6 +1,6 @@
 <template>
   <div
-    class="public"
+    class="public __vite__"
     :class="`is-${routeName}-public`"
   >
     <div class="airdrop__fiexd" v-if="routeName !== 'airdrop'">
@@ -69,11 +69,11 @@
           class="navbar-menu"
           :class="{ 'is-active': navbarActive, collapsing: collapsing }"
         >
-          <div 
+          <div
             ref="navbarStart"
             class="navbar-start">
             <div class="nav-item">
-              <secondary-menu 
+              <secondary-menu
                 :footer-name="$t(`nav.production`)"
                 footer-to="products"
                 :secondary-list="navProductionList">
@@ -81,7 +81,7 @@
               </secondary-menu>
             </div>
             <div class="nav-item">
-              <secondary-menu 
+              <secondary-menu
                 :footer-name="$t(`nav.person`)"
                 footer-to="figure"
                 :secondary-list="navPersonList">
@@ -91,7 +91,7 @@
               <voteNotice></voteNotice>
             </div>
             <div class="nav-item">
-              <secondary-menu 
+              <secondary-menu
                 :footer-name="$t(`nav.medium`)"
                 footer-to="medium"
                 :secondary-list="navMediaList">
@@ -101,7 +101,7 @@
               <Exchange></Exchange>
             </div>
             <div class="nav-item">
-              <secondary-menu 
+              <secondary-menu
                 :footer-name="$t(`nav.guide`)"
                 :secondary-list="navGuideList">
               </secondary-menu>
@@ -135,7 +135,7 @@
         <nuxt :keep-alive="true"></nuxt>
       </transition>
     </div>
-    <v-footer 
+    <v-footer
       :nav-production-list="navProductionList"
       :nav-person-list="navPersonList"
       :nav-guide-list="navGuideList"
@@ -260,7 +260,7 @@ export default {
         type: 'inner',
         name: 'exchange',
         to: 'products',
-        anchor: 'exchange'      
+        anchor: 'exchange'
       }, {
         type: 'inner',
         name: 'pay',
@@ -281,7 +281,7 @@ export default {
         type: 'inner',
         name: 'community',
         to: 'figure',
-        anchor: 'community'       
+        anchor: 'community'
       }, {
         type: 'inner',
         name: 'investor',
