@@ -129,13 +129,12 @@
         "title": "SBP number reaches",
         "title1": "",
         "count": "SBP Number"
-    },
+      },
       "fullnode": {
         "title": "Vite full nodes reach",
         "nodeName": "Node Name"
       },
-      "textList": [
-        {
+      "textList": [{
           "name": "High Performance",
           "description": "DAG Ledger and Asynchronous Architecture ensure fast and ultra-high throughput of Vite platform"
         },
@@ -159,8 +158,7 @@
     },
     "wallet": {
       "title": "Multi-Token Wallet",
-      "textList": [
-        {
+      "textList": [{
           "name": "Zero Transaction Fees",
           "description": "Transaction consumes quota which can be acquired by running PoW for free"
         },
@@ -188,8 +186,7 @@
     },
     "exchange": {
       "title": "Decentralized Digital Assets Trading Platform",
-      "textList": [
-        {
+      "textList": [{
           "name": "True Decentralization, Secure Asset Management",
           "description": "Achieve transaction matching through smart contract driven dividend distribution. Complete on-chain order matching, order book storage. Private keys are stored locally, only yourself have access to the private key and your assets."
         },
@@ -209,8 +206,7 @@
     },
     "pay": {
       "title": "Secure, Convenient, Low-Cost Payment",
-      "textList": [
-        {
+      "textList": [{
           "name": "Instant Confirmation, Support Industrial-Strength Requests",
           "description": "DAG chain and asynchronous architecture introduced by Vite public chain ensure that the confirmation can be done within seconds. This architecture is able to hold billions of transactions and high-performance concurrent requests."
         },
@@ -245,138 +241,137 @@
     "nextStep": "Future",
     "previous": "PREVIOUS",
     "next": "NEXT",
-    "timelines": [
-      {
-        "time": "February 2018",
-        "description": "Project Initiation"
-      },
-      {
-        "time": "April 2018",
-        "description": [
-          {
-            "text": "White Paper Completion",
+    "timelines": [{
+        "time": "2018 Q2",
+        "description": [{
+            "text": "Vite White Paper",
             "url": "https://www.vite.org/whitepaper/vite_en.pdf"
-          }
-        ]
-      },
-      {
-        "time": "May 2018",
-        "description": [
-          "Private Sale Fundraise",
-          "Official Website",
-          "Founding Team"
-        ]
-      },
-      {
-        "time": "June 2018",
-        "description": [
-          "R&D Team",
-          "Core Technology Development"
-        ]
-      },
-      {
-        "time": "August 2018",
-        "description": " go-vite 0.1"
-      },
-      {
-        "time": "September 2018",
-        "description": [
-          {
-            "text": "Web Wallet",
-            "url": "https://wallet.vite.net/"
           },
-          "iOS Wallet",
+          "Vite Official Website, Private Sale, Team Establishment"
+        ]
+      },
+      {
+        "time": "2018 Q3",
+        "description": [
+          "Vite Core 0.1 Golang Implementation",
           {
-            "text": "Block Explorer",
+            "text": "Vite Web Wallet",
+            "url": "https://x.vite.net/"
+          },
+          "Vite iOS Wallet",
+          {
+            "text": "Vite Block Explorer",
             "url": "https://explorer.vite.net/"
           }
         ]
       },
       {
-        "time": "October 2018",
-        "description": [
-          {
-            "text": "Conversion of ERC20 VITE into VITE (56% of total token supply)",
+        "time": "2018 Q4",
+        "description": [{
+            "text": "56% of ERC20 VITE Converted to Native",
             "url": "https://medium.com/vitelabs/testnet-an-update-erc20-token-migration-guide-7c200bef7337"
-          }
-        ]
-      },
-      {
-        "time": "November 2018",
-        "description": [
-          "Vite TestNet 1.0.0",
+          },
+          "Vite TestNet 1.0 - Alpha Test",
           {
-            "text": "Snapshot Block Producer (SBP) Campaign",
+            "text": "SBP (Snapshot Block Producer) Activated",
             "url": "https://explorer.vite.net/SBPList"
           },
-          "Mining"
+          "Vite TestNet 1.0 - Launch"
         ]
       },
       {
-        "time": "December 2018",
+        "time": "2019 Q1",
         "description": [
-          "Smart Contract/ Solidity++ Alpha Test",
-          "Cross-Chain Gateway Alpha Test",
-          "Multi-Token Wallet Alpha Test",
+          "Vite Pre-MainNet",
+          "ViteX (DEX) - Beta Test",
+          "Smart Contract/Solidity++ Compiler - Beta Test",
           {
-            "text": "Decentralized Exchange (DEX) Alpha Test | View Forbes Article",
-            "url": "https://www.forbes.com/sites/yoavvilner/2018/12/16/the-state-of-decentralized-exchanges-and-plans-for-2019/#6af853b83059"
-          },
-          "Website 2.0",
-          {
-            "text": "Official Forum Website",
-            "url": "https://forum.vite.net/"
+            "text": "Vite Multi-Asset HD Wallet",
+            "url": "http://vite.org/products#wallet"
           }
         ]
       },
       {
-        "time": "Q1 2019",
+        "time": "2019 Q2",
         "description": [
-          "Pre-MainNet Release",
-          "Cross-Chain Gateway Open Beta Test",
-          "DEX Open Beta Test",
-          "Smart Contract/Solidity++ Open Beta Test",
-          "Multi-Token Wallet Release",
-          "Multi-VM (Virtual Machine) Support (EVM / WASM)"
+          "Pre-MainNet Optimization",
+          "Smart Contract Upgrades",
+          "DApp Games"
         ]
       },
       {
-        "time": "Q2 2019",
+        "time": "2019 Q3",
         "description": [
-          "Performance Optimization",
-          "Smart Contract Upgrades"
+          "Vite MainNet - Launch",
+          "ViteX (DEX) - Launch",
+          "ViteX in Mobile"
         ]
       },
       {
-        "time": "Q3 2019",
+        "time": "2019 Q4",
         "description": [
-          "MainNet Release",
-          "ViteX Decentralised Exchange Release",
-          "ViteX Mobile Support"
+          "Payment Fulfilment",
+          "DeFi - Borrowing and Lending",
+          "Vite Android HD Wallet - GRIN Support",
+          "Hardware Wallet - NFC Card",
+          "Hardware Wallet - Ledger",
+          "Vite HD Wallet - BTC Support",
+          "Java SDK Refactoring",
+          "First VX (ViteX Token) Mined",
+          "ViteX Dividend",
+          "Distribution Update - VX Staking",
+          "ViteX Referral Program II",
+          "ViteX in Mobile - Klines",
+          "Full Node Incentive Program II"
         ]
       },
       {
-        "time": "Q4 2019",
+        "time": "2020 Q1",
         "description": [
-          "Timer-Triggered Smart Contract Scheduler",
-          "Naming Service for Addresses",
-          "Stable Coin Issuance on DEX",
-          "Payment Fulfilment"
+          "One-step DEX Deployment",
+          "DApp",
+          "Development Tool Upgrades",
+          "Vite HD Wallet - New Cryptocurrencies",
+          "Payment - New Adoption",
+          "Vite Web Wallet Upgrade",
+          "Vite Desktop Wallet",
+          "Vite Wallet - Browser Extension"
         ]
       },
       {
-        "time": "Q1 2020",
+        "time": "2020 Q2",
         "description": [
-          "dApp Ecosystem Construction",
-          "dApps (supported by mobile client application)"
+          "Vite Plus: High-performance blockchain solution for large and medium-sized enterprises and government",
+          "Smart Contract - Scheduling Service",
+          "Vite Naming Service",
+          "Vite 2.0 White Paper",
+          "Stable Coins on Vite",
+          "Vite Ecosystem - Builds, Incubation and Incentivisation"
+        ]
+      },
+      {
+        "time": "2020 Q3",
+        "description": [
+          "Multi-VM Support",
+          "DApp Mini-program Support",
+          "DeFi - Futures Trading"
+        ]
+      },
+      {
+        "time": "2020 Q4",
+        "description": [
+          "Vite 2.0 - Alpha Test",
+          "Multi-VM Support - Beta Test",
+          "DApp Mini-program SDK",
+          "ViteX on Vite 2.0 - Alpha Test",
+          "DeFi on Vite 2.0 - Alpha Test"
         ]
       }
     ]
   },
   "elector": {
     "title": "SBP Candidates",
-    "detailTitles": [
-      {
+    "detailTitles": [{
         "key": "info",
         "title": "Information of Team Members"
       },
@@ -1005,7 +1000,7 @@
         "description": "Zack graduated from Beijing University of Posts and Telecommunications with a Master's Degree. He has over 4 years of experience working with IT products and has worked for prestigious firms, the likes of DiDi and Baidu. There he was in charge of managing applications with millions of daily active users (DAU)."
       },
       "Tina": {
-        "name": "Tina Wang",
+        "name": "Tina",
         "job": "Product Manager",
         "position": "Beijing",
         "description": "Tina has 3 years of front-end development experience and 1 year of experience in PM. She graduated from Nanyang Technological University in Singapore, with a Master's of Science in Information Studies. Tina has previously worked at technology firms in both China and Singapore."
@@ -1117,8 +1112,7 @@
   },
   "superNodes": {
     "title": "Guide for SBP",
-    "contents": [
-      {
+    "contents": [{
         "orderNum": "I.",
         "question": "Information you need to submit",
         "answer": [
@@ -1135,8 +1129,7 @@
       {
         "orderNum": "II.",
         "question": "Registration of SBP, Voting and Creating Blocks",
-        "second": [
-          {
+        "second": [{
             "title": "Follow these steps to register a supernode and prepare for election:",
             "answer": [
               "1. Migrate the Vite ERC20 tokens you wish to stake for your SBP. <br/> In mid-November, migrate your ERC20 Vite tokens to the Vite TestNet via the smart contract provided by Vite. ",
@@ -1197,8 +1190,7 @@
     "common": "Common",
     "technology": "Tech",
     "questions": {
-      "common": [
-        {
+      "common": [{
           "question": "What is Vite?",
           "answer": [
             "Vite is a general-purpose platform for decentralized applications. It is designed to support industrial-strength applications by offering high throughput, low latency and scalability while also providing security.",
@@ -1310,8 +1302,7 @@
           ]
         }
       ],
-      "technology": [
-        {
+      "technology": [{
           "question": "Since smart contracts in Vite don’t support synchronous calls, how will such calls in Ethereum be compatible with Vite?",
           "answer": "Unfortunately, these calls are not compatible with Vite. Synchronous calls need to be changed to asynchronous calls to work in Vite."
         },

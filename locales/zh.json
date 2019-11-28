@@ -56,7 +56,7 @@
     "blog": "技术博客",
     "whitepaper": "白皮书",
     "more": "更多",
-    "explorer":"区块浏览器",
+    "explorer": "区块浏览器",
     "viteExplorer": "Vite区块浏览器",
     "viteScan": "ViteScan",
     "store": "Vite商城"
@@ -132,8 +132,7 @@
         "title": "Vite全节点数",
         "nodeName": "节点名称"
       },
-      "textList": [
-        {
+      "textList": [{
           "name": "高性能",
           "description": "Vite通过DAG账本和异步架构设计确保了平台快速、高吞吐"
         },
@@ -157,8 +156,7 @@
     },
     "wallet": {
       "title": "多币种钱包",
-      "textList": [
-        {
+      "textList": [{
           "name": "转账零费用",
           "description": "交易消耗配额，运行PoW免费获取"
         },
@@ -186,8 +184,7 @@
     },
     "exchange": {
       "title": "去中心化数字资产交易平台",
-      "textList": [
-        {
+      "textList": [{
           "name": "完全去中心化，资产更安全",
           "description": "通过链上智能合约实现交易撮合引擎、手续费分红，链上完成订单撮合、订单簿存储；私钥由您自己保管，只有您本人可以控制资产的流向"
         },
@@ -207,8 +204,7 @@
     },
     "pay": {
       "title": "安全、便捷、低成本支付方式",
-      "textList": [
-        {
+      "textList": [{
           "name": "秒级交易确认，支持工业级需求",
           "description": "Vite底层公链通过引入DAG链和异步架构设计保证交易的秒级确认，可以承载亿万级交易和高性能并发需求"
         },
@@ -243,128 +239,134 @@
     "nextStep": "下一步",
     "previous": "展开",
     "next": "展开",
-    "timelines": [
-      {
-        "time": "2018.02",
-        "description": "项目启动"
-      },
-      {
-        "time": "2018.04",
-        "description": [
-          {
+    "timelines": [{
+        "time": "2018Q2",
+        "description": [{
             "text": "白皮书发布",
             "url": "https://www.vite.org/whitepaper/vite_cn.pdf"
-          }
+          },
+          "官方网站上线，融资，组建团队"
         ]
       },
       {
-        "time": "2018.05",
-        "description": "官方网站上线，融资，组建团队"
-      },
-      {
-        "time": "2018.06",
-        "description": "研发团队组建完成，开始开发"
-      },
-      {
-        "time": "2018.08",
-        "description": "go-vite 0.1、钱包、浏览器预览版上线"
-      },
-      {
-        "time": "2018.09",
+        "time": "2018Q3",
         "description": [
+          "go-vite V0.1上线",
           {
-            "text": "Web钱包",
-            "url": "https://wallet.vite.net/"
+            "text": "web钱包上线",
+            "url": "https://x.vite.net/"
           },
-          "iOS钱包",
+          "iOS钱包上线",
           {
-            "text": "区块浏览器正式发布",
+            "text": "区块浏览器上线",
             "url": "https://explorer.vite.net/"
           }
         ]
       },
       {
-        "time": "2018.10",
-        "description": [
-          {
-            "text": "迁移总量56%的ERC20代币到Vite原生网络",
+        "time": "2018Q4",
+        "description": [{
+            "text": "迁移总量56%的ERC20代币到原生网络",
             "url": "https://medium.com/vitelabs/testnet-an-update-erc20-token-migration-guide-7c200bef7337"
-          }
-        ]
-      },
-      {
-        "time": "2018.11",
-        "description": [
-          "Vite TestNet 1.0.0发布",
+          },
+          "Vite TestNet 1.0.0试运行",
           {
-            "text": "开启SBP竞选及挖矿",
+            "text": "开启SBP竞选",
             "url": "https://explorer.vite.net/SBPList"
-          }
+          },
+          "Vite TestNet1.0.0上线并开启挖矿"
         ]
       },
       {
-        "time": "2018.12",
+        "time": "2019Q1",
         "description": [
-          "智能合约/solidity++内测",
-          "跨链网关内测",
-          "多币种钱包内测",
-          "DEX内测",
-          "官方网站2.0",
+          "Pre-MainNet上线",
+          "ViteX（DEX）开启测试",
+          "智能合约/solidity++测试",
           {
-            "text": "官方论坛上线",
-            "url": "https://forum.vite.net/"
+            "text": "多币种钱包上线",
+            "url": "http://vite.org/zh/products#wallet"
           }
         ]
       },
       {
-        "time": "2019 Q1",
+        "time": "2019Q2",
         "description": [
-          "pre-mainnet上线",
-          "跨链网关公开测试",
-          "DEX公开测试",
-          "智能合约/solidity++公开测试",
-          "多币种钱包上线",
-          "多虚拟机支持（EVM / WASM）"
+          "Pre-MainNet性能优化",
+          "智能合约升级",
+          "DApp游戏"
         ]
       },
       {
-        "time": "2019 Q2",
+        "time": "2019Q3",
         "description": [
-          "性能优化",
-          "智能合约升级"
-        ]
-      },
-      {
-        "time": "2019 Q3",
-        "description": [
-          "主网上线",
+          "MainNet上线",
           "ViteX去中心化交易所上线",
           "ViteX支持手机版"
-
         ]
       },
       {
-        "time": "2019 Q4",
+        "time": "2019Q4",
         "description": [
-          "定时调度",
+          "支付落地（提前完成）",
+          "DeFi",
+          "支持GRIN钱包（Android）",
+          "支持NFC卡硬件钱包",
+          "支持Ledger硬件钱包",
+          "支持BTC钱包",
+          "升级Java SDK",
+          "VX正式开启释放",
+          "抵押VX参与分红",
+          "邀请挖矿升级",
+          "手机端交易所上线",
+          "全节点激励计划二期"
+        ]
+      },
+      {
+        "time": "2020Q1",
+        "description": [
+          "一键部署去中心化交易所",
+          "DApp开发工具",
+          "钱包持续接入新币种",
+          "扩展支付落地场景",
+          "Web钱包、桌面版钱包全面升级",
+          "开发浏览器插件钱包"
+        ]
+      },
+      {
+        "time": "2020Q2",
+        "description": [
+          "Vite Plus：面向大中型企业及政府部门的高性能区块链解决方案",
+          "智能合约定时调度",
           "命名服务",
+          "Vite2.0 白皮书",
           "发行稳定币",
-          "支付落地"
+          "Vite 生态扶持计划"
         ]
       },
       {
-        "time": "2020 Q1",
+        "time": "2020Q3",
         "description": [
-          "移动客户端支持小程序",
-          "dApp生态建设"
+          "支持多虚拟机",
+          "移动客户端支持DApp小程序",
+          "去中心化期货交易"
+        ]
+      },
+      {
+        "time": "2020Q4",
+        "description": [
+          "Vite2.0 内测",
+          "多虚拟机公测",
+          "DApp 小程序开发SDK",
+          "基于Vite2.0 的ViteX 内测",
+          "基于Vite2.0 的Vite Defi 内测"
         ]
       }
     ]
   },
   "elector": {
     "title": "超级节点竞选人",
-    "detailTitles": [
-      {
+    "detailTitles": [{
         "key": "info",
         "title": "团队成员信息"
       },
@@ -964,7 +966,7 @@
         "description": "7年后端服务架构设计经验，曾参与QPS 3w+系统的设计与开发，2年区块链系统开发经验。"
       },
       "Tina": {
-        "name": "王莛岳",
+        "name": "Tina",
         "job": "产品经理",
         "position": "北京",
         "description": "3年前端开发经验，1年产品经验，毕业于新加坡南洋理工大学（NTU），获得信息科学硕士学位。曾任职于中国和新加坡知名互联网企业。"
@@ -1105,8 +1107,7 @@
   },
   "superNodes": {
     "title": "超级节点说明",
-    "contents": [
-      {
+    "contents": [{
         "orderNum": "一、",
         "question": "您需要提交的信息",
         "answer": [
@@ -1123,8 +1124,7 @@
       {
         "orderNum": "二、",
         "question": "超级节点注册、投票和出块",
-        "second": [
-          {
+        "second": [{
             "title": "超级节点注册竞选",
             "answer": [
               "1、VITE迁移 <br/> 在11月中旬通过智能合约，把ERC20的VITE，转换为到Vite测试网络的VITE。",
@@ -1185,8 +1185,7 @@
     "common": "一般",
     "technology": "技术",
     "questions": {
-      "common": [
-        {
+      "common": [{
           "question": "什么是 Vite？",
           "answer": [
             "Vite 是一个通用的去中心化生态系统，在兼顾安全性的同时，满足了工业级应用对高吞吐、低延迟和扩展性的要求。",
@@ -1294,8 +1293,7 @@
           ]
         }
       ],
-      "technology": [
-        {
+      "technology": [{
           "question": "Vite的智能合约间调用取消了同步调用，那如何兼容以太里同步调用的场景？",
           "answer": "不能兼容。需要改动同步的代码为异步代码，才能兼容。"
         },

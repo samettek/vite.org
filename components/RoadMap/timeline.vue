@@ -1,8 +1,8 @@
 <template>
   <div
     class="timeline">
-    <div 
-      class="timeline__title is-hidden-touch" 
+    <div
+      class="timeline__title is-hidden-touch"
       :class="{'in-progress': type === 'inProgress'}">
       {{ $t(`roadmap.${type}`) }}
     </div>
@@ -16,10 +16,10 @@
       </li>
       <li
         class="is-common"
-        :class="{ 
+        :class="{
           'is-finish': type === 'completed',
           'is-in-progress':  type === 'inProgress',
-          'is-next': type === 'nextStep' 
+          'is-next': type === 'nextStep'
         }"
         :key="item.time"
         v-for="(item) in list">
@@ -28,7 +28,7 @@
           <div class="desc">
             <div
               v-for="(desc, index) in item.description"
-              :key="index">
+              :key="index" class="dot-item">
             <p v-if="!(desc instanceof Object)"> {{desc}} </p>
             <a v-else
                 :href="desc.url"
@@ -67,10 +67,10 @@ export default {
   computed: {
     list() {
       if (this.type === 'completed') {
-        return this.previousOpen ? this.timeLines : this.timeLines.slice(8);
+        return this.previousOpen ? this.timeLines : this.timeLines.slice(3);
       }
       if (this.type === 'nextStep') {
-        return this.nextOpen ? this.timeLines : this.timeLines.slice(0, 1);
+        return this.nextOpen ? this.timeLines : this.timeLines.slice(0, 2);
       }
       return this.timeLines;
     }
@@ -155,11 +155,11 @@ $timelineCommonColor: #919AA3;
       min-width: 120px;
       margin: 0 auto;
       border-right: 2px dashed $timelineColor;
-      
+
       &.is-common {
         // color: #919AA3;
         border-right: 2px dashed $timelineColor;
-        
+
         &::after {
           left: 100%;
           width: $dot-size-inner;
@@ -169,7 +169,7 @@ $timelineCommonColor: #919AA3;
           // background: #919AA3;
         }
       }
-      
+
       &.is-in-progress {
         border-right: 2px dashed $timelineColor;
         &::before {
@@ -186,7 +186,7 @@ $timelineCommonColor: #919AA3;
           background: $timelineColor;
         }
       }
-      
+
       &::after {
         content: "";
         position: absolute;
@@ -199,7 +199,7 @@ $timelineCommonColor: #919AA3;
         // background: $timelineColor;
         background: #919AA3;
       }
-      
+
       .desc-wrapper {
         width: 200%;
         padding-bottom: 10px;
@@ -254,7 +254,7 @@ $timelineCommonColor: #919AA3;
           }
         }
       }
-      
+
       &.is-next{
         color: $timelineCommonColor;
         border-right: 2px dashed $timelineCommonColor;
@@ -275,7 +275,7 @@ $timelineCommonColor: #919AA3;
 
     }
   }
-  
+
 }
 
 /* EFFECTS
@@ -327,6 +327,19 @@ $timelineCommonColor: #919AA3;
       // text-align: left;
     }
   }
+
+  .dot-item {
+    position: relative;
+    padding-left: 10px;
+  }
+  .dot-item::before {
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 99px;
+    background: #ccd0d4;
+    left: 1px;
+    top: 6px;
+  }
 </style>
-
-

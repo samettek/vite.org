@@ -12,8 +12,8 @@
         <div
           v-for="(item, index) in tabs"
           :key="index"
-          class="tab-content" 
-          :class="{'is-active': tabParams === item}" 
+          class="tab-content"
+          :class="{'is-active': tabParams === item}"
           @click="clickTab(item)">
           {{ $t(`roadmap.${item}`) }}
         </div>
@@ -42,13 +42,13 @@ export default {
   computed: {
     list() {
       if (this.tabParams === 'completed') {
-        return this.getTimelines().slice(0, 11);
+        return this.getTimelines().slice(0, 6);
       }
       if (this.tabParams === 'inProgress') {
-        return this.getTimelines().slice(11, 12);
+        return this.getTimelines().slice(6, 7);
       }
       if (this.tabParams === 'nextStep') {
-        return this.getTimelines().slice(12);
+        return this.getTimelines().slice(-4);
       }
       return [];
     }
@@ -57,13 +57,13 @@ export default {
     tableList(item) {
       for (let i = 0; i < this.tabs.length; i++) {
         if (item === 'completed') {
-          return this.getTimelines().slice(0, 11);
+          return this.getTimelines().slice(0, 6);
         }
         if (item === 'inProgress') {
-          return this.getTimelines().slice(11, 12);
+          return this.getTimelines().slice(6, 7);
         }
         if (item === 'nextStep') {
-          return this.getTimelines().slice(12);
+          return this.getTimelines().slice(-4);
         }
       }
     },
@@ -118,6 +118,6 @@ section {
     padding: 0 40px;
     justify-content: space-between;
   }
-  
+
 }
 </style>
