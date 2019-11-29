@@ -247,128 +247,132 @@
     "next": "NEXT",
     "timelines": [
       {
-        "time": "Février 2018",
-        "description": "Lancement du projet"
-      },
-      {
-        "time": "Avril 2018",
+        "time": "2018 Q2",
         "description": [
           {
-            "text": "Achèvement du livre blanc",
+            "text": "Vite White Paper",
             "url": "https://www.vite.org/whitepaper/vite_en.pdf"
-          }
-        ]
-      },
-      {
-        "time": "Mai 2018",
-        "description": [
-          "Vente de fonds privée",
-          "Site officiel",
-          "Equipe Fondatrice"
-        ]
-      },
-      {
-        "time": "Juin 2018",
-        "description": [
-          "Equipe R&D",
-          "Développement de la Technologie Coeur"
-        ]
-      },
-      {
-        "time": "Août 2018",
-        "description": " go-vite 0.1"
-      },
-      {
-        "time": "Septembre 2018",
-        "description": [
-          {
-            "text": "Portefeuille Web",
-            "url": "https://wallet.vite.net/"
           },
-          "Portefeuille iOS",
+          "Vite Official Website, Private Sale, Team Establishment"
+        ]
+      },
+      {
+        "time": "2018 Q3",
+        "description": [
+          "Vite Core 0.1 Golang Implementation",
           {
-            "text": "Explorateurs de Blocks",
+            "text": "Vite Web Wallet",
+            "url": "https://x.vite.net/"
+          },
+          "Vite iOS Wallet",
+          {
+            "text": "Vite Block Explorer",
             "url": "https://explorer.vite.net/"
           }
         ]
       },
       {
-        "time": "Octobre 2018",
+        "time": "2018 Q4",
         "description": [
           {
-            "text": "Conversion de VITE ERC20 en VITE (56% de l'offre totale de jetons)",
+            "text": "56% of ERC20 VITE Converted to Native",
             "url": "https://medium.com/vitelabs/testnet-an-update-erc20-token-migration-guide-7c200bef7337"
-          }
-        ]
-      },
-      {
-        "time": "Novembre 2018",
-        "description": [
-          "Testnet Vite 1.0.0",
+          },
+          "Vite TestNet 1.0 - Alpha Test",
           {
-            "text": "Campagne de Producteurs de Blocks (SBP)",
+            "text": "SBP (Snapshot Block Producer) Activated",
             "url": "https://explorer.vite.net/SBPList"
           },
-          "Minage"
+          "Vite TestNet 1.0 - Launch"
         ]
       },
       {
-        "time": "Décembre 2018",
+        "time": "2019 Q1",
         "description": [
-          "Smart Contract/ Solidity++ Test Alpha",
-          "Gateway Cross-Chain Test Alpha",
-          "Portefeuille Multi-Jetons Test Alpha",
+          "Vite Pre-MainNet",
+          "ViteX (DEX) - Beta Test",
+          "Smart Contract/Solidity++ Compiler - Beta Test",
           {
-            "text": "Echange Decentralisé (DEX) Test Alpha | Voir L'Article De Forbes",
-            "url": "https://www.forbes.com/sites/yoavvilner/2018/12/16/the-state-of-decentralized-exchanges-and-plans-for-2019/#6af853b83059"
-          },
-          "Site 2.0",
-          {
-            "text": "Site du Forum Officiel",
-            "url": "https://forum.vite.net/"
+            "text": "Vite Multi-Asset HD Wallet",
+            "url": "http://vite.org/products#wallet"
           }
         ]
       },
       {
-        "time": "T1 2019",
+        "time": "2019 Q2",
         "description": [
-          "Lancement du Pré-MainNet",
-          "Beta Test Ouvert du Gateway Cross-Chain",
-          "Beta Test Ouvert du DEX",
-          "Beta Test Ouvert des Smart Contract/Solidity++",
-          "Lancement du Portefeuille Multi-Jetons",
-          "Support multi-VM (Machine virtuelle) (EVM / WASM)"
+          "Pre-MainNet Optimization",
+          "Smart Contract Upgrades",
+          "DApp Games"
         ]
       },
       {
-        "time": "T2 2019",
+        "time": "2019 Q3",
         "description": [
-          "Optimisation de Performance",
-          "Smart Contract Upgrades"
+          "Vite MainNet - Launch",
+          "ViteX (DEX) - Launch",
+          "ViteX in Mobile"
         ]
       },
       {
-        "time": "T3 2019",
+        "time": "2019 Q4",
         "description": [
-          "MainNet Release",
-          "ViteX Decentralised Exchange Release",
-          "ViteX Mobile Support"
+          "Payment Fulfilment",
+          "DeFi - Borrowing and Lending",
+          "Vite Android HD Wallet - GRIN Support",
+          "Hardware Wallet - NFC Card",
+          "Hardware Wallet - Ledger",
+          "Vite HD Wallet - BTC Support",
+          "Java SDK Refactoring",
+          "First VX (ViteX Token) Mined",
+          "ViteX Dividend",
+          "Distribution Update - VX Staking",
+          "ViteX Referral Program II",
+          "ViteX in Mobile - Klines",
+          "Full Node Incentive Program II"
         ]
       },
       {
-        "time": "T4 2019",
+        "time": "2020 Q1",
         "description": [
-          "Timer-Triggered Smart Contract Scheduler",
-          "Naming Service for Addresses",
-          "Stable Coin Issuance on DEX",
-          "Payment Fulfilment"
+          "One-step DEX Deployment",
+          "DApp",
+          "Development Tool Upgrades",
+          "Vite HD Wallet - New Cryptocurrencies",
+          "Payment - New Adoption",
+          "Vite Web Wallet Upgrade",
+          "Vite Desktop Wallet",
+          "Vite Wallet - Browser Extension"
         ]
       },
       {
-        "time": "Q1 2020",
+        "time": "2020 Q2",
         "description": [
-          "dApp Ecosystem Construction",
-          "dApps (supported by mobile client application)"
+          "Vite Plus: High-performance blockchain solution for large and medium-sized enterprises and government",
+          "Smart Contract - Scheduling Service",
+          "Vite Naming Service",
+          "Vite 2.0 White Paper",
+          "Stable Coins on Vite",
+          "Vite Ecosystem - Builds, Incubation and Incentivisation"
+        ]
+      },
+      {
+        "time": "2020 Q3",
+        "description": [
+          "Multi-VM Support",
+          "DApp Mini-program Support",
+          "DeFi - Futures Trading"
+        ]
+      },
+      {
+        "time": "2020 Q4",
+        "description": [
+          "Vite 2.0 - Alpha Test",
+          "Multi-VM",
+          "Support - Beta Test",
+          "DApp Mini-program SDK",
+          "ViteX on Vite 2.0 - Alpha Test",
+          "DeFi on Vite 2.0 - Alpha Test"
         ]
       }
     ]
@@ -999,7 +1003,7 @@
         "description": "Zack graduated from Beijing University of Posts and Telecommunications with a Master's Degree. He has over 4 years of experience working with IT products and has worked for prestigious firms, the likes of DiDi and Baidu. There he was in charge of managing applications with millions of daily active users (DAU)."
       },
       "Tina": {
-        "name": "Tina Wang",
+        "name": "Tina",
         "job": "Product Manager",
         "position": "Beijing",
         "description": "Tina has 3 years of front-end development experience and 1 year of experience in PM. She graduated from Nanyang Technological University in Singapore, with a Master's of Science in Information Studies. Tina has previously worked at technology firms in both China and Singapore."
