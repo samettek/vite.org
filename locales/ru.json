@@ -247,128 +247,132 @@
     "next": "NEXT",
     "timelines": [
       {
-        "time": "Февраль 2018",
-        "description": "Инициирование проекта"
-      },
-      {
-        "time": "Апрель 2018",
+        "time": "2018 Q2",
         "description": [
           {
-            "text": "Завершение Белой Книги",
-            "url": "https://www.vite.org/whitepaper/vite_russian.pdf"
-          }
-        ]
-      },
-      {
-        "time": "Май 2018",
-        "description": [
-          "Приватная Продажа Сбор средств",
-          "Официальный Веб-сайт",
-          "Основание Команды"
-        ]
-      },
-      {
-        "time": "Июнь 2018",
-        "description": [
-          "R&D Команда",
-          "Разработка Основных Технологий"
-        ]
-      },
-      {
-        "time": "Август 2018",
-        "description": " go-vite 0.1"
-      },
-      {
-        "time": "Сентябрь 2018",
-        "description": [
-          {
-            "text": "Веб Кошелёк",
-            "url": "https://wallet.vite.net/"
+            "text": "Vite White Paper",
+            "url": "https://www.vite.org/whitepaper/vite_en.pdf"
           },
-          "iOS Кошелёк",
+          "Vite Official Website, Private Sale, Team Establishment"
+        ]
+      },
+      {
+        "time": "2018 Q3",
+        "description": [
+          "Vite Core 0.1 Golang Implementation",
           {
-            "text": "Обозреватель Блоков",
+            "text": "Vite Web Wallet",
+            "url": "https://x.vite.net/"
+          },
+          "Vite iOS Wallet",
+          {
+            "text": "Vite Block Explorer",
             "url": "https://explorer.vite.net/"
           }
         ]
       },
       {
-        "time": "Октябрь 2018",
+        "time": "2018 Q4",
         "description": [
           {
-            "text": "Преобразование ERC20 VITE в VITE (56% от общей поставки токенов)",
-            "url": "https://medium.com/@Enthusiast1/testnet-обновление-руководство-по-миграции-токенов-erc20-63c629571cf9"
-          }
-        ]
-      },
-      {
-        "time": "Ноябрь 2018",
-        "description": [
-          "Vite TestNet 1.0.0",
+            "text": "56% of ERC20 VITE Converted to Native",
+            "url": "https://medium.com/vitelabs/testnet-an-update-erc20-token-migration-guide-7c200bef7337"
+          },
+          "Vite TestNet 1.0 - Alpha Test",
           {
-            "text": "Snapshot Block Producer (SBP) Кампания",
+            "text": "SBP (Snapshot Block Producer) Activated",
             "url": "https://explorer.vite.net/SBPList"
           },
-          "Майнинг"
+          "Vite TestNet 1.0 - Launch"
         ]
       },
       {
-        "time": "Декабрь 2018",
+        "time": "2019 Q1",
         "description": [
-          "Смарт Контракт/ Solidity++ Альфа Тест",
-          "Альфа-тест Межсетевого Шлюза",
-          "Альфа Тест Мульти-Токен Кошелька",
+          "Vite Pre-MainNet",
+          "ViteX (DEX) - Beta Test",
+          "Smart Contract/Solidity++ Compiler - Beta Test",
           {
-            "text": "Альфа Тест Децентрализованного Обмена (DEX) | Посмотреть статью Forbes",
-            "url": "https://www.forbes.com/sites/yoavvilner/2018/12/16/the-state-of-decentralized-exchanges-and-plans-for-2019/#6af853b83059"
-          },
-          "Веб-сайт 2.0",
-          {
-            "text": "Официальный Сайт Форума",
-            "url": "https://forum.vite.net/"
+            "text": "Vite Multi-Asset HD Wallet",
+            "url": "http://vite.org/products#wallet"
           }
         ]
       },
       {
-        "time": "1 квартал 2019 года",
+        "time": "2019 Q2",
         "description": [
-          "Предварительный Выпуск MainNet",
-          "Открытый Бета Тест Межсетевого Шлюза",
-          "Открытый Бета Тест DEX",
-          "Смарт Контракт/Solidity++ Открытый Бета Тест",
-          "Выпуск Мульти-Токен Кошелька",
-          "Поддержка нескольких VM (Виртуальных Машин) (EVM / WASM)"
+          "Pre-MainNet Optimization",
+          "Smart Contract Upgrades",
+          "DApp Games"
         ]
       },
       {
-        "time": "2 квартал 2019 года",
+        "time": "2019 Q3",
         "description": [
-          "Оптимизация Производительности",
-          "Smart Contract Upgrades"
+          "Vite MainNet - Launch",
+          "ViteX (DEX) - Launch",
+          "ViteX in Mobile"
         ]
       },
       {
-        "time": "3 квартал 2019 года",
+        "time": "2019 Q4",
         "description": [
-          "MainNet Release",
-          "ViteX Decentralised Exchange Release",
-          "ViteX Mobile Support"
+          "Payment Fulfilment",
+          "DeFi - Borrowing and Lending",
+          "Vite Android HD Wallet - GRIN Support",
+          "Hardware Wallet - NFC Card",
+          "Hardware Wallet - Ledger",
+          "Vite HD Wallet - BTC Support",
+          "Java SDK Refactoring",
+          "First VX (ViteX Token) Mined",
+          "ViteX Dividend",
+          "Distribution Update - VX Staking",
+          "ViteX Referral Program II",
+          "ViteX in Mobile - Klines",
+          "Full Node Incentive Program II"
         ]
       },
       {
-        "time": "4 квартал 2019 года",
+        "time": "2020 Q1",
         "description": [
-          "Timer-Triggered Smart Contract Scheduler",
-          "Naming Service for Addresses",
-          "Stable Coin Issuance on DEX",
-          "Payment Fulfilment"
+          "One-step DEX Deployment",
+          "DApp",
+          "Development Tool Upgrades",
+          "Vite HD Wallet - New Cryptocurrencies",
+          "Payment - New Adoption",
+          "Vite Web Wallet Upgrade",
+          "Vite Desktop Wallet",
+          "Vite Wallet - Browser Extension"
         ]
       },
       {
-        "time": "Q1 2020",
+        "time": "2020 Q2",
         "description": [
-          "dApp Ecosystem Construction",
-          "dApps (supported by mobile client application)"
+          "Vite Plus: High-performance blockchain solution for large and medium-sized enterprises and government",
+          "Smart Contract - Scheduling Service",
+          "Vite Naming Service",
+          "Vite 2.0 White Paper",
+          "Stable Coins on Vite",
+          "Vite Ecosystem - Builds, Incubation and Incentivisation"
+        ]
+      },
+      {
+        "time": "2020 Q3",
+        "description": [
+          "Multi-VM Support",
+          "DApp Mini-program Support",
+          "DeFi - Futures Trading"
+        ]
+      },
+      {
+        "time": "2020 Q4",
+        "description": [
+          "Vite 2.0 - Alpha Test",
+          "Multi-VM",
+          "Support - Beta Test",
+          "DApp Mini-program SDK",
+          "ViteX on Vite 2.0 - Alpha Test",
+          "DeFi on Vite 2.0 - Alpha Test"
         ]
       }
     ]
@@ -999,7 +1003,7 @@
         "description": "Зак окончил Пекинский Университет Почты и Телекоммуникаций со Степенью Магистра. Он имеет более 4 лет опыта работы с ИТ-продуктами и работал в престижных фирмах, таких как DiDi и Baidu. Там он отвечал за управление приложениями с миллионами ежедневно активных пользователей (DAU)."
       },
       "Tina": {
-        "name": "Тина Вонг",
+        "name": "Tina",
         "job": "Product Manager",
         "position": "Пекин",
         "description": "Tina has 3 years of front-end development experience and 1 year of experience in PM. She graduated from Nanyang Technological University in Singapore, with a Master's of Science in Information Studies. Tina has previously worked at technology firms in both China and Singapore."
