@@ -41,9 +41,9 @@
         </div>
       </div>
     </section>
-  
+
     <v-product></v-product>
-    
+
     <v-new></v-new>
 
     <v-roadmap></v-roadmap>
@@ -67,8 +67,8 @@ import { VPopover } from 'v-tooltip';
 import isMobile from 'is-mobile';
 
 import config from '~/config.js';
-import imgEn from '~/assets/images/notice/en.jpg';
-import imgZh from '~/assets/images/notice/zh.jpg';
+import imgEn from '~/assets/images/bvote_en.jpg';
+import imgZh from '~/assets/images/bvote_zh.jpg';
 
 export default {
   components: {
@@ -126,7 +126,7 @@ export default {
     height: 120px;
   }
   .wallet-item + .wallet-item{
-    margin-left: 20px; 
+    margin-left: 20px;
   }
 
 }
@@ -253,7 +253,7 @@ export default {
     display: flex;
     cursor: pointer;
 
-    
+
     .pop-btn {
       box-shadow: 0 10px 40px 0 rgba(126, 183, 238, 0.83);
       display: inline-block;
