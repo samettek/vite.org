@@ -143,7 +143,7 @@ module.exports = {
     },
     mainnetRelease:{
       en: 'https://www.binance.com/en/vote',
-      zh: 'https://www.binance.com/cn/vote'
+      zh: 'https://www.binancezh.com/cn/vote'
     }
   }
 };

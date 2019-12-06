@@ -1,0 +1,34 @@
+pipeline {
+  angent {
+
+  }
+
+  environment {
+    NODE_ENV = 'production'
+  }
+
+  stages {
+    stage('build') {
+      steps {
+        sh '''
+
+        '''
+      }
+    }
+
+    stage('deploy') {
+      steps {
+        sh '''
+
+        '''
+      }
+    }
+  }
+
+  post {
+    always {
+      curl 'https://vite.org'
+      deleteDir()
+    }
+  }
+}
