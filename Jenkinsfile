@@ -30,9 +30,9 @@ pipeline {
     stage('deploy') {
       steps {
         sh '''
-          // rm -rf ./.nuxt ./node_modules && yarn
-          // npm run build && tar -cvf static.tar ./.nuxt/*
-          // cp static.tar ~/website/
+          # rm -rf ./.nuxt ./node_modules && yarn
+          # npm run build && tar -cvf static.tar ./.nuxt/*
+          # cp static.tar ~/website/
         '''
       }
     }
