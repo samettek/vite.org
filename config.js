@@ -87,7 +87,7 @@ module.exports = {
     telegram: {
       ann: 'https://t.me/vite_ann',
       english: 'https://t.me/vite_en',
-      russia: 'https://t.me/vite_russia',
+      russia: 'https://t.me/vite_russian',
       vietnamese: 'https://t.me/vite_vietnamese',
       korean: 'https://t.me/vite_korean',
       japan: 'https://t.me/vite_japanese',
