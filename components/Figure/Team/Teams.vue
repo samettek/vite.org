@@ -441,7 +441,7 @@ export default {
               key: 'Juan',
               urls: [
                 {
-                  icon: ['fab', 'facebook'],
+                  icon: [],
                   url: 'https://www.facebook.com/baveciwan29'
                 }
               ]
