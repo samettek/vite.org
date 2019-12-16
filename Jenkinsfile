@@ -7,23 +7,17 @@ pipeline {
 
   options {
     retry(3);
-    timeout(time: 5, unit: 'MINUTES')
+    timeout(time: 10, unit: 'MINUTES')
   }
 
   stages {
     stage('build') {
-      when {
-        allOf {
-        branch 'master';
-        environment name: 'NODE_ENV', value: 'production'
-        }
-      }
       steps {
         sh '''
-          rm -rf ./.nuxt ./node_modules && yarn
-          npm run build && tar -cvf static.tar ./.nuxt/*
+          set -e
+          yarn --registry https://registry.npm.taobao.org && npm run build
+          tar -cvf static.tar .nuxt/*
           ls -al static.tar
-
         '''
       }
     }
@@ -31,8 +25,9 @@ pipeline {
     stage('deploy') {
       steps {
         sh '''
-          scp static.tar vite.org:/home/ubuntu/website/static.tar
-          ssh vite.org "cd ~/website && rm -rf ./.nuxt && tar -xvf static.tar && pm2 restart 0"
+          set -e
+          scp static.tar vite.org:/home/ubuntu/website/
+          ssh vite.org "cd /home/ubuntu/website && rm -rf .nuxt && tar -xvf static.tar && pm2 restart 0"
         '''
       }
     }
@@ -40,7 +35,10 @@ pipeline {
 
   post {
     always {
-      curl 'https://vite.org'
+      sh '''
+        curl https://vite.org
+      '''
+
       deleteDir()
     }
   }
