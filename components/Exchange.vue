@@ -8,7 +8,7 @@
     <div class="dropdown-menu" id="lang-dropdown-menu" role="menu">
       <div class="dropdown-content">
         <template v-for="(item, index) in exchangeList">
-          <a class="dropdown-item" target="_blank" :href="exchangeMap[item]" :key="index">
+          <a class="dropdown-item" target="_blank" :href="exchangeMap[item] || $t(`nav.${item}_url`)" :key="index">
             {{$t(`nav.${item}`)}}
           </a>
         </template>
@@ -34,7 +34,7 @@
     },
     computed: {
       exchangeList: function () {
-        return ['vitex', 'bittrex', 'okex','upbit'];
+        return ['vitex', 'binance', 'bittrex', 'okex','upbit'];
       }
     }
   };

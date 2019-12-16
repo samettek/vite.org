@@ -46,6 +46,8 @@
     "news": "Latest Press",
     "tokenTransaction": "Trade",
     "vitex": "ViteX",
+    "binance": "BINANCE",
+    "binance_url": "https://www.binance.com/en/trade/VITE_BTC",
     "okex": "OKEX.COM",
     "bittrex": "BITTREX",
     "upbit": "UPBIT",
