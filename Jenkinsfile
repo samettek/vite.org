@@ -22,7 +22,8 @@ pipeline {
         sh '''
           rm -rf ./.nuxt ./node_modules && yarn
           npm run build && tar -cvf static.tar ./.nuxt/*
-          cp static.tar ~/website/
+          ls -al static.tar
+
         '''
       }
     }
@@ -30,9 +31,8 @@ pipeline {
     stage('deploy') {
       steps {
         sh '''
-          # rm -rf ./.nuxt ./node_modules && yarn
-          # npm run build && tar -cvf static.tar ./.nuxt/*
-          # cp static.tar ~/website/
+          scp static.tar vite.org:/home/ubuntu/website/static.tar
+          ssh vite.org "cd ~/website && rm -rf ./.nuxt && tar -xvf static.tar && pm2 restart 0"
         '''
       }
     }
