@@ -22,6 +22,9 @@
   },
   "nav": {
     "index": "Home",
+    "start": "Get Started",
+    "token": "VITE Coin",
+    "github": "Github",
     "production": "Products",
     "platform": "Platform",
     "wallet": "Wallet",
@@ -57,7 +60,7 @@
     "airdrop": "Airdrop",
     "about": "About",
     "whitepaper": "White Paper",
-    "wiki": "WIKI",
+    "wiki": "Wiki",
     "blog": "Tech Blog",
     "more": "More",
     "explorer": "Block Explorer",
