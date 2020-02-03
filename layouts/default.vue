@@ -27,11 +27,18 @@
         <!-- <div style="margin-top: 23px;">{{$t('home.jionAirdrop')}}</div> -->
         <span slot="footer">
           <div @click="dialogVisible = false" >
-            <nuxt-link
-              :to="localePath('airdrop')"
-              class="footer-btn">
+             <a
+               :href="urls.exchange.vitex"
+               target="_blank"
+               class="footer-btn"
+             >
               {{$t('home.gotoVitex')}}
-            </nuxt-link>
+             </a>
+            <!--<nuxt-link-->
+              <!--:to="localePath('airdrop')"-->
+              <!--class="footer-btn">-->
+              <!--{{$t('home.gotoVitex')}}-->
+            <!--</nuxt-link>-->
           </div>
         </span>
       </dialog-compo>
