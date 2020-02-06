@@ -117,6 +117,7 @@ module.exports = {
     },
     exchange: {
       vitex: 'https://x.vite.net',
+      binance: 'https://www.binance.com/en/trade/VITE_BTC',
       bittrex: 'https://international.bittrex.com/Market/Index?MarketName=BTC-VITE',
       okex: 'https://www.okex.com/spot/trade#product=vite_btc',
       upbit: 'https://sg.upbit.com/exchange?code=CRIX.UPBIT.BTC-VITE'

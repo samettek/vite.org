@@ -11,13 +11,13 @@
               <div class="is-flex footer-nav">
                 <div class="is-flex">
                   <div class="nav-item">
-                    <footer-menu 
+                    <footer-menu
                       :footer-name="$t(`nav.production`)"
                       :secondary-list="navProductionList">
                     </footer-menu>
                   </div>
                   <div class="nav-item">
-                    <footer-menu 
+                    <footer-menu
                       :footer-name="$t(`nav.person`)"
                       :secondary-list="navPersonList">
                     </footer-menu>
@@ -25,13 +25,13 @@
                 </div>
                 <div class="is-flex">
                   <div class="nav-item">
-                    <footer-menu 
+                    <footer-menu
                       :footer-name="$t('nav.notice.name')"
                       :secondary-list="navNodeList">
                     </footer-menu>
                   </div>
                   <div class="nav-item">
-                    <footer-menu 
+                    <footer-menu
                       :footer-name="$t('nav.medium')"
                       :secondary-list="navMediaList">
                     </footer-menu>
@@ -39,13 +39,13 @@
                 </div>
                 <div class="is-flex">
                   <div class="nav-item">
-                    <footer-menu 
+                    <footer-menu
                       :footer-name="$t('nav.tokenTransaction')"
                       :secondary-list="navExchangeList">
                     </footer-menu>
                   </div>
                   <div class="nav-item">
-                    <footer-menu 
+                    <footer-menu
                       :footer-name="$t('nav.guide')"
                       :secondary-list="navGuideList">
                     </footer-menu>
@@ -68,7 +68,7 @@
                         <span>{{ $t(`nav.more`) }}</span>
                       </div>
                       <explorer :is-footer="true"></explorer>
-                      <footer-menu 
+                      <footer-menu
                         :secondary-list="navMoreList">
                       </footer-menu>
                     </div>
@@ -250,6 +250,10 @@ export default {
         to: urls.exchange.vitex
       }, {
         type: 'outer',
+        name: 'binance',
+        to: urls.exchange.binance
+      }, {
+        type: 'outer',
         name: 'okex',
         to: urls.exchange.okex
       }, {
@@ -291,13 +295,13 @@ export default {
       //   type: 'outer',
       //   name: 'explorer',
       //   to: this.urls.explorer[this.$i18n.locale]
-      // }, 
+      // },
         {
           type: 'outer',
           name: 'store',
           to: this.urls.vitestore[this.$i18n.locale]
         }];
-    } 
+    }
   },
   methods: {
     getUrl (item) {
@@ -379,7 +383,7 @@ export default {
       @include mobile {
         flex-direction: column-reverse;
       }
-      
+
     }
     .social-icons {
       margin-right: 10px;
