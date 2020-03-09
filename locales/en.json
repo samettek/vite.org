@@ -313,23 +313,23 @@
         "time": "2019 Q4",
         "description": [
           "Payment Fulfilment",
-          "DeFi - Borrowing and Lending",
           "Vite Android HD Wallet - GRIN Support",
-          "Hardware Wallet - NFC Card",
-          "Hardware Wallet - Ledger",
-          "Vite HD Wallet - BTC Support",
           "Java SDK Refactoring",
           "First VX (ViteX Token) Mined",
           "ViteX Dividend",
           "Distribution Update - VX Staking",
           "ViteX Referral Program II",
-          "ViteX in Mobile - Klines",
           "Full Node Incentive Program II"
         ]
       },
       {
         "time": "2020 Q1",
         "description": [
+          "DeFi - Borrowing and Lending",
+          "Hardware Wallet - NFC Card",
+          "Hardware Wallet - Ledger",
+          "Vite HD Wallet - BTC Support",
+          "ViteX in Mobile - Klines",
           "One-step DEX Deployment",
           "DApp",
           "Development Tool Upgrades",
