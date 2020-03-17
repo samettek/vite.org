@@ -102,16 +102,6 @@ export default {
               ]
             },
             {
-              img: require('~/assets/images/teams/luke.jpg'),
-              urls: [
-                {
-                  icon: ['fab', 'linkedin'],
-                  url: 'https://www.linkedin.com/in/lukekim153/'
-                }
-              ],
-              key: 'Luke Kim'
-            },
-            {
               img: require('~/assets/images/teams/chris.jpg'),
               urls: [
                 {
