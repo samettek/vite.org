@@ -325,46 +325,35 @@
       {
         "time": "2020 Q1",
         "description": [
-          "DeFi - Borrowing and Lending",
-          "Hardware Wallet - NFC Card",
-          "Hardware Wallet - Ledger",
-          "Vite HD Wallet - BTC Support",
-          "ViteX in Mobile - Klines",
-          "One-step DEX Deployment",
-          "DApp",
-          "Development Tool Upgrades",
+          "Vite Plus: High-performance blockchain solution for large and medium-sized enterprises and government",
           "Vite HD Wallet - New Cryptocurrencies",
           "Payment - New Adoption",
-          "Vite Web Wallet Upgrade",
-          "Vite Desktop Wallet",
-          "Vite Wallet - Browser Extension"
+          "Vite Ecosystem - Builds, Incubation and Incentivisation"
         ]
       },
       {
         "time": "2020 Q2",
         "description": [
-          "Vite Plus: High-performance blockchain solution for large and medium-sized enterprises and government",
-          "Smart Contract - Scheduling Service",
-          "Vite Naming Service",
-          "Vite 2.0 White Paper",
-          "Stable Coins on Vite",
-          "Vite Ecosystem - Builds, Incubation and Incentivisation"
+          "DeFi - Borrowing and Lending",
+          "Hardware Wallet - Ledger",
+          "ViteX in Mobile - Klines",
+          "One-step DEX Deployment",
+          "Vite HD Wallet - BTC Support",
+          "Dex Open Api"
         ]
       },
       {
         "time": "2020 Q3",
         "description": [
-          "Multi-VM Support - Alpha Test",
-          "DApp Mini-program Support",
-          "DeFi - Futures Trading"
+          "Smart Contract - Scheduling Service",
+          "Vite Naming Service",
+          "Vite 2.0 White Paper"
         ]
       },
       {
         "time": "2020 Q4",
         "description": [
           "Vite 2.0 - Alpha Test",
-          "Multi-VM Support - Beta Test",
-          "DApp Mini-program SDK",
           "ViteX on Vite 2.0 - Alpha Test",
           "DeFi on Vite 2.0 - Alpha Test"
         ]
@@ -856,6 +845,12 @@
         "job": "Business Development Manager, Africa",
         "position": "Silicon Valley",
         "description": "Co-founder and VP of Marketing at ICOWatchlist and ex-banker in commercial and investment banking. He has been in the blockchain space since 2016 and has worked with over 300 projects in the industry. He is deeply connected in the African ecosystem, both public and private sectors. He is also the founder of Toks.Tech."
+      },
+      "Francesco": {
+        "name": "Francesco",
+        "job": "Marketing Manager",
+        "position": "Silicon Valley",
+        "description": "Francesco started coding at 9 YO. Former National Italian Powerlifting Champion 17 YO.  He is a seasoned professional with 7 years of experience inside Entrepreneurship & Marketing, and a certified program manager.He collected experience inside the University Technology Transfer Office (Unical- Italy), European Innovation Academy (215 universities, 85 countries),  StartupGrind (150 countries powered by Google for Startups). He has a Bachelor's degree in Business Administration and MIB(HULT +150 countries). He was a teaching faculty for Erasmus+ (EU) and he worked as an advisor for different companies, he is in blockchain since 2017."
       },
       "Jeff Ng": {
         "name": "Jeff Ng",

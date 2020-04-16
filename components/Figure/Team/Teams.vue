@@ -111,16 +111,6 @@ export default {
               ],
               key: 'Chris Li'
             },
-            // {
-            //   img: require('~/assets/images/teams/Juliet Su.jpg'),
-            //   urls: [
-            //     {
-            //       icon: ['fab', 'linkedin'],
-            //       url: 'https://www.linkedin.com/in/juliet-su-27386a8b/'
-            //     }
-            //   ],
-            //   key: 'Juliet Su'
-            // },
             {
               img: require('~/assets/images/teams/emmanuel.png'),
               urls: [
@@ -130,6 +120,10 @@ export default {
                 }
               ],
               key: 'Emmanuel Darko'
+            },
+            {
+              img: require('~/assets/images/teams/francesco.jpg'),
+              key: 'Francesco'
             }
           ],
         },
