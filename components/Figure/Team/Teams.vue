@@ -110,6 +110,16 @@ export default {
                 }
               ],
               key: 'Chris Li'
+            },
+            {
+              img: require('~/assets/images/teams/francesco.jpg'),
+              urls: [
+                {
+                  icon: ['fab', 'linkedin'],
+                  url: 'https://www.linkedin.com/in/francescobisardi/'
+                }
+              ],
+              key: 'Francesco'
             }
           ],
         },
