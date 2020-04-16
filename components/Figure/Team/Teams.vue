@@ -110,20 +110,6 @@ export default {
                 }
               ],
               key: 'Chris Li'
-            },
-            {
-              img: require('~/assets/images/teams/emmanuel.png'),
-              urls: [
-                {
-                  icon: ['fab', 'linkedin'],
-                  url: 'https://www.linkedin.com/in/emmanuel-tokunbo-darko-8490a341/'
-                }
-              ],
-              key: 'Emmanuel Darko'
-            },
-            {
-              img: require('~/assets/images/teams/francesco.jpg'),
-              key: 'Francesco'
             }
           ],
         },
