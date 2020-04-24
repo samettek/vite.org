@@ -85,12 +85,12 @@
               logoActive: require('~/assets/images/investor/funcity-blue.png'),
               url: 'http://www.funcityholding.com/'
             },
-            {
-              key: 'starwinCapital',
-              logo: require('~/assets/images/investor/starwin.png'),
-              logoActive: require('~/assets/images/investor/starwin-blue.png'),
-              url: 'https://www.tianyancha.com/organize/b5dfe14738'
-            },
+            // {
+            //   key: 'starwinCapital',
+            //   logo: require('~/assets/images/investor/starwin.png'),
+            //   logoActive: require('~/assets/images/investor/starwin-blue.png'),
+            //   url: 'https://www.tianyancha.com/organize/b5dfe14738'
+            // },
             {
               key: 'nodeCapital',
               logo: require('~/assets/images/investor/node.png'),
@@ -197,7 +197,7 @@
     }
   }
 
-  
+
   .img-wrapper {
     flex-direction: row;
     display: flex;
@@ -209,7 +209,7 @@
     img {
       width: 120px;
       height: auto;
-      
+
     }
   }
 
