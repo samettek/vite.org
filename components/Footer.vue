@@ -79,6 +79,15 @@
                 <div class="icons mt30">
                   <div class="icon-links-wrapper">
                     <a
+                      :href="urls.cmc"
+                      target="_blank"
+                      class="text-hover-transition"
+                    >
+                      <img
+                        class="icon__item"
+                        src="~/assets/images/footer/cmc.svg"/>
+                    </a>
+                    <a
                       :href="urls.github"
                       target="_blank"
                       class="text-hover-transition"
@@ -262,8 +271,8 @@ export default {
         to: urls.exchange.bittrex
       }, {
         type: 'outer',
-        name: 'upbit',
-        to: urls.exchange.upbit
+        name: 'okexKr',
+        to: urls.exchange.okexKr
       }],
       urls,
       aboutList: ['tokenUrl'],
@@ -442,6 +451,10 @@ export default {
   .icon-links-wrapper {
     @media only screen and (min-width: 320px) and (max-width: 1240px)  {
       text-align: left;
+    }
+    & > a {
+      display: inline-block;
+      height: 22px;
     }
     & > a,
     /deep/ .v-popover {

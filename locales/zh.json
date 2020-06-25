@@ -47,7 +47,7 @@
     "tokenTransaction": "代币交易",
     "okex": "OKEX.COM",
     "bittrex": "BITTREX",
-    "upbit": "UPBIT",
+    "okexKr": "OKEX Korea",
     "guide": "指南",
     "tutorial": "教程",
     "faq": "问答",
@@ -1206,7 +1206,7 @@
         {
           "question": "VITE上线了哪些交易所？",
           "answer": [
-            "目前，在ViteX, BITTREX、OKEX和Upbit上可以交易VITE；同时我们也在联系其他交易所，敬请期待。"
+            "目前，在ViteX, BITTREX、OKEX上可以交易VITE；同时我们也在联系其他交易所，敬请期待。"
           ]
         },
         {

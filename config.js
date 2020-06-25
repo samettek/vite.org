@@ -1,6 +1,7 @@
 module.exports = {
   urls: {
     weibo: 'https://weibo.com/u/6572727462',
+    cmc: 'https://coinmarketcap.com/currencies/vite/',
     viteNet: {
       zh: 'https://vite.net/zh',
       en: 'https://vite.net',
@@ -120,7 +121,7 @@ module.exports = {
       binance: 'https://www.binance.com/en/trade/VITE_BTC',
       bittrex: 'https://international.bittrex.com/Market/Index?MarketName=BTC-VITE',
       okex: 'https://www.okex.com/spot/trade#product=vite_btc',
-      upbit: 'https://sg.upbit.com/exchange?code=CRIX.UPBIT.BTC-VITE'
+      okexKr: 'https://okex.co.kr/kr/view/exchange?coin=VITE&market=BTC'
     },
     media: {
       medium: 'https://medium.com/vitelabs',

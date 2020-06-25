@@ -13,7 +13,7 @@
   "exchange": {
     "okex": "OKEX.COM",
     "bittrex": "BITTREX",
-    "upbit": "UPBIT"
+    "okexKr": "OKEX Korea"
   },
   "media": {
     "medium": "Medium",
