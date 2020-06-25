@@ -50,7 +50,7 @@
     "binance_url": "https://www.binance.com/en/trade/VITE_BTC",
     "okex": "OKEX.COM",
     "bittrex": "BITTREX",
-    "upbit": "UPBIT",
+    "okexKr": "OKEX Korea",
     "guide": "Guide",
     "tutorial": "Tutorial",
     "faq": "CÂU HỎI THƯỜNG GẶP",
@@ -1224,7 +1224,7 @@
         {
           "question": "Which exchange(s) will VITE be listed on?",
           "answer": [
-            "Currently VITE is listed on ViteX, Bittex, Okex, and Upbit. We are also in contact with other exchanges. Stay tuned!"
+            "Currently VITE is listed on ViteX, Bittex, Okex, and Okex Korea. We are also in contact with other exchanges. Stay tuned!"
           ]
         },
         {
