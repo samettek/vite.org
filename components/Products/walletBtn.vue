@@ -114,14 +114,13 @@ export default {
       btnCommonList: [{
         key: 'web',
         url: 'https://wallet.vite.net'
+      }, {
+        key: 'mac',
+        url: 'https://github.com/vitelabs/vite-wallet/releases/tag/v1.3.20'
+      }, {
+        key: 'windows',
+        url: 'https://github.com/vitelabs/vite-wallet/releases/tag/v1.3.20'
       }
-      //   {
-      //   key: 'mac',
-      //   url: 'http://download.vite.net/ViteWallet-1.3.0.dmg'
-      // }, {
-      //   key: 'windows',
-      //   url: 'http://download.vite.net/ViteWallet-1.3.0.exe'
-      // }
       ]
     };
   }
