@@ -334,32 +334,48 @@
       {
         "time": "2020 Q2",
         "description": [
-          "DeFi - Borrowing and Lending",
-          "Hardware Wallet - Ledger",
+          {
+            "text": "Hardware Wallet - Ledger",
+            "url": "https://medium.com/vitelabs/how-to-manage-vite-on-ledger-nano-88177a076caf"
+          },
           "ViteX in Mobile - Klines",
-          "One-step DEX Deployment",
-          "Vite HD Wallet - BTC Support",
+          {
+            "text": "One-step DEX Deployment",
+            "url": "https://github.com/vitelabs/open-gateway"
+          },
           "Vite Web Wallet Upgrade",
-          "Vite Desktop Wallet",
-          "Dex Open Api"
+          {
+            "text": "Vite Desktop Wallet",
+            "url": "https://github.com/vitelabs/vite-wallet/releases"
+          },
+          {
+            "text": "Dex Open Api",
+            "url": "https://medium.com/vitelabs/announcing-official-vitex-api-and-user-guide-e8ea2db8134e"
+          }
         ]
       },
       {
         "time": "2020 Q3",
         "description": [
-          "DApp Development Tool Upgrades",
-          "Smart Contract - Scheduling Service",
-          "Vite Naming Service",
-          "Vite 2.0 White Paper",
-          "Stable Coins on Vite"
+          "Initial Upgrades of DApp Development Tools",
+          "Stablecoins Functionality",
+          "Vite Ecosystem Grants",
+          "Vite App Major Upgrade",
+          "ViteX SDK Improvement",
+          "Continual Coin Listings on ViteX"
         ]
       },
       {
         "time": "2020 Q4",
         "description": [
-          "Vite 2.0 - Alpha Test",
-          "ViteX on Vite 2.0 - Alpha Test",
-          "DeFi on Vite 2.0 - Alpha Test"
+          "Vite 2.0 White Paper",
+          "ViteX Gateway 2.0",
+          "Vite HD Wallet - BTC Support",
+          "Integrate ViteX with Open-Source Algo Trading Projects",
+          "Support of Third-Party Wallet Development",
+          "Additional Order Types on ViteX",
+          "Continual Upgrades of DApp Development Tools",
+          "Continual Coin Listings on ViteX"
         ]
       }
     ]

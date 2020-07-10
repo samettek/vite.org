@@ -41,13 +41,13 @@
           </div>
         </div>
       </li>
-      <li class="is-common is-next" v-if="type === 'nextStep'">
+      <!-- <li class="is-common is-next" v-if="type === 'nextStep'">
         <div class="desc-wrapper">
           <div class="desc special-item" @click="clickNext">
             <p> {{ $t(`roadmap.next`) }}  <img src="~/assets/images/roadmap/next.svg"/></p>
           </div>
         </div>
-      </li>
+      </li> -->
     </ul>
   </div>
 </template>
