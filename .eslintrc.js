@@ -1,6 +1,5 @@
 module.exports = {
   root: true,
-  parser: 'babel-eslint',
   plugins: [
     'html'
   ],
@@ -10,35 +9,17 @@ module.exports = {
     "es6": true,
     "node": true
   },
-  extends: "eslint:recommended",
+  extends: [
+    'plugin:vue/essential',
+    '@vue/airbnb'
+  ],
   parserOptions: {
-    'ecmaFeatures': {
-      "jsx": true
-    },
-    "sourceType": "module"
+    parser: 'babel-eslint',
   },
   rules: {
-    "no-console": [
-      "off"
-    ],
-    "indent": [
-      "error",
-      2
-    ],
-    "linebreak-style": [
-      "error",
-      "unix"
-    ],
-    "quotes": [
-      "error",
-      "single"
-    ],
-    "semi": [
-      "error",
-      "always"
-    ]
-  },
-  "globals": {
-    "window": true
+    'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    'import/no-unresolved': 'off',
+    'import/extensions': 'off'
   },
 };

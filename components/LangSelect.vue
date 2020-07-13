@@ -10,7 +10,6 @@
         <template v-for="(item, index) in locales">
           <nuxt-link class="dropdown-item"
                      :key="index"
-                     v-if="item.code !== $i18n.locale"
                      :to="switchLocalePath(item.code)"
                      active-class="none"
                      exact>
@@ -26,7 +25,7 @@
   export default {
     computed: {
       locales: function () {
-        return this.$i18n.locales;
+        return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale)
       }
     }
 };

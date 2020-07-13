@@ -46,7 +46,6 @@
     <div
       class="navbar headroom"
       :class="`is-${routeName}-page`"
-      v-headroom
     >
       <div
         class="container is-widescreen"
@@ -536,16 +535,7 @@ export default {
   border-bottom: 1px solid transparent;
   z-index: 222222;
   background: #fff;
-
-  &.headroom--not-top {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-    background: white;
-  }
-  @include desktop {
-    &.is-index-page.headroom--top {
-      background: transparent;
-    }
-  }
+  
   a.navbar-item:hover {
     background-color: white;
   }
