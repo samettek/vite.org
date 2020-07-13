@@ -1,5 +1,5 @@
 <template>
-  <no-ssr class="no-ssr">
+  <client-only class="no-ssr">
     <v-popover
       offset="16"
       :disabled="!isEnabled"
@@ -25,7 +25,7 @@
       </template>
     </v-popover>
 
-    <div class="btn-wrapper" slot="placeholder">
+    <!-- <div class="btn-wrapper" slot="placeholder">
       <span class="wp-wrapper">{{$t('home.whitePaper')}}</span>
         <svg width="9px" height="14px" viewBox="0 0 9 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -36,8 +36,8 @@
               </g>
           </g>
         </svg>
-    </div>
-  </no-ssr>
+    </div> -->
+  </client-only>
 </template>
 
 <script type="text/babel">

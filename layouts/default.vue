@@ -44,7 +44,7 @@
       </dialog-compo>
     </no-ssr>
     <div
-      class="navbar headroom"
+      class="navbar"
       :class="`is-${routeName}-page`"
     >
       <div

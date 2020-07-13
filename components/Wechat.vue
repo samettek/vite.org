@@ -1,5 +1,5 @@
 <template>
-  <no-ssr class="no-ssr">
+  <client-only class="no-ssr">
     <v-popover
       offset="16"
       :disabled="!isEnabled"
@@ -12,8 +12,8 @@
       </template>
     </v-popover>
 
-    <a slot="placeholder" target="_blank"><fa-icon :icon="['fab', 'weixin']" /></a>
-  </no-ssr>
+    <!-- <a slot="placeholder" target="_blank"><fa-icon :icon="['fab', 'weixin']" /></a> -->
+  </client-only>
 </template>
 
 <script type="text/babel">

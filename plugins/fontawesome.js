@@ -1,7 +1,7 @@
 import Vue from 'vue';
 
 import fontawesome from '@fortawesome/fontawesome';
-import FontAwesomeIcon from '@fortawesome/vue-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
 import faTwitter from '@fortawesome/fontawesome-free-brands/faTwitter';
 import faGithub from '@fortawesome/fontawesome-free-brands/faGithub';
