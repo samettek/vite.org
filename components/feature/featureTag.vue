@@ -31,130 +31,133 @@
   </div>
 </template>
 <script>
+/* eslint-disable global-require */
+
 const iconMap = {
   easyusing: [
     require('~/assets/images/feature/tags/easyusing0.svg'),
     require('~/assets/images/feature/tags/easyusing1.svg'),
     require('~/assets/images/feature/tags/easyusing2.svg'),
-    require('~/assets/images/feature/tags/easyusing3.svg')
+    require('~/assets/images/feature/tags/easyusing3.svg'),
   ],
   performance: [
     require('~/assets/images/feature/tags/performance0.svg'),
     [
       require('~/assets/images/feature/tags/performance10.svg'),
       require('~/assets/images/feature/tags/performance11.svg'),
-      require('~/assets/images/feature/tags/performance12.png')
-    ]
+      require('~/assets/images/feature/tags/performance12.png'),
+    ],
   ],
   flexable: [
     require('~/assets/images/feature/tags/flexable0.svg'),
     require('~/assets/images/feature/tags/flexable1.svg'),
-    require('~/assets/images/feature/tags/flexable2.svg')
+    require('~/assets/images/feature/tags/flexable2.svg'),
   ],
   safety: [
     require('~/assets/images/feature/tags/safety0.svg'),
-    require('~/assets/images/feature/tags/safety1.svg')
+    require('~/assets/images/feature/tags/safety1.svg'),
   ],
   economical: [
     require('~/assets/images/feature/tags/economical0.svg'),
     require('~/assets/images/feature/tags/economical1.svg'),
-    require('~/assets/images/feature/tags/economical2.svg')
-  ]
+    require('~/assets/images/feature/tags/economical2.svg'),
+  ],
 };
 
 export default {
   data() {
-    return { 
+    return {
       iconMap,
       features_zh: {
-        'performance': {
-          'tags': [
+        performance: {
+          tags: [
             'DAG账本',
-            '异步架构'
-          ]
+            '异步架构',
+          ],
         },
-        'safety': {
-          'tags': [
+        safety: {
+          tags: [
             '多代币模型',
-            '快照链'
-          ]
+            '快照链',
+          ],
         },
-        'economical': {
-          'tags': [
+        economical: {
+          tags: [
             '配额模型',
             '无手续费',
-            '内置 DEX'
-          ]
+            '内置 DEX',
+          ],
         },
-        'easyusing': {
-          'tags': [
+        easyusing: {
+          tags: [
             'Solidity++',
             '命名服务',
             '合约调度',
-            '合约升级'
-          ]
+            '合约升级',
+          ],
         },
-        'flexable': {
-          'tags': [
+        flexable: {
+          tags: [
             '跨链',
             'HDPoS共识',
-            '智能合约'
-          ]
-        }
+            '智能合约',
+          ],
+        },
       },
       features_en: {
-        'performance': {
-          'tags': [
+        performance: {
+          tags: [
             'DAG Ledger',
-            'Asynchronous Architecture'
-          ]
+            'Asynchronous Architecture',
+          ],
         },
-        'safety': {
-          'tags': [
+        safety: {
+          tags: [
             'Multi-Token Model',
-            'Snapshot Chain'
-          ]
+            'Snapshot Chain',
+          ],
         },
-        'economical': {
-          'tags': [
+        economical: {
+          tags: [
             'Quota-Based Model',
             'Feeless Transactions',
-            'Built-in DEX'
-          ]
+            'Built-in DEX',
+          ],
         },
-        'easyusing': {
-          'tags': [
+        easyusing: {
+          tags: [
             'Solidity++',
             'Naming Services',
             'Contract Scheduling',
-            'Contract Upgrades'
-          ]
+            'Contract Upgrades',
+          ],
         },
-        'flexable': {
-          'tags': [
+        flexable: {
+          tags: [
             'Cross-Chain Gateway',
             'HDPoS Consensus',
-            'Smart Contracts'
-          ]
-        }
-      }, };
+            'Smart Contracts',
+          ],
+        },
+      },
+    };
   },
   computed: {
     features() {
       return this.$i18n.locale === 'zh' ? this.features_zh : this.features_en;
-    }
+    },
   },
   props: {
     tagKey: { type: String, required: true },
     index: {
       type: Number,
-      default: 0
+      default: 0,
     },
     active: {
       type: Boolean,
-      default: false
-    }
-  }
+      default: false,
+    },
+  },
 };
 </script>
 <style lang="scss" scoped>

@@ -13,11 +13,11 @@
     </div>
     <div class="dropdown-menu" id="lang-dropdown-menu" role="menu">
       <div class="dropdown-content" v-if="list.length">
-        <a 
-          class="dropdown-item" 
-          target="_blank" 
+        <a
+          class="dropdown-item"
+          target="_blank"
           :href="item.to"
-          v-for="(item, index) in list" 
+          v-for="(item, index) in list"
           :key="index"
           v-if="item.type && item.type === 'outer'"
           >
@@ -25,8 +25,8 @@
         </a>
         <nuxt-link
           :to="item.anchor ? `${localePath(item.to)}#${item.anchor}` : localePath(item.to)"
-          class="dropdown-item" 
-          v-for="(item, index) in list" 
+          class="dropdown-item"
+          v-for="(item, index) in list"
           :key="index"
           v-if="item.type && item.type === 'inner'">
           {{$t(`nav.${item.name}`)}}
@@ -38,39 +38,39 @@
 </template>
 
 <script type="text/babel">
-  // secondaryList   item {type: inner/outer, name: xxx, to: xxx}
-  import config from '~/config';
+// secondaryList   item {type: inner/outer, name: xxx, to: xxx}
+import config from '~/config';
 
-  export default {
-    props: {
-      isFooter: {
-        type: Boolean,
-        default: false
-      },
-      footerName: {
-        type: String,
-        default: ''
-      },
-      footerTo: {
-        type: String,
-        default: ''
-      },
-      secondaryList: {
-        type: Array,
-        default: ()=> []
-      }
+export default {
+  props: {
+    isFooter: {
+      type: Boolean,
+      default: false,
     },
-    computed: {
-      list() {
-        return this.secondaryList;
-      }
+    footerName: {
+      type: String,
+      default: '',
     },
-    data () {
-      return {
-        voteMap: config.urls.vote
-      };
-    }
-  };
+    footerTo: {
+      type: String,
+      default: '',
+    },
+    secondaryList: {
+      type: Array,
+      default: () => [],
+    },
+  },
+  computed: {
+    list() {
+      return this.secondaryList;
+    },
+  },
+  data() {
+    return {
+      voteMap: config.urls.vote,
+    };
+  },
+};
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>

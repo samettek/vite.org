@@ -5,7 +5,7 @@
         <div class="title-content is-flex">
           <img :src="info.img"/>
           <div class="title-content__title">
-            {{ info.title }} 
+            {{ info.title }}
             <span class="title-content__title-num">{{ info.titleData }}</span>
             <span v-if="info.title1">{{ info.title1 }} </span>
           </div>
@@ -22,30 +22,28 @@
   </div>
 </template>
 <script>
-  export default {
-    components: {
+export default {
+  components: {
+  },
+  props: {
+    info: {
+      type: Object,
+      default: () => ({
+        img: '',
+        title: '',
+        titleData: '',
+        rightLink: '',
+      }),
     },
-    props: {
-      info: {
-        type: Object,
-        default: ()=> {
-          return {
-            img: '',
-            title: '',
-            titleData: '',
-            rightLink: ''
-          };
-        }
-      }
-    },
-    data() {
-      return {
-        locales: this.$i18n.locale === 'en' ? '' : this.$i18n.locale,
-      };
-    },
-    methods: {
-    }
-  };
+  },
+  data() {
+    return {
+      locales: this.$i18n.locale === 'en' ? '' : this.$i18n.locale,
+    };
+  },
+  methods: {
+  },
+};
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>
@@ -67,13 +65,13 @@
       .title-content {
         padding: 12px 0px 12px 20px;
         .title-content__title {
-          margin-left: 12px; 
+          margin-left: 12px;
           line-height: 36px;
           .title-content__title-num {
             font-family:$font-family-title;
           }
-        }   
-      } 
+        }
+      }
     }
     .right-title-link {
       display: inline-block;

@@ -14,8 +14,8 @@ export default {
   components: {
     Teams,
     Community,
-    Investor
-  }
+    Investor,
+  },
 };
 </script>
 

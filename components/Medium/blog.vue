@@ -9,7 +9,7 @@
       <div class="M-img"><img :src="imgSrc"/></div>
     </div>
     </a>
-    
+
   </div>
 </template>
 
@@ -19,16 +19,16 @@ import config from '~/config.js';
 export default {
   data() {
     return {
-      imgSrc: this.$i18n.locale === 'zh' ? require('~/assets/images/medium/f.svg') : require('~/assets/images/medium/M.svg')
+      imgSrc: this.$i18n.locale === 'zh' ? require('~/assets/images/medium/f.svg') : require('~/assets/images/medium/M.svg'),
     };
   },
   computed: {
     href() {
       return this.$i18n.locale === 'zh' ? config.urls.forum : config.urls.medium;
-    }
+    },
   },
   components: {
-  } 
+  },
 };
 </script>
 
@@ -59,7 +59,7 @@ export default {
     line-height:20px;
   }
   .M-img {
-    margin-left: 20px; 
+    margin-left: 20px;
   }
 }
 

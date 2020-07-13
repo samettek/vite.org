@@ -18,13 +18,13 @@ export default {
   components: {
     youtube,
     blog,
-    report
+    report,
   },
-  data: function() {
+  data() {
     return {
     };
   },
-  methods: {}
+  methods: {},
 };
 </script>
 

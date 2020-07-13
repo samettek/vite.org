@@ -29,12 +29,13 @@
 <script type="text/babel">
 import dapps from './dapps';
 import worth from './worth';
+
 export default {
   components: {
     dapps,
-    worth
+    worth,
   },
-  methods: {}
+  methods: {},
 };
 </script>
 

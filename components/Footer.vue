@@ -230,56 +230,56 @@ export default {
     about,
     SecondaryMenu,
     FooterMenu,
-    Explorer
+    Explorer,
   },
   props: {
     navProductionList: {
       type: Array,
-      default: ()=> []
+      default: () => [],
     },
     navPersonList: {
       type: Array,
-      default: ()=> []
+      default: () => [],
     },
     navGuideList: {
       type: Array,
-      default: ()=> []
+      default: () => [],
     },
     navMediaList: {
       type: Array,
-      default: ()=> []
-    }
+      default: () => [],
+    },
   },
-  data: function () {
-    let { urls } = config;
+  data() {
+    const { urls } = config;
     return {
       navExchangeList: [{
         type: 'outer',
         name: 'vitex',
-        to: urls.exchange.vitex
+        to: urls.exchange.vitex,
       }, {
         type: 'outer',
         name: 'binance',
-        to: urls.exchange.binance
+        to: urls.exchange.binance,
       }, {
         type: 'outer',
         name: 'okex',
-        to: urls.exchange.okex
+        to: urls.exchange.okex,
       }, {
         type: 'outer',
         name: 'bittrex',
-        to: urls.exchange.bittrex
+        to: urls.exchange.bittrex,
       }, {
         type: 'outer',
         name: 'okexKr',
-        to: urls.exchange.okexKr
+        to: urls.exchange.okexKr,
       }],
       urls,
       aboutList: ['tokenUrl'],
       learnList: ['whitePaper', 'document', 'introduction'],
       mediumList: ['medium', 'btt', 'blog'],
       urlShouldTranslate: ['whitePaper', 'telegram', 'introduction'],
-      navs: ['team', 'community']
+      navs: ['team', 'community'],
     };
   },
   computed: {
@@ -287,15 +287,15 @@ export default {
       return [{
         type: 'inner',
         name: 'nodeList',
-        to: 'nodeList'
+        to: 'nodeList',
       }, {
         type: 'inner',
         name: 'superNodes',
-        to: 'superNodes'
+        to: 'superNodes',
       }, {
         type: 'outer',
         name: 'notice.apply',
-        to: this.urls.vote.apply[this.$i18n.locale]
+        to: this.urls.vote.apply[this.$i18n.locale],
       }];
     },
     navMoreList() {
@@ -308,18 +308,18 @@ export default {
         {
           type: 'outer',
           name: 'store',
-          to: this.urls.vitestore[this.$i18n.locale]
+          to: this.urls.vitestore[this.$i18n.locale],
         }];
-    }
+    },
   },
   methods: {
-    getUrl (item) {
+    getUrl(item) {
       if (this.urlShouldTranslate.indexOf(item) > -1) {
         return this.$t(`urlSrc.${item}`);
       }
       return config.urls[item];
-    }
-  }
+    },
+  },
 };
 </script>
 

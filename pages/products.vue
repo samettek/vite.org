@@ -15,17 +15,17 @@ import Products from '~/components/Products/index.vue';
 
 export default {
   components: {
-    Products
+    Products,
   },
   data() {
     return {
     };
   },
   computed: {
-    
+
   },
   methods: {
-  }
+  },
 };
 </script>
 
@@ -36,7 +36,7 @@ export default {
     @include touch {
       padding-top: 25px;
     }
-    
+
   }
 
 </style>

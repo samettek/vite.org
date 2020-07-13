@@ -5,8 +5,8 @@
         <h1 style="margin-bottom: 50px;">{{$t('faq.title')}}</h1>
         <div class="tab-wrapper">
           <div class="tab-content" :class="{'is-active': tabParams === 'common'}" @click="clickTab('common')">{{$t('faq.common')}}</div>
-          <div class="tab-content" 
-                :class="{'is-active': tabParams === 'technology'}" 
+          <div class="tab-content"
+                :class="{'is-active': tabParams === 'technology'}"
                 @click="clickTab('technology')">
                 {{$t('faq.technology')}}
           </div>
@@ -23,33 +23,33 @@ import Faqs from '~/components/Faqs';
 
 export default {
   components: {
-    Faqs
+    Faqs,
   },
   data() {
     return {
-      tabParams: 'common'
+      tabParams: 'common',
     };
   },
   computed: {
-    faqsCommon () {
-      let faqs = this.$t('faq.questions.common');
+    faqsCommon() {
+      const faqs = this.$t('faq.questions.common');
       return this.convertFaqs(faqs);
     },
     faqsTech() {
-      let faqs = this.$t('faq.questions.technology');
+      const faqs = this.$t('faq.questions.technology');
       return this.convertFaqs(faqs);
-    }
+    },
   },
   methods: {
     convertFaqs(faqs) {
       faqs = Array.isArray(faqs) ? faqs : [];
-      return faqs.map(item => {
-        let {answer} = item;
+      return faqs.map((item) => {
+        let { answer } = item;
         if (!answer) answer = [];
         if (!Array.isArray(answer)) answer = [answer];
         return {
           ...item,
-          answer
+          answer,
         };
       });
     },
@@ -58,8 +58,8 @@ export default {
     },
     clickTab(str) {
       this.tabParams = str;
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -70,7 +70,7 @@ export default {
     @include touch {
       padding-top: 25px;
     }
-    
+
   }
 
 </style>

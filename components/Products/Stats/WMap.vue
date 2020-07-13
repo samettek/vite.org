@@ -3,9 +3,9 @@
     <div class="content">
       <div id="map" style="width: 100%; height: 249px;"></div>
       <div class="map__footer is-flex">
-        <div 
-          v-for="(item, index) in compulist" 
-          :key="index" 
+        <div
+          v-for="(item, index) in compulist"
+          :key="index"
           class="map__footer-wrapper"
           v-if="compulist.length">
           <div>{{item.city}}</div>
@@ -18,14 +18,15 @@
 
 <script>
 import echarts from 'echarts';
+
 require('echarts/map/js/world.js');
 
 export default {
   props: {
     list: {
       type: Array,
-      default: () => []
-    }
+      default: () => [],
+    },
   },
   data() {
     return {
@@ -35,7 +36,7 @@ export default {
   watch: {
     list() {
       this.draw();
-    }
+    },
   },
   mounted() {
     this.draw();
@@ -43,19 +44,19 @@ export default {
   computed: {
     compulist() {
       return this.list.slice(0, 6);
-    }
+    },
   },
   methods: {
     clear() {
       this.mapInstance.clear();
     },
     convertData() {
-      let res = [];
-      for (var i = 0; i < this.list.length; i++) {
+      const res = [];
+      for (let i = 0; i < this.list.length; i++) {
         if (this.list[i].lng && this.list[i].lng) {
           res.push({
             name: this.$t('products.platform.fullnode.nodeName'),
-            value: [this.list[i].lng, this.list[i].lat, this.list[i].nodeNames]
+            value: [this.list[i].lng, this.list[i].lat, this.list[i].nodeNames],
           });
         }
       }
@@ -66,12 +67,12 @@ export default {
       this.mapInstance.setOption({
         tooltip: {
           trigger: 'item',
-          formatter: function (params) {
+          formatter(params) {
             if (params.value[2].length > 6) {
               params.value[2] = params.value[2].slice(0, 6);
             }
-            return params.name + ' : ' + params.value[2];
-          }
+            return `${params.name} : ${params.value[2]}`;
+          },
         },
         geo: {
           roam: false,
@@ -81,9 +82,9 @@ export default {
           itemStyle: {
             normal: {
               areaColor: 'rgba(85,122,198,0.25)',
-              borderWidth: 0
-            }
-          }
+              borderWidth: 0,
+            },
+          },
         },
         series: [{
           type: 'scatter',
@@ -92,13 +93,13 @@ export default {
           itemStyle: {
             color: 'rgba(0, 122, 255, 1)',
             borderColor: 'rgba(0, 122, 255, 0.2)',
-            borderWidth: 8
+            borderWidth: 8,
           },
-          data: this.convertData()
-        }]
-      },true);
-    }
-  }
+          data: this.convertData(),
+        }],
+      }, true);
+    },
+  },
 };
 </script>
 

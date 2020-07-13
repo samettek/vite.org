@@ -1,8 +1,9 @@
-import Player from './play';
 import Vue from 'vue';
-export default ({src, iframeSrc}) => {
+import Player from './play';
+
+export default ({ src, iframeSrc }) => {
   const instance = new Vue(Object.assign(Player, {
-    el: document.createElement('div')
+    el: document.createElement('div'),
 
   }));
   instance.src = src;

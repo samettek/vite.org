@@ -175,44 +175,44 @@ export default {
     about,
     dialogCompo,
     SecondaryMenu,
-    Explorer
+    Explorer,
   },
-  head () {
-    let { routeName } = this;
-    let title = this.$t(`nav.${routeName}`) + ' - ' + this.$t('head.title');
+  head() {
+    const { routeName } = this;
+    const title = `${this.$t(`nav.${routeName}`)} - ${this.$t('head.title')}`;
 
-    let description = this.$t(`head.description.${routeName}`);
-    let iconUrl = 'https://vite.org/icon.png';
-    let structuredData = [
+    const description = this.$t(`head.description.${routeName}`);
+    const iconUrl = 'https://vite.org/icon.png';
+    const structuredData = [
       {
         '@context': 'http://schema.org',
         '@type': 'Organization',
         url: 'https://vite.org',
         name: 'Vite labs.',
-        description: description,
+        description,
         image: iconUrl,
         brand: {
           '@type': 'Brand',
           name: 'VITE',
-          logo: iconUrl
+          logo: iconUrl,
         },
-        sameAs: [config.urls.twitter]
-      }
+        sameAs: [config.urls.twitter],
+      },
     ];
     return {
       meta: [
         { hid: 'description', name: 'description', content: description },
         {
           name: 'google-site-verification',
-          content: 'MyUvG14lvMm-nYCWoXYE9NT21vRda-kIT6xMETrGqZk'
+          content: 'MyUvG14lvMm-nYCWoXYE9NT21vRda-kIT6xMETrGqZk',
         },
         {
           name: 'renderer',
-          content: 'webkit'
+          content: 'webkit',
         },
         {
           'http-equiv': 'X-UA-Compatible',
-          content: 'IE=edge,chrome=1'
+          content: 'IE=edge,chrome=1',
         },
         // Open Grapg
         { name: 'og:title', content: title, hid: 'og:title' },
@@ -228,92 +228,90 @@ export default {
         {
           name: 'twitter:description',
           content: description,
-          hid: 'twitter:description'
+          hid: 'twitter:description',
         },
         {
           name: 'twitter:image:alt',
           content: 'Vite Logo',
-          hid: 'twitter:image:alt'
+          hid: 'twitter:image:alt',
         },
         {
           name: 'twitter:image',
-          content: 'https://www.vite.org/logo_appstore.png'
-        }
+          content: 'https://www.vite.org/logo_appstore.png',
+        },
       ],
       __dangerouslyDisableSanitizers: ['script'],
-      script: structuredData.map(item => {
-        return {
-          innerHTML: JSON.stringify(item),
-          type: 'application/ld+json'
-        };
-      })
+      script: structuredData.map((item) => ({
+        innerHTML: JSON.stringify(item),
+        type: 'application/ld+json',
+      })),
     };
   },
-  data: function () {
+  data() {
     return {
       dialogVisible: false,
       navProductionList: [{
         type: 'inner',
         name: 'platform',
         to: 'products',
-        anchor: 'platform'
+        anchor: 'platform',
       }, {
         type: 'inner',
         name: 'wallet',
         to: 'products',
-        anchor: 'wallet'
+        anchor: 'wallet',
       }, {
         type: 'inner',
         name: 'exchange',
         to: 'products',
-        anchor: 'exchange'
+        anchor: 'exchange',
       }, {
         type: 'inner',
         name: 'pay',
         to: 'products',
-        anchor: 'pay'
+        anchor: 'pay',
       }],
       navPersonList: [{
         type: 'inner',
         name: 'team',
         to: 'figure',
-        anchor: 'team'
+        anchor: 'team',
       }, {
         type: 'inner',
         name: 'counselor',
         to: 'figure',
-        anchor: 'advisor'
+        anchor: 'advisor',
       }, {
         type: 'inner',
         name: 'community',
         to: 'figure',
-        anchor: 'community'
+        anchor: 'community',
       }, {
         type: 'inner',
         name: 'investor',
         to: 'figure',
-        anchor: 'investor'
+        anchor: 'investor',
       }],
       navMediaList: [{
         type: 'inner',
         name: 'video',
         to: 'medium',
-        anchor: 'video'
-      },{
+        anchor: 'video',
+      }, {
         type: 'inner',
         name: 'blogs',
         to: 'medium',
-        anchor: 'blogs'
+        anchor: 'blogs',
       }, {
         type: 'inner',
         name: 'news',
         to: 'medium',
-        anchor: 'news'
+        anchor: 'news',
       }],
       navbarActive: false,
       navs: ['airdrop'],
       collapsing: false,
-      urls: config.urls
+      urls: config.urls,
     };
   },
   created() {
@@ -326,71 +324,70 @@ export default {
   },
   computed: {
     navGuideList() {
-      let tutoriallink = this.$i18n.locale === 'zh' ? 'https://vite.wiki/zh/tutorial/start/' : 'https://vite.wiki/tutorial/start/';
+      const tutoriallink = this.$i18n.locale === 'zh' ? 'https://vite.wiki/zh/tutorial/start/' : 'https://vite.wiki/tutorial/start/';
       return [{
         type: 'outer',
         name: 'tutorial',
-        to: tutoriallink
+        to: tutoriallink,
       }, {
         type: 'inner',
         name: 'faq',
-        to: 'faq'
+        to: 'faq',
       }];
     },
-    routeName () {
+    routeName() {
       if (!this.$route || !this.$route.name) return 'index';
       return this.$route.name.split('-')[0];
     },
-    navbarEndStyle () {
+    navbarEndStyle() {
       if (this.navbarActive) {
         return {
-          height: this.$refs.navbarEnd.clientHeight + 'px',
-          overflowY: this.collapsing ? 'hidden' : 'visible'
-        };
-      } else {
-        return {
-          height: 0
+          height: `${this.$refs.navbarEnd.clientHeight}px`,
+          overflowY: this.collapsing ? 'hidden' : 'visible',
         };
       }
-    }
+      return {
+        height: 0,
+      };
+    },
   },
   methods: {
-    afterLeave () {
+    afterLeave() {
       this.$root.$emit('triggerScroll');
     },
-    openDotNet () {
+    openDotNet() {
       window.open(
-        'https://international.bittrex.com/Market/Index?MarketName=BTC-VITE'
+        'https://international.bittrex.com/Market/Index?MarketName=BTC-VITE',
         // this.$i18n.locale === 'zh' ? 'https://vite.net/zh/' : 'https://vite.net'
       );
     },
-    openAirdropPage () {
+    openAirdropPage() {
       let lang = '';
       this.$i18n.locale !== 'en' ? lang = `/${this.$i18n.locale}` : lang = '';
-      this.$router.push({path: `${lang}/airdrop/`});
+      this.$router.push({ path: `${lang}/airdrop/` });
     },
-    onNavClick (e) {
-      let { target } = e;
+    onNavClick(e) {
+      const { target } = e;
       if (
-        target &&
-        target.className &&
-        typeof target.className === 'string' &&
-        target.className.indexOf('nav-item') > -1
+        target
+        && target.className
+        && typeof target.className === 'string'
+        && target.className.indexOf('nav-item') > -1
       ) {
         this.navbarActive = false;
       }
     },
-    onLogoClick () {
+    onLogoClick() {
       this.navbarActive = false;
     },
-    onBurgerClick () {
+    onBurgerClick() {
       this.collapsing = true;
       this.navbarActive = !this.navbarActive;
       setTimeout(() => {
         this.collapsing = false;
       }, 500);
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -535,7 +532,7 @@ export default {
   border-bottom: 1px solid transparent;
   z-index: 222222;
   background: #fff;
-  
+
   a.navbar-item:hover {
     background-color: white;
   }

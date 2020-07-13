@@ -19,15 +19,16 @@ import iot from '~/assets/images/eco/dapps/iot.svg';
 import knowledge from '~/assets/images/eco/dapps/knowledge.svg';
 import local from '~/assets/images/eco/dapps/local.svg';
 import social from '~/assets/images/eco/dapps/social.svg';
+
 const iconList = [game, local, entertainment, social, knowledge, iot];
 export default {
   components: {},
   data() {
     return {
-      iconList
+      iconList,
     };
   },
-  methods: {}
+  methods: {},
 };
 </script>
 

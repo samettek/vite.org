@@ -6,15 +6,15 @@
 </template>
 
 <script>
-  import Figure from '~/components/Figure';
+import Figure from '~/components/Figure';
 
-  export default {
-    components: {
-      Figure
-    },
-    computed: {
-    }
-  };
+export default {
+  components: {
+    Figure,
+  },
+  computed: {
+  },
+};
 </script>
 
 <style  rel="stylesheet/scss" lang="scss" scoped>

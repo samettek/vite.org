@@ -27,24 +27,24 @@ import subTitle from '~/components/subTitle';
 export default {
   components: {
     TeamImage,
-    subTitle
+    subTitle,
   },
   props: {
     title: {
       type: String,
-      default: ''
+      default: '',
     },
     list: {
       type: Array,
-      default: () => []
-    }
+      default: () => [],
+    },
   },
-  data: function () {
+  data() {
     return {
 
     };
   },
-  methods: {}
+  methods: {},
 };
 </script>
 
@@ -57,5 +57,5 @@ export default {
     margin-top: 24px;
     margin-bottom: 55px;
   }
-  
+
 </style>

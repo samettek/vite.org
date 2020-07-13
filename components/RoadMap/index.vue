@@ -31,12 +31,12 @@ import timeline from './timeline';
 
 export default {
   components: {
-    timeline
+    timeline,
   },
-  data: function () {
+  data() {
     return {
       tabParams: 'inProgress',
-      tabs: ['completed', 'inProgress', 'nextStep']
+      tabs: ['completed', 'inProgress', 'nextStep'],
     };
   },
   computed: {
@@ -51,7 +51,7 @@ export default {
         return this.getTimelines().slice(-1);
       }
       return [];
-    }
+    },
   },
   methods: {
     tableList(item) {
@@ -71,21 +71,21 @@ export default {
       this.tabParams = str;
     },
     getTimelines() {
-      let roadmaps = this.$t('roadmap.timelines');
+      const roadmaps = this.$t('roadmap.timelines');
       if (!Array.isArray(roadmaps)) {
         return [];
       }
-      return roadmaps.map(item => {
+      return roadmaps.map((item) => {
         if (!Array.isArray(item.description)) {
           return {
             ...item,
-            description: [item.description]
+            description: [item.description],
           };
         }
         return item;
       });
-    }
-  }
+    },
+  },
 };
 </script>
 

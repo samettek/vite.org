@@ -17,19 +17,19 @@
 </template>
 
 <script type="text/babel">
-  import { VPopover } from 'v-tooltip';
+import { VPopover } from 'v-tooltip';
 
-  export default {
-    components: {
-      VPopover
-    },
-    data: function () {
-      return {
-        isEnabled: true
-      };
-    },
-    methods: {}
-  };
+export default {
+  components: {
+    VPopover,
+  },
+  data() {
+    return {
+      isEnabled: true,
+    };
+  },
+  methods: {},
+};
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>

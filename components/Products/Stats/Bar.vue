@@ -13,20 +13,20 @@ export default {
   props: {
     list: {
       type: Array,
-      default: ()=> []
+      default: () => [],
     },
     barStyle: {
       type: Object,
-      default: ()=> {}
+      default: () => {},
     },
     showAxis: {
       type: Boolean,
-      default: true
+      default: true,
     },
     yMax: {
       type: Number,
-      default: 0
-    }
+      default: 0,
+    },
   },
   data() {
     return {
@@ -36,7 +36,7 @@ export default {
   watch: {
     list() {
       this.draw();
-    }
+    },
   },
   mounted() {
     this.echarsInstance = echarts.init(this.$refs.bar);
@@ -54,55 +54,51 @@ export default {
       return '';
     },
     draw() {
-      let yAxis = Object.assign({
+      const yAxis = {
         show: this.showAxis,
-        axisLabel : { 
-          formatter : '{value}' 
+        axisLabel: {
+          formatter: '{value}',
         },
-        splitLine:{ 
-          show:false 
-        }
-      });
+        splitLine: {
+          show: false,
+        },
+      };
       this.echarsInstance.setOption({
-        xAxis:  yAxis,
+        xAxis: yAxis,
         yAxis: {
           show: this.showAxis,
           type: 'category',
-          data: this.list.map(item => {
-            return item.item + '%';
-          }) 
+          data: this.list.map((item) => `${item.item}%`),
         },
         tooltip: {
-          trigger: 'item'
+          trigger: 'item',
         },
         series: [{
           type: 'bar',
-          data: this.list.map(item => {
-            return item.count;
-          }),
+          data: this.list.map((item) => item.count),
           animation: false,
           barWidth: '50%',
           itemStyle: {
-            color: params =>{
-              let itemList = this.list[params.dataIndex];
-              let percent = itemList.item;
+            color: (params) => {
+              const itemList = this.list[params.dataIndex];
+              const percent = itemList.item;
               return this.dispatchBarColor(+percent) || '';
-            }
+            },
           },
           tooltip: {
             position: 'top',
-            formatter: params=> {
-              let index = params.dataIndex;
-              let listItem = this.list[index];
+            formatter: (params) => {
+              const index = params.dataIndex;
+              const listItem = this.list[index];
               return `<div class="">
                 <div class="">${this.$t('products.platform.supernode.count')}：${listItem.count}</div> 
               </div>`;
-            }
-          }
-        }]
+            },
+          },
+        }],
       });
-    }
-  }
+    },
+  },
 };
 </script>
 

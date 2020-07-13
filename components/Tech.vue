@@ -20,51 +20,50 @@
 </template>
 
 <script type="text/babel">
-  import ReadMore from '~/components/ReadMore';
+import ReadMore from '~/components/ReadMore';
 
-  export default {
-    components: {
-      ReadMore
-    },
-    data: function () {
-      return {
-        list: [
-          {
-            key: 'dag',
-            img: require('~/assets/images/block_lattice.png'),
-            readMore: 'https://vite.wiki'
-          },
-          {
-            key: 'snapshotChain',
-            img: '/icon.png',
-            readMore: 'https://vite.wiki'
-          },
-          {
-            key: 'async',
-            img: '/icon.png'
-          },
-          {
-            key: 'reactiveContract',
-            img: '/icon.png'
-          },
-          {
-            key: 'ecosystem',
-            img: '/icon.png'
-          }
-        ]
-      };
-    },
-    methods: {
-      renderDesc (key) {
-        let desc = this.$t(`tech.${key}.description`);
-        if (Array.isArray(desc)) {
-          return desc;
-        } else {
-          return [desc];
-        }
+export default {
+  components: {
+    ReadMore,
+  },
+  data() {
+    return {
+      list: [
+        {
+          key: 'dag',
+          img: require('~/assets/images/block_lattice.png'),
+          readMore: 'https://vite.wiki',
+        },
+        {
+          key: 'snapshotChain',
+          img: '/icon.png',
+          readMore: 'https://vite.wiki',
+        },
+        {
+          key: 'async',
+          img: '/icon.png',
+        },
+        {
+          key: 'reactiveContract',
+          img: '/icon.png',
+        },
+        {
+          key: 'ecosystem',
+          img: '/icon.png',
+        },
+      ],
+    };
+  },
+  methods: {
+    renderDesc(key) {
+      const desc = this.$t(`tech.${key}.description`);
+      if (Array.isArray(desc)) {
+        return desc;
       }
-    }
-  };
+      return [desc];
+    },
+  },
+};
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>

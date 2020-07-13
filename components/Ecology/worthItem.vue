@@ -20,13 +20,14 @@ import checkIcon from '~/assets/images/eco/worth/checkIcon.svg';
 import dex from '~/assets/images/eco/worth/dex.svg';
 import finance from '~/assets/images/eco/worth/finance.svg';
 import pay from '~/assets/images/eco/worth/pay.svg';
+
 export default {
   data() {
-    return { iconMap: { dex, finance, pay },checkIcon };
+    return { iconMap: { dex, finance, pay }, checkIcon };
   },
   props: {
-    itemKey: { type: String, default: '' }
-  }
+    itemKey: { type: String, default: '' },
+  },
 };
 </script>
 

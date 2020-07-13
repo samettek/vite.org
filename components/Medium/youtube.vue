@@ -20,7 +20,7 @@
           <iframe class="iframe" src="https://www.youtube.com/embed/-f_CiqfjGJU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <iframe class="iframe" src="https://www.youtube.com/embed/FRvdP_KcNRk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        
+
       </div>
     </div>
   </div>
@@ -31,20 +31,20 @@ import subTitle from '~/components/subTitle';
 
 export default {
   components: {
-    subTitle
+    subTitle,
   },
   computed: {
     title() {
-      return this.$i18n.locale === 'zh' 
-        ? this.$t('medium.tencent.title') 
+      return this.$i18n.locale === 'zh'
+        ? this.$t('medium.tencent.title')
         : this.$t('medium.youtube.title');
     },
     href() {
-      return this.$i18n.locale === 'zh' 
-        ? 'http://v.qq.com/vplus/231ba235da67faeb91069f1800862a96' 
+      return this.$i18n.locale === 'zh'
+        ? 'http://v.qq.com/vplus/231ba235da67faeb91069f1800862a96'
         : 'https://www.youtube.com/channel/UC8qft2rEzBnP9yJOGdsJBVg/videos';
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -70,12 +70,12 @@ export default {
     }
   }
   .youtube__vedio {
-    justify-content: space-between; 
+    justify-content: space-between;
     margin-top:30px;
     @include mobile {
       flex-direction: column;
       align-items: center;
-      justify-content: center; 
+      justify-content: center;
     }
     .iframe {
       width: 320px;

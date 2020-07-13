@@ -11,7 +11,6 @@
       </div>
     </section>
 
-
     <section class="section">
       <div class="container">
         <div v-for="(item, index) in jdList" class="jd" :key="index">
@@ -34,24 +33,24 @@
 </template>
 
 <script>
-    export default {
-      data () {
-        return {
-          jdList: ['go', 'fe', 'ios', 'android', 'pm'],
-          jdContentKey: ['desc', 'require', 'special']
-        };
-      },
-      methods: {
-        getContent (item, jdKey) {
-          let arr = this.$t(`careers.jd.${item}.${jdKey}`);
-          if (!arr) return [];
-          if (!Array.isArray(arr)) {
-            return [arr];
-          }
-          return arr;
-        }
-      }
+export default {
+  data() {
+    return {
+      jdList: ['go', 'fe', 'ios', 'android', 'pm'],
+      jdContentKey: ['desc', 'require', 'special'],
     };
+  },
+  methods: {
+    getContent(item, jdKey) {
+      const arr = this.$t(`careers.jd.${item}.${jdKey}`);
+      if (!arr) return [];
+      if (!Array.isArray(arr)) {
+        return [arr];
+      }
+      return arr;
+    },
+  },
+};
 </script>
 
 <style  rel="stylesheet/scss" lang="scss" scoped>

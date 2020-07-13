@@ -5,11 +5,11 @@
         <img :src="item.img"/>
         <div class="links">
           <img :src="item.pic" v-if="item.key === 'pic'"/>
-          <a :href="link" 
+          <a :href="link"
              v-else
-             target="_blank" 
-             class="link-url" 
-             v-for="(link, index) in item.links" 
+             target="_blank"
+             class="link-url"
+             v-for="(link, index) in item.links"
              :key="index">
              {{ link }}
           </a>
@@ -20,18 +20,18 @@
 </template>
 
 <script type="text/babel">
-  export default {
-    props: {
-      desc: {
-        type: Array,
-        default: () => []
-      }
+export default {
+  props: {
+    desc: {
+      type: Array,
+      default: () => [],
     },
-    data: function () {
-      return {};
-    },
-    methods: {}
-  };
+  },
+  data() {
+    return {};
+  },
+  methods: {},
+};
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>
@@ -87,6 +87,6 @@
         height: 100px;
       }
     }
-   
+
   }
 </style>

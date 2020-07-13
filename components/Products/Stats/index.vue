@@ -13,8 +13,8 @@
       </card>
     </div>
     <div class="text__outer-link">
-      <a 
-        :href="outerLink.url" 
+      <a
+        :href="outerLink.url"
         target="_blank">
         {{ outerLink.name }}
         <img src="~/assets/images/arrow_forward.svg"/>
@@ -33,13 +33,13 @@ export default {
   components: {
     card,
     Bar,
-    WMap
+    WMap,
   },
   computed: {
     outerLink() {
       return {
         name: this.$t('products.platform.explorer'),
-        url: 'https://explorer.vite.net/'
+        url: 'https://explorer.vite.net/',
       };
     },
     info() {
@@ -49,34 +49,34 @@ export default {
           title: this.$t('products.platform.supernode.title'),
           title1: this.$t('products.platform.supernode.title1'),
           titleData: '36',
-          rightLink: 'https://explorer.vite.net/FullNode'
+          rightLink: 'https://explorer.vite.net/FullNode',
         },
         nodePosition: {
           img: require('~/assets/images/product/fullnode.svg'),
           title: this.$t('products.platform.fullnode.title'),
           titleData: '1460',
-          rightLink: 'https://explorer.vite.net/FullNode'
+          rightLink: 'https://explorer.vite.net/FullNode',
         },
-        
+
       };
-    }
+    },
   },
-  data: function () {
+  data() {
     return {
       barStyle: {
         width: '100%',
         height: '315px',
         marginTop: '0px',
-        marginLeft: '0px'
+        marginLeft: '0px',
       },
-      percents: [{'count':17,'item':'100'},{'count':10,'item':'99.9'},{'count':4,'item':'99.5'},{'count':2,'item':'99.0'},{'count':3,'item':'95.0'},{'count':1,'item':'90.0'},{'count':1,'item':'60.0'},{'count':1,'item':'10.0'},{'count':1,'item':'0.0'}],
-      mapList:[
+      percents: [{ count: 17, item: '100' }, { count: 10, item: '99.9' }, { count: 4, item: '99.5' }, { count: 2, item: '99.0' }, { count: 3, item: '95.0' }, { count: 1, item: '90.0' }, { count: 1, item: '60.0' }, { count: 1, item: '10.0' }, { count: 1, item: '0.0' }],
+      mapList: [
         {
-          'city': 'Paris',
-          'count': 99,
-          'lat': 48.8628,
-          'lng': 2.3292,
-          'nodeNames': [
+          city: 'Paris',
+          count: 99,
+          lat: 48.8628,
+          lng: 2.3292,
+          nodeNames: [
             'New-07',
             'VitePhoenix',
             'New-39',
@@ -175,15 +175,15 @@ export default {
             'vite-full-node',
             'vite-full-node',
             'vite-full-node',
-            'nitro-c4968b58'
-          ]
+            'nitro-c4968b58',
+          ],
         },
         {
-          'city': 'Turkey',
-          'count': 87,
-          'lat': 41.0214,
-          'lng': 28.9948,
-          'nodeNames': [
+          city: 'Turkey',
+          count: 87,
+          lat: 41.0214,
+          lng: 28.9948,
+          nodeNames: [
             'vite-full-node',
             'vite-full-node',
             'vite-full-node',
@@ -270,15 +270,15 @@ export default {
             'vite-full-node',
             'vite-full-node',
             'vite-full-node',
-            'vite-full-node'
-          ]
+            'vite-full-node',
+          ],
         },
         {
-          'city': 'Arezzo',
-          'count': 85,
-          'lat': 43.4628,
-          'lng': 11.8807,
-          'nodeNames': [
+          city: 'Arezzo',
+          count: 85,
+          lat: 43.4628,
+          lng: 11.8807,
+          nodeNames: [
             'ViteCH',
             'ViteCH',
             'Vite.Casino',
@@ -363,15 +363,15 @@ export default {
             'vite-full-node',
             'vite-full-node',
             'vite-full-node',
-            'vite-full-node'
-          ]
+            'vite-full-node',
+          ],
         },
         {
-          'city': 'Slough',
-          'count': 56,
-          'lat': 51.5353,
-          'lng': -0.6658,
-          'nodeNames': [
+          city: 'Slough',
+          count: 56,
+          lat: 51.5353,
+          lng: -0.6658,
+          nodeNames: [
             'vite-full-node',
             'vite-full-node',
             'vite-full-node',
@@ -427,15 +427,15 @@ export default {
             'vite-full-node',
             'vite-full-node',
             'vite-full-node',
-            'vite-full-node'
-          ]
+            'vite-full-node',
+          ],
         },
         {
-          'city': 'Haarlem',
-          'count': 45,
-          'lat': 52.3613,
-          'lng': 4.6464,
-          'nodeNames': [
+          city: 'Haarlem',
+          count: 45,
+          lat: 52.3613,
+          lng: 4.6464,
+          nodeNames: [
             'hydro-41817bec',
             'hydro-54fc21ae',
             'hydro-9fcefff6',
@@ -480,15 +480,15 @@ export default {
             'hydro-6206ac25',
             'hydro-fbacc37f',
             'hydro-cf8c5e42',
-            'hydro-3f06a081'
-          ]
+            'hydro-3f06a081',
+          ],
         },
         {
-          'city': 'Şanlıurfa',
-          'count': 43,
-          'lat': 37.1671,
-          'lng': 38.7939,
-          'nodeNames': [
+          city: 'Şanlıurfa',
+          count: 43,
+          lat: 37.1671,
+          lng: 38.7939,
+          nodeNames: [
             'vite-full-node',
             'vite-full-node',
             'vite-full-node',
@@ -531,15 +531,15 @@ export default {
             'vite-full-node',
             'vite-full-node',
             'vite-full-node',
-            'vite-full-node'
-          ]
+            'vite-full-node',
+          ],
         },
         {
-          'city': 'France',
-          'count': 297,
-          'lat': 48.8582,
-          'lng': 2.3387,
-          'nodeNames': [
+          city: 'France',
+          count: 297,
+          lat: 48.8582,
+          lng: 2.3387,
+          nodeNames: [
             'New-01',
             'New-05',
             'New-11',
@@ -836,15 +836,15 @@ export default {
             'hydro-ea54b6a6',
             'nitro-898b9da8',
             'nitro-9143a2a0',
-            'nitro-97b7c038'
-          ]
+            'nitro-97b7c038',
+          ],
         },
         {
-          'city': 'United States',
-          'count': 97,
-          'lat': 37.751,
-          'lng': -97.822,
-          'nodeNames': [
+          city: 'United States',
+          count: 97,
+          lat: 37.751,
+          lng: -97.822,
+          nodeNames: [
             'ogktk5',
             'ogktk10',
             'vite-351',
@@ -941,15 +941,15 @@ export default {
             'Set-5',
             'Super-4',
             'Set-3',
-            'Alt-8'
-          ]
+            'Alt-8',
+          ],
         },
         {
-          'city': 'Singapore',
-          'count': 78,
-          'lat': 1.2931,
-          'lng': 103.8558,
-          'nodeNames': [
+          city: 'Singapore',
+          count: 78,
+          lat: 1.2931,
+          lng: 103.8558,
+          nodeNames: [
             'wzdo_a_51-239',
             'wzdo_a_107-226',
             'tydo_03_156-158',
@@ -1027,15 +1027,15 @@ export default {
             'Amazing-06',
             'wsc-nl',
             'wsc-us',
-            'zz_dofk_2sg_196_7a2c29b3'
-          ]
+            'zz_dofk_2sg_196_7a2c29b3',
+          ],
         },
         {
-          'city': 'Germany_51.2993_9.491',
-          'count': 77,
-          'lat': 51.2993,
-          'lng': 9.491,
-          'nodeNames': [
+          city: 'Germany_51.2993_9.491',
+          count: 77,
+          lat: 51.2993,
+          lng: 9.491,
+          nodeNames: [
             'vite-novy-node-3',
             'vite-full-node-nm-009',
             'vite-full-node-nm-003',
@@ -1112,15 +1112,15 @@ export default {
             'Apollo-13',
             'LDT-07',
             'algato-fn07',
-            'hetz-1'
-          ]
+            'hetz-1',
+          ],
         },
         {
-          'city': 'New York',
-          'count': 38,
-          'lat': 40.7185,
-          'lng': -74.0025,
-          'nodeNames': [
+          city: 'New York',
+          count: 38,
+          lat: 40.7185,
+          lng: -74.0025,
+          nodeNames: [
             'zz_dofo_5_255',
             'zz_dofo_2_252',
             'zz_docmwg168_8_162',
@@ -1158,15 +1158,15 @@ export default {
             'Amazing-08',
             'vite-Sea57',
             'vite-Sea55',
-            'Amazing-10'
-          ]
+            'Amazing-10',
+          ],
         },
         {
-          'city': 'Beijing',
-          'count': 33,
-          'lat': 39.9289,
-          'lng': 116.3883,
-          'nodeNames': [
+          city: 'Beijing',
+          count: 33,
+          lat: 39.9289,
+          lng: 116.3883,
+          nodeNames: [
             'vite-16',
             'vite003',
             'VM_NODE',
@@ -1199,15 +1199,15 @@ export default {
             'zz_tc_ff2',
             'aiyh01',
             'vite-full-node-amds',
-            'vite-tly-6'
-          ]
+            'vite-tly-6',
+          ],
         },
         {
-          'city': 'Frankfurt am Main',
-          'count': 27,
-          'lat': 50.1153,
-          'lng': 8.6823,
-          'nodeNames': [
+          city: 'Frankfurt am Main',
+          count: 27,
+          lat: 50.1153,
+          lng: 8.6823,
+          nodeNames: [
             'zz_dojz_7_20',
             'vite-9',
             'zz_dojz_3_37',
@@ -1234,15 +1234,15 @@ export default {
             'zz_dojz_10_51',
             'zz_dohmhmvwan5_205',
             'zz_dohmhmvwan1_146',
-            'Beautiful-08'
-          ]
+            'Beautiful-08',
+          ],
         },
         {
-          'city': 'Mountain View',
-          'count': 27,
-          'lat': 37.4056,
-          'lng': -122.0775,
-          'nodeNames': [
+          city: 'Mountain View',
+          count: 27,
+          lat: 37.4056,
+          lng: -122.0775,
+          nodeNames: [
             'vite-full-node',
             'GCP-full-node',
             'vite-fonzie',
@@ -1269,15 +1269,15 @@ export default {
             'Love-01',
             'leogo1',
             'leogo1',
-            'leogo1'
-          ]
+            'leogo1',
+          ],
         },
         {
-          'city': 'Virginia',
-          'count': 25,
-          'lat': 38.6582,
-          'lng': -77.2497,
-          'nodeNames': [
+          city: 'Virginia',
+          count: 25,
+          lat: 38.6582,
+          lng: -77.2497,
+          nodeNames: [
             'vvktk18',
             'ogktk4',
             'vite-213-23',
@@ -1302,15 +1302,15 @@ export default {
             'Panos-02',
             'Panos-04',
             'Panos-06',
-            'leogo1'
-          ]
+            'leogo1',
+          ],
         },
         {
-          'city': 'Republic of Lithuania_56.0_24.0',
-          'count': 25,
-          'lat': 56,
-          'lng': 24,
-          'nodeNames': [
+          city: 'Republic of Lithuania_56.0_24.0',
+          count: 25,
+          lat: 56,
+          lng: 24,
+          nodeNames: [
             'vite-full-node',
             'vite-RA-AcA-',
             'vite-RA-AsA-',
@@ -1335,15 +1335,15 @@ export default {
             'vite-RA-ApA-',
             'vite-RA-A4A-',
             'vite-RA-AdA-',
-            'vite-RA-A7A-'
-          ]
+            'vite-RA-A7A-',
+          ],
         },
         {
-          'city': 'Buffalo',
-          'count': 24,
-          'lat': 42.8864,
-          'lng': -78.8781,
-          'nodeNames': [
+          city: 'Buffalo',
+          count: 24,
+          lat: 42.8864,
+          lng: -78.8781,
+          nodeNames: [
             'asym-us3',
             'asym-us1',
             'asym-us2',
@@ -1367,15 +1367,15 @@ export default {
             'Awesome-06',
             'Awesome-11',
             'Awesome-05',
-            'Bit-5'
-          ]
+            'Bit-5',
+          ],
         },
         {
-          'city': 'Poland_52.2394_21.0362',
-          'count': 22,
-          'lat': 52.2394,
-          'lng': 21.0362,
-          'nodeNames': [
+          city: 'Poland_52.2394_21.0362',
+          count: 22,
+          lat: 52.2394,
+          lng: 21.0362,
+          nodeNames: [
             'IC_Node',
             'Yes-12',
             'Yes-15',
@@ -1397,15 +1397,15 @@ export default {
             'Yes-18',
             'Yes-13',
             'Yes-05',
-            'Yes-11'
-          ]
+            'Yes-11',
+          ],
         },
         {
-          'city': 'Santa Clara',
-          'count': 22,
-          'lat': 37.3483,
-          'lng': -121.9844,
-          'nodeNames': [
+          city: 'Santa Clara',
+          count: 22,
+          lat: 37.3483,
+          lng: -121.9844,
+          nodeNames: [
             'zz_docmwg6810_13',
             'zz_dovwan_6_13',
             'zz_dovwan_5_158',
@@ -1427,15 +1427,15 @@ export default {
             'zz_docmwg684_93',
             'zz_dovwan_8_107',
             'zz_dovwan_10_60',
-            'Beautiful-03'
-          ]
+            'Beautiful-03',
+          ],
         },
         {
-          'city': 'Bengaluru',
-          'count': 20,
-          'lat': 12.9833,
-          'lng': 77.5833,
-          'nodeNames': [
+          city: 'Bengaluru',
+          count: 20,
+          lat: 12.9833,
+          lng: 77.5833,
+          nodeNames: [
             'zz_docm1592_236',
             'zz_docm1598_139',
             'zz_docm1591_43',
@@ -1455,15 +1455,15 @@ export default {
             'tanuki-04',
             'tanuki-02',
             'Beautiful-10',
-            'tanuki-06'
-          ]
+            'tanuki-06',
+          ],
         },
         {
-          'city': 'North Bergen',
-          'count': 20,
-          'lat': 40.7939,
-          'lng': -74.0258,
-          'nodeNames': [
+          city: 'North Bergen',
+          count: 20,
+          lat: 40.7939,
+          lng: -74.0258,
+          nodeNames: [
             'zz_docmwg168_9_10',
             'zz_dowf_7_199',
             'zz_dowf_4_11',
@@ -1483,15 +1483,15 @@ export default {
             'vite-Sea53',
             'vite-Sea59',
             'vite-Sea58',
-            'zz_dowf_6_49'
-          ]
+            'zz_dowf_6_49',
+          ],
         },
         {
-          'city': 'China_34.7725_113.7266',
-          'count': 20,
-          'lat': 34.7725,
-          'lng': 113.7266,
-          'nodeNames': [
+          city: 'China_34.7725_113.7266',
+          count: 20,
+          lat: 34.7725,
+          lng: 113.7266,
+          nodeNames: [
             'N4Y',
             'javinjunfeng-ali',
             'vite.plus',
@@ -1511,15 +1511,15 @@ export default {
             'vite-tly-3',
             'N4Q.org',
             '# 003',
-            'vite-tly-5'
-          ]
+            'vite-tly-5',
+          ],
         },
         {
-          'city': 'Finland_60.1708_24.9375',
-          'count': 16,
-          'lat': 60.1708,
-          'lng': 24.9375,
-          'nodeNames': [
+          city: 'Finland_60.1708_24.9375',
+          count: 16,
+          lat: 60.1708,
+          lng: 24.9375,
+          nodeNames: [
             'LDT-14',
             'LDT-10',
             'Apollo-25',
@@ -1535,15 +1535,15 @@ export default {
             'Mike-07',
             'Mike-08',
             'LDT-13',
-            'Apollo-19'
-          ]
+            'Apollo-19',
+          ],
         },
         {
-          'city': 'London',
-          'count': 16,
-          'lat': 51.5353,
-          'lng': -0.6658,
-          'nodeNames': [
+          city: 'London',
+          count: 16,
+          lat: 51.5353,
+          lng: -0.6658,
+          nodeNames: [
             'zz_dobov_7_17',
             'zz_dobov_10_132',
             'zz_dobov_3_195',
@@ -1559,15 +1559,15 @@ export default {
             'Amazing-05',
             'Beautiful-06',
             'Amazing-01',
-            'Beautiful-07'
-          ]
+            'Beautiful-07',
+          ],
         },
         {
-          'city': 'Ktis',
-          'count': 15,
-          'lat': 48.9167,
-          'lng': 14.1333,
-          'nodeNames': [
+          city: 'Ktis',
+          count: 15,
+          lat: 48.9167,
+          lng: 14.1333,
+          nodeNames: [
             'vite-full-node',
             'vite-full-node',
             'vite-full-node',
@@ -1582,15 +1582,15 @@ export default {
             'vite-full-node',
             'vite-full-node',
             'vite-full-node',
-            'vite-full-node'
-          ]
+            'vite-full-node',
+          ],
         },
         {
-          'city': 'Bulgaria_42.7_23.3333',
-          'count': 14,
-          'lat': 42.7,
-          'lng': 23.3333,
-          'nodeNames': [
+          city: 'Bulgaria_42.7_23.3333',
+          count: 14,
+          lat: 42.7,
+          lng: 23.3333,
+          nodeNames: [
             'bulka02',
             'bulka03',
             'Red-6',
@@ -1604,15 +1604,15 @@ export default {
             'Red-5',
             'Red-7',
             'Red-1',
-            'Red-9'
-          ]
+            'Red-9',
+          ],
         },
         {
-          'city': 'Russia_55.7386_37.6068',
-          'count': 14,
-          'lat': 55.7386,
-          'lng': 37.6068,
-          'nodeNames': [
+          city: 'Russia_55.7386_37.6068',
+          count: 14,
+          lat: 55.7386,
+          lng: 37.6068,
+          nodeNames: [
             'vite-leokaza3',
             'n4102',
             'leonidnode6',
@@ -1626,15 +1626,15 @@ export default {
             'samogon',
             'yad1',
             'leonidnode4',
-            'yad2'
-          ]
+            'yad2',
+          ],
         },
         {
-          'city': 'Toronto',
-          'count': 12,
-          'lat': 43.6555,
-          'lng': -79.3626,
-          'nodeNames': [
+          city: 'Toronto',
+          count: 12,
+          lat: 43.6555,
+          lng: -79.3626,
+          nodeNames: [
             'zz_dosf5_156',
             'zz_dosf10_249',
             'zz_dosf3_45',
@@ -1646,15 +1646,15 @@ export default {
             'zz_dosf7_15',
             'zz_dosf6_2',
             'Beautiful-09',
-            'Amazing-02'
-          ]
+            'Amazing-02',
+          ],
         },
         {
-          'city': 'Moscow',
-          'count': 12,
-          'lat': 55.7522,
-          'lng': 37.6156,
-          'nodeNames': [
+          city: 'Moscow',
+          count: 12,
+          lat: 55.7522,
+          lng: 37.6156,
+          nodeNames: [
             'ARTvps31a2',
             'ARTvps29a2',
             'ARTvps25a1',
@@ -1666,15 +1666,15 @@ export default {
             'ARTvps33a2 ',
             'ARTvps26a1',
             'ARTvps3a3',
-            'ARTvps28a2'
-          ]
+            'ARTvps28a2',
+          ],
         },
         {
-          'city': 'Krasnodar',
-          'count': 10,
-          'lat': 45.0328,
-          'lng': 38.9769,
-          'nodeNames': [
+          city: 'Krasnodar',
+          count: 10,
+          lat: 45.0328,
+          lng: 38.9769,
+          nodeNames: [
             'ARTvps9a4',
             'ARTvps2a3',
             'ARTvps5a3',
@@ -1684,15 +1684,15 @@ export default {
             'ARTvps17a6',
             'ARTvps14a5',
             'ARTvps15a5',
-            'ARTvps20a6'
-          ]
+            'ARTvps20a6',
+          ],
         },
         {
-          'city': 'Wrocław',
-          'count': 9,
-          'lat': 51.0957,
-          'lng': 17.0176,
-          'nodeNames': [
+          city: 'Wrocław',
+          count: 9,
+          lat: 51.0957,
+          lng: 17.0176,
+          nodeNames: [
             'vite-RA-ArA-',
             'vite-RA-AxA-',
             'vite-RA-AtA-',
@@ -1701,15 +1701,15 @@ export default {
             'vite-RA-A6A-',
             'vite-RA-A5A-',
             'vite-RA-FgF-',
-            'vite-RA-ABS-'
-          ]
+            'vite-RA-ABS-',
+          ],
         },
         {
-          'city': 'Czechia_50.0848_14.4112',
-          'count': 9,
-          'lat': 50.0848,
-          'lng': 14.4112,
-          'nodeNames': [
+          city: 'Czechia_50.0848_14.4112',
+          count: 9,
+          lat: 50.0848,
+          lng: 14.4112,
+          nodeNames: [
             'vite-full-node',
             'vite-full-node',
             'vite-full-node',
@@ -1718,15 +1718,15 @@ export default {
             'vite-full-node',
             'vite-full-node',
             'vite-full-node',
-            'vite-full-node'
-          ]
+            'vite-full-node',
+          ],
         },
         {
-          'city': 'Hong Kong_22.25_114.1667',
-          'count': 8,
-          'lat': 22.25,
-          'lng': 114.1667,
-          'nodeNames': [
+          city: 'Hong Kong_22.25_114.1667',
+          count: 8,
+          lat: 22.25,
+          lng: 114.1667,
+          nodeNames: [
             'vite-lj-node',
             'vite-19',
             'vite-22',
@@ -1734,15 +1734,15 @@ export default {
             'vite-18',
             'vite-20',
             'vite-frank-node',
-            'vite-21'
-          ]
+            'vite-21',
+          ],
         },
         {
-          'city': 'Nuremberg',
-          'count': 8,
-          'lat': 49.4075,
-          'lng': 11.1649,
-          'nodeNames': [
+          city: 'Nuremberg',
+          count: 8,
+          lat: 49.4075,
+          lng: 11.1649,
+          nodeNames: [
             'ViteSG-Node2',
             'vite-mike',
             'Seele',
@@ -1750,15 +1750,15 @@ export default {
             'Michalis-vite',
             'asym-de',
             'vite-Michalis',
-            'Michalis'
-          ]
+            'Michalis',
+          ],
         },
         {
-          'city': 'Shanghai',
-          'count': 8,
-          'lat': 31.0456,
-          'lng': 121.3997,
-          'nodeNames': [
+          city: 'Shanghai',
+          count: 8,
+          lat: 31.0456,
+          lng: 121.3997,
+          nodeNames: [
             'vite-full-node',
             'vite-full-node',
             'vite-full-node',
@@ -1766,507 +1766,507 @@ export default {
             'xiaojinge',
             'vite-full-node',
             'vite-full-node',
-            'aiyh02'
-          ]
+            'aiyh02',
+          ],
         },
         {
-          'city': 'Amsterdam',
-          'count': 7,
-          'lat': 52.3529,
-          'lng': 4.9415,
-          'nodeNames': [
+          city: 'Amsterdam',
+          count: 7,
+          lat: 52.3529,
+          lng: 4.9415,
+          nodeNames: [
             'zz_dofo_1_129_c6805c16',
             'asym-nl',
             'steup02',
             'steup01',
             'Amazing-07',
             'difiga',
-            'Beautiful-04'
-          ]
+            'Beautiful-04',
+          ],
         },
         {
-          'city': 'Tokyo',
-          'count': 5,
-          'lat': 35.685,
-          'lng': 139.7514,
-          'nodeNames': [
+          city: 'Tokyo',
+          count: 5,
+          lat: 35.685,
+          lng: 139.7514,
+          nodeNames: [
             'vite-5',
             'Masa2-full-node',
             'Masa3-full-node',
             'Masa4-full-node',
-            'Masa5-full-node'
-          ]
+            'Masa5-full-node',
+          ],
         },
         {
-          'city': 'null_47.0_8.0',
-          'count': 5,
-          'lat': 47,
-          'lng': 8,
-          'nodeNames': [
+          city: 'null_47.0_8.0',
+          count: 5,
+          lat: 47,
+          lng: 8,
+          nodeNames: [
             'StanzillaG02',
             'vite-full-node',
             'leogo1',
             'leogo1',
-            'leogo1'
-          ]
+            'leogo1',
+          ],
         },
         {
-          'city': 'Los Angeles',
-          'count': 5,
-          'lat': 34.0494,
-          'lng': -118.2641,
-          'nodeNames': [
+          city: 'Los Angeles',
+          count: 5,
+          lat: 34.0494,
+          lng: -118.2641,
+          nodeNames: [
             'N06Pit',
             'Set-6',
             'Set-7',
             'Hot-5',
-            'Set-8'
-          ]
+            'Set-8',
+          ],
         },
         {
-          'city': 'Perm',
-          'count': 4,
-          'lat': 58,
-          'lng': 56.25,
-          'nodeNames': [
+          city: 'Perm',
+          count: 4,
+          lat: 58,
+          lng: 56.25,
+          nodeNames: [
             'vite-YuriyK3',
             'vite-YuriyK5',
             'vite-YuriyK2',
-            'vite-YuriyK1'
-          ]
+            'vite-YuriyK1',
+          ],
         },
         {
-          'city': 'Munich',
-          'count': 3,
-          'lat': 48.1089,
-          'lng': 11.6074,
-          'nodeNames': [
+          city: 'Munich',
+          count: 3,
+          lat: 48.1089,
+          lng: 11.6074,
+          nodeNames: [
             'Michalis101',
             'vite-super',
-            'Harriet'
-          ]
+            'Harriet',
+          ],
         },
         {
-          'city': 'St Petersburg',
-          'count': 3,
-          'lat': 59.8944,
-          'lng': 30.2642,
-          'nodeNames': [
+          city: 'St Petersburg',
+          count: 3,
+          lat: 59.8944,
+          lng: 30.2642,
+          nodeNames: [
             'ARTvpsa1',
             'n41_p',
-            'n4101'
-          ]
+            'n4101',
+          ],
         },
         {
-          'city': 'Sydney',
-          'count': 3,
-          'lat': -33.8612,
-          'lng': 151.1982,
-          'nodeNames': [
+          city: 'Sydney',
+          count: 3,
+          lat: -33.8612,
+          lng: 151.1982,
+          nodeNames: [
             'vite-10',
             'ovh-4',
-            'ovh-3'
-          ]
+            'ovh-3',
+          ],
         },
         {
-          'city': 'Dallas',
-          'count': 3,
-          'lat': 32.9322,
-          'lng': -96.8353,
-          'nodeNames': [
+          city: 'Dallas',
+          count: 3,
+          lat: 32.9322,
+          lng: -96.8353,
+          nodeNames: [
             'vite-nkat-02',
             'vite-nkat-03',
-            'vite-nkat-01'
-          ]
+            'vite-nkat-01',
+          ],
         },
         {
-          'city': 'Switzerland_47.1449_8.1551',
-          'count': 2,
-          'lat': 47.1449,
-          'lng': 8.1551,
-          'nodeNames': [
+          city: 'Switzerland_47.1449_8.1551',
+          count: 2,
+          lat: 47.1449,
+          lng: 8.1551,
+          nodeNames: [
             'SwissVite.org',
-            'YoLo'
-          ]
+            'YoLo',
+          ],
         },
         {
-          'city': 'Clifton',
-          'count': 2,
-          'lat': 40.8344,
-          'lng': -74.1377,
-          'nodeNames': [
+          city: 'Clifton',
+          count: 2,
+          lat: 40.8344,
+          lng: -74.1377,
+          nodeNames: [
             'Beautiful-02',
-            'Amazing-09'
-          ]
+            'Amazing-09',
+          ],
         },
         {
-          'city': 'Ashburn',
-          'count': 2,
-          'lat': 39.0481,
-          'lng': -77.4728,
-          'nodeNames': [
+          city: 'Ashburn',
+          count: 2,
+          lat: 39.0481,
+          lng: -77.4728,
+          nodeNames: [
             'vite-3',
-            'vite-full-node'
-          ]
+            'vite-full-node',
+          ],
         },
         {
-          'city': 'Zhejiang',
-          'count': 2,
-          'lat': 30.2936,
-          'lng': 120.1614,
-          'nodeNames': [
+          city: 'Zhejiang',
+          count: 2,
+          lat: 30.2936,
+          lng: 120.1614,
+          nodeNames: [
             'MrFox-full-node-eos2',
-            'MrFox-full-node-eos3'
-          ]
+            'MrFox-full-node-eos3',
+          ],
         },
         {
-          'city': 'Vienna',
-          'count': 2,
-          'lat': 48.164,
-          'lng': 16.4463,
-          'nodeNames': [
+          city: 'Vienna',
+          count: 2,
+          lat: 48.164,
+          lng: 16.4463,
+          nodeNames: [
             'luhe01',
-            'starman1'
-          ]
+            'starman1',
+          ],
         },
         {
-          'city': 'Jiangsu',
-          'count': 2,
-          'lat': 32.0617,
-          'lng': 118.7778,
-          'nodeNames': [
+          city: 'Jiangsu',
+          count: 2,
+          lat: 32.0617,
+          lng: 118.7778,
+          nodeNames: [
             'vitegood',
-            'viteboy'
-          ]
+            'viteboy',
+          ],
         },
         {
-          'city': 'Japan_35.69_139.69',
-          'count': 1,
-          'lat': 35.69,
-          'lng': 139.69,
-          'nodeNames': [
-            'viteyou'
-          ]
+          city: 'Japan_35.69_139.69',
+          count: 1,
+          lat: 35.69,
+          lng: 139.69,
+          nodeNames: [
+            'viteyou',
+          ],
         },
         {
-          'city': 'St Helens',
-          'count': 1,
-          'lat': 53.4172,
-          'lng': -2.7109,
-          'nodeNames': [
-            'ViteMNR3'
-          ]
+          city: 'St Helens',
+          count: 1,
+          lat: 53.4172,
+          lng: -2.7109,
+          nodeNames: [
+            'ViteMNR3',
+          ],
         },
         {
-          'city': 'Potsdam',
-          'count': 1,
-          'lat': 52.403,
-          'lng': 13.0626,
-          'nodeNames': [
-            'Jacks2-vite-full-node'
-          ]
+          city: 'Potsdam',
+          count: 1,
+          lat: 52.403,
+          lng: 13.0626,
+          nodeNames: [
+            'Jacks2-vite-full-node',
+          ],
         },
         {
-          'city': 'Dublin',
-          'count': 1,
-          'lat': 53.3331,
-          'lng': -6.2489,
-          'nodeNames': [
-            'vite-1'
-          ]
+          city: 'Dublin',
+          count: 1,
+          lat: 53.3331,
+          lng: -6.2489,
+          nodeNames: [
+            'vite-1',
+          ],
         },
         {
-          'city': 'Boardman',
-          'count': 1,
-          'lat': 45.8491,
-          'lng': -119.7143,
-          'nodeNames': [
-            'vite-4'
-          ]
+          city: 'Boardman',
+          count: 1,
+          lat: 45.8491,
+          lng: -119.7143,
+          nodeNames: [
+            'vite-4',
+          ],
         },
         {
-          'city': 'Jiangxi',
-          'count': 1,
-          'lat': 28.55,
-          'lng': 115.9333,
-          'nodeNames': [
-            'vite-dragon-awesome'
-          ]
+          city: 'Jiangxi',
+          count: 1,
+          lat: 28.55,
+          lng: 115.9333,
+          nodeNames: [
+            'vite-dragon-awesome',
+          ],
         },
         {
-          'city': 'Poplar',
-          'count': 1,
-          'lat': 51.5,
-          'lng': -0.0167,
-          'nodeNames': [
-            'vite-Manju-node'
-          ]
+          city: 'Poplar',
+          count: 1,
+          lat: 51.5,
+          lng: -0.0167,
+          nodeNames: [
+            'vite-Manju-node',
+          ],
         },
         {
-          'city': 'Belarus_53.0_28.0',
-          'count': 1,
-          'lat': 53,
-          'lng': 28,
-          'nodeNames': [
-            'vite-RA-'
-          ]
+          city: 'Belarus_53.0_28.0',
+          count: 1,
+          lat: 53,
+          lng: 28,
+          nodeNames: [
+            'vite-RA-',
+          ],
         },
         {
-          'city': 'Shenzhen',
-          'count': 1,
-          'lat': 22.5333,
-          'lng': 114.1333,
-          'nodeNames': [
-            '# 005'
-          ]
+          city: 'Shenzhen',
+          count: 1,
+          lat: 22.5333,
+          lng: 114.1333,
+          nodeNames: [
+            '# 005',
+          ],
         },
         {
-          'city': 'Liaoning',
-          'count': 1,
-          'lat': 41.7922,
-          'lng': 123.4328,
-          'nodeNames': [
-            'vitetisworker0219'
-          ]
+          city: 'Liaoning',
+          count: 1,
+          lat: 41.7922,
+          lng: 123.4328,
+          nodeNames: [
+            'vitetisworker0219',
+          ],
         },
         {
-          'city': 'Providence',
-          'count': 1,
-          'lat': 41.7971,
-          'lng': -71.4255,
-          'nodeNames': [
-            'GreatVite'
-          ]
+          city: 'Providence',
+          count: 1,
+          lat: 41.7971,
+          lng: -71.4255,
+          nodeNames: [
+            'GreatVite',
+          ],
         },
         {
-          'city': 'Akiruno',
-          'count': 1,
-          'lat': 35.7333,
-          'lng': 139.4833,
-          'nodeNames': [
-            'vite-Japan-node'
-          ]
+          city: 'Akiruno',
+          count: 1,
+          lat: 35.7333,
+          lng: 139.4833,
+          nodeNames: [
+            'vite-Japan-node',
+          ],
         },
         {
-          'city': 'Aveiro',
-          'count': 1,
-          'lat': 40.6443,
-          'lng': -8.6455,
-          'nodeNames': [
-            'vite-full-node-nm-001'
-          ]
+          city: 'Aveiro',
+          count: 1,
+          lat: 40.6443,
+          lng: -8.6455,
+          nodeNames: [
+            'vite-full-node-nm-001',
+          ],
         },
         {
-          'city': 'Lakewood',
-          'count': 1,
-          'lat': 33.8473,
-          'lng': -118.1115,
-          'nodeNames': [
-            'abyscuit-node'
-          ]
+          city: 'Lakewood',
+          count: 1,
+          lat: 33.8473,
+          lng: -118.1115,
+          nodeNames: [
+            'abyscuit-node',
+          ],
         },
         {
-          'city': 'Oftering',
-          'count': 1,
-          'lat': 48.234,
-          'lng': 14.1357,
-          'nodeNames': [
-            'luhe02'
-          ]
+          city: 'Oftering',
+          count: 1,
+          lat: 48.234,
+          lng: 14.1357,
+          nodeNames: [
+            'luhe02',
+          ],
         },
         {
-          'city': 'Columbus',
-          'count': 1,
-          'lat': 39.9653,
-          'lng': -83.0235,
-          'nodeNames': [
-            'CONTACT SWISSVITE FOR NODE MONITORING SOLUTIONS'
-          ]
+          city: 'Columbus',
+          count: 1,
+          lat: 39.9653,
+          lng: -83.0235,
+          nodeNames: [
+            'CONTACT SWISSVITE FOR NODE MONITORING SOLUTIONS',
+          ],
         },
         {
-          'city': 'Singapore_1.3667_103.8',
-          'count': 1,
-          'lat': 1.3667,
-          'lng': 103.8,
-          'nodeNames': [
-            'asym-th'
-          ]
+          city: 'Singapore_1.3667_103.8',
+          count: 1,
+          lat: 1.3667,
+          lng: 103.8,
+          nodeNames: [
+            'asym-th',
+          ],
         },
         {
-          'city': 'Jamaica',
-          'count': 1,
-          'lat': 40.6763,
-          'lng': -73.7966,
-          'nodeNames': [
-            'DarkChain'
-          ]
+          city: 'Jamaica',
+          count: 1,
+          lat: 40.6763,
+          lng: -73.7966,
+          nodeNames: [
+            'DarkChain',
+          ],
         },
         {
-          'city': 'Kawasaki',
-          'count': 1,
-          'lat': 35.6203,
-          'lng': 139.5446,
-          'nodeNames': [
-            'Masa-full-node'
-          ]
+          city: 'Kawasaki',
+          count: 1,
+          lat: 35.6203,
+          lng: 139.5446,
+          nodeNames: [
+            'Masa-full-node',
+          ],
         },
         {
-          'city': 'Atlantic',
-          'count': 1,
-          'lat': 41.4003,
-          'lng': -95.0101,
-          'nodeNames': [
-            'satans-full-node'
-          ]
+          city: 'Atlantic',
+          count: 1,
+          lat: 41.4003,
+          lng: -95.0101,
+          nodeNames: [
+            'satans-full-node',
+          ],
         },
         {
-          'city': 'Koganei',
-          'count': 1,
-          'lat': 35.7058,
-          'lng': 139.5162,
-          'nodeNames': [
-            'kyo_vite_node'
-          ]
+          city: 'Koganei',
+          count: 1,
+          lat: 35.7058,
+          lng: 139.5162,
+          nodeNames: [
+            'kyo_vite_node',
+          ],
         },
         {
-          'city': 'Cranston',
-          'count': 1,
-          'lat': 41.7766,
-          'lng': -71.4383,
-          'nodeNames': [
-            'VITEWORLD'
-          ]
+          city: 'Cranston',
+          count: 1,
+          lat: 41.7766,
+          lng: -71.4383,
+          nodeNames: [
+            'VITEWORLD',
+          ],
         },
         {
-          'city': 'Netherlands_52.3824_4.8995',
-          'count': 1,
-          'lat': 52.3824,
-          'lng': 4.8995,
-          'nodeNames': [
-            'vite-14'
-          ]
+          city: 'Netherlands_52.3824_4.8995',
+          count: 1,
+          lat: 52.3824,
+          lng: 4.8995,
+          nodeNames: [
+            'vite-14',
+          ],
         },
         {
-          'city': 'Shaanxi',
-          'count': 1,
-          'lat': 34.2583,
-          'lng': 108.9286,
-          'nodeNames': [
-            'vite-tly-7'
-          ]
+          city: 'Shaanxi',
+          count: 1,
+          lat: 34.2583,
+          lng: 108.9286,
+          nodeNames: [
+            'vite-tly-7',
+          ],
         },
         {
-          'city': 'Mumbai',
-          'count': 1,
-          'lat': 18.975,
-          'lng': 72.8258,
-          'nodeNames': [
-            'vite-8'
-          ]
+          city: 'Mumbai',
+          count: 1,
+          lat: 18.975,
+          lng: 72.8258,
+          nodeNames: [
+            'vite-8',
+          ],
         },
         {
-          'city': 'Odesa',
-          'count': 1,
-          'lat': 46.4775,
-          'lng': 30.7326,
-          'nodeNames': [
-            'Ods1'
-          ]
+          city: 'Odesa',
+          count: 1,
+          lat: 46.4775,
+          lng: 30.7326,
+          nodeNames: [
+            'Ods1',
+          ],
         },
         {
-          'city': 'Hamilton',
-          'count': 1,
-          'lat': -27.439,
-          'lng': 153.0629,
-          'nodeNames': [
-            'vite-full-node-zzt5'
-          ]
+          city: 'Hamilton',
+          count: 1,
+          lat: -27.439,
+          lng: 153.0629,
+          nodeNames: [
+            'vite-full-node-zzt5',
+          ],
         },
         {
-          'city': 'Kitanagoya',
-          'count': 1,
-          'lat': 35.2297,
-          'lng': 136.8935,
-          'nodeNames': [
-            'master_vite'
-          ]
+          city: 'Kitanagoya',
+          count: 1,
+          lat: 35.2297,
+          lng: 136.8935,
+          nodeNames: [
+            'master_vite',
+          ],
         },
         {
-          'city': 'Yekaterinburg',
-          'count': 1,
-          'lat': 56.8575,
-          'lng': 60.6125,
-          'nodeNames': [
-            'vite-YuriyK4'
-          ]
+          city: 'Yekaterinburg',
+          count: 1,
+          lat: 56.8575,
+          lng: 60.6125,
+          nodeNames: [
+            'vite-YuriyK4',
+          ],
         },
         {
-          'city': 'Bensalem',
-          'count': 1,
-          'lat': 40.1109,
-          'lng': -74.9378,
-          'nodeNames': [
-            'trustTheProcess'
-          ]
+          city: 'Bensalem',
+          count: 1,
+          lat: 40.1109,
+          lng: -74.9378,
+          nodeNames: [
+            'trustTheProcess',
+          ],
         },
         {
-          'city': 'Hunan',
-          'count': 1,
-          'lat': 28.1792,
-          'lng': 113.1136,
-          'nodeNames': [
-            'vite-full-node'
-          ]
+          city: 'Hunan',
+          count: 1,
+          lat: 28.1792,
+          lng: 113.1136,
+          nodeNames: [
+            'vite-full-node',
+          ],
         },
         {
-          'city': 'Malaysia_2.5_112.5',
-          'count': 1,
-          'lat': 2.5,
-          'lng': 112.5,
-          'nodeNames': [
-            'Stanzilla'
-          ]
+          city: 'Malaysia_2.5_112.5',
+          count: 1,
+          lat: 2.5,
+          lng: 112.5,
+          nodeNames: [
+            'Stanzilla',
+          ],
         },
         {
-          'city': 'Sochi',
-          'count': 1,
-          'lat': 43.6,
-          'lng': 39.7303,
-          'nodeNames': [
-            'rossochi1'
-          ]
+          city: 'Sochi',
+          count: 1,
+          lat: 43.6,
+          lng: 39.7303,
+          nodeNames: [
+            'rossochi1',
+          ],
         },
         {
-          'city': 'Hesse',
-          'count': 1,
-          'lat': 50.1167,
-          'lng': 8.6833,
-          'nodeNames': [
-            'vite-13'
-          ]
+          city: 'Hesse',
+          count: 1,
+          lat: 50.1167,
+          lng: 8.6833,
+          nodeNames: [
+            'vite-13',
+          ],
         },
         {
-          'city': 'Sutton Coldfield',
-          'count': 1,
-          'lat': 52.5879,
-          'lng': -1.8128,
-          'nodeNames': [
-            'ViteMNR1'
-          ]
+          city: 'Sutton Coldfield',
+          count: 1,
+          lat: 52.5879,
+          lng: -1.8128,
+          nodeNames: [
+            'ViteMNR1',
+          ],
         },
         {
-          'city': 'San Mateo',
-          'count': 1,
-          'lat': 37.5507,
-          'lng': -122.3276,
-          'nodeNames': [
-            'ZVnode'
-          ]
-        }
+          city: 'San Mateo',
+          count: 1,
+          lat: 37.5507,
+          lng: -122.3276,
+          nodeNames: [
+            'ZVnode',
+          ],
+        },
       ],
     };
-  }
-  
+  },
+
 };
 </script>
 
@@ -2303,5 +2303,3 @@ export default {
   }
 
 </style>
-
- 

@@ -2,17 +2,17 @@
   <div class="text-card">
     <sub-title :title="title"></sub-title>
     <div class="text__card-content">
-      <div 
-        v-for="(item, index) in textList" 
-        :key="index" 
+      <div
+        v-for="(item, index) in textList"
+        :key="index"
         v-if="textList.length"
         class="text__item">
         <div class="name">{{ item.name }}</div>
         <div class="description">{{ item.description }}</div>
       </div>
       <div class="text__outer-link">
-        <a 
-          :href="outerLink" 
+        <a
+          :href="outerLink"
           target="_blank"
           v-if="outerLink">
           {{ outerLinkName }}
@@ -20,8 +20,8 @@
         </a>
         <div v-else>{{ outerLinkName }}</div>
       </div>
-      <wallet-btn 
-        :is-active="false" 
+      <wallet-btn
+        :is-active="false"
         v-if="keyStr === 'wallet'"
         style="margin-top: 14px;">
       </wallet-btn>
@@ -36,37 +36,37 @@ import walletBtn from './walletBtn';
 export default {
   components: {
     subTitle,
-    walletBtn
+    walletBtn,
   },
   props: {
     keyStr: {
       type: String,
-      default: ''
+      default: '',
     },
     title: {
       type: String,
-      default: ''
+      default: '',
     },
     outerLinkName: {
       type: String,
-      default: ''
+      default: '',
     },
     outerLink: {
       type: String,
-      default: ''
+      default: '',
     },
     textList: {
       type: Array,
-      default: () => []
-    }
-  },  
-  data: function () {
+      default: () => [],
+    },
+  },
+  data() {
     return {
     };
   },
   methods: {
-    
-  }
+
+  },
 };
 </script>
 

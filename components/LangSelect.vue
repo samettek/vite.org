@@ -22,12 +22,12 @@
 </template>
 
 <script type="text/babel">
-  export default {
-    computed: {
-      locales: function () {
-        return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale)
-      }
-    }
+export default {
+  computed: {
+    locales() {
+      return this.$i18n.locales.filter((i) => i.code !== this.$i18n.locale);
+    },
+  },
 };
 </script>
 

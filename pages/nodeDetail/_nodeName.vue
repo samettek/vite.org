@@ -46,289 +46,291 @@
 </template>
 
 <script>
-  import NodeDetailLink from '~/components/NodeDetailLink';
-  export default {
-    components: {
-      NodeDetailLink
-    },
-    data: function () {
-      return {
-        key: this.$route.params.nodeName,
-        electors: {
-          vitecity: {
-            desc: [{
-              name: 'email',
-              links: ['mailto:vitecity@126.com']
-            }],
-            img: require('~/assets/images/superNode/vitelogo.jpeg'),
-            banner: require('~/assets/images/superNode/vitecity.jpeg'),
-            photo: [{
-              img: require('~/assets/images/superNode/hujinlang.jpg'),
-              name: 'Hu Jinlang'
-            }, {
-              img: require('~/assets/images/superNode/zengzhifang.jpg'),
-              name: 'Zeng Zhifang'
-            }, {
-              img: require('~/assets/images/superNode/zhonglifeng.jpg'),
-              name: 'Zhong Lifeng'
-            }]
-          },
-          tenzor: {
-            desc: [{
-              name: 'email',
-              links: ['mailto:invest@tenzor.capital']
-            }],
-            img: require('~/assets/images/superNode/tenzorlogo.png'),
-            banner: require('~/assets/images/superNode/tenzor.png'),
-            photo: [{
-              img: require('~/assets/images/superNode/kirill.jpg'),
-              name: 'Kirill Medvedev'
-            }, {
-              img: require('~/assets/images/superNode/maksim.jpg'),
-              name: 'Maksim Mizerov'
-            }, {
-              img: require('~/assets/images/superNode/daniil.jpg'),
-              name: 'Daniil Ogurtsov'
-            }]
-          },
-          snap: {
-            desc: [{
-              name: 'email',
-              links: ['mailto:plasmo7@gmail.com']
-            }, {
-              name: 'twitter',
-              links: ['https://twitter.com/Snap_Secure']
-            }, {
-              name: 'website',
-              links: ['http://snapsecure.network/']
-            }],
-            img: require('~/assets/images/superNode/snaplogo.jpg'),
-            banner: require('~/assets/images/superNode/snap.jpg'),
-            photo: [{
-              img: require('~/assets/images/superNode/mathew.jpg'),
-              name: 'Mathew Pham (AKA plasmo)'
-            }]
-          },
-          ux: {
-            desc: [{
-              name: 'email',
-              links: ['mailto:sbp@uixagency.com']
-            }],
-            img: require('~/assets/images/superNode/uxlogo.png'),
-            banner: require('~/assets/images/superNode/ux.jpg'),
-            photo: [{
-              img: require('~/assets/images/superNode/vladimir.jpg'),
-              name: 'Vladimir Polishchuk'
-            }, {
-              img: require('~/assets/images/superNode/serhiy.jpg'),
-              name: 'Serhiy Polishchuk'
-            }, {
-              img: require('~/assets/images/superNode/julia.jpg'),
-              name: 'Julia Novak'
-            }]
-          },
-          loopring: {
-            desc: [{
-              name: 'email',
-              links: ['mailto:foundation@loopring.org']
-            }],
-            img: require('~/assets/images/superNode/loopringlogo.jpg'),
-            banner: require('~/assets/images/superNode/loopring.jpg'),
-            photo: [{
-              img: require('~/assets/images/superNode/JayZhou.jpg'),
-              name: 'Kongliang, Zhong'
-            }]
-          },
-          zhizifund: {
-            desc: [{
-              name: 'email',
-              links: ['mailto:zhizifund@gmail.com']
-            }, {
-              name: 'website',
-              links: ['http://zhizi.fund/']
-            }],
-            img: require('~/assets/images/superNode/zhizilogo.jpg'),
-            banner: require('~/assets/images/superNode/zhizibanner.jpg'),
-            photo: [{
-              img: require('~/assets/images/superNode/lidawei.png'),
-              name: 'Dawei Li'
-            }, {
-              img: require('~/assets/images/superNode/gaofeng.png'),
-              name: 'Feng Gao'
-            }]
-          },
-          linknode: {
-            desc: [{
-              name: 'email',
-              links: ['mailto:blairqu@linkvc.com']
-            }],
-            img: require('~/assets/images/superNode/linknodelogo.jpg'),
-            banner: require('~/assets/images/superNode/linknodebanner.jpg'),
-            photo: [{
-              img: require('~/assets/images/superNode/jiapenglin.jpg'),
-              name: 'Jiapeng Lin'
-            }, {
-              img: require('~/assets/images/superNode/henryxu.jpg'),
-              name: 'Henry（He） Xu'
-            }, {
-              img: require('~/assets/images/superNode/lizhang.jpg'),
-              name: 'Li Zhang'
-            }]
-          },
-          bitvite: {
-            desc: [{
-              name: 'email',
-              links: ['mailto:Contract@bitewd.com']
-            }],
-            img: require('~/assets/images/superNode/bitvitelogo.png'),
-            banner: require('~/assets/images/superNode/bitvitebanner.jpeg'),
-            photo: [{
-              img: require('~/assets/images/superNode/williamwang.jpg'),
-              name: 'William Wang'
-            }, {
-              img: require('~/assets/images/superNode/senyuanzhang.png'),
-              name: 'Senyuan Zhang'
-            }, {
-              img: require('~/assets/images/superNode/alexlee.jpg'),
-              name: 'Alex Lee'
-            }]
-          },
-          swissvite: {
-            desc: [{
-              name: 'email',
-              links: ['mailto:contact@swissvite.org']
-            }, {
-              name: 'website',
-              links: ['http://swissvite.org/']
-            }],
-            img: require('~/assets/images/superNode/swissvitelogo.jpg'),
-            banner: require('~/assets/images/superNode/swissbanner.jpg'),
-            photo: [{
-              img: require('~/assets/images/superNode/julien.jpg'),
-              name: 'Julien Pidoux'
-            }, {
-              img: require('~/assets/images/superNode/guillaume.jpg'),
-              name: 'Guillaume Pedrazzini'
-            }, {
-              img: require('~/assets/images/superNode/pierre.jpg'),
-              name: 'Pierre BoiteuxSwitzerland'
-            }, {
-              img: require('~/assets/images/superNode/mallet.jpg'),
-              name: 'Julien MalletSwitzerland'
-            }, {
-              img: require('~/assets/images/superNode/jean.jpg'),
-              name: 'Jean-Luc Strullu'
-            }]
-          },
-          xinsheng: {
-            desc: [{
-              name: 'email',
-              links: ['mailto:xinshengcap@hotmail.com']
-            }],
-            img: require('~/assets/images/superNode/xinshenglogo.png'),
-            banner: require('~/assets/images/superNode/xinshengbanner.jpeg'),
-            photo: [{
-              img: require('~/assets/images/superNode/cuizhe.png'),
-              name: 'Zhe Cui'
-            }, {
-              img: require('~/assets/images/superNode/lizhibo.png'),
-              name: 'Zhibo Li'
-            }, {
-              img: require('~/assets/images/superNode/zhangxuming.png'),
-              name: 'Xuming Zhang'
-            }, {
-              img: require('~/assets/images/superNode/emma.png'),
-              name: 'Emma'
-            }, {
-              img: require('~/assets/images/superNode/sunquan.png'),
-              name: 'Quan Sun'
-            }]
-          },
-          zlnode: {
-            desc: [{
-              name: 'email',
-              links: ['mailto:blairqu@linkvc.com']
-            }],
-            img: require('~/assets/images/superNode/zllogo.jpg'),
-            banner: require('~/assets/images/superNode/zlbanner.jpg'),
-            photo: [{
-              img: require('~/assets/images/superNode/lizhang.jpg'),
-              name: 'Li Zhang'
-            }]
-          },
-          loopnest: {
-            desc: [{
-              name: 'email',
-              links: ['mailto:jonathan@loopnest.io']
-            }],
-            img: require('~/assets/images/superNode/loopnestlogo.jpg'),
-            banner: require('~/assets/images/superNode/loopnestbanner.jpg'),
-            photo: [{
-              img: require('~/assets/images/teams/terence-bio.png'),
-              name: 'Mr. Terence Lam'
-            }]
-          },
-          n4q: {
-            desc: [{
-              name: 'email',
-              links: ['mailto:contact@n4q.org']
-            }],
-            img: require('~/assets/images/superNode/n4q.png'),
-            banner: require('~/assets/images/superNode/n4qbanner.png'),
-            photo: [{
-              img: require('~/assets/images/superNode/yandong.jpg'),
-              name: 'Dong, Yan'
-            }]
-          },
-          bi23: {
-            desc: [{
-              name: 'email',
-              links: ['mailto:support@bi23.com']
-            }],
-            img: require('~/assets/images/superNode/bi23logo.jpg'),
-            banner: require('~/assets/images/superNode/bi23banner.jpg'),
-            photo: [{
-              img: require('~/assets/images/superNode/andrewshen.png'),
-              name: 'Andrew Shen'
-            }]
-          },
-          belsona: {
-            desc: [{
-              name: 'email',
-              links: ['mailto:info@belsona.io']
-            }, {
-              name: 'twitter',
-              links: ['https://twitter.com/icofanatics']
-            }, {
-              name: 'telegram',
-              links: ['https://t.me/ICOFanatics']
-            }],
-            img: require('~/assets/images/superNode/belsonalogo.jpg'),
-            banner: require('~/assets/images/superNode/belsonabanner.jpg'),
-            photo: [{
-              img: require('~/assets/images/superNode/denis.jpg'),
-              name: 'Denis Meltsaev'
-            }, {
-              img: require('~/assets/images/superNode/vassily.jpg'),
-              name: 'Vassily Godunov'
-            }, {
-              img: require('~/assets/images/superNode/georgy.jpg'),
-              name: 'Georgy Yakovlev'
-            }, {
-              img: require('~/assets/images/superNode/artem.jpg'),
-              name: 'Artem Potapov'
-            }, {
-              img: require('~/assets/images/superNode/igor.jpg'),
-              name: 'Igor Peskov'
-            }, {
-              img: require('~/assets/images/superNode/usanov.jpg'),
-              name: 'Usanov Alexei'
-            }]
-          }
-        }
-      };
-    }
-  };
+/* eslint-disable global-require */
+import NodeDetailLink from '~/components/NodeDetailLink';
+
+export default {
+  components: {
+    NodeDetailLink,
+  },
+  data() {
+    return {
+      key: this.$route.params.nodeName,
+      electors: {
+        vitecity: {
+          desc: [{
+            name: 'email',
+            links: ['mailto:vitecity@126.com'],
+          }],
+          img: require('~/assets/images/superNode/vitelogo.jpeg'),
+          banner: require('~/assets/images/superNode/vitecity.jpeg'),
+          photo: [{
+            img: require('~/assets/images/superNode/hujinlang.jpg'),
+            name: 'Hu Jinlang',
+          }, {
+            img: require('~/assets/images/superNode/zengzhifang.jpg'),
+            name: 'Zeng Zhifang',
+          }, {
+            img: require('~/assets/images/superNode/zhonglifeng.jpg'),
+            name: 'Zhong Lifeng',
+          }],
+        },
+        tenzor: {
+          desc: [{
+            name: 'email',
+            links: ['mailto:invest@tenzor.capital'],
+          }],
+          img: require('~/assets/images/superNode/tenzorlogo.png'),
+          banner: require('~/assets/images/superNode/tenzor.png'),
+          photo: [{
+            img: require('~/assets/images/superNode/kirill.jpg'),
+            name: 'Kirill Medvedev',
+          }, {
+            img: require('~/assets/images/superNode/maksim.jpg'),
+            name: 'Maksim Mizerov',
+          }, {
+            img: require('~/assets/images/superNode/daniil.jpg'),
+            name: 'Daniil Ogurtsov',
+          }],
+        },
+        snap: {
+          desc: [{
+            name: 'email',
+            links: ['mailto:plasmo7@gmail.com'],
+          }, {
+            name: 'twitter',
+            links: ['https://twitter.com/Snap_Secure'],
+          }, {
+            name: 'website',
+            links: ['http://snapsecure.network/'],
+          }],
+          img: require('~/assets/images/superNode/snaplogo.jpg'),
+          banner: require('~/assets/images/superNode/snap.jpg'),
+          photo: [{
+            img: require('~/assets/images/superNode/mathew.jpg'),
+            name: 'Mathew Pham (AKA plasmo)',
+          }],
+        },
+        ux: {
+          desc: [{
+            name: 'email',
+            links: ['mailto:sbp@uixagency.com'],
+          }],
+          img: require('~/assets/images/superNode/uxlogo.png'),
+          banner: require('~/assets/images/superNode/ux.jpg'),
+          photo: [{
+            img: require('~/assets/images/superNode/vladimir.jpg'),
+            name: 'Vladimir Polishchuk',
+          }, {
+            img: require('~/assets/images/superNode/serhiy.jpg'),
+            name: 'Serhiy Polishchuk',
+          }, {
+            img: require('~/assets/images/superNode/julia.jpg'),
+            name: 'Julia Novak',
+          }],
+        },
+        loopring: {
+          desc: [{
+            name: 'email',
+            links: ['mailto:foundation@loopring.org'],
+          }],
+          img: require('~/assets/images/superNode/loopringlogo.jpg'),
+          banner: require('~/assets/images/superNode/loopring.jpg'),
+          photo: [{
+            img: require('~/assets/images/superNode/JayZhou.jpg'),
+            name: 'Kongliang, Zhong',
+          }],
+        },
+        zhizifund: {
+          desc: [{
+            name: 'email',
+            links: ['mailto:zhizifund@gmail.com'],
+          }, {
+            name: 'website',
+            links: ['http://zhizi.fund/'],
+          }],
+          img: require('~/assets/images/superNode/zhizilogo.jpg'),
+          banner: require('~/assets/images/superNode/zhizibanner.jpg'),
+          photo: [{
+            img: require('~/assets/images/superNode/lidawei.png'),
+            name: 'Dawei Li',
+          }, {
+            img: require('~/assets/images/superNode/gaofeng.png'),
+            name: 'Feng Gao',
+          }],
+        },
+        linknode: {
+          desc: [{
+            name: 'email',
+            links: ['mailto:blairqu@linkvc.com'],
+          }],
+          img: require('~/assets/images/superNode/linknodelogo.jpg'),
+          banner: require('~/assets/images/superNode/linknodebanner.jpg'),
+          photo: [{
+            img: require('~/assets/images/superNode/jiapenglin.jpg'),
+            name: 'Jiapeng Lin',
+          }, {
+            img: require('~/assets/images/superNode/henryxu.jpg'),
+            name: 'Henry（He） Xu',
+          }, {
+            img: require('~/assets/images/superNode/lizhang.jpg'),
+            name: 'Li Zhang',
+          }],
+        },
+        bitvite: {
+          desc: [{
+            name: 'email',
+            links: ['mailto:Contract@bitewd.com'],
+          }],
+          img: require('~/assets/images/superNode/bitvitelogo.png'),
+          banner: require('~/assets/images/superNode/bitvitebanner.jpeg'),
+          photo: [{
+            img: require('~/assets/images/superNode/williamwang.jpg'),
+            name: 'William Wang',
+          }, {
+            img: require('~/assets/images/superNode/senyuanzhang.png'),
+            name: 'Senyuan Zhang',
+          }, {
+            img: require('~/assets/images/superNode/alexlee.jpg'),
+            name: 'Alex Lee',
+          }],
+        },
+        swissvite: {
+          desc: [{
+            name: 'email',
+            links: ['mailto:contact@swissvite.org'],
+          }, {
+            name: 'website',
+            links: ['http://swissvite.org/'],
+          }],
+          img: require('~/assets/images/superNode/swissvitelogo.jpg'),
+          banner: require('~/assets/images/superNode/swissbanner.jpg'),
+          photo: [{
+            img: require('~/assets/images/superNode/julien.jpg'),
+            name: 'Julien Pidoux',
+          }, {
+            img: require('~/assets/images/superNode/guillaume.jpg'),
+            name: 'Guillaume Pedrazzini',
+          }, {
+            img: require('~/assets/images/superNode/pierre.jpg'),
+            name: 'Pierre BoiteuxSwitzerland',
+          }, {
+            img: require('~/assets/images/superNode/mallet.jpg'),
+            name: 'Julien MalletSwitzerland',
+          }, {
+            img: require('~/assets/images/superNode/jean.jpg'),
+            name: 'Jean-Luc Strullu',
+          }],
+        },
+        xinsheng: {
+          desc: [{
+            name: 'email',
+            links: ['mailto:xinshengcap@hotmail.com'],
+          }],
+          img: require('~/assets/images/superNode/xinshenglogo.png'),
+          banner: require('~/assets/images/superNode/xinshengbanner.jpeg'),
+          photo: [{
+            img: require('~/assets/images/superNode/cuizhe.png'),
+            name: 'Zhe Cui',
+          }, {
+            img: require('~/assets/images/superNode/lizhibo.png'),
+            name: 'Zhibo Li',
+          }, {
+            img: require('~/assets/images/superNode/zhangxuming.png'),
+            name: 'Xuming Zhang',
+          }, {
+            img: require('~/assets/images/superNode/emma.png'),
+            name: 'Emma',
+          }, {
+            img: require('~/assets/images/superNode/sunquan.png'),
+            name: 'Quan Sun',
+          }],
+        },
+        zlnode: {
+          desc: [{
+            name: 'email',
+            links: ['mailto:blairqu@linkvc.com'],
+          }],
+          img: require('~/assets/images/superNode/zllogo.jpg'),
+          banner: require('~/assets/images/superNode/zlbanner.jpg'),
+          photo: [{
+            img: require('~/assets/images/superNode/lizhang.jpg'),
+            name: 'Li Zhang',
+          }],
+        },
+        loopnest: {
+          desc: [{
+            name: 'email',
+            links: ['mailto:jonathan@loopnest.io'],
+          }],
+          img: require('~/assets/images/superNode/loopnestlogo.jpg'),
+          banner: require('~/assets/images/superNode/loopnestbanner.jpg'),
+          photo: [{
+            img: require('~/assets/images/teams/terence-bio.png'),
+            name: 'Mr. Terence Lam',
+          }],
+        },
+        n4q: {
+          desc: [{
+            name: 'email',
+            links: ['mailto:contact@n4q.org'],
+          }],
+          img: require('~/assets/images/superNode/n4q.png'),
+          banner: require('~/assets/images/superNode/n4qbanner.png'),
+          photo: [{
+            img: require('~/assets/images/superNode/yandong.jpg'),
+            name: 'Dong, Yan',
+          }],
+        },
+        bi23: {
+          desc: [{
+            name: 'email',
+            links: ['mailto:support@bi23.com'],
+          }],
+          img: require('~/assets/images/superNode/bi23logo.jpg'),
+          banner: require('~/assets/images/superNode/bi23banner.jpg'),
+          photo: [{
+            img: require('~/assets/images/superNode/andrewshen.png'),
+            name: 'Andrew Shen',
+          }],
+        },
+        belsona: {
+          desc: [{
+            name: 'email',
+            links: ['mailto:info@belsona.io'],
+          }, {
+            name: 'twitter',
+            links: ['https://twitter.com/icofanatics'],
+          }, {
+            name: 'telegram',
+            links: ['https://t.me/ICOFanatics'],
+          }],
+          img: require('~/assets/images/superNode/belsonalogo.jpg'),
+          banner: require('~/assets/images/superNode/belsonabanner.jpg'),
+          photo: [{
+            img: require('~/assets/images/superNode/denis.jpg'),
+            name: 'Denis Meltsaev',
+          }, {
+            img: require('~/assets/images/superNode/vassily.jpg'),
+            name: 'Vassily Godunov',
+          }, {
+            img: require('~/assets/images/superNode/georgy.jpg'),
+            name: 'Georgy Yakovlev',
+          }, {
+            img: require('~/assets/images/superNode/artem.jpg'),
+            name: 'Artem Potapov',
+          }, {
+            img: require('~/assets/images/superNode/igor.jpg'),
+            name: 'Igor Peskov',
+          }, {
+            img: require('~/assets/images/superNode/usanov.jpg'),
+            name: 'Usanov Alexei',
+          }],
+        },
+      },
+    };
+  },
+};
 </script>
 
 <style  rel="stylesheet/scss" lang="scss" scoped>

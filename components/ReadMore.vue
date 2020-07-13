@@ -6,13 +6,13 @@
 </template>
 
 <script type="text/babel">
-    export default {
-      props: ['url'],
-      data: function () {
-        return {};
-      },
-      methods: {}
-    };
+export default {
+  props: ['url'],
+  data() {
+    return {};
+  },
+  methods: {},
+};
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>

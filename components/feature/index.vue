@@ -1,7 +1,7 @@
 <template>
   <div class="scroll-container">
     <div class="feature_wrapper is-flex">
-     
+
       <div class="feature-left">
         <div class="arc-wrapper">
           <div class="arc-inner">
@@ -35,7 +35,7 @@
             </path>
           </svg>
         </div>
-      
+
         <div class="arc-wrapper" style="margin-top: 30px;">
           <div class="arc-inner">
             <img :src="iconMap['safety']">
@@ -88,7 +88,7 @@
             :index='2'
             style="top: -40px;left: 150px;">
           </tag>
-          
+
           <svg
             class="row-line row-line2"
             style="top: -16px;left: 82px;">
@@ -113,7 +113,7 @@
           </svg>
         </div>
       </div>
-      
+
       <div class="feature-right">
         <div class="arc-wrapper" style="margin-top: 33px;">
           <div class="arc-inner">
@@ -223,60 +223,61 @@
 
 <script type="text/babel">
 import tag from './featureTag';
+
 export default {
   components: {
-    tag
+    tag,
   },
   computed: {
     features() {
       return this.$i18n.locale === 'zh' ? this.features_zh : this.features_en;
-    }
+    },
   },
   data() {
     return {
       features_zh: {
-        'performance': {
-          'title': '高性能',
+        performance: {
+          title: '高性能',
         },
-        'safety': {
-          'title': '安全',
+        safety: {
+          title: '安全',
         },
-        'economical': {
-          'title': '经济',
+        economical: {
+          title: '经济',
         },
-        'easyusing': {
-          'title': '易用',
+        easyusing: {
+          title: '易用',
         },
-        'flexable': {
-          'title': '可扩展',
-        }
+        flexable: {
+          title: '可扩展',
+        },
       },
       features_en: {
-        'performance': {
-          'title': 'High Performance',
+        performance: {
+          title: 'High Performance',
         },
-        'safety': {
-          'title': 'Security',
+        safety: {
+          title: 'Security',
         },
-        'economical': {
-          'title': 'Powerful Economic Model',
+        economical: {
+          title: 'Powerful Economic Model',
         },
-        'easyusing': {
-          'title': 'Usability',
+        easyusing: {
+          title: 'Usability',
         },
-        'flexable': {
-          'title': 'Scalability',
-        }
+        flexable: {
+          title: 'Scalability',
+        },
       },
       iconMap: {
         easyusing: require('~/assets/images/feature/easyusing.svg'),
         performance: require('~/assets/images/feature/performance.svg'),
         flexable: require('~/assets/images/feature/flexable.svg'),
         safety: require('~/assets/images/feature/safety.svg'),
-        economical: require('~/assets/images/feature/economical.svg')
-      }
+        economical: require('~/assets/images/feature/economical.svg'),
+      },
     };
-  }
+  },
 };
 </script>
 
@@ -287,7 +288,7 @@ export default {
   width: 600px;
   display: flex;
   flex-direction: column;
-  
+
 }
 
 .feature_wrapper {

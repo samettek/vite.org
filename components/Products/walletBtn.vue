@@ -23,7 +23,7 @@
           </div>
         </template>
       </v-popover>
-      
+
       <v-popover
         class="mbt"
         style="margin-right: 10px;"
@@ -43,7 +43,7 @@
           </div>
         </template>
       </v-popover>
-      
+
       <!-- btnCommonList -->
       <a
         class="wallet__btn mb"
@@ -56,7 +56,7 @@
         </div>
       </a>
     </div>
-    
+
     <div
       v-else
       class="is-flex wallet__desktop">
@@ -83,47 +83,47 @@ import { VPopover } from 'v-tooltip';
 
 export default {
   components: {
-    VPopover
+    VPopover,
   },
   props: {
     isActive: {
       type: Boolean,
-      default: true
-    }
+      default: true,
+    },
   },
-  data: function () {
+  data() {
     return {
       isMobile: isMobile(),
       QRcode: {
         zh: require('~/assets/images/zhongapp.png'),
-        en: require('~/assets/images/waiapp.png')
+        en: require('~/assets/images/waiapp.png'),
       },
       QRAndroidcode: {
         zh: require('~/assets/images/airdrop/android.png'),
-        en: require('~/assets/images/airdrop/android.png')
+        en: require('~/assets/images/airdrop/android.png'),
       },
       btnSpecList: [{
         key: 'ios',
         url: 'https://itunes.apple.com/us/app/vite-official-hd-wallet/id1437629486?mt=8',
-        active: this.isActive
+        active: this.isActive,
       }, {
         key: 'android',
         url: 'https://play.google.com/store/apps/details?id=net.vite.wallet',
-        active: this.isActive
+        active: this.isActive,
       }],
       btnCommonList: [{
         key: 'web',
-        url: 'https://wallet.vite.net'
+        url: 'https://wallet.vite.net',
       }, {
         key: 'mac',
-        url: 'https://github.com/vitelabs/vite-wallet/releases/tag/v1.3.20'
+        url: 'https://github.com/vitelabs/vite-wallet/releases/tag/v1.3.20',
       }, {
         key: 'windows',
-        url: 'https://github.com/vitelabs/vite-wallet/releases/tag/v1.3.20'
-      }
-      ]
+        url: 'https://github.com/vitelabs/vite-wallet/releases/tag/v1.3.20',
+      },
+      ],
     };
-  }
+  },
 };
 </script>
 
@@ -152,7 +152,7 @@ export default {
 
 .wallet__btn {
   box-sizing: border-box;
-  padding: 0 12px; 
+  padding: 0 12px;
   height:30px;
   border-radius:2px;
   border:2px solid $common-active-color;
@@ -171,7 +171,7 @@ export default {
   // justify-content: center;
   .wallet__desktop {
     @include touch {
-      width: 235px; 
+      width: 235px;
       flex-wrap: wrap;
       justify-content: center;
     }
@@ -181,6 +181,5 @@ export default {
   background: $common-active-color;
   color: white;
 }
-
 
 </style>

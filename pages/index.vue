@@ -41,9 +41,9 @@
         </div>
       </div>
     </section>
-  
+
     <v-product></v-product>
-    
+
     <v-new></v-new>
 
     <v-roadmap></v-roadmap>
@@ -53,6 +53,8 @@
 </template>
 
 <script>
+import { VPopover } from 'v-tooltip';
+import isMobile from 'is-mobile';
 import product from '~/components/product.vue';
 import New from '~/components/New/index.vue';
 import Video from '~/components/Video.vue';
@@ -63,8 +65,6 @@ import Wechat from '~/components/Wechat';
 import Telegram from '~/components/Telegram';
 import WhitePaper from '~/components/WhitePaper';
 import JoinMailingList from '~/components/JoinMailingList';
-import { VPopover } from 'v-tooltip';
-import isMobile from 'is-mobile';
 
 import config from '~/config.js';
 import imgEn from '~/assets/images/notice/en.jpg';
@@ -82,32 +82,31 @@ export default {
     Wechat,
     Telegram,
     JoinMailingList,
-    WhitePaper
+    WhitePaper,
   },
-  mounted () {},
-  data () {
+  mounted() {},
+  data() {
     return {
       isMobile: isMobile(),
       syraWP: config.urls.SyraWP,
       activity: config.urls.mainnetRelease,
       showNotice: true,
-      imgObj:{
-        'en': imgEn,
-        'zh': imgZh,
+      imgObj: {
+        en: imgEn,
+        zh: imgZh,
       },
     };
   },
   methods: {
-    openSyraWP(){
+    openSyraWP() {
       window.open(this.syraWP[this.$i18n.locale]);
     },
-    openLink(){
+    openLink() {
       window.open(this.activity[this.$i18n.locale]);
-    }
-  }
+    },
+  },
 };
 </script>
-
 
 <style lang="scss" scoped>
 @import "assets/vars.scss";
@@ -126,7 +125,7 @@ export default {
     height: 120px;
   }
   .wallet-item + .wallet-item{
-    margin-left: 20px; 
+    margin-left: 20px;
   }
 
 }
@@ -253,7 +252,6 @@ export default {
     display: flex;
     cursor: pointer;
 
-    
     .pop-btn {
       box-shadow: 0 10px 40px 0 rgba(126, 183, 238, 0.83);
       display: inline-block;

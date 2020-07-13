@@ -57,12 +57,12 @@ export default {
   props: {
     type: {
       type: String,
-      default: ''
+      default: '',
     },
     timeLines: {
       type: Array,
-      default: () => []
-    }
+      default: () => [],
+    },
   },
   computed: {
     list() {
@@ -73,9 +73,9 @@ export default {
         return this.nextOpen ? this.timeLines : this.timeLines.slice(0, 2);
       }
       return this.timeLines;
-    }
+    },
   },
-  data: function () {
+  data() {
     return {
       previousOpen: false,
       nextOpen: false,
@@ -87,8 +87,8 @@ export default {
     },
     clickNext() {
       this.nextOpen = !this.nextOpen;
-    }
-  }
+    },
+  },
 };
 </script>
 <style rel="stylesheet/scss" lang="scss" scoped>

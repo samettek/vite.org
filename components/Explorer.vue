@@ -35,22 +35,22 @@ export default {
   props: {
     isFooter: {
       type: Boolean,
-      default: false
-    }
+      default: false,
+    },
   },
-  data () {
+  data() {
     return {
-      urlMap: config.urls.explorer
+      urlMap: config.urls.explorer,
     };
   },
   computed: {
-    urlList: function () {
+    urlList() {
       return [
         'viteExplorer',
-        'viteScan'
+        'viteScan',
       ];
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -90,5 +90,3 @@ export default {
   top: 0;
 }
 </style>
-
-

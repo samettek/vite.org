@@ -7,13 +7,13 @@
       <div class="secondary-content" v-if="list.length">
         <div
           class="secondary-item-wrapper"
-          v-for="(item, index) in list" 
+          v-for="(item, index) in list"
           :key="index"
           v-if="item.type && item.type === 'outer'"
            >
-          <a 
+          <a
             class="secondary-item"
-            target="_blank" 
+            target="_blank"
             :href="item.to"
             >
             {{$t(`nav.${item.name}`)}}
@@ -22,7 +22,7 @@
         <div
           class="secondary-item-wrapper"
           v-if="item.type && item.type === 'inner'"
-          v-for="(item, index) in list" 
+          v-for="(item, index) in list"
           :key="index">
           <nuxt-link
             :to="item.anchor ? `${localePath(item.to)}#${item.anchor}` : localePath(item.to)"
@@ -36,31 +36,31 @@
 </template>
 
 <script type="text/babel">
-  // secondaryList   item {type: inner/outer, name: xxx, to: xxx}
-  import config from '~/config';
+// secondaryList   item {type: inner/outer, name: xxx, to: xxx}
+import config from '~/config';
 
-  export default {
-    props: {
-      footerName: {
-        type: String,
-        default: ''
-      },
-      secondaryList: {
-        type: Array,
-        default: ()=> []
-      }
+export default {
+  props: {
+    footerName: {
+      type: String,
+      default: '',
     },
-    computed: {
-      list() {
-        return this.secondaryList;
-      }
+    secondaryList: {
+      type: Array,
+      default: () => [],
     },
-    data () {
-      return {
-        voteMap: config.urls.vote
-      };
-    }
-  };
+  },
+  computed: {
+    list() {
+      return this.secondaryList;
+    },
+  },
+  data() {
+    return {
+      voteMap: config.urls.vote,
+    };
+  },
+};
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>
@@ -83,7 +83,7 @@
       color: white;
     }
   }
-  
+
   .secondary-menu {
     .secondary-content {
       .secondary-item-wrapper {

@@ -36,38 +36,38 @@ import MailtoBtn from '~/components/MailtoBtn';
 
 export default {
   components: {
-    MailtoBtn
+    MailtoBtn,
   },
-  data: function() {
+  data() {
     return {
       companys: [
         {
           key: 'okex',
           url: 'https://www.okex.com/okcapital',
           img: require('~/assets/images/partnership/okex.svg'),
-          text: ['text1', 'text2']
+          text: ['text1', 'text2'],
         },
         {
           key: 'mxbank',
           url: 'https://www.mxbank.io/',
           img: require('~/assets/images/partnership/mxbank.svg'),
-          text: ['text1', 'text2']
+          text: ['text1', 'text2'],
         },
         {
           key: 'secbit',
           url: 'https://secbit.io/',
           img: require('~/assets/images/partnership/logo.svg'),
-          text: ['text1', 'text2']
+          text: ['text1', 'text2'],
         },
         {
           key: 'achpay',
           img: require('~/assets/images/partnership/ACHPAYlogo.svg'),
-          text: ['text1']
-        }
-      ]
+          text: ['text1'],
+        },
+      ],
     };
   },
-  methods: {}
+  methods: {},
 };
 </script>
 

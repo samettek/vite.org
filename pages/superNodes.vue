@@ -59,17 +59,17 @@ export default {
     superNodes() {
       let superNodes = this.$t('superNodes.contents');
       superNodes = Array.isArray(superNodes) ? superNodes : [];
-      return superNodes.map(item => {
+      return superNodes.map((item) => {
         let { answer } = item;
         if (!answer) answer = [];
         if (!Array.isArray(answer)) answer = [answer];
         return {
           ...item,
-          answer
+          answer,
         };
       });
-    }
-  }
+    },
+  },
 };
 </script>
 

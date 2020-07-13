@@ -22,23 +22,23 @@
 </template>
 
 <script type="text/babel">
-  import config from '~/config.js';
-  import { VPopover } from 'v-tooltip';
+import { VPopover } from 'v-tooltip';
+import config from '~/config.js';
 
-  export default {
-    components: {
-      VPopover
-    },
-    data: function () {
-      return {
-        isEnabled: true,
-        urlList: config.urls.telegram,
-        list: ['ann', 'english', 'chinese', 'russia', 'vietnamese', 'korean', 'thailand','german','japan','arabic','french','turkish','indonesian','malaysian','spanish','filipino','bengali'],
-        isBrowser: process.browser
-      };
-    },
-    methods: {}
-  };
+export default {
+  components: {
+    VPopover,
+  },
+  data() {
+    return {
+      isEnabled: true,
+      urlList: config.urls.telegram,
+      list: ['ann', 'english', 'chinese', 'russia', 'vietnamese', 'korean', 'thailand', 'german', 'japan', 'arabic', 'french', 'turkish', 'indonesian', 'malaysian', 'spanish', 'filipino', 'bengali'],
+      isBrowser: process.browser,
+    };
+  },
+  methods: {},
+};
 </script>
 
 <style rel="stylesheet/scss" lang="scss">

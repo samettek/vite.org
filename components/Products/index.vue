@@ -2,8 +2,8 @@
     <section>
       <div id="platform">
         <div class="is-flex products__platform">
-          <text-card 
-            :title="$t('products.platform.title')" 
+          <text-card
+            :title="$t('products.platform.title')"
             :text-list="$t('products.platform.textList')"
             :outer-link-name="link.platform.name"
             :outer-link="link.platform.url"
@@ -13,16 +13,16 @@
         </div>
         <Stats></Stats>
       </div>
-      
-      <div 
-        class="products__common is-flex" 
-        v-for="(item, index) in list" 
+
+      <div
+        class="products__common is-flex"
+        v-for="(item, index) in list"
         :key="index"
         :id="item">
         <img :src="require(`~/assets/images/product/products${index+1}.png`)" />
-        <text-card 
+        <text-card
           :class="`mt products__${item}-text`"
-          :title="$t(`products.${item}.title`)" 
+          :title="$t(`products.${item}.title`)"
           :text-list="$t(`products.${item}.textList`)"
           :outer-link-name="link[item].name"
           :outer-link="link[item].url"
@@ -41,9 +41,9 @@ export default {
   components: {
     textCard,
     Feature,
-    Stats
+    Stats,
   },
-  data: function () {
+  data() {
     return {
       list: ['wallet', 'exchange', 'pay'],
     };
@@ -53,24 +53,24 @@ export default {
       return {
         platform: {
           name: this.$t('product.platform.subtitle'),
-          url: 'https://vite.wiki/'
+          url: 'https://vite.wiki/',
         },
         wallet: {
-          name: this.$t('product.wallet.subtitle')
+          name: this.$t('product.wallet.subtitle'),
         },
         exchange: {
           name: this.$t('product.exchange.subtitle'),
-          url: 'https://x.vite.net'
+          url: 'https://x.vite.net',
         },
         pay: {
           name: this.$t('product.pay.subtitle'),
-          url: this.$i18n.locale === 'zh' ? 'https://vite.store/' : 'https://global.vite.store'
-        }
+          url: this.$i18n.locale === 'zh' ? 'https://vite.store/' : 'https://global.vite.store',
+        },
       };
-    }
+    },
   },
   methods: {
-  }
+  },
 };
 </script>
 
@@ -95,7 +95,7 @@ section {
     }
   }
   .products__common {
-    margin-top: 90px; 
+    margin-top: 90px;
     @include mobile {
       flex-direction: column;
     }
@@ -112,21 +112,21 @@ section {
     }
   }
   .products__wallet-text {
-    margin-left: 50px; 
+    margin-left: 50px;
     @include mobile {
-      margin-left: 0px; 
+      margin-left: 0px;
     }
   }
   .products__exchange-text {
-    margin-right: 50px; 
+    margin-right: 50px;
     @include mobile {
-      margin-right: 0px; 
+      margin-right: 0px;
     }
   }
   .products__pay-text {
     margin-left: 50px;
     @include mobile {
-      margin-left: 0px; 
+      margin-left: 0px;
     }
   }
 }

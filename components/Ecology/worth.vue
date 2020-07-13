@@ -15,10 +15,11 @@
 
 <script type="text/babel">
 import item from './worthItem';
+
 export default {
   components: {
-    item
-  }
+    item,
+  },
 };
 </script>
 

@@ -12,47 +12,46 @@ import ThreeColumn from '~/components/ThreeColumn';
 export default {
   components: {
     subTitle,
-    ThreeColumn
+    ThreeColumn,
   },
   async mounted() {
-    let url = this.$i18n.locale === 'zh' ? '/report_zh.json' : '/report_en.json';
-    let res = await this.$axios.$get(url) || [];
+    const url = this.$i18n.locale === 'zh' ? '/report_zh.json' : '/report_en.json';
+    const res = await this.$axios.$get(url) || [];
     console.log(res);
     this.resAcLen = res.length;
     this.reports = res || [];
   },
   watch: {
-    '$i18n.locale': async function(val) {
-      let url = val === 'zh' ? '/report_zh.json' : '/report_en.json';
-      let res = await this.$axios.$get(url) || [];
+    '$i18n.locale': async function (val) {
+      const url = val === 'zh' ? '/report_zh.json' : '/report_en.json';
+      const res = await this.$axios.$get(url) || [];
       this.resAcLen = res.length;
       this.reports = res || [];
-    }
+    },
   },
   computed: {
     list() {
       if (this.resAcLen && this.reports) {
-        return this.reports.map(item=> {
-          let time = new Date(item.createTime * 1000);
+        return this.reports.map((item) => {
+          const time = new Date(item.createTime * 1000);
           return {
             img: item.bannerUrl,
             desc: item.desc,
             skipUrl: item.skipUrl,
             date: time.toLocaleDateString(),
-            from: item.from
+            from: item.from,
           };
         });
-      } else {
-        return [];
       }
-    }
+      return [];
+    },
   },
   data() {
     return {
       resAcLen: 0,
-      reports: []
+      reports: [],
     };
-  }
+  },
 };
 </script>
 

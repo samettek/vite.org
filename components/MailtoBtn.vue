@@ -10,17 +10,17 @@ export default {
   props: {
     text: {
       type: String,
-      default: ''
+      default: '',
     },
     href: {
       type: String,
-      default: ''
-    }
+      default: '',
+    },
   },
-  data: function () {
+  data() {
     return {};
   },
-  methods: {}
+  methods: {},
 };
 </script>
 
@@ -37,6 +37,6 @@ export default {
     margin-bottom: 70px;
     cursor: pointer;
   }
-  
+
 }
 </style>
