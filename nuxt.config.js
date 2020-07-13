@@ -155,6 +155,7 @@ module.exports = {
       vueI18n: {
         fallbackLocale: defaultLocale,
       },
+      routesNameSeparator: '-',
     }],
     ['@nuxtjs/google-analytics', {
       id: 'UA-118987496-1',

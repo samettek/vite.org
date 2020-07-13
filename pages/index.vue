@@ -10,19 +10,6 @@
               </h1>
               <h2>{{$t("home.slogan")}}</h2>
             </div>
-            <WhitePaper class="wp-margin"></WhitePaper>
-            <div class="wp-margin wp-syra" @click="openSyraWP">
-              <span class="wp-wrapper">{{$t('home.whitePaperSyra')}}</span>
-              <svg width="9px" height="12px" viewBox="0 0 9 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                  <g id="page" transform="translate(-421.000000, -962.000000)" stroke="#007AFF" stroke-width="2">
-                    <g id="Group-14" transform="translate(421.000000, 962.000000)">
-                      <polyline id="Shape" points="1 13 7 7 1 1"></polyline>
-                    </g>
-                  </g>
-                </g>
-              </svg>
-            </div>
             <div class="btn-group-wrapper">
               <a
                 href="#activity"
@@ -30,21 +17,15 @@
               >{{$t('home.activity1')}}</a>
               <a
                 href="#dynamic"
-                class="pop-btn other-btn"
+                class="pop-btn"
               >{{$t('home.activity2')}}</a>
             </div>
-          </div>
-          <div class="topinfo__right" @click="openLink">
-            <!--<v-video></v-video>-->
-            <img :src="imgObj[$i18n.locale]" >
           </div>
         </div>
       </div>
     </section>
 
-    <v-product></v-product>
-
-    <v-new></v-new>
+    <home-section v-for="item in sectionList" :key="item.name" :name="item.name" :buttons="item.buttons"></home-section>
 
     <v-roadmap></v-roadmap>
 
@@ -65,6 +46,7 @@ import Wechat from '~/components/Wechat';
 import Telegram from '~/components/Telegram';
 import WhitePaper from '~/components/WhitePaper';
 import JoinMailingList from '~/components/JoinMailingList';
+import HomeSection from '~/components/HomeSection';
 
 import config from '~/config.js';
 import imgEn from '~/assets/images/notice/en.jpg';
@@ -83,6 +65,7 @@ export default {
     Telegram,
     JoinMailingList,
     WhitePaper,
+    HomeSection,
   },
   mounted() {},
   data() {
@@ -95,6 +78,28 @@ export default {
         en: imgEn,
         zh: imgZh,
       },
+      sectionList: [
+        {
+          name: 'whatIsVite',
+          buttons: [
+            {
+              name: 'learn',
+              url: {
+                name: 'whatIsVite',
+              },
+            },
+          ],
+        },
+        {
+          name: 'product',
+          buttons: [
+            {
+              name: 'learn',
+              url: 'https://vite.net',
+            },
+          ],
+        },
+      ],
     };
   },
   methods: {
@@ -175,6 +180,7 @@ export default {
 .home {
   position: relative;
   font-family: $font-family-title;
+  height: 819px;
   @include touch {
     .hero-body {
       display: block;
@@ -205,24 +211,28 @@ export default {
   }
 
   .slogan-wrapper {
-    margin-top: 212px;
+    margin-top: 149px;
     max-width: 590px;
+    h1 {
+      font-weight: 600;
+      font-size: 60px;
+      color: #ffffff;
+      font-family: PingFangSC, PingFangSC-Semibold;
+    }
+    h2 {
+      margin-top: 50px;
+      font-size: 32px;
+      color: #fff;
+      font-family: $font-family-light;
+      @include touch {
+        font-size: 1rem;
+      }
+    }
     @include touch {
       max-width: unset;
     }
     @include mobile {
       margin-top: 0;
-    }
-  }
-
-  h2 {
-    margin-top: 30px;
-    font-size: 1.5rem;
-    color: $common-text-color;
-    line-height: 28px;
-    font-family: $font-family-light;
-    @include touch {
-      font-size: 1rem;
     }
   }
 
@@ -243,7 +253,7 @@ export default {
   }
 
   .btn-group-wrapper {
-    margin-top: 1.5rem;
+    margin-top: 86px;
     height: 60px;
     color: white;
     letter-spacing: 1px;
@@ -253,13 +263,20 @@ export default {
     cursor: pointer;
 
     .pop-btn {
-      box-shadow: 0 10px 40px 0 rgba(126, 183, 238, 0.83);
+      box-shadow: none;
       display: inline-block;
       width: 168px;
-      height: 50px;
-      line-height: 50px;
+      height: 54px;
+      line-height: 54px;
       color: white;
-      background: $common-active-color;
+      background: rgba(255,255,255,0.2);
+      font-size: 16px;
+      border-radius: 4px;
+      font-weight: 600;
+      margin-right: 40px;
+      &:hover {
+        background: rgba(255,255,255,0.1);
+      }
       @include touch {
         width: 124px;
         height: 50px;

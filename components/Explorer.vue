@@ -71,17 +71,10 @@ export default {
   display: block;
 }
 .dropdown-menu {
-  #lang-dropdown-menu{
-      // overflow-y: scroll;
-      // max-height: 100px;
-    }
   .dropdown-content {
     display: none;
     .dropdown-item {
-      color: $common-text-color;
-      &:hover {
-        color: $common-active-color;
-      }
+      @include navbar-submenu();
     }
   }
 }

@@ -1,43 +1,34 @@
 <template>
-  <div
-    class="public __vite__"
-    :class="`is-${routeName}-public`"
-  >
+  <div class="public __vite__" :class="`is-${routeName}-public`">
     <div class="airdrop__fiexd" v-if="routeName !== 'airdrop'">
       <a
         :href="urls.exchange.vitex"
         target="_blank"
         class="text-hover-transition"
-      >
-        {{$t('home.gotoVitex')}}
-      </a>
+      >{{$t('home.gotoVitex')}}</a>
       <!--<nuxt-link-->
-        <!--:to="localePath('airdrop')"-->
-        <!--class="text-hover-transition">-->
-        <!--{{$t('home.jionAirdrop')}}-->
+      <!--:to="localePath('airdrop')"-->
+      <!--class="text-hover-transition">-->
+      <!--{{$t('home.jionAirdrop')}}-->
       <!--</nuxt-link>-->
     </div>
     <no-ssr>
-      <dialog-compo
-        :visible.sync="dialogVisible"
-        v-if="routeName === 'index'">
+      <dialog-compo :visible.sync="dialogVisible" v-if="routeName === 'index'">
         <div class="is-flex dialog__img" style="justify-content: center;">
-          <img src="~/assets/images/vitex.svg"/>
+          <img src="~/assets/images/vitex.svg" />
         </div>
         <!-- <div style="margin-top: 23px;">{{$t('home.jionAirdrop')}}</div> -->
         <span slot="footer">
-          <div @click="dialogVisible = false" >
-             <a
-               :href="urls.exchange.vitex"
-               target="_blank"
-               class="footer-btn"
-             >
-              {{$t('home.gotoVitex')}}
-             </a>
+          <div @click="dialogVisible = false">
+            <a
+              :href="urls.exchange.vitex"
+              target="_blank"
+              class="footer-btn"
+            >{{$t('home.gotoVitex')}}</a>
             <!--<nuxt-link-->
-              <!--:to="localePath('airdrop')"-->
-              <!--class="footer-btn">-->
-              <!--{{$t('home.gotoVitex')}}-->
+            <!--:to="localePath('airdrop')"-->
+            <!--class="footer-btn">-->
+            <!--{{$t('home.gotoVitex')}}-->
             <!--</nuxt-link>-->
           </div>
         </span>
@@ -45,98 +36,89 @@
     </no-ssr>
     <div
       class="navbar"
-      :class="`is-${routeName}-page`"
+      :class="[`is-${routeName}`, `navbar_${navbarTheme}`]"
     >
-      <div
-        class="container is-widescreen"
-        :class="{ 'is-open': navbarActive }"
-        @click="onNavClick"
-      >
+      <div class="container is-widescreen" :class="{ 'is-open': navbarActive }" @click="onNavClick">
         <div class="navbar-brand">
           <div @click="onLogoClick">
-            <nuxt-link
-              class="navbar-item nav-item nav-item-logo"
-              :to="localePath('index')"
-            >
-              <logo-without-words class="logo"></logo-without-words>
+            <nuxt-link class="navbar-item nav-item nav-item-logo" :to="localePath('index')">
+              <logo class="logo"></logo>
             </nuxt-link>
           </div>
-          <div
-            class="navbar-burger"
-            @click="onBurgerClick"
-          >
+          <div class="navbar-burger" @click="onBurgerClick">
             <span></span>
             <span></span>
             <span></span>
           </div>
         </div>
 
-        <div
-          class="navbar-menu"
-          :class="{ 'is-active': navbarActive, collapsing: collapsing }"
-        >
-          <div
-            ref="navbarStart"
-            class="navbar-start">
+        <div class="navbar-menu" :class="{ 'is-active': navbarActive, collapsing: collapsing }">
+          <div ref="navbarStart" class="navbar-end">
             <div class="nav-item">
               <secondary-menu
                 :footer-name="$t(`nav.production`)"
                 footer-to="products"
-                :secondary-list="navProductionList">
+                :theme="navbarTheme"
+                :secondary-list="navProductionList"
+              >
                 <explorer></explorer>
               </secondary-menu>
             </div>
             <div class="nav-item">
               <secondary-menu
+                :theme="navbarTheme"
                 :footer-name="$t(`nav.person`)"
                 footer-to="figure"
-                :secondary-list="navPersonList">
-              </secondary-menu>
-            </div>
-            <div class="nav-item">
-              <voteNotice></voteNotice>
+                :secondary-list="navPersonList"
+              ></secondary-menu>
             </div>
             <div class="nav-item">
               <secondary-menu
+                :theme="navbarTheme"
+                :footer-name="$t(`nav.sbp.name`)"
+                footer-to="figure"
+                :secondary-list="navSbpList"
+              ></secondary-menu>
+            </div>
+            <div class="nav-item">
+              <secondary-menu
+                :theme="navbarTheme"
                 :footer-name="$t(`nav.medium`)"
                 footer-to="medium"
-                :secondary-list="navMediaList">
-              </secondary-menu>
-            </div>
-            <div class="nav-item">
-              <Exchange></Exchange>
+                :secondary-list="navMediaList"
+              ></secondary-menu>
             </div>
             <div class="nav-item">
               <secondary-menu
-                :footer-name="$t(`nav.guide`)"
-                :secondary-list="navGuideList">
-              </secondary-menu>
+                :theme="navbarTheme"
+                :footer-name="$t(`nav.exchange`)"
+                :secondary-list="navExList"
+              ></secondary-menu>
             </div>
+            <div class="nav-item">
+              <secondary-menu
+                :theme="navbarTheme"
+                :footer-name="$t(`nav.guide`)"
+                :secondary-list="navGuideList"
+              ></secondary-menu>
+            </div>
+
             <nuxt-link
               :key="item"
               :to="localePath(item)"
-              class="nav-item text-hover-transition"
+              class="nav-item nav-top-item text-hover-transition"
               :class="{active: routeName === item}"
               v-for="item in navs"
-            >
-              {{$t(`nav.${item}`)}}
-            </nuxt-link>
-          </div>
-          <div
-            ref="navbarEnd"
-            class="navbar-end"
-          >
+            >{{$t(`nav.${item}`)}}</nuxt-link>
+
             <div class="nav-item">
-              <lang-select></lang-select>
+              <lang-select :theme="navbarTheme"></lang-select>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div
-      class="nuxt-content"
-      :class="`is-${routeName}-page`"
-    >
+    <div class="nuxt-content" :class="`is-${routeName}-page`">
       <transition name="fade" mode="out-in" @after-leave="afterLeave">
         <nuxt :keep-alive="true"></nuxt>
       </transition>
@@ -145,8 +127,8 @@
       :nav-production-list="navProductionList"
       :nav-person-list="navPersonList"
       :nav-guide-list="navGuideList"
-      :nav-media-list="navMediaList">
-    </v-footer>
+      :nav-media-list="navMediaList"
+    ></v-footer>
   </div>
 </template>
 
@@ -158,7 +140,6 @@ import Logo from '~/components/Logo.vue';
 import LogoWithoutWords from '~/components/LogoWithoutWords.vue';
 import Footer from '~/components/Footer.vue';
 import config from '~/config';
-import voteNotice from '~/components/voteNotice.vue';
 import about from '~/components/about.vue';
 import Exchange from '~/components/Exchange.vue';
 import SecondaryMenu from '~/components/SecondaryMenu.vue';
@@ -171,7 +152,6 @@ export default {
     LogoWithoutWords,
     VFooter: Footer,
     Exchange,
-    voteNotice,
     about,
     dialogCompo,
     SecondaryMenu,
@@ -250,64 +230,83 @@ export default {
   data() {
     return {
       dialogVisible: false,
-      navProductionList: [{
-        type: 'inner',
-        name: 'platform',
-        to: 'products',
-        anchor: 'platform',
-      }, {
-        type: 'inner',
-        name: 'wallet',
-        to: 'products',
-        anchor: 'wallet',
-      }, {
-        type: 'inner',
-        name: 'exchange',
-        to: 'products',
-        anchor: 'exchange',
-      }, {
-        type: 'inner',
-        name: 'pay',
-        to: 'products',
-        anchor: 'pay',
-      }],
-      navPersonList: [{
-        type: 'inner',
-        name: 'team',
-        to: 'figure',
-        anchor: 'team',
-      }, {
-        type: 'inner',
-        name: 'counselor',
-        to: 'figure',
-        anchor: 'advisor',
-      }, {
-        type: 'inner',
-        name: 'community',
-        to: 'figure',
-        anchor: 'community',
-      }, {
-        type: 'inner',
-        name: 'investor',
-        to: 'figure',
-        anchor: 'investor',
-      }],
-      navMediaList: [{
-        type: 'inner',
-        name: 'video',
-        to: 'medium',
-        anchor: 'video',
-      }, {
-        type: 'inner',
-        name: 'blogs',
-        to: 'medium',
-        anchor: 'blogs',
-      }, {
-        type: 'inner',
-        name: 'news',
-        to: 'medium',
-        anchor: 'news',
-      }],
+      navProductionList: [
+        {
+          type: 'inner',
+          name: 'platform',
+          to: 'products',
+          anchor: 'platform',
+        },
+        {
+          type: 'inner',
+          name: 'wallet',
+          to: 'products',
+          anchor: 'wallet',
+        },
+        {
+          type: 'inner',
+          name: 'exchange',
+          to: 'products',
+          anchor: 'exchange',
+        },
+        {
+          type: 'inner',
+          name: 'pay',
+          to: 'products',
+          anchor: 'pay',
+        },
+      ],
+      navPersonList: [
+        {
+          type: 'inner',
+          name: 'team',
+          to: 'figure',
+          anchor: 'team',
+        },
+        {
+          type: 'inner',
+          name: 'counselor',
+          to: 'figure',
+          anchor: 'advisor',
+        },
+        {
+          type: 'inner',
+          name: 'community',
+          to: 'figure',
+          anchor: 'community',
+        },
+        {
+          type: 'inner',
+          name: 'investor',
+          to: 'figure',
+          anchor: 'investor',
+        },
+      ],
+      navMediaList: [
+        {
+          type: 'inner',
+          name: 'video',
+          to: 'medium',
+          anchor: 'video',
+        },
+        {
+          type: 'inner',
+          name: 'blogs',
+          to: 'medium',
+          anchor: 'blogs',
+        },
+        {
+          type: 'inner',
+          name: 'news',
+          to: 'medium',
+          anchor: 'news',
+        },
+      ],
+      navExList: ['vitex', 'binance', 'bittrex', 'okex', 'okexKr'].map((item) => ({
+        type: 'outer',
+        name: item,
+        to: config.urls.exchange[item],
+      })),
       navbarActive: false,
       navs: ['airdrop'],
       collapsing: false,
@@ -324,31 +323,49 @@ export default {
   },
   computed: {
     navGuideList() {
-      const tutoriallink = this.$i18n.locale === 'zh' ? 'https://vite.wiki/zh/tutorial/start/' : 'https://vite.wiki/tutorial/start/';
-      return [{
-        type: 'outer',
-        name: 'tutorial',
-        to: tutoriallink,
-      }, {
-        type: 'inner',
-        name: 'faq',
-        to: 'faq',
-      }];
+      const tutoriallink = this.$i18n.locale === 'zh'
+        ? 'https://vite.wiki/zh/tutorial/start/'
+        : 'https://vite.wiki/tutorial/start/';
+      return [
+        {
+          type: 'outer',
+          name: 'tutorial',
+          to: tutoriallink,
+        },
+        {
+          type: 'inner',
+          name: 'faq',
+          to: 'faq',
+        },
+      ];
+    },
+    navSbpList() {
+      const applyMap = config.urls.vote.apply;
+      const navList = [
+        {
+          type: 'inner',
+          name: 'nodeList',
+          to: 'nodeList',
+        },
+        {
+          type: 'inner',
+          name: 'superNodes',
+          to: 'superNodes',
+        },
+        {
+          type: 'outer',
+          name: 'sbpApply',
+          to: applyMap[this.$i18n.locale] || applyMap.en,
+        },
+      ];
+      return navList;
     },
     routeName() {
       if (!this.$route || !this.$route.name) return 'index';
       return this.$route.name.split('-')[0];
     },
-    navbarEndStyle() {
-      if (this.navbarActive) {
-        return {
-          height: `${this.$refs.navbarEnd.clientHeight}px`,
-          overflowY: this.collapsing ? 'hidden' : 'visible',
-        };
-      }
-      return {
-        height: 0,
-      };
+    navbarTheme() {
+      return ['index'].indexOf(this.routeName) > -1 ? 'light' : 'gray';
     },
   },
   methods: {
@@ -363,7 +380,9 @@ export default {
     },
     openAirdropPage() {
       let lang = '';
-      this.$i18n.locale !== 'en' ? lang = `/${this.$i18n.locale}` : lang = '';
+      this.$i18n.locale !== 'en'
+        ? (lang = `/${this.$i18n.locale}`)
+        : (lang = '');
       this.$router.push({ path: `${lang}/airdrop/` });
     },
     onNavClick(e) {
@@ -402,12 +421,12 @@ export default {
   background-size: cover;
   width: 265px;
   height: 66px;
-  font-size:16px;
-  font-family:$font-family-title;
-  font-weight:600;
+  font-size: 16px;
+  font-family: $font-family-title;
+  font-weight: 600;
   box-sizing: border-box;
   text-align: center;
-  line-height:66px;
+  line-height: 66px;
   cursor: pointer;
   a {
     display: inline-block;
@@ -419,31 +438,31 @@ export default {
   }
 }
 .dialog__img {
-  @media only screen and (min-width: 320px) and (max-width: 767px)  {
+  @media only screen and (min-width: 320px) and (max-width: 767px) {
     height: 100px;
   }
 }
 .footer-btn {
   display: inline-block;
-  width:242px;
-  height:50px;
+  width: 242px;
+  height: 50px;
   line-height: 50px;
-  font-size:16px;
-  font-family:$font-family-title;
-  font-weight:600;
+  font-size: 16px;
+  font-family: $font-family-title;
+  font-weight: 600;
   color: white;
-  background:rgba(0,122,255,1);
-  box-shadow:0px 10px 20px 0px rgba(126,183,238,0.83);
-  border-radius:2px;
+  background: rgba(0, 122, 255, 1);
+  box-shadow: 0px 10px 20px 0px rgba(126, 183, 238, 0.83);
+  border-radius: 2px;
   cursor: pointer;
 }
 .public {
-  background: no-repeat url("~assets/images/bg/footer_others.svg") 0% 100%;
+  // background: no-repeat url("~assets/images/bg/footer_others.svg") 0% 100%;
 }
 
 .is-index-public {
-  background: no-repeat url("~assets/images/bg/footer_index.svg") -15% 100%/850px
-    1000px;
+  // background: no-repeat url("~assets/images/bg/footer_index.svg") -15% 100%/850px
+  //   1000px;
   @include touch {
     background: none;
   }
@@ -467,7 +486,7 @@ export default {
   }
   .act {
     max-width: 130px;
-    margin:10px;
+    margin: 10px;
   }
 }
 .nuxt-content {
@@ -477,15 +496,10 @@ export default {
   }
 }
 .is-index-page {
-  margin-top: 0;
-  background: no-repeat url("~assets/images/bg/index/topright3.svg") 100% 0%,
-    no-repeat url("~assets/images/bg/index/topleft1.svg") -1% 9%,
-    no-repeat url("~assets/images/bg/index/topleft2.svg") 0% 3%,
-    no-repeat url("~assets/images/bg/index/topleft3.svg") 0% 8%,
-    // no-repeat url("~assets/images/bg/index/topright1.svg") 90% 9%,
-    no-repeat url("~assets/images/bg/index/topright2.svg") 110% 6%/ 900px 1000px,
-    no-repeat url("~assets/images/bg/index/rightbottom.svg") 125% 97%/620px
-      526px;
+  margin-top: -($navbar-height + 1);
+  background-image: url("~assets/images/home/top.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
 
   @include touch {
     background: no-repeat url("~assets/images/bg/index/topright3.svg") 150% 0%,
@@ -517,7 +531,8 @@ export default {
 }
 .is-airdrop-page {
   margin-top: 0;
-  background: $common-bg-color url("~assets/images/bg/airdrop/airdropbg.svg") no-repeat center;
+  background: $common-bg-color url("~assets/images/bg/airdrop/airdropbg.svg")
+    no-repeat center;
   @include touch {
     background: no-repeat url("~assets/images/bg/airdrop/bgpic.png") 60% 0%;
   }
@@ -525,127 +540,7 @@ export default {
     background: no-repeat url("~assets/images/bg/airdrop/bg.png") 50% 0%;
   }
 }
-.airdrop-hide{
+.airdrop-hide {
   display: none;
-}
-.navbar {
-  border-bottom: 1px solid transparent;
-  z-index: 222222;
-  background: #fff;
-
-  a.navbar-item:hover {
-    background-color: white;
-  }
-  .navbar-brand {
-    height: $navbar-height;
-    .nav-item {
-      height: 100%;
-      cursor: pointer;
-    }
-  }
-  .nav-item {
-    padding: 0.5rem 18px;
-    color: $common-text-color;
-    font-family: $font-family-light;
-    &:hover {
-      color: $common-active-color;
-    }
-    &.active {
-      color: $common-active-color;
-    }
-  }
-  .nav-item-logo {
-    padding: 0 57px 0 0;
-  }
-  .navbar-menu {
-    @include desktop {
-      height: auto !important;
-    }
-  }
-}
-
-@include touch {
-  .nuxt-content {
-    margin-top: 41px;
-  }
-  .navbar {
-    min-height: 40px;
-    height: auto;
-    .navbar-brand {
-      min-height: 40px;
-      height: 40px;
-      .logo {
-        height: 22px;
-        transition: transform 0.4s ease-in-out;
-      }
-      .navbar-burger {
-        height: 40px;
-        width: 49px;
-        span {
-          width: 19px;
-          right: 50%;
-          left: auto;
-          margin-right: -10px;
-          transition: all 0.3s ease-in-out;
-          &:nth-child(2) {
-            width: 15px;
-          }
-        }
-      }
-    }
-
-    .is-open {
-      .navbar-brand {
-        .logo {
-          /*transform: translateX(16px);*/
-          transform: rotate(30deg);
-        }
-        .navbar-burger {
-          span {
-            &:nth-child(2) {
-              width: 19px;
-            }
-            &:nth-child(1),
-            &:nth-child(3) {
-              width: 9px;
-              margin-right: -5px;
-            }
-          }
-        }
-      }
-    }
-
-    .nav-item {
-      padding: 11px 16px;
-    }
-
-    .navbar-menu {
-      padding: 0 32px;
-      transition: all 0.5s ease-in-out;
-      &:not(.is-active) {
-        height: 0;
-        overflow-y: hidden;
-        display: block;
-      }
-      .navbar-end {
-        padding: 0.5rem 0;
-      }
-      .nav-item {
-        height: 48px;
-        padding-left: 0;
-      }
-      .line {
-        height: 1px;
-        margin: 0.5rem 0;
-        background: rgba(0, 0, 0, 0.05);
-        padding: 0;
-      }
-    }
-
-    & > .container {
-      min-height: 40px;
-      height: auto;
-    }
-  }
 }
 </style>

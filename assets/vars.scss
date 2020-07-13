@@ -13,7 +13,27 @@ $gap:16px;
 $dark-blue: #032841;
 $light-blue: rgba(54,130,222,1);
 $footer-background-color: white;
-$navbar-height: 72px;
+$navbar-height: 102px;
+
+// navbar
+$navbar-font-size: 14px;
+$navbar-submenu-color:rgba(0,0,0,0.6);
+$navbar-submenu-color-hover:#007aff;
+@mixin navbar-submenu {
+   & {
+     color: $navbar-submenu-color;
+   }
+   &:hover {
+     color: $navbar-submenu-color-hover;
+   }
+}
+
+@mixin navbar-top-item() {
+  &:hover {
+    font-weight: 600;
+  }
+}
+
 
 // text
 $common-text-color: #919AA3;

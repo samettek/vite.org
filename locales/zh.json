@@ -35,7 +35,7 @@
     "investor": "投资机构",
     "superNodes": "超级节点说明",
     "nodeList": "候选超级节点",
-    "notice": {
+    "sbp": {
       "name": "超级节点",
       "specific": "超级节点说明",
       "apply": "申请超级节点"
@@ -74,14 +74,38 @@
       "zh": "中国用户"
     },
     "header": "Vite",
-    "slogan": "快速，实用，闭环区块链",
+    "slogan": "全球首个基于DAG实现智能合约的公链",
     "whitePaper": "白皮书",
     "whitePaperSyra": "Vite 美国雪城合作项目白皮书",
     "testnet": "预览版",
     "acttext": "免费领取VITE代币",
     "actwait": "敬请期待",
     "news": "最新消息",
-    "starttoUse": "开始使用Vite"
+    "starttoUse": "开始使用Vite",
+    "sections": {
+      "whatIsVite": {
+        "title": "什么是Vite",
+        "desc": "Vite是一个无手续费的高性能公链，率先实现了基于DAG结构的智能合约。原创的异步架构、分层共识及快照链技术，让Vite的性能和成本处于行业领先水平，可以支持商业级应用。",
+        "btnGroup": {
+          "learn": "了解更多"
+        }
+      },
+      "product": {
+        "title": "完整的产品体系",
+        "desc": "基于Vite公链打造完整产品链，为用户提供健全的产品服务。保证用户资产安全的同时让交易、查询、沟通更便捷，在Vite体系内实现了从交易到存储到流通的全闭环。",
+        "btnGroup": {
+          "learn": "了解更多"
+        },
+        "others": {
+          "vitex": "ViteX 交易所",
+          "explorer": "区块浏览器",
+          "webWallet": "网页钱包",
+          "viteApp": "Vite App",
+          "vitePlus": "Vite Plus",
+          "forum": "论坛"
+        }
+      }
+    }
   },
   "product": {
     "title": "产品",
