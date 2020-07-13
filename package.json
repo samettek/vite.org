@@ -52,8 +52,10 @@
     "node-sass": "^4.7.2",
     "sass-loader": "^9.0.2"
   },
-  "gitHooks": {
-    "pre-commit": "lint-staged"
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "lint-staged": {
     "*.{js,jsx,vue}": [
