@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="container">
-      <activity></activity>
+      <!-- <activity></activity> -->
       <dynamic></dynamic>
     </div>
   </section>

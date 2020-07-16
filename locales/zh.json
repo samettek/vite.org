@@ -104,6 +104,44 @@
           "vitePlus": "Vite Plus",
           "forum": "论坛"
         }
+      },
+      "ecosystem": {
+        "title": "丰富的Vite生态",
+        "desc": "在众多项目和社区伙伴的共同努力下，在Vite公链基础上搭建了完整的生态场景，越来越多的社区用户正在积极参与到Vite生态建设中。",
+        "btnGroup": {
+          "learn": "了解更多"
+        },
+        "list": {
+          "dapp": "Dapp 开发",
+          "cityToken": "美国雪城政府合作项目",
+          "vitePay": "VitePay和Vite商城"
+        }
+      },
+      "development": {
+        "title": "加入Vite，成为开发者",
+        "desc": "我们欢迎开发者在Vite公链开发应用，Vite拥有完整的开发工具及资源，创建合约成本只需要10VITE，超低的成本将为Vite带来更广泛的应用。",
+        "btnGroup": {
+          "join": "立即加入"
+        }
+      },
+      "wallet": {
+        "title": "下载Vite官方钱包",
+        "desc": "一款多币种开源手机钱包，只需一组助记词便可以管理多种加密资产，内置去中心化交易所ViteX，交易、挖矿更便捷，内置DApp丰富，投资娱乐两不误，BTC.COM合作钱包，被鱼池、星火矿池、Luxor等矿池联袂推荐",
+        "btnGroup": {
+          "ios": "iOS下载",
+          "android": "安卓下载",
+          "qr": "扫码下载",
+          "learn": "了解更多"
+        }
+      },
+      "vitex": {
+        "title": "完全去中心化交易所ViteX",
+        "desc": "全球首个基于DAG的完全去中心化交易所，无需KYC，保护个人信息，去中心化治理，挖矿可得平台币VX，享受100%交易所手续费分红，社区自主上币，开交易所像开淘宝店一样简单，助记词自己保管，资产更安全，链上撮合交易，秒级成交，接近中心化体验，支持跨链，可交易任何币种",
+        "btnGroup": {
+          "toViteX": "使用ViteX",
+          "getVX": "获得平台币VX",
+          "learn": "了解更多"
+        }
       }
     }
   },
@@ -262,7 +300,8 @@
     "inProgress": "正在进行",
     "completed": "已完成",
     "nextStep": "下一步",
-    "previous": "展开",
+    "open": "展开",
+    "close": "收拢",
     "next": "展开",
     "timelines": [{
         "time": "2018Q2",

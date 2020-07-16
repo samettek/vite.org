@@ -93,6 +93,7 @@ export default {
 @import "~assets/vars";
 
 section {
+  margin-bottom: 120px;
   .roadmap-title {
     text-align: center;
     padding-top: 109px;

@@ -10,7 +10,7 @@
       <li class="is-common is-finish" v-if="type === 'completed'">
         <div class="desc-wrapper">
           <div class="desc special-item" @click="clickPrevious">
-            <p> {{ $t(`roadmap.previous`) }} <img src="~/assets/images/roadmap/previous.svg"/></p>
+            <p> {{ this.previousOpen ? $t(`roadmap.close`) : $t(`roadmap.open`) }} <img src="~/assets/images/roadmap/previous.svg"/></p>
           </div>
         </div>
       </li>
@@ -67,7 +67,7 @@ export default {
   computed: {
     list() {
       if (this.type === 'completed') {
-        return this.previousOpen ? this.timeLines : this.timeLines.slice(3);
+        return this.previousOpen ? this.timeLines : this.timeLines.slice(8);
       }
       if (this.type === 'nextStep') {
         return this.nextOpen ? this.timeLines : this.timeLines.slice(0, 2);

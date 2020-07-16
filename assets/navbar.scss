@@ -27,6 +27,9 @@
       height: auto !important;
     }
   }
+  .navbar-burger {
+    color: white;
+  }
 
   &_light {
     background-color: transparent;
@@ -62,6 +65,22 @@
       background-color: white;
     }
   }
+
+  & > .container {
+    &.is-open {
+      background-color: $navbar-background-color;
+      background-image: url("~assets/images/home/top.svg");
+    }
+    .navbar-menu {
+      background: transparent;
+    }
+  }
+
+  @include until(1260px) {
+    .nav-item-logo {
+      padding: 0 57px 0 20px;
+    }
+  }
 }
 
 .dropdown {
@@ -75,22 +94,26 @@
   }
 }
 
-@include touch {
+@include until($desktop) {
   .nuxt-content {
-    margin-top: 41px;
+    margin-top: 71px;
+    &.is-index-page {
+      margin-top: -131px;
+    }
   }
   .navbar {
-    min-height: 40px;
+    min-height: 70px;
     height: auto;
     .navbar-brand {
-      min-height: 40px;
-      height: 40px;
+      min-height: 70px;
+      height: 70px;
       .logo {
-        height: 22px;
+        height: 33px;
         transition: transform 0.4s ease-in-out;
+        width: auto;
       }
       .navbar-burger {
-        height: 40px;
+        height: 70px;
         width: 49px;
         span {
           width: 19px;

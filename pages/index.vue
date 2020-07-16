@@ -27,9 +27,11 @@
 
     <home-section v-for="item in sectionList" :key="item.name" :name="item.name" :buttons="item.buttons"></home-section>
 
+    <v-new></v-new>
+
     <v-roadmap></v-roadmap>
 
-    <join-mailing-list></join-mailing-list>
+    <!-- <join-mailing-list></join-mailing-list> -->
   </div>
 </template>
 
@@ -99,6 +101,62 @@ export default {
             },
           ],
         },
+        {
+          name: 'ecosystem',
+          buttons: [
+            {
+              name: 'learn',
+              url: 'https://vite.net',
+            },
+          ],
+        },
+        {
+          name: 'development',
+          buttons: [
+            {
+              name: 'join',
+              url: 'https://vite.net',
+            },
+          ],
+        },
+        {
+          name: 'wallet',
+          buttons: [
+            {
+              name: 'ios',
+              url: 'https://vite.net',
+            },
+            {
+              name: 'android',
+              url: 'https://vite.net',
+            },
+            {
+              name: 'qr',
+              url: 'https://vite.net',
+            },
+            {
+              name: 'learn',
+              url: 'https://vite.net',
+            },
+          ],
+        },
+        {
+          name: 'vitex',
+          buttons: [
+            {
+              name: 'toViteX',
+              url: 'https://x.vite.net',
+            },
+            {
+              name: 'getVX',
+              url: 'https://vitex.net/zh/mine',
+            },
+            {
+              name: 'learn',
+              url: 'https://forum.vite.net/category/33/vitex%E4%BA%A4%E6%98%93%E6%89%80',
+            },
+          ],
+        },
       ],
     };
   },
@@ -116,57 +174,6 @@ export default {
 <style lang="scss" scoped>
 @import "assets/vars.scss";
 
-.wallet-app-container {
-  display: flex;
-  display: -webkit-flex;
-  padding: 0;
-  background: #ffffff;
-  font-size: 14px;
-  color: #5e6875;
-  letter-spacing: 0;
-  text-align: center;
-  .wallet-app {
-    width: 120px;
-    height: 120px;
-  }
-  .wallet-item + .wallet-item{
-    margin-left: 20px;
-  }
-
-}
-
-.mobile-btn-group {
-    display: flex;
-    margin-top: 1.75rem;
-    flex-direction: column;
-    .download-btn {
-      display: flex;
-      box-shadow: 0 10px 40px 0 rgba(126, 183, 238, 0.83);
-      height: 60px;
-      width: 210px;
-      line-height: 60px;
-      color: white;
-      background: $common-active-color;
-      cursor: pointer;
-      justify-content: center;
-      &:first-child {
-        margin-bottom: 20px;
-      }
-      @include touch {
-        font-size: 12px;
-      }
-    }
-  }
-
-.section-title {
-  text-align: center;
-  font-size: 2rem;
-  color: #111111;
-  font-family: $font-family-light;
-  font-weight: normal;
-  margin-bottom: 3rem;
-}
-
 .home-notification {
   position: absolute;
   z-index: 1;
@@ -181,32 +188,16 @@ export default {
   position: relative;
   font-family: $font-family-title;
   height: 819px;
-  @include touch {
-    .hero-body {
-      display: block;
-    }
-  }
-  .topinfo {
-    @include mobile {
-      flex-direction: column;
-    }
-  }
+  background-image: url("~assets/images/home/top.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+
   .topinfo__left {
     padding-bottom: 5.625rem;
     margin-right: 50px;
     @include mobile {
       padding-bottom: 40px;
       margin-right: 0px;
-    }
-  }
-  .topinfo__right {
-    align-self: flex-end;
-    img{
-      margin-bottom: 6%;
-      cursor: pointer;
-    }
-    @include mobile {
-      align-self: stretch;
     }
   }
 
@@ -236,22 +227,6 @@ export default {
     }
   }
 
-  .wp-margin{
-    margin-top: 12px;
-  }
-  .wp-syra{
-    margin-right: 20px;
-  }
-  .wp-wrapper {
-    font-size:16px;
-    font-weight:600;
-    color:rgba(0,122,255,1);
-    line-height:18px;
-    vertical-align: baseline;
-    margin-right: 6px;
-    cursor: pointer;
-  }
-
   .btn-group-wrapper {
     margin-top: 86px;
     height: 60px;
@@ -269,13 +244,13 @@ export default {
       height: 54px;
       line-height: 54px;
       color: white;
-      background: rgba(255,255,255,0.2);
+      background: #3394ff;
       font-size: 16px;
       border-radius: 4px;
       font-weight: 600;
       margin-right: 40px;
       &:hover {
-        background: rgba(255,255,255,0.1);
+        background: lighten(#3394ff, 10%);
       }
       @include touch {
         width: 124px;
@@ -285,94 +260,44 @@ export default {
         margin-right: 14px;
       }
     }
-    .other-btn {
-      margin:0 0 0 20px;
-      box-sizing: border-box;
-      box-shadow:none;
-      border:2px solid rgba(0,122,255,1);
-      color:$common-active-color;
-      background: transparent;
-       @include touch {
-        font-size: 12px;
-        margin-left: 0;
-        margin-right: 10px;
-      }
-    }
     @include touch {
       margin-top: 12px;
     }
+  }
 
-    .button {
-      border-radius: 100px;
-      padding-left: 35px;
-      padding-right: 35px;
-      font-size: 1.88rem;
-      font-family: $font-family-title;
-      color: rgba(51, 51, 51, 1);
-      line-height: 3.75rem;
-      height: 3.75rem;
-      border-color: #999999;
-      @include touch {
-        width: 155px;
-        height: 34px;
+  @include until($fullhd) {
+    height: auto;
+  }
+  @include until($widescreen) {
+    background-size: 120% 100%;
+  }
+  @include until($tablet) {
+    background-size: 100%;
+    margin-top: 60px;
+    .hero-body {
+      padding-top: 70px;
+    }
+    .slogan-wrapper {
+      h1 {
+        font-size: 20px;
+        line-height: 20px;
+        margin-top: 10px;
+      }
+      h2 {
+        margin-top: 20px;
         font-size: 18px;
-        line-height: 25px;
-      }
-
-      svg {
-        margin-left: 0.875rem;
-        @include touch {
-          height: 10px;
-          margin-left: 5px;
-        }
-      }
-      &:hover {
-        color: #1580e3;
-        border-color: #1580e3;
-        svg {
-          color: #1580e3;
-        }
+        color: #9acaff;
       }
     }
-    .social {
-      margin-top: 29px;
-      @include touch {
-        margin-top: 25px;
-      }
-      .icon,
-      /deep/ svg {
-        height: 30px;
-        width: 30px;
-        color: #c4c4c4;
-        transition: color 0.1s ease-in-out;
-
-        @include touch {
-          height: 24px;
-          width: 24px;
-        }
-
-        &:hover {
-          color: #1580e3;
-        }
-      }
-
-      /*  cover the v-popover component style  */
-      /deep/ .v-popover {
-        margin-left: 20px;
-        @include touch {
-          margin-left: 19px;
-        }
-      }
-
-      a {
-        margin-left: 20px;
-        @include touch {
-          margin-left: 19px;
-        }
-
-        &:first-child {
-          margin-left: 0;
-        }
+    .btn-group-wrapper {
+      margin-top: 30px;
+      .pop-btn {
+        background: transparent;
+        padding: 0;
+        height: 18px;
+        line-height: 18px;
+        text-align: left;
+        width: auto;
       }
     }
   }

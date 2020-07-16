@@ -137,7 +137,6 @@ import Cookies from 'js-cookie';
 import dialogCompo from '~/components/dialog/component.vue';
 import LangSelect from '~/components/LangSelect.vue';
 import Logo from '~/components/Logo.vue';
-import LogoWithoutWords from '~/components/LogoWithoutWords.vue';
 import Footer from '~/components/Footer.vue';
 import config from '~/config';
 import about from '~/components/about.vue';
@@ -149,7 +148,6 @@ export default {
   components: {
     LangSelect,
     Logo,
-    LogoWithoutWords,
     VFooter: Footer,
     Exchange,
     about,
@@ -461,8 +459,6 @@ export default {
 }
 
 .is-index-public {
-  // background: no-repeat url("~assets/images/bg/footer_index.svg") -15% 100%/850px
-  //   1000px;
   @include touch {
     background: none;
   }
@@ -495,22 +491,14 @@ export default {
     padding-bottom: 50px;
   }
 }
+
 .is-index-page {
   margin-top: -($navbar-height + 1);
-  background-image: url("~assets/images/home/top.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-
   @include touch {
-    background: no-repeat url("~assets/images/bg/index/topright3.svg") 150% 0%,
-      no-repeat url("~assets/images/bg/index/topright1.svg") 90% 11%/ 230px 230px;
-  }
-  @include mobile {
-    background: no-repeat url("~assets/images/bg/index/topright3.svg") 100% 0%,
-      no-repeat url("~assets/images/bg/index/topleft3.svg") -1% 5%;
-    background-size: 60%;
+    margin-top: -131px;
   }
 }
+
 .is-team-page {
   margin-top: 0;
   background: no-repeat url("~assets/images/bg/team/topleft.svg") -58% 0%,
