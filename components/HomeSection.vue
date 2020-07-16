@@ -38,6 +38,10 @@
               :key="item.name"
             >{{$t(`home.sections.${name}.others.${item.name}`)}}</a>
           </template>
+
+          <template v-if="name === 'whatIsVite'">
+            <img class="play-icon"  src="~assets/images/video/play.svg"/>
+          </template>
         </div>
       </div>
     </div>
@@ -45,6 +49,8 @@
 </template>
 
 <script>
+import player from './play';
+
 const imgUrls = [
   {
     name: 'whatIsVite',
@@ -186,7 +192,11 @@ export default {
       }
     },
     onImgClick() {
-      console.log('clicked');
+      if (this.name === 'whatIsVite') {
+        this.$i18n.locale === 'zh'
+          ? player({ src: 'http://1257137467.vod2.myqcloud.com/c9d24a0dvodcq1257137467/bc96b2315285890788090827060/BdwEe78ChG8A.mp4' })
+          : player({ src: '', iframeSrc: 'https://www.youtube.com/embed/FRvdP_KcNRk' });
+      }
     },
   },
 };
@@ -274,6 +284,21 @@ export default {
       margin-top: 131px;
       max-width: 450px;
       text-align: right;
+      & > div {
+        position: relative;
+      }
+      &:hover {
+        cursor: pointer;
+      }
+      .play-icon {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        top: 50%;
+        margin-top: -20px;
+        left: 50%;
+        margin-left: -20px;
+      }
     }
   }
 
