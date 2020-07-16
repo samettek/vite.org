@@ -11,6 +11,13 @@
           border: none;
           box-shadow: none;
         }
+        .btn__click {
+          &::after {
+            content: url(~assets/images/home/down.svg);
+            height: 100%;
+            margin-left: 6px;
+          }
+        }
       }
       .foot-btn {
         color: white;
@@ -47,13 +54,16 @@
     &.dropdown_gray {
       .dropdown-trigger {
         .btn__click {
-          color: $common-text-color;
+          color: $navbar-gray-text-color;
           &:hover {
             color: $common-active-color;
           }
+          &::after {
+            content: url(~assets/images/home/down-gray.svg);
+          }
         }
         button {
-          color: $common-text-color;
+          color: $navbar-gray-text-color;
           &:hover {
             color: $common-active-color;
           }
@@ -61,8 +71,10 @@
       }
       .dropdown-menu {
         .dropdown-content {
+          // background-color: rgba(0,0,0,0.02);
+          box-shadow: 0 0 5px 0 #d3eaff;
           .dropdown-item {
-            color: $common-text-color;
+            color: $navbar-gray-text-color;
             &:hover {
               color: $common-active-color;
             }

@@ -21,6 +21,11 @@
   }
   .nav-item-logo {
     padding: 0 57px 0 0;
+    img {
+      width: 108px;
+      height: 60px;
+      max-height: unset;
+    }
   }
   .navbar-menu {
     @include desktop {

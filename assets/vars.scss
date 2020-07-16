@@ -20,6 +20,7 @@ $navbar-font-size: 14px;
 $navbar-submenu-color:rgba(0,0,0,0.6);
 $navbar-submenu-color-hover:#007aff;
 $navbar-background-color:#007aff;
+$navbar-gray-text-color: #919aa3;
 @mixin navbar-submenu {
    & {
      color: $navbar-submenu-color;

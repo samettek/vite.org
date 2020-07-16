@@ -42,7 +42,8 @@
         <div class="navbar-brand">
           <div @click="onLogoClick">
             <nuxt-link class="navbar-item nav-item nav-item-logo" :to="localePath('index')">
-              <logo class="logo"></logo>
+              <img v-if="navbarTheme === 'light'" src="~assets/images/home/viteLogo-white.svg" alt="Vite Logo">
+              <img v-else src="~assets/images/home/viteLogo-blue.svg" alt="Vite Logo">
             </nuxt-link>
           </div>
           <div class="navbar-burger" @click="onBurgerClick">
