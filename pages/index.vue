@@ -12,13 +12,16 @@
             </div>
             <div class="btn-group-wrapper">
               <a
-                href="#activity"
+                href="javascript:void(0);"
                 class="pop-btn"
-              >{{$t('home.activity1')}}</a>
+                @click="routeTo('about')"
+              >{{$t('home.aboutVite')}}</a>
+              <WhitePaper class="wp-margin"></WhitePaper>
               <a
-                href="#dynamic"
+                href="https://github.com/vitelabs/whitepaper/blob/master/SyraCoinWhitePaper.pdf"
+                target="_blank"
                 class="pop-btn"
-              >{{$t('home.activity2')}}</a>
+              >{{$t('home.whitePaperSyra')}}</a>
             </div>
           </div>
         </div>
@@ -161,11 +164,11 @@ export default {
     };
   },
   methods: {
-    openSyraWP() {
-      window.open(this.syraWP[this.$i18n.locale]);
-    },
     openLink() {
       window.open(this.activity[this.$i18n.locale]);
+    },
+    routeTo() {
+
     },
   },
 };
@@ -229,18 +232,17 @@ export default {
 
   .btn-group-wrapper {
     margin-top: 86px;
-    height: 60px;
     color: white;
     letter-spacing: 1px;
     text-align: center;
-    line-height: 60px;
     display: flex;
     cursor: pointer;
 
     .pop-btn {
       box-shadow: none;
       display: inline-block;
-      width: 168px;
+      min-width: 140px;
+      padding: 0 17px;
       height: 54px;
       line-height: 54px;
       color: white;
@@ -271,7 +273,7 @@ export default {
   @include until($widescreen) {
     background-size: 120% 100%;
   }
-  @include until($tablet) {
+  @include until($desktop) {
     background-size: 100%;
     margin-top: 60px;
     .hero-body {

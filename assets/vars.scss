@@ -29,12 +29,6 @@ $navbar-background-color:#007aff;
    }
 }
 
-@mixin navbar-top-item() {
-  &:hover {
-    font-weight: 600;
-  }
-}
-
 
 // text
 $common-text-color: #919AA3;

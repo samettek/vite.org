@@ -24,19 +24,6 @@
         </div>
       </template>
     </v-popover>
-
-    <!-- <div class="btn-wrapper" slot="placeholder">
-      <span class="wp-wrapper">{{$t('home.whitePaper')}}</span>
-        <svg width="9px" height="14px" viewBox="0 0 9 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-          <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-              <g id="page" transform="translate(-421.000000, -962.000000)" stroke="#007AFF" stroke-width="2">
-                  <g id="Group-14" transform="translate(421.000000, 962.000000)">
-                      <polyline id="Shape" points="1 13 7 7 1 1"></polyline>
-                  </g>
-              </g>
-          </g>
-        </svg>
-    </div> -->
   </client-only>
 </template>
 
@@ -78,12 +65,16 @@ export default {
   .wp-wrapper {
     font-size:16px;
     font-weight:600;
-    color:rgba(0,122,255,1);
-    line-height:18px;
+    color:#fff;
     vertical-align: baseline;
     display: inline-block;
-    margin-right: 6px;
-    margin-top: 10px;
+    background: #3394ff;
+    height: 54px;
+    line-height: 54px;
+    padding: 0 17px;
+    border-radius: 4px;
+    min-width: 140px;
+    margin-right: 20px;
   }
 
   .button {

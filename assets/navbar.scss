@@ -39,9 +39,6 @@
         &:hover {
           color: #fff;
         }
-        &.nav-top-item {
-          @include navbar-top-item();
-        }
       }
     }
     .navbar-item:hover {
