@@ -1,19 +1,9 @@
 <template>
   <client-only class="no-ssr">
     <v-popover
-      offset="16"
       :disabled="!isEnabled"
       popoverClass="v-popover">
         <span class="wp-wrapper">{{$t('home.whitePaper')}}</span>
-        <svg width="9px" height="12px" viewBox="0 0 9 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-          <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-              <g id="page" transform="translate(-421.000000, -962.000000)" stroke="#007AFF" stroke-width="2">
-                  <g id="Group-14" transform="translate(421.000000, 962.000000)">
-                      <polyline id="Shape" points="1 13 7 7 1 1"></polyline>
-                  </g>
-              </g>
-          </g>
-        </svg>
       <template slot="popover">
         <div class="item-wrapper">
           <div v-for="(item,index) in list" :key="index">
@@ -129,6 +119,29 @@ export default {
           text-decoration: none;
         }
       }
+    }
+  }
+
+  @include until($desktop) {
+    .v-popover {
+      margin-top: 10px;
+    }
+    .wp-wrapper {
+      display: inline-block;
+      background: none;
+      padding: 0;
+      border-radius: none;
+      min-width: unset;
+      margin-right: 20px;
+      height: 18px;
+      font-size: 14px;
+      font-family: PingFangSC, PingFangSC-Semibold;
+      font-weight: 600;
+      text-align: left;
+      color: #ffffff;
+      line-height: 14px;
+      vertical-align: middle;
+      @include more-icon();
     }
   }
 </style>

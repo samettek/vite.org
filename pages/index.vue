@@ -272,14 +272,17 @@ export default {
   }
   @include until($widescreen) {
     background-size: 120% 100%;
+    background-size: cover;
   }
   @include until($desktop) {
-    background-size: 100%;
+    background-size: cover;
     margin-top: 60px;
+    padding-bottom: 60px;
     .hero-body {
       padding-top: 70px;
     }
     .slogan-wrapper {
+      margin-top: 30px;
       h1 {
         font-size: 20px;
         line-height: 20px;
@@ -292,16 +295,50 @@ export default {
       }
     }
     .btn-group-wrapper {
-      margin-top: 30px;
+      flex-direction: row;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-top: 20px;
       .pop-btn {
         background: transparent;
         padding: 0;
         height: 18px;
         line-height: 18px;
+        font-size: 14px;
         text-align: left;
         width: auto;
+        min-width: unset;
+        margin-top: 10px;
+        @include more-icon();
       }
     }
+  }
+  @include until($tablet) {
+    background-size: 100% 90%;
+    .hero-body {
+      padding-top: 70px;
+    }
+    .slogan-wrapper {
+      margin-top: 0px;
+      h1 {
+        font-size: 18px;
+        line-height: 18px;
+        margin-top: 10px;
+      }
+      h2 {
+        margin-top: 10px;
+        font-size: 14px;
+        color: #9acaff;
+      }
+    }
+  }
+
+  @include until(615px) {
+    background-image: url("~assets/images/home/top-mobile.png");
+    background-size: 120% 100%;
+  }
+  @include until(376px) {
+    background-size: contain;
   }
 }
 </style>

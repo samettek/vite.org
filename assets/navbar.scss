@@ -109,8 +109,11 @@
     .navbar-brand {
       min-height: 70px;
       height: 70px;
-      .logo {
-        height: 33px;
+      .nav-item-logo {
+        img {
+          height: 33px;
+          width: 60px;
+        }
         transition: transform 0.4s ease-in-out;
         width: auto;
       }
