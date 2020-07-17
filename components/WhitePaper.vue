@@ -64,7 +64,7 @@ export default {
     padding: 0 17px;
     border-radius: 4px;
     min-width: 140px;
-    margin-right: 20px;
+    margin-right: 40px;
   }
 
   .button {
