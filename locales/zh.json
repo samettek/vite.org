@@ -1600,5 +1600,21 @@
     "btnIos": "iOS",
     "btnAndroid": "Android",
     "btn2": "查看投票奖励"
+  },
+  "whatIsVite": {
+    "title": "什么是Vite",
+    "subTitle": "关于 Vite",
+    "desc": "Vite是一个无手续费的高性能公链，率先实现了基于DAG结构的智能合约。原创的异步架构、分层共识及快照链技术，让Vite的性能和成本处于行业领先水平，可以支持商业级应用。",
+    "tech": {
+      "title": "全球首个基于DAG实现智能合约的公链",
+      "features": {
+        "dag": "DAG技术",
+        "throughput": "吞吐量高",
+        "confirm": "秒级确认",
+        "nofee": "零手续费",
+        "snapshotchain": "快照链",
+        "dex": "内置DEX"
+      }
+    }
   }
 }

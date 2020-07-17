@@ -11,11 +11,10 @@
               <h2>{{$t("home.slogan")}}</h2>
             </div>
             <div class="btn-group-wrapper">
-              <a
-                href="javascript:void(0);"
+              <n-link
                 class="pop-btn"
-                @click="routeTo('about')"
-              >{{$t('home.aboutVite')}}</a>
+                :to="localePath('/whatIsVite')"
+              >{{$t('home.aboutVite')}}</n-link>
               <WhitePaper class="wp-margin"></WhitePaper>
               <a
                 href="https://github.com/vitelabs/whitepaper/blob/master/SyraCoinWhitePaper.pdf"

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>fee</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="什么是vite" transform="translate(-366.000000, -1000.000000)">
+            <g id="编组" transform="translate(366.000000, 1000.000000)">
+                <circle id="椭圆形" fill-opacity="0.46" fill="#F1F1F1" fill-rule="nonzero" cx="35" cy="35" r="35"></circle>
+                <g id="pin-2" transform="translate(16.581395, 15.555556)" fill="#C0DFFF">
+                    <ellipse id="Oval" cx="5.02325581" cy="5" rx="5.02325581" ry="5"></ellipse>
+                    <ellipse id="Oval" cx="21.7674419" cy="5" rx="5.02325581" ry="5"></ellipse>
+                    <ellipse id="Oval" cx="37.3953488" cy="5" rx="5.02325581" ry="5"></ellipse>
+                    <ellipse id="Oval" cx="5.02325581" cy="22.7777778" rx="5.02325581" ry="5"></ellipse>
+                    <ellipse id="Oval" cx="21.7674419" cy="22.7777778" rx="5.02325581" ry="5"></ellipse>
+                    <ellipse id="Oval" cx="37.3953488" cy="22.7777778" rx="5.02325581" ry="5"></ellipse>
+                    <ellipse id="Oval" cx="5.02325581" cy="39.4444444" rx="5.02325581" ry="5"></ellipse>
+                    <ellipse id="Oval" cx="21.7674419" cy="39.4444444" rx="5.02325581" ry="5"></ellipse>
+                    <ellipse id="Oval" cx="37.3953488" cy="39.4444444" rx="5.02325581" ry="5"></ellipse>
+                </g>
+                <g id="pin-2" transform="translate(11.000000, 10.000000)" stroke-width="2">
+                    <path d="M5.02325581,10 L5.02325581,16.6666667" id="Path" stroke="#2C84FD"></path>
+                    <path d="M10.0465116,22.7777778 L15.627907,22.7777778" id="Path" stroke="#2C84FD"></path>
+                    <path d="M24.5581395,25.5555556 L33.4883721,35.5555556" id="Path" stroke="#2C84FD"></path>
+                    <path d="M32.372093,39.4444444 L26.7906977,39.4444444" id="Path" stroke="#2C84FD"></path>
+                    <ellipse id="Oval" stroke="#B3D8FF" stroke-linecap="square" cx="5.02325581" cy="5" rx="5.02325581" ry="5"></ellipse>
+                    <ellipse id="Oval" stroke="#B3D8FF" stroke-linecap="square" cx="21.7674419" cy="5" rx="5.02325581" ry="5"></ellipse>
+                    <ellipse id="Oval" stroke="#B3D8FF" stroke-linecap="square" cx="37.3953488" cy="5" rx="5.02325581" ry="5"></ellipse>
+                    <ellipse id="Oval" stroke="#B3D8FF" stroke-linecap="square" cx="5.02325581" cy="22.7777778" rx="5.02325581" ry="5"></ellipse>
+                    <ellipse id="Oval" stroke="#B3D8FF" stroke-linecap="square" cx="21.7674419" cy="22.7777778" rx="5.02325581" ry="5"></ellipse>
+                    <ellipse id="Oval" stroke="#B3D8FF" stroke-linecap="square" cx="37.3953488" cy="22.7777778" rx="5.02325581" ry="5"></ellipse>
+                    <ellipse id="Oval" stroke="#B3D8FF" stroke-linecap="square" cx="5.02325581" cy="39.4444444" rx="5.02325581" ry="5"></ellipse>
+                    <ellipse id="Oval" stroke="#B3D8FF" stroke-linecap="square" cx="21.7674419" cy="39.4444444" rx="5.02325581" ry="5"></ellipse>
+                    <ellipse id="Oval" stroke="#B3D8FF" stroke-linecap="square" cx="37.3953488" cy="39.4444444" rx="5.02325581" ry="5"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

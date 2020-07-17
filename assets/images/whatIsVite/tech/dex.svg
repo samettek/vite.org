@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>dex</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="93.9997154%" y1="62.088225%" x2="9.53594395%" y2="45.7785268%" id="linearGradient-1">
+            <stop stop-color="#54B6FF" offset="0%"></stop>
+            <stop stop-color="#2A7FFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="什么是vite" transform="translate(-1485.000000, -1000.000000)">
+            <g id="编组" transform="translate(1485.000000, 1000.000000)">
+                <circle id="椭圆形" fill-opacity="0.46" fill="#F1F1F1" fill-rule="nonzero" cx="35" cy="35" r="35"></circle>
+                <g id="分组" transform="translate(5.000000, 9.000000)">
+                    <polygon id="Fill-1" fill="#D9EBFF" points="16.8292195 27.3022195 31.8672683 18.5629512 46.0975122 26.7788049 31.0594634 35.5180732"></polygon>
+                    <polygon id="Fill-3" fill="#007AFF" points="31.2653171 9.6907561 39.8601951 4.69587805 39.7950732 27.7592927 31.1999512 32.7541707"></polygon>
+                    <polygon id="Fill-2" fill="#78B9FF" points="31.2653171 9.6907561 31.1999512 32.7541707 23.0665366 28.0583171 23.1319024 4.99490244"></polygon>
+                    <polygon id="Fill-4" fill-opacity="0.2" fill="url(#linearGradient-1)" points="31.7269756 -4.87804878e-05 23.1318537 4.99482927 31.2652683 9.69068293 39.8603902 4.69604878"></polygon>
+                    <polygon id="Fill-5" fill="#D9EBFF" points="4.4408921e-13 43.3997073 14.2302439 51.615561 29.2682927 42.8762927 15.0378049 34.6606829"></polygon>
+                    <polygon id="Fill-6" fill="#E7F1FF" points="14.4360488 25.7883171 14.3706829 48.8517317 6.23726829 44.155878 6.30263415 21.0924634"></polygon>
+                    <polygon id="Fill-7" fill="#C7DEFF" points="14.4360488 25.7883171 23.0311707 20.793439 22.9658049 43.8568537 14.3706829 48.8517317"></polygon>
+                    <polygon id="Fill-8" fill-opacity="0.2" fill="url(#linearGradient-1)" points="6.30258537 21.0924878 14.8977073 16.0976098 23.031122 20.7934634 14.436 25.7883415"></polygon>
+                    <polygon id="Fill-9" fill="#D9EBFF" points="30.7317073 43.3997073 44.9619512 51.615561 60 42.8765366 60 42.8762927 45.7695122 34.6606829"></polygon>
+                    <polygon id="Fill-10" fill="#E7F1FF" points="45.1677561 25.7883171 45.1021463 48.8517317 36.9689756 44.155878 37.0343415 21.0924634"></polygon>
+                    <polygon id="Fill-11" fill="#C7DEFF" points="45.1677561 25.7883171 53.7626341 20.793439 53.6975122 43.8568537 45.1021463 48.8517317"></polygon>
+                    <polygon id="Fill-12" fill="#D9EBFF" points="37.0342927 21.0924878 45.6294146 16.0976098 53.7625854 20.7934634 45.1677073 25.7883415"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
