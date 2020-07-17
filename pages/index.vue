@@ -277,9 +277,11 @@ export default {
   @include until($desktop) {
     background-size: cover;
     margin-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 0;
+    background-position: bottom;
     .hero-body {
       padding-top: 70px;
+      padding-bottom: 0;
     }
     .slogan-wrapper {
       margin-top: 30px;
@@ -314,7 +316,8 @@ export default {
     }
   }
   @include until($tablet) {
-    background-size: 100% 90%;
+    background-size: cover;
+    background-position: bottom;
     .hero-body {
       padding-top: 70px;
     }
@@ -337,8 +340,9 @@ export default {
     background-image: url("~assets/images/home/top-mobile.png");
     background-size: 120% 100%;
   }
-  @include until(376px) {
+  @include until(391px) {
     background-size: contain;
+    background-position: top;
   }
 }
 </style>
