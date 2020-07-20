@@ -1,10 +1,10 @@
 <template>
     <section class="page-header" :class="[`page-header-${name}`]">
-        <div class="container">
+        <div class="container padding-until-desktop">
             <h1>{{ $t(`${name}.title`) }}</h1>
         </div>
         <div class="page-header__content">
-            <div class="container">
+            <div class="container padding-until-desktop">
               <div class="page-header__desc">
                   <h2>{{ $t(`${name}.subTitle`) }}</h2>
                   <div class="page-header__text">
@@ -51,12 +51,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "assets/vars.scss";
+
 .page-header {
   h1 {
+    @include title();
     font-size: 44px;
-    font-family: PingFang, PingFang-SC;
-    font-weight: 600;
-    color: #171c34;
     line-height: 62px;
     margin-bottom: 18px;
   }
@@ -125,6 +125,12 @@ export default {
       .play-icon {
         cursor: pointer;
       }
+    }
+  }
+
+  @include until($desktop) {
+    h1 {
+      padding: 0 10px;
     }
   }
 }

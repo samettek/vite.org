@@ -170,7 +170,7 @@ export default {
     }
   }
 
-  @include until($tablet) {
+  @include until($desktop) {
     padding-left: 20px;
     padding-right: 20px;
     &__icon {

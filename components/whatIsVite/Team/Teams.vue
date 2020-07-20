@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="container">
+    <div class="container padding-until-desktop">
       <team-factory
         :id="item.title"
         :title="item.title"

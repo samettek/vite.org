@@ -33,4 +33,11 @@ a {
     max-width: 1200px;
     width: 1200px;
   }
+
+  @include until($desktop) {
+    &.padding-until-desktop {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
 }
