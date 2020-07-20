@@ -16,7 +16,8 @@
               </div>
               <div class="page-header__img" @click="onImgClick">
                 <img v-if="name === 'whatIsVite'" src="~/assets/images/home/whatIsVite.png" alt="What is vite">
-                <img class="play-icon"  src="~assets/images/video/play.svg"/>
+                <img v-if="name === 'token'" src="~/assets/images/home/viteToken.svg" alt="What is vite">
+                <img v-if="name === 'whatIsVite'" class="play-icon"  src="~assets/images/video/play.svg"/>
               </div>
             </div>
         </div>
@@ -61,6 +62,8 @@ export default {
   }
 
   &__content {
+    background-image: url("~assets/images/whatIsVite/whatIsVite-bg.png");
+    background-size: cover;
     .container {
       display: flex;
       flex-direction: row;
@@ -115,7 +118,6 @@ export default {
 
   &-whatIsVite {
     .page-header__content {
-      background-image: url("~assets/images/whatIsVite/whatIsVite-bg.png");
       background-size: cover;
       background-repeat: no-repeat;
     }

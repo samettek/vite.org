@@ -1658,5 +1658,23 @@
         }
       ]
     }
+  },
+  "token": {
+    "title": "VITE代币",
+    "subTitle": "关于Vite代币",
+    "desc": "VITE作为助力Vite公链生态系统发展的代币，用于支付Vite链上交易手续费。",
+    "info": {
+      "title": "代币信息",
+      "tokenName": "代币名称：VITE",
+      "issueDate": "发行日期：2018-06-15",
+      "totalSuply": "总发行量：10亿"
+    },
+    "distribution": {
+      "sell": "私募",
+      "team": "团队",
+      "foundation": "生态基金",
+      "marketing": "市场",
+      "airdrop": "空投"
+    }
   }
 }
