@@ -1,5 +1,5 @@
 <template>
-  <section class="home-section" :class="[`home-section-${name}`]">
+  <section class="home-section" :class="[`home-section-${name}`, center ? 'home-section_center' : '']">
     <div class="container home-section__container is-flex">
       <div class="home-section__info">
         <h1>{{title}}</h1>
@@ -14,34 +14,35 @@
       </div>
       <div class="home-section__img" @click="onImgClick">
         <template v-if="name === 'ecosystem'">
-          <div v-for="(item, index) in ecosystemList" :key="index" class="ecosystem__item">
-            <div v-if="item.name === 'line'" class="ecosystem__line"></div>
-            <template v-else>
-              <div class="ecosystem__img">
-                <img :src="item.img" :alt="$t(`home.sections.ecosystem.list.${item.name}`)">
-              </div>
-              <div class="ecosystem__text">{{$t(`home.sections.ecosystem.list.${item.name}`)}}</div>
-            </template>
-          </div>
+            <div v-for="(item, index) in ecosystemList" :key="index" class="ecosystem__item">
+              <div v-if="item.name === 'line'" class="ecosystem__line"></div>
+              <template v-else>
+                <div class="ecosystem__img">
+                  <img :src="item.img" :alt="$t(`home.sections.ecosystem.list.${item.name}`)">
+                </div>
+                <div class="ecosystem__text">{{$t(`home.sections.ecosystem.list.${item.name}`)}}</div>
+              </template>
+            </div>
         </template>
 
-        <div v-else>
-          <img :src="imgUrl" :alt="title" />
-          <template v-if="name === 'product'">
-            <a
-              class="product-tip"
-              v-for="item in productList"
-              :style="item.style"
-              :href="item.url"
-              target="_blank"
-              :key="item.name"
-            >{{$t(`home.sections.${name}.others.${item.name}`)}}</a>
-          </template>
+        <div v-else-if="imgUrl">
+            <img :src="imgUrl" :alt="title" />
+            <template v-if="name === 'product'">
+              <a
+                class="product-tip"
+                v-for="item in productList"
+                :style="item.style"
+                :href="item.url"
+                target="_blank"
+                :key="item.name"
+              >{{$t(`home.sections.${name}.others.${item.name}`)}}</a>
+            </template>
 
-          <template v-if="name === 'whatIsVite'">
-            <img class="play-icon"  src="~assets/images/video/play.svg"/>
-          </template>
+            <template v-if="name === 'whatIsVite'">
+              <img class="play-icon"  src="~assets/images/video/play.svg"/>
+            </template>
         </div>
+        <slot v-else-if="imgRender" name="img"></slot>
       </div>
     </div>
   </section>
@@ -161,6 +162,14 @@ export default {
       type: Array,
       default: () => [],
     },
+    render: {
+      type: Array,
+      default: () => [],
+    },
+    center: {
+      type: Boolean,
+      default: false,
+    },
   },
   data() {
     return {
@@ -182,6 +191,9 @@ export default {
     },
     title() {
       return this.$t(`home.sections.${this.name}.title`);
+    },
+    imgRender() {
+      return this.render.indexOf('img') > -1;
     },
   },
   methods: {
@@ -262,6 +274,16 @@ export default {
       &:hover {
         font-weight: 600;
       }
+    }
+  }
+  &_center {
+    .home-section__info {
+      h1 {
+        text-align: center;
+      }
+    }
+    .home-section__text {
+      text-align: center;
     }
   }
 

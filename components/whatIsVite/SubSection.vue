@@ -1,7 +1,7 @@
 <template>
       <section class="sub-section">
             <div class="container">
-                <h2>{{$t('whatIsVite.tech.title')}}</h2>
+                <h2>{{$t(`whatIsVite.${name}.title`)}}</h2>
                 <div class="sub-section__feature">
                     <div class="sub-section__icon">
                         <div :key="item.name" v-for="item in features">
