@@ -20,6 +20,17 @@
         </section>
 
         <distribution></distribution>
+        <section class="section-token-using container">
+            <h2>{{$t('token.using.title')}}</h2>
+            <div>
+                <div v-for="item in tokenUsing" :key="item.name" class="using-item">
+                    <div>
+                        <h3>{{$t(`token.using.${item.name}.title`)}}</h3>
+                        <div v-html="$t(`token.using.${item.name}.text`)"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 </template>
 
@@ -36,6 +47,20 @@ export default {
   data() {
     return {
       nodeList,
+      tokenUsing: [
+        {
+          name: 'stakingForQuota',
+          url: '',
+        },
+        {
+          name: 'stakingForMining',
+          url: '',
+        },
+        {
+          name: 'stakingForVip',
+          url: '',
+        },
+      ],
     };
   },
   methods: {
@@ -74,6 +99,52 @@ export default {
             img {
                 margin-bottom: 42px;
             }
+        }
+    }
+}
+
+.section-token-using {
+    padding: 150px 20px;
+    & > h2 {
+        @include title();
+        font-size: 44px;
+        line-height: 48px;
+        text-align: center;
+        margin-bottom: 90px;
+    }
+    & > div {
+        display: flex;
+        flex-direction: row;
+        margin: -22px;
+    }
+    .using-item {
+        flex: 1;
+        box-shadow: 0px 0px 20px 4px rgba(0,122,255,0.1);
+        margin: 22px;
+        & > div {
+            padding: 30px 18px;
+            font-size: 14px;
+            line-height: 30px;
+        }
+        h3 {
+            @include title();
+            font-size: 20px;
+            line-height: 24px;
+            margin-bottom: 18px;
+        }
+    }
+}
+
+@include until($desktop) {
+    .section-token-using {
+        padding: 60px 10px;
+        & > div {
+            margin: -10px;
+            display: flex;
+            flex-direction: column;
+        }
+        .using-item {
+            margin: 10px;
         }
     }
 }
