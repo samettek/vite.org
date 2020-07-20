@@ -2,9 +2,10 @@
 @import "~bulma/sass/utilities/mixins";
 
 
-$font-family-light: Arial,PingFangSC-Regular, Sans-serif;
+$font-family-light: PingFangSC, PingFangSC-Regular;
 $font-family-main: Arial, PingFangSC-Medium, Sans-serif;
-$font-family-title: Arial Bold, PingFangSC-Semibold, Sans-serif;
+$font-family-title: PingFangSC, PingFangSC-Semibold;
+$font-title-color: #171c34;
 
 // bulma
 $family-serif: $font-family-light;
@@ -55,6 +56,12 @@ $timelineColor: #007aff;
     height: 100%;
     margin-left: 6px;
   }
+}
+
+@mixin title {
+  font-family: $font-family-title;
+  font-weight: 600px;
+  color: $font-title-color;
 }
 
 

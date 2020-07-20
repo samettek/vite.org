@@ -8,7 +8,6 @@
           <a
             v-for="item in buttons"
             :key="item.name"
-            :href="href"
             @click="onClick(item)"
           >{{$t(`home.sections.${name}.btnGroup.${item.name}`)}}</a>
         </div>
