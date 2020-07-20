@@ -10,6 +10,11 @@
             <w-map :list="nodeList"></w-map>
           </template>
         </home-section>
+        <section class="section-team">
+          <teams></teams>
+        </section>
+        <investor :title="$t('whatIsVite.investor')" type="investor" class="section-investor"></investor>
+        <investor :title="$t('whatIsVite.partner')" type="partner" class="section-partner"></investor>
     </div>
 </template>
 
@@ -19,6 +24,8 @@ import SubSection from '~/components/whatIsVite/SubSection.vue';
 import HomeSection from '~/components/HomeSection.vue';
 import WMap from '~/components/whatIsVite/WMap.vue';
 import nodeList from '~/components/whatIsVite/nodeList.js';
+import Teams from '~/components/whatIsVite/Team/Teams';
+import Investor from '~/components/whatIsVite/Investor';
 
 export default {
   components: {
@@ -26,6 +33,8 @@ export default {
     SubSection,
     HomeSection,
     WMap,
+    Teams,
+    Investor,
   },
   data() {
     return {
@@ -51,5 +60,11 @@ export default {
       margin-top: 90px;
     }
   }
+}
+.section-team {
+  padding-top: 150px;
+}
+.section-investor {
+  background: #f5faff;
 }
 </style>
