@@ -313,7 +313,7 @@
     "close": "收拢",
     "next": "展开",
     "timelines": [{
-        "time": "2018Q2",
+        "time": "2018 Q2",
         "description": [{
             "text": "白皮书发布",
             "url": "https://www.vite.org/whitepaper/vite_cn.pdf"
@@ -322,7 +322,7 @@
         ]
       },
       {
-        "time": "2018Q3",
+        "time": "2018 Q3",
         "description": [
           "go-vite V0.1上线",
           {
@@ -337,7 +337,7 @@
         ]
       },
       {
-        "time": "2018Q4",
+        "time": "2018 Q4",
         "description": [{
             "text": "迁移总量56%的ERC20代币到原生网络",
             "url": "https://medium.com/vitelabs/testnet-an-update-erc20-token-migration-guide-7c200bef7337"
@@ -351,7 +351,7 @@
         ]
       },
       {
-        "time": "2019Q1",
+        "time": "2019 Q1",
         "description": [
           "Pre-MainNet上线",
           "ViteX（DEX）开启测试",
@@ -363,7 +363,7 @@
         ]
       },
       {
-        "time": "2019Q2",
+        "time": "2019 Q2",
         "description": [
           "Pre-MainNet性能优化",
           "智能合约升级",
@@ -371,7 +371,7 @@
         ]
       },
       {
-        "time": "2019Q3",
+        "time": "2019 Q3",
         "description": [
           "MainNet上线",
           "ViteX去中心化交易所上线",
@@ -379,7 +379,7 @@
         ]
       },
       {
-        "time": "2019Q4",
+        "time": "2019 Q4",
         "description": [
           "支付落地（提前完成）",
           "支持GRIN钱包（Android）",
@@ -391,7 +391,7 @@
         ]
       },
       {
-        "time": "2020Q1",
+        "time": "2020 Q1",
         "description": [
           "钱包持续接入新币种",
           "扩展支付落地场景",
@@ -400,34 +400,52 @@
         ]
       },
       {
-        "time": "2020Q2",
+        "time": "2020 Q2",
         "description": [
-          "DeFi",
-          "支持Ledger硬件钱包",
+          {
+            "text": "支持Ledger硬件钱包",
+            "url": "https://medium.com/vitelabs/how-to-manage-vite-on-ledger-nano-88177a076caf"
+          },
           "手机端交易所上线",
-          "一键部署去中心化交易所",
-          "支持BTC钱包",
-          "Web钱包、桌面版钱包全面升级",
-          "交易所 Open Api"
+          {
+            "text": "一键部署去中心化交易所",
+            "url": "https://github.com/vitelabs/open-gateway"
+          },
+          "Web钱包全面升级",
+          {
+            "text": "桌面版钱包上线",
+            "url": "https://github.com/vitelabs/vite-wallet/releases"
+          },
+          {
+            "text": "交易所 Open Api",
+            "url": "https://medium.com/vitelabs/announcing-official-vitex-api-and-user-guide-e8ea2db8134e"
+          }
         ]
       },
       {
-        "time": "2020Q3",
+        "time": "2020 Q3",
         "description": [
-          "DApp开发工具",
-          "开发浏览器插件钱包",
-          "智能合约定时调度",
-          "命名服务",
-          "Vite2.0 白皮书",
-          "发行稳定币"
+          "DApp 开发工具升级启动",
+          "稳定币兑换",
+          "Vite 生态激励计划",
+          "Vite App 全新改版",
+          "ViteX SDK 上线",
+          "交易所持续上币",
+          "运营商招募"
         ]
       },
       {
-        "time": "2020Q4",
+        "time": "2020 Q4",
         "description": [
-          "Vite2.0 内测",
-          "基于Vite2.0 的ViteX 内测",
-          "基于Vite2.0 的Vite DeFi 内测"
+          "Vite 2.0 白皮书",
+          "ViteX 网关 2.0",
+          "Vite 钱包支持 BTC",
+          "集成开源程序化交易平台",
+          "支持第三方开发 Vite 钱包",
+          "交易所支持多种下单类型",
+          "DApp 开发工具升级",
+          "交易所持续上币",
+          "运营商招募"
         ]
       }
     ]
