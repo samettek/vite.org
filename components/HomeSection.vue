@@ -72,6 +72,14 @@ const imgUrls = [
     name: 'vitex',
     url: require('~/assets/images/home/vitex.png'),
   },
+  {
+    name: 'dapp',
+    url: require('~/assets/images/ecosystem/dapp.png')
+  },
+  {
+    name: 'devTool',
+    url: require('~/assets/images/ecosystem/devTool.png')
+  },
 ];
 
 const productList = [
@@ -503,6 +511,49 @@ export default {
     }
   }
 
+  &-dapp, &-devTool {
+    .home-section__container {
+      flex-direction: row;
+    }
+    .home-section__info {
+      flex: 1;
+      padding-top: 150px;
+      padding-bottom: 150px;
+    }
+    .home-section__text {
+      max-width: 500px;
+    }
+    .home-section__img {
+      flex: 1;
+      margin-top: 131px;
+      max-width: 532px;
+      text-align: right;
+    }
+  }
+  &-dapp {
+    .home-section__img {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      & > div {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+      }
+    }
+  }
+  &-devTool {
+    background-color: #F5FAFF;
+    .home-section__info {
+      flex: 1;
+      padding-top: 90px;
+      padding-bottom: 90px;
+    }
+    .home-section__img {
+      margin-top: 58px;
+    }
+  }
+
   @include until($desktop) {
     padding-left: 15px;
     padding-right: 15px;
@@ -546,6 +597,17 @@ export default {
       margin-top: 60px;
       .ecosystem__text {
         font-size: 14px;
+      }
+    }
+    &-dapp {
+      .home-section__info {
+        padding-top: 30px;
+        padding-bottom: 30px;
+      }
+      .home-section__info {
+        h1 {
+          margin-top: 30px;
+        }
       }
     }
   }

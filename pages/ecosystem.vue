@@ -2,6 +2,7 @@
     <div class="page-ecosystem">
         <page-header name="ecosystem"></page-header>
         <home-section name="dapp" :buttons="dappBtns"></home-section>
+        <home-section name="devTool" :buttons="dappBtns"></home-section>
     </div>
 </template>
 
