@@ -132,6 +132,20 @@ export default {
     h1 {
       padding: 0 10px;
     }
+    &__content {
+      padding-bottom: 30px;
+      .container {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+    &__desc {
+      width: 100%;
+      padding: 60px 0 0 0;
+    }
+    &__img {
+      width: 100%;
+    }
   }
 }
 </style>

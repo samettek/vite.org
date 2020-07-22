@@ -41,7 +41,16 @@ export default {
       nodeList,
     };
   },
+  mounted() {
+    this.getNodeList();
+  },
   methods: {
+    async getNodeList() {
+      let data = await this.$axios.$get('https://stats.vite.net/api/peers/city/aggr');
+      if (data && data.city_info) {
+        this.nodeList = data.city_info;
+      }
+    }
   },
 };
 </script>

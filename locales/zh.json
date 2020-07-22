@@ -204,7 +204,8 @@
         "title": "Vite全节点数",
         "nodeName": "节点名称"
       },
-      "textList": [{
+      "textList": [
+        {
           "name": "高性能",
           "description": "Vite通过DAG账本和异步架构设计确保了平台快速、高吞吐"
         },
@@ -228,7 +229,8 @@
     },
     "wallet": {
       "title": "多币种钱包",
-      "textList": [{
+      "textList": [
+        {
           "name": "转账零费用",
           "description": "交易消耗配额，运行PoW免费获取"
         },
@@ -256,7 +258,8 @@
     },
     "exchange": {
       "title": "去中心化数字资产交易平台",
-      "textList": [{
+      "textList": [
+        {
           "name": "完全去中心化，资产更安全",
           "description": "通过链上智能合约实现交易撮合引擎、手续费分红，链上完成订单撮合、订单簿存储；私钥由您自己保管，只有您本人可以控制资产的流向"
         },
@@ -276,7 +279,8 @@
     },
     "pay": {
       "title": "安全、便捷、低成本支付方式",
-      "textList": [{
+      "textList": [
+        {
           "name": "秒级交易确认，支持工业级需求",
           "description": "Vite底层公链通过引入DAG链和异步架构设计保证交易的秒级确认，可以承载亿万级交易和高性能并发需求"
         },
@@ -312,9 +316,11 @@
     "open": "展开",
     "close": "收拢",
     "next": "展开",
-    "timelines": [{
+    "timelines": [
+      {
         "time": "2018 Q2",
-        "description": [{
+        "description": [
+          {
             "text": "白皮书发布",
             "url": "https://www.vite.org/whitepaper/vite_cn.pdf"
           },
@@ -338,7 +344,8 @@
       },
       {
         "time": "2018 Q4",
-        "description": [{
+        "description": [
+          {
             "text": "迁移总量56%的ERC20代币到原生网络",
             "url": "https://medium.com/vitelabs/testnet-an-update-erc20-token-migration-guide-7c200bef7337"
           },
@@ -452,7 +459,8 @@
   },
   "elector": {
     "title": "超级节点竞选人",
-    "detailTitles": [{
+    "detailTitles": [
+      {
         "key": "info",
         "title": "团队成员信息"
       },
@@ -812,7 +820,6 @@
       "bi23": {
         "info": [
           "Bi23团队是一支有深厚扎实的技术开发经验的团队，专注于跨链资产研究，提供给用户安全、便捷的质押奖励服务和去中心化金融服务。目前Bi23不仅是Vite的超级节点，也是ViteX的运营商，积极深入的活跃在Vite生态建设及共识增加的事业中。Bi23亦是Cosmos、IRISnet、Tezos和Terra等项目的激活验证节点，这也证实了Bi23雄厚的技术背景和在加密货币领域的丰富经验。",
-
           "沈青海——区块链资深从业者，对区块链和加密货币领域有深刻的洞察和独到见解，在加密资产领域有超过8年的实践经验。"
         ],
         "config": [
@@ -823,20 +830,14 @@
         ],
         "plan": [
           "第一步：积极承担超级节点的责任及义务，为用户提供更安全/更稳定收益的质押奖励服务。",
-
           "第二步：积极申请成为VITEX运营商，以更多元的角色加入到vite项目的生态建设中。",
-
           "第三步：持续通过多渠道/多方式，进行vite生态和bi23节点的推广宣传，持续推进vite项目公信度的提升和共识度的增加。"
         ],
         "medium": [
           "Wechat：bi23com",
-
           "Twitter：@bi23com",
-
           "Telegram：Liqianyi，andrew shen",
-
           "Official website：https://bi23.com",
-
           "Vite website：https://vite.bi23.com"
         ],
         "name": "vite.bi23",
@@ -1190,7 +1191,8 @@
   },
   "superNodes": {
     "title": "超级节点说明",
-    "contents": [{
+    "contents": [
+      {
         "orderNum": "一、",
         "question": "您需要提交的信息",
         "answer": [
@@ -1207,7 +1209,8 @@
       {
         "orderNum": "二、",
         "question": "超级节点注册、投票和出块",
-        "second": [{
+        "second": [
+          {
             "title": "超级节点注册竞选",
             "answer": [
               "1、VITE迁移 <br/> 在11月中旬通过智能合约，把ERC20的VITE，转换为到Vite测试网络的VITE。",
@@ -1268,7 +1271,8 @@
     "common": "一般",
     "technology": "技术",
     "questions": {
-      "common": [{
+      "common": [
+        {
           "question": "什么是 Vite？",
           "answer": [
             "Vite 是一个通用的去中心化生态系统，在兼顾安全性的同时，满足了工业级应用对高吞吐、低延迟和扩展性的要求。",
@@ -1376,7 +1380,8 @@
           ]
         }
       ],
-      "technology": [{
+      "technology": [
+        {
           "question": "Vite的智能合约间调用取消了同步调用，那如何兼容以太里同步调用的场景？",
           "answer": "不能兼容。需要改动同步的代码为异步代码，才能兼容。"
         },
@@ -1707,6 +1712,25 @@
       "stakingForVip": {
         "title": "抵押开通交易所VIP",
         "text": "用户可以在ViteX交易所抵押10,000VITE成为VIP会员，成为会员后可以降低10%的基础手续费。"
+      }
+    },
+    "getToken": {
+      "title": "获取代币",
+      "exchange": "交易所购买",
+      "learn": "了解更多",
+      "runSBP": {
+        "title": "运行超级节点",
+        "desc": "抵押1.000.00VITE成为Vite超级节点，可获得超级节点奖励。"
+      },
+      "runFullnode": {
+        "title": "运行全节点",
+        "desc": "只需要一台电脑即可参与Vite全节点，所有全节点每天奖励14820VITE。",
+        "url": "https://vite.wiki/zh/tutorial/node/install.html#gvite%E8%8A%82%E7%82%B9%E6%98%AF%E4%BB%80%E4%B9%88"
+      },
+      "vote": {
+        "title": "投票超级节点获得奖励",
+        "desc": "持有VITE代币的用户投票给超级节点可以获得投票奖励，目前部分超级节点投票有奖励，请及时关注社区动态。",
+        "url": "https://forum.vite.net/topic/3610/%E6%95%99%E7%A8%8B-%E5%A6%82%E4%BD%95%E5%9C%A8vite-app%E5%86%85%E6%8A%95%E7%A5%A8%E7%BB%99%E8%B6%85%E7%BA%A7%E8%8A%82%E7%82%B9%E5%BE%97vite%E5%A5%96%E5%8A%B1"
       }
     }
   }

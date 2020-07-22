@@ -72,3 +72,29 @@ h1 {
 .button:focus:not(:active), .button.is-focused:not(:active) {
   box-shadow: 0 0 0 0.125em rgba(54,130,222, 0.25);
 }
+
+// Used for buttons in section
+.button.section-button {
+  @include title();
+  background: #007aff;
+  border-radius: 5px;
+  box-shadow: 0px 8px 34px 0px rgba(0,122,255,0.2); 
+  border: none;
+  color: white;
+  font-size: 16px;
+  line-height: 54px;
+  height: 54px;
+  padding: 17px 38px;
+  &:hover {
+    border: none;
+  }
+  @include until($desktop) {
+    height: 30px;
+    background: #007aff;
+    border-radius: 2px;
+    line-height: 20px;
+    padding: 5px 15px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+}

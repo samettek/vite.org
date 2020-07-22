@@ -52,7 +52,7 @@ export default {
               color: '#FFD307',
             },
           }, {
-            value: 25,
+            value: 20,
             name: this.$t('token.distribution.team'),
             label: {
               color: '#FF9F00',
@@ -61,7 +61,7 @@ export default {
               color: '#FF9F00',
             },
           }, {
-            value: 20,
+            value: 25,
             name: this.$t('token.distribution.foundation'),
             label: {
               color: '#053CCE',
