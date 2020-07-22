@@ -127,6 +127,11 @@ export default {
           title: 'tech',
           list: [
             {
+              img: require('~/assets/images/teams/hzh.jpg'),
+              urls: [],
+              key: 'Zack'
+            },
+            {
               img: require('~/assets/images/teams/zy2.jpg'),
               urls: [],
               key: 'Ada'
@@ -296,11 +301,6 @@ export default {
                 { icon: ['fab', 'github'], url: 'https://github.com/fanglige' }
               ],
               key: 'Hannah'
-            },
-            {
-              img: require('~/assets/images/teams/hzh.jpg'),
-              urls: [],
-              key: 'Zack'
             },
             {
               img: require('~/assets/images/teams/ljy.jpg'),
