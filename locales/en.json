@@ -338,7 +338,7 @@
             "text": "Hardware Wallet - Ledger",
             "url": "https://medium.com/vitelabs/how-to-manage-vite-on-ledger-nano-88177a076caf"
           },
-          "ViteX in Mobile - Klines",
+          "ViteX in Mobile - Candlestick Chart",
           {
             "text": "One-step DEX Deployment",
             "url": "https://github.com/vitelabs/open-gateway"
@@ -362,7 +362,8 @@
           "Vite Ecosystem Grants",
           "Vite App Major Upgrade",
           "ViteX SDK Improvement",
-          "Continual Coin Listings on ViteX"
+          "Continual Coin Listings on ViteX",
+          "New Operator Recruitment"
         ]
       },
       {
@@ -375,7 +376,8 @@
           "Support of Third-Party Wallet Development",
           "Additional Order Types on ViteX",
           "Continual Upgrades of DApp Development Tools",
-          "Continual Coin Listings on ViteX"
+          "Continual Coin Listings on ViteX",
+          "New Operator Recruitment"
         ]
       }
     ]
