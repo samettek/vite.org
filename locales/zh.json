@@ -151,6 +151,16 @@
           "sbp": "超级节点说明",
           "fullnode": "全节点说明"
         }
+      },
+      "dapp": {
+        "title": "DApp开发",
+        "desc": "社区开发者可以利用合约开发小游戏。这里展示了目前已在Vite App上线的小游戏，大家可以使用钱包玩游戏赚VITE，投资娱乐两不误。",
+        "btnGroup": {
+          "learn": "了解更多"
+        },
+        "urls": {
+          "learn": "https://forum.vite.net/topic/1850/%E5%85%B3%E4%BA%8E%E5%A6%82%E4%BD%95%E5%9C%A8vite%E7%A7%BB%E5%8A%A8%E9%92%B1%E5%8C%85%E5%8F%91%E5%B8%83dapp%E7%9A%84%E8%8B%A5%E5%B9%B2%E9%97%AE%E9%A2%98"
+        }
       }
     }
   },
@@ -1733,5 +1743,10 @@
         "url": "https://forum.vite.net/topic/3610/%E6%95%99%E7%A8%8B-%E5%A6%82%E4%BD%95%E5%9C%A8vite-app%E5%86%85%E6%8A%95%E7%A5%A8%E7%BB%99%E8%B6%85%E7%BA%A7%E8%8A%82%E7%82%B9%E5%BE%97vite%E5%A5%96%E5%8A%B1"
       }
     }
+  },
+  "ecosystem": {
+    "title": "丰富的Vite生态",
+    "subTitle": "关于Vite生态",
+    "desc": "在众多项目和社区伙伴的共同努力下，在Vite公链基础上搭建了完整的生态场景，越来越多的社区用户正在积极参与到Vite生态建设中。"
   }
 }

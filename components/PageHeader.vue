@@ -142,9 +142,11 @@ export default {
     &__desc {
       width: 100%;
       padding: 60px 0 0 0;
+      max-width: unset;
     }
     &__img {
       width: 100%;
+      text-align: center;
     }
   }
 }
