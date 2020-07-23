@@ -5,11 +5,10 @@
         <h1>{{title}}</h1>
         <div class="home-section__text">{{$t(`home.sections.${name}.desc`)}}</div>
         <div class="home-section__btn-group">
-          <a
-            v-for="item in buttons"
-            :key="item.name"
-            @click="onClick(item)"
-          >{{$t(`home.sections.${name}.btnGroup.${item.name}`)}}</a>
+          <template v-for="item in btnList">
+            <a v-if="item.isInnerUrl" @click="onClick(item)" href="javascript:void(0);" :key="item.name">{{$t(`home.sections.${name}.btnGroup.${item.name}`)}}</a>
+            <a v-else :key="item.name" :href="item.url" target="_blank">{{$t(`home.sections.${name}.btnGroup.${item.name}`)}}</a>
+          </template>
         </div>
       </div>
       <div class="home-section__img" @click="onImgClick">
@@ -80,6 +79,18 @@ const imgUrls = [
     name: 'devTool',
     url: require('~/assets/images/ecosystem/devTool.png')
   },
+  {
+    name: 'community',
+    url: require('~/assets/images/ecosystem/community.png')
+  },
+  {
+    name: 'syracoin',
+    url: require('~/assets/images/ecosystem/syracoin.png')
+  },
+  {
+    name: 'vitepay',
+    url: require('~/assets/images/ecosystem/vitestore.png')
+  }
 ];
 
 const productList = [
@@ -190,7 +201,6 @@ export default {
       return this.buttons.map((item) => ({
         ...item,
         isInnerUrl: typeof item === 'object',
-        href: typeof item === 'object' ? 'javascrpt:void(0);' : item.url,
       }));
     },
     imgUrl() {
@@ -207,7 +217,7 @@ export default {
   methods: {
     onClick(item) {
       if (item.isInnerUrl) {
-        this.$router.push(item.url);
+        return this.$router.push(item.url);
       }
     },
     onImgClick() {
@@ -240,7 +250,7 @@ export default {
 
 .home-section {
   .home-section__container {
-    flex-direction: column;
+    flex-direction: row;
   }
   .home-section__info {
     h1 {
@@ -292,6 +302,12 @@ export default {
     }
     .home-section__text {
       text-align: center;
+    }
+    .home-section__btn-group {
+      text-align: center;
+    }
+    .home-section__container {
+      flex-direction: column;
     }
   }
 
@@ -511,7 +527,7 @@ export default {
     }
   }
 
-  &-dapp, &-devTool {
+  &-dapp, &-devTool, &-community, &-syracoin {
     .home-section__container {
       flex-direction: row;
     }
@@ -551,6 +567,51 @@ export default {
     }
     .home-section__img {
       margin-top: 58px;
+    }
+  }
+
+  &-incentive {
+    padding: 150px 0;
+  }
+
+  &-community {
+    background-color: #F5FAFF;
+    .home-section__img {
+      max-width: 388px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: unset;
+    } 
+    .home-section__info {
+      padding-top: 75px;
+      padding-bottom: 75px;
+    }
+  }
+
+  &-syracoin {
+    .home-section__img {
+      max-width: 375px;
+    }
+  }
+
+  &-vitepay {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #F5FAFF;
+    margin-bottom: 200px;
+    .home-section__img {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 60px;
+      & > div {
+        max-width: 700px;
+        text-align: center;
+        img {
+          margin-bottom: -200px;
+        }
+      }
     }
   }
 
@@ -599,7 +660,7 @@ export default {
         font-size: 14px;
       }
     }
-    &-dapp {
+    &-dapp, &-devTool, &-community, &-syracoin, &-vitepay {
       .home-section__info {
         padding-top: 30px;
         padding-bottom: 30px;
@@ -609,6 +670,26 @@ export default {
           margin-top: 30px;
         }
       }
+    }
+    &-devTool {
+      background-color: #F5FAFF;
+      .home-section__info {
+        flex: 1;
+        padding-top: 30px;
+        padding-bottom: 30px;
+      }
+      .home-section__img {
+        margin-top: 58px;
+      }
+    }
+    &-incentive {
+      padding: 0 15px;
+    }
+    &-community {
+      padding: 0 15px;
+    }
+    &-vitepay {
+      padding: 0 15px;
     }
   }
 }

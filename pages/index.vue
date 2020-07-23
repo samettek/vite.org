@@ -27,7 +27,7 @@
       </div>
     </section>
 
-    <home-section v-for="item in sectionList" :key="item.name" :name="item.name" :buttons="item.buttons"></home-section>
+    <home-section v-for="item in sectionList" :key="item.name" :name="item.name" :buttons="item.buttons" :center="item.center"></home-section>
 
     <v-new></v-new>
 
@@ -102,6 +102,7 @@ export default {
               url: 'https://vite.net',
             },
           ],
+          center: true,
         },
         {
           name: 'ecosystem',
@@ -111,6 +112,7 @@ export default {
               url: 'https://vite.net',
             },
           ],
+          center: true
         },
         {
           name: 'development',
@@ -120,6 +122,7 @@ export default {
               url: 'https://vite.net',
             },
           ],
+          center: true
         },
         {
           name: 'wallet',
@@ -158,6 +161,7 @@ export default {
               url: 'https://forum.vite.net/category/33/vitex%E4%BA%A4%E6%98%93%E6%89%80',
             },
           ],
+          center: true
         },
       ],
     };
