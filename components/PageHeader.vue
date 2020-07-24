@@ -17,7 +17,10 @@
               <div class="page-header__img" @click="onImgClick">
                 <img v-if="name === 'whatIsVite'" src="~/assets/images/home/whatIsVite.png" alt="What is vite">
                 <img v-if="name === 'token'" src="~/assets/images/home/viteToken.svg" alt="What is vite">
+                <img v-if="name === 'community'" src="~/assets/images/ecosystem/community.png" alt="Vite Community">
+
                 <img v-if="name === 'whatIsVite'" class="play-icon"  src="~assets/images/video/play.svg"/>
+                
               </div>
             </div>
         </div>
@@ -124,6 +127,18 @@ export default {
     .page-header__img {
       .play-icon {
         cursor: pointer;
+      }
+    }
+  }
+
+  &-community {
+    .page-header__desc {
+      padding-top: 150px;
+      padding-bottom: 150px;
+    }
+    .page-header__img {
+      img {
+        max-width: 388px;
       }
     }
   }
