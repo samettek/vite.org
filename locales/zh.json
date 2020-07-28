@@ -323,6 +323,14 @@
         "urls": {
           "learn": "https://mp.weixin.qq.com/s/q0cQI_SY0muQT_rdZOla1w"
         }
+      },
+      "joinDev": {
+        "title": "加入Vite技术社区",
+        "desc": "为激励社区有能力的团队、开发者一起建设Vite生态，Vite基金会正式推出生态扶持计划，首期针对SBP以生态基金投票的方式进行扶持，所有投票收益均归SBP所有。",
+        "btnGroup": {
+          "techGroup": "Vite技术群",
+          "toForum": "前往论坛交流"
+        }
       }
     }
   },
@@ -1910,5 +1918,35 @@
     "title": "丰富的Vite生态",
     "subTitle": "关于Vite生态",
     "desc": "在众多项目和社区伙伴的共同努力下，在Vite公链基础上搭建了完整的生态场景，越来越多的社区用户正在积极参与到Vite生态建设中。"
+  },
+  "development": {
+    "title": "成为Vite开发者",
+    "subTitle": "加入Vite，成为开发者",
+    "desc": "我们欢迎开发者在Vite公链开发应用，Vite拥有完整的开发工具及资源，创建合约成本只需要10VITE，超低的成本将为Vite带来更广泛的应用。",
+    "btnGroup": {
+      "wiki": "Wiki",
+      "github": "Github",
+      "docs": "开发文档" 
+    },
+    "support": {
+      "title": "技术支持",
+      "sdk": {
+        "title": "多语言支持"
+      },
+      "docs": {
+        "title": "开发资源及文档",
+        "desc": "开发者协议及{wiki}",
+        "wiki": "文档"
+      },
+      "community": {
+        "title": "开发者社区",
+        "desc": "全球开发者社区支持"
+      }
+    },
+    "join": {
+      "title": "加入Vite技术社区",
+      "desc": "为激励社区有能力的团队、开发者一起建设Vite生态，Vite基金会正式推出生态扶持计划，首期针对SBP以生态基金投票的方式进行扶持，所有投票收益均归SBP所有。",
+      "forumTechUrl": "https://forum.vite.net/category/35/%E6%8A%80%E6%9C%AF%E8%AE%A8%E8%AE%BA"
+    }
   }
 }

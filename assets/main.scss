@@ -97,4 +97,12 @@ h1 {
     font-size: 16px;
     font-weight: 600;
   }
+  &.section-button_white {
+    background: white;
+    color: #007AFF;
+    @include until($desktop) {
+      background: white;
+      color: #007AFF;
+    }
+  }
 }

@@ -200,7 +200,7 @@ export default {
     btnList() {
       return this.buttons.map((item) => ({
         ...item,
-        isInnerUrl: typeof item === 'object',
+        isInnerUrl: typeof item.url === 'object',
       }));
     },
     imgUrl() {
@@ -289,9 +289,6 @@ export default {
       line-height: 20px;
       margin-right: 20px;
       margin-top: 20px;
-      &:hover {
-        font-weight: 600;
-      }
     }
   }
   &_center {
@@ -615,6 +612,11 @@ export default {
     }
   }
 
+  &-joinDev {
+    padding-top: 150px;
+    padding-bottom: 120px;
+  }
+
   @include until($desktop) {
     padding-left: 15px;
     padding-right: 15px;
@@ -660,7 +662,7 @@ export default {
         font-size: 14px;
       }
     }
-    &-dapp, &-devTool, &-community, &-syracoin, &-vitepay {
+    &-dapp, &-devTool, &-community, &-syracoin, &-vitepay{
       .home-section__info {
         padding-top: 30px;
         padding-bottom: 30px;
@@ -690,6 +692,9 @@ export default {
     }
     &-vitepay {
       padding: 0 15px;
+    }
+    &-joinDev {
+      padding: 30px 15px;
     }
   }
 }

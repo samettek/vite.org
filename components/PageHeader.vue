@@ -13,6 +13,14 @@
                   <div v-if="name === 'whatIsVite'" class="page-header__btnGroup">
                     <WhitePaper class="wp-btn"></WhitePaper>
                   </div>
+                  <div v-if="btnList.length" class="page-header__btnGroup">
+                    <template v-for="item in btnList">
+                      <button v-if="item.isInnerUrl" :key="item.name" class="button section-button section-button_white" @click="onBtnClick(item)">
+                        {{$t(`${name}.btnGroup.${item.name}`)}}
+                      </button>
+                      <a v-else :key="item.name" class="button section-button section-button_white" :href="item.url" target="_blank">{{$t(`${name}.btnGroup.${item.name}`)}}</a>
+                    </template>
+                  </div>
               </div>
               <div class="page-header__img" @click="onImgClick">
                 <img v-if="name === 'whatIsVite'" src="~/assets/images/home/whatIsVite.png" alt="What is vite">
@@ -40,6 +48,18 @@ export default {
       default: 'home',
       type: String,
     },
+    buttons: {
+      type: Array,
+      default: () => []
+    }
+  },
+  computed: {
+    btnList() {
+      return this.buttons.map((item) => ({
+        ...item,
+        isInnerUrl: typeof item.url === 'object',
+      }));
+    },
   },
   methods: {
     onImgClick() {
@@ -49,6 +69,11 @@ export default {
           : player({ src: '', iframeSrc: 'https://www.youtube.com/embed/FRvdP_KcNRk' });
       }
     },
+    onBtnClick(item) {
+      if (typeof item.url === 'object') {
+        this.$router.push(item);
+      }
+    }
   },
 };
 </script>
@@ -102,6 +127,11 @@ export default {
       width: auto;
       display: inline-block;
       cursor: pointer;
+      margin: 15px;
+    }
+    margin: -15px;
+    .button {
+      margin: 15px;
     }
   }
 
