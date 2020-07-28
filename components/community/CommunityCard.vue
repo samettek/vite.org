@@ -1,125 +1,88 @@
 <template>
-  <div class="community-wrapper">
-    <div class="community-card-content">
-      <div class="person-info">
-        <p class="person-name">{{ name }}</p>
-        <div class="card-title">
-          <img :src="src" />
-          <div class="name">{{ cname }}</div>
+    <div class="cm-card">
+        <div class="cm-card__header">
+            <h3>{{$t(`community.stars.${name}.name`)}}</h3>
+            <div>
+                <img :src="img" :alt="$t(`community.stars.${name}.name`)">
+            </div>
         </div>
-
-      </div>
-      <div class="card-img" v-if="picture">
-        <img :src="picture" />
-        <fa-icon
-            @click="gotoLink"
-            class="icon"
-            :icon="['fab', icon ]"
-          />
-      </div>
+        <div class="cm-card__content">
+             <div class="cm-card__item">
+                 <p>{{$t(`community.stars.${name}.desc`)}}</p>
+             </div>
+             <div class="cm-card__item">
+                 <p v-for="(item, index) in contributions" :key="index">{{item}}</p>
+             </div>
+        </div>
     </div>
-  </div>
 </template>
 
-<script type="text/babel">
+<script>
 export default {
-  props: {
-    src: {
-      type: String,
+    props: {
+        name: {
+            type: String,
+        },
+        img: {
+            type: String
+        }
     },
-    name: {
-      type: String,
-    },
-    picture: {
-      type: String,
-    },
-    cname: {
-      type: String,
-    },
-    icon: {
-      type: String,
-    },
-    mediaLink: {
-      type: String,
-    },
-  },
-  data() {
-    return {};
-  },
-  methods: {
-    gotoLink() {
-      window.open(this.mediaLink);
-    },
-  },
-};
+    computed: {
+        contributions() {
+            let temp = this.$t(`community.stars.${this.name}.contribution`);
+            return Array.isArray(temp) ? temp : [];
+        }
+    }
+}
 </script>
 
-<style rel="stylesheet/scss" lang="scss" scoped>
-@import "~assets/vars";
+<style lang="scss" scoped>
+@import "assets/vars.scss";
 
-.community-wrapper {
-  margin: 0 auto;
-  width: 220px;
-  height: 100px;
-  box-shadow: 0 4px 24px 0 rgba(211, 234, 255, 0.53);
-  padding: 18px;
-  box-sizing: border-box;
-  @include touch {
-    width: 205px;
-  }
-  .person-info{
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      height: 100%;
-  }
-  .community-card-content {
-    display: flex;
-    display: -webkit-flex;
-    justify-content: space-between;
-    height: 100%;
-    .card-title {
-      display: flex;
-      display: -webkit-flex;
-      img {
-        margin-top: 3px;
-        height: 12px;
-      }
-      .name {
-        margin-left: 6px;
-        font-size: 14px;
-        color: #919aa3;
-        letter-spacing: 0;
-        line-height: 18px;
-      }
-    }
-    .person-name {
-      font-family: $font-family-title;
-      font-size: 15px;
-      color: #171c34;
-      max-width: 119px;
-      white-space: normal;
-      margin:0;
-      letter-spacing: -0.19px;
-      line-height: 20px;
-    }
-    .card-img {
+.cm-card {
+    box-shadow: 0px 4px 24px 0px rgba(211,234,255,0.53); 
+    padding: 20px;
+    height: 300px;
+    &__header {
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        flex-direction: row;
         justify-content: space-between;
-      img {
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-      }
-      .icon{
-          color:#007AFF;
-          width:13px;
-          height: 13px;
-          cursor:pointer;
-      }
+        align-items: center;
+        h3 {
+            @include title();
+            font-size: 15px;
+            line-height: 20px;
+        }
+        img {
+            height: 40px;
+            width: 40px;
+            border-radius: 40px;
+        }
     }
-  }
+    &__content {
+        margin-top: 10px;
+    }
+    &__item {
+        font-family: $font-family-light;
+        font-weight: 400;
+        font-size: 12px;
+        color: #919aa3;
+        margin-bottom: 20px;
+        line-height: 20px;
+        &:last-child {
+            margin-bottom: unset;
+        }
+        p {
+            margin: 0 0 0 10px;
+            &:first-child {
+                &::before {
+                    content: " ";
+                    border-left: 3px solid #007aff;
+                    margin-left: -11px;
+                    margin-right: 8px;
+                }
+            }
+        }
+    }
 }
 </style>

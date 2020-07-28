@@ -20,11 +20,11 @@
                 class="star-item"
                 v-for="(item, index) in arrays"
                 :key="index">
-                <cm-card
+                <community-card
                   :name="item.name"
                   :img="item.img"
                   >
-                </cm-card>
+                </community-card>
               </div>
             </div>
           </div>
@@ -39,19 +39,17 @@
 </template>
 
 <script>
-import CommunityCard from './CommunityCard';
 import CommunityLink from './CommunityLink';
-import CmCard from './CMCard';
+import CommunityCard from './CommunityCard';
 import subTitle from '~/components/subTitle';
 import player from '~/components/play';
 import config from '~/config';
 
 export default {
   components: {
-    CommunityCard,
     CommunityLink,
     subTitle,
-    CmCard,
+    CommunityCard,
   },
   methods: {
     play() {
