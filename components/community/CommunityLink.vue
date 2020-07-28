@@ -44,7 +44,8 @@ export default {
     box-sizing: border-box;
     @include touch {
       padding: 5px;
-      width: 270px;
+      width: 100%;
+      margin-top: 20px;
     }
     .flex-top {
       display: flex;

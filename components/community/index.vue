@@ -20,19 +20,12 @@
                 class="star-item"
                 v-for="(item, index) in arrays"
                 :key="index">
-                <community-card
-                  :src="item.img"
-                  :picture="item.picture"
-                  :cname="item.cname"
+                <cm-card
                   :name="item.name"
-                  :mediaLink="item.mediaLink"
-                  :icon="item.icon">
-                </community-card>
+                  :img="item.img"
+                  >
+                </cm-card>
               </div>
-              <!-- <div
-                class="column is-4 star-item" style="visibility:hidden">
-                <community-card></community-card>
-              </div> -->
             </div>
           </div>
           <div>
@@ -48,6 +41,7 @@
 <script>
 import CommunityCard from './CommunityCard';
 import CommunityLink from './CommunityLink';
+import CmCard from './CMCard';
 import subTitle from '~/components/subTitle';
 import player from '~/components/play';
 import config from '~/config';
@@ -57,6 +51,7 @@ export default {
     CommunityCard,
     CommunityLink,
     subTitle,
+    CmCard,
   },
   methods: {
     play() {
@@ -142,112 +137,56 @@ export default {
       ],
       arrays: [
         {
-          key: 0,
-          img: require('~/assets/images/community/Belgium.svg'),
-          cname: 'Belgium',
-          picture: require('~/assets/images/community/Fernandez-Bravo.jpg'),
-          name: 'Antonio Fernandez',
-          mediaLink: 'https://twitter.com/afbr84',
-          icon: 'twitter',
+          name: 'yandong',
+          img: require('~/assets/images/community/yandong.png'),
         },
         {
-          key: 1,
-          img: require('~/assets/images/community/Russia.svg'),
-          picture: require('~/assets/images/community/russia.jpeg'),
-          cname: 'Russia',
-          name: 'Богдан Обойшев',
-          mediaLink: 'https://twitter.com/bodya_oboyshev',
-          icon: 'twitter',
+          name: 'xiaoyu',
+          img: require('~/assets/images/community/xiaoyu.jpg'),
         },
         {
-          key: 2,
-          img: require('~/assets/images/community/France.svg'),
-          picture: require('~/assets/images/community/france.jpeg'),
-          cname: 'France',
-          name: 'Thomas Blanc',
-          mediaLink: 'https://twitter.com/ThomasBlnc',
-          icon: 'twitter',
+          name: 'jingguang',
+          img: require('~/assets/images/community/jingguang.jpg'),
         },
         {
-          key: 3,
-          img: require('~/assets/images/community/India.svg'),
-          picture: require('~/assets/images/community/india.jpg'),
-          cname: 'India',
-          name: 'पंकज',
-          mediaLink: 'https://twitter.com/CryptoFonzie',
-          icon: 'twitter',
+          name: 'shuangyanpi',
+          img: require('~/assets/images/community/shuangyanpi.png'),
         },
         {
-          key: 4,
-          img: require('~/assets/images/community/Nigeria.svg'),
-          picture: require('~/assets/images/community/nigeria.jpg'),
-          cname: 'Nigeria',
-          name: 'Yomi Oyesiji',
-          mediaLink: 'https://twitter.com/Mexite3yo',
-          icon: 'twitter',
+          name: 'duy',
+          img: require('~/assets/images/community/duy.jpg'),
         },
         {
-          key: 5,
-          img: require('~/assets/images/community/Italy.svg'),
-          picture: require('~/assets/images/community/italy.jpg'),
-          cname: 'Italy',
-          name: 'Angelo Giacomo Canevari',
-          mediaLink: 'https://twitter.com/Angelo_Canevari',
-          icon: 'twitter',
+          name: 'amec',
+          img: require('~/assets/images/community/amec.jpg'),
         },
         {
-          key: 6,
-          img: require('~/assets/images/community/Thailand.svg'),
-          picture: require('~/assets/images/community/thailand.png'),
-          cname: 'Thailand',
-          name: 'Boss',
-          mediaLink: 'https://twitter.com/attakorn_p',
-          icon: 'twitter',
+          name: 'abdullah',
+          img: require('~/assets/images/community/abdullah.jpg'),
         },
         {
-          key: 7,
-          img: require('~/assets/images/community/Indonesia.svg'),
-          picture: require('~/assets/images/community/indonesia.jpeg'),
-          cname: 'Indonesia',
-          mediaLink: 'https://twitter.com/casualfungames',
-          name: 'Muhamad',
-          icon: 'twitter',
+          name: 'mona',
+          img: require('~/assets/images/community/mona.jpg'),
         },
         {
-          key: 8,
-          img: require('~/assets/images/community/Vietnam.svg'),
-          picture: require('~/assets/images/community/vietnam.png'),
-          cname: 'Vietnam',
-          name: 'Trang',
-          mediaLink: 'https://twitter.com/VoBaLu1',
-          icon: 'twitter',
+          name: 'greek',
+          img: require('~/assets/images/community/greek.jpg'),
         },
         {
-          key: 9,
-          img: require('~/assets/images/community/Turkey.svg'),
-          picture: require('~/assets/images/community/turkey.jpg'),
-          cname: 'Turkey',
-          name: 'Öznur Topal',
-          mediaLink: 'https://twitter.com/znurTOPAL2',
-          icon: 'twitter',
+          name: 'nrz',
+          img: require('~/assets/images/community/nrz.jpg'),
         },
         {
-          key: 10,
-          img: require('~/assets/images/community/Indonesia.svg'),
-          picture: require('~/assets/images/community/muhammad.jpg'),
-          cname: 'Indonesia',
-          name: 'Muhammad Usman',
-          mediaLink: 'https://www.linkedin.com/in/netral8787/',
-          icon: 'linkedin',
+          name: 'daniel',
+          img: require('~/assets/images/community/daniel.jpg'),
         },
         {
-          key: 11,
-          img: require('~/assets/images/community/spain.jpg'),
-          picture: require('~/assets/images/community/erik.jpg'),
-          cname: 'Spain',
-          name: 'Erik Siria',
-          mediaLink: 'https://twitter.com/CriptoErik',
-          icon: 'twitter',
+          name: 'devaux',
+          img: require('~/assets/images/community/devaux.jpg'),
+        },
+        {
+          name: 'hope',
+          img: require('~/assets/images/community/hope.jpg'),
         },
       ],
     };
@@ -260,14 +199,12 @@ export default {
 .section {
   padding-top: 92px;
   .community-star {
+    @include title();
     display: flex;
-    display: -webkit-flex;
-    font-family: $font-family-title;
-    font-size: 24px;
-    color: #171c34;
+    font-size: 44px;
     letter-spacing: 0;
-    line-height: 38px;
-    margin: 20px auto 10px;
+    line-height: 48px;
+    margin: 90px auto 60px 0;
     flex: none;
     width: 100%;
     span {
@@ -285,10 +222,14 @@ export default {
     -o-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    margin: -30px -23px;
   }
   .star-item {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    width: 50%;
+    padding: 30px 23px;
+    @include touch {
+      width: 100%;
+    }
   }
   .content {
      @include touch {
