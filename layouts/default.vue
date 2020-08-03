@@ -57,30 +57,37 @@
           <div ref="navbarStart" class="navbar-end">
             <div class="nav-item">
               <secondary-menu
-                :footer-name="$t(`nav.production`)"
-                footer-to="products"
                 :theme="navbarTheme"
-                :secondary-list="navProductionList"
-              >
-                <explorer></explorer>
-              </secondary-menu>
-            </div>
-            <div class="nav-item">
-              <secondary-menu
-                :theme="navbarTheme"
-                :footer-name="$t(`nav.person`)"
+                :footer-name="$t(`nav.start`)"
                 footer-to="figure"
-                :secondary-list="navPersonList"
+                :secondary-list="navStartList"
               ></secondary-menu>
             </div>
             <div class="nav-item">
               <secondary-menu
                 :theme="navbarTheme"
-                :footer-name="$t(`nav.sbp.name`)"
+                :footer-name="$t(`nav.about`)"
                 footer-to="figure"
-                :secondary-list="navSbpList"
+                :secondary-list="navAboutList"
               ></secondary-menu>
             </div>
+
+            <a href="https://vite.net" target="_blank" class="nav-item nav-top-item text-hover-transition">
+              {{$t('nav.production')}}
+            </a>
+
+            <nuxt-link
+              key="ecosystem"
+              :to="localePath('ecosystem')"
+              class="nav-item nav-top-item text-hover-transition"
+            >{{$t(`nav.ecosystem`)}}</nuxt-link>
+
+            <nuxt-link
+              key="development"
+              :to="localePath('development')"
+              class="nav-item nav-top-item text-hover-transition"
+            >{{$t(`nav.development`)}}</nuxt-link>
+
             <div class="nav-item">
               <secondary-menu
                 :theme="navbarTheme"
@@ -89,28 +96,15 @@
                 :secondary-list="navMediaList"
               ></secondary-menu>
             </div>
-            <div class="nav-item">
-              <secondary-menu
-                :theme="navbarTheme"
-                :footer-name="$t(`nav.exchange`)"
-                :secondary-list="navExList"
-              ></secondary-menu>
-            </div>
-            <div class="nav-item">
-              <secondary-menu
-                :theme="navbarTheme"
-                :footer-name="$t(`nav.guide`)"
-                :secondary-list="navGuideList"
-              ></secondary-menu>
-            </div>
 
-            <nuxt-link
-              :key="item"
-              :to="localePath(item)"
-              class="nav-item nav-top-item text-hover-transition"
-              :class="{active: routeName === item}"
-              v-for="item in navs"
-            >{{$t(`nav.${item}`)}}</nuxt-link>
+            <div class="nav-item">
+              <secondary-menu
+                :theme="navbarTheme"
+                :footer-name="$t(`nav.community`)"
+                :secondary-list="navCommunityList"
+                footer-to="community"
+              ></secondary-menu>
+            </div>
 
             <div class="nav-item">
               <lang-select :theme="navbarTheme"></lang-select>
@@ -124,12 +118,12 @@
         <nuxt :keep-alive="true"></nuxt>
       </transition>
     </div>
-    <v-footer
+    <!-- <v-footer
       :nav-production-list="navProductionList"
       :nav-person-list="navPersonList"
       :nav-guide-list="navGuideList"
       :nav-media-list="navMediaList"
-    ></v-footer>
+    ></v-footer> -->
   </div>
 </template>
 
@@ -281,26 +275,6 @@ export default {
           anchor: 'investor',
         },
       ],
-      navMediaList: [
-        {
-          type: 'inner',
-          name: 'video',
-          to: 'medium',
-          anchor: 'video',
-        },
-        {
-          type: 'inner',
-          name: 'blogs',
-          to: 'medium',
-          anchor: 'blogs',
-        },
-        {
-          type: 'inner',
-          name: 'news',
-          to: 'medium',
-          anchor: 'news',
-        },
-      ],
       navExList: ['vitex', 'binance', 'bittrex', 'okex', 'okexKr'].map((item) => ({
         type: 'outer',
         name: item,
@@ -321,15 +295,33 @@ export default {
     }
   },
   computed: {
-    navGuideList() {
-      const tutoriallink = this.$i18n.locale === 'zh'
-        ? 'https://vite.wiki/zh/tutorial/start/'
-        : 'https://vite.wiki/tutorial/start/';
+    navStartList() {
       return [
+        {
+          type: 'inner',
+          name: 'getToken',
+          to: 'token',
+          anchor: 'getToken',
+        },
+        {
+          type: 'outer',
+          name: 'createWallet',
+          to: 'https://app.vite.net/',
+        },
+        {
+          type: 'outer',
+          name: 'useVitex',
+          to: 'https://vitex.net/',
+        },
+        {
+          type: 'outer',
+          name: 'github',
+          to: 'https://github.com/vitelabs/go-vite',
+        },
         {
           type: 'outer',
           name: 'tutorial',
-          to: tutoriallink,
+          to: 'tutorial',
         },
         {
           type: 'inner',
@@ -338,26 +330,76 @@ export default {
         },
       ];
     },
-    navSbpList() {
-      const applyMap = config.urls.vote.apply;
-      const navList = [
+    navAboutList() {
+      return [
         {
           type: 'inner',
-          name: 'nodeList',
-          to: 'nodeList',
+          name: 'introduction',
+          to: 'whatIsVite',
         },
         {
           type: 'inner',
-          name: 'superNodes',
-          to: 'superNodes',
+          name: 'token',
+          to: 'token',
+        },
+        {
+          type: 'inner',
+          name: 'node',
+          to: 'whatIsVite',
+          anchor: 'fullnode',
+        },
+        {
+          type: 'inner',
+          name: 'team',
+          to: 'whatIsVite',
+          anchor: 'team',
+        },
+        {
+          type: 'inner',
+          name: 'investor',
+          to: 'whatIsVite',
+          anchor: 'investor',
+        },
+        {
+          type: 'inner',
+          name: 'partner',
+          to: 'whatIsVite',
+          anchor: 'partner',
+        },
+      ];
+    },
+    navMediaList() {
+      return [
+        {
+          type: 'outer',
+          name: 'weeklyReport',
+          to: 'weeklyReport',
         },
         {
           type: 'outer',
-          name: 'sbpApply',
-          to: applyMap[this.$i18n.locale] || applyMap.en,
+          name: 'ann',
+          to: 'ann',
+        },
+        {
+          type: 'outer',
+          name: 'news',
+          to: 'news',
         },
       ];
-      return navList;
+    },
+    navCommunityList() {
+      return [
+        {
+          type: 'inner',
+          name: 'join',
+          to: 'community',
+        },
+        {
+          type: 'outer',
+          name: 'forum',
+          to: config.urls.forum,
+        },
+      ];
     },
     routeName() {
       if (!this.$route || !this.$route.name) return 'index';

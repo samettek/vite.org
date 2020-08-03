@@ -2,7 +2,7 @@
   <section class="home-section" :class="[`home-section-${name}`, center ? 'home-section_center' : '']">
     <div class="container home-section__container is-flex">
       <div class="home-section__info">
-        <h1>{{title}}</h1>
+        <h1 :id="name">{{title}}</h1>
         <div class="home-section__text">{{$t(`home.sections.${name}.desc`)}}</div>
         <div class="home-section__btn-group">
           <template v-for="item in btnList">
@@ -73,24 +73,24 @@ const imgUrls = [
   },
   {
     name: 'dapp',
-    url: require('~/assets/images/ecosystem/dapp.png')
+    url: require('~/assets/images/ecosystem/dapp.png'),
   },
   {
     name: 'devTool',
-    url: require('~/assets/images/ecosystem/devTool.png')
+    url: require('~/assets/images/ecosystem/devTool.png'),
   },
   {
     name: 'community',
-    url: require('~/assets/images/ecosystem/community.png')
+    url: require('~/assets/images/ecosystem/community.png'),
   },
   {
     name: 'syracoin',
-    url: require('~/assets/images/ecosystem/syracoin.png')
+    url: require('~/assets/images/ecosystem/syracoin.png'),
   },
   {
     name: 'vitepay',
-    url: require('~/assets/images/ecosystem/vitestore.png')
-  }
+    url: require('~/assets/images/ecosystem/vitestore.png'),
+  },
 ];
 
 const productList = [
@@ -219,6 +219,7 @@ export default {
       if (item.isInnerUrl) {
         return this.$router.push(item.url);
       }
+      return null;
     },
     onImgClick() {
       if (this.name === 'whatIsVite') {
@@ -579,7 +580,7 @@ export default {
       flex-direction: column;
       justify-content: center;
       margin-top: unset;
-    } 
+    }
     .home-section__info {
       padding-top: 75px;
       padding-bottom: 75px;

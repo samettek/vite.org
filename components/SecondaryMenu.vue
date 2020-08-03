@@ -8,21 +8,21 @@
     </div>
     <div class="dropdown-menu" role="menu">
       <div class="dropdown-content" v-if="list.length">
-        <a
-          class="dropdown-item"
-          target="_blank"
-          :href="item.to"
-          v-for="(item, index) in list"
-          :key="index"
-          v-if="item.type && item.type === 'outer'"
-        >{{$t(`nav.${item.name}`)}}</a>
-        <nuxt-link
-          :to="item.anchor ? `${localePath(item.to)}#${item.anchor}` : localePath(item.to)"
-          class="dropdown-item"
-          v-for="(item, index) in list"
-          :key="index"
-          v-if="item.type && item.type === 'inner'"
-        >{{$t(`nav.${item.name}`)}}</nuxt-link>
+        <template v-for="(item, index) in list">
+          <a
+            class="dropdown-item"
+            target="_blank"
+            :href="item.to"
+            v-if="item.type && item.type === 'outer'"
+            :key="index"
+          >{{$t(`nav.${item.name}`)}}</a>
+          <nuxt-link
+            :to="item.anchor ? `${localePath(item.to)}#${item.anchor}` : localePath(item.to)"
+            class="dropdown-item"
+            v-if="item.type && item.type === 'inner'"
+            :key="index"
+          >{{$t(`nav.${item.name}`)}}</nuxt-link>
+        </template>
         <slot></slot>
       </div>
     </div>
@@ -58,7 +58,16 @@ export default {
   },
   computed: {
     list() {
-      return this.secondaryList;
+      return this.secondaryList.map((item) => {
+        let url = item.to;
+        if (item.type === 'outer' && item.to.indexOf('http') === -1) {
+          url = this.$t(`nav.links.${item.to}`);
+        }
+        return {
+          ...item,
+          to: url,
+        };
+      });
     },
   },
   data() {

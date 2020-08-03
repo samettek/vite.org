@@ -33,7 +33,7 @@
         </section>
         <section class="section-get-token">
             <div class="container padding-until-desktop">
-                <h2 class="section-title">{{$t('token.getToken.title')}}</h2>
+                <h2 class="section-title" id="getToken">{{$t('token.getToken.title')}}</h2>
                 <div class="exchange-list">
                     <h3>{{$t('token.getToken.exchange')}}</h3>
                     <div>
@@ -80,28 +80,27 @@ import HomeSection from '~/components/HomeSection';
 import config from '~/config.js';
 
 const exchangeList = [
-    {
-        name: 'binance',
-        logo: require('~/assets/images/exchange/binance.svg'),
-        link: config.urls.exchange.binance
-    },
-    {
-        name: 'okex',
-        logo: require('~/assets/images/exchange/okex.svg'),
-        link: config.urls.exchange.okex
-    },
-    {
-        name: 'vitex',
-        logo: require('~/assets/images/exchange/vitex.svg'),
-        link: config.urls.exchange.vitex
-    },
-    {
-        name: 'bittrex',
-        logo: require('~/assets/images/exchange/bittrex.svg'),
-        link: config.urls.exchange.bittrex
-    },
+  {
+    name: 'binance',
+    logo: require('~/assets/images/exchange/binance.svg'),
+    link: config.urls.exchange.binance,
+  },
+  {
+    name: 'okex',
+    logo: require('~/assets/images/exchange/okex.svg'),
+    link: config.urls.exchange.okex,
+  },
+  {
+    name: 'vitex',
+    logo: require('~/assets/images/exchange/vitex.svg'),
+    link: config.urls.exchange.vitex,
+  },
+  {
+    name: 'bittrex',
+    logo: require('~/assets/images/exchange/bittrex.svg'),
+    link: config.urls.exchange.bittrex,
+  },
 ];
-
 
 export default {
   components: {
@@ -128,23 +127,23 @@ export default {
       ],
       exchangeList,
       walletBtns: [
-            {
-              name: 'ios',
-              url: 'https://vite.net',
-            },
-            {
-              name: 'android',
-              url: 'https://vite.net',
-            },
-            {
-              name: 'qr',
-              url: 'https://vite.net',
-            },
-            {
-              name: 'learn',
-              url: 'https://vite.net',
-            },
-      ]
+        {
+          name: 'ios',
+          url: 'https://vite.net',
+        },
+        {
+          name: 'android',
+          url: 'https://vite.net',
+        },
+        {
+          name: 'qr',
+          url: 'https://vite.net',
+        },
+        {
+          name: 'learn',
+          url: 'https://vite.net',
+        },
+      ],
     };
   },
   methods: {
