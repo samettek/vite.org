@@ -1,60 +1,43 @@
 <template>
-  <div>
-    <section class="section">
-      <div class="container super-node-title">
-        <h1 v-html="$t('superNodes.title')"></h1><span
-          class="explain"
-          v-if="$i18n.locale === 'en'"
-        >(Snapshot Block Producer)</span>
-      </div>
-      <div class="container">
-        <div class="columns is-multiline">
-          <div
-            class="column item is-destop is-12"
-            v-for="(item, index) in superNodes"
-            :key="index"
-          >
-            <div class="is-info">
-              <h3> {{`${item.orderNum} ${item.question}`}}</h3>
-              <div class="answer">
-                <div
-                  class="part"
-                  v-for="(answerItem,index) in item.answer"
-                  :key="index"
-                  v-if="item.answer.length"
-                >
-                  <span v-html="answerItem"></span>
-                </div>
-                <div
-                  class="part"
-                  v-for="(item,index) in item.second"
-                  :key="index"
-                >
-                  <div
-                    class="external-title"
-                    v-if="item.title"
-                  > {{`${item.title}`}} </div>
-                  <div
-                    class="part"
-                    v-for="(i,index) in item.answer"
-                    :key="index"
-                    v-if="item.answer"
-                  >
-                    <span v-html="i"></span>
-                  </div>
-                </div>
+  <section class="page-sbp">
+    <section class="container">
+      <h1>{{$t('superNodes.title')}}</h1>
+    </section>
+    <section>
+      <div v-for="(item, index) in superNodes" :key="index" class="is-info">
+        <div class="container">
+          <h3>{{`${item.orderNum} ${item.question}`}}</h3>
+          <div class="answer">
+            <div
+              class="part"
+              v-for="(answerItem,index) in item.answer"
+              :key="index"
+              v-if="item.answer.length"
+            >
+              <span v-html="answerItem"></span>
+            </div>
+
+            <div class="part" v-for="(item,index) in item.second" :key="index">
+              <div class="external-title" v-if="item.title">{{`${item.title}`}}</div>
+              <div class="part" v-for="(i,index) in item.answer" :key="index" v-if="item.answer">
+                <span v-html="i"></span>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-  </div>
-
+    <Elector></Elector>
+  </section>
 </template>
 
 <script>
+import Elector from '~/components/Elector';
+
 export default {
+  components: {
+    Elector,
+  },
   computed: {
     superNodes() {
       let superNodes = this.$t('superNodes.contents');
@@ -73,37 +56,37 @@ export default {
 };
 </script>
 
+<style lang="scss">
+.page-sbp {
+  .is-info {
+    ul {
+      padding-left: 30px;
+      list-style: circle;
+    }
+  }
+}
+</style>
+
 <style  rel="stylesheet/scss" lang="scss" scoped>
 @import "assets/vars.scss";
-.super-node-title {
-  font-size: 44px;
-  color: #171c34;
-  margin: 60px auto;
-  display:flex;
-  align-content: center;
-  flex-wrap: wrap;
-  .explain {
-    font-size: 25px;
-    line-height: 60px;
-  }
-}
-.external-title {
-  font-size: 18px;
-  font-weight: bolder;
-  margin-bottom: 10px;
-}
 
-.section {
-  @include touch {
-    padding-top: 25px;
+.page-sbp {
+  h1 {
+    @include title();
+    font-size: 44px;
+    line-height: 62px;
+    margin-bottom: 90px;
   }
   .is-info {
-    margin-bottom: 10px;
+    padding: 60px 15px;
+    &:first-child {
+      padding-top: 0;
+    }
     h3 {
       margin-bottom: 20px;
-      font-size: 20px;
+      font-size: 18px;
       font-family: $font-family-main;
-      color: rgba(21, 128, 227, 1);
+      color: #1580e3;
       line-height: 28px;
       @include touch {
         font-size: 17px;
@@ -112,7 +95,7 @@ export default {
       }
     }
     .answer {
-      font-size: 16px;
+      font-size: 14px;
       font-family: $font-family-light;
       color: rgba(51, 51, 51, 1);
       line-height: 33px;
@@ -129,6 +112,16 @@ export default {
       @include touch {
         font-size: 14px;
         line-height: 27px;
+      }
+    }
+    .external-title {
+      font-weight: 600;
+      font-size: 16px;
+    }
+    &:nth-child(2n) {
+      background-color: #f5faff;
+      h3 {
+        color: #171c34;
       }
     }
   }

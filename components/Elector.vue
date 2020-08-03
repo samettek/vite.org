@@ -3,7 +3,7 @@
     <div class="container">
       <h2>{{$t('elector.title')}}</h2>
       <div class="columns is-multiline is-center">
-        <div class="column item is-destop is-4-desktop is-6-tablet is-12-mobile"
+        <div class="column item is-destop is-3-widescreen is-4-desktop is-6-tablet is-12-mobile"
              v-for="(item, index) in electors" :key="index">
           <div class="is-info">
             <elector-image :src="item.img" :name="item.key" :urls="item.urls"></elector-image>
