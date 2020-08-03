@@ -1,15 +1,28 @@
 <template>
   <section>
     <footer class="footer">
-      <div class="ft-container">
+      <div class="container">
         <div class="is-flex whole-footer">
           <div class="icon-wrapper is-hidden-touch">
-            <logo-without-words></logo-without-words>
+            <img src="~assets/images/home/viteLogo-white.svg" alt="">
           </div>
           <div class="footer-tab">
             <div class="is-flex footer-tab-wrapper">
               <div class="is-flex footer-nav">
-                <div class="is-flex">
+                  <div class="nav-item">
+                    <footer-menu
+                      :footer-name="$t(`nav.start`)"
+                      :secondary-list="navStartList">
+                    </footer-menu>
+                  </div>
+
+                  <div class="nav-item">
+                    <footer-menu
+                      :footer-name="$t(`nav.about`)"
+                      :secondary-list="navAboutList">
+                    </footer-menu>
+                  </div>
+
                   <div class="nav-item">
                     <footer-menu
                       :footer-name="$t(`nav.production`)"
@@ -18,16 +31,15 @@
                   </div>
                   <div class="nav-item">
                     <footer-menu
-                      :footer-name="$t(`nav.person`)"
-                      :secondary-list="navPersonList">
+                      :footer-name="$t('nav.ecosystem')"
+                      :secondary-list="navEcosystemList">
                     </footer-menu>
                   </div>
-                </div>
-                <div class="is-flex">
+
                   <div class="nav-item">
                     <footer-menu
-                      :footer-name="$t('nav.notice.name')"
-                      :secondary-list="navNodeList">
+                      :footer-name="$t('nav.development')"
+                      :secondary-list="navDevelopmentList">
                     </footer-menu>
                   </div>
                   <div class="nav-item">
@@ -36,45 +48,8 @@
                       :secondary-list="navMediaList">
                     </footer-menu>
                   </div>
-                </div>
-                <div class="is-flex">
-                  <div class="nav-item">
-                    <footer-menu
-                      :footer-name="$t('nav.tokenTransaction')"
-                      :secondary-list="navExchangeList">
-                    </footer-menu>
-                  </div>
-                  <div class="nav-item">
-                    <footer-menu
-                      :footer-name="$t('nav.guide')"
-                      :secondary-list="navGuideList">
-                    </footer-menu>
-                  </div>
-                </div>
-                <!-- <div class="nav-item">
-                  <nuxt-link
-                    :to="localePath('airdrop')"
-                    class="text-hover-transition">
-                    {{$t('nav.airdrop')}}
-                  </nuxt-link>
-                </div> -->
-                <div class="is-flex">
-                  <div class="nav-item">
-                    <about></about>
-                  </div>
-                  <div class="nav-item">
-                    <div>
-                      <div class="secondary-button">
-                        <span>{{ $t(`nav.more`) }}</span>
-                      </div>
-                      <explorer :is-footer="true"></explorer>
-                      <footer-menu
-                        :secondary-list="navMoreList">
-                      </footer-menu>
-                    </div>
-                  </div>
-                </div>
               </div>
+
               <div class="social-icons">
                 <div class="icons mt30">
                   <div class="icon-links-wrapper">
@@ -196,6 +171,7 @@
                 </div>
               </div>
             </div>
+
             <div class="">
               <div class="copyright mt30">
                 <span>
@@ -249,6 +225,18 @@ export default {
       type: Array,
       default: () => [],
     },
+    navStartList: {
+      type: Array,
+      default: () => [],
+    },
+    navAboutList: {
+      type: Array,
+      default: () => [],
+    },
+    navCommunityList: {
+      type: Array,
+      default: () => [],
+    },
   },
   data() {
     const { urls } = config;
@@ -283,28 +271,42 @@ export default {
     };
   },
   computed: {
-    navNodeList() {
-      return [{
-        type: 'inner',
-        name: 'nodeList',
-        to: 'nodeList',
-      }, {
-        type: 'inner',
-        name: 'superNodes',
-        to: 'superNodes',
-      }, {
-        type: 'outer',
-        name: 'notice.apply',
-        to: this.urls.vote.apply[this.$i18n.locale],
-      }];
+    navEcosystemList() {
+      return [
+        {
+          type: 'inner',
+          name: 'dapp',
+          to: 'ecosystem',
+        },
+        {
+          type: 'outer',
+          name: 'incentivePlan',
+          to: 'incentivePlan',
+        },
+        {
+          type: 'outer',
+          name: 'syra',
+          to: 'syra',
+        },
+        {
+          type: 'outer',
+          name: 'vitePay',
+          to: 'vitePay',
+        },
+      ];
+    },
+    navDevelopmentList() {
+      return [
+        {
+          type: 'inner',
+          name: 'devTools',
+          to: 'development',
+          anchor: 'devTools',
+        },
+      ];
     },
     navMoreList() {
       return [
-      //   {
-      //   type: 'outer',
-      //   name: 'explorer',
-      //   to: this.urls.explorer[this.$i18n.locale]
-      // },
         {
           type: 'outer',
           name: 'store',
@@ -346,25 +348,13 @@ export default {
 
 .footer {
   min-height: 315px;
-  background: url("~assets/images/footer/footer.svg") 87% no-repeat;
   background-size: cover;
   padding: 0;
   z-index: 3;
-  .ft-container {
-    display: flex;
-    justify-content: space-around;
-    margin: 0 10% 0 16%;
-  }
-  @media only screen and (min-width: 320px) and (max-width: 1240px)  {
-    background: #2b88ff;
-  }
-  @media only screen and (min-width: 1540px) {
-   background: url("~assets/images/footer/footer2.svg") 100% no-repeat;
-
-  }
+  background-color: #006FE9;
   .whole-footer {
     width: 100%;
-    padding: 30px;
+    padding: 30px 0;
     justify-content: space-between;
     .icon-wrapper {
       position: relative;
@@ -417,22 +407,18 @@ export default {
     }
   }
   .footer-nav {
-    justify-content: flex-start;
+    justify-content: space-between;
     flex-wrap: wrap;
-    @include touch {
-      flex-direction: column;
-      justify-content: space-between;
-    }
     a {
       color: white;
     }
     .nav-item {
       display: flex;
       align-items: flex-start;
-      padding: 0.5rem 10px;
+      padding: 0;
       color: $common-text-color;
       font-family: $font-family-light;
-      max-width: 128px;
+      max-width: 160px;
       @include touch {
         display: block;
         padding: 0.5rem 10px;
@@ -446,9 +432,20 @@ export default {
         color: $common-active-color;
       }
     }
+
+    @include until($desktop) {
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 20px;
+      .nav-item {
+        width: 50%;
+      }
+    }
   }
 
   .icon-links-wrapper {
+    margin-left: -15px;
+    margin-right: -15px;
     @media only screen and (min-width: 320px) and (max-width: 1240px)  {
       text-align: left;
     }
@@ -471,9 +468,9 @@ export default {
           height: 30px;
         }
       }
-      @include touch {
-        margin: 10px 20px;
-      }
+    }
+    @include until($desktop) {
+      padding: 20px;
     }
   }
   .links-wrapper {

@@ -118,12 +118,13 @@
         <nuxt :keep-alive="true"></nuxt>
       </transition>
     </div>
-    <!-- <v-footer
+    <v-footer
+      :nav-start-list="navStartList"
+      :nav-about-list="navAboutList"
       :nav-production-list="navProductionList"
-      :nav-person-list="navPersonList"
-      :nav-guide-list="navGuideList"
       :nav-media-list="navMediaList"
-    ></v-footer> -->
+      :nav-community-list="navCommunityList"
+    ></v-footer>
   </div>
 </template>
 

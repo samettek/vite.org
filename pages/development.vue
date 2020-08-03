@@ -2,22 +2,22 @@
     <div class="page-community">
         <page-header name="development" :buttons="headerBtns"></page-header>
         <home-section name="dapp" :buttons="dappBtns"></home-section>
-        <section class="dev-support">
+        <section class="dev-support" id="devTools">
             <div class="container">
                 <h2>{{$t('development.support.title')}}</h2>
                 <div class="dev-support__content">
                     <div class="dev-support__item">
                         <h4>{{$t('development.support.sdk.title')}}</h4>
                         <div>
-                            Go, <a href="https://vite.wiki/api/vitejs/" target="_blank">JS/TS</a>, 
+                            Go, <a href="https://vite.wiki/api/vitejs/" target="_blank">JS/TS</a>,
                             <a href="https://vite.wiki/api/javasdk/" target="_blank">Java</a>
                         </div>
                     </div>
                     <div class="dev-support__item">
                         <h4>{{$t('development.support.docs.title')}}</h4>
                         <i18n path="development.support.docs.desc" tag="div">
-                            <a place="wiki" 
-                               href="https://vite.wiki/zh/tutorial/contract/contract.html" 
+                            <a place="wiki"
+                               href="https://vite.wiki/zh/tutorial/contract/contract.html"
                                target="_blank">{{$t('development.support.docs.wiki')}}</a>
                         </i18n>
                     </div>
@@ -36,54 +36,53 @@
 <script>
 import PageHeader from '~/components/PageHeader.vue';
 import HomeSection from '~/components/HomeSection';
- 
 
 export default {
-    components: {
-        PageHeader,
-        HomeSection,
-    },
-    data() {
-        return {
-            headerBtns: [
-                {
-                    name: 'wiki',
-                    url: 'https://vite.wiki'
-                },
-                {
-                    name: 'github',
-                    url: 'https://github.com/vitelabs'
-                },
-                {
-                    name: 'docs',
-                    url: 'https://vite.wiki/tutorial/contract/contract.html#what-is-asynchronous-smart-contract'
-                }
-            ],
-        }
-    },
-    computed: {
-        dappBtns() {
-            return [
-                {
-                    name: 'learn',
-                    url: this.$t('home.sections.dapp.urls.learn')
-                },
-            ]
+  components: {
+    PageHeader,
+    HomeSection,
+  },
+  data() {
+    return {
+      headerBtns: [
+        {
+          name: 'wiki',
+          url: 'https://vite.wiki',
         },
-        joinDevBtns() {
-            return [
-                {
-                    name: 'techGroup',
-                    url: 'https://t.me/vite_en'
-                },
-                {
-                    name: 'toForum',
-                    url: this.$t('development.join.forumTechUrl')
-                }
-            ]
-        }
-    }
-}
+        {
+          name: 'github',
+          url: 'https://github.com/vitelabs',
+        },
+        {
+          name: 'docs',
+          url: 'https://vite.wiki/tutorial/contract/contract.html#what-is-asynchronous-smart-contract',
+        },
+      ],
+    };
+  },
+  computed: {
+    dappBtns() {
+      return [
+        {
+          name: 'learn',
+          url: this.$t('home.sections.dapp.urls.learn'),
+        },
+      ];
+    },
+    joinDevBtns() {
+      return [
+        {
+          name: 'techGroup',
+          url: 'https://t.me/vite_en',
+        },
+        {
+          name: 'toForum',
+          url: this.$t('development.join.forumTechUrl'),
+        },
+      ];
+    },
+  },
+};
 </script>
 
 <style lang="scss" scoped>
@@ -110,7 +109,7 @@ export default {
         margin: 48px;
         padding: 40px 30px;
         border-radius: 6px;
-        box-shadow: 0px 0px 20px 4px rgba(0,122,255,0.1); 
+        box-shadow: 0px 0px 20px 4px rgba(0,122,255,0.1);
         color: #171c34;
         h4 {
             @include title();
