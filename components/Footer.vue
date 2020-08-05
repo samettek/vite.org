@@ -118,14 +118,6 @@ export default {
     Explorer,
   },
   props: {
-    navPersonList: {
-      type: Array,
-      default: () => [],
-    },
-    navGuideList: {
-      type: Array,
-      default: () => [],
-    },
     navMediaList: {
       type: Array,
       default: () => [],

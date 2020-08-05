@@ -20,8 +20,8 @@
             </a>
           </div>
           <div
+            v-else
             class="secondary-item-wrapper"
-            v-if="item.type && item.type === 'inner'"
             :key="index">
             <nuxt-link
               :to="item.anchor ? `${localePath(item.to)}#${item.anchor}` : localePath(item.to)"
@@ -52,7 +52,16 @@ export default {
   },
   computed: {
     list() {
-      return this.secondaryList;
+      return this.secondaryList.map((item) => {
+        let url = item.to;
+        if (item.type === 'outer' && url && url.indexOf('http') === -1) {
+          url = this.$t(`nav.links.${url}`);
+        }
+        return {
+          ...item,
+          to: url,
+        };
+      });
     },
   },
   data() {
