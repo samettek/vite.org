@@ -180,15 +180,6 @@
     "javaSDK": "Java SDK",
     "jsSDK": "Javascript SDK",
     "vitexDocs": "ViteX 文档",
-    "links": {
-      "tutorial": "https://vite.wiki/zh/tutorial/start/#ru-he-huo-de-vite",
-      "weeklyReport": "https://forum.vite.net/category/8/%E9%A1%B9%E7%9B%AE%E8%BF%9B%E5%BA%A6",
-      "ann": "https://forum.vite.net/category/42/%E5%AE%98%E6%96%B9%E5%85%AC%E5%91%8A",
-      "news": "https://forum.vite.net/category/43/%E7%AC%AC%E4%B8%89%E6%96%B9%E6%8A%A5%E9%81%93）",
-      "incentivePlan": "https://forum.vite.net/topic/3634/vite%E5%9F%BA%E9%87%91%E4%BC%9A%E7%A4%BE%E5%8C%BA%E7%94%9F%E6%80%81%E6%BF%80%E5%8A%B1%E6%94%BF%E7%AD%96",
-      "syra": "https://forum.vite.net/topic/3625/%E9%A1%B9%E7%9B%AE%E8%83%8C%E6%99%AF%E5%8F%8A%E8%BF%9B%E5%B1%95-vite-labs%E4%B8%8E%E7%BE%8E%E5%9B%BD%E7%BA%BD%E7%BA%A6%E5%B7%9E%E9%9B%AA%E5%9F%8E%E6%94%BF%E5%BA%9C%E5%90%88%E4%BD%9C%E9%A1%B9%E7%9B%AE-%E5%8A%A9%E5%8A%9B%E9%9B%AA%E5%9F%8E%E6%94%BF%E5%BA%9C%E8%A7%A3%E5%86%B3%E6%B0%91%E7%94%9F%E9%97%AE%E9%A2%98",
-      "vitePay": "https://forum.vite.net/topic/3636/%E5%85%AC%E5%91%8A-vite-labs%E4%B8%8E%E5%85%A8%E7%90%83%E6%94%AF%E4%BB%98%E6%9C%8D%E5%8A%A1%E5%95%86alchemy%E8%BE%BE%E6%88%90%E6%88%98%E7%95%A5%E5%90%88%E4%BD%9C"
-    },
 
     "platform": "平台",
     "wallet": "钱包",
@@ -233,7 +224,7 @@
       "zh": "中国用户"
     },
     "header": "Vite",
-    "slogan": "全球首个基于DAG实现智能合约的公链",
+    "slogan": "全球首个基于DAG搭建开放式去中心化金融服务的公链",
     "whitePaper": "白皮书",
     "whitePaperSyra": "Vite 美国雪城合作项目白皮书",
     "testnet": "预览版",
@@ -244,14 +235,17 @@
     "sections": {
       "whatIsVite": {
         "title": "什么是Vite",
-        "desc": "Vite是一个无手续费的高性能公链，率先实现了基于DAG结构的智能合约。原创的异步架构、分层共识及快照链技术，让Vite的性能和成本处于行业领先水平，可以支持商业级应用。",
+        "desc": "Vite是一个无手续费的高性能公链，采用DAG技术，能够同时兼顾安全性、高吞吐、低延迟以及扩展性，目前Vite链上已经搭建了开放式去中心化金融服务，未来我们将让Vite链的去中心化金融服务更加开放、好用，从而使Vite生态承载更大的价值，满足更广泛的需求，并且吸引更多的真实用户。",
         "btnGroup": {
           "learn": "了解更多"
         }
       },
       "product": {
         "title": "完整的产品体系",
-        "desc": "基于Vite公链打造完整产品链，为用户提供健全的产品服务。保证用户资产安全的同时让交易、查询、沟通更便捷，在Vite体系内实现了从交易到存储到流通的全闭环。",
+        "desc": [
+          "基于Vite公链打造完整产品体系，为用户提供健全的去中心化金融产品服务。",
+          "保证用户资产安全的同时让交易、查询、沟通更便捷，在Vite体系内实现了从发行到交易到存储再到流通的全闭环金融服务。"
+        ],
         "btnGroup": {
           "learn": "了解更多"
         },
@@ -285,7 +279,13 @@
       },
       "wallet": {
         "title": "下载Vite官方钱包",
-        "desc": "一款多币种开源手机钱包，只需一组助记词便可以管理多种加密资产，内置去中心化交易所ViteX，交易、挖矿更便捷，内置DApp丰富，投资娱乐两不误，BTC.COM合作钱包，被鱼池、星火矿池、Luxor等矿池联袂推荐",
+        "desc": [
+          "开放式去中心化金融服务App",
+          "一款多币种开源手机钱包 ",
+          "内置去中心化交易所ViteX，交易、挖矿更便捷",
+          "内置DApp丰富，投资娱乐两不误",
+          "BTC.COM合作钱包，被鱼池、星火矿池、Luxor等矿池联袂推荐"
+        ],
         "btnGroup": {
           "ios": "iOS下载",
           "android": "安卓下载",

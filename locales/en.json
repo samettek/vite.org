@@ -62,15 +62,6 @@
     "javaSDK": "Java SDK",
     "jsSDK": "Javascript SDK",
     "vitexDocs": "ViteX Docs",
-    "links": {
-      "tutorial": "https://vite.wiki/zh/tutorial/start/#ru-he-huo-de-vite",
-      "weeklyReport": "https://forum.vite.net/category/3/bi-weekly-updates",
-      "ann": "https://medium.com/vitelabs",
-      "news": "https://medium.com/vitelabs",
-      "incentivePlan": "https://forum.vite.net/topic/3672/vite-ecosystem-fund-incentive-plan?_=1594799868703",
-      "syra": "https://forum.vite.net/topic/1280/vite-labs-the-city-of-syracuse-cooperate-to-create-a-first-of-its-kind-municipal-token-economy-syracoin/2",
-      "vitePay": "https://twitter.com/chunming_liu/status/1204143682653315073"
-    },
 
 
     "platform": "Platform",
@@ -106,6 +97,7 @@
   },
   "home": {
     "gotoVitex": "Trade on ViteX Now!",
+    "aboutVite": "About Vite",
     "activity1": "Campaigns",
     "activity2": "News",
     "explorer": "Explorer",
@@ -116,14 +108,151 @@
       "zh": "China Mainland"
     },
     "header": "Vite",
-    "slogan": "High-Performance Decentralized Ecosystem",
+    "slogan": "World-First DAG Based Blockchain with Smart Contract Capability",
     "whitePaper": "White Paper",
-    "whitePaperSyra": "Vite Selected to Tokenize American City!",
+    "whitePaperSyra": "Whitepaper of Cooperation between Vite and Syracuse",
     "testnet": "TestNet",
     "acttext": "Get VITE Token Free",
     "actwait": "Stay tuned!",
     "news": "News",
-    "starttoUse": "Get Started with Vite"
+    "starttoUse": "Get Started with Vite",
+    "sections": {
+      "whatIsVite": {
+        "title": "What is Vite?",
+        "desc": "Vite是一个无手续费的高性能公链，率先实现了基于DAG结构的智能合约。原创的异步架构、分层共识及快照链技术，让Vite的性能和成本处于行业领先水平，可以支持商业级应用。",
+        "btnGroup": {
+          "learn": "Learn More"
+        }
+      },
+      "product": {
+        "title": "Complete Product Family",
+        "desc": "基于Vite公链打造完整产品链，为用户提供健全的产品服务。保证用户资产安全的同时让交易、查询、沟通更便捷，在Vite体系内实现了从交易到存储到流通的全闭环。",
+        "btnGroup": {
+          "learn": "Learn More"
+        },
+        "others": {
+          "vitex": "ViteX",
+          "explorer": "Vite Explorer",
+          "webWallet": "Web Wallet",
+          "viteApp": "Vite App",
+          "vitePlus": "Vite Plus",
+          "forum": "Vite Forum"
+        }
+      },
+      "ecosystem": {
+        "title": "Productive Ecosystem",
+        "desc": "With the joint efforts of team and community, a complete ecosystem has been built on the basis of the Vite blockchain. More and more community members participate in ecosystem development.",
+        "btnGroup": {
+          "learn": "Learn More"
+        },
+        "list": {
+          "dapp": "Dapp Development",
+          "cityToken": "美国雪城政府合作项目",
+          "vitePay": "VitePay and Vite Store"
+        }
+      },
+      "development": {
+        "title": "Become a Vite developer",
+        "desc": "Developers are welcome to build applications on Vite blockchain. There is a complete set of development tools and resources. It cost only 10VITE to create a smart contract. The ultra-low-cost will attract more developers to build applications.",
+        "btnGroup": {
+          "join": "Join Now"
+        }
+      },
+      "wallet": {
+        "title": "Download Vite Wallet App",
+        "desc": [
+          "An open-source multi-currency wallet that supports crypto assets of different chains.",
+          "Enable secure and easy management with only one set of mnemonic phrases.",
+          "Built-in DEX ensures instant trading and mining.",
+          "Built-in DApps balances requirements between entertainment and investment.",
+          "Recommended by leading crypto mining and staking pools such as BTC.com, Sparkpool, F2Pool, Luxor, and more."
+        ],
+        "btnGroup": {
+          "ios": "iOS下载",
+          "android": "安卓下载",
+          "qr": "扫码下载",
+          "learn": "了解更多"
+        }
+      },
+      "vitex": {
+        "title": "完全去中心化交易所ViteX",
+        "desc": "全球首个基于DAG的完全去中心化交易所，无需KYC，保护个人信息，去中心化治理，挖矿可得平台币VX，享受100%交易所手续费分红，社区自主上币，开交易所像开淘宝店一样简单，助记词自己保管，资产更安全，链上撮合交易，秒级成交，接近中心化体验，支持跨链，可交易任何币种",
+        "btnGroup": {
+          "toViteX": "使用ViteX",
+          "getVX": "获得平台币VX",
+          "learn": "了解更多"
+        }
+      },
+      "fullnode": {
+        "title": "全球节点",
+        "desc": "Vite节点分布在全球184个国家和地区，我们欢迎个人和机构申请成为Vite节点，Vite节点分为全节点和超级节点，所有超级节点每年可获得VITE总发行量3%的挖矿奖励，即3000万VITE。",
+        "btnGroup": {
+          "sbp": "超级节点说明",
+          "fullnode": "全节点说明"
+        }
+      },
+      "dapp": {
+        "title": "DApp开发",
+        "desc": "社区开发者可以利用合约开发小游戏。这里展示了目前已在Vite App上线的小游戏，大家可以使用钱包玩游戏赚VITE，投资娱乐两不误。",
+        "btnGroup": {
+          "learn": "了解更多"
+        },
+        "urls": {
+          "learn": "https://forum.vite.net/topic/1850/%E5%85%B3%E4%BA%8E%E5%A6%82%E4%BD%95%E5%9C%A8vite%E7%A7%BB%E5%8A%A8%E9%92%B1%E5%8C%85%E5%8F%91%E5%B8%83dapp%E7%9A%84%E8%8B%A5%E5%B9%B2%E9%97%AE%E9%A2%98"
+        }
+      },
+      "devTool": {
+        "title": "开发者工具",
+        "desc": "我们欢迎开发者在Vite公链开发应用，Vite拥有完整的开发工具及资源，创建合约成本只需要10VITE，超低的成本将为Vite带来更广泛的应用。",
+        "btnGroup": {
+          "learn": "了解更多"
+        }
+      },
+      "incentive": {
+        "title": "Vite基金会社区生态激励政策",
+        "desc": "为激励社区有能力的团队、开发者一起建设Vite生态，Vite基金会正式推出生态扶持计划，首期针对SBP以生态基金投票的方式进行扶持，所有投票收益均归SBP所有。",
+        "btnGroup": {
+          "learn": "了解更多"
+        }
+      },
+      "community": {
+        "title": "社区生态",
+        "desc": "Vite的用户分布在全球180多个国家和地区，社区规模20万人，钱包日活跃用户数2万人。",
+        "btnGroup": {
+          "join": "加入Vite社区"
+        }
+      },
+      "syracoin": {
+        "title": "美国雪城政府合作项目",
+        "desc": "2019年1月，Vite与美国纽约州雪城政府达成合作，利用区块链技术解决低收入市民住房问题，基于Vite公链开发了dApp——SyraCoin，助力政府解决当地民生问题，成为区块链在公共事务领域的落地应用。",
+        "btnGroup": {
+          "whitePaper": "白皮书",
+          "learn": "了解更多"
+        },
+        "urls": {
+          "whitePaper": "https://forum.vite.net/topic/3625/%E9%A1%B9%E7%9B%AE%E8%83%8C%E6%99%AF%E5%8F%8A%E8%BF%9B%E5%B1%95-vite-labs%E4%B8%8E%E7%BE%8E%E5%9B%BD%E7%BA%BD%E7%BA%A6%E5%B7%9E%E9%9B%AA%E5%9F%8E%E6%94%BF%E5%BA%9C%E5%90%88%E4%BD%9C%E9%A1%B9%E7%9B%AE-%E5%8A%A9%E5%8A%9B%E9%9B%AA%E5%9F%8E%E6%94%BF%E5%BA%9C%E8%A7%A3%E5%86%B3%E6%B0%91%E7%94%9F%E9%97%AE%E9%A2%98"
+        }
+      },
+      "vitepay": {
+        "title": "VitePay和Vite商城",
+        "desc": "2019年12月，Vite Labs 宣布与 Alchemy达成战略合作伙伴关系，共同探索区块链技术在支付领域的推广。支持用户使用VITE代币在Alchemy的商家使用进行支付。 <br>用户可以前往ViteStore体验VitePay的秒级支付功能。",
+        "btnGroup": {
+          "learn": "了解支付合作",
+          "toViteStore": "前往Vite Store"
+        },
+        "urls": {
+          "learn": "https://mp.weixin.qq.com/s/q0cQI_SY0muQT_rdZOla1w"
+        }
+      },
+      "joinDev": {
+        "title": "加入Vite技术社区",
+        "desc": "为激励社区有能力的团队、开发者一起建设Vite生态，Vite基金会正式推出生态扶持计划，首期针对SBP以生态基金投票的方式进行扶持，所有投票收益均归SBP所有。",
+        "btnGroup": {
+          "techGroup": "Vite技术群",
+          "toForum": "前往论坛交流"
+        }
+      }
+    }
   },
   "product": {
     "title": "Products",

@@ -129,7 +129,7 @@ module.exports = {
       },
     },
   },
-  plugins: ['~/plugins/fontawesome'],
+  plugins: ['~/plugins/fontawesome', '~/plugins/utilsPlugin'],
   router: {
     mode: 'history',
     scrollBehavior,

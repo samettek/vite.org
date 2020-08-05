@@ -82,7 +82,11 @@ export default {
         en: imgEn,
         zh: imgZh,
       },
-      sectionList: [
+    };
+  },
+  computed: {
+    sectionList() {
+      return [
         {
           name: 'whatIsVite',
           buttons: [
@@ -99,7 +103,7 @@ export default {
           buttons: [
             {
               name: 'learn',
-              url: 'https://vite.net',
+              url: this.$link('viteNet'),
             },
           ],
           center: true,
@@ -109,7 +113,9 @@ export default {
           buttons: [
             {
               name: 'learn',
-              url: 'https://vite.net',
+              url: {
+                name: 'ecosystem',
+              },
             },
           ],
           center: true,
@@ -119,7 +125,9 @@ export default {
           buttons: [
             {
               name: 'join',
-              url: 'https://vite.net',
+              url: {
+                name: 'development',
+              },
             },
           ],
           center: true,
@@ -129,19 +137,19 @@ export default {
           buttons: [
             {
               name: 'ios',
-              url: 'https://vite.net',
+              url: this.$link('viteApp.ios'),
             },
             {
               name: 'android',
-              url: 'https://vite.net',
+              url: this.$link('viteApp.android'),
             },
             {
               name: 'qr',
-              url: 'https://vite.net',
+              url: this.$link('app'),
             },
             {
               name: 'learn',
-              url: 'https://vite.net',
+              url: this.$link('forumContent.app'),
             },
           ],
         },
@@ -150,28 +158,25 @@ export default {
           buttons: [
             {
               name: 'toViteX',
-              url: 'https://x.vite.net',
+              url: this.$link('webWallet'),
             },
             {
               name: 'getVX',
-              url: 'https://vitex.net/zh/mine',
+              url: this.$link('vitexMine'),
             },
             {
               name: 'learn',
-              url: 'https://forum.vite.net/category/33/vitex%E4%BA%A4%E6%98%93%E6%89%80',
+              url: this.$link('docs.vitex'),
             },
           ],
           center: true,
         },
-      ],
-    };
+      ];
+    },
   },
   methods: {
     openLink() {
       window.open(this.activity[this.$i18n.locale]);
-    },
-    routeTo() {
-
     },
   },
 };

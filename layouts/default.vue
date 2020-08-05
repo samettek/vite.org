@@ -384,7 +384,7 @@ export default {
         {
           type: 'outer',
           name: 'news',
-          to: 'news',
+          to: 'forumNews',
         },
       ];
     },

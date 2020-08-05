@@ -55,7 +55,7 @@ export default {
       return this.secondaryList.map((item) => {
         let url = item.to;
         if (item.type === 'outer' && url && url.indexOf('http') === -1) {
-          url = this.$t(`nav.links.${url}`);
+          url = this.$link(url);
         }
         return {
           ...item,

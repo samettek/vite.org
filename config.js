@@ -8,6 +8,45 @@ module.exports = {
       ru: 'https://vite.net',
       vi: 'https://vite.net',
     },
+    docs: {
+      vitex: 'https://vite.wiki/dex/',
+    },
+    tutorial: {
+      zh: 'https://vite.wiki/zh/tutorial/start/#ru-he-huo-de-vite',
+      en: 'https://vite.wiki/zh/tutorial/start/#ru-he-huo-de-vite',
+    },
+    weeklyReport: {
+      zh: 'https://forum.vite.net/category/8/%E9%A1%B9%E7%9B%AE%E8%BF%9B%E5%BA%A6',
+      en: 'https://forum.vite.net/category/3/bi-weekly-updates',
+    },
+    ann: {
+      zh: 'https://forum.vite.net/category/42/%E5%AE%98%E6%96%B9%E5%85%AC%E5%91%8A',
+      en: 'https://medium.com/vitelabs',
+    },
+    forumNews: {
+      zh: 'https://forum.vite.net/category/43/%E7%AC%AC%E4%B8%89%E6%96%B9%E6%8A%A5%E9%81%93',
+      en: 'https://medium.com/vitelabs',
+    },
+    incentivePlan: {
+      zh: 'https://forum.vite.net/topic/3634/vite%E5%9F%BA%E9%87%91%E4%BC%9A%E7%A4%BE%E5%8C%BA%E7%94%9F%E6%80%81%E6%BF%80%E5%8A%B1%E6%94%BF%E7%AD%96',
+      en: 'https://forum.vite.net/topic/3672/vite-ecosystem-fund-incentive-plan?_=1594799868703',
+    },
+    syraAnn: {
+      zh: 'https://forum.vite.net/topic/3625/%E9%A1%B9%E7%9B%AE%E8%83%8C%E6%99%AF%E5%8F%8A%E8%BF%9B%E5%B1%95-vite-labs%E4%B8%8E%E7%BE%8E%E5%9B%BD%E7%BA%BD%E7%BA%A6%E5%B7%9E%E9%9B%AA%E5%9F%8E%E6%94%BF%E5%BA%9C%E5%90%88%E4%BD%9C%E9%A1%B9%E7%9B%AE-%E5%8A%A9%E5%8A%9B%E9%9B%AA%E5%9F%8E%E6%94%BF%E5%BA%9C%E8%A7%A3%E5%86%B3%E6%B0%91%E7%94%9F%E9%97%AE%E9%A2%98',
+      en: 'https://forum.vite.net/topic/1280/vite-labs-the-city-of-syracuse-cooperate-to-create-a-first-of-its-kind-municipal-token-economy-syracoin/2'
+    },
+    vitePayAnn: {
+      zh: 'https://forum.vite.net/topic/3636/%E5%85%AC%E5%91%8A-vite-labs%E4%B8%8E%E5%85%A8%E7%90%83%E6%94%AF%E4%BB%98%E6%9C%8D%E5%8A%A1%E5%95%86alchemy%E8%BE%BE%E6%88%90%E6%88%98%E7%95%A5%E5%90%88%E4%BD%9C',
+      en: 'https://twitter.com/chunming_liu/status/1204143682653315073',
+    },
+    viteApp: {
+      ios: 'https://apps.apple.com/us/app/vite-official-hd-wallet/id1437629486',
+      android: 'https://play.google.com/store/apps/details?id=net.vite.wallet',
+    },
+    forumContent: {
+      app: 'https://forum.vite.net/category/37/vite%E9%92%B1%E5%8C%85',
+    },
+    vitexMine: 'https://vitex.net/zh/mine',
     app: 'https://app.vite.net',
     vitestore: {
       zh: 'https://vite.store/',
@@ -28,10 +67,10 @@ module.exports = {
       },
     },
     webWallet: {
-      zh: 'https://wallet.vite.net',
-      en: 'https://wallet.vite.net',
-      ru: 'https://wallet.vite.net',
-      vi: 'https://wallet.vite.net',
+      zh: 'https://x.vite.net',
+      en: 'https://x.vite.net',
+      ru: 'https://x.vite.net',
+      vi: 'https://x.vite.net',
     },
     desktopWallet: {
       release: 'https://github.com/vitelabs/vite-wallet/releases',

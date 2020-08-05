@@ -3,10 +3,17 @@
     <div class="container home-section__container is-flex">
       <div class="home-section__info">
         <h1 :id="name">{{title}}</h1>
-        <div class="home-section__text">{{$t(`home.sections.${name}.desc`)}}</div>
+        <div class="home-section__text">
+          <template v-for="(item, index) in descList">
+            <div :key="index" v-html="item"></div>
+          </template>
+        </div>
         <div class="home-section__btn-group">
           <template v-for="item in btnList">
-            <a v-if="item.isInnerUrl" @click="onClick(item)" href="javascript:void(0);" :key="item.name">{{$t(`home.sections.${name}.btnGroup.${item.name}`)}}</a>
+            <nuxt-link v-if="item.isInnerUrl"
+              tag="a"
+              :to="localePath(item.url)"
+              :key="item.name">{{$t(`home.sections.${name}.btnGroup.${item.name}`)}}</nuxt-link>
             <a v-else :key="item.name" :href="item.url" target="_blank">{{$t(`home.sections.${name}.btnGroup.${item.name}`)}}</a>
           </template>
         </div>
@@ -213,6 +220,13 @@ export default {
     imgRender() {
       return this.render.indexOf('img') > -1;
     },
+    descList() {
+      const desc = this.$t(`home.sections.${this.name}.desc`);
+      if (Array.isArray(desc)) {
+        return desc;
+      }
+      return [desc];
+    },
   },
   methods: {
     onClick(item) {
@@ -234,6 +248,8 @@ export default {
 
 <style lang="scss" scoped>
 @import "assets/vars.scss";
+
+$desc-max-width: 600px;
 
 @mixin center {
   .home-section__info {
@@ -273,7 +289,10 @@ export default {
     font-weight: 400;
     text-align: left;
     color: #54565a;
-    line-height: 30px;
+    line-height: 22px;
+    & > div {
+      margin: 8px 0;
+    }
   }
   .home-section__btn-group {
     width: 100%;
@@ -320,7 +339,7 @@ export default {
       }
     }
     .home-section__text {
-      max-width: 500px;
+      max-width: $desc-max-width;
     }
     .home-section__img {
       width: 37.5%;
@@ -490,9 +509,10 @@ export default {
       h1 {
         margin-top: 149px;
       }
+      margin-bottom: 50px;
     }
     .home-section__text {
-      max-width: 500px;
+      max-width: $desc-max-width;
     }
     .home-section__img {
       width: 31.25%;
@@ -535,7 +555,7 @@ export default {
       padding-bottom: 150px;
     }
     .home-section__text {
-      max-width: 500px;
+      max-width: $desc-max-width;
     }
     .home-section__img {
       flex: 1;

@@ -228,12 +228,12 @@ export default {
         {
           type: 'outer',
           name: 'syra',
-          to: 'syra',
+          to: 'syraAnn',
         },
         {
           type: 'outer',
           name: 'vitePay',
-          to: 'vitePay',
+          to: 'vitePayAnn',
         },
       ];
     },
