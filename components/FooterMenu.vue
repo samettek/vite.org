@@ -5,31 +5,31 @@
     </div>
     <div class="secondary-menu" role="menu">
       <div class="secondary-content" v-if="list.length">
-        <div
-          class="secondary-item-wrapper"
-          v-for="(item, index) in list"
-          :key="index"
-          v-if="item.type && item.type === 'outer'"
-           >
-          <a
-            class="secondary-item"
-            target="_blank"
-            :href="item.to"
+        <template v-for="(item, index) in list">
+          <div
+            class="secondary-item-wrapper"
+            :key="index"
+            v-if="item.type && item.type === 'outer'"
             >
-            {{$t(`nav.${item.name}`)}}
-          </a>
-        </div>
-        <div
-          class="secondary-item-wrapper"
-          v-if="item.type && item.type === 'inner'"
-          v-for="(item, index) in list"
-          :key="index">
-          <nuxt-link
-            :to="item.anchor ? `${localePath(item.to)}#${item.anchor}` : localePath(item.to)"
-            class="secondary-item">
-            {{$t(`nav.${item.name}`)}}
-          </nuxt-link>
-        </div>
+            <a
+              class="secondary-item"
+              target="_blank"
+              :href="item.to"
+              >
+              {{$t(`nav.${item.name}`)}}
+            </a>
+          </div>
+          <div
+            class="secondary-item-wrapper"
+            v-if="item.type && item.type === 'inner'"
+            :key="index">
+            <nuxt-link
+              :to="item.anchor ? `${localePath(item.to)}#${item.anchor}` : localePath(item.to)"
+              class="secondary-item">
+              {{$t(`nav.${item.name}`)}}
+            </nuxt-link>
+          </div>
+        </template>
       </div>
     </div>
   </div>

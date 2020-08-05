@@ -5,7 +5,7 @@
       :disabled="!isEnabled"
       popoverClass="v-popover"
     >
-      <a class="tooltip-target"  target="_blank"><fa-icon style="width:22px; height: 22px" :icon="['fab', 'weixin']" /></a>
+      <a class="tooltip-target"  target="_blank"><fa-icon :icon="['fab', 'weixin']" /></a>
 
       <template slot="popover">
         <img src="~/assets/images/vitelabs_wechat.jpg" alt="">

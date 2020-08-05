@@ -3,7 +3,7 @@
     <span>
       <v-popover offset="16" :disabled="!isEnabled" popoverClass="v-popover">
         <a target="_blank">
-          <fa-icon style="width: 22px; height: 22px" :icon="['fab', 'telegram-plane']" />
+          <fa-icon :icon="['fab', 'telegram-plane']" />
         </a>
 
         <template slot="popover">
