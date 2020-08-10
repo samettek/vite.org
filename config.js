@@ -31,6 +31,10 @@ module.exports = {
         zh: 'https://forum.vite.net/topic/3610/%E6%95%99%E7%A8%8B-%E5%A6%82%E4%BD%95%E5%9C%A8vite-app%E5%86%85%E6%8A%95%E7%A5%A8%E7%BB%99%E8%B6%85%E7%BA%A7%E8%8A%82%E7%82%B9%E5%BE%97vite%E5%A5%96%E5%8A%B1',
         en: '',
       },
+      dappDevelopment: {
+        zh: 'https://forum.vite.net/topic/1850/%E5%85%B3%E4%BA%8E%E5%A6%82%E4%BD%95%E5%9C%A8vite%E7%A7%BB%E5%8A%A8%E9%92%B1%E5%8C%85%E5%8F%91%E5%B8%83dapp%E7%9A%84%E8%8B%A5%E5%B9%B2%E9%97%AE%E9%A2%98',
+        en: 'https://forum.vite.net/topic/1852/a-tutorial-about-how-to-list-a-dapp-on-vite-mobile-wallet',
+      },
     },
     weeklyReport: {
       zh: 'https://forum.vite.net/category/8/%E9%A1%B9%E7%9B%AE%E8%BF%9B%E5%BA%A6',
@@ -68,6 +72,10 @@ module.exports = {
       sbp: {
         zh: 'https://forum.vite.net/category/7/%E8%B6%85%E7%BA%A7%E8%8A%82%E7%82%B9',
         en: 'https://forum.vite.net/category/15/sbp-proposals',
+      },
+      syra: {
+        zh: 'https://forum.vite.net/topic/3625/%E9%A1%B9%E7%9B%AE%E8%83%8C%E6%99%AF%E5%8F%8A%E8%BF%9B%E5%B1%95-vite-labs%E4%B8%8E%E7%BE%8E%E5%9B%BD%E7%BA%BD%E7%BA%A6%E5%B7%9E%E9%9B%AA%E5%9F%8E%E6%94%BF%E5%BA%9C%E5%90%88%E4%BD%9C%E9%A1%B9%E7%9B%AE-%E5%8A%A9%E5%8A%9B%E9%9B%AA%E5%9F%8E%E6%94%BF%E5%BA%9C%E8%A7%A3%E5%86%B3%E6%B0%91%E7%94%9F%E9%97%AE%E9%A2%98',
+        en: 'https://forum.vite.net/topic/1280/vite-labs-the-city-of-syracuse-cooperate-to-create-a-first-of-its-kind-municipal-token-economy-syracoin',
       },
     },
     usingVite: {

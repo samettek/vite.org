@@ -14,75 +14,74 @@
 import PageHeader from '~/components/PageHeader.vue';
 import HomeSection from '~/components/HomeSection';
 
-
 export default {
-    components: {
-        PageHeader,
-        HomeSection
+  components: {
+    PageHeader,
+    HomeSection,
+  },
+  data() {
+    return {
+      devToolBtns: [
+        {
+          name: 'learn',
+          url: {
+            name: 'development',
+          },
+        },
+      ],
+      communityBtns: [
+        {
+          name: 'join',
+          url: {
+            name: 'community',
+          },
+        },
+      ],
+    };
+  },
+  computed: {
+    dappBtns() {
+      return [
+        {
+          name: 'learn',
+          url: this.$link('tutorial.dappDevelopment'),
+        },
+      ];
     },
-    data() {
-        return {
-            devToolBtns: [
-                {
-                    name: 'learn',
-                    url: {
-                        name: 'develepment'
-                    }
-                }
-            ],
-            communityBtns: [
-                {
-                    name: 'join',
-                    url: {
-                        name: 'community'
-                    }
-                }
-            ],
-        }
+    incentiveBtns() {
+      return [
+        {
+          name: 'learn',
+          url: this.$link('incentivePlan'),
+        },
+      ];
     },
-    computed: {
-        dappBtns() {
-            return [
-                {
-                    name: 'learn',
-                    url: this.$t('home.sections.dapp.urls.learn')
-                },
-            ]
+    syraBtns() {
+      return [
+        {
+          name: 'whitePaper',
+          url: this.$link('syraWP'),
         },
-        incentiveBtns() {
-            return [
-                {
-                    name: 'learn',
-                    url: this.$t('home.sections.incentive.urls.learn')
-                }
-            ]
+        {
+          name: 'learn',
+          url: this.$link('forumContent.syra'),
         },
-        syraBtns() {
-            return [
-                {
-                    name: 'whitePaper',
-                    url: "https://github.com/vitelabs/whitepaper/blob/master/SyraCoinWhitePaper.pdf"
-                },
-                {
-                    name: 'learn',
-                    url: this.$t('home.sections.syracoin.urls.whitePaper')
-                }
-            ];
+      ];
+    },
+    vitepayBtns() {
+      return [
+        {
+          name: 'learn',
+          url: this.$link('vitePayAnn'),
         },
-        vitepayBtns() {
-            return [
-                {
-                    name: 'learn',
-                    url: this.$t('home.sections.vitepay.urls.learn')
-                },
-                {
-                    name: 'toViteStore',
-                    url: 'https://vite.store/'
-                }
-            ]
-        }
-    }
-}
+        {
+          name: 'toViteStore',
+          url: this.$link('vitestore'),
+        },
+      ];
+    },
+  },
+};
 </script>
 
 <style lang="scss" scoped>

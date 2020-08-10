@@ -210,56 +210,55 @@
         }
       },
       "dapp": {
-        "title": "DApp开发",
-        "desc": "社区开发者可以利用合约开发小游戏。这里展示了目前已在Vite App上线的小游戏，大家可以使用钱包玩游戏赚VITE，投资娱乐两不误。",
+        "title": "DApp Development",
+        "desc": "Community developers can develop games with smart-contract",
         "btnGroup": {
-          "learn": "了解更多"
-        },
-        "urls": {
-          "learn": "https://forum.vite.net/topic/1850/%E5%85%B3%E4%BA%8E%E5%A6%82%E4%BD%95%E5%9C%A8vite%E7%A7%BB%E5%8A%A8%E9%92%B1%E5%8C%85%E5%8F%91%E5%B8%83dapp%E7%9A%84%E8%8B%A5%E5%B9%B2%E9%97%AE%E9%A2%98"
+          "learn": "Learn More"
         }
       },
       "devTool": {
-        "title": "开发者工具",
-        "desc": "我们欢迎开发者在Vite公链开发应用，Vite拥有完整的开发工具及资源，创建合约成本只需要10VITE，超低的成本将为Vite带来更广泛的应用。",
+        "title": "Development Tools",
+        "desc": "Developers are welcome to develop applications on Vite blockchain. There are a full set of development tools and resources. It cost only 10VITE to deploy a new contract on Vite blockchain. ",
         "btnGroup": {
-          "learn": "了解更多"
+          "learn": "Learn More"
         }
       },
       "incentive": {
-        "title": "Vite基金会社区生态激励政策",
-        "desc": "为激励社区有能力的团队、开发者一起建设Vite生态，Vite基金会正式推出生态扶持计划，首期针对SBP以生态基金投票的方式进行扶持，所有投票收益均归SBP所有。",
+        "title": "Vite Ecosystem Fund Incentive Plan",
+        "desc": [
+          "In order to motivate and incentivize the participation of both existing and new capable teams and developers from our community to build together the Vite ecosystem, Vite Labs will be releasing gradually a series of ecosystem incentive plans. ",
+          "The first of the series is designed to support the operation of supernodes by voting to selected SBPs with Vite eco-funds, all voting proceeds will accrue to SBPs."
+        ],
         "btnGroup": {
-          "learn": "了解更多"
+          "learn": "Learn More"
         }
       },
       "community": {
-        "title": "社区生态",
-        "desc": "Vite的用户分布在全球180多个国家和地区，社区规模20万人，钱包日活跃用户数2万人。",
+        "title": "Community",
+        "desc": "Vite users are distributed across 180 countries and regions around the world, with a community of 200,000 people. Daily active wallet users are 20,000. ",
         "btnGroup": {
-          "join": "加入Vite社区"
+          "join": "Join Us"
         }
       },
       "syracoin": {
-        "title": "美国雪城政府合作项目",
-        "desc": "2019年1月，Vite与美国纽约州雪城政府达成合作，利用区块链技术解决低收入市民住房问题，基于Vite公链开发了dApp——SyraCoin，助力政府解决当地民生问题，成为区块链在公共事务领域的落地应用。",
+        "title": "Cooperation with Syracuse ",
+        "desc": [
+          "In January 2019, Vite and the Syracuse Government of New York State reached a cooperation to solve the housing problem of low-income citizens by using blockchain technology. Based on Vite blockchain, a DApp called SyraCoin was developed to help the government solve the local people's livelihood problems. It becomes a blockchain scenario in the field of municipal service."
+        ],
         "btnGroup": {
-          "whitePaper": "白皮书",
-          "learn": "了解更多"
-        },
-        "urls": {
-          "whitePaper": "https://forum.vite.net/topic/3625/%E9%A1%B9%E7%9B%AE%E8%83%8C%E6%99%AF%E5%8F%8A%E8%BF%9B%E5%B1%95-vite-labs%E4%B8%8E%E7%BE%8E%E5%9B%BD%E7%BA%BD%E7%BA%A6%E5%B7%9E%E9%9B%AA%E5%9F%8E%E6%94%BF%E5%BA%9C%E5%90%88%E4%BD%9C%E9%A1%B9%E7%9B%AE-%E5%8A%A9%E5%8A%9B%E9%9B%AA%E5%9F%8E%E6%94%BF%E5%BA%9C%E8%A7%A3%E5%86%B3%E6%B0%91%E7%94%9F%E9%97%AE%E9%A2%98"
+          "whitePaper": "WhitePaper",
+          "learn": "Learn More"
         }
       },
       "vitepay": {
-        "title": "VitePay和Vite商城",
-        "desc": "2019年12月，Vite Labs 宣布与 Alchemy达成战略合作伙伴关系，共同探索区块链技术在支付领域的推广。支持用户使用VITE代币在Alchemy的商家使用进行支付。 <br>用户可以前往ViteStore体验VitePay的秒级支付功能。",
+        "title": "Vite Pay + Vite Store",
+        "desc": [
+          "In December 2019, Vite Labs and Alchemy reached a strategic partnership and announced that they will jointly explore the promotion of blockchain technology in the field of payment. Thus, VITE coins are accepted at Alchemy merchants. ","An open-source multi-currency wallet that supports crypto assets of different chains.",
+          "Users can experience instant payment of VitePay in ViteStore."
+        ],
         "btnGroup": {
-          "learn": "了解支付合作",
-          "toViteStore": "前往Vite Store"
-        },
-        "urls": {
-          "learn": "https://mp.weixin.qq.com/s/q0cQI_SY0muQT_rdZOla1w"
+          "learn": "Learn More",
+          "toViteStore": "Vite Store"
         }
       },
       "joinDev": {
@@ -1883,5 +1882,10 @@
         "desc": "Normal VITE holders can vote for some certain SBPS to get a share of their SBP reward. Consult community managers for more info."
       }
     }
+  },
+  "ecosystem": {
+    "title": "Productive Ecosystem",
+    "subTitle": "About Echosystem",
+    "desc": "With the joint efforts of team and community, a complete ecosystem has been built on the basis of the Vite blockchain. More and more community members participate in ecosystem development."
   }
 }

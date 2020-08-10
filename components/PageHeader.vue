@@ -172,6 +172,12 @@ export default {
     }
   }
 
+  &-ecosystem {
+    .page-header__content {
+      background-image: url("~assets/images/bg/ecosystem.png");
+    }
+  }
+
   @include until($desktop) {
     h1 {
       padding: 0 10px;

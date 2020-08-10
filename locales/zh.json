@@ -326,9 +326,6 @@
         "desc": "社区开发者可以利用合约开发小游戏。这里展示了目前已在Vite App上线的小游戏，大家可以使用钱包玩游戏赚VITE，投资娱乐两不误。",
         "btnGroup": {
           "learn": "了解更多"
-        },
-        "urls": {
-          "learn": "https://forum.vite.net/topic/1850/%E5%85%B3%E4%BA%8E%E5%A6%82%E4%BD%95%E5%9C%A8vite%E7%A7%BB%E5%8A%A8%E9%92%B1%E5%8C%85%E5%8F%91%E5%B8%83dapp%E7%9A%84%E8%8B%A5%E5%B9%B2%E9%97%AE%E9%A2%98"
         }
       },
       "devTool": {
@@ -358,9 +355,6 @@
         "btnGroup": {
           "whitePaper": "白皮书",
           "learn": "了解更多"
-        },
-        "urls": {
-          "whitePaper": "https://forum.vite.net/topic/3625/%E9%A1%B9%E7%9B%AE%E8%83%8C%E6%99%AF%E5%8F%8A%E8%BF%9B%E5%B1%95-vite-labs%E4%B8%8E%E7%BE%8E%E5%9B%BD%E7%BA%BD%E7%BA%A6%E5%B7%9E%E9%9B%AA%E5%9F%8E%E6%94%BF%E5%BA%9C%E5%90%88%E4%BD%9C%E9%A1%B9%E7%9B%AE-%E5%8A%A9%E5%8A%9B%E9%9B%AA%E5%9F%8E%E6%94%BF%E5%BA%9C%E8%A7%A3%E5%86%B3%E6%B0%91%E7%94%9F%E9%97%AE%E9%A2%98"
         }
       },
       "vitepay": {
@@ -369,9 +363,6 @@
         "btnGroup": {
           "learn": "了解支付合作",
           "toViteStore": "前往Vite Store"
-        },
-        "urls": {
-          "learn": "https://mp.weixin.qq.com/s/q0cQI_SY0muQT_rdZOla1w"
         }
       },
       "joinDev": {
