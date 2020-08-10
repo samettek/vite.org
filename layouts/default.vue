@@ -303,17 +303,17 @@ export default {
         {
           type: 'outer',
           name: 'createWallet',
-          to: this.$link('createWallet'),
+          to: 'createWallet',
         },
         {
           type: 'outer',
           name: 'useVitex',
-          to: this.$link('vitex'),
+          to: 'vitex',
         },
         {
           type: 'outer',
           name: 'github',
-          to: this.$link('github'),
+          to: 'github',
         },
         {
           type: 'outer',

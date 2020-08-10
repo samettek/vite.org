@@ -75,7 +75,7 @@ export default {
   data() {
     return {
       isMobile: isMobile(),
-      syraWP: config.urls.SyraWP,
+      syraWP: config.urls.syraWP,
       activity: config.urls.mainnetRelease,
       showNotice: true,
       imgObj: {

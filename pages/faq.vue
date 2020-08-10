@@ -32,21 +32,36 @@ export default {
   },
   computed: {
     faqsCommon() {
-      const faqs = this.$t('faq.questions.common');
-      return this.convertFaqs(faqs);
+      return this.convertFaqs('faq.questions.common');
     },
     faqsTech() {
-      const faqs = this.$t('faq.questions.technology');
-      return this.convertFaqs(faqs);
+      return this.convertFaqs('faq.questions.technology');
+    },
+    i18nOptions() {
+      return {
+        binance: this.$linkHtml('exchange.binance'),
+        okex: this.$linkHtml('exchange.okex'),
+        bittrex: this.$linkHtml('exchange.bittrex'),
+        okexKr: this.$linkHtml('exchange.okexKr'),
+        vitex: this.$linkHtml('vitex'),
+        docsQuota: this.$linkHtml('docs.quota'),
+        syraWP: this.$linkHtml('syraWP'),
+        forumSbp: this.$linkHtml('forumContent.sbp'),
+      };
     },
   },
   methods: {
-    convertFaqs(faqs) {
+    convertFaqs(path) {
+      let faqs = this.$t(path);
       faqs = Array.isArray(faqs) ? faqs : [];
-      return faqs.map((item) => {
+      return faqs.map((item, index) => {
         let { answer } = item;
         if (!answer) answer = [];
-        if (!Array.isArray(answer)) answer = [answer];
+        if (Array.isArray(answer)) {
+          answer = answer.map((item2, index2) => this.$t(`${path}.${index}.answer.${index2}`, this.i18nOptions));
+        } else {
+          answer = [this.$t(`${path}.${index}.answer`, this.i18nOptions)];
+        }
         return {
           ...item,
           answer,

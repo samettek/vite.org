@@ -38,6 +38,13 @@ utilsPlugin.install = function (VueContext) {
     }
     return '';
   };
+
+  // eslint-disable-next-line no-param-reassign
+  VueContext.prototype.$linkHtml = function (url) {
+    // eslint-disable-next-line no-underscore-dangle
+    const _url = this.$link(url);
+    return `<a href="${_url}" target="_blank">${_url}</a>`;
+  };
 };
 
 export default () => {

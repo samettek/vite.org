@@ -57,6 +57,9 @@ export default {
         margin-top: 0;
       }
     }
+    & > div {
+      margin-top: 10px;
+    }
     @include touch {
       font-size: 14px;
       line-height: 16px;

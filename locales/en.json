@@ -1391,44 +1391,30 @@
     "common": "Common",
     "technology": "Tech",
     "questions": {
-      "common": [{
-          "question": "What is Vite?",
+      "common": [
+        {
+          "question": "Vite发布了哪些种币？分别有什么作用？",
           "answer": [
-            "Vite is a general-purpose platform for decentralized applications. It is designed to support industrial-strength applications by offering high throughput, low latency and scalability while also providing security.",
-            "The Vite team are dedicated to addressing current performance and scalability issues of infrastructural chains, so that truly practical applications with high-frequency data requirements can be built in a blockchain framework."
+            "VITE：总量10亿（Vite主网代币，可在交易所交易，有投资价值）",
+            "VX：总量29328807.8 （VX是ViteX去中心化交易所发行的代币，无预挖，无预售，无私募，全部通过挖矿【交易，挂单，邀请，上币，抵押】获得。）",
+            "VCP：总量100亿（Vite社区积分，可以在积分商城兑换实物或虚拟商品。VCP细分Vite官方运营活动赠品，价值是固定的，不会增值，也不会上交易所）"
           ]
         },
         {
-          "question": "Where is the Vite team? How many people are there?",
+          "question": "VITE上线了一些交易所？",
           "answer": [
-            "The Vite team offices are Silicon Valley, US, and in Beijing China, with a total of over 40 full-time team members, of which over the half are developers.",
-            "The engineering team are from top-tier IT companies, such as Tencent, JD, Baidu, Didi, and Meituan."
+            "币安：{binance}",
+            "OKEX：{okex}",
+            "ViteX：{vitex}",
+            "B网(Bittrex) ：{bittrex}",
+            "Okex 韩国站：{okexKr}"
           ]
         },
         {
-          "question": "What cryptocurrencies did Vite release? What are the differences?",
+          "question": "Vite目前开发到哪个阶段？主网上线了吗？",
           "answer": [
-            "VITE - 1 billion",
-            "VITE is the native coin on Vite public chain. VITE ERC20 tokens were issued when Vite was first founded and can now be migrated VITE native tokens at a 1:1 ratio on the Vite wallet app. Both VITE native coins and Vite ERC20 tokens have investment value and can be traded on exchanges.",
-
-            "VX - 100 million",
-            "VX is the token related to ViteX. Users who hold VX enjoy payouts from a shared dividend pool comprised of transaction and listing fees. There will be no public nor private sale for VX. Users can only get VX through mining.",
-
-            "VCP - 10 billion",
-            "VCP stands for Vite Community Points. VCP can be earned from campaigns or activities. You can exchange VCP for physical or virtual goods in the Vite Store. Although VCP is stable in value, it has no investment value and will not be listed on exchanges."
-
-          ]
-        },
-        {
-          "question": "Which exchange(s) will VITE be listed on?",
-          "answer": [
-            "Currently VITE is listed on ViteX, Bittex, Okex, and Okex Korea. We are also in contact with other exchanges. Stay tuned!"
-          ]
-        },
-        {
-          "question": " What is the current development stage? Is there a Mainnet?",
-          "answer": [
-            "Vite Mainnet is launched officially on September 25, 2019. The launching of Mainnet marks a significant milestone in Vite’s development as it signifies that the Vite public chain will now formally support the functions and expansions of the ecosystem built upon it. We have so far deployed several use cases, such as our Syracuse GovCoin pilot project, a Decentralized Exchange (ViteX), and many DApp games. However, with the launch of our Mainnet, we will be actively engaging and involving more users to help us grow our community-driven decentralized ecosystem."
+            "Vite公链主网已于北京时间2019年9月25日上线。",
+            "主网上线对Vite的发展具有标志性意义，意味着Vite公链将正式启动Vite生态系统建设，社区用户可以真正的参与到Vite生态建设中来；其吞吐量高，安全性强，可扩展性等特点将真正服务到商业级应用，为区块链行业发展带来强大的推动作用。"
           ]
         },
         {
@@ -1454,18 +1440,10 @@
           ]
         },
         {
-          "question": "What products did Vite develop?",
+          "question": "Vite公链是如何做到免费转账的？",
           "answer": [
-            "Multi-token wallet (iOS/Android app): currently supports VITE, ETH, ERC20 tokens and GRIN.",
-            "Block explorer",
-            "Vite merchandise store: a blockchain payment use case in which items can be purchased by VCP (Vite Community Points). ",
-            "Vite decentralized exchange (ViteX): secure asset management, seamless trading experience, and VX (ViteX native token) mining capabilities. The current trading markets are: VITE, BTC, ETH, and a stablecoin."
-          ]
-        },
-        {
-          "question": "How to download Vite wallet? Is there a reward for downloading the wallet？",
-          "answer": [
-            "You can find the Vite iOS wallet in the Apple Store and the Vite Android wallet in the Play Store. Once the wallet is downloaded, users can receive daily airdrop rewards of 10-1000 VITE everyday. "
+            "Vite转账无需任何费用。我们考虑的经济模型是平衡用户，开发者和矿工，普通用户、开发者应该以尽可能低的成本使用Vite网络，不应因为Gas而被限制在生态之外。而矿工，作为对Vite网络做出重要贡献的人群，也必须有合理的激励机制。我们按每年3%的通胀率拿出来奖励矿工，这个标准对矿工，用户和开发者都是相对一个合理的数字。有助于未来Vite生态的长远建设。",
+            "Vite 配额模型：{docsQuota}"
           ]
         },
         {
@@ -1475,18 +1453,27 @@
           ]
         },
         {
-          "question": "Token inflation (mining rewards) and consumption will be dynamically balanced under the premise of a total of 1 billion tokens?",
-          "answer": "The amount of one billion tokens demonstrates initial circulation. Mining rewards are generated from additional token issuance: the inflation. As the system becomes widely used, tokens will continue to be burned. We hope that the circulation of tokens will attain the dynamic balance needed."
-        },
-        {
-          "question": "What is the address of the VITE ERC20 token?",
+          "question": "Vite对区块链底层技术有哪些重大贡献并得到业界的一致认可？",
           "answer": [
-            "Currently, the VITE ERC20 token address hosted on Ethereum's platform is <a href='https://etherscan.io/token/0x1b793E49237758dBD8b752AFC9Eb4b329d5Da016' target='_blank'>https://etherscan.io/token/0x1b793E49237758dBD8b752AFC9Eb4b329d5Da016</a>, when Vite MainNet is launched, all of the ERC20 VITE tokens will be migrated to Vite MainNet tokens at a 1:1 ratio."
+            "Vite最大的技术贡献在于基于DAG账本实现了智能合约。有很多项目在探索这个领域，目前只有Vite真正实现了，并且可以支撑DEX这种级别的实际应用。另外，Vite提出了“异步架构”的设计，目前以太坊2.0也采用同样的技术路线。相信未来基于“异步”模型的公链会越来越多。Vite独创的“快照链”和“分层共识”技术，对提高DAG公链的安全性和扩展性都有显著的作用。而且，我们已经把“快照链”技术提交了美国专利申请。"
           ]
         },
         {
-          "question": "Can we mine Vite tokens?",
-          "answer": "Vite's consensus mechanism is similar to that of EOS. The DPoS algorithm selects 25 snapshot block producers who, in turn, receive mining rewards."
+          "question": "What products did Vite develop?",
+          "answer": [
+            "Multi-token wallet (iOS/Android app): currently supports VITE, ETH, ERC20 tokens and GRIN.",
+            "Block explorer",
+            "Vite merchandise store: a blockchain payment use case in which items can be purchased by VCP (Vite Community Points). ",
+            "Vite decentralized exchange (ViteX): secure asset management, seamless trading experience, and VX (ViteX native token) mining capabilities. The current trading markets are: VITE, BTC, ETH, and a stablecoin."
+          ]
+        },
+        {
+          "question": "Vite和雪城有城市合作,具体解决了什么问题？还有其他城市有合作吗？",
+          "answer": [
+            "Vite Labs通过使用区块链技术，在雪城实现打造一套捐款系统，该系统是一种通证经济。此通证经济通过合理的模型设置，激励手段以及资源的有效分配，解决雪城贫困家庭的生活问题，切实帮助有需求的居民获得房屋资金，从而方便居民们的租房问题，最终将区块链技术应用到人们的日常生产生活之中。",
+            "除此之外，Vite Labs还在积极推动与联合国儿童基金会、欧盟、南非储备银行、西非国家经济共同体、塞舌尔证券交易所、美国伯克利市、罗德岛州等政府或非政府组织的合作，将区块链技术应用到货币、债券、交易所、社会福利等领域。",
+            "雪城项目白皮书：{syraWP}"
+          ]
         },
         {
           "question": "How to run a Vite supernode, what is the benefit?",
@@ -1497,9 +1484,14 @@
           ]
         },
         {
-          "question": "What is the daily reward of voting?",
+          "question": "Can we mine Vite tokens?",
+          "answer": "Vite's consensus mechanism is similar to that of EOS. The DPoS algorithm selects 25 snapshot block producers who, in turn, receive mining rewards."
+        },
+        {
+          "question": "投票给超级节点每天收益多少？",
           "answer": [
-            "The current annual return is expected to be 18%, but the total amount of distributed reward is fixed. Thus, as more and more users participate in voting, the amount of VITE received per person will be reduced. "
+            "目前投票给部分社区超级节点可以获得VITE奖励，每个超级节点得收益不同，详细可登陆论坛查看。",
+            "{forumSbp}"
           ]
         }
       ],
@@ -1587,6 +1579,34 @@
             "We will limit the character set to ASCII and provide a library to hash the name into a prime image.",
             "As shown below: <a href='https://github.com/ethereum/blockies' target='_blank'>https://github.com/ethereum/blockies</a>. The text of the name may look similar, but the profile picture looks completely different."
           ]
+        },
+        {
+          "question": "Vite implements an asynchronous architecture. How to ensure the data consistency of transactions under said architecture?",
+          "answer": "Strong consistency is not guaranteed on Vite, but eventual consistency is. In order to improve performance and scalability, Vite abandons the strong consistency model in Ethereum but implements a message-driven architecture to treat each smart contract as an independent service. The contracts communicate through messages but do not share state. The message sent by a contract will not be reverted due to the failure of receiving the message by another contract. "
+        },
+        {
+          "question": "One of the biggest innovations of Vite is the snapshot chain. What is the snapshot chain and how does it solve the security flaw of DAG?",
+          "answer": [
+            "Vite adopts the DAG ledger structure called Block-Lattice. Each account on Vite corresponds to a chain, and each transaction refers to the hash of the previous transaction of the account. There are two types of transactions: \"request transaction\" and \"response transaction\". A response transaction needs to quote the hash of the corresponding request transaction. ",
+            "This DAG structure has an inherent security flaw. Block-lattice groups transactions by accounts. A transaction will solely be attached to the end of the account chain it corresponds to, while transactions initiated by other accounts will not become the successor of the transaction. Therefore, the probability of rolling back the transaction will not decrease over time. To tackle the problem, Vite invents the snapshot chain technology to take a snapshot of the account chains every second and attach to the snapshot chain as new block. Attackers are not able to revert transactions on the account chain if the snapshot chain is not reverted at the same time, thus eliminating the vulnerability."
+          ]
+        },
+        {
+          "question": "How to solve the situation that the request transaction is executed successfully but the response transaction ends in failure? Is there a rollback mechanism to prevent this inconsistency behavior that could be caused by asynchronous processing?",
+          "answer": [
+            "Vite takes Block-lattice as the ledger structure. It is impossible that the request is successful but the response fails. Actually, the status of the response transaction could only be “confirmed“ or “unconfirmed“. So there is no rollback.",
+            "It is possible that a response transaction is not confirmed, because the transaction needs to be signed and propagated by the receiver. If the receiver does not sign the transaction with the private key and broadcast the block, the response transaction will be in the \"unconfirmed\" state."
+          ]
+        },
+        {
+          "question": "How does the Vite smart contract work in asynchronous architecture?",
+          "answer": [
+            "The execution of smart contracts is highly related to the DAG architecture of Vite. Similar to  account, each smart contract has an independent chain on Vite, of which the blocks are produced by the consensus group that the contract belongs to, and usually is a different consensus group with the snapshot chain. This means that the execution of the smart contract is in an asynchronous process separate from snapshot block producing, leading to  higher throughput. "
+          ]
+        },
+        {
+          "question": "What are the security guarantees for the cross-chain performance of Vite?",
+          "answer": "At present, the cross-chain capability is mainly provided by Vite Labs gateway. The gateway has passed the strict audit conducted by a well-known security firm, and no security vulnerability has been found. In Vite 2.0, we will provide a separate decentralized cross-chain protocol to ensure that the cross-chain value transfer is more secure and efficient."
         }
       ]
     }

@@ -13,10 +13,14 @@ module.exports = {
         en: 'https://vite.wiki/dex/',
         zh: 'https://vite.wiki/zh/dex/',
       },
+      quota: {
+        en: 'https://vite.wiki/zh/tutorial/rule/quota.html',
+        zh: 'https://vite.wiki/tutorial/rule/quota.html',
+      },
     },
     tutorial: {
-      zh: 'https://vite.wiki/zh/tutorial/start/#ru-he-huo-de-vite',
-      en: 'https://vite.wiki/zh/tutorial/start/#ru-he-huo-de-vite',
+      zh: 'https://vite.wiki/zh/tutorial/start/',
+      en: 'https://vite.wiki/tutorial/start/',
     },
     weeklyReport: {
       zh: 'https://forum.vite.net/category/8/%E9%A1%B9%E7%9B%AE%E8%BF%9B%E5%BA%A6',
@@ -36,7 +40,7 @@ module.exports = {
     },
     syraAnn: {
       zh: 'https://forum.vite.net/topic/3625/%E9%A1%B9%E7%9B%AE%E8%83%8C%E6%99%AF%E5%8F%8A%E8%BF%9B%E5%B1%95-vite-labs%E4%B8%8E%E7%BE%8E%E5%9B%BD%E7%BA%BD%E7%BA%A6%E5%B7%9E%E9%9B%AA%E5%9F%8E%E6%94%BF%E5%BA%9C%E5%90%88%E4%BD%9C%E9%A1%B9%E7%9B%AE-%E5%8A%A9%E5%8A%9B%E9%9B%AA%E5%9F%8E%E6%94%BF%E5%BA%9C%E8%A7%A3%E5%86%B3%E6%B0%91%E7%94%9F%E9%97%AE%E9%A2%98',
-      en: 'https://forum.vite.net/topic/1280/vite-labs-the-city-of-syracuse-cooperate-to-create-a-first-of-its-kind-municipal-token-economy-syracoin/2'
+      en: 'https://forum.vite.net/topic/1280/vite-labs-the-city-of-syracuse-cooperate-to-create-a-first-of-its-kind-municipal-token-economy-syracoin/2',
     },
     vitePayAnn: {
       zh: 'https://forum.vite.net/topic/3636/%E5%85%AC%E5%91%8A-vite-labs%E4%B8%8E%E5%85%A8%E7%90%83%E6%94%AF%E4%BB%98%E6%9C%8D%E5%8A%A1%E5%95%86alchemy%E8%BE%BE%E6%88%90%E6%88%98%E7%95%A5%E5%90%88%E4%BD%9C',
@@ -50,6 +54,10 @@ module.exports = {
       app: {
         zh: 'https://forum.vite.net/category/37/vite%E9%92%B1%E5%8C%85',
         en: 'https://forum.vite.net/category/36/vite-wallet',
+      },
+      sbp: {
+        zh: 'https://forum.vite.net/category/7/%E8%B6%85%E7%BA%A7%E8%8A%82%E7%82%B9',
+        en: 'https://forum.vite.net/category/15/sbp-proposals',
       },
     },
     vitexMine: {
@@ -167,7 +175,7 @@ module.exports = {
       russian: 'https://github.com/vitelabs/whitepaper/blob/master/vite_russian.pdf',
       japan: 'https://github.com/vitelabs/whitepaper/blob/master/vite_japan.pdf',
     },
-    SyraWP: {
+    syraWP: {
       en: 'https://github.com/vitelabs/whitepaper/blob/master/SyraCoinWhitePaper.pdf',
       zh: 'https://github.com/vitelabs/whitepaper/blob/master/SyraCoinWhitePaper.pdf',
     },
