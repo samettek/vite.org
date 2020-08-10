@@ -1,14 +1,13 @@
 <template>
     <section class="page-header" :class="[`page-header-${name}`]">
         <div class="container padding-until-desktop">
-            <h1>{{ $t(`${name}.title`) }}</h1>
+            <h1 v-html="$t(`${name}.title`)"></h1>
         </div>
         <div class="page-header__content">
             <div class="container padding-until-desktop">
               <div class="page-header__desc">
                   <h2>{{ $t(`${name}.subTitle`) }}</h2>
-                  <div class="page-header__text">
-                    {{ $t(`${name}.desc`) }}
+                  <div class="page-header__text" v-html="$t(`${name}.desc`)">
                   </div>
                   <div v-if="name === 'whatIsVite'" class="page-header__btnGroup">
                     <WhitePaper class="wp-btn"></WhitePaper>
@@ -28,7 +27,7 @@
                 <img v-if="name === 'community'" src="~/assets/images/ecosystem/community.png" alt="Vite Community">
 
                 <img v-if="name === 'whatIsVite'" class="play-icon"  src="~assets/images/video/play.svg"/>
-                
+
               </div>
             </div>
         </div>
@@ -50,8 +49,8 @@ export default {
     },
     buttons: {
       type: Array,
-      default: () => []
-    }
+      default: () => [],
+    },
   },
   computed: {
     btnList() {
@@ -73,7 +72,7 @@ export default {
       if (typeof item.url === 'object') {
         this.$router.push(item);
       }
-    }
+    },
   },
 };
 </script>

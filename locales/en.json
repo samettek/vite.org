@@ -1773,5 +1773,58 @@
     "btnIos": "iOS",
     "btnAndroid": "Android",
     "btn2": "Check Voting Rewards"
+  },
+  "whatIsVite": {
+    "title": "什么是Vite",
+    "investor": "投资人",
+    "partner": "合作伙伴",
+    "subTitle": "关于 Vite",
+    "desc": "Vite是一个无手续费的高性能公链，采用DAG技术，能够同时兼顾安全性、高吞吐、低延迟以及扩展性 <br>目前Vite链上已经搭建了开放式去中心化金融服务，未来我们将让Vite链的去中心化服务更加开放、好用，从而使Vite生态承载更大的价值，满足更广泛的需求，并且吸引更多的真实用户。",
+    "tech": {
+      "title": "全球首个基于DAG实现智能合约的公链",
+      "features": {
+        "dag": "DAG技术",
+        "throughput": "吞吐量高",
+        "confirm": "秒级确认",
+        "nofee": "零手续费",
+        "snapshotchain": "快照链",
+        "dex": "内置DEX"
+      },
+      "desc": [
+        {
+          "title": "01",
+          "text": "全球第一个在DAG上实现智能合约的公链 引入异步机制，交易速度更快，吞吐量高 DPoS共识算法，交易秒级确认，无手续费"
+        },
+        {
+          "title": "02",
+          "text": "Solidity++智能合约语言与EVM最大程度的兼容 创建合约成本低（10VITE），应用场景更广泛"
+        },
+        {
+          "title": "03",
+          "text": "引入异步机制，交易速度更快，吞吐量高 DPoS共识算法，交易秒级确认，无手续费 Solidity++智能合约语言与EVM最大程度的兼容"
+        }
+      ]
+    },
+    "dex": {
+      "title": "全球唯一真正去中心化交易所",
+      "features": {
+        "onChainMatch": "订单链上撮合",
+        "onChainSettle": "交易链上结算",
+        "vx": "挖矿获得平台币VX",
+        "dividend": "每日链上分红",
+        "nokyc": "无需KYC验证",
+        "crossChain": "支持跨链交易"
+      },
+      "desc": [
+        {
+          "title": "去中心化技术",
+          "text": "ViteX采用最前沿的去中心化交易所技术，通过Vite公链上的智能合约，实现了订单链上撮合、交易链上结算、平台币链上分红。<br>用户通过私钥来控制自己的资产，不用担心被交易所冻结、挪用或丢失，也不用担心交易所“跑路”，资产更安全，规则更透明，彻底杜绝黑箱操作。"
+        },
+        {
+          "title": "去中心化治理",
+          "text": "ViteX的收益权限归属社区，交易手续费100%分给平台币VX的持有者 <br>ViteX的治理权限归属社区，社区投票参与ViteX的治理 <br>ViteX的运营权限归属社区，社可以自主开交易所并且运营"
+        }
+      ]
+    }
   }
 }
