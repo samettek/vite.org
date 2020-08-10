@@ -179,37 +179,37 @@ export default {
         {
           type: 'outer',
           name: 'vitex',
-          to: config.urls.vitex,
+          to: this.$link('vitex'),
         },
         {
           type: 'outer',
           name: 'app',
-          to: config.urls.app,
+          to: this.$link('app'),
         },
         {
           type: 'outer',
           name: 'webWallet',
-          to: config.urls.webWallet.en,
+          to: this.$link('webWallet'),
         },
         {
           type: 'outer',
           name: 'desktopWallet',
-          to: config.urls.desktopWallet.release,
+          to: this.$link('desktopWallet.release'),
         },
         {
           type: 'outer',
           name: 'vitePlus',
-          to: config.urls.vitePlus,
+          to: this.$link('vitePlus'),
         },
         {
           type: 'outer',
           name: 'viteScan',
-          to: config.urls.explorer.viteScan.en,
+          to: this.$link('explorer.viteScan'),
         },
         {
           type: 'outer',
           name: 'viteExplorer',
-          to: config.urls.explorer.viteExplorer.en,
+          to: this.$link('explorer.viteExplorer'),
         },
       ];
     },
@@ -242,22 +242,27 @@ export default {
         {
           type: 'outer',
           name: 'docs',
-          to: config.urls.development.docs,
+          to: this.$link('document'),
         },
         {
           type: 'outer',
           name: 'javaSDK',
-          to: config.urls.development.javaSDK,
+          to: this.$link('docs.java'),
         },
         {
           type: 'outer',
           name: 'jsSDK',
-          to: config.urls.development.jsSDK,
+          to: this.$link('docs.js'),
         },
         {
           type: 'outer',
           name: 'vitexDocs',
-          to: config.urls.development.vitexDocs,
+          to: this.$link('docs.vitex'),
+        },
+        {
+          type: 'outer',
+          name: 'vep',
+          to: this.$link('docs.vep'),
         },
       ];
     },
@@ -266,7 +271,7 @@ export default {
         {
           type: 'outer',
           name: 'store',
-          to: this.urls.vitestore[this.$i18n.locale],
+          to: this.$link('vitestore'),
         },
       ];
     },

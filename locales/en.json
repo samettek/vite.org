@@ -54,10 +54,11 @@
     "viteExplorer": "Vite Block Explorer",
     "webWallet": "Web Wallet",
     "desktopWallet": "Win/Mac Wallet",
-    "docs": "Docs",
+    "docs": "Documentation",
     "javaSDK": "Java SDK",
     "jsSDK": "Javascript SDK",
     "vitexDocs": "ViteX Docs",
+    "vep": "Vite Enhancement Proposal",
 
 
     "platform": "Platform",

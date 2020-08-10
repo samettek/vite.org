@@ -33,6 +33,10 @@ module.exports = {
         zh: 'https://vite.wiki/zh/api/javasdk/',
         en: 'https://vite.wiki/api/javasdk/',
       },
+      vep: {
+        zh: 'https://vite.wiki/zh/vep/',
+        en: 'https://vite.wiki/vep/',
+      },
     },
     tutorial: {
       start: {
