@@ -21,6 +21,18 @@ module.exports = {
         en: 'https://vite.wiki/tutorial/node/install.html',
         zh: 'https://vite.wiki/zh/tutorial/node/install.html',
       },
+      dapp: {
+        en: 'https://vite.wiki/tutorial/contract/contract.html',
+        zh: 'https://vite.wiki/zh/tutorial/contract/contract.html',
+      },
+      js: {
+        zh: 'https://vite.wiki/zh/api/vitejs/',
+        en: 'https://vite.wiki/api/vitejs/',
+      },
+      java: {
+        zh: 'https://vite.wiki/zh/api/javasdk/',
+        en: 'https://vite.wiki/api/javasdk/',
+      },
     },
     tutorial: {
       start: {

@@ -9,15 +9,15 @@
                     <div class="dev-support__item">
                         <h4>{{$t('development.support.sdk.title')}}</h4>
                         <div>
-                            Go, <a href="https://vite.wiki/api/vitejs/" target="_blank">JS/TS</a>,
-                            <a href="https://vite.wiki/api/javasdk/" target="_blank">Java</a>
+                            Go, <a :href="$link('docs.js')" target="_blank">JS/TS</a>,
+                            <a :href="$link('docs.java')" target="_blank">Java</a>
                         </div>
                     </div>
                     <div class="dev-support__item">
                         <h4>{{$t('development.support.docs.title')}}</h4>
                         <i18n path="development.support.docs.desc" tag="div">
                             <a place="wiki"
-                               href="https://vite.wiki/zh/tutorial/contract/contract.html"
+                               :href="$link('docs.dapp')"
                                target="_blank">{{$t('development.support.docs.wiki')}}</a>
                         </i18n>
                     </div>
@@ -42,30 +42,28 @@ export default {
     PageHeader,
     HomeSection,
   },
-  data() {
-    return {
-      headerBtns: [
-        {
-          name: 'wiki',
-          url: 'https://vite.wiki',
-        },
-        {
-          name: 'github',
-          url: 'https://github.com/vitelabs',
-        },
-        {
-          name: 'docs',
-          url: 'https://vite.wiki/tutorial/contract/contract.html#what-is-asynchronous-smart-contract',
-        },
-      ],
-    };
-  },
   computed: {
     dappBtns() {
       return [
         {
           name: 'learn',
-          url: this.$t('home.sections.dapp.urls.learn'),
+          url: this.$link('tutorial.dappDevelopment'),
+        },
+      ];
+    },
+    headerBtns() {
+      return [
+        {
+          name: 'wiki',
+          url: this.$link('document'),
+        },
+        {
+          name: 'github',
+          url: this.$link('github'),
+        },
+        {
+          name: 'smartContract',
+          url: this.$link('docs.dapp'),
         },
       ];
     },
@@ -73,11 +71,11 @@ export default {
       return [
         {
           name: 'techGroup',
-          url: 'https://t.me/vite_en',
+          url: this.$link('telegram.english'),
         },
         {
           name: 'toForum',
-          url: this.$t('development.join.forumTechUrl'),
+          url: this.$link('forum'),
         },
       ];
     },
@@ -103,6 +101,7 @@ export default {
         display: flex;
         flex-direction: row;
         margin: -48px;
+        word-break: break-all;
     }
     &__item {
         flex: 1;

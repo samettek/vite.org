@@ -1972,7 +1972,7 @@
     "btnGroup": {
       "wiki": "Wiki",
       "github": "Github",
-      "docs": "开发文档" 
+      "smartContract": "智能合约"
     },
     "support": {
       "title": "技术支持",
@@ -1988,11 +1988,6 @@
         "title": "开发者社区",
         "desc": "全球开发者社区支持"
       }
-    },
-    "join": {
-      "title": "加入Vite技术社区",
-      "desc": "为激励社区有能力的团队、开发者一起建设Vite生态，Vite基金会正式推出生态扶持计划，首期针对SBP以生态基金投票的方式进行扶持，所有投票收益均归SBP所有。",
-      "forumTechUrl": "https://forum.vite.net/category/35/%E6%8A%80%E6%9C%AF%E8%AE%A8%E8%AE%BA"
     }
   }
 }

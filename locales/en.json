@@ -1887,5 +1887,34 @@
     "title": "Productive Ecosystem",
     "subTitle": "About Echosystem",
     "desc": "With the joint efforts of team and community, a complete ecosystem has been built on the basis of the Vite blockchain. More and more community members participate in ecosystem development."
+  },
+  "development": {
+    "title": "成为Vite开发者",
+    "subTitle": "加入Vite，成为开发者",
+    "desc": "我们欢迎开发者在Vite公链开发应用，Vite拥有完整的开发工具及资源，创建合约成本只需要10VITE，超低的成本将为Vite带来更广泛的应用。",
+    "btnGroup": {
+      "wiki": "Wiki",
+      "github": "Github",
+      "smartContract": "智能合约"
+    },
+    "support": {
+      "title": "Technical Support",
+      "sdk": {
+        "title": "Language Supported"
+      },
+      "docs": {
+        "title": "Development Resources",
+        "desc": "Developer agreement and {wiki}",
+        "wiki": "documentation"
+      },
+      "community": {
+        "title": "Developer Community",
+        "desc": "Global developer community support"
+      }
+    },
+    "join": {
+      "title": "Join Vite Technology Community",
+      "desc": "为激励社区有能力的团队、开发者一起建设Vite生态，Vite基金会正式推出生态扶持计划，首期针对SBP以生态基金投票的方式进行扶持，所有投票收益均归SBP所有。"
+    }
   }
 }
