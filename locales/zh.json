@@ -15,129 +15,6 @@
     "bitcointalk": "Bitcointalk",
     "forum": "论坛"
   },
-  "community": {
-    "title": "社区生态",
-    "subTitle": "关于社区生态",
-    "desc": "Vite的用户分布在全球180多个国家和地区，社区规模20万人，钱包日活跃用户数2万人。",
-    "stars": {
-      "yandong": {
-        "name": "闫冬",
-        "desc": "Vite社区开发者，全栈工程师",
-        "contribution": [
-          "在Vite公链开发两款DApp：VITE翻倍乐、骰子游戏，协助团队完善API及相关文档",
-          "编写基于vite公有链开发Dapp的开发指南",
-          "开发Vite区块浏览器ViteScan，方便社区用户查询各项数据",
-          "运行Vite超级节点viteScan.io、N4Q.org，向投票者发放奖励",
-          "协助宣传Vite，积极参与Vite活动"
-        ]
-      },
-      "xiaoyu": {
-        "name": "晓宇",
-        "desc": "区块链早期投资者，Vite技术爱好者，2012年开始接触比特币，研究区块链技术。",
-        "contribution": [
-          "撰写Vite项目源码进行构建及调试相关技术文章",
-          "积极体验Vite产品并提交Bug，多次为Vite提出技术改进建议",
-          "在Vite中英文社区活跃，协助团队为全球粉丝解答问题"
-        ]
-      },
-      "jingguang": {
-        "name": "张景广",
-        "desc": "区块链爱好者，专注于区块链在各领域的应用，重度vite粉丝",
-        "contribution": [
-          "设计并开发Vite节点一键托管方案，使用户参与Vite生态的门槛将大大降低，吸引用户积极参与到Vite生态建设",
-          "该方案已经在Ankr云平台上架，吸引了大批Ankr社群用户使用，助力Vite网络进一步的去中心话，增强网络的健壮性"
-        ]
-      },
-      "shuangyanpi": {
-        "name": "双眼皮",
-        "desc": "币圈以及区块链爱好者，在投资方面有个人的独到见解与丰富的经验，以投资人的眼光和用户的心态去体验行业发展每日分享心得和体会",
-        "contribution": [
-          "Vite中文社区管理员，在各个区块链媒体协助宣传推广Vite，增加Vite社区凝聚力"
-        ]
-      },
-      "duy": {
-        "name": "Nguyen Hoang Duy",
-        "desc": "一位积极，热情，有创造力的Vite爱好者",
-        "contribution": [
-          "积极参与社区建设并设计推广方案",
-          "协助越南社区管理员进行翻译工作"
-        ]
-      },
-      "amec": {
-        "name": "AMEC",
-        "desc": "AMEC是一个在区块链行业拥有5年投资经验和2年工作经验的资深人士，曾受邀在多个区块链活动上演讲并主持线上区块链研讨会",
-        "contribution": [
-          "制作Vite教程视频: https://www.youtube.com/channel/UC4BQDjmUP_8dUHJ0y15ig-Q",
-          "在WhatsApp上创建Vite群并邀请了400多名用户",
-          "管理Vite尼日利亚社区并协助答疑",
-          "在twitter和其他论坛上对Vite和VX进行宣传推广",
-          "协助进行Vite访谈式采访"
-        ]
-      },
-      "abdullah": {
-        "name": "Ammar Abdullah",
-        "desc": "内心住着艺术家的电子工程师，热衷于为支持的项目创作视频内容",
-        "contribution": [
-          "制作Vite讲解视频 http://youtube.com/watch?v=FRvdP_KcNRk",
-          "在Vite进行上币安投票时制作emoji表情、图片、段视频等"
-        ]
-      },
-      "mona": {
-        "name": "Mona Al-Ansary",
-        "desc": "资深区块链爱好者，Vite忠实粉丝，因Vite狂粉为朋友熟知",
-        "contribution": [
-          "大力推广Vite项目",
-          "注册并管理自己的Vite推特账号"
-        ]
-      },
-      "greek": {
-        "name": "Greek",
-        "desc": "区块链爱好者，致力于寻找为加密领域和为未来世界创造金融基础设施的项目",
-        "contribution": [
-          "在各大区块链论坛俄语区引导讨论",
-          "在创世论坛 BitcoinTalk发起Vite话题",
-          "为Vite社区引荐新用户并协助他们了解Vite项目"
-        ]
-      },
-      "nrz": {
-        "name": "NRZ",
-        "desc": "计算机网络工程师，2016年开始接触区块链，Vite的忠实粉丝和支持者",
-        "contribution": [
-          "在Altcoinstalks论坛的俄语区引导展开Vite相关讨论",
-          "鼓励社区在AppStore留言",
-          "为交易所用户解答问题"
-        ]
-      },
-      "daniel": {
-        "name": "Daniel",
-        "desc": "前端开发者，区块链爱好者",
-        "contribution": [
-          "经常参与社区讨论并为社区用户答疑",
-          "体验Vite产品并提交Bug及技术改进建议",
-          "对论坛中出现的恶意信息给予及时有效的提醒",
-          "创建了从ViteX收集每日数据的脚本，让每个人都可以轻松掌握项目进展"
-        ]
-      },
-      "devaux": {
-        "name": "Chef Devaux (aka Makesushi)",
-        "desc": "前职是航空工程师的寿司师傅， YouTube有一百万+关注的up主",
-        "contribution": [
-          "制作并投放Vite短视频",
-          "在Quora上发起VITE和VX的话题",
-          "创建了加密货币网站并介绍Vite信息"
-        ]
-      },
-      "hope": {
-        "name": "Broke Hope",
-        "desc": "前股票市场参与者，长期战略投资人",
-        "contribution": [
-          "积极参与话腿讨论并提出建议",
-          "在各大社交平台发表Vite相关内容",
-          "邀请新人加入Vite社区"
-        ]
-      }
-    }
-  },
   "nav": {
     "index": "首页",
     "start": "开始",
@@ -1987,6 +1864,129 @@
       "community": {
         "title": "开发者社区",
         "desc": "全球开发者社区支持"
+      }
+    }
+  },
+  "community": {
+    "title": "社区生态",
+    "subTitle": "关于社区生态",
+    "desc": "Vite的用户分布在全球180多个国家和地区，社区规模20万人，钱包日活跃用户数2万人。",
+    "stars": {
+      "yandong": {
+        "name": "闫冬",
+        "desc": "Vite社区开发者，全栈工程师",
+        "contribution": [
+          "在Vite公链开发两款DApp：VITE翻倍乐、骰子游戏，协助团队完善API及相关文档",
+          "编写基于vite公有链开发Dapp的开发指南",
+          "开发Vite区块浏览器ViteScan，方便社区用户查询各项数据",
+          "运行Vite超级节点viteScan.io、N4Q.org，向投票者发放奖励",
+          "协助宣传Vite，积极参与Vite活动"
+        ]
+      },
+      "xiaoyu": {
+        "name": "晓宇",
+        "desc": "区块链早期投资者，Vite技术爱好者，2012年开始接触比特币，研究区块链技术。",
+        "contribution": [
+          "撰写Vite项目源码进行构建及调试相关技术文章",
+          "积极体验Vite产品并提交Bug，多次为Vite提出技术改进建议",
+          "在Vite中英文社区活跃，协助团队为全球粉丝解答问题"
+        ]
+      },
+      "jingguang": {
+        "name": "张景广",
+        "desc": "区块链爱好者，专注于区块链在各领域的应用，重度vite粉丝",
+        "contribution": [
+          "设计并开发Vite节点一键托管方案，使用户参与Vite生态的门槛将大大降低，吸引用户积极参与到Vite生态建设",
+          "该方案已经在Ankr云平台上架，吸引了大批Ankr社群用户使用，助力Vite网络进一步的去中心话，增强网络的健壮性"
+        ]
+      },
+      "shuangyanpi": {
+        "name": "双眼皮",
+        "desc": "币圈以及区块链爱好者，在投资方面有个人的独到见解与丰富的经验，以投资人的眼光和用户的心态去体验行业发展每日分享心得和体会",
+        "contribution": [
+          "Vite中文社区管理员，在各个区块链媒体协助宣传推广Vite，增加Vite社区凝聚力"
+        ]
+      },
+      "duy": {
+        "name": "Nguyen Hoang Duy",
+        "desc": "一位积极，热情，有创造力的Vite爱好者",
+        "contribution": [
+          "积极参与社区建设并设计推广方案",
+          "协助越南社区管理员进行翻译工作"
+        ]
+      },
+      "amec": {
+        "name": "AMEC",
+        "desc": "AMEC是一个在区块链行业拥有5年投资经验和2年工作经验的资深人士，曾受邀在多个区块链活动上演讲并主持线上区块链研讨会",
+        "contribution": [
+          "制作Vite教程视频: https://www.youtube.com/channel/UC4BQDjmUP_8dUHJ0y15ig-Q",
+          "在WhatsApp上创建Vite群并邀请了400多名用户",
+          "管理Vite尼日利亚社区并协助答疑",
+          "在twitter和其他论坛上对Vite和VX进行宣传推广",
+          "协助进行Vite访谈式采访"
+        ]
+      },
+      "abdullah": {
+        "name": "Ammar Abdullah",
+        "desc": "内心住着艺术家的电子工程师，热衷于为支持的项目创作视频内容",
+        "contribution": [
+          "制作Vite讲解视频 http://youtube.com/watch?v=FRvdP_KcNRk",
+          "在Vite进行上币安投票时制作emoji表情、图片、段视频等"
+        ]
+      },
+      "mona": {
+        "name": "Mona Al-Ansary",
+        "desc": "资深区块链爱好者，Vite忠实粉丝，因Vite狂粉为朋友熟知",
+        "contribution": [
+          "大力推广Vite项目",
+          "注册并管理自己的Vite推特账号"
+        ]
+      },
+      "greek": {
+        "name": "Greek",
+        "desc": "区块链爱好者，致力于寻找为加密领域和为未来世界创造金融基础设施的项目",
+        "contribution": [
+          "在各大区块链论坛俄语区引导讨论",
+          "在创世论坛 BitcoinTalk发起Vite话题",
+          "为Vite社区引荐新用户并协助他们了解Vite项目"
+        ]
+      },
+      "nrz": {
+        "name": "NRZ",
+        "desc": "计算机网络工程师，2016年开始接触区块链，Vite的忠实粉丝和支持者",
+        "contribution": [
+          "在Altcoinstalks论坛的俄语区引导展开Vite相关讨论",
+          "鼓励社区在AppStore留言",
+          "为交易所用户解答问题"
+        ]
+      },
+      "daniel": {
+        "name": "Daniel",
+        "desc": "前端开发者，区块链爱好者",
+        "contribution": [
+          "经常参与社区讨论并为社区用户答疑",
+          "体验Vite产品并提交Bug及技术改进建议",
+          "对论坛中出现的恶意信息给予及时有效的提醒",
+          "创建了从ViteX收集每日数据的脚本，让每个人都可以轻松掌握项目进展"
+        ]
+      },
+      "devaux": {
+        "name": "Chef Devaux (aka Makesushi)",
+        "desc": "前职是航空工程师的寿司师傅， YouTube有一百万+关注的up主",
+        "contribution": [
+          "制作并投放Vite短视频",
+          "在Quora上发起VITE和VX的话题",
+          "创建了加密货币网站并介绍Vite信息"
+        ]
+      },
+      "hope": {
+        "name": "Broke Hope",
+        "desc": "前股票市场参与者，长期战略投资人",
+        "contribution": [
+          "积极参与话腿讨论并提出建议",
+          "在各大社交平台发表Vite相关内容",
+          "邀请新人加入Vite社区"
+        ]
       }
     }
   }

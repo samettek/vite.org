@@ -9,13 +9,12 @@
 import Community from '~/components/community/index.vue';
 import PageHeader from '~/components/PageHeader.vue';
 
-
 export default {
-    components: {
-        Community,
-        PageHeader
-    }
-}
+  components: {
+    Community,
+    PageHeader,
+  },
+};
 </script>
 
 <style lang="scss" scoped>

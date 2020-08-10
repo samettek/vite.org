@@ -16,10 +16,6 @@
     "blog": "Technology Blog",
     "forum": "Forum"
   },
-  "community": {
-    "title": "Community",
-    "star": "Community Stars"
-  },
   "nav": {
     "index": "Home",
     "start": "Get started",
@@ -1915,6 +1911,131 @@
     "join": {
       "title": "Join Vite Technology Community",
       "desc": "为激励社区有能力的团队、开发者一起建设Vite生态，Vite基金会正式推出生态扶持计划，首期针对SBP以生态基金投票的方式进行扶持，所有投票收益均归SBP所有。"
+    }
+  },
+  "community": {
+    "title": "社区生态",
+    "subTitle": "关于社区生态",
+    "desc": "Vite的用户分布在全球180多个国家和地区，社区规模20万人，钱包日活跃用户数2万人。",
+    "stars": {
+      "yandong": {
+        "name": "Yan Dong",
+        "desc": "Vite community developer, full-stack engineer",
+        "contribution": [
+          "Developed and released two DApp games on the Vite Chain, Vite to the Moon and Dice Game",
+          "Assisted Vite team in improving API related documentations and published Vite chain DApp developer guide",
+          "Developed the popular Vite block explorer ViteScan",
+          "Running two SBPs, ViteScan.io and N4Q.org, and sending regular rewards to voters",
+          "An active supporter and promotor of the Vite project, participated frequently in Vite events "
+        ]
+      },
+      "xiaoyu": {
+        "name": "Xiao Yu",
+        "desc": "Early stage blockchain investor since 2012, Vite tech enthusiast",
+        "contribution": [
+          "Vite product tester and bug hunter, recommended useful technical improvements",
+          "Drafted articles on how to compile and debug Vite source code",
+          "Answered questions from Vite fans in various channels  "
+        ]
+      },
+      "jingguang": {
+        "name": "Jingguang Zhang",
+        "desc": "Blockchain enthusiast, focuses on blockchain use cases, strong Vite fan ",
+        "contribution": [
+          "Designed and developed Vite nodes one-click deployment tool that lowered entry barrier for Vite ecosystem builders",
+          "The tool has been released on Ankr cloud and attracted many Ankr users to further decentralize the Vite network"
+        ]
+      },
+      "shuangyanpi": {
+        "name": "Shuangyanpi",
+        "desc": "Blockchain and crypto enthusiast, experienced investor",
+        "contribution": [
+          "Vite Chinese Community Manager",
+          "Promoted Vite project at various blockchain events and through media channels"
+        ]
+      },
+      "duy": {
+        "name": "Nguyen Hoang Duy",
+        "desc": "Active, creative, passionate",
+        "contribution": [
+          "Built communities",
+          "Created marketing plans",
+          "Supported Vietnamese admins in news translation"
+        ]
+      },
+      "amec": {
+        "name": "AMEC",
+        "desc": "AMEC is a crypto and blockchain veteran with 5 years investment experience and 2 years working with crypto companies. He has been invited to speak at various Blockchain events to educate people about blockchain and crypto, and has hosted online crypto seminars. He is currently mentoring a group of enthusiasts in a private crypto community.",
+        "contribution": [
+          "Made tutorial videos: https://www.youtube.com/channel/UC4BQDjmUP_8dUHJ0y15ig-Q",
+          "Created a Vite group on WhatsApp and invited over 400 users;",
+          "Answered queries and managed the community in Nigeria;",
+          "Created visibility for Vite and VX on twitter and other forums;",
+          "Assisted interview-style review of Vite"
+        ]
+      },
+      "abdullah": {
+        "name": "Ammar Abdullah",
+        "desc": "An electrical engineer by training, an artist at heart. I like to create graphics and animation about subjects that I perform deep research for, such as crypto. I have provided graphics/animation service to many blockchain companies. I have won many video competitions.",
+        "contribution": [
+          "Created Vite explainer video: http://youtube.com/watch?v=FRvdP_KcNRk",
+          "Created stickers, graphics and short video during the Binance listing event."
+        ]
+      },
+      "mona": {
+        "name": "Mona Al-Ansary",
+        "desc": "Experienced crypto trader. Strong Vite supporter. Mona is well-known as \"Vite Crazy\"",
+        "contribution": [
+          "Explained to people about Vite and its platform;",
+          "Managed a Twitter account to support Vite: https://twitter.com/vitelover"
+        ]
+      },
+      "greek": {
+        "name": "Greek",
+        "desc": "Crypto investor and trader. Look for projects that benefit the crypto community and create future financial infrastructure for the world.",
+        "contribution": [
+          "Supported Russian-language topics of crypto-forums.",
+          "Posted related topics on BitcoinTalk.",
+          "Helped beginners to understand Vite and brought new members to the community."
+        ]
+      },
+      "nrz": {
+        "name": "NRZ",
+        "desc": "Computer networks engineer. Joined crypto world in 2016. Big fan and supporter of Vite.",
+        "contribution": [
+          "Led topics on the Altcoinstalks forum Russian section.",
+          "Advocated for community reviews in AppStore.",
+          "Helped members on questions of using ViteX exchange."
+        ]
+      },
+      "daniel": {
+        "name": "Daniel",
+        "desc": "Front-End developer, Crypto trader and blockchain troll.",
+        "contribution": [
+          "Participated in group discussions and helped other members in the community.",
+          "Gave suggestions about mobile app bugs constantly.",
+          "Warned other about spam or malicious posts on Vite forum.",
+          "Created a script that collects the daily data from ViteX to allows everyone to monitor project progress."
+        ]
+      },
+      "devaux": {
+        "name": "Chef Devaux (aka Makesushi)",
+        "desc": "Former aerospace engineer turned sushi chef. YouTube influencer with over 1 million followers",
+        "contribution": [
+          "Made Vite short video clips https://www.youtube.com/user/MakeSushi1",
+          "Wrote quora posts about VITE and VX.",
+          "Started a website about crypto and posted information about Vite."
+        ]
+      },
+      "hope": {
+        "name": "Broke Hope",
+        "desc": "Ex Stock Market Trader. Long term investor. Strategist.",
+        "contribution": [
+          "Actively participated in group discussions and gave suggestions.",
+          "Published Vite-related information on various social networks.",
+          "Invited friends and other people to join Vite community."
+        ]
+      }
     }
   }
 }

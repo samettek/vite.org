@@ -19,30 +19,30 @@
 
 <script>
 export default {
-    props: {
-        name: {
-            type: String,
-        },
-        img: {
-            type: String
-        }
+  props: {
+    name: {
+      type: String,
     },
-    computed: {
-        contributions() {
-            let temp = this.$t(`community.stars.${this.name}.contribution`);
-            return Array.isArray(temp) ? temp : [];
-        }
-    }
-}
+    img: {
+      type: String,
+    },
+  },
+  computed: {
+    contributions() {
+      const temp = this.$t(`community.stars.${this.name}.contribution`);
+      return Array.isArray(temp) ? temp : [];
+    },
+  },
+};
 </script>
 
 <style lang="scss" scoped>
 @import "assets/vars.scss";
 
 .cm-card {
-    box-shadow: 0px 4px 24px 0px rgba(211,234,255,0.53); 
+    box-shadow: 0px 4px 24px 0px rgba(211,234,255,0.53);
     padding: 20px;
-    height: 300px;
+    min-height: 300px;
     &__header {
         display: flex;
         flex-direction: row;
@@ -61,6 +61,7 @@ export default {
     }
     &__content {
         margin-top: 10px;
+        word-break: break-all;
     }
     &__item {
         font-family: $font-family-light;
