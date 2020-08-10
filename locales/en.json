@@ -1830,5 +1830,58 @@
         }
       ]
     }
+  },
+  "token": {
+    "title": "VITE Coin",
+    "subTitle": "About Vite Coin",
+    "desc": "VITE作为助力Vite公链生态系统发展的代币，用于支付Vite链上交易手续费。",
+    "info": {
+      "title": "VITE Infomation",
+      "tokenName": "Token Name: VITE",
+      "issueDate": "Release date: 2018-06-15",
+      "totalSuply": "Initial Issuance Amount: 1 Billion"
+    },
+    "distribution": {
+      "sell": "Private Equity",
+      "team": "Team Lock",
+      "foundation": "ecological Fund",
+      "marketing": "Marketing",
+      "airdrop": "Airdrop"
+    },
+    "using": {
+      "title": "User Scenarios for VITE",
+      "stakingForQuota": {
+        "title": "Get Quota",
+        "text": "Unlike most blockchain networks, VITE coin can not be paid as the gas fee because it cost 0-fee to make transactions on Vite network. To protect the whole network from massive malicious usage, users have to stake very little amount to get quota. It will cost Quota to initiate transactions and Quota will respawn over time. Users could claim his staked VITE 3 days later.",
+        "btn": "Stake to Get Quota"
+      },
+      "stakingForMining": {
+        "title": "Stake as Mining",
+        "text": "ViteX is the first DApp of Vite blockchain. Users could stake for ViteX to mine VX. Users could retreat staked VITE 3 days afterward and VITE will be addressed in 7 days.",
+        "btn": "Staking Rules"
+      },
+      "stakingForVip": {
+        "title": "Activate ViteX VIP",
+        "text": "Users can stake 10,000VITE on ViteX to become a VIP and enjoy a 50% off the Base Trading fee.",
+        "btn": "Tutorial"
+      }
+    },
+    "getToken": {
+      "title": "Get VITE",
+      "exchange": "Purchase in Exchanges",
+      "learn": "Learn More",
+      "runSBP": {
+        "title": "Run an SBP",
+        "desc": "Stake 1million VITE for a full node to become an SBP and earn SBP reward. "
+      },
+      "runFullnode": {
+        "title": "Run a Full Node",
+        "desc": "Run a full node and share the daily Full Nodes Reward."
+      },
+      "vote": {
+        "title": "Vote for SBP",
+        "desc": "Normal VITE holders can vote for some certain SBPS to get a share of their SBP reward. Consult community managers for more info."
+      }
+    }
   }
 }

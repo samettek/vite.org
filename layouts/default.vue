@@ -318,7 +318,7 @@ export default {
         {
           type: 'outer',
           name: 'tutorial',
-          to: 'tutorial',
+          to: 'tutorial.start',
         },
         {
           type: 'inner',

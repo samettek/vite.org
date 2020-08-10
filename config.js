@@ -23,8 +23,14 @@ module.exports = {
       },
     },
     tutorial: {
-      zh: 'https://vite.wiki/zh/tutorial/start/',
-      en: 'https://vite.wiki/tutorial/start/',
+      start: {
+        zh: 'https://vite.wiki/zh/tutorial/start/',
+        en: 'https://vite.wiki/tutorial/start/',
+      },
+      vote: {
+        zh: 'https://forum.vite.net/topic/3610/%E6%95%99%E7%A8%8B-%E5%A6%82%E4%BD%95%E5%9C%A8vite-app%E5%86%85%E6%8A%95%E7%A5%A8%E7%BB%99%E8%B6%85%E7%BA%A7%E8%8A%82%E7%82%B9%E5%BE%97vite%E5%A5%96%E5%8A%B1',
+        en: '',
+      },
     },
     weeklyReport: {
       zh: 'https://forum.vite.net/category/8/%E9%A1%B9%E7%9B%AE%E8%BF%9B%E5%BA%A6',
@@ -62,6 +68,17 @@ module.exports = {
       sbp: {
         zh: 'https://forum.vite.net/category/7/%E8%B6%85%E7%BA%A7%E8%8A%82%E7%82%B9',
         en: 'https://forum.vite.net/category/15/sbp-proposals',
+      },
+    },
+    usingVite: {
+      stakingForQuota: {
+        zh: 'https://forum.vite.net/topic/2233/%E5%A6%82%E4%BD%95%E6%8A%B5%E6%8A%BC%E8%8E%B7%E5%BE%97%E9%85%8D%E9%A2%9D',
+      },
+      stakingForMining: {
+        zh: 'https://forum.vite.net/topic/2239/%E5%A6%82%E4%BD%95%E5%9C%A8vitex%E4%B8%AD%E6%8C%96%E7%9F%BF',
+      },
+      stakingForVip: {
+        zh: 'https://forum.vite.net/topic/2242/%E5%A6%82%E4%BD%95%E5%BC%80%E9%80%9A%E4%BA%A4%E6%98%93%E6%89%80vip',
       },
     },
     vitexMine: {

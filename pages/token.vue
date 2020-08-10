@@ -25,8 +25,13 @@
             <div>
                 <div v-for="item in tokenUsing" :key="item.name" class="using-item">
                     <div>
-                        <h3>{{$t(`token.using.${item.name}.title`)}}</h3>
-                        <div v-html="$t(`token.using.${item.name}.text`)"></div>
+                        <div>
+                            <h3>{{$t(`token.using.${item.name}.title`)}}</h3>
+                            <div class="text-wrapper" v-html="$t(`token.using.${item.name}.text`)"></div>
+                        </div>
+                        <div>
+                            <a class="button section-button" :href="item.url" target="_blank">{{$t(`token.using.${item.name}.btn`)}}</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -47,21 +52,21 @@
                         <h3>{{$t(`token.getToken.runSBP.title`)}}</h3>
                         <div class="section-get-token__desc">{{$t(`token.getToken.runSBP.desc`)}}</div>
                         <div>
-                            <a class="button section-button" :href="$t(`token.getToken.runSBP.url`)" target="_blank">{{$t(`token.getToken.learn`)}}</a>
+                            <nuxt-link tab="a" class="button section-button" to="superNodes">{{$t(`token.getToken.learn`)}}</nuxt-link>
                         </div>
                     </div>
                     <div key="runFullnode">
                         <h3>{{$t(`token.getToken.runFullnode.title`)}}</h3>
                         <div class="section-get-token__desc">{{$t(`token.getToken.runFullnode.desc`)}}</div>
                         <div>
-                            <a class="button section-button" :href="$t(`token.getToken.runFullnode.url`)" target="_blank">{{$t(`token.getToken.learn`)}}</a>
+                            <a class="button section-button" :href="$link('docs.fullnode')" target="_blank">{{$t(`token.getToken.learn`)}}</a>
                         </div>
                     </div>
                     <div key="vote">
                         <h3>{{$t(`token.getToken.vote.title`)}}</h3>
                         <div class="section-get-token__desc">{{$t(`token.getToken.vote.desc`)}}</div>
                         <div>
-                            <a class="button section-button" :href="$t(`token.getToken.vote.url`)" target="_blank">{{$t(`token.getToken.learn`)}}</a>
+                            <a class="button section-button" :href="$link('tutorial.vote')" target="_blank">{{$t(`token.getToken.learn`)}}</a>
                         </div>
                     </div>
                 </div>
@@ -111,40 +116,46 @@ export default {
   data() {
     return {
       nodeList,
-      tokenUsing: [
-        {
-          name: 'stakingForQuota',
-          url: '',
-        },
-        {
-          name: 'stakingForMining',
-          url: '',
-        },
-        {
-          name: 'stakingForVip',
-          url: '',
-        },
-      ],
       exchangeList,
-      walletBtns: [
+    };
+  },
+  computed: {
+    walletBtns() {
+      return [
         {
           name: 'ios',
-          url: 'https://vite.net',
+          url: this.$link('viteApp.ios'),
         },
         {
           name: 'android',
-          url: 'https://vite.net',
+          url: this.$link('viteApp.android'),
         },
         {
           name: 'qr',
-          url: 'https://vite.net',
+          url: this.$link('app'),
         },
         {
           name: 'learn',
-          url: 'https://vite.net',
+          url: this.$link('forumContent.app'),
         },
-      ],
-    };
+      ];
+    },
+    tokenUsing() {
+      return [
+        {
+          name: 'stakingForQuota',
+          url: this.$link('usingVite.stakingForQuota'),
+        },
+        {
+          name: 'stakingForMining',
+          url: this.$link('usingVite.stakingForMining'),
+        },
+        {
+          name: 'stakingForVip',
+          url: this.$link('usingVite.stakingForVip'),
+        },
+      ];
+    },
   },
   methods: {
   },
@@ -211,6 +222,15 @@ export default {
             padding: 30px 18px;
             font-size: 14px;
             line-height: 30px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+        }
+        .text-wrapper {
+            text-align: left;
+            margin-bottom: 30px;
         }
         h3 {
             @include title();
