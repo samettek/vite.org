@@ -5,9 +5,9 @@
           <sub-section name="tech" class="sub-section"></sub-section>
           <sub-section name="dex" class="sub-section"></sub-section>
         </div>
-        <home-section class="home-section-fullnode" name="fullnode" :render="['img']" center>
+        <home-section class="home-section-fullnode" :buttons="btnGroups" name="fullnode" :render="['img']" center>
           <template v-slot:img>
-            <w-map :list="nodeList"></w-map>
+            <w-map :list="nodeList" class="node-map"></w-map>
           </template>
         </home-section>
         <section id="team" class="section-team">
@@ -41,16 +41,32 @@ export default {
       nodeList,
     };
   },
+  computed: {
+    btnGroups() {
+      return [
+        {
+          name: 'sbp',
+          url: {
+            name: 'superNodes',
+          },
+        },
+        {
+          name: 'fullnode',
+          url: this.$link('docs.fullnode'),
+        },
+      ];
+    },
+  },
   mounted() {
     this.getNodeList();
   },
   methods: {
     async getNodeList() {
-      let data = await this.$axios.$get('https://stats.vite.net/api/peers/city/aggr');
+      const data = await this.$axios.$get('https://stats.vite.net/api/peers/city/aggr');
       if (data && data.city_info) {
         this.nodeList = data.city_info;
       }
-    }
+    },
   },
 };
 </script>
@@ -75,5 +91,8 @@ export default {
 }
 .section-investor {
   background: #f5faff;
+}
+.node-map {
+  margin-top: 60px;
 }
 </style>
