@@ -47,9 +47,15 @@ module.exports = {
       android: 'https://play.google.com/store/apps/details?id=net.vite.wallet',
     },
     forumContent: {
-      app: 'https://forum.vite.net/category/37/vite%E9%92%B1%E5%8C%85',
+      app: {
+        zh: 'https://forum.vite.net/category/37/vite%E9%92%B1%E5%8C%85',
+        en: 'https://forum.vite.net/category/36/vite-wallet',
+      },
     },
-    vitexMine: 'https://vitex.net/zh/mine',
+    vitexMine: {
+      zh: 'https://vitex.net/zh/mine',
+      en: 'https://vitex.net/mine',
+    },
     vitex: 'https://vitex.net',
     app: 'https://app.vite.net',
     vitestore: {

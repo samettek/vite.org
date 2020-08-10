@@ -119,14 +119,20 @@
     "sections": {
       "whatIsVite": {
         "title": "What is Vite?",
-        "desc": "Vite是一个无手续费的高性能公链，率先实现了基于DAG结构的智能合约。原创的异步架构、分层共识及快照链技术，让Vite的性能和成本处于行业领先水平，可以支持商业级应用。",
+        "desc": [
+          "Vite 是一个无手续费的高性能公链，采用DAG技术，能够同时兼顾安全性、高吞吐、低延迟以及扩展性",
+          "Vite 链上已经搭建了开放式去中心化金融服务，未来我们将让 Vite 链的去中心化金融服务更加开放、好用，从而使 Vite 生态承载更大的价值，满足更广泛的需求，并且吸引更多的真实用户。"
+        ],
         "btnGroup": {
           "learn": "Learn More"
         }
       },
       "product": {
         "title": "Complete Product Family",
-        "desc": "基于Vite公链打造完整产品链，为用户提供健全的产品服务。保证用户资产安全的同时让交易、查询、沟通更便捷，在Vite体系内实现了从交易到存储到流通的全闭环。",
+        "desc": [
+          "基于Vite公链打造完整产品体系，为用户提供健全的去中心化金融产品服务。",
+          "保证用户资产安全的同时让交易、查询、沟通更便捷，在Vite体系内实现了从发行到交易到存储再到流通的全闭环金融服务。"
+        ],
         "btnGroup": {
           "learn": "Learn More"
         },
@@ -147,7 +153,7 @@
         },
         "list": {
           "dapp": "Dapp Development",
-          "cityToken": "美国雪城政府合作项目",
+          "cityToken": "SyraCoin",
           "vitePay": "VitePay and Vite Store"
         }
       },
@@ -168,19 +174,27 @@
           "Recommended by leading crypto mining and staking pools such as BTC.com, Sparkpool, F2Pool, Luxor, and more."
         ],
         "btnGroup": {
-          "ios": "iOS下载",
-          "android": "安卓下载",
-          "qr": "扫码下载",
-          "learn": "了解更多"
+          "ios": "iOS",
+          "android": "Android",
+          "qr": "QR Code",
+          "learn": "Learn More"
         }
       },
       "vitex": {
         "title": "完全去中心化交易所ViteX",
-        "desc": "全球首个基于DAG的完全去中心化交易所，无需KYC，保护个人信息，去中心化治理，挖矿可得平台币VX，享受100%交易所手续费分红，社区自主上币，开交易所像开淘宝店一样简单，助记词自己保管，资产更安全，链上撮合交易，秒级成交，接近中心化体验，支持跨链，可交易任何币种",
+        "desc": [
+          "全球首个基于DAG的完全去中心化交易所，开放式去中心化金融平台",
+          "去中心化治理，持有VX代币参与治理交易所",
+          "享受100%交易所手续费分红",
+          "多种挖矿模式，挖矿可得平台币VX",
+          "去中心化上币，开交易所像开淘宝店一样简单",
+          "链上撮合交易，秒级成交，接近中心化体验",
+          "无需KYC，保护个人信息"
+        ],
         "btnGroup": {
-          "toViteX": "使用ViteX",
-          "getVX": "获得平台币VX",
-          "learn": "了解更多"
+          "toViteX": "Trade on ViteX",
+          "getVX": "Get VX",
+          "learn": "Learn More"
         }
       },
       "fullnode": {
