@@ -59,7 +59,6 @@
               <secondary-menu
                 :theme="navbarTheme"
                 :footer-name="$t(`nav.start`)"
-                footer-to="figure"
                 :secondary-list="navStartList"
               ></secondary-menu>
             </div>
@@ -67,7 +66,6 @@
               <secondary-menu
                 :theme="navbarTheme"
                 :footer-name="$t(`nav.about`)"
-                footer-to="figure"
                 :secondary-list="navAboutList"
               ></secondary-menu>
             </div>
@@ -92,7 +90,6 @@
               <secondary-menu
                 :theme="navbarTheme"
                 :footer-name="$t(`nav.medium`)"
-                footer-to="medium"
                 :secondary-list="navMediaList"
               ></secondary-menu>
             </div>
@@ -102,7 +99,6 @@
                 :theme="navbarTheme"
                 :footer-name="$t(`nav.community`)"
                 :secondary-list="navCommunityList"
-                footer-to="community"
               ></secondary-menu>
             </div>
 
@@ -307,17 +303,17 @@ export default {
         {
           type: 'outer',
           name: 'createWallet',
-          to: 'https://app.vite.net/',
+          to: this.$link('createWallet'),
         },
         {
           type: 'outer',
           name: 'useVitex',
-          to: 'https://vitex.net/',
+          to: this.$link('vitex'),
         },
         {
           type: 'outer',
           name: 'github',
-          to: 'https://github.com/vitelabs/go-vite',
+          to: this.$link('github'),
         },
         {
           type: 'outer',

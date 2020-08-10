@@ -9,7 +9,10 @@ module.exports = {
       vi: 'https://vite.net',
     },
     docs: {
-      vitex: 'https://vite.wiki/dex/',
+      vitex: {
+        en: 'https://vite.wiki/dex/',
+        zh: 'https://vite.wiki/zh/dex/',
+      },
     },
     tutorial: {
       zh: 'https://vite.wiki/zh/tutorial/start/#ru-he-huo-de-vite',
@@ -47,6 +50,7 @@ module.exports = {
       app: 'https://forum.vite.net/category/37/vite%E9%92%B1%E5%8C%85',
     },
     vitexMine: 'https://vitex.net/zh/mine',
+    vitex: 'https://vitex.net',
     app: 'https://app.vite.net',
     vitestore: {
       zh: 'https://vite.store/',
@@ -72,6 +76,7 @@ module.exports = {
       ru: 'https://x.vite.net',
       vi: 'https://x.vite.net',
     },
+    createWallet: 'https://x.vite.net/startCreate',
     desktopWallet: {
       release: 'https://github.com/vitelabs/vite-wallet/releases',
     },
@@ -102,6 +107,7 @@ module.exports = {
     blockfolio: 'https://blockfolio.com/coin/VITE',
     reddit: 'https://www.reddit.com/r/vitelabs',
     github: 'https://github.com/vitelabs',
+    goVite: 'https://github.com/vitelabs/go-vite',
     document: 'https://vite.wiki',
     loopring: 'https://loopring.org',
     faq: '/faq',

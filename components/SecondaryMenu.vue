@@ -2,7 +2,7 @@
   <div class="dropdown is-hoverable" :class="[`dropdown_${theme}`]">
     <div class="dropdown-trigger">
       <button class="button" :class="{'foot-btn': isFooter}">
-        <span v-if="!footerTo">{{ footerName }}</span>
+        <span v-if="!footerTo" class="btn__click">{{ footerName }}</span>
         <nuxt-link :to="localePath(footerTo)" v-else class="btn__click">{{ footerName }}</nuxt-link>
       </button>
     </div>
