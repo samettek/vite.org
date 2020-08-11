@@ -257,6 +257,9 @@ export default {
       color: white;
       border-bottom-color: white;
     }
+    @include mobile() {
+      display: none;
+    }
   }
 
   .btn-group-wrapper {
@@ -290,9 +293,6 @@ export default {
         line-height: 50px;
         margin-right: 14px;
       }
-    }
-    @include touch {
-      margin-top: 12px;
     }
   }
 
@@ -329,7 +329,7 @@ export default {
       flex-direction: row;
       align-items: center;
       flex-wrap: wrap;
-      margin-top: 20px;
+      margin-top: 12px;
       .pop-btn {
         background: transparent;
         padding: 0;

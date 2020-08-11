@@ -388,7 +388,7 @@ $desc-max-width: 600px;
           text-align: right;
           color: #171c34;
           line-height: 24px;
-          width: 120px;
+          width: 140px;
           position: absolute;
           cursor: pointer;
           &:hover {
