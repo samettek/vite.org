@@ -52,13 +52,13 @@
             <fa-icon class="icon__item" :icon="['fab', 'github']"></fa-icon>
           </a>
           <a :href="urls.medium" target="_blank" class="text-hover-transition">
-            <img class="icon__item" src="~/assets/images/footer/medium.svg" />
+            <fa-icon class="icon__item" :icon="['fab', 'medium-m']"></fa-icon>
           </a>
           <a :href="urls.instagram" target="_blank" class="text-hover-transition">
-            <img class="icon__item" src="~/assets/images/community/ins-white.svg" />
+            <fa-icon class="icon__item" :icon="['fab', 'instagram']"></fa-icon>
           </a>
           <a :href="urls.facebook" target="_blank" class="text-hover-transition">
-            <img class="icon__item" src="~/assets/images/community/fb-white.svg" />
+            <fa-icon class="icon__item" :icon="['fab', 'facebook-square']"></fa-icon>
           </a>
           <a :href="urls.discord" target="_blank" class="text-hover-transition">
             <fa-icon class="icon__item" :icon="['fab', 'discord']"></fa-icon>
@@ -80,10 +80,10 @@
             <img class="icon__item" src="~/assets/images/community/blockfolio-white.svg" />
           </a>
           <a :href="urls.media.bitcointalk" target="_blank">
-            <img class="icon__item" src="~/assets/images/footer/bitcoin.svg" />
+            <fa-icon class="icon__item" :icon="['fab', 'bitcoin']" />
           </a>
           <a :href="urls.weibo" target="_blank">
-            <img class="icon__item" src="~/assets/images/footer/weibo.svg" />
+            <fa-icon class="icon__item" :icon="['fab', 'weibo']" />
           </a>
           <wechat></wechat>
         </div>

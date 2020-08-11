@@ -129,10 +129,26 @@ module.exports = {
       },
     },
   },
-  plugins: ['~/plugins/fontawesome', '~/plugins/utilsPlugin'],
+  plugins: ['~/plugins/utilsPlugin'],
   router: {
     mode: 'history',
     scrollBehavior,
+  },
+  buildModules: [
+    '@nuxtjs/fontawesome',
+  ],
+  fontawesome: {
+    icons: {
+      solid: ['faPlusCircle'],
+      brands: [
+        'faTwitter', 'faGithub', 'faLinkedin', 'faDiscord',
+        'faTelegramPlane', 'faReddit', 'faWeixin', 'faYoutube',
+        'faWeibo', 'faFacebookSquare', 'faMediumM', 'faInstagram',
+        'faBitcoin',
+      ],
+    },
+    component: 'FaIcon',
+    suffix: false,
   },
   modules: [
     '@nuxtjs/axios',

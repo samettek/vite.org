@@ -37,6 +37,9 @@
     "xui-module": "^0.1.5"
   },
   "devDependencies": {
+    "@fortawesome/free-brands-svg-icons": "^5.14.0",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@nuxtjs/fontawesome": "^1.1.2",
     "@vue/cli-service": "^4.4.6",
     "@vue/eslint-config-airbnb": "^5.1.0",
     "babel-eslint": "^10.1.0",
