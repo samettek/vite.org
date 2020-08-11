@@ -85,6 +85,7 @@
     "actwait": "敬请期待",
     "news": "最新消息",
     "starttoUse": "开始使用Vite",
+    "hardfork": "开放式金融服务 (第五次硬分叉)",
     "sections": {
       "whatIsVite": {
         "title": "什么是Vite",
@@ -1965,5 +1966,8 @@
         ]
       }
     }
+  },
+  "countdown": {
+    "template": "{days} 天, {hours} 小时, {minutes} 分钟, {seconds} 秒"
   }
 }

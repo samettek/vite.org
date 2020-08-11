@@ -86,6 +86,7 @@
     "actwait": "Stay tuned!",
     "news": "News",
     "starttoUse": "Get Started with Vite",
+    "hardfork": "Open Finance (5th Hardfork)",
     "sections": {
       "whatIsVite": {
         "title": "What is Vite?",
@@ -2011,5 +2012,8 @@
         ]
       }
     }
+  },
+  "countdown": {
+    "template": "{days} days, {hours} hours, {minutes} minutes, {seconds} seconds"
   }
 }

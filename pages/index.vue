@@ -10,6 +10,10 @@
               </h1>
               <h2>{{$t("home.slogan")}}</h2>
             </div>
+            <a class="countdown-wrapper" :href="$link('ann.fifthHardfork')" target="_blank">
+              <div>{{$t('home.hardfork')}}</div>
+              <countdown class="countdown"></countdown>
+            </a>
             <div class="btn-group-wrapper">
               <n-link
                 class="pop-btn"
@@ -51,6 +55,7 @@ import Telegram from '~/components/Telegram';
 import WhitePaper from '~/components/WhitePaper';
 import JoinMailingList from '~/components/JoinMailingList';
 import HomeSection from '~/components/HomeSection';
+import Countdown from '~/components/Countdown';
 
 import config from '~/config.js';
 import imgEn from '~/assets/images/notice/en.jpg';
@@ -70,6 +75,7 @@ export default {
     JoinMailingList,
     WhitePaper,
     HomeSection,
+    Countdown,
   },
   mounted() {},
   data() {
@@ -238,8 +244,23 @@ export default {
     }
   }
 
+  .countdown-wrapper {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 590px;
+    color: rgba(255,255,255, 0.8);
+    border-bottom: 1px dashed rgba(255,255,255, 0.4);
+    &:hover {
+      color: white;
+      border-bottom-color: white;
+    }
+  }
+
   .btn-group-wrapper {
-    margin-top: 86px;
+    margin-top: 50px;
     color: white;
     letter-spacing: 1px;
     text-align: center;
