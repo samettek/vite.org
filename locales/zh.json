@@ -1,13 +1,18 @@
 {
   "lang": "中文",
   "head": {
-    "title": "Vite - 高性能去中心化生态系统",
+    "title": "Vite - 全球首个基于DAG搭建开放式去中心化金融服务的公链",
     "document": "文档",
     "description": {
-      "index": "Vite - 高性能去中心化生态系统",
-      "careers": "欢迎加入Vitelabs，Do something cool",
-      "faq": "有关Vite的所有问题答疑",
-      "technology": "Vite核心技术：DAG、Snapshot Chain、异步架构、响应式合约、配额租赁、集成路印协议、定时调度、合约升级、solidity++"
+      "index": "Vite - 全球首个基于DAG搭建开放式去中心化金融服务的公链",
+      "airdrop": "Vite - 下载 Vite Wallet 参与空投",
+      "community": "Vite - Vite的用户分布在全球180多个国家和地区，社区规模20万人，钱包日活跃用户数2万人。",
+      "development": "Vite - 加入Vite，成为开发者",
+      "ecosystem": "Vite - 在众多项目和社区伙伴的共同努力下，在Vite公链基础上搭建了完整的生态场景，越来越多的社区用户正在积极参与到Vite生态建设中。",
+      "faq": "Vite - 问题答疑",
+      "superNodes": "Vite - 超级节点说明",
+      "token": "Vite - 关于Vite代币",
+      "whatIsVite": "Vite - 全球首个基于DAG搭建开放式去中心化金融服务的公链"
     }
   },
   "media": {
@@ -57,37 +62,7 @@
     "javaSDK": "Java SDK",
     "jsSDK": "Javascript SDK",
     "vitexDocs": "ViteX 文档",
-    "vep": "Vite 提案",
-
-    "platform": "平台",
-    "wallet": "钱包",
-    "exchange": "交易所",
-    "binance_url": "https://www.binancezh.com/cn/trade/VITE_BTC",
-    "pay": "支付",
-    "person": "人物",
-    "counselor": "顾问",
-    "global": "全球社区管理员",
-    "superNodes": "超级节点说明",
-    "nodeList": "候选超级节点",
-    "sbp": {
-      "name": "超级节点",
-      "specific": "超级节点说明",
-      "apply": "申请超级节点"
-    },
-    "video": "官方视频",
-    "blogs": "官方博客",
-    "tokenTransaction": "代币交易",
-    "okex": "OKEX.COM",
-    "bittrex": "BITTREX",
-    "okexKr": "OKEX Korea",
-    "guide": "指南",
-    "airdrop": "空投",
-    "wiki": "WIKI",
-    "blog": "技术博客",
-    "whitepaper": "白皮书",
-    "more": "更多",
-    "explorer": "区块浏览器",
-    "store": "Vite商城"
+    "vep": "Vite 提案"
   },
   "home": {
     "gotoVitex": "去ViteX交易",

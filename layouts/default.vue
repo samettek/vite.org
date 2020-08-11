@@ -128,24 +128,16 @@
 import Cookies from 'js-cookie';
 import dialogCompo from '~/components/dialog/component.vue';
 import LangSelect from '~/components/LangSelect.vue';
-import Logo from '~/components/Logo.vue';
 import Footer from '~/components/Footer.vue';
 import config from '~/config';
-import about from '~/components/about.vue';
-import Exchange from '~/components/Exchange.vue';
 import SecondaryMenu from '~/components/SecondaryMenu.vue';
-import Explorer from '~/components/Explorer.vue';
 
 export default {
   components: {
     LangSelect,
-    Logo,
     VFooter: Footer,
-    Exchange,
-    about,
     dialogCompo,
     SecondaryMenu,
-    Explorer,
   },
   head() {
     const { routeName } = this;

@@ -1,13 +1,18 @@
 {
   "lang": "EN",
   "head": {
-    "title": "Vite - High-Performance Decentralized Ecosystem",
-    "document": "Document",
+    "title": "Vite - 全球首个基于DAG搭建开放式去中心化金融服务的公链",
+    "document": "文档",
     "description": {
-      "index": "Vite - High-Performance Decentralized Ecosystem",
-      "careers": "Welcome to join our Vitelabs, Let's create A New Generation of High-Performance Decentralized Application Platform",
-      "faq": "All about FAQs of Vite",
-      "technology": "The key technologies of Vite: DAG、Snapshot Chain、Asynchronous Architecture、Reactive Contract、Quota leasing、Loopring Integrated、Timer scheduling、Contract Upgrade、solidity++"
+      "index": "Vite - 全球首个基于DAG搭建开放式去中心化金融服务的公链",
+      "airdrop": "Vite - 下载 Vite Wallet 参与空投",
+      "community": "Vite - Vite的用户分布在全球180多个国家和地区，社区规模20万人，钱包日活跃用户数2万人。",
+      "development": "Vite - 加入Vite，成为开发者",
+      "ecosystem": "Vite - 在众多项目和社区伙伴的共同努力下，在Vite公链基础上搭建了完整的生态场景，越来越多的社区用户正在积极参与到Vite生态建设中。",
+      "faq": "Vite - 问题答疑",
+      "superNodes": "Vite - 超级节点说明",
+      "token": "Vite - 关于Vite代币",
+      "whatIsVite": "Vite - 全球首个基于DAG搭建开放式去中心化金融服务的公链"
     }
   },
   "media": {
@@ -58,39 +63,7 @@
     "javaSDK": "Java SDK",
     "jsSDK": "Javascript SDK",
     "vitexDocs": "ViteX Docs",
-    "vep": "Vite Enhancement Proposal",
-
-
-    "platform": "Platform",
-    "wallet": "Wallet",
-    "exchange": "Exchange",
-    "pay": "Payment",
-    "person": "People",
-    "counselor": "Advisors",
-    "global": "Community Managers",
-    "superNodes": "Guide for SBP (Snapshot Block Producer)",
-    "nodeList": "SBP Candidates",
-    "notice": {
-      "name": "SuperNodes",
-      "specific": "Guide for SBP (Snapshot Block Producer)",
-      "apply": "Apply for SBP (Snapshot Block Producer) "
-    },
-    "video": "Videos",
-    "blogs": "Blog",
-    "tokenTransaction": "Trade",
-    "binance": "BINANCE",
-    "binance_url": "https://www.binance.com/en/trade/VITE_BTC",
-    "okex": "OKEX.COM",
-    "bittrex": "BITTREX",
-    "okexKr": "OKEX Korea",
-    "guide": "Guide",
-    "airdrop": "Airdrop",
-    "whitepaper": "White Paper",
-    "wiki": "WIKI",
-    "blog": "Tech Blog",
-    "more": "More",
-    "explorer": "Block Explorer",
-    "store": "Vite Store"
+    "vep": "Vite Enhancement Proposal"
   },
   "home": {
     "gotoVitex": "Trade on ViteX Now!",
