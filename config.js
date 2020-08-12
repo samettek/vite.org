@@ -14,8 +14,8 @@ module.exports = {
         zh: 'https://vite.wiki/zh/dex/',
       },
       quota: {
-        en: 'https://vite.wiki/zh/tutorial/rule/quota.html',
-        zh: 'https://vite.wiki/tutorial/rule/quota.html',
+        en: 'https://vite.wiki/tutorial/rule/quota.html',
+        zh: 'https://vite.wiki/zh/tutorial/rule/quota.html',
       },
       fullnode: {
         en: 'https://vite.wiki/tutorial/node/install.html',
