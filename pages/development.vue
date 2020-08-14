@@ -9,8 +9,8 @@
                     <div class="dev-support__item">
                         <h4>{{$t('development.support.sdk.title')}}</h4>
                         <div>
-                            Go, <a :href="$link('docs.js')" target="_blank">JS/TS</a>,
-                            <a :href="$link('docs.java')" target="_blank">Java</a>
+                            Go SDK, <a :href="$link('docs.js')" target="_blank">JavaScript/TypeScript</a>,
+                            <a :href="$link('docs.java')" target="_blank">Java SDK</a>
                         </div>
                     </div>
                     <div class="dev-support__item">

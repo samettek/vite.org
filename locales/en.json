@@ -182,50 +182,52 @@
       },
       "dapp": {
         "title": "DApp Development",
-        "desc": "Community developers can develop games with smart-contract",
+        "desc": "Build your DeFi, crowdfunding platforms, DEX, payment networks, DApp games, and more in smart contracts on the Vite public chain.",
         "btnGroup": {
           "learn": "Learn More"
         }
       },
       "devTool": {
         "title": "Development Tools",
-        "desc": "Developers are welcome to develop applications on Vite blockchain. There are a full set of development tools and resources. It cost only 10VITE to deploy a new contract on Vite blockchain. ",
+        "desc": [
+          "With tremendous development toolkits and unprecedented low cost, Vite is making the construction of decentralized applications on the blockchain never easier. ",
+          "To create a smart contract on Vite only costs 10 VITE, and sending transactions as well as calling smart contracts is completely free."
+        ],
         "btnGroup": {
           "learn": "Learn More"
         }
       },
       "incentive": {
-        "title": "Vite Ecosystem Fund Incentive Plan",
+        "title": "Vite Ecosystem Incentive Plan",
         "desc": [
-          "In order to motivate and incentivize the participation of both existing and new capable teams and developers from our community to build together the Vite ecosystem, Vite Labs will be releasing gradually a series of ecosystem incentive plans. ",
-          "The first of the series is designed to support the operation of supernodes by voting to selected SBPs with Vite eco-funds, all voting proceeds will accrue to SBPs."
+          "In order to encourage 3rd-party teams and developers to the Vite ecosystem, the Vite Foundation officially launches the Ecosystem Incentive Plan. The first bunch of awards is credited to the SBPs who actively contribute to the success of Vite in the form of voting."
         ],
         "btnGroup": {
           "learn": "Learn More"
         }
       },
       "community": {
-        "title": "Community",
-        "desc": "Vite users are distributed across 180 countries and regions around the world, with a community of 200,000 people. Daily active wallet users are 20,000. ",
+        "title": "The Community",
+        "desc": "The Vite community is across 180 countries and regions in the world, with over 200,000 users and developers. The DAU of Vite wallet is 20,000.",
         "btnGroup": {
           "join": "Join Us"
         }
       },
       "syracoin": {
-        "title": "Cooperation with Syracuse ",
+        "title": "Government Cooperation",
         "desc": [
-          "In January 2019, Vite and the Syracuse Government of New York State reached a cooperation to solve the housing problem of low-income citizens by using blockchain technology. Based on Vite blockchain, a DApp called SyraCoin was developed to help the government solve the local people's livelihood problems. It becomes a blockchain scenario in the field of municipal service."
+          "In January 2019, Vite and the City of Syracuse of New York State announced the partnership to solve the housing problem of low-income citizens based on the technology of Vite. A municipal token economy called SyraCoin was launched to improve housing stability and reduce resident transiency."
         ],
         "btnGroup": {
-          "whitePaper": "WhitePaper",
+          "whitePaper": "White Paper",
           "learn": "Learn More"
         }
       },
       "vitepay": {
-        "title": "Vite Pay + Vite Store",
+        "title": "Vite Pay & Vite Store",
         "desc": [
-          "In December 2019, Vite Labs and Alchemy reached a strategic partnership and announced that they will jointly explore the promotion of blockchain technology in the field of payment. Thus, VITE coins are accepted at Alchemy merchants. ","An open-source multi-currency wallet that supports crypto assets of different chains.",
-          "Users can experience instant payment of VitePay in ViteStore."
+          "In December 2019, Vite has announced a strategic partnership with Alchemy in jointly exploring the usage of blockchain in the space of payment and getting VITE coins accepted at Alchemy's merchants.",
+          "Users can also enjoy the convenience of instant, Vite-chain-based payment in ViteStore."
         ],
         "btnGroup": {
           "learn": "Learn More",
@@ -233,11 +235,11 @@
         }
       },
       "joinDev": {
-        "title": "加入Vite技术社区",
-        "desc": "为激励社区有能力的团队、开发者一起建设Vite生态，Vite基金会正式推出生态扶持计划，首期针对SBP以生态基金投票的方式进行扶持，所有投票收益均归SBP所有。",
+        "title": "Join the Vite Developer Community",
+        "desc": "In order to encourage 3rd-party teams and developers to the Vite ecosystem, the Vite Foundation officially launches the Ecosystem Incentive Plan. The first bunch of awards is credited to the SBPs who actively contribute to the success of Vite in the form of voting.",
         "btnGroup": {
-          "techGroup": "Vite技术群",
-          "toForum": "前往论坛交流"
+          "techGroup": "Vite Technical Group",
+          "toForum": "Discuss on Forum"
         }
       }
     }
@@ -1857,23 +1859,23 @@
     }
   },
   "ecosystem": {
-    "title": "Productive Ecosystem",
-    "subTitle": "About Echosystem",
-    "desc": "With the joint efforts of team and community, a complete ecosystem has been built on the basis of the Vite blockchain. More and more community members participate in ecosystem development."
+    "title": "The Prosperous Ecosystem",
+    "subTitle": "About Ecosystem",
+    "desc": "With the joint efforts of the team and community, a multi-tiered, fully functional ecosystem has been established on Vite. Embrace the decentralized digital life and open finance on the Vite blockchain."
   },
   "development": {
-    "title": "成为Vite开发者",
-    "subTitle": "加入Vite，成为开发者",
-    "desc": "我们欢迎开发者在Vite公链开发应用，Vite拥有完整的开发工具及资源，创建合约成本只需要10VITE，超低的成本将为Vite带来更广泛的应用。",
+    "title": "Become a Vite Developer",
+    "subTitle": "Join the Vite Ecosystem as a Developer",
+    "desc": "With tremendous development toolkits and unprecedented low cost, Vite is making the construction of decentralized applications on the blockchain never easier. <br>To create a smart contract on Vite only costs 10 VITE, and sending transactions as well as calling smart contracts is completely free.",
     "btnGroup": {
       "wiki": "Wiki",
-      "github": "Github",
-      "smartContract": "智能合约"
+      "github": "GitHub",
+      "smartContract": "Learn about Vite Smart Contract"
     },
     "support": {
       "title": "Technical Support",
       "sdk": {
-        "title": "Language Supported"
+        "title": "Multi-language SDKs"
       },
       "docs": {
         "title": "Development Resources",
