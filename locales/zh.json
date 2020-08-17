@@ -23,7 +23,7 @@
   "nav": {
     "index": "首页",
     "start": "开始",
-    "getToken": "获取代币",
+    "getToken": "获取Vite代币",
     "createWallet": "创建钱包",
     "useVitex": "使用ViteX交易所",
     "github": "Github",
@@ -57,12 +57,12 @@
     "viteScan": "Vitescan.com",
     "viteExplorer": "Vite 区块浏览器",
     "webWallet": "Web 钱包",
-    "desktopWallet": "Win/Mac 钱包",
+    "desktopWallet": "桌面版钱包",
     "docs": "开发文档",
     "javaSDK": "Java SDK",
     "jsSDK": "Javascript SDK",
     "vitexDocs": "ViteX 文档",
-    "vep": "Vite 提案"
+    "vep": "VEP"
   },
   "home": {
     "gotoVitex": "去ViteX交易",

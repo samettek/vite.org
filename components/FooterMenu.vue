@@ -12,6 +12,7 @@
             v-if="item.type && item.type === 'outer'"
             >
             <a
+              v-if="item.to"
               class="secondary-item"
               target="_blank"
               :href="item.to"
