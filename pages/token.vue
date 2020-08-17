@@ -151,8 +151,8 @@ export default {
           url: this.$link('usingVite.stakingForMining'),
         },
         {
-          name: 'stakingForVip',
-          url: this.$link('usingVite.stakingForVip'),
+          name: 'votingForSBP',
+          url: this.$link('usingVite.votingForSBP'),
         },
       ];
     },

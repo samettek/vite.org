@@ -136,12 +136,13 @@
         }
       },
       "wallet": {
-        "title": "Download Vite Wallet App",
+        "title": "Download Vite App",
         "desc": [
-          "An open-source multi-currency wallet that supports crypto assets of different chains.",
+          "A Full Stack Open Finance App.",
+          "An open-source multi-chain HD wallet supporting VITE, ETH, ERC20 tokens, BNB, GRIN, and more.",
           "Enable secure and easy management with only one set of mnemonic phrases.",
-          "Built-in DEX ensures instant trading and mining.",
-          "Built-in DApps balances requirements between entertainment and investment.",
+          "DEX Built-in for instant trading and mining.",
+          "Various DApps installed balancing your entertainment and investment.",
           "Recommended by leading crypto mining and staking pools such as BTC.com, Sparkpool, F2Pool, Luxor, and more."
         ],
         "btnGroup": {
@@ -169,15 +170,15 @@
         }
       },
       "fullnode": {
-        "title": "Global Nodes",
+        "title": "The Global Node Network",
         "desc": [
-          "Vite nodes are across 184 countries and regions around the world. Individuals and institutions are welcome to become Vite nodes.",
-          "There are two types of Vite nodes: full nodes and SBP. ",
-          "There is an inflation of 30 million VITE every year and they could be distributed to SBPs as mining rewards."
+          "Since the \"Go-Live\" of Vite Mainnet on September 25, 2019, Vite nodes have been across 184 countries and regions around the world, with a total number of over 1,200. Hit the buttons below to learn about how to run Vite nodes.",
+          "There are two types of Vite nodes: Full Node and SBP (Snapshot Block Producer).",
+          "Each year, a total amount of 30 million VITE are minted and distributed to SBPs as mining rewards."
         ],
         "btnGroup": {
-          "sbp": "SBP Instruction",
-          "fullnode": "Full Node Instruction"
+          "sbp": "Become SBP",
+          "fullnode": "Run a Full Node"
         }
       },
       "dapp": {
@@ -961,18 +962,6 @@
         "position": "Silicon Valley",
         "description": "Seasoned Wall Street Professional. Graduated with a B.A. from Dartmouth College and an MBA from New York University. Previously held roles as a Structured Product Trading Strategist at Goldman Sachs and Vice President of Two Sigma's high-frequency platform and Business Innovation & Growth group."
       },
-      "frank": {
-        "name": "Frank Deng",
-        "job": "Director of Vite Foundation",
-        "position": "Beijing",
-        "description": "Seasoned expert in Digital and Mobile Marketing. Graduated from Tsinghua University. Previously held a strategic position for Google Ad Operations. Former CEO of Suizong Technology. Co-founder of Yunke Technology."
-      },
-      "allen": {
-        "name": "Allen Liu",
-        "job": "Silicon Valley Technical Director",
-        "position": "Silicon Valley",
-        "description": "Senior Technical Specialist. Graduated from University of Science and Technology of China and Fudan University. Former HP Tech Lead. Former IBM Senior Architect and Product Manager. 10 years of experience working with high concurrency systems at multinational firms. Certified Scrum expert and Project Management Professional. "
-      },
       "zhangli": {
         "name": "Li Zhang",
         "position": "Beijing",
@@ -999,215 +988,17 @@
         "position": "Beijing",
         "description": "Seasoned Blockchain Investor and Senior Technical Expert. Previously led engineering efforts at Meituan-Dianping and Coinport."
       },
-      "Chris Li": {
-        "name": "Chris Li",
-        "job": "CSO",
-        "position": "Silicon Valley",
-        "description": "Chris is a seasoned practitioner in the blockchain industry. He has extensive experience in  investing, business development, and  business operations. He is the former Director of US Operations at GBiB. Chris has also worked for ZGC Capital, serving as an investment  manager. His responsibilities at Zhongguancun Development Group were tied to and Silicon Valley incubator operations. Additionally, Chris has worked for a Wall Street-based incubator, taking a position with the Business Development and Investment team. Chris has a Master of Engineering degree from Lehigh University, with a focus Industrial Engineering."
-      },
-      "Luke Kim": {
-        "name": "Luke Kim",
-        "job": "CMO",
-        "position": "Silicon Valley",
-        "description": "Luke is a digital entrepreneur hailing from Seoul and Tokyo, currently based in California. Formerly, he was the Business Development Manager at City Innovate Foundation and SuperPublic CoLab at United Nations Plaza. He also held positions as Head of US Relations at European Innovation Academy and Director of Strategic Partnerships at Gateway Accelerator and VC. He is also a Co-founder of Startup Grind Berkeley, 3 Day Startup Berkeley, and Paladin Partners. Most recently, Luke worked on a crypto-asset fund and ICO for a Swiss asset management firm, while also channeling efforts into a tech accelerator for a South Korean startup. He holds a B.A. Bachelor of Art's degree in the Political Economy of Europe from University of California, Berkeley."
-      },
-      "Juliet Su": {
-        "name": "Juliet Su",
-        "job": "Operations Manager",
-        "position": "Silicon Valley",
-        "description": "Juliet got her degree in chemistry from the California Institute of Technology, where she conducted research at the Frances Arnold Lab (winner of 2018 Nobel Prize) using directed evolution to engineer proteins. Post-graduating, she decided chemistry was not quite right for her, and went on to explore the business world instead. She brings operating experience from a BioTech startup and from building a photography business."
-      },
-      "Emmanuel Darko": {
-        "name": "Emmanuel Darko",
-        "job": "Business Development Manager, Africa",
-        "position": "Silicon Valley",
-        "description": "Co-founder and VP of Marketing at ICOWatchlist and ex-banker in commercial and investment banking. He has been in the blockchain space since 2016 and has worked with over 300 projects in the industry. He is deeply connected in the African ecosystem, both public and private sectors. He is also the founder of Toks.Tech."
-      },
-      "Francesco": {
-        "name": "Francesco Bisardi",
-        "job": "Marketing Manager",
-        "position": "Silicon Valley",
-        "description": "Francesco started coding at 9 YO. Former National Italian Powerlifting Champion 17 YO.  He is a seasoned professional with 7 years of experience inside Entrepreneurship & Marketing, and a certified program manager.He collected experience inside the University Technology Transfer Office (Unical- Italy), European Innovation Academy (215 universities, 85 countries),  StartupGrind (150 countries powered by Google for Startups). He has a Bachelor's degree in Business Administration and MIB(HULT +150 countries). He was a teaching faculty for Erasmus+ (EU) and he worked as an advisor for different companies, he is in blockchain since 2017."
-      },
-      "Jeff Ng": {
-        "name": "Jeff Ng",
-        "job": "Project Manager",
-        "position": "Silicon Valley",
-        "description": "Apart from being a blockchain enthusiast, Jeff is an experienced Vite community manager and member. The versatility of his work experiences include working in logistics, inventory management, manufacturing, blogging, and art collecting. Jeff graduated as a Mechanical Engineer from Cal Poly, San Luis Obispo."
-      },
-      "Lola": {
-        "name": "Lola Li",
-        "job": "Product Manager",
-        "position": "Beijing",
-        "description": "Lola is an experienced financial specialist who has worked for Deloitte as an investment manager dealing with private equity funds. She has also taken responsibility of managing TMT projects in the past. Lola's interdisciplinary background is highlighted by her Master's Degree in Finance from Xi'an Jiaotong University and her Bachelor of Science degree from Dalian University of Technology. Her focus was in Software Engineering.  "
-      },
-      "Logan": {
-        "name": "Logan Cao",
-        "job": "iOS Developer",
-        "position": "Beijing",
-        "description": "Logan has worked for 4 years in the iOS development field. He has previously developed 3 different applications, which have garnered hundreds of millions of daily active users."
-      },
-      "Stone": {
-        "name": "Stone Xia",
-        "job": "iOS Developer",
-        "position": "Beijing",
-        "description": "Stone has over 5 years of experience in iOS development, working with Chinese IT companies in the past."
-      },
-      "jerry": {
-        "name": "Jerry Yin",
-        "job": "Back-End Developer",
-        "position": "Beijing",
-        "description": "Jerry has over 5 years of experience in back-end service development, previously working for a select number of Chinese IT firms."
-      },
-      "Alex": {
-        "name": "Alex Hu",
-        "job": "Compiler Software Engineer",
-        "position": "Beijing",
-        "description": "Alex has over 3 years of experience in back-end service development. He formerly worked as a back-end engineer for the well-known firm, Baidu."
-      },
-      "Tuprise": {
-        "name": "Tuprise Yuan",
-        "job": "Back-End Developer",
-        "position": "Beijing",
-        "description": "Tuprise has over 7 years of experience in back-end service development and architecture. He worked for a series of notable IT companies, including Yilong and Yaxin. Tuprise is a seasoned developer in Big Data Processing and high concurrency systems."
-      },
-      "viteLiz": {
-        "name": "Liz Chen",
-        "job": "VM Developer",
-        "position": "Beijing",
-        "description": "Liz has over 3 years of experience in back-end service development. She formerly worked for a well-known IT company in China."
-      },
-      "Abbott": {
-        "name": "Abbott Jia",
-        "job": "QA",
-        "position": "Beijing",
-        "description": "Abbott has 4 years of experience working in Quality Assurance. Previously, he was in charge of testing driver-end issues within Meituan's ride-hailing services. Abbott is a seasoned expert in Testing and Risk Management."
-      },
-      "Layla": {
-        "name": "Layla Wang",
-        "position": "Beijing",
-        "job": "UI Designer",
-        "description": "Layla has 5 years of design experience including brand, app, and website design."
-      },
-      "hubery": {
-        "name": "Hubery Li",
-        "job": "Back-End Developer",
-        "position": "Beijing",
-        "description": "Hubery is a graduate of Xidian University, with over 5 years of experience in IT development. He previously worked for Tencent and Yuantiku."
-      },
-      "Cecelia": {
-        "name": "Cecelia Chen",
-        "job": "Front-End Developer",
-        "position": "Beijing",
-        "description": "Cecelia has 3 years of experience in front-end development and she has showcased at notable Chinese firms."
-      },
-      "viteshan": {
-        "name": "Shan Wang",
-        "job": "Back-End Developer",
-        "position": "Beijing",
-        "description": "Shan has over 3 years of experience in IT development. He formerly worked for a well-known IT company in China."
-      },
       "Ada": {
         "name": "Ada Zhu",
         "job": "Senior Researcher",
         "position": "Beijing",
         "description": "Ada has previously worked in Tencent and JD and has over 5 years of experience in Machine Learning Algorithm Development and Big Data analytics."
       },
-      "Jin": {
-        "name": "Jin Ge",
-        "job": "Back-End Developer",
-        "position": "Beijing",
-        "description": "Jin has 3 years of experience working in developing the Chinese Internet finance industry."
-      },
-      "Shenyang": {
-        "name": "Shenyang Hao",
-        "job": "iOS Developer",
-        "position": "Beijing",
-        "description": "Shenyang has over 4 years of experience in iOS development, working for some popular IT companies in China."
-      },
-      "Eric": {
-        "name": "Eric Wang",
-        "job": "System Architect",
-        "position": "Beijing",
-        "description": "Eric has previously worked with top IT firms in China, including Baidu. He is an expert in back-end services and data system development. He has experience with system architecture, designing systems that can process over 20,000 queries per second. Eric has also formerly led an engineering team of 15+ members, so he has management experience as well."
-      },
-      "Asurily": {
-        "name": "Otis He",
-        "job": "Back-End Developer",
-        "position": "Beijing",
-        "description": "Otis has 3 years of experiences working on blockchain projects. He holds a Master's degree from Northeastern University. His academic research focused on blockchain technology and data storage studies."
-      },
-      "Cassie": {
-        "name": "Cassie Liu",
-        "job": "Product Operations",
-        "position": "Beijing",
-        "description": "Cassie has 5 years of experience implementing marketing strategies for business operations. She has previously worked in both the finance and technology sectors, respectively."
-      },
-      "Reg": {
-        "name": "Reg Yuan",
-        "job": "Front-End Developer",
-        "position": "Beijing",
-        "description": "Reg has worked in the front-end development field for 3 years with a variety of firms."
-      },
-      "Daisy": {
-        "name": "Daisy Zhou",
-        "job": "Front-End Developer",
-        "position": "Beijing",
-        "description": "Daisy has 3 years of front-end development experience. She is proficient in Vue, Node, and other developmental frameworks."
-      },
-      "Tiantao": {
-        "name": "Tiantao Zhu",
-        "job": "Back-End Developer",
-        "position": "Beijing",
-        "description": "Tiantao has over 4 years of experience in back-end service development, previously working for a select number of Chinese IT firms."
-      },
-      "weichao": {
-        "name": "Weichao Li",
-        "job": "System Architect",
-        "position": "Beijing",
-        "description": "Weichao has over 7 years of experience in back-end service architectural design. He has designed systems that process more than 20,000 queries per second."
-      },
       "Zack": {
         "name": "Blackey Hou",
         "job": "CPO",
         "position": "Beijing",
         "description": "Zack graduated from Beijing University of Posts and Telecommunications with a Master's Degree. He has over 4 years of experience working with IT products and has worked for prestigious firms, the likes of DiDi and Baidu. There he was in charge of managing applications with millions of daily active users (DAU)."
-      },
-      "Tina": {
-        "name": "Tina",
-        "job": "Product Manager",
-        "position": "Beijing",
-        "description": "Tina has 3 years of front-end development experience and 1 year of experience in PM. She graduated from Nanyang Technological University in Singapore, with a Master's of Science in Information Studies. Tina has previously worked at technology firms in both China and Singapore."
-      },
-      "Rod": {
-        "name": "Rod Luo",
-        "job": "Back-End Developer",
-        "position": "Beijing",
-        "description": "Rod has over 5 years of experience in back-end design and development, previously working for a series of top-ranking IT firms in China."
-      },
-      "Tony": {
-        "name": "Tony Wang",
-        "job": "Director of Operations",
-        "position": "Beijing",
-        "description": "Tony has over 6 years of experience working in the Product Operations field. He has previously worked for Meituan-Dianping and Tencent, handling products gross merchandise values of over 100 million active users. Tony is a truly seasoned project manager, responsible for leading many innovative projects."
-      },
-      "Flanke": {
-        "name": "Flanke Zhang",
-        "job": "Product Operations",
-        "position": "Beijing",
-        "description": "Flanke has 3 years of experience studying brand operations and has previously worked for iHeima and Xiangshang Finance."
-      },
-      "Hannah": {
-        "name": "Hannah Fong",
-        "job": "QA",
-        "position": "Beijing",
-        "description": "Hannah has 2 years of experience in Development testing, partaking in projects that designed testing frameworks. She also has 2 years of experience in back-end storage system testing and is familiar with the Gluster File System. Hannah has formerly cooperated with military-related enterprises, evoking knowledge on how to manage both data security and encrypted storage fields."
-      },
-      "Miya": {
-        "name": "Miya Li",
-        "job": "UI Designer",
-        "position": "Beijing",
-        "description": "Miya has 3 years of experience  working on User Interface design and has participated in several industrial IT projects.Miya formerly worked at a large state-owned enterprise, serving as a Chief Designer."
       },
       "Oleg": {
         "name": "Олег Игоревич (Oleg Igorevych)",
@@ -1233,26 +1024,6 @@
         "name": "Takeshi",
         "position": "Japan",
         "description": "Seasonal blockchain practitioner. Involved in the formation of crypto communities through a forex FX trader. Worked as a human resources manager of a well-know Japanese company."
-      },
-      "snaker": {
-        "name": "Snaker Zhang",
-        "position": "China",
-        "description": "He has worked as an executive producer for a TV media and has 15 years of experience in the media industry. He is a blockchain technology enthusiast and digital currency investor, currently served as a Vite community manager."
-      },
-      "liyang": {
-        "name": "Yang Li",
-        "position": "China",
-        "description": "He graduated from Beijing Institute of Technology and worked as a project manager in the R&D department of Beijing Guodian Technology Industry Group. With more than 7 years of development experience, he is a blockchain technology researcher and early participant in the Vite community. He has in-depth research on DAG-based infrastructure public chain technology."
-      },
-      "chenle": {
-        "name": "Le Chen",
-        "position": "China",
-        "description": "He graduated from Changchun University of Science and Technology. He worked in the China Banknote Blockchain Research Institute under the Central Bank, and later engaged in stock trading development. He has three years of experience in virtual currency investment and two years of community management experience. He is currently a vite community administrator."
-      },
-      "qingshui": {
-        "name": "Qing Shui",
-        "position": "China",
-        "description": "Early investors in the currency circle have rich investment experience and currency resources. Participated in the early investment of many excellent projects such as EOS, Bell, IDA, Lud, etc., and assisted in community construction and operation with rich experience. "
       }
     }
   },
@@ -1757,82 +1528,87 @@
     "investor": "Investors",
     "partner": "Partners",
     "subTitle": "About Vite",
-    "desc": "Vite is a high-performance public chain with no transaction fees. Driven by asynchronous architecture and DAG technology, it is designed to support highly scalable applications by offering high reliability, low latency, and security. <br><b>In the definition of “Borderless transfer of value, composability of protocols, and open ecosystem and governance”, Decentralized Open Finance is that the Vite team has been dedicated to, and firmly practicing since 2018 when we included “ecosystem of values” in a core goal of Vite. </b>The idea is to create basic infrastructure and practical applications around asset issuance, decentralized exchange, stablecoins, payment, and cross-chain asset transfers.",
+    "desc": "Vite is a high-performance public chain with no transaction fees. Driven by asynchronous architecture and DAG technology, it is specifically designed for highly scalable applications by offering high reliability, low latency, and security. <br><b>In the definition of “Borderless transfer of value, composability of protocols, and open ecosystem and governance”, Decentralized Open Finance is that the Vite team has been dedicated to, and firmly practicing since 2018 when we included “ecosystem of values” in a core goal of Vite. </b>The idea is to create basic infrastructure and practical applications around asset issuance, decentralized exchange, stablecoins, payment, and cross-chain asset transfers.",
     "tech": {
-      "title": "The Only Truly Decentralized Exchange in the World",
+      "title": "The World's First Public Chain Based on DAG with Smart Contract Capability",
       "features": {
         "dag": "DAG",
         "throughput": "High TPS",
         "confirm": "Instant Confirm",
-        "nofee": "Zero-fee Transaction",
-        "snapshotchain": "Snapshot-chain",
+        "nofee": "Zero-Fee Transaction",
+        "snapshotchain": "Snapshot Chain",
         "dex": "Built-in DEX"
       },
       "desc": [
         {
-          "title": "01",
-          "text": "HDPoS consensus algorithm costs no fee for transactions and takes only 1 second to confirm; <br>The asynchronous structure ensures quick transactions and high throughputs;"
+          "title": "Fast, Fee-less",
+          "text": "The novel HDPoS consensus algorithm and asynchronous structure costs no fee for transactions and takes only one second to confirm."
         },
         {
-          "title": "02",
-          "text": "Solidity++, an improved smart contract language, keeps the compatible with EVM; <br>Low cost for creating new contract enables massive adoptions and development of ecosystem;"
+          "title": "Easy to Migrate",
+          "text": "Solidity++, a next-gen smart contract language beyond Solidity, keeps the maximum EVM compatibility while allows the minimum cost for creating new contracts, facilitating large scale adoptions."
         },
         {
-          "title": "03",
-          "text": "Snapshot chain structure makes up for DAG's congenital security flaws and improves security; <br>Built-in DEX makes it a natural DEFI platform."
+          "title": "Secure",
+          "text": "The invention of snapshot chain makes up for DAG's inherent security flaws and makes complex, security-sensitive DeFi applications like DEX possible."
         }
       ]
     },
     "dex": {
       "title": "The Only Truly Decentralized Exchange in the World",
       "features": {
-        "onChainMatch": "On-chain Order Matching",
-        "onChainSettle": "On-chain Settlement",
-        "vx": "VX mining",
+        "onChainMatch": "On-Chain Order Matching",
+        "onChainSettle": "On-Chain Settlement",
+        "vx": "VX Mining",
         "dividend": "Daily Dividends",
         "nokyc": "No KYC",
-        "crossChain": "Cross-chain"
+        "crossChain": "Cross-Chain"
       },
       "desc": [
         {
-          "title": "Decentralization Technology",
-          "text": "ViteX adopts the most cutting-edge decentralized exchange technology. , it realizes on-chain order matching, settlement and dividends distribution through smart-contract on the Vite blockchain. Users use private keys to control their assets. No worry about assets being frozen, misappropriated or lost by the exchange. <br>Assets are safer; rules are more transparent; black box operations are completely eliminated."
+          "title": "Decentralization in Tech",
+          "text": "ViteX adopts the most cutting-edge decentralized exchange technology by implementing on-chain order matching, settlement, mining, and dividends distribution through smart-contracts on the Vite blockchain. Assets on ViteX are secured not in the exchange but by users' private keys. Never worry about assets being frozen, misappropriated, or lost anymore."
         },
         {
-          "title": "Decentralized Management",
+          "title": "Decentralization in Governance",
           "text": "Community-owned dividends allow 100% of the trading fees on ViteX are distributed to the VX holders. <br>Community-owned governance empowers anyone to vote for the future of ViteX. <br>Community-owned operation socializes anyone to launch a DEX on ViteX and start the business!"
         }
       ]
     }
   },
   "token": {
-    "title": "VITE Coin",
-    "subTitle": "About Vite Coin",
-    "desc": "VITE作为助力Vite公链生态系统发展的代币，用于支付Vite链上交易手续费。",
+    "title": "The VITE Coin",
+    "subTitle": "About VITE Coin",
+    "desc": "VITE is the native coin of the Vite public chain. VITE is the fuel to power up transactions on the Vite chain. Unlike the traditional fuel of \"Gas\" that will be consumed on other public chains (e.g. Ethereum), VITE is used to stake for the computational and bandwidth resources, and can be retained at no cost once the transactions are complete. VITE is currently listed on the top exchanges and can be traded for serious investment considerations.",
     "info": {
-      "title": "VITE Information",
-      "tokenName": "Token Name: VITE",
-      "issueDate": "Release date: 2018-06-15",
-      "totalSuply": "Initial Issuance Amount: 1 Billion"
+      "title": "Token Distribution",
+      "tokenName": "Coin: VITE",
+      "issueDate": "Issuance Date: June 15, 2018",
+      "totalSuply": "Initial Total Supply: 1,000,000,000"
     },
     "distribution": {
-      "sell": "Private Equity",
+      "sell": "Private Sale",
       "team": "Team Lock",
-      "foundation": "ecological Fund",
+      "foundation": "Ecosystem Fund",
       "marketing": "Marketing",
       "airdrop": "Airdrop"
     },
     "using": {
-      "title": "User Scenarios for VITE",
+      "title": "User Scenarios",
       "stakingForQuota": {
         "title": "Get Quota",
-        "text": "Unlike most blockchain networks, VITE coin can not be paid as the gas fee because it cost 0-fee to make transactions on Vite network. To protect the whole network from massive malicious usage, users have to stake very little amount to get quota. It will cost Quota to initiate transactions and Quota will respawn over time. Users could claim his staked VITE 3 days later.",
+        "text": "Unlike most blockchains, Vite has implemented a zero-cost, quota-based transaction model to replace \"Gas\" that has widely been used in Ethereum and others. In the Vite network, it will cost Quota to initiate transactions and the Quota consumed will be refilled over time. Users can stake VITE coins to get Quota.",
         "btn": "Stake to Get Quota"
       },
       "stakingForMining": {
         "title": "Stake as Mining",
-        "text": "ViteX is the first DApp of Vite blockchain. Users could stake for ViteX to mine VX. Users could retreat staked VITE 3 days afterward and VITE will be addressed in 7 days.",
-        "btn": "Staking Rules"
+        "text": "On the ViteX exchange, users can mine the platform token VX by staking VITE. Staked VITE coins can be retrieved in 3 days and locked for 7 days before credited into the user's account. Please be kindly noted there is no reward during the retrieval time.",
+        "btn": "Learn about Staking Rules"
+      },
+      "votingForSBP":{
+        "title": "Vote for SBP",
+        "text": "Users can vote for SBP and enjoy voting rewards. Unlike staking, voting does not lock the assets. View the latest SBP list who distribute voting rewards on the Vite forum and vote for the best!",
+        "btn": "See Tutorial"
       },
       "stakingForVip": {
         "title": "Activate ViteX VIP",
@@ -1841,20 +1617,20 @@
       }
     },
     "getToken": {
-      "title": "Get VITE",
+      "title": "How to Get VITE Coin",
       "exchange": "Purchase in Exchanges",
       "learn": "Learn More",
       "runSBP": {
-        "title": "Run an SBP",
-        "desc": "Stake 1million VITE for a full node to become an SBP and earn SBP reward. "
+        "title": "Become an SBP",
+        "desc": "Stake 1 million VITE to become an SBP and earn SBP Rewards. "
       },
       "runFullnode": {
         "title": "Run a Full Node",
-        "desc": "Run a full node and share the daily Full Nodes Reward."
+        "desc": "Run a full node and share the daily Full Node Rewards."
       },
       "vote": {
         "title": "Vote for SBP",
-        "desc": "Normal VITE holders can vote for some certain SBPS to get a share of their SBP reward. Consult community managers for more info."
+        "desc": "VITE holders can vote for SBP and enjoy voting rewards. View the latest SBP list who distribute voting rewards on the Vite forum or consult community managers for more info."
       }
     }
   },
@@ -1893,9 +1669,10 @@
     }
   },
   "community": {
-    "title": "社区生态",
-    "subTitle": "关于社区生态",
-    "desc": "Vite的用户分布在全球180多个国家和地区，社区规模20万人，钱包日活跃用户数2万人。",
+    "title": "The Vite Community",
+    "subTitle": "About Vite Community",
+    "desc": "The Vite community is across 180 countries and regions in the world, with over 200,000 users and developers. The DAU of Vite wallet is 20,000.",
+    "star": "Community Stars",
     "stars": {
       "yandong": {
         "name": "Yan Dong",
