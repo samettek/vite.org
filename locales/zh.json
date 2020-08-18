@@ -221,7 +221,7 @@
       },
       "joinDev": {
         "title": "加入Vite技术社区",
-        "desc": "为激励社区有能力的团队、开发者一起建设Vite生态，Vite基金会正式推出生态扶持计划，首期针对SBP以生态基金投票的方式进行扶持，所有投票收益均归SBP所有。",
+        "desc": "",
         "btnGroup": {
           "techGroup": "Vite技术群",
           "toForum": "前往论坛交流"
@@ -1054,7 +1054,7 @@
           "5、数据中心配置（建议配置8核16G 100M带宽）",
           "6、服务器所在地",
           "7、生态发展规划。请详细描述，成为一名超级节点后计划如何为Vite的生态系统增添价值。",
-          "8、社交媒体曝光。强有力的媒体曝光将决定您对社区的投入程度。请填写您作为超级节点身份创建的社交媒体账号。<br/>资料提交表单链接：<a href=\"https://docs.google.com/forms/d/1u2HC3ecC3rkQk58Kn9D8eBNhN8DpkAB2DMY06QNzHvk/viewform?edit_requested=true\" target=\"_blank\">https://docs.google.com/forms/d/1u2HC3ecC3rkQk58Kn9D8eBNhN8DpkAB2DMY06QNzHvk/viewform?edit_requested=true</a>"
+          "8、社交媒体曝光。强有力的媒体曝光将决定您对社区的投入程度。请填写您作为超级节点身份创建的社交媒体账号。<br/>资料提交表单链接：<a href=\"https://link.jiandaoyun.com/f/5bdbef8be1613237783c264b\" target=\"_blank\">https://link.jiandaoyun.com/f/5bdbef8be1613237783c264b</a>"
         ]
       },
       {
@@ -1065,7 +1065,7 @@
             "title": "超级节点注册竞选",
             "answer": [
               "1、质押1,000,000 VITE，超级节点注册质押会锁仓3个月。 ",
-              "2、运行超级节点服务器: <ul> <li>超级节点设置教程： <a href=\"https://test.vite.wiki/zh/tutorial/node/install.html\" target=\"_blank\">https://test.vite.wiki/zh/tutorial/node/install.html</a></li> <li>选择在Ankr平台运行Vite超级节点： <a href=\"https://bit.ly/AnkrXViteHowTo\" target=\"_blank\">https://bit.ly/AnkrXViteHowTo</a>  </li> </ul>"
+              "2、运行超级节点服务器: <ul> <li>超级节点设置教程： <a href=\"https://vite.wiki/zh/tutorial/node/install.html\" target=\"_blank\">https://vite.wiki/zh/tutorial/node/install.html</a></li> <li>选择在Ankr平台运行Vite超级节点： <a href=\"https://bit.ly/AnkrXViteHowTo\" target=\"_blank\">https://bit.ly/AnkrXViteHowTo</a>  </li> </ul>"
             ]
           },
           {

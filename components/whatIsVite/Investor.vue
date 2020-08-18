@@ -158,9 +158,34 @@ const dataMap = {
       url: 'https://troytrade.com/',
     },
     {
-      key: 'vitescan',
-      logo: require('~/assets/images/partner/vitescan.png'),
-      url: 'https://vitescan.io/',
+      key: 'okex',
+      logo: require('~/assets/images/investor/ok-blue.png'),
+      url: 'https://www.okex.com/',
+    },
+    {
+      key: 'vgate',
+      logo: require('~/assets/images/partner/vgate.jpg'),
+      url: 'https://vgate.io/',
+    },
+    {
+      key: 'chainlink',
+      logo: require('~/assets/images/partner/chainlink.png'),
+      url: 'https://chain.link/',
+    },
+    {
+      key: 'hashquark',
+      logo: require('~/assets/images/partner/hashquark.png'),
+      url: 'https://www.hashquark.io/',
+    },
+    {
+      key: 'f2pool',
+      logo: require('~/assets/images/partner/f2pool.png'),
+      url: 'https://www.f2pool.com/',
+    },
+    {
+      key: 'spark',
+      logo: require('~/assets/images/partner/spark.png'),
+      url: 'https://www.sparkpool.com/',
     },
   ],
 };

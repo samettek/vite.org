@@ -236,7 +236,7 @@
       },
       "joinDev": {
         "title": "Join the Vite Developer Community",
-        "desc": "In order to encourage 3rd-party teams and developers to the Vite ecosystem, the Vite Foundation officially launches the Ecosystem Incentive Plan. The first bunch of awards is credited to the SBPs who actively contribute to the success of Vite in the form of voting.",
+        "desc": "",
         "btnGroup": {
           "techGroup": "Vite Technical Group",
           "toForum": "Discuss on Forum"
@@ -1055,18 +1055,18 @@
     }
   },
   "superNodes": {
-    "title": "Guide for SBP",
+    "title": "Guide for Operating an SBP Node",
     "contents": [{
         "orderNum": "I.",
-        "question": "Information you need to submit",
+        "question": "Information to Submit",
         "answer": [
-          "1. Name and logo for the supernode. These are necessary, as it helps create an identity for you within the community. ",
+          "1. Name and logo of the SBP. These are necessary, as it helps create an identity for you within the community. ",
           "2. Email address for the entity that will operate the SBP. ",
           "3. Campaign slogan. ",
           "4. Information about the team: a list of key members and their backgrounds (please include profile photos and location of residence). ",
-          "5. Setup specifications of your data center. (Recommended: 8 core, 16GB RAM, 100Mbps)",
+          "5. Setup specifications of your data center. (Recommended Spec: 4 CPUs, 8GB RAM, 160GB SSD, a stable internet access of 10Mbps or above)",
           "6. Location of your server. ",
-          "7. Please describe in detail how you plan to add value to Vite's ecosystem after becoming a SBP.",
+          "7. Please describe in detail how you plan to add value to Vite's ecosystem after becoming SBP.",
           "8. Plans for gaining social media exposure (significant presence within our social media reflects a certain level of commitment to nurturing the growth of Vite's community). <br/>Link for submitting your information: <a href='https://docs.google.com/forms/d/1u2HC3ecC3rkQk58Kn9D8eBNhN8DpkAB2DMY06QNzHvk/viewform?edit_requested=true' target='_blank'>https://docs.google.com/forms/d/1u2HC3ecC3rkQk58Kn9D8eBNhN8DpkAB2DMY06QNzHvk/viewform?edit_requested=true</a>"
         ]
       },
@@ -1074,57 +1074,45 @@
         "orderNum": "II.",
         "question": "Registration of SBP, Voting and Creating Blocks",
         "second": [{
-            "title": "Follow these steps to register a supernode and prepare for election:",
+            "title": "Follow the steps to register an SBP node:",
             "answer": [
-              "1. Migrate the Vite ERC20 tokens you wish to stake for your SBP. <br/> In mid-November, migrate your ERC20 Vite tokens to the Vite TestNet via the smart contract provided by Vite. ",
-              "2. Stake 500,000 VITE (this amount will increase to 1,000,000 VITE after the MainNet is launched). These tokens will be locked for 3 months, as required for SBPs. ",
-              "3. Receive at least 200,000 votes (each vote is represented by one VITE). With each new community supernode that receives a minimum of 200,000 votes, Vite will stop one of its own official supernodes running. The community supernode will become the new supernode. ",
-              "4. Run the server for the SBP (more detailed information will be released later)"
+              "1. Stake 1,000,000 VITE. These coins will be locked up for 3 months. Be careful of retrieving the coins - once you have done that your SBP node will be invalidated immediately. ",
+              "2. Set up a node server, and fill the server's block creation address in the registration form. Refer to: <ul> <li>SBP Installation Guide: <a href=\"https://vite.wiki/tutorial/node/install.html\" target=\"_blank\">https://vite.wiki/tutorial/node/install.html</a></li> <li>Run the SBP node on Ankr: <a href=\"https://bit.ly/AnkrXViteHowTo\" target=\"_blank\">https://bit.ly/AnkrXViteHowTo</a>  </li> </ul>"
             ]
           },
           {
             "title": "Voting",
             "answer": [
-              "1. Each VITE can only be used to vote for one SBP. ",
-              "2. Each address can only be used to vote for one SBP. The number of votes from that address will equal the entire amount of VITE held in that address. ",
-              "3. Voting from a given address does not lock up the VITE tokens stored at that address. These tokens may be transferred at any time, however, it would inherently affect the total number of votes going towards the supernode.",
-              "4. The user may change their unique address's voting target. The change will take effect within 75 seconds at most. "
+              "1. SBP should solicit votes from the community to obtain a higher rank in the SBP list. The top 25 SBPs will have more chance to produce snapshot block. ",
+              "2. Each user can vote for one SBP at a moment. The VITE balance in the user's account will count toward the voting weight. ",
+              "3. Voting does not lock VITE coins, and the user can revote to another SBP at any time.",
+              "4. Revote will take effect within 75 seconds at most. "
             ]
           },
           {
-            "title": "Rules for Creating Blocks",
+            "title": "SBP Ranks and Block Production",
             "answer": [
-              "The first 100 supernodes will be responsible for creating blocks. For each round (lasting 75 seconds), the first 25 nodes have a 23/25 chance to create a block, and the last 75 nodes have a 2/75 chance. The block creation rate will affect the final rewards for the supernodes."
+              "Only the top 100 SBPs have a chance to create blocks. In each round (approximately 75 seconds) the top 25 nodes have a chance of 23/25 to produce blocks, and the opportunity of the SBPs ranking from 26-100 is 2/75."
             ]
           }
         ]
       },
       {
         "orderNum": "III.",
-        "question": "Responsibilities of SBPs",
+        "question": "Responsibilities of SBP",
         "answer": [
-          "1. SBPs ensure that the Vite system functions properly. SBPs must pack transactions in the entire network and ensure stability of the system by providing usable server resources. In addition, operators of the SBPs are also expected to provide technical support for the Vite system to the best of their abilities.",
+          "1. By packing \"snapshots\" into snapshot blocks and reaching consensus on the Vite public chain, SBPs ensure that the Vite system functions properly for 24/7. Therefore, necessary IT maintenance/troubleshooting knowledge is required for the operators of SBPs.",
           "2. SBPs are representatives, evangelists, and leaders of the Vite community and are expected to take actions to build and preserve an active and healthy community. ",
-          "3. The prosperity of the Vite community goes hand in hand with the success of the Vite ecosystem. SBPs are expected to evangelize Vite, and help create dApps based on Vite. "
+          "3. The prosperity of the Vite community goes hand in hand with the success of the Vite ecosystem. SBPs are expected to evangelize Vite, and help create dApps on Vite. "
         ]
       },
       {
         "orderNum": "IV.",
         "question": "Incentive Plan",
         "answer": [
-          "1. Forging SBPs in TestNet stage will share annual forging rewards, equivalent to 3% of the total issued token amount. This translates to 30 million VITE (3% of the current total supply of 1 billion VITE). ",
-          "2. Supernode rewards are divided into two parts: 50% for creating blocks and 50% for voting. Among the 30 million token rewards per year, 15 million are awarded to the supernodes that create blocks, and 15 million are awarded to the supernodes that were elected by the community (in TestNet stage, this will be the top 100 supernodes).<br/>If a supernode were to keep mining for one year, it could get 600,000 VITE from the block creation reward ((30 million / 25 nodes) * 50%), plus the reward from voting.<br/> Voting reward calculation: according to the supernode's stake and voting ratio, (the node staking tokens + voting) / (all supernode staking tokens + all voting) * (voting reward). Each round will be 75 seconds. The daily sum would be multiplied by the block rate.<br/>A single supernode daily reward would be: 1,643.835 VITEs of blocks creation rewards, plus additional staking/voting rewards",
-          "3. There are many Airdrop plans and rewards for the TestNet stage. We will increase the number of tokens issued to reward SBPs after the MainNet is launched.",
-          "4. Reward Extraction, Only the rewards from the previous day can be extracted."
-        ]
-      },
-      {
-        "orderNum": "V.",
-        "question": "An explanation of the VITE token in TestNet",
-        "answer": [
-          "1. The VITE tokens in TestNet are used for SBP election and voting. They are added to the network from the mapping of VITE ERC20 tokens.",
-          "2. The transfer of VITE ERC 20 tokens to VITE TestNet tokens cannot be reverted. You will not be able to circulate the TestNet tokens on the secondary market in the short term.",
-          "3. After the MainNet is launched, VITE tokens on the TestNet and VITE ERC20 tokens will both be converted to VITE tokens on the MainNet. "
+          "1. Forging SBPs share annual rewards, equivalent to 3% of the total supply. This translates to 30 million VITE (3% of the current total supply of 1 billion VITE). ",
+          "2. SBP rewards are divided into two parts: 50% for creating blocks and 50% for voting. Among the 30 million token rewards per year, 15 million are awarded to the SBPs that create blocks, and 15 million are awarded to the SBPs that were elected by the community (up to the top 100). <br/>If a SBP node were to keep mining for one year, it could get 600,000 VITE from the block creation reward ((30 million / 25 nodes) * 50%), plus the reward from voting.<br/> Voting reward calculation: according to the SBP's stake and voting ratio, (the node staking tokens + voting) / (all staking tokens + all voting) * (voting reward). Each round will be 75 seconds. The daily sum would be multiplied by the block producing rate.<br/>A single SBP's daily reward would be: 1,643.835 VITEs of blocks creation rewards, plus additional staking/voting rewards",
+          "3. SBP rewards should be retrieved regularly by sending a reward withdrawal request. Only the rewards from the previous day can be retrieved."
         ]
       }
     ]
