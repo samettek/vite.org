@@ -78,31 +78,30 @@
       "zh": "China Mainland"
     },
     "header": "Vite",
-    "slogan": "World-First DAG Based Blockchain with Smart Contract Capability",
+    "slogan": "The World-First DAG Based Blockchain with Smart Contract Capability",
     "whitePaper": "White Paper",
-    "whitePaperSyra": "Whitepaper of Cooperation between Vite and Syracuse",
+    "whitePaperSyra": "SyraCoin White Paper",
     "testnet": "TestNet",
     "acttext": "Get VITE Token Free",
     "actwait": "Stay tuned!",
     "news": "News",
     "starttoUse": "Get Started with Vite",
-    "hardfork": "Open Finance (5th Hardfork)",
+    "hardfork": "Open Finance (The 5th Hardfork)",
     "sections": {
       "whatIsVite": {
         "title": "What is Vite?",
         "desc": [
-          "Vite 是一个无手续费的高性能公链，采用DAG技术，能够同时兼顾安全性、高吞吐、低延迟以及扩展性",
-          "Vite 链上已经搭建了开放式去中心化金融服务，未来我们将让 Vite 链的去中心化金融服务更加开放、好用，从而使 Vite 生态承载更大的价值，满足更广泛的需求，并且吸引更多的真实用户。"
+          "Vite is a high-performance public chain with no transaction fees. Driven by asynchronous architecture and DAG technology, it is specifically designed for highly scalable applications by offering high reliability, low latency, and security. ",
+          "<b>In the definition of “Borderless transfer of value, composability of protocols, and open ecosystem and governance”, Decentralized Open Finance is that the Vite team has been dedicated to, and firmly practicing since 2018 when we included “ecosystem of values” in a core goal of Vite. </b>The idea is to create basic infrastructure and practical applications around asset issuance, decentralized exchange, stablecoins, payment, and cross-chain asset transfers."
         ],
         "btnGroup": {
           "learn": "Learn More"
         }
       },
       "product": {
-        "title": "Complete Product Family",
+        "title": "The Comprehensive Product Family",
         "desc": [
-          "基于Vite公链打造完整产品体系，为用户提供健全的去中心化金融产品服务。",
-          "保证用户资产安全的同时让交易、查询、沟通更便捷，在Vite体系内实现了从发行到交易到存储再到流通的全闭环金融服务。"
+          "Relying on the super-fast, reliable, and secure transactions on the Vite public chain, the mission of Vite is to build the full lifecycle of a decentralized open financial system from asset issuance, storage, exchange, to circulation."
         ],
         "btnGroup": {
           "learn": "Learn More"
@@ -153,15 +152,15 @@
         }
       },
       "vitex": {
-        "title": "完全去中心化交易所ViteX",
+        "title": "The Only Truly Decentralized Exchange in the World",
         "desc": [
-          "全球首个基于DAG的完全去中心化交易所，开放式去中心化金融平台",
-          "去中心化治理，持有VX代币参与治理交易所",
-          "享受100%交易所手续费分红",
-          "多种挖矿模式，挖矿可得平台币VX",
-          "去中心化上币，开交易所像开淘宝店一样简单",
-          "链上撮合交易，秒级成交，接近中心化体验",
-          "无需KYC，保护个人信息"
+          "The world's first DEX born on DAG; a decentralized open finance platform.",
+          "Decentralized governance as simple as holding the VX coins to participate in.",
+          "Traders enjoy a 100% refund of trading fees in the form of dividends.",
+          "Trade mining, stake mining, referral mining, liquidity mining, and list as mining. Mine your VX coins in up to 5 ways every day.",
+          "Anybody can set up a DEX on ViteX and list tokens, as easy as creating a store on eBay.",
+          "Instant, on-chain order matching makes the trading experience on DEX never closer to centralized exchanges",
+          "No KYC. Your information only stays with yourself."
         ],
         "btnGroup": {
           "toViteX": "Trade on ViteX",
@@ -215,7 +214,7 @@
         }
       },
       "syracoin": {
-        "title": "Government Cooperation",
+        "title": "Vite Tokenized American City!",
         "desc": [
           "In January 2019, Vite and the City of Syracuse of New York State announced the partnership to solve the housing problem of low-income citizens based on the technology of Vite. A municipal token economy called SyraCoin was launched to improve housing stability and reduce resident transiency."
         ],
@@ -1795,6 +1794,6 @@
     }
   },
   "countdown": {
-    "template": "{days} days, {hours} hours, {minutes} minutes, {seconds} seconds"
+    "template": "In {days} days, {hours} hours, {minutes} minutes, {seconds} seconds"
   }
 }

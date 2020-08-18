@@ -1488,7 +1488,7 @@
   },
   "whatIsVite": {
     "title": "什么是Vite",
-    "investor": "投资人",
+    "investor": "投资机构",
     "partner": "合作伙伴",
     "subTitle": "关于 Vite",
     "desc": "Vite是一个无手续费的高性能公链，采用DAG技术，能够同时兼顾安全性、高吞吐、低延迟以及扩展性 <br>目前Vite链上已经搭建了开放式去中心化金融服务，未来我们将让Vite链的去中心化服务更加开放、好用，从而使Vite生态承载更大的价值，满足更广泛的需求，并且吸引更多的真实用户。",
@@ -1752,6 +1752,6 @@
     }
   },
   "countdown": {
-    "template": "{days} 天, {hours} 小时, {minutes} 分钟, {seconds} 秒"
+    "template": "距离 {days} 天, {hours} 小时, {minutes} 分钟, {seconds} 秒"
   }
 }

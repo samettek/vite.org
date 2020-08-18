@@ -92,7 +92,7 @@ const imgUrls = [
   },
   {
     name: 'syracoin',
-    url: require('~/assets/images/ecosystem/syracoin.png'),
+    url: require('~/assets/images/ecosystem/syracoinApp.png'),
   },
   {
     name: 'vitepay',
@@ -610,6 +610,7 @@ $desc-max-width: 600px;
   &-syracoin {
     .home-section__img {
       max-width: 375px;
+      max-height: 487px;
     }
   }
 
