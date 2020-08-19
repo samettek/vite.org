@@ -29,14 +29,6 @@ export default {
           key: 'vitecity',
         },
         {
-          img: require('~/assets/images/superNode/tenzor.png'),
-          key: 'tenzor',
-        },
-        {
-          img: require('~/assets/images/superNode/snap.jpg'),
-          key: 'snap',
-        },
-        {
           img: require('~/assets/images/superNode/ux.jpg'),
           key: 'ux',
         },

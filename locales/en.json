@@ -1553,11 +1553,11 @@
       },
       "desc": [
         {
-          "title": "Decentralization in Tech",
+          "title": "Decentralized Tech",
           "text": "ViteX adopts the most cutting-edge decentralized exchange technology by implementing on-chain order matching, settlement, mining, and dividends distribution through smart-contracts on the Vite blockchain. Assets on ViteX are secured not in the exchange but by users' private keys. Never worry about assets being frozen, misappropriated, or lost anymore."
         },
         {
-          "title": "Decentralization in Governance",
+          "title": "Decentralized Governance",
           "text": "Community-owned dividends allow 100% of the trading fees on ViteX are distributed to the VX holders. <br>Community-owned governance empowers anyone to vote for the future of ViteX. <br>Community-owned operation socializes anyone to launch a DEX on ViteX and start the business!"
         }
       ]
