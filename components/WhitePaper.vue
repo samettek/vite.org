@@ -135,7 +135,7 @@ export default {
       margin-right: 20px;
       height: 18px;
       font-size: 14px;
-      font-family: PingFangSC, PingFangSC-Semibold;
+      font-family: $font-family-title;
       font-weight: 600;
       text-align: left;
       color: #ffffff;

@@ -273,8 +273,7 @@ $desc-max-width: 600px;
     h1 {
       display: block;
       font-size: 44px;
-      font-family: PingFangSC, PingFangSC-Semibold;
-      font-weight: 600;
+      @include title();
       text-align: left;
       color: #171c34;
       line-height: 48px;
@@ -285,8 +284,6 @@ $desc-max-width: 600px;
   .home-section__text {
     margin: 40px 0 50px 0;
     font-size: 14px;
-    font-family: PingFangSC, PingFangSC-Regular;
-    font-weight: 400;
     text-align: left;
     color: #54565a;
     line-height: 22px;
@@ -383,7 +380,7 @@ $desc-max-width: 600px;
         position: relative;
         .product-tip {
           font-size: 20px;
-          font-family: PingFangSC, PingFangSC-Semibold;
+          font-family: $font-family-title;
           font-weight: 600;
           text-align: right;
           color: #171c34;
@@ -450,7 +447,7 @@ $desc-max-width: 600px;
       }
       .ecosystem__text {
         font-size: 20px;
-        font-family: PingFangSC, PingFangSC-Regular;
+        font-family: $font-family-light;
         font-weight: 400;
         color: #171c34;
         line-height: 24px;

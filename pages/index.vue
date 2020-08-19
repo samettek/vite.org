@@ -223,10 +223,10 @@ export default {
     margin-top: 149px;
     max-width: 590px;
     h1 {
-      font-weight: 600;
+      @include title();
+      font-weight: 500;
       font-size: 60px;
       color: #ffffff;
-      font-family: PingFangSC, PingFangSC-Semibold;
     }
     h2 {
       margin-top: 50px;

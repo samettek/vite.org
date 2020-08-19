@@ -104,20 +104,20 @@ export default {
     padding-bottom: 86px;
     color: #ffffff;
     width: 62.5%;
-    max-width: 500px;
     h2 {
       font-size: 30px;
-      font-family: PingFangSC, PingFangSC-Semibold;
-      font-weight: 600;
+      @include title();
       line-height: 34px;
+      color: white;
+      max-width: 500px;
     }
   }
   &__text {
     margin: 40px 0;
     font-size: 14px;
-    font-family: PingFangSC, PingFangSC-Regular;
-    font-weight: 400;
+    font-family: $font-family-light;
     line-height: 30px;
+    max-width: 500px;
   }
 
   &__btnGroup {
