@@ -117,7 +117,6 @@ export default {
       @include title();
       line-height: 34px;
       color: white;
-      max-width: 500px;
     }
   }
   &__text {
