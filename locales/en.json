@@ -1515,7 +1515,10 @@
     "investor": "Investors",
     "partner": "Partners",
     "subTitle": "About Vite",
-    "desc": "Vite is a high-performance public chain with no transaction fees. Driven by asynchronous architecture and DAG technology, it is specifically designed for highly scalable applications by offering high reliability, low latency, and security. <br><b>In the definition of “Borderless transfer of value, composability of protocols, and open ecosystem and governance”, Decentralized Open Finance is that the Vite team has been dedicated to, and firmly practicing since 2018 when we included “ecosystem of values” in a core goal of Vite. </b>The idea is to create basic infrastructure and practical applications around asset issuance, decentralized exchange, stablecoins, payment, and cross-chain asset transfers.",
+    "desc": [
+      "Vite is a high-performance public chain with no transaction fees. Driven by asynchronous architecture and DAG technology, it is specifically designed for highly scalable applications by offering high reliability, low latency, and security. <br>",
+      "<b>In the definition of “Borderless transfer of value, composability of protocols, and open ecosystem and governance”, Decentralized Open Finance is that the Vite team has been dedicated to, and firmly practicing since 2018 when we included “ecosystem of values” in a core goal of Vite. </b>The idea is to create basic infrastructure and practical applications around asset issuance, decentralized exchange, stablecoins, payment, and cross-chain asset transfers."
+    ],
     "tech": {
       "title": "The World's First Public Chain Based on DAG with Smart Contract Capability",
       "features": {
@@ -1566,7 +1569,11 @@
   "token": {
     "title": "The VITE Coin",
     "subTitle": "About VITE Coin",
-    "desc": "VITE is the native coin of the Vite public chain. <br>VITE is the fuel to power up transactions on the Vite chain. Unlike the traditional fuel of \"Gas\" that will be consumed on other public chains (e.g. Ethereum), VITE is used to stake for the computational and bandwidth resources, and can be retained at no cost once the transactions are complete. <br>VITE is currently listed on the top exchanges and can be traded for serious investment considerations.",
+    "desc": [
+      "VITE is the native coin of the Vite public chain.",
+      "VITE is the fuel to power up transactions on the Vite chain. Unlike the traditional fuel of \"Gas\" that will be consumed on other public chains (e.g. Ethereum), VITE is used to stake for the computational and bandwidth resources, and can be retained at no cost once the transactions are complete. ",
+      "VITE is currently listed on the top exchanges and can be traded for serious investment considerations."
+    ],
     "info": {
       "title": "Token Distribution",
       "tokenName": "Coin: VITE",
@@ -1629,7 +1636,10 @@
   "development": {
     "title": "Become a Vite Developer",
     "subTitle": "Join the Vite Ecosystem as a Developer",
-    "desc": "With tremendous development toolkits and unprecedented low cost, Vite is making the construction of decentralized applications on the blockchain never easier. <br>To create a smart contract on Vite only costs 10 VITE, and sending transactions as well as calling smart contracts is completely free.",
+    "desc": [
+      "With tremendous development toolkits and unprecedented low cost, Vite is making the construction of decentralized applications on the blockchain never easier. ",
+      "To create a smart contract on Vite only costs 10 VITE, and sending transactions as well as calling smart contracts is completely free."
+    ],
     "btnGroup": {
       "wiki": "Wiki",
       "github": "GitHub",

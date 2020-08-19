@@ -7,7 +7,8 @@
             <div class="container padding-until-desktop">
               <div class="page-header__desc">
                   <h2>{{ $t(`${name}.subTitle`) }}</h2>
-                  <div class="page-header__text" v-html="$t(`${name}.desc`)">
+                  <div class="page-header__text">
+                    <p v-for="(item, index) in descList" :key="index" v-html="item"></p>
                   </div>
                   <div v-if="name === 'whatIsVite'" class="page-header__btnGroup">
                     <WhitePaper class="wp-btn"></WhitePaper>
@@ -58,6 +59,13 @@ export default {
         ...item,
         isInnerUrl: typeof item.url === 'object',
       }));
+    },
+    descList() {
+      const list = this.$t(`${this.name}.desc`);
+      if (!Array.isArray(list)) {
+        return [list];
+      }
+      return list;
     },
   },
   methods: {
@@ -116,8 +124,11 @@ export default {
     margin: 40px 0;
     font-size: 14px;
     font-family: $font-family-light;
-    line-height: 30px;
+    line-height: 25px;
     max-width: 500px;
+    p {
+      margin-top: 10px;
+    }
   }
 
   &__btnGroup {
