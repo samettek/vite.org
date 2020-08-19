@@ -485,8 +485,11 @@ $desc-max-width: 600px;
     }
     @include until($tablet) {
       .home-section__img {
-        img {
-          max-height: 40px;
+        padding: 0;
+        .ecosystem__img {
+          img {
+            max-height: 40px;
+          }
         }
         .ecosystem__line {
           margin-top: 20px;
@@ -642,6 +645,10 @@ $desc-max-width: 600px;
   &-joinDev {
     padding-top: 150px;
     padding-bottom: 120px;
+  }
+
+  &-fullnode {
+    @include center();
   }
 
   @include until($desktop) {

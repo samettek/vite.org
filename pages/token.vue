@@ -186,13 +186,15 @@ export default {
         margin-top: 90px;
         display: flex;
         width: 100%;
-        max-width: 900px;
         flex-direction: row;
         justify-content: space-around;
         & > div {
+            flex:1;
             display: flex;
             flex-direction: column;
             justify-content: center;
+            align-items: center;
+            word-break: break-all;
             @include title();
             font-size: 20px;
             line-height: 24px;
