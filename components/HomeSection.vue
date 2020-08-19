@@ -261,6 +261,12 @@ $desc-max-width: 600px;
     }
     .home-section__text {
       text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      & > div {
+        max-width: 800px;
+      }
     }
   }
 }
@@ -286,9 +292,9 @@ $desc-max-width: 600px;
     font-size: 14px;
     text-align: left;
     color: #54565a;
-    line-height: 22px;
+    line-height: 30px;
     & > div {
-      margin: 8px 0;
+      margin-top: 10px;
     }
   }
   .home-section__btn-group {
@@ -587,6 +593,7 @@ $desc-max-width: 600px;
 
   &-incentive {
     padding: 150px 0;
+    @include center();
   }
 
   &-community {
@@ -612,6 +619,7 @@ $desc-max-width: 600px;
   }
 
   &-vitepay {
+    @include center();
     padding-top: 100px;
     padding-bottom: 100px;
     background-color: #F5FAFF;

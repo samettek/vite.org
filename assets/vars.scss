@@ -2,9 +2,9 @@
 @import "~bulma/sass/utilities/mixins";
 
 
-$font-family-light: PingFangSC-Regular, "Helvetica Neue", Arial, Segoe UI, "Microsoft YaHei", Sans-serif;
-$font-family-main: PingFangSC-Medium, "Helvetica Neue", Arial, Segoe UI, "Microsoft YaHei", Sans-serif;
-$font-family-title: PingFangSC-Semibold, "Helvetica Neue", Arial, Segoe UI, "Microsoft YaHei", Sans-serif;
+$font-family-light: WorkSans,PingFangSC-Regular, "Helvetica Neue", Arial, Segoe UI, "Microsoft YaHei", Sans-serif;
+$font-family-main: WorkSans,PingFangSC-Medium, "Helvetica Neue", Arial, Segoe UI, "Microsoft YaHei", Sans-serif;
+$font-family-title: ProximaNova,PingFangSC-Semibold, "Helvetica Neue", Arial, Segoe UI, "Microsoft YaHei", Sans-serif;
 $font-title-color: #171c34;
 
 // bulma
@@ -60,6 +60,6 @@ $timelineColor: #007aff;
 
 @mixin title {
   font-family: $font-family-title;
-  font-weight: 500;
+  font-weight: 600;
   color: $font-title-color;
 }
