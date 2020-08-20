@@ -259,15 +259,6 @@ $desc-max-width: 600px;
       text-align: center;
       margin-top: 90px;
     }
-    .home-section__text {
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      & > div {
-        max-width: 800px;
-      }
-    }
   }
 }
 
@@ -322,6 +313,12 @@ $desc-max-width: 600px;
     }
     .home-section__text {
       text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      & > div {
+        max-width: 800px;
+      }
     }
     .home-section__btn-group {
       text-align: center;
@@ -596,7 +593,6 @@ $desc-max-width: 600px;
 
   &-incentive {
     padding: 150px 0;
-    @include center();
   }
 
   &-community {
@@ -622,7 +618,6 @@ $desc-max-width: 600px;
   }
 
   &-vitepay {
-    @include center();
     padding-top: 100px;
     padding-bottom: 100px;
     background-color: #F5FAFF;
@@ -645,10 +640,6 @@ $desc-max-width: 600px;
   &-joinDev {
     padding-top: 150px;
     padding-bottom: 120px;
-  }
-
-  &-fullnode {
-    @include center();
   }
 
   @include until($desktop) {
