@@ -372,7 +372,7 @@ export default {
         {
           type: 'outer',
           name: 'news',
-          to: 'forumNews',
+          to: 'latestPress',
         },
       ];
     },

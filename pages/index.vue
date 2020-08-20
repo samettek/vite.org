@@ -16,10 +16,10 @@
               </div>
             </a>
             <div class="btn-group-wrapper">
-              <n-link
+              <!-- <n-link
                 class="pop-btn"
                 :to="localePath('/whatIsVite')"
-              >{{$t('home.aboutVite')}}</n-link>
+              >{{$t('home.aboutVite')}}</n-link> -->
               <WhitePaper class="wp-margin"></WhitePaper>
               <a
                 href="https://github.com/vitelabs/whitepaper/blob/master/SyraCoinWhitePaper.pdf"
@@ -207,8 +207,9 @@ export default {
   font-family: $font-family-title;
   height: 819px;
   background-image: url("~assets/images/home/top.svg");
-  background-size: contain;
+  background-size: 130% 100%;
   background-repeat: no-repeat;
+  background-position: bottom;
 
   .topinfo__left {
     padding-bottom: 5.625rem;
@@ -371,8 +372,11 @@ export default {
     background-size: 120% 100%;
   }
   @include until(391px) {
-    background-size: contain;
+    background-size: 130% 100%;
     background-position: top;
+    .hero-body {
+      padding-bottom: 50px;
+    }
   }
 }
 </style>

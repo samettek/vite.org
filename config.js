@@ -58,13 +58,13 @@ module.exports = {
     },
     ann: {
       zh: 'https://forum.vite.net/category/42/%E5%AE%98%E6%96%B9%E5%85%AC%E5%91%8A',
-      en: 'https://medium.com/vitelabs',
+      en: 'https://medium.com/vitelabs/announcements/home',
       fifthHardfork: {
         en: 'https://medium.com/vitelabs/ann-upcoming-vite-fifth-hard-fork-insights-sharing-building-an-open-finance-application-674c40b4fb4a',
         zh: 'https://forum.vite.net/topic/4077/vite%E4%B8%BB%E7%BD%91%E5%8D%B3%E5%B0%86%E8%BF%8E%E6%9D%A5%E7%AC%AC%E4%BA%94%E6%AC%A1%E7%A1%AC%E5%88%86%E5%8F%89-%E6%89%93%E9%80%A0%E5%BC%80%E6%94%BE%E5%BC%8F%E9%87%91%E8%9E%8D%E5%BA%94%E7%94%A8%E5%B9%B3%E5%8F%B0',
       },
     },
-    forumNews: {
+    latestPress: {
       zh: 'https://forum.vite.net/category/43/%E7%AC%AC%E4%B8%89%E6%96%B9%E6%8A%A5%E9%81%93',
       en: 'https://medium.com/vitelabs',
     },
