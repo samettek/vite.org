@@ -137,11 +137,8 @@
       "wallet": {
         "title": "Download Vite App",
         "desc": [
-          "A Full Stack Open Finance App.",
           "An open-source multi-chain HD wallet supporting VITE, ETH, ERC20 tokens, BNB, GRIN, and more.",
-          "Enable secure and easy management with only one set of mnemonic phrases.",
           "DEX Built-in for instant trading and mining.",
-          "Various DApps installed balancing your entertainment and investment.",
           "Recommended by leading crypto mining and staking pools such as BTC.com, Sparkpool, F2Pool, Luxor, and more."
         ],
         "btnGroup": {
