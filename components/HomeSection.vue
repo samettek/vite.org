@@ -290,6 +290,7 @@ $desc-max-width: 600px;
   }
   .home-section__btn-group {
     width: 100%;
+    font-weight: 600;
     & > a {
       width: auto;
       height: 54px;
@@ -519,9 +520,14 @@ $desc-max-width: 600px;
     }
     .home-section__img {
       width: 31.25%;
-      margin-top: 131px;
       max-width: 375px;
       text-align: right;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      & > div {
+        display: flex;
+      }
     }
   }
 
@@ -613,7 +619,14 @@ $desc-max-width: 600px;
   &-syracoin {
     .home-section__img {
       max-width: 375px;
-      max-height: 487px;
+      max-height: auto;
+      margin-top: unset;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      & > div {
+        display: flex;
+      }
     }
   }
 

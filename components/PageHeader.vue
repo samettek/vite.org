@@ -124,7 +124,7 @@ export default {
     font-size: 14px;
     font-family: $font-family-light;
     line-height: 30px;
-    max-width: 500px;
+    max-width: 600px;
     p {
       margin-top: 10px;
     }
