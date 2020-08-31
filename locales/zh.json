@@ -23,10 +23,10 @@
   "nav": {
     "index": "首页",
     "start": "开始",
-    "getToken": "获取Vite代币",
+    "getToken": "获取 Vite 代币",
     "createWallet": "创建钱包",
-    "useVitex": "使用ViteX交易所",
-    "github": "Github",
+    "useVitex": "使用 ViteX 交易所",
+    "github": "GitHub",
     "tutorial": "教程",
     "faq": "常见问题",
     "about": "关于 Vite",
@@ -42,20 +42,20 @@
     "medium": "项目动态",
     "weeklyReport": "双周报",
     "ann": "公告",
-    "news": "新闻报道",
+    "news": "新闻",
     "community": "社区",
     "join": "加入Vite",
     "forum": "论坛",
-    "dapp": "Dapp 开发",
+    "dapp": "DApp 应用",
     "incentivePlan": "基金会激励计划",
     "syra": "雪城政府合作项目",
-    "vitePay": "Vite 落地支付",
+    "vitePay": "Vite Pay 支付",
     "devTools": "开发者工具",
     "vitex": "ViteX 交易所",
     "app": "Vite App",
     "vitePlus": "Vite Plus",
     "viteScan": "Vitescan.com",
-    "viteExplorer": "Vite 区块浏览器",
+    "viteExplorer": "区块浏览器",
     "webWallet": "Web 钱包",
     "desktopWallet": "桌面版钱包",
     "docs": "开发文档",
@@ -176,7 +176,7 @@
         }
       },
       "dapp": {
-        "title": "DApp开发",
+        "title": "DApp 应用与游戏",
         "desc": "社区开发者可以利用合约开发小游戏。这里展示了目前已在Vite App上线的小游戏，大家可以使用钱包玩游戏赚VITE，投资娱乐两不误。",
         "btnGroup": {
           "learn": "了解更多"
@@ -190,7 +190,7 @@
         }
       },
       "incentive": {
-        "title": "Vite基金会社区生态激励政策",
+        "title": "Vite基金会生态激励计划",
         "desc": "为激励社区有能力的团队、开发者一起建设Vite生态，Vite基金会正式推出生态扶持计划，首期针对SBP以生态基金投票的方式进行扶持，所有投票收益均归SBP所有。",
         "btnGroup": {
           "learn": "了解更多"
@@ -204,15 +204,15 @@
         }
       },
       "syracoin": {
-        "title": "美国雪城政府合作项目",
-        "desc": "2019年1月，Vite与美国纽约州雪城政府达成合作，利用区块链技术解决低收入市民住房问题，基于Vite公链开发了dApp——SyraCoin，助力政府解决当地民生问题，成为区块链在公共事务领域的落地应用。",
+        "title": "与美国雪城政府合作",
+        "desc": "2019年1月，Vite与美国纽约州雪城市政府达成合作，利用区块链技术解决低收入市民住房问题，基于Vite公链开发了dApp——SyraCoin，助力政府解决当地民生问题，成为区块链在公共事务领域的落地应用。",
         "btnGroup": {
           "whitePaper": "白皮书",
           "learn": "了解更多"
         }
       },
       "vitepay": {
-        "title": "VitePay和Vite商城",
+        "title": "VitePay 支付与 Vite 商城",
         "desc": "2019年12月，Vite Labs 宣布与 Alchemy达成战略合作伙伴关系，共同探索区块链技术在支付领域的推广。支持用户使用VITE代币在Alchemy的商家使用进行支付。 <br>用户可以前往ViteStore体验VitePay的秒级支付功能。",
         "btnGroup": {
           "learn": "了解支付合作",

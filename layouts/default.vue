@@ -300,12 +300,7 @@ export default {
         {
           type: 'outer',
           name: 'useVitex',
-          to: 'vitex',
-        },
-        {
-          type: 'outer',
-          name: 'github',
-          to: 'github',
+          to: 'webWallet',
         },
         {
           type: 'outer',

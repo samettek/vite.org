@@ -261,6 +261,11 @@ export default {
         },
         {
           type: 'outer',
+          name: 'github',
+          to: this.$link('github'),
+        },
+        {
+          type: 'outer',
           name: 'vep',
           to: this.$link('docs.vep'),
         },
