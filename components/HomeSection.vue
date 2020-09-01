@@ -280,7 +280,7 @@ $desc-max-width: 600px;
   }
   .home-section__text {
     margin: 40px 0 50px 0;
-    font-size: 14px;
+    font-size: 18px;
     text-align: left;
     color: #54565a;
     line-height: 30px;

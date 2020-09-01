@@ -91,7 +91,7 @@ export default {
 .page-header {
   h1 {
     @include title();
-    font-size: 44px;
+    font-size: 60px;
     line-height: 62px;
     margin-bottom: 18px;
   }
@@ -121,7 +121,7 @@ export default {
   }
   &__text {
     margin: 40px 0;
-    font-size: 14px;
+    font-size: 18px;
     font-family: $font-family-light;
     line-height: 30px;
     max-width: 600px;

@@ -92,7 +92,7 @@
         "title": "What is Vite?",
         "desc": [
           "Vite is a high-performance public chain with no transaction fees. Driven by asynchronous architecture and DAG technology, it is specifically designed for highly scalable applications by offering high reliability, low latency, and security. ",
-          "<b>In the definition of “Borderless transfer of value, composability of protocols, and open ecosystem and governance”, Decentralized Open Finance is that the Vite team has been dedicated to, and firmly practicing since 2018 when we included “ecosystem of values” in a core goal of Vite. </b>The idea is to create basic infrastructure and practical applications around asset issuance, decentralized exchange, stablecoins, payment, and cross-chain asset transfers."
+          "In the definition of “Borderless transfer of value, composability of protocols, and open ecosystem and governance”, Decentralized Open Finance is that the Vite team has been dedicated to, and firmly practicing since 2018 when we included “ecosystem of values” in a core goal of Vite. The idea is to create basic infrastructure and practical applications around asset issuance, decentralized exchange, stablecoins, payment, and cross-chain asset transfers."
         ],
         "btnGroup": {
           "learn": "Learn More"
@@ -181,7 +181,7 @@
         "title": "DApps on Vite",
         "desc": "Build your DeFi, crowdfunding platforms, DEX, payment networks, DApp games, and more in smart contracts on the Vite public chain.",
         "btnGroup": {
-          "learn": "Learn More"
+          "learn": "Want to Integrate Your DApp in the Vite App?"
         }
       },
       "devTool": {
@@ -1514,7 +1514,7 @@
     "subTitle": "About Vite",
     "desc": [
       "Vite is a high-performance public chain with no transaction fees. Driven by asynchronous architecture and DAG technology, it is specifically designed for highly scalable applications by offering high reliability, low latency, and security. <br>",
-      "<b>In the definition of “Borderless transfer of value, composability of protocols, and open ecosystem and governance”, Decentralized Open Finance is that the Vite team has been dedicated to, and firmly practicing since 2018 when we included “ecosystem of values” in a core goal of Vite. </b>The idea is to create basic infrastructure and practical applications around asset issuance, decentralized exchange, stablecoins, payment, and cross-chain asset transfers."
+      "In the definition of “Borderless transfer of value, composability of protocols, and open ecosystem and governance”, Decentralized Open Finance is that the Vite team has been dedicated to, and firmly practicing since 2018 when we included “ecosystem of values” in a core goal of Vite. The idea is to create basic infrastructure and practical applications around asset issuance, decentralized exchange, stablecoins, payment, and cross-chain asset transfers."
     ],
     "tech": {
       "title": "The World's First Public Chain Based on DAG with Smart Contract Capability",
@@ -1554,11 +1554,18 @@
       "desc": [
         {
           "title": "Decentralized Tech",
-          "text": "ViteX adopts the most cutting-edge decentralized exchange technology by implementing on-chain order matching, settlement, mining, and dividends distribution through smart-contracts on the Vite blockchain. Assets on ViteX are secured not in the exchange but by users' private keys. Never worry about assets being frozen, misappropriated, or lost anymore."
+          "text": [
+            "<li>ViteX adopts the most cutting-edge decentralized exchange technology by implementing on-chain order matching, settlement, mining, and dividends distribution through smart-contracts on the Vite blockchain.</li>",
+            "<li>Assets on ViteX are secured not in the exchange but by users' private keys. Never worry about assets being frozen, misappropriated, or lost anymore.</li>"
+          ]
         },
         {
           "title": "Decentralized Governance",
-          "text": "Community-owned dividends allow 100% of the trading fees on ViteX are distributed to the VX holders. <br>Community-owned governance empowers anyone to vote for the future of ViteX. <br>Community-owned operation socializes anyone to launch a DEX on ViteX and start the business!"
+          "text": [
+            "<li>Community-owned dividends allow 100% of the trading fees on ViteX are distributed to the VX holders.</li>",
+            "<li>Community-owned governance empowers anyone to vote for the future of ViteX.</li>",
+            "<li>Community-owned operation socializes anyone to launch a DEX on ViteX and start the business!</li>"
+          ]
         }
       ]
     }

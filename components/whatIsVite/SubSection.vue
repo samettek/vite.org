@@ -14,7 +14,12 @@
                   <div v-for="(desc, index) in descList" :key="index">
                     <div class="sub-section__desc-content">
                       <h3>{{desc.title}}</h3>
-                      <div v-html="desc.text"></div>
+                      <div v-if="Array.isArray(desc.text)">
+                        <div v-for="(text, index) in desc.text" :key="index">
+                           <div v-html="text" class="sub-section__desc-content-text"></div>
+                        </div>
+                      </div>
+                      <div v-else v-html="desc.text"></div>
                     </div>
                   </div>
                 </div>
@@ -154,21 +159,25 @@ export default {
     box-shadow: 0px 0px 20px 4px rgba(0,122,255,0.1);
     height: 100%;
     h3 {
-      font-size: 20px;
-      font-family: DINPro;
-      text-align: left;
+      font-size: 18px;
+      /*font-family: DINPro;*/
+      font-weight: 600;
+      text-align: center;
       color: #007aff;
       line-height: 24px;
     }
     & > div {
       margin-top: 18px;
-      font-size: 14px;
+      font-size: 16px;
       font-family: $font-family-light;
       font-weight: 400;
       text-align: left;
       color: #54565a;
       line-height: 30px;
     }
+  }
+  &__desc-content-text {
+     margin-top: 10px;
   }
 
   @include until($desktop) {

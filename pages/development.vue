@@ -101,7 +101,7 @@ export default {
         display: flex;
         flex-direction: row;
         margin: -48px;
-        word-break: break-all;
+        /*word-break: break-all;*/
     }
     &__item {
         flex: 1;
@@ -115,6 +115,7 @@ export default {
             font-size: 20px;
             line-height: 24px;
             margin-bottom: 30px;
+            text-align: center;
         }
         & > div {
             font-size: 16px;
