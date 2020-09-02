@@ -6,8 +6,8 @@
 </template>
 
 <script>
-import Community from '~/components/community/index.vue';
 import PageHeader from '~/components/PageHeader.vue';
+import Community from '~/components/community/index.vue';
 
 export default {
   components: {
