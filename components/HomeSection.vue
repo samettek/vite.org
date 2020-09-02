@@ -683,7 +683,7 @@ $desc-max-width: 600px;
     .home-section__btn-group {
       text-align: center;
       & > a {
-        height: 30px;
+        height: auto;
         background: #007aff;
         border-radius: 2px;
         line-height: 20px;
