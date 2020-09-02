@@ -226,8 +226,11 @@ export default {
     h1 {
       @include title();
       font-weight: 500;
-      font-size: 60px;
+      font-size: 80px;
       color: #ffffff;
+      @include touch {
+        font-size: 28px;
+      }
     }
     h2 {
       margin-top: 50px;
@@ -355,8 +358,8 @@ export default {
     .slogan-wrapper {
       margin-top: 0px;
       h1 {
-        font-size: 18px;
-        line-height: 18px;
+        font-size: 30px;
+        line-height: 28px;
         margin-top: 10px;
       }
       h2 {

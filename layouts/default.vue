@@ -515,6 +515,7 @@ export default {
 .nuxt-content {
   margin-top: 72px;
   @include touch {
+    margin-top: 30px;
     padding-bottom: 50px;
   }
 }

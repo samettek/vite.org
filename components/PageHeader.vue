@@ -191,6 +191,8 @@ export default {
   @include until($desktop) {
     h1 {
       padding: 0 10px;
+      font-size: 30px;
+      line-height: 28px;
     }
     &__content {
       padding-bottom: 30px;
@@ -203,10 +205,18 @@ export default {
       width: 100%;
       padding: 60px 0 0 0;
       max-width: unset;
+      h2 {
+        font-size: 24px;
+        line-height: 28px;
+      }
     }
     &__img {
       width: 100%;
       text-align: center;
+    }
+    &__text {
+      font-size: 14px;
+      line-height: 24px;
     }
   }
 }
