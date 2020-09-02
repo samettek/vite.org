@@ -26,7 +26,7 @@
         }
       }
     }
-  
+
     &.dropdown_light {
       .dropdown-trigger {
         .btn__click {
@@ -50,7 +50,7 @@
         }
       }
     }
-  
+
     &.dropdown_gray {
       .dropdown-trigger {
         .btn__click {
@@ -77,6 +77,12 @@
             color: $navbar-gray-text-color;
             &:hover {
               color: $common-active-color;
+            }
+          }
+          @include mobile {
+            background-color: $navbar-background-color;
+            .dropdown-item {
+              color: white;
             }
           }
         }
