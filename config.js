@@ -78,7 +78,7 @@ module.exports = {
     },
     vitePayAnn: {
       zh: 'https://forum.vite.net/topic/3636/%E5%85%AC%E5%91%8A-vite-labs%E4%B8%8E%E5%85%A8%E7%90%83%E6%94%AF%E4%BB%98%E6%9C%8D%E5%8A%A1%E5%95%86alchemy%E8%BE%BE%E6%88%90%E6%88%98%E7%95%A5%E5%90%88%E4%BD%9C',
-      en: 'https://twitter.com/chunming_liu/status/1204143682653315073',
+      en: 'https://forum.vite.net/topic/4151/vite-labs-and-alchemy-achieve-strategic-cooperation',
     },
     viteApp: {
       ios: 'https://apps.apple.com/us/app/vite-official-hd-wallet/id1437629486',
