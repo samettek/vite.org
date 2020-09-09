@@ -66,7 +66,8 @@
                         <h3>{{$t(`token.getToken.vote.title`)}}</h3>
                         <div class="section-get-token__desc">{{$t(`token.getToken.vote.desc`)}}</div>
                         <div>
-                            <a class="button section-button" :href="$link('tutorial.vote')" target="_blank">{{$t(`token.getToken.learn`)}}</a>
+                            <a class="button section-button" :href="$link('usingVite.votingForSBP')" target="_blank">{{$t(`token.getToken.vote.btnGroup.tutorial`)}}</a>
+                            <a class="button section-button" :href="$link('vote.paysbp')" target="_blank">{{$t(`token.getToken.vote.btnGroup.sbpList`)}}</a>
                         </div>
                     </div>
                 </div>
@@ -194,8 +195,9 @@ export default {
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            word-break: break-all;
+            /*word-break: break-all;*/
             @include title();
+            text-align: center;
             font-size: 20px;
             line-height: 24px;
             img {

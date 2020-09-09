@@ -1628,7 +1628,11 @@
       },
       "vote": {
         "title": "Vote for SBP",
-        "desc": "VITE holders can vote for SBP and enjoy voting rewards. View the latest SBP list who distribute voting rewards on the Vite forum or consult community managers for more info."
+        "desc": "VITE holders can vote for SBP and enjoy voting rewards. View the latest SBP list who distribute voting rewards on the Vite forum or consult community managers for more info.",
+        "btnGroup": {
+          "tutorial": "See Tutorial",
+          "sbpList": "Check SBP List"
+        }
       }
     }
   },

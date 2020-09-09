@@ -25,8 +25,8 @@ h1 {
   box-sizing: border-box；
 }
 
-::-webkit-scrollbar { 
-    display: none; 
+::-webkit-scrollbar {
+    display: none;
 }
 // transition
 
@@ -53,7 +53,7 @@ h1 {
     border-radius:1px;
     border-bottom: 2px solid $common-active-color;
     color: $common-active-color;
-    
+
   }
 }
 
@@ -78,13 +78,14 @@ h1 {
   @include title();
   background: #007aff;
   border-radius: 5px;
-  box-shadow: 0px 8px 34px 0px rgba(0,122,255,0.2); 
+  box-shadow: 0px 8px 34px 0px rgba(0,122,255,0.2);
   border: none;
   color: white;
   font-size: 16px;
   line-height: 54px;
   height: 54px;
   padding: 17px 38px;
+  margin-right: 20px;
   &:hover {
     border: none;
   }

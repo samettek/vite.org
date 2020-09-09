@@ -45,7 +45,7 @@ module.exports = {
       },
       vote: {
         zh: 'https://forum.vite.net/topic/3610/%E6%95%99%E7%A8%8B-%E5%A6%82%E4%BD%95%E5%9C%A8vite-app%E5%86%85%E6%8A%95%E7%A5%A8%E7%BB%99%E8%B6%85%E7%BA%A7%E8%8A%82%E7%82%B9%E5%BE%97vite%E5%A5%96%E5%8A%B1',
-        en: 'https://forum.vite.net/topic/1780/vote-for-your-vite-community-sbps',
+        en: 'https://forum.vite.net/topic/4168/how-to-vote-for-sbp-and-earn-voting-rewards',
       },
       dappDevelopment: {
         zh: 'https://forum.vite.net/topic/1850/%E5%85%B3%E4%BA%8E%E5%A6%82%E4%BD%95%E5%9C%A8vite%E7%A7%BB%E5%8A%A8%E9%92%B1%E5%8C%85%E5%8F%91%E5%B8%83dapp%E7%9A%84%E8%8B%A5%E5%B9%B2%E9%97%AE%E9%A2%98',
@@ -109,7 +109,7 @@ module.exports = {
       },
       votingForSBP: {
         zh: 'https://forum.vite.net/topic/3610/%E6%95%99%E7%A8%8B-%E5%A6%82%E4%BD%95%E5%9C%A8vite-app%E5%86%85%E6%8A%95%E7%A5%A8%E7%BB%99%E8%B6%85%E7%BA%A7%E8%8A%82%E7%82%B9%E5%BE%97vite%E5%A5%96%E5%8A%B1',
-        en: 'https://forum.vite.net/topic/1780/vote-for-your-vite-community-sbps',
+        en: 'https://forum.vite.net/topic/4168/how-to-vote-for-sbp-and-earn-voting-rewards',
       },
       stakingForVip: {
         zh: 'https://forum.vite.net/topic/2242/%E5%A6%82%E4%BD%95%E5%BC%80%E9%80%9A%E4%BA%A4%E6%98%93%E6%89%80vip',
@@ -259,7 +259,9 @@ module.exports = {
         ru: 'https://docs.google.com/forms/d/e/1FAIpQLScixWTDuId0MCJQGi0jVI3LCivQ-r5fNUMFCnLf-uodIc_EsA/viewform',
         vi: 'https://docs.google.com/forms/d/e/1FAIpQLScixWTDuId0MCJQGi0jVI3LCivQ-r5fNUMFCnLf-uodIc_EsA/viewform',
       },
-
+      paysbp: {
+        en: 'https://medium.com/vitelabs/updated-list-of-sbp-who-pay-vite-voters-b461da8e1542',
+      },
     },
     mainnetRelease: {
       en: 'https://forum.vite.net/topic/2753/announcing-the-vite-mainnet-launch',
