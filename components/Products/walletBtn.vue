@@ -23,7 +23,7 @@
           </div>
         </template>
       </v-popover>
-      
+
       <v-popover
         class="mbt"
         style="margin-right: 10px;"
@@ -43,7 +43,7 @@
           </div>
         </template>
       </v-popover>
-      
+
       <!-- btnCommonList -->
       <a
         class="wallet__btn mb"
@@ -56,7 +56,7 @@
         </div>
       </a>
     </div>
-    
+
     <div
       v-else
       class="is-flex wallet__desktop">
@@ -116,10 +116,10 @@ export default {
         url: 'https://wallet.vite.net'
       }, {
         key: 'mac',
-        url: 'https://github.com/vitelabs/vite-wallet/releases/tag/v1.3.20'
+        url: 'https://github.com/vitelabs/vite-wallet/releases/download/v1.4.2/Vite-Desktop-Wallet-1.4.2-mac.dmg'
       }, {
         key: 'windows',
-        url: 'https://github.com/vitelabs/vite-wallet/releases/tag/v1.3.20'
+        url: 'https://github.com/vitelabs/vite-wallet/releases/download/v1.4.2/Vite-Desktop-Wallet-1.4.2-win.exe'
       }
       ]
     };
@@ -152,7 +152,7 @@ export default {
 
 .wallet__btn {
   box-sizing: border-box;
-  padding: 0 12px; 
+  padding: 0 12px;
   height:30px;
   border-radius:2px;
   border:2px solid $common-active-color;
@@ -171,7 +171,7 @@ export default {
   // justify-content: center;
   .wallet__desktop {
     @include touch {
-      width: 235px; 
+      width: 235px;
       flex-wrap: wrap;
       justify-content: center;
     }
