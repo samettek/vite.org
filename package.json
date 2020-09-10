@@ -9,7 +9,10 @@
     "p": "npm run build && npm run generate",
     "monitor": "nuxt build --webpackmonitor",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "lintfix": "eslint --fix --ext .js,.vue --ignore-path .gitignore ."
+    "lintfix": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
+    "publish": "npm run p && wrangler publish --env production",
+    "publish:stage": "npm run p && wrangler publish --env stage",
+    "cf": "wrangler dev"
   },
   "dependencies": {
     "@chenfengyuan/vue-countdown": "^1.1.5",
