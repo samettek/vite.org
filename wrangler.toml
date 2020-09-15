@@ -1,0 +1,14 @@
+name = "vite-org"
+type = "webpack"
+account_id = "55cb4036f82767a7f0f757a02a1ec8fd"
+workers_dev = true
+
+[site]
+bucket = "./dist"
+entry-point = "./workers-site"
+
+[env.production]
+zone_id = "f88e2f1d3639975a214cd2a56eefba13"
+
+[env.stage]
+zone_id = "f88e2f1d3639975a214cd2a56eefba13" 
