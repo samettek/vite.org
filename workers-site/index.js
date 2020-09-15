@@ -28,6 +28,12 @@ async function handleEvent(event) {
   const url = new URL(event.request.url)
   let options = {}
 
+  if (url.pathname.startsWith('/api')) {
+    url.pathname = url.pathname.replace('/api', '/discover');
+    url.hostname = 'testnet-vite-1257137467.cos.ap-hongkong.myqcloud.com';
+    return fetch(url.toString(), event.request);
+  }
+
   /**
    * You can add custom logic to how we fetch your assets
    * by configuring the function `mapRequestToAsset`
@@ -77,4 +83,4 @@ function handlePrefix(prefix) {
     // inherit all other props from the default request
     return new Request(url.toString(), defaultAssetKey)
   }
-}
+} 
