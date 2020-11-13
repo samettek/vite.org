@@ -42,10 +42,10 @@ export default {
   computed: {
     list() {
       if (this.tabParams === 'completed') {
-        return this.getTimelines().slice(0, 9);
+        return this.getTimelines().slice(0, 10);
       }
       if (this.tabParams === 'inProgress') {
-        return this.getTimelines().slice(9, 10);
+        return this.getTimelines().slice(10, 11);
       }
       if (this.tabParams === 'nextStep') {
         return this.getTimelines().slice(-1);
@@ -57,10 +57,10 @@ export default {
     tableList(item) {
       for (let i = 0; i < this.tabs.length; i++) {
         if (item === 'completed') {
-          return this.getTimelines().slice(0, 9);
+          return this.getTimelines().slice(0, 10);
         }
         if (item === 'inProgress') {
-          return this.getTimelines().slice(9, 10);
+          return this.getTimelines().slice(10, 11);
         }
         if (item === 'nextStep') {
           return this.getTimelines().slice(-1);
