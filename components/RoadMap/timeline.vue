@@ -100,7 +100,7 @@ $dot-size-inner: 0.75rem;
 $timelineCommonColor: #919AA3;
 
 .timeline {
-  padding-right: 300px;
+  padding-right: 380px;
   @include mobile {
     padding-right: 280px;
   }
