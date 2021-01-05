@@ -199,7 +199,7 @@
             <div class="">
               <div class="copyright mt30">
                 <span>
-                  © 2018-2020 VITE Labs. All Rights Reserved.
+                  © 2018-2021 VITE Labs. All Rights Reserved.
                 </span>
               </div>
             </div>

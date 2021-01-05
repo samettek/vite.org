@@ -33,7 +33,7 @@
       return {
         isEnabled: true,
         urlList: config.urls.telegram,
-        list: ['ann', 'english', 'chinese', 'russia', 'vietnamese', 'korean', 'thailand','german','japan','arabic','french','turkish','indonesian','malaysian','spanish','filipino','bengali'],
+        list: ['ann', 'english', 'chinese', 'russia', 'japan','arabic','turkish','indonesian','filipino'],
         isBrowser: process.browser
       };
     },

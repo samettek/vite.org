@@ -4,7 +4,7 @@
       <span>{{ $t(`nav.about`) }}</span>
     </div>
     <whitepaper :is-footer="true"></whitepaper>
-    <footer-menu 
+    <footer-menu
       :secondary-list="navAboutList">
     </footer-menu>
   </div>
@@ -16,8 +16,8 @@ import whitepaper from './WhitePaperForMenu';
 import FooterMenu from '~/components/FooterMenu.vue';
 
 export default {
-  components: { 
-    whitepaper, 
+  components: {
+    whitepaper,
     FooterMenu
   },
   props: {
@@ -26,7 +26,6 @@ export default {
     url(){
       return {
         introduction:config.urls.introduction[this.$i18n.locale],
-        blog:config.urls.blog[this.$i18n.locale],
         wiki: config.urls.wiki[this.$i18n.locale],
       };
     }
@@ -37,10 +36,6 @@ export default {
         type: 'outer',
         name: 'wiki',
         to: config.urls.wiki[this.$i18n.locale]
-      }, {
-        type: 'outer',
-        name: 'blog',
-        to: config.urls.blog[this.$i18n.locale]
       }],
     };
   }
