@@ -45,7 +45,6 @@
 <script>
 import { VPopover } from 'v-tooltip';
 import isMobile from 'is-mobile';
-import product from '~/components/product.vue';
 import New from '~/components/New/index.vue';
 import WhitePaper from '~/components/WhitePaper';
 import Video from '~/components/Video.vue';
@@ -66,7 +65,6 @@ export default {
   components: {
     VPopover,
     VNew: New,
-    VProduct: product,
     VVideo: Video,
     Logo,
     LogoWord,

@@ -10,10 +10,10 @@
             <w-map :list="nodeList" class="node-map"></w-map>
           </template>
         </home-section>
-        <section id="team" class="section-team">
+        <!-- <section id="team" class="section-team">
           <teams></teams>
-        </section>
-        <investor id="investor" :title="$t('whatIsVite.investor')" type="investor" class="section-investor"></investor>
+        </section> -->
+        <!-- <investor id="investor" :title="$t('whatIsVite.investor')" type="investor" class="section-investor"></investor> -->
         <investor id="partner" :title="$t('whatIsVite.partner')" type="partner" class="section-partner"></investor>
     </div>
 </template>

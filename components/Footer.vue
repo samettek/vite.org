@@ -45,6 +45,13 @@
         </div>
 
         <div class="social-icons">
+          <a :href="urls.discord" target="_blank" class="text-hover-transition">
+            <fa-icon class="icon__item" :icon="['fab', 'discord']"></fa-icon>
+          </a>
+          <a :href="urls.twitter" target="_blank" class="text-hover-transition">
+            <fa-icon class="icon__item" :icon="['fab', 'twitter']"></fa-icon>
+          </a>
+          <telegram></telegram>
           <a :href="urls.cmc" target="_blank" class="text-hover-transition">
             <img class="icon__item" src="~/assets/images/footer/cmc.svg" />
           </a>
@@ -60,13 +67,6 @@
           <a :href="urls.facebook" target="_blank" class="text-hover-transition">
             <fa-icon class="icon__item" :icon="['fab', 'facebook-square']"></fa-icon>
           </a>
-          <a :href="urls.discord" target="_blank" class="text-hover-transition">
-            <fa-icon class="icon__item" :icon="['fab', 'discord']"></fa-icon>
-          </a>
-          <a :href="urls.twitter" target="_blank" class="text-hover-transition">
-            <fa-icon class="icon__item" :icon="['fab', 'twitter']"></fa-icon>
-          </a>
-          <telegram></telegram>
           <a :href="urls.reddit" target="_blank" class="text-hover-transition">
             <fa-icon class="icon__item" :icon="['fab', 'reddit']" />
           </a>
@@ -82,10 +82,10 @@
           <a :href="urls.media.bitcointalk" target="_blank">
             <fa-icon class="icon__item" :icon="['fab', 'bitcoin']" />
           </a>
-          <a :href="urls.weibo" target="_blank">
+          <!-- <a :href="urls.weibo" target="_blank">
             <fa-icon class="icon__item" :icon="['fab', 'weibo']" />
-          </a>
-          <wechat></wechat>
+          </a> -->
+          <!-- <wechat></wechat> -->
         </div>
         <div class="copyright">
           <span>© 2018-{{new Date().getFullYear()}} VITE Labs. All Rights Reserved.</span>
@@ -377,12 +377,12 @@ export default {
   }
 
   .social-icons {
-    padding-top: 49px;
+    padding-top: 29px;
     border-top: 1px solid rgba(255,255,255,0.3);
     width: 100%;
     flex-direction: row;
     justify-content: space-between;
-    align-items: cen;
+    align-items: center;
     flex-wrap: wrap;
     display: flex;
     margin-top: 50px;

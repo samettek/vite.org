@@ -101,10 +101,6 @@
                 :secondary-list="navCommunityList"
               ></secondary-menu>
             </div>
-
-            <div class="nav-item">
-              <lang-select :theme="navbarTheme"></lang-select>
-            </div>
           </div>
         </div>
       </div>

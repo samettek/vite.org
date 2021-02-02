@@ -38,12 +38,7 @@ const locales = [
     code: 'en',
     name: 'EN',
     file: 'en.json',
-  },
-  {
-    code: 'zh',
-    name: '中文',
-    file: 'zh.json',
-  },
+  }
 ];
 const defaultLocale = 'en';
 
