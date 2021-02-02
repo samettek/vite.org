@@ -18,7 +18,7 @@ import FooterMenu from '~/components/FooterMenu.vue';
 export default {
   components: {
     whitepaper,
-    FooterMenu,
+    FooterMenu
   },
   props: {
   },

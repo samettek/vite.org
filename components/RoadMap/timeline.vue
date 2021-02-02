@@ -67,7 +67,7 @@ export default {
   computed: {
     list() {
       if (this.type === 'completed') {
-        return this.previousOpen ? this.timeLines : this.timeLines.slice(8);
+        return this.previousOpen ? this.timeLines : this.timeLines.slice(7);
       }
       if (this.type === 'nextStep') {
         return this.nextOpen ? this.timeLines : this.timeLines.slice(0, 2);
@@ -100,7 +100,7 @@ $dot-size-inner: 0.75rem;
 $timelineCommonColor: #919AA3;
 
 .timeline {
-  padding-right: 200px;
+  padding-right: 380px;
   @include mobile {
     padding-right: 280px;
   }

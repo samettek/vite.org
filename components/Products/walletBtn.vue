@@ -116,12 +116,12 @@ export default {
         url: 'https://wallet.vite.net',
       }, {
         key: 'mac',
-        url: 'https://github.com/vitelabs/vite-wallet/releases/tag/v1.3.20',
+        url: 'https://github.com/vitelabs/vite-wallet/releases/download/v1.4.2/Vite-Desktop-Wallet-1.4.2-mac.dmg'
       }, {
         key: 'windows',
-        url: 'https://github.com/vitelabs/vite-wallet/releases/tag/v1.3.20',
-      },
-      ],
+        url: 'https://github.com/vitelabs/vite-wallet/releases/download/v1.4.2/Vite-Desktop-Wallet-1.4.2-win.exe'
+      }
+      ]
     };
   },
 };

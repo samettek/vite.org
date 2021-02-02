@@ -519,15 +519,23 @@
       {
         "time": "2020 Q4",
         "description": [
-          "Vite 2.0 白皮书",
-          "ViteX 网关 2.0",
-          "Vite 钱包支持 BTC",
           "集成开源程序化交易平台",
           "支持第三方开发 Vite 钱包",
           "交易所支持多种下单类型",
           "DApp 开发工具升级",
           "交易所持续上币",
           "运营商招募"
+        ]
+      },
+      {
+        "time": "2021",
+        "description": [
+          "Vite Bridge: An Open Cross-border Asset Transfer Protocol",
+          "Vite DAO: Vite公链和ViteX交易所的社区治理",
+          "Open Product Stack: 将全部Vite/ViteX服务和产品向社区开源，鼓励第三方产品和服务",
+          "Vite Protocol Update: 公链协议优化与升级",
+          "Vite App Update：Vite手机钱包重大改版与升级",
+          "Vite Techies:  Hackathon and Grants"
         ]
       }
     ]
