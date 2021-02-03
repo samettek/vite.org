@@ -2,7 +2,7 @@
     <div class="page-what-is-vite">
         <page-header name="whatIsVite"></page-header>
         <div class="sub-section-wrapper">
-          <sub-section name="tech" class="sub-section"></sub-section>
+          <sub-section name="tech" class="sub-section sub-section-tech"></sub-section>
           <sub-section name="dex" class="sub-section"></sub-section>
         </div>
         <home-section class="home-section-fullnode" :buttons="btnGroups" name="fullnode" :render="['img']" center>
@@ -94,5 +94,13 @@ export default {
 }
 .node-map {
   margin-top: 60px;
+}
+
+.sub-section-tech {
+  /deep/ .sub-section__desc-content {
+    & > div {
+      text-align: center;
+    }
+  }
 }
 </style>

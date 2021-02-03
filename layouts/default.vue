@@ -1,17 +1,17 @@
 <template>
   <div class="public __vite__" :class="`is-${routeName}-public`">
-    <div class="airdrop__fiexd" v-if="routeName !== 'airdrop'">
+    <!-- <div class="airdrop__fiexd" v-if="routeName !== 'airdrop'">
       <a
         :href="urls.exchange.vitex"
         target="_blank"
         class="text-hover-transition"
       >{{$t('home.gotoVitex')}}</a>
-      <!--<nuxt-link-->
-      <!--:to="localePath('airdrop')"-->
-      <!--class="text-hover-transition">-->
-      <!--{{$t('home.jionAirdrop')}}-->
-      <!--</nuxt-link>-->
-    </div>
+      <nuxt-link
+      :to="localePath('airdrop')"
+      class="text-hover-transition">
+      {{$t('home.jionAirdrop')}}
+      </nuxt-link>
+    </div> -->
     <no-ssr>
       <dialog-compo :visible.sync="dialogVisible" v-if="routeName === 'index'">
         <div class="is-flex dialog__img" style="justify-content: center;">
@@ -237,12 +237,6 @@ export default {
       navPersonList: [
         {
           type: 'inner',
-          name: 'team',
-          to: 'figure',
-          anchor: 'team',
-        },
-        {
-          type: 'inner',
           name: 'counselor',
           to: 'figure',
           anchor: 'advisor',
@@ -327,18 +321,6 @@ export default {
           name: 'node',
           to: 'whatIsVite',
           anchor: 'fullnode',
-        },
-        {
-          type: 'inner',
-          name: 'team',
-          to: 'whatIsVite',
-          anchor: 'team',
-        },
-        {
-          type: 'inner',
-          name: 'investor',
-          to: 'whatIsVite',
-          anchor: 'investor',
         },
         {
           type: 'inner',

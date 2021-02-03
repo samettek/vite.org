@@ -171,7 +171,6 @@ export default {
       font-size: 16px;
       font-family: $font-family-light;
       font-weight: 400;
-      text-align: left;
       color: #54565a;
       line-height: 30px;
     }

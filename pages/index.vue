@@ -10,11 +10,6 @@
               </h1>
               <h2>{{$t("home.slogan")}}</h2>
             </div>
-            <a class="countdown-wrapper" :href="$link('ann.fifthHardfork')" target="_blank">
-              <div>{{$t('home.hardfork')}}
-                <countdown class="countdown"></countdown>
-              </div>
-            </a>
             <div class="btn-group-wrapper">
               <!-- <n-link
                 class="pop-btn"

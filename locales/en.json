@@ -1,18 +1,18 @@
 {
   "lang": "EN",
   "head": {
-    "title": "Vite - 全球首个基于DAG搭建开放式去中心化金融服务的公链",
-    "document": "文档",
+    "title": "Vite - Bridging Every Blockchain in a Multi-Chain Future",
+    "document": "Ducumentation",
     "description": {
-      "index": "Vite - 全球首个基于DAG搭建开放式去中心化金融服务的公链",
-      "airdrop": "Vite - 下载 Vite Wallet 参与空投",
-      "community": "Vite - Vite的用户分布在全球180多个国家和地区，社区规模20万人，钱包日活跃用户数2万人。",
-      "development": "Vite - 加入Vite，成为开发者",
-      "ecosystem": "Vite - 在众多项目和社区伙伴的共同努力下，在Vite公链基础上搭建了完整的生态场景，越来越多的社区用户正在积极参与到Vite生态建设中。",
-      "faq": "Vite - 问题答疑",
-      "superNodes": "Vite - 超级节点说明",
-      "token": "Vite - 关于Vite代币",
-      "whatIsVite": "Vite - 全球首个基于DAG搭建开放式去中心化金融服务的公链"
+      "index": "Vite - Bridging Every Blockchain in a Multi-Chain Future",
+      "airdrop": "Vite - Download Vite Wallet and Participate in Airdrop",
+      "community": "Vite - The Vite community is across 180 countries and regions in the world, with over 200,000 users and developers. The DAU of Vite wallet is 20,000.",
+      "development": "Vite - Join the Vite Ecosystem as a Developer",
+      "ecosystem": "Vite - With the joint efforts of the team and community, a multi-tiered, fully functional ecosystem has been established on Vite. Embrace the decentralized digital life and open finance on the Vite blockchain.",
+      "faq": "Vite - FAQ",
+      "superNodes": "Vite - Supernode Introduction",
+      "token": "Vite - About Vite Coin",
+      "whatIsVite": "Vite - Bridging Every Blockchain in a Multi-Chain Future"
     }
   },
   "media": {
@@ -78,7 +78,7 @@
       "zh": "China Mainland"
     },
     "header": "Vite",
-    "slogan": "The World-First DAG Based Blockchain with Smart Contract Capability",
+    "slogan": "Bridging Every Blockchain in a Multi-Chain Future",
     "whitePaper": "White Paper",
     "whitePaperSyra": "SyraCoin White Paper",
     "testnet": "TestNet",
@@ -89,10 +89,9 @@
     "hardfork": "Open Finance (The 5th Hardfork)",
     "sections": {
       "whatIsVite": {
-        "title": "What is Vite?",
+        "title": "About Vite",
         "desc": [
-          "Vite is a high-performance public chain with no transaction fees. Driven by asynchronous architecture and DAG technology, it is specifically designed for highly scalable applications by offering high reliability, low latency, and security. ",
-          "In the definition of “Borderless transfer of value, composability of protocols, and open ecosystem and governance”, Decentralized Open Finance is that the Vite team has been dedicated to, and firmly practicing since 2018 when we included “ecosystem of values” in a core goal of Vite. The idea is to create basic infrastructure and practical applications around asset issuance, decentralized exchange, stablecoins, payment, and cross-chain asset transfers."
+          "We believe in a future where many blockchains will blossom to serve different needs. So easy transfer of data and assets between blockchains will become increasingly important. We have designed Vite to bridge every blockchain in a decentralized manner."
         ],
         "btnGroup": {
           "learn": "Learn More"
@@ -1521,11 +1520,10 @@
     "partner": "Partners",
     "subTitle": "About Vite",
     "desc": [
-      "Vite is a high-performance public chain with no transaction fees. Driven by asynchronous architecture and DAG technology, it is specifically designed for highly scalable applications by offering high reliability, low latency, and security. <br>",
-      "In the definition of “Borderless transfer of value, composability of protocols, and open ecosystem and governance”, Decentralized Open Finance is that the Vite team has been dedicated to, and firmly practicing since 2018 when we included “ecosystem of values” in a core goal of Vite. The idea is to create basic infrastructure and practical applications around asset issuance, decentralized exchange, stablecoins, payment, and cross-chain asset transfers."
+      "We believe in a future where many blockchains will blossom to serve different needs. So easy transfer of data and assets between blockchains will become increasingly important. We have designed Vite to bridge every blockchain in a decentralized manner."
     ],
     "tech": {
-      "title": "The World's First Public Chain Based on DAG with Smart Contract Capability",
+      "title": "Bridging Every Blockchain in a Multi-Chain Future",
       "features": {
         "dag": "DAG",
         "throughput": "High TPS",
@@ -1536,16 +1534,12 @@
       },
       "desc": [
         {
-          "title": "Fast, Fee-less",
-          "text": "The novel HDPoS consensus algorithm and asynchronous structure costs no fee for transactions and takes only one second to confirm."
+          "title": "Universality",
+          "text": "Works between any two chains"
         },
         {
-          "title": "Easy to Migrate",
-          "text": "Solidity++, a next-gen smart contract language beyond Solidity, keeps the maximum EVM compatibility while allows the minimum cost for creating new contracts, facilitating large scale adoptions."
-        },
-        {
-          "title": "Secure",
-          "text": "The invention of snapshot chain makes up for DAG's inherent security flaws and makes complex, security-sensitive DeFi applications like DEX possible."
+          "title": "Trustlessness",
+          "text": "Provides a bridge in a decentralized way"
         }
       ]
     },
