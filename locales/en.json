@@ -87,6 +87,17 @@
     "news": "News",
     "starttoUse": "Get Started with Vite",
     "hardfork": "Open Finance (The 5th Hardfork)",
+    "bridgeWhitepaper": "ViteBridge White Paper",
+    "features": [
+      {
+        "title": "Universality",
+        "content": "Works between any two chains"
+      },
+      {
+        "title": "Trustlessness",
+        "content": "Provides a bridge in a decentralized way"
+      }
+    ],
     "sections": {
       "whatIsVite": {
         "title": "About Vite",
@@ -237,6 +248,23 @@
           "techGroup": "Vite Technical Group",
           "toForum": "Discuss on Forum"
         }
+      },
+      "bridge": {
+        "title": "Where can ViteBridge be Used",
+        "useCase": [
+          {
+            "title": "Instant Cross-Chain Transfer",
+            "content": "Allow assets to cross-chain between any blockchain network and participate in multiple chain ecology."
+          },
+          {
+            "title": "Stable Coin Cross-Chain Exchange",
+            "content": "On the premise of trustlessness, ViteBridge provides users with Stablecoin exchange between multiple blockchain networks."
+          },
+          {
+            "title": "Cryptocurrency Custody",
+            "content": "When a DEX integrates ViteBridge, it will access all the blockchains that support ViteBridge and enable the deposit and withdrawal of multiple cryptocurrencies."
+          }
+        ]
       }
     }
   },
@@ -1650,7 +1678,7 @@
       "To create a smart contract on Vite only costs 10 VITE, and sending transactions as well as calling smart contracts is completely free."
     ],
     "btnGroup": {
-      "wiki": "Wiki",
+      "wiki": "Documentation",
       "github": "GitHub",
       "smartContract": "Learn about Vite Smart Contract"
     },
@@ -1799,8 +1827,5 @@
         ]
       }
     }
-  },
-  "countdown": {
-    "template": "In {days} days, {hours} hours, {minutes} minutes, {seconds} seconds"
   }
 }

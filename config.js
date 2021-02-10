@@ -177,7 +177,7 @@ module.exports = {
     reddit: 'https://www.reddit.com/r/vitelabs',
     github: 'https://github.com/vitelabs',
     goVite: 'https://github.com/vitelabs/go-vite',
-    document: 'https://vite.wiki',
+    document: 'https://docs.vite.org',
     loopring: 'https://loopring.org',
     faq: '/faq',
     medium: 'https://medium.com/vitelabs',

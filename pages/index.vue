@@ -1,30 +1,78 @@
 <template>
   <div>
     <section class="hero home">
-      <div class="hero-body">
-        <div class="container is-flex topinfo">
-          <div class="topinfo__left">
-            <div class="is-size-1-desktop is-size-2-touch slogan-wrapper">
+      <div class="hero-body container">
+          <div class="topinfo">
+            <div class="slogan-wrapper">
               <h1>
                 VITE
               </h1>
               <h2>{{$t("home.slogan")}}</h2>
             </div>
             <div class="btn-group-wrapper">
-              <!-- <n-link
-                class="pop-btn"
-                :to="localePath('/whatIsVite')"
-              >{{$t('home.aboutVite')}}</n-link> -->
-              <WhitePaper class="wp-margin"></WhitePaper>
+              <WhitePaper class="wp-btn"></WhitePaper>
               <a
-                href="https://github.com/vitelabs/whitepaper/blob/master/SyraCoinWhitePaper.pdf"
+                href="https://docs.vite.org/go-vite/bridge/ViteBridge.html"
                 target="_blank"
                 class="pop-btn"
-              >{{$t('home.whitePaperSyra')}}</a>
+              >{{$t('home.bridgeWhitepaper')}}</a>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <home-section key="whatIsVite" name="whatIsVite" :buttons="[
+            {
+              name: 'learn',
+              url: {
+                name: 'whatIsVite',
+              },
+            },
+          ]" :center="false"></home-section>
+
+    <section class="feature-section">
+      <div class="container">
+        <h1 class="section-header">Features</h1>
+      </div>
+      <div class="container">
+        <div class="feature-item">
+          <div class="icon">
+            <img src="~assets/images/home/trustlessness.png" alt="">
+          </div>
+          <div class="feature-content">
+            <h3>{{$t('home.features.0.title')}}</h3>
+            <div>
+              {{$t('home.features.0.content')}}
+            </div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="icon">
+            <img src="~assets/images/home/universality.png" alt="">
+          </div>
+          <div class="feature-content">
+            <h3>{{$t('home.features.1.title')}}</h3>
+            <div>
+              {{$t('home.features.1.content')}}
             </div>
           </div>
         </div>
       </div>
+    </section>
+
+    <section class="bridge-section">
+      <div class="container">
+        <h1>{{$t('home.sections.bridge.title')}}</h1>
+        <div class="bridge-content">
+          <div class="bridge-item-wrapper" v-for="item in $t('home.sections.bridge.useCase')" :key="item.title">
+            <div class="bridge-item">
+              <h3>{{item.title}}</h3>
+              <div>{{item.content}}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </section>
 
     <home-section v-for="item in sectionList" :key="item.name" :name="item.name" :buttons="item.buttons" :center="item.center"></home-section>
@@ -87,39 +135,28 @@ export default {
   computed: {
     sectionList() {
       return [
-        {
-          name: 'whatIsVite',
-          buttons: [
-            {
-              name: 'learn',
-              url: {
-                name: 'whatIsVite',
-              },
-            },
-          ],
-        },
-        {
-          name: 'product',
-          buttons: [
-            {
-              name: 'learn',
-              url: this.$link('viteNet'),
-            },
-          ],
-          center: true,
-        },
-        {
-          name: 'ecosystem',
-          buttons: [
-            {
-              name: 'learn',
-              url: {
-                name: 'ecosystem',
-              },
-            },
-          ],
-          center: true,
-        },
+        // {
+        //   name: 'product',
+        //   buttons: [
+        //     {
+        //       name: 'learn',
+        //       url: this.$link('viteNet'),
+        //     },
+        //   ],
+        //   center: true,
+        // },
+        // {
+        //   name: 'ecosystem',
+        //   buttons: [
+        //     {
+        //       name: 'learn',
+        //       url: {
+        //         name: 'ecosystem',
+        //       },
+        //     },
+        //   ],
+        //   center: true,
+        // },
         {
           name: 'development',
           buttons: [
@@ -199,14 +236,16 @@ export default {
   position: relative;
   font-family: $font-family-title;
   height: 819px;
-  background-image: url("~assets/images/home/top.svg");
-  background-size: 130% 100%;
-  background-repeat: no-repeat;
-  background-position: bottom;
+  background-color: #007AFF;
+  .container {
+    background-image: url("~assets/images/home/new-bg.png");
+    background-size: cover;
+    margin-top: 40px;
+  }
 
-  .topinfo__left {
+  .topinfo {
+    text-align: center;
     padding-bottom: 5.625rem;
-    margin-right: 50px;
     @include mobile {
       padding-bottom: 40px;
       margin-right: 0px;
@@ -215,7 +254,6 @@ export default {
 
   .slogan-wrapper {
     margin-top: 149px;
-    max-width: 590px;
     h1 {
       @include title();
       font-weight: 500;
@@ -234,30 +272,6 @@ export default {
         font-size: 1rem;
       }
     }
-    @include touch {
-      max-width: unset;
-    }
-    @include mobile {
-      margin-top: 0;
-    }
-  }
-
-  .countdown-wrapper {
-    margin-top: 15px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 590px;
-    color: rgba(255,255,255, 0.8);
-    border-bottom: 1px dashed rgba(255,255,255, 0.4);
-    &:hover {
-      color: white;
-      border-bottom-color: white;
-    }
-    @include mobile() {
-      display: none;
-    }
   }
 
   .btn-group-wrapper {
@@ -267,6 +281,8 @@ export default {
     text-align: center;
     display: flex;
     cursor: pointer;
+    flex-direction: row;
+    justify-content: center;
 
     .pop-btn {
       box-shadow: none;
@@ -276,13 +292,14 @@ export default {
       height: 54px;
       line-height: 54px;
       color: white;
-      background: #3394ff;
+      background: transparent;
+      border: 1px solid #ffffff;
+      border-radius: 5px;
       font-size: 16px;
-      border-radius: 4px;
       font-weight: 600;
       margin-right: 40px;
       &:hover {
-        background: lighten(#3394ff, 10%);
+        background: rgba(0,0,0,0.05);
       }
       @include touch {
         width: 124px;
@@ -290,6 +307,24 @@ export default {
         font-size: 12px;
         line-height: 50px;
         margin-right: 14px;
+      }
+      @include until($desktop) {
+        border: none;
+      }
+    }
+
+    .wp-btn {
+      /deep/ .trigger {
+        span {
+          background: white;
+          color: #007AFF;
+          padding-left: 35px;
+          padding-right: 35px;
+          @include until($desktop) {
+            background: none;
+            color: white;
+          }
+        }
       }
     }
   }
@@ -372,6 +407,133 @@ export default {
     background-position: top;
     .hero-body {
       padding-bottom: 50px;
+    }
+  }
+}
+
+.feature-section {
+  background: #F5FAFF;
+  padding: 100px 0;
+  margin-top: 100px;
+
+  .section-header {
+    text-align: center;
+    display: block;
+    font-size: 44px;
+    @include title();
+    color: #171c34;
+    line-height: 48px;
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  .feature-item {
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    .icon {
+      width: 180px;
+      height: 180px;
+    }
+  }
+  .feature-content {
+    margin-top: 80px;
+    width: 100%;
+    text-align: center;
+    h3 {
+      margin-bottom: 38px;
+      font-size: 34px;
+      font-weight: 400;
+      color: #171c34;
+      line-height: 38px;
+      font-family: $font-family-title;
+    }
+    & > div {
+      font-size: 24px;
+      font-weight: 400;
+      color: #000000;
+      line-height: 34px;
+    }
+  }
+  & > .container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  @include until($tablet) {
+    .feature-content {
+      h3 {
+        font-size: 22px;
+      }
+      & > div {
+        font-size: 20px;
+      }
+    }
+    .feature-item {
+      .icon {
+        width: 140px;
+        height: 140px;
+      }
+    }
+  }
+}
+
+.bridge-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  h1 {
+    text-align: center;
+    display: block;
+    font-size: 44px;
+    @include title();
+    color: #171c34;
+    line-height: 48px;
+    width: 100%;
+    margin-bottom: 100px;
+  }
+  .bridge-content {
+    display: flex;
+    flex-direction: row;
+    margin: 0 -15px;
+    .bridge-item-wrapper {
+      padding: 15px;
+      flex: 1;
+    }
+    .bridge-item {
+      height: 480px;
+      border: 1px solid #000000;
+      padding: 90px 24px 24px 24px;
+      h3 {
+        font-size: 28px;
+        font-family: $font-family-title;
+        font-weight: 600;
+        text-align: left;
+        color: #000000;
+        line-height: 50px;
+        margin-bottom: 50px;
+      }
+      & > div {
+        font-size: 18px;
+        font-weight: 400;
+        text-align: left;
+        color: #000000;
+        line-height: 30px;
+      }
+    }
+  }
+  @include until($tablet) {
+    padding-left: 20px;
+    padding-right: 20px;
+    .bridge-content {
+      flex-direction: column;
+      .bridge-item {
+        padding: 30px 15px;
+        height: auto;
+        h3 {
+          font-size: 22px;
+          margin-bottom: 30px;
+        }
+      }
     }
   }
 }

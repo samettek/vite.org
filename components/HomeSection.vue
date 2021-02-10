@@ -18,7 +18,7 @@
           </template>
         </div>
       </div>
-      <div class="home-section__img" @click="onImgClick">
+      <div class="home-section__img">
         <template v-if="name === 'ecosystem'">
             <div v-for="(item, index) in ecosystemList" :key="index" class="ecosystem__item">
               <div v-if="item.name === 'line'" class="ecosystem__line"></div>
@@ -43,10 +43,6 @@
                 :key="item.name"
               >{{$t(`home.sections.${name}.others.${item.name}`)}}</a>
             </template>
-
-            <template v-if="name === 'whatIsVite'">
-              <img class="play-icon"  src="~assets/images/video/play.svg"/>
-            </template>
         </div>
         <slot v-else-if="imgRender" name="img"></slot>
       </div>
@@ -60,7 +56,7 @@ import player from './play';
 const imgUrls = [
   {
     name: 'whatIsVite',
-    url: require('~/assets/images/home/whatIsVite.png'),
+    url: require('~/assets/images/home/aboutVite.png'),
   },
   {
     name: 'product',
@@ -334,7 +330,7 @@ $desc-max-width: 600px;
       flex-direction: row;
     }
     .home-section__info {
-      width: 62.5%;
+      width: 50%;
       h1 {
         margin-top: 149px;
       }
@@ -343,12 +339,18 @@ $desc-max-width: 600px;
       max-width: $desc-max-width;
     }
     .home-section__img {
-      width: 37.5%;
+      width: 50%;
       margin-top: 131px;
-      max-width: 450px;
       text-align: right;
+      padding-left: 60px;
       & > div {
         position: relative;
+        border-radius: 6px;
+        box-shadow: 0px 2px 16px 4px rgba(0,0,0,0.06);
+        padding: 15px;
+        img {
+          border: 1px dashed rgba(0,0,0,0.1);
+        }
       }
       &:hover {
         cursor: pointer;
@@ -361,6 +363,11 @@ $desc-max-width: 600px;
         margin-top: -20px;
         left: 50%;
         margin-left: -20px;
+      }
+    }
+    @include until($desktop) {
+      .home-section__img {
+        padding-left: 0;
       }
     }
   }

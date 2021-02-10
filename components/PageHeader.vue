@@ -158,6 +158,25 @@ export default {
     }
   }
 
+  &-development {
+    .page-header__content {
+      position: relative;
+      .container {
+        z-index: 20;
+      }
+      &:after {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-image: url("~assets/images/whatIsVite/developer.png");
+          background-size: cover;
+      }
+    }
+  }
+
   &-whatIsVite {
     .page-header__content {
       background-size: cover;
