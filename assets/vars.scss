@@ -62,4 +62,7 @@ $timelineColor: #007aff;
   font-family: $font-family-title;
   font-weight: 600;
   color: $font-title-color;
+  @include until($desktop) {
+    font-size: 20px;
+  }
 }

@@ -718,6 +718,11 @@ $desc-max-width: 600px;
         }
       }
     }
+    &-wallet {
+      .home-section__img {
+        display: none;
+      }
+    }
     &-devTool {
       background-color: #F5FAFF;
       .home-section__info {

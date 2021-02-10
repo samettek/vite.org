@@ -461,7 +461,12 @@ export default {
   }
 
   @include until($tablet) {
+    padding: 60px 0;
+    .section-header {
+      margin-bottom: 30px;
+    }
     .feature-content {
+      margin-top: 30px;
       h3 {
         font-size: 22px;
       }
@@ -474,6 +479,11 @@ export default {
         width: 140px;
         height: 140px;
       }
+      margin-bottom: 60px;
+    }
+    & > .container {
+      display: flex;
+      flex-direction: column;
     }
   }
 }
@@ -519,6 +529,13 @@ export default {
         color: #000000;
         line-height: 30px;
       }
+    }
+  }
+  @include until($desktop) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    h1 {
+      margin-bottom: 30px;
     }
   }
   @include until($tablet) {
