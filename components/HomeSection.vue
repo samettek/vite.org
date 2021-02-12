@@ -534,6 +534,7 @@ $desc-max-width: 600px;
       align-items: flex-end;
       & > div {
         display: flex;
+        flex-direction: column;
       }
     }
   }
@@ -716,11 +717,6 @@ $desc-max-width: 600px;
         h1 {
           margin-top: 30px;
         }
-      }
-    }
-    &-wallet {
-      .home-section__img {
-        display: none;
       }
     }
     &-devTool {
