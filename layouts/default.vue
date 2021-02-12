@@ -12,12 +12,12 @@
       {{$t('home.jionAirdrop')}}
       </nuxt-link>
     </div> -->
-    <no-ssr>
+
+    <!-- <no-ssr>
       <dialog-compo :visible.sync="dialogVisible" v-if="routeName === 'index'">
         <div class="is-flex dialog__img" style="justify-content: center;">
           <img src="~/assets/images/vitex.svg" />
         </div>
-        <!-- <div style="margin-top: 23px;">{{$t('home.jionAirdrop')}}</div> -->
         <span slot="footer">
           <div @click="dialogVisible = false">
             <a
@@ -25,15 +25,11 @@
               target="_blank"
               class="footer-btn"
             >{{$t('home.gotoVitex')}}</a>
-            <!--<nuxt-link-->
-            <!--:to="localePath('airdrop')"-->
-            <!--class="footer-btn">-->
-            <!--{{$t('home.gotoVitex')}}-->
-            <!--</nuxt-link>-->
           </div>
         </span>
       </dialog-compo>
-    </no-ssr>
+    </no-ssr> -->
+
     <div
       class="navbar"
       :class="[`is-${routeName}`, `navbar_${navbarTheme}`]"
