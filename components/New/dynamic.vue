@@ -51,7 +51,7 @@ export default {
           skipUrl: item.skipUrl,
           date: time.toLocaleDateString(),
         };
-      });
+      }).slice(0, 7);
     },
   },
   data() {
