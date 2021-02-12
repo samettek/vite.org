@@ -273,7 +273,7 @@ export default {
         {
           type: 'outer',
           name: 'desktopWallet',
-          to: this.$link('desktopWallet.release'),
+          to: this.$link('createWallet'),
         },
         {
           type: 'outer',
