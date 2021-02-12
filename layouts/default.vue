@@ -166,6 +166,7 @@ export default {
       },
     ];
     return {
+      title,
       meta: [
         { hid: 'description', name: 'description', content: description },
         {

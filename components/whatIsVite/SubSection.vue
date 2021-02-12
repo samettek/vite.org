@@ -135,7 +135,8 @@ export default {
       color: $font-title-color;
       font-size: 18px;
       padding: 20px;
-      word-break: break-all;
+      overflow-wrap: break-word;
+      text-align: center;
       img {
         margin-bottom: 40px;
       }

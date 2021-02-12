@@ -88,7 +88,7 @@
           <!-- <wechat></wechat> -->
         </div>
         <div class="copyright">
-          <span>© 2018-{{new Date().getFullYear()}} VITE Labs. All Rights Reserved.</span>
+          <span>© 2018-{{new Date().getFullYear()}} Vite Labs, Inc. All Rights Reserved.</span>
         </div>
       </div>
     </footer>

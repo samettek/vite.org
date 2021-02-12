@@ -41,9 +41,7 @@
           </div>
           <div class="feature-content">
             <h3>{{$t('home.features.0.title')}}</h3>
-            <div>
-              {{$t('home.features.0.content')}}
-            </div>
+            <div v-html="$t('home.features.0.content')"></div>
           </div>
         </div>
         <div class="feature-item">
@@ -52,9 +50,7 @@
           </div>
           <div class="feature-content">
             <h3>{{$t('home.features.1.title')}}</h3>
-            <div>
-              {{$t('home.features.1.content')}}
-            </div>
+            <div v-html="$t('home.features.1.content')"></div>
           </div>
         </div>
       </div>

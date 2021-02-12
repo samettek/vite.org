@@ -54,6 +54,10 @@ export default {
           name: 'learn',
           url: this.$link('incentivePlan'),
         },
+        {
+          name: 'devCommittee',
+          url: this.$link('devCommittee'),
+        },
       ];
     },
     syraBtns() {

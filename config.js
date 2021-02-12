@@ -72,6 +72,7 @@ module.exports = {
       zh: 'https://forum.vite.net/topic/3634/vite%E5%9F%BA%E9%87%91%E4%BC%9A%E7%A4%BE%E5%8C%BA%E7%94%9F%E6%80%81%E6%BF%80%E5%8A%B1%E6%94%BF%E7%AD%96',
       en: 'https://medium.com/vitelabs/vite-foundation-community-ecosystem-incentive-plan-dc2b8bcfec87',
     },
+    devCommittee: 'https://medium.com/vitelabs/vite-developer-committee-we-are-looking-to-fund-new-projects-476cba271f26',
     syraAnn: {
       zh: 'https://forum.vite.net/topic/3625/%E9%A1%B9%E7%9B%AE%E8%83%8C%E6%99%AF%E5%8F%8A%E8%BF%9B%E5%B1%95-vite-labs%E4%B8%8E%E7%BE%8E%E5%9B%BD%E7%BA%BD%E7%BA%A6%E5%B7%9E%E9%9B%AA%E5%9F%8E%E6%94%BF%E5%BA%9C%E5%90%88%E4%BD%9C%E9%A1%B9%E7%9B%AE-%E5%8A%A9%E5%8A%9B%E9%9B%AA%E5%9F%8E%E6%94%BF%E5%BA%9C%E8%A7%A3%E5%86%B3%E6%B0%91%E7%94%9F%E9%97%AE%E9%A2%98',
       en: 'https://forum.vite.net/topic/1280/vite-labs-the-city-of-syracuse-launch-a-first-of-its-kind-municipal-token-economy-syracoin',
