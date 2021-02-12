@@ -73,18 +73,11 @@ export default {
             'https://t.me/vite_zh',
             'https://t.me/vite_russia',
             'https://t.me/vite_vietnamese',
-            'https://t.me/vite_korean',
-            'https://t.me/vite_french',
             'https://t.me/vite_arabic',
-            'https://t.me/vite_german',
             'https://t.me/vite_japanese',
-            'https://t.me/vite_thailand',
             'https://t.me/vite_turkish',
             'https://t.me/vite_indonesian',
-            'https://t.me/vite_spanish',
-            'https://t.me/vite_malaysian',
             'https://t.me/vite_filipino',
-            'https://t.me/vite_bengali',
           ],
         },
         {
@@ -127,11 +120,11 @@ export default {
           img: require('~/assets/images/community/bitcoinblue.svg'),
           links: ['https://bitcointalk.org/index.php?topic=5056409'],
         },
-        {
-          img: require('~/assets/images/community/wechatblue.svg'),
-          key: 'pic',
-          pic: require('~/assets/images/vitelabs_wechat.jpg'),
-        },
+        // {
+        //   img: require('~/assets/images/community/wechatblue.svg'),
+        //   key: 'pic',
+        //   pic: require('~/assets/images/vitelabs_wechat.jpg'),
+        // },
       ],
       arrays: [
         {
