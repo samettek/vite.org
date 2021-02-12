@@ -70,9 +70,17 @@
               ></secondary-menu>
             </div>
 
-            <a href="https://vite.net" target="_blank" class="nav-item nav-top-item text-hover-transition">
+            <!-- <a href="https://vite.net" target="_blank" class="nav-item nav-top-item text-hover-transition">
               {{$t('nav.production')}}
-            </a>
+            </a> -->
+
+            <div class="nav-item">
+              <secondary-menu
+                :theme="navbarTheme"
+                :footer-name="$t(`nav.production`)"
+                :secondary-list="navProductionList"
+              ></secondary-menu>
+            </div>
 
             <nuxt-link
               key="ecosystem"
@@ -208,32 +216,6 @@ export default {
   data() {
     return {
       dialogVisible: false,
-      navProductionList: [
-        {
-          type: 'inner',
-          name: 'platform',
-          to: 'products',
-          anchor: 'platform',
-        },
-        {
-          type: 'inner',
-          name: 'wallet',
-          to: 'products',
-          anchor: 'wallet',
-        },
-        {
-          type: 'inner',
-          name: 'exchange',
-          to: 'products',
-          anchor: 'exchange',
-        },
-        {
-          type: 'inner',
-          name: 'pay',
-          to: 'products',
-          anchor: 'pay',
-        },
-      ],
       navPersonList: [
         {
           type: 'inner',
@@ -274,6 +256,45 @@ export default {
     }
   },
   computed: {
+    navProductionList() {
+      return [
+        {
+          type: 'outer',
+          name: 'vitex',
+          to: this.$link('vitex'),
+        },
+        {
+          type: 'outer',
+          name: 'app',
+          to: this.$link('app'),
+        },
+        {
+          type: 'outer',
+          name: 'webWallet',
+          to: this.$link('webWallet'),
+        },
+        {
+          type: 'outer',
+          name: 'desktopWallet',
+          to: this.$link('desktopWallet.release'),
+        },
+        {
+          type: 'outer',
+          name: 'vitePlus',
+          to: this.$link('vitePlus'),
+        },
+        {
+          type: 'outer',
+          name: 'viteScan',
+          to: this.$link('explorer.viteScan'),
+        },
+        {
+          type: 'outer',
+          name: 'viteExplorer',
+          to: this.$link('explorer.viteExplorer'),
+        },
+      ];
+    },
     navStartList() {
       return [
         {

@@ -134,6 +134,10 @@ export default {
       type: Array,
       default: () => [],
     },
+    navProductionList: {
+      type: Array,
+      default: () => [],
+    },
   },
   data() {
     const { urls } = config;
@@ -174,45 +178,6 @@ export default {
     };
   },
   computed: {
-    navProductionList() {
-      return [
-        {
-          type: 'outer',
-          name: 'vitex',
-          to: this.$link('vitex'),
-        },
-        {
-          type: 'outer',
-          name: 'app',
-          to: this.$link('app'),
-        },
-        {
-          type: 'outer',
-          name: 'webWallet',
-          to: this.$link('webWallet'),
-        },
-        {
-          type: 'outer',
-          name: 'desktopWallet',
-          to: this.$link('desktopWallet.release'),
-        },
-        {
-          type: 'outer',
-          name: 'vitePlus',
-          to: this.$link('vitePlus'),
-        },
-        {
-          type: 'outer',
-          name: 'viteScan',
-          to: this.$link('explorer.viteScan'),
-        },
-        {
-          type: 'outer',
-          name: 'viteExplorer',
-          to: this.$link('explorer.viteExplorer'),
-        },
-      ];
-    },
     navEcosystemList() {
       return [
         {

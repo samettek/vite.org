@@ -40,8 +40,8 @@ module.exports = {
     },
     tutorial: {
       start: {
-        zh: 'https://vite.wiki/zh/tutorial/start/',
-        en: 'https://vite.wiki/tutorial/start/',
+        zh: 'https://docs.vite.org/go-vite/start.html',
+        en: 'https://docs.vite.org/go-vite/start.html',
       },
       vote: {
         zh: 'https://forum.vite.net/topic/3610/%E6%95%99%E7%A8%8B-%E5%A6%82%E4%BD%95%E5%9C%A8vite-app%E5%86%85%E6%8A%95%E7%A5%A8%E7%BB%99%E8%B6%85%E7%BA%A7%E8%8A%82%E7%82%B9%E5%BE%97vite%E5%A5%96%E5%8A%B1',
