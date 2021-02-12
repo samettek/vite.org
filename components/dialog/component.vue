@@ -32,15 +32,15 @@ export default {
   props: {
     visible: {
       type: Boolean,
-      default: false
+      default: false,
     },
     title: {
       type: String,
-      default: ''
+      default: '',
     },
     showClose: {
       type: Boolean,
-      default: true
+      default: true,
     },
     fullscreen: true,
   },
@@ -57,7 +57,7 @@ export default {
         this.$emit('update:visible', false);
       }
     },
-  }
+  },
 };
 </script>
 <style rel="stylesheet/scss" lang="scss" scoped>
@@ -127,7 +127,6 @@ export default {
       justify-content: center;
     }
   }
-  
+
 }
 </style>
-

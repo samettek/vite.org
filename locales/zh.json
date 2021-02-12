@@ -1,13 +1,18 @@
 {
   "lang": "中文",
   "head": {
-    "title": "Vite - 高性能去中心化生态系统",
+    "title": "Vite - 全球首个基于DAG搭建开放式去中心化金融服务的公链",
     "document": "文档",
     "description": {
-      "index": "Vite - 高性能去中心化生态系统",
-      "careers": "欢迎加入Vitelabs，Do something cool",
-      "faq": "有关Vite的所有问题答疑",
-      "technology": "Vite核心技术：DAG、Snapshot Chain、异步架构、响应式合约、配额租赁、集成路印协议、定时调度、合约升级、solidity++"
+      "index": "Vite - 全球首个基于DAG搭建开放式去中心化金融服务的公链",
+      "airdrop": "Vite - 下载 Vite Wallet 参与空投",
+      "community": "Vite - Vite的用户分布在全球180多个国家和地区，社区规模20万人，钱包日活跃用户数2万人。",
+      "development": "Vite - 加入Vite，成为开发者",
+      "ecosystem": "Vite - 在众多项目和社区伙伴的共同努力下，在Vite公链基础上搭建了完整的生态场景，越来越多的社区用户正在积极参与到Vite生态建设中。",
+      "faq": "Vite - 问题答疑",
+      "superNodes": "Vite - 超级节点说明",
+      "token": "Vite - 关于Vite代币",
+      "whatIsVite": "Vite - 全球首个基于DAG搭建开放式去中心化金融服务的公链"
     }
   },
   "media": {
@@ -15,55 +20,53 @@
     "bitcointalk": "Bitcointalk",
     "forum": "论坛"
   },
-  "community": {
-    "title": "社区",
-    "star": "社区之星"
-  },
   "nav": {
     "index": "首页",
-    "production": "产品",
-    "platform": "平台",
-    "wallet": "钱包",
-    "exchange": "交易所",
-    "binance_url": "https://www.binancezh.com/cn/trade/VITE_BTC",
-    "pay": "支付",
-    "person": "人物",
-    "team": "团队",
-    "counselor": "顾问",
-    "global": "全球社区管理员",
-    "community": "社区",
-    "investor": "投资机构",
-    "superNodes": "超级节点说明",
-    "nodeList": "候选超级节点",
-    "notice": {
-      "name": "超级节点",
-      "specific": "超级节点说明",
-      "apply": "申请超级节点"
-    },
-    "medium": "新闻和媒体",
-    "video": "官方视频",
-    "blogs": "官方博客",
-    "news": "最新报道",
-    "tokenTransaction": "代币交易",
-    "okex": "OKEX.COM",
-    "bittrex": "BITTREX",
-    "okexKr": "OKEX Korea",
-    "guide": "指南",
+    "start": "开始",
+    "getToken": "获取 Vite 代币",
+    "createWallet": "创建钱包",
+    "useVitex": "使用 ViteX 交易所",
+    "github": "GitHub",
     "tutorial": "教程",
-    "faq": "问答",
-    "airdrop": "空投",
-    "about": "关于",
-    "wiki": "WIKI",
-    "blog": "技术博客",
-    "whitepaper": "白皮书",
-    "more": "更多",
-    "explorer": "区块浏览器",
-    "viteExplorer": "Vite区块浏览器",
-    "viteScan": "ViteScan",
-    "store": "Vite商城"
+    "faq": "常见问题",
+    "about": "关于 Vite",
+    "introduction": "介绍",
+    "token": "代币",
+    "node": "全球节点",
+    "team": "团队",
+    "investor": "投资机构",
+    "partner": "合作伙伴",
+    "production": "产品",
+    "ecosystem": "生态",
+    "development": "开发者",
+    "medium": "项目动态",
+    "weeklyReport": "双周报",
+    "ann": "公告",
+    "news": "新闻",
+    "community": "社区",
+    "join": "加入 Vite 社区",
+    "forum": "论坛",
+    "dapp": "DApp 应用",
+    "incentivePlan": "基金会激励计划",
+    "syra": "雪城政府合作项目",
+    "vitePay": "Vite Pay 支付",
+    "devTools": "开发者工具",
+    "vitex": "ViteX 交易所",
+    "app": "Vite App",
+    "vitePlus": "Vite Plus",
+    "viteScan": "Vitescan.com",
+    "viteExplorer": "区块浏览器",
+    "webWallet": "Web 钱包",
+    "desktopWallet": "桌面版钱包",
+    "docs": "开发文档",
+    "javaSDK": "Java SDK",
+    "jsSDK": "Javascript SDK",
+    "vitexDocs": "ViteX 文档",
+    "vep": "VEP"
   },
   "home": {
     "gotoVitex": "去ViteX交易",
+    "aboutVite": "关于Vite",
     "activity1": "最新活动",
     "activity2": "最新动态",
     "explorer": "区块浏览器",
@@ -74,14 +77,157 @@
       "zh": "中国用户"
     },
     "header": "Vite",
-    "slogan": "快速，实用，闭环区块链",
+    "slogan": "全球首个基于DAG搭建开放式去中心化金融服务的公链",
     "whitePaper": "白皮书",
     "whitePaperSyra": "Vite 美国雪城合作项目白皮书",
     "testnet": "预览版",
     "acttext": "免费领取VITE代币",
     "actwait": "敬请期待",
     "news": "最新消息",
-    "starttoUse": "开始使用Vite"
+    "starttoUse": "开始使用Vite",
+    "hardfork": "开放式金融服务 (第五次硬分叉)",
+    "sections": {
+      "whatIsVite": {
+        "title": "什么是Vite",
+        "desc": [
+          "Vite 是一个无手续费的高性能公链，采用DAG技术，能够同时兼顾安全性、高吞吐、低延迟以及扩展性",
+          "Vite 链上已经搭建了开放式去中心化金融服务，未来我们将让 Vite 链的去中心化金融服务更加开放、好用，从而使 Vite 生态承载更大的价值，满足更广泛的需求，并且吸引更多的真实用户。"
+        ],
+        "btnGroup": {
+          "learn": "了解更多"
+        }
+      },
+      "product": {
+        "title": "完整的产品体系",
+        "desc": [
+          "基于Vite公链打造完整产品体系，为用户提供健全的去中心化金融产品服务。",
+          "保证用户资产安全的同时让交易、查询、沟通更便捷，在Vite体系内实现了从发行到交易到存储再到流通的全闭环金融服务。"
+        ],
+        "btnGroup": {
+          "learn": "了解更多"
+        },
+        "others": {
+          "vitex": "ViteX 交易所",
+          "explorer": "区块浏览器",
+          "webWallet": "网页钱包",
+          "viteApp": "Vite App",
+          "vitePlus": "Vite Plus",
+          "forum": "论坛"
+        }
+      },
+      "ecosystem": {
+        "title": "丰富的Vite生态",
+        "desc": "在众多项目和社区伙伴的共同努力下，在Vite公链基础上搭建了完整的生态场景，越来越多的社区用户正在积极参与到Vite生态建设中。",
+        "btnGroup": {
+          "learn": "了解更多"
+        },
+        "list": {
+          "dapp": "Dapp 开发",
+          "cityToken": "美国雪城政府合作项目",
+          "vitePay": "VitePay和Vite商城"
+        }
+      },
+      "development": {
+        "title": "加入Vite，成为开发者",
+        "desc": "我们欢迎开发者在Vite公链开发应用，Vite拥有完整的开发工具及资源，创建合约成本只需要10VITE，超低的成本将为Vite带来更广泛的应用。",
+        "btnGroup": {
+          "join": "立即加入"
+        }
+      },
+      "wallet": {
+        "title": "下载Vite官方钱包",
+        "desc": [
+          "开放式去中心化金融服务App",
+          "一款多币种开源手机钱包 ",
+          "内置去中心化交易所ViteX，交易、挖矿更便捷",
+          "内置DApp丰富，投资娱乐两不误",
+          "BTC.COM合作钱包，被鱼池、星火矿池、Luxor等矿池联袂推荐"
+        ],
+        "btnGroup": {
+          "ios": "iOS下载",
+          "android": "安卓下载",
+          "qr": "扫码下载",
+          "learn": "了解更多"
+        }
+      },
+      "vitex": {
+        "title": "完全去中心化交易所ViteX",
+        "desc": [
+          "全球首个基于DAG的完全去中心化交易所，开放式去中心化金融平台",
+          "去中心化治理，持有VX代币参与治理交易所",
+          "享受100%交易所手续费分红",
+          "多种挖矿模式，挖矿可得平台币VX",
+          "去中心化上币，开交易所像开淘宝店一样简单",
+          "链上撮合交易，秒级成交，接近中心化体验",
+          "无需KYC，保护个人信息"
+        ],
+        "btnGroup": {
+          "toViteX": "使用ViteX",
+          "getVX": "获得平台币VX",
+          "learn": "了解更多"
+        }
+      },
+      "fullnode": {
+        "title": "全球节点",
+        "desc": "Vite节点分布在全球184个国家和地区，我们欢迎个人和机构申请成为Vite节点，Vite节点分为全节点和超级节点，所有超级节点每年可获得VITE总发行量3%的挖矿奖励，即3000万VITE。",
+        "btnGroup": {
+          "sbp": "超级节点说明",
+          "fullnode": "全节点说明"
+        }
+      },
+      "dapp": {
+        "title": "DApp 应用与游戏",
+        "desc": "社区开发者可以利用合约开发小游戏。这里展示了目前已在Vite App上线的小游戏，大家可以使用钱包玩游戏赚VITE，投资娱乐两不误。",
+        "btnGroup": {
+          "learn": "了解更多"
+        }
+      },
+      "devTool": {
+        "title": "开发者工具",
+        "desc": "我们欢迎开发者在Vite公链开发应用，Vite拥有完整的开发工具及资源，创建合约成本只需要10VITE，超低的成本将为Vite带来更广泛的应用。",
+        "btnGroup": {
+          "learn": "了解更多"
+        }
+      },
+      "incentive": {
+        "title": "Vite基金会生态激励计划",
+        "desc": "为激励社区有能力的团队、开发者一起建设Vite生态，Vite基金会正式推出生态扶持计划，首期针对SBP以生态基金投票的方式进行扶持，所有投票收益均归SBP所有。",
+        "btnGroup": {
+          "learn": "了解更多"
+        }
+      },
+      "community": {
+        "title": "社区生态",
+        "desc": "Vite的用户分布在全球180多个国家和地区，社区规模20万人，钱包日活跃用户数2万人。",
+        "btnGroup": {
+          "join": "加入Vite社区"
+        }
+      },
+      "syracoin": {
+        "title": "与美国雪城政府合作",
+        "desc": "2019年1月，Vite与美国纽约州雪城市政府达成合作，利用区块链技术解决低收入市民住房问题，基于Vite公链开发了dApp——SyraCoin，助力政府解决当地民生问题，成为区块链在公共事务领域的落地应用。",
+        "btnGroup": {
+          "whitePaper": "白皮书",
+          "learn": "了解更多"
+        }
+      },
+      "vitepay": {
+        "title": "VitePay 支付与 Vite 商城",
+        "desc": "2019年12月，Vite Labs 宣布与 Alchemy达成战略合作伙伴关系，共同探索区块链技术在支付领域的推广。支持用户使用VITE代币在Alchemy的商家使用进行支付。 <br>用户可以前往ViteStore体验VitePay的秒级支付功能。",
+        "btnGroup": {
+          "learn": "了解支付合作",
+          "toViteStore": "前往Vite Store"
+        }
+      },
+      "joinDev": {
+        "title": "加入Vite技术社区",
+        "desc": "",
+        "btnGroup": {
+          "techGroup": "Vite技术群",
+          "toForum": "前往论坛交流"
+        }
+      }
+    }
   },
   "product": {
     "title": "产品",
@@ -133,7 +279,8 @@
         "title": "Vite全节点数",
         "nodeName": "节点名称"
       },
-      "textList": [{
+      "textList": [
+        {
           "name": "高性能",
           "description": "Vite通过DAG账本和异步架构设计确保了平台快速、高吞吐"
         },
@@ -157,7 +304,8 @@
     },
     "wallet": {
       "title": "多币种钱包",
-      "textList": [{
+      "textList": [
+        {
           "name": "转账零费用",
           "description": "交易消耗配额，运行PoW免费获取"
         },
@@ -185,7 +333,8 @@
     },
     "exchange": {
       "title": "去中心化数字资产交易平台",
-      "textList": [{
+      "textList": [
+        {
           "name": "完全去中心化，资产更安全",
           "description": "通过链上智能合约实现交易撮合引擎、手续费分红，链上完成订单撮合、订单簿存储；私钥由您自己保管，只有您本人可以控制资产的流向"
         },
@@ -205,7 +354,8 @@
     },
     "pay": {
       "title": "安全、便捷、低成本支付方式",
-      "textList": [{
+      "textList": [
+        {
           "name": "秒级交易确认，支持工业级需求",
           "description": "Vite底层公链通过引入DAG链和异步架构设计保证交易的秒级确认，可以承载亿万级交易和高性能并发需求"
         },
@@ -238,11 +388,14 @@
     "inProgress": "正在进行",
     "completed": "已完成",
     "nextStep": "下一步",
-    "previous": "展开",
+    "open": "展开",
+    "close": "收拢",
     "next": "展开",
-    "timelines": [{
+    "timelines": [
+      {
         "time": "2018 Q2",
-        "description": [{
+        "description": [
+          {
             "text": "白皮书发布",
             "url": "https://www.vite.org/whitepaper/vite_cn.pdf"
           },
@@ -266,7 +419,8 @@
       },
       {
         "time": "2018 Q4",
-        "description": [{
+        "description": [
+          {
             "text": "迁移总量56%的ERC20代币到原生网络",
             "url": "https://medium.com/vitelabs/testnet-an-update-erc20-token-migration-guide-7c200bef7337"
           },
@@ -388,7 +542,8 @@
   },
   "elector": {
     "title": "超级节点竞选人",
-    "detailTitles": [{
+    "detailTitles": [
+      {
         "key": "info",
         "title": "团队成员信息"
       },
@@ -748,7 +903,6 @@
       "bi23": {
         "info": [
           "Bi23团队是一支有深厚扎实的技术开发经验的团队，专注于跨链资产研究，提供给用户安全、便捷的质押奖励服务和去中心化金融服务。目前Bi23不仅是Vite的超级节点，也是ViteX的运营商，积极深入的活跃在Vite生态建设及共识增加的事业中。Bi23亦是Cosmos、IRISnet、Tezos和Terra等项目的激活验证节点，这也证实了Bi23雄厚的技术背景和在加密货币领域的丰富经验。",
-
           "沈青海——区块链资深从业者，对区块链和加密货币领域有深刻的洞察和独到见解，在加密资产领域有超过8年的实践经验。"
         ],
         "config": [
@@ -759,20 +913,14 @@
         ],
         "plan": [
           "第一步：积极承担超级节点的责任及义务，为用户提供更安全/更稳定收益的质押奖励服务。",
-
           "第二步：积极申请成为VITEX运营商，以更多元的角色加入到vite项目的生态建设中。",
-
           "第三步：持续通过多渠道/多方式，进行vite生态和bi23节点的推广宣传，持续推进vite项目公信度的提升和共识度的增加。"
         ],
         "medium": [
           "Wechat：bi23com",
-
           "Twitter：@bi23com",
-
           "Telegram：Liqianyi，andrew shen",
-
           "Official website：https://bi23.com",
-
           "Vite website：https://vite.bi23.com"
         ],
         "name": "vite.bi23",
@@ -781,10 +929,7 @@
     }
   },
   "team": {
-    "core": "团队",
-    "manage": "北京管理团队",
-    "siliconValley": "硅谷团队",
-    "tech": "北京技术团队",
+    "founder": "创始人",
     "global": "社区管理员",
     "advisor": "顾问",
     "join": "加入我们",
@@ -800,12 +945,6 @@
         "position": "北京",
         "description": "资深区块链创业者。毕业于中国科技大学，亚利桑那州立大学。路印协议创始人，前Google美国Tech Lead，云云网联合创始人兼副总裁，京东高级研发总监，币丰港联合创始人。"
       },
-      "allen": {
-        "name": "刘晓涛",
-        "job": "硅谷技术负责人",
-        "position": "硅谷",
-        "description": "资深技术专家。毕业于中国科技大学，复旦大学。前HP Tech Lead，前IBM系统架构师，产品负责人。10年知名外企高并发工作经验，Scrum敏捷开发专家，PMP。"
-      },
       "terenceLam": {
         "name": "Terence Lam",
         "position": "北京",
@@ -816,18 +955,6 @@
         "job": "首席运营官",
         "position": "硅谷",
         "description": "资深金融专家，多年华尔街工作经验。毕业于美国达特茅斯学院和纽约大学MBA。曾任职纽约高盛结构性资产交易策略副总裁，Two Sigma高频交易及商务创新拓展副总裁。"
-      },
-      "Layla": {
-        "name": "王爽",
-        "position": "北京",
-        "job": "UI设计师",
-        "description": "5年互联网公司设计，具有丰富的品牌设计，app和网站等项目经验"
-      },
-      "frank": {
-        "name": "邓远辉",
-        "job": "Vite基金会负责人",
-        "position": "北京",
-        "description": "数字营销及移动营销专家。毕业于清华大学。曾任职Google广告运营组，随踪科技COO，云克科技联合创始人。"
       },
       "zhangli": {
         "name": "张力",
@@ -855,203 +982,17 @@
         "position": "北京",
         "description": "资深区块链投资者，高级工程师，曾任职于美团、币丰港。"
       },
-      "Chris Li": {
-        "name": "Chris Li",
-        "job": "首席策略官",
-        "position": "硅谷",
-        "description": "Chris在投资，商务拓展和运营领域经验丰富。GBiB前美国业务总监，曾在中关村硅谷分公司担任投资经理，负责硅谷孵化器和投资业务，曾在纽约华尔街的美东最大华人孵化器工作。美国里海大学工业工程硕士。"
-      },
-      "Luke Kim": {
-        "name": "Luke Kim",
-        "job": "首席营销官",
-        "position": "硅谷",
-        "description": "Luke是来自加州的数字领域企业家，曾住在首尔和东京。曾担任城市发展基金会和SuperPublic CoLab的商务拓展经理，欧洲创新学院的美国关系主管，Gateway加速器的战略合作总监，和VC的战略合作伙伴关系主管。 Startup Grind Berkeley的联合创始人，以及3 Day Startup Berkeley and Paladin的合伙人。最近的职位是在一家瑞士资产管理公司从事加密资产基金和ICO，以及任职于一家韩国科技企业初创公司。毕业于伯克利大学，欧洲政治经济学学士。"
-      },
-      "Juliet Su": {
-        "name": "Juliet Su",
-        "job": "运营经理",
-        "position": "硅谷",
-        "description": "Juliet毕业于加州理工大学化学专业。她曾在Frances Arnold实验室（2018年诺贝尔奖获得者）研究蛋白质定向进化设计。毕业后，她从研究转向商业，并曾就职于一家位于硅谷的生物科技创业公司。她还是一名摄影爱好者。"
-      },
-      "Emmanuel Darko": {
-        "name": "Emmanuel Darko",
-        "job": "非洲地区商务拓展经理",
-        "position": "硅谷",
-        "description": "ICOWatchlist的联合创始人以及市场部副总裁，Toks.Tech的创始人。曾就职于投资银行。2016年起开始进入区块链领域，已有参与300+区块链项目的经历，对非洲的市场及生态了如指掌。"
-      },
-      "Jeff Ng": {
-        "name": "Jeff Ng",
-        "job": "社区经理",
-        "position": "硅谷",
-        "description": "区块链爱好者，经验丰富的线上社区管理者和活动策划者。在制造业，库存管理，物流和艺术收藏等领域有丰富的创业和运营经验。毕业于美国Cal Poly San Luis Obispo，机械工程专业。"
-      },
-      "Logan": {
-        "name": "曹亮",
-        "job": "iOS 开发工程师",
-        "position": "北京",
-        "description": "4年iOS开发经验，曾开发过3款日活百万的App"
-      },
-      "Stone": {
-        "name": "夏士通",
-        "job": "iOS 开发工程师",
-        "position": "北京",
-        "description": "5年 iOS 开发经验，曾在中国知名互联网企业任职"
-      },
-      "jerry": {
-        "name": "尹君",
-        "job": "后端开发工程师",
-        "position": "北京",
-        "description": "5年互联网开发经验，曾在中国知名互联网企业任职"
-      },
-      "Alex": {
-        "name": "胡云峰",
-        "job": "编译器开发工程师",
-        "position": "北京",
-        "description": "3年互联网后台服务开发经验，曾在百度任职开发工程师"
-      },
-      "Tuprise": {
-        "name": "袁玉磊",
-        "job": "后端开发工程师",
-        "position": "北京",
-        "description": "7年后端服务开发及架构，曾职于亚信、艺龙等国内知名互联网企业；在海量数据处理、高并发方面具有丰富的经验；"
-      },
-      "viteLiz": {
-        "name": "陈萍",
-        "job": "VM开发工程师",
-        "position": "北京",
-        "description": "3年以上互联网后台服务开发经验，曾在中国知名互联网企业任职"
-      },
-      "hubery": {
-        "name": "李焱达",
-        "job": "后端开发工程师",
-        "position": "北京",
-        "description": "5年互联网开发经验，曾就职于腾讯、猿题库等公司，毕业于西安电子科技大学"
-      },
-      "Cecelia": {
-        "name": "陈思",
-        "job": "前端开发工程师",
-        "position": "北京",
-        "description": "3年互联网开发经验，曾在中国知名互联网企业任职"
-      },
-      "viteshan": {
-        "name": "王杰",
-        "job": "后端开发工程师",
-        "position": "北京",
-        "description": "3年互联网后端开发经验，曾在中国知名互联网企业任职"
-      },
       "Ada": {
         "name": "朱逸",
         "job": "研究员",
         "position": "北京",
         "description": "曾就职于腾讯、京东，5年以上机器学习算法研发、大数据分析经验；"
       },
-      "Jin": {
-        "name": "葛鑫",
-        "job": "后端开发工程师",
-        "position": "北京",
-        "description": "3年互联网金融后台服务开发经验"
-      },
-      "Shenyang": {
-        "name": "郝申洋",
-        "job": "iOS 开发工程师",
-        "position": "北京",
-        "description": "4年以上互联网开发经验，曾在中国知名互联网企业任职"
-      },
-      "Eric": {
-        "name": "王冕",
-        "job": "架构师",
-        "position": "北京",
-        "description": "曾就职百度等国内Top互联网企业，具有丰富的后端服务和数据系统开发经验。2W+ QPS 系统架构经验；15人左右团队组织管理经历。"
-      },
-      "Asurily": {
-        "name": "何蒲",
-        "job": "后端开发工程师",
-        "position": "北京",
-        "description": "三年区块链项目经验，硕士毕业于东北大学，研究方向为“区块链与数据存储”。"
-      },
-      "Reg": {
-        "name": "袁章",
-        "job": "前端开发工程师",
-        "position": "北京",
-        "description": "3年前端开发经验，曾在中国知名互联网企业任职"
-      },
-      "Tiantao": {
-        "name": "朱天涛",
-        "job": "后端开发工程师",
-        "position": "北京",
-        "description": "4年互联网开发经验，曾在中国知名互联网企业任职"
-      },
-      "weichao": {
-        "name": "李伟超",
-        "job": "架构师",
-        "position": "北京",
-        "description": "7年后端服务架构设计经验，曾参与QPS 3w+系统的设计与开发，2年区块链系统开发经验。"
-      },
-      "Tina": {
-        "name": "Tina",
-        "job": "产品经理",
-        "position": "北京",
-        "description": "3年前端开发经验，1年产品经验，毕业于新加坡南洋理工大学（NTU），获得信息科学硕士学位。曾任职于中国和新加坡知名互联网企业。"
-      },
-      "Rod": {
-        "name": "罗立东",
-        "job": "后端开发工程师",
-        "position": "北京",
-        "description": "5年后端服务设计开发经验，曾在中国知名互联网企业任职。"
-      },
-      "Daisy": {
-        "name": "周丹",
-        "job": "前端开发工程师",
-        "position": "北京",
-        "description": "3年前端开发经验，曾任职于国内知名的互联网企业，熟练运用vue，node等开发框架。"
-      },
-      "Abbott": {
-        "name": "贾前磊",
-        "job": "测试工程师",
-        "position": "北京",
-        "description": "4年QA经验，曾主导美团打车司机端测试工作，擅长风险控制及质量保障。"
-      },
-      "Hannah": {
-        "name": "方丽阁",
-        "job": "测试工程师",
-        "position": "北京",
-        "description": "2年测试开发经验；参与过自动化测试框架设计；2年后台存储开发测试经验，对gluster分布式存储技术有一定了解；与军工单位合作，在数据安全加密存储方面有相关经验"
-      },
       "Zack": {
         "name": "侯志晗",
         "job": "CPO",
         "position": "北京",
         "description": "北京邮电大学硕士，4年互联网产品经验，曾在滴滴、百度等互联网公司任职，负责过2款日活百万的App"
-      },
-      "Lola": {
-        "name": "李君怡",
-        "job": "产品经理",
-        "position": "北京",
-        "description": "Lola拥有跨学科背景，在金融领域有丰富的经验。曾在德勤任职；曾在私募基金担任投资经理，负责TMT项目投资业务。西安交通大学经济学硕士，大连理工大学软件工程学士。"
-      },
-      "Tony": {
-        "name": "王通",
-        "job": "运营总监",
-        "position": "北京",
-        "description": "曾任职腾讯、美团，6年以上产品+运营工作经验，负责过多款用户量和日GMV过亿的产品，同时参与或主导了多个创新项目，具有丰富的互联网项目经验。"
-      },
-      "Cassie": {
-        "name": "刘溪",
-        "job": "产品运营",
-        "position": "北京",
-        "description": "5年市场策划、运营经验。曾就职于金融、互联网等公司。"
-      },
-      "Flanke": {
-        "name": "张前进",
-        "job": "产品运营",
-        "position": "北京",
-        "description": "曾在i黑马、向上金服任职，3年品牌运营经验。"
-      },
-      "Miya": {
-        "name": "李林珂",
-        "job": "UI设计师",
-        "position": "北京",
-        "description": "3年UI设计经验，涉足多项互联网产业项目，曾就职大型国企公司，负责设计多个国家项目"
       },
       "Oleg": {
         "name": "Олег Игоревич (Oleg Igorevych)",
@@ -1077,26 +1018,6 @@
         "name": "Takeshi",
         "position": "Japan",
         "description": "Seasonal blockchain practitioner. Involved in the formation of crypto communities through a forex FX trader. Worked as a human resources manager of a well-know Japanese company."
-      },
-      "snaker": {
-        "name": "Snaker Zhang",
-        "position": "中国",
-        "description": "就职于某电视媒体担任执行制片人，拥有15年传媒行业经验。区块链技术爱好者和数字货币投资者，目前是Vite项目的社区管理员。"
-      },
-      "liyang": {
-        "name": "李扬",
-        "position": "中国",
-        "description": "毕业于北京理工大学，就职于北京国电科技产业集团研发部，任项目经理一职。拥有超过7年以上的开发经验，区块链技术专业研究人员，Vite社区早期参与者，对基于DAG底层公有链技术有很深入的研究。"
-      },
-      "chenle": {
-        "name": "陈乐",
-        "position": "中国",
-        "description": "毕业于长春理工大学，曾就职于中央银行旗下的中钞区块链研究院从事开发，后从事股票交易开发，拥有三年虚拟货币投资经验，两年社区管理经验，现任职vite社区管理员。"
-      },
-      "qingshui": {
-        "name": "清水",
-        "position": "中国",
-        "description": "币圈早期投资人，拥有丰富的投资经验和币圈资源。参与了EOS、贝尔、IDA、Lud等多个优秀项目的早期投资，并协助进行社区建设和运营，经验丰富。此次，他作为Vite社交媒体的社区经理，希望能和vite粉丝一起交流区块链相关知识，共同进步。"
       }
     }
   },
@@ -1129,7 +1050,8 @@
   },
   "superNodes": {
     "title": "超级节点说明",
-    "contents": [{
+    "contents": [
+      {
         "orderNum": "一、",
         "question": "您需要提交的信息",
         "answer": [
@@ -1140,19 +1062,18 @@
           "5、数据中心配置（建议配置8核16G 100M带宽）",
           "6、服务器所在地",
           "7、生态发展规划。请详细描述，成为一名超级节点后计划如何为Vite的生态系统增添价值。",
-          "8、社交媒体曝光。强有力的媒体曝光将决定您对社区的投入程度。请填写您作为超级节点身份创建的社交媒体账号。<br/>资料提交表单链接：<a href=\"https://docs.google.com/forms/d/1u2HC3ecC3rkQk58Kn9D8eBNhN8DpkAB2DMY06QNzHvk/viewform?edit_requested=true\" target=\"_blank\">https://docs.google.com/forms/d/1u2HC3ecC3rkQk58Kn9D8eBNhN8DpkAB2DMY06QNzHvk/viewform?edit_requested=true</a>"
+          "8、社交媒体曝光。强有力的媒体曝光将决定您对社区的投入程度。请填写您作为超级节点身份创建的社交媒体账号。<br/>资料提交表单链接：<a href=\"https://link.jiandaoyun.com/f/5bdbef8be1613237783c264b\" target=\"_blank\">https://link.jiandaoyun.com/f/5bdbef8be1613237783c264b</a>"
         ]
       },
       {
         "orderNum": "二、",
         "question": "超级节点注册、投票和出块",
-        "second": [{
+        "second": [
+          {
             "title": "超级节点注册竞选",
             "answer": [
-              "1、VITE迁移 <br/> 在11月中旬通过智能合约，把ERC20的VITE，转换为到Vite测试网络的VITE。",
-              "2、质押500,000 VITE（主网上线后竞选超级节点需要抵押1,000,000 VITE），超级节点注册质押会锁仓3个月。 ",
-              "3、获得200,000 VITE以上的投票。测试网络初始上线，Vite项目方会负责25个挖矿超级节点的运行，每出现一个社区超级节点，并且该超级节点获得至少200,000 VITE投票的时候，官方会撤出一个超级节点，该节点会继任成为挖矿超级节点。",
-              "4、运行超级节点服务器（超级节点运行指南：<a href=\"https://test.vite.wiki/zh/tutorial/node/install.html\" target=\"_blank\">https://test.vite.wiki/zh/tutorial/node/install.html</a>）。"
+              "1、质押1,000,000 VITE，超级节点注册质押会锁仓3个月。 ",
+              "2、运行超级节点服务器: <ul> <li>超级节点设置教程： <a href=\"https://vite.wiki/zh/tutorial/node/install.html\" target=\"_blank\">https://vite.wiki/zh/tutorial/node/install.html</a></li> <li>选择在Ankr平台运行Vite超级节点： <a href=\"https://bit.ly/AnkrXViteHowTo\" target=\"_blank\">https://bit.ly/AnkrXViteHowTo</a>  </li> </ul>"
             ]
           },
           {
@@ -1185,19 +1106,9 @@
         "orderNum": "四、",
         "question": "激励方案",
         "answer": [
-          "1、测试网络阶段的超级节点奖励年额度为，VITE总发行量的3%，即3000万VITE。",
-          "2、超级节点奖励分两部分，50%奖励出块，50%奖励投票。即每年的3000万奖励中，1500万奖励给所有出块超级节点，1500万奖励给所有被投票超级节点（测试网络阶段为前100个超级节点）。<br/>一个挖矿超级节点如果持续挖矿1年，可以获得60万的VITE的出块奖励（ （3000万/25个节点）*50%），另外还可以获得一份投票奖励。投票奖励计算，按照该超级节点的质押和投票占比，即（该节点抵押数+投票数）/（所有超级节点的抵押数+投票数）*投票奖励，每一轮（75秒）计算，再每天汇总与出块率相乘。<br/>单个超级节点折算成每天收益为，1643.835VITE的投票奖励+抵押和投票所占比例的投票奖励",
-          "3、测试网络阶段奖励为市场推广和空投的奖励，主网上线会通过增发进行超级节点奖励。",
-          "4、奖励提取，每次提取只能提取一天前的出块奖励。"
-        ]
-      },
-      {
-        "orderNum": "五、",
-        "question": "测试网络的VITE代币说明",
-        "answer": [
-          "1、在测试网络中，用户竞选超级节点和投票的VITE，来自于ERC20 VITE代币的1:1映射，需要用户把ERC20 VITE代币转换到Vite测试网络。",
-          "2、转换是不可逆的，代币转换后，短期内将无法在二级市场流通。",
-          "3、待主网上线后，测试网络的VITE和ERC20的VITE代币统一会映射到Vite主网。"
+          "1、超级节点奖励年额度为，VITE总发行量的3%，即3000万VITE。",
+          "2、超级节点奖励分两部分，50%奖励出块，50%奖励投票。即每年的3000万奖励中，1500万奖励给所有出块超级节点，1500万奖励给所有被投票超级节点。<br/>一个挖矿超级节点如果持续挖矿1年，可以获得60万的VITE的出块奖励（ （3000万/25个节点）*50%），另外还可以获得一份投票奖励。投票奖励计算，按照该超级节点的质押和投票占比，即（该节点抵押数+投票数）/（所有超级节点的抵押数+投票数）*投票奖励，每一轮（75秒）计算，再每天汇总与出块率相乘。<br/>单个超级节点折算成每天收益为，1643.835VITE的投票奖励+抵押和投票所占比例的投票奖励",
+          "3、奖励提取，每次提取只能提取一天前的出块奖励。"
         ]
       }
     ]
@@ -1207,39 +1118,30 @@
     "common": "一般",
     "technology": "技术",
     "questions": {
-      "common": [{
-          "question": "什么是 Vite？",
+      "common": [
+        {
+          "question": "Vite发布了哪些种币？分别有什么作用？",
           "answer": [
-            "Vite 是一个通用的去中心化生态系统，在兼顾安全性的同时，满足了工业级应用对高吞吐、低延迟和扩展性的要求。",
-            "Vite 致力于解决基础链目前的性能和扩展性问题，以便在基础链上能搭建出真正实用且高频的应用。"
+            "VITE：总量10亿（Vite主网代币，可在交易所交易，有投资价值）",
+            "VX：总量29328807.8 （VX是ViteX去中心化交易所发行的代币，无预挖，无预售，无私募，全部通过挖矿【交易，挂单，邀请，上币，抵押】获得。）",
+            "VCP：总量100亿（Vite社区积分，可以在积分商城兑换实物或虚拟商品。VCP细分Vite官方运营活动赠品，价值是固定的，不会增值，也不会上交易所）"
           ]
         },
         {
-          "question": "Vite项目团队在哪？一共多少人？",
+          "question": "VITE上线了一些交易所？",
           "answer": [
-            "Vite团队办公室分别在北京和硅谷，团队共计40人，其中开发团队占比二分之一。",
-            "技术开发团队均有一线互联网从业经历，来源主要是百度、腾讯、滴滴、京东、美团的高P，具备较强的技术开发能力。"
-          ]
-        },
-        {
-          "question": "Vite发行了哪些币？分别有什么作用？",
-          "answer": [
-            "VITE，总量10亿（Vite主网/ERC20代币，可在交易所交易，有投资价值）",
-            "VX，总量1亿（VX是ViteX去中心化交易所发行的代币，无预挖、无预售，无私募，全部通过挖矿（交易、挂单、邀请、上币、抵押）获得。）",
-            "VCP，总量100亿（Vite社区积分，可以在积分商城兑换实物或虚拟商品。VCP来源于Vite官方运营活动赠送，价值是固定的，不会增值，也不会上交易所）"
-          ]
-        },
-        {
-          "question": "VITE上线了哪些交易所？",
-          "answer": [
-            "目前，在ViteX, BITTREX、OKEX上可以交易VITE；同时我们也在联系其他交易所，敬请期待。"
+            "币安：{binance}",
+            "OKEX：{okex}",
+            "ViteX：{vitex}",
+            "B网(Bittrex) ：{bittrex}",
+            "Okex 韩国站：{okexKr}"
           ]
         },
         {
           "question": "Vite目前开发到哪个阶段？主网上线了吗？",
           "answer": [
-            "Vite公链主网已于北京时间9月25日正式上线",
-            "主网上线对Vite的发展具有标志性意义，意味着Vite公链将正式支撑Vite生态系统建设，社区用户可以真正的参与到Vite生态建设中来；其吞吐量高、安全性强、可扩展性等特点将真正服务到商业级应用，为区块链行业发展带来强大的推动作用。"
+            "Vite公链主网已于北京时间2019年9月25日上线。",
+            "主网上线对Vite的发展具有标志性意义，意味着Vite公链将正式启动Vite生态系统建设，社区用户可以真正的参与到Vite生态建设中来；其吞吐量高，安全性强，可扩展性等特点将真正服务到商业级应用，为区块链行业发展带来强大的推动作用。"
           ]
         },
         {
@@ -1261,22 +1163,10 @@
           ]
         },
         {
-          "question": "Vite目前开发了哪些产品？",
+          "question": "Vite公链是如何做到免费转账的？",
           "answer": [
-            "支持多种代币的跨链钱包(iOS/安卓APP），目前支持VITE、ETH、ERC20代币及GRIN等代币。",
-            "区块浏览器",
-            "Vite Store：支付落地场景之一，用户可使用Vite代币（VITE/VCP）在商城支付购买Vite周边",
-            "Vite去中心化交易所，ViteX，一个完全的去中心化交易所，资产更安全，交易体验接近中心化交易所，支持交易挖矿经济模型。目前开放基于四个币种的交易市场：VITE、BTC、ETH、美元稳定币。"
-          ]
-        },
-        {
-          "question": "怎么下载Vite钱包？下载钱包有奖励吗？",
-          "answer": [
-            "iOS下载：",
-            "国内用户需使用海外Apple ID前往APP Store下载",
-            "安卓下载：",
-            "国内用户需前往科学上网前往Google play下载",
-            "目前下载钱包可以领取空投奖励，每部设备每日均可领取最少10 VITE（最多5000）。首次注册用户需牢记助记词防止账户丢失。"
+            "Vite转账无需任何费用。我们考虑的经济模型是平衡用户，开发者和矿工，普通用户、开发者应该以尽可能低的成本使用Vite网络，不应因为Gas而被限制在生态之外。而矿工，作为对Vite网络做出重要贡献的人群，也必须有合理的激励机制。我们按每年3%的通胀率拿出来奖励矿工，这个标准对矿工，用户和开发者都是相对一个合理的数字。有助于未来Vite生态的长远建设。",
+            "Vite 配额模型：{docsQuota}"
           ]
         },
         {
@@ -1287,35 +1177,48 @@
           ]
         },
         {
-          "question": "代币通胀（锻造奖励）和消耗是在10亿枚总量不变的前提下动态平衡？",
-          "answer": "10亿是初始发行量，锻造奖励是以增发的形式产生。随着系统被广泛使用，代币也会被不断销毁。我们希望代币的流通可以达到一个动态平衡，详细的参数在白皮书中并没有给出，我们后续会建立更为精确的数学模型，计算相关参数，并通过黄皮书的形式对Vite协议进行补充。"
-        },
-        {
-          "question": "Vite在以太坊的token合约地址是多少？",
+          "question": "Vite对区块链底层技术有哪些重大贡献并得到业界的一致认可？",
           "answer": [
-            "ERC 20 VITE合约地址是<a href='https://etherscan.io/token/0x1b793E49237758dBD8b752AFC9Eb4b329d5Da016' target='_blank'>https://etherscan.io/token/0x1b793E49237758dBD8b752AFC9Eb4b329d5Da016</a>"
+            "Vite最大的技术贡献在于基于DAG账本实现了智能合约。有很多项目在探索这个领域，目前只有Vite真正实现了，并且可以支撑DEX这种级别的实际应用。另外，Vite提出了“异步架构”的设计，目前以太坊2.0也采用同样的技术路线。相信未来基于“异步”模型的公链会越来越多。Vite独创的“快照链”和“分层共识”技术，对提高DAG公链的安全性和扩展性都有显著的作用。而且，我们已经把“快照链”技术提交了美国专利申请。"
           ]
         },
         {
-          "question": "Vite能挖矿吗？",
-          "answer": "Vite的共识机制类似EOS，通过选举产生25个快照节点，通过DPoS算法生产快照块，并领取锻造奖励。"
+          "question": "Vite目前开发了哪些产品？",
+          "answer": [
+            "Vite高性能公链",
+            "支持多种代币的多链钱包(iOS/安卓APP），目前支持VITE、ETH、ERC20代币、BNB及GRIN等原生代币。",
+            "区块浏览器",
+            "桌面版钱包",
+            "Vite Store：支付落地场景之一，用户可使用VCP在商城支付购买Vite周边",
+            "Vite去中心化交易所，ViteX，一个完全的去中心化交易所，资产更安全，交易体验接近中心化交易所，支持交易挖矿经济模型。目前开放基于四个币种的交易市场：VITE、BTC、ETH、USDT。"
+          ]
+        },
+        {
+          "question": "Vite和雪城有城市合作,具体解决了什么问题？还有其他城市有合作吗？",
+          "answer": [
+            "Vite Labs通过使用区块链技术，在雪城实现打造一套捐款系统，该系统是一种通证经济。此通证经济通过合理的模型设置，激励手段以及资源的有效分配，解决雪城贫困家庭的生活问题，切实帮助有需求的居民获得房屋资金，从而方便居民们的租房问题，最终将区块链技术应用到人们的日常生产生活之中。",
+            "除此之外，Vite Labs还在积极推动与联合国儿童基金会、欧盟、南非储备银行、西非国家经济共同体、塞舌尔证券交易所、美国伯克利市、罗德岛州等政府或非政府组织的合作，将区块链技术应用到货币、债券、交易所、社会福利等领域。",
+            "雪城项目白皮书：{syraWP}"
+          ]
         },
         {
           "question": "怎么做Vite超级节点，收益如何？",
           "answer": [
-            "注册超级节点需提交申请信息，同时需要抵押10万VITE，抵押期90天，注册完成后可邀请社区投票竞选，票数排名前25名的超级节点可获得奖励。",
-            "测试网络阶段超级节点奖励的总额度为3000万VITE/年，即VITE发行量的3%，超级节点奖励分为两部分，50%出块奖励+50%投票奖励。",
+            "注册超级节点需提交申请信息，同时需要抵押100万VITE，抵押期90天，注册完成后可邀请社区投票竞选，票数排名前25名的超级节点可获得更多奖励。",
+            "超级节点奖励的总额度为3000万VITE/年，即VITE总量的3%，超级节点奖励分为两部分，50%出块奖励+50%投票奖励。",
             "超级节点注册指南：<a href='https://mp.weixin.qq.com/s/sVD9AeKwB9xDE9eiJgQqSQ' target='_blank'>https://mp.weixin.qq.com/s/sVD9AeKwB9xDE9eiJgQqSQ</a>"
           ]
         },
         {
-          "question": "投票后每天收益多少？",
+          "question": "投票给超级节点每天收益多少？",
           "answer": [
-            "目前投票Vite官方超级节点的年化收益率预计为18%。但由于总奖励固定，参与投票的用户越多，单票奖励将会越少。即投票奖励会随参与用户数量的增多而被稀释。"
+            "目前投票给部分社区超级节点可以获得VITE奖励，每个超级节点得收益不同，详细可登陆论坛查看。",
+            "{forumSbp}"
           ]
         }
       ],
-      "technology": [{
+      "technology": [
+        {
           "question": "Vite的智能合约间调用取消了同步调用，那如何兼容以太里同步调用的场景？",
           "answer": "不能兼容。需要改动同步的代码为异步代码，才能兼容。"
         },
@@ -1399,6 +1302,34 @@
             "我们会将字符集限制为ASCII 并提供一个库，",
             "（ 类似：<a href='https://github.com/ethereum/blockies' target='_blank'>https://github.com/ethereum/blockies</a> ）来将名称散列成像素图像，如此名称文字可能看起来很相似，但资料图片看起来是完全不同的。"
           ]
+        },
+        {
+          "question": "Vite是异步架构，想问怎么保证异步双方交易数据的一致性？",
+          "answer": "不保证强一致性，但可以保证最终一致性。考虑到性能和扩展性，Vite摒弃了以太坊中的强一致性设计，而是采用消息驱动的架构将每一个智能合约都视作一个独立的服务，合约间通过消息通信但不共享状态，合约消息发送操作并不会因为接收消息失败而回滚，通过保证合约状态的最终一致性提高扩展性。"
+        },
+        {
+          "question": "Vite公链特点之一是引入快照链技术，快照链是什么，又是如何解决DAG安全缺陷的问题？",
+          "answer": [
+            "Vite采用基于Block-Lattice的DAG账本结构，每个账户对应一条链，每个交易引用本账户前一个交易的哈希。交易分为“请求交易”和“响应交易”两种，一个响应交易需要引用对应的请求交易的哈希。",
+            "这种DAG结构有先天的安全性缺陷。这是由于交易是按账户分组的，一个交易只会附加到其所属账户的账户链末端，其他账户产生的交易不会自动成为该交易的后继节点，因此，一些交易被回滚的概率不会随时间推移而降低。Vite通过独创的快照链技术，每秒对账户链的状态进行快照并附加到快照链，攻击者在无法成功回滚快照链的情况下，不能回滚任意账户链上的交易，因而弥补了这一安全缺陷。"
+          ]
+        },
+        {
+          "question": "如何解决异步处理中出账入账一个成功一个失败的情况呢，有类似事务处理的回滚机制吗？",
+          "answer": [
+            "Vite是基于Block-lattice账本结构，在这样的结构下，出账入账不可能出现一个成功一个失败，只会出现一个出账成功，但是一个入账没有被“接收者”确认。所以也不会有什么回滚机制。",
+            "一个入账交易没有被“确认”是系统允许的，因为一个入账的交易要被确认，需要接收者的私钥签名并广播，如果接收者一直不确认（用私钥签名并广播块），就一直处于所谓的“失败”状态下。"
+          ]
+        },
+        {
+          "question": "在异步架构下，Vite合约是如何运行的呢？",
+          "answer": [
+            "关于智能合约的执行其实就牵扯到Vite的基本架构，Vite的基本架构是DAG模型，而且采用的是基于Block-Lattice的DAG账本结构。 这意味着，每个账户均有一个独立的链，包括智能合约，每个智能合约会有一条独立的链。而这些链的出块方式，是通过合约共识组进行出块，这个和快照链出块是在不同的共识组。 这意味着，合约的执行是脱离快照块的产生的，可以在快照块产生之前，在合约共识组内异步运行智能合约，提高了整体公链的吞吐。"
+          ]
+        },
+        {
+          "question": "Vite公链节点在跨链方面安全性能都有哪些保障？",
+          "answer": "目前Vite主要有Vitelabs网关来提供跨链价值交换，Vitelabs网关的安全性已经通过了国内知名安全认证机构知道创宇的安全认证，没有发现任何安全漏洞。 在不远的vite2.0协议中，我们会针对跨链，设计单独的跨链协议，使用去中心化方式进行跨链治理，保证跨链更加安全高效。"
         }
       ]
     }
@@ -1562,5 +1493,294 @@
     "btnIos": "iOS",
     "btnAndroid": "Android",
     "btn2": "查看投票奖励"
+  },
+  "whatIsVite": {
+    "title": "什么是 Vite",
+    "investor": "投资机构",
+    "partner": "合作伙伴",
+    "subTitle": "关于 Vite",
+    "desc": "Vite是一个无手续费的高性能公链，采用DAG技术，能够同时兼顾安全性、高吞吐、低延迟以及扩展性 <br>目前Vite链上已经搭建了开放式去中心化金融服务，未来我们将让Vite链的去中心化服务更加开放、好用，从而使Vite生态承载更大的价值，满足更广泛的需求，并且吸引更多的真实用户。",
+    "tech": {
+      "title": "全球首个基于DAG实现智能合约的公链",
+      "features": {
+        "dag": "DAG技术",
+        "throughput": "吞吐量高",
+        "confirm": "秒级确认",
+        "nofee": "零手续费",
+        "snapshotchain": "快照链",
+        "dex": "内置DEX"
+      },
+      "desc": [
+        {
+          "title": "极速、免费",
+          "text": [
+            "<li>HDPoS共识算法，交易秒确认</li>",
+            "<li>引入异步机制，交易速度更快，吞吐更高</li>",
+            "<li>真正的免费公链，无手续费</li>"
+          ]
+        },
+        {
+          "title": "EVM 兼容",
+          "text": [
+            "<li>Solidity++保持与EVM最大兼容，易迁移</li>",
+            "<li>免费的智能合约，应用场景更广泛</li>"
+          ]
+        },
+        {
+          "title": "资产安全",
+          "text": [
+            "<li>引入快照链，弥补DAG先天性安全缺陷，资产更安全</li>",
+            "<li>链上去中心化交易所ViteX，交易更放心</li>"
+          ]
+        }
+      ]
+    },
+    "dex": {
+      "title": "全球唯一真正去中心化交易所",
+      "features": {
+        "onChainMatch": "订单链上撮合",
+        "onChainSettle": "交易链上结算",
+        "vx": "挖矿获得平台币VX",
+        "dividend": "每日链上分红",
+        "nokyc": "无需KYC验证",
+        "crossChain": "支持跨链交易"
+      },
+      "desc": [
+        {
+          "title": "去中心化技术",
+          "text": [
+            "<li>ViteX采用最前沿的去中心化交易所技术，通过Vite公链上的智能合约，实现了订单链上撮合、交易链上结算、平台币链上分红</li>",
+            "<li>用户通过私钥来控制自己的资产，不用担心被交易所冻结、挪用或丢失，也不用担心交易所“跑路”，资产更安全，规则更透明，彻底杜绝黑箱操作</li>"
+          ]
+        },
+        {
+          "title": "去中心化治理",
+          "text": [
+            "<li>ViteX的收益权限归属社区，交易手续费100%分给平台币VX的持有者</li>",
+            "<li>ViteX的治理权限归属社区，社区投票参与ViteX的治理</li>",
+            "<li>ViteX的运营权限归属社区，社可以自主开交易所并且运营</li>"
+          ]
+        }
+      ]
+    }
+  },
+  "token": {
+    "title": "VITE代币",
+    "subTitle": "关于Vite代币",
+    "desc": "VITE作为助力Vite公链生态系统发展的代币，用于支付Vite链上交易手续费。",
+    "info": {
+      "title": "代币信息",
+      "tokenName": "代币名称：VITE",
+      "issueDate": "发行日期：2018-06-15",
+      "totalSuply": "总发行量：10亿"
+    },
+    "distribution": {
+      "sell": "私募",
+      "team": "团队",
+      "foundation": "生态基金",
+      "marketing": "市场",
+      "airdrop": "空投"
+    },
+    "using": {
+      "title": "代币应用",
+      "stakingForQuota": {
+        "title": "抵押配额",
+        "text": "在Vite系统中，用户不是通过支付手续费的方式来购买一次交易所需的燃料，而是通过一种基于配额的模型来获取计算资源，用户可以通过抵押VITE来获取更高的配额，配额越高，单位时间内可完成的交易笔数越多，抵押的VITE资产用户可在三天之后取回。",
+        "btn": "马上抵押获得配额"
+      },
+      "stakingForMining": {
+        "title": "抵押挖矿",
+        "text": "用户可以在Vite落地应用之一，完全去中心化交易所ViteX上, 通过抵押VITE进行挖矿，获取交易所平台代币 VX。 <br>抵押3天后才可以随时取消，申请取回后需经过7天到账。取回期间不参与抵押挖矿，无法获得收益。",
+        "btn": "查看规则"
+      },
+      "votingForSBP":{
+        "title": "投票超级节点",
+        "text": "用户可以将手中的VITE投票给超级节点获取投票奖励。与抵押不同，投票不需要锁仓。去Vite论坛了解最新超级节点投票收益。",
+        "btn": "查看教程"
+      },
+      "stakingForVip": {
+        "title": "抵押开通交易所VIP",
+        "text": "用户可以在ViteX交易所抵押10,000VITE成为VIP会员，成为会员后可以降低10%的基础手续费。",
+        "btn": "查看教程"
+      }
+    },
+    "getToken": {
+      "title": "获取代币",
+      "exchange": "交易所购买",
+      "learn": "了解更多",
+      "runSBP": {
+        "title": "运行超级节点",
+        "desc": "抵押1000000VITE成为Vite超级节点，可获得超级节点奖励。"
+      },
+      "runFullnode": {
+        "title": "运行全节点",
+        "desc": "只需要一台电脑即可参与Vite全节点，所有全节点每天奖励14820VITE。"
+      },
+      "vote": {
+        "title": "投票超级节点获得奖励",
+        "desc": "持有VITE代币的用户投票给超级节点可以获得投票奖励，目前部分超级节点投票有奖励，请及时关注社区动态。",
+        "btnGroup": {
+          "tutorial": "查看教程",
+          "sbpList": "查看 SBP 列表"
+        }
+      }
+    }
+  },
+  "ecosystem": {
+    "title": "丰富的Vite生态",
+    "subTitle": "关于Vite生态",
+    "desc": "在众多项目和社区伙伴的共同努力下，在Vite公链基础上搭建了完整的生态场景，越来越多的社区用户正在积极参与到Vite生态建设中。"
+  },
+  "development": {
+    "title": "成为Vite开发者",
+    "subTitle": "加入Vite，成为开发者",
+    "desc": "我们欢迎开发者在Vite公链开发应用，Vite拥有完整的开发工具及资源，创建合约成本只需要10VITE，超低的成本将为Vite带来更广泛的应用。",
+    "btnGroup": {
+      "wiki": "Wiki",
+      "github": "Github",
+      "smartContract": "智能合约"
+    },
+    "support": {
+      "title": "技术支持",
+      "sdk": {
+        "title": "多语言支持"
+      },
+      "docs": {
+        "title": "开发资源及文档",
+        "desc": "开发者协议及{wiki}",
+        "wiki": "文档"
+      },
+      "community": {
+        "title": "开发者社区",
+        "desc": "全球开发者社区支持"
+      }
+    }
+  },
+  "community": {
+    "title": "社区生态",
+    "subTitle": "关于社区生态",
+    "desc": "Vite的用户分布在全球180多个国家和地区，社区规模20万人，钱包日活跃用户数2万人。",
+    "star": "社区之星",
+    "stars": {
+      "yandong": {
+        "name": "闫冬",
+        "desc": "Vite社区开发者，全栈工程师",
+        "contribution": [
+          "在Vite公链开发两款DApp：VITE翻倍乐、骰子游戏，协助团队完善API及相关文档",
+          "编写基于vite公有链开发Dapp的开发指南",
+          "开发Vite区块浏览器ViteScan，方便社区用户查询各项数据",
+          "运行Vite超级节点viteScan.io、N4Q.org，向投票者发放奖励",
+          "协助宣传Vite，积极参与Vite活动"
+        ]
+      },
+      "xiaoyu": {
+        "name": "晓宇",
+        "desc": "区块链早期投资者，Vite技术爱好者，2012年开始接触比特币，研究区块链技术。",
+        "contribution": [
+          "撰写Vite项目源码进行构建及调试相关技术文章",
+          "积极体验Vite产品并提交Bug，多次为Vite提出技术改进建议",
+          "在Vite中英文社区活跃，协助团队为全球粉丝解答问题"
+        ]
+      },
+      "jingguang": {
+        "name": "张景广",
+        "desc": "区块链爱好者，专注于区块链在各领域的应用，重度vite粉丝",
+        "contribution": [
+          "设计并开发Vite节点一键托管方案，使用户参与Vite生态的门槛将大大降低，吸引用户积极参与到Vite生态建设",
+          "该方案已经在Ankr云平台上架，吸引了大批Ankr社群用户使用，助力Vite网络进一步的去中心话，增强网络的健壮性"
+        ]
+      },
+      "shuangyanpi": {
+        "name": "双眼皮",
+        "desc": "币圈以及区块链爱好者，在投资方面有个人的独到见解与丰富的经验，以投资人的眼光和用户的心态去体验行业发展每日分享心得和体会",
+        "contribution": [
+          "Vite中文社区管理员，在各个区块链媒体协助宣传推广Vite，增加Vite社区凝聚力"
+        ]
+      },
+      "duy": {
+        "name": "Nguyen Hoang Duy",
+        "desc": "一位积极，热情，有创造力的Vite爱好者",
+        "contribution": [
+          "积极参与社区建设并设计推广方案",
+          "协助越南社区管理员进行翻译工作"
+        ]
+      },
+      "amec": {
+        "name": "AMEC",
+        "desc": "AMEC是一个在区块链行业拥有5年投资经验和2年工作经验的资深人士，曾受邀在多个区块链活动上演讲并主持线上区块链研讨会",
+        "contribution": [
+          "制作Vite教程视频: https://www.youtube.com/channel/UC4BQDjmUP_8dUHJ0y15ig-Q",
+          "在WhatsApp上创建Vite群并邀请了400多名用户",
+          "管理Vite尼日利亚社区并协助答疑",
+          "在twitter和其他论坛上对Vite和VX进行宣传推广",
+          "协助进行Vite访谈式采访"
+        ]
+      },
+      "abdullah": {
+        "name": "Ammar Abdullah",
+        "desc": "内心住着艺术家的电子工程师，热衷于为支持的项目创作视频内容",
+        "contribution": [
+          "制作Vite讲解视频 http://youtube.com/watch?v=FRvdP_KcNRk",
+          "在Vite进行上币安投票时制作emoji表情、图片、段视频等"
+        ]
+      },
+      "mona": {
+        "name": "Mona Al-Ansary",
+        "desc": "资深区块链爱好者，Vite忠实粉丝，因Vite狂粉为朋友熟知",
+        "contribution": [
+          "大力推广Vite项目",
+          "注册并管理自己的Vite推特账号"
+        ]
+      },
+      "greek": {
+        "name": "Greek",
+        "desc": "区块链爱好者，致力于寻找为加密领域和为未来世界创造金融基础设施的项目",
+        "contribution": [
+          "在各大区块链论坛俄语区引导讨论",
+          "在创世论坛 BitcoinTalk发起Vite话题",
+          "为Vite社区引荐新用户并协助他们了解Vite项目"
+        ]
+      },
+      "nrz": {
+        "name": "NRZ",
+        "desc": "计算机网络工程师，2016年开始接触区块链，Vite的忠实粉丝和支持者",
+        "contribution": [
+          "在Altcoinstalks论坛的俄语区引导展开Vite相关讨论",
+          "鼓励社区在AppStore留言",
+          "为交易所用户解答问题"
+        ]
+      },
+      "daniel": {
+        "name": "Daniel",
+        "desc": "前端开发者，区块链爱好者",
+        "contribution": [
+          "经常参与社区讨论并为社区用户答疑",
+          "体验Vite产品并提交Bug及技术改进建议",
+          "对论坛中出现的恶意信息给予及时有效的提醒",
+          "创建了从ViteX收集每日数据的脚本，让每个人都可以轻松掌握项目进展"
+        ]
+      },
+      "devaux": {
+        "name": "Chef Devaux (aka Makesushi)",
+        "desc": "前职是航空工程师的寿司师傅， YouTube有一百万+关注的up主",
+        "contribution": [
+          "制作并投放Vite短视频",
+          "在Quora上发起VITE和VX的话题",
+          "创建了加密货币网站并介绍Vite信息"
+        ]
+      },
+      "hope": {
+        "name": "Broke Hope",
+        "desc": "前股票市场参与者，长期战略投资人",
+        "contribution": [
+          "积极参与话腿讨论并提出建议",
+          "在各大社交平台发表Vite相关内容",
+          "邀请新人加入Vite社区"
+        ]
+      }
+    }
+  },
+  "countdown": {
+    "template": "距离 {days} 天, {hours} 小时, {minutes} 分钟, {seconds} 秒"
   }
 }

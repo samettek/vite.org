@@ -18,9 +18,9 @@ import TeamFactory from './TeamFactory';
 
 export default {
   components: {
-    TeamFactory
+    TeamFactory,
   },
-  data: function () {
+  data() {
     return {
       teams: [
         {
@@ -32,17 +32,17 @@ export default {
               urls: [
                 {
                   icon: ['fab', 'twitter'],
-                  url: 'https://twitter.com/chunming_liu'
+                  url: 'https://twitter.com/chunming_liu',
                 },
                 {
                   icon: ['fab', 'linkedin'],
-                  url: 'https://www.linkedin.com/in/liuchunming/'
+                  url: 'https://www.linkedin.com/in/liuchunming/',
                 },
                 {
                   icon: ['fab', 'github'],
-                  url: 'https://github.com/charles-liu'
-                }
-              ]
+                  url: 'https://github.com/charles-liu',
+                },
+              ],
             },
             {
               img: require('~/assets/images/teams/yuanhui.png'),
@@ -50,9 +50,9 @@ export default {
               urls: [
                 {
                   icon: ['fab', 'linkedin'],
-                  url: 'https://www.linkedin.com/in/frank-deng-4756147'
-                }
-              ]
+                  url: 'https://www.linkedin.com/in/frank-deng-4756147',
+                },
+              ],
             },
             {
               img: require('~/assets/images/teams/leo.jpg'),
@@ -60,18 +60,18 @@ export default {
               urls: [
                 {
                   icon: ['fab', 'twitter'],
-                  url: 'https://twitter.com/soliury'
+                  url: 'https://twitter.com/soliury',
                 },
                 {
                   icon: ['fab', 'linkedin'],
-                  url: 'https://www.linkedin.com/in/leo-zhang-b68a86166/'
+                  url: 'https://www.linkedin.com/in/leo-zhang-b68a86166/',
                 },
                 {
                   icon: ['fab', 'github'],
-                  url: 'https://github.com/soliury'
-                }
-              ]
-            }
+                  url: 'https://github.com/soliury',
+                },
+              ],
+            },
           ],
         },
         {
@@ -83,13 +83,13 @@ export default {
               urls: [
                 {
                   icon: ['fab', 'twitter'],
-                  url: 'https://twitter.com/Gentso09'
+                  url: 'https://twitter.com/Gentso09',
                 },
                 {
                   icon: ['fab', 'linkedin'],
-                  url: 'https://www.linkedin.com/in/richard-yan-934229a5/'
-                }
-              ]
+                  url: 'https://www.linkedin.com/in/richard-yan-934229a5/',
+                },
+              ],
             },
             {
               img: require('~/assets/images/teams/allen.jpeg'),
@@ -97,30 +97,30 @@ export default {
               urls: [
                 {
                   icon: ['fab', 'linkedin'],
-                  url: 'https://www.linkedin.com/in/xiaotao-liu-002013169/'
-                }
-              ]
+                  url: 'https://www.linkedin.com/in/xiaotao-liu-002013169/',
+                },
+              ],
             },
             {
               img: require('~/assets/images/teams/chris.jpg'),
               urls: [
                 {
                   icon: ['fab', 'linkedin'],
-                  url: 'https://www.linkedin.com/in/kunyuanli/'
-                }
+                  url: 'https://www.linkedin.com/in/kunyuanli/',
+                },
               ],
-              key: 'Chris Li'
+              key: 'Chris Li',
             },
             {
               img: require('~/assets/images/teams/francesco.jpg'),
               urls: [
                 {
                   icon: ['fab', 'linkedin'],
-                  url: 'https://www.linkedin.com/in/francescobisardi/'
-                }
+                  url: 'https://www.linkedin.com/in/francescobisardi/',
+                },
               ],
-              key: 'Francesco'
-            }
+              key: 'Francesco',
+            },
           ],
         },
         {
@@ -134,14 +134,14 @@ export default {
             {
               img: require('~/assets/images/teams/zy2.jpg'),
               urls: [],
-              key: 'Ada'
+              key: 'Ada',
             },
             {
               img: require('~/assets/images/teams/wm.jpg'),
               urls: [
-                { icon: ['fab', 'github'], url: 'https://github.com/roymoro' }
+                { icon: ['fab', 'github'], url: 'https://github.com/roymoro' },
               ],
-              key: 'Eric'
+              key: 'Eric',
             },
             {
               img: require('~/assets/images/teams/lwc.jpg'),
@@ -149,133 +149,133 @@ export default {
                 { icon: ['fab', 'github'], url: 'https://github.com/weichaolee' },
                 {
                   icon: ['fab', 'linkedin'],
-                  url: 'https://www.linkedin.com/in/伟超-李-005721167/'
-                }
+                  url: 'https://www.linkedin.com/in/伟超-李-005721167/',
+                },
               ],
-              key: 'weichao'
+              key: 'weichao',
             },
             {
               img: require('~/assets/images/teams/wj.jpg'),
               urls: [
-                { icon: ['fab', 'github'], url: 'https://github.com/viteshan' }
+                { icon: ['fab', 'github'], url: 'https://github.com/viteshan' },
               ],
-              key: 'viteshan'
+              key: 'viteshan',
             },
             {
               img: require('~/assets/images/teams/yyl.jpg'),
               urls: [
-                { icon: ['fab', 'github'], url: 'https://github.com/tuprise' }
+                { icon: ['fab', 'github'], url: 'https://github.com/tuprise' },
               ],
-              key: 'Tuprise'
+              key: 'Tuprise',
             },
             {
               img: require('~/assets/images/teams/lyd.jpg'),
               urls: [{ icon: ['fab', 'github'], url: 'https://github.com/lyd00' }],
-              key: 'hubery'
+              key: 'hubery',
             },
             {
               img: require('~/assets/images/teams/lld.jpg'),
               urls: [
-                { icon: ['fab', 'github'], url: 'https://github.com/viteFeng' }
+                { icon: ['fab', 'github'], url: 'https://github.com/viteFeng' },
               ],
-              key: 'Rod'
+              key: 'Rod',
             },
             {
               img: require('~/assets/images/teams/hyf.jpg'),
               urls: [
-                { icon: ['fab', 'github'], url: 'https://github.com/alex-yf' }
+                { icon: ['fab', 'github'], url: 'https://github.com/alex-yf' },
               ],
-              key: 'Alex'
+              key: 'Alex',
             },
             {
               img: require('~/assets/images/teams/cp.jpg'),
               urls: [
-                { icon: ['fab', 'github'], url: 'https://github.com/viteLiz' }
+                { icon: ['fab', 'github'], url: 'https://github.com/viteLiz' },
               ],
-              key: 'viteLiz'
+              key: 'viteLiz',
             },
             {
               img: require('~/assets/images/teams/ztt.jpg'),
               urls: [
-                { icon: ['fab', 'github'], url: 'https://github.com/TiantaoZhu' }
+                { icon: ['fab', 'github'], url: 'https://github.com/TiantaoZhu' },
               ],
-              key: 'Tiantao'
+              key: 'Tiantao',
             },
             {
               img: require('~/assets/images/teams/yj.jpg'),
               urls: [
-                { icon: ['fab', 'github'], url: 'https://github.com/jerry-vite' }
+                { icon: ['fab', 'github'], url: 'https://github.com/jerry-vite' },
               ],
-              key: 'jerry'
+              key: 'jerry',
             },
             {
               img: require('~/assets/images/teams/gx.jpg'),
               urls: [
-                { icon: ['fab', 'github'], url: 'https://github.com/vite-crzn' }
+                { icon: ['fab', 'github'], url: 'https://github.com/vite-crzn' },
               ],
-              key: 'Jin'
+              key: 'Jin',
             },
             {
               img: require('~/assets/images/teams/hp.jpg'),
               urls: [
-                { icon: ['fab', 'github'], url: 'https://github.com/vite-pu' }
+                { icon: ['fab', 'github'], url: 'https://github.com/vite-pu' },
               ],
-              key: 'Asurily'
+              key: 'Asurily',
             },
             {
               img: require('~/assets/images/teams/xst.jpg'),
               urls: [
-                { icon: ['fab', 'github'], url: 'https://github.com/shitong' }
+                { icon: ['fab', 'github'], url: 'https://github.com/shitong' },
               ],
-              key: 'Stone'
+              key: 'Stone',
             },
             {
               img: require('~/assets/images/teams/cl.jpg'),
               urls: [
-                { icon: ['fab', 'github'], url: 'https://github.com/buckcao' }
+                { icon: ['fab', 'github'], url: 'https://github.com/buckcao' },
               ],
-              key: 'Logan'
+              key: 'Logan',
             },
             {
               img: require('~/assets/images/teams/hsy.jpg'),
               urls: [
                 {
                   icon: ['fab', 'github'],
-                  url: 'https://github.com/haoshenyang'
-                }
+                  url: 'https://github.com/haoshenyang',
+                },
               ],
-              key: 'Shenyang'
+              key: 'Shenyang',
             },
             {
               img: require('~/assets/images/teams/wty.jpg'),
               urls: [
                 {
                   icon: ['fab', 'linkedin'],
-                  url: 'https://www.linkedin.com/in/tingyue-wang-152813a2/'
+                  url: 'https://www.linkedin.com/in/tingyue-wang-152813a2/',
                 },
                 {
                   icon: ['fab', 'github'],
-                  url: 'https://github.com/woodghost'
-                }
+                  url: 'https://github.com/woodghost',
+                },
               ],
-              key: 'Tina'
+              key: 'Tina',
             },
             {
               img: require('~/assets/images/teams/cs.jpg'),
               urls: [
                 {
                   icon: ['fab', 'github'],
-                  url: 'https://github.com/lovelycs'
-                }
+                  url: 'https://github.com/lovelycs',
+                },
               ],
-              key: 'Cecelia'
+              key: 'Cecelia',
             },
             {
               img: require('~/assets/images/teams/yz.jpg'),
               urls: [
-                { icon: ['fab', 'github'], url: 'https://github.com/hurrytospring' }
+                { icon: ['fab', 'github'], url: 'https://github.com/hurrytospring' },
               ],
-              key: 'Reg'
+              key: 'Reg',
             },
             {
               img: require('~/assets/images/teams/zd.jpg'),
@@ -283,24 +283,29 @@ export default {
                 { icon: ['fab', 'github'], url: 'https://github.com/swan-zhou' },
                 {
                   icon: ['fab', 'linkedin'],
-                  url: 'https://www.linkedin.com/in/%E4%B8%B9-%E5%96%B5-795a72169/'
-                }
+                  url: 'https://www.linkedin.com/in/%E4%B8%B9-%E5%96%B5-795a72169/',
+                },
               ],
-              key: 'Daisy'
+              key: 'Daisy',
             },
             {
               img: require('~/assets/images/teams/jql.jpg'),
               urls: [
-                { icon: ['fab', 'github'], url: 'https://github.com/qianlei-jia' }
+                { icon: ['fab', 'github'], url: 'https://github.com/qianlei-jia' },
               ],
-              key: 'Abbott'
+              key: 'Abbott',
             },
             {
               img: require('~/assets/images/teams/flg.jpg'),
               urls: [
-                { icon: ['fab', 'github'], url: 'https://github.com/fanglige' }
+                { icon: ['fab', 'github'], url: 'https://github.com/fanglige' },
               ],
-              key: 'Hannah'
+              key: 'Hannah',
+            },
+            {
+              img: require('~/assets/images/teams/hzh.jpg'),
+              urls: [],
+              key: 'Zack',
             },
             {
               img: require('~/assets/images/teams/ljy.jpg'),
@@ -308,25 +313,25 @@ export default {
                 {
                   icon: ['fab', 'linkedin'],
                   url:
-                'https://www.linkedin.com/in/%E5%90%9B%E6%80%A1-%E6%9D%8E-4b9562b4/'
-                }
+                'https://www.linkedin.com/in/%E5%90%9B%E6%80%A1-%E6%9D%8E-4b9562b4/',
+                },
               ],
-              key: 'Lola'
+              key: 'Lola',
             },
             {
               img: require('~/assets/images/teams/wt.jpg'),
               urls: [],
-              key: 'Tony'
+              key: 'Tony',
             },
             {
               img: require('~/assets/images/teams/lx.jpg'),
               urls: [],
-              key: 'Cassie'
+              key: 'Cassie',
             },
             {
               img: require('~/assets/images/teams/zqj.jpg'),
               urls: [],
-              key: 'Flanke'
+              key: 'Flanke',
             },
             // {
             //   img: require('~/assets/images/teams/ws.jpg'),
@@ -336,8 +341,8 @@ export default {
             {
               img: require('~/assets/images/teams/llk.jpg'),
               urls: [],
-              key: 'Miya'
-            }
+              key: 'Miya',
+            },
           ],
         },
         {
@@ -349,13 +354,13 @@ export default {
               urls: [
                 {
                   icon: ['fab', 'linkedin'],
-                  url: 'https://www.linkedin.com/in/dong77/'
-                }
-              ]
+                  url: 'https://www.linkedin.com/in/dong77/',
+                },
+              ],
             },
             {
               key: 'zhangli',
-              img: require('~/assets/images/teams/lizhang.jpeg')
+              img: require('~/assets/images/teams/lizhang.jpeg'),
             },
             {
               key: 'terenceLam',
@@ -363,9 +368,9 @@ export default {
               urls: [
                 {
                   icon: ['fab', 'linkedin'],
-                  url: 'http://linkedin.com/in/terence-lam-460191'
-                }
-              ]
+                  url: 'http://linkedin.com/in/terence-lam-460191',
+                },
+              ],
             },
             {
               key: 'ivan',
@@ -373,14 +378,14 @@ export default {
               urls: [
                 {
                   icon: ['fab', 'linkedin'],
-                  url: 'https://www.linkedin.com/in/ivangolovko/'
-                }
-              ]
+                  url: 'https://www.linkedin.com/in/ivangolovko/',
+                },
+              ],
             },
             {
               img: require('~/assets/images/teams/michael.png'),
-              key: 'Michael'
-            }
+              key: 'Michael',
+            },
           ],
         },
         {
@@ -392,9 +397,9 @@ export default {
               urls: [
                 {
                   icon: ['fab', 'linkedin'],
-                  url: 'https://www.linkedin.com/in/oleg-igorevych-775833b3/'
-                }
-              ]
+                  url: 'https://www.linkedin.com/in/oleg-igorevych-775833b3/',
+                },
+              ],
             },
             {
               img: require('~/assets/images/teams/haviet.jpg'),
@@ -402,9 +407,9 @@ export default {
               urls: [
                 {
                   icon: ['fab', 'linkedin'],
-                  url: 'https://www.linkedin.com/in/ha-viet-nguyen-210/'
-                }
-              ]
+                  url: 'https://www.linkedin.com/in/ha-viet-nguyen-210/',
+                },
+              ],
             },
             {
               img: require('~/assets/images/teams/Pankaj.jpg'),
@@ -412,9 +417,9 @@ export default {
               urls: [
                 {
                   icon: ['fab', 'linkedin'],
-                  url: 'https://www.linkedin.com/in/pankaj-kataria-cbap®-87ba1b7/'
-                }
-              ]
+                  url: 'https://www.linkedin.com/in/pankaj-kataria-cbap®-87ba1b7/',
+                },
+              ],
             },
             {
               img: require('~/assets/images/community/Juan.jpg'),
@@ -422,9 +427,9 @@ export default {
               urls: [
                 {
                   icon: [],
-                  url: 'https://www.facebook.com/baveciwan29'
-                }
-              ]
+                  url: 'https://www.facebook.com/baveciwan29',
+                },
+              ],
             },
             {
               img: require('~/assets/images/community/Takeshi.jpg'),
@@ -432,9 +437,9 @@ export default {
               urls: [
                 {
                   icon: ['fab', 'twitter'],
-                  url: 'https://twitter.com/Takeshi_TGAL'
-                }
-              ]
+                  url: 'https://twitter.com/Takeshi_TGAL',
+                },
+              ],
             },
             {
               img: require('~/assets/images/community/snaker.png'),
@@ -442,9 +447,9 @@ export default {
               urls: [
                 {
                   icon: ['fab', 'twitter'],
-                  url: 'https://twitter.com/SnakerZhang'
-                }
-              ]
+                  url: 'https://twitter.com/SnakerZhang',
+                },
+              ],
             },
             {
               img: require('~/assets/images/community/liyang.png'),
@@ -458,12 +463,12 @@ export default {
               img: require('~/assets/images/community/qingshui.png'),
               key: 'qingshui',
             },
-          ]
-        }
-      ]
+          ],
+        },
+      ],
     };
   },
-  methods: {}
+  methods: {},
 };
 </script>
 

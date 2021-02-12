@@ -3,13 +3,13 @@
     <video :src="src" autoplay controls v-if="src">
 
     </video>
-    <iframe 
+    <iframe
       v-if="iframeSrc"
-      class="iframe" 
-      :src="iframeSrc" 
-      frameborder="0" 
+      class="iframe"
+      :src="iframeSrc"
+      frameborder="0"
       autoplay
-      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen>
     </iframe>
   </div>
@@ -18,9 +18,9 @@
 export default {
   props: {
     src: { type: String, default: '' },
-    closeMe:{type:Function},
-    iframeSrc:  { type: String, default: '' },
-  }
+    closeMe: { type: Function },
+    iframeSrc: { type: String, default: '' },
+  },
 };
 </script>
 <style lang="scss" scoped>

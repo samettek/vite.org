@@ -5,10 +5,10 @@
       <div class="" >
         <div class="links-title">{{ $t(`elector.rightCommonPart.${item.name}`) }}</div>
         <div class="links">
-          <a :href="link" 
-             target="_blank" 
-             class="link-url" 
-             v-for="(link, index) in item.links" 
+          <a :href="link"
+             target="_blank"
+             class="link-url"
+             v-for="(link, index) in item.links"
              :key="index">
              {{ link }}
           </a>
@@ -22,22 +22,22 @@
 </template>
 
 <script type="text/babel">
-  export default {
-    props: {
-      desc: {
-        type: Array,
-        default: () => []
-      },
-      medium: {
-        type: Array,
-        default: () => []
-      }
+export default {
+  props: {
+    desc: {
+      type: Array,
+      default: () => [],
     },
-    data: function () {
-      return {};
+    medium: {
+      type: Array,
+      default: () => [],
     },
-    methods: {}
-  };
+  },
+  data() {
+    return {};
+  },
+  methods: {},
+};
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>
@@ -78,6 +78,6 @@
       white-space: normal;
       word-break: break-all;
     }
-   
+
   }
 </style>

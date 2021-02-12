@@ -35,16 +35,16 @@ export default {
   props: {
     isFooter: {
       type: Boolean,
-      default: false
-    }
+      default: false,
+    },
   },
-  data () {
+  data() {
     return {
-      urlMap: config.urls.whitePaper
+      urlMap: config.urls.whitePaper,
     };
   },
   computed: {
-    urlList: function () {
+    urlList() {
       return [
         'english',
         'chinese',
@@ -52,10 +52,10 @@ export default {
         'french',
         'vietnamese',
         'russian',
-        'japan'
+        'japan',
       ];
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -91,5 +91,3 @@ export default {
   }
 }
 </style>
-
-

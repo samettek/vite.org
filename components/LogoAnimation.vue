@@ -8,34 +8,34 @@
 </template>
 
 <script type="text/babel">
-    export default {
-      data: function () {
-        return {};
-      },
-      mounted () {
-        let paths = this.$refs.svg.childNodes[0].childNodes;
-        paths.forEach((item) => {
-          let length = item.getTotalLength();
-          console.log(length);
-        });
-      },
-      methods: {
-        convertPolyToPath (poly) {
-          let svgNS = poly.ownerSVGElement.namespaceURI;
-          const path = document.createElementNS(svgNS, 'path');
-          const points = poly.getAttribute('points').split(/\s+|,/);
-          const x0 = points.shift();
-          const y0 = points.shift();
-          let pathdata = 'M' + x0 + ',' + y0 + 'L' + points.join(' ');
-          if (poly.tagName === 'polygon') pathdata += 'z';
-          path.setAttribute('id', poly.getAttribute('id'));
-          path.setAttribute('fill', poly.getAttribute('fill'));
-          path.setAttribute('stroke', poly.getAttribute('stroke'));
-          path.setAttribute('d', pathdata);
-          poly.parentNode.replaceChild(path, poly);
-        }
-      }
-    };
+export default {
+  data() {
+    return {};
+  },
+  mounted() {
+    const paths = this.$refs.svg.childNodes[0].childNodes;
+    paths.forEach((item) => {
+      const length = item.getTotalLength();
+      console.log(length);
+    });
+  },
+  methods: {
+    convertPolyToPath(poly) {
+      const svgNS = poly.ownerSVGElement.namespaceURI;
+      const path = document.createElementNS(svgNS, 'path');
+      const points = poly.getAttribute('points').split(/\s+|,/);
+      const x0 = points.shift();
+      const y0 = points.shift();
+      let pathdata = `M${x0},${y0}L${points.join(' ')}`;
+      if (poly.tagName === 'polygon') pathdata += 'z';
+      path.setAttribute('id', poly.getAttribute('id'));
+      path.setAttribute('fill', poly.getAttribute('fill'));
+      path.setAttribute('stroke', poly.getAttribute('stroke'));
+      path.setAttribute('d', pathdata);
+      poly.parentNode.replaceChild(path, poly);
+    },
+  },
+};
 </script>
 
 <style rel="stylesheet/scss" lang="scss">

@@ -51,24 +51,24 @@
 export default {
   props: {
     src: {
-      type: String
+      type: String,
     },
     name: {
-      type: String
+      type: String,
     },
     urls: {
       type: Array,
-      default: () => []
+      default: () => [],
     },
     type: {
       type: String,
-      default: 'core'
-    }
+      default: 'core',
+    },
   },
-  data: function() {
+  data() {
     return {};
   },
-  methods: {}
+  methods: {},
 };
 </script>
 

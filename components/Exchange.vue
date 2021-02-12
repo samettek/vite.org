@@ -18,26 +18,26 @@
 </template>
 
 <script type="text/babel">
-  import config from '~/config';
+import config from '~/config';
 
-  export default {
-    props: {
-      isFooter: {
-        type: Boolean,
-        default: false
-      }
+export default {
+  props: {
+    isFooter: {
+      type: Boolean,
+      default: false,
     },
-    data () {
-      return {
-        exchangeMap: config.urls.exchange
-      };
+  },
+  data() {
+    return {
+      exchangeMap: config.urls.exchange,
+    };
+  },
+  computed: {
+    exchangeList() {
+      return ['vitex', 'binance', 'bittrex', 'okex', 'okexKr'];
     },
-    computed: {
-      exchangeList: function () {
-        return ['vitex', 'binance', 'bittrex', 'okex','okexKr'];
-      }
-    }
-  };
+  },
+};
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>

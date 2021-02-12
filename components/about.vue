@@ -22,23 +22,28 @@ export default {
   },
   props: {
   },
-  computed:{
-    url(){
+  computed: {
+    url() {
       return {
-        introduction:config.urls.introduction[this.$i18n.locale],
+        introduction: config.urls.introduction[this.$i18n.locale],
+        blog: config.urls.blog[this.$i18n.locale],
         wiki: config.urls.wiki[this.$i18n.locale],
       };
-    }
+    },
   },
   data() {
     return {
       navAboutList: [{
         type: 'outer',
         name: 'wiki',
-        to: config.urls.wiki[this.$i18n.locale]
+        to: config.urls.wiki[this.$i18n.locale],
+      }, {
+        type: 'outer',
+        name: 'blog',
+        to: config.urls.blog[this.$i18n.locale],
       }],
     };
-  }
+  },
 };
 </script>
 
@@ -63,5 +68,3 @@ export default {
     }
   }
 </style>
-
-

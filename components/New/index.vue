@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="container">
-      <activity></activity>
+      <!-- <activity></activity> -->
       <dynamic></dynamic>
     </div>
   </section>
@@ -13,13 +13,13 @@ import dynamic from './dynamic';
 export default {
   components: {
     activity,
-    dynamic
+    dynamic,
   },
   data() {
     return {
     };
   },
- 
+
 };
 </script>
 

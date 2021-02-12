@@ -1,35 +1,35 @@
 <template>
-  <no-ssr class="no-ssr">
+  <client-only class="no-ssr">
     <v-popover
       offset="16"
       :disabled="!isEnabled"
       popoverClass="v-popover"
     >
-      <a class="tooltip-target"  target="_blank"><fa-icon style="width:22px; height: 22px" :icon="['fab', 'weixin']" /></a>
+      <a class="tooltip-target"  target="_blank"><fa-icon :icon="['fab', 'weixin']" /></a>
 
       <template slot="popover">
         <img src="~/assets/images/vitelabs_wechat.jpg" alt="">
       </template>
     </v-popover>
 
-    <a slot="placeholder" target="_blank"><fa-icon :icon="['fab', 'weixin']" /></a>
-  </no-ssr>
+    <!-- <a slot="placeholder" target="_blank"><fa-icon :icon="['fab', 'weixin']" /></a> -->
+  </client-only>
 </template>
 
 <script type="text/babel">
-  import { VPopover } from 'v-tooltip';
+import { VPopover } from 'v-tooltip';
 
-  export default {
-    components: {
-      VPopover
-    },
-    data: function () {
-      return {
-        isEnabled: true
-      };
-    },
-    methods: {}
-  };
+export default {
+  components: {
+    VPopover,
+  },
+  data() {
+    return {
+      isEnabled: true,
+    };
+  },
+  methods: {},
+};
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>

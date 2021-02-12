@@ -59,31 +59,31 @@
 <script type="text/babel">
 export default {
   components: {},
-  data: function () {
+  data() {
     return {
       selected: 2,
-      finished: 8
+      finished: 8,
     };
   },
   computed: {
-    timelines: function () {
-      let roadmaps = this.$t('roadmap.timelines');
+    timelines() {
+      const roadmaps = this.$t('roadmap.timelines');
       if (!Array.isArray(roadmaps)) {
         return [];
       }
-      return roadmaps.map(item => {
+      return roadmaps.map((item) => {
         if (!Array.isArray(item.description)) {
           return {
             ...item,
-            description: [item.description]
+            description: [item.description],
           };
         }
         return item;
       });
-    }
+    },
   },
   watch: {
-    selected (index, oldIndex) {
+    selected(index, oldIndex) {
       if (index === oldIndex) {
         return;
       }
@@ -93,31 +93,31 @@ export default {
         index
       ].getBoundingClientRect().right;
       if (
-        targetRight - containerLeft < 0 &&
-        targetRight - containerLeft < this.$refs.container.scrollLeft
+        targetRight - containerLeft < 0
+        && targetRight - containerLeft < this.$refs.container.scrollLeft
       ) {
         this.$refs.container.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
       } else {
         this.$refs.container.scrollBy({
           top: 0, // could be negative value
           left: targetRight - containerLeft,
-          behavior: 'smooth'
+          behavior: 'smooth',
         });
       }
-    }
+    },
   },
   methods: {
-    onNext () {
+    onNext() {
       if (this.selected !== this.timelines.length - 1) {
-        this.selected = this.selected + 1;
+        this.selected += 1;
       }
     },
-    onPrev () {
+    onPrev() {
       if (this.selected !== 0) {
-        this.selected = this.selected - 1;
+        this.selected -= 1;
       }
-    }
-  }
+    },
+  },
 };
 </script>
 

@@ -33,59 +33,59 @@
 </template>
 
 <script type="text/babel">
-  import News from '~/components/svg/News.vue';
-  import config from '~/config';
+import News from '~/components/svg/News.vue';
+import config from '~/config';
 
-  export default {
-    components: {
-      News
+export default {
+  components: {
+    News,
+  },
+  data() {
+    return { newsList: [] };
+  },
+  computed: {
+    sourceUrl() {
+      return config.urls.news.rss[this.$i18n.locale];
     },
-    data() {
-      return { newsList: [] };
+    moreLink() {
+      return config.urls.news.home[this.$i18n.locale];
     },
-    computed: {
-      sourceUrl() {
-        return config.urls.news.rss[this.$i18n.locale];
-      },
-      moreLink(){
-        return config.urls.news.home[this.$i18n.locale];
-      }
-    },
-    watch: {
-      '$i18n.locale': function() {
-        this.getRss();
-      }
-    },
-    beforeMount() {
+  },
+  watch: {
+    '$i18n.locale': function () {
       this.getRss();
     },
-    methods: {
-      open(l) {
-        window.open(l);
-      },
-      getRss() {
-        const client = new XMLHttpRequest();
-        client.open('get', this.sourceUrl);
-        client.send();
-        client.onreadystatechange = e => {
-          if (client.readyState === 4 && client.status === 200) {
-            const items = Array.from(
-              client.responseXML.getElementsByTagName('item')
+  },
+  beforeMount() {
+    this.getRss();
+  },
+  methods: {
+    open(l) {
+      window.open(l);
+    },
+    getRss() {
+      const client = new XMLHttpRequest();
+      client.open('get', this.sourceUrl);
+      client.send();
+      client.onreadystatechange = (e) => {
+        if (client.readyState === 4 && client.status === 200) {
+          const items = Array.from(
+            client.responseXML.getElementsByTagName('item'),
+          );
+          this.newsList = items.slice(0, 3).map((i) => {
+            const d = new Date(
+              i.getElementsByTagName('pubDate')[0].textContent,
             );
-            this.newsList = items.slice(0, 3).map(i => {
-              const d = new Date(
-                i.getElementsByTagName('pubDate')[0].textContent
-              );
-              return {
-                title: i.getElementsByTagName('title')[0].textContent,
-                link: i.getElementsByTagName('link')[0].textContent,
-                date: `${d.getMonth() + 1}.${d.getDate()}`
-              };
-            });
-          }
-        };
-      }
-    }
+            return {
+              title: i.getElementsByTagName('title')[0].textContent,
+              link: i.getElementsByTagName('link')[0].textContent,
+              date: `${d.getMonth() + 1}.${d.getDate()}`,
+            };
+          });
+        }
+      };
+    },
+  },
 };
 </script>
 
@@ -175,11 +175,7 @@
           cursor: pointer;
         }
       }
-    
+
   }
   }
 </style>
-
-  
-  
- 

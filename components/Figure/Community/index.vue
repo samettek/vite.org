@@ -59,21 +59,21 @@ export default {
   components: {
     CommunityCard,
     CommunityLink,
-    subTitle
+    subTitle,
   },
   methods: {
     play() {
       this.$i18n.locale === 'zh'
         ? player({ src: config.urls.video.loves.zh })
-        : player({ src: '', iframeSrc: 'https://www.youtube.com/embed/s_hxkBMizgM' }) ;
-    }
+        : player({ src: '', iframeSrc: 'https://www.youtube.com/embed/s_hxkBMizgM' });
+    },
   },
-  data: function() {
+  data() {
     return {
       desc: [
         {
           img: require('~/assets/images/community/twitterblue.svg'),
-          links: ['https://twitter.com/vitelabs']
+          links: ['https://twitter.com/vitelabs'],
         },
         {
           img: require('~/assets/images/community/telegramblue.svg'),
@@ -94,54 +94,54 @@ export default {
             'https://t.me/vite_spanish',
             'https://t.me/vite_malaysian',
             'https://t.me/vite_filipino',
-            'https://t.me/vite_bengali'
-          ]
+            'https://t.me/vite_bengali',
+          ],
         },
         {
           img: require('~/assets/images/community/githubblue.svg'),
-          links: ['https://github.com/vitelabs']
+          links: ['https://github.com/vitelabs'],
         },
         {
           img: require('~/assets/images/community/instagram.svg'),
-          links: ['https://www.instagram.com/vite.labs/']
+          links: ['https://www.instagram.com/vite.labs/'],
         },
         {
           img: require('~/assets/images/community/facebook.svg'),
-          links: ['https://www.facebook.com/vitelabs/']
+          links: ['https://www.facebook.com/vitelabs/'],
         },
         {
           img: require('~/assets/images/community/blockfolio.svg'),
-          links: ['https://blockfolio.com/coin/VITE']
+          links: ['https://blockfolio.com/coin/VITE'],
         },
         {
           img: require('~/assets/images/community/dicordblue.svg'),
-          links: ['https://discordapp.com/invite/CsVY76q']
+          links: ['https://discordapp.com/invite/CsVY76q'],
         },
         {
           img: require('~/assets/images/community/redditblue.svg'),
-          links: ['https://www.reddit.com/r/vitelabs']
+          links: ['https://www.reddit.com/r/vitelabs'],
         },
         {
           img: require('~/assets/images/community/youtubeblue.svg'),
-          links: ['https://www.youtube.com/channel/UC8qft2rEzBnP9yJOGdsJBVg']
+          links: ['https://www.youtube.com/channel/UC8qft2rEzBnP9yJOGdsJBVg'],
         },
         {
           img: require('~/assets/images/community/weibo.svg'),
-          links: ['https://weibo.com/u/6572727462']
+          links: ['https://weibo.com/u/6572727462'],
         },
         {
           img: require('~/assets/images/community/forum.svg'),
-          links: ['https://forum.vite.net/']
+          links: ['https://forum.vite.net/'],
         },
         {
           img: require('~/assets/images/community/bitcoinblue.svg'),
-          links: ['https://bitcointalk.org/index.php?topic=5056409']
+          links: ['https://bitcointalk.org/index.php?topic=5056409'],
         },
         {
           img: require('~/assets/images/community/wechatblue.svg'),
           key: 'pic',
-          pic: require('~/assets/images/vitelabs_wechat.jpg')
-        }
+          pic: require('~/assets/images/vitelabs_wechat.jpg'),
+        },
       ],
       arrays: [
         {
@@ -150,8 +150,8 @@ export default {
           cname: 'Belgium',
           picture: require('~/assets/images/community/Fernandez-Bravo.jpg'),
           name: 'Antonio Fernandez',
-          mediaLink:'https://twitter.com/afbr84',
-          icon: 'twitter'
+          mediaLink: 'https://twitter.com/afbr84',
+          icon: 'twitter',
         },
         {
           key: 1,
@@ -159,8 +159,8 @@ export default {
           picture: require('~/assets/images/community/russia.jpeg'),
           cname: 'Russia',
           name: 'Богдан Обойшев',
-          mediaLink:'https://twitter.com/bodya_oboyshev',
-          icon: 'twitter'
+          mediaLink: 'https://twitter.com/bodya_oboyshev',
+          icon: 'twitter',
         },
         {
           key: 2,
@@ -169,7 +169,7 @@ export default {
           cname: 'France',
           name: 'Thomas Blanc',
           mediaLink: 'https://twitter.com/ThomasBlnc',
-          icon: 'twitter'
+          icon: 'twitter',
         },
         {
           key: 3,
@@ -177,8 +177,8 @@ export default {
           picture: require('~/assets/images/community/india.jpg'),
           cname: 'India',
           name: 'पंकज',
-          mediaLink:'https://twitter.com/CryptoFonzie',
-          icon: 'twitter'
+          mediaLink: 'https://twitter.com/CryptoFonzie',
+          icon: 'twitter',
         },
         {
           key: 4,
@@ -187,7 +187,7 @@ export default {
           cname: 'Nigeria',
           name: 'Yomi Oyesiji',
           mediaLink: 'https://twitter.com/Mexite3yo',
-          icon: 'twitter'
+          icon: 'twitter',
         },
         {
           key: 5,
@@ -195,8 +195,8 @@ export default {
           picture: require('~/assets/images/community/italy.jpg'),
           cname: 'Italy',
           name: 'Angelo Giacomo Canevari',
-          mediaLink:'https://twitter.com/Angelo_Canevari',
-          icon: 'twitter'
+          mediaLink: 'https://twitter.com/Angelo_Canevari',
+          icon: 'twitter',
         },
         {
           key: 6,
@@ -205,7 +205,7 @@ export default {
           cname: 'Thailand',
           name: 'Boss',
           mediaLink: 'https://twitter.com/attakorn_p',
-          icon: 'twitter'
+          icon: 'twitter',
         },
         {
           key: 7,
@@ -214,7 +214,7 @@ export default {
           cname: 'Indonesia',
           mediaLink: 'https://twitter.com/casualfungames',
           name: 'Muhamad',
-          icon: 'twitter'
+          icon: 'twitter',
         },
         {
           key: 8,
@@ -223,7 +223,7 @@ export default {
           cname: 'Vietnam',
           name: 'Trang',
           mediaLink: 'https://twitter.com/VoBaLu1',
-          icon: 'twitter'
+          icon: 'twitter',
         },
         {
           key: 9,
@@ -232,7 +232,7 @@ export default {
           cname: 'Turkey',
           name: 'Öznur Topal',
           mediaLink: 'https://twitter.com/znurTOPAL2',
-          icon: 'twitter'
+          icon: 'twitter',
         },
         {
           key: 10,
@@ -241,7 +241,7 @@ export default {
           cname: 'Indonesia',
           name: 'Muhammad Usman',
           mediaLink: 'https://www.linkedin.com/in/netral8787/',
-          icon: 'linkedin'
+          icon: 'linkedin',
         },
         {
           key: 11,
@@ -250,11 +250,11 @@ export default {
           cname: 'Spain',
           name: 'Erik Siria',
           mediaLink: 'https://twitter.com/CriptoErik',
-          icon: 'twitter'
-        }
-      ]
+          icon: 'twitter',
+        },
+      ],
     };
-  }
+  },
 };
 </script>
 

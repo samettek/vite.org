@@ -1,10 +1,10 @@
 <template>
   <div class="three-column is-flex" >
     <div class="three-column-mobile is-flex" :class="{'three-column-spec': isCustom, 'three-column-more': isMore}">
-      <div 
-        v-for="(item, index) in list" 
-        :key="index" 
-        class="three-column-item" 
+      <div
+        v-for="(item, index) in list"
+        :key="index"
+        class="three-column-item"
         v-if="list.length">
         <div class="three-column__wrapper is-flex">
           <a :href="item.skipUrl" target="_blank" v-if="item.skipUrl">
@@ -23,45 +23,43 @@
 </template>
 
 <script type="text/babel">
-  export default {
-    props: {
-      list: {
-        type: Array,
-        default: () => []
-      },
-      isCustom: {
-        type: Boolean,
-        default: false
-      },
-      isMore: {
-        type: Boolean,
-        default: false
-      },
-      imgSize: {
-        type: Object,
-        default: () => {
-          return {
-            width: '320px',
-            height: '180px'
-          };
-        }
-      }
+export default {
+  props: {
+    list: {
+      type: Array,
+      default: () => [],
     },
-  
-    data: function () {
-      return {
-        
-      };
+    isCustom: {
+      type: Boolean,
+      default: false,
     },
-    methods: {}
-  };
+    isMore: {
+      type: Boolean,
+      default: false,
+    },
+    imgSize: {
+      type: Object,
+      default: () => ({
+        width: '320px',
+        height: '180px',
+      }),
+    },
+  },
+
+  data() {
+    return {
+
+    };
+  },
+  methods: {},
+};
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>
 @import "~assets/vars";
 
 .three-column {
-  margin-top: 36px; 
+  margin-top: 36px;
   img {
     max-width: none;
   }
@@ -85,8 +83,7 @@
       margin-bottom: 50px;
     }
   }
-  
-  
+
   .three-column__wrapper {
     justify-content: center;
     .three-column__content {
@@ -107,14 +104,14 @@
       line-height:20px;
     }
   }
-  
+
   .date {
     font-size:13px;
     font-family:$font-family-title;
     font-weight:600;
     color:rgba(145,154,163,1);
     line-height:16px;
-    margin: 11px 0; 
+    margin: 11px 0;
     text-align: left;
   }
   .desc {
@@ -140,7 +137,7 @@
     .three-column-item {
       margin-right: 25px;
       @include mobile {
-        margin-right: 0px; 
+        margin-right: 0px;
       }
     }
   }
@@ -148,10 +145,10 @@
     flex-wrap: wrap;
     justify-content: flex-start;
     .three-column-item {
-      margin-right: 25px; 
+      margin-right: 25px;
       margin-bottom: 25px;
       @include mobile {
-        margin-right: 0px; 
+        margin-right: 0px;
         margin-bottom: 0px;
       }
     }

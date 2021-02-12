@@ -14,34 +14,34 @@
 </template>
 
 <script type="text/babel">
-  export default {
-    props: {
-      src: {
-        type: String
-      },
-      name: {
-        type: String
-      },
-      urls: {
-        type: Array,
-        default: () => []
-      },
-      type: {
-        type: String,
-        default: 'core'
-      }
+export default {
+  props: {
+    src: {
+      type: String,
     },
-    data: function () {
-      return {};
+    name: {
+      type: String,
     },
-    methods: {
-      toDetailPage () {
-        let lang = '';
-        this.$i18n.locale !== 'en' ? lang = `/${this.$i18n.locale}` : lang = '';
-        this.$router.push({path: `${lang}/nodeDetail/${this.name}`});
-      }
-    }
-  };
+    urls: {
+      type: Array,
+      default: () => [],
+    },
+    type: {
+      type: String,
+      default: 'core',
+    },
+  },
+  data() {
+    return {};
+  },
+  methods: {
+    toDetailPage() {
+      let lang = '';
+      this.$i18n.locale !== 'en' ? lang = `/${this.$i18n.locale}` : lang = '';
+      this.$router.push({ path: `${lang}/nodeDetail/${this.name}` });
+    },
+  },
+};
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>

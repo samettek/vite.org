@@ -25,32 +25,32 @@
 export default {
   props: {
     src: {
-      type: String
+      type: String,
     },
     name: {
-      type: String
+      type: String,
     },
     picture: {
-      type: String
+      type: String,
     },
     cname: {
-      type: String
+      type: String,
     },
     icon: {
-      type: String
+      type: String,
     },
     mediaLink: {
-      type: String
-    }
+      type: String,
+    },
   },
-  data: function () {
+  data() {
     return {};
   },
   methods: {
-    gotoLink () {
+    gotoLink() {
       window.open(this.mediaLink);
-    }
-  }
+    },
+  },
 };
 </script>
 

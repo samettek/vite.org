@@ -3,7 +3,7 @@
     <div class="container">
       <h2>{{$t('elector.title')}}</h2>
       <div class="columns is-multiline is-center">
-        <div class="column item is-destop is-4-desktop is-6-tablet is-12-mobile"
+        <div class="column item is-destop is-3-widescreen is-4-desktop is-6-tablet is-12-mobile"
              v-for="(item, index) in electors" :key="index">
           <div class="is-info">
             <elector-image :src="item.img" :name="item.key" :urls="item.urls"></elector-image>
@@ -15,80 +15,72 @@
 </template>
 
 <script type="text/babel">
-  import ElectorImage from '~/components/ElectorImage';
+import ElectorImage from '~/components/ElectorImage';
 
-  export default {
-    components: {
-      ElectorImage
-    },
-    data: function () {
-      return {
-        electors: [
-          {
-            img: require('~/assets/images/superNode/vitecity.jpeg'),
-            key: 'vitecity'
-          },
-          {
-            img: require('~/assets/images/superNode/tenzor.png'),
-            key: 'tenzor'
-          },
-          {
-            img: require('~/assets/images/superNode/snap.jpg'),
-            key: 'snap'
-          },
-          {
-            img: require('~/assets/images/superNode/ux.jpg'),
-            key: 'ux'
-          },
-          {
-            img: require('~/assets/images/superNode/loopring.jpg'),
-            key: 'loopring'
-          },
-          {
-            img: require('~/assets/images/superNode/zhizibanner.jpg'),
-            key: 'zhizifund'
-          },
-          {
-            img: require('~/assets/images/superNode/linknodebanner.jpg'),
-            key: 'linknode'
-          },
-          {
-            img: require('~/assets/images/superNode/bitvitebanner.jpeg'),
-            key: 'bitvite'
-          },
-          {
-            img: require('~/assets/images/superNode/swissbanner.jpg'),
-            key: 'swissvite'
-          },
-          {
-            img: require('~/assets/images/superNode/xinshengbanner.jpeg'),
-            key: 'xinsheng'
-          },
-          {
-            img: require('~/assets/images/superNode/zlbanner.jpg'),
-            key: 'zlnode'
-          },
-          {
-            img: require('~/assets/images/superNode/loopnestbanner.jpg'),
-            key: 'loopnest'
-          },
-          {
-            img: require('~/assets/images/superNode/belsonabanner.jpg'),
-            key: 'belsona'
-          },
-          {
-            img: require('~/assets/images/superNode/n4qbanner.png'),
-            key: 'n4q'
-          },
-          {
-            img: require('~/assets/images/superNode/bi23banner.jpg'),
-            key: 'bi23'
-          }
-        ]
-      };
-    },
-    methods: {}
-  };
+export default {
+  components: {
+    ElectorImage,
+  },
+  data() {
+    return {
+      electors: [
+        {
+          img: require('~/assets/images/superNode/vitecity.jpeg'),
+          key: 'vitecity',
+        },
+        {
+          img: require('~/assets/images/superNode/ux.jpg'),
+          key: 'ux',
+        },
+        {
+          img: require('~/assets/images/superNode/loopring.jpg'),
+          key: 'loopring',
+        },
+        {
+          img: require('~/assets/images/superNode/zhizibanner.jpg'),
+          key: 'zhizifund',
+        },
+        {
+          img: require('~/assets/images/superNode/linknodebanner.jpg'),
+          key: 'linknode',
+        },
+        {
+          img: require('~/assets/images/superNode/bitvitebanner.jpeg'),
+          key: 'bitvite',
+        },
+        {
+          img: require('~/assets/images/superNode/swissbanner.jpg'),
+          key: 'swissvite',
+        },
+        {
+          img: require('~/assets/images/superNode/xinshengbanner.jpeg'),
+          key: 'xinsheng',
+        },
+        {
+          img: require('~/assets/images/superNode/zlbanner.jpg'),
+          key: 'zlnode',
+        },
+        {
+          img: require('~/assets/images/superNode/loopnestbanner.jpg'),
+          key: 'loopnest',
+        },
+        {
+          img: require('~/assets/images/superNode/belsonabanner.jpg'),
+          key: 'belsona',
+        },
+        {
+          img: require('~/assets/images/superNode/n4qbanner.png'),
+          key: 'n4q',
+        },
+        {
+          img: require('~/assets/images/superNode/bi23banner.jpg'),
+          key: 'bi23',
+        },
+      ],
+    };
+  },
+  methods: {},
+};
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>

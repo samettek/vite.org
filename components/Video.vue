@@ -13,20 +13,21 @@
 
 <script type="text/babel">
 import player from './play';
+
 export default {
   components: {
   },
-  data: function () {
+  data() {
     return {
     };
   },
   methods: {
-    play(){
-      this.$i18n.locale === 'zh' 
-        ? player({src: 'http://1257137467.vod2.myqcloud.com/c9d24a0dvodcq1257137467/bc96b2315285890788090827060/BdwEe78ChG8A.mp4'}) 
-        : player({src: '', iframeSrc: 'https://www.youtube.com/embed/FRvdP_KcNRk'});
-    }
-  }
+    play() {
+      this.$i18n.locale === 'zh'
+        ? player({ src: 'http://1257137467.vod2.myqcloud.com/c9d24a0dvodcq1257137467/bc96b2315285890788090827060/BdwEe78ChG8A.mp4' })
+        : player({ src: '', iframeSrc: 'https://www.youtube.com/embed/FRvdP_KcNRk' });
+    },
+  },
 };
 </script>
 
@@ -43,7 +44,7 @@ export default {
         width:11px;
         height:11px;
         background:#cce5ff;
-        margin-right: 7px; 
+        margin-right: 7px;
         border-radius: 11px;
       }
     }
@@ -65,7 +66,3 @@ export default {
     }
 
 </style>
-
-  
-  
- 

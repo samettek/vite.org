@@ -13,11 +13,11 @@
             <div class="product-desc">
               <div class="desc__title">{{ $t(`product.${item.key}.title`) }}</div>
               <div class="desc__subtitle">{{ $t(`product.${item.key}.subtitle`) }}</div>
-              <a 
+              <a
                 style="font-weight: 600"
                 v-if="item.url"
                 :href="item.url"
-                target="_blank"> 
+                target="_blank">
                 {{ $t(`product.${item.key}.link`) }}
                 <img src="~/assets/images/arrow_forward.svg"/>
               </a>
@@ -35,9 +35,9 @@ import walletBtn from '~/components/Products/walletBtn';
 
 export default {
   components: {
-    walletBtn
+    walletBtn,
   },
-  data: function () {
+  data() {
     return {
       products: [
         {
@@ -58,16 +58,16 @@ export default {
           key: 'pay',
           url: this.$i18n.locale === 'zh' ? 'https://vite.store/' : 'https://global.vite.store',
           img: require('~/assets/images/product/pay.png'),
-        }
-      ]
+        },
+      ],
     };
   },
   computed: {
-    
+
   },
   methods: {
-    
-  }
+
+  },
 };
 </script>
 
@@ -121,7 +121,6 @@ section {
       height: 268px;
     }
   }
-  
- 
+
 }
 </style>

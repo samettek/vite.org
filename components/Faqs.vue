@@ -21,9 +21,9 @@ export default {
   props: {
     faqs: {
       type: Array,
-      default: () => []
-    }
-  }
+      default: () => [],
+    },
+  },
 };
 </script>
 <style rel="stylesheet/scss" lang="scss" scoped>
@@ -36,7 +36,7 @@ export default {
     font-family: $font-family-main;
     color: #171C34;
     line-height: 28px;
-    
+
     @include touch {
       font-size: 17px;
       line-height: 24px;
@@ -56,6 +56,9 @@ export default {
       &:first-child {
         margin-top: 0;
       }
+    }
+    & > div {
+      margin-top: 10px;
     }
     @include touch {
       font-size: 14px;

@@ -2,9 +2,10 @@
 @import "~bulma/sass/utilities/mixins";
 
 
-$font-family-light: Arial,PingFangSC-Regular, Sans-serif;
-$font-family-main: Arial, PingFangSC-Medium, Sans-serif;
-$font-family-title: Arial Bold, PingFangSC-Semibold, Sans-serif;
+$font-family-light: WorkSans,PingFangSC-Regular, "Helvetica Neue", Arial, Segoe UI, "Microsoft YaHei", Sans-serif;
+$font-family-main: WorkSans,PingFangSC-Medium, "Helvetica Neue", Arial, Segoe UI, "Microsoft YaHei", Sans-serif;
+$font-family-title: ProximaNova,PingFangSC-Semibold, "Helvetica Neue", Arial, Segoe UI, "Microsoft YaHei", Sans-serif;
+$font-title-color: #171c34;
 
 // bulma
 $family-serif: $font-family-light;
@@ -13,7 +14,15 @@ $gap:16px;
 $dark-blue: #032841;
 $light-blue: rgba(54,130,222,1);
 $footer-background-color: white;
-$navbar-height: 72px;
+$navbar-height: 102px;
+
+// navbar
+$navbar-font-size: 14px;
+$navbar-submenu-color:rgba(0,0,0,0.6);
+$navbar-submenu-color-hover:#007aff;
+$navbar-background-color:#007aff;
+$navbar-gray-text-color: #919aa3;
+
 
 // text
 $common-text-color: #919AA3;
@@ -32,5 +41,28 @@ $timelineColor: #007aff;
   }
 }
 
+@mixin navbar-submenu {
+  & {
+    color: $navbar-submenu-color;
+  }
+  &:hover {
+    color: $navbar-submenu-color-hover;
+  }
+}
 
+@mixin more-icon {
+  &::after {
+    content: url(~assets/images/home/more.svg);
+    height: 100%;
+    margin-left: 6px;
+  }
+}
 
+@mixin title {
+  font-family: $font-family-title;
+  font-weight: 600;
+  color: $font-title-color;
+  @include until($desktop) {
+    font-size: 20px;
+  }
+}

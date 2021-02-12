@@ -35,22 +35,22 @@ export default {
   props: {
     isFooter: {
       type: Boolean,
-      default: false
-    }
+      default: false,
+    },
   },
-  data () {
+  data() {
     return {
-      urlMap: config.urls.explorer
+      urlMap: config.urls.explorer,
     };
   },
   computed: {
-    urlList: function () {
+    urlList() {
       return [
         'viteExplorer',
-        'viteScan'
+        'viteScan',
       ];
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -71,17 +71,10 @@ export default {
   display: block;
 }
 .dropdown-menu {
-  #lang-dropdown-menu{
-      // overflow-y: scroll;
-      // max-height: 100px;
-    }
   .dropdown-content {
     display: none;
     .dropdown-item {
-      color: $common-text-color;
-      &:hover {
-        color: $common-active-color;
-      }
+      @include navbar-submenu();
     }
   }
 }
@@ -90,5 +83,3 @@ export default {
   top: 0;
 }
 </style>
-
-

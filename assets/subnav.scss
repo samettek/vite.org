@@ -1,0 +1,91 @@
+.dropdown {
+    .dropdown-trigger {
+      button {
+        background: transparent;
+        padding: 0 0 0 0;
+        border-radius: 0.35rem;
+        height: (40rem/16);
+        border: transparent;
+        font-family: $font-family-light;
+        &:focus {
+          border: none;
+          box-shadow: none;
+        }
+        .btn__click {
+          &::after {
+            content: url(~assets/images/home/down.svg);
+            height: 100%;
+            margin-left: 6px;
+          }
+        }
+      }
+      .foot-btn {
+        color: white;
+        &:hover {
+          color: white;
+        }
+      }
+    }
+
+    &.dropdown_light {
+      .dropdown-trigger {
+        .btn__click {
+          color: #fff;
+          &:hover {
+            color: #fff;
+          }
+        }
+        button {
+          color: white;
+          &:hover {
+            color: white;
+          }
+        }
+      }
+      .dropdown-menu {
+        .dropdown-content {
+          .dropdown-item {
+            @include navbar-submenu();
+          }
+        }
+      }
+    }
+
+    &.dropdown_gray {
+      .dropdown-trigger {
+        .btn__click {
+          color: $navbar-gray-text-color;
+          &:hover {
+            color: $common-active-color;
+          }
+          &::after {
+            content: url(~assets/images/home/down-gray.svg);
+          }
+        }
+        button {
+          color: $navbar-gray-text-color;
+          &:hover {
+            color: $common-active-color;
+          }
+        }
+      }
+      .dropdown-menu {
+        .dropdown-content {
+          // background-color: rgba(0,0,0,0.02);
+          box-shadow: 0 0 5px 0 #d3eaff;
+          .dropdown-item {
+            color: $navbar-gray-text-color;
+            &:hover {
+              color: $common-active-color;
+            }
+          }
+          @include mobile {
+            background-color: $navbar-background-color;
+            .dropdown-item {
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }

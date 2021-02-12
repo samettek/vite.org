@@ -22,21 +22,21 @@
 </template>
 
 <script type="text/babel">
-  import config from '~/config';
+import config from '~/config';
 
-  export default {
-    props: {
-      isFooter: {
-        type: Boolean,
-        default: false
-      }
+export default {
+  props: {
+    isFooter: {
+      type: Boolean,
+      default: false,
     },
-    data () {
-      return {
-        voteMap: config.urls.vote
-      };
-    }
-  };
+  },
+  data() {
+    return {
+      voteMap: config.urls.vote,
+    };
+  },
+};
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>
