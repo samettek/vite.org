@@ -168,10 +168,6 @@ export default {
           img: require('~/assets/images/community/nrz.jpg'),
         },
         {
-          name: 'daniel',
-          img: require('~/assets/images/community/daniel.jpg'),
-        },
-        {
           name: 'devaux',
           img: require('~/assets/images/community/devaux.jpg'),
         },
