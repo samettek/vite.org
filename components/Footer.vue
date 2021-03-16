@@ -82,6 +82,9 @@
           <a :href="urls.media.bitcointalk" target="_blank">
             <fa-icon class="icon__item" :icon="['fab', 'bitcoin']" />
           </a>
+          <a :href="urls.coingecko" target="_blank">
+            <img class="icon__item" src="~/assets/images/partner/coingecko.png" />
+          </a>
           <!-- <a :href="urls.weibo" target="_blank">
             <fa-icon class="icon__item" :icon="['fab', 'weibo']" />
           </a> -->

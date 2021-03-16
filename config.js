@@ -271,5 +271,6 @@ module.exports = {
       jsSDK: 'https://vite.wiki/api/vitejs/',
       vitexDocs: 'https://vite.wiki/dex/',
     },
+    coingecko: 'https://www.coingecko.com/en/coins/vite',
   },
 };
