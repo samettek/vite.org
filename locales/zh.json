@@ -54,7 +54,7 @@
     "vitex": "ViteX 交易所",
     "app": "Vite App",
     "vitePlus": "Vite Plus",
-    "viteScan": "Vitescan.com",
+    "viteScan": "vitescan.io",
     "viteExplorer": "区块浏览器",
     "webWallet": "Web 钱包",
     "desktopWallet": "桌面版钱包",
@@ -1748,16 +1748,6 @@
           "在Altcoinstalks论坛的俄语区引导展开Vite相关讨论",
           "鼓励社区在AppStore留言",
           "为交易所用户解答问题"
-        ]
-      },
-      "daniel": {
-        "name": "Daniel",
-        "desc": "前端开发者，区块链爱好者",
-        "contribution": [
-          "经常参与社区讨论并为社区用户答疑",
-          "体验Vite产品并提交Bug及技术改进建议",
-          "对论坛中出现的恶意信息给予及时有效的提醒",
-          "创建了从ViteX收集每日数据的脚本，让每个人都可以轻松掌握项目进展"
         ]
       },
       "devaux": {

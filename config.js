@@ -10,7 +10,7 @@ module.exports = {
     },
     docs: {
       vitex: {
-        en: 'https://vite.wiki/dex/',
+        en: 'https://docs.vite.org/go-vite/dex/',
         zh: 'https://vite.wiki/zh/dex/',
       },
       quota: {
@@ -22,12 +22,12 @@ module.exports = {
         zh: 'https://vite.wiki/zh/tutorial/node/install.html',
       },
       dapp: {
-        en: 'https://vite.wiki/tutorial/contract/contract.html',
+        en: 'https://docs.vite.org/go-vite/contract/',
         zh: 'https://vite.wiki/zh/tutorial/contract/contract.html',
       },
       js: {
         zh: 'https://vite.wiki/zh/api/vitejs/',
-        en: 'https://vite.wiki/api/vitejs/',
+        en: 'https://docs.vite.org/vite.js/',
       },
       java: {
         zh: 'https://vite.wiki/zh/api/javasdk/',

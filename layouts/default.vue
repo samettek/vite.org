@@ -275,11 +275,11 @@ export default {
           name: 'desktopWallet',
           to: this.$link('createWallet'),
         },
-        {
-          type: 'outer',
-          name: 'vitePlus',
-          to: this.$link('vitePlus'),
-        },
+        // {
+        //   type: 'outer',
+        //   name: 'vitePlus',
+        //   to: this.$link('vitePlus'),
+        // },
         {
           type: 'outer',
           name: 'viteScan',
