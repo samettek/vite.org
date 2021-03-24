@@ -26,20 +26,20 @@
 import { VPopover } from 'v-tooltip';
 import config from '~/config.js';
 
-  export default {
-    components: {
-      VPopover
-    },
-    data: function () {
-      return {
-        isEnabled: true,
-        urlList: config.urls.telegram,
-        list: ['ann', 'english', 'chinese', 'russia', 'japan','arabic','turkish','indonesian','filipino'],
-        isBrowser: process.browser
-      };
-    },
-    methods: {}
-  };
+export default {
+  components: {
+    VPopover,
+  },
+  data() {
+    return {
+      isEnabled: true,
+      urlList: config.urls.telegram,
+      list: ['ann', 'english', 'chinese', 'russia', 'japan', 'arabic', 'turkish', 'indonesian', 'filipino', 'vietnamese'],
+      isBrowser: process.browser,
+    };
+  },
+  methods: {},
+};
 </script>
 
 <style rel="stylesheet/scss" lang="scss">
