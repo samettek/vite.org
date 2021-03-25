@@ -106,6 +106,11 @@ const exchangeList = [
     logo: require('~/assets/images/exchange/bittrex.svg'),
     link: config.urls.exchange.bittrex,
   },
+  {
+    name: 'upbit',
+    logo: require('~/assets/images/exchange/upbit.svg'),
+    link: config.urls.exchange.upbit,
+  },
 ];
 
 export default {
