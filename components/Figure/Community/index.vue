@@ -126,10 +126,6 @@ export default {
           links: ['https://www.youtube.com/channel/UC8qft2rEzBnP9yJOGdsJBVg'],
         },
         {
-          img: require('~/assets/images/community/weibo.svg'),
-          links: ['https://weibo.com/u/6572727462'],
-        },
-        {
           img: require('~/assets/images/community/forum.svg'),
           links: ['https://forum.vite.net/'],
         },
