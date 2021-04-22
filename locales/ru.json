@@ -160,7 +160,7 @@
         }
       },
       "vitex": {
-        "title": "The Only Truly Decentralized Exchange in the World",
+        "title": "The Truly Decentralized Exchange in the World",
         "desc": [
           "The world's first DEX born on DAG; a decentralized open finance platform.",
           "Decentralized governance as simple as holding the VX coins to participate in.",
@@ -1580,7 +1580,7 @@
       ]
     },
     "dex": {
-      "title": "The Only Truly Decentralized Exchange in the World",
+      "title": "The Truly Decentralized Exchange in the World",
       "features": {
         "onChainMatch": "On-Chain Order Matching",
         "onChainSettle": "On-Chain Settlement",
