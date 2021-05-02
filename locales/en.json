@@ -78,6 +78,7 @@
       "en": "Outside China Mainland",
       "zh": "China Mainland"
     },
+    "vitex": "Multi-chain DEX",
     "header": "Vite",
     "slogan": "Bridging Every Blockchain in a Multi-Chain Future",
     "whitePaper": "White Paper",
@@ -160,14 +161,14 @@
         }
       },
       "vitex": {
-        "title": "The Truly Decentralized Exchange in the World",
+        "title": "Truly Decentralized Exchange",
         "desc": [
           "The world's first DEX born on DAG; a decentralized open finance platform.",
-          "Decentralized governance as simple as holding the VX coins to participate in.",
-          "Traders enjoy a 100% refund of trading fees in the form of dividends.",
+          "Participate in decentralized governance by simply holding the VX coins.",
+          "Traders enjoy 100% refund of trading fees in the form of dividends.",
           "Trade mining, stake mining, referral mining, liquidity mining, and list as mining. Mine your VX coins in up to 5 ways every day.",
           "Anybody can set up a DEX on ViteX and list tokens, as easy as creating a store on eBay.",
-          "Instant, on-chain order matching makes the trading experience on DEX never closer to centralized exchanges",
+          "Instant, on-chain order matching makes the DEX trading experience mirror that of centralized exchanges",
           "No KYC. Your information only stays with yourself."
         ],
         "btnGroup": {
@@ -1575,7 +1576,7 @@
       ]
     },
     "dex": {
-      "title": "The Truly Decentralized Exchange in the World",
+      "title": "Truly Decentralized Exchange",
       "features": {
         "onChainMatch": "On-Chain Order Matching",
         "onChainSettle": "On-Chain Settlement",

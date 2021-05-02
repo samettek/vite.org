@@ -16,6 +16,11 @@
                 target="_blank"
                 class="pop-btn"
               >{{$t('home.bridgeWhitepaper')}}</a>
+              <a
+                href="https://x.vite.net"
+                target="_blank"
+                class="pop-btn"
+              >{{$t('home.vitex')}}</a>
             </div>
           </div>
         </div>
@@ -293,7 +298,8 @@ export default {
       border-radius: 5px;
       font-size: 16px;
       font-weight: 600;
-      margin-right: 40px;
+      margin-right: 20px;
+      margin-left: 20px;
       &:hover {
         background: rgba(0,0,0,0.05);
       }
@@ -321,6 +327,10 @@ export default {
             color: white;
           }
         }
+      }
+      /deep/ .wp-wrapper {
+        margin-right: 20px;
+        margin-left: 20px;
       }
     }
   }
