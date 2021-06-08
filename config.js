@@ -272,6 +272,10 @@ module.exports = {
       jsSDK: 'https://vite.wiki/api/vitejs/',
       vitexDocs: 'https://vite.wiki/dex/',
     },
+    auditReport: {
+      bep20: '/audit/Audit-Report-VITE-BEP20-v1.0.pdf',
+      erc20: '/audit/Audit-Report-VITE-ERC20-v1.0.pdf',
+    },
     coingecko: 'https://www.coingecko.com/en/coins/vite',
     logo: '/assets/logo.zip',
   },

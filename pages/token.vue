@@ -1,6 +1,6 @@
 <template>
     <div class="page-what-is-vite">
-        <page-header name="token"></page-header>
+        <page-header name="token" :buttons="headerBtns"></page-header>
         <section class="token-info container">
             <h2 class="section-title">{{$t('token.info.title')}}</h2>
             <div class="token-info-desc">
@@ -143,6 +143,18 @@ export default {
         {
           name: 'learn',
           url: this.$link('forumContent.app'),
+        },
+      ];
+    },
+    headerBtns() {
+      return [
+        {
+          name: 'bep20Audit',
+          url: this.$link('auditReport.bep20'),
+        },
+        {
+          name: 'erc20Audit',
+          url: this.$link('auditReport.erc20'),
         },
       ];
     },
