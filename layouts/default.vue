@@ -346,6 +346,11 @@ export default {
           to: 'whatIsVite',
           anchor: 'partner',
         },
+        {
+          type: 'outer',
+          name: 'logo',
+          to: 'logo',
+        },
       ];
     },
     navMediaList() {

@@ -64,7 +64,8 @@
     "javaSDK": "Java SDK",
     "jsSDK": "Javascript SDK",
     "vitexDocs": "ViteX Docs",
-    "vep": "VEP"
+    "vep": "VEP",
+    "logo": "Vite Logo"
   },
   "home": {
     "gotoVitex": "Trade on ViteX Now!",

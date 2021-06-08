@@ -273,5 +273,6 @@ module.exports = {
       vitexDocs: 'https://vite.wiki/dex/',
     },
     coingecko: 'https://www.coingecko.com/en/coins/vite',
+    logo: '/assets/logo.zip',
   },
 };
