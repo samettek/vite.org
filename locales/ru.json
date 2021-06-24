@@ -1614,7 +1614,7 @@
     "title": "The VITE Coin",
     "subTitle": "About VITE Coin",
     "desc": [
-      "VITE is the native coin of the Vite network. It can be converted to the VITE ERC-20 token or VITE BEP-20 token on the Vite web app. The total amount of VITE in circulation would not be affected by this conversion.",
+      "VITE is the native coin of the Vite network. It can be converted to the <a href='https://etherscan.io/token/0xadd5e881984783dd432f80381fb52f45b53f3e70' target='_blank'>VITE ERC-20 token</a> or <a href='https://bscscan.com/token/0x2794dad4077602ed25a88d03781528d1637898b4' target='_blank'>VITE BEP-20 token</a> on the Vite web app. The total amount of VITE in circulation would not be affected by this conversion.",
       "VITE is the fuel powers transactions on Vite’s chain. Unlike the traditional fuel (gas) which is consumed on other public chains such like Ethereum, VITE is used to stake for computational and bandwidth resources, and can be retained at no cost once transactions are complete - and that means free! ",
       "VITE is currently listed on many top tier exchanges for purchase."
     ],
