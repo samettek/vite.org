@@ -187,6 +187,11 @@ const dataMap = {
       logo: require('~/assets/images/partner/spark.png'),
       url: 'https://www.sparkpool.com/',
     },
+    {
+      key: 'infostone',
+      logo: require('~/assets/images/partner/infostone.png'),
+      url: 'https://infinitystones.io/',
+    },
   ],
 };
 
