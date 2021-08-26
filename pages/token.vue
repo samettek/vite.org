@@ -106,6 +106,11 @@ const exchangeList = [
     logo: require('~/assets/images/exchange/bittrex.svg'),
     link: config.urls.exchange.bittrex,
   },
+  {
+    name: 'coinex',
+    logo: require('~/assets/images/exchange/coinex.svg'),
+    link: config.urls.exchange.coinex,
+  },
 ];
 
 export default {

@@ -236,6 +236,7 @@ module.exports = {
       okex: 'https://www.okex.com/spot/trade#product=vite_btc',
       okexKr: 'https://okex.co.kr/kr/view/exchange?coin=VITE&market=BTC',
       upbit: 'https://upbit.com/exchange?code=CRIX.UPBIT.BTC-VITE',
+      coinex: 'https://www.coinex.com/exchange/VITE-USDT',
     },
     media: {
       medium: 'https://medium.com/vitelabs',
