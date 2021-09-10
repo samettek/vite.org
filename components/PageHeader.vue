@@ -73,7 +73,7 @@ export default {
       if (this.name === 'whatIsVite') {
         this.$i18n.locale === 'zh'
           ? player({ src: 'http://1257137467.vod2.myqcloud.com/c9d24a0dvodcq1257137467/bc96b2315285890788090827060/BdwEe78ChG8A.mp4' })
-          : player({ src: '', iframeSrc: 'https://www.youtube.com/embed/FRvdP_KcNRk' });
+          : player({ src: '', iframeSrc: 'https://www.youtube.com/watch?v=MHpTHESQzGo' });
       }
     },
     onBtnClick(item) {
