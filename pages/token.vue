@@ -111,6 +111,31 @@ const exchangeList = [
     logo: require('~/assets/images/exchange/coinex.svg'),
     link: config.urls.exchange.coinex,
   },
+  {
+    name: 'wazirx',
+    logo: require('~/assets/images/exchange/wazirx.svg'),
+    link: config.urls.exchange.wazirx,
+  },
+  {
+    name: 'uniswap',
+    logo: require('~/assets/images/exchange/uniswap.svg'),
+    link: config.urls.exchange.uniswap,
+  },
+  {
+    name: 'sushi',
+    logo: require('~/assets/images/exchange/sushi.svg'),
+    link: config.urls.exchange.sushi,
+  },
+  {
+    name: '1inch',
+    logo: require('~/assets/images/exchange/1inch.svg'),
+    link: config.urls.exchange.oneinch,
+  },
+  {
+    name: 'pancake',
+    logo: require('~/assets/images/exchange/pancake.svg'),
+    link: config.urls.exchange.pancake,
+  },
 ];
 
 export default {

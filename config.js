@@ -237,6 +237,11 @@ module.exports = {
       okexKr: 'https://okex.co.kr/kr/view/exchange?coin=VITE&market=BTC',
       upbit: 'https://upbit.com/exchange?code=CRIX.UPBIT.BTC-VITE',
       coinex: 'https://www.coinex.com/exchange/VITE-USDT',
+      wazirx: 'https://wazirx.com/exchange/VITE-INR',
+      uniswap: 'https://app.uniswap.org/#/swap?inputCurrency=0xadd5e881984783dd432f80381fb52f45b53f3e70&outputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7',
+      sushi: 'https://app.sushi.com/swap',
+      oneinch: 'https://app.1inch.io/#/1/swap/VITE/USDT',
+      pancake: 'https://pancakeswap.finance/swap#/swap?outputCurrency=0x2794dad4077602ed25a88d03781528d1637898b4',
     },
     media: {
       medium: 'https://medium.com/vitelabs',
