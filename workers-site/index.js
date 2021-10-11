@@ -29,8 +29,8 @@ async function handleEvent(event) {
   let options = {}
 
   if (url.pathname.startsWith('/api')) {
-    url.pathname = url.pathname.replace('/api', '/discover');
-    url.hostname = 'testnet-vite-1257137467.cos.ap-hongkong.myqcloud.com';
+    url.pathname = url.pathname.replace('/api', '/testnet-vite-1257137467/discover');
+    url.hostname = 'static.vite.net';
     return fetch(url.toString(), event.request);
   }
 
