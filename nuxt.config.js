@@ -150,7 +150,7 @@ module.exports = {
   },
   proxy: {
     '/api': {
-      target: 'https://testnet-vite-1257137467.cos.ap-hongkong.myqcloud.com/discover',
+      target: 'https://static.vite.net/testnet-vite-1257137467/discover',
       changeOrigin: true,
       pathRewrite: { '^/api': '' },
     },
