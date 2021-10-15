@@ -129,15 +129,15 @@ module.exports = {
       vi: 'https://global.vite.store',
     },
     explorer: {
-      viteExplorer: {
-        zh: 'https://explorer.vite.net/zh',
-        en: 'https://explorer.vite.net',
-        ru: 'https://explorer.vite.net',
-        vi: 'https://explorer.vite.net',
+      viteview: {
+        en: 'https://viteview.xyz',
       },
       viteScan: {
         zh: 'https://vitescan.io/',
         en: 'https://vitescan.io/',
+      },
+      vitetxs: {
+        en: 'https://vitetxs.de',
       },
     },
     webWallet: {

@@ -21,7 +21,7 @@
             </a>
           </div>
           <div
-            v-else
+            v-else-if="item.type && item.type === 'inner'"
             class="secondary-item-wrapper"
             :key="index">
             <nuxt-link

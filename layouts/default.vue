@@ -69,13 +69,12 @@
             <!-- <a href="https://vite.net" target="_blank" class="nav-item nav-top-item text-hover-transition">
               {{$t('nav.production')}}
             </a> -->
-
-            <div class="nav-item">
-              <secondary-menu
-                :theme="navbarTheme"
-                :footer-name="$t(`nav.production`)"
-                :secondary-list="navProductionList"
-              ></secondary-menu>
+            <div class="nav-item has-dropdown is-hoverable">
+                <secondary-menu
+                  :theme="navbarTheme"
+                  :footer-name="$t(`nav.production`)"
+                  :secondary-list="navProductionList"
+                ></secondary-menu>
             </div>
 
             <nuxt-link
@@ -275,20 +274,26 @@ export default {
           name: 'desktopWallet',
           to: this.$link('createWallet'),
         },
-        // {
-        //   type: 'outer',
-        //   name: 'vitePlus',
-        //   to: this.$link('vitePlus'),
-        // },
         {
-          type: 'outer',
-          name: 'viteScan',
-          to: this.$link('explorer.viteScan'),
-        },
-        {
-          type: 'outer',
+          type: 'menu',
           name: 'viteExplorer',
-          to: this.$link('explorer.viteExplorer'),
+          subList: [
+            {
+              type: 'outer',
+              name: 'viteview',
+              to: this.$link('explorer.viteview'),
+            },
+            {
+              type: 'outer',
+              name: 'viteScan',
+              to: this.$link('explorer.viteScan'),
+            },
+            {
+              type: 'outer',
+              name: 'vitetxs',
+              to: this.$link('explorer.vitetxs'),
+            },
+          ],
         },
       ];
     },

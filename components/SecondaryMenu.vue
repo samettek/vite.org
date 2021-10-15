@@ -1,12 +1,12 @@
 <template>
-  <div class="dropdown is-hoverable" :class="[`dropdown_${theme}`]">
+  <div class="dropdown" :class="[`dropdown_${theme}`]">
     <div class="dropdown-trigger">
-      <button class="button" :class="{'foot-btn': isFooter}">
+      <button class="button" aria-haspopup="true" aria-controls="dropdown-menu" :class="{'foot-btn': isFooter}">
         <span v-if="!footerTo" class="btn__click">{{ footerName }}</span>
         <nuxt-link :to="localePath(footerTo)" v-else class="btn__click">{{ footerName }}</nuxt-link>
       </button>
     </div>
-    <div class="dropdown-menu" role="menu">
+    <div class="dropdown-menu" id="dropdown-menu" role="menu">
       <div class="dropdown-content" v-if="list.length">
         <template v-for="(item, index) in list">
           <a
@@ -22,6 +22,13 @@
             v-if="item.type && item.type === 'inner'"
             :key="index"
           >{{$t(`nav.${item.name}`)}}</nuxt-link>
+          <div class="nested dropdown dropdown-item" v-if="item.type && item.type === 'menu'"
+               :key="index">
+            <secondary-menu
+              :footer-name="$t(`nav.${item.name}`)"
+              :secondary-list="item.subList"
+            ></secondary-menu>
+          </div>
         </template>
         <slot></slot>
       </div>
@@ -34,6 +41,7 @@
 import config from '~/config';
 
 export default {
+  name: 'secondaryMenu',
   props: {
     isFooter: {
       type: Boolean,

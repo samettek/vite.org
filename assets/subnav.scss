@@ -1,4 +1,7 @@
 .dropdown {
+    &:hover > .dropdown-menu {
+      display: block;
+    }
     .dropdown-trigger {
       button {
         background: transparent;
@@ -89,3 +92,20 @@
       }
     }
   }
+
+.nested.dropdown {
+
+  .dropdown-menu {
+    top: -15px;
+    margin-left: 100%;
+  }
+  //.dropdown-trigger {
+  //  button {
+  //    .btn__click {
+  //      &::after {
+  //        //content: '⦠';
+  //      }
+  //    }
+  //  }
+  //}
+}
