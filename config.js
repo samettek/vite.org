@@ -48,8 +48,8 @@ module.exports = {
         en: 'https://forum.vite.net/topic/4168/how-to-vote-for-sbp-and-earn-voting-rewards',
       },
       dappDevelopment: {
-        zh: 'https://forum.vite.net/topic/1850/%E5%85%B3%E4%BA%8E%E5%A6%82%E4%BD%95%E5%9C%A8vite%E7%A7%BB%E5%8A%A8%E9%92%B1%E5%8C%85%E5%8F%91%E5%B8%83dapp%E7%9A%84%E8%8B%A5%E5%B9%B2%E9%97%AE%E9%A2%98',
-        en: 'https://forum.vite.net/topic/1852/a-tutorial-about-how-to-list-a-dapp-on-vite-mobile-wallet',
+        zh: 'https://medium.com/vitelabs/vite-ecosystem-projects-c0169892b279',
+        en: 'https://medium.com/vitelabs/vite-ecosystem-projects-c0169892b279',
       },
     },
     weeklyReport: {
