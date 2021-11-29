@@ -467,7 +467,7 @@
           "Vite TestNet 1.0 - Alpha Test",
           {
             "text": "SBP (Snapshot Block Producer) Activated",
-            "url": "https://explorer.vite.net/SBPList"
+            "url": "https://vitescan.io/sbps"
           },
           "Vite TestNet 1.0 - Launch"
         ]
