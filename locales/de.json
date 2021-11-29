@@ -129,7 +129,7 @@
           "Vite TestNet 1.0.0",
           {
             "text": "Snapshot Block Producer (SBP) Campaign",
-            "url": "https://explorer.vite.net/SBPList"
+            "url": "https://vitescan.io/sbps"
           },
           "Mining"
         ]
