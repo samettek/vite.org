@@ -433,41 +433,41 @@
     "completed": "Tamamlanmış",
     "nextStep": "Gelecek",
     "previous": "ÖNCESİ",
-    "next": "NEXT",
+    "next": "SONRAKİ",
     "timelines": [{
         "time": "2018 Q2",
         "description": [{
-            "text": "Vite White Paper",
+            "text": "Vite Beyaz Kağıt",
             "url": "https://www.vite.org/whitepaper/vite_en.pdf"
           },
-          "Vite Official Website, Private Sale, Team Establishment"
+          "Vite Resmi Web Sitesi, Özel Satış, Ekip Kurma"
         ]
       },
       {
         "time": "2018 Q3",
         "description": [
-          "Vite Core 0.1 Golang Implementation",
+          "Vite Core 0.1 Golang Uygulaması",
           {
-            "text": "Vite Web Wallet",
+            "text": "Vite Web Cüzdanı",
             "url": "https://x.vite.net/"
           },
           "Vite iOS Wallet",
           {
             "text": "Vite Block Explorer",
-            "url": "https://explorer.vite.net/"
+            "url": "https://vitescan.io/"
           }
         ]
       },
       {
         "time": "2018 Q4",
         "description": [{
-            "text": "56% of ERC20 VITE Converted to Native",
+            "text": "ERC20 VITE'ın %56'sı Native'e Dönüştürüldü",
             "url": "https://medium.com/vitelabs/testnet-an-update-erc20-token-migration-guide-7c200bef7337"
           },
           "Vite TestNet 1.0 - Alpha Test",
           {
-            "text": "SBP (Snapshot Block Producer) Activated",
-            "url": "https://explorer.vite.net/SBPList"
+            "text": "SBP (Snapshot Block Producer) Etkinleştirildi",
+            "url": "https://vitescan.io/sbps"
           },
           "Vite TestNet 1.0 - Launch"
         ]
